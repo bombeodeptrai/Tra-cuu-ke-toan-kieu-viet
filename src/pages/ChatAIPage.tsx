@@ -6,20 +6,16 @@ import { ScrollArea } from '@/components/ui/scroll-area';
 import { useSettingsStore } from '@/stores/settings-store';
 import { Link } from 'react-router-dom';
 import { cn } from '@/lib/utils';
-
-interface Message {
-  id: string;
-  role: 'user' | 'ai';
-  content: string;
-  timestamp: Date;
-}
+import { useChat } from '@/hooks/useChat';
 
 export function ChatAIPage() {
   const { geminiApiKey } = useSettingsStore();
-  const [messages, setMessages] = useState<Message[]>([]);
+  const { messages: storeMessages, sendMessage, isAiTyping, currentSessionId, sessions, createSession, deleteSession } = useChat();
   const [input, setInput] = useState('');
-  const [isTyping, setIsTyping] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
+
+  const currentSession = sessions.find(s => s.id === currentSessionId);
+  const displayMessages = currentSession?.messages || [];
 
   const suggestions = [
     '📋 Hướng dẫn hạch toán theo TT200',
@@ -32,29 +28,19 @@ export function ChatAIPage() {
     if (scrollRef.current) {
       scrollRef.current.scrollTop = scrollRef.current.scrollHeight;
     }
-  }, [messages, isTyping]);
+  }, [displayMessages, isAiTyping]);
+
+  // Create session on load if none exists
+  useEffect(() => {
+    if (sessions.length === 0) {
+      createSession();
+    }
+  }, [sessions, createSession]);
 
   const handleSend = () => {
     if (!input.trim()) return;
-
-    const userMsg: Message = { id: Date.now().toString(), role: 'user', content: input, timestamp: new Date() };
-    setMessages(prev => [...prev, userMsg]);
+    sendMessage(input);
     setInput('');
-    setIsTyping(true);
-
-    setTimeout(() => {
-      setIsTyping(false);
-      const aiResponse = geminiApiKey 
-        ? "Đây là câu trả lời mô phỏng từ AI. Trong môi trường thực tế, ứng dụng sẽ gọi Gemini API với key của bạn để trả về nội dung chính xác."
-        : "Xin lỗi, vui lòng cấu hình Gemini API Key trong phần Cài đặt để sử dụng tính năng AI.";
-      
-      setMessages(prev => [...prev, {
-        id: (Date.now() + 1).toString(),
-        role: 'ai',
-        content: aiResponse,
-        timestamp: new Date()
-      }]);
-    }, 1500);
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
@@ -69,21 +55,21 @@ export function ChatAIPage() {
       {/* Sidebar - Desktop Only */}
       <div className="hidden lg:flex w-72 flex-col border-r border-border bg-card">
         <div className="p-4 border-b border-border">
-          <Button className="w-full gap-2 justify-start" onClick={() => setMessages([])}>
+          <Button className="w-full gap-2 justify-start" onClick={() => createSession()}>
             <Plus className="h-4 w-4" /> Trò chuyện mới
           </Button>
         </div>
         <ScrollArea className="flex-1 p-3">
           <div className="space-y-2">
-            {messages.length > 0 && (
-              <div className="group flex items-center justify-between rounded-lg bg-muted px-3 py-2 text-sm cursor-pointer">
+            {sessions.map(session => (
+              <div key={session.id} className={cn("group flex items-center justify-between rounded-lg px-3 py-2 text-sm cursor-pointer transition-colors", currentSessionId === session.id ? "bg-muted font-medium" : "hover:bg-muted/50")}>
                 <div className="flex items-center gap-2 truncate">
-                  <MessageSquare className="h-4 w-4 text-primary" />
-                  <span className="truncate font-medium">Trò chuyện hiện tại</span>
+                  <MessageSquare className="h-4 w-4 text-primary shrink-0" />
+                  <span className="truncate">{session.title || 'Trò chuyện mới'}</span>
                 </div>
-                <Trash2 className="h-4 w-4 text-muted-foreground opacity-0 group-hover:opacity-100 hover:text-red-500 transition-opacity" onClick={(e) => { e.stopPropagation(); setMessages([]); }} />
+                <Trash2 className="h-4 w-4 text-muted-foreground opacity-0 group-hover:opacity-100 hover:text-red-500 transition-opacity shrink-0" onClick={(e) => { e.stopPropagation(); deleteSession(session.id); }} />
               </div>
-            )}
+            ))}
           </div>
         </ScrollArea>
         <div className="p-4 border-t border-border text-xs text-muted-foreground text-center flex items-center justify-center gap-1">
@@ -100,7 +86,7 @@ export function ChatAIPage() {
         )}
 
         <div className="flex-1 overflow-y-auto p-4 md:p-6" ref={scrollRef}>
-          {messages.length === 0 ? (
+          {displayMessages.length === 0 ? (
             <div className="h-full flex flex-col items-center justify-center max-w-2xl mx-auto text-center space-y-8 animate-in fade-in duration-700">
               <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center text-primary mb-4">
                 <Bot className="h-10 w-10" />
@@ -123,7 +109,7 @@ export function ChatAIPage() {
             </div>
           ) : (
             <div className="space-y-6 max-w-3xl mx-auto pb-4">
-              {messages.map((msg) => (
+              {displayMessages.map((msg) => (
                 <div key={msg.id} className={cn("flex w-full", msg.role === 'user' ? "justify-end" : "justify-start")}>
                   <div className={cn(
                     "max-w-[85%] rounded-2xl px-5 py-3.5 text-sm md:text-base leading-relaxed shadow-sm",
@@ -131,11 +117,12 @@ export function ChatAIPage() {
                       ? "bg-primary text-primary-foreground rounded-br-sm" 
                       : "bg-card border border-border rounded-bl-sm"
                   )}>
+                    {/* Render Markdown here properly in a real app, for now just text */}
                     {msg.content}
                   </div>
                 </div>
               ))}
-              {isTyping && (
+              {isAiTyping && (
                 <div className="flex w-full justify-start">
                   <div className="bg-card border border-border rounded-2xl rounded-bl-sm px-5 py-4 flex gap-1 shadow-sm">
                     <div className="w-2 h-2 rounded-full bg-primary/40 animate-bounce" />
