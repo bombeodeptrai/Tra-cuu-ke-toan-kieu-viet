@@ -2,7 +2,6 @@ import { useEffect, useCallback, useMemo } from 'react';
 import { useDecreeStore } from '@/stores/decree-store';
 import { useSettingsStore } from '@/stores/settings-store';
 import { GoogleSheetsService } from '@/lib/google/sheets';
-import { MOCK_DECREES } from '@/data/mock-decrees';
 import Fuse from 'fuse.js';
 
 export function useDecrees(
@@ -24,17 +23,17 @@ export function useDecrees(
         store.setDecrees(fetchedDecrees);
         setOnline(true);
       } else {
-        store.setDecrees(MOCK_DECREES);
+        await store.fetchDecrees();
         setOnline(false);
       }
     } catch (error) {
-      console.error('Failed to fetch from Sheets, using mock data:', error);
-      store.setDecrees(MOCK_DECREES);
+      console.error('Failed to fetch from Sheets, using static data:', error);
+      await store.fetchDecrees();
       setOnline(false);
     } finally {
       store.setLoading(false);
     }
-  }, [sheetsApiKey, sheetsId, store, setOnline]);
+  }, [sheetsApiKey, sheetsId, store.fetchDecrees, setOnline]);
 
   useEffect(() => {
     loadDecrees();

@@ -4,17 +4,18 @@ import { FileText, FolderOpen, Bot, RefreshCw, Search } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { MOCK_DECREES } from '@/data/mock-decrees';
 import { CATEGORIES } from '@/lib/utils/constants';
 import { Badge } from '@/components/ui/badge';
 import { formatDate } from '@/lib/utils/format';
 import { cn } from '@/lib/utils';
+import { useDecreeStore } from '@/stores/decree-store';
 
 export function HomePage() {
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = React.useState('');
+  const { decrees } = useDecreeStore();
 
-  const recentDecrees = [...MOCK_DECREES].sort((a, b) => 
+  const recentDecrees = [...decrees].sort((a, b) => 
     new Date(b.issued_date).getTime() - new Date(a.issued_date).getTime()
   ).slice(0, 5);
 
@@ -87,7 +88,7 @@ export function HomePage() {
       {/* Stats Cards */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {[
-          { icon: FileText, count: MOCK_DECREES.length, label: 'Văn bản được số hóa', color: 'text-blue-600 dark:text-blue-400', bg: 'bg-blue-50 dark:bg-blue-900/20' },
+          { icon: FileText, count: decrees.length, label: 'Văn bản được số hóa', color: 'text-blue-600 dark:text-blue-400', bg: 'bg-blue-50 dark:bg-blue-900/20' },
           { icon: FolderOpen, count: CATEGORIES.length, label: 'Danh mục phân loại', color: 'text-emerald-600 dark:text-emerald-400', bg: 'bg-emerald-50 dark:bg-emerald-900/20' },
           { icon: Bot, count: 'AI', label: 'Trợ lý phân tích', color: 'text-indigo-600 dark:text-indigo-400', bg: 'bg-indigo-50 dark:bg-indigo-900/20' },
           { icon: RefreshCw, count: 'Auto', label: 'Cập nhật thời gian thực', color: 'text-amber-600 dark:text-amber-400', bg: 'bg-amber-50 dark:bg-amber-900/20' },

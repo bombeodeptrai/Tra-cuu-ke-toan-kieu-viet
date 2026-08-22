@@ -2,7 +2,7 @@ export interface Decree {
   id: string
   decree_number: string
   title: string
-  content: string
+  content?: string
   summary: string
   category: string
   issued_date: string
@@ -10,6 +10,8 @@ export interface Decree {
   status: 'active' | 'expired' | 'amended'
   source_url: string
   pdf_drive_id?: string
+  content_url?: string
+  pdf_url?: string
 }
 
 export interface Category {

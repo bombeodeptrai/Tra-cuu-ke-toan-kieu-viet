@@ -35,6 +35,7 @@ export interface DecreeState {
   addSearchHistory: (query: string) => void;
   clearSearchHistory: () => void;
   getFilteredDecrees: () => Decree[];
+  fetchDecrees: () => Promise<void>;
 }
 
 export const useDecreeStore = create<DecreeState>()(
@@ -74,6 +75,19 @@ export const useDecreeStore = create<DecreeState>()(
           return { searchHistory: [query, ...filtered].slice(0, 10) };
         }),
       clearSearchHistory: () => set({ searchHistory: [] }),
+      fetchDecrees: async () => {
+        try {
+          // Chỉ fetch lại nếu chưa có data hoặc muốn refresh (ta cứ fetch đè luôn cũng được, hoặc check cache)
+          set({ isLoading: true, error: null });
+          const basePath = import.meta.env.BASE_URL || '/';
+          const res = await fetch(`${basePath}data/decrees.json`);
+          if (!res.ok) throw new Error('Không thể tải dữ liệu');
+          const data = await res.json();
+          set({ decrees: data, isLoading: false, lastFetched: Date.now() });
+        } catch (error: any) {
+          set({ error: error.message, isLoading: false });
+        }
+      },
       getFilteredDecrees: () => {
         const {
           decrees,
