@@ -9,6 +9,8 @@ import { cn } from '@/lib/utils';
 import { useChat } from '@/hooks/useChat';
 import ReactMarkdown from 'react-markdown';
 import { ChatAttachment } from '@/types/chat';
+import { Sheet, SheetContent, SheetTrigger, SheetHeader, SheetTitle } from '@/components/ui/sheet';
+import { Menu } from 'lucide-react';
 
 export function ChatAIPage() {
   const { geminiApiKey } = useSettingsStore();
@@ -18,6 +20,7 @@ export function ChatAIPage() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const imageInputRef = useRef<HTMLInputElement>(null);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const currentSession = sessions.find(s => s.id === currentSessionId);
   const displayMessages = currentSession?.messages || [];
@@ -45,13 +48,11 @@ export function ChatAIPage() {
     const file = e.target.files?.[0];
     if (!file) return;
     
-    // Check if it's an image when using the image button
     if (isImage && !file.type.startsWith('image/')) {
       alert('Vui lòng chọn file hình ảnh!');
       return;
     }
     
-    // Check size limit (e.g. 5MB)
     if (file.size > 5 * 1024 * 1024) {
       alert('Dung lượng file vượt quá 5MB!');
       return;
@@ -71,7 +72,7 @@ export function ChatAIPage() {
       }]);
     };
     reader.readAsDataURL(file);
-    e.target.value = ''; // reset input
+    e.target.value = ''; 
   };
 
   const removeAttachment = (index: number) => {
@@ -92,39 +93,65 @@ export function ChatAIPage() {
     }
   };
 
+  const HistorySidebar = () => (
+    <>
+      <div className="p-4 border-b border-border">
+        <Button className="w-full gap-2 justify-start" onClick={() => { createSession(); setIsMobileMenuOpen(false); }}>
+          <Plus className="h-4 w-4" /> Trò chuyện mới
+        </Button>
+      </div>
+      <ScrollArea className="flex-1 p-3">
+        <div className="space-y-2">
+          {sessions.map(session => (
+            <div 
+              key={session.id} 
+              className={cn("group flex items-center justify-between rounded-lg px-3 py-2 text-sm cursor-pointer transition-colors", currentSessionId === session.id ? "bg-muted font-medium" : "hover:bg-muted/50")} 
+              onClick={() => { setCurrentSession(session.id); setIsMobileMenuOpen(false); }}
+            >
+              <div className="flex items-center gap-2 truncate">
+                <MessageSquare className="h-4 w-4 text-primary shrink-0" />
+                <span className="truncate">{session.title || 'Trò chuyện mới'}</span>
+              </div>
+              <Trash2 className="h-4 w-4 text-muted-foreground opacity-100 md:opacity-0 md:group-hover:opacity-100 hover:text-red-500 transition-opacity shrink-0" onClick={(e) => { e.stopPropagation(); deleteSession(session.id); }} />
+            </div>
+          ))}
+        </div>
+      </ScrollArea>
+      <div className="p-4 border-t border-border text-xs text-muted-foreground text-center flex items-center justify-center gap-1">
+        <ShieldAlert className="h-3 w-3" /> Dữ liệu lưu trên thiết bị
+      </div>
+    </>
+  );
+
   return (
-    <div className="flex h-[calc(100vh-8rem)] md:h-[calc(100vh-6rem)] -mt-4 -mx-4 md:-mx-6 lg:-mx-8 overflow-hidden rounded-xl border border-border bg-background shadow-sm">
+    <div className="flex flex-1 min-h-0 h-[calc(100dvh-10rem)] md:h-[calc(100dvh-8rem)] -mx-4 -mt-4 md:m-0 overflow-hidden md:rounded-xl border-y md:border border-border bg-background shadow-sm">
       {/* Sidebar - Desktop Only */}
       <div className="hidden lg:flex w-72 flex-col border-r border-border bg-card">
-        <div className="p-4 border-b border-border">
-          <Button className="w-full gap-2 justify-start" onClick={() => createSession()}>
-            <Plus className="h-4 w-4" /> Trò chuyện mới
-          </Button>
-        </div>
-        <ScrollArea className="flex-1 p-3">
-          <div className="space-y-2">
-            {sessions.map(session => (
-              <div 
-                key={session.id} 
-                className={cn("group flex items-center justify-between rounded-lg px-3 py-2 text-sm cursor-pointer transition-colors", currentSessionId === session.id ? "bg-muted font-medium" : "hover:bg-muted/50")} 
-                onClick={() => setCurrentSession(session.id)}
-              >
-                <div className="flex items-center gap-2 truncate">
-                  <MessageSquare className="h-4 w-4 text-primary shrink-0" />
-                  <span className="truncate">{session.title || 'Trò chuyện mới'}</span>
-                </div>
-                <Trash2 className="h-4 w-4 text-muted-foreground opacity-0 group-hover:opacity-100 hover:text-red-500 transition-opacity shrink-0" onClick={(e) => { e.stopPropagation(); deleteSession(session.id); }} />
-              </div>
-            ))}
-          </div>
-        </ScrollArea>
-        <div className="p-4 border-t border-border text-xs text-muted-foreground text-center flex items-center justify-center gap-1">
-          <ShieldAlert className="h-3 w-3" /> Dữ liệu lưu trên thiết bị
-        </div>
+        <HistorySidebar />
       </div>
 
       {/* Main Chat Area */}
       <div className="flex-1 flex flex-col h-full bg-muted/20 relative">
+        {/* Mobile Header with History Trigger */}
+        <div className="lg:hidden flex items-center justify-between p-3 border-b border-border bg-background">
+          <div className="flex items-center gap-2">
+            <Bot className="h-5 w-5 text-primary" />
+            <span className="font-medium text-sm">Trợ lý AI</span>
+          </div>
+          <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
+            <SheetTrigger asChild>
+              <Button variant="ghost" size="icon" className="h-8 w-8">
+                <Menu className="h-5 w-5" />
+              </Button>
+            </SheetTrigger>
+            <SheetContent side="left" className="w-[85vw] sm:w-80 p-0 flex flex-col">
+              <SheetHeader className="p-4 border-b text-left">
+                <SheetTitle>Lịch sử trò chuyện</SheetTitle>
+              </SheetHeader>
+              <HistorySidebar />
+            </SheetContent>
+          </Sheet>
+        </div>
         {!geminiApiKey && (
           <div className="bg-yellow-500/10 text-yellow-600 dark:text-yellow-500 p-2 text-center text-sm border-b border-yellow-500/20">
             Chưa cấu hình API Key. <Link to="/cai-dat" className="underline font-medium">Vào Cài đặt</Link> để thiết lập.

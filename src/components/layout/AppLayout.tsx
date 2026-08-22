@@ -14,14 +14,14 @@ export function AppLayout() {
       
       <div className="md:pl-64 flex flex-col flex-1 min-h-screen">
         <Header />
-        <main className="flex-1 w-full max-w-7xl mx-auto p-4 md:p-6 lg:p-8 pb-20 md:pb-8">
+        <main className="flex-1 w-full max-w-7xl mx-auto p-4 md:p-6 lg:p-8 pb-20 md:pb-8 flex flex-col relative">
           <AnimatePresence mode="wait">
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -10 }}
               transition={{ duration: 0.2 }}
-              className="h-full"
+              className="flex-1 flex flex-col w-full h-full"
             >
               <Outlet />
             </motion.div>
