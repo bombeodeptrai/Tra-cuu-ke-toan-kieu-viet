@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Bot, SendHorizontal, Paperclip, Image as ImageIcon, Plus, MessageSquare, Trash2, ShieldAlert } from 'lucide-react';
+import { Bot, SendHorizontal, Paperclip, Image as ImageIcon, Plus, MessageSquare, Trash2, ShieldAlert, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
 import { ScrollArea } from '@/components/ui/scroll-area';
@@ -8,12 +8,16 @@ import { Link } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 import { useChat } from '@/hooks/useChat';
 import ReactMarkdown from 'react-markdown';
+import { ChatAttachment } from '@/types/chat';
 
 export function ChatAIPage() {
   const { geminiApiKey } = useSettingsStore();
   const { sendMessage, isAiTyping, currentSessionId, sessions, createSession, deleteSession } = useChat();
   const [input, setInput] = useState('');
+  const [attachments, setAttachments] = useState<ChatAttachment[]>([]);
   const scrollRef = useRef<HTMLDivElement>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
+  const imageInputRef = useRef<HTMLInputElement>(null);
 
   const currentSession = sessions.find(s => s.id === currentSessionId);
   const displayMessages = currentSession?.messages || [];
@@ -31,17 +35,54 @@ export function ChatAIPage() {
     }
   }, [displayMessages, isAiTyping]);
 
-  // Create session on load if none exists
   useEffect(() => {
     if (sessions.length === 0) {
       createSession();
     }
   }, [sessions, createSession]);
 
+  const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>, isImage: boolean) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    
+    // Check if it's an image when using the image button
+    if (isImage && !file.type.startsWith('image/')) {
+      alert('Vui lòng chọn file hình ảnh!');
+      return;
+    }
+    
+    // Check size limit (e.g. 5MB)
+    if (file.size > 5 * 1024 * 1024) {
+      alert('Dung lượng file vượt quá 5MB!');
+      return;
+    }
+
+    const reader = new FileReader();
+    reader.onload = (event) => {
+      const data = event.target?.result as string;
+      const base64Data = data.split(',')[1];
+      setAttachments(prev => [...prev, {
+        type: file.type.startsWith('image/') ? 'image' : 'file',
+        name: file.name,
+        data: base64Data,
+        mimeType: file.type,
+        size: file.size,
+        url: data,
+      }]);
+    };
+    reader.readAsDataURL(file);
+    e.target.value = ''; // reset input
+  };
+
+  const removeAttachment = (index: number) => {
+    setAttachments(prev => prev.filter((_, i) => i !== index));
+  };
+
   const handleSend = () => {
-    if (!input.trim()) return;
-    sendMessage(input);
+    if (!input.trim() && attachments.length === 0) return;
+    sendMessage(input, attachments.length > 0 ? attachments : undefined);
     setInput('');
+    setAttachments([]);
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
@@ -63,7 +104,7 @@ export function ChatAIPage() {
         <ScrollArea className="flex-1 p-3">
           <div className="space-y-2">
             {sessions.map(session => (
-              <div key={session.id} className={cn("group flex items-center justify-between rounded-lg px-3 py-2 text-sm cursor-pointer transition-colors", currentSessionId === session.id ? "bg-muted font-medium" : "hover:bg-muted/50")}>
+              <div key={session.id} className={cn("group flex items-center justify-between rounded-lg px-3 py-2 text-sm cursor-pointer transition-colors", currentSessionId === session.id ? "bg-muted font-medium" : "hover:bg-muted/50")} onClick={() => {/* switch session in real app */}}>
                 <div className="flex items-center gap-2 truncate">
                   <MessageSquare className="h-4 w-4 text-primary shrink-0" />
                   <span className="truncate">{session.title || 'Trò chuyện mới'}</span>
@@ -118,6 +159,20 @@ export function ChatAIPage() {
                       ? "bg-primary text-primary-foreground rounded-br-sm" 
                       : "bg-card border border-border rounded-bl-sm prose prose-sm dark:prose-invert max-w-none"
                   )}>
+                    {msg.attachments && msg.attachments.length > 0 && (
+                      <div className="flex flex-wrap gap-2 mb-2">
+                        {msg.attachments.map((att, idx) => (
+                          att.type === 'image' ? (
+                            <img key={idx} src={att.url} alt={att.name} className="max-h-48 rounded-md object-contain bg-background/50" />
+                          ) : (
+                            <div key={idx} className="flex items-center gap-2 bg-background/20 p-2 rounded-md text-xs">
+                              <Paperclip className="h-3 w-3" />
+                              <span className="truncate max-w-[150px]">{att.name}</span>
+                            </div>
+                          )
+                        ))}
+                      </div>
+                    )}
                     {msg.role === 'assistant' ? (
                       <ReactMarkdown>{msg.content}</ReactMarkdown>
                     ) : (
@@ -141,35 +196,85 @@ export function ChatAIPage() {
 
         {/* Input Area */}
         <div className="p-4 bg-background border-t border-border">
-          <div className="max-w-3xl mx-auto relative flex items-end gap-2 bg-card border border-border rounded-2xl p-2 shadow-sm focus-within:ring-1 focus-within:ring-primary/50 transition-all">
-            <div className="flex gap-1 pb-1 px-1">
-              <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground shrink-0 rounded-full hover:bg-muted">
-                <Paperclip className="h-4 w-4" />
-              </Button>
-              <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground shrink-0 rounded-full hover:bg-muted hidden sm:inline-flex">
-                <ImageIcon className="h-4 w-4" />
+          <div className="max-w-3xl mx-auto flex flex-col gap-2">
+            {/* Attachment Previews */}
+            {attachments.length > 0 && (
+              <div className="flex flex-wrap gap-2 px-2">
+                {attachments.map((att, idx) => (
+                  <div key={idx} className="relative group rounded-md overflow-hidden bg-muted border border-border">
+                    {att.type === 'image' ? (
+                      <img src={att.url} alt={att.name} className="h-16 w-16 object-cover" />
+                    ) : (
+                      <div className="h-16 w-16 flex flex-col items-center justify-center p-1">
+                        <Paperclip className="h-6 w-6 text-muted-foreground mb-1" />
+                        <span className="text-[10px] truncate w-full text-center">{att.name}</span>
+                      </div>
+                    )}
+                    <button 
+                      onClick={() => removeAttachment(idx)}
+                      className="absolute top-1 right-1 bg-red-500 text-white rounded-full p-0.5 opacity-0 group-hover:opacity-100 transition-opacity"
+                    >
+                      <X className="h-3 w-3" />
+                    </button>
+                  </div>
+                ))}
+              </div>
+            )}
+            
+            <div className="relative flex items-end gap-2 bg-card border border-border rounded-2xl p-2 shadow-sm focus-within:ring-1 focus-within:ring-primary/50 transition-all">
+              <input 
+                type="file" 
+                ref={fileInputRef} 
+                onChange={(e) => handleFileUpload(e, false)} 
+                className="hidden" 
+                accept=".pdf,.doc,.docx,.txt"
+              />
+              <input 
+                type="file" 
+                ref={imageInputRef} 
+                onChange={(e) => handleFileUpload(e, true)} 
+                className="hidden" 
+                accept="image/*"
+              />
+              <div className="flex gap-1 pb-1 px-1">
+                <Button 
+                  variant="ghost" 
+                  size="icon" 
+                  className="h-8 w-8 text-muted-foreground shrink-0 rounded-full hover:bg-muted"
+                  onClick={() => fileInputRef.current?.click()}
+                >
+                  <Paperclip className="h-4 w-4" />
+                </Button>
+                <Button 
+                  variant="ghost" 
+                  size="icon" 
+                  className="h-8 w-8 text-muted-foreground shrink-0 rounded-full hover:bg-muted hidden sm:inline-flex"
+                  onClick={() => imageInputRef.current?.click()}
+                >
+                  <ImageIcon className="h-4 w-4" />
+                </Button>
+              </div>
+              <Textarea
+                id="chat-input"
+                value={input}
+                onChange={(e) => setInput(e.target.value)}
+                onKeyDown={handleKeyDown}
+                placeholder="Nhập câu hỏi về kế toán..."
+                className="min-h-[44px] max-h-32 border-0 focus-visible:ring-0 resize-none bg-transparent p-3 shadow-none text-base"
+                rows={1}
+              />
+              <Button 
+                size="icon" 
+                className={cn("h-10 w-10 shrink-0 rounded-full mb-1 mr-1 transition-all", (input.trim() || attachments.length > 0) ? "bg-primary" : "bg-muted text-muted-foreground")}
+                onClick={handleSend}
+                disabled={!input.trim() && attachments.length === 0}
+              >
+                <SendHorizontal className="h-4 w-4" />
               </Button>
             </div>
-            <Textarea
-              id="chat-input"
-              value={input}
-              onChange={(e) => setInput(e.target.value)}
-              onKeyDown={handleKeyDown}
-              placeholder="Nhập câu hỏi về kế toán..."
-              className="min-h-[44px] max-h-32 border-0 focus-visible:ring-0 resize-none bg-transparent p-3 shadow-none text-base"
-              rows={1}
-            />
-            <Button 
-              size="icon" 
-              className={cn("h-10 w-10 shrink-0 rounded-full mb-1 mr-1 transition-all", input.trim() ? "bg-primary" : "bg-muted text-muted-foreground")}
-              onClick={handleSend}
-              disabled={!input.trim()}
-            >
-              <SendHorizontal className="h-4 w-4" />
-            </Button>
-          </div>
-          <div className="text-center mt-2 text-[10px] text-muted-foreground">
-            AI có thể mắc lỗi. Vui lòng kiểm chứng thông tin quan trọng.
+            <div className="text-center mt-2 text-[10px] text-muted-foreground">
+              AI có thể mắc lỗi. Vui lòng kiểm chứng thông tin quan trọng.
+            </div>
           </div>
         </div>
       </div>
