@@ -109,22 +109,28 @@ export function DecreeDetailPage() {
           </div>
         </div>
 
-        <div className="flex flex-wrap items-center gap-3">
-          <Button onClick={() => navigate('/hoi-dap-ai', { state: { prefill: `Hãy phân tích và tóm tắt những điểm kế toán cần lưu ý trong văn bản ${decree.decree_number} (${decree.title}).` } })} className="gap-2">
-            <Bot className="h-4 w-4" /> Hỏi AI về văn bản này
-          </Button>
-          {decree.pdf_url ? (
-            <Button asChild variant="outline" className="gap-2">
-              <a href={pdfLink} download>
-                <Download className="h-4 w-4" /> Tải PDF gốc
-              </a>
+          <div className="flex flex-wrap items-center gap-3">
+            <Button onClick={() => navigate('/hoi-dap-ai', { state: { prefill: `Hãy phân tích và tóm tắt những điểm kế toán cần lưu ý trong văn bản ${decree.decree_number} (${decree.title}).` } })} className="gap-2">
+              <Bot className="h-4 w-4" /> Hỏi AI về văn bản này
             </Button>
-          ) : (
-            <Button variant="outline" className="gap-2" disabled>
-              <Download className="h-4 w-4" /> Chưa có file PDF
-            </Button>
-          )}
-        </div>
+            {decree.pdf_drive_id ? (
+              <Button asChild variant="outline" className="gap-2">
+                <a href={`https://drive.google.com/uc?export=download&id=${decree.pdf_drive_id}`} target="_blank" rel="noopener noreferrer">
+                  <Download className="h-4 w-4" /> Tải PDF (Google Drive)
+                </a>
+              </Button>
+            ) : decree.pdf_url ? (
+              <Button asChild variant="outline" className="gap-2">
+                <a href={pdfLink} download>
+                  <Download className="h-4 w-4" /> Tải PDF gốc
+                </a>
+              </Button>
+            ) : (
+              <Button variant="outline" className="gap-2" disabled>
+                <Download className="h-4 w-4" /> Chưa có file PDF
+              </Button>
+            )}
+          </div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
