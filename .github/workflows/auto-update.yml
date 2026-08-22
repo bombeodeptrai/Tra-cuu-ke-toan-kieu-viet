@@ -1,0 +1,33 @@
+name: AI Auto Updater (Weekly)
+
+on:
+  schedule:
+    # Run at 00:00 every Monday (UTC)
+    - cron: '0 0 * * 1'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run AI Auto-Updater
+        run: node scripts/auto-update.js
+        env:
+          VITE_GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }} # Optional if key is hardcoded
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/mock-decrees.ts
+          # Only commit if there are changes
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 AI tự động cập nhật nghị định/thông tư mới" && git push)
