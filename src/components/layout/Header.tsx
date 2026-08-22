@@ -24,7 +24,7 @@ export function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-40 w-full backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
+    <header className="sticky top-0 z-40 w-full border-b bg-primary text-primary-foreground shadow-sm">
       <div className="flex h-16 items-center px-4 md:px-6 gap-4 justify-between w-full max-w-7xl mx-auto">
         <div className="flex items-center gap-2 md:hidden">
           <Sheet>
