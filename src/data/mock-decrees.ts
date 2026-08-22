@@ -36,6 +36,55 @@ export const MOCK_DECREES: Decree[] = [
     content: `# LUẬT ĐỊA CHẤT VÀ KHOÁNG SẢN 54/2024/QH15\n\n## 1. Phân loại khoáng sản mới\nLuật mới chia khoáng sản thành 4 nhóm (I, II, III, IV) thay vì không phân loại rõ ràng như trước. Trong đó:\n- **Nhóm III, IV** (Cát, đá, sỏi, đất san lấp) được giao hoàn toàn quyền cấp phép cho UBND cấp tỉnh.\n- Không yêu cầu giấy phép khai thác đối với đất san lấp khai thác trong diện tích dự án đầu tư công.\n\n## 2. Tiền cấp quyền khai thác\n- Bổ sung quy định thu tiền cấp quyền khai thác theo trữ lượng thực tế hoặc theo năm, giảm áp lực tài chính một lần cho doanh nghiệp.\n- Khuyến khích sử dụng công nghệ tuần hoàn, giảm thiểu chất thải rắn.\n\n## 3. Nghĩa vụ tài chính và Kế toán\nDoanh nghiệp khai thác phải lập quỹ phục hồi môi trường và hạch toán rõ ràng chi phí này vào giá thành sản xuất. Việc lập quỹ phải thực hiện ngay từ năm đầu tiên khai thác.`
   },
 
+  // ==================== KHOÁNG SẢN & TÀI NGUYÊN (BỔ SUNG) ====================
+  {
+    id: 'nd-27-2023',
+    decree_number: '27/2023/NĐ-CP',
+    title: 'Nghị định 27/2023/NĐ-CP Phí bảo vệ môi trường khai thác khoáng sản',
+    category: 'khoang-san',
+    issued_date: '2023-05-31',
+    effective_date: '2023-07-15',
+    status: 'active',
+    source_url: '#',
+    summary: 'Quy định chi tiết về đối tượng chịu phí, người nộp phí, mức thu, phương pháp tính, kê khai, nộp và quản lý phí bảo vệ môi trường đối với khai thác khoáng sản.\n\n**Điểm đáng chú ý:**\n- Điều chỉnh mức thu phí đối với nhiều loại khoáng sản kim loại và không kim loại.\n- Quy định công thức tính phí BVMT rõ ràng dựa trên khối lượng nguyên khai.\n- Tổ chức, cá nhân thu mua khoáng sản từ người khai thác nhỏ lẻ cũng phải nộp phí.',
+    content: `# NGHỊ ĐỊNH 27/2023/NĐ-CP\n\n**Phí bảo vệ môi trường đối với khai thác khoáng sản**\n\n## 1. Đối tượng chịu phí\n- Khoáng sản kim loại: Sắt, mangan, titan, vàng, đất hiếm...\n- Khoáng sản không kim loại: Đất, đá, cát, sỏi, than, nước khoáng thiên nhiên.\n\n## 2. Phương pháp tính phí\nPhí bảo vệ môi trường (F) = Khối lượng khoáng sản nguyên khai khai thác (Q) x Mức thu phí (f) x Hệ số phương pháp khai thác (K).\n- Khai thác lộ thiên: K = 1,1\n- Khai thác hầm lò: K = 1,0\n\n## 3. Khai, nộp phí\nDoanh nghiệp phải kê khai, nộp phí chậm nhất là ngày 20 của tháng tiếp theo. Cơ quan thuế quản lý trực tiếp có trách nhiệm đôn đốc, kiểm tra việc nộp phí của doanh nghiệp.`
+  },
+  {
+    id: 'tt-152-2015',
+    decree_number: '152/2015/TT-BTC',
+    title: 'Thông tư 152/2015/TT-BTC Hướng dẫn về Thuế Tài Nguyên',
+    category: 'khoang-san',
+    issued_date: '2015-10-02',
+    effective_date: '2015-11-20',
+    status: 'active',
+    source_url: '#',
+    summary: 'Văn bản cốt lõi hướng dẫn thi hành thuế tài nguyên, áp dụng đối với tất cả các hoạt động khai thác khoáng sản, nước thiên nhiên, yến sào...\n\n**Nội dung chính:**\n- Hướng dẫn cách xác định sản lượng tài nguyên tính thuế.\n- Cách xác định giá tính thuế tài nguyên trong các trường hợp.\n- Hồ sơ, thủ tục miễn giảm thuế tài nguyên.',
+    content: `# THÔNG TƯ 152/2015/TT-BTC: THUẾ TÀI NGUYÊN\n\n## 1. Công thức tính thuế\nThuế tài nguyên phải nộp trong kỳ = Sản lượng tài nguyên tính thuế x Giá tính thuế đơn vị x Thuế suất.\n\n## 2. Xác định sản lượng tính thuế\n- Là số lượng, khối lượng, trọng lượng tài nguyên thực tế khai thác trong kỳ áp dụng đối với tài nguyên chưa qua chế biến.\n- Nếu bán ra sản phẩm đã qua chế biến, phải quy đổi ngược lại sản lượng nguyên khai.\n\n## 3. Giá tính thuế tài nguyên\n- Giá bán đơn vị sản phẩm tài nguyên khai thác chưa bao gồm thuế GTGT.\n- Nếu không xác định được giá bán, áp dụng theo Bảng giá tính thuế tài nguyên do UBND cấp tỉnh ban hành.`
+  },
+  {
+    id: 'nd-67-2019',
+    decree_number: '67/2019/NĐ-CP',
+    title: 'Nghị định 67/2019/NĐ-CP Tiền cấp quyền khai thác khoáng sản',
+    category: 'khoang-san',
+    issued_date: '2019-07-31',
+    effective_date: '2019-09-15',
+    status: 'active',
+    source_url: '#',
+    summary: 'Quy định phương pháp tính, mức thu tiền cấp quyền khai thác khoáng sản. Đây là khoản nghĩa vụ tài chính rất lớn mà doanh nghiệp khai thác mỏ phải nộp ngoài thuế và phí.\n\n**Quy định nổi bật:**\n- Mức thu tiền cấp quyền từ 1% - 5% tùy loại khoáng sản.\n- Công thức tính dựa trên Trữ lượng, Giá tính tiền cấp quyền, Mức thu, Hệ số thu hồi.\n- Trả tiền theo từng năm hoặc một lần tùy thời gian khai thác.',
+    content: `# NGHỊ ĐỊNH 67/2019/NĐ-CP: TIỀN CẤP QUYỀN KHAI THÁC\n\n## 1. Công thức tính (T)\nT = Q x G x K1 x K2 x R\n- **Q**: Trữ lượng khoáng sản được cấp phép khai thác.\n- **G**: Giá tính tiền cấp quyền (do UBND tỉnh quy định).\n- **R**: Mức thu tiền cấp quyền (%).\n\n## 2. Phương thức nộp tiền\n- Thời gian khai thác dưới 5 năm: Nộp 1 lần hoặc nộp nhiều lần (tối đa không quá số năm phép).\n- Số tiền nộp lần đầu tiên tối thiểu bằng 30% tổng số tiền phải nộp đối với nộp nhiều lần.\n\n## 3. Xử lý chậm nộp\nTiền chậm nộp được tính theo quy định của Luật Quản lý thuế (hiện tại là 0,03%/ngày).`
+  },
+  {
+    id: 'tt-44-2017',
+    decree_number: '44/2017/TT-BTC',
+    title: 'Thông tư 44/2017/TT-BTC Khung giá tính thuế tài nguyên',
+    category: 'khoang-san',
+    issued_date: '2017-05-12',
+    effective_date: '2017-07-01',
+    status: 'active',
+    source_url: '#',
+    summary: 'Bộ Tài chính ban hành Khung giá tính thuế tài nguyên đối với nhóm, loại tài nguyên có tính chất lý, hóa giống nhau (Khung giá trần và giá sàn). UBND tỉnh dựa vào đây để ban hành Bảng giá chi tiết.\n\n**Ý nghĩa kế toán:**\n- Kế toán cần đối chiếu giá tính thuế của UBND tỉnh xem có nằm trong Khung giá này không.\n- Khi giá thị trường biến động 20% ngoài khung, BTC sẽ điều chỉnh khung giá.',
+    content: `# THÔNG TƯ 44/2017/TT-BTC: KHUNG GIÁ THUẾ TÀI NGUYÊN\n\n## 1. Khung giá tối thiểu và tối đa\n- Mọi Bảng giá do UBND tỉnh ban hành (ví dụ: Quyết định 87 của Gia Lai) đều không được thấp hơn giá tối thiểu và không cao hơn giá tối đa của Thông tư này.\n\n## 2. Các loại khoáng sản\nBao gồm hàng trăm danh mục: Than, Cát, Đá, Sỏi, Đất, Sắt, Vàng, Nước khoáng...\n\n## 3. Điều chỉnh Khung giá\nBộ Tài chính sẽ ban hành Thông tư sửa đổi (ví dụ Thông tư 05/2020/TT-BTC sửa đổi TT 44) khi giá thị trường phổ biến có biến động lớn.`
+  },
   // ==================== CẬP NHẬT MỚI NHẤT (2024 - 2026) ====================
   {
     id: 'luat-56-2024',
