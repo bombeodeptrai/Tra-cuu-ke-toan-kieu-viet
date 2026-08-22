@@ -111,7 +111,7 @@ export function DecreeDetailPage() {
         <TabsContent value="content" className="mt-0">
           <div className="bg-card border rounded-2xl p-6 md:p-10 prose prose-slate dark:prose-invert max-w-none prose-headings:text-primary prose-a:text-primary">
             <ReactMarkdown remarkPlugins={[remarkGfm]}>
-              {decree.content}
+              {decree.content.replace(/\n/g, '  \n')}
             </ReactMarkdown>
           </div>
         </TabsContent>

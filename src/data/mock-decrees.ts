@@ -15,7 +15,18 @@ export const MOCK_DECREES: Decree[] = [
     decree_number: '99/2025/TT-BTC',
     title: 'Thông tư 99/2025/TT-BTC Chế độ kế toán doanh nghiệp (Mới)',
     summary: 'Thay thế Thông tư 200/2014/TT-BTC, thay đổi toàn diện chế độ kế toán doanh nghiệp, cấu trúc lại tài khoản và báo cáo tài chính.',
-    content: `## CHƯƠNG I: QUY ĐỊNH CHUNG\n\n### Điều 1. Đối tượng áp dụng\nThông tư này hướng dẫn kế toán áp dụng đối với các doanh nghiệp thuộc mọi lĩnh vực, mọi thành phần kinh tế hoạt động dưới hình thức công ty trách nhiệm hữu hạn, công ty cổ phần, công ty hợp danh, doanh nghiệp tư nhân.\n\n### Điều 2. Những thay đổi trọng yếu so với Thông tư 200\n1. Cấu trúc lại hệ thống tài khoản kế toán: \na) Bổ sung tài khoản 142 - Tài sản sinh học.\nb) Bổ sung tài khoản 337 - Phải trả cổ tức.\n2. Đổi tên "Bảng cân đối kế toán" thành "Báo cáo tình hình tài chính".\n3. Doanh nghiệp được tự thiết kế mẫu chứng từ, sổ sách tuân thủ Luật Kế toán thay vì bắt buộc dùng biểu mẫu cố định.`,
+    content: `## CHƯƠNG I: QUY ĐỊNH CHUNG
+
+### Điều 1. Đối tượng áp dụng
+Thông tư này hướng dẫn kế toán áp dụng đối với các doanh nghiệp thuộc mọi lĩnh vực, mọi thành phần kinh tế hoạt động dưới hình thức công ty trách nhiệm hữu hạn, công ty cổ phần, công ty hợp danh, doanh nghiệp tư nhân.
+
+### Điều 2. Những thay đổi trọng yếu so với Thông tư 200
+
+1. Cấu trúc lại hệ thống tài khoản kế toán: 
+   - a) Bổ sung tài khoản 142 - Tài sản sinh học.
+   - b) Bổ sung tài khoản 337 - Phải trả cổ tức.
+2. Đổi tên "Bảng cân đối kế toán" thành "Báo cáo tình hình tài chính".
+3. Doanh nghiệp được tự thiết kế mẫu chứng từ, sổ sách tuân thủ Luật Kế toán thay vì bắt buộc dùng biểu mẫu cố định.`,
     category: 'thong-tu',
     issued_date: '2025-10-15',
     effective_date: '2026-01-01',
@@ -27,7 +38,19 @@ export const MOCK_DECREES: Decree[] = [
     decree_number: '70/2025/QH15',
     title: 'Luật Thuế Thu nhập doanh nghiệp 2025',
     summary: 'Quy định các khoản chi phí được trừ và không được trừ, thuế suất ưu đãi mới áp dụng từ 2026.',
-    content: `## CHƯƠNG II: THU NHẬP CHỊU THUẾ VÀ CHI PHÍ ĐƯỢC TRỪ\n\n### Điều 9. Các khoản chi phí được trừ và không được trừ khi xác định thu nhập chịu thuế\n1. Doanh nghiệp được trừ mọi khoản chi nếu đáp ứng đủ các điều kiện sau đây:\na) Khoản chi thực tế phát sinh liên quan đến hoạt động sản xuất, kinh doanh của doanh nghiệp;\nb) Khoản chi có đủ hoá đơn, chứng từ hợp pháp theo quy định của pháp luật;\nc) Khoản chi nếu có hoá đơn mua hàng hoá, dịch vụ từng lần có giá trị từ 20 triệu đồng trở lên (giá đã bao gồm thuế GTGT) khi thanh toán phải có chứng từ thanh toán không dùng tiền mặt.\n\n2. Các khoản chi không được trừ khi xác định thu nhập chịu thuế bao gồm:\na) Chi khấu hao tài sản cố định không đúng quy định của pháp luật;\nb) Tiền lương, tiền công của chủ doanh nghiệp tư nhân; thù lao trả cho các sáng lập viên doanh nghiệp không trực tiếp tham gia điều hành sản xuất, kinh doanh;\nc) Phần chi vượt mức quy định của pháp luật về bảo hiểm xã hội, bảo hiểm y tế.`,
+    content: `## CHƯƠNG II: THU NHẬP CHỊU THUẾ VÀ CHI PHÍ ĐƯỢC TRỪ
+
+### Điều 9. Các khoản chi phí được trừ và không được trừ khi xác định thu nhập chịu thuế
+
+1. Doanh nghiệp được trừ mọi khoản chi nếu đáp ứng đủ các điều kiện sau đây:
+   - a) Khoản chi thực tế phát sinh liên quan đến hoạt động sản xuất, kinh doanh của doanh nghiệp;
+   - b) Khoản chi có đủ hoá đơn, chứng từ hợp pháp theo quy định của pháp luật;
+   - c) Khoản chi nếu có hoá đơn mua hàng hoá, dịch vụ từng lần có giá trị từ 20 triệu đồng trở lên (giá đã bao gồm thuế GTGT) khi thanh toán phải có chứng từ thanh toán không dùng tiền mặt.
+
+2. Các khoản chi không được trừ khi xác định thu nhập chịu thuế bao gồm:
+   - a) Chi khấu hao tài sản cố định không đúng quy định của pháp luật;
+   - b) Tiền lương, tiền công của chủ doanh nghiệp tư nhân; thù lao trả cho các sáng lập viên doanh nghiệp không trực tiếp tham gia điều hành sản xuất, kinh doanh;
+   - c) Phần chi vượt mức quy định của pháp luật về bảo hiểm xã hội, bảo hiểm y tế.`,
     category: 'thue',
     issued_date: '2025-12-10',
     effective_date: '2026-01-01',
@@ -39,7 +62,18 @@ export const MOCK_DECREES: Decree[] = [
     decree_number: '71/2025/QH15',
     title: 'Luật Thuế Giá trị gia tăng 2025',
     summary: 'Cập nhật đối tượng không chịu thuế GTGT và thuế suất 0%, 5%, 10% áp dụng cho năm 2026.',
-    content: `## CHƯƠNG II: CĂN CỨ VÀ PHƯƠNG PHÁP TÍNH THUẾ\n\n### Điều 8. Thuế suất\n1. Mức thuế suất 0% áp dụng đối với hàng hoá, dịch vụ xuất khẩu, vận tải quốc tế và hàng hoá, dịch vụ không chịu thuế giá trị gia tăng khi xuất khẩu.\n2. Mức thuế suất 5% áp dụng đối với hàng hoá, dịch vụ sau đây: Nước sạch phục vụ sản xuất và sinh hoạt; Quặng để sản xuất phân bón; Sản phẩm trồng trọt, chăn nuôi, thủy sản chưa qua chế biến.\n3. Mức thuế suất 10% áp dụng đối với hàng hoá, dịch vụ không quy định tại Khoản 1 và Khoản 2 Điều này.\n\n### Điều 15. Điều kiện khấu trừ thuế giá trị gia tăng đầu vào\n1. Có hoá đơn giá trị gia tăng hợp pháp của hàng hoá, dịch vụ mua vào.\n2. Có chứng từ thanh toán không dùng tiền mặt đối với hàng hoá, dịch vụ mua vào từ 20 triệu đồng trở lên.`,
+    content: `## CHƯƠNG II: CĂN CỨ VÀ PHƯƠNG PHÁP TÍNH THUẾ
+
+### Điều 8. Thuế suất
+
+1. Mức thuế suất 0% áp dụng đối với hàng hoá, dịch vụ xuất khẩu, vận tải quốc tế và hàng hoá, dịch vụ không chịu thuế giá trị gia tăng khi xuất khẩu.
+2. Mức thuế suất 5% áp dụng đối với hàng hoá, dịch vụ sau đây: Nước sạch phục vụ sản xuất và sinh hoạt; Quặng để sản xuất phân bón; Sản phẩm trồng trọt, chăn nuôi, thủy sản chưa qua chế biến.
+3. Mức thuế suất 10% áp dụng đối với hàng hoá, dịch vụ không quy định tại Khoản 1 và Khoản 2 Điều này.
+
+### Điều 15. Điều kiện khấu trừ thuế giá trị gia tăng đầu vào
+
+1. Có hoá đơn giá trị gia tăng hợp pháp của hàng hoá, dịch vụ mua vào.
+2. Có chứng từ thanh toán không dùng tiền mặt đối với hàng hoá, dịch vụ mua vào từ 20 triệu đồng trở lên.`,
     category: 'thue',
     issued_date: '2025-12-10',
     effective_date: '2026-01-01',
@@ -51,7 +85,13 @@ export const MOCK_DECREES: Decree[] = [
     decree_number: '58/2026/TT-BTC',
     title: 'Thông tư 58/2026/TT-BTC Kế toán doanh nghiệp siêu nhỏ',
     summary: 'Hướng dẫn chế độ kế toán cho doanh nghiệp siêu nhỏ, thay thế Thông tư 132/2018/TT-BTC.',
-    content: `## QUY ĐỊNH CHUNG\n\n### Điều 1. Đối tượng áp dụng\nThông tư áp dụng cho các doanh nghiệp siêu nhỏ theo quy định pháp luật về hỗ trợ doanh nghiệp nhỏ và vừa.\n\n### Điều 2. Nguyên tắc kế toán\nDoanh nghiệp siêu nhỏ nộp thuế TNDN theo phương pháp tỷ lệ % trên doanh thu không bắt buộc lập báo cáo tài chính, chỉ cần ghi chép sổ kế toán đơn giản để theo dõi doanh thu và nghĩa vụ thuế.`,
+    content: `## QUY ĐỊNH CHUNG
+
+### Điều 1. Đối tượng áp dụng
+Thông tư áp dụng cho các doanh nghiệp siêu nhỏ theo quy định pháp luật về hỗ trợ doanh nghiệp nhỏ và vừa.
+
+### Điều 2. Nguyên tắc kế toán
+Doanh nghiệp siêu nhỏ nộp thuế TNDN theo phương pháp tỷ lệ % trên doanh thu không bắt buộc lập báo cáo tài chính, chỉ cần ghi chép sổ kế toán đơn giản để theo dõi doanh thu và nghĩa vụ thuế.`,
     category: 'thong-tu',
     issued_date: '2026-03-20',
     effective_date: '2026-07-01',
@@ -63,7 +103,13 @@ export const MOCK_DECREES: Decree[] = [
     decree_number: '68/2025/QH15',
     title: 'Luật Quản lý thuế 2025',
     summary: 'Luật mới cập nhật thay thế Luật QLT cũ, rút ngắn thời hạn khai bổ sung thuế và thúc đẩy chuyển đổi số.',
-    content: `## QUY ĐỊNH CHÍNH\n\n### Điều 47. Khai bổ sung hồ sơ khai thuế\n1. Rút ngắn thời hạn khai bổ sung hồ sơ khai thuế từ 10 năm xuống còn 5 năm kể từ ngày hết hạn nộp hồ sơ khai thuế.\n\n### Điều 90. Nguyên tắc lập, quản lý, sử dụng hóa đơn điện tử\nTất cả doanh nghiệp phải áp dụng hồ sơ điện tử, quản lý hóa đơn chứng từ qua hệ thống Cổng thông tin của Tổng cục Thuế. Hóa đơn điện tử phải được đăng ký và xác thực mã của cơ quan thuế trước khi gửi cho khách hàng.`,
+    content: `## QUY ĐỊNH CHÍNH
+
+### Điều 47. Khai bổ sung hồ sơ khai thuế
+1. Rút ngắn thời hạn khai bổ sung hồ sơ khai thuế từ 10 năm xuống còn 5 năm kể từ ngày hết hạn nộp hồ sơ khai thuế.
+
+### Điều 90. Nguyên tắc lập, quản lý, sử dụng hóa đơn điện tử
+Tất cả doanh nghiệp phải áp dụng hồ sơ điện tử, quản lý hóa đơn chứng từ qua hệ thống Cổng thông tin của Tổng cục Thuế. Hóa đơn điện tử phải được đăng ký và xác thực mã của cơ quan thuế trước khi gửi cho khách hàng.`,
     category: 'luat',
     issued_date: '2025-11-20',
     effective_date: '2026-07-01',
