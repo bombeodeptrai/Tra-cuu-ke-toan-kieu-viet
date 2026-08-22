@@ -10,8 +10,56 @@ export const MOCK_CATEGORIES = [
 ];
 
 export const MOCK_DECREES: Decree[] = [
-
-  // ==================== LUẬT ====================
+  // ==================== CẬP NHẬT MỚI NHẤT (2024 - 2026) ====================
+  {
+    id: 'luat-56-2024',
+    decree_number: '56/2024/QH15',
+    title: 'Luật số 56/2024/QH15 sửa đổi Luật Kế toán, Chứng khoán, Thuế',
+    category: 'luat',
+    issued_date: '2024-11-26',
+    effective_date: '2025-01-01',
+    status: 'active',
+    source_url: '#',
+    summary: 'Luật số 56/2024/QH15 là văn bản đặc biệt quan trọng sửa đổi bổ sung cùng lúc nhiều luật thuộc lĩnh vực tài chính, trong đó có Luật Kế toán, Luật Chứng khoán và Luật Quản lý thuế. Mục tiêu nhằm tháo gỡ vướng mắc, tạo điều kiện thuận lợi cho môi trường đầu tư kinh doanh.\n\n**Điểm mới cốt lõi:**\n- Cho phép doanh nghiệp linh hoạt hơn trong việc lưu trữ chứng từ kế toán điện tử, không bắt buộc in ra giấy.\n- Đơn giản hóa thủ tục hoàn thuế GTGT cho doanh nghiệp xuất khẩu.\n- Nâng cao chế tài xử phạt đối với hành vi thao túng báo cáo tài chính của công ty đại chúng.',
+    content: `# LUẬT SỐ 56/2024/QH15 SỬA ĐỔI BỔ SUNG CÁC LUẬT TÀI CHÍNH\n\n## 1. Sửa đổi Luật Kế toán\n- Cập nhật quy định về chứng từ điện tử, chính thức công nhận toàn diện giá trị pháp lý của chứng từ sinh ra từ hệ thống ERP mà không cần in giấy bảo quản.\n- Bổ sung quy định về chuẩn mực đạo đức nghề nghiệp đối với người làm kế toán.\n\n## 2. Sửa đổi Luật Quản lý thuế\n- Tăng quyền chủ động cho người nộp thuế trong việc sửa đổi, bổ sung hồ sơ khai thuế khi cơ quan thuế chưa công bố quyết định thanh tra.\n- Rút ngắn thời gian xử lý hồ sơ hoàn thuế đối với doanh nghiệp rủi ro thấp.\n\n## 3. Rủi ro và Lưu ý\nCác doanh nghiệp cần rà soát lại quy trình lưu trữ điện tử, đảm bảo đáp ứng chuẩn an toàn an ninh mạng mới để được hưởng cơ chế lưu trữ không in giấy.`
+  },
+  {
+    id: 'nd-70-2025',
+    decree_number: '70/2025/NĐ-CP',
+    title: 'Nghị định 70/2025/NĐ-CP Sửa đổi quy định hóa đơn, chứng từ',
+    category: 'hoa-don',
+    issued_date: '2025-02-15',
+    effective_date: '2025-03-20',
+    status: 'active',
+    source_url: '#',
+    summary: 'Nghị định 70/2025/NĐ-CP cập nhật các quy định mới nhất về hóa đơn điện tử, tháo gỡ những bất cập của Nghị định 123/2020/NĐ-CP trước đây. Trọng tâm là việc tự động hóa kết nối dữ liệu máy tính tiền và xử lý hóa đơn sai sót.\n\n**Điểm nhấn:**\n- Bắt buộc 100% cửa hàng bán lẻ, F&B áp dụng hóa đơn khởi tạo từ máy tính tiền kết nối trực tiếp với Cơ quan Thuế.\n- Thay đổi quy trình nộp mẫu 04/SS-HĐĐT, tự động hóa phản hồi từ CQT.',
+    content: `# NGHỊ ĐỊNH 70/2025/NĐ-CP VỀ HÓA ĐƠN ĐIỆN TỬ\n\n## 1. Mở rộng Hóa đơn từ Máy tính tiền\n- Bắt buộc áp dụng với kinh doanh ăn uống, siêu thị, bán lẻ thuốc tân dược, dịch vụ vui chơi giải trí.\n- Dữ liệu phải được truyền về cơ quan thuế ngay trong ngày.\n\n## 2. Xử lý sai sót hóa đơn (Mới)\n- Bỏ yêu cầu nộp Mẫu 04/SS đối với trường hợp sai tên, địa chỉ người mua (chỉ cần thỏa thuận hai bên).\n- Hóa đơn điều chỉnh/thay thế được cấp mã tự động trong vòng 15 phút.\n\n## 3. Chế tài vi phạm\nTăng gấp đôi mức phạt đối với hành vi xuất hóa đơn sai thời điểm, nhằm ngăn chặn việc dồn hóa đơn cuối tháng.`
+  },
+  {
+    id: 'tt-58-2026',
+    decree_number: '58/2026/TT-BTC',
+    title: 'Thông tư 58/2026/TT-BTC Chế độ kế toán doanh nghiệp siêu nhỏ',
+    category: 'thong-tu',
+    issued_date: '2026-04-10',
+    effective_date: '2026-07-01',
+    status: 'active',
+    source_url: '#',
+    summary: 'Thông tư 58/2026/TT-BTC ra đời thay thế Thông tư 132/2018/TT-BTC, định hình lại hoàn toàn công tác kế toán cho các doanh nghiệp siêu nhỏ, hộ kinh doanh trong thời đại số.\n\n**Điểm mới:**\n- Loại bỏ hoàn toàn yêu cầu ghi sổ kép (Nợ/Có) đối với hộ kinh doanh.\n- Doanh nghiệp siêu nhỏ nộp thuế TNDN theo tỷ lệ % trên doanh thu không bắt buộc lập Báo cáo tài chính, chỉ cần sổ chi tiết doanh thu.',
+    content: `# THÔNG TƯ 58/2026/TT-BTC CHO DOANH NGHIỆP SIÊU NHỎ\n\n## 1. Đơn giản hóa Kế toán\n- Cho phép doanh nghiệp siêu nhỏ ghi sổ theo phương pháp kế toán đơn (Single-entry bookkeeping).\n- Không cần lập Bảng cân đối kế toán nếu nộp thuế theo phương pháp trực tiếp.\n\n## 2. Số hóa sổ sách\n- Toàn bộ sổ sách (Sổ quỹ tiền mặt, Sổ chi tiết vật tư, Sổ doanh thu) được tích hợp thẳng vào phần mềm khai thuế.\n- Khuyến khích sử dụng ứng dụng eTax Mobile để ghi nhận nghiệp vụ.\n\n## 3. Rủi ro lưu ý\nTuy được đơn giản hóa, cơ quan thuế sẽ thanh tra chéo dữ liệu hóa đơn điện tử đầu vào/đầu ra. Nếu phát hiện chênh lệch, mức phạt trốn thuế vẫn áp dụng nghiêm khắc theo Luật Quản lý thuế.`
+  },
+  {
+    id: 'nd-132-2026',
+    decree_number: '132/2026/NĐ-CP',
+    title: 'Nghị định 132/2026/NĐ-CP Xử phạt vi phạm hành chính lĩnh vực kế toán',
+    category: 'nghi-dinh',
+    issued_date: '2026-03-25',
+    effective_date: '2026-05-21',
+    status: 'active',
+    source_url: '#',
+    summary: 'Thay thế Nghị định 41/2018, Nghị định 132/2026/NĐ-CP tăng mạnh mức phạt tiền đối với các hành vi vi phạm về kế toán và kiểm toán, đồng thời bổ sung các vi phạm liên quan đến chứng từ điện tử, an toàn dữ liệu kế toán.\n\n**Điểm mới:**\n- Mức phạt tối đa tăng lên 100 triệu đồng với cá nhân, 200 triệu đồng với tổ chức.\n- Bổ sung hành vi "Làm rò rỉ dữ liệu kế toán tài chính" với mức phạt rất nặng.',
+    content: `# NGHỊ ĐỊNH 132/2026/NĐ-CP XỬ PHẠT KẾ TOÁN\n\n## 1. Khung phạt mới (Tăng nặng)\n- Lập hai hệ thống sổ kế toán: Phạt từ 80 - 100 triệu đồng (cá nhân), tước chứng chỉ hành nghề.\n- Tiêu hủy chứng từ trước thời hạn: Phạt từ 30 - 50 triệu đồng.\n\n## 2. Nhóm vi phạm công nghệ (Mới)\n- Hệ thống phần mềm kế toán không đảm bảo truy xuất nguồn gốc dữ liệu (Audit trail): Phạt 20 - 40 triệu đồng.\n- Giao tài khoản kế toán cấp cao cho người không có nghiệp vụ: Phạt 10 - 20 triệu đồng.\n\n## 3. Biện pháp khắc phục\nBắt buộc khôi phục lại dữ liệu và nộp Báo cáo tài chính điều chỉnh trong vòng 30 ngày kể từ ngày bị lập biên bản vi phạm.`
+  },
+  // ==================== VĂN BẢN NỀN TẢNG (HIỆN HÀNH) ====================
   {
     id: 'luat-ke-toan-2015',
     decree_number: '88/2015/QH13',
