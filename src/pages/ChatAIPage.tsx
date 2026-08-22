@@ -7,10 +7,11 @@ import { useSettingsStore } from '@/stores/settings-store';
 import { Link } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 import { useChat } from '@/hooks/useChat';
+import ReactMarkdown from 'react-markdown';
 
 export function ChatAIPage() {
   const { geminiApiKey } = useSettingsStore();
-  const { messages: storeMessages, sendMessage, isAiTyping, currentSessionId, sessions, createSession, deleteSession } = useChat();
+  const { sendMessage, isAiTyping, currentSessionId, sessions, createSession, deleteSession } = useChat();
   const [input, setInput] = useState('');
   const scrollRef = useRef<HTMLDivElement>(null);
 
@@ -115,10 +116,13 @@ export function ChatAIPage() {
                     "max-w-[85%] rounded-2xl px-5 py-3.5 text-sm md:text-base leading-relaxed shadow-sm",
                     msg.role === 'user' 
                       ? "bg-primary text-primary-foreground rounded-br-sm" 
-                      : "bg-card border border-border rounded-bl-sm"
+                      : "bg-card border border-border rounded-bl-sm prose prose-sm dark:prose-invert max-w-none"
                   )}>
-                    {/* Render Markdown here properly in a real app, for now just text */}
-                    {msg.content}
+                    {msg.role === 'assistant' ? (
+                      <ReactMarkdown>{msg.content}</ReactMarkdown>
+                    ) : (
+                      msg.content
+                    )}
                   </div>
                 </div>
               ))}
