@@ -10,6 +10,32 @@ export const MOCK_CATEGORIES = [
 ];
 
 export const MOCK_DECREES: Decree[] = [
+  // ==================== KHOÁNG SẢN & ĐỊA PHƯƠNG ====================
+  {
+    id: 'qd-87-2025-gialai',
+    decree_number: '87/2025/QĐ-UBND',
+    title: 'Quyết định 87/2025/QĐ-UBND Bảng giá tính thuế tài nguyên 2026 tỉnh Gia Lai',
+    category: 'khoang-san',
+    issued_date: '2025-12-25',
+    effective_date: '2026-01-05',
+    status: 'active',
+    source_url: '#',
+    summary: 'Quyết định số 87/2025/QĐ-UBND của UBND tỉnh Gia Lai quy định chi tiết Bảng giá tính thuế tài nguyên áp dụng cho năm 2026 đối với các loại khoáng sản kim loại, không kim loại, sản phẩm rừng tự nhiên và nước thiên nhiên trên địa bàn tỉnh.\n\n**Điểm nổi bật:**\n- Điều chỉnh tăng giá tính thuế đối với cát xây dựng, đá chẻ, đá hộc do khan hiếm nguồn cung.\n- Bổ sung giá tính thuế cho một số loại khoáng sản mới phát sinh khai thác tại các huyện phía Đông tỉnh.',
+    content: `# QUYẾT ĐỊNH 87/2025/QĐ-UBND TỈNH GIA LAI\n\n**Về việc ban hành Bảng giá tính thuế tài nguyên năm 2026 trên địa bàn tỉnh Gia Lai**\n\n## 1. Nguyên tắc áp dụng\n- Bảng giá này là cơ sở để Cục Thuế tỉnh Gia Lai và các Chi cục Thuế tính thuế tài nguyên đối với các tổ chức, cá nhân khai thác tài nguyên thiên nhiên trên địa bàn tỉnh.\n- Trường hợp giá bán tài nguyên ghi trên hóa đơn cao hơn giá tại Bảng giá này thì giá tính thuế là giá ghi trên hóa đơn.\n- Trường hợp giá bán trên hóa đơn thấp hơn, áp dụng giá tại Quyết định này.\n\n## 2. Bảng giá một số khoáng sản phổ biến (Trích đoạn)\n| STT | Loại tài nguyên | Đơn vị tính | Giá tính thuế (VNĐ) |\n|---|---|---|---|\n| 1 | Cát xây dựng (cát vàng) | m3 | 250.000 |\n| 2 | Cát san lấp | m3 | 120.000 |\n| 3 | Đá xây dựng (đá hộc) | m3 | 180.000 |\n| 4 | Đá chẻ | m3 | 220.000 |\n| 5 | Đất san lấp | m3 | 45.000 |\n\n## 3. Trách nhiệm thực hiện\nSở Tài chính chủ trì, phối hợp với Sở Tài nguyên và Môi trường và Cục Thuế tỉnh thường xuyên theo dõi diễn biến giá tài nguyên trên thị trường. Nếu giá thị trường biến động tăng/giảm trên 20%, phải tham mưu UBND tỉnh điều chỉnh kịp thời.`
+  },
+  {
+    id: 'luat-54-2024-khoangsan',
+    decree_number: '54/2024/QH15',
+    title: 'Luật Địa chất và Khoáng sản số 54/2024/QH15',
+    category: 'khoang-san',
+    issued_date: '2024-11-29',
+    effective_date: '2025-07-01',
+    status: 'active',
+    source_url: '#',
+    summary: 'Luật Địa chất và Khoáng sản số 54/2024/QH15 thay thế Luật Khoáng sản 2010. Đạo luật mới phân cấp mạnh mẽ cho chính quyền địa phương trong việc cấp phép khai thác khoáng sản làm vật liệu xây dựng thông thường (Nhóm III, IV).\n\n**Trọng tâm:**\n- Ưu tiên khai thác khoáng sản chiến lược.\n- Đơn giản hóa thủ tục hành chính cho mỏ đất san lấp, cát sỏi phục vụ công trình trọng điểm.\n- Yêu cầu khắt khe hơn về phục hồi môi trường sau khai thác.',
+    content: `# LUẬT ĐỊA CHẤT VÀ KHOÁNG SẢN 54/2024/QH15\n\n## 1. Phân loại khoáng sản mới\nLuật mới chia khoáng sản thành 4 nhóm (I, II, III, IV) thay vì không phân loại rõ ràng như trước. Trong đó:\n- **Nhóm III, IV** (Cát, đá, sỏi, đất san lấp) được giao hoàn toàn quyền cấp phép cho UBND cấp tỉnh.\n- Không yêu cầu giấy phép khai thác đối với đất san lấp khai thác trong diện tích dự án đầu tư công.\n\n## 2. Tiền cấp quyền khai thác\n- Bổ sung quy định thu tiền cấp quyền khai thác theo trữ lượng thực tế hoặc theo năm, giảm áp lực tài chính một lần cho doanh nghiệp.\n- Khuyến khích sử dụng công nghệ tuần hoàn, giảm thiểu chất thải rắn.\n\n## 3. Nghĩa vụ tài chính và Kế toán\nDoanh nghiệp khai thác phải lập quỹ phục hồi môi trường và hạch toán rõ ràng chi phí này vào giá thành sản xuất. Việc lập quỹ phải thực hiện ngay từ năm đầu tiên khai thác.`
+  },
+
   // ==================== CẬP NHẬT MỚI NHẤT (2024 - 2026) ====================
   {
     id: 'luat-56-2024',

@@ -46,6 +46,13 @@ export const CATEGORIES: Category[] = [
     description: 'Quy định về thuế liên quan kế toán',
     icon: 'Calculator',
   },
+  {
+    id: '7',
+    name: 'Khoáng sản',
+    slug: 'khoang-san',
+    description: 'Quy định tài chính, kế toán ngành khoáng sản',
+    icon: 'Mountain',
+  },
 ]
 
 export const DECREE_STATUS_LABELS: Record<string, { label: string; color: string }> = {
@@ -61,4 +68,5 @@ export const CATEGORY_COLORS: Record<string, string> = {
   'chuan-muc': 'border-l-green-500',
   'hoa-don': 'border-l-orange-500',
   'thue': 'border-l-cyan-500',
+  'khoang-san': 'border-l-yellow-600',
 }
