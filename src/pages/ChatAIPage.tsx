@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { useSettingsStore } from '@/stores/settings-store';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 import { useChat } from '@/hooks/useChat';
 import ReactMarkdown from 'react-markdown';
@@ -21,6 +21,7 @@ export function ChatAIPage() {
   const fileInputRef = useRef<HTMLInputElement>(null);
   const imageInputRef = useRef<HTMLInputElement>(null);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
 
   const currentSession = sessions.find(s => s.id === currentSessionId);
   const displayMessages = currentSession?.messages || [];
@@ -43,6 +44,14 @@ export function ChatAIPage() {
       createSession();
     }
   }, [sessions, createSession]);
+
+  useEffect(() => {
+    if (location.state?.prefill && !input && displayMessages.length === 0) {
+      setInput(location.state.prefill);
+      // Clean up state so it doesn't prefill again on refresh
+      window.history.replaceState({}, document.title)
+    }
+  }, [location.state, input, displayMessages.length]);
 
   const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>, isImage: boolean) => {
     const file = e.target.files?.[0];

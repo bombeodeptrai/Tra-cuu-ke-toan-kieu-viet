@@ -97,7 +97,7 @@ export function DecreeDetailPage() {
         </div>
 
         <div className="flex flex-wrap items-center gap-3">
-          <Button onClick={() => navigate('/hoi-dap-ai')} className="gap-2">
+          <Button onClick={() => navigate('/hoi-dap-ai', { state: { prefill: `Hãy phân tích và tóm tắt những điểm kế toán cần lưu ý trong văn bản ${decree.decree_number} (${decree.title}).` } })} className="gap-2">
             <Bot className="h-4 w-4" /> Hỏi AI về văn bản này
           </Button>
           <Button variant="outline" className="gap-2" onClick={handleDownloadPdf}>
