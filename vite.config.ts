@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Tra-c-u-K-To-n-Ki-u-Vi-t/',
+  base: '/Tra-cuu-ke-toan-kieu-vi-t/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
