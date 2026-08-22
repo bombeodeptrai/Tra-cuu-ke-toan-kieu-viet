@@ -42,8 +42,10 @@ export function Header() {
             </SheetContent>
           </Sheet>
           <div className="flex items-center gap-2 font-bold text-lg text-primary">
-            <Building2 className="h-6 w-6" />
-            <span>Kế Toán KV</span>
+            <div className="bg-white p-1 rounded shadow-sm flex items-center">
+              <img src="https://kieuviet.com.vn/wp-content/uploads/2024/10/logo-kieu-viet.png" alt="Kiểu Việt" className="h-7 object-contain" />
+            </div>
+            <span className="hidden sm:inline-block ml-1">Kế Toán</span>
           </div>
         </div>
 
