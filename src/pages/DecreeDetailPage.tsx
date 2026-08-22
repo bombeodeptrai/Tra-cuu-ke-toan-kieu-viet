@@ -1,11 +1,12 @@
 import React from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { ArrowLeft, Share2, Printer, Bot, Heart, FileText, Info } from 'lucide-react';
+import { ArrowLeft, Share2, Printer, Bot, Heart, FileText, Info, Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import html2pdf from 'html2pdf.js';
 import { MOCK_DECREES } from '@/data/mock-decrees';
 import { CATEGORIES, DECREE_STATUS_LABELS } from '@/lib/utils/constants';
 import { formatDate } from '@/lib/utils/format';
@@ -40,6 +41,24 @@ export function DecreeDetailPage() {
   const handleShare = () => {
     navigator.clipboard.writeText(window.location.href);
     toast({ title: '✅ Thành công', description: 'Đã sao chép đường dẫn thành công!' });
+  };
+
+  const handleDownloadPdf = () => {
+    const element = document.getElementById('decree-content');
+    if (!element) return;
+    
+    const opt: any = {
+      margin:       10,
+      filename:     `${decree.decree_number.replace(/\//g, '-')}.pdf`,
+      image:        { type: 'jpeg', quality: 0.98 },
+      html2canvas:  { scale: 2, useCORS: true },
+      jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
+
+    toast({ title: '⏳ Đang tạo PDF', description: 'Vui lòng đợi trong giây lát...' });
+    html2pdf().set(opt).from(element).save().then(() => {
+      toast({ title: '✅ Thành công', description: 'Đã tải xuống tệp PDF!' });
+    });
   };
 
   return (
@@ -81,6 +100,9 @@ export function DecreeDetailPage() {
           <Button onClick={() => navigate('/hoi-dap-ai')} className="gap-2">
             <Bot className="h-4 w-4" /> Hỏi AI về văn bản này
           </Button>
+          <Button variant="outline" className="gap-2" onClick={handleDownloadPdf}>
+            <Download className="h-4 w-4" /> Tải PDF
+          </Button>
           <Button variant="outline" className="gap-2" onClick={handleShare}>
             <Share2 className="h-4 w-4" /> Chia sẻ
           </Button>
@@ -90,25 +112,25 @@ export function DecreeDetailPage() {
           <Button 
             variant="ghost" 
             size="icon" 
-            className="ml-auto"
             onClick={() => toggleBookmark(decree.id)}
+            className={isBookmarked ? "text-red-500 hover:text-red-600 ml-auto" : "text-muted-foreground ml-auto"}
           >
-            <Heart className={`h-5 w-5 ${isBookmarked ? 'fill-red-500 text-red-500' : 'text-muted-foreground'}`} />
+            <Heart className={`h-5 w-5 ${isBookmarked ? 'fill-current' : ''}`} />
           </Button>
         </div>
       </div>
 
-      {/* Content Tabs */}
-      <Tabs defaultValue="content" className="w-full mb-12">
-        <TabsList className="w-full justify-start border-b rounded-none bg-transparent h-auto p-0 mb-6 space-x-6">
-          <TabsTrigger value="content" className="data-[state=active]:border-b-2 data-[state=active]:border-primary data-[state=active]:shadow-none rounded-none py-3 px-1">
-            Nội dung chi tiết
-          </TabsTrigger>
-          <TabsTrigger value="summary" className="data-[state=active]:border-b-2 data-[state=active]:border-primary data-[state=active]:shadow-none rounded-none py-3 px-1">
-            Tóm tắt
-          </TabsTrigger>
-        </TabsList>
-        <TabsContent value="content" className="mt-0">
+      <div id="decree-content">
+        <Tabs defaultValue="content" className="w-full mb-12">
+          <TabsList className="w-full justify-start border-b rounded-none bg-transparent h-auto p-0 mb-6 space-x-6">
+            <TabsTrigger value="content" className="data-[state=active]:border-b-2 data-[state=active]:border-primary data-[state=active]:shadow-none rounded-none py-3 px-1">
+              Nội dung chi tiết
+            </TabsTrigger>
+            <TabsTrigger value="summary" className="data-[state=active]:border-b-2 data-[state=active]:border-primary data-[state=active]:shadow-none rounded-none py-3 px-1">
+              Tóm tắt
+            </TabsTrigger>
+          </TabsList>
+          <TabsContent value="content" className="mt-0">
           <div className="bg-card border rounded-2xl p-6 md:p-10 prose prose-slate dark:prose-invert max-w-none prose-headings:text-primary prose-a:text-primary">
             <ReactMarkdown remarkPlugins={[remarkGfm]}>
               {decree.content.replace(/\n/g, '  \n')}
@@ -122,6 +144,7 @@ export function DecreeDetailPage() {
           </div>
         </TabsContent>
       </Tabs>
+      </div>
 
       {/* Related Decrees */}
       {relatedDecrees.length > 0 && (
