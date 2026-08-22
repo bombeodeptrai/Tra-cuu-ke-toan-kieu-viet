@@ -45,23 +45,33 @@ export function LibraryPage() {
           <h1 className="text-2xl font-bold tracking-tight">Thư viện Nghị Định Kế Toán</h1>
           <p className="text-muted-foreground text-sm">Hiển thị {filteredDecrees.length} văn bản</p>
         </div>
-        <div className="flex bg-muted p-1 rounded-lg">
-          <Button 
-            variant={viewMode === 'grid' ? 'secondary' : 'ghost'} 
-            size="sm" 
-            onClick={() => setViewMode('grid')}
-            className="h-8 px-2"
+        <div className="flex gap-2">
+          <Button
+            variant="outline"
+            size="sm"
+            className="gap-2"
+            onClick={() => window.open('/Tra-c-u-K-To-n-Ki-u-Vi-t/thu-vien-phap-luat.csv', '_blank')}
           >
-            <LayoutGrid className="h-4 w-4" />
+            Xuất Google Sheets (CSV)
           </Button>
-          <Button 
-            variant={viewMode === 'list' ? 'secondary' : 'ghost'} 
-            size="sm" 
-            onClick={() => setViewMode('list')}
-            className="h-8 px-2"
-          >
-            <List className="h-4 w-4" />
-          </Button>
+          <div className="flex bg-muted p-1 rounded-lg">
+            <Button 
+              variant={viewMode === 'grid' ? 'secondary' : 'ghost'} 
+              size="sm" 
+              onClick={() => setViewMode('grid')}
+              className="h-8 px-2"
+            >
+              <LayoutGrid className="h-4 w-4" />
+            </Button>
+            <Button 
+              variant={viewMode === 'list' ? 'secondary' : 'ghost'} 
+              size="sm" 
+              onClick={() => setViewMode('list')}
+              className="h-8 px-2"
+            >
+              <List className="h-4 w-4" />
+            </Button>
+          </div>
         </div>
       </div>
 
