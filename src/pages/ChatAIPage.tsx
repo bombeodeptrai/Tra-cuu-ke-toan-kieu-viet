@@ -12,7 +12,7 @@ import { ChatAttachment } from '@/types/chat';
 
 export function ChatAIPage() {
   const { geminiApiKey } = useSettingsStore();
-  const { sendMessage, isAiTyping, currentSessionId, sessions, createSession, deleteSession } = useChat();
+  const { sendMessage, isAiTyping, currentSessionId, sessions, createSession, deleteSession, setCurrentSession } = useChat();
   const [input, setInput] = useState('');
   const [attachments, setAttachments] = useState<ChatAttachment[]>([]);
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -104,7 +104,11 @@ export function ChatAIPage() {
         <ScrollArea className="flex-1 p-3">
           <div className="space-y-2">
             {sessions.map(session => (
-              <div key={session.id} className={cn("group flex items-center justify-between rounded-lg px-3 py-2 text-sm cursor-pointer transition-colors", currentSessionId === session.id ? "bg-muted font-medium" : "hover:bg-muted/50")} onClick={() => {/* switch session in real app */}}>
+              <div 
+                key={session.id} 
+                className={cn("group flex items-center justify-between rounded-lg px-3 py-2 text-sm cursor-pointer transition-colors", currentSessionId === session.id ? "bg-muted font-medium" : "hover:bg-muted/50")} 
+                onClick={() => setCurrentSession(session.id)}
+              >
                 <div className="flex items-center gap-2 truncate">
                   <MessageSquare className="h-4 w-4 text-primary shrink-0" />
                   <span className="truncate">{session.title || 'Trò chuyện mới'}</span>
