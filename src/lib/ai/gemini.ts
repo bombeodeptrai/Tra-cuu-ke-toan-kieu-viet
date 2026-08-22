@@ -1,6 +1,11 @@
 export class GeminiService {
   private apiKey: string;
-  private endpoint = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:streamGenerateContent';
+  private fallbackModels = [
+    'gemini-3.5-flash',
+    'gemini-3.1-flash-lite',
+    'gemini-2.5-flash',
+    'gemini-2.5-flash-lite'
+  ];
 
   constructor(apiKey: string) {
     this.apiKey = apiKey;
@@ -44,24 +49,48 @@ export class GeminiService {
       }
     };
 
-    const url = `${this.endpoint}?key=${this.apiKey}&alt=sse`;
+    let response: Response | null = null;
+    let usedModel = '';
+    let lastError = '';
 
-    const response = await fetch(url, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(body)
-    });
+    for (const model of this.fallbackModels) {
+      const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:streamGenerateContent?key=${this.apiKey}&alt=sse`;
+      
+      try {
+        const res = await fetch(url, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(body)
+        });
 
-    if (!response.ok) {
-      const errorText = await response.text();
-      throw new Error(`Gemini API Error (${response.status}): ${errorText}`);
+        if (res.ok) {
+          response = res;
+          usedModel = model;
+          break; // Success, exit fallback loop
+        } else {
+          const errorText = await res.text();
+          lastError = `[${model}] Error ${res.status}: ${errorText}`;
+          console.warn(`⚠️ [AI Fallback] ${model} failed. Trying next model...`, lastError);
+          // If it's a 400 Bad Request for something like invalid image format, falling back might not help,
+          // but we do it anyway. If it's 429 Too Many Requests or 404 Not Found, fallback is perfect.
+        }
+      } catch (e: any) {
+        lastError = `[${model}] Network error: ${e.message}`;
+        console.warn(`⚠️ [AI Fallback] ${model} network error. Trying next model...`, e);
+      }
+    }
+
+    if (!response) {
+      throw new Error(`Tất cả các mô hình AI đều đang bận hoặc quá tải. Lỗi cuối cùng: ${lastError}`);
     }
 
     if (!response.body) {
-      throw new Error('Response body is null');
+      throw new Error(`Response body is null (Model used: ${usedModel})`);
     }
+
+    console.log(`✅ [AI] Successfully connected using model: ${usedModel}`);
 
     const reader = response.body.getReader();
     const decoder = new TextDecoder('utf-8');
@@ -99,18 +128,25 @@ export class GeminiService {
   }
 
   async testConnection(): Promise<boolean> {
-    try {
-      const response = await fetch(`${this.endpoint}?key=${this.apiKey}`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          contents: [{ parts: [{ text: 'Hello' }] }],
-          generationConfig: { maxOutputTokens: 10 }
-        })
-      });
-      return response.ok;
-    } catch {
-      return false;
+    for (const model of this.fallbackModels) {
+      try {
+        const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${this.apiKey}`;
+        const response = await fetch(url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: 'Hello' }] }],
+            generationConfig: { maxOutputTokens: 10 }
+          })
+        });
+        
+        if (response.ok) {
+          return true; // Return true as soon as one model works
+        }
+      } catch {
+        continue;
+      }
     }
+    return false;
   }
 }
