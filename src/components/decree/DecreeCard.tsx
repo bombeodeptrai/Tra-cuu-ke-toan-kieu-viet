@@ -14,18 +14,19 @@ interface DecreeCardProps {
 
 export function DecreeCard({ decree, viewMode }: DecreeCardProps) {
   const navigate = useNavigate();
-  const category = CATEGORIES.find(c => c.id === decree.category_id);
-  const colorObj = category ? CATEGORY_COLORS[category.id as keyof typeof CATEGORY_COLORS] || { border: 'border-gray-500', bg: 'bg-gray-100', text: 'text-gray-700' } : { border: 'border-gray-500', bg: 'bg-gray-100', text: 'text-gray-700' };
+  const category = CATEGORIES.find(c => c.slug === decree.category);
+  const borderColorClass = category ? CATEGORY_COLORS[category.slug] || 'border-l-gray-500' : 'border-l-gray-500';
+  const statusInfo = DECREE_STATUS_LABELS[decree.status] || { label: decree.status, color: '' };
 
   if (viewMode === 'list') {
     return (
       <div 
         onClick={() => navigate(`/thu-vien/${decree.id}`)}
-        className="bg-card border border-border p-4 rounded-xl hover:shadow-md transition-shadow cursor-pointer flex flex-col md:flex-row md:items-center gap-4"
+        className={`bg-card border border-border border-l-4 ${borderColorClass} p-4 rounded-xl hover:shadow-md transition-shadow cursor-pointer flex flex-col md:flex-row md:items-center gap-4`}
       >
         <div className="flex items-center gap-3 md:w-1/3">
           <div className={`w-2 h-2 rounded-full ${decree.status === 'active' ? 'bg-green-500' : decree.status === 'expired' ? 'bg-red-500' : 'bg-yellow-500'}`} />
-          <span className={`font-bold whitespace-nowrap text-primary ${colorObj.text}`}>{decree.decree_number}</span>
+          <span className={`font-bold whitespace-nowrap text-primary`}>{decree.decree_number}</span>
           {category && <Badge variant="outline" className="hidden lg:inline-flex">{category.name}</Badge>}
         </div>
         <div className="flex-1">
@@ -45,16 +46,16 @@ export function DecreeCard({ decree, viewMode }: DecreeCardProps) {
   return (
     <div 
       onClick={() => navigate(`/thu-vien/${decree.id}`)}
-      className={`bg-card border border-border border-l-4 ${colorObj.border} p-5 rounded-xl hover:shadow-md transition-all hover:-translate-y-1 cursor-pointer flex flex-col h-full`}
+      className={`bg-card border border-border border-l-4 ${borderColorClass} p-5 rounded-xl hover:shadow-md transition-all hover:-translate-y-1 cursor-pointer flex flex-col h-full`}
     >
       <div className="flex justify-between items-start mb-3 gap-2">
-        <Badge variant={decree.status === 'active' ? 'default' : 'secondary'} className="rounded-sm whitespace-nowrap">
-          {DECREE_STATUS_LABELS[decree.status]}
+        <Badge className={`rounded-sm whitespace-nowrap ${statusInfo.color}`}>
+          {statusInfo.label}
         </Badge>
         {category && <Badge variant="outline" className="truncate shrink">{category.name}</Badge>}
       </div>
       
-      <h3 className={`text-xl font-bold mb-2 ${colorObj.text}`}>{decree.decree_number}</h3>
+      <h3 className={`text-xl font-bold mb-2 text-primary`}>{decree.decree_number}</h3>
       <h4 className="font-medium text-sm line-clamp-2 mb-3 flex-1">{decree.title}</h4>
       <p className="text-sm text-muted-foreground line-clamp-2 mb-4 flex-1">
         {decree.summary}

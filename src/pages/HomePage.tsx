@@ -122,7 +122,7 @@ export function HomePage() {
         </div>
         <div className="space-y-3">
           {recentDecrees.map(decree => {
-            const cat = CATEGORIES.find(c => c.id === decree.category_id);
+            const cat = CATEGORIES.find(c => c.id === decree.category);
             return (
               <div 
                 key={decree.id}

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { LayoutGrid, List, Filter, X } from 'lucide-react';
+import { LayoutGrid, List, Filter, X, Search } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { DecreeCard } from '@/components/decree/DecreeCard';
@@ -23,7 +23,7 @@ export function LibraryPage() {
   }, [initialCategory]);
 
   const filteredDecrees = MOCK_DECREES.filter(d => {
-    if (category !== 'all' && d.category_id !== category) return false;
+    if (category !== 'all' && d.category !== category) return false;
     if (status !== 'all' && d.status !== status) return false;
     if (year !== 'all' && new Date(d.issued_date).getFullYear().toString() !== year) return false;
     return true;

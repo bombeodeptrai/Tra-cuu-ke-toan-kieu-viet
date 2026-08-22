@@ -12,13 +12,13 @@ export interface ChatMessage {
   role: 'user' | 'assistant'
   content: string
   attachments?: ChatAttachment[]
-  timestamp: number
+  timestamp: string | number
 }
 
 export interface ChatSession {
   id: string
   title: string
   messages: ChatMessage[]
-  created_at: number
-  updated_at: number
+  createdAt: string | number
+  updatedAt: string | number
 }

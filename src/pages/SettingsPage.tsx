@@ -8,7 +8,7 @@ import { useSettingsStore } from '@/stores/settings-store';
 import { useToast } from '@/components/ui/use-toast';
 
 export function SettingsPage() {
-  const { theme, setTheme, geminiApiKey, setGeminiApiKey, sheetsApiKey, setSheetsApiKey } = useSettingsStore();
+  const { theme, setTheme, geminiApiKey, setGeminiKey, sheetsApiKey, setSheetsKey } = useSettingsStore();
   const { toast } = useToast();
   
   const [localGeminiKey, setLocalGeminiKey] = useState(geminiApiKey || '');
@@ -16,8 +16,8 @@ export function SettingsPage() {
   const [showGemini, setShowGemini] = useState(false);
 
   const handleSaveApi = () => {
-    setGeminiApiKey(localGeminiKey);
-    setSheetsApiKey(localSheetsKey);
+    setGeminiKey(localGeminiKey);
+    setSheetsKey(localSheetsKey);
     toast({ title: '✅ Thành công', description: 'Đã lưu cấu hình API thành công!' });
   };
 
