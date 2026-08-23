@@ -1,7 +1,45 @@
 # Chuẩn mực kế toán Việt Nam VAS 02 – Hàng tồn kho (VAS 02)
 
 ## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
+# TÓM TẮT CHUYÊN SÂU: CHUẨN MỰC KẾ TOÁN VAS 02 – HÀNG TỒN KHO
+
+Chuẩn mực **VAS 02** quy định nguyên tắc và phương pháp kế toán đối với hàng tồn kho (HTK), làm cơ sở ghi nhận tài sản và chi phí giá vốn hợp lý trên Báo cáo tài chính. Dưới đây là các nội dung cốt lõi và lưu ý thực hành quan trọng:
+
+---
+
+### 1. Nguyên tắc Xác định Giá Gốc HTK
+* **Thành phần cấu thành giá gốc:** Bao gồm toàn bộ chi phí mua, chi phí chế biến và các chi phí liên quan trực tiếp khác để đưa HTK về địa điểm và trạng thái hiện tại.
+  * *Bao gồm:* Giá mua, các loại thuế không hoàn lại (thuế nhập khẩu, thuế BVMT...), chi phí bốc xếp, vận chuyển, bảo quản phát sinh trong quá trình thu mua.
+  * *Giảm trừ:* Chiết khấu thương mại và giảm giá hàng mua phải giảm trừ trực tiếp vào giá gốc.
+* **Chi phí không được tính vào giá gốc (ghi nhận ngay vào CP thời kỳ):**
+  * Hao hụt, lãng phí nguyên vật liệu, nhân công vượt mức bình thường.
+  * Chi phí lưu kho/bảo quản sau giai đoạn mua hàng (trừ khi cần thiết cho quá trình sản xuất tiếp theo).
+  * Chi phí bán hàng và chi phí quản lý doanh nghiệp.
+
+---
+
+### 2. Các Phương pháp Tính Giá Xuất Kho Hợp Lệ
+VAS 02 chỉ cho phép áp dụng **03 phương pháp** tính giá trị xuất kho:
+* **Giá thực tế đích danh:** Áp dụng cho các mặt hàng có giá trị lớn, nhận diện riêng biệt từng lô.
+* **Bình quân gia quyền:** Tính theo bình quân cả kỳ dự trữ hoặc bình quân sau mỗi lần nhập (bình quân liên hoàn).
+* **Nhập trước – Xuất trước (FIFO):** Giả định lô hàng nhập trước sẽ xuất trước. Hàng tồn cuối kỳ phản ánh giá nhập gần nhất (phù hợp với hàng có hạn sử dụng).
+* ⚠️ **Lưu ý trọng yếu:** VAS 02 (tương đồng với IAS 2) **loại bỏ hoàn toàn phương pháp LIFO** (Nhập sau – Xuất trước). Doanh nghiệp cần nhất quán phương pháp tính giá đã lựa chọn trong suốt niên độ kế toán.
+
+---
+
+### 3. Nguyên tắc Đánh giá Lại Cuối Kỳ & Trích Lập Dự Phòng (Lower of Cost and NRV)
+* **Nguyên tắc Thận trọng:** HTK được ghi nhận theo **giá thấp hơn giữa Giá gốc và Giá trị thuần có thể thực hiện được (NRV)**.
+* **Xác định NRV:**
+  $$\text{NRV} = \text{Giá bán ước tính} - \text{Chi phí ước tính để hoàn thiện} - \text{Chi phí bán hàng ước tính}$$
+* **Hạch toán trích lập:** Khi $\text{NRV} < \text{Giá gốc}$, kế toán phải lập dự phòng giảm giá HTK:
+  $$\text{Nợ TK 632 / Có TK 2294} = \text{Giá gốc} - \text{NRV}$$
+
+---
+
+### 4. Trọng tâm Kiểm soát dành cho Kế toán viên
+1. **Phân loại chi phí chuẩn xác:** Tránh vốn hóa sai các chi phí bất thường hoặc chi phí quản lý vào giá gốc làm sai lệch giá trị tài sản và lãi gộp.
+2. **Ảnh hưởng của FIFO trong lạm phát:** Khi giá cả thị trường tăng, FIFO sẽ làm giá vốn thấp hơn và lợi nhuận thuần cao hơn, dẫn tới nghĩa vụ thuế TNDN tăng tương ứng.
+3. **Thủ tục trích lập dự phòng cuối kỳ:** Cần thu thập đầy đủ bằng chứng thị trường (báo giá, hợp đồng bán sau ngày khóa sổ) để chứng minh giá trị NRV, bảo đảm việc trích lập dự phòng đúng quy định của Thông tư hướng dẫn hiện hành.
 
 ---
 
@@ -103,6 +141,7 @@ Trích dự phòng giảm giá HTK (theo TT 48/2019):
 Nợ TK 632
    Có TK 2294 (số = Giá gốc - NRV)
 ```
+
 
 
 

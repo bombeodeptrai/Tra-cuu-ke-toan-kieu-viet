@@ -1,33 +1,33 @@
 # Quyết định 87/2025/QĐ-UBND Bảng giá tính thuế tài nguyên 2026 tỉnh Gia Lai (87/2025/QĐ-UBND)
 
 ## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-# TÓM TẮT CHUYÊN SÂU: QUYẾT ĐỊNH 87/2025/QĐ-UBND - BẢNG GIÁ TÍNH THUẾ TÀI NGUYÊN 2026 TỈNH GIA LAI
+# TÓM TẮT CHUYÊN SÂU: QUYẾT ĐỊNH 87/2025/QĐ-UBND – BẢNG GIÁ TÍNH THUẾ TÀI NGUYÊN NĂM 2026 TỈNH GIA LAI
 
-Quyết định số **87/2025/QĐ-UBND** của UBND tỉnh Gia Lai ban hành Bảng giá tính thuế tài nguyên áp dụng cho năm tài chính **2026**. Đối với kế toán doanh nghiệp hoạt động trong lĩnh vực khai thác, xây dựng và khoáng sản trên địa bàn tỉnh, đây là căn cứ pháp lý cốt lõi để thực hiện nghĩa vụ thuế. 
+**Quyết định 87/2025/QĐ-UBND** là căn cứ pháp lý quan trọng quy định bảng giá tối thiểu làm cơ sở tính thuế tài nguyên áp dụng cho niên độ tài chính 2026 đối với các doanh nghiệp, tổ chức, cá nhân có hoạt động khai thác tài nguyên trên địa bàn tỉnh Gia Lai.
 
-Dưới đây là các phân tích chuyên sâu và lưu ý quan trọng dành cho kế toán viên:
+---
 
-### 1. Nguyên tắc xác định giá tính thuế (Tránh rủi ro truy thu)
-Doanh nghiệp cần đặc biệt lưu ý nguyên tắc so sánh chéo để xác định giá tính thuế tài nguyên:
-*   **Trường hợp Giá hóa đơn > Giá UBND quy định:** Áp dụng giá tính thuế theo **giá ghi trên hóa đơn** (chưa bao gồm VAT).
-*   **Trường hợp Giá hóa đơn ≤ Giá UBND quy định:** Bắt buộc áp dụng giá tính thuế theo **Bảng giá của Quyết định này**.
-*   *Ý nghĩa:* Giá của UBND tỉnh đóng vai trò là **giá sàn (giá tối thiểu)** để tính thuế. Doanh nghiệp không thể giảm số thuế phải nộp bằng cách xuất hóa đơn dưới giá quy định.
+### 1. Nguyên tắc cốt lõi về xác định giá tính thuế (Trọng tâm kế toán)
+Kế toán viên cần áp dụng nguyên tắc **"Lấy giá cao hơn giữa Hóa đơn và Bảng giá quy định"** để lập tờ khai thuế tài nguyên:
+* **Trường hợp 1 (Giá bán $\ge$ Giá quy định):** Khi đơn giá bán tài nguyên chưa bao gồm VAT ghi trên hóa đơn cao hơn hoặc bằng giá tại Quyết định 87/2025/QĐ-UBND $\rightarrow$ **Áp dụng giá thực tế trên hóa đơn** để tính thuế.
+* **Trường hợp 2 (Giá bán < Giá quy định):** Khi đơn giá xuất bán ghi trên hóa đơn thấp hơn giá quy định $\rightarrow$ **Bắt buộc áp dụng theo mức giá tại Quyết định 87/2025/QĐ-UBND**. Kế toán không được dùng giá bán thực tế thấp hơn để giảm trừ nghĩa vụ thuế.
 
-### 2. Định mức giá một số khoáng sản phổ biến cần cập nhật
-Kế toán cần đồng bộ ngay hệ thống ERP/phần mềm kế toán và tờ khai thuế tài nguyên năm 2026 với các mức giá (đơn vị: đồng/m³) sau đây:
-*   **Cát xây dựng (cát vàng):** 250.000 VNĐ/m³
-*   **Đá chẻ:** 220.000 VNĐ/m³
-*   **Đá xây dựng (đá hộc):** 180.000 VNĐ/m³
-*   **Cát san lấp:** 120.000 VNĐ/m³
-*   **Đất san lấp:** 45.000 VNĐ/m³
+---
 
-### 3. Lưu ý quan trọng về rủi ro điều chỉnh giá giữa năm
-*   **Quy luật biến động 20%:** Sở Tài chính, Sở Tài nguyên và Môi trường cùng Cục Thuế tỉnh sẽ giám sát liên tục giá thị trường. Nếu giá thị trường biến động tăng hoặc giảm **từ 20% trở lên**, UBND tỉnh sẽ ban hành quyết định điều chỉnh kịp thời.
-*   **Khuyến nghị:** Kế toán không được chủ quan coi bảng giá này là cố định suốt năm 2026. Cần theo dõi sát diễn biến thị trường và các văn bản sửa đổi (nếu có) để tránh việc áp sai giá tối thiểu, dẫn đến việc bị phạt chậm nộp và khai sai thuế.
+### 2. Mức giá tham chiếu một số khoáng sản xây dựng thông thường
+Doanh nghiệp khai thác, kinh doanh vật liệu xây dựng cần cập nhật ngay hệ thống phần mềm kế toán theo các mức giá chuẩn (đơn vị: đồng/$\text{m}^3$):
+* **Cát xây dựng (cát vàng):** 250.000 đ/$\text{m}^3$
+* **Đá chẻ:** 220.000 đ/$\text{m}^3$
+* **Đá xây dựng (đá hộc):** 180.000 đ/$\text{m}^3$
+* **Cát san lấp:** 120.000 đ/$\text{m}^3$
+* **Đất san lấp:** 45.000 đ/$\text{m}^3$
 
-### 4. Hành động thực tế cho kế toán viên
-*   **Thiết lập hệ thống:** Cập nhật bảng giá mới vào danh mục hàng hóa/thuế suất trên phần mềm từ ngày 01/01/2026.
-*   **Kiểm soát nội bộ:** Khi lập tờ khai thuế tài nguyên mẫu 01/TAIN, phải đối chiếu đơn giá bán thực tế của từng lô hàng với bảng giá của Quyết định 87 để chọn đúng đơn giá tính thuế hợp lệ.
+---
+
+### 3. Lưu ý nghiệp vụ và Quản trị rủi ro thuế
+* **Cơ chế điều chỉnh giá:** Cơ quan quản lý sẽ kiến nghị điều chỉnh bảng giá khi giá thị trường biến động **tăng/giảm từ 20% trở lên**. Kế toán cần theo dõi sát các văn bản sửa đổi bổ sung trong năm 2026 để kịp thời cập nhật.
+* **Kiểm soát rủi ro kê khai sai:** Việc xuất hóa đơn với đơn giá thấp nhưng kê khai thuế tài nguyên theo đúng giá hóa đơn (thay vì áp giá sàn của tỉnh) là lỗi thường gặp, dễ dẫn đến rủi ro bị cơ quan thuế ấn định thuế, truy thu và phạt vi phạm hành chính.
+* **Liên kết Phí BVMT:** Rà soát lại việc quy đổi sản lượng tài nguyên khai thác thực tế để đảm bảo tính đồng bộ giữa tờ khai Thuế tài nguyên và Phí bảo vệ môi trường đối với hoạt động khai thác khoáng sản.
 
 ---
 
@@ -100,6 +100,7 @@ Kế toán cần đồng bộ ngay hệ thống ERP/phần mềm kế toán và 
 
 ## 3. Trách nhiệm thực hiện
 Sở Tài chính chủ trì, phối hợp với Sở Tài nguyên và Môi trường và Cục Thuế tỉnh thường xuyên theo dõi diễn biến giá tài nguyên trên thị trường. Nếu giá thị trường biến động tăng/giảm trên 20%, phải tham mưu UBND tỉnh điều chỉnh kịp thời.
+
 
 
 
