@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { ArrowLeft, Share2, Printer, Bot, Heart, FileText, Info, Download } from 'lucide-react';
+import { 
+  ArrowLeft, Calendar, FileText, Download, Building, 
+  Tag, Clock, AlertTriangle, CheckCircle, Bot,
+  Info, Share2, Printer, Heart 
+} from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
@@ -122,12 +126,18 @@ export function DecreeDetailPage() {
             ) : decree.pdf_url ? (
               <Button asChild variant="outline" className="gap-2">
                 <a href={pdfLink} download>
-                  <Download className="h-4 w-4" /> Tải PDF gốc
+                  <Download className="h-4 w-4" /> Tải Văn bản gốc
+                </a>
+              </Button>
+            ) : decree.source_url ? (
+              <Button asChild variant="outline" className="gap-2">
+                <a href={decree.source_url} target="_blank" rel="noopener noreferrer">
+                  <Info className="h-4 w-4" /> Xem trên trang gốc
                 </a>
               </Button>
             ) : (
               <Button variant="outline" className="gap-2" disabled>
-                <Download className="h-4 w-4" /> Chưa có file PDF
+                <Download className="h-4 w-4" /> Chưa có file gốc
               </Button>
             )}
           </div>
