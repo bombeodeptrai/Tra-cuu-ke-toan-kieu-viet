@@ -1,84 +1,230 @@
-# LUẬT KẾ TOÁN SỐ 88/2015/QH13
+# Luật Kế toán số 88/2015/QH13 (88/2015/QH13)
 
-## 1. Phạm vi điều chỉnh và Đối tượng áp dụng
-
-### Điều 1 – Phạm vi điều chỉnh
-Luật này quy định về nội dung công tác kế toán, tổ chức bộ máy kế toán, người làm kế toán, hoạt động kinh doanh dịch vụ kế toán, quản lý nhà nước về kế toán.
-
-### Điều 2 – Đối tượng áp dụng
-Luật áp dụng với: cơ quan có nhiệm vụ thu chi ngân sách nhà nước; cơ quan nhà nước, đơn vị sự nghiệp; tổ chức có sử dụng kinh phí ngân sách nhà nước; doanh nghiệp thuộc mọi thành phần kinh tế; hợp tác xã, liên hiệp hợp tác xã; hộ kinh doanh, tổ hợp tác...
+## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
+> *Lỗi tạo tóm tắt tự động*
 
 ---
 
-## 2. Các Nguyên tắc Kế toán Cốt lõi (Điều 6)
+## 📜 TOÀN VĂN VĂN BẢN
+  Document Content body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; } p { margin: 10px 0; }
 
-Luật quy định **10 nguyên tắc kế toán bắt buộc**:
+**Thông tư**
 
-| Nguyên tắc | Nội dung |
-|---|---|
-| **Cơ sở dồn tích** | Mọi nghiệp vụ kinh tế, tài chính được ghi nhận vào thời điểm phát sinh, không căn cứ vào thời điểm thực thu, thực chi tiền |
-| **Hoạt động liên tục** | Báo cáo tài chính phải được lập trên cơ sở giả định doanh nghiệp đang hoạt động liên tục |
-| **Giá gốc** | Tài sản phải được ghi nhận theo giá gốc (trừ trường hợp pháp luật có quy định khác) |
-| **Phù hợp** | Doanh thu và chi phí phát sinh phải được ghi nhận đồng thời |
-| **Nhất quán** | Chính sách kế toán phải được áp dụng nhất quán qua các kỳ kế toán |
-| **Thận trọng** | Phải lập các khoản dự phòng nhưng không quá mức cho phép |
-| **Trọng yếu** | Thông tin được coi là trọng yếu nếu việc thiếu/sai có thể ảnh hưởng đến quyết định của người sử dụng BCTC |
+**Quy định kiểm tra về chất lượng sản phẩm trong sản xuất thuộc phạm vi quản lý của Bộ Công Thương**
 
----
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-## 3. Chứng từ Kế toán (Chương II, Điều 16-24)
+Căn cứ Nghị định số 95/2012/NĐ-CP ngày 12 tháng 11 năm 2012 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công Thương;
 
-### Điều 16 – Nội dung chứng từ kế toán (BẮT BUỘC)
-Chứng từ kế toán phải có **7 nội dung chủ yếu**:
-1. Tên và số hiệu của chứng từ kế toán
-2. Ngày, tháng, năm lập chứng từ kế toán
-3. Tên, địa chỉ của đơn vị hoặc cá nhân lập chứng từ kế toán
-4. Tên, địa chỉ của đơn vị hoặc cá nhân nhận chứng từ kế toán
-5. Nội dung nghiệp vụ kinh tế, tài chính phát sinh
-6. Số lượng, đơn giá và số tiền của nghiệp vụ kinh tế, tài chính ghi bằng số; tổng số tiền của chứng từ kế toán dùng để thu, chi tiền ghi bằng số và bằng chữ
-7. Chữ ký, dấu của người lập, người duyệt và những người có liên quan đến chứng từ kế toán
+Căn cứ Luật Chất lượng sản phẩm, hàng hóa ngày 21 tháng 11 năm 2007;
 
-> **Lưu ý thực tế:** Thiếu bất kỳ nội dung nào trong 7 yếu tố trên có thể khiến chứng từ không hợp lệ, chi phí bị loại khỏi chi phí được trừ khi tính thuế TNDN.
+Căn cứ Nghị định số 132/2008/NĐ-CP ngày 31 tháng 12 năm 2008 của Chính phủ quy định chi tiết thi hành một số điều của Luật Chất lượng sản phẩm, hàng hóa;
 
-### Điều 18 – Ký chứng từ kế toán
-Chứng từ kế toán phải có đủ chữ ký. Chữ ký trên chứng từ kế toán phải được ký bằng loại mực không phai. Không được ký chứng từ kế toán bằng mực đỏ hoặc đóng dấu chữ ký khắc sẵn.
+Theo đề nghị của Vụ trưởng Vụ Khoa học và Công nghệ,
 
----
+Bộ trưởng Bộ Công Thương ban hành Thông tư quy định kiểm tra về chất lượng sản phẩm trong sản xuất thuộc phạm vi quản lý của Bộ Công Thương.
 
-## 4. Tài khoản và Sổ Kế toán (Điều 25-32)
+Chương I QUY ĐỊNH CHUNG
 
-### Điều 25 – Tài khoản kế toán
-Tài khoản kế toán dùng để phân loại và hệ thống hóa các nghiệp vụ kinh tế, tài chính theo nội dung kinh tế. Hệ thống tài khoản kế toán bao gồm các tài khoản cấp 1, cấp 2, cấp 3...
+Điều 1. Phạm vi điều chỉnh
 
-### Điều 26 – Hệ thống sổ kế toán
-Doanh nghiệp phải mở sổ kế toán, ghi chép, quản lý, bảo quản sổ kế toán theo quy định. Sổ kế toán gồm:
-- **Sổ kế toán tổng hợp:** Sổ Nhật ký, Sổ Cái
-- **Sổ kế toán chi tiết:** Sổ chi tiết, Thẻ kế toán chi tiết
+1.    Thông tư này quy định về nội dung, trình tự, thủ tục và tổ chức thực hiện kiểm tra về chất lượng sản phẩm trong sản xuất thuộc trách nhiệm quản lý của Bộ Công Thương.
 
----
+2.     Sản phẩm trong sản xuất thuộc phạm vi điều chỉnh của Thông tư này được quy định tại điểm đ Khoản 2 Điều 32 Nghị định số 132/2008/NĐ-CP ngày 31 tháng 12 năm 2008 của Chính phủ quy định chi tiết thi hành một số điều của Luật Chất lượng sản phẩm, hàng hóa, trừ các sản phẩm quy định tại Khoản 3 Điều này.
 
-## 5. Báo cáo Tài chính (Điều 29-33)
+3.    Sản phẩm không thuộc phạm vi điều chỉnh của Thông tư này gồm:
 
-### Điều 29 – Nội dung báo cáo tài chính
-BCTC năm của doanh nghiệp bao gồm:
-1. **Bảng cân đối kế toán** (Balance Sheet)
-2. **Báo cáo kết quả hoạt động kinh doanh** (P&L)
-3. **Báo cáo lưu chuyển tiền tệ** (Cash Flow Statement)
-4. **Thuyết minh báo cáo tài chính** (Notes to Financial Statements)
+a) Hóa chất, vật liệu nổ công nghiệp, phân bón;
 
-### Điều 30 – Kỳ kế toán
-- **Kỳ kế toán năm:** 12 tháng, tính từ đầu ngày 01 tháng 01 đến hết ngày 31 tháng 12 năm dương lịch
-- Trường hợp đặc biệt có thể áp dụng năm tài chính khác năm dương lịch nhưng phải được cơ quan nhà nước có thẩm quyền chấp thuận
+b)   Máy, thiết bị có yêu cầu nghiêm ngặt về an toàn lao động thuộc phạm vi quản lý nhà nước của Bộ Công Thương;
 
----
+c)   Dịch vụ trong lĩnh vực công nghiệp và thương mại;
 
-## 6. Các Hành vi Bị nghiêm cấm (Điều 13)
+d)   Thương mại điện tử;
 
-**14 hành vi nghiêm cấm trong kế toán:**
-1. Giả mạo, khai man chứng từ kế toán, sổ kế toán, báo cáo tài chính
-2. Cố ý, thỏa thuận hoặc ép buộc người khác giả mạo, khai man chứng từ kế toán
-3. Lập hai hệ thống sổ kế toán trở lên hoặc cung cấp, công bố các báo cáo tài chính có số liệu không đồng nhất
-4. Để ngoài sổ kế toán tài sản của đơn vị kế toán hoặc tài sản liên quan đến đơn vị kế toán
-5. Hủy bỏ hoặc cố ý làm hư hỏng tài liệu kế toán trước thời hạn lưu trữ
+đ) Các sản phẩm đã có quy định kiểm tra chất lượng trong sản xuất tại các Thông tư khác do Bộ Công Thương ban hành.
 
-> ⚠️ **Cảnh báo pháp lý:** Vi phạm các điều khoản nghiêm cấm có thể bị xử phạt từ 5 triệu đến 30 triệu đồng theo Nghị định 41/2018/NĐ-CP, hoặc truy cứu trách nhiệm hình sự theo Điều 221 Bộ luật Hình sự 2015 (tội vi phạm quy định về kế toán gây hậu quả nghiêm trọng).
+Điều 2. Đối tượng áp dụng
+
+Thông tư này áp dụng đối với:
+
+1.   Tổ chức, cá nhân sản xuất sản phẩm thuộc trách nhiệm quản lý của Bộ Công Thương quy định tại Khoản 2 Điều 1 Thông tư này;
+
+2.   Cơ quan quản lý nhà nước về chất lượng sản phẩm, hàng hóa;
+
+3.   Tổ chức, cá nhân khác có liên quan.
+
+Điều 3. Căn cứ và hình thức kiểm tra chất lượng sản phẩm trong sản xuất
+
+1.    Việc kiểm tra chất lượng sản phẩm trong sản xuất được thực hiện theo kế hoạch hằng năm do cơ quan có thẩm quyền phê duyệt.
+
+2.    Việc kiểm tra chất lượng sản phẩm trong sản xuất được thực hiện đột xuất khi có một trong các căn cứ sau:
+
+a)    Thông tin, cảnh báo về hàng hóa sản xuất trong nước để xuất khẩu không phù hợp với các điều kiện quy định tại Điều 32 Luật Chất lượng sản phẩm, hàng hóa;
+
+b)   Kết quả khảo sát hoặc kiểm tra chất lượng hàng hóa lưu thông trên thị trường của cơ quan kiểm tra phát hiện hàng hóa có chất lượng không phù hợp với tiêu chuẩn công bố áp dụng/ quy chuẩn kỹ thuật/ quy định kỹ thuật tương ứng;
+
+c)   Thông tin xác thực của tổ chức, cá nhân trong và ngoài nước phản ánh về chất lượng sản phẩm, hàng hóa.
+
+3.    Việc kiểm tra chất lượng sản phẩm trong sản xuất quy định tại Khoản 1 và Khoản 2 Điều này được thực hiện dưới hình thức đoàn kiểm tra. Đoàn kiểm tra được thành lập theo quy định tại Điều 48 Luật Chất lượng sản phẩm hàng hóa.
+
+Điều 4. Nguyên tắc kiểm tra
+
+Hoạt động kiểm tra chất lượng phải bảo đảm nguyên tắc sau:
+
+1.    Bảo đảm phân công phân cấp rõ ràng, phối hợp hiệu quả; không được gây sách nhiễu, phiền hà làm ảnh hưởng đến hoạt động của cơ sở sản xuất được kiểm tra.
+
+2.   Khách quan, chính xác, công khai, minh bạch, không phân biệt đối xử.
+
+3.    Việc kiểm tra căn cứ các quy định kỹ thuật, quy chuẩn kỹ thuật, tiêu chuẩn công bố áp dụng, quy định về nhãn và các biện pháp quản lý nhà nước về chất lượng sản phẩm trong sản xuất.
+
+4.   Bảo vệ bí mật thông tin, tài liệu, kết quả kiểm tra của cơ quan kiểm tra, cơ sở sản xuất khi chưa có kết luận chính thức.
+
+5.    Chịu trách nhiệm trước pháp luật về kết quả kiểm tra, kết luận có liên
+
+quan.
+
+Chương II
+
+NỘI DUNG, TRÌNH Tự THỦ TỤC KIỂM TRA VÀ XỬ LÝ VI PHẠM TRONG QUÁ TRÌNH KIỂM TRA CHẤT LƯỢNG SẢN PHẨM TRONG SẢN XUẤT
+
+Điều 5. Nội dung kiểm tra chất lượng sản phẩm trong sản xuất
+
+1\. Kiểm tra việc thực hiện các yêu cầu quy định liên quan đến điều kiện của quá trình sản xuất và các biện pháp quản lý nhà nước về chất lượng sản phẩm trong sản xuất, bao gồm:
+
+a)   Kiểm tra hồ sơ chứng nhận hợp quy, công bố hợp quy (đối với các sản phẩm, hàng hóa phải chứng nhận và công bố hợp quy); hồ sơ công bố hợp chuẩn (đối với các sản phẩm, hàng hóa công bố hợp chuẩn); hồ sơ chứng nhận hệ thống quản lý chất lượng phù hợp tiêu chuẩn (đối với sản phẩm áp dụng hệ thống Quản lý chất lượng); hồ sơ kiểm tra chất lượng sản phẩm, hàng hóa (đối với sản phẩm, hàng hóa áp dụng các quy định kỹ thuật tương ứng);
+
+b)   Kiểm tra việc thực hiện công bố tiêu chuẩn áp dụng theo quy định tại Điều 23 Luật Chất lượng sản phẩm, hàng hóa;
+
+c)    Kiểm tra việc ghi nhãn, nội dung thông tin cảnh báo (đối với các sản phẩm, hàng hóa có quy định về thể hiện thông tin cảnh báo); hồ sơ thông tin, quảng cáo (đối với sản phẩm, hàng hóa có thông tin quảng cáo); thể hiện dấu hợp quy (đối với sản phẩm, hàng hóa phải chứng nhận và công bố hợp quy), dấu hợp chuẩn (đối với sản phẩm, hàng hóa được chứng nhận phù hợp tiêu chuẩn) và các tài liệu đi kèm sản phẩm cần kiểm tra;
+
+d)   Trường hợp trong quy chuẩn kỹ thuật tương ứng có quy định liên quan đến điều kiện của quá trình sản xuất thì kiểm tra việc thực hiện các quy định này trong quá trình sản xuất sản phẩm;
+
+đ) Kiểm tra việc thực hiện các biện pháp quản lý nhà nước khác về chất lượng sản phẩm trong sản xuất do cơ quan có thẩm quyền quy định.
+
+2.   Kiểm tra công tác kiểm soát quá trình sản xuất của cơ sở sản xuất liên quan đến việc tạo thành sản phẩm và duy trì sự đảm bảo chất lượng bao gồm:
+
+a)   Kiểm tra hồ sơ kỹ thuật của sản phẩm (tài liệu thiết kế, tiêu chuẩn kỹ thuật của sản phẩm);
+
+b)   Kiểm tra toàn bộ hoặc một trong các giai đoạn của quá trình sản xuất (từ đầu vào, qua các giai đoạn trung gian cho đến khi hình thành sản phẩm bao gồm cả quá trình bao gói, xếp dỡ, lưu kho và vận chuyển sản phẩm);
+
+c)   Kiểm tra chất lượng nguyên vật liệu (theo quy định kỹ thuật/ tiêu chuẩn công bố áp dụng/ quy chuẩn kỹ thuật tương ứng và việc sử dụng nguyên liệu bị cấm, nguyên vật liệu quá hạn sử dụng);
+
+d)    Kiểm tra việc thực hiện các yêu cầu về trang thiết bị công nghệ và trang thiết bị đo lường, kiểm tra, thử nghiệm;
+
+đ) Kiểm tra hồ sơ tay nghề công nhân và cán bộ kỹ thuật;
+
+e)   Các nội dung kỹ thuật cần thiết khác.
+
+3.   Trong trường hợp cần thiết, cơ quan kiểm tra có thể sử dụng chuyên gia thực hiện việc đánh giá theo các yêu cầu của quy định kỹ thuật / quy chuẩn kỹ thuật tương ứng. Chuyên gia đánh giá phải độc lập, khách quan và chịu trách nhiệm trước pháp luật về kết quả đánh giá của mình.
+
+4.   Thử nghiệm mẫu để kiểm tra sự phù hợp của sản phẩm với quy định kỹ thuật/ tiêu chuẩn công bố áp dụng/ quy chuẩn kỹ thuật tương ứng thực hiện theo quy định của pháp luật.
+
+Trưởng đoàn kiểm tra quyết định việc lấy mẫu sản phẩm để thử nghiệm như sau:
+
+a)   Mẫu được lấy theo phương pháp lấy mẫu quy định tại quy định kỹ thuật, tiêu chuẩn, quy chuẩn kỹ thuật tương ứng. Trường hợp không có quy định về phương pháp lấy mẫu thì lấy mẫu theo nguyên tắc ngẫu nhiên, đảm bảo mẫu là đại diện cho lô sản phẩm. Mỗi mẫu được chia làm 03 (ba) đơn vị mẫu, trong đó: một đơn vị mẫu được đưa đi thử nghiệm, một đơn vị mẫu lưu tại cơ quan kiểm tra và đơn vị mẫu còn lại giao cho đối tượng được kiểm tra lưu giữ và bảo quản;
+
+b)   Mẫu sản phẩm sau khi lấy phải được niêm phong (Mẫu số 4 tại Phụ lục kèm theo Thông tư), lập biên bản (Mẫu số 3 tại Phụ lục ban hành kèm theo Thông tư này) có chữ ký của người lấy mẫu, đại diện cơ sở được lấy mẫu. Trường hợp đại diện cơ sở được lấy mẫu không ký vào biên bản lấy mẫu và niêm phong mẫu thì đoàn kiểm tra mời người chứng kiến theo quy định của pháp luật và ghi rõ trong biên bản: "đại diện cơ sở không ký vào biên bản lấy mẫu, niêm phong mẫu", biên bản lấy mẫu, niêm phong mẫu có chữ ký của người lấy mẫu, trưởng đoàn kiểm tra và người chứng kiến theo quy định của pháp luật;
+
+c) Trong thời hạn tối đa 03 (ba) ngày làm việc kể từ ngày lấy mẫu, đoàn kiểm tra có trách nhiệm gửi mẫu sản phẩm đến tổ chức thử nghiệm được chỉ định để thử nghiệm.
+
+Điều 6. Chi phí lấy mẫu và thử nghiệm mẫu
+
+Chi phí lấy mẫu và thử nghiệm mẫu thực hiện theo định mức quy định tại Thông tư liên tịch số 28/2010/TTLT-BTC-BKHCN ngày 03 tháng 3 năm 2010 của Bộ Tài chính và Bộ Khoa học và Công nghệ hướng dẫn quản lý và sử dụng kinh phí đối với hoạt động kiểm tra nhà nước về chất lượng sản phẩm, hàng hóa.
+
+Điều 7. Trình tự và thủ tục kiểm tra
+
+Đoàn kiểm tra tiến hành kiểm tra theo trình tự, thủ tục sau:
+
+1.   Xuất trình quyết định kiểm tra (Mẫu số 1 tại Phụ lục ban hành kèm theo Thông tư này) trước khi kiểm tra.
+
+2.   Tiến hành kiểm tra theo nội dung quy định tại Điều 5 Thông tư này.
+
+3.    Lập biên bản kiểm tra (Mẫu số 2 tại Phụ lục ban hành kèm theo Thông tư này) có chữ ký của đại diện cơ sở được kiểm tra, đoàn kiểm tra. Trường hợp đại diện cơ sở được kiểm tra không ký biên bản thì đoàn kiểm tra ghi rõ trong biên bản "đại diện cơ sở không ký biên bản", biên bản có chữ ký của trưởng đoàn kiểm tra, các thành viên đoàn kiểm tra và người chứng kiến.
+
+4.     Trong trường hợp cần lấy mẫu hàng hóa phục vụ thử nghiệm, đoàn kiểm tra lấy mẫu theo quy định tại Khoản 4 Điều 5 Thông tư này.
+
+5.   Báo cáo cơ quan kiểm tra hoặc người ra quyết định kiểm tra về kết quả kiểm tra.
+
+6.   Xử lý kết quả kiểm tra
+
+a)   Trường hợp không phát hiện vi phạm, đoàn kiểm tra, cơ quan kiểm tra ra thông báo sản phẩm được tiếp tục sản xuất, lưu thông (Mẫu số 10 tại Phụ lục ban hành kèm theo Thông tư này) và ghi rõ sản phẩm không vi phạm quy định tại Thông tư này.
+
+b)   Trường hợp phát hiện vi phạm thì đoàn kiểm tra, cơ quan kiểm tra thực hiện xử lý vi phạm theo quy định tại Điều 8 Thông tư này.
+
+Điều 8. Xử lý vi phạm trong quá trình kiểm tra
+
+1\. Trong quá trình kiểm tra chất lượng sản phẩm trong sản xuất, trường hợp phát hiện cơ sở sản xuất vi phạm thì xử lý như sau:
+
+a) Đoàn kiểm tra lập biên bản, yêu cầu cơ sở sản xuất thực hiện các biện pháp khắc phục trong thời hạn quy định ghi rõ trong biên bản. Trong thời gian thực hiện các biện pháp khắc phục, cơ sở sản xuất không được phép đưa sản phẩm không phù hợp ra lưu thông trên thị trường.
+
+Cơ sở sản xuất chỉ được đưa sản phẩm ra lưu thông sau khi đã khắc phục theo đúng các yêu cầu của đoàn kiểm tra, báo cáo việc khắc phục bằng văn bản cho cơ quan kiểm tra và được cơ quan kiểm tra ra thông báo sản phẩm được tiếp tục sản xuất, lưu thông (Mầu số 10 tại Phụ lục kèm theo Thông tư này);
+
+b)    Trường hợp sau khi có yêu cầu của đoàn kiểm tra mà cơ sở sản xuất vần tiếp tục vi phạm thì tùy theo tính chất, mức độ vi phạm, mức độ và quy mô ảnh hưởng, cơ quan kiểm tra chất lượng sản phẩm, hàng hóa trong thời hạn 07 (bảy) ngày làm việc (kể từ ngày có kết luận về sự tiếp tục vi phạm của cơ sở sản xuất), thông báo công khai trên phương tiện thông tin đại chúng (báo, đài phát thanh, đài truyền hình) địa phương hoặc Trung ương tên, địa chỉ của cơ sở sản xuất, tên sản phẩm không phù hợp và mức độ không phù hợp của sản phẩm (Mầu số 6 tại Phụ lục ban hành kèm theo Thông tư này);
+
+c)    Sau khi có thông báo công khai trên phương tiện thông tin đại chúng mà cơ sở sản xuất vần tiếp tục vi phạm thì cơ quan kiểm tra chất lượng sản phẩm, hàng hóa trong thời hạn 05 (năm) ngày làm việc (kể từ ngày có thông báo công khai trên phương tiện thông tin đại chúng), lập biên bản vi phạm hành chính, chuyển hồ sơ theo quy định tại Khoản 3 Điều này, kiến nghị cơ quan nhà nước có thẩm quyền xử lý theo quy định của pháp luật.
+
+2\. Trong quá trình kiểm tra chất lượng sản phẩm trong sản xuất mà kết quả thử nghiệm hoặc có bằng chứng khẳng định sản phẩm không phù hợp với quy định kỹ thuật/ tiêu chuẩn công bố áp dụng/ quy chuẩn kỹ thuật tương ứng đe dọa đến sự an toàn của người, động vật, thực vật, tài sản, môi trường thì xử lý như sau:
+
+a)     Thông báo kết quả thử nghiệm mầu sản phẩm không đảm bảo chất lượng (Mầu số 5 tại Phụ lục ban hành kèm theo Thông tư này) cho cơ sở sản xuất được kiểm tra trong thời hạn 05 (năm) ngày làm việc, kể từ ngày nhận được kết quả thử nghiệm mầu;
+
+b)   Trưởng đoàn kiểm tra lập biên bản vi phạm hành chính (Mầu số 12 tại Phụ lục ban hành kèm theo Thông tư này), lập biên bản niêm phong (Mầu số 8 tại Phụ lục ban hành kèm theo Thông tư này) và niêm phong lô sản phẩm không phù hợp tại nơi sản xuất, kho hàng (Mầu số 9 tại Phụ lục ban hành kèm theo Thông tư này); Cơ quan kiểm tra chất lượng sản phẩm, hàng hóa ra thông báo tạm đình chỉ sản xuất, lưu thông sản phẩm không phù hợp (Mầu số 7 tại Phụ lục ban hành kèm theo Thông tư này), yêu cầu cơ sở sản xuất thu hồi sản phẩm không phù hợp đã được đưa ra thị trường, thông báo công khai trên phương tiện thông tin đại chúng, đồng thời chuyển hồ sơ theo quy định tại Khoản 3 Điều này và kiến nghị cơ quan nhà nước có thẩm quyền xử lý theo quy định của pháp luật;
+
+c)   Cơ sở sản xuất chỉ được phép tiếp tục sản xuất sản phẩm sau khi đã thực hiện khắc phục, chấp hành việc xử lý, đồng thời báo cáo bằng văn bản cho cơ  
+quan kiểm tra để cơ quan kiểm tra tiến hành tái kiểm tra và ra thông báo sản phẩm được tiếp tục sản xuất, lưu thông (Mầu số 10 tại Phụ lục ban hành kèm theo Thông tư này).
+
+3.    Hồ sơ chuyển cơ quan nhà nước có thẩm quyền xử lý vi phạm, bao gồm: Quyết định kiểm tra, biên bản kiểm tra, thông báo kết quả thử nghiệm Mầu hoặc bằng chứng khẳng định sản phẩm không phù hợp, biên bản vi phạm hành chính, biên bản niêm phong, thông báo tạm đình chỉ sản xuất, công văn của cơ quan kiểm tra đề nghị cơ quan có thẩm quyền tiến hành các thủ tục xử lý theo quy định của pháp luật.
+
+4.    Cơ quan nhà nước có thẩm quyền xử lý vi phạm; có trách nhiệm xem xét, xử lý theo quy định của pháp luật và thông báo cho cơ quan kiểm tra biết kết quả xử lý để theo dõi, tổng hợp.
+
+Chương III ĐIỀU KHOẢN THI HÀNH
+
+Điều 9. Tổ chức thực hiện
+
+1.   Vụ Khoa học và Công nghệ là cơ quan đầu mối kiểm tra chất lượng sản phẩm trong sản xuất thuộc phạm vi quản lý của Bộ Công Thương. Cụ thể:
+
+a)    Chủ trì, phối hợp với các cơ quan, đơn vị có liên quan thực hiện kiểm tra về chất lượng sản phẩm trong sản xuất theo quy định tại Khoản 1, Khoản 2 Điều 3 Thông tư này;
+
+b)   Tổng hợp, báo cáo tình hình kiểm tra về chất lượng sản phẩm trong sản xuất theo quy định tại Thông tư này;
+
+c)    Tổng hợp kế hoạch, dự toán kinh phí kiểm tra chất lượng sản phẩm trong sản xuất hằng năm của Bộ Công Thương để trình cấp có thẩm quyền phê duyệt và tổ chức thực hiện;
+
+d)    Chịu trách nhiệm đôn đốc, hướng dần, kiểm tra việc thực hiện Thông tư này.
+
+2.    Các Tổng Cục, Cục, Vụ thuộc Bộ Công Thương và cơ quan quản lý nhà nước có liên quan:
+
+a)     Chủ trì việc kiểm tra về chất lượng sản phẩm trong sản xuất thuộc phạm vi quản lý của Bộ Công Thương theo quy định tại Khoản 2 Điều 3 Thông tư này;
+
+b)    Phối hợp và tham gia thực hiện việc kiểm tra chất lượng sản phẩm trong sản xuất theo chức năng, nhiệm vụ được giao;
+
+c) Đề xuất kế hoạch kiểm tra chất lượng sản phẩm trong sản xuất hằng năm đối với sản phẩm thuộc phạm vi quản lý của đơn vị và gửi về Vụ Khoa học và Công nghệ.
+
+3.     Sở Công Thương có trách nhiệm chủ trì, phối hợp với các đơn vị, tổ chức có liên quan tổ chức kiểm tra chất lượng sản phẩm trong sản xuất quy định tại Khoản 2 Điều 1 của Thông tư này trên địa bàn. Cụ thể như sau:
+
+a)   Thực hiện kiểm tra về chất lượng sản phẩm trong sản xuất trên địa bàn được giao theo quy định của pháp luật;
+
+b)    Trường hợp phát hiện hàng hóa lưu thông trên thị trường không bảo đảm các quy định về chất lượng mà hàng hóa đó được sản xuất tại địa phương khác hoặc thuộc thẩm quyền của cơ quan quản lý ngành, lĩnh vực khác thì xử lý theo thẩm quyền, đồng thời thông báo bằng văn bản cho cơ quan kiểm tra tương ứng tại địa phương nơi sản xuất hàng hóa đó để phối hợp tổ chức kiểm tra trong sản xuất theo quy định;
+
+c)    Xây dựng kế hoạch, dự toán kinh phí kiểm tra chất lượng sản phẩm trong sản xuất hằng năm để trình Ủy ban nhân dân tỉnh/ thành phố trực thuộc Trung ương phê duyệt và tổ chức thực hiện;
+
+d)    Gửi kế hoạch kiểm tra chất lượng sản phẩm trong sản xuất hằng năm đã được Ủy ban nhân dân tỉnh/ thành phố trực thuộc Trung ương phê duyệt về Vụ Khoa học và Công nghệ, Bộ Công Thương;
+
+đ) Báo cáo Ủy ban nhân dân tỉnh/ thành phố trực thuộc Trung ương và Bộ Công Thương (qua Vụ Khoa học và Công nghệ) định kỳ 6 (sáu) tháng, hằng năm, đột xuất về tình hình và kết quả kiểm tra. Nội dung báo cáo theo Mẫu số 11 tại Phụ lục ban hành kèm theo Thông tư.
+
+4.   Tổ chức, cá nhân sản xuất sản phẩm có trách nhiệm:
+
+a)   Đảm bảo sản phẩm sản xuất đáp ứng được yêu cầu về chất lượng theo quy định;
+
+b)   Thu hồi, xử lý đối với hàng hóa không bảo đảm chất lượng do tổ chức, cá nhân bán ra thị trường. Trong trường hợp phải tiêu hủy sản phẩm không đảm bảo chất lượng thì phải chịu toàn bộ chi phí cho việc tiêu hủy hàng hóa và chịu trách nhiệm về hậu quả của việc tiêu hủy hàng hóa theo pháp luật;
+
+c)    Chấp hành quy định về xử lý vi phạm trong quá trình kiểm tra chất lượng sản phẩm trong sản xuất của cơ quan quản lý nhà nước có thẩm quyền;
+
+d)    Chấp hành việc kiểm tra nhà nước đối với chất lượng sản phẩm trong sản xuất của cơ quan quản lý nhà nước có thẩm quyền.
+
+Điều 10. Hiệu lực thi hành
+
+1\. Thông tư này có hiệu lực kể từ ngày 01 tháng 7 năm 2016.
+
+2.    Trường hợp các văn bản quy phạm pháp luật được viện dẫn trong Thông tư này được sửa đổi, bổ sung hoặc thay thế thì thực hiện theo văn bản mới.
+
+3.     Trong quá trình thực hiện, trường hợp có vướng mắc, các cơ quan, tổ chức, cá nhân kịp thời phản ánh về Bộ Công Thương (qua Vụ Khoa học và Công nghệ) để xem xét, giải quyết./.

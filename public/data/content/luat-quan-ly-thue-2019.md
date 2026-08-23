@@ -1,3 +1,11 @@
+# Luật Quản lý thuế số 38/2019/QH14 (38/2019/QH14)
+
+## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
+> *Lỗi tạo tóm tắt tự động*
+
+---
+
+## 📜 TOÀN VĂN VĂN BẢN
 # LUẬT QUẢN LÝ THUẾ SỐ 38/2019/QH14
 
 ## 1. Phạm vi và Nguyên tắc Quản lý Thuế

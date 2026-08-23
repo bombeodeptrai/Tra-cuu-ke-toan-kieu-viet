@@ -1,3 +1,11 @@
+# Chuẩn mực kế toán Việt Nam VAS 01 – Chuẩn mực chung (VAS 01)
+
+## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
+> *Lỗi tạo tóm tắt tự động*
+
+---
+
+## 📜 TOÀN VĂN VĂN BẢN
 # CHUẨN MỰC KẾ TOÁN VAS 01 – CHUẨN MỰC CHUNG
 
 ## 1. Mục đích và Phạm vi Áp dụng

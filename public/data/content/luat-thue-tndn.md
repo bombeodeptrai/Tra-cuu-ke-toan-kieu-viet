@@ -1,77 +1,99 @@
-# LUẬT THUẾ THU NHẬP DOANH NGHIỆP
+# Luật Thuế Thu nhập doanh nghiệp số 14/2008/QH12 (sửa đổi, bổ sung 2022) (14/2008/QH12)
 
-## 1. Thu nhập Chịu thuế (Điều 3)
-
-**Thu nhập chịu thuế TNDN bao gồm:**
-- Thu nhập từ hoạt động sản xuất, kinh doanh hàng hóa, dịch vụ
-- Thu nhập từ chuyển nhượng vốn, chuyển nhượng bất động sản
-- Thu nhập từ quyền sở hữu, quyền sử dụng tài sản
-- Thu nhập từ chuyển nhượng, cho thuê, thanh lý tài sản
-- Thu nhập từ lãi tiền gửi, cho vay vốn, bán ngoại tệ
-- Khoản nợ khó đòi đã xóa nay đòi được
-- Khoản thu từ hoạt động sản xuất, kinh doanh ở nước ngoài
+## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
+> *Lỗi tạo tóm tắt tự động*
 
 ---
 
-## 2. Chi phí được Trừ (Điều 9) – QUAN TRỌNG NHẤT
+## 📜 TOÀN VĂN VĂN BẢN
+  Document Content body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; } p { margin: 10px 0; }
 
-### Điều 9, Khoản 1 – Điều kiện để chi phí được trừ:
+**NGHỊ QUYẾT**
 
-> *"Các khoản chi được trừ khi xác định thu nhập chịu thuế nếu đáp ứng đủ các điều kiện sau đây:*
-> *a) Khoản chi thực tế phát sinh liên quan đến hoạt động sản xuất, kinh doanh của doanh nghiệp;*
-> *b) Khoản chi có đủ hoá đơn, chứng từ hợp pháp theo quy định của pháp luật;*
-> *c) Khoản chi nếu có hoá đơn mua hàng hoá, dịch vụ từng lần có giá trị từ 20 triệu đồng trở lên (giá đã bao gồm thuế GTGT) khi thanh toán phải có chứng từ thanh toán không dùng tiền mặt."*
+**Về việc Quy định mức học phí đối với giáo dục mầm non**
 
-### Các chi phí KHÔNG được trừ (Điều 9, Khoản 2):
+**và phổ thông công lập năm học 2013** \- **2014 trên địa bàn tỉnh Sơn La**
 
-| Chi phí không được trừ | Lý do |
-|---|---|
-| Phạt vi phạm hành chính, truy thu thuế | Không liên quan SXKD |
-| Chi phí lãi vay vốn phục vụ sản xuất kinh doanh vượt tỷ lệ | Quy định tại NĐ 132/2020 (≤30% EBITDA với giao dịch liên kết) |
-| Chi tiền ăn giữa ca vượt mức quy định | Vượt 730,000 đồng/người/tháng |
-| Tiền lương, tiền công của chủ hộ kinh doanh | Không phải là lao động làm công ăn lương |
-| Chi phí quản lý doanh nghiệp do nước ngoài phân bổ | Không hợp lệ theo TT 96/2015 |
-| Trích dự phòng không đúng quy định | Phải theo TT 48/2019 |
-| Chi từ thiện, tài trợ không đúng đối tượng | Chỉ tổ chức từ thiện được nhà nước công nhận |
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
----
+**HỘI ĐỒNG NHÂN DÂN TỈNH SƠN LA**
 
-## 3. Xác định Thu nhập Chịu thuế
+**KHÓA XIII, KỲ HỌP THỨ 6**
 
-**Công thức:**
-```
-Thu nhập chịu thuế = Doanh thu - Chi phí được trừ + Các khoản thu nhập khác
-Thu nhập tính thuế = Thu nhập chịu thuế - Thu nhập miễn thuế - Lỗ kết chuyển
-Thuế TNDN phải nộp = Thu nhập tính thuế × Thuế suất
-```
+Căn cứ Luật Tổ chức HĐND và UBND ngày 26 tháng 11 năm 2003; Luật Ngân sách Nhà nước ngày 16 tháng 12 năm 2002; Luật Ban hành văn bản quy phạm pháp luật của HĐND và UBND ngày 03 tháng 12 năm 2004;
 
----
+Căn cứ Nghị định số 49/2010/NĐ-CP ngày 14 tháng 5 năm 2010 của Chính phủ về việc quy định về miễn, giảm học phí, hỗ trợ chi phí học tập và cơ chế thu, sử dụng học phí đối với cơ sở giáo dục thuộc hệ thống giáo dục quốc dân từ năm học 2010 - 2011 đến năm học 2014 - 2015;
 
-## 4. Thuế suất (Điều 10)
+Xét Tờ trình số 93/TTr-UBND ngày 03 tháng 6 năm 2013 của UBND tỉnh về việc đề nghị ban hành Nghị quyết Quy định mức học phí đối với giáo dục mầm non và phổ thông công lập năm học 2013 - 2014 trên địa bàn tỉnh Sơn La; Báo cáo thẩm tra số 251/BC-HĐND ngày 04 tháng 7 năm 2013 của Ban Văn hóa - Xã hội HĐND tỉnh và tổng hợp ý kiến thảo luận của các vị đại biểu HĐND tỉnh tại kỳ họp,
 
-| Đối tượng | Thuế suất |
-|---|---|
-| Doanh nghiệp thông thường | **20%** |
-| Doanh nghiệp dầu khí | 25–50% |
-| Hoạt động khai thác tài nguyên quý hiếm | 40–50% |
+**QUYẾT NGHỊ:**
 
----
+**Điều 1.** Quy định mức học phí đối với giáo dục mầm non và phổ thông công lập năm học 2013 - 2014 trên địa bàn tỉnh Sơn La như sau:
 
-## 5. Ưu đãi Thuế TNDN (Điều 13-15)
+**STT**
 
-### Điều 13 – Thuế suất ưu đãi
-- **10%** trong 15 năm: dự án đầu tư tại địa bàn đặc biệt khó khăn, KCX, KCN, KKT, KCN công nghệ cao
-- **10%** trong suốt thời gian hoạt động: giáo dục, y tế, môi trường, KH&CN, nhà ở xã hội
+**Cấp học**
 
-### Điều 14 – Miễn giảm thuế TNDN
-- **Miễn 4 năm, giảm 50% trong 9 năm tiếp:** dự án đầu tư mới tại địa bàn đặc biệt khó khăn
-- **Miễn 2 năm, giảm 50% trong 4 năm tiếp:** dự án đầu tư mới tại địa bàn khó khăn
-- **Miễn 2 năm, giảm 50% trong 4 năm tiếp:** doanh nghiệp sử dụng từ 30% lao động là người khuyết tật, sau cai nghiện
+**Đơn vị tính**
 
----
+**Khu vực và mức học phí**
 
-## 6. Kết chuyển Lỗ (Điều 16)
+**Phường, thị trấn**
 
-> *"Doanh nghiệp sau khi quyết toán thuế mà bị lỗ thì được chuyển lỗ sang năm sau. Số lỗ này được trừ vào thu nhập chịu thuế. Thời gian chuyển lỗ tính liên tục không quá 5 năm, kể từ năm tiếp sau năm phát sinh lỗ."*
+**Xã khu vực I**
 
-**Lưu ý quan trọng:** Chỉ được chuyển lỗ từ hoạt động SXKD. Lỗ từ chuyển nhượng BĐS chỉ được bù trừ với lãi từ chuyển nhượng BĐS.
+**Xã khu vực II**
+
+**Xã khu vực III**
+
+1
+
+Giáo dục
+
+mầm non
+
+Đồng/tháng/
+
+học sinh
+
+28.500
+
+14.500
+
+10.000
+
+7.000
+
+2
+
+Giáo dục
+
+phổ thông
+
+(Cấp THCS, THPT)
+
+Đồng/tháng/
+
+học sinh
+
+40.000
+
+22.000
+
+14.500
+
+7.000
+
+              (_Xã khu vực I, II, III theo danh mục ban hành kèm theo các Quyết định về công nhận 3 khu vực vùng dân tộc thiểu số và miền núi của Chính phủ và Ủy ban Dân tộc của Chính phủ_)
+
+**Điều 2. Hiệu lực thi hành**
+
+ Nghị quyết này có hiệu lực kể từ ngày 01 tháng 9 năm 2013.
+
+**Điều 3. Tổ chức thực hiện**
+
+1\. Giao UBND tỉnh đăng ký với Bộ Giáo dục và Đào tạo về lộ trình điều chỉnh học phí theo đề nghị của Bộ Giáo dục - Đào tạo và thống nhất với Thường trực HĐND tỉnh, các Ban của HĐND tỉnh trước khi tổ chức thực hiện.
+
+2\. Thường trực HĐND, các Ban của HĐND và các vị đại biểu HĐND tỉnh giám sát việc thực hiện Nghị quyết.
+
+Nghị quyết này đã được HĐND tỉnh Sơn La khoá XIII, kỳ họp thứ 6 thông qua ngày 12 tháng 7 năm 2013./.

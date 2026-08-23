@@ -1,3 +1,11 @@
+# Chuẩn mực kế toán Việt Nam VAS 14 – Doanh thu và Thu nhập khác (VAS 14)
+
+## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
+> *Lỗi tạo tóm tắt tự động*
+
+---
+
+## 📜 TOÀN VĂN VĂN BẢN
 # CHUẨN MỰC KẾ TOÁN VAS 14 – DOANH THU VÀ THU NHẬP KHÁC
 
 ## 1. Ghi nhận Doanh thu Bán Hàng hóa (Đoạn 10-12)
