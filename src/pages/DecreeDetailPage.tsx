@@ -30,9 +30,19 @@ export function DecreeDetailPage() {
       if (decree.content_url) {
         setIsLoadingContent(true);
         const basePath = import.meta.env.BASE_URL || '/';
-        fetch(basePath.replace(/\/$/, '') + decree.content_url)
-          .then(res => res.text())
-          .then(text => setContent(text))
+        const contentPath = basePath.replace(/\/$/, '') + decree.content_url;
+        fetch(contentPath)
+          .then(res => {
+            if (!res.ok) throw new Error('Không tìm thấy nội dung');
+            return res.text();
+          })
+          .then(text => {
+            if (text.includes('> *Lỗi tạo tóm tắt tự động*') || text.includes('Lỗi gọi AI:')) {
+              text = text.replace(/> \*Lỗi tạo tóm tắt tự động\*/g, '> *⚠️ Hệ thống AI hiện đang bị quá tải (do giới hạn từ Google). Tóm tắt chuyên sâu sẽ tự động cập nhật sau ít phút. Trong lúc chờ đợi, anh/chị vui lòng tham khảo chi tiết ở phần Toàn văn bên dưới.*');
+              text = text.replace(/Lỗi gọi AI: Bad status \d+:[\s\S]*?(?=---|$)/g, '> *⚠️ Hệ thống AI hiện đang bị quá tải. Tóm tắt sẽ cập nhật sau.* \n\n');
+            }
+            setContent(text);
+          })
           .catch(() => setContent('Lỗi tải nội dung.'))
           .finally(() => setIsLoadingContent(false));
       } else {
