@@ -1,5 +1,31 @@
 [
   {
+    "id": "nd-180-2024-nd-cp",
+    "decree_number": "180/2024/NĐ-CP",
+    "title": "Nghị định 180/2024/NĐ-CP quy định chính sách giảm thuế giá trị gia tăng theo Nghị quyết 174/2024/QH15",
+    "summary": "Nghị định quy định chính sách giảm thuế giá trị gia tăng (GTGT) từ 10% xuống 8% áp dụng cho một số nhóm hàng hóa, dịch vụ trong nửa đầu năm 2025.",
+    "category": "nghi-dinh",
+    "issued_date": "2024-12-31",
+    "effective_date": "2025-01-01",
+    "status": "active",
+    "source_url": "https://thuvienphapluat.vn/van-ban/Thue-Phi-Le-Phi/Nghi-dinh-180-2024-ND-CP-giam-thue-gia-tri-gia-tang-637748.aspx",
+    "pdf_url": "/data/pdfs/nd-180-2024-nd-cp.pdf",
+    "content_url": "/data/content/nd-180-2024-nd-cp.md"
+  },
+  {
+    "id": "tt-24-2024-tt-btc",
+    "decree_number": "24/2024/TT-BTC",
+    "title": "Thông tư 24/2024/TT-BTC hướng dẫn chế độ kế toán hành chính, sự nghiệp",
+    "summary": "Thông tư hướng dẫn danh mục tài khoản kế toán, chứng từ, sổ kế toán và lập báo cáo tài chính áp dụng cho các cơ quan, đơn vị hành chính sự nghiệp từ năm tài chính 2025.",
+    "category": "thong-tu",
+    "issued_date": "2024-04-17",
+    "effective_date": "2025-01-01",
+    "status": "active",
+    "source_url": "https://thuvienphapluat.vn/van-ban/Ke-toan-Kiem-toan/Thong-tu-24-2024-TT-BTC-huong-dan-che-do-ke-toan-hanh-chinh-su-nghiep-607238.aspx",
+    "pdf_url": "/data/pdfs/tt-24-2024-tt-btc.pdf",
+    "content_url": "/data/content/tt-24-2024-tt-btc.md"
+  },
+  {
     "id": "qd-87-2025-gialai",
     "decree_number": "87/2025/QĐ-UBND",
     "title": "Quyết định 87/2025/QĐ-UBND Bảng giá tính thuế tài nguyên 2026 tỉnh Gia Lai",

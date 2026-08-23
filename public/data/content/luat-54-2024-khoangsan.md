@@ -1,7 +1,34 @@
 # Luật Địa chất và Khoáng sản số 54/2024/QH15 (54/2024/QH15)
 
 ## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
+# TÓM TẮT CHUYÊN SÂU: THÔNG TƯ 47/2024/TT-BTC QUY ĐỊNH PHÍ KHAI THÁC DỮ LIỆU ĐO ĐẠC VÀ BẢN ĐỒ
+
+Thông tư số **47/2024/TT-BTC** do Bộ Tài chính ban hành ngày 10/07/2024 (có hiệu lực từ **01/09/2024**, thay thế Thông tư 196/2016/TT-BTC) quy định chi tiết về mức thu, chế độ thu, nộp, miễn, quản lý và sử dụng phí khai thác, sử dụng thông tin dữ liệu đo đạc và bản đồ thuộc tài sản công.
+
+Dưới đây là các điểm trọng tâm chuyên sâu dành cho kế toán viên và bộ phận tài chính:
+
+### 1. Phân loại Đối tượng & Chính sách Ưu đãi Phí
+* **Người nộp phí:** Tổ chức, cá nhân đề nghị cung cấp dữ liệu đo đạc và bản đồ.
+* **Tổ chức thu phí:** Cơ quan nhà nước, đơn vị sự nghiệp công lập có thẩm quyền cung cấp dữ liệu.
+* **Mức thu cơ bản:** Áp dụng theo Biểu mức thu ban hành kèm Thông tư (Ví dụ: Số liệu tọa độ quốc gia Cấp 0 là 340.000 đồng/điểm; Hạng I là 250.000 đồng/điểm; Hạng II là 220.000 đồng/điểm).
+* **Mức thu ưu đãi (Giảm 40% - Thu 60%):** Áp dụng khi Bộ trưởng Bộ Công an, Bộ trưởng Bộ Quốc phòng, Chủ tịch UBND cấp tỉnh đề nghị khai thác phục vụ mục đích quốc phòng, an ninh (trong điều kiện thông thường).
+* **Miễn phí 100%:** Áp dụng cho các đề nghị phục vụ quốc phòng, an ninh hoặc phòng, chống thiên tai **trong tình trạng khẩn cấp**.
+
+### 2. Quy trình Kê khai, Nộp tiền & Quyết toán (Dành cho Kế toán Thu phí)
+* **Thời hạn nộp vào Kho bạc Nhà nước (KBNN):** Chậm nhất ngày **05 hằng tháng**, tổ chức thu phí phải gửi toàn bộ số tiền phí thu được của tháng trước vào tài khoản phí chờ nộp ngân sách tại KBNN.
+* **Kê khai & Nộp ngân sách:** Thực hiện kê khai, nộp và quyết toán theo Thông tư 74/2022/TT-BTC, Luật Quản lý thuế và các Nghị định hướng dẫn (NĐ 126/2020/NĐ-CP, NĐ 91/2022/NĐ-CP). Phí do Trung ương quản lý thu nộp vào ngân sách trung ương; do địa phương quản lý thu nộp vào ngân sách địa phương.
+* **Hóa đơn, chứng từ:** Sử dụng chứng từ thu phí, hóa đơn theo đúng Nghị định 123/2020/NĐ-CP và Thông tư 78/2021/TT-BTC.
+
+### 3. Tỷ lệ Trích để lại & Phân bổ Nguồn thu
+* **Trường hợp đơn vị được khoán chi:**
+  * **Trích để lại:** **60%** tổng số tiền phí thu được để trang trải chi phí hoạt động cung cấp dịch vụ và thu phí (theo Nghị định 82/2023/NĐ-CP).
+  * **Nộp Ngân sách Nhà nước (NSNN):** **40%** số tiền phí thu được.
+* **Trường hợp cơ quan nhà nước không được khoán chi:**
+  * Nộp **100%** tiền phí thu được vào NSNN. 
+  * Chi phí hoạt động do NSNN bố trí trong dự toán hằng năm.
+
+### 4. Lưu ý Chuyển tiếp & Hiệu lực Pháp lý
+* Bộ phận kế toán cần cập nhật bãi bỏ các quy định cũ tại Thông tư 196/2016/TT-BTC, Điều 4 Thông tư 55/2018/TT-BTC, và một số nội dung tại Thông tư 33/2019/TT-BTC từ ngày **01/09/2024**.
 
 ---
 

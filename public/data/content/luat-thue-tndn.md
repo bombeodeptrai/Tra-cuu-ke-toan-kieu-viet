@@ -1,7 +1,32 @@
 # Luật Thuế Thu nhập doanh nghiệp số 14/2008/QH12 (sửa đổi, bổ sung 2022) (14/2008/QH12)
 
 ## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
+# TÓM TẮT CHUYÊN SÂU TÀI CHÍNH - KẾ TOÁN
+**Về Nghị quyết Quy định mức học phí mầm non và phổ thông công lập năm học 2013 - 2014 trên địa bàn tỉnh Sơn La**
+
+Bản tóm tắt phân tích dưới góc độ quản lý tài chính và kế toán đơn vị sự nghiệp công lập đối với văn bản quy định mức thu học phí trên địa bàn tỉnh Sơn La.
+
+---
+
+### 1. Ý nghĩa Pháp lý và Quản lý Tài chính
+Văn bản là căn cứ pháp lý bắt buộc để các cơ sở giáo dục mầm non, THCS, THPT công lập trên địa bàn tỉnh Sơn La thực hiện **xây dựng dự toán thu, hạch toán doanh thu học phí** và lập quyết toán tài chính cho năm học 2013 - 2014.
+
+### 2. Các điểm trọng tâm kế toán cần nắm vững
+
+* **Đơn giá thu theo phân vùng địa lý:**
+  Kế toán viên cần xác định chính xác địa bàn hoạt động của đơn vị dựa trên Danh mục phân loại vùng dân tộc thiểu số và miền núi của Chính phủ/Ủy ban Dân tộc để áp dụng đúng khung giá:
+  * **Giáo dục Mầm non:** 28.500 đ/tháng/HS (Phường, thị trấn); 14.500 đ (Xã KV I); 10.000 đ (Xã KV II); 7.000 đ (Xã KV III).
+  * **Giáo dục Phổ thông (THCS, THPT):** 40.000 đ/tháng/HS (Phường, thị trấn); 22.000 đ (Xã KV I); 14.500 đ (Xã KV II); 7.000 đ (Xã KV III).
+
+* **Thời điểm ghi nhận & Hiệu lực hạch toán:**
+  Nghị quyết có hiệu lực áp dụng từ ngày **01/09/2013**. Kế toán bắt đầu thực hiện thu và ghi nhận doanh thu/nguồn thu sự nghiệp kể từ kỳ kế toán tháng 9/2013.
+
+### 3. Rủi ro nghiệp vụ & Lưu ý quan trọng khi áp dụng
+
+1. **Khái toán và áp sai phân vùng địa lý:** Việc xác định sai phân khu vực (Xã KV I, II, III) sẽ dẫn đến việc **thu thừa hoặc thu thiếu học phí**, gây sai lệch báo cáo tài chính và bị xuất toán khi cơ quan kiểm toán/thanh tra làm việc.
+2. **Đồng bộ với chính sách miễn, giảm:** Phải áp dụng song song với *Nghị định 49/2010/NĐ-CP* để lập danh sách học sinh thuộc diện miễn, giảm học phí, hỗ trợ chi phí học tập; từ đó hạch toán chính xác phần ngân sách nhà nước cấp bù hoặc giảm trừ doanh thu.
+3. **Quản lý và trích lập nguồn kinh phí:** Nguồn thu học phí phải được quản lý, sử dụng và trích lập nguồn cải cách tiền lương, trích lập các quỹ của đơn vị sự nghiệp công lập đúng quy định pháp luật hiện hành.
+4. **Theo dõi lộ trình điều chỉnh:** UBND tỉnh sẽ thống nhất với HĐND để điều chỉnh lộ trình học phí theo hướng dẫn của Bộ GD&ĐT, do đó kế toán cần chủ động cập nhật các văn bản điều chỉnh cho các kỳ tài chính tiếp theo.
 
 ---
 

@@ -1,0 +1,1 @@
+Thông tư 24/2024/TT-BTC thay thế Thông tư 107/2017/TT-BTC, quy định chế độ kế toán đối với cơ quan nhà nước, đơn vị sự nghiệp công lập, tổ chức chính trị - xã hội. Thông tư cập nhật quy trình hạch toán kế toán, hệ thống tài khoản và mẫu biểu báo cáo tài chính phù hợp với chuẩn mực kế toán công.

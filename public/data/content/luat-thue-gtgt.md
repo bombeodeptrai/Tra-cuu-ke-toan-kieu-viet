@@ -1,7 +1,33 @@
 # Luật Thuế Giá trị gia tăng số 13/2008/QH12 (sửa đổi, bổ sung 2024) (13/2008/QH12)
 
 ## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
+# TÓM TẮT CHUYÊN SÂU: CÁC ĐIỂM BẮT BUỘC KẾ TOÁN CẦN NẮM VỀ LUẬT THUẾ GTGT
+
+Văn bản quy định toàn diện về đối tượng, giá tính thuế, thuế suất và nguyên tắc khấu trừ/hoàn thuế. Dưới đây là phân tích chuyên sâu và các lưu ý trọng yếu dành cho kế toán viên:
+
+### 1. Phân biệt "Không chịu thuế" và "Thuế suất 0%" (Rủi ro chi phí/thuế lớn nhất)
+* **Đối tượng KHÔNG chịu thuế (Điều 5):** Bao gồm 25 nhóm (nông sản thô, giống cây trồng, dịch vụ cấp tín dụng, chuyển nhượng vốn, y tế, giáo dục, phần mềm máy tính...).
+  * **Lưu ý nghiệp vụ:** Doanh nghiệp **KHÔNG được khấu trừ và hoàn thuế GTGT đầu vào** tương ứng với các hàng hóa, dịch vụ này. Thuế đầu vào phải hạch toán vào chi phí hoặc nguyên giá tài sản.
+* **Thuế suất 0% (Điều 8.1):** Áp dụng cho hàng hóa, dịch vụ xuất khẩu, vận tải quốc tế.
+  * **Lưu ý nghiệp vụ:** Doanh nghiệp **ĐƯỢC khấu trừ và hoàn thuế GTGT đầu vào**.
+  * **Ngoại lệ (Không được áp 0%):** Chuyển giao công nghệ, quyền SHTT ra nước ngoài; tái bảo hiểm ra nước ngoài; cấp tín dụng, chuyển nhượng vốn ra nước ngoài; xuất khẩu tài nguyên/khoáng sản thô.
+
+### 2. Nguyên tắc xác định Giá tính thuế theo từng loại hình (Điều 7)
+Kế toán cần lưu ý công thức xác định doanh thu tính thuế trong các trường hợp đặc thù:
+* **Hàng biếu, tặng, trao đổi, tiêu dùng nội bộ:** Giá tính thuế là giá của hàng hóa, dịch vụ **cùng loại hoặc tương đương** tại thời điểm phát sinh. *(Bắt buộc xuất hóa đơn và tính thuế GTGT đầu ra)*.
+* **Bán trả góp, trả chậm:** Chỉ tính thuế GTGT trên **giá bán trả một lần** (chưa thuế), *loại trừ hoàn toàn* khoản lãi trả góp/trả chậm.
+* **Kinh doanh Bất động sản:** Giá tính thuế = Giá bán BĐS (chưa GTGT) **trừ (-)** Giá chuyển quyền sử dụng đất hoặc tiền thuê đất nộp NSNN.
+* **Doanh thu ngoại tệ:** Bắt buộc quy đổi ra VNĐ theo **tỷ giá giao dịch bình quân** trên thị trường ngoại tệ liên ngân hàng do NHNN công bố tại thời điểm phát sinh doanh thu.
+
+### 3. Thuế suất ưu đãi 5% (Điều 8.2)
+* Tập trung vào nhóm hàng hóa/dịch vụ đầu vào nông nghiệp và đầu ra thiết yếu (nước sạch, phân bón, quặng phân bón, thuốc bảo vệ thực vật, thức ăn chăn nuôi, dịch vụ nông nghiệp...). 
+* *Lưu ý:* Kế toán phải hạch toán riêng doanh thu hàng 5% để tránh bị áp mức thuế suất phổ thông.
+
+---
+⚠️ **3 RỦI RO KẾ TOÁN THƯỜNG GẶP CẦN TRÁNH:**
+1. **Kê khai nhầm:** Tự ý kê khai khấu trừ thuế đầu vào của các hoạt động kinh doanh hàng hóa *Không chịu thuế*.
+2. **Bỏ sót nghĩa vụ thuế:** Không lập hóa đơn/không tính thuế GTGT đầu ra cho hàng hóa *tiêu dùng nội bộ, biếu tặng*.
+3. **Tính sai giá:** Tính luôn tiền lãi trả góp/trả chậm vào giá tính thuế GTGT.
 
 ---
 

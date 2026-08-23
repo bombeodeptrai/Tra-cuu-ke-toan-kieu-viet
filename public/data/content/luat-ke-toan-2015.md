@@ -1,7 +1,40 @@
 # Luật Kế toán số 88/2015/QH13 (88/2015/QH13)
 
 ## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
+# TÓM TẮT CHUYÊN SÂU: THÔNG TƯ QUY ĐỊNH KIỂM TRA CHẤT LƯỢNG SẢN PHẨM TRONG SẢN XUẤT CỦA BỘ CÔNG THƯƠNG
+
+*Lưu ý nghiệp vụ:* Nội dung văn bản cung cấp thuộc **Thông tư của Bộ Công Thương về kiểm tra chất lượng sản phẩm trong sản xuất**. Dưới góc độ Kế toán - Tài chính - Pháp lý, văn bản này tác động trực tiếp đến quản trị rủi ro hàng tồn kho, tính hợp lý của chi phí và rủi ro pháp lý tài chính của doanh nghiệp sản xuất.
+
+---
+
+### 1. Ý nghĩa & Phạm vi áp dụng
+* **Phạm vi:** Điều chỉnh việc kiểm tra chất lượng sản phẩm trong sản xuất thuộc Bộ Công Thương (trừ hóa chất, vật liệu nổ, phân bón, máy móc yêu cầu nghiêm ngặt an toàn lao động, thương mại điện tử).
+* **Ý nghĩa:** Định hình cơ sở pháp lý cho hoạt động thanh/kiểm tra; giúp kế toán và nhà quản lý nhận diện sớm rủi ro dừng sản xuất, tiêu hủy hàng hóa hoặc bị xử phạt hành chính làm tổn hại dòng tiền.
+
+---
+
+### 2. Các điểm trọng yếu Kế toán viên cần kiểm soát
+
+* **Hồ sơ chất lượng là chứng từ pháp lý của chi phí:**
+  * Đoàn kiểm tra sẽ soi xét: Hồ sơ công bố hợp chuẩn/hợp quy, hồ sơ kiểm định trang thiết bị đo lường, bằng cấp/tay nghề công nhân.
+  * *Lưu ý Kế toán:* Thiếu hụt các hồ sơ này có thể dẫn đến việc sản phẩm bị kết luận không đạt chuẩn, chi phí sản xuất liên quan nguy cơ bị cơ quan Thuế xuất toán khỏi chi phí được trừ.
+
+* **Kiểm soát Nguyên vật liệu & Hàng tồn kho:**
+  * Nội dung kiểm tra bao quát từ nguyên liệu đầu vào (hạn sử dụng, danh mục chất cấm) đến quy trình lưu kho, vận chuyển.
+  * *Lưu ý Kế toán:* Việc sử dụng nguyên liệu không đúng quy chuẩn dễ dẫn đến việc hư hỏng toàn bộ lô hàng. Kế toán cần theo dõi sát để đánh giá khả năng trích lập **Dự phòng giảm giá hàng tồn kho (VAS 02)**.
+
+* **Cơ chế Lấy mẫu & Hạch toán chi phí:**
+  * Việc kiểm tra thực hiện theo kế hoạch hoặc **đột xuất** (khi có cảnh báo, phản ánh).
+  * Mẫu kiểm tra được chia thành **03 đơn vị** (01 thử nghiệm, 01 cơ quan giữ, **01 doanh nghiệp giữ**).
+  * *Lưu ý Kế toán:* Chi phí lấy mẫu và thử nghiệm tuân thủ Thông tư liên tịch 28/2010/TTLT-BTC-BKHCN. Kế toán cần hạch toán chính xác khoản chi này và mở sổ theo dõi riêng đơn vị mẫu lưu tại doanh nghiệp làm căn cứ đối soát/khiếu nại nếu phát sinh tranh chấp.
+
+---
+
+### 3. Tóm tắt Trình tự kiểm tra & Quản trị rủi ro Pháp lý
+
+1. **Xuất trình Quyết định** $\rightarrow$ **Tiến hành kiểm tra (Hồ sơ + Hiện trường)** $\rightarrow$ **Lấy mẫu (nếu cần)** $\rightarrow$ **Lập Biên bản** $\rightarrow$ **Xử lý kết quả**.
+2. **Quyền niêm phong & Chữ ký:** Trường hợp đại diện cơ sở không ký biên bản/niêm phong mẫu, Đoàn kiểm tra sẽ mời người chứng kiến. Doanh nghiệp cần cử người có thẩm quyền làm việc để bảo vệ quyền lợi hợp pháp.
+3. **Dự phòng rủi ro tài chính:** Trường hợp phát hiện vi phạm, sản phẩm có thể bị dừng lưu thông hoặc buộc tiêu hủy. Kế toán cần chủ động lập kế hoạch tài chính dự phòng cho các nghĩa vụ phạt vi phạm và tổn thất tài sản phát sinh.
 
 ---
 
