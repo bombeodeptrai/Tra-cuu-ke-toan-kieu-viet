@@ -83,4 +83,111 @@ Mặc dù đối tượng điều chỉnh chính là khối cơ quan nhà nướ
 ---
 
 ## 📜 TOÀN VĂN VĂN BẢN
-Thông tư 24/2024/TT-BTC thay thế Thông tư 107/2017/TT-BTC, quy định chế độ kế toán đối với cơ quan nhà nước, đơn vị sự nghiệp công lập, tổ chức chính trị - xã hội. Thông tư cập nhật quy trình hạch toán kế toán, hệ thống tài khoản và mẫu biểu báo cáo tài chính phù hợp với chuẩn mực kế toán công.
+
+BỘ TÀI CHÍNH
+-------
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+Độc lập - Tự do - Hạnh phúc
+---------------
+
+Số: 24/2024/TT-BTC
+
+*Hà Nội, ngày 17 tháng 04 năm 2024*
+
+
+THÔNG TƯ
+Hướng dẫn chế độ kế toán hành chính, sự nghiệp
+
+Căn cứ Luật Kế toán ngày 20 tháng 11 năm 2015;
+Căn cứ Luật Ngân sách nhà nước ngày 25 tháng 6 năm 2015;
+Căn cứ Luật Quản lý, sử dụng tài sản công ngày 21 tháng 6 năm 2017;
+Căn cứ Nghị định số 174/2016/NĐ-CP ngày 30 tháng 12 năm 2016 của Chính phủ quy định chi tiết một số điều của Luật Kế toán;
+Căn cứ Nghị định số 14/2023/NĐ-CP ngày 20 tháng 4 năm 2023 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Tài chính;
+Theo đề nghị của Vụ trưởng Vụ Chế độ kế toán và Kiểm toán;
+Bộ trưởng Bộ Tài chính ban hành Thông tư hướng dẫn chế độ kế toán hành chính, sự nghiệp.
+
+Chương I
+QUY ĐỊNH CHUNG
+
+Điều 1. Phạm vi điều chỉnh
+Thông tư này hướng dẫn về chứng từ kế toán, tài khoản kế toán, sổ kế toán, báo cáo tài chính, báo cáo quyết toán kinh phí hoạt động áp dụng cho các đơn vị kế toán hành chính, sự nghiệp.
+
+Điều 2. Đối tượng áp dụng
+1. Thông tư này áp dụng đối với các cơ quan, tổ chức, đơn vị (sau đây gọi chung là đơn vị hành chính, sự nghiệp), bao gồm:
+a) Cơ quan nhà nước (bao gồm cả Quốc hội, Văn phòng Chủ tịch nước, Tòa án nhân dân, Viện kiểm sát nhân dân, Kiểm toán nhà nước);
+b) Đơn vị sự nghiệp công lập;
+c) Tổ chức chính trị, tổ chức chính trị - xã hội; tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp được ngân sách nhà nước hỗ trợ kinh phí hoạt động;
+d) Ban quản lý dự án đầu tư sử dụng vốn ngân sách nhà nước hoặc vốn trái phiếu Chính phủ có tổ chức bộ máy kế toán riêng.
+2. Các cơ quan, đơn vị quy định tại khoản 1 Điều này sau đây gọi chung là đơn vị kế toán.
+
+Điều 3. Nguyên tắc tổ chức bộ máy và thực hiện công tác kế toán
+1. Đơn vị kế toán phải tổ chức bộ máy kế toán, bố trí người làm kế toán hoặc thuê làm kế toán theo quy định của Luật Kế toán và các văn bản hướng dẫn thi hành.
+2. Việc ghi sổ kế toán, lập báo cáo tài chính và báo cáo quyết toán kinh phí hoạt động phải tuân thủ đúng các nguyên tắc, phương pháp kế toán, bảo đảm tính trung thực, khách quan, đầy đủ, kịp thời và liên tục.
+3. Đơn vị phải phản ánh kịp thời, chính xác các khoản thu, chi ngân sách nhà nước, tài sản công, các nguồn kinh phí khác và tình hình sử dụng tài sản, kinh phí tại đơn vị theo đúng niên độ kế toán và phân mục ngành kinh tế (mục lục ngân sách nhà nước).
+
+Chương II
+QUY ĐỊNH CỤ THỂ
+
+Điều 4. Chứng từ kế toán
+1. Danh mục chứng từ kế toán bắt buộc và chứng từ kế toán hướng dẫn áp dụng cho các đơn vị hành chính, sự nghiệp được quy định tại Phụ lục số 01 kèm theo Thông tư này.
+2. Nội dung, hình thức, việc lập, ký, lưu trữ và quản lý chứng từ kế toán thực hiện theo quy định của Luật Kế toán, Nghị định số 174/2016/NĐ-CP và các văn bản pháp luật liên quan.
+3. Đơn vị hành chính, sự nghiệp được chủ động xây dựng, thiết kế mẫu chứng từ kế toán đáp ứng yêu cầu quản lý của đơn vị, trừ các trường hợp pháp luật có quy định khác, nhưng phải đảm bảo đầy đủ các nội dung chủ yếu của chứng từ kế toán theo quy định của Luật Kế toán.
+4. Trường hợp sử dụng chứng từ điện tử phải tuân thủ quy định của Luật Giao dịch điện tử, Luật Kế toán và các văn bản hướng dẫn về giao dịch điện tử trong lĩnh vực tài chính, kế toán.
+
+Điều 5. Hệ thống tài khoản kế toán
+1. Hệ thống tài khoản kế toán áp dụng cho các đơn vị hành chính, sự nghiệp được quy định tại Phụ lục số 02 kèm theo Thông tư này, phản ánh toàn bộ các giao dịch kinh tế, tài chính phát sinh.
+2. Hệ thống tài khoản kế toán bao gồm:
+a) Các tài khoản trong bảng (từ Loại 1 đến Loại 9): được ghi sổ theo phương pháp ghi cúi đôi (phản ánh tài sản, nợ phải trả, nguồn vốn, thu nhập, chi phí và kết quả hoạt động);
+b) Các tài khoản ngoài bảng (Loại 0): được ghi sổ theo phương pháp ghi đơn (phản ánh các chỉ tiêu quản lý chi tiết về dự toán ngân sách nhà nước, ngoại tệ, tài sản thuê ngoài, tài sản nhận giữ hộ, xử lý tài sản công).
+3. Đơn vị phải hạch toán chi tiết các tài khoản kế toán để theo dõi nguồn kinh phí (kinh phí thường xuyên, không thường xuyên, kinh phí thực hiện chế độ tự chủ, không tự chủ) và phân loại chi tiết theo Mục lục ngân sách nhà nước.
+
+Điều 6. Sổ kế toán
+1. Đơn vị kế toán phải mở sổ kế toán để ghi chép, systematize và lưu giữ toàn bộ các giao dịch kinh tế, tài chính phát sinh theo thời gian và có hệ thống.
+2. Danh mục sổ kế toán, mẫu sổ và phương pháp ghi sổ kế toán được quy định tại Phụ lục số 03 kèm theo Thông tư này.
+3. Mỗi đơn vị kế toán chỉ sử dụng một hệ thống sổ kế toán chính thức cho một kỳ kế toán.
+4. Sổ kế toán phải được ghi kịp thời, rõ ràng, đầy đủ các nội dung theo mẫu sổ. Trường hợp ghi sổ kế toán trên máy tính, đơn vị phải tuân thủ quy định về sổ kế toán điện tử, thực hiện in sổ kế toán ra giấy và đóng thành quyển theo quy định vào cuối kỳ kế toán.
+
+Điều 7. Báo cáo tài chính và Báo cáo quyết toán
+1. Báo cáo tài chính của đơn vị hành chính, sự nghiệp dùng để cung cấp thông tin về tình hình tài chính, kết quả hoạt động tài chính và các luồng tiền từ hoạt động của đơn vị cho cơ quan nhà nước có thẩm quyền và các đối tượng sử dụng khác. Hệ thống báo cáo tài chính bao gồm:
+a) Báo cáo tình hình tài chính;
+b) Báo cáo kết quả hoạt động;
+c) Báo cáo lưu chuyển tiền tệ;
+d) Thuyết minh báo cáo tài chính.
+2. Báo cáo quyết toán kinh phí hoạt động dùng để tổng hợp tình hình tiếp nhận và sử dụng nguồn kinh phí ngân sách nhà nước cấp, nguồn phí được để lại sử dụng theo quy định. Hệ thống báo cáo quyết toán bao gồm các biểu mẫu chi tiết theo quy định tại Phụ lục số 04 kèm theo Thông tư này.
+3. Đơn vị kế toán cấp trên có trách nhiệm xét duyệt, thẩm định và tổng hợp báo cáo tài chính, báo cáo quyết toán của các đơn vị kế toán cấp dưới trực thuộc để gửi cơ quan tài chính và cơ quan có thẩm quyền theo quy định.
+
+Chương III
+TỔ CHỨC THỰC HIỆN
+
+Điều 8. Chuyển tiếp số dư sổ kế toán
+1. Các đơn vị hành chính, sự nghiệp thực hiện khóa sổ kế toán tại thời điểm ngày 31 tháng 12 năm 2024 theo quy định của Chế độ kế toán hành chính, sự nghiệp ban hành theo Thông tư số 107/2017/TT-BTC ngày 10 tháng 10 năm 2017 của Bộ Tài chính.
+2. Thực hiện kiểm kê tài sản, nguồn vốn, đối chiếu công nợ và chuyển đổi số dư tài khoản kế toán từ sổ kế toán năm 2024 sang sổ kế toán năm 2025 theo hướng dẫn chuyển tiếp tại Phụ lục số 05 ban hành kèm theo Thông tư này.
+
+Điều 9. Hiệu lực thi hành
+1. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2025 và áp dụng từ năm tài chính 2025.
+2. Thông tư này thay thế Thông tư số 107/2017/TT-BTC ngày 10 tháng 10 năm 2017 của Bộ Tài chính hướng dẫn chế độ kế toán hành chính, sự nghiệp.
+3. Các văn bản quy phạm pháp luật được dẫn chiếu trong Thông tư này nếu được sửa đổi, bổ sung hoặc thay thế thì áp dụng theo các văn bản sửa đổi, bổ sung hoặc thay thế đó.
+
+Điều 10. Trách nhiệm tổ chức thực hiện
+1. Các Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương có trách nhiệm chỉ đạo, triển khai thực hiện Thông tư này tại các đơn vị thuộc phạm vi quản lý.
+2. Cục quản lý, giám sát kế toán, kiểm toán (Bộ Tài chính), các đơn vị thuộc Bộ Tài chính, Bộ trưởng các Bộ, Thủ trưởng cơ quan ngang Bộ, cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và các đơn vị liên quan chịu trách nhiệm thi hành Thông tư này.
+3. Trong quá trình thực hiện, nếu có vướng mắc, phát sinh, đề nghị các cơ quan, đơn vị phản ánh kịp thời về Bộ Tài chính để nghiên cứu, xem xét, giải quyết./.
+
+
+Nơi nhận:
+- Văn phòng Chính phủ;
+- Các Bộ, cơ quan ngang Bộ, cơ quan thuộc CP;
+- HĐND, UBND các tỉnh, TP trực thuộc TW;
+- Sở Tài chính, Kho bạc Nhà nước các tỉnh, TP;
+- Cục Kiểm tra văn bản QPPL (Bộ Tư pháp);
+- Công báo, Website Chính phủ;
+- Website Bộ Tài chính;
+- Lưu: VT, Vụ CĐKT (150b).
+
+KT. BỘ TRƯỞNG
+THỨ TRƯỞNG
+
+(Đã ký)
+
+Vũ Thị Mai
