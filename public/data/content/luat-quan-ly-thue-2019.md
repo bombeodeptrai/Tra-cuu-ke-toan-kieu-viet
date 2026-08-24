@@ -39,54 +39,6 @@ Nắm rõ thời hạn làm việc để chuẩn bị hồ sơ và bảo vệ qu
 ---
 
 ## 📜 TOÀN VĂN VĂN BẢN
-# Luật Quản lý thuế số 38/2019/QH14 (38/2019/QH14)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Luật Quản lý thuế số 38/2019/QH14 (38/2019/QH14)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Luật Quản lý thuế số 38/2019/QH14 (38/2019/QH14)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Luật Quản lý thuế số 38/2019/QH14 (38/2019/QH14)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Luật Quản lý thuế số 38/2019/QH14 (38/2019/QH14)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Luật Quản lý thuế số 38/2019/QH14 (38/2019/QH14)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
 # LUẬT QUẢN LÝ THUẾ SỐ 38/2019/QH14
 
 ## 1. Phạm vi và Nguyên tắc Quản lý Thuế
@@ -167,12 +119,3 @@ Tổ chức, cá nhân có nghĩa vụ đăng ký thuế bao gồm:
 | Khai sai dẫn đến thiếu thuế | 20% số tiền thuế khai thiếu |
 | Trốn thuế | 1–3 lần số tiền thuế trốn |
 | Không đăng ký thuế | 1,000,000 – 3,000,000 đồng |
-
-
-
-
-
-
-
-
-

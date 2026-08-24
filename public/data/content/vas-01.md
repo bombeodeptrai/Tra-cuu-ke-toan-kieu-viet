@@ -35,38 +35,6 @@
 ---
 
 ## 📜 TOÀN VĂN VĂN BẢN
-# Chuẩn mực kế toán Việt Nam VAS 01 – Chuẩn mực chung (VAS 01)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Chuẩn mực kế toán Việt Nam VAS 01 – Chuẩn mực chung (VAS 01)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Chuẩn mực kế toán Việt Nam VAS 01 – Chuẩn mực chung (VAS 01)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Chuẩn mực kế toán Việt Nam VAS 01 – Chuẩn mực chung (VAS 01)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
 # CHUẨN MỰC KẾ TOÁN VAS 01 – CHUẨN MỰC CHUNG
 
 ## 1. Mục đích và Phạm vi Áp dụng
@@ -128,8 +96,3 @@ VAS 01 đặt ra cơ sở lý thuyết cho việc lập và trình bày báo cá
 | **Thích hợp** | Thông tin có ảnh hưởng đến quyết định kinh tế (dự báo, xác nhận) |
 | **Đáng tin cậy** | Trung thực, khách quan, thận trọng, đầy đủ |
 | **Có thể so sánh được** | So sánh được giữa các kỳ và giữa các đơn vị |
-
-
-
-
-

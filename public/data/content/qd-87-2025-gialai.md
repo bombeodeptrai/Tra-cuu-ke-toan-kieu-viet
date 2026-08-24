@@ -32,54 +32,6 @@ Doanh nghiệp khai thác, kinh doanh vật liệu xây dựng cần cập nhậ
 ---
 
 ## 📜 TOÀN VĂN VĂN BẢN
-# Quyết định 87/2025/QĐ-UBND Bảng giá tính thuế tài nguyên 2026 tỉnh Gia Lai (87/2025/QĐ-UBND)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Quyết định 87/2025/QĐ-UBND Bảng giá tính thuế tài nguyên 2026 tỉnh Gia Lai (87/2025/QĐ-UBND)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Quyết định 87/2025/QĐ-UBND Bảng giá tính thuế tài nguyên 2026 tỉnh Gia Lai (87/2025/QĐ-UBND)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Quyết định 87/2025/QĐ-UBND Bảng giá tính thuế tài nguyên 2026 tỉnh Gia Lai (87/2025/QĐ-UBND)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Quyết định 87/2025/QĐ-UBND Bảng giá tính thuế tài nguyên 2026 tỉnh Gia Lai (87/2025/QĐ-UBND)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Quyết định 87/2025/QĐ-UBND Bảng giá tính thuế tài nguyên 2026 tỉnh Gia Lai (87/2025/QĐ-UBND)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
 # QUYẾT ĐỊNH 87/2025/QĐ-UBND TỈNH GIA LAI
 
 **Về việc ban hành Bảng giá tính thuế tài nguyên năm 2026 trên địa bàn tỉnh Gia Lai**
@@ -100,11 +52,3 @@ Doanh nghiệp khai thác, kinh doanh vật liệu xây dựng cần cập nhậ
 
 ## 3. Trách nhiệm thực hiện
 Sở Tài chính chủ trì, phối hợp với Sở Tài nguyên và Môi trường và Cục Thuế tỉnh thường xuyên theo dõi diễn biến giá tài nguyên trên thị trường. Nếu giá thị trường biến động tăng/giảm trên 20%, phải tham mưu UBND tỉnh điều chỉnh kịp thời.
-
-
-
-
-
-
-
-

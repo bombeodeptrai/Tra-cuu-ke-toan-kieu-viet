@@ -44,38 +44,6 @@ VAS 02 chỉ cho phép áp dụng **03 phương pháp** tính giá trị xuất 
 ---
 
 ## 📜 TOÀN VĂN VĂN BẢN
-# Chuẩn mực kế toán Việt Nam VAS 02 – Hàng tồn kho (VAS 02)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Chuẩn mực kế toán Việt Nam VAS 02 – Hàng tồn kho (VAS 02)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Chuẩn mực kế toán Việt Nam VAS 02 – Hàng tồn kho (VAS 02)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Chuẩn mực kế toán Việt Nam VAS 02 – Hàng tồn kho (VAS 02)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
 # CHUẨN MỰC KẾ TOÁN VAS 02 – HÀNG TỒN KHO
 
 ## 1. Xác định Giá Gốc Hàng tồn Kho (Đoạn 6-10)
@@ -141,8 +109,3 @@ Trích dự phòng giảm giá HTK (theo TT 48/2019):
 Nợ TK 632
    Có TK 2294 (số = Giá gốc - NRV)
 ```
-
-
-
-
-

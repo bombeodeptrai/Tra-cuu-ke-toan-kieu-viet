@@ -42,38 +42,6 @@ Doanh nghiệp chỉ được ghi nhận doanh thu bán hàng khi thỏa mãn **
 ---
 
 ## 📜 TOÀN VĂN VĂN BẢN
-# Chuẩn mực kế toán Việt Nam VAS 14 – Doanh thu và Thu nhập khác (VAS 14)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Chuẩn mực kế toán Việt Nam VAS 14 – Doanh thu và Thu nhập khác (VAS 14)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Chuẩn mực kế toán Việt Nam VAS 14 – Doanh thu và Thu nhập khác (VAS 14)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
-# Chuẩn mực kế toán Việt Nam VAS 14 – Doanh thu và Thu nhập khác (VAS 14)
-
-## 🌟 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-> *Lỗi tạo tóm tắt tự động*
-
----
-
-## 📜 TOÀN VĂN VĂN BẢN
 # CHUẨN MỰC KẾ TOÁN VAS 14 – DOANH THU VÀ THU NHẬP KHÁC
 
 ## 1. Ghi nhận Doanh thu Bán Hàng hóa (Đoạn 10-12)
@@ -134,8 +102,3 @@ Chênh lệch so với tổng số tiền nhận được = Doanh thu lãi vay (
 ### Doanh thu từ nhượng quyền:
 - Phí nhượng quyền một lần: Ghi nhận khi thực hiện xong các cam kết ban đầu
 - Phí nhượng quyền định kỳ: Ghi nhận theo kỳ khi phát sinh
-
-
-
-
-
