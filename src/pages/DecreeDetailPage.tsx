@@ -50,6 +50,9 @@ export function DecreeDetailPage() {
               let summaryPart = text.replace(splitMatch[0], '');
               // Remove the main title from the summary part
               summaryPart = summaryPart.replace(/^# .+\n/, '').trim();
+              // Remove the redundant heading for the UI
+              summaryPart = summaryPart.replace(/## 🌟 TÓM TẮT CHUYÊN SÂU \(Bởi AI\)\r?\n?/, '').trim();
+              
               setSummaryContent(summaryPart);
               setFullTextContent(splitMatch[1].trim());
             } else {
