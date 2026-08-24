@@ -162,8 +162,8 @@ export function DecreeDetailPage() {
             </TabsList>
             
             <TabsContent value="content" className="mt-0">
-              <div className="bg-card border border-border rounded-xl p-6 sm:p-8 shadow-sm">
-                <div id="decree-content" className="prose prose-slate dark:prose-invert max-w-none">
+              <div className="bg-card border border-border/60 rounded-2xl p-6 sm:p-8 shadow-sm hover:shadow-md transition-shadow">
+                <div id="decree-content" className="prose prose-slate dark:prose-invert max-w-none prose-headings:text-primary prose-a:text-primary hover:prose-a:text-primary/80 prose-p:leading-relaxed prose-li:leading-relaxed">
                   {isLoadingContent ? (
                     <div className="py-10 text-center text-muted-foreground">Đang tải nội dung...</div>
                   ) : (
@@ -176,12 +176,15 @@ export function DecreeDetailPage() {
             </TabsContent>
             
             <TabsContent value="summary" className="mt-0">
-              <div className="bg-blue-50/50 dark:bg-blue-950/20 border border-blue-100 dark:border-blue-900 rounded-xl p-6 sm:p-8">
-                <div className="flex items-center gap-2 mb-4 text-blue-600 dark:text-blue-400">
-                  <Bot className="h-5 w-5" />
-                  <h3 className="font-semibold text-lg">AI Tóm tắt</h3>
+              <div className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-950/40 dark:to-indigo-950/40 border border-blue-200/50 dark:border-blue-800/50 rounded-2xl p-6 sm:p-8 shadow-inner relative overflow-hidden">
+                <div className="absolute top-0 right-0 p-32 bg-blue-400/10 dark:bg-blue-600/10 blur-[100px] rounded-full pointer-events-none"></div>
+                <div className="flex items-center gap-3 mb-6 text-blue-600 dark:text-blue-400 relative z-10">
+                  <div className="p-2.5 bg-blue-100 dark:bg-blue-900/50 rounded-xl">
+                    <Bot className="h-6 w-6" />
+                  </div>
+                  <h3 className="font-bold text-xl">Tóm tắt chuyên sâu bởi AI</h3>
                 </div>
-                <div className="prose prose-blue dark:prose-invert max-w-none">
+                <div className="prose prose-blue dark:prose-invert max-w-none relative z-10 prose-p:leading-relaxed">
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>
                     {decree.summary}
                   </ReactMarkdown>
@@ -191,44 +194,44 @@ export function DecreeDetailPage() {
           </Tabs>
         </div>
 
-        <div className="space-y-6">
-          <div className="bg-card border border-border rounded-xl p-6 shadow-sm">
-            <h3 className="font-semibold flex items-center gap-2 mb-4">
-              <Info className="h-5 w-5 text-blue-500" />
+        <div className="space-y-6 lg:sticky lg:top-24 h-fit">
+          <div className="bg-card border border-border/60 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
+            <h3 className="font-bold text-lg flex items-center gap-2 mb-4">
+              <Info className="h-5 w-5 text-primary" />
               Thông tin áp dụng
             </h3>
             <div className="space-y-4">
               <div>
                 <div className="text-sm text-muted-foreground mb-1">Ngày ban hành</div>
-                <div className="font-medium">{formatDate(decree.issued_date)}</div>
+                <div className="font-semibold text-foreground">{formatDate(decree.issued_date)}</div>
               </div>
-              <div className="h-px bg-border"></div>
+              <div className="h-px bg-border/50"></div>
               <div>
                 <div className="text-sm text-muted-foreground mb-1">Ngày có hiệu lực</div>
-                <div className="font-medium">{formatDate(decree.effective_date)}</div>
+                <div className="font-semibold text-foreground">{formatDate(decree.effective_date)}</div>
               </div>
-              <div className="h-px bg-border"></div>
+              <div className="h-px bg-border/50"></div>
               <div>
                 <div className="text-sm text-muted-foreground mb-1">Lĩnh vực</div>
-                <div className="font-medium">{category?.name || decree.category}</div>
+                <div className="font-semibold text-foreground">{category?.name || decree.category}</div>
               </div>
             </div>
           </div>
 
           {relatedDecrees.length > 0 && (
-            <div className="bg-card border border-border rounded-xl p-6 shadow-sm">
-              <h3 className="font-semibold mb-4">Văn bản liên quan</h3>
+            <div className="bg-card border border-border/60 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
+              <h3 className="font-bold text-lg mb-4">Văn bản liên quan</h3>
               <div className="space-y-3">
                 {relatedDecrees.map(d => (
                   <Link 
                     key={d.id} 
                     to={`/thu-vien/${d.id}`}
-                    className="block p-3 rounded-lg border border-transparent hover:border-border hover:bg-slate-50 dark:hover:bg-slate-900 transition-colors"
+                    className="block p-3 rounded-xl border border-transparent hover:border-primary/30 hover:bg-primary/5 transition-all duration-300"
                   >
-                    <div className="text-xs font-medium text-blue-600 dark:text-blue-400 mb-1">
+                    <div className="text-xs font-bold text-primary mb-1">
                       {d.decree_number}
                     </div>
-                    <div className="text-sm font-medium line-clamp-2">
+                    <div className="text-sm font-medium line-clamp-2 text-foreground">
                       {d.title}
                     </div>
                   </Link>
