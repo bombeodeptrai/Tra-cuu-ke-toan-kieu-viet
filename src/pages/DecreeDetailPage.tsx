@@ -17,13 +17,15 @@ import { useToast } from '@/components/ui/use-toast';
 
 export function DecreeDetailPage() {
   const { id } = useParams();
-  const navigate = useNavigate();
   const { toast } = useToast();
   const { decrees, bookmarks, toggleBookmark } = useDecreeStore();
   const decree = decrees.find(d => d.id === id);
   
   const [content, setContent] = useState<string>('');
-  const [isLoadingContent, setIsLoadingContent] = useState<boolean>(false);
+  const [summaryContent, setSummaryContent] = useState<string>('');
+  const [fullTextContent, setFullTextContent] = useState<string>('');
+  const [isLoadingContent, setIsLoadingContent] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (decree) {
@@ -41,12 +43,30 @@ export function DecreeDetailPage() {
               text = text.replace(/> \*Lỗi tạo tóm tắt tự động\*/g, '> *⚠️ Hệ thống AI hiện đang bị quá tải (do giới hạn từ Google). Tóm tắt chuyên sâu sẽ tự động cập nhật sau ít phút. Trong lúc chờ đợi, anh/chị vui lòng tham khảo chi tiết ở phần Toàn văn bên dưới.*');
               text = text.replace(/Lỗi gọi AI: Bad status \d+:[\s\S]*?(?=---|$)/g, '> *⚠️ Hệ thống AI hiện đang bị quá tải. Tóm tắt sẽ cập nhật sau.* \n\n');
             }
+            
+            // Split the markdown into Summary and Full Text
+            const splitMatch = text.match(/(?:---)?\s*## 📜 TOÀN VĂN VĂN BẢN\s*([\s\S]*)/);
+            if (splitMatch) {
+              let summaryPart = text.replace(splitMatch[0], '');
+              // Remove the main title from the summary part
+              summaryPart = summaryPart.replace(/^# .+\n/, '').trim();
+              setSummaryContent(summaryPart);
+              setFullTextContent(splitMatch[1].trim());
+            } else {
+              setSummaryContent(decree.summary || '');
+              setFullTextContent(text);
+            }
+            
             setContent(text);
           })
-          .catch(() => setContent('Lỗi tải nội dung.'))
+          .catch(() => {
+            setFullTextContent('Lỗi tải nội dung.');
+            setSummaryContent(decree.summary || '');
+          })
           .finally(() => setIsLoadingContent(false));
       } else {
-        setContent(decree.content || '');
+        setFullTextContent(decree.content || '');
+        setSummaryContent(decree.summary || '');
       }
     }
   }, [decree]);
@@ -168,7 +188,7 @@ export function DecreeDetailPage() {
                     <div className="py-10 text-center text-muted-foreground">Đang tải nội dung...</div>
                   ) : (
                     <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                      {content}
+                      {fullTextContent}
                     </ReactMarkdown>
                   )}
                 </div>
@@ -186,7 +206,7 @@ export function DecreeDetailPage() {
                 </div>
                 <div className="prose prose-blue dark:prose-invert max-w-none relative z-10 prose-p:leading-relaxed">
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                    {decree.summary}
+                    {summaryContent}
                   </ReactMarkdown>
                 </div>
               </div>
