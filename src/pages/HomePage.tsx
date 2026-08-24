@@ -1,11 +1,11 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Search, FileText, FolderOpen, Bot, RefreshCw } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
 import { CATEGORIES } from '@/lib/utils/constants';
-import decreesData from '@/../public/data/decrees.json';
+import { useDecreeStore } from '@/stores/decree-store';
 import { Decree } from '@/types/decree';
 import { format } from 'date-fns';
 import { vi } from 'date-fns/locale';
@@ -15,7 +15,7 @@ import { motion } from 'framer-motion';
 export function HomePage() {
   const [searchQuery, setSearchQuery] = useState('');
   const navigate = useNavigate();
-  const decrees = decreesData as Decree[];
+  const { decrees } = useDecreeStore();
   const recentDecrees = [...decrees].sort((a, b) => new Date(b.issued_date).getTime() - new Date(a.issued_date).getTime()).slice(0, 5);
 
   const handleSearch = (e: React.FormEvent) => {

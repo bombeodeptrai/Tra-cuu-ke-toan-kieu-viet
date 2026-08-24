@@ -77,13 +77,14 @@ export const useDecreeStore = create<DecreeState>()(
       clearSearchHistory: () => set({ searchHistory: [] }),
       fetchDecrees: async () => {
         try {
-          // Chỉ fetch lại nếu chưa có data hoặc muốn refresh (ta cứ fetch đè luôn cũng được, hoặc check cache)
           set({ isLoading: true, error: null });
-          const basePath = import.meta.env.BASE_URL || '/';
-          const res = await fetch(`${basePath}data/decrees.json`);
-          if (!res.ok) throw new Error('Không thể tải dữ liệu');
+          const API_URL = 'https://script.google.com/macros/s/AKfycbwkPqx3h1fhA-2vhAB5W4VZnEsKyIEfrUNrnf3WjZ35A48Eido-GvK6IKF9Zu2n3YCG/exec';
+          const res = await fetch(API_URL);
+          if (!res.ok) throw new Error('Không thể kết nối đến Database');
           const data = await res.json();
-          set({ decrees: data, isLoading: false, lastFetched: Date.now() });
+          // Kiểm tra và format lại data nếu cần (loại bỏ lỗi hoặc các dòng trống)
+          const validData = Array.isArray(data) ? data.filter(d => d.id && d.title) : [];
+          set({ decrees: validData, isLoading: false, lastFetched: Date.now() });
         } catch (error: any) {
           set({ error: error.message, isLoading: false });
         }

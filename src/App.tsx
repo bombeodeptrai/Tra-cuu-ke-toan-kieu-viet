@@ -18,10 +18,8 @@ export default function App() {
   const { fetchDecrees, decrees } = useDecreeStore();
 
   React.useEffect(() => {
-    if (decrees.length === 0) {
-      fetchDecrees();
-    }
-  }, [fetchDecrees, decrees.length]);
+    fetchDecrees();
+  }, [fetchDecrees]);
 
   React.useEffect(() => {
     const root = window.document.documentElement;
