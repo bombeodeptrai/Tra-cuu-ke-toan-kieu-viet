@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import { AppLayout } from './components/layout/AppLayout';
 import { HomePage } from './pages/HomePage';
@@ -7,6 +7,8 @@ import { DecreeDetailPage } from './pages/DecreeDetailPage';
 import { SearchPage } from './pages/SearchPage';
 import { ChatAIPage } from './pages/ChatAIPage';
 import { SettingsPage } from './pages/SettingsPage';
+import { ChartOfAccountsPage } from './pages/ChartOfAccountsPage';
+import { FormsPage } from './pages/FormsPage';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import { useSettingsStore } from '@/stores/settings-store';
@@ -41,6 +43,8 @@ export default function App() {
             <Route path="thu-vien" element={<LibraryPage />} />
             <Route path="thu-vien/:id" element={<DecreeDetailPage />} />
             <Route path="tra-cuu" element={<SearchPage />} />
+            <Route path="tai-khoan" element={<ChartOfAccountsPage />} />
+            <Route path="bieu-mau" element={<FormsPage />} />
             <Route path="hoi-dap-ai" element={<ChatAIPage />} />
             <Route path="cai-dat" element={<SettingsPage />} />
             <Route path="*" element={<NotFoundPage />} />

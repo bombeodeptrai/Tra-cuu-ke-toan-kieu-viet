@@ -10,6 +10,9 @@ import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+import 'katex/dist/katex.min.css';
 import { CATEGORIES, DECREE_STATUS_LABELS } from '@/lib/utils/constants';
 import { formatDate } from '@/lib/utils/format';
 import { useDecreeStore } from '@/stores/decree-store';
@@ -190,7 +193,7 @@ export function DecreeDetailPage() {
                   {isLoadingContent ? (
                     <div className="py-10 text-center text-muted-foreground">Đang tải nội dung...</div>
                   ) : (
-                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                    <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeKatex]}>
                       {fullTextContent}
                     </ReactMarkdown>
                   )}
@@ -208,7 +211,7 @@ export function DecreeDetailPage() {
                   <h3 className="font-bold text-xl">Tóm tắt chuyên sâu bởi AI</h3>
                 </div>
                 <div className="prose prose-blue dark:prose-invert max-w-none relative z-10 prose-p:leading-relaxed">
-                  <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                  <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeKatex]}>
                     {summaryContent}
                   </ReactMarkdown>
                 </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Building2, LayoutDashboard, Library, Search, MessageSquareText, Settings } from 'lucide-react';
+import { Building2, LayoutDashboard, Library, Search, MessageSquareText, Settings, BookOpen, Download, LineChart } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { APP_NAME } from '@/lib/utils/constants';
 
@@ -13,6 +13,8 @@ export function Sidebar({ onClose }: SidebarProps) {
     { to: '/', icon: LayoutDashboard, label: 'Trang chủ' },
     { to: '/thu-vien', icon: Library, label: 'Thư viện nghị định' },
     { to: '/tra-cuu', icon: Search, label: 'Tra cứu' },
+    { to: '/tai-khoan', icon: BookOpen, label: 'Hệ thống Tài khoản' },
+    { to: '/bieu-mau', icon: Download, label: 'Biểu mẫu' },
     { to: '/hoi-dap-ai', icon: MessageSquareText, label: 'Hỏi đáp AI' },
     { to: '/cai-dat', icon: Settings, label: 'Cài đặt' },
   ];
@@ -46,6 +48,21 @@ export function Sidebar({ onClose }: SidebarProps) {
             {item.label}
           </NavLink>
         ))}
+      </div>
+
+      <div className="px-4 mb-4">
+        <div className="border-t border-border pt-4">
+          <a
+            href="http://localhost:5000"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={onClose}
+            className="flex items-center gap-3 rounded-lg px-3 py-2.5 transition-all text-sm font-medium text-emerald-600 hover:bg-emerald-50 dark:hover:bg-emerald-900/20"
+          >
+            <LineChart className="h-5 w-5" />
+            Phân tích Tài chính (New)
+          </a>
+        </div>
       </div>
       
       <div className="p-4 mt-auto border-t border-border">

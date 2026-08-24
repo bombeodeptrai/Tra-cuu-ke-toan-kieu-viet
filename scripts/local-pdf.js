@@ -1,0 +1,20 @@
+﻿import fs from 'fs';
+import pdf from 'pdf-parse/lib/pdf-parse.js';
+
+async function run() {
+    try {
+        const dataBuffer = fs.readFileSync('public/data/pdfs/qd-87-2025-gialai.pdf');
+        const data = await pdf(dataBuffer);
+        const text = data.text;
+        
+        let content = fs.readFileSync('public/data/content/qd-87-2025-gialai.md', 'utf8');
+        const parts = content.split(/## 📜 TOÀN VĂN VĂN BẢN/);
+        
+        const newContent = parts[0] + '## 📜 TOÀN VĂN VĂN BẢN\n' + text.trim();
+        fs.writeFileSync('public/data/content/qd-87-2025-gialai.md', newContent, 'utf8');
+        console.log('Successfully updated qd-87-2025-gialai.md');
+    } catch (e) {
+        console.error(e);
+    }
+}
+run();
