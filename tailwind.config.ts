@@ -86,6 +86,10 @@ const config: Config = {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
+      boxShadow: {
+        'soft': '0 2px 10px rgba(0, 0, 0, 0.05)',
+        'float': '0 8px 30px rgba(0, 0, 0, 0.04)',
+      }
     },
   },
   plugins: [

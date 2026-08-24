@@ -1,28 +1,22 @@
-import React from 'react';
+﻿import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { FileText, FolderOpen, Bot, RefreshCw, Search } from 'lucide-react';
-import { motion } from 'framer-motion';
+import { Search, FileText, FolderOpen, Bot, RefreshCw } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { CATEGORIES } from '@/lib/utils/constants';
 import { Badge } from '@/components/ui/badge';
-import { formatDate } from '@/lib/utils/format';
+import { CATEGORIES } from '@/lib/utils/constants';
+import decreesData from '@/../public/data/decrees.json';
+import { Decree } from '@/types/decree';
+import { format } from 'date-fns';
+import { vi } from 'date-fns/locale';
 import { cn } from '@/lib/utils';
-import { useDecreeStore } from '@/stores/decree-store';
-
-const itemVariants = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0 }
-};
+import { motion } from 'framer-motion';
 
 export function HomePage() {
+  const [searchQuery, setSearchQuery] = useState('');
   const navigate = useNavigate();
-  const [searchQuery, setSearchQuery] = React.useState('');
-  const { decrees } = useDecreeStore();
-
-  const recentDecrees = [...decrees].sort((a, b) => 
-    new Date(b.issued_date).getTime() - new Date(a.issued_date).getTime()
-  ).slice(0, 5);
+  const decrees = decreesData as Decree[];
+  const recentDecrees = [...decrees].sort((a, b) => new Date(b.issued_date).getTime() - new Date(a.issued_date).getTime()).slice(0, 5);
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
@@ -31,49 +25,60 @@ export function HomePage() {
     }
   };
 
+  const formatDate = (dateString: string) => {
+    return format(new Date(dateString), 'dd/MM/yyyy', { locale: vi });
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 15 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.4 } }
+  };
+
   return (
-    <div className="space-y-10">
-      {/* Professional Corporate Hero Section */}
+    <div className="flex flex-col gap-12 pb-12 max-w-[1400px] mx-auto px-4 md:px-8 mt-8">
+      {/* Hero Section */}
       <motion.div 
-        className="relative rounded-2xl overflow-hidden bg-[#0a192f] p-8 md:p-14 text-white shadow-2xl border border-slate-700/50"
-        initial={{ opacity: 0, y: 15 }}
+        initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+        className="relative rounded-[2rem] bg-gradient-to-b from-slate-50/50 to-white dark:from-zinc-900/50 dark:to-background border border-border/40 overflow-hidden"
       >
-        <div className="relative z-10 max-w-3xl space-y-6">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-400/20 text-blue-300 text-xs font-semibold uppercase tracking-wider mb-2">
-            <span className="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
-            Hệ thống nội bộ Kiểu Việt
-          </div>
-          
-          <h1 className="text-3xl md:text-5xl font-extrabold leading-[1.15] tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-400">
-            Cổng Tra Cứu Kế Toán & <br className="hidden md:block" />
-            Pháp Lý Tài Chính
+        <div className="relative z-10 flex flex-col items-center justify-center min-h-[420px] text-center px-6 py-12 md:py-20">
+          <Badge variant="outline" className="mb-6 bg-background/50 backdrop-blur-sm border-primary/20 text-primary px-4 py-1.5 rounded-full text-sm font-medium">
+            ✨ Cập nhật dữ liệu mới nhất 2025
+          </Badge>
+          <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 max-w-4xl leading-tight">
+            Nền tảng tra cứu Kế toán <br className="hidden md:block" />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400">
+              Thông minh & Chính xác
+            </span>
           </h1>
-          
-          <p className="text-slate-400 text-base md:text-lg max-w-xl leading-relaxed">
-            Hệ thống cơ sở dữ liệu pháp luật chuyên ngành được hỗ trợ bởi Trí tuệ nhân tạo (AI), giúp truy xuất nhanh các điều khoản, nghị định và chuẩn mực kế toán Việt Nam.
+          <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl font-medium">
+            Tìm kiếm thông tư, nghị định và chuẩn mực kế toán Việt Nam cực nhanh. 
+            Được phân tích và tóm tắt tự động bởi AI.
           </p>
-          
-          <form onSubmit={handleSearch} className="relative mt-8 flex items-center max-w-xl">
-            <Search className="absolute left-4 h-5 w-5 text-slate-400" />
-            <Input 
-              className="w-full bg-slate-800/50 backdrop-blur-md border border-slate-700 text-white placeholder:text-slate-500 rounded-xl pl-12 pr-32 h-14 text-base focus-visible:ring-1 focus-visible:ring-blue-500 transition-all shadow-inner"
+
+          <form onSubmit={handleSearch} className="w-full max-w-2xl relative group flex items-center">
+            <Search className="absolute left-5 h-5 w-5 text-muted-foreground group-focus-within:text-primary transition-colors" />
+            <Input
+              type="search"
               placeholder="Nhập số hiệu văn bản hoặc từ khóa..."
+              className="w-full bg-background/80 backdrop-blur-md pl-14 pr-32 h-14 rounded-2xl border-border/60 shadow-float focus-visible:ring-1 focus-visible:ring-primary/40 text-lg transition-all"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
-            <Button type="submit" className="absolute right-1.5 h-11 rounded-lg px-6 bg-blue-600 hover:bg-blue-500 text-white font-medium transition-colors shadow-md">
+            <Button type="submit" className="absolute right-2 h-10 rounded-xl px-6 bg-primary hover:bg-primary/90 text-primary-foreground font-medium transition-all shadow-sm">
               Tìm kiếm
             </Button>
           </form>
 
-          <div className="flex flex-wrap items-center gap-2 mt-4 text-sm">
-            <span className="text-slate-500 font-medium">Truy cập nhanh:</span>
+          <div className="flex flex-wrap items-center justify-center gap-3 mt-8 text-sm">
+            <span className="text-muted-foreground font-medium mr-1">Tìm kiếm phổ biến:</span>
             {['Thông tư 200', 'Thuế TNDN 2025', 'Luật Quản lý thuế', 'Hóa đơn điện tử'].map(chip => (
               <button 
                 key={chip}
                 onClick={() => navigate(`/tra-cuu?q=${chip}`)}
-                className="bg-slate-800/80 hover:bg-slate-700 text-slate-300 border border-slate-700 hover:border-slate-500 px-3 py-1 rounded-md transition-all text-xs"
+                className="bg-secondary hover:bg-secondary/80 text-secondary-foreground border border-border/50 px-4 py-1.5 rounded-full transition-all text-sm font-medium shadow-sm hover:shadow"
               >
                 {chip}
               </button>
@@ -81,13 +86,9 @@ export function HomePage() {
           </div>
         </div>
         
-        {/* Professional Background Elements */}
-        <div className="absolute top-0 right-0 w-[50%] h-full overflow-hidden pointer-events-none hidden md:block">
-          <div className="absolute top-[-20%] right-[-10%] w-96 h-96 rounded-full bg-blue-600/20 blur-[100px]"></div>
-          <div className="absolute bottom-[-10%] right-[10%] w-64 h-64 rounded-full bg-indigo-500/10 blur-[80px]"></div>
-          {/* Subtle grid pattern */}
-          <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(#475569 1px, transparent 1px)', backgroundSize: '24px 24px', opacity: 0.1 }}></div>
-        </div>
+        {/* Minimalist Background Elements */}
+        <div className="absolute top-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-border to-transparent"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-primary/5 via-transparent to-transparent pointer-events-none"></div>
       </motion.div>
 
       {/* Stats Cards */}
@@ -98,12 +99,12 @@ export function HomePage() {
         className="grid grid-cols-2 md:grid-cols-4 gap-4"
       >
         {[
-          { icon: FileText, count: decrees.length, label: 'Văn bản được số hóa', color: 'text-blue-600 dark:text-blue-400', bg: 'bg-blue-50 dark:bg-blue-900/20' },
-          { icon: FolderOpen, count: CATEGORIES.length, label: 'Danh mục phân loại', color: 'text-emerald-600 dark:text-emerald-400', bg: 'bg-emerald-50 dark:bg-emerald-900/20' },
+          { icon: FileText, count: decrees.length, label: 'Văn bản số hóa', color: 'text-primary dark:text-primary', bg: 'bg-primary/10 dark:bg-primary/20' },
+          { icon: FolderOpen, count: CATEGORIES.length, label: 'Danh mục phân loại', color: 'text-slate-600 dark:text-slate-400', bg: 'bg-slate-100 dark:bg-zinc-800' },
           { icon: Bot, count: 'AI', label: 'Trợ lý phân tích', color: 'text-indigo-600 dark:text-indigo-400', bg: 'bg-indigo-50 dark:bg-indigo-900/20' },
           { icon: RefreshCw, count: 'Auto', label: 'Cập nhật thời gian thực', color: 'text-amber-600 dark:text-amber-400', bg: 'bg-amber-50 dark:bg-amber-900/20' },
         ].map((stat, i) => (
-          <motion.div variants={itemVariants} key={i} className="bg-card border border-border/60 p-5 rounded-2xl flex flex-col items-start shadow-sm hover:shadow-md hover:border-primary/30 hover:-translate-y-1 transition-all duration-300">
+          <motion.div variants={itemVariants} key={i} className="bg-card border border-border/40 p-5 rounded-2xl flex flex-col items-start shadow-soft hover:shadow-float hover:border-border/80 hover:-translate-y-1 transition-all duration-300">
             <div className={`p-2.5 rounded-xl mb-4 ${stat.bg} ${stat.color}`}>
               <stat.icon className="w-5 h-5" />
             </div>
@@ -130,9 +131,9 @@ export function HomePage() {
               variants={itemVariants}
               key={category.id} 
               onClick={() => navigate(`/thu-vien?category=${category.slug}`)}
-              className="group bg-card border border-border/60 p-5 rounded-2xl hover:border-primary/50 hover:shadow-lg transition-all duration-300 cursor-pointer flex items-start gap-4 hover:-translate-y-1"
+              className="group bg-card border border-border/40 p-5 rounded-2xl hover:border-border/80 shadow-soft hover:shadow-float transition-all duration-300 cursor-pointer flex items-start gap-4 hover:-translate-y-1"
             >
-              <div className="w-12 h-12 rounded-xl bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 flex items-center justify-center flex-shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 group-hover:scale-110 shadow-sm">
+              <div className="w-12 h-12 rounded-xl bg-secondary dark:bg-zinc-800 text-secondary-foreground flex items-center justify-center flex-shrink-0 group-hover:bg-primary group-hover:text-primary-foreground transition-all duration-300 group-hover:scale-110 shadow-sm">
                 <FolderOpen className="w-6 h-6" />
               </div>
               <div>
@@ -169,13 +170,13 @@ export function HomePage() {
                 variants={itemVariants}
                 key={decree.id}
                 onClick={() => navigate(`/thu-vien/${decree.id}`)}
-                className="group bg-card border border-border/60 p-5 rounded-2xl hover:border-primary/50 hover:shadow-md transition-all duration-300 cursor-pointer flex flex-col md:flex-row md:items-center gap-4 hover:-translate-x-1"
+                className="group bg-card border border-border/40 p-5 rounded-2xl hover:border-border/80 shadow-soft hover:shadow-float transition-all duration-300 cursor-pointer flex flex-col md:flex-row md:items-center gap-4 hover:-translate-x-1"
               >
                 <div className="flex items-center gap-3 md:w-1/4">
-                  <Badge variant={decree.status === 'active' ? 'default' : 'secondary'} className={cn("rounded-md px-2 py-1 font-medium", decree.status === 'active' ? "bg-emerald-100 text-emerald-700 hover:bg-emerald-200" : "bg-slate-100 text-slate-700")}>
+                  <Badge variant={decree.status === 'active' ? 'default' : 'secondary'} className={cn("rounded-md px-2 py-1 font-medium shadow-none", decree.status === 'active' ? "bg-emerald-500/10 text-emerald-600 hover:bg-emerald-500/20" : "bg-secondary text-secondary-foreground")}>
                     {decree.status === 'active' ? 'Còn hiệu lực' : decree.status === 'expired' ? 'Hết hiệu lực' : 'Sắp có hiệu lực'}
                   </Badge>
-                  <span className="font-bold whitespace-nowrap text-slate-700 dark:text-slate-200 group-hover:text-primary transition-colors">{decree.decree_number}</span>
+                  <span className="font-bold whitespace-nowrap text-foreground group-hover:text-primary transition-colors">{decree.decree_number}</span>
                 </div>
                 <div className="flex-1">
                   <h4 className="text-lg font-medium line-clamp-2 text-foreground group-hover:text-primary transition-colors">{decree.title}</h4>
@@ -185,7 +186,7 @@ export function HomePage() {
                     <span className="w-1.5 h-1.5 rounded-full bg-slate-300"></span>
                     {formatDate(decree.issued_date)}
                   </div>
-                  {cat && <Badge variant="outline" className="bg-slate-50 text-slate-600 border-slate-200">{cat.name}</Badge>}
+                  {cat && <Badge variant="outline" className="bg-secondary text-secondary-foreground border-border/50">{cat.name}</Badge>}
                 </div>
               </motion.div>
             );

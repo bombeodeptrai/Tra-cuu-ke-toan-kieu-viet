@@ -24,8 +24,8 @@ export function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-40 w-full border-b border-border/40 bg-background/80 backdrop-blur-xl text-foreground shadow-sm transition-colors duration-300">
-      <div className="flex h-16 items-center px-4 md:px-6 gap-4 justify-between w-full max-w-7xl mx-auto">
+    <header className="sticky top-0 z-40 w-full border-b border-border/20 bg-background/70 backdrop-blur-xl text-foreground transition-colors duration-300">
+      <div className="flex h-16 items-center px-4 md:px-8 gap-4 justify-between w-full max-w-[1400px] mx-auto">
         <div className="flex items-center gap-2 md:hidden">
           <Sheet>
             <SheetTrigger asChild>
@@ -41,35 +41,42 @@ export function Header() {
               <Sidebar />
             </SheetContent>
           </Sheet>
-          <div className="flex items-center gap-2 font-bold text-lg text-primary">
-            <div className="bg-white p-1 rounded shadow-sm flex items-center">
-              <img src="https://kieuviet.com.vn/wp-content/uploads/2024/10/logo-kieu-viet.png" alt="Kiểu Việt" className="h-7 object-contain" />
+          <div className="flex items-center gap-2 font-bold text-lg cursor-pointer" onClick={() => navigate('/')}>
+            <div className="bg-white p-1 rounded-lg shadow-sm flex items-center border border-border/50">
+              <img src="https://kieuviet.com.vn/wp-content/uploads/2024/10/logo-kieu-viet.png" alt="Kiểu Việt" className="h-6 object-contain" />
             </div>
-            <span className="hidden sm:inline-block ml-1">Kế Toán</span>
+            <span className="hidden sm:inline-block tracking-tight">Kế Toán</span>
           </div>
         </div>
 
-        <div className="hidden md:flex flex-1 max-w-md ml-4">
-          <form onSubmit={handleSearch} className="w-full relative">
-            <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-muted-foreground" />
+        <div className="hidden md:flex items-center gap-2 font-bold text-xl cursor-pointer mr-6" onClick={() => navigate('/')}>
+            <div className="bg-white p-1.5 rounded-lg shadow-soft flex items-center border border-border/50">
+              <img src="https://kieuviet.com.vn/wp-content/uploads/2024/10/logo-kieu-viet.png" alt="Kiểu Việt" className="h-6 object-contain" />
+            </div>
+            <span className="tracking-tight font-semibold">Tra Cứu</span>
+        </div>
+
+        <div className="hidden md:flex flex-1 max-w-xl mx-auto">
+          <form onSubmit={handleSearch} className="w-full relative group">
+            <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground group-focus-within:text-primary transition-colors" />
             <Input
               type="search"
-              placeholder="Tìm kiếm nghị định..."
-              className="w-full bg-muted/50 pl-9 rounded-full border-muted-foreground/20 focus-visible:ring-primary/50"
+              placeholder="Tìm kiếm thông tư, nghị định..."
+              className="w-full bg-muted/40 hover:bg-muted/60 pl-10 h-10 rounded-full border-border/50 focus-visible:ring-1 focus-visible:ring-primary/30 transition-all shadow-none"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
             />
           </form>
         </div>
 
-        <div className="flex items-center gap-2">
-          <Button variant="ghost" size="icon" onClick={toggleTheme}>
-            <Sun className="h-5 w-5 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-            <Moon className="absolute h-5 w-5 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+        <div className="flex items-center gap-1.5">
+          <Button variant="ghost" size="icon" onClick={toggleTheme} className="rounded-full w-9 h-9 text-muted-foreground hover:text-foreground">
+            <Sun className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+            <Moon className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
             <span className="sr-only">Toggle theme</span>
           </Button>
-          <Button variant="ghost" size="icon">
-            <Bell className="h-5 w-5" />
+          <Button variant="ghost" size="icon" className="rounded-full w-9 h-9 text-muted-foreground hover:text-foreground">
+            <Bell className="h-4 w-4" />
             <span className="sr-only">Notifications</span>
           </Button>
         </div>
