@@ -22,18 +22,18 @@ export function DecreeCard({ decree, viewMode }: DecreeCardProps) {
     return (
       <div 
         onClick={() => navigate(`/thu-vien/${decree.id}`)}
-        className={`bg-card border border-border border-l-4 ${borderColorClass} p-4 rounded-xl hover:shadow-md transition-shadow cursor-pointer flex flex-col md:flex-row md:items-center gap-4`}
+        className={`bg-card border border-border border-l-4 ${borderColorClass} p-4 rounded-xl hover:shadow-md transition-shadow cursor-pointer flex flex-col md:flex-row md:items-start gap-4`}
       >
-        <div className="flex items-center gap-3 md:w-1/3">
-          <div className={`w-2 h-2 rounded-full ${decree.status === 'active' ? 'bg-green-500' : decree.status === 'expired' ? 'bg-red-500' : 'bg-yellow-500'}`} />
-          <span className={`font-bold whitespace-nowrap text-primary`}>{decree.decree_number}</span>
-          {category && <Badge variant="outline" className="hidden lg:inline-flex">{category.name}</Badge>}
-        </div>
-        <div className="flex-1">
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center gap-3 mb-1.5">
+            <div className={`w-2 h-2 rounded-full ${decree.status === 'active' ? 'bg-green-500' : decree.status === 'expired' ? 'bg-red-500' : 'bg-yellow-500'}`} />
+            <span className={`font-bold text-primary`}>{decree.decree_number}</span>
+            {category && <Badge variant="outline" className="hidden lg:inline-flex">{category.name}</Badge>}
+          </div>
           <h4 className="text-sm font-medium line-clamp-1">{decree.title}</h4>
           <p className="text-xs text-muted-foreground line-clamp-1 mt-1">{decree.summary}</p>
         </div>
-        <div className="flex items-center gap-4 justify-between md:justify-end md:w-48 text-xs text-muted-foreground">
+        <div className="flex items-center justify-between md:justify-end md:w-48 text-xs text-muted-foreground shrink-0 md:pt-2">
           <span>{formatDate(decree.issued_date)}</span>
           <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-950/30" onClick={(e) => { e.stopPropagation(); /* toggle bookmark */ }}>
             <Heart className="h-4 w-4" />

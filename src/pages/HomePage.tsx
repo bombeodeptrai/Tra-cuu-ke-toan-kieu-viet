@@ -172,16 +172,16 @@ export function HomePage() {
                 onClick={() => navigate(`/thu-vien/${decree.id}`)}
                 className="group bg-card border border-border/40 p-5 rounded-2xl hover:border-border/80 shadow-soft hover:shadow-float transition-all duration-300 cursor-pointer flex flex-col md:flex-row md:items-center gap-4 hover:-translate-x-1"
               >
-                <div className="flex items-center gap-3 md:w-1/4">
-                  <Badge variant={decree.status === 'active' ? 'default' : 'secondary'} className={cn("rounded-md px-2 py-1 font-medium shadow-none", decree.status === 'active' ? "bg-emerald-500/10 text-emerald-600 hover:bg-emerald-500/20" : "bg-secondary text-secondary-foreground")}>
-                    {decree.status === 'active' ? 'Còn hiệu lực' : decree.status === 'expired' ? 'Hết hiệu lực' : 'Sắp có hiệu lực'}
-                  </Badge>
-                  <span className="font-bold whitespace-nowrap text-foreground group-hover:text-primary transition-colors">{decree.decree_number}</span>
+                <div className="flex-1 min-w-0 mb-3 md:mb-0">
+                  <div className="flex items-center gap-3 mb-2">
+                    <Badge variant={decree.status === 'active' ? 'default' : 'secondary'} className={cn("rounded-md px-2 py-1 font-medium shadow-none", decree.status === 'active' ? "bg-emerald-500/10 text-emerald-600 hover:bg-emerald-500/20" : "bg-secondary text-secondary-foreground")}>
+                      {decree.status === 'active' ? 'Còn hiệu lực' : decree.status === 'expired' ? 'Hết hiệu lực' : 'Sắp có hiệu lực'}
+                    </Badge>
+                    <span className="font-bold text-foreground group-hover:text-primary transition-colors">{decree.decree_number}</span>
+                  </div>
+                  <h4 className="text-lg font-medium text-foreground group-hover:text-primary transition-colors">{decree.title}</h4>
                 </div>
-                <div className="flex-1">
-                  <h4 className="text-lg font-medium line-clamp-2 text-foreground group-hover:text-primary transition-colors">{decree.title}</h4>
-                </div>
-                <div className="flex items-center gap-4 text-sm text-muted-foreground md:w-1/4 md:justify-end">
+                <div className="flex flex-row md:flex-col lg:flex-row items-center lg:items-center gap-3 lg:gap-4 text-sm text-muted-foreground whitespace-nowrap md:w-auto shrink-0 justify-end">
                   <div className="flex items-center gap-1.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-slate-300"></span>
                     {formatDate(decree.issued_date)}
