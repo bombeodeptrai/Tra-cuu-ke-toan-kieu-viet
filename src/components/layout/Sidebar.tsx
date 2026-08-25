@@ -53,7 +53,7 @@ export function Sidebar({ onClose }: SidebarProps) {
       <div className="px-4 mb-4">
         <div className="border-t border-border pt-4">
           <a
-            href="http://localhost:5000"
+            href="http://localhost:3000"
             target="_blank"
             rel="noopener noreferrer"
             onClick={onClose}
