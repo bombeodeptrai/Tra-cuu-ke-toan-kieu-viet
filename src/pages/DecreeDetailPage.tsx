@@ -175,8 +175,12 @@ export function DecreeDetailPage() {
         <div className="lg:col-span-2">
           <Tabs defaultValue="content" className="w-full">
             <TabsList className="grid w-full grid-cols-2 mb-6">
-              <TabsTrigger value="content">Nội dung chi tiết</TabsTrigger>
-              <TabsTrigger value="summary">Tóm tắt AI</TabsTrigger>
+              <TabsTrigger value="content" className="gap-2 font-semibold">
+                <FileText className="h-4 w-4" /> Toàn văn văn bản gốc
+              </TabsTrigger>
+              <TabsTrigger value="summary" className="gap-2 font-semibold">
+                <Bot className="h-4 w-4" /> Phân tích & Tóm tắt AI
+              </TabsTrigger>
             </TabsList>
             
             <TabsContent value="content" className="mt-0">
