@@ -32,53 +32,50 @@ export function DecreeDetailPage() {
 
   useEffect(() => {
     if (decree) {
-      if (decree.content_url) {
-        setIsLoadingContent(true);
-        const basePath = import.meta.env.BASE_URL || '/';
-        const contentPath = basePath.replace(/\/$/, '') + decree.content_url;
-        fetch(contentPath)
-          .then(res => {
-            if (!res.ok) throw new Error('Không tìm thấy nội dung');
-            return res.text();
-          })
-          .then(text => {
-            if (text.includes('> *Lỗi tạo tóm tắt tự động*') || text.includes('Lỗi gọi AI:')) {
-              text = text.replace(/> \*Lỗi tạo tóm tắt tự động\*/g, '> *⚠️ Hệ thống AI hiện đang bị quá tải (do giới hạn từ Google). Tóm tắt chuyên sâu sẽ tự động cập nhật sau ít phút. Trong lúc chờ đợi, anh/chị vui lòng tham khảo chi tiết ở phần Toàn văn bên dưới.*');
-              text = text.replace(/Lỗi gọi AI: Bad status \d+:[\s\S]*?(?=---|$)/g, '> *⚠️ Hệ thống AI hiện đang bị quá tải. Tóm tắt sẽ cập nhật sau.* \n\n');
-            }
-            
-            // Ensure the main detailed content always has the comprehensive text
-            const splitMatch = text.match(/(?:---)?\s*## 📜 TOÀN VĂN VĂN BẢN\s*([\s\S]*)/);
-            if (splitMatch && splitMatch[1].trim().length > 300) {
-              // If there is an actual long legal text section at the bottom
-              let summaryPart = text.replace(splitMatch[0], '');
-              summaryPart = summaryPart.replace(/^# .+\n/, '').trim();
-              summaryPart = summaryPart.replace(/## 🌟 TÓM TẮT CHUYÊN SÂU \(Bởi AI\)\r?\n?/, '').trim();
-              setSummaryContent(summaryPart || decree.summary || '');
-              setFullTextContent(splitMatch[1].trim());
+      setIsLoadingContent(true);
+      const basePath = import.meta.env.BASE_URL || '/';
+      const contentUrl = decree.content_url || `/data/content/${decree.id}.md`;
+      const contentPath = basePath.replace(/\/$/, '') + (contentUrl.startsWith('/') ? contentUrl : '/' + contentUrl);
+      
+      fetch(contentPath)
+        .then(res => {
+          if (!res.ok) throw new Error('Không tìm thấy nội dung file markdown');
+          return res.text();
+        })
+        .then(text => {
+          if (text.includes('> *Lỗi tạo tóm tắt tự động*') || text.includes('Lỗi gọi AI:')) {
+            text = text.replace(/> \*Lỗi tạo tóm tắt tự động\*/g, '> *⚠️ Hệ thống AI hiện đang bị quá tải (do giới hạn từ Google). Tóm tắt chuyên sâu sẽ tự động cập nhật sau ít phút. Trong lúc chờ đợi, anh/chị vui lòng tham khảo chi tiết ở phần Toàn văn bên dưới.*');
+            text = text.replace(/Lỗi gọi AI: Bad status \d+:[\s\S]*?(?=---|$)/g, '> *⚠️ Hệ thống AI hiện đang bị quá tải. Tóm tắt sẽ cập nhật sau.* \n\n');
+          }
+          
+          // Ensure the main detailed content always has the comprehensive text
+          const splitMatch = text.match(/(?:---)?\s*## 📜 TOÀN VĂN VĂN BẢN\s*([\s\S]*)/);
+          if (splitMatch && splitMatch[1].trim().length > 300) {
+            // If there is an actual long legal text section at the bottom
+            let summaryPart = text.replace(splitMatch[0], '');
+            summaryPart = summaryPart.replace(/^# .+\n/, '').trim();
+            summaryPart = summaryPart.replace(/## 🌟 TÓM TẮT CHUYÊN SÂU \(Bởi AI\)\r?\n?/, '').trim();
+            setSummaryContent(summaryPart || decree.summary || '');
+            setFullTextContent(splitMatch[1].trim());
+          } else {
+            // Otherwise the entire markdown IS the detailed comprehensive analysis/content!
+            const aiSummaryMatch = text.match(/## 🌟 TÓM TẮT CHUYÊN SÂU[\s\S]*?(?=---|\n# |\n## 1|$)/);
+            if (aiSummaryMatch) {
+              setSummaryContent(aiSummaryMatch[0].replace(/## 🌟 TÓM TẮT CHUYÊN SÂU \(Bởi AI\)\r?\n?/, '').trim());
             } else {
-              // Otherwise the entire markdown IS the detailed comprehensive analysis/content!
-              // For summary tab, extract the AI summary section or use decree.summary
-              const aiSummaryMatch = text.match(/## 🌟 TÓM TẮT CHUYÊN SÂU[\s\S]*?(?=---|\n# |\n## 1|$)/);
-              if (aiSummaryMatch) {
-                setSummaryContent(aiSummaryMatch[0].replace(/## 🌟 TÓM TẮT CHUYÊN SÂU \(Bởi AI\)\r?\n?/, '').trim());
-              } else {
-                setSummaryContent(decree.summary || '');
-              }
-              setFullTextContent(text);
+              setSummaryContent(decree.summary || '');
             }
-            
-            setContent(text);
-          })
-          .catch(() => {
-            setFullTextContent('Lỗi tải nội dung.');
-            setSummaryContent(decree.summary || '');
-          })
-          .finally(() => setIsLoadingContent(false));
-      } else {
-        setFullTextContent(decree.content || '');
-        setSummaryContent(decree.summary || '');
-      }
+            setFullTextContent(text);
+          }
+          
+          setContent(text);
+        })
+        .catch((err) => {
+          console.warn('Could not load markdown file, using decree.content:', err);
+          setFullTextContent(decree.content || decree.summary || 'Nội dung đang được cập nhật...');
+          setSummaryContent(decree.summary || '');
+        })
+        .finally(() => setIsLoadingContent(false));
     }
   }, [decree]);
 

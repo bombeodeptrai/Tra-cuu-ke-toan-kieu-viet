@@ -104,9 +104,18 @@ export const useDecreeStore = create<DecreeState>()(
               const sheetData = await res.json();
               if (Array.isArray(sheetData) && sheetData.length > 0) {
                 const sheetValid = sheetData.filter((d: any) => d.id && d.title);
-                // Merge: prioritize items from sheet, add local items not in sheet
-                const sheetIds = new Set(sheetValid.map((d: any) => d.id));
-                const merged = [...sheetValid, ...validData.filter(d => !sheetIds.has(d.id))];
+                const localMap = new Map(validData.map(d => [d.id, d]));
+                const mergedSheet = sheetValid.map((s: any) => {
+                  const local = localMap.get(s.id);
+                  return {
+                    ...local,
+                    ...s,
+                    content_url: s.content_url || local?.content_url || `/data/content/${s.id}.md`,
+                    pdf_url: s.pdf_url || local?.pdf_url || '',
+                  };
+                });
+                const sheetIds = new Set(mergedSheet.map((d: any) => d.id));
+                const merged = [...mergedSheet, ...validData.filter(d => !sheetIds.has(d.id))];
                 validData = merged;
               }
             }
