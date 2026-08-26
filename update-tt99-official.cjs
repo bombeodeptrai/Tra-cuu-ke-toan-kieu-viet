@@ -1,4 +1,6 @@
-# CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+const fs = require('fs');
+
+const tt99FullOfficial = `# CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 **Độc lập - Tự do - Hạnh phúc**
 ---
 
@@ -197,3 +199,28 @@ Hướng dẫn chi tiết việc chuyển đổi số dư các tài khoản khi 
 * Mẫu 04 - TSCĐ: Biên bản đánh giá lại TSCĐ
 * Mẫu 05 - TSCĐ: Biên bản tổng hợp kiểm kê TSCĐ
 * Mẫu 06 - TSCĐ: Bảng tính và phân bổ khấu hao TSCĐ
+`;
+
+fs.writeFileSync('public/data/content/tt-99-2025.md', tt99FullOfficial, 'utf8');
+
+// Update public/data/decrees.json & src/data/initial-decrees.ts
+const decrees = JSON.parse(fs.readFileSync('public/data/decrees.json', 'utf8'));
+
+const tt99 = decrees.find(d => d.id === 'tt-99-2025');
+if (tt99) {
+  tt99.title = 'Thông tư 99/2025/TT-BTC hướng dẫn Chế độ kế toán doanh nghiệp (Thay thế TT 200/2014/TT-BTC)';
+  tt99.issued_date = '2025-10-27';
+  tt99.effective_date = '2026-01-01';
+  tt99.source_url = 'https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529.htm';
+  tt99.summary = 'Thông tư số 99/2025/TT-BTC do Bộ Tài chính ban hành ngày 27/10/2025 (Công báo số 1563+1564) hướng dẫn Chế độ kế toán doanh nghiệp, chính thức có hiệu lực từ ngày 01/01/2026 thay thế hoàn toàn Thông tư 200/2014/TT-BTC.';
+}
+
+fs.writeFileSync('public/data/decrees.json', JSON.stringify(decrees, null, 2), 'utf8');
+
+const tsContent = `import { Decree } from '@/types/decree';
+
+export const INITIAL_DECREES: Decree[] = ${JSON.stringify(decrees, null, 2)};
+`;
+fs.writeFileSync('src/data/initial-decrees.ts', tsContent, 'utf8');
+
+console.log('Successfully updated TT 99/2025/TT-BTC with 100% official text and Công Báo URL!');

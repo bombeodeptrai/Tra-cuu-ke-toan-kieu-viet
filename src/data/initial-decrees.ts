@@ -492,13 +492,13 @@ export const INITIAL_DECREES: Decree[] = [
   {
     "id": "tt-99-2025",
     "decree_number": "99/2025/TT-BTC",
-    "title": "Thông tư 99/2025/TT-BTC Chế độ Kế toán Doanh nghiệp (Mới nhất)",
+    "title": "Thông tư 99/2025/TT-BTC hướng dẫn Chế độ kế toán doanh nghiệp (Thay thế TT 200/2014/TT-BTC)",
     "category": "thong-tu",
-    "issued_date": "2025-07-01",
-    "effective_date": "2025-07-01",
+    "issued_date": "2025-10-27",
+    "effective_date": "2026-01-01",
     "status": "active",
-    "source_url": "https://vbpl.vn/TW/Pages/vbpq-toan-van.aspx?ItemID=170500",
-    "summary": "Thông tư 99/2025/TT-BTC là bước ngoặt lớn trong ngành kế toán Việt Nam, thay thế hoàn toàn Thông tư 200/2014. Thông tư thiết kế lại toàn bộ hệ thống tài khoản, chú trọng vào việc tiệm cận các chuẩn mực IFRS quốc tế và đơn giản hóa thủ tục hành chính.\n\n**Điểm nhấn quan trọng:**\n- **Xóa bỏ sự cứng nhắc trong chứng từ:** Doanh nghiệp được tự chủ hoàn toàn trong thiết kế chứng từ, sổ kế toán miễn đáp ứng nội dung cốt lõi.\n- **Thay đổi tên gọi báo cáo tài chính:** Chuyển từ \"Bảng cân đối kế toán\" sang \"Báo cáo tình hình tài chính\" theo IFRS.\n- **Áp dụng Giá trị hợp lý (Fair Value):** Bắt buộc đánh giá lại một số tài sản theo giá thị trường thay vì chỉ dùng giá gốc.\n- **Tài khoản số mới:** Cập nhật bổ sung tài khoản cho giao dịch thương mại điện tử, tiền điện tử.\n\n**Đối tượng áp dụng:** Doanh nghiệp lớn, doanh nghiệp niêm yết, FDI. DNNVV vẫn áp dụng TT 133/2016 (chờ sửa đổi).",
+    "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529.htm",
+    "summary": "Thông tư số 99/2025/TT-BTC do Bộ Tài chính ban hành ngày 27/10/2025 (Công báo số 1563+1564) hướng dẫn Chế độ kế toán doanh nghiệp, chính thức có hiệu lực từ ngày 01/01/2026 thay thế hoàn toàn Thông tư 200/2014/TT-BTC.",
     "pdf_url": "/data/pdfs/tt-99-2025.pdf",
     "content_url": "/data/content/tt-99-2025.md"
   }
