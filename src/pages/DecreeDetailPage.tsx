@@ -47,19 +47,24 @@ export function DecreeDetailPage() {
               text = text.replace(/Lỗi gọi AI: Bad status \d+:[\s\S]*?(?=---|$)/g, '> *⚠️ Hệ thống AI hiện đang bị quá tải. Tóm tắt sẽ cập nhật sau.* \n\n');
             }
             
-            // Split the markdown into Summary and Full Text
+            // Ensure the main detailed content always has the comprehensive text
             const splitMatch = text.match(/(?:---)?\s*## 📜 TOÀN VĂN VĂN BẢN\s*([\s\S]*)/);
-            if (splitMatch) {
+            if (splitMatch && splitMatch[1].trim().length > 300) {
+              // If there is an actual long legal text section at the bottom
               let summaryPart = text.replace(splitMatch[0], '');
-              // Remove the main title from the summary part
               summaryPart = summaryPart.replace(/^# .+\n/, '').trim();
-              // Remove the redundant heading for the UI
               summaryPart = summaryPart.replace(/## 🌟 TÓM TẮT CHUYÊN SÂU \(Bởi AI\)\r?\n?/, '').trim();
-              
-              setSummaryContent(summaryPart);
+              setSummaryContent(summaryPart || decree.summary || '');
               setFullTextContent(splitMatch[1].trim());
             } else {
-              setSummaryContent(decree.summary || '');
+              // Otherwise the entire markdown IS the detailed comprehensive analysis/content!
+              // For summary tab, extract the AI summary section or use decree.summary
+              const aiSummaryMatch = text.match(/## 🌟 TÓM TẮT CHUYÊN SÂU[\s\S]*?(?=---|\n# |\n## 1|$)/);
+              if (aiSummaryMatch) {
+                setSummaryContent(aiSummaryMatch[0].replace(/## 🌟 TÓM TẮT CHUYÊN SÂU \(Bởi AI\)\r?\n?/, '').trim());
+              } else {
+                setSummaryContent(decree.summary || '');
+              }
               setFullTextContent(text);
             }
             

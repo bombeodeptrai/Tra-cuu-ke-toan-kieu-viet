@@ -78,12 +78,42 @@ export const useDecreeStore = create<DecreeState>()(
       fetchDecrees: async () => {
         try {
           set({ isLoading: true, error: null });
-          const API_URL = 'https://script.google.com/macros/s/AKfycbwkPqx3h1fhA-2vhAB5W4VZnEsKyIEfrUNrnf3WjZ35A48Eido-GvK6IKF9Zu2n3YCG/exec';
-          const res = await fetch(API_URL);
-          if (!res.ok) throw new Error('Không thể kết nối đến Database');
-          const data = await res.json();
-          // Kiểm tra và format lại data nếu cần (loại bỏ lỗi hoặc các dòng trống)
-          const validData = Array.isArray(data) ? data.filter(d => d.id && d.title) : [];
+          const basePath = import.meta.env.BASE_URL || '/';
+          const localUrl = basePath.replace(/\/$/, '') + '/data/decrees.json';
+          
+          let validData: Decree[] = [];
+          
+          // 1. Fetch from local JSON first (guaranteed 33+ high quality full docs)
+          try {
+            const localRes = await fetch(localUrl);
+            if (localRes.ok) {
+              const localData = await localRes.json();
+              if (Array.isArray(localData) && localData.length > 0) {
+                validData = localData;
+              }
+            }
+          } catch (e) {
+            console.warn('Could not load local decrees.json, falling back...', e);
+          }
+
+          // 2. Try to fetch/merge from Google Apps Script if available
+          try {
+            const API_URL = 'https://script.google.com/macros/s/AKfycbwkPqx3h1fhA-2vhAB5W4VZnEsKyIEfrUNrnf3WjZ35A48Eido-GvK6IKF9Zu2n3YCG/exec';
+            const res = await fetch(API_URL);
+            if (res.ok) {
+              const sheetData = await res.json();
+              if (Array.isArray(sheetData) && sheetData.length > 0) {
+                const sheetValid = sheetData.filter((d: any) => d.id && d.title);
+                // Merge: prioritize items from sheet, add local items not in sheet
+                const sheetIds = new Set(sheetValid.map((d: any) => d.id));
+                const merged = [...sheetValid, ...validData.filter(d => !sheetIds.has(d.id))];
+                validData = merged;
+              }
+            }
+          } catch (e) {
+            console.log('Apps Script fetch skipped or offline, using local data');
+          }
+
           set({ decrees: validData, isLoading: false, lastFetched: Date.now() });
         } catch (error: any) {
           set({ error: error.message, isLoading: false });
