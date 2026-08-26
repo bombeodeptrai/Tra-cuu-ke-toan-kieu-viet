@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Building2, LayoutDashboard, Library, Search, MessageSquareText, Settings, BookOpen, Download, LineChart } from 'lucide-react';
+import { Building2, LayoutDashboard, Library, Search, MessageSquareText, Settings, BookOpen, Download, LineChart, ScanText, Sparkles } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { APP_NAME } from '@/lib/utils/constants';
 
@@ -15,6 +15,7 @@ export function Sidebar({ onClose }: SidebarProps) {
     { to: '/tra-cuu', icon: Search, label: 'Tra cứu' },
     { to: '/tai-khoan', icon: BookOpen, label: 'Hệ thống Tài khoản' },
     { to: '/bieu-mau', icon: Download, label: 'Biểu mẫu' },
+    { to: '/doc-chu-viet-tay', icon: ScanText, label: 'Đọc chữ viết tay' },
     { to: '/hoi-dap-ai', icon: MessageSquareText, label: 'Hỏi đáp AI' },
     { to: '/cai-dat', icon: Settings, label: 'Cài đặt' },
   ];
@@ -31,7 +32,7 @@ export function Sidebar({ onClose }: SidebarProps) {
         </div>
       </div>
       
-      <div className="flex-1 px-4 space-y-2 py-4 overflow-y-auto">
+      <div className="flex-1 px-4 space-y-2 py-4 overflow-y-auto custom-scrollbar">
         {navItems.map((item) => (
           <NavLink
             key={item.to}
@@ -51,23 +52,27 @@ export function Sidebar({ onClose }: SidebarProps) {
       </div>
 
       <div className="px-4 mb-4">
-        <div className="border-t border-border pt-4">
+        <div className="pt-2">
           <a
             href="https://kt-kv.onrender.com"
             target="_blank"
             rel="noopener noreferrer"
             onClick={onClose}
-            className="flex items-center gap-3 rounded-lg px-3 py-2.5 transition-all text-sm font-medium text-emerald-600 hover:bg-emerald-50 dark:hover:bg-emerald-900/20"
+            className="group relative flex items-center justify-center gap-2 rounded-xl p-0.5 transition-all duration-300 hover:scale-[1.02] shadow-md hover:shadow-lg active:scale-95"
           >
-            <LineChart className="h-5 w-5" />
-            Phân tích Tài chính (New)
+            <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500 opacity-80 group-hover:opacity-100 blur-sm transition-opacity duration-300"></div>
+            <div className="relative flex w-full items-center justify-center gap-2 rounded-[10px] bg-gradient-to-r from-emerald-500 via-teal-500 to-cyan-500 px-4 py-3 text-white">
+              <LineChart className="h-5 w-5" />
+              <span className="font-bold text-sm tracking-wide">PHÂN TÍCH TÀI CHÍNH</span>
+              <Sparkles className="h-4 w-4 text-emerald-100 absolute top-2 right-2 animate-pulse" />
+            </div>
           </a>
         </div>
       </div>
       
       <div className="p-4 mt-auto border-t border-border">
         <div className="flex items-center justify-between text-xs text-muted-foreground">
-          <span>Phiên bản 1.0</span>
+          <span>Phiên bản 1.0.1</span>
           <a href="#" className="hover:text-primary transition-colors">GitHub</a>
         </div>
       </div>
