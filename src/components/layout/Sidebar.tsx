@@ -53,7 +53,7 @@ export function Sidebar({ onClose }: SidebarProps) {
       <div className="px-4 mb-4">
         <div className="pt-2 flex flex-col gap-3">
           <a
-            href="https://kt-kv.onrender.com"
+            href="http://117.2.48.196:3000"
             target="_blank"
             rel="noopener noreferrer"
             onClick={onClose}
