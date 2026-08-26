@@ -18,6 +18,8 @@ import { formatDate } from '@/lib/utils/format';
 import { useDecreeStore } from '@/stores/decree-store';
 import { useToast } from '@/components/ui/use-toast';
 
+const contentCache = new Map<string, string>();
+
 export function DecreeDetailPage() {
   const { id } = useParams();
   const { toast } = useToast();
@@ -30,8 +32,29 @@ export function DecreeDetailPage() {
   const [isLoadingContent, setIsLoadingContent] = useState(false);
   const navigate = useNavigate();
 
+  const parseAndSetText = (text: string) => {
+    if (text.includes('> *Lỗi tạo tóm tắt tự động*') || text.includes('Lỗi gọi AI:')) {
+      text = text.replace(/> \*Lỗi tạo tóm tắt tự động\*/g, '> *⚠️ Hệ thống AI hiện đang bị quá tải (do giới hạn từ Google). Tóm tắt chuyên sâu sẽ tự động cập nhật sau ít phút. Trong lúc chờ đợi, anh/chị vui lòng tham khảo chi tiết ở phần Toàn văn bên dưới.*');
+      text = text.replace(/Lỗi gọi AI: Bad status \d+:[\s\S]*?(?=---|$)/g, '> *⚠️ Hệ thống AI hiện đang bị quá tải. Tóm tắt sẽ cập nhật sau.* \n\n');
+    }
+    setContent(text);
+    setFullTextContent(text);
+    const aiSummaryMatch = text.match(/## 🌟 (?:TÓM TẮT CHUYÊN SÂU|BÁO CÁO PHÂN TÍCH)[\s\S]*?(?=---|\n# BÁO CÁO|\n## 1|$)/i);
+    if (aiSummaryMatch) {
+      setSummaryContent(aiSummaryMatch[0].trim());
+    } else {
+      setSummaryContent(decree?.summary || text.substring(0, 1000));
+    }
+  };
+
   useEffect(() => {
     if (decree) {
+      if (contentCache.has(decree.id)) {
+        parseAndSetText(contentCache.get(decree.id)!);
+        setIsLoadingContent(false);
+        return;
+      }
+
       setIsLoadingContent(true);
       const basePath = import.meta.env.BASE_URL || '/';
       const contentUrl = decree.content_url || `/data/content/${decree.id}.md`;
@@ -43,22 +66,8 @@ export function DecreeDetailPage() {
           return res.text();
         })
         .then(text => {
-          if (text.includes('> *Lỗi tạo tóm tắt tự động*') || text.includes('Lỗi gọi AI:')) {
-            text = text.replace(/> \*Lỗi tạo tóm tắt tự động\*/g, '> *⚠️ Hệ thống AI hiện đang bị quá tải (do giới hạn từ Google). Tóm tắt chuyên sâu sẽ tự động cập nhật sau ít phút. Trong lúc chờ đợi, anh/chị vui lòng tham khảo chi tiết ở phần Toàn văn bên dưới.*');
-            text = text.replace(/Lỗi gọi AI: Bad status \d+:[\s\S]*?(?=---|$)/g, '> *⚠️ Hệ thống AI hiện đang bị quá tải. Tóm tắt sẽ cập nhật sau.* \n\n');
-          }
-          
-          // The main content tab ALWAYS contains 100% of the full comprehensive text (Analysis + Legal Articles)
-          setContent(text);
-          setFullTextContent(text);
-          
-          // Extract the focused AI analysis / summary for the second tab
-          const aiSummaryMatch = text.match(/## 🌟 (?:TÓM TẮT CHUYÊN SÂU|BÁO CÁO PHÂN TÍCH)[\s\S]*?(?=---|\n# BÁO CÁO|\n## 1|$)/i);
-          if (aiSummaryMatch) {
-            setSummaryContent(aiSummaryMatch[0].trim());
-          } else {
-            setSummaryContent(decree.summary || text.substring(0, 1000));
-          }
+          contentCache.set(decree.id, text);
+          parseAndSetText(text);
         })
         .catch((err) => {
           console.warn('Could not load markdown file, using decree.content:', err);

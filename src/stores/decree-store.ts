@@ -1,6 +1,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import { Decree } from '@/types/decree';
+import { INITIAL_DECREES } from '@/data/initial-decrees';
 
 export interface Category {
   id: string;
@@ -41,7 +42,7 @@ export interface DecreeState {
 export const useDecreeStore = create<DecreeState>()(
   persist(
     (set, get) => ({
-      decrees: [],
+      decrees: INITIAL_DECREES,
       categories: [],
       isLoading: false,
       error: null,
