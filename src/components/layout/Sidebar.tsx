@@ -15,7 +15,6 @@ export function Sidebar({ onClose }: SidebarProps) {
     { to: '/tra-cuu', icon: Search, label: 'Tra cứu' },
     { to: '/tai-khoan', icon: BookOpen, label: 'Hệ thống Tài khoản' },
     { to: '/bieu-mau', icon: Download, label: 'Biểu mẫu' },
-    { to: '/doc-chu-viet-tay', icon: ScanText, label: 'Đọc chữ viết tay' },
     { to: '/hoi-dap-ai', icon: MessageSquareText, label: 'Hỏi đáp AI' },
     { to: '/cai-dat', icon: Settings, label: 'Cài đặt' },
   ];
@@ -52,7 +51,7 @@ export function Sidebar({ onClose }: SidebarProps) {
       </div>
 
       <div className="px-4 mb-4">
-        <div className="pt-2">
+        <div className="pt-2 flex flex-col gap-3">
           <a
             href="https://kt-kv.onrender.com"
             target="_blank"
@@ -65,6 +64,20 @@ export function Sidebar({ onClose }: SidebarProps) {
               <LineChart className="h-5 w-5" />
               <span className="font-bold text-sm tracking-wide">PHÂN TÍCH TÀI CHÍNH</span>
               <Sparkles className="h-4 w-4 text-emerald-100 absolute top-2 right-2 animate-pulse" />
+            </div>
+          </a>
+          
+          <a
+            href="https://bombeodeptrai.github.io/Doc-chu-viet-tay-cham-cong/"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={onClose}
+            className="group relative flex items-center justify-center gap-2 rounded-xl p-0.5 transition-all duration-300 hover:scale-[1.02] shadow-md hover:shadow-lg active:scale-95"
+          >
+            <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 opacity-80 group-hover:opacity-100 blur-sm transition-opacity duration-300"></div>
+            <div className="relative flex w-full items-center justify-center gap-2 rounded-[10px] bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 px-4 py-3 text-white">
+              <ScanText className="h-5 w-5" />
+              <span className="font-bold text-sm tracking-wide">ĐỌC CHỮ VIẾT TAY</span>
             </div>
           </a>
         </div>

@@ -9,7 +9,6 @@ import { ChatAIPage } from './pages/ChatAIPage';
 import { SettingsPage } from './pages/SettingsPage';
 import { ChartOfAccountsPage } from './pages/ChartOfAccountsPage';
 import { FormsPage } from './pages/FormsPage';
-import { HandwritingReaderPage } from './pages/HandwritingReaderPage';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import { useSettingsStore } from '@/stores/settings-store';
@@ -46,7 +45,6 @@ export default function App() {
             <Route path="tra-cuu" element={<SearchPage />} />
             <Route path="tai-khoan" element={<ChartOfAccountsPage />} />
             <Route path="bieu-mau" element={<FormsPage />} />
-            <Route path="doc-chu-viet-tay" element={<HandwritingReaderPage />} />
             <Route path="hoi-dap-ai" element={<ChatAIPage />} />
             <Route path="cai-dat" element={<SettingsPage />} />
             <Route path="*" element={<NotFoundPage />} />
