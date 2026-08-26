@@ -1,4 +1,7 @@
-# Nghị định 180/2024/NĐ-CP quy định chính sách giảm thuế giá trị gia tăng theo Nghị quyết 174/2024/QH15
+const fs = require('fs');
+
+// 1. Upgrade NGHỊ ĐỊNH 180/2024/NĐ-CP to Super Deep Analysis + Full Legal Text
+const nd180Deep = `# Nghị định 180/2024/NĐ-CP quy định chính sách giảm thuế giá trị gia tăng theo Nghị quyết 174/2024/QH15
 
 ## 🌟 BÁO CÁO PHÂN TÍCH CHUYÊN SÂU DÀNH CHO BAN GIÁM ĐỐC & KẾ TOÁN TRƯỞNG
 *Chuyên gia phân tích: Ban Cố vấn Thuế & Kế toán Doanh nghiệp Kiểu Việt*
@@ -83,3 +86,7 @@ b) Cơ sở kinh doanh (bao gồm cả hộ kinh doanh, cá nhân kinh doanh) t�
 ### ĐIỀU 2. HIỆU LỰC THI HÀNH VÀ TỔ CHỨC THỰC HIỆN
 1. Nghị định này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2025 đến hết ngày 30 tháng 06 năm 2025.
 2. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương và các doanh nghiệp, tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Nghị định này.
+`;
+
+fs.writeFileSync('public/data/content/nd-180-2024-nd-cp.md', nd180Deep, 'utf8');
+console.log('Saved ultra-deep analysis for ND 180/2024/ND-CP!');

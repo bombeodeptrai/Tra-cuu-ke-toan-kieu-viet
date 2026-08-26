@@ -48,27 +48,17 @@ export function DecreeDetailPage() {
             text = text.replace(/Lỗi gọi AI: Bad status \d+:[\s\S]*?(?=---|$)/g, '> *⚠️ Hệ thống AI hiện đang bị quá tải. Tóm tắt sẽ cập nhật sau.* \n\n');
           }
           
-          // Ensure the main detailed content always has the comprehensive text
-          const splitMatch = text.match(/(?:---)?\s*## 📜 TOÀN VĂN VĂN BẢN\s*([\s\S]*)/);
-          if (splitMatch && splitMatch[1].trim().length > 300) {
-            // If there is an actual long legal text section at the bottom
-            let summaryPart = text.replace(splitMatch[0], '');
-            summaryPart = summaryPart.replace(/^# .+\n/, '').trim();
-            summaryPart = summaryPart.replace(/## 🌟 TÓM TẮT CHUYÊN SÂU \(Bởi AI\)\r?\n?/, '').trim();
-            setSummaryContent(summaryPart || decree.summary || '');
-            setFullTextContent(splitMatch[1].trim());
-          } else {
-            // Otherwise the entire markdown IS the detailed comprehensive analysis/content!
-            const aiSummaryMatch = text.match(/## 🌟 TÓM TẮT CHUYÊN SÂU[\s\S]*?(?=---|\n# |\n## 1|$)/);
-            if (aiSummaryMatch) {
-              setSummaryContent(aiSummaryMatch[0].replace(/## 🌟 TÓM TẮT CHUYÊN SÂU \(Bởi AI\)\r?\n?/, '').trim());
-            } else {
-              setSummaryContent(decree.summary || '');
-            }
-            setFullTextContent(text);
-          }
-          
+          // The main content tab ALWAYS contains 100% of the full comprehensive text (Analysis + Legal Articles)
           setContent(text);
+          setFullTextContent(text);
+          
+          // Extract the focused AI analysis / summary for the second tab
+          const aiSummaryMatch = text.match(/## 🌟 (?:TÓM TẮT CHUYÊN SÂU|BÁO CÁO PHÂN TÍCH)[\s\S]*?(?=---|\n# BÁO CÁO|\n## 1|$)/i);
+          if (aiSummaryMatch) {
+            setSummaryContent(aiSummaryMatch[0].trim());
+          } else {
+            setSummaryContent(decree.summary || text.substring(0, 1000));
+          }
         })
         .catch((err) => {
           console.warn('Could not load markdown file, using decree.content:', err);
