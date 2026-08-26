@@ -1,4 +1,5 @@
-import React, { useState, useCallback } from 'react';
+﻿const fs = require('fs');
+const content = `import React, { useState, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { GoogleGenAI } from '@google/genai';
 import { Upload, ScanText, Loader2, FileImage, ClipboardCopy, Settings } from 'lucide-react';
@@ -64,7 +65,7 @@ export function HandwritingReaderPage() {
         ]
       });
 
-      setResult(response.text || 'Không tìm thấy chữ trong hình ảnh.');
+      setResult(response.text);
     } catch (error: any) {
       console.error(error);
       toast({
@@ -162,7 +163,7 @@ export function HandwritingReaderPage() {
               <ClipboardCopy className="h-4 w-4" /> Copy
             </Button>
           </div>
-          <div className="p-4 flex-1 overflow-y-auto custom-scrollbar">
+          <div className="p-4 flex-1 overflow-y-auto">
             {result ? (
               <div className="whitespace-pre-wrap text-sm text-foreground/90 leading-relaxed font-mono">
                 {result}
@@ -181,3 +182,5 @@ export function HandwritingReaderPage() {
     </div>
   );
 }
+`;
+fs.writeFileSync('src/pages/HandwritingReaderPage.tsx', content, 'utf8');
