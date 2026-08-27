@@ -33,662 +33,135 @@ Dưới đây là các điểm trọng tâm chuyên sâu dành cho kế toán vi
 ---
 
 ## 📜 TOÀN VĂN VĂN BẢN
-**BỘ TÀI CHÍNH  
-\-------**
 
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  
-Độc lập - Tự do - Hạnh phúc  
-\---------------**
+ỦY BAN NHÂN DÂN  
+TỈNH KON TUM
 
-Số: 47/2024/TT-BTC
+\_\_\_\_\_\_\_\_\_
 
-_Hà Nội, ngày 10 tháng 7 năm 2024_
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 
-**THÔNG TƯ  
-Quy định mức thu, chế độ thu, nộp, miễn, quản lý và sử dụng phí**
+Độc lập – Tự do – Hạnh phúc
 
-**khai thác, sử dụng thông tin dữ liệu đo đạc và bản đồ**
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-****\------------------------------****
+Số: 54/2024/QĐ-UBND
 
-_Căn cứ Luật Phí và lệ phí ngày 25 tháng 11 năm 2015;_
+Kon Tum, ngày 23 tháng 10 năm 2024
 
-_Căn cứ Nghị định số 120/2016/NĐ-CP ngày 23 tháng 8 năm 2016 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phí và lệ phí; Nghị định số 82/2023/NĐ-CP ngày 28 tháng 11 năm 2023 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 120/2016/NĐ-CP ngày 23 tháng 8 năm 2016 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phí và lệ phí;_
+**QUYẾT ĐỊNH**
 
-_Căn cứ Nghị định số 27/2019/NĐ-CP ngày 13 tháng 3 năm 2019 của Chính phủ quy định chi tiết một số điều của Luật Đo đạc và bản đồ; Nghị định số 136/2021/NĐ-CP ngày 31 tháng 12 năm 2021 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 27/2019/NĐ-CP ngày 13 tháng 3 năm 2019 của Chính phủ quy định chi tiết một số điều của Luật Đo đạc và bản đồ;_
+**Bãi bỏ toàn bộ Quyết định, một phần Quyết định quy phạm pháp luật**
 
-_Căn cứ Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế; Nghị định số 91/2022/NĐ-CP ngày 30 tháng 10 năm 2022 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế;_
+**do Ủy ban nhân dân tỉnh Kon Tum ban hành**
 
-_Căn cứ Nghị định số 11/2020/NĐ-CP ngày 20 tháng 01 năm 2020 của Chính phủ quy định về thủ tục hành chính thuộc lĩnh vực Kho bạc Nhà nước; Nghị định số 123/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định về hóa đơn, chứng từ;_
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-_Căn cứ Nghị định số 14/2023/NĐ-CP ngày 20 tháng 4 năm 2023 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Tài chính;_
+**ỦY BAN NHÂN DÂN TỈNH KON TUM** 
 
-_Theo đề nghị của Cục trưởng Cục Quản lý, giám sát chính sách thuế, phí và lệ phí;_
+_Căn cứ Luật Tổ chức chính quyền địa phương ngày 19 tháng 6 năm 2015; Luật sửa đổi, bổ sung một số điều của Luật Tổ chức Chính phủ và Luật Tổ chức chính quyền địa phương ngày 22 tháng 11 năm 2019;_
 
-_Bộ trưởng Bộ Tài chính ban hành Thông tư quy định mức thu, chế độ thu, nộp, miễn, quản lý và sử dụng phí khai thác, sử dụng thông tin dữ liệu đo đạc và bản đồ._
+_C__ă__n c__ứ_ _Lu__ậ__t Ban hành văn bản quy phạm pháp luật ngày 22 tháng 6 năm 2015;_
 
-****Điều 1. Phạm vi điều chỉnh và đối tượng áp dụng****
+_Căn cứ_ _Luật sửa đổi, bổ sung một số điều của Luật ban hành văn bản quy phạm pháp luật ngày 18 tháng 6 năm 2020;_
 
-1\. Thông tư này quy định mức thu, chế độ thu, nộp, miễn, quản lý và sử dụng phí khai thác, sử dụng thông tin dữ liệu đo đạc và bản đồ là tài sản công do Nhà nước quản lý.
+_C__ă__n c__ứ_ _Nghị định số 34/2016/NĐ-CP ngày 14 tháng 5 năm 2016 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật ban hành văn bản quy phạm pháp luật__;_
 
-2\. Thông tư này áp dụng đối với: Người nộp phí; tổ chức thu phí; cơ quan, tổ chức, cá nhân khác liên quan đến việc thu, nộp, quản lý và sử dụng phí khai thác, sử dụng thông tin dữ liệu đo đạc và bản đồ là tài sản công do Nhà nước quản lý.
+_Căn cứ Nghị định số 154/2020/NĐ-CP ngày 31 tháng 12 năm 2020 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 34/2016/NĐ-CP ngày 14 tháng 5 năm 2016 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật ban hành văn bản quy phạm pháp luật;_
 
-****Điều 2. Tổ chức thu phí và người nộp phí****
+_Căn cứ Nghị định số 59/2024/NĐ-CP ngày 25 tháng 5 năm 2024 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 34/2016/NĐ-CP ngày 14 tháng 5 năm 2016 của Chính phủ quy định chi tiết một số điều và biện pháp thi hành Luật ban hành văn bản quy phạm pháp luật đã được sửa đổi, bổ sung một số điều theo Nghị định số 154/2020/NĐ-CP ngày 31 tháng 12 năm 2020 của Chính phủ;_
 
-1\. Tổ chức thu phí theo quy định tại Thông tư này là cơ quan nhà nước, đơn vị sự nghiệp công lập có thẩm quyền cung cấp thông tin, dữ liệu đo đạc và bản đồ là tài sản công theo quy định của pháp luật về đo đạc và bản đồ.
+_The__o đề nghị của Giám đốc Sở Tư pháp tại Tờ trình số 157/TTr-STP ngày 23 tháng 9 năm 2024 và Văn bản số 2060/STP-XDKTr&PBPL ngày 04 tháng 10 năm 2024._
 
-2\. Người nộp phí theo quy định tại Thông tư này là tổ chức, cá nhân đề nghị cung cấp thông tin, dữ liệu đo đạc và bản đồ là tài sản công theo quy định pháp luật về đo đạc và bản đồ.
+**QUYẾT ĐỊNH:** 
 
-****Điều 3. Mức thu phí và miễn phí****
+**Điều 1. Bãi bỏ toàn bộ các Quyết định**
 
-1\. Mức thu phí khai thác, sử dụng thông tin dữ liệu đo đạc và bản đồ được quy định tại Biểu mức thu phí ban hành kèm theo Thông tư này.
+1\. Quyết định số 1556/1997/QĐ-UB ngày 10 tháng 12 năm 1997 của Ủy ban nhân dân tỉnh Kon Tum về việc ban hành quy định về trình tự, thủ tục cấp giấy chứng nhận quyền sở hữu nhà ở, quyền sử dụng đất ở tại đô thị.
 
-2\. Trường hợp Bộ trưởng Bộ Công an, Bộ trưởng Bộ Quốc phòng, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương đề nghị khai thác, sử dụng thông tin, dữ liệu đo đạc và bản đồ thuộc tài sản công cho mục đích quốc phòng, an ninh thì mức thu phí bằng 60% mức thu phí tương ứng tại Biểu mức thu phí; trừ trường hợp quy định tại điểm a khoản 3 Điều này.
+2\. Quyết định số 2604/1998/QĐ-UB ngày 22 tháng 12 năm 1998 của Ủy ban nhân dân tỉnh Kon Tum về việc ban hành quy chế tổ chức và hoạt động của Ban đổi mới quản lý doanh nghiệp tỉnh Kon Tum.
 
-3\. Miễn phí đối với trường hợp Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương đề nghị khai thác, sử dụng thông tin, dữ liệu đo đạc và bản đồ thuộc tài sản công để phục vụ:
+3\. Quyết định số 09/2001/QĐ-UB ngày 25 tháng 4 năm 2001 của Ủy ban nhân dân tỉnh Kon Tum về việc thành lập lại Trung tâm phòng chống bệnh xã hội trực thuộc Sở Y tế tỉnh Kon Tum.
 
-a) Mục đích quốc phòng, an ninh trong tình trạng khẩn cấp.
+4\. Quyết định số 54/2002/QĐ-UB ngày 08 tháng 8 năm 2002 của Ủy ban nhân dân tỉnh Kon Tum về việc bồi dưỡng độc hại khi làm việc trên máy tính.
 
-b) Phòng, chống thiên tai trong tình trạng khẩn cấp.
+5\. Quyết định số 09/2005/QĐ-UB ngày 03 tháng 01 năm 2005 của Ủy ban nhân dân tỉnh Kon Tum về việc ban hành Quy định tạm thời về chế độ công tác phí, chế độ chi hội nghị đối với các cơ quan hành chính và đơn vị sự nghiệp công lập.
 
-Tình trạng khẩn cấp quy định tại khoản này được xác định theo quy định của Luật Quốc phòng, Luật Phòng thủ dân sự và pháp luật về phòng, chống thiên tai.
+6\. Quyết định số 45/2003/QĐ-UB ngày 24 tháng 11 năm 2003 của Ủy ban nhân dân tỉnh Kon Tum về việc giao chỉ tiêu tuyển quân năm 2004.
 
-****Điều 4. Kê khai, nộp phí****
+7\. Quyết định số 68/2005/QĐ-UBND ngày 11 tháng 9 năm 2005 của Ủy ban nhân dân tỉnh Kon Tum về việc ban hành Quy chế vận hành hệ thống thông tin điện tử Tổng hợp kinh tế- xã hội phục vụ điều hành trên địa bàn tỉnh Kon Tum.
 
-1\. Người nộp phí thực hiện nộp phí khi đề nghị cung cấp thông tin, dữ liệu đo đạc và bản đồ, nộp phí cho tổ chức thu phí theo quy định tại Thông tư số 74/2022/TT-BTC ngày 22 tháng 12 năm 2022 của Bộ trưởng Bộ Tài chính quy định về hình thức, thời hạn thu, nộp, kê khai các khoản phí, lệ phí thuộc thẩm quyền quy định của Bộ Tài chính.
+8\. Quyết định số 21/2006/QĐ-UBND ngày 08 tháng 6 năm 2006 của Ủy ban nhân dân tỉnh Kon Tum Về việc ban hành Kế hoạch thực hiện Chiến lược quốc gia phòng chống HIV/AIDS trên địa bàn tỉnh Kon Tum đến năm 2010 và tầm nhìn 2020.
 
-2\. Chậm nhất là ngày 05 hằng tháng, tổ chức thu phí phải gửi số tiền phí đã thu của tháng trước vào tài khoản phí chờ nộp ngân sách của tổ chức thu phí mở tại Kho bạc Nhà nước. Tổ chức thu phí thực hiện kê khai, thu, nộp và quyết toán phí theo quy định tại Thông tư số 74/2022/TT-BTC (tiền phí do tổ chức thu phí thuộc Trung ương quản lý thu nộp vào ngân sách trung ương, tiền phí do tổ chức thu phí thuộc địa phương quản lý thu nộp vào ngân sách địa phương).
+9\. Quyết định số 40/2007/QĐ-UBND ngày 30 tháng 7 năm 2007 của Ủy ban nhân dân tỉnh Kon Tum Ban hành quy định tạm thời quy trình, thủ tục đầu tư và quy chế phối hợp giữa các cơ quan trong việc giải quyết các thủ tục đầu tư theo cơ chế một cửa tại Sở Kế hoạch và Đầu tư.
 
-****Điều 5. Quản lý và sử dụng phí****
+10\. Quyết định số 22/2010/QĐ-UBND ngày 04 tháng 5 năm 2010 của Ủy ban nhân dân tỉnh Kon Tum về việc ban hành định mức hỗ trợ và danh mục hỗ trợ cây trồng, vật nuôi, máy móc thiết bị, công cụ sản xuất, chế biến, bảo quản sản phẩm sau thu hoạch của Dự án hỗ trợ phát triển sản xuất thuộc Chương trình 135 giai đoạn 2006-2010.
 
-1\. Tổ chức thu phí được trích để lại 60% số tiền phí thu được để trang trải chi phí hoạt động cung cấp dịch vụ, thu phí và nộp 40% số tiền phí thu được vào ngân sách nhà nước; trừ trường hợp quy định tại khoản 2 Điều này. Tổ chức thu phí thực hiện quản lý và sử dụng số tiền phí được để lại theo quy định tại khoản 4 Điều 1 Nghị định số 82/2023/NĐ-CP ngày 28 ngày 11 năm 2023 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 120/2016/NĐ-CP ngày 23 tháng 8 năm 2016 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phí và lệ phí.
+11\. Quyết định số 45/2010/QĐ-UBND ngày 24 tháng 12 tháng 2010 của Ủy ban nhân dân tỉnh Kon Tum về việc phê duyệt kế hoạch phát triển kinh tế - xã hội, đảm bảo quốc phòng - an ninh giai đoạn 2011-2015.
 
-2\. Trường hợp tổ chức thu phí là cơ quan nhà nước không được khoán chi phí hoạt động từ nguồn thu phí theo quy định tại khoản 3 Điều 1 Nghị định số 82/2023/NĐ-CP phải nộp 100% tiền phí thu được vào ngân sách nhà nước. Nguồn chi phí trang trải cho hoạt động cung cấp dịch vụ, thu phí do ngân sách nhà nước bố trí trong dự toán của tổ chức thu theo chế độ, định mức chi ngân sách nhà nước theo quy định của pháp luật.
+12\. Quyết định số 24/2011/QĐ-UBND ngày 29 tháng 8 năm 2011 của Ủy ban nhân dân tỉnh Kon Tum về việc phê duyệt Đề án tổng thể xây dựng nông thôn mới tỉnh Kon Tum giai đoạn 2011-2015.
 
-****Điều 6. Điều khoản thi hành****
+13\. Quyết định số 25/2012/QĐ-UBND ngày 19 tháng 7 năm 2012 của Ủy ban nhân dân tỉnh Kon Tum về việc phê duyệt Chương trình phát triển nhà ở tỉnh Kon Tum, giai đoạn 2012-2020.
 
-1\. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 9 năm 2024.
+14\. Quyết định số 37/2014/QĐ-UBND ngày 21 tháng 7 năm 2014 của Ủy ban nhân dân tỉnh Kon Tum về việc ban hành cơ chế, chính sách hỗ trợ xây dựng một số công trình hạ tầng kinh tế-xã hội thuộc Chương trình mục tiêu quốc gia xây dựng nông thôn mới trên địa bàn tỉnh Kon Tum giai đoạn 2014-2020.
 
-2\. Thông tư này:
+15\. Quyết định số 38/2014/QĐ-UBND ngày 21 tháng 7 năm 2014 của Ủy ban nhân dân tỉnh Kon Tum về việc quy định mức chi bảo đảm cho công tác phổ biến, giáo dục pháp luật và chuẩn tiếp cận pháp luật của người dân tại cơ sở trên địa bàn tỉnh Kon Tum.
 
-a) Thay thế Thông tư số 196/2016/TT-BTC ngày 08 tháng 11 năm 2016 của Bộ trưởng Bộ Tài chính quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí khai thác, sử dụng thông tin dữ liệu đo đạc và bản đồ.
+16\. Quyết định số 39/2014/QĐ-UBND ngày 21 tháng 7 năm 2014 của Ủy ban nhân dân tỉnh Kon Tum về việc quy định chế độ chi đón tiếp, thăm hỏi, chúc mừng đối với một số đối tượng do Ủy ban Mặt trận Tổ quốc cấp tỉnh, cấp huyện thực hiện trên địa bàn tỉnh Kon Tum.
 
-b) Bãi bỏ Điều 4 Thông tư số 55/2018/TT-BTC ngày 25 tháng 6 năm 2018 của Bộ trưởng Bộ Tài chính sửa đổi, bổ sung một số điều của 07 Thông tư của Bộ trưởng Bộ Tài chính quy định thu phí trong lĩnh vực tài nguyên, môi trường.
+17\. Quyết định số 70/2014/QĐ-UBND ngày 19 tháng 12 năm 2014 của Ủy ban nhân dân tỉnh Kon Tum về việc quy định mức chi thực hiện công tác hòa giải ở cơ sở trên địa bàn tỉnh Kon Tum.
 
-c) Bãi bỏ Điều 2, khoản 2 Điều 3 và Biểu mức thu phí khai thác, sử dụng thông tin dữ liệu đo đạc và bản đồ ban hành kèm theo Thông tư số 33/2019/TT-BTC ngày 10 tháng 6 năm 2019 của Bộ trưởng Bộ Tài chính sửa đổi, bổ sung một số điều của Thông tư số 34/2017/TT-BTC ngày 21 tháng 4 năm 2017 quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí thẩm định cấp giấy phép hoạt động đo đạc và bản đồ và Thông tư số 196/2016/TT-BTC ngày 08 tháng 11 năm 2016 quy định mức thu, chế độ thu, nộp, quản lý và sử dụng phí khai thác, sử dụng thông tin dữ liệu đo đạc và bản đồ.
+18\. Quyết định số 46/2015/QĐ-UBND ngày 30 tháng 11 năm 2015 của Ủy ban nhân dân tỉnh Kon Tum Ban hành Quy định tiêu chí bổ sung, phương pháp đánh giá, trình tự thủ tục xét và công nhận "Cơ quan đạt chuẩn văn hóa", "Doanh nghiệp đạt chuẩn văn hóa" trên địa bàn tỉnh Kon Tum.
 
-3\. Các nội dung khác liên quan đến thu, nộp, quản lý, sử dụng, chứng từ thu, công khai chế độ thu phí khai thác, sử dụng thông tin dữ liệu đo đạc và bản đồ không đề cập tại Thông tư này được thực hiện theo quy định tại các văn bản: Luật Phí và lệ phí; Nghị định số 120/2016/NĐ-CP ngày 23 tháng 8 năm 2016 của Chính phủ quy định chi tiết và hướng dẫn thi hành một số điều của Luật Phí và lệ phí; Nghị định số 82/2023/NĐ-CP; Luật Quản lý thuế; Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế, Nghị định số 91/2022/NĐ-CP ngày 30 tháng 10 năm 2022 của Chính phủ sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP; Nghị định số 11/2020/NĐ-CP ngày 20 tháng 01 năm 2020 của Chính phủ quy định về thủ tục hành chính thuộc lĩnh vực Kho bạc Nhà nước; Nghị định số 123/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định về hoá đơn, chứng từ; Thông tư số 78/2021/TT-BTC ngày 17 tháng 9 năm 2021 của Bộ trưởng Bộ Tài chính hướng dẫn thực hiện một số điều của Luật Quản lý thuế ngày 13 tháng 6 năm 2019, Nghị định số 123/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định về hoá đơn, chứng từ.
+19\. Quyết định số 22/2017/QĐ- UBND ngày 15 tháng 5 năm 2017 của Ủy ban nhân dân tỉnh Kon Tum Ban bành Quy định mức đạt chuẩn Bộ tiêu chí về xã nông thôn mới đối với từng khu vực trên địa bàn tỉnh Kon Tum giai đoạn 2017-2020.
 
-4\. Trường hợp các văn bản quy phạm pháp luật nêu tại Thông tư này được sửa đổi, bổ sung hoặc thay thế thì thực hiện theo văn bản mới được sửa đổi, bổ sung hoặc thay thế.
+20\. Quyết định số 47/2017/QĐ- UBND ngày 22 tháng 9 năm 2017 của Ủy ban nhân dân tỉnh Kon Tum về việc quy định mức trần chi phí chứng thực, hành chính tư pháp trên địa bàn tỉnh.
 
-5\. Trong quá trình thực hiện, nếu có vướng mắc đề nghị các tổ chức, cá nhân phản ánh kịp thời về Bộ Tài chính để nghiên cứu, hướng dẫn bổ sung./.
+21\. Quyết định số 26/2018/QĐ-UBND ngày 09 tháng 10 năm 2018 của Ủy ban nhân dân tỉnh Kon Tum Ban hành Quy định đối tượng, một số mức chi, mức hỗ trợ từ nguồn kinh phí sự nghiệp thực hiện Chương trình mục tiêu quốc gia xây dựng nông thôn mới giai đoạn 2016-2020 trên địa bàn tỉnh Kon Tum.
 
-**_Nơi nhận:  
-_**\- Ban Bí thư Trung ương Đảng;  
-\- Thủ tướng, các Phó Thủ tướng Chính phủ;  
-\- Văn phòng Trung ương Đảng và các Ban của Đảng;  
-\- Văn phòng Tổng Bí thư;  
-\- Văn phòng Quốc hội;  
-\- Hội đồng dân tộc;  
-\- Ủy ban Tài chính, Ngân sách;  
-\- Văn phòng Chủ tịch nước;  
-\- Viện Kiểm sát nhân dân tối cao;  
-\- Tòa án nhân dân tối cao;  
-\- Kiểm toán Nhà nước;  
-\- Cơ quan trung ương của các Hội, Đoàn thể;  
-\- Các bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ;  
-\- HĐND, UBND các tỉnh, thành phố trực thuộc trung ương;  
-\- Sở Tài chính, Cục Thuế, KBNN các tỉnh, thành phố  
-trực thuộc trung ương;  
-\- Cục Kiểm tra văn bản quy phạm pháp luật, Bộ Tư pháp;  
-\- Công báo;  
-\- Cổng thông tin điện tử Chính phủ;  
-\- Cổng thông tin điện tử Bộ Tài chính;  
-\- Các đơn vị thuộc Bộ Tài chính;  
-\- Lưu: VT, Cục CST (300b).
+22\. Quyết định số 14/2019/QĐ-UBND ngày 08 tháng 10 năm 2019 của Ủy ban nhân dân tỉnh Kon Tum Sửa đổi, bổ sung một số điều của Quy định tiêu chí bổ sung, phương pháp đánh giá, trình tự, thủ tục xét và công nhận "Cơ quan đạt chuẩn văn hóa", "Đơn vị đạt chuẩn văn hóa","Doanh nghiệp đạt chuẩn văn hóa" trên địa bàn tỉnh Kon Tum trong Phong trào "Toàn dân đoàn kết xây dựng đời sống văn hóa" ban hành kèm theo Quyết định 46/2015/QĐ-UBND ngày 30 tháng 10 năm 2015 của Ủy ban nhân dân tỉnh Kon Tum.
 
-**KT. BỘ TRƯỞNG  
-THỨ TRƯỞNG  
-****_(Đã ký)_**
+23\. Quyết định số 04/2020/QĐ-UBND ngày 20 tháng 01 năm 2020 của Ủy ban nhân dân tỉnh Kon Tum Sửa đổi, bổ sung Quy định mức đạt chuẩn bộ tiêu chí về xã nông thôn mới đối với từng khu vực trên địa bàn tỉnh Kon Tum ban hành kèm theo Quyết định số 22/2017/QĐ-UBND ngày 15 tháng 5 năm 2017 của Ủy ban nhân dân tỉnh Kon Tum.
 
-**  
-Cao Anh Tuấn**
+24\. Chỉ thị số 02/1997/CT-UB ngày 01 tháng 3 năm 1997 của Ủy ban nhân dân tỉnh Kon Tum về việc quy định việc báo cáo tình hình việc thực hiện kế hoạch phát triển kinh tế xã hội năm 1997.
 
-**BIÊU MỨC THU PHÍ KHAI THÁC, SỬ DỤNG  
-THÔNG TIN DỮ LIỆU ĐO ĐẠC VÀ BẢN ĐỒ**
+25\. Chỉ thị số 01/1998/CT-UB ngày 06 tháng 02 năm 1998 của Ủy ban nhân dân tỉnh Kon Tum về việc đẩy mạnh công tác tuyên truyền, phổ biến giáo dục pháp luật.
 
-(Kèm theo Thông tư số 47/2024/TT-BTC ngày 10 tháng 7 năm 2024 của Bộ trưởng Bộ Tài chính)
+26\. Chỉ thị số 12/1999/CT-UB ngày 28 tháng 5 năm 1999 của Ủy ban nhân dân tỉnh Kon Tum về việc triển khai thực hiện Nghị định số 05/1999/NĐ-CP ngày 03 tháng 02 năm 1999 của Chính phủ về chứng minh nhân dân.
 
-    
+27\. Chỉ thị số 13/2000/CT-UB ngày 15 tháng 9 năm 2000 của Ủy ban nhân dân tỉnh Kon Tum về đấu tranh chống sản xuất và buôn bán hàng giả.
 
-**Số TT**
+28\. Chỉ thị số 15/2000/CT-UB ngày 16 tháng 10 năm 2000 của Ủy ban nhân dân tỉnh Kon Tum về đẩy mạnh công tác phổ biến giáo dục pháp luật trên các phương tiện thông tin đại chúng.
 
-**Loại thông tin, dữ liệu**
+29\. Chỉ thị số 05/2001/CT-UB ngày 04 tháng 6 năm 2001 của Ủy ban nhân dân tỉnh Kon Tum về việc tăng cường công tác Thi hành án dân sự trên địa bàn tỉnh.
 
-**Đơn vị tính**
+30\. Chỉ thị số 17/2001/CT-UB ngày 09 tháng 4 năm 2001 của Ủy ban nhân dân tỉnh Kon Tum về việc củng cố tổ chức đẩy mạnh hoạt động công tác Tư pháp cơ sở xã, phường, thị trấn.
 
-**Mức thu** (đồng)
+31\. Chỉ thị số 03/2002/CT-UB ngày 07 tháng 3 năm 2002 của Ủy ban nhân dân tỉnh Kon Tum về việc triển khai thực hiện Nghị định số 83/1998/NĐ-CP ngày 10 tháng 10 năm 1998 của Chính phủ về đăng ký hộ tịch.
 
-**Ghi chú**
+32\. Chỉ thị số 08/2008/CT-UBND ngày 03 tháng 12 năm 2008 của Ủy ban nhân dân tỉnh Kon Tum về việc tăng cường thực hiện các biện pháp điều hành giá cả, bình ổn thị trường trong những tháng cuối năm 2007 và phục vụ tết Nguyên Đán Mậu Tý 2008.
 
-**I**
+33\. Chỉ thị số 04/2011/CT-UBND ngày 19 tháng 5 năm 2011 của Ủy ban nhân dân tỉnh Kon Tum về việc triển khai hoạt động kiểm soát thủ tục hành chính và thực hiện giai đoạn 3 của Đề án 30 trên địa bàn tỉnh.
 
-**Số liệu của mạng lưới đo đạc quốc gia**
+34\. Chỉ thị số 03/2014/CT-UBND ngày 06 tháng 5 năm 2014 của Ủy ban nhân dân tỉnh Kon Tum về việc tăng cường hoạt động kiểm soát thủ tục hành chính trên địa bàn tỉnh Kon Tum.
 
-1
+35\. Chỉ thị số 04/2014/CT-UBND ngày 18 tháng 7 năm 2014 của Ủy ban nhân dân tỉnh Kon Tum về việc nâng cao hiệu quả công tác ngành Tư pháp trên địa bàn tỉnh Kon Tum.
 
-Số liệu của mạng lưới tọa độ quốc gia
+**Điều 2. Bãi bỏ một phần Quyết định**
 
-1.1
+Bãi bỏ khoản 2 Điều 1 của Quyết định số 28/2020/QĐ-UBND ngày 10 tháng 11 năm 2020 của Ủy ban nhân dân tỉnh Kon Tum Sửa đổi, bổ sung, bãi bỏ Quyết định, nội dung trong Quyết định do Ủy ban nhân dân tỉnh Kon Tum ban hành.
 
-Cấp 0
+**Điều 3. Tổ chức thực hiện, hiệu lực thi hành**
 
-điểm
+1\. Thủ trưởng các cơ quan, đơn vị có liên quan căn cứ lĩnh vực quản lý nhà nước của cơ quan, đơn vị có trách nhiệm rà soát, bãi bỏ hoặc đề nghị cấp có thẩm quyền bãi bỏ văn bản hướng dẫn, quy định chi tiết thi hành các văn bản quy định tại Điều 1, Điều 2 Quyết định này (nếu có).
 
-340.000
+2\. Chánh Văn phòng Ủy ban nhân dân tỉnh; Giám đốc Sở Tư pháp; Thủ trưởng các sở, ban ngành; Chủ tịch Ủy ban nhân dân các huyện, thành phố; xã, phường, thị trấn và cá nhân, tổ chức có liên quan chịu trách nhiệm thi hành Quyết định này.
 
-1.2
+3\. Quyết định này có hiệu lực kể từ ngày 02 tháng 11 năm 2024./.
 
-Hạng I
+TM. ỦY BAN NHÂN DÂN  
+CHỦ TỊCH
 
-điểm
+(Đã ký)
 
-250.000
-
-1.3
-
-Hạng II
-
-điểm
-
-220.000
-
-1.4
-
-Hạng III
-
-điểm
-
-200.000
-
-Áp dụng cho cả các điểm địa chính cơ sở
-
-2
-
-Số liệu của mạng lưới độ cao quốc gia
-
-2.1
-
-Hạng I
-
-điểm
-
-160.000
-
-2.2
-
-Hạng II
-
-điểm
-
-150.000
-
-2.3
-
-Hạng III
-
-điểm
-
-120.000
-
-3
-
-Số liệu của mạng lưới trọng lực quốc gia
-
-3.1
-
-Điểm cơ sở
-
-điểm
-
-200.000
-
-3.2
-
-Hạng I
-
-điểm
-
-160.000
-
-3.3
-
-Hạng II
-
-điểm
-
-140.000
-
-4
-
-Ghi chú điểm tọa độ quốc gia, độ cao quốc gia, trọng lực quốc gia
-
-tờ
-
-20.000
-
-**II**
-
-**Dữ liệu ảnh hàng không**
-
-1
-
-Dữ liệu ảnh hàng không kỹ thuật số
-
-file
-
-250.000
-
-2
-
-Dữ liệu ảnh hàng không quét từ tờ phim độ phân giải 16 μm
-
-file
-
-250.000
-
-3
-
-Dữ liệu ảnh hàng không quét từ tờ phim độ phân giải 20 μm
-
-file
-
-200.000
-
-4
-
-Dữ liệu ảnh hàng không quét từ tờ phim độ phân giải 22 μm
-
-file
-
-150.000
-
-5
-
-Bình đồ ảnh số tỷ lệ: 1:2.000; 1:5.000
-
-mảnh
-
-60.000
-
-6
-
-Bình đồ ảnh số tỷ lệ: 1:10.000; 1:25.000; 1:50.000
-
-mảnh
-
-70.000
-
-**III**
-
-**Cơ sở dữ liệu nền địa lý quốc gia và hệ thống bản đồ địa hình quốc gia**
-
-1
-
-Cơ sở dữ liệu nền địa lý quốc gia
-
-1.1
-
-Cơ sở dữ liệu nền địa lý quốc gia tỷ lệ 1:2.000
-
-mảnh
-
-400.000
-
-1\. Nếu chọn lọc nội dung theo dữ liệu thành phần thì mức thu phí như sau:
-
-a) Các nhóm lớp dữ liệu: địa hình; dân cư; giao thông; thuỷ văn: thu bằng 1/6 mức thu phí nhân với hệ số 1,2.
-
-b) Các nhóm lớp dữ liệu: địa giới hành chính, biên giới quốc gia; lớp phủ bề mặt: thu bằng 1/6 mức thu phí.
-
-2\. Nếu đã thu phí sử dụng cơ sở dữ liệu nền địa lý quốc gia thì không thu phí sử dụng bản đồ địa hình quốc gia định dạng số cùng tỷ lệ (chỉ áp dụng trong trường hợp khai thác theo mảnh và đủ 07 nhóm lớp dữ liệu).
-
-3\. Trường hợp khai thác dữ liệu theo phạm vi địa lý thì thu bằng mức thu phí nhân với diện tích khu vực khai thác chia tổng diện tích các mảnh theo tỷ lệ tương ứng. (diện tích tối thiểu đề nghị khai thác bằng diện tích 01 mảnh bản đồ cùng tỷ lệ).
-
-1.2
-
-Cơ sở dữ liệu nền địa lý quốc gia tỷ lệ 1:5.000
-
-mảnh
-
-500.000
-
-1.3
-
-Cơ sở dữ liệu nền địa lý quốc gia tỷ lệ 1:10.000
-
-mảnh
-
-850.000
-
-1.4
-
-Cơ sở dữ liệu nền địa lý quốc gia tỷ lệ: 1:25.000; 1:50.000; 1:100.000
-
-mảnh
-
-1.500.000
-
-1.5
-
-Cơ sở dữ liệu nền địa lý quốc gia tỷ lệ: 1:250.000; 1:500.000; 1:1.000.000
-
-mảnh
-
-8.000.000
-
-2
-
-Hệ thống bản đồ địa hình quốc gia
-
-2.1
-
-Bản đồ địa hình quốc gia in trên giấy
-
-a
-
-Bản đồ địa hình quốc gia tỷ lệ 1:10.000 và lớn hơn
-
-mảnh
-
-120.000
-
-b
-
-Bản đồ địa hình quốc gia tỷ lệ 1:25.000
-
-mảnh
-
-130.000
-
-c
-
-Bản đồ địa hình quốc gia tỷ lệ 1:50.000
-
-mảnh
-
-140.000
-
-d
-
-Bản đồ địa hình quốc gia tỷ lệ 1:100.000 và nhỏ hơn
-
-mảnh
-
-170.000
-
-2.2
-
-Bản đồ địa hình quốc gia định dạng dgn
-
-a
-
-Bản đồ địa hình quốc gia tỷ lệ 1:2.000
-
-mảnh
-
-400.000
-
-Nếu chọn lọc nội dung theo lớp dữ liệu thành phần thì mức thu phí như sau:
-
-1\. Nhóm lớp dữ liệu: địa hình; dân cư; giao thông; thuỷ văn: thu bằng 1/6 mức thu phí theo mảnh nhân với hệ số 1,2.
-
-2\. Nhóm lớp dữ liệu: địa giới hành chính, biên giới quốc gia; thực vật: thu bằng 1/6 mức thu phí theo mảnh.
-
-b
-
-Bản đồ địa hình quốc gia tỷ lệ 1:5.000
-
-mảnh
-
-440.000
-
-c
-
-Bản đồ địa hình quốc gia tỷ lệ 1:10.000
-
-mảnh
-
-670.000
-
-d
-
-Bản đồ địa hình quốc gia tỷ lệ 1:25.000
-
-mảnh
-
-760.000
-
-đ
-
-Bản đồ địa hình quốc gia tỷ lệ 1:50.000
-
-mảnh
-
-950.000
-
-e
-
-Bản đồ địa hình quốc gia tỷ lệ 1:100.000
-
-mảnh
-
-2.000.000
-
-g
-
-Bản đồ địa hình quốc gia tỷ lệ 1:250.000
-
-mảnh
-
-3.500.000
-
-h
-
-Bản đồ địa hình quốc gia tỷ lệ 1:500.000
-
-mảnh
-
-5.000.000
-
-i
-
-Bản đồ địa hình quốc gia tỷ lệ 1:1.000.000
-
-mảnh
-
-8.000.000
-
-2.3
-
-Bản đồ địa hình quốc gia định dạng số (geoPDF, PDF, geoTIFF, TIFF, EPS, ECW, JPG)
-
-mảnh
-
-Mức thu phí bằng 50% bản đồ địa hình quốc gia định dạng dgn cùng tỷ lệ
-
-3
-
-Mô hình số độ cao
-
-3.1
-
-Mô hình số độ cao độ chính xác cao đóng gói theo mảnh tỷ lệ 1:2.000; 1:5.000: kích thước pixel: 1 x 1 m cho DEM có độ chính xác từ 0,1 đến 0,3 m.
-
-mảnh
-
-200.000
-
-3.2
-
-Mô hình số độ cao đóng gói theo mảnh tỷ lệ 1:2.000; 1:5.000:
-
-\- Kích thước pixel: 2 x 2 m cho DEM có độ chính xác từ 0,4 đến 0,5 m
-
-\- Kích thước pixel: 4 x 4 m cho DEM có độ chính xác 1 m
-
-mảnh
-
-80.000
-
-3.3
-
-Mô hình số độ cao đóng gói theo mảnh tỷ lệ 1:10.000:
-
-\- Kích thước pixel: 2,5 x 2,5 m cho DEM có độ chính xác từ 0,3 đến 0,5 m
-
-\- Kích thước pixel: 5 x 5 m cho DEM có độ chính xác từ 0,5 đến 1,7 m
-
-mảnh
-
-170.000
-
-3.4
-
-Mô hình số độ cao đóng gói theo mảnh tỷ lệ 1:25.000: Kích thước pixel: 10 x 10 m cho DEM có độ chính xác từ 1,7 đến 3,3 m
-
-mảnh
-
-640.000
-
-3.5
-
-Mô hình số độ cao đóng gói theo mảnh tỷ lệ 1:25.000: Kích thước pixel: 20 x 20 m cho DEM có độ chính xác từ 3,3 đến 6,7 m
-
-mảnh
-
-75.000
-
-3.6
-
-Mô hình số độ cao đóng gói theo mảnh tỷ lệ 1:50.000:
-
-\- Kích thước pixel: 5 x 5 m cho DEM có độ chính xác từ 0,5 đến 1,0 m
-
-\- Kích thước pixel: 10 x 10 m cho DEM có độ chính xác từ 1 đến 2 m
-
-mảnh
-
-2.550.000
-
-3.7
-
-Mô hình số độ cao đóng gói theo mảnh tỷ lệ 1:50.000:
-
-\- Kích thước pixel: 25 x 25 m cho DEM có độ chính xác từ 2 đến 5 m
-
-\- Kích thước pixel: 30 x 30 m cho DEM có độ chính xác từ 5 m trở lên
-
-mảnh
-
-300.000
-
-**IV**
-
-**Bản đồ hành chính định dạng số**
-
-1
-
-Bản đồ hành chính định dạng dgn, gdb
-
-1.1
-
-Bản đồ hành chính Việt Nam
-
-bộ
-
-4.000.000
-
-1.2
-
-Bản đồ hành chính cấp tỉnh
-
-bộ
-
-2.000.000
-
-1.3
-
-Bản đồ hành chính cấp huyện
-
-bộ
-
-1.000.000
-
-2
-
-Bản đồ hành chính định dạng geoPDF, PDF, geoTIFF, TIFF, EPS, ECW, JPG
-
-Mức thu phí bằng 50% bản đồ hành chính định dạng dgn, gdb cùng tỷ lệ
-
-**V**
-
-**Thông tin dữ liệu đo đạc và bản đồ trực tuyến qua môi trường mạng (định dạng WMS)**
-
-1
-
-Bản đồ hành chính Việt Nam
-
-01 năm/ tài khoản
-
-100.000
-
-2
-
-Bản đồ nền chiết xuất từ cơ sở dữ liệu nền địa lý quốc gia tỷ lệ: 1:250.000; 1:500.000; 1:1.000.000
-
-01 năm/ tài khoản
-
-2.400.000
-
-3
-
-Bản đồ nền chiết xuất từ cơ sở dữ liệu nền địa lý quốc gia tỷ lệ: 1:25.000; 1:50.000; 1:100.000
-
-01 năm/ tài khoản
-
-6.600.000
-
-Gồm các dữ liệu: biên giới, địa giới; dân cư; giao thông; thủy văn.
-
-**VI**
-
-**Thông tin dữ liệu thu nhận từ mạng lưới trạm định vị vệ tinh quốc gia**
-
-1
-
-Dữ liệu đo động thời gian thực
-
-01 tháng/ máy thu
-
-750.000
-
-Áp dụng tại các tỉnh, thành phố trực thuộc Trung ương đã chêm dày trạm định vị vệ tinh quốc gia theo quy định của pháp luật về đo đạc và bản đồ.
-
-06 tháng/ máy thu
-
-4.280.000
-
-12 tháng/ máy thu
-
-6.750.000
-
-2
-
-Dữ liệu GNSS tĩnh 24 giờ
-
-trạm/ngày
-
-220.000
-
-Gồm: Giá trị tọa độ, độ cao của trạm.
+Lê Ngọc Tuấn

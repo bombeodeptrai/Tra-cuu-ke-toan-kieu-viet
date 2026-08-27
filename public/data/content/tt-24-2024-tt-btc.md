@@ -84,110 +84,262 @@ Mặc dù đối tượng điều chỉnh chính là khối cơ quan nhà nướ
 
 ## 📜 TOÀN VĂN VĂN BẢN
 
-BỘ TÀI CHÍNH
--------
+BỘ CÔNG AN
 
 CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
-Độc lập - Tự do - Hạnh phúc
----------------
 
-Số: 24/2024/TT-BTC
+Độc lập – Tự do – Hạnh phúc
 
-*Hà Nội, ngày 17 tháng 04 năm 2024*
+Số: 24/2024/TT-BCA
 
+Hà Nội, ngày 21 tháng 06 năm 2024
 
-THÔNG TƯ
-Hướng dẫn chế độ kế toán hành chính, sự nghiệp
+**THÔNG TƯ**  
+**Quy định về tổ chức kỷ niệm ngày thành lập, ngày truyền thống  
+trong Công an nhân dân**
 
-Căn cứ Luật Kế toán ngày 20 tháng 11 năm 2015;
-Căn cứ Luật Ngân sách nhà nước ngày 25 tháng 6 năm 2015;
-Căn cứ Luật Quản lý, sử dụng tài sản công ngày 21 tháng 6 năm 2017;
-Căn cứ Nghị định số 174/2016/NĐ-CP ngày 30 tháng 12 năm 2016 của Chính phủ quy định chi tiết một số điều của Luật Kế toán;
-Căn cứ Nghị định số 14/2023/NĐ-CP ngày 20 tháng 4 năm 2023 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Tài chính;
-Theo đề nghị của Vụ trưởng Vụ Chế độ kế toán và Kiểm toán;
-Bộ trưởng Bộ Tài chính ban hành Thông tư hướng dẫn chế độ kế toán hành chính, sự nghiệp.
+_Căn cứ Nghị định số 111/2018/NĐ-CP ngày 31 tháng 8 năm 2018 của Chính phủ quy định về ngày thành lập, ngày truyền thống, ngày hưởng ứng của các bộ, ngành, địa phương;_
 
-Chương I
-QUY ĐỊNH CHUNG
+_Căn cứ Nghị định số 01/2018/NĐ-CP ngày 06 tháng 8 năm 2018 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Công an;_
 
-Điều 1. Phạm vi điều chỉnh
-Thông tư này hướng dẫn về chứng từ kế toán, tài khoản kế toán, sổ kế toán, báo cáo tài chính, báo cáo quyết toán kinh phí hoạt động áp dụng cho các đơn vị kế toán hành chính, sự nghiệp.
+_Theo đề nghị của Cục trưởng Cục Công tác đảng và công tác chính trị;_
 
-Điều 2. Đối tượng áp dụng
-1. Thông tư này áp dụng đối với các cơ quan, tổ chức, đơn vị (sau đây gọi chung là đơn vị hành chính, sự nghiệp), bao gồm:
-a) Cơ quan nhà nước (bao gồm cả Quốc hội, Văn phòng Chủ tịch nước, Tòa án nhân dân, Viện kiểm sát nhân dân, Kiểm toán nhà nước);
-b) Đơn vị sự nghiệp công lập;
-c) Tổ chức chính trị, tổ chức chính trị - xã hội; tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp được ngân sách nhà nước hỗ trợ kinh phí hoạt động;
-d) Ban quản lý dự án đầu tư sử dụng vốn ngân sách nhà nước hoặc vốn trái phiếu Chính phủ có tổ chức bộ máy kế toán riêng.
-2. Các cơ quan, đơn vị quy định tại khoản 1 Điều này sau đây gọi chung là đơn vị kế toán.
+_Bộ trưởng Bộ Công an ban hành Thông tư quy định về tổ chức kỷ niệm ngày thành lập, ngày truyền thống trong Công an nhân dân._
 
-Điều 3. Nguyên tắc tổ chức bộ máy và thực hiện công tác kế toán
-1. Đơn vị kế toán phải tổ chức bộ máy kế toán, bố trí người làm kế toán hoặc thuê làm kế toán theo quy định của Luật Kế toán và các văn bản hướng dẫn thi hành.
-2. Việc ghi sổ kế toán, lập báo cáo tài chính và báo cáo quyết toán kinh phí hoạt động phải tuân thủ đúng các nguyên tắc, phương pháp kế toán, bảo đảm tính trung thực, khách quan, đầy đủ, kịp thời và liên tục.
-3. Đơn vị phải phản ánh kịp thời, chính xác các khoản thu, chi ngân sách nhà nước, tài sản công, các nguồn kinh phí khác và tình hình sử dụng tài sản, kinh phí tại đơn vị theo đúng niên độ kế toán và phân mục ngành kinh tế (mục lục ngân sách nhà nước).
+**Chương I** 
 
-Chương II
-QUY ĐỊNH CỤ THỂ
+**QUY ĐỊNH CHUNG**
 
-Điều 4. Chứng từ kế toán
-1. Danh mục chứng từ kế toán bắt buộc và chứng từ kế toán hướng dẫn áp dụng cho các đơn vị hành chính, sự nghiệp được quy định tại Phụ lục số 01 kèm theo Thông tư này.
-2. Nội dung, hình thức, việc lập, ký, lưu trữ và quản lý chứng từ kế toán thực hiện theo quy định của Luật Kế toán, Nghị định số 174/2016/NĐ-CP và các văn bản pháp luật liên quan.
-3. Đơn vị hành chính, sự nghiệp được chủ động xây dựng, thiết kế mẫu chứng từ kế toán đáp ứng yêu cầu quản lý của đơn vị, trừ các trường hợp pháp luật có quy định khác, nhưng phải đảm bảo đầy đủ các nội dung chủ yếu của chứng từ kế toán theo quy định của Luật Kế toán.
-4. Trường hợp sử dụng chứng từ điện tử phải tuân thủ quy định của Luật Giao dịch điện tử, Luật Kế toán và các văn bản hướng dẫn về giao dịch điện tử trong lĩnh vực tài chính, kế toán.
+**Điều 1. Phạm vi điều chỉnh, đối tượng áp dụng**
 
-Điều 5. Hệ thống tài khoản kế toán
-1. Hệ thống tài khoản kế toán áp dụng cho các đơn vị hành chính, sự nghiệp được quy định tại Phụ lục số 02 kèm theo Thông tư này, phản ánh toàn bộ các giao dịch kinh tế, tài chính phát sinh.
-2. Hệ thống tài khoản kế toán bao gồm:
-a) Các tài khoản trong bảng (từ Loại 1 đến Loại 9): được ghi sổ theo phương pháp ghi cúi đôi (phản ánh tài sản, nợ phải trả, nguồn vốn, thu nhập, chi phí và kết quả hoạt động);
-b) Các tài khoản ngoài bảng (Loại 0): được ghi sổ theo phương pháp ghi đơn (phản ánh các chỉ tiêu quản lý chi tiết về dự toán ngân sách nhà nước, ngoại tệ, tài sản thuê ngoài, tài sản nhận giữ hộ, xử lý tài sản công).
-3. Đơn vị phải hạch toán chi tiết các tài khoản kế toán để theo dõi nguồn kinh phí (kinh phí thường xuyên, không thường xuyên, kinh phí thực hiện chế độ tự chủ, không tự chủ) và phân loại chi tiết theo Mục lục ngân sách nhà nước.
+1\. Thông tư này quy định việc tổ chức kỷ niệm ngày truyền thống Công an nhân dân gắn với Ngày hội "Toàn dân bảo vệ an ninh Tổ quốc"; ngày truyền thống lực lượng; ngày thành lập, ngày truyền thống Công an đơn vị, địa phương và các tổ chức chính trị - xã hội trong Công an nhân dân;
 
-Điều 6. Sổ kế toán
-1. Đơn vị kế toán phải mở sổ kế toán để ghi chép, systematize và lưu giữ toàn bộ các giao dịch kinh tế, tài chính phát sinh theo thời gian và có hệ thống.
-2. Danh mục sổ kế toán, mẫu sổ và phương pháp ghi sổ kế toán được quy định tại Phụ lục số 03 kèm theo Thông tư này.
-3. Mỗi đơn vị kế toán chỉ sử dụng một hệ thống sổ kế toán chính thức cho một kỳ kế toán.
-4. Sổ kế toán phải được ghi kịp thời, rõ ràng, đầy đủ các nội dung theo mẫu sổ. Trường hợp ghi sổ kế toán trên máy tính, đơn vị phải tuân thủ quy định về sổ kế toán điện tử, thực hiện in sổ kế toán ra giấy và đóng thành quyển theo quy định vào cuối kỳ kế toán.
+2\. Thông tư này áp dụng đối với các đơn vị thuộc cơ quan Bộ Công an, Công an địa phương và các tổ chức chính trị - xã hội trong Công an nhân dân.
 
-Điều 7. Báo cáo tài chính và Báo cáo quyết toán
-1. Báo cáo tài chính của đơn vị hành chính, sự nghiệp dùng để cung cấp thông tin về tình hình tài chính, kết quả hoạt động tài chính và các luồng tiền từ hoạt động của đơn vị cho cơ quan nhà nước có thẩm quyền và các đối tượng sử dụng khác. Hệ thống báo cáo tài chính bao gồm:
-a) Báo cáo tình hình tài chính;
-b) Báo cáo kết quả hoạt động;
-c) Báo cáo lưu chuyển tiền tệ;
-d) Thuyết minh báo cáo tài chính.
-2. Báo cáo quyết toán kinh phí hoạt động dùng để tổng hợp tình hình tiếp nhận và sử dụng nguồn kinh phí ngân sách nhà nước cấp, nguồn phí được để lại sử dụng theo quy định. Hệ thống báo cáo quyết toán bao gồm các biểu mẫu chi tiết theo quy định tại Phụ lục số 04 kèm theo Thông tư này.
-3. Đơn vị kế toán cấp trên có trách nhiệm xét duyệt, thẩm định và tổng hợp báo cáo tài chính, báo cáo quyết toán của các đơn vị kế toán cấp dưới trực thuộc để gửi cơ quan tài chính và cơ quan có thẩm quyền theo quy định.
+**Điều 2. Giải thích từ ngữ**
 
-Chương III
-TỔ CHỨC THỰC HIỆN
+1\. Ngày thành lập, ngày truyền thống, năm tròn, năm khác được quy định tại Điều 3 Nghị định số 111/2018/NĐ-CP ngày 31 tháng 8 năm 2018 của Thủ tướng Chính phủ quy định về ngày thành lập, ngày truyền thống, ngày hưởng ứng của các bộ, ngành, địa phương;
 
-Điều 8. Chuyển tiếp số dư sổ kế toán
-1. Các đơn vị hành chính, sự nghiệp thực hiện khóa sổ kế toán tại thời điểm ngày 31 tháng 12 năm 2024 theo quy định của Chế độ kế toán hành chính, sự nghiệp ban hành theo Thông tư số 107/2017/TT-BTC ngày 10 tháng 10 năm 2017 của Bộ Tài chính.
-2. Thực hiện kiểm kê tài sản, nguồn vốn, đối chiếu công nợ và chuyển đổi số dư tài khoản kế toán từ sổ kế toán năm 2024 sang sổ kế toán năm 2025 theo hướng dẫn chuyển tiếp tại Phụ lục số 05 ban hành kèm theo Thông tư này.
+2\. Năm lẻ 5 là năm có chữ số cuối cùng là "5";
 
-Điều 9. Hiệu lực thi hành
-1. Thông tư này có hiệu lực thi hành kể từ ngày 01 tháng 01 năm 2025 và áp dụng từ năm tài chính 2025.
-2. Thông tư này thay thế Thông tư số 107/2017/TT-BTC ngày 10 tháng 10 năm 2017 của Bộ Tài chính hướng dẫn chế độ kế toán hành chính, sự nghiệp.
-3. Các văn bản quy phạm pháp luật được dẫn chiếu trong Thông tư này nếu được sửa đổi, bổ sung hoặc thay thế thì áp dụng theo các văn bản sửa đổi, bổ sung hoặc thay thế đó.
+3\. Các lực lượng trong Công an nhân dân gồm 05 lực lượng được quy định tại Điều 7 Thông tư số 65/2021/TT-BCA ngày 11 tháng 6 năm 2021 của Bộ trưởng Bộ Công an quy định về quản lý biên chế trong Công an nhân dân.
 
-Điều 10. Trách nhiệm tổ chức thực hiện
-1. Các Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương có trách nhiệm chỉ đạo, triển khai thực hiện Thông tư này tại các đơn vị thuộc phạm vi quản lý.
-2. Cục quản lý, giám sát kế toán, kiểm toán (Bộ Tài chính), các đơn vị thuộc Bộ Tài chính, Bộ trưởng các Bộ, Thủ trưởng cơ quan ngang Bộ, cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và các đơn vị liên quan chịu trách nhiệm thi hành Thông tư này.
-3. Trong quá trình thực hiện, nếu có vướng mắc, phát sinh, đề nghị các cơ quan, đơn vị phản ánh kịp thời về Bộ Tài chính để nghiên cứu, xem xét, giải quyết./.
+**Điều 3. Nguyên tắc thực hiện**
 
+1\. Tổ chức kỷ niệm theo đúng chủ trương, đường lối của Đảng, quy định của Nhà nước và Bộ hưởng Bộ Công an; phù hợp với tình hình thực tế; bảo đảm ý nghĩa, trang trọng, tiết kiệm, hiệu quả, an toàn, không phô trương hình thức;
 
-Nơi nhận:
-- Văn phòng Chính phủ;
-- Các Bộ, cơ quan ngang Bộ, cơ quan thuộc CP;
-- HĐND, UBND các tỉnh, TP trực thuộc TW;
-- Sở Tài chính, Kho bạc Nhà nước các tỉnh, TP;
-- Cục Kiểm tra văn bản QPPL (Bộ Tư pháp);
-- Công báo, Website Chính phủ;
-- Website Bộ Tài chính;
-- Lưu: VT, Vụ CĐKT (150b).
+2\. Quy mô tổ chức kỷ niệm theo thứ tự tăng dần "năm khác", "năm lẻ 5", "năm tròn";
 
-KT. BỘ TRƯỞNG
-THỨ TRƯỞNG
+3\. Bộ Công an tổ chức kỷ niệm Ngày truyền thống Công an nhân dân gắn với Ngày hội "Toàn dân bảo vệ an ninh Tổ quốc"; Ngày Công an nhân dân học tập, thực hiện Sáu điều Bác Hồ dạy gắn với Ngày truyền thống Xây dựng lực lượng Công an nhân dân;
 
-(Đã ký)
+4\. Ngày truyền thống các lực lượng: Tổ chức kỷ niệm trong các đơn vị trực thuộc Bộ và lực lượng theo ngành dọc ở Công an các địa phương (có chung ngày kỷ niệm của lực lượng). Ngày thành lập, ngày truyền thống của Công an đơn vị, địa phương chỉ tổ chức kỷ niệm trong nội bộ Công an đơn vị, địa phương;
 
-Vũ Thị Mai
+5\. Tổ chức lễ kỷ niệm vào năm tròn; năm khác, căn cứ yêu cầu, nhiệm vụ, nếu xét thấy cần thiết báo cáo đồng chí Bộ trưởng Bộ Công an quyết định quy mô tổ chức;
+
+6\. Thời gian ban hành kế hoạch tổ chức các hoạt động kỷ niệm
+
+a) Ngày truyền thống Công an nhân dân và Ngày hội "Toàn dân bảo vệ an ninh Tổ quốc": Đối với năm tròn, ban hành kế hoạch trước ngày kỷ niệm ít nhất 01 năm. Đối với năm lẻ 5, năm khác ban hành kế hoạch trước ngày kỷ niệm ít nhất 06 tháng;
+
+b) Ngày Công an nhân dân học tập, thực hiện Sáu điều Bác Hồ dạy gắn với Ngày truyền thống Xây dựng lực lượng Công an nhân dân; ngày truyền thống của các lực lượng; ngày thành lập, ngày truyền thống Công an đơn vị, địa phương ban hành kế hoạch trước ngày kỷ niệm ít nhất 06 tháng;
+
+c) Ngày thành lập, ngày truyền thống các tổ chức chính trị-xã hội trong Công an nhân dân; ngày thành lập, ngày truyền thống đơn vị Công an cấp phòng, huyện, quận, thị xã và tương đương ban hành kế hoạch trước ngày kỷ niệm ít nhất 03 tháng;
+
+d) Ngày thành lập, ngày truyền thống Công an xã, phường, thị trấn và tương đương ban hành kế hoạch trước ngày kỷ niệm ít nhất 01 tháng.
+
+**Chương II** 
+
+**QUY ĐỊNH CỤ THỂ**
+
+**Điều 4. Kỷ niệm Ngày truyền thống Công an nhân dân và Ngày hội "Toàn dân bảo vệ an ninh Tổ quốc"**
+
+1\. Năm tròn
+
+a) Tổ chức Lễ kỷ niệm Ngày truyền thống Công an nhân dân, Ngày hội "Toàn dân bảo vệ an ninh Tổ quốc" và đón nhận các hình thức khen thưởng của Đảng, Nhà nước tặng lực lượng Công an nhân dân (nếu có);
+
+b) Phối hợp với Ban Tuyên giáo Trung ương biên soạn, phát hành hướng dẫn tuyên truyền, đề cương tuyên truyền;
+
+c) Tổ chức Đại hội thi đua "Vì an ninh Tổ quốc", Đại hội khỏe "Vì an ninh Tổ quốc", "Hội thi Điều lệnh, quân sự, võ thuật", "Hội diễn nghệ thuật chuyên nghiệp và quần chúng toàn lực lượng Công an nhân dân";
+
+d) Tổ chức trưng bày triển lãm, xuất bản các ấn phẩm; xây dựng, biểu diễn các chương trình nghệ thuật đặc biệt phục vụ cán bộ, chiến sĩ và Nhân dân; mở các chuyên trang, chuyên mục tuyên truyền sâu rộng về sự kiện;
+
+đ) Tổ chức các hoạt động dân vận, đền ơn, đáp nghĩa.
+
+2\. Năm lẻ 5
+
+a) Tổ chức các hoạt động kỷ niệm quy định tại điểm c, d và đ khoản 1 Điều này;
+
+b) Tổ chức gặp mặt kỷ niệm Ngày truyền thống Công an nhân dân, Ngày hội "Toàn dân bảo vệ an ninh Tổ quốc" và đón nhận các hình thức khen thưởng của Đảng, Nhà nước tặng lực lượng Công an nhân dân (nếu có). Tổ chức biên soạn, phát hành đề cương tuyên truyền.
+
+3\. Năm khác
+
+a) Bộ Công an tổ chức gặp mặt truyền thống các thế hệ cán bộ, lãnh đạo và đoàn viên thanh niên, hội viên phụ nữ, đoàn viên công đoàn tiêu biểu trong Công an nhân dân và đón nhận các hình thức khen thưởng (nếu có);
+
+b) Công an đơn vị, địa phương tổ chức tuyên truyền về sự kiện, các hoạt động giáo dục truyền thống, cổ động trực quan, văn hóa, văn nghệ, thể dục, thể thao, tọa đàm;
+
+c) Đẩy mạnh các hoạt động thi đua chào mừng; tổ chức các hoạt động về nguồn, đền ơn, đáp nghĩa.
+
+4\. Thẩm quyền phê duyệt kế hoạch tổ chức kỷ niệm
+
+a) Năm tròn và năm lẻ 5
+
+Cục Công tác đảng và công tác chính trị chủ trì, phối hợp với các đơn vị, địa phương liên quan xây dựng kế hoạch tổ chức các hoạt động kỷ niệm báo cáo lãnh đạo Bộ Công an xem xét, quyết định.
+
+Thủ trưởng Công an đơn vị, địa phương và tổ chức chính trị - xã hội căn cứ kế hoạch của Bộ Công an để xây dựng kế hoạch tổ chức các hoạt động kỷ niệm.
+
+b) Năm khác
+
+Cục Công tác đảng và công tác chính trị hướng dẫn tổ chức các hoạt động kỷ niệm.
+
+**Điều 5. Kỷ niệm Ngày Công an nhân dân học tập, thực hiện Sáu điều Bác Hồ dạy gắn với Ngày truyền thống Xây dựng lực lượng Công an nhân dân**
+
+1\. Năm tròn
+
+a) Tổ chức các hoạt động kỷ niệm theo quy định tại điểm d và đ khoản 1 Điều 4 Thông tư này;
+
+b) Tổ chức Lễ kỷ niệm Ngày Công an nhân dân học tập, thực hiện Sáu điều Bác Hồ dạy gắn với Ngày truyền thống Xây dựng lực lượng Công an nhân dân và đón nhận, trao tặng các hình thức khen thưởng (nếu có).
+
+2\. Năm lẻ 5
+
+a) Tổ chức các hoạt động kỷ niệm theo quy định tại điểm d và đ khoản 1 Điều 4 Thông tư này;
+
+b) Tổ chức gặp mặt truyền thống các thế hệ cán bộ, lãnh đạo lực lượng Xây dựng lực lượng Công an nhân dân và tuyên dương tập thể, cá nhân tiêu biểu trong học tập, thực hiện Sáu điều Bác Hồ dạy Công an nhân dân và đón nhận các hình thức khen thưởng (nếu có).
+
+3\. Năm khác
+
+Tổ chức các hoạt động theo quy định tại điểm b và c khoản 3 Điều 4 Thông tư này.
+
+4\. Thẩm quyền duyệt, ký kế hoạch tổ chức kỷ niệm
+
+a) Năm tròn và năm lẻ 5
+
+Cục Công tác đảng và công tác chính trị chủ trì, phối hợp với các đơn vị, địa phương liên quan xây dựng kế hoạch tổ chức các hoạt động kỷ niệm báo cáo lãnh đạo Bộ Công an xem xét, quyết định.
+
+Thủ trưởng Công an đơn vị, địa phương và tổ chức chính trị - xã hội căn cứ kế hoạch của Bộ Công an để xây dựng kế hoạch tổ chức các hoạt động kỷ niệm.
+
+b) Năm khác
+
+Cục Công tác đảng và công tác chính trị hướng dẫn tổ chức các hoạt động kỷ niệm.
+
+**Điều 6. Kỷ niệm ngày truyền thống của các lực lượng**
+
+1\. Năm tròn
+
+a) Tổ chức các hoạt động kỷ niệm theo quy định tại điểm d và đ khoản 1 Điều 4 Thông tư này;
+
+b) Tổ chức Lễ kỷ niệm ngày truyền thống của các lực lượng và đón nhận, trao tặng các hình thức khen thưởng (nếu có).
+
+2\. Năm lẻ 5
+
+a) Tổ chức các hoạt động kỷ niệm theo quy định tại điểm d và đ khoản 1 Điều 4 Thông tư này;
+
+b) Tổ chức gặp mặt các thế hệ cán bộ lãnh đạo thuộc lực lượng có ngày kỷ niệm và đón nhận các hình thức khen thưởng (nếu có).
+
+3\. Năm khác
+
+Tổ chức các hoạt động theo quy định tại điểm b và c khoản 3 Điều 4 Thông tư này.
+
+4\. Thẩm quyền duyệt, ký kế hoạch tổ chức kỷ niệm năm lẻ 5 và năm tròn
+
+a) Văn phòng Bộ Công an chủ trì, phối hợp với các đơn vị có chung ngày kỷ niệm của lực lượng xây dựng kế hoạch tổ chức các hoạt động kỷ niệm, lấy ý kiến đơn vị liên quan; đề nghị Cục Công tác đảng và công tác chính trị thẩm định trước khi trình đồng chí lãnh đạo Bộ Công an phụ trách;
+
+b) Căn cứ Kế hoạch tổ chức các hoạt động kỷ niệm của Bộ Công an, thủ trưởng Công an đơn vị, địa phương quyết định kế hoạch tổ chức các hoạt động kỷ niệm trong đơn vị.
+
+**Điều 7. Kỷ niệm ngày thành lập, ngày truyền thống Công an đơn vị, địa phương**
+
+1\. Năm tròn
+
+a) Tổ chức các hoạt động quy định tại điểm b và c khoản 3 Điều 4 Thông tư này;
+
+b) Tổ chức lễ kỷ niệm gắn với đón nhận các hình thức khen thưởng cho đơn vị, địa phương (nếu có).
+
+2\. Năm lẻ 5
+
+a) Tổ chức các hoạt động quy định tại điểm b và c khoản 3 Điều 4 Thông tư này;
+
+b) Tổ chức gặp mặt truyền thống các thế hệ cán bộ và đón nhận các hình thức khen thưởng (nếu có).
+
+3\. Năm khác
+
+Tổ chức các hoạt động quy định tại điểm b và c khoản 3 Điều 4 Thông tư này.
+
+4\. Thẩm quyền duyệt, ký kế hoạch tổ chức kỷ niệm
+
+Thủ trưởng Công an các đơn vị, địa phương duyệt, ký kế hoạch tổ chức các hoạt động kỷ niệm.
+
+**Điều 8. Kỷ niệm ngày thành lập, ngày truyền thống các tổ chức chính trị - xã hội trong Công an nhân dân**
+
+1\. Năm tròn
+
+a) Tổ chức các hoạt động kỷ niệm quy định tại điểm b và c khoản 3 Điều 4 Thông tư này;
+
+b) Tổ chức lễ kỷ niệm gắn với đón nhận các hình thức khen thưởng (nếu có) và biểu dương các tập thể, cá nhân có thành tích xuất sắc trong phong trào thi đua của các tổ chức chính trị - xã hội.
+
+2\. Năm lẻ 5
+
+a) Tổ chức gặp mặt truyền thống gắn với đón nhận các hình thức khen thưởng (nếu có) và biểu dương các tập thể, cá nhân có thành tích xuất sắc trong phong trào thi đua của các tổ chức chính trị- xã hội;
+
+b) Tổ chức các hoạt động quy định tại điểm b và c khoản 3 Điều 4 Thông tư này.
+
+3\. Năm khác
+
+Tổ chức các hoạt động quy định tại điểm b và c khoản 3 Điều 4 Thông tư này.
+
+4\. Thẩm quyền duyệt, ký kế hoạch tổ chức kỷ niệm
+
+a) Đối với năm tròn, các tổ chức chính trị - xã hội trong Công an nhân dân xây dựng kế hoạch tổ chức hoạt động kỷ niệm, báo cáo lãnh đạo Cục Công tác đảng và công tác chính trị trình lãnh đạo Bộ Công an xem xét, quyết định; đối với năm lẻ 5, báo cáo lãnh đạo Cục Công tác đảng và công tác chính trị xem xét, quyết định;
+
+b) Tổ chức chính trị - xã hội các cấp xây dựng kế hoạch tổ chức các hoạt động kỷ niệm trình thủ trưởng đơn vị cùng cấp xem xét, quyết định.
+
+**Điều 9. Kỷ niệm ngày thành lập, ngày truyền thống đơn vị Công an cấp phòng, huyện, quận, thị xã và tương đương**
+
+1\. Năm tròn
+
+a) Tổ chức các hoạt động quy định tại điểm b và c khoản 3 Điều 4 Thông tư này;
+
+b) Tổ chức Lễ kỷ niệm và đón nhận các hình thức khen thưởng nếu có.
+
+2\. Năm lẻ 5
+
+a) Tổ chức các hoạt động quy định tại điểm b và c khoản 3 Điều 4 Thông tư này;
+
+b) Tổ chức gặp mặt truyền thống các thế hệ cán bộ, chiến sĩ.
+
+3\. Năm khác
+
+Tổ chức các hoạt động quy định tại điểm b và c khoản 3 Điều 4 Thông tư này.
+
+4\. Thẩm quyền duyệt, ký kế hoạch tổ chức kỷ niệm
+
+Thủ trưởng đơn vị duyệt, ký kế hoạch tổ chức kỷ niệm.
+
+**Điều 10. Kỷ niệm ngày thành lập, ngày truyền thống Công an xã, phường, thị trấn và tương đương**
+
+1\. Năm tròn, năm lẻ 5 và năm khác: Tổ chức các hoạt động quy định tại điểm b và c khoản 3 Điều 4 Thông tư này;
+
+2\. Thủ trưởng đơn vị duyệt, ký kế hoạch tổ chức kỷ niệm.
+
+**Chương III** 
+
+**ĐIỀU KHOẢN THI HÀNH**
+
+**Điều 11. Hiệu lực thi hành**
+
+1\. Thông tư này có hiệu lực thi hành từ ngày 05 tháng 8 năm 2024, thay thế Thông tư số 21/2017/TT-BCA, ngày 06 tháng 7 năm 2017 của Bộ trưởng Bộ Công an quy định về tổ chức kỷ niệm ngày thành lập, ngày truyền thống trong Công an nhân dân;
+
+2\. Trường hợp các văn bản quy phạm pháp luật dẫn chiếu để áp dụng trong Thông tư này được sửa đổi, bổ sung hoặc thay thế thì áp dụng theo các văn bản sửa đổi, bổ sung hoặc thay thế.
+
+**Điều 12. Trách nhiệm thi hành**
+
+1\. Cục Công tác đảng và công tác chính trị có trách nhiệm chủ trì tham mưu với Bộ trưởng Bộ Công an quản lý, theo dõi, hướng dẫn và kiểm tra việc tổ chức kỷ niệm ngày thành lập, ngày truyền thống trong Công an nhân dân theo quy định tại Thông tư này;
+
+2\. Cục Khoa học, chiến lược và lịch sử Công an có trách nhiệm chủ trì tham mưu, hướng dẫn việc xác định ngày thành lập, ngày truyền thống trong Công an nhân dân theo quy định tại Chương II Nghị định số 111/2018/NĐ-CP;
+
+3\. Công an đơn vị, địa phương, các tổ chức chính trị - xã hội có trách nhiệm phổ biến, quán triệt Thông tư này đến cán bộ, chiến sĩ, đoàn viên, hội viên. Hằng năm rà soát để tổ chức các hoạt động kỷ niệm phù hợp. Chủ động khen thưởng các tập thể, cá nhân có thành tích xuất sắc trong thực hiện Thông tư này theo thẩm quyền được phân cấp. Công an đơn vị, địa phương thực hiện không đúng quy định tại Thông tư này thì tùy tính chất, mức độ mà xem xét, xử lý kỷ luật theo quy định của Bộ Công an;
+
+4\. Kinh phí tổ chức kỷ niệm được bố trí trong dự toán ngân sách hằng năm Bộ Công an giao Công an các đơn vị, địa phương và các nguồn kinh phí hợp pháp theo quy định của pháp luật. Quá trình thực hiện nếu có vướng mắc, Công an đơn vị, địa phương và các tổ chức chính trị - xã hội báo cáo về Bộ Công an (qua Cục Công tác đảng và công tác chính trị).
+
+Quá trình thực hiện nếu có vướng mắc, Công an đơn vị, địa phương và các tổ chức chính trị - xã hội báo cáo về Bộ Công an (qua Cục Công tác đảng và công tác chính trị)./.
+
+BỘ TRƯỞNG
+
+Thượng Tướng Lương Tam Quang
