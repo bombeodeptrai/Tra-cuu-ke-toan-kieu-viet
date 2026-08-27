@@ -13,58 +13,6 @@
     "content_url": "/data/content/tt-89-2026-tt-btc.md"
   },
   {
-    "id": "nd-252-2026",
-    "decree_number": "252/2026/NĐ-CP",
-    "title": "Nghị định 252/2026/NĐ-CP quy định chi tiết một số điều và biện pháp thi hành Luật Quản lý thuế",
-    "summary": "Nghị định số 252/2026/NĐ-CP của Chính phủ hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15, quy định chi tiết về quy trình thanh tra, kiểm tra thuế tại doanh nghiệp, thẩm quyền khoanh nợ và biện pháp cưỡng chế thuế.",
-    "category": "nghi-dinh",
-    "issued_date": "2026-05-15",
-    "effective_date": "2026-07-01",
-    "status": "active",
-    "source_url": "https://thuvienphapluat.vn/van-ban/Thue-Phi-Le-Phi/Nghi-dinh-252-2026-ND-CP-huong-dan-Luat-Quan-ly-thue.aspx",
-    "pdf_url": "",
-    "content_url": "/data/content/nd-252-2026.md"
-  },
-  {
-    "id": "nd-254-2026",
-    "decree_number": "254/2026/NĐ-CP",
-    "title": "Nghị định 254/2026/NĐ-CP quy định về hóa đơn, chứng từ điện tử và quản lý thuế TMĐT",
-    "summary": "Nghị định quy định chuẩn mực kỹ thuật hóa đơn điện tử khởi tạo từ máy tính tiền kết nối 24/7 và mã hóa blockchain chống chỉnh sửa số liệu.",
-    "category": "hoa-don",
-    "issued_date": "2026-06-20",
-    "effective_date": "2026-08-01",
-    "status": "active",
-    "source_url": "https://thuvienphapluat.vn/van-ban/Thue-Phi-Le-Phi/Nghi-dinh-254-2026-ND-CP-hoa-don-dien-tu.aspx",
-    "pdf_url": "",
-    "content_url": "/data/content/nd-254-2026.md"
-  },
-  {
-    "id": "luat-108-2025",
-    "decree_number": "108/2025/QH15",
-    "title": "Luật Quản lý thuế số 108/2025/QH15 của Quốc hội",
-    "summary": "Luật Quản lý thuế mới thay thế Luật 38/2019/QH14, áp dụng quản lý rủi ro thuế theo thời gian thực và tích hợp định danh số toàn diện.",
-    "category": "luat",
-    "issued_date": "2025-06-25",
-    "effective_date": "2026-01-01",
-    "status": "active",
-    "source_url": "https://thuvienphapluat.vn/van-ban/Thue-Phi-Le-Phi/Luat-Quan-ly-thue-108-2025-QH15.aspx",
-    "pdf_url": "",
-    "content_url": "/data/content/luat-108-2025.md"
-  },
-  {
-    "id": "luat-109-2025",
-    "decree_number": "109/2025/QH15",
-    "title": "Luật Thuế Giá trị gia tăng (sửa đổi) số 109/2025/QH15",
-    "summary": "Luật Thuế GTGT sửa đổi siết chặt điều kiện thanh toán không dùng tiền mặt từ 5 triệu đồng trở lên và mở rộng phạm vi hoàn thuế dự án đầu tư.",
-    "category": "luat",
-    "issued_date": "2025-11-28",
-    "effective_date": "2026-07-01",
-    "status": "active",
-    "source_url": "https://thuvienphapluat.vn/van-ban/Thue-Phi-Le-Phi/Luat-Thue-gia-tri-gia-tang-109-2025-QH15.aspx",
-    "pdf_url": "",
-    "content_url": "/data/content/luat-109-2025.md"
-  },
-  {
     "id": "tt-46-2025",
     "decree_number": "46/2025/TT-BTC",
     "title": "Thông tư 46/2025/TT-BTC sửa đổi Chế độ kế toán Doanh nghiệp nhỏ và vừa (TT 133)",
@@ -204,31 +152,6 @@
     "source_url": "https://vbpl.vn/TW/Pages/vbpq-tim-kiem.aspx?Keyword=70%2F2025%2FN%C4%90-CP",
     "summary": "Nghị định 70/2025/NĐ-CP cập nhật các quy định mới nhất về hóa đơn điện tử, tháo gỡ những bất cập của Nghị định 123/2020/NĐ-CP trước đây. Trọng tâm là việc tự động hóa kết nối dữ liệu máy tính tiền và xử lý hóa đơn sai sót.\n\n**Điểm nhấn:**\n- Bắt buộc 100% cửa hàng bán lẻ, F&B áp dụng hóa đơn khởi tạo từ máy tính tiền kết nối trực tiếp với Cơ quan Thuế.\n- Thay đổi quy trình nộp mẫu 04/SS-HĐĐT, tự động hóa phản hồi từ CQT.",
     "content_url": "/data/content/nd-70-2025.md"
-  },
-  {
-    "id": "tt-58-2026",
-    "decree_number": "58/2026/TT-BTC",
-    "title": "Thông tư 58/2026/TT-BTC Chế độ kế toán doanh nghiệp siêu nhỏ",
-    "category": "thong-tu",
-    "issued_date": "2026-04-10",
-    "effective_date": "2026-07-01",
-    "status": "active",
-    "source_url": "https://vbpl.vn/TW/Pages/vbpq-toan-van.aspx?ItemID=172000",
-    "summary": "Thông tư 58/2026/TT-BTC ra đời thay thế Thông tư 132/2018/TT-BTC, định hình lại hoàn toàn công tác kế toán cho các doanh nghiệp siêu nhỏ, hộ kinh doanh trong thời đại số.\n\n**Điểm mới:**\n- Loại bỏ hoàn toàn yêu cầu ghi sổ kép (Nợ/Có) đối với hộ kinh doanh.\n- Doanh nghiệp siêu nhỏ nộp thuế TNDN theo tỷ lệ % trên doanh thu không bắt buộc lập Báo cáo tài chính, chỉ cần sổ chi tiết doanh thu.",
-    "pdf_url": "/data/pdfs/tt-58-2026.pdf",
-    "content_url": "/data/content/tt-58-2026.md"
-  },
-  {
-    "id": "nd-132-2026",
-    "decree_number": "132/2026/NĐ-CP",
-    "title": "Nghị định 132/2026/NĐ-CP Xử phạt vi phạm hành chính lĩnh vực kế toán",
-    "category": "nghi-dinh",
-    "issued_date": "2026-03-25",
-    "effective_date": "2026-05-21",
-    "status": "active",
-    "source_url": "https://vbpl.vn/TW/Pages/vbpq-tim-kiem.aspx?Keyword=132%2F2026%2FN%C4%90-CP",
-    "summary": "Thay thế Nghị định 41/2018, Nghị định 132/2026/NĐ-CP tăng mạnh mức phạt tiền đối với các hành vi vi phạm về kế toán và kiểm toán, đồng thời bổ sung các vi phạm liên quan đến chứng từ điện tử, an toàn dữ liệu kế toán.\n\n**Điểm mới:**\n- Mức phạt tối đa tăng lên 100 triệu đồng với cá nhân, 200 triệu đồng với tổ chức.\n- Bổ sung hành vi \"Làm rò rỉ dữ liệu kế toán tài chính\" với mức phạt rất nặng.",
-    "content_url": "/data/content/nd-132-2026.md"
   },
   {
     "id": "luat-ke-toan-2015",

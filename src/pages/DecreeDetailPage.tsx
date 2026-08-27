@@ -38,12 +38,29 @@ export function DecreeDetailPage() {
       text = text.replace(/Lỗi gọi AI: Bad status \d+:[\s\S]*?(?=---|$)/g, '> *⚠️ Hệ thống AI hiện đang bị quá tải. Tóm tắt sẽ cập nhật sau.* \n\n');
     }
     setContent(text);
-    setFullTextContent(text);
-    const aiSummaryMatch = text.match(/## 🌟 (?:TÓM TẮT CHUYÊN SÂU|BÁO CÁO PHÂN TÍCH)[\s\S]*?(?=---|\n# BÁO CÁO|\n## 1|$)/i);
-    if (aiSummaryMatch) {
-      setSummaryContent(aiSummaryMatch[0].trim());
+
+    // Split between AI Summary/Analysis and Full Official Legal Text
+    const splitRegex = /(?:---)?\s*## 📜 TOÀN VĂN VĂN BẢN[\s\S]*$/i;
+    const splitMatch = text.match(splitRegex);
+
+    if (splitMatch && splitMatch.index !== undefined && splitMatch.index > 50) {
+      const summaryPart = text.substring(0, splitMatch.index).trim();
+      let fullPart = splitMatch[0].replace(/^---\s*/, '').replace(/^## 📜 TOÀN VĂN VĂN BẢN\r?\n?/i, '').trim();
+      if (!fullPart.startsWith('# CỘNG HÒA') && !fullPart.startsWith('# ') && !fullPart.startsWith('**CHÍNH PHỦ**') && !fullPart.startsWith('**BỘ TÀI CHÍNH**')) {
+        fullPart = `# ${decree?.title || 'TOÀN VĂN VĂN BẢN GỐC'}\n\n` + fullPart;
+      }
+      setSummaryContent(summaryPart);
+      setFullTextContent(fullPart);
     } else {
-      setSummaryContent(decree?.summary || text.substring(0, 1000));
+      // Check if text starts directly with government header
+      if (text.includes('# CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM') || text.includes('**CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM**')) {
+        setFullTextContent(text);
+        setSummaryContent(decree?.summary ? `### 🌟 TÓM TẮT TRỌNG TÂM CHO KẾ TOÁN\n\n${decree.summary}` : 'Đang cập nhật phân tích AI...');
+      } else {
+        // Pure analysis
+        setSummaryContent(text);
+        setFullTextContent(text);
+      }
     }
   };
 
