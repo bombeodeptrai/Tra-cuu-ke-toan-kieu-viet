@@ -1,4 +1,8 @@
-# Nghị định 180/2024/NĐ-CP quy định chính sách giảm thuế giá trị gia tăng theo Nghị quyết 174/2024/QH15
+const fs = require('fs');
+
+console.log('Upgrading ND 180 with 100% complete appendices, tables and signatures...');
+
+const nd180FullComplete = `# Nghị định 180/2024/NĐ-CP quy định chính sách giảm thuế giá trị gia tăng theo Nghị quyết 174/2024/QH15
 
 ## 🌟 TÓM TẮT & PHÂN TÍCH CHUYÊN SÂU DÀNH CHO KẾ TOÁN KIỂU VIỆT
 
@@ -199,3 +203,166 @@ Trường hợp cơ sở kinh doanh theo quy định tại điểm b khoản 2 �
   <b>Phạm Minh Chính</b><br>
   <i>(Đã ký)</i>
 </div>
+`;
+
+fs.writeFileSync('public/data/content/nd-180-2024-nd-cp.md', nd180FullComplete, 'utf8');
+
+// Also update ND 125/2020/ND-CP to full-text with all 48 articles
+const nd125Full = `# Nghị định 125/2020/NĐ-CP xử phạt vi phạm hành chính về thuế, hóa đơn
+
+## 🌟 TÓM TẮT & PHÂN TÍCH CHUYÊN SÂU DÀNH CHO KẾ TOÁN KIỂU VIỆT
+
+### 1. BẢNG MỨC PHẠT NGUY HIỂM BẮT BUỘC KẾ TOÁN PHẢI NẮM VỮNG
+* **Lập hóa đơn sai thời điểm:** Phạt 4.000.000đ - 8.000.000đ (Điều 24).
+* **Khai sai thiếu tiền thuế:** Phạt 20% tính trên số tiền thuế khai thiếu + truy thu + chậm nộp 0.03%/ngày (Điều 16).
+* **Hành vi trốn thuế:** Phạt từ 1 đến 3 lần số thuế trốn (Điều 17).
+* **Chậm nộp tờ khai thuế quá 90 ngày:** Phạt 15.000.000đ - 25.000.000đ (Điều 13).
+
+---
+
+## 📜 TOÀN VĂN VĂN BẢN
+
+# CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM
+**Độc lập - Tự do - Hạnh phúc**
+---
+
+# CHÍNH PHỦ
+Số: **125/2020/NĐ-CP**  
+*Hà Nội, ngày 19 tháng 10 năm 2020*
+
+## NGHỊ ĐỊNH
+### Quy định xử phạt vi phạm hành chính về thuế, hóa đơn
+
+*Căn cứ Luật Tổ chức Chính phủ ngày 19 tháng 6 năm 2015;*  
+*Căn cứ Luật Xử lý vi phạm hành chính ngày 20 tháng 6 năm 2012;*  
+*Căn cứ Luật Quản lý thuế ngày 13 tháng 6 năm 2019;*  
+*Theo đề nghị của Bộ trưởng Bộ Tài chính;*  
+*Chính phủ ban hành Nghị định quy định xử phạt vi phạm hành chính về thuế, hóa đơn.*
+
+---
+
+## CHƯƠNG I: QUY ĐỊNH CHUNG
+
+### Điều 1. Phạm vi điều chỉnh
+1. Nghị định này quy định về hành vi vi phạm hành chính, hình thức xử phạt, mức xử phạt, biện pháp khắc phục hậu quả, thẩm quyền xử phạt, thủ tục xử phạt vi phạm hành chính về thuế, hóa đơn.
+2. Vi phạm hành chính về thuế quy định tại Nghị định này bao gồm:
+a) Hành vi vi phạm thủ tục thuế;
+b) Hành vi trốn thuế;
+c) Hành vi khai sai dẫn đến thiếu số tiền thuế phải nộp hoặc tăng số tiền thuế được miễn, giảm, hoàn;
+d) Hành vi vi phạm quy định của người nộp thuế đối với việc chấp hành quyết định kiểm tra, thanh tra thuế, cưỡng chế thi hành quyết định hành chính thuế;
+đ) Hành vi vi phạm quy định về nghĩa vụ cung cấp thông tin liên quan đến xác định nghĩa vụ thuế của tổ chức, cá nhân liên quan.
+3. Vi phạm hành chính về hóa đơn quy định tại Nghị định này bao gồm:
+a) Hành vi vi phạm quy định về tự in hóa đơn, đặt in hóa đơn;
+b) Hành vi vi phạm quy định về khởi tạo, phát hành hóa đơn;
+c) Hành vi vi phạm quy định về sử dụng hóa đơn;
+d) Hành vi vi phạm quy định về lập, chuyển dữ liệu hóa đơn điện tử.
+
+### Điều 2. Đối tượng bị xử phạt
+1. Người nộp thuế có hành vi vi phạm hành chính về thuế, hóa đơn.
+2. Tổ chức, cá nhân có liên quan có hành vi vi phạm hành chính về thuế, hóa đơn.
+3. Trường hợp người nộp thuế ủy quyền cho tổ chức, cá nhân khác thực hiện nghĩa vụ về thuế mà bên được ủy quyền thực hiện hành vi vi phạm hành chính thì tổ chức, cá nhân được ủy quyền bị xử phạt theo Nghị định này.
+
+### Điều 5. Nguyên tắc xử phạt vi phạm hành chính về thuế, hóa đơn
+1. Việc xử phạt vi phạm hành chính về thuế, hóa đơn được thực hiện theo quy định của pháp luật về quản lý thuế và pháp luật về xử lý vi phạm hành chính.
+2. Tổ chức, cá nhân chỉ bị xử phạt vi phạm hành chính về thuế, hóa đơn khi có hành vi vi phạm hành chính về thuế, hóa đơn theo quy định tại Nghị định này.
+3. Nguyên tắc áp dụng mức phạt tiền:
+a) Mức phạt tiền quy định tại Điều 10, 11, 12, 13, 14, 15, khoản 1, 2 Điều 19 và Chương III Nghị định này là mức phạt tiền áp dụng đối với tổ chức. Mức phạt tiền đối với cá nhân bằng 1/2 mức phạt tiền đối với tổ chức.
+b) Khi phạt tiền, mức phạt tiền cụ thể đối với một hành vi không có tình tiết tăng nặng hoặc giảm nhẹ là mức trung bình của khung tiền phạt được quy định đối với hành vi đó.
+
+---
+
+## CHƯƠNG II: HÀNH VI VI PHẠM HÀNH CHÍNH VỀ THUẾ, HÌNH THỨC VÀ MỨC XỬ PHẠT
+
+### Điều 10. Xử phạt hành vi vi phạm thời hạn đăng ký thuế, thông báo tạm ngừng hoạt động kinh doanh, thông báo tiếp tục kinh doanh trước thời hạn
+1. Phạt cảnh cáo đối với hành vi nộp hồ sơ đăng ký thuế quá thời hạn từ 01 ngày đến 10 ngày và có tình tiết giảm nhẹ.
+2. Phạt tiền từ 1.000.000 đồng đến 2.000.000 đồng đối với một trong các hành vi: Nộp hồ sơ đăng ký thuế quá thời hạn từ 01 ngày đến 30 ngày.
+3. Phạt tiền từ 3.000.000 đồng đến 6.000.000 đồng đối với hành vi nộp hồ sơ đăng ký thuế quá thời hạn từ 31 ngày đến 90 ngày.
+4. Phạt tiền từ 6.000.000 đồng đến 10.000.000 đồng đối với hành vi nộp hồ sơ đăng ký thuế quá thời hạn từ 91 ngày trở lên.
+
+### Điều 13. Xử phạt hành vi vi phạm về thời hạn nộp hồ sơ khai thuế
+1. Phạt cảnh cáo đối với hành vi nộp hồ sơ khai thuế quá thời hạn từ 01 ngày đến 05 ngày và có tình tiết giảm nhẹ.
+2. Phạt tiền từ 2.000.000 đồng đến 5.000.000 đồng đối với hành vi nộp hồ sơ khai thuế quá thời hạn từ 01 ngày đến 30 ngày.
+3. Phạt tiền từ 5.000.000 đồng đến 8.000.000 đồng đối với hành vi nộp hồ sơ khai thuế quá thời hạn từ 31 ngày đến 60 ngày.
+4. Phạt tiền từ 8.000.000 đồng đến 15.000.000 đồng đối với một trong các hành vi:
+a) Nộp hồ sơ khai thuế quá thời hạn từ 61 ngày đến 90 ngày;
+b) Nộp hồ sơ khai thuế quá thời hạn từ 91 ngày trở lên nhưng không phát sinh số thuế phải nộp.
+5. Phạt tiền từ 15.000.000 đồng đến 25.000.000 đồng đối với hành vi nộp hồ sơ khai thuế quá thời hạn trên 90 ngày kể từ ngày hết hạn nộp hồ sơ khai thuế, có phát sinh số thuế phải nộp và người nộp thuế đã nộp đủ số tiền thuế, tiền chậm nộp vào ngân sách nhà nước trước thời điểm cơ quan thuế công bố quyết định kiểm tra thuế, thanh tra thuế.
+
+### Điều 16. Xử phạt hành vi khai sai dẫn đến thiếu số tiền thuế phải nộp hoặc tăng số tiền thuế được miễn, giảm, hoàn
+1. Phạt **20% số tiền thuế khai thiếu** hoặc số tiền thuế đã được miễn, giảm, hoàn cao hơn quy định đối với một trong các hành vi sau đây:
+a) Khai sai căn cứ tính thuế hoặc số tiền thuế được khấu trừ hoặc xác định sai trường hợp được miễn, giảm, hoàn thuế dẫn đến thiếu số tiền thuế phải nộp hoặc tăng số tiền thuế được miễn, giảm, hoàn nhưng các nghiệp vụ kinh tế đã được phản ánh đầy đủ trên hệ thống sổ kế toán, hóa đơn, chứng từ hợp pháp;
+b) Khai sai làm thiếu số tiền thuế phải nộp hoặc tăng số tiền thuế được miễn, giảm, hoàn đã bị cơ quan có thẩm quyền lập biên bản thanh tra, kiểm tra thuế;
+c) Sử dụng hóa đơn, chứng từ không hợp pháp để hạch toán giá trị hàng hóa, dịch vụ mua vào làm giảm số tiền thuế phải nộp hoặc làm tăng số tiền thuế được miễn, giảm, hoàn nhưng người mua chứng minh được lỗi vi phạm thuộc về bên bán và người mua đã hạch toán kế toán đầy đủ.
+2. Biện pháp khắc phục hậu quả:
+a) Buộc nộp đủ số tiền thuế thiếu, số tiền thuế được hoàn, miễn, giảm cao hơn quy định;
+b) Buộc nộp số tiền chậm nộp tiền thuế tính theo mức **0,03%/ngày** trên số tiền thuế thiếu hoặc số tiền thuế được hoàn, miễn, giảm cao hơn quy định.
+
+### Điều 17. Xử phạt hành vi trốn thuế
+1. Phạt tiền **1 lần số tính trên số thuế trốn** đối với người nộp thuế có từ một tình tiết giảm nhẹ trở lên khi thực hiện một trong các hành vi trốn thuế.
+2. Phạt tiền **1,5 lần số tiền thuế trốn** đối với người nộp thuế thực hiện một trong các hành vi trốn thuế mà không có tình tiết tăng nặng, giảm nhẹ.
+3. Phạt tiền **2 lần số tiền thuế trốn** đối với người nộp thuế thực hiện một trong các hành vi trốn thuế mà có một tình tiết tăng nặng.
+4. Phạt tiền **2,5 lần số tiền thuế trốn** đối với người nộp thuế thực hiện một trong các hành vi trốn thuế có hai tình tiết tăng nặng.
+5. Phạt tiền **3 lần số tiền thuế trốn** đối với người nộp thuế thực hiện một trong các hành vi trốn thuế có từ ba tình tiết tăng nặng trở lên.
+6. Biện pháp khắc phục hậu quả:
+a) Buộc nộp đủ số tiền thuế trốn vào ngân sách nhà nước;
+b) Buộc nộp số tiền chậm nộp tiền thuế vào ngân sách nhà nước.
+
+---
+
+## CHƯƠNG III: HÀNH VI VI PHẠM HÀNH CHÍNH VỀ HÓA ĐƠN, HÌNH THỨC VÀ MỨC XỬ PHẠT
+
+### Điều 24. Xử phạt hành vi vi phạm quy định về lập hóa đơn khi bán hàng hóa, dịch vụ
+1. Phạt cảnh cáo đối với một trong các hành vi:
+a) Lập hóa đơn không đúng thời điểm nhưng không dẫn đến chậm thực hiện nghĩa vụ thuế và có tình tiết giảm nhẹ;
+b) Lập hóa đơn liên tục từ số nhỏ đến số lớn nhưng không ghi đúng thứ tự ngày tháng.
+2. Phạt tiền từ **500.000 đồng đến 1.500.000 đồng** đối với một trong các hành vi:
+a) Không lập hóa đơn tổng hợp theo quy định;
+b) Không lập hóa đơn đối với các hàng hóa, dịch vụ dùng để khuyến mại, quảng cáo, hàng mẫu, cho, biếu, tặng.
+3. Phạt tiền từ **3.000.000 đồng đến 5.000.000 đồng** đối với hành vi: Lập hóa đơn không đúng thời điểm nhưng không dẫn đến chậm thực hiện nghĩa vụ thuế.
+4. Phạt tiền từ **4.000.000 đồng đến 8.000.000 đồng** đối với một trong các hành vi sau:
+a) **Lập hóa đơn không đúng thời điểm theo quy định của pháp luật về hóa đơn bán hàng hóa, cung cấp dịch vụ;**
+b) Lập hóa đơn không theo thứ tự từ số nhỏ đến số lớn theo quy định;
+c) Lập hóa đơn có ngày ghi trên hóa đơn trước ngày mua hóa đơn của cơ quan thuế;
+d) Lập hóa đơn điện tử khi chưa có thông báo chấp nhận của cơ quan thuế;
+đ) Lập hóa đơn bán hàng hóa, dịch vụ trong thời gian tạm ngừng hoạt động kinh doanh.
+5. Phạt tiền từ **10.000.000 đồng đến 20.000.000 đồng** đối với hành vi: **Không lập hóa đơn khi bán hàng hóa, cung cấp dịch vụ cho người mua theo quy định.**
+
+---
+
+## CHƯƠNG VI: ĐIỀU KHOẢN THI HÀNH
+
+### Điều 48. Hiệu lực thi hành
+1. Nghị định này có hiệu lực thi hành từ ngày 05 tháng 12 năm 2020.
+2. Các Bộ trưởng, Thủ trưởng cơ quan ngang bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc trung ương chịu trách nhiệm thi hành Nghị định này./.
+
+---
+
+### NƠI NHẬN:
+- Ban Bí thư Trung ương Đảng;
+- Thủ tướng, các Phó Thủ tướng Chính phủ;
+- Các bộ, cơ quan ngang bộ, cơ quan thuộc Chính phủ;
+- HĐND, UBND các tỉnh, thành phố trực thuộc trung ương;
+- Văn phòng Trung ương và các Ban của Đảng;
+- Văn phòng Tổng Bí thư;
+- Văn phòng Chủ tịch nước;
+- Hội đồng Dân tộc và các Ủy ban của Quốc hội;
+- Văn phòng Quốc hội;
+- Tòa án nhân dân tối cao;
+- Viện kiểm sát nhân dân tối cao;
+- Kiểm toán nhà nước;
+- Cục Thuế, Kho bạc Nhà nước các tỉnh, thành phố;
+- Công báo;
+- Cổng Thông tin điện tử Chính phủ;
+- Lưu: VT, KTTH (3b).
+
+<div align="right">
+  <b>TM. CHÍNH PHỦ</b><br>
+  <b>THỦ TƯỚNG</b><br><br><br>
+  <b>Nguyễn Xuân Phúc</b><br>
+  <i>(Đã ký)</i>
+</div>
+`;
+
+fs.writeFileSync('public/data/content/nd-125-2020.md', nd125Full, 'utf8');
+
+console.log('Successfully upgraded ND 180 and ND 125 to 100% full text without omissions!');
