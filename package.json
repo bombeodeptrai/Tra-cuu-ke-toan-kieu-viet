@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "update": "node scripts/auto-update.js"
+    "update": "node scripts/auto-update.js",
+    "crawl": "node scripts/crawler/legal-crawler.cjs"
   },
   "dependencies": {
     "@google/genai": "^2.18.0",
@@ -26,6 +27,7 @@
     "@radix-ui/react-tooltip": "^1.1.2",
     "@tailwindcss/typography": "^0.5.20",
     "axios": "^1.19.0",
+    "cheerio": "^1.2.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "date-fns": "^3.6.0",
