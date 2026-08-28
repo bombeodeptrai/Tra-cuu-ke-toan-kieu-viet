@@ -244,17 +244,17 @@ export function DecreeDetailPage() {
             
             {/* Direct Google Dork for finding .doc / .xls files instantly bypassing paywalls */}
             {decree.free_download_url ? (
-              <Button asChild size="sm" className="bg-emerald-600 hover:bg-emerald-700 w-full sm:w-auto h-10 shadow-sm" title="Tải trực tiếp File Word/Excel miễn phí (Không cần đăng nhập)">
+              <Button asChild size="sm" className="bg-emerald-600 hover:bg-emerald-700 w-full sm:w-auto h-10 shadow-sm" title="Tải trực tiếp File Gốc">
                 <a href={decree.free_download_url} target="_blank" rel="noopener noreferrer">
                   <Download className="w-4 h-4 mr-2" />
-                  Tải File Biểu Mẫu Gốc (VBPL)
+                  Tải File Biểu Mẫu (Miễn Phí)
                 </a>
               </Button>
             ) : (
-              <Button asChild size="sm" className="bg-emerald-600 hover:bg-emerald-700 w-full sm:w-auto h-10 shadow-sm" title="Tìm tải trực tiếp trên Cổng TTĐT Chính Phủ (Miễn phí 100%)">
+              <Button asChild size="sm" className="bg-emerald-600 hover:bg-emerald-700 w-full sm:w-auto h-10 shadow-sm" title="Tải trực tiếp từ Cổng TTĐT Chính Phủ">
                 <a href={`https://vanban.chinhphu.vn/?pageid=27160&keyword=${encodeURIComponent(decree.decree_number)}`} target="_blank" rel="noopener noreferrer">
                   <Download className="w-4 h-4 mr-2" />
-                  Tìm Tải File Gốc (Chính Phủ)
+                  Tải File Biểu Mẫu (Miễn Phí)
                 </a>
               </Button>
             )}

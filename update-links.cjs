@@ -10,39 +10,50 @@ async function run() {
     let updatedCount = 0;
     for (let i = 0; i < data.length; i++) {
       const decree = data[i];
-      if (decree.free_download_url) continue; // Skip if already found
+      if (decree.free_download_url) {
+        console.log(`[${i+1}] Skip ${decree.decree_number}, already has link`);
+        continue;
+      }
       
-      console.log(`[${i+1}/${data.length}] Searching for: ${decree.decree_number}`);
+      console.log(`[${i+1}] Searching for: ${decree.decree_number}`);
       try {
-        const query = encodeURIComponent(`site:hethongphapluat.com "${decree.decree_number}"`);
-        const res = await axios.get(`https://html.duckduckgo.com/html/?q=${query}`, {
-          headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' }
+        const query = encodeURIComponent(`site:vbpl.vn "${decree.decree_number}"`);
+        const res = await axios.post('https://lite.duckduckgo.com/lite/', `q=${query}`, {
+          headers: { 
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+          }
         });
+        
         const $ = cheerio.load(res.data);
-        const link = $('.result__url').first().text().trim();
-        if (link && link.includes('hethongphapluat.com')) {
-          let fullLink = link;
-          if (!fullLink.startsWith('http')) fullLink = 'https://' + fullLink;
+        const firstLink = $('.result-snippet').closest('tr').prev('tr').find('.result-url').attr('href');
+        
+        if (firstLink && firstLink.includes('vbpl.vn')) {
+          let fullLink = firstLink;
+          if (fullLink.startsWith('//')) fullLink = 'https:' + fullLink;
           console.log(`=> Found: ${fullLink}`);
           data[i].free_download_url = fullLink;
           updatedCount++;
         } else {
-          console.log("=> Not found on hethongphapluat.com");
-          
-          // Try luatminhkhue.vn
-          const query2 = encodeURIComponent(`site:luatminhkhue.vn "${decree.decree_number}"`);
-          const res2 = await axios.get(`https://html.duckduckgo.com/html/?q=${query2}`, {
-            headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)' }
-          });
-          const $2 = cheerio.load(res2.data);
-          const link2 = $2('.result__url').first().text().trim();
-          if (link2 && link2.includes('luatminhkhue.vn')) {
-            let fullLink = link2;
-            if (!fullLink.startsWith('http')) fullLink = 'https://' + fullLink;
-            console.log(`=> Found on luatminhkhue: ${fullLink}`);
-            data[i].free_download_url = fullLink;
-            updatedCount++;
-          }
+           console.log("=> Not found on vbpl, trying hethongphapluat...");
+           const query2 = encodeURIComponent(`site:hethongphapluat.com "${decree.decree_number}"`);
+           const res2 = await axios.post('https://lite.duckduckgo.com/lite/', `q=${query2}`, {
+             headers: { 
+               'Content-Type': 'application/x-www-form-urlencoded',
+               'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+             }
+           });
+           const $2 = cheerio.load(res2.data);
+           const firstLink2 = $2('.result-snippet').closest('tr').prev('tr').find('.result-url').attr('href');
+           if (firstLink2 && firstLink2.includes('hethongphapluat.com')) {
+              let fullLink2 = firstLink2;
+              if (fullLink2.startsWith('//')) fullLink2 = 'https:' + fullLink2;
+              console.log(`=> Found: ${fullLink2}`);
+              data[i].free_download_url = fullLink2;
+              updatedCount++;
+           } else {
+              console.log("=> Still not found.");
+           }
         }
       } catch (e) {
         console.error("Error fetching:", e.message);
