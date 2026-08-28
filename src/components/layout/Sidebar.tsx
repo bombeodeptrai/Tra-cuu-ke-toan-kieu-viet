@@ -1,14 +1,17 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Building2, LayoutDashboard, Library, Search, MessageSquareText, Settings, BookOpen, Download, LineChart, ScanText, Sparkles } from 'lucide-react';
+import { Building2, LayoutDashboard, Library, Search, MessageSquareText, Settings, BookOpen, Download, LineChart, ScanText, Sparkles, LogOut } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { APP_NAME } from '@/lib/utils/constants';
+import { useUserStore } from '@/stores/user-store';
 
 interface SidebarProps {
   onClose?: () => void;
 }
 
 export function Sidebar({ onClose }: SidebarProps) {
+  const { username, logout } = useUserStore();
+  
   const navItems = [
     { to: '/', icon: LayoutDashboard, label: 'Trang chủ' },
     { to: '/thu-vien', icon: Library, label: 'Thư viện nghị định' },
@@ -84,7 +87,19 @@ export function Sidebar({ onClose }: SidebarProps) {
         </div>
       </div>
       
-      <div className="p-4 mt-auto border-t border-border">
+      <div className="p-4 mt-auto border-t border-border space-y-4">
+        {username && (
+          <div className="flex items-center justify-between p-2 rounded-md bg-muted/50 border border-border/50">
+            <span className="text-sm font-medium text-primary line-clamp-1 flex-1 px-1">👤 {username}</span>
+            <button 
+              onClick={logout}
+              className="p-1.5 text-muted-foreground hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-950/30 rounded-md transition-colors"
+              title="Đổi người dùng"
+            >
+              <LogOut className="h-4 w-4" />
+            </button>
+          </div>
+        )}
         <div className="flex items-center justify-between text-xs text-muted-foreground">
           <span>Phiên bản 1.0.1</span>
           <a href="#" className="hover:text-primary transition-colors">GitHub</a>

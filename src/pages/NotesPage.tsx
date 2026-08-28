@@ -5,17 +5,22 @@ import { Link } from 'react-router-dom';
 import { BookOpen, Search, Trash2, Calendar, FileText, Bot } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { formatDate } from '@/lib/utils/format';
+import { useUserStore } from '@/stores/user-store';
 
 export function NotesPage() {
   const { notes, searchHistory, deleteNote, clearSearchHistory } = useNotesStore();
   const { decrees } = useDecreeStore();
+  const { username } = useUserStore();
+
+  const userNotes = notes.filter(n => n.user_id === username || (!n.user_id && username));
+  const userSearchHistory = searchHistory.filter(s => s.user_id === username || (!s.user_id && username));
 
   return (
     <div className="max-w-5xl mx-auto pb-12">
       <div className="mb-8">
         <h1 className="text-3xl font-bold mb-2 flex items-center gap-3">
           <BookOpen className="h-8 w-8 text-primary" />
-          Sổ Tay Kế Toán (Đã đồng bộ)
+          Sổ Tay Kế Toán của {username}
         </h1>
         <p className="text-muted-foreground">
           Quản lý các đoạn văn bản bạn đã Highlight, ghi chú cá nhân và lịch sử tìm kiếm.
@@ -27,17 +32,17 @@ export function NotesPage() {
         {/* Notes Column */}
         <div className="md:col-span-2 space-y-6">
           <h2 className="text-xl font-bold border-b pb-2 flex items-center gap-2">
-            <Bot className="h-5 w-5" /> Ghi chú & Highlight ({notes.length})
+            <Bot className="h-5 w-5" /> Ghi chú & Highlight ({userNotes.length})
           </h2>
           
-          {notes.length === 0 ? (
+          {userNotes.length === 0 ? (
             <div className="text-center py-10 bg-muted/30 rounded-lg border border-dashed">
               <p className="text-muted-foreground">Chưa có ghi chú nào.</p>
               <p className="text-sm text-muted-foreground mt-1">Hãy bôi đen văn bản khi đọc Nghị định để lưu lại!</p>
             </div>
           ) : (
             <div className="space-y-4">
-              {notes.map(note => {
+              {userNotes.map(note => {
                 const decree = decrees.find(d => d.id === note.decree_id);
                 return (
                   <div key={note.id} className="bg-card border rounded-lg p-5 shadow-sm hover:shadow transition-shadow">
@@ -81,18 +86,18 @@ export function NotesPage() {
             <h2 className="text-xl font-bold flex items-center gap-2">
               <Search className="h-5 w-5" /> Lịch sử tìm kiếm
             </h2>
-            {searchHistory.length > 0 && (
+            {userSearchHistory.length > 0 && (
               <Button variant="ghost" size="sm" onClick={clearSearchHistory} className="h-8 text-xs text-muted-foreground">
                 Xóa tất cả
               </Button>
             )}
           </div>
           
-          {searchHistory.length === 0 ? (
+          {userSearchHistory.length === 0 ? (
             <p className="text-center text-sm text-muted-foreground py-4">Chưa có lịch sử.</p>
           ) : (
             <ul className="space-y-2">
-              {searchHistory.map(item => (
+              {userSearchHistory.map(item => (
                 <li key={item.id}>
                   <Link 
                     to={`/tra-cuu?q=${encodeURIComponent(item.keyword)}`}

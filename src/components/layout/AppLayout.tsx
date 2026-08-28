@@ -3,11 +3,13 @@ import { Outlet } from 'react-router-dom';
 import { Header } from './Header';
 import { Sidebar } from './Sidebar';
 import { MobileNav } from './MobileNav';
+import { LoginModal } from './LoginModal';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export function AppLayout() {
   return (
     <div className="flex min-h-screen w-full flex-col bg-background">
+      <LoginModal />
       <div className="hidden md:flex w-64 flex-col fixed inset-y-0 z-50">
         <Sidebar />
       </div>
