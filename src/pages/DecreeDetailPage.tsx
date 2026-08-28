@@ -259,15 +259,7 @@ export function DecreeDetailPage() {
               </Button>
             )}
             
-            {decree.source_url && (
-              <Button asChild variant="outline" className="gap-2 border-amber-200 text-amber-700 bg-amber-50 hover:bg-amber-100 dark:bg-amber-900/30 dark:border-amber-800 dark:text-amber-300" title="Chỉ nên dùng trên máy tính vì hay bắt tải App">
-                <a href={decree.source_url} target="_blank" rel="noopener noreferrer">
-                  <Info className="h-4 w-4" /> Bản Gốc (Thư Viện Pháp Luật)
-                </a>
-              </Button>
-            )}
-            
-            {!decree.pdf_drive_id && !decree.pdf_url && !decree.source_url && (
+            {!decree.pdf_drive_id && !decree.pdf_url && !decree.free_download_url && (
               <Button variant="outline" className="gap-2" disabled>
                 <Download className="h-4 w-4" /> Chưa có file gốc
               </Button>
