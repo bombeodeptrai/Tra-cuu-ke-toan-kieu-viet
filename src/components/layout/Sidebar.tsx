@@ -16,6 +16,7 @@ export function Sidebar({ onClose }: SidebarProps) {
     { to: '/tai-khoan', icon: BookOpen, label: 'Hệ thống Tài khoản' },
     { to: '/bieu-mau', icon: Download, label: 'Biểu mẫu' },
     { to: '/hoi-dap-ai', icon: MessageSquareText, label: 'Hỏi đáp AI' },
+    { to: '/so-tay', icon: BookOpen, label: 'Sổ tay Kế toán' },
     { to: '/cai-dat', icon: Settings, label: 'Cài đặt' },
   ];
 

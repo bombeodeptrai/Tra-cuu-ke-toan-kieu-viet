@@ -6,11 +6,13 @@ import { Button } from '@/components/ui/button';
 import { DecreeCard } from '@/components/decree/DecreeCard';
 import { CATEGORIES } from '@/lib/utils/constants';
 import { useDecrees } from '@/hooks/useDecrees';
+import { useNotesStore } from '@/stores/notes-store';
 
 export function SearchPage() {
   const [searchParams] = useSearchParams();
   const initialQuery = searchParams.get('q') || '';
   const navigate = useNavigate();
+  const { addSearchHistory } = useNotesStore();
   
   const [query, setQuery] = useState(initialQuery);
   const [activeCategory, setActiveCategory] = useState<string>('all');
@@ -20,11 +22,15 @@ export function SearchPage() {
 
   useEffect(() => {
     setQuery(initialQuery);
+    if (initialQuery) {
+      addSearchHistory(initialQuery);
+    }
   }, [initialQuery]);
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (query.trim()) {
+      addSearchHistory(query.trim());
       navigate(`/tra-cuu?q=${encodeURIComponent(query.trim())}`);
     }
   };

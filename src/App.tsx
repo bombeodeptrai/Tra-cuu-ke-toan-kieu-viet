@@ -10,6 +10,7 @@ import { SettingsPage } from './pages/SettingsPage';
 import { ChartOfAccountsPage } from './pages/ChartOfAccountsPage';
 import { FormsPage } from './pages/FormsPage';
 import { NotFoundPage } from './pages/NotFoundPage';
+import { NotesPage } from './pages/NotesPage';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import { useSettingsStore } from '@/stores/settings-store';
 import { useDecreeStore } from '@/stores/decree-store';
@@ -46,6 +47,7 @@ export default function App() {
             <Route path="tai-khoan" element={<ChartOfAccountsPage />} />
             <Route path="bieu-mau" element={<FormsPage />} />
             <Route path="hoi-dap-ai" element={<ChatAIPage />} />
+            <Route path="so-tay" element={<NotesPage />} />
             <Route path="cai-dat" element={<SettingsPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>

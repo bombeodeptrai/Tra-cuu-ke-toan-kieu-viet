@@ -17,7 +17,10 @@ import 'katex/dist/katex.min.css';
 import { CATEGORIES, DECREE_STATUS_LABELS } from '@/lib/utils/constants';
 import { formatDate } from '@/lib/utils/format';
 import { useDecreeStore } from '@/stores/decree-store';
+import { useNotesStore } from '@/stores/notes-store';
 import { useToast } from '@/components/ui/use-toast';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from '@/components/ui/dialog';
+import { Textarea } from '@/components/ui/textarea';
 
 const contentCache = new Map<string, string>();
 
@@ -25,13 +28,65 @@ export function DecreeDetailPage() {
   const { id } = useParams();
   const { toast } = useToast();
   const { decrees, bookmarks, toggleBookmark } = useDecreeStore();
+  const { addNote } = useNotesStore();
   const decree = decrees.find(d => d.id === id);
   
   const [content, setContent] = useState<string>('');
   const [summaryContent, setSummaryContent] = useState<string>('');
   const [fullTextContent, setFullTextContent] = useState<string>('');
   const [isLoadingContent, setIsLoadingContent] = useState(false);
+  
+  // Highlight Note states
+  const [selectedText, setSelectedText] = useState('');
+  const [isNoteDialogOpen, setIsNoteDialogOpen] = useState(false);
+  const [noteInput, setNoteInput] = useState('');
+  const [selectionRect, setSelectionRect] = useState<{top: number, left: number} | null>(null);
+
   const navigate = useNavigate();
+
+  useEffect(() => {
+    const handleSelection = () => {
+      const selection = window.getSelection();
+      if (selection && selection.toString().trim().length > 10) {
+        const range = selection.getRangeAt(0);
+        const rect = range.getBoundingClientRect();
+        // Only show if selection is inside the decree content area
+        const contentArea = document.getElementById('decree-content-area');
+        if (contentArea && contentArea.contains(range.commonAncestorContainer)) {
+          setSelectedText(selection.toString().trim());
+          setSelectionRect({
+            top: rect.top + window.scrollY - 40,
+            left: rect.left + window.scrollX + (rect.width / 2) - 50,
+          });
+        }
+      } else {
+        if (!isNoteDialogOpen) {
+          setSelectionRect(null);
+        }
+      }
+    };
+
+    document.addEventListener('mouseup', handleSelection);
+    document.addEventListener('touchend', handleSelection);
+    return () => {
+      document.removeEventListener('mouseup', handleSelection);
+      document.removeEventListener('touchend', handleSelection);
+    };
+  }, [isNoteDialogOpen]);
+
+  const handleSaveNote = async () => {
+    if (!decree) return;
+    await addNote({
+      decree_id: decree.id,
+      selected_text: selectedText,
+      user_note: noteInput
+    });
+    toast({ title: 'Đã lưu ghi chú', description: 'Ghi chú đã được lưu vào Sổ tay Kế toán và Google Sheets.' });
+    setIsNoteDialogOpen(false);
+    setNoteInput('');
+    setSelectionRect(null);
+    window.getSelection()?.removeAllRanges();
+  };
 
   const parseAndSetText = (text: string) => {
     if (text.includes('> *Lỗi tạo tóm tắt tự động*') || text.includes('Lỗi gọi AI:')) {
@@ -210,8 +265,21 @@ export function DecreeDetailPage() {
           </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-        <div className="lg:col-span-2">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-8" id="decree-content-area">
+        <div className="lg:col-span-2 relative">
+          
+          {selectionRect && !isNoteDialogOpen && (
+            <div 
+              style={{ position: 'absolute', top: selectionRect.top, left: selectionRect.left, zIndex: 50 }}
+              className="bg-amber-100 dark:bg-amber-900 border border-amber-300 shadow-lg rounded-md p-1 animate-in fade-in zoom-in duration-200"
+            >
+              <Button size="sm" variant="ghost" className="h-8 text-amber-800 dark:text-amber-100 hover:bg-amber-200" onClick={() => setIsNoteDialogOpen(true)}>
+                <Bot className="w-4 h-4 mr-2" />
+                Lưu Ghi chú
+              </Button>
+            </div>
+          )}
+          
           <Tabs defaultValue="content" className="w-full">
             <TabsList className="grid w-full grid-cols-2 mb-6">
               <TabsTrigger value="content" className="gap-2 font-semibold">
@@ -302,6 +370,32 @@ export function DecreeDetailPage() {
           )}
         </div>
       </div>
+      
+      <Dialog open={isNoteDialogOpen} onOpenChange={setIsNoteDialogOpen}>
+        <DialogContent>
+          <DialogHeader>
+            <DialogTitle>Lưu Ghi chú / Trích dẫn</DialogTitle>
+          </DialogHeader>
+          <div className="space-y-4 py-4">
+            <div className="p-3 bg-muted rounded-md text-sm italic border-l-2 border-primary line-clamp-4">
+              "{selectedText}"
+            </div>
+            <div className="space-y-2">
+              <label className="text-sm font-medium">Ghi chú của bạn (tuỳ chọn)</label>
+              <Textarea 
+                placeholder="Ví dụ: Dùng cho khách hàng A, lưu ý xuất hóa đơn..." 
+                value={noteInput}
+                onChange={(e) => setNoteInput(e.target.value)}
+                rows={3}
+              />
+            </div>
+          </div>
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setIsNoteDialogOpen(false)}>Hủy</Button>
+            <Button onClick={handleSaveNote}>Lưu vào Sổ tay</Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }
