@@ -110,14 +110,21 @@ export const useDecreeStore = create<DecreeState>()(
               const sheetData = await res.json();
               if (Array.isArray(sheetData) && sheetData.length > 0) {
                 const sheetValid = sheetData.filter((d: any) => d.id && d.title);
+                // Deduplicate sheet data in case the Google Sheet has multiple rows with the same ID
+                const uniqueSheetMap = new Map();
+                sheetValid.forEach((s: any) => {
+                  uniqueSheetMap.set(s.id, s);
+                });
+                const uniqueSheetValid = Array.from(uniqueSheetMap.values());
+                
                 const localMap = new Map(validData.map(d => [d.id, d]));
-                const mergedSheet = sheetValid.map((s: any) => {
+                const mergedSheet = uniqueSheetValid.map((s: any) => {
                   const local = localMap.get(s.id);
                   return {
-                    ...local,
                     ...s,
-                    content_url: s.content_url || local?.content_url || `/data/content/${s.id}.md`,
-                    pdf_url: s.pdf_url || local?.pdf_url || '',
+                    ...local, // Local JSON takes precedence over Google Sheet for core curated fields
+                    content_url: local?.content_url || s.content_url || `/data/content/${s.id}.md`,
+                    pdf_url: local?.pdf_url || s.pdf_url || '',
                   };
                 });
                 const sheetIds = new Set(mergedSheet.map((d: any) => d.id));
