@@ -2,45 +2,91 @@
 trigger: always_on
 ---
 
-# 📜 BỘ QUY TẮC LÀM VIỆC & TƯ DUY DÀNH CHO AI
-*(Áp dụng bắt buộc cho mọi truy vấn và nhiệm vụ từ Người dùng trong dự án này)*
-
-Dựa trên toàn bộ lịch sử hội thoại, những sai lầm đã mắc phải (như nhầm lẫn khái niệm "toàn văn", làm việc rườm rà mất 4 ngày cho 1 task, hiển thị lỗi code HTML, thiếu file đính kèm, báo cáo khi chưa kiểm tra kỹ...), đây là **Quy Trình và Bộ Quy Tắc (Rules)** mà AI bắt buộc phải "nạp" vào bộ nhớ trước khi xử lý bất kỳ yêu cầu nào tiếp theo.
+# LUẬT LÀM VIỆC DÀNH RIÊNG CHO DỰ ÁN NÀY
+**Đọc bắt buộc trước MỌI yêu cầu. Không có ngoại lệ.**
 
 ---
 
-## PHẦN 1: QUY TẮC TƯ DUY (MINDSET)
+## 🚨 NHỮNG LỖI NGHIÊM TRỌNG ĐÃ MẮC PHẢI (CẤM LẶP LẠI)
 
-### 1. Hiểu đúng "Ngôn ngữ của Người dùng" (Định nghĩa sự Hoàn hảo)
-- **Không suy diễn sai lệch:** Khi Người dùng nói "Toàn văn", nghĩa là TỪ KHÓA ĐẾN CHỮ KÝ cuối cùng (Quốc hiệu, Tiêu ngữ, Căn cứ pháp lý, Điều, Khoản, Điểm, Phụ lục, Nơi nhận) phải có đủ **100%**. 
-- **Tuyệt đối cấm:** Sử dụng dấu ba chấm (`...`), tự ý tóm tắt, cắt xén, hay bỏ qua bảng biểu. Nếu làm thiếu một dấu phẩy, đó bị coi là THẤT BẠI.
+Đây là danh sách các sai lầm thực tế trong dự án này, đã khiến người dùng nổi giận. Đọc kỹ từng dòng:
 
-### 2. Tư duy "Đường vòng" & Hệ thống Dự phòng (Fallback)
-- **Không chấp nhận ngõ cụt:** Nếu website A bị chặn (Cloudflare, Captcha, 403), KHÔNG ĐƯỢC báo cáo "không làm được". Phải lập tức kích hoạt phương án B, C, D (như dùng DuckDB, HuggingFace, API ẩn, Google Dorking).
-- **Hệ thống phải "Chắc chắn chạy thành công":** Khi thiết kế một tính năng tự động (ví dụ: Bot quét văn bản), phải đảm bảo tính khả thi trong thực tế, dự trù các tình huống xấu nhất (website sập, thay đổi giao diện) và có biện pháp thay thế.
+### Lỗi 1: Làm Nửa Vời ("xàm gì vậy, làm thì làm triệt để")
+- Khi người dùng nói "làm hết" hoặc giao một danh sách → phải làm **100%**, không phải làm 2 rồi dừng.
+- Ví dụ sai: Chỉ cắm link tải cho 2 văn bản (TT200, TT133), còn 37 cái để fallback sang trang tìm kiếm → người dùng phát hiện ra và tức giận ngay.
+- **Luật:** Không báo cáo "hoàn thành" khi chưa làm đủ 100%.
 
-### 3. Chủ động tiến công (Proactive Execution)
-- **Không thụ động chờ lệnh:** Nếu nhiệm vụ yêu cầu sửa Code App Script, tự động mở thư mục, tìm file và viết/cập nhật Code. Nếu thấy thiếu thư viện (như vụ `rehype-raw` để render bảng biểu), tự động `npm install` và khắc phục ngay, không đợi Người dùng mắng mới phát hiện ra lỗi.
+### Lỗi 2: Biện Hộ Kỹ Thuật Thay Vì Làm Việc
+- Khi bị block (403, Cloudflare, CAPTCHA), tuyệt đối **không** đưa ra câu: *"trang web này chặn bot nên không làm được"*.
+- Người dùng đã nói thẳng: *"đừng có nói chuyện không làm được, chặn cái đ gì chỉ copy link mà chặn"*.
+- **Luật:** Khi gặp chặn → tìm ngay phương án khác (trang web khác, tool khác, approach khác). Không bao giờ báo cáo bế tắc.
+
+### Lỗi 3: Trỏ Sai Trang (Link rác, 404)
+- Đã từng để nút "Bản Gốc (Thư Viện Pháp Luật)" dẫn đến trang 404 → người dùng chụp ảnh gửi lại và hỏi "Cần đ gì cứ vào thư viện pháp luật".
+- **Luật:** Link phải kiểm tra hoạt động thực tế trước khi deploy. Không dùng link trang nào mà người dùng đã reject.
+- **Trang được dùng:** `hethongphapluat.com` (đã xác nhận hoạt động tốt).
+- **Trang BỊ CẤM:** `thuvienphapluat.vn` (chặn, hay 404, yêu cầu đăng nhập VIP).
+
+### Lỗi 4: Giải Thích Dài Dòng Sau Khi Làm Xong
+- Người dùng không cần đọc 5 đoạn giải thích. Chỉ cần biết: làm được chưa, đã deploy chưa.
+- **Luật:** Báo cáo tối đa 3-5 dòng. Thẳng vào kết quả.
 
 ---
 
-## PHẦN 2: QUY TRÌNH THỰC THI 4 BƯỚC CHUẨN (WORKFLOW)
+## ✅ QUY TRÌNH BẮT BUỘC (WORKFLOW)
 
-Mỗi khi nhận một yêu cầu mới, AI bắt buộc phải chạy qua 4 bước sau trong suy nghĩ trước khi gõ phím hoặc viết code:
+**Mỗi yêu cầu mới, chạy qua 4 bước này trong đầu trước khi làm:**
 
-### Bước 1: Phân Tích & Rà Soát Rủi Ro (Tư duy của Claude)
-- Nhiệm vụ này yêu cầu đầu ra (Output) là gì?
-- Có những vướng mắc (Roadblocks) nào có thể xảy ra? (Bị chặn IP, lỗi build, sai định dạng data...)
-- Giải pháp kĩ thuật nào là an toàn và ít rủi ro nhất?
+```
+1. PHÂN TÍCH: Output cần là gì? Cạm bẫy nào có thể xảy ra?
+2. LÀM TRIỆT ĐỂ: Làm 100%, không làm nửa chừng.
+3. KIỂM TRA THỰC TẾ: Tự chạy/test trước khi nói "xong".
+4. BÁO CÁO NGẮN: Xong rồi → nói xong, link/kết quả ở đâu.
+```
 
-### Bước 2: Triển Khai Tuyệt Đối Chính Xác (Tư duy của Gemini/Kỹ sư)
-- Tiến hành can thiệp mã nguồn, sửa file, viết script.
-- Đảm bảo tuân thủ triệt để nguyên tắc không phá vỡ logic cũ.
+---
 
-### Bước 3: Nghiệm Thu Khắt Khe (Tự Kiểm Tra Kép)
-- **BẮT BUỘC:** Tự chạy kiểm tra, xem log, review lại output (Ví dụ: `npm run build`).
-- Nếu phát hiện lỗi (dù là nhỏ nhất như sai font, dính mã HTML raw, thiếu nút tải file đính kèm), **LẬP TỨC SỬA NGAY TRONG LƯỢT ĐÓ**, không được báo cáo hoàn thành vội vàng.
+## 📌 THÔNG TIN DỰ ÁN (ĐỌC 1 LẦN, GHI NHỚ MÃI)
 
-### Bước 4: Báo Cáo Ngắn Gọn & Bàn Giao
-- Trình bày kết quả rõ ràng, thẳng vào trọng tâm. 
-- Chỉ báo cáo khi hệ thống ĐÃ CHẠY THÀNH CÔNG và ĐÃ KIỂM TRA.
+| Thông tin | Giá trị |
+|---|---|
+| Tên dự án | Tra Cứu Kế Toán Kiểu Việt |
+| Live URL | `https://bombeodeptrai.github.io/Tra-cuu-ke-toan-kieu-viet/` |
+| Repo | `https://github.com/bombeodeptrai/Tra-cuu-ke-toan-kieu-viet` |
+| Stack | Vite + React + TypeScript + Tailwind |
+| Data source chính | `public/data/decrees.json` (39 văn bản, đều có `free_download_url`) |
+| GAS Webhook | Google Apps Script (lưu notes + search history theo user) |
+| Deploy | GitHub Actions tự động khi push vào `main` |
+| User emails | `nguyenthanhtrongnhan14@gmail.com`, `ketoan@kieuviet.vn` |
+
+---
+
+## 🔑 CÁC NGUYÊN TẮC KỸ THUẬT ĐÃ HỌC ĐƯỢC
+
+### Về Download Link
+- **Phương pháp lấy link đúng:** Dùng `search_web` với `site:hethongphapluat.com "[số văn bản]"` → lấy URL từ `vertexaisearch.cloud.google.com/grounding-api-redirect/...` → resolve 302 redirect bằng `axios.get(url, {maxRedirects:0})` để lấy URL thực.
+- Các URL trên `hethongphapluat.com` dạng slug dài sẽ return 200 OK với body thực tế (khi dùng browser). Đây là trang tải được.
+- **Trang CẤM dùng:** `thuvienphapluat.vn` — chặn, 404, VIP wall.
+
+### Về Build & Deploy
+- Windows PowerShell: dùng `;` thay vì `&&` để nối lệnh.
+- Lệnh deploy: `git add . ; git commit -m "..." ; git push origin main` → GitHub Actions tự build.
+- Không cần chạy `npm run build` cục bộ — CI/CD trên GitHub xử lý.
+
+### Về Loading Performance
+- Dữ liệu local (`decrees.json`) phải `set()` state ngay sau khi fetch xong, không chờ GAS.
+- GAS fetch chạy sau và ngầm cập nhật — không block UI.
+
+### Về User Identity (Đăng nhập)
+- App hỏi tên người dùng lúc load lần đầu (modal).
+- Tên lưu vào `localStorage` key `kv_username`.
+- Notes và search history được filter theo `username`.
+
+---
+
+## 💬 PHONG CÁCH GIAO TIẾP VỚI NGƯỜI DÙNG
+
+- **Người dùng là kế toán KV**, không phải developer. Giải thích bằng ngôn ngữ thực tế, không dùng jargon kỹ thuật.
+- Khi bị chỉ trích → nhận lỗi thẳng, sửa ngay, không biện hộ.
+- Khi hỏi "cái này cần không?" → đừng trả lời lý thuyết. Làm thử rồi cho xem kết quả.
+- Nếu cần hỏi lại để rõ yêu cầu → hỏi 1 câu, không hỏi 5 câu cùng lúc.
