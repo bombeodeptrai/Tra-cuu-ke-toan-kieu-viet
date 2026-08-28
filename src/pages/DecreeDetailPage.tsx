@@ -171,6 +171,7 @@ export function DecreeDetailPage() {
             <Button onClick={() => navigate('/hoi-dap-ai', { state: { prefill: `Hãy phân tích và tóm tắt những điểm kế toán cần lưu ý trong văn bản ${decree.decree_number} (${decree.title}).` } })} className="gap-2">
               <Bot className="h-4 w-4" /> Hỏi AI về văn bản này
             </Button>
+
             {decree.pdf_drive_id ? (
               <Button asChild variant="outline" className="gap-2 border-blue-200 text-blue-700 bg-blue-50 hover:bg-blue-100 dark:bg-blue-900/30 dark:border-blue-800 dark:text-blue-300">
                 <a href={`https://drive.google.com/uc?export=download&id=${decree.pdf_drive_id}`} target="_blank" rel="noopener noreferrer">
@@ -185,10 +186,17 @@ export function DecreeDetailPage() {
               </Button>
             ) : null}
             
+            {/* Direct Google Dork for finding .doc / .xls files instantly bypassing paywalls */}
+            <Button asChild variant="outline" className="gap-2 border-green-200 text-green-700 bg-green-50 hover:bg-green-100 dark:bg-green-900/30 dark:border-green-800 dark:text-green-300">
+              <a href={`https://www.google.com/search?q=tải+biểu+mẫu+phụ+lục+"${encodeURIComponent(decree.decree_number)}"+filetype:doc+OR+filetype:xls+OR+filetype:rar`} target="_blank" rel="noopener noreferrer">
+                <Download className="h-4 w-4" /> Tìm Tải File Biểu Mẫu (.doc/.xls)
+              </a>
+            </Button>
+            
             {decree.source_url && (
               <Button asChild variant="outline" className="gap-2 border-amber-200 text-amber-700 bg-amber-50 hover:bg-amber-100 dark:bg-amber-900/30 dark:border-amber-800 dark:text-amber-300">
                 <a href={decree.source_url} target="_blank" rel="noopener noreferrer">
-                  <Download className="h-4 w-4" /> Tải Biểu mẫu / File .doc gốc
+                  <Info className="h-4 w-4" /> Link Gốc (Nên dùng Máy Tính)
                 </a>
               </Button>
             )}
