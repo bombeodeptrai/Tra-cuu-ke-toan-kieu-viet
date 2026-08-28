@@ -85,6 +85,33 @@ export function ChatAIPage() {
     e.target.value = ''; 
   };
 
+  const handlePaste = (e: React.ClipboardEvent) => {
+    const items = e.clipboardData.items;
+    for (let i = 0; i < items.length; i++) {
+      if (items[i].type.indexOf('image') !== -1) {
+        e.preventDefault(); // Prevent pasting image as text in textarea if supported
+        const file = items[i].getAsFile();
+        if (file) {
+          const reader = new FileReader();
+          reader.onload = (event) => {
+            const data = event.target?.result as string;
+            const base64Data = data.split(',')[1];
+            setAttachments(prev => [...prev, {
+              type: 'image',
+              name: `Screenshot_${new Date().getTime()}.png`,
+              data: base64Data,
+              mimeType: file.type,
+              size: file.size,
+              url: data,
+            }]);
+          };
+          reader.readAsDataURL(file);
+        }
+        break; // Only handle the first image if multiple are pasted
+      }
+    }
+  };
+
   const removeAttachment = (index: number) => {
     setAttachments(prev => prev.filter((_, i) => i !== index));
   };
@@ -300,7 +327,8 @@ export function ChatAIPage() {
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
                 onKeyDown={handleKeyDown}
-                placeholder="Nhập câu hỏi về kế toán..."
+                onPaste={handlePaste}
+                placeholder="Nhập câu hỏi về kế toán hoặc dán ảnh (Ctrl+V)..."
                 className="min-h-[44px] max-h-32 border-0 focus-visible:ring-0 resize-none bg-transparent p-3 shadow-none text-base"
                 rows={1}
               />

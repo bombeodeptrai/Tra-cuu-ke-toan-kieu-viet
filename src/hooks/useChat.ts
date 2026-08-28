@@ -57,14 +57,14 @@ export function useChat() {
       if (attachments && attachments.length > 0) {
         const img = attachments.find(a => a.type === 'image');
         const file = attachments.find(a => a.type === 'file');
+        
+        // Use the first attachment (image or file) for Gemini inlineData
+        const attachment = img || file;
 
-        if (img && img.data) {
-          imageData = img.data;
-          imageMimeType = img.mimeType || 'image/jpeg';
-          finalPrompt = `${IMAGE_ANALYSIS_PROMPT}\n\n${text}`;
-        } else if (file && file.data) {
-          // Assuming we parse text out of file in real app. If raw text:
-          finalPrompt = `${FILE_ANALYSIS_PROMPT}\n\n${file.data}\n\nCâu hỏi: ${text}`;
+        if (attachment && attachment.data) {
+          imageData = attachment.data;
+          imageMimeType = attachment.mimeType || (img ? 'image/jpeg' : 'application/pdf');
+          finalPrompt = `${img ? IMAGE_ANALYSIS_PROMPT : FILE_ANALYSIS_PROMPT}\n\n${text}`;
         }
       } else {
         finalPrompt = buildRAGContext(text, decrees);
@@ -73,10 +73,23 @@ export function useChat() {
       const session = chatStore.sessions.find(s => s.id === sessionId);
       const history = session?.messages.slice(0, -2) || []; 
       
-      const mappedHistory: { role: string; content: string; imageData?: string; imageMimeType?: string }[] = history.map(m => ({
-        role: m.role,
-        content: m.content
-      }));
+      const mappedHistory: { role: string; content: string; imageData?: string; imageMimeType?: string }[] = history.map(m => {
+        let historyImageData: string | undefined;
+        let historyImageMimeType: string | undefined;
+        if (m.attachments && m.attachments.length > 0) {
+          const att = m.attachments[0];
+          if (att.data) {
+            historyImageData = att.data;
+            historyImageMimeType = att.mimeType || (att.type === 'image' ? 'image/jpeg' : 'application/pdf');
+          }
+        }
+        return {
+          role: m.role,
+          content: m.content,
+          imageData: historyImageData,
+          imageMimeType: historyImageMimeType
+        };
+      });
 
       mappedHistory.push({
         role: 'user',
