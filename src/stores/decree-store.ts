@@ -94,13 +94,15 @@ export const useDecreeStore = create<DecreeState>()(
               const localData = await localRes.json();
               if (Array.isArray(localData) && localData.length > 0) {
                 validData = localData;
+                // IMMEDIATELY set local data to fix slow loading!
+                set({ decrees: validData, isLoading: false, lastFetched: Date.now() });
               }
             }
           } catch (e) {
             console.warn('Could not load local decrees.json, falling back...', e);
           }
 
-          // 2. Try to fetch/merge from Google Apps Script if available
+          // 2. Try to fetch/merge from Google Apps Script if available in background
           try {
             const API_URL = 'https://script.google.com/macros/s/AKfycbwkPqx3h1fhA-2vhAB5W4VZnEsKyIEfrUNrnf3WjZ35A48Eido-GvK6IKF9Zu2n3YCG/exec';
             const res = await fetch(API_URL);
@@ -121,6 +123,7 @@ export const useDecreeStore = create<DecreeState>()(
                 const sheetIds = new Set(mergedSheet.map((d: any) => d.id));
                 const merged = [...mergedSheet, ...validData.filter(d => !sheetIds.has(d.id))];
                 validData = merged;
+                set({ decrees: validData, lastFetched: Date.now() });
               }
             }
           } catch (e) {
