@@ -98,3 +98,18 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-muted-foreground/50;
 }
+
+/* Fix dark mode inline styles from raw HTML tables */
+@layer base {
+  .dark .prose table, 
+  .dark .prose th, 
+  .dark .prose td, 
+  .dark .prose tr,
+  .dark .prose span,
+  .dark .prose p,
+  .dark .prose div {
+    color: inherit !important;
+    background-color: transparent !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+  }
+}
