@@ -8,6 +8,9 @@ export interface Category {
   name: string;
   slug: string;
   description?: string;
+  pdf_url?: string;
+  pdf_drive_id?: string;
+  free_download_url?: string;
 }
 
 export interface DecreeState {

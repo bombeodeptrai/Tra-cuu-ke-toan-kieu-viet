@@ -243,16 +243,26 @@ export function DecreeDetailPage() {
             ) : null}
             
             {/* Direct Google Dork for finding .doc / .xls files instantly bypassing paywalls */}
-            <Button asChild variant="outline" className="gap-2 border-green-200 text-green-700 bg-green-50 hover:bg-green-100 dark:bg-green-900/30 dark:border-green-800 dark:text-green-300">
-              <a href={`https://www.google.com/search?q=tải+biểu+mẫu+phụ+lục+"${encodeURIComponent(decree.decree_number)}"+filetype:doc+OR+filetype:xls+OR+filetype:rar`} target="_blank" rel="noopener noreferrer">
-                <Download className="h-4 w-4" /> Tìm Tải File Biểu Mẫu (.doc/.xls)
-              </a>
-            </Button>
+            {decree.free_download_url ? (
+              <Button asChild size="sm" className="bg-emerald-600 hover:bg-emerald-700 w-full sm:w-auto h-10 shadow-sm" title="Tải trực tiếp File Word/Excel miễn phí (Không cần đăng nhập)">
+                <a href={decree.free_download_url} target="_blank" rel="noopener noreferrer">
+                  <Download className="w-4 h-4 mr-2" />
+                  Tải File Biểu Mẫu Gốc (VBPL)
+                </a>
+              </Button>
+            ) : (
+              <Button asChild size="sm" className="bg-emerald-600 hover:bg-emerald-700 w-full sm:w-auto h-10 shadow-sm" title="Tìm tải trực tiếp trên Cổng TTĐT Chính Phủ (Miễn phí 100%)">
+                <a href={`https://vanban.chinhphu.vn/?pageid=27160&keyword=${encodeURIComponent(decree.decree_number)}`} target="_blank" rel="noopener noreferrer">
+                  <Download className="w-4 h-4 mr-2" />
+                  Tìm Tải File Gốc (Chính Phủ)
+                </a>
+              </Button>
+            )}
             
             {decree.source_url && (
-              <Button asChild variant="outline" className="gap-2 border-amber-200 text-amber-700 bg-amber-50 hover:bg-amber-100 dark:bg-amber-900/30 dark:border-amber-800 dark:text-amber-300">
+              <Button asChild variant="outline" className="gap-2 border-amber-200 text-amber-700 bg-amber-50 hover:bg-amber-100 dark:bg-amber-900/30 dark:border-amber-800 dark:text-amber-300" title="Chỉ nên dùng trên máy tính vì hay bắt tải App">
                 <a href={decree.source_url} target="_blank" rel="noopener noreferrer">
-                  <Info className="h-4 w-4" /> Link Gốc (Nên dùng Máy Tính)
+                  <Info className="h-4 w-4" /> Bản Gốc (Thư Viện Pháp Luật)
                 </a>
               </Button>
             )}

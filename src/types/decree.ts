@@ -12,6 +12,7 @@ export interface Decree {
   pdf_drive_id?: string
   content_url?: string
   pdf_url?: string
+  free_download_url?: string
 }
 
 export interface Category {
