@@ -39,14 +39,33 @@ export function findRelevantDecrees(query: string, decrees: Decree[], topK = 15)
   return scored.filter(s => s.score > 0).slice(0, topK).map(s => s.item);
 }
 
-export function buildRAGContext(query: string, decrees: Decree[]): string {
+export async function buildRAGContext(query: string, decrees: Decree[]): Promise<string> {
   const relevantDecrees = findRelevantDecrees(query, decrees);
   
   if (relevantDecrees.length === 0) return query;
 
-  const contextStr = relevantDecrees
-    .map(d => `Văn bản: ${d.decree_number}\nTiêu đề: ${d.title}\nTóm tắt: ${d.summary}\nNội dung chính: ${d.content}`)
-    .join('\n\n---\n\n');
+  // We only fetch full text for the TOP 2 decrees to avoid token overflow and slow response.
+  // The rest will only provide their summaries.
+  const decreesWithContext = await Promise.all(
+    relevantDecrees.map(async (d, index) => {
+      let fullContent = '';
+      if (index < 2 && d.content_url) {
+        try {
+          const basePath = import.meta.env.BASE_URL || '/';
+          const fetchUrl = basePath.replace(/\/$/, '') + d.content_url;
+          const res = await fetch(fetchUrl);
+          if (res.ok) {
+            fullContent = await res.text();
+          }
+        } catch (e) {
+          console.warn('Failed to fetch full text for RAG', d.decree_number);
+        }
+      }
+      return `Văn bản: ${d.decree_number}\nTiêu đề: ${d.title}\nTóm tắt: ${d.summary}\nNội dung chính:\n${fullContent || '(Chỉ có tóm tắt)'}`;
+    })
+  );
+
+  const contextStr = decreesWithContext.join('\n\n---\n\n');
 
   return RAG_CONTEXT_TEMPLATE.replace('{context}', contextStr) + `\n\nCâu hỏi: ${query}`;
 }

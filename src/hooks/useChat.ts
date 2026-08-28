@@ -67,7 +67,7 @@ export function useChat() {
           finalPrompt = `${img ? IMAGE_ANALYSIS_PROMPT : FILE_ANALYSIS_PROMPT}\n\n${text}`;
         }
       } else {
-        finalPrompt = buildRAGContext(text, decrees);
+        finalPrompt = await buildRAGContext(text, decrees);
       }
 
       const session = chatStore.sessions.find(s => s.id === sessionId);
