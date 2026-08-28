@@ -172,24 +172,28 @@ export function DecreeDetailPage() {
               <Bot className="h-4 w-4" /> Hỏi AI về văn bản này
             </Button>
             {decree.pdf_drive_id ? (
-              <Button asChild variant="outline" className="gap-2">
+              <Button asChild variant="outline" className="gap-2 border-blue-200 text-blue-700 bg-blue-50 hover:bg-blue-100 dark:bg-blue-900/30 dark:border-blue-800 dark:text-blue-300">
                 <a href={`https://drive.google.com/uc?export=download&id=${decree.pdf_drive_id}`} target="_blank" rel="noopener noreferrer">
-                  <Download className="h-4 w-4" /> Tải PDF (Google Drive)
+                  <Download className="h-4 w-4" /> Tải PDF & Phụ lục (Google Drive)
                 </a>
               </Button>
             ) : decree.pdf_url ? (
-              <Button asChild variant="outline" className="gap-2">
+              <Button asChild variant="outline" className="gap-2 border-blue-200 text-blue-700 bg-blue-50 hover:bg-blue-100 dark:bg-blue-900/30 dark:border-blue-800 dark:text-blue-300">
                 <a href={pdfLink} download>
-                  <Download className="h-4 w-4" /> Tải Văn bản gốc
+                  <Download className="h-4 w-4" /> Tải PDF (Có Phụ lục)
                 </a>
               </Button>
-            ) : decree.source_url ? (
-              <Button asChild variant="outline" className="gap-2">
+            ) : null}
+            
+            {decree.source_url && (
+              <Button asChild variant="outline" className="gap-2 border-amber-200 text-amber-700 bg-amber-50 hover:bg-amber-100 dark:bg-amber-900/30 dark:border-amber-800 dark:text-amber-300">
                 <a href={decree.source_url} target="_blank" rel="noopener noreferrer">
-                  <Info className="h-4 w-4" /> Xem trên trang gốc
+                  <Download className="h-4 w-4" /> Tải Biểu mẫu / File .doc gốc
                 </a>
               </Button>
-            ) : (
+            )}
+            
+            {!decree.pdf_drive_id && !decree.pdf_url && !decree.source_url && (
               <Button variant="outline" className="gap-2" disabled>
                 <Download className="h-4 w-4" /> Chưa có file gốc
               </Button>
