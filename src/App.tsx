@@ -9,6 +9,7 @@ import { ChatAIPage } from './pages/ChatAIPage';
 import { SettingsPage } from './pages/SettingsPage';
 import { ChartOfAccountsPage } from './pages/ChartOfAccountsPage';
 import { FormsPage } from './pages/FormsPage';
+import { GuidePage } from './pages/GuidePage';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { NotesPage } from './pages/NotesPage';
 import { TooltipProvider } from '@/components/ui/tooltip';
@@ -48,6 +49,7 @@ export default function App() {
             <Route path="bieu-mau" element={<FormsPage />} />
             <Route path="hoi-dap-ai" element={<ChatAIPage />} />
             <Route path="so-tay" element={<NotesPage />} />
+            <Route path="huong-dan" element={<GuidePage />} />
             <Route path="cai-dat" element={<SettingsPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Route>
