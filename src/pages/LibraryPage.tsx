@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { Filter, LayoutGrid, List as ListIcon } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { CATEGORIES } from '@/lib/utils/constants';
+import { CATEGORIES, TAX_FIELDS } from '@/lib/utils/constants';
 import { DecreeCard } from '@/components/decree/DecreeCard';
 import { useDecreeStore } from '@/stores/decree-store';
 import { useDecrees } from '@/hooks/useDecrees';
@@ -13,15 +13,20 @@ export function LibraryPage() {
   
   const [activeCategory, setActiveCategory] = useState(initialCategory);
   const [activeYear, setActiveYear] = useState('all');
+  const [activeTaxField, setActiveTaxField] = useState('all');
   
   const { viewMode, setViewMode } = useDecreeStore();
   const { filteredDecrees, isLoading } = useDecrees('', activeCategory, 'all');
 
   const years = Array.from(new Set(useDecreeStore.getState().decrees.map(d => new Date(d.issued_date).getFullYear().toString()))).sort().reverse();
 
-  const finalDecrees = activeYear === 'all' 
+  const yearFiltered = activeYear === 'all' 
     ? filteredDecrees 
     : filteredDecrees.filter(d => new Date(d.issued_date).getFullYear().toString() === activeYear);
+
+  const finalDecrees = activeTaxField === 'all'
+    ? yearFiltered
+    : yearFiltered.filter(d => d.tax_field === activeTaxField);
 
   return (
     <div className="max-w-7xl mx-auto pb-12">
@@ -52,11 +57,44 @@ export function LibraryPage() {
       <div className="flex flex-col lg:flex-row gap-8">
         {/* Sidebar Filters */}
         <div className="w-full lg:w-64 flex-shrink-0 space-y-6">
+          {/* Sắc thuế / Lĩnh vực chuyên ngành */}
           <div className="bg-card border border-border rounded-xl p-5 shadow-sm">
             <h3 className="font-semibold flex items-center gap-2 mb-4">
-              <Filter className="h-4 w-4" /> Lĩnh vực
+              <Filter className="h-4 w-4" /> Sắc thuế
             </h3>
-            <div className="space-y-2">
+            <div className="space-y-1">
+              <button
+                className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors ${
+                  activeTaxField === 'all' 
+                    ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400 font-medium' 
+                    : 'hover:bg-slate-100 dark:hover:bg-slate-800'
+                }`}
+                onClick={() => setActiveTaxField('all')}
+              >
+                Tất cả lĩnh vực
+              </button>
+              {TAX_FIELDS.map(tf => (
+                <button
+                  key={tf.slug}
+                  className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors ${
+                    activeTaxField === tf.slug 
+                      ? 'bg-blue-50 text-blue-700 dark:bg-blue-900/30 dark:text-blue-400 font-medium' 
+                      : 'hover:bg-slate-100 dark:hover:bg-slate-800'
+                  }`}
+                  onClick={() => setActiveTaxField(tf.slug)}
+                >
+                  {tf.icon} {tf.name}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Loại văn bản */}
+          <div className="bg-card border border-border rounded-xl p-5 shadow-sm">
+            <h3 className="font-semibold flex items-center gap-2 mb-4">
+              <Filter className="h-4 w-4" /> Loại văn bản
+            </h3>
+            <div className="space-y-1">
               <button
                 className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors ${
                   activeCategory === 'all' 
@@ -65,7 +103,7 @@ export function LibraryPage() {
                 }`}
                 onClick={() => setActiveCategory('all')}
               >
-                Tất cả lĩnh vực
+                Tất cả loại
               </button>
               {CATEGORIES.map(category => (
                 <button
@@ -83,11 +121,12 @@ export function LibraryPage() {
             </div>
           </div>
 
+          {/* Năm ban hành */}
           <div className="bg-card border border-border rounded-xl p-5 shadow-sm">
             <h3 className="font-semibold flex items-center gap-2 mb-4">
               <Filter className="h-4 w-4" /> Năm ban hành
             </h3>
-            <div className="space-y-2 max-h-48 overflow-y-auto pr-2 custom-scrollbar">
+            <div className="space-y-1 max-h-48 overflow-y-auto pr-2 custom-scrollbar">
               <button
                 className={`w-full text-left px-3 py-2 rounded-lg text-sm transition-colors ${
                   activeYear === 'all' 

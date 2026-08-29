@@ -16,7 +16,7 @@ export function Sidebar({ onClose }: SidebarProps) {
     { to: '/', icon: LayoutDashboard, label: 'Trang chủ' },
     { to: '/thu-vien', icon: Library, label: 'Thư viện nghị định' },
     { to: '/tra-cuu', icon: Search, label: 'Tra cứu' },
-    { to: '/tai-khoan', icon: BookOpen, label: 'Hệ thống Tài khoản' },
+    { to: '/tai-khoan', icon: BookOpen, label: 'Hệ thống TK (TT99)' },
     { to: '/bieu-mau', icon: Download, label: 'Biểu mẫu' },
     { to: '/hoi-dap-ai', icon: MessageSquareText, label: 'Hỏi đáp AI' },
     { to: '/so-tay', icon: BookOpen, label: 'Sổ tay Kế toán' },

@@ -13,6 +13,7 @@ export interface Decree {
   content_url?: string
   pdf_url?: string
   free_download_url?: string
+  tax_field?: string
 }
 
 export interface Category {

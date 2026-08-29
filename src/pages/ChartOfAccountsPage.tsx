@@ -1,12 +1,12 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { Search, BookOpen } from 'lucide-react';
 import { Input } from '@/components/ui/input';
-import { ACCOUNTS_TT200 } from '@/lib/utils/accounts';
+import { CHART_OF_ACCOUNTS_TT99 } from '@/lib/utils/accounts-tt99';
 
 export function ChartOfAccountsPage() {
   const [searchTerm, setSearchTerm] = useState('');
 
-  const filteredAccounts = ACCOUNTS_TT200.filter(acc => 
+  const filteredAccounts = CHART_OF_ACCOUNTS_TT99.filter(acc => 
     acc.code.includes(searchTerm) || 
     acc.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
     acc.type.toLowerCase().includes(searchTerm.toLowerCase())
@@ -18,10 +18,10 @@ export function ChartOfAccountsPage() {
         <div>
           <h1 className="text-3xl font-bold tracking-tight text-foreground flex items-center gap-2">
             <BookOpen className="h-8 w-8 text-primary" />
-            Hệ thống Tài khoản (TT200)
+            Hệ thống Tài khoản (TT99/2025)
           </h1>
           <p className="text-muted-foreground mt-1">
-            Tra cứu nhanh danh mục tài khoản kế toán doanh nghiệp theo Thông tư 200/2014/TT-BTC
+            Tra cứu nhanh danh mục tài khoản kế toán doanh nghiệp theo Thông tư 99/2025/TT-BTC (thay thế TT200)
           </p>
         </div>
         <div className="w-full md:w-72 relative">

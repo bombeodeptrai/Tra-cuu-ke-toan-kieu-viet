@@ -70,3 +70,14 @@ export const CATEGORY_COLORS: Record<string, string> = {
   'thue': 'border-l-cyan-500',
   'khoang-san': 'border-l-yellow-600',
 }
+
+export const TAX_FIELDS = [
+  { slug: 'ke-toan-dn', name: 'Kế toán doanh nghiệp', icon: '📒' },
+  { slug: 'quan-ly-thue', name: 'Quản lý thuế', icon: '🏛️' },
+  { slug: 'thue-gtgt', name: 'Thuế GTGT', icon: '💰' },
+  { slug: 'thue-tndn', name: 'Thuế TNDN', icon: '🏢' },
+  { slug: 'thue-tncn', name: 'Thuế TNCN', icon: '👤' },
+  { slug: 'hoa-don-dien-tu', name: 'Hóa đơn điện tử', icon: '🧾' },
+  { slug: 'bhxh-lao-dong', name: 'BHXH - Lao động', icon: '🛡️' },
+  { slug: 'khoang-san-tai-nguyen', name: 'Khoáng sản - Tài nguyên', icon: '⛏️' },
+]
