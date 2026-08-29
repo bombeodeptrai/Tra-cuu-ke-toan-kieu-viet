@@ -5,7 +5,7 @@ export interface AccountTT99 {
   description: string;
 }
 
-export const CHART_OF_ACCOUNTS_TT99: AccountModel[] = [
+export const CHART_OF_ACCOUNTS_TT99: AccountTT99[] = [
   // =========================================================================
   // LOẠI 1: TÀI SẢN NGẮN HẠN
   // =========================================================================

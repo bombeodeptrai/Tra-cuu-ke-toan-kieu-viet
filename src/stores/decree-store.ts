@@ -83,7 +83,7 @@ export const useDecreeStore = create<DecreeState>()(
         try {
           set({ isLoading: true, error: null });
           const basePath = import.meta.env.BASE_URL || '/';
-          const localUrl = basePath.replace(/\/$/, '') + '/data/decrees.json';
+          const localUrl = basePath.replace(/\/$/, '') + '/data/decrees.json?t=' + Date.now();
           
           let validData: Decree[] = [];
           
