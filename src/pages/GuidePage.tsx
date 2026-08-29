@@ -5,54 +5,54 @@ export function GuidePage() {
   return (
     <div className="container mx-auto p-6 max-w-4xl animate-in fade-in zoom-in-95 duration-500">
       <div className="mb-8">
-        <h1 className="text-3xl font-bold mb-2">Hu?ng d?n s? d?ng</h1>
-        <p className="text-muted-foreground text-lg">Kh�m ph� c�c t�nh nang c?a Tra C?u K? To�n Ki?u Vi?t</p>
+        <h1 className="text-3xl font-bold mb-2">Hướng dẫn sử dụng</h1>
+        <p className="text-muted-foreground text-lg">Khám phá các tính năng của Tra Cứu Kế Toán Kiều Việt</p>
       </div>
 
       <div className="space-y-8">
         <section className="bg-card rounded-xl p-6 border shadow-sm">
           <div className="flex items-center gap-3 mb-4 text-primary">
             <LayoutDashboard className="w-6 h-6" />
-            <h2 className="text-xl font-semibold text-foreground">1. T?ng quan h? th?ng</h2>
+            <h2 className="text-xl font-semibold text-foreground">1. Tổng quan hệ thống</h2>
           </div>
           <p className="text-muted-foreground leading-relaxed mb-4">
-            H? th?ng l� kho d? li?u n?i b? d?c th� d�nh cho k? to�n vi�n Ki?u Vi?t, du?c d?ng b? tr?c ti?p v?i Google Sheets v� t�ch h?p Tr? l� AI th�ng minh gi�p gi?i d�p v� tra c?u lu?t nhanh ch�ng.
+            Hệ thống là kho dữ liệu nội bộ đặc thù dành cho kế toán viên Kiều Việt, được đồng bộ trực tiếp với Google Sheets và tích hợp Trợ lý AI thông minh giúp giải đáp và tra cứu luật nhanh chóng.
           </p>
         </section>
 
         <section className="bg-card rounded-xl p-6 border shadow-sm">
           <div className="flex items-center gap-3 mb-4 text-blue-500">
             <Search className="w-6 h-6" />
-            <h2 className="text-xl font-semibold text-foreground">2. Tra c?u th�ng minh</h2>
+            <h2 className="text-xl font-semibold text-foreground">2. Tra cứu thông minh</h2>
           </div>
           <ul className="list-disc pl-5 space-y-2 text-muted-foreground leading-relaxed">
-            <li>B?n c� th? t�m ki?m theo <strong>S? hi?u van b?n</strong> (v� d?: "99/2025") ho?c <strong>T? kh�a</strong>.</li>
-            <li>T?i tab <span className="font-semibold text-foreground">Thu vi?n</span>, h? th?ng hi?n th? danh s�ch c�c van b?n dang c� hi?u l?c. B?n c� th? s? d?ng b? l?c b�n tr�i d? l?c nhanh theo lo?i van b?n (Lu?t, Ngh? d?nh, Th�ng tu...).</li>
-            <li>Khi nh?n v�o m?t van b?n, b?n s? th?y <strong>T�m t?t tr?ng t�m</strong> v� <strong>To�n van van b?n</strong>.</li>
+            <li>Bạn có thể tìm kiếm theo <strong>Số hiệu văn bản</strong> (ví dụ: "99/2025") hoặc <strong>Từ khóa</strong>.</li>
+            <li>Tại tab <span className="font-semibold text-foreground">Thư viện</span>, hệ thống hiển thị danh sách các văn bản đang có hiệu lực. Bạn có thể sử dụng bộ lọc bên trái để lọc nhanh theo loại văn bản (Luật, Nghị định, Thông tư...).</li>
+            <li>Khi nhấn vào một văn bản, bạn sẽ thấy <strong>Tóm tắt trọng tâm</strong> và <strong>Toàn văn văn bản</strong>.</li>
           </ul>
         </section>
 
         <section className="bg-card rounded-xl p-6 border shadow-sm">
           <div className="flex items-center gap-3 mb-4 text-green-500">
             <MessageSquareText className="w-6 h-6" />
-            <h2 className="text-xl font-semibold text-foreground">3. H?i d�p c�ng Tr? l� AI</h2>
+            <h2 className="text-xl font-semibold text-foreground">3. Hỏi đáp cùng Trợ lý AI</h2>
           </div>
           <ul className="list-disc pl-5 space-y-2 text-muted-foreground leading-relaxed">
-            <li>Truy c?p m?c <span className="font-semibold text-foreground">H?i d�p AI</span> d? d?t c�u h?i tr?c ti?p b?ng ng�n ng? t? nhi�n.</li>
-            <li>H? th?ng AI s? <strong>t? d?ng d?c to�n van</strong> c?a c�c van b?n ph�p lu?t n?i b? v� tr? l?i ch�nh x�c, k�m theo tr�ch d?n �i?u, Kho?n r� r�ng.</li>
-            <li><strong>T�nh nang m?i:</strong> B?n c� th? ch?p m�n h�nh (?n <kbd className="bg-muted px-1 rounded">Ctrl</kbd> + <kbd className="bg-muted px-1 rounded">V</kbd>) ho?c t?i l�n file PDF d? AI d?c v� ph�n t�ch tr?c ti?p.</li>
+            <li>Truy cập mục <span className="font-semibold text-foreground">Hỏi đáp AI</span> để đặt câu hỏi trực tiếp bằng ngôn ngữ tự nhiên.</li>
+            <li>Hệ thống AI sẽ <strong>tự động đọc toàn văn</strong> của các văn bản pháp luật nội bộ và trả lời chính xác, kèm theo trích dẫn Điều, Khoản rõ ràng.</li>
+            <li><strong>Tính năng mới:</strong> Bạn có thể chụp màn hình (ấn <kbd className="bg-muted px-1 rounded">Ctrl</kbd> + <kbd className="bg-muted px-1 rounded">V</kbd>) hoặc tải lên file PDF để AI đọc và phân tích trực tiếp.</li>
           </ul>
         </section>
 
         <section className="bg-card rounded-xl p-6 border shadow-sm">
           <div className="flex items-center gap-3 mb-4 text-purple-500">
             <Edit3 className="w-6 h-6" />
-            <h2 className="text-xl font-semibold text-foreground">4. Highlight & Luu S? Tay</h2>
+            <h2 className="text-xl font-semibold text-foreground">4. Highlight & Lưu Sổ Tay</h2>
           </div>
           <ul className="list-disc pl-5 space-y-2 text-muted-foreground leading-relaxed">
-            <li>Khi dang d?c n?i dung m?t van b?n, n?u th?y do?n n�o quan tr?ng, b?n ch? c?n <strong>B�i den do?n van b?n d�</strong>.</li>
-            <li>M?t menu nh? s? hi?n l�n, b?m <strong>Luu S? Tay</strong> d? ghi ch� l?i.</li>
-            <li>To�n b? ghi ch� c?a b?n s? du?c luu gi? t?i m?c <span className="font-semibold text-foreground">S? tay K? to�n</span>. D? li?u n�y s? du?c t? d?ng d?ng b? ?n l�n h? th?ng Google Sheets d? b?o m?t.</li>
+            <li>Khi đang đọc nội dung một văn bản, nếu thấy đoạn nào quan trọng, bạn chỉ cần <strong>Bôi đen đoạn văn bản đó</strong>.</li>
+            <li>Một menu nhỏ sẽ hiện lên, bấm <strong>Lưu Sổ Tay</strong> để ghi chú lại.</li>
+            <li>Toàn bộ ghi chú của bạn sẽ được lưu giữ tại mục <span className="font-semibold text-foreground">Sổ tay Kế toán</span>. Dữ liệu này sẽ được tự động đồng bộ ẩn lên hệ thống Google Sheets để bảo mật.</li>
           </ul>
         </section>
       </div>
