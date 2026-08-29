@@ -131,7 +131,7 @@ export function DecreeDetailPage() {
       setIsLoadingContent(true);
       const basePath = import.meta.env.BASE_URL || '/';
       const contentUrl = decree.content_url || `/data/content/${decree.id}.md`;
-      const contentPath = basePath.replace(/\/$/, '') + (contentUrl.startsWith('/') ? contentUrl : '/' + contentUrl);
+      const contentPath = basePath.replace(/\/$/, '') + (contentUrl.startsWith('/') ? contentUrl : '/' + contentUrl) + '?t=' + Date.now();
       
       fetch(contentPath)
         .then(res => {
