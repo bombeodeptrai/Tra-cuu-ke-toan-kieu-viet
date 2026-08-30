@@ -11,4 +11,4 @@ Luật Quản lý thuế 2019 (số 38/2019/QH14) là văn bản quan trọng nh
 
 ## 📜 TOÀN VĂN VĂN BẢN
 
-(Hệ thống đang đồng bộ dữ liệu toàn văn từ bản PDF/Word gốc. Vui lòng quay lại sau ít phút.)
+<table class="detailcontent" width="100%" border="0" id="content"><tbody><tr><td colspan="3"><div align="justify"></div></td></tr></tbody></table>
