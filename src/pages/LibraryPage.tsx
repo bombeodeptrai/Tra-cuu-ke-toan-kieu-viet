@@ -161,14 +161,9 @@ export function LibraryPage() {
           ) : (
             <div className="space-y-12">
               {TAX_FIELDS.map(taxField => {
-                const decrees = finalDecrees.filter(d => 
-                  d.tax_field === taxField.slug || 
-                  (taxField.slug === 'khac' && !d.tax_field)
-                );
-                
+                const decrees = finalDecrees.filter(d => d.tax_field === taxField.slug);
                 if (decrees.length === 0) return null;
                 
-                // Sort: luat -> nghi-dinh -> thong-tu -> ...
                 const catOrder: Record<string, number> = { 'luat': 1, 'nghi-dinh': 2, 'thong-tu': 3, 'chuan-muc': 4, 'quyet-dinh': 5 };
                 decrees.sort((a, b) => {
                   const orderA = catOrder[a.category] || 99;
@@ -197,10 +192,44 @@ export function LibraryPage() {
                   </div>
                 );
               })}
+              
+              {/* RENDER UNCLASSIFIED ITEMS AS KHAC */}
+              {(() => {
+                const unclassified = finalDecrees.filter(d => !d.tax_field || !TAX_FIELDS.find(tf => tf.slug === d.tax_field));
+                if (unclassified.length === 0 || activeTaxField !== 'all') return null;
+                
+                const catOrder: Record<string, number> = { 'luat': 1, 'nghi-dinh': 2, 'thong-tu': 3, 'chuan-muc': 4, 'quyet-dinh': 5 };
+                unclassified.sort((a, b) => {
+                  const orderA = catOrder[a.category] || 99;
+                  const orderB = catOrder[b.category] || 99;
+                  if (orderA !== orderB) return orderA - orderB;
+                  return new Date(b.issued_date).getTime() - new Date(a.issued_date).getTime();
+                });
+                
+                return (
+                  <div key="khac" className="animate-in fade-in slide-in-from-bottom-4 duration-500 mt-12">
+                    <div className="flex items-center gap-3 mb-6 pb-2 border-b border-border/50">
+                      <div className="h-10 w-10 rounded-lg bg-slate-100 text-slate-500 flex items-center justify-center text-xl shadow-sm">
+                        📁
+                      </div>
+                      <div>
+                        <h2 className="text-2xl font-bold text-foreground">Lĩnh vực khác (Chưa phân loại)</h2>
+                        <p className="text-sm text-muted-foreground">{unclassified.length} văn bản</p>
+                      </div>
+                    </div>
+                    
+                    <div className={`grid gap-4 ${viewMode === 'grid' ? 'grid-cols-1 md:grid-cols-2 xl:grid-cols-3' : 'grid-cols-1'}`}>
+                      {unclassified.map(decree => (
+                        <DecreeCard key={decree.id} decree={decree} viewMode={viewMode} />
+                      ))}
+                    </div>
+                  </div>
+                );
+              })()}
             </div>
           )}
-          
-          {finalDecrees.length === 0 && !isLoading && (
+              
+              {finalDecrees.length === 0 && !isLoading && (
             <div className="text-center py-20 bg-card border border-border rounded-xl border-dashed">
               <p className="text-muted-foreground">Không có văn bản nào trong danh mục này.</p>
             </div>
