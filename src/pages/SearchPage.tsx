@@ -18,7 +18,7 @@ export function SearchPage() {
   const [activeCategory, setActiveCategory] = useState<string>('all');
   const [activeStatus, setActiveStatus] = useState<string>('all');
 
-  const { filteredDecrees, isLoading } = useDecrees(initialQuery, activeCategory, activeStatus);
+  const { filteredDecrees, isLoading } = useDecrees(initialQuery, activeCategory, activeStatus, 1, 1000);
 
   useEffect(() => {
     setQuery(initialQuery);

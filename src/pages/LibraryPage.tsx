@@ -16,7 +16,7 @@ export function LibraryPage() {
   const [activeTaxField, setActiveTaxField] = useState('all');
   
   const { viewMode, setViewMode } = useDecreeStore();
-  const { filteredDecrees, isLoading } = useDecrees('', activeCategory, 'all');
+  const { filteredDecrees, isLoading } = useDecrees('', activeCategory, 'all', 1, 1000);
 
   const years = Array.from(new Set(useDecreeStore.getState().decrees.map(d => new Date(d.issued_date).getFullYear().toString()))).sort().reverse();
 
