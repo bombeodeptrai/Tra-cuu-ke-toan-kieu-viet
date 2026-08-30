@@ -118,15 +118,50 @@ export const useDecreeStore = create<DecreeState>()(
                 const uniqueSheetValid = Array.from(uniqueSheetMap.values());
                 
                 const localMap = new Map(validData.map(d => [d.id, d]));
+                
+                // Helper to loosely match Google Sheet IDs to Local IDs (e.g. tt99-2025 vs tt-99-2025)
+                const findLocalMatch = (sheetItem: any) => {
+                  if (localMap.has(sheetItem.id)) return localMap.get(sheetItem.id);
+                  
+                  // Try to match without hyphens
+                  const normalizeId = (id: string) => id.replace(/-/g, '').toLowerCase();
+                  const normalizedSheetId = normalizeId(sheetItem.id);
+                  
+                  const match = validData.find(d => 
+                    normalizeId(d.id) === normalizedSheetId || 
+                    (d.decree_number && sheetItem.decree_number && d.decree_number === sheetItem.decree_number)
+                  );
+                  return match;
+                };
+
                 const mergedSheet = uniqueSheetValid.map((s: any) => {
-                  const local = localMap.get(s.id);
-                  return {
+                  const local = findLocalMatch(s);
+                  
+                  const mergedItem = {
                     ...s,
-                    ...local, // Local JSON takes precedence over Google Sheet for core curated fields
-                    content_url: local?.content_url || s.content_url || `/data/content/${s.id}.md`,
+                    ...(local || {}), // Local JSON takes precedence over Google Sheet for core curated fields
+                    id: local ? local.id : s.id, // Prefer the standard local ID if matched
+                    content_url: local?.content_url || s.content_url || `/data/content/${local ? local.id : s.id}.md`,
                     pdf_url: local?.pdf_url || s.pdf_url || '',
                   };
+                  
+                  // Auto-assign tax_field if missing based on title keywords
+                  if (!mergedItem.tax_field || mergedItem.tax_field === 'khac') {
+                    const t = (mergedItem.title || '').toLowerCase();
+                    if (t.includes('quản lý thuế')) mergedItem.tax_field = 'quan-ly-thue';
+                    else if (t.includes('gtgt') || t.includes('giá trị gia tăng')) mergedItem.tax_field = 'thue-gtgt';
+                    else if (t.includes('tndn') || t.includes('thu nhập doanh nghiệp')) mergedItem.tax_field = 'thue-tndn';
+                    else if (t.includes('tncn') || t.includes('thu nhập cá nhân')) mergedItem.tax_field = 'thue-tncn';
+                    else if (t.includes('hóa đơn') || t.includes('chứng từ')) mergedItem.tax_field = 'hoa-don-dien-tu';
+                    else if (t.includes('kế toán')) mergedItem.tax_field = 'ke-toan-dn';
+                    else if (t.includes('khoáng sản') || t.includes('tài nguyên')) mergedItem.tax_field = 'khoang-san-tai-nguyen';
+                    else if (t.includes('bhxh') || t.includes('lao động') || t.includes('bảo hiểm')) mergedItem.tax_field = 'bhxh-lao-dong';
+                    else mergedItem.tax_field = 'khac'; // fallback
+                  }
+                  
+                  return mergedItem;
                 });
+                
                 const sheetIds = new Set(mergedSheet.map((d: any) => d.id));
                 const merged = [...mergedSheet, ...validData.filter(d => !sheetIds.has(d.id))];
                 validData = merged;
