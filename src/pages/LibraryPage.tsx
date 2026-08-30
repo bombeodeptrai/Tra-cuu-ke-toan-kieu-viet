@@ -159,10 +159,44 @@ export function LibraryPage() {
           {isLoading ? (
             <div className="text-center py-20 text-muted-foreground">Đang tải dữ liệu...</div>
           ) : (
-            <div className={`grid gap-4 ${viewMode === 'grid' ? 'grid-cols-1 md:grid-cols-2 xl:grid-cols-3' : 'grid-cols-1'}`}>
-              {finalDecrees.map(decree => (
-                <DecreeCard key={decree.id} decree={decree} viewMode={viewMode} />
-              ))}
+            <div className="space-y-12">
+              {TAX_FIELDS.map(taxField => {
+                const decrees = finalDecrees.filter(d => 
+                  d.tax_field === taxField.slug || 
+                  (taxField.slug === 'khac' && !d.tax_field)
+                );
+                
+                if (decrees.length === 0) return null;
+                
+                // Sort: luat -> nghi-dinh -> thong-tu -> ...
+                const catOrder: Record<string, number> = { 'luat': 1, 'nghi-dinh': 2, 'thong-tu': 3, 'chuan-muc': 4, 'quyet-dinh': 5 };
+                decrees.sort((a, b) => {
+                  const orderA = catOrder[a.category] || 99;
+                  const orderB = catOrder[b.category] || 99;
+                  if (orderA !== orderB) return orderA - orderB;
+                  return new Date(b.issued_date).getTime() - new Date(a.issued_date).getTime();
+                });
+                
+                return (
+                  <div key={taxField.slug} className="animate-in fade-in slide-in-from-bottom-4 duration-500">
+                    <div className="flex items-center gap-3 mb-6 pb-2 border-b border-border/50">
+                      <div className="h-10 w-10 rounded-lg bg-primary/10 text-primary flex items-center justify-center text-xl shadow-sm">
+                        {taxField.icon}
+                      </div>
+                      <div>
+                        <h2 className="text-2xl font-bold text-foreground">{taxField.name}</h2>
+                        <p className="text-sm text-muted-foreground">{decrees.length} văn bản</p>
+                      </div>
+                    </div>
+                    
+                    <div className={`grid gap-4 ${viewMode === 'grid' ? 'grid-cols-1 md:grid-cols-2 xl:grid-cols-3' : 'grid-cols-1'}`}>
+                      {decrees.map(decree => (
+                        <DecreeCard key={decree.id} decree={decree} viewMode={viewMode} />
+                      ))}
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           )}
           
