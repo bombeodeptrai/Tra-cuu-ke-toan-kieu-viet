@@ -1,5 +1,35 @@
 [
   {
+    "id": "tt-108-2025",
+    "decree_number": "108/2025/TT-BTC",
+    "title": "Thông tư 108/2025/TT-BTC hướng dẫn lập báo cáo tài chính hợp nhất của đơn vị kế toán hành chính, sự nghiệp",
+    "category": "thong-tu",
+    "issued_date": "2025-11-14",
+    "effective_date": "2026-01-01",
+    "status": "active",
+    "source_url": "https://hethongphapluat.com",
+    "summary": "Hướng dẫn các đơn vị kế toán hành chính, sự nghiệp có đơn vị trực thuộc về việc lập báo cáo tài chính hợp nhất. Quy định nguyên tắc loại trừ các giao dịch nội bộ, số dư nội bộ để đảm bảo tính minh bạch, áp dụng từ năm tài chính 2026.",
+    "pdf_url": "/data/pdfs/tt-108-2025.pdf",
+    "content_url": "/data/content/tt-108-2025.md",
+    "free_download_url": "https://hethongphapluat.com/thong-tu-108-2025-tt-btc-huong-dan-lap-bao-cao-tai-chinh-hop-nhat-cua-don-vi-ke-toan-hanh-chinh-su-nghiep-do-bo-truong-bo-tai-chinh-ban-hanh.html",
+    "tax_field": "ke-toan-dn"
+  },
+  {
+    "id": "nd-132-2026",
+    "decree_number": "132/2026/NĐ-CP",
+    "title": "Nghị định 132/2026/NĐ-CP sửa đổi Nghị định 41/2018/NĐ-CP xử phạt vi phạm hành chính lĩnh vực kế toán",
+    "category": "nghi-dinh",
+    "issued_date": "2026-04-06",
+    "effective_date": "2026-05-21",
+    "status": "active",
+    "source_url": "https://hethongphapluat.com",
+    "summary": "Sửa đổi, bổ sung quy định xử phạt VPHC trong lĩnh vực kế toán, kiểm toán độc lập. Bổ sung chế tài nghiêm khắc về phòng chống rửa tiền và trao thêm quyền xử phạt cho cấp cơ sở (UBND cấp xã, NHNN).",
+    "pdf_url": "/data/pdfs/nd-132-2026.pdf",
+    "content_url": "/data/content/nd-132-2026.md",
+    "free_download_url": "https://hethongphapluat.com/nghi-dinh-132-2026-nd-cp-sua-doi-nghi-dinh-41-2018-nd-cp-xu-phat-vi-pham-hanh-chinh-ke-toan.html",
+    "tax_field": "ke-toan-dn"
+  },
+  {
     "id": "luat-67-2025-tndn",
     "decree_number": "67/2025/QH15",
     "title": "Luật Thuế Thu nhập doanh nghiệp số 67/2025/QH15 (Thay thế Luật 14/2008)",
