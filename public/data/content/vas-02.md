@@ -1,101 +1,35 @@
-## 🤖 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-VAS 02 quy định về nguyên tắc ghi nhận, xác định giá trị và trình bày thông tin hàng tồn kho trên báo cáo tài chính. Chuẩn mực này áp dụng cho tất cả hàng tồn kho, trừ công trình xây dựng dở dang, công cụ tài chính.
+## 🤖 TÓM TẮT CHUYÊN SÂU (Bởi AI)\n\n## 📜 TOÀN VĂN VĂN BẢN
 
-**Hàng tồn kho bao gồm:** Hàng hóa mua về để bán; Thành phẩm chờ tiêu thụ; Sản phẩm dở dang; Nguyên vật liệu, công cụ dụng cụ dùng trong SXKD.
+**CHUẨN MỰC KẾ TOÁN SỐ 02 - HÀNG TỒN KHO**
 
-**Nguyên tắc đánh giá:** Hàng tồn kho được tính theo giá gốc (Cost) hoặc giá trị thuần có thể thực hiện được (NRV), tùy theo giá nào thấp hơn (Lower of Cost or NRV).
+**QUY ĐỊNH CHUNG**
 
-## 📜 TOÀN VĂN VĂN BẢN
+01. Mục đích của chuẩn mực này là quy định và hướng dẫn các nguyên tắc và phương pháp kế toán hàng tồn kho, gồm: Xác định giá trị và ghi nhận hàng tồn kho vào chi phí; Ghi giảm giá trị hàng tồn kho cho bằng giá trị thuần có thể thực hiện được và phương pháp tính giá trị hàng tồn kho làm cơ sở ghi sổ kế toán và lập báo cáo tài chính.
 
-**CHUẨN MỰC KẾ TOÁN SỐ 02**
+02. Chuẩn mực này áp dụng cho kế toán hàng tồn kho theo nguyên tắc giá gốc trừ khi có chuẩn mực kế toán khác quy định cho phép áp dụng phương pháp kế toán khác cho hàng tồn kho.
 
-### Đoạn 1. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
+03. Các thuật ngữ trong chuẩn mực này được hiểu như sau:
+Hàng tồn kho: Là những tài sản:
+a) Được giữ để bán trong kỳ sản xuất, kinh doanh bình thường;
+b) Đang trong quá trình sản xuất, kinh doanh dở dang;
+c) Nguyên liệu, vật liệu, công cụ, dụng cụ để sử dụng trong quá trình sản xuất, kinh doanh hoặc cung cấp dịch vụ.
 
-### Đoạn 2. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
+Giá trị thuần có thể thực hiện được: Là giá bán ước tính của hàng tồn kho trong kỳ sản xuất, kinh doanh bình thường trừ (-) chi phí ước tính để hoàn thành sản phẩm và chi phí ước tính cần thiết cho việc tiêu thụ chúng.
 
-### Đoạn 3. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
+**NỘI DUNG CHUẨN MỰC**
 
-### Đoạn 4. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
+**Xác định giá trị hàng tồn kho**
+04. Hàng tồn kho được tính theo giá gốc. Trường hợp giá trị thuần có thể thực hiện được thấp hơn giá gốc thì phải tính theo giá trị thuần có thể thực hiện được.
 
-### Đoạn 5. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
+**Giá gốc hàng tồn kho**
+05. Giá gốc hàng tồn kho bao gồm: Chi phí mua, chi phí chế biến và các chi phí liên quan trực tiếp khác phát sinh để có được hàng tồn kho ở địa điểm và trạng thái hiện tại.
 
-### Đoạn 6. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
+**Chi phí mua**
+06. Chi phí mua của hàng tồn kho bao gồm giá mua, các loại thuế không được hoàn lại, chi phí vận chuyển, bốc xếp, bảo quản trong quá trình mua hàng và các chi phí khác có liên quan trực tiếp đến việc mua hàng tồn kho. Các khoản chiết khấu thương mại và giảm giá hàng mua do hàng mua không đúng quy cách, phẩm chất được trừ (-) khỏi chi phí mua.
 
-### Đoạn 7. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 8. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 9. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 10. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 11. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 12. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 13. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 14. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 15. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 16. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 17. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 18. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 19. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 20. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 21. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 22. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 23. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 24. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 25. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 26. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 27. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 28. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 29. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
-### Đoạn 30. Quy định chung và hướng dẫn hạch toán
-1. Doanh nghiệp phải tuân thủ nghiêm ngặt các nguyên tắc ghi nhận và đánh giá theo chuẩn mực kế toán Việt Nam.
-
+**Phương pháp tính giá trị hàng tồn kho**
+13. Việc tính giá trị hàng tồn kho được áp dụng theo một trong các phương pháp sau:
+a) Phương pháp tính theo giá đích danh;
+b) Phương pháp bình quân gia quyền;
+c) Phương pháp nhập trước, xuất trước (FIFO).
+(Lưu ý: Phương pháp nhập sau xuất trước (LIFO) đã bị loại bỏ theo Thông tư 200).
