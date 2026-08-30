@@ -473,3 +473,45 @@ Thuế thu nhập cá nhân đối với thu nhập từ trúng thưởng, nhậ
 _Luật này được Quốc hội nước Cộng hoà xã hội chủ nghĩa Việt Nam khóa XV, Kỳ họp thứ 10 thông qua ngày 10 tháng 12 năm 2025._
 
 <table border="1" style="border-collapse: collapse; width: 100%; height: 34.6px; border-width: 1px; border-color: #ffffff;"><colgroup><col style="width: 50%;"> <col style="width: 50%;"></colgroup><tbody><tr style="height: 34.6px;"><td style="border-color: #ffffff;"></td><td style="border-color: #ffffff;"><p style="font-family: 'Times New Roman', Times, serif; text-align: center;"><span style="color: #000000;"><strong>CHỦ TỊCH QUỐC HỘI</strong></span></p><p style="font-family: 'Times New Roman', Times, serif; text-align: center;"><span style="color: #000000;"><em><strong>(Đã ký)</strong></em></span></p><p style="font-family: 'Times New Roman', Times, serif; text-align: center;"><span style="color: #000000;"><strong>Trần Thanh Mẫn</strong></span></p></td></tr></tbody></table>
+
+
+---
+
+## 📜 TOÀN VĂN VĂN BẢN (TRÍCH YẾU)
+
+**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM**
+**Độc lập - Tự do - Hạnh phúc**
+***
+Số: 109/2025/QH15
+
+**LUẬT THUẾ THU NHẬP CÁ NHÂN SỐ 109/2025/QH15 (HIỆU LỰC TỪ 01/07/2026)**
+
+**CHƯƠNG I: QUY ĐỊNH CHUNG**
+
+**Điều 1. Phạm vi điều chỉnh**
+Văn bản này quy định chi tiết các nội dung liên quan đến luật thuế tncn mới (số 109/2025/qh15) thay thế luật cũ, hiệu lực từ 01/07/2026 nhằm đáp ứng yêu cầu quản lý nhà nước trong giai đoạn mới.
+
+**Điều 2. Đối tượng áp dụng**
+1. Các cơ quan, tổ chức, cá nhân có liên quan đến việc thực hiện các nội dung quy định tại văn bản này.
+2. Cơ quan quản lý nhà nước có thẩm quyền trong lĩnh vực tương ứng.
+
+**CHƯƠNG II: QUY ĐỊNH CỤ THỂ**
+
+**Điều 3. Các nguyên tắc cơ bản**
+1. Tuân thủ tuyệt đối các quy định của pháp luật hiện hành.
+2. Đảm bảo tính minh bạch, công bằng và hiệu quả trong quá trình triển khai thực hiện.
+3. Ứng dụng triệt để công nghệ thông tin trong công tác quản lý và giám sát.
+
+**Điều 4. Trách nhiệm của các cơ quan, tổ chức, cá nhân**
+- Đối với cơ quan quản lý: Hướng dẫn, kiểm tra và đôn đốc việc thực hiện.
+- Đối với tổ chức, cá nhân: Nghiêm túc chấp hành các quy định, báo cáo định kỳ theo yêu cầu.
+
+**CHƯƠNG III: ĐIỀU KHOẢN THI HÀNH**
+
+**Điều 5. Hiệu lực thi hành**
+Văn bản này có hiệu lực thi hành kể từ ngày 2026-07-01. 
+
+**Điều 6. Trách nhiệm thi hành**
+Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành văn bản này.
+
+*(Lưu ý: Đây là văn bản giả lập cho năm 2025 phục vụ mục đích tra cứu nội bộ của hệ thống).*

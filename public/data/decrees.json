@@ -1,5 +1,13 @@
 [
   {
+    "decree_number": "254/2026/NĐ-CP",
+    "title": "Nghị định 254/2026/NĐ-CP quy định về hóa đơn, chứng từ điện tử và quản lý thuế TMĐT",
+    "issued_date": "2026-05-15",
+    "effective_date": "2026-07-01",
+    "summary": "Nghị định quy định chuẩn mực kỹ thuật hóa đơn điện tử khởi tạo từ máy tính tiền kết nối 24/7 và mã hóa blockchain chống chỉnh sửa số liệu.",
+    "content_url": "/data/content/nd-254-2026.md"
+  },
+  {
     "id": "tt-108-2025",
     "decree_number": "108/2025/TT-BTC",
     "title": "Thông tư 108/2025/TT-BTC Báo cáo tài chính hợp nhất cơ quan nhà nước",
@@ -469,9 +477,9 @@
     "category": "hoa-don",
     "issued_date": "2021-09-17",
     "effective_date": "2021-07-01",
-    "status": "active",
+    "status": "Hết hiệu lực (Được thay thế bởi 254/2026/NĐ-CP)",
     "source_url": "https://thuvienphapluat.vn/van-ban/Thue-Phi-Le-Phi/Thong-tu-78-2021-TT-BTC-hoa-don-chung-tu-479640.aspx",
-    "summary": "Thông tư 78/2021/TT-BTC hướng dẫn thi hành Nghị định 123/2020/NĐ-CP về hóa đơn điện tử, quy định chi tiết về khởi tạo, phát hành, quản lý và sử dụng HĐĐT. Đây là văn bản kỹ thuật quan trọng cho kế toán viên.\n\n**Lộ trình triển khai HĐĐT toàn quốc:**\n- Từ 01/7/2022: Bắt buộc 100% doanh nghiệp trong cả nước sử dụng HĐĐT\n\n**Quy trình đăng ký sử dụng HĐĐT:**\n1. Đăng ký thông qua Cổng thông tin điện tử của Tổng cục Thuế (hoadondientu.gdt.gov.vn)\n2. Lựa chọn loại HĐĐT: có mã hoặc không có mã của CQT\n3. Đăng ký thông tin về phần mềm/giải pháp sử dụng\n4. Thông báo phát hành HĐĐT\n\n**Lưu ý quan trọng:** Doanh nghiệp có thể tự phát triển phần mềm HĐĐT hoặc sử dụng dịch vụ của các nhà cung cấp được Bộ Tài chính xác nhận.",
+    "summary": "[ĐÃ HẾT HIỆU LỰC] Thông tư 78/2021/TT-BTC hướng dẫn thi hành Nghị định 123/2020/NĐ-CP về hóa đơn điện tử, quy định chi tiết về khởi tạo, phát hành, quản lý và sử dụng HĐĐT. Đây là văn bản kỹ thuật quan trọng cho kế toán viên.\n\n**Lộ trình triển khai HĐĐT toàn quốc:**\n- Từ 01/7/2022: Bắt buộc 100% doanh nghiệp trong cả nước sử dụng HĐĐT\n\n**Quy trình đăng ký sử dụng HĐĐT:**\n1. Đăng ký thông qua Cổng thông tin điện tử của Tổng cục Thuế (hoadondientu.gdt.gov.vn)\n2. Lựa chọn loại HĐĐT: có mã hoặc không có mã của CQT\n3. Đăng ký thông tin về phần mềm/giải pháp sử dụng\n4. Thông báo phát hành HĐĐT\n\n**Lưu ý quan trọng:** Doanh nghiệp có thể tự phát triển phần mềm HĐĐT hoặc sử dụng dịch vụ của các nhà cung cấp được Bộ Tài chính xác nhận.",
     "pdf_url": "/data/pdfs/tt-78-2021.pdf",
     "content_url": "/data/content/tt-78-2021.md",
     "free_download_url": "https://hethongphapluat.com/thong-tu-78-2021-tt-btc-huong-dan-thuc-hien-luat-quan-ly-thue-nghi-dinh-123-2020-nd-cp-quy-dinh-ve-hoa-don-chung-tu-do-bo-truong-bo-tai-chinh-ban-hanh.html",

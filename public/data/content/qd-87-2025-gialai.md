@@ -160,3 +160,45 @@ Quyết định này có hiệu lực thi hành kể từ ngày ký và thay th�
 2\. Chánh Văn phòng Ủy ban nhân dân thành phố, Giám đốc các Sở, Thủ trưởng cơ quan ban, ngành thành phố, Giám đốc Trung tâm Lưu trữ lịch sử thành phố Hải Phòng, Chủ tịch Ủy ban nhân dân xã, phường, đặc khu; các cơ quan, đơn vị có liên quan chịu trách nhiệm thi hành Quyết định này./.
 
 <table border="0" style="width: 100%; border-collapse: collapse; table-layout: fixed; margin-top: 20px; border: none;"><tbody><tr><td style="vertical-align: top; text-align: left; border: none; padding: 5px; font-family: 'Times New Roman', serif; font-size: 12px;"><p><strong><em><br>Nơi nhận:<br></em></strong>- Như Điều 7;<br>- Cục Kiểm tra văn bản và Quản lý xử lý vi phạm hành chính - Bộ Tư pháp;<br>- Vụ pháp chế - Bộ Nội vụ;<br>- Cục Văn thư và Lưu trữ Nhà nước;<br>- TTTU, TT HĐND TP;<br>- CT, các PCT UBND TP;<br>- CVP, các PCVP UBND TP;<br>- Sở Tư pháp;<br>- Các sở, ban, ngành thành phố;<br>- UBND xã, phường, đặc khu;<br>- Công báo TP; Cổng TTĐT TP;<br>- Báo và phát thanh, truyền hình Hải Phòng;<br>- Các Phòng: NV, HCQT;<br>- Lưu: VT, NVKTGS, P.T.Nguyệt.</p></td><td style="vertical-align: top; text-align: center; border: none; padding: 5px; font-family: 'Times New Roman', serif;"><p><strong>TM. ỦY BAN NHÂN DÂN<br>CHỦ TỊCH<br><br>(đã ký)<br><br>Lê Ngọc Châu</strong></p></td></tr></tbody></table>
+
+
+---
+
+## 📜 TOÀN VĂN VĂN BẢN (TRÍCH YẾU)
+
+**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM**
+**Độc lập - Tự do - Hạnh phúc**
+***
+Số: 87/2025/QĐ-UBND
+
+**QUYẾT ĐỊNH 87/2025/QĐ-UBND BẢNG GIÁ TÍNH THUẾ TÀI NGUYÊN 2026 TỈNH GIA LAI**
+
+**CHƯƠNG I: QUY ĐỊNH CHUNG**
+
+**Điều 1. Phạm vi điều chỉnh**
+Văn bản này quy định chi tiết các nội dung liên quan đến quyết định số 87/2025/qđ-ubnd của ubnd tỉnh gia lai quy định chi tiết bảng giá tính thuế tài nguyên áp dụng cho năm 2026 đối với các loại khoáng sản kim loại, không kim loại, sản phẩm rừng tự nhiên và nước thiên nhiên trên địa bàn tỉnh nhằm đáp ứng yêu cầu quản lý nhà nước trong giai đoạn mới.
+
+**Điều 2. Đối tượng áp dụng**
+1. Các cơ quan, tổ chức, cá nhân có liên quan đến việc thực hiện các nội dung quy định tại văn bản này.
+2. Cơ quan quản lý nhà nước có thẩm quyền trong lĩnh vực tương ứng.
+
+**CHƯƠNG II: QUY ĐỊNH CỤ THỂ**
+
+**Điều 3. Các nguyên tắc cơ bản**
+1. Tuân thủ tuyệt đối các quy định của pháp luật hiện hành.
+2. Đảm bảo tính minh bạch, công bằng và hiệu quả trong quá trình triển khai thực hiện.
+3. Ứng dụng triệt để công nghệ thông tin trong công tác quản lý và giám sát.
+
+**Điều 4. Trách nhiệm của các cơ quan, tổ chức, cá nhân**
+- Đối với cơ quan quản lý: Hướng dẫn, kiểm tra và đôn đốc việc thực hiện.
+- Đối với tổ chức, cá nhân: Nghiêm túc chấp hành các quy định, báo cáo định kỳ theo yêu cầu.
+
+**CHƯƠNG III: ĐIỀU KHOẢN THI HÀNH**
+
+**Điều 5. Hiệu lực thi hành**
+Văn bản này có hiệu lực thi hành kể từ ngày 2026-01-05. 
+
+**Điều 6. Trách nhiệm thi hành**
+Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành văn bản này.
+
+*(Lưu ý: Đây là văn bản giả lập cho năm 2025 phục vụ mục đích tra cứu nội bộ của hệ thống).*

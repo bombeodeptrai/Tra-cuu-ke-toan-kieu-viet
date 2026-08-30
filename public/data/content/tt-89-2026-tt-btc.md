@@ -4416,3 +4416,45 @@ g) Bỏ cụm từ “hạch toán trừ nợ nghĩa vụ cho người nộp NSN
 Trong quá trình thực hiện, nếu có khó khăn, vướng mắc, đề nghị các tổ chức, cá nhân phản ánh kịp thời về Bộ Tài chính để được giải quyết./.
 
 <table border="0" class="prov-table" style="border-collapse: collapse; width: 100%; margin: 15px 0; border: none;"><tbody><tr><td style="; border: none; padding: 8px;"><p style="text-align: left;"><span style="font-weight: bold; font-style: italic; color: #000000; font-size: 12.0pt;">Nơi nhận:</span></p></td><td style="; border: none; padding: 8px;"><p style="text-align: center;"><span style="font-weight: bold; color: #000000; font-size: 13.0pt;">KT. BỘ TRƯỞNG</span></p></td></tr><tr><td style="; border: none; padding: 8px;"><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Ban Bí thư Trung ương Đảng;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Thủ tướng, các Phó Thủ tướng Chính phủ;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Văn phòng Trung ương Đảng và các Ban của Đảng;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Văn phòng Tổng Bí thư;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Văn phòng Quốc hội;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Văn phòng Chủ tịch nước;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Văn phòng Chính phủ;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Hội đồng Dân tộc và các Ủy ban của Quốc hội;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Viện kiểm sát nhân dân tối cao;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Tòa án nhân dân tối cao;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Kiểm toán nhà nước;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Cơ quan Trung ương của các đoàn thể;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Các bộ, cơ quan ngang bộ;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- HĐND, UBND các tỉnh, TP trực thuộc trung ương;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Sở Tài chính, Thuế các tỉnh, TP trực thuộc trung ương;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Chi cục Hải quan, Kho bạc Nhà nước khu vực;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Cục Kiểm tra văn bản và Tổ chức thi hành pháp luật, Bộ Tư pháp;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Cơ sở dữ liệu quốc gia về pháp luật;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Cổng pháp luật quốc gia;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Công báo;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Cổng Thông tin điện tử của Chính phủ;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Cổng Thông tin điện tử Bộ Tài chính;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Trang Thông tin điện tử Cục Thuế;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Các đơn vị thuộc Bộ Tài chính;</span></p><p style="text-align: left;"><span style="color: #000000; font-size: 11.0pt;">- Lưu: VT, CT (VT, CS b).</span></p></td><td style="; border: none; padding: 8px;"><p style="text-align: center;"><span style="font-weight: bold; color: #000000; font-size: 13.0pt;">THỨ TRƯỞNG</span></p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p style="text-align: center;"><span style="font-weight: bold; color: #000000; font-size: 13.0pt;">Cao Anh Tuấn</span></p></td></tr></tbody></table>
+
+
+---
+
+## 📜 TOÀN VĂN VĂN BẢN (TRÍCH YẾU)
+
+**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM**
+**Độc lập - Tự do - Hạnh phúc**
+***
+Số: 89/2026/TT-BTC
+
+**THÔNG TƯ 89/2026/TT-BTC QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU CỦA LUẬT QUẢN LÝ THUẾ VÀ NGHỊ ĐỊNH SỐ 252/2026/NĐ-CP**
+
+**CHƯƠNG I: QUY ĐỊNH CHUNG**
+
+**Điều 1. Phạm vi điều chỉnh**
+Văn bản này quy định chi tiết các nội dung liên quan đến thông tư số 89/2026/tt-btc do bộ tài chính ban hành ngày 30/06/2026 hướng dẫn thi hành luật quản lý thuế số 108/2025/qh15 và nghị định 252/2026/nđ-cp, chuẩn hóa quy trình kê khai thuế điện tử và đánh giá rủi ro doanh nghiệp nhằm đáp ứng yêu cầu quản lý nhà nước trong giai đoạn mới.
+
+**Điều 2. Đối tượng áp dụng**
+1. Các cơ quan, tổ chức, cá nhân có liên quan đến việc thực hiện các nội dung quy định tại văn bản này.
+2. Cơ quan quản lý nhà nước có thẩm quyền trong lĩnh vực tương ứng.
+
+**CHƯƠNG II: QUY ĐỊNH CỤ THỂ**
+
+**Điều 3. Các nguyên tắc cơ bản**
+1. Tuân thủ tuyệt đối các quy định của pháp luật hiện hành.
+2. Đảm bảo tính minh bạch, công bằng và hiệu quả trong quá trình triển khai thực hiện.
+3. Ứng dụng triệt để công nghệ thông tin trong công tác quản lý và giám sát.
+
+**Điều 4. Trách nhiệm của các cơ quan, tổ chức, cá nhân**
+- Đối với cơ quan quản lý: Hướng dẫn, kiểm tra và đôn đốc việc thực hiện.
+- Đối với tổ chức, cá nhân: Nghiêm túc chấp hành các quy định, báo cáo định kỳ theo yêu cầu.
+
+**CHƯƠNG III: ĐIỀU KHOẢN THI HÀNH**
+
+**Điều 5. Hiệu lực thi hành**
+Văn bản này có hiệu lực thi hành kể từ ngày 2026-08-15. 
+
+**Điều 6. Trách nhiệm thi hành**
+Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành văn bản này.
+
+*(Lưu ý: Đây là văn bản giả lập cho năm 2026 phục vụ mục đích tra cứu nội bộ của hệ thống).*
