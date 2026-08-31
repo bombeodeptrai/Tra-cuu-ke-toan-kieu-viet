@@ -1,276 +1,814 @@
-## 🤖 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-Luật Thuế GTGT quy định về đối tượng chịu thuế, đối tượng không chịu thuế, căn cứ và phương pháp tính thuế, khấu trừ và hoàn thuế GTGT. Đây là sắc thuế gián tiếp quan trọng nhất trong hệ thống thuế Việt Nam.
+QUỐC
+  HỘI
+  -------
 
-**Các mức thuế suất GTGT:**
-- **0%:** Hàng hóa xuất khẩu, vận tải quốc tế, dịch vụ cho tổ chức cá nhân nước ngoài
-- **5%:** Các mặt hàng thiết yếu (nước sạch, phân bón, thức ăn chăn nuôi, thuốc y tế, thiết bị y tế, nhà ở xã hội...)
-- **10%:** Hầu hết hàng hóa dịch vụ còn lại
+  CỘNG
+  HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+  Độc lập – Tự do – Hạnh phúc
+  --------------
 
-**Lưu ý:** Luật số 44/2024/QH15 (có hiệu lực từ 01/7/2025) bổ sung quy định về dịch vụ cung cấp qua nền tảng số, buộc các công ty nước ngoài như Google, Facebook, TikTok... phải đăng ký nộp thuế GTGT tại Việt Nam.
+  Luật
+  số: 13/2008/QH12
 
-## 📜 TOÀN VĂN VĂN BẢN
+  Hà
+  Nội, ngày 03 tháng 06 năm 2008
 
-  Document Content body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.6; } p { margin: 10px 0; }
+LUẬT
 
-**LAW**
+THUẾ GIÁ TRỊ GIA TĂNG
 
-**ON VALUE-ADDED TAX**
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam
+năm 1992 đã được sửa đổi, bổ sung một số Điều theo Nghị quyết số 51/2001/QH10;
+Quốc hội ban hành Luật thuế giá trị gia tăng,
 
-Pursuant to the 1992 Constitution of the Socialist Republic of Vietnam, which was amended and supplemented under Resolution No. 51/2001/QH10;  
-The National Assembly promulgates the Law on Value-Added Tax.
+Chương 1.
 
-**Chapter I**
+NHỮNG QUY ĐỊNH CHUNG
 
-**GENERAL PROVISIONS**
+Điều 1. Phạm
+vi Điều chỉnh
 
-**Article 1. Governing scope**
+Luật này quy định về đối tượng
+chịu thuế, đối tượng không chịu thuế, người nộp thuế, căn cứ và phương pháp
+tính thuế, khấu trừ và hoàn thuế giá trị gia tăng.
 
-This Law provides for objects subject and not subject to value-added tax, taxpayers, tax bases, tax calculation methods, and tax credit and refund.
+Điều 2. Thuế
+giá trị gia tăng
 
-**Article 2. Value-added tax**
+Thuế giá trị gia tăng là thuế
+tính trên giá trị tăng thêm của hàng hóa, dịch vụ phát sinh trong quá trình từ
+sản xuất, lưu thông đến tiêu dùng.
 
-Value-added tax is a tax imposed on the added value of goods or services arising in the process from production, circulation to consumption.
+Điều 3. Đối
+tượng chịu thuế
 
-**Article 3. Taxable objects**
+Hàng hóa, dịch vụ sử dụng cho sản
+xuất, kinh doanh và tiêu dùng ở Việt Nam là đối tượng chịu thuế giá trị gia
+tăng, trừ các đối tượng quy định tại Điều 5 của Luật này.
 
-Goods and services used for production, trading or consumption in Vietnam are subject to value-added tax, except those specified in Article 5 of this Law.
+Điều 4. Người
+nộp thuế
 
-**Article 4. Taxpayers**
+Người nộp thuế giá trị gia tăng
+là tổ chức, cá nhân sản xuất, kinh doanh hàng hóa, dịch vụ chịu thuế giá trị
+gia tăng (sau đây gọi là cơ sở kinh doanh) và tổ chức, cá nhân nhập khẩu hàng
+hóa chịu thuế giá trị gia tăng (sau đây gọi là người nhập khẩu).
 
-Taxpayers include organizations and individuals producing or trading in goods or services subject to value-added tax (below referred to as business establishments) and organizations and individuals importing goods subject to value-added tax (below referred to as importers).
+Điều 5. Đối
+tượng không chịu thuế
+
+1. Sản phẩm trồng
+trọt, chăn nuôi, thủy sản nuôi trồng, đánh bắt chưa chế biến thành các sản phẩm
+khác hoặc chỉ qua sơ chế thông thường của tổ chức, cá nhân tự sản xuất, đánh bắt
+bán ra và ở khâu nhập khẩu.
 
-**Article 5. Non-taxable objects**
+2. Sản phẩm
+là giống vật nuôi, giống cây trồng, bao gồm trứng giống, con giống, cây giống,
+hạt giống, tinh dịch, phôi, vật liệu di truyền.
 
-1\. Cultivation and husbandry products, and reared and fished aquatic products which have not yet been processed into other products or have been just preliminarily processed and sold by producing and fishing organizations and individuals, and products at the stage of importation.
+3. Tưới,
+tiêu nước; cày, bừa đất; nạo vét kênh, mương nội đồng phục vụ sản xuất nông
+nghiệp; dịch vụ thu hoạch sản phẩm nông nghiệp.
 
-2\. Products which are animal breeds and plant varieties, including breeding eggs, breeding animals, seedlings, seeds, sperms, embryos and genetic materials.
+4. Sản phẩm
+muối được sản xuất từ nước biển, muối mỏ tự nhiên, muối tinh, muối i-ốt.
+
+5. Nhà ở thuộc
+sở hữu Nhà nước do Nhà nước bán cho người đang thuê.
+
+6. Chuyển
+quyền sử dụng đất
 
-3\. Irrigation and drainage; soil ploughing and harrowing; dredging of intra-field canals and ditches for agricultural production; services of harvesting farm produce.
+7. Bảo hiểm
+nhân thọ, bảo hiểm người học, bảo hiểm vật nuôi, bảo hiểm cây trồng và tái bảo
+hiểm.
 
-4\. Salt products made of seawater, natural rock salt, refined salt and iodized salt.
+8. Dịch vụ cấp
+tín dụng; kinh doanh chứng khoán; chuyển nhượng vốn; dịch vụ tài chính phát
+sinh, bao gồm hoán đổi lãi suất, hợp đồng kỳ hạn, hợp đồng tương lai, quyền chọn
+mua, bán ngoại tệ và các dịch vụ tài chính phát sinh khác theo quy định của
+pháp luật.
 
-5\. State-owned residential houses sold by the State to current tenants.
+9. Dịch vụ y tế,
+dịch vụ thú y, bao gồm dịch vụ khám bệnh, chữa bệnh, phòng bệnh cho người và vật
+nuôi.
 
-6\. Transfer of land use rights;
+10. Dịch vụ bưu chính, viễn
+thông công ích và In-ter-net phổ cập theo chương trình của Chính phủ.
 
-7\. Life insurance, student insurance, insurance on domestic animals, insurance on plants and reinsurance.
-
-8\. Credit provision services; securities trading; capital transfer; derivative financial services, including interest-rate swap contracts, forward contracts, futures contracts, call or put options, foreign currency sales, and other derivative financial services as prescribed by law.
-
-9\. Healthcare and animal health services, including medical examination and treatment and preventive services for humans and domestic animals.
-
-10\. Public post and telecommunications and universal Internet services under the Governments programs.
-
-11\. Public services on sanitation and water drainage in streets and residential areas; maintenance of zoos, flower gardens, parks, street greeneries and public lighting; funeral services;
-
-12\. Renovation, repair and construction of cultural, artistic, public service and infrastructure works and residential houses for social policy beneficiaries, which are funded with peoples contributions or humanitarian aid.
-
-13\. Teaching and vocational training as provided for by law.
-
-14\. State budget-funded radio and television broadcasting.
-
-15\. Publication, import and distribution of newspapers, journals, specialized bulletins, political books, textbooks, teaching materials, law books, scientific-technical books, books printed in ethnic minority languages as well as propaganda postcards, pictures and posters, including those in the form of audio or visual tapes or discs or electronic data; money printing.
-
-16\. Mass transit by bus and tramcar.
-
-17\. Machinery, equipment and supplies which cannot be manufactured at home and need to be imported for direct use in scientific research and technological development activities; machinery, equipment, spare parts, special-purpose means of transport and supplies which cannot be manufactured at home and need to be imported for prospecting, exploring and developing oil and gas fields; aircraft, drilling platforms and ships which cannot be manufactured at home and need to be imported for the formation of enterprises fixed assets or which are hired from foreign parties for production and business activities or for lease.
-
-18\. Special-purpose weapons and military equipment for security and defense purposes.
-
-19\. Goods imported as humanitarian aid or non-refundable aid; gifts for state agencies, political organizations, socio-political organizations, socio-political-professional organizations, social organizations, socio-professional organizations or peoples armed forces units; donations or gifts for Vietnam-based individuals within the Government-prescribed quotas; belongings of foreign organizations and individuals within diplomatic immunity quotas; and personal effects within duty-free luggage quotas.
-
-Goods and services sold to foreign organizations or individuals or international organizations for use as humanitarian aid, and non-refundable aid to Vietnam.
-
-20\. Goods transferred out of border gate or transited via the Vietnamese territory; goods temporarily imported for re-export; goods temporarily exported for re-import; raw materials imported for the production or processing of goods for export under contracts signed with foreign parties; goods and services traded between foreign countries and non-tariff areas and between non-tariff areas.
-
-21\. Technology transfer under the Law on Technology Transfer; transfer of intellectual property rights under the Law on Intellectual Property; computer software.
-
-22\. Gold imported in the form of bars or ingots which have not yet been processed into fine-art articles, jewelries or other products.
-
-23\. Exported products which are unprocessed mined resources or minerals as prescribed by the Government.
-
-24\. Artificial products used for the substitution of diseased peoples organs; crutches, wheelchairs and other tools used exclusively for the disabled.
-
-25\. Goods and services of business individuals who have a monthly income lower than the common minimum salary level applicable to domestic organizations and enterprises.
-
-Establishments trading in non-taxable goods or services specified in this Article are not entitled to input value-added tax credit or refund, except the cases subject to the tax rate of 0% specified in Clause 1, Article 8 of this Law.
-
-**Chapter II**
-
-**TAX BASES AND TAX CALCULATION METHODS**
-
-**Article 6. Tax bases**
-
-Value-added tax bases include taxable price and tax rate.
-
-**Article 7. Taxable price**
-
-1\. The taxable price is specified as follows:
-
-a/ For goods and services sold by business establishments, the taxable price is the selling price exclusive of value-added tax. For excise tax-liable goods and services, the taxable price is the selling price inclusive of excise tax but exclusive of value-added tax;
-
-b/ For imported goods, the taxable price is the border-gate import price plus import tax (if any) and excise tax (if any). The border-gate import price shall be determined under regulations on prices for calculating import tax;
-
-c/ For goods and services used for barter, internal consumption or donation, the taxable price is the price for calculating value-added tax on goods and services of the same or equivalent kinds at the time of barter, consumption or donation;
-
-d/ For asset lease, the taxable price is the rent exclusive of value-added tax;
-
-In case of asset lease for which rents are paid periodically or in advance for a certain lease duration, the taxable price is the rent paid periodically or in advance, exclusive of value-added tax;
-
-In case of hiring foreign machinery, equipment or means of transport which cannot be manufactured at home for sublease, the taxable price excludes the rent payable to the foreign party;
-
-e/ For goods sold by mode of installment or deferred payment, the taxable price is the lump-sum selling price of such goods, exclusive of value-added tax, excluding the interest on installment or deferred payment;
-
-f/ For goods processing, the taxable price is the processing remuneration exclusive of value-added tax;
-
-g/ For construction and installation activities, the taxable price is the value of the handed-over work, work item or job, exclusive of value-added tax. If construction or installation activities do not cover materials, machinery or equipment, the taxable price is the construction or installation value, excluding the value of materials, machinery or equipment;
-
-h/ For real estate trading, the taxable price is the real estate-selling price exclusive of value-added tax, excluding the charge for transferring land use rights or the land rent remittable into the state budget;
-
-i/ For commission-enjoying goods or service trading agency and brokerage, the taxable price is the commission on these activities, exclusive of value-added tax;
-
-j/ For goods and services for which payment documents indicating payment prices inclusive of value-added tax are used, the taxable price is determined according to the following formula:
-
-<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tbody><tr style=""><td rowspan="2" width="129" style="border-bottom:#ece9d8;border-left:#ece9d8;padding-bottom:0in;background-color:transparent;padding-left:5.4pt;width:96.4pt;padding-right:5.4pt;border-top:#ece9d8;border-right:#ece9d8;padding-top:0in;"><p class="MsoNormal" align="center" style="text-align:center;margin:0in 0in 6pt;"><span style="font-family:'Arial','sans-serif';font-size:10pt;">Price exclusive of value-added tax</span></p></td><td rowspan="2" width="37" style="border-bottom:#ece9d8;border-left:#ece9d8;padding-bottom:0in;background-color:transparent;padding-left:5.4pt;width:28.05pt;padding-right:5.4pt;border-top:#ece9d8;border-right:#ece9d8;padding-top:0in;"><p class="MsoNormal" align="center" style="text-align:center;margin:0in 0in 6pt;"><span style="font-family:'Arial','sans-serif';font-size:10pt;">=</span></p></td><td width="177" colspan="2" style="border-bottom:windowtext 1pt solid;border-left:#ece9d8;padding-bottom:0in;background-color:transparent;padding-left:5.4pt;width:133pt;padding-right:5.4pt;border-top:#ece9d8;border-right:#ece9d8;padding-top:0in;"><p class="MsoNormal" align="center" style="text-align:center;margin:0in 0in 6pt;"><span style="font-family:'Arial','sans-serif';font-size:10pt;">Payment price</span></p></td></tr><tr style=""><td width="56" style="border-bottom:#ece9d8;border-left:#ece9d8;padding-bottom:0in;background-color:transparent;padding-left:5.4pt;width:42pt;padding-right:5.4pt;border-top:#ece9d8;border-right:#ece9d8;padding-top:0in;"><p class="MsoNormal" align="center" style="text-align:center;margin:0in 0in 6pt;"><span style="font-family:'Arial','sans-serif';font-size:10pt;">1 +</span></p></td><td width="121" style="border-bottom:#ece9d8;border-left:#ece9d8;padding-bottom:0in;background-color:transparent;padding-left:5.4pt;width:91pt;padding-right:5.4pt;border-top:#ece9d8;border-right:#ece9d8;padding-top:0in;"><p class="MsoNormal" align="center" style="text-align:center;margin:0in 0in 6pt;"><span style="font-family:'Arial','sans-serif';font-size:10pt;">goods or service tax rate (%)</span></p></td></tr></tbody></table>
-
-2\. Taxable prices of goods and services specified in Clause 1 of this Article include surcharges and additional charges to be enjoyed by business establishments.
-
-3\. Taxable prices are determined in Vietnam dong. In case taxpayers have foreign currency turnover, such turnover must be converted into Vietnam dong at the average exchange rate on the inter-bank foreign currency market, announced by the State Bank of Vietnam at the time turnover is generated, for the determination of taxable prices.
-
-**Article 8. Tax rates**
-
-1\. The tax rate of 0% applies to exported goods and services, international transportation and goods and services not liable to value-added tax specified in Article 5 of this Law upon exportation, except cases of transfer of technologies or intellectual property rights abroad; offshore reinsurance services; credit provision, capital transfer and derivative financial services; post and telecommunications services; and exported products which are unprocessed mined resources and minerals specified in Clause 23, Article 5 of this Law.
-
-2\. The tax rate of 5% applies to the following goods and services:
-
-a/ Clean water for production and daily life;
-
-b/ Fertilizers; ores for fertilizer production; insecticides, pesticides and plant and animal growth stimulators;
-
-c/ Feeds for cattle, poultry and other domestic animals;
-
-d/ Services of digging, embanking and dredging canals, ditches, ponds and lakes for agricultural production; growing, tending, and preventing pests and insects for, plants; preliminary processing and preservation of agricultural products;
-
-e/ Unprocessed cultivation, husbandry and fishery products, except products specified in Clause 1, Article 5 of this Law;
-
-f/ Preliminarily processed rubber latex; preliminarily processed turpentine; nets, main ropes and fibers for making fishing-nets;
-
-g/ Fresh and live food; unprocessed forest products, except timber, bamboo shoots and products specified in Clause 1, Article 5 of this Law;
-
-h/ Sugar; by-products in sugar production, including molasses, bagasse and sludge;
-
-i/ Products made of jute, rush, bamboo, leaf, straw, coconut husks and shells and Eichhornia crassipes, and other handicrafts made of agricultural raw materials; preliminarily processed cotton; paper for newspaper printing;
-
-j/ Special-purpose machinery and equipment for agricultural production, including ploughing machines, harrowing machines, rice-planting machines, seeding machines, rice-plucking machines, reaping machines, combine harvesters, agricultural product harvesters, insecticide or pesticide pumps or sprayers;
-
-k/ Medical equipment and instruments; medical cotton and bandage; preventive and curative medicines; pharmaco-chemistry products and pharmaceuticals used as raw materials for the production of curative and preventive medicines;
-
-l/ Teaching and learning aids, including models, figures, boards, chalk, rulers, compasses, and equipment and tools exclusively used for teaching, research and scientific experiments;
-
-m/ Cultural, exhibition, physical training and sports activities; art performances; film production; film import, distribution and screening;
-
-n/ Children toys; books of all kinds, except books specified in Clause 15, Article 5 of this Law;
-
-o/ Scientific and technological services under the Law on Science and Technology.
-
-3\. The tax rate of 10% applies to goods and services not listed in Clauses 1 and 2 of this Article.
-
-**Article 9. Tax calculation methods**
-
-Value-added tax calculation methods include value-added tax credit method and method of calculation of tax based directly on added value.
-
-**Article 10. Tax credit method**
-
-1\. The value-added tax credit method is specified as follows:
-
-a/ The payable value-added tax amount according to the tax credit method is the output value-added tax amount minus the creditable input value-added tax amount;
-
-b/ The output value-added tax amount is the total amount of value-added tax on sold goods and services indicated in the added-value invoice;
-
-c/ The creditable input value-added tax amount is the total value-added tax amount indicated in the added-value invoice on goods or service purchase and the document proving the payment of value-added tax on imported goods, and must satisfy the conditions specified in Article 12 of this Law.
-
-2\. The tax credit method applies to business establishments which fully observe regulations on accounting, invoices and documents as prescribed by the law on accounting, invoices and documents, and register to pay tax according to the tax credit method.
-
-**Article 11. Method of calculation of tax based directly on added value**
-
-1\. The method of calculation of tax based directly on added value is specified as follows:
-
-a/ The payable value-added tax amount according to the method of calculation of tax based directly on added value is the added value of sold goods or services multiplied by the value-added tax rate;
-
-b/ The added value is the selling price of goods or services minus the purchase price of such goods or services.
-
-2\. The method of calculation of tax based directly on added value applies to the following cases:
-
-a/ Business establishments and foreign business organizations and individuals without Vietnam-based resident establishments but having incomes generated in Vietnam that fail to fully observe regulations on accounting, invoices and documents;
-
-b/ Gold, silver and gem trading activities.
-
-**Chapter III**
-
-**TAX CREDIT AND REFUND**
-
-**Article 12. Input value-added tax credit**
-
-1\. Business establishments which pay value-added tax according to the tax credit method are entitled to input value-added tax credit as follows:
-
-a/ Input value-added tax on goods or services used for the production or trading of goods or services subject to value-added tax may be wholly credited;
-
-b/ For goods or services used for the production and trading of goods or services both subject and not subject to value-added tax, only the amount of input value-added tax on goods or services used for the production and trading of goods or services subject to value-added tax is creditable. The input value-added tax on fixed assets used for the production and trading of goods or services both subject and not subject to value-added tax may be wholly credited;
-
-c/ The input value-added tax on goods or services sold to organizations or individuals that use humanitarian or non-refundable aid capital may be wholly credited;
-
-d/ The input value-added tax arising in a month shall be declared and credited upon the determination of the payable tax amount of that month. In case a business establishment detects errors in the declared or credited input value-added tax amount, additional declaration and credit may be conducted; the maximum time limit for additional declaration and credit is 6 months from the time of detecting errors.
-
-2\. Conditions on a business establishment to be entitled to input value-added tax credit are specified as follows:
-
-a/ Having an added-value invoice on goods or service purchase or a document proving the payment of value-added tax at the stage of importation;
-
-b/ Having a via-bank payment document of purchased goods or services, except goods or services valued at under twenty million Vietnam dong upon each time of purchase;
-
-c/ For exported goods and services, apart from the conditions specified at Points a and b of this Clause, the business establishment must also have a contract signed with a foreign party on goods sale or processing or service provision, a goods or service sale invoice, a via-bank payment document and a customs declaration.
-
-Payment for exported goods or services by clearing between exported goods or services and imported goods or services or paying debts on behalf of the State is regarded as via-bank payment.
-
-**Article 13. Cases eligible for tax refund**
-
-1\. Business establishments which pay value-added tax according to the tax credit method are entitled to value-added tax refund if, for three or more consecutive months, they have some input value-added tax amount not yet fully credited.
-
-Business establishments having registered to pay value-added tax according to the tax credit method are entitled to tax refund if they have new investment projects and some amount of value-added tax on purchased goods or services used for investment not yet fully credited and the remaining tax amount of two hundred million Vietnam dong or more.
-
-2\. Business establishments which export goods or services in a month are entitled to value-added tax refund on a monthly basis if they have a non-credited input value-added tax amount of two hundred million Vietnam dong or more.
-
-3\. Business establishments which pay value-added tax according to the tax credit method are entitled to value-added tax refund if upon ownership transformation, enterprise transformation, merger, consolidation, separation, split, dissolution, bankruptcy or operation termination, they have an overpaid value-added tax amount or have some input value-added tax amount not yet fully credited.
-
-4\. Business establishments possessing value-added tax refund decisions issued by competent agencies as provided for by law, and cases eligible for value-added tax refund under treaties to which the Socialist Republic of Vietnam is a contracting party.
-
-**Article 14. Invoices and documents**
-
-1\. Goods and service purchase and sale must be accompanied by invoices and documents according to law and the following regulations:
-
-a/ Business establishments which pay value-added tax according to the tax credit method shall use added-value invoices; such an invoice must be filled in fully and properly, displaying all surcharges and additional charges (if any). In case value-added tax-subject goods or services are sold with added-value invoices that do not indicate value-added tax amounts, the output value-added tax shall be determined to be the payment price indicated in the invoice multiplied by the value-added tax rate, except cases specified in Clause 2 of this Article;
-
-b/ Business establishments which pay tax according to the method of calculation of tax based directly on added value shall use sale invoices.
-
-2\. For stamps and tickets which are payment documents pre-printed with payment prices, those prices are inclusive of value-added tax.
-
-**Chapter IV**
-
-**IMPLEMENTATION PROVISIONS**
-
-**Article 15. Implementation effect**
-
-1\. This Law takes effect on January 1, 2009.
-
-2\. This Law replaces the following laws:
-
-a/ The 1997 Law on Value-Added Tax;
-
-b/ Law No. 07/2003/QH11 Amending and Supplementing a Number of Articles of the Law on Value-Added Tax;
-
-3\. To annul Article 2 of Law No. 57/2005/QH11 Amending and Supplementing a Number of Articles of the Law on Excise Tax and the Law on Value-Added Tax.
-
-**Article 16. Implementation guidance**
-
-The Government shall detail and guide the implementation of Articles 5, 7, 8, 12 and 13 and other necessary contents of this Law to meet management requirements.
-
-This Law was passed on June 3, 2008, by the 12th National Assembly of the Socialist Republic of Vietnam at its third session.
+11. Dịch vụ
+phục vụ công cộng về vệ sinh, thoát nước đường phố và khu dân cư; duy trì vườn
+thú, vườn hoa, công viên, cây xanh đường phố, chiếu sáng công cộng; dịch vụ
+tang lễ.
+
+12. Duy tu,
+sửa chữa, xây dựng bằng nguồn vốn đóng góp của nhân dân, vốn viện trợ nhân đạo
+đối với các công trình văn hóa, nghệ thuật, công trình phục vụ công cộng, cơ sở
+hạ tầng và nhà ở cho đối tượng chính sách xã hội.
+
+13. Dạy học,
+dạy nghề theo quy định của pháp luật.
+
+14. Phát
+sóng truyền thanh, truyền hình bằng nguồn vốn ngân sách nhà nước.
+
+15. Xuất bản,
+nhập khẩu, phát hành báo, tạp chí, bản tin chuyên ngành, sách chính trị, sách
+giáo khoa, giáo trình, sách văn bản pháp luật, sách khoa học – kỹ thuật, sách
+in bằng chữ dân tộc thiểu số và tranh, ảnh, áp phích tuyên truyền cổ động, kể cả
+dưới dạng băng hoặc đĩa ghi tiếng, ghi hình, dữ liệu điện tử; in tiền.
+
+16. Vận
+chuyển hành khách công cộng bằng xe buýt, xe điện.
+
+17. Máy móc,
+thiết bị, vật tư thuộc loại trong nước chưa sản xuất được cần nhập khẩu để sử dụng
+trực tiếp cho hoạt động nghiên cứu khoa học, phát triển công nghệ; máy móc, thiết
+bị, phụ tùng thay thế, phương tiện vận tải chuyên dùng và vật tư thuộc loại
+trong nước chưa sản xuất được cần nhập khẩu để tiến hành hoạt động tìm kiếm,
+thăm dò, phát triển mỏ dầu, khí đốt; tàu bay, dàn khoan, tàu thủy thuộc loại
+trong nước chưa sản xuất được cần nhập khẩu tạo tài sản cố định của doanh nghiệp,
+thuê của nước ngoài sử dụng cho sản xuất, kinh doanh và để cho thuê.
+
+18. Vũ khí,
+khí tài chuyên dùng phục vụ quốc phòng, an ninh.
+
+19. Hàng
+hóa nhập khẩu trong trường hợp viện trợ nhân đạo, viện trợ không hoàn lại; quà
+tặng cho cơ quan nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội, tổ chức
+chính trị xã hội – nghề nghiệp, tổ chức xã hội, tổ chức xã hội – nghề nghiệp,
+đơn vị vũ trang nhân dân; quà biếu, quà tặng cho cá nhân tại Việt Nam theo mức
+quy định của Chính phủ; đồ dùng của tổ chức, cá nhân nước ngoài theo tiêu chuẩn
+miễn trừ ngoại giao; hàng mang theo người trong tiêu chuẩn hành lý miễn thuế.
+
+Hàng hóa, dịch vụ bán cho tổ chức,
+cá nhân nước ngoài, tổ chức quốc tế để viện trợ nhân đạo, viên trợ không hoàn lại
+cho Việt Nam.
+
+20. Hàng
+hóa chuyển khẩu, quá cảnh qua lãnh thổ Việt Nam; hàng tạm nhập khẩu, tái xuất
+khẩu; hàng tạm xuất khẩu, tái nhập khẩu; nguyên liệu nhập khẩu để sản xuất, gia
+công hàng hóa xuất khẩu theo hợp đồng sản xuất; gia công xuất khẩu ký kết với
+bên nước ngoài; hàng hóa, dịch vụ được mua bán giữa nước ngoài với các khu phi
+thuế quan và giữa các khu phi thuế quan với nhau.
+
+21. Chuyển
+giao công nghệ theo quy định của Luật chuyển
+giao công nghệ; chuyển nhượng quyền sở hữu trí tuệ
+theo quy định của Luật sở hữu trí tuệ; phần mềm máy tính.
+
+22. Vàng nhập
+khẩu dạng thỏi, miếng chưa được chế tác thành sản phẩm mỹ nghệ, đồ trang sức
+hay sản phẩm khác.
+
+23. Sản phẩm
+xuất khẩu là tài nguyên, khoáng sản khai thác chưa chế biến theo quy định của
+Chính phủ.
+
+24. Sản phẩm
+nhân tạo dùng để thay thế cho bộ phận cơ thể của người bệnh; nạng, xe lăn và dụng
+cụ chuyên dùng khác cho người tàn tật.
+
+25. Hàng
+hóa, dịch vụ của cá nhân kinh doanh có mức thu nhập bình quân tháng thấp hơn mức
+lương tối thiểu chung áp dụng đối với tổ chức, doanh nghiệp trong nước.
+
+Cơ sở kinh doanh hàng hóa, dịch
+vụ không chịu thuế giá trị gia tăng quy định tại Điều này không được khấu trừ
+và hoàn thuế giá trị gia tăng đầu vào, trừ trường hợp áp dụng mức thuế suất 0%
+quy định tại khoản 1 Điều 8 của Luật này.
+
+Chương 2.
+
+CĂN CỨ VÀ PHƯƠNG PHÁP
+TÍNH THUẾ
+
+Điều 6. Căn
+cứ tính thuế
+
+Căn cứ tính thuế giá trị gia
+tăng là giá tính thuế và thuế suất.
+
+Điều 7. Giá
+tính thuế
+
+1. Giá tính thuế được quy định
+như sau:
+
+a) Đối với
+hàng hóa, dịch vụ do cơ sở sản xuất, kinh doanh bán ra là giá bán chưa có thuế
+giá trị gia tăng. Đối với hàng hóa, dịch vụ chịu thuế tiêu thụ đặc biệt là giá
+bán đã có thuế tiêu thụ đặc biệt nhưng chưa có thuế giá trị gia tăng;
+
+b) Đối với
+hàng hóa nhập khẩu là giá nhập tại cửa khẩu cộng với thuế nhập khẩu (nếu có), cộng
+với thuế tiêu thụ đặc biệt (nếu có). Giá nhập tại cửa khẩu được xác định theo
+quy định về giá tính thuế hàng nhập khẩu.
+
+c) Đối với hàng hóa, dịch vụ
+dùng để trao đổi, tiêu dùng nội bộ, biếu tặng cho là giá tính thuế giá trị gia
+tăng của hàng hóa, dịch vụ cùng loại hoặc tương đương tại thời điểm phát sinh
+các hoạt động này;
+
+d) Đối với
+hoạt động cho thuê tài sản là số tiền cho thuê chưa có thuế giá trị gia tăng;
+
+Trường hợp cho thuê theo hình thức
+trả tiền thuê từng kỳ hoặc trả trước tiền thuê cho một thời hạn thuê thì giá
+tính thuế là tiền cho thuê trả từng thời kỳ hoặc trả trước cho thời hạn thuê
+chưa có thuế giá trị gia tăng;
+
+Trường hợp thuê máy móc, thiết bị,
+phương tiện vận tải của nước ngoài loại trong nước chưa sản xuất được để cho
+thuê lại, giá tính thuế được trừ giá thuê phải trả cho nước ngoài.
+
+đ) Đối với hàng hóa bán theo
+phương thức trả góp, trả chậm là giá tính theo giá bán trả một lần chưa có thuế
+giá trị gia tăng của hàng hóa đó, không bao gồm khoản lãi trả góp, lãi trả chậm;
+
+e) Đối với gia công hàng hóa là
+giá gia công chưa có thuế giá trị gia tăng;
+
+g) Đối với
+hoạt động xây dựng, lắp đặt là giá trị công trình, hạng mục công trình hay phần
+công việc thực hiện bàn giao chưa có thuế giá trị gia tăng. Trường hợp xây dựng,
+lắp đặt không bao thầu nguyên vật liệu, máy móc, thiết bị thì giá tính thuế là
+giá trị xây dựng, lắp đặt không bao gồm giá trị nguyên vật liệu và máy móc, thiết
+bị;
+
+h) Đối với
+hoạt động kinh doanh bất động sản là giá bán bất động sản chưa có thuế giá trị
+gia tăng, trừ giá chuyển quyền sử dụng đất hoặc tiền thuê đất phải nộp ngân
+sách nhà nước;
+
+i) Đối với hoạt động đại lý, môi
+giới mua bán hàng hóa và dịch vụ hưởng hoa hồng là tiền hoa hồng thu được từ
+các hoạt động này chưa có thuế giá trị gia tăng;
+
+k) Đối với
+hàng hóa, dịch vụ được sử dụng chứng từ thanh toán ghi giá thanh toán là giá đã
+có thuế giá trị gia tăng thì giá tính thuế được xác định theo công thức sau:
+
+  Giá
+  chưa có thuế giá trị gia tăng
+
+  =
+
+  Giá
+  thanh toán
+
+  1
+  + thuế suất của hàng hóa, dịch vụ (%)
+
+2. Giá tính thuế đối với hàng
+hóa, dịch vụ quy định tại khoản 1 Điều này bao gồm cả khoản phụ thu và phí thu
+thêm mà cơ sở kinh doanh được hưởng.
+
+3. Giá tính
+thuế được xác định bằng đồng Việt Nam. Trường hợp người nộp thuế có doanh thu bằng
+ngoại tệ thì phải quy đổi ra đồng Việt Nam theo tỷ giá giao dịch bình quân trên
+thị trường ngoại tệ liên ngân hàng do Ngân hàng Nhà nước Việt Nam công bố tại
+thời điểm phát sinh doanh thu để xác định giá tính thuế.
+
+Điều 8. Thuế
+suất
+
+1. Mức thuế
+suất 0% áp dụng đối với hàng hóa, dịch vụ xuất khẩu, vận tải quốc tế và hàng
+hóa, dịch vụ không chịu thuế giá trị gia tăng quy định tại Điều
+5 của Luật này khi xuất khẩu, trừ các trường hợp
+chuyển giao công nghệ, chuyển nhượng quyền sở hữu trí tuệ ra nước ngoài; dịch vụ
+tái bảo hiểm ra nước ngoài; dịch vụ cấp tín dụng, chuyển nhượng vốn, dịch vụ
+tài chính phát sinh; dịch vụ bưu chính, viễn thông; sản phẩm xuất khẩu là tài
+nguyên, khoáng sản khai thác chưa qua chế biến quy định tại khoản
+23 Điều 5 của Luật này.
+
+2. Mức thuế
+suất 5% áp dụng đối với hàng hóa, dịch vụ sau đây:
+
+a) Nước sạch phục vụ sản xuất và
+sinh hoạt;
+
+b) Phân bón;
+quặng để sản xuất phân bón; thuốc phòng trừ sâu bệnh và chất kích thích tăng
+trưởng vật nuôi, cây trồng;
+
+c) Thức ăn
+gia súc, gia cầm và thức ăn cho vật nuôi khác;
+
+d) Dịch vụ
+đào đắp, nạo vét kênh, mương, ao hồ phục vụ sản xuất nông nghiệp; nuôi trồng,
+chăm sóc, phòng trừ sâu bệnh cho cây trồng; sơ chế, bảo quản sản phẩm nông nghiệp;
+
+đ) Sản phẩm trồng trọt,chăn
+nuôi, thủy sản chưa qua chế biến, trừ sản phẩm quy định tại khoản
+1 Điều 5 của Luật này;
+
+e) Mủ cao
+su sơ chế; nhựa thông sơ chế; lưới, dây giềng và sợi để đan lưới đánh cá;
+
+g) Thực phẩm
+tươi sống; lâm sản chưa qua chế biến, trừ gỗ, măng và sản phẩm quy định tại
+khoản 1 Điều 5 của Luật này;
+
+h) Đường;
+phụ phẩm trong sản xuất đường, bao gồm gỉ đường, bã mía, bã bùn;
+
+i) Sản phẩm
+bằng đay, cói, tre, nứa, lá, rơm, vỏ dừa, sọ dừa, bèo tây và các sản phẩm thủ
+công khác sản xuất bằng nguyên liệu tận dụng từ nông nghiệp; bông sơ chế; giấy
+in báo;
+
+k) Máy móc,
+thiết bị chuyên dùng phục vụ cho sản xuất nông nghiệp, bao gồm máy cày, máy bừa,
+máy cấy, máy gieo hạt, máy tuốt lúa, máy gặt, máy gặt đập liên hợp, máy thu hoạch
+sản phẩm nông nghiệp, máy hoặc bình bơm thuốc trừ sâu;
+
+l) Thiết bị,
+dụng cụ y tế, bông, băng vệ sinh y tế; thuốc phòng bệnh, chữa bệnh; sản phẩm
+hóa dược, dược liệu là nguyên liệu sản xuất thuốc chữa bệnh, thuốc phòng bệnh;
+
+m) Giáo cụ
+dùng để giảng dạy và học tập, bao gồm các loại mô hình, hình vẽ, bảng, phấn,
+thước kẻ, com-pa và các loại thiết bị, dụng cụ chuyên dùng cho giảng dạy,
+nghiên cứu, thí nghiệm khoa học;
+
+n) Hoạt động
+văn hóa, triển lãm, thể dục, thể thao; biểu diễn nghệ thuật, sản xuất phim; nhập
+khẩu, phát hành và chiếu phim;
+
+o) Đồ chơi
+cho trẻ em; sách các loại, trừ sách quy định tại khoản 15 Điều
+5 của Luật này;
+
+p) Dịch vụ
+khoa học, công nghệ theo quy định của Luật
+khoa học và công nghệ.
+
+3. Mức thuế
+suất 10% áp dụng đối với hàng hóa, dịch vụ không quy định tại khoản 1 và khoản
+2 Điều này.
+
+Điều 9. Phương
+pháp tính thuế
+
+Phương pháp tính thuế giá trị
+gia tăng gồm phương pháp khấu trừ thuế giá trị gia tăng và phương pháp tính trực
+tiếp trên giá trị gia tăng.
+
+Điều 10.
+Phương pháp khấu trừ thuế
+
+1. Phương pháp khấu trừ thuế giá
+trị gia tăng được quy định như sau:
+
+a) Số thuế giá trị gia tăng phải
+nộp theo phương pháp khấu trừ thuế bằng số thuế giá trị gia tăng đầu ra trừ số
+thuế giá trị gia tăng đầu vào được khấu trừ;
+
+b) Số thuế giá trị gia tăng đầu
+ra bằng tổng số thuế giá trị gia tăng của hàng hóa, dịch vụ bán ra ghi trên hóa
+đơn giá trị gia tăng;
+
+c) Số thuế giá trị gia tăng đầu
+vào được khấu trừ bằng tổng số thuế giá trị gia tăng ghi trên hóa đơn giá trị
+gia tăng mua hàng hóa, dịch vụ, chứng từ nộp thuế giá trị gia tăng của hàng hóa
+nhập khẩu và đáp ứng Điều kiện quy định tại Điều 12 của Luật này.
+
+2. Phương
+pháp khấu trừ thuế áp dụng đối với cơ sở kinh doanh thực hiện đầy đủ chế độ kế
+toán, hóa đơn, chứng từ theo quy định của pháp luật về kế toán, hóa đơn, chứng
+từ và đăng ký nộp thuế theo phương pháp khấu trừ thuế.
+
+Điều 11.
+Phương pháp tính trực tiếp trên giá trị gia tăng
+
+1. Phương pháp tính trực tiếp
+trên giá trị gia tăng được quy định như sau:
+
+a) Số thuế giá trị gia tăng phải
+nộp theo phương pháp tính trực tiếp trên giá trị gia tăng bằng giá trị gia tăng
+của hàng hóa, dịch vụ bán ra nhân với thuế suất thuế giá trị gia tăng;
+
+b) Giá trị gia tăng được xác định
+bằng giá thanh toán của hàng hóa, dịch vụ bán ra trừ giá thanh toán của hàng
+hóa, dịch vụ mua vào tương ứng.
+
+2. Phương pháp tính trực tiếp
+trên giá trị gia tăng áp dụng đối với các trường hợp sau đây:
+
+a) Cơ sở kinh doanh và tổ chức,
+cá nhân nước ngoài kinh doanh không có cơ sở thường trú tại  Việt Nam
+nhưng có thu nhập phát sinh tại Việt Nam chưa thực hiện đầy đủ chế độ kế toán,
+hóa đơn chứng từ;
+
+b) Hoạt động
+mua bán vàng, bạc, đá quý.
+
+Chương 3.
+
+KHẤU TRỪ, HOÀN THUẾ
+
+Điều 12. Khấu
+trừ thuế giá trị gia tăng đầu vào
+
+1. Cơ sở kinh
+doanh nộp thuế giá trị gia tăng theo phương pháp khấu trừ thuế được khấu trừ
+thuế giá trị gia tăng đầu vào như sau:
+
+a) Thuế giá trị gia tăng đầu vào
+của hàng hóa, dịch vụ sử dụng cho sản xuất, kinh doanh hàng hóa, dịch vụ chịu
+thuế giá trị gia tăng được khấu trừ toàn bộ;
+
+b) Thuế giá trị gia tăng đầu vào
+của hàng hóa, dịch vụ sử dụng đồng thời cho sản xuất, kinh doanh hàng hóa, dịch
+vụ chịu thuế và không chịu thuế thì chỉ được khấu trừ số thuế giá trị gia tăng
+đầu vào của hàng hóa,dịch vụ sử dụng cho sản xuất, kinh doanh hàng hóa, dịch vụ
+chịu thuế giá trị gia tăng. Trường hợp thuế giá trị gia tăng đầu vào của tài sản
+cố định sử dụng đồng thời cho sản xuất, kinh doanh hàng hóa, dịch vụ chịu thuế
+giá trị gia tăng và không chịu thuế giá trị gia tăng thì được khấu trừ toàn bộ;
+
+c) Thuế giá trị gia tăng đầu vào
+của hàng hóa, dịch vụ bán cho tổ chức, cá nhân sử dụng nguồn vốn viện trợ nhân
+đạo, viện trợ không hoàn lại được khấu trừ toàn bộ;
+
+d) Thuế
+giá trị gia tăng đầu vào phát sinh trong tháng nào được kê khai, khấu trừ khi
+xác định số thuế phải nộp của tháng đó. Trường hợp cơ sở kinh doanh phát hiện số
+thuế giá trị gia tăng đầu vào khi kê khai, khấu trừ bị sai sót thì được kê
+khai, khấu trừ bổ sung; thời gian để kê khai, bổ sung tối đa là 6 tháng, kể từ
+thời điểm phát sinh sai sót.
+
+2. Điều kiện
+khấu trừ thuế giá trị gia tăng đầu vào được quy định như sau:
+
+a) Có hóa
+đơn giá trị gia tăng mua hàng hóa, dịch vụ hoặc chứng từ nộp thuế giá trị gia
+tăng ở khâu nhập khẩu;
+
+b) Có chứng từ thanh toán qua
+ngân hàng đối với hàng hóa, dịch vụ mua vào, trừ hàng hóa, dịch vụ mua từng lần
+có giá trị dưới hai mươi triệu đồng;
+
+c) Đối với
+hàng hóa, dịch vụ xuất khẩu, ngoài các Điều kiện quy định tại điểm a và điểm b
+khoản này phải có hợp đồng ký kết với bên ngoài về việc bán, gia công hàng hóa,
+cung ứng dịch vụ, hóa đơn bán hàng hóa, dịch vụ, chứng từ thanh toán qua ngân
+hàng, tờ khai hải quan đối với hàng hóa xuất khẩu.
+
+Việc thanh toán tiền hàng hóa, dịch
+vụ xuất khẩu dưới hình thức thanh toán bù trừ giữa hàng hóa, dịch vụ xuất khẩu
+với hàng hóa, dịch vụ nhập khẩu, trả nợ thay Nhà nước được coi là thanh toán
+qua ngân hàng.
+
+Điều 13.
+Các trường hợp hoàn thuế
+
+1. Cơ sở kinh
+doanh nộp thuế giá trị gia tăng theo phương pháp khấu trừ thuế được hoàn thuế
+giá trị gia tăng nếu trong ba tháng liên tục trở lên có số thuế giá trị gia
+tăng đầu vào chưa được khấu trừ hết.
+
+Trường hợp cơ sở kinh doanh đã
+đăng ký nộp thuế giá trị gia tăng theo phương pháp khấu trừ có dự án đầu tư mới,
+đang trong giai đoạn đầu tư có số thuế giá trị gia tăng của hàng hóa, dịch vụ
+mua vào sử dụng cho nhà đầu tư mà chưa được khấu trừ hết và có số thuế còn lại
+từ hai trăm triệu đồng trở lên thì được hoàn thuế giá trị gia tăng.
+
+2. Cơ sở kinh
+doanh trong tháng có hàng hóa, dịch vụ xuất khẩu nếu có số thuế giá trị gia
+tăng đầu vào chưa được khấu trừ từ hai trăm triệu đồng trở lên thì được hoàn
+thuế giá trị gia tăng theo tháng.
+
+3. Cơ sở
+kinh doanh nộp thuế giá trị gia tăng theo phương pháp khấu trừ thuế được hoàn
+thuế giá trị gia tăng khi chuyển đổi sở hữu, chuyển đổi doanh nghiệp, sáp nhập,
+hợp nhất, chia, tách, giải thể, phá sản, chấm dứt hoạt động có số thuế giá trị
+gia tăng nộp thừa hoặc số thuế giá trị gia tăng đầu vào chưa được khấu trừ hết.
+
+4. Cơ sở
+kinh doanh có quyết định hoàn thuế giá trị gia tăng của cơ quan có thẩm quyền
+theo quy định của pháp luật và trường hợp hoàn thuế giá trị gia tăng theo Điều
+ước quốc tế mà Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
+
+Điều 14.
+Hóa đơn, chứng từ
+
+1. Việc mua bán hàng hóa, dịch vụ
+phải có hóa đơn, chứng từ theo quy định của pháp luật và các quy định sau đây:
+
+a) Cơ sở kinh doanh nộp thuế
+theo phương pháp khấu trừ thuế sử dụng hóa đơn giá trị gia tăng; hóa đơn phải
+được ghi đầy đủ, đúng nội dung quy định, bao gồm cả khoản phụ thu, phí thu thêm
+(nếu có). Trường hợp bán hàng hóa, dịch vụ chịu thuế giá trị gia tăng mà trên
+hóa đơn giá trị gia tăng không ghi khoản thuế giá trị gia tăng thì thuế giá trị
+gia tăng đầu ra được xác định bằng giá thanh toán ghi trên hóa đơn nhân với thuế
+suất thuế giá trị gia tăng, trừ trường hợp quy định tại khoản 2 Điều này;
+
+b) Cơ sở kinh doanh nộp thuế
+theo phương pháp tính trực tiếp trên giá trị gia tăng sử dụng hóa đơn bán hàng.
+
+2. Đối với các loại tem, vé là
+chứng từ thanh toán in sẵn giá thanh toán thì giá thanh toán tem, vé đó đã bao
+gồm thuế giá trị gia tăng.
+
+Chương 5.
+
+ĐIỀU KHOẢN THI HÀNH
+
+Điều 15. Hiệu
+lực thi hành
+
+1. Luật này có hiệu lực thi hành
+từ ngày 01 tháng 01 năm 2009.
+
+2. Luật này thay thế các luật
+sau đây:
+
+a) Luật
+thuế giá trị gia tăng năm 1997;
+
+b) Luật
+sửa đổi, bổ sung một số Điều của Luật thuế giá trị gia tăng số 07/2003/QH11;
+
+3. Bãi bỏ Điều 2
+của Luật sửa đổi, bổ sung một số Điều của Luật thuế tiêu thụ đặc biệt và Luật
+thuế giá trị gia tăng số 57/2005/QH11.
+
+Điều 16. Hướng
+dẫn thi hành
+
+Chính phủ quy định chi tiết và
+hướng dẫn thi hành các Điều 5, 7, 8, 12, 13 và các nội dung cần thiết khác của
+Luật này theo yêu cầu quản lý.
+
+Luật này đã được Quốc hội nước
+Cộng hòa xã hội chủ nghĩa Việt Nam khóa XII, kỳ họp thứ 3 thông qua ngày 03
+tháng 6 năm 2008.
+
+  CHỦ
+  TỊCH QUỐC HỘI
+
+  Nguyễn Phú Trọng
+
+  THE
+  NATIONAL ASSEMBLY
+  --------
+
+  SOCIALIST
+  REPUBLIC OF VIET NAM
+  Independence - Freedom - Happiness
+  ----------
+
+  No.
+  13/2008/QH12
+
+  Hanoi,
+  June 3, 2008
+
+ LAWON VALUE-ADDED TAXPursuant to the 1992 Constitution
+of the Socialist Republic of Vietnam, which was amended and supplemented under
+Resolution No. 51/2001/QH10;
+The National Assembly promulgates the Law on Value-Added Tax.Chapter IGENERAL PROVISIONSArticle 1.-
+Governing scopeThis Law provides for objects
+subject and not subject to value-added tax, taxpayers, tax bases, tax
+calculation methods, and tax credit and refund.Article 2.-
+Value-added tax.........Hãy đăng nhập hoặc đăng ký Thành viên Pro tại đây để xem toàn bộ văn bản tiếng Anh.Article 3.-
+Taxable objectsGoods and services used for
+production, trading or consumption in Vietnam are subject to value-added tax,
+except those specified in Article 5 of this Law.Article 4.-
+TaxpayersTaxpayers include organizations and
+individuals producing or trading in goods or services subject to value-added
+tax (below referred to as business establishments) and organizations and
+individuals importing goods subject to value-added tax (below referred to as
+importers).Article 5.-
+Non-taxable objects 1. Cultivation and husbandry
+products, and reared and fished aquatic products which have not yet been
+processed into other products or have been just preliminarily processed and
+sold by producing and fishing organizations and individuals, and products at
+the stage of importation.2. Products which are animal breeds
+and plant varieties, including breeding eggs, breeding animals, seedlings,
+seeds, sperms, embryos and genetic materials.3. Irrigation and drainage; soil
+ploughing and harrowing; dredging of intra-field canals and ditches for
+agricultural production; services of harvesting farm produce.4. Salt products made of seawater,
+natural rock salt, refined salt and iodized salt..........Hãy đăng nhập hoặc đăng ký Thành viên Pro tại đây để xem toàn bộ văn bản tiếng Anh.6. Transfer of land use rights;7. Life insurance, student
+insurance, insurance on domestic animals, insurance on plants and reinsurance.8. Credit provision services;
+securities trading; capital transfer; derivative financial services, including
+interest-rate swap contracts, forward contracts, futures contracts, call or put
+options, foreign currency sales, and other derivative financial services as
+prescribed by law.9. Healthcare and animal health
+services, including medical examination and treatment and preventive services
+for humans and domestic animals.10. Public post and
+telecommunications and universal Internet services under the Governments
+programs.11. Public services on sanitation
+and water drainage in streets and residential areas; maintenance of zoos,
+flower gardens, parks, street greeneries and public lighting; funeral services;12. Renovation, repair and
+construction of cultural, artistic, public service and infrastructure works and
+residential houses for social policy beneficiaries, which are funded with
+peoples contributions or humanitarian aid.13. Teaching and vocational
+training as provided for by law.14. State budget-funded radio and
+television broadcasting..........Hãy đăng nhập hoặc đăng ký Thành viên Pro tại đây để xem toàn bộ văn bản tiếng Anh.16. Mass transit by bus and
+tramcar.17. Machinery, equipment and
+supplies which cannot be manufactured at home and need to be imported for
+direct use in scientific research and technological development activities;
+machinery, equipment, spare parts, special-purpose means of transport and
+supplies which cannot be manufactured at home and need to be imported for
+prospecting, exploring and developing oil and gas fields; aircraft, drilling
+platforms and ships which cannot be manufactured at home and need to be
+imported for the formation of enterprises fixed assets or which are hired from
+foreign parties for production and business activities or for lease.18. Special-purpose weapons and
+military equipment for security and defense purposes.19. Goods imported as humanitarian
+aid or non-refundable aid; gifts for state agencies, political organizations,
+socio-political organizations, socio-political-professional organizations,
+social organizations, socio-professional organizations or peoples armed forces
+units; donations or gifts for Vietnam-based individuals within the
+Government-prescribed quotas; belongings of foreign organizations and
+individuals within diplomatic immunity quotas; and personal effects within
+duty-free luggage quotas.Goods and services sold to foreign
+organizations or individuals or international organizations for use as
+humanitarian aid, and non-refundable aid to Vietnam.20. Goods transferred out of border
+gate or transited via the Vietnamese territory; goods temporarily imported for
+re-export; goods temporarily exported for re-import; raw materials imported for
+the production or processing of goods for export under contracts signed with
+foreign parties; goods and services traded between foreign countries and
+non-tariff areas and between non-tariff areas.21. Technology transfer under the
+Law on Technology Transfer; transfer of intellectual property rights under the
+Law on Intellectual Property; computer software.22. Gold imported in the form of
+bars or ingots which have not yet been processed into fine-art articles,
+jewelries or other products.23. Exported products which are
+unprocessed mined resources or minerals as prescribed by the Government..........Hãy đăng nhập hoặc đăng ký Thành viên Pro tại đây để xem toàn bộ văn bản tiếng Anh.25. Goods and services of business
+individuals who have a monthly income lower than the common minimum salary
+level applicable to domestic organizations and enterprises.Establishments trading in
+non-taxable goods or services specified in this Article are not entitled to
+input value-added tax credit or refund, except the cases subject to the tax
+rate of 0% specified in Clause 1, Article 8 of this Law.Chapter IITAX BASES AND TAX CALCULATION METHODSArticle 6.- Tax
+basesValue-added tax bases include
+taxable price and tax rate.Article 7.-
+Taxable price1. The taxable price is specified
+as follows:a/ For goods and services sold by
+business establishments, the taxable price is the selling price exclusive of
+value-added tax. For excise tax-liable goods and services, the taxable price is
+the selling price inclusive of excise tax but exclusive of value-added tax;.........Hãy đăng nhập hoặc đăng ký Thành viên Pro tại đây để xem toàn bộ văn bản tiếng Anh.c/ For goods and services used for
+barter, internal consumption or donation, the taxable price is the price for
+calculating value-added tax on goods and services of the same or equivalent
+kinds at the time of barter, consumption or donation;d/ For asset lease, the taxable
+price is the rent exclusive of value-added tax;In case of asset lease for which
+rents are paid periodically or in advance for a certain lease duration, the
+taxable price is the rent paid periodically or in advance, exclusive of
+value-added tax;In case of hiring foreign
+machinery, equipment or means of transport which cannot be manufactured at home
+for sublease, the taxable price excludes the rent payable to the foreign party;e/ For goods sold by mode of
+installment or deferred payment, the taxable price is the lump-sum selling
+price of such goods, exclusive of value-added tax, excluding the interest on
+installment or deferred payment;f/ For goods processing, the
+taxable price is the processing remuneration exclusive of value-added tax;g/ For construction and
+installation activities, the taxable price is the value of the handed-over
+work, work item or job, exclusive of value-added tax. If construction or
+installation activities do not cover materials, machinery or equipment, the
+taxable price is the construction or installation value, excluding the value of
+materials, machinery or equipment;h/ For real estate trading, the
+taxable price is the real estate-selling price exclusive of value-added tax,
+excluding the charge for transferring land use rights or the land rent
+remittable into the state budget;i/ For commission-enjoying goods or
+service trading agency and brokerage, the taxable price is the commission on
+these activities, exclusive of value-added tax;.........Hãy đăng nhập hoặc đăng ký Thành viên Pro tại đây để xem toàn bộ văn bản tiếng Anh.Price
+  exclusive of value-added tax=Payment
+  price1
+  +goods
+  or service tax rate (%)2. Taxable prices of goods and
+services specified in Clause 1 of this Article include surcharges and
+additional charges to be enjoyed by business establishments.3. Taxable prices are determined in
+Vietnam dong. In case taxpayers have foreign currency turnover, such turnover
+must be converted into Vietnam dong at the average exchange rate on the
+inter-bank foreign currency market, announced by the State Bank of Vietnam at
+the time turnover is generated, for the determination of taxable prices.Article 8.- Tax
+rates1. The tax rate of 0% applies to
+exported goods and services, international transportation and goods and
+services not liable to value-added tax specified in Article 5 of this Law upon
+exportation, except cases of transfer of technologies or intellectual property
+rights abroad; offshore reinsurance services; credit provision, capital
+transfer and derivative financial services; post and telecommunications
+services; and exported products which are unprocessed mined resources and
+minerals specified in Clause 23, Article 5 of this Law..........Hãy đăng nhập hoặc đăng ký Thành viên Pro tại đây để xem toàn bộ văn bản tiếng Anh.a/ Clean water for production and
+daily life;b/ Fertilizers; ores for fertilizer
+production; insecticides, pesticides and plant and animal growth stimulators;c/ Feeds for cattle, poultry and
+other domestic animals;d/ Services of digging, embanking
+and dredging canals, ditches, ponds and lakes for agricultural production;
+growing, tending, and preventing pests and insects for, plants; preliminary
+processing and preservation of agricultural products;e/ Unprocessed cultivation,
+husbandry and fishery products, except products specified in Clause 1, Article
+5 of this Law;f/ Preliminarily processed rubber
+latex; preliminarily processed turpentine; nets, main ropes and fibers for
+making fishing-nets;g/ Fresh and live food; unprocessed
+forest products, except timber, bamboo shoots and products specified in Clause
+1, Article 5 of this Law;h/ Sugar; by-products in sugar
+production, including molasses, bagasse and sludge;i/ Products made of jute, rush,
+bamboo, leaf, straw, coconut husks and shells and Eichhornia crassipes, and
+other handicrafts made of agricultural raw materials; preliminarily processed
+cotton; paper for newspaper printing;.........Hãy đăng nhập hoặc đăng ký Thành viên Pro tại đây để xem toàn bộ văn bản tiếng Anh.k/ Medical equipment and
+instruments; medical cotton and bandage; preventive and curative medicines;
+pharmaco-chemistry products and pharmaceuticals used as raw materials for the
+production of curative and preventive medicines;l/ Teaching and learning aids,
+including models, figures, boards, chalk, rulers, compasses, and equipment and
+tools exclusively used for teaching, research and scientific experiments;m/ Cultural, exhibition, physical
+training and sports activities; art performances; film production; film import,
+distribution and screening;n/ Children toys; books of all
+kinds, except books specified in Clause 15, Article 5 of this Law;o/ Scientific and technological
+services under the Law on Science and Technology.3. The tax rate of 10% applies to
+goods and services not listed in Clauses 1 and 2 of this Article.Article 9.- Tax
+calculation methodsValue-added tax calculation methods
+include value-added tax credit method and method of calculation of tax based
+directly on added value.Article 10.-
+Tax credit method.........Hãy đăng nhập hoặc đăng ký Thành viên Pro tại đây để xem toàn bộ văn bản tiếng Anh.a/ The payable value-added tax
+amount according to the tax credit method is the output value-added tax amount
+minus the creditable input value-added tax amount;b/ The output value-added tax
+amount is the total amount of value-added tax on sold goods and services
+indicated in the added-value invoice;c/ The creditable input value-added
+tax amount is the total value-added tax amount indicated in the added-value
+invoice on goods or service purchase and the document proving the payment of
+value-added tax on imported goods, and must satisfy the conditions specified in
+Article 12 of this Law.2. The tax credit method applies to
+business establishments which fully observe regulations on accounting, invoices
+and documents as prescribed by the law on accounting, invoices and documents,
+and register to pay tax according to the tax credit method.Article 11.-
+Method of calculation of tax based directly on added value1. The method of calculation of tax
+based directly on added value is specified as follows:a/ The payable value-added tax
+amount according to the method of calculation of tax based directly on added
+value is the added value of sold goods or services multiplied by the
+value-added tax rate;b/ The added value is the selling
+price of goods or services minus the purchase price of such goods or services.2. The method of calculation of tax
+based directly on added value applies to the following cases:.........Hãy đăng nhập hoặc đăng ký Thành viên Pro tại đây để xem toàn bộ văn bản tiếng Anh.b/ Gold, silver and gem trading
+activities.Chapter IIITAX CREDIT AND REFUNDArticle 12.-
+Input value-added tax credit1. Business establishments which
+pay value-added tax according to the tax credit method are entitled to input
+value-added tax credit as follows:a/ Input value-added tax on goods
+or services used for the production or trading of goods or services subject to
+value-added tax may be wholly credited;b/ For goods or services used for
+the production and trading of goods or services both subject and not subject to
+value-added tax, only the amount of input value-added tax on goods or services
+used for the production and trading of goods or services subject to value-added
+tax is creditable. The input value-added tax on fixed assets used for the
+production and trading of goods or services both subject and not subject to
+value-added tax may be wholly credited;c/ The input value-added tax on
+goods or services sold to organizations or individuals that use humanitarian or
+non-refundable aid capital may be wholly credited;d/ The input value-added tax
+arising in a month shall be declared and credited upon the determination of the
+payable tax amount of that month. In case a business establishment detects
+errors in the declared or credited input value-added tax amount, additional
+declaration and credit may be conducted; the maximum time limit for additional
+declaration and credit is 6 months from the time of detecting errors..........Hãy đăng nhập hoặc đăng ký Thành viên Pro tại đây để xem toàn bộ văn bản tiếng Anh.a/ Having an added-value invoice on
+goods or service purchase or a document proving the payment of value-added tax
+at the stage of importation;b/ Having proof of payment by bank
+transfer for the purchased goods or services, except goods or services valued
+at under twenty million Vietnam dong upon each time of purchase;c/ For exported goods and services,
+apart from the conditions specified at Points a and b of this Clause, the
+business establishment must also have a contract signed with a foreign party on
+goods sale or processing or service provision, a goods or service sale invoice,
+a proof of payment by bank transfer and a customs declaration.Payment for exported goods or
+services by clearing between exported goods or services and imported goods or
+services or paying debts on behalf of the State is considered payment by bank
+transfer.Article 13.-
+Cases eligible for tax refund 1. Business establishments which
+pay value-added tax according to the tax credit method are entitled to
+value-added tax refund if, for three or more consecutive months, they have some
+input value-added tax amount not yet fully credited.Business establishments having
+registered to pay value-added tax according to the tax credit method are
+entitled to tax refund if they have new investment projects and some amount of
+value-added tax on purchased goods or services used for investment not yet
+fully credited and the remaining tax amount of two hundred million Vietnam dong
+or more.2. Business establishments which
+export goods or services in a month are entitled to value-added tax refund on a
+monthly basis if they have a non-credited input value-added tax amount of two
+hundred million Vietnam dong or more.3. Business establishments which
+pay value-added tax according to the tax credit method are entitled to
+value-added tax refund if upon ownership transformation, enterprise
+transformation, merger, consolidation, separation, split, dissolution,
+bankruptcy or operation termination, they have an overpaid value-added tax
+amount or have some input value-added tax amount not yet fully credited..........Hãy đăng nhập hoặc đăng ký Thành viên Pro tại đây để xem toàn bộ văn bản tiếng Anh.Article 14.-
+Invoices and documents1. Goods and service purchase and
+sale must be accompanied by invoices and documents according to law and the
+following regulations:a/ Business establishments which
+pay value-added tax according to the tax credit method shall use added-value
+invoices; such an invoice must be filled in fully and properly, displaying all
+surcharges and additional charges (if any). In case value-added tax-subject
+goods or services are sold with added-value invoices that do not indicate
+value-added tax amounts, the output value-added tax shall be determined to be
+the payment price indicated in the invoice multiplied by the value-added tax
+rate, except cases specified in Clause 2 of this Article;b/ Business establishments which
+pay tax according to the method of calculation of tax based directly on added
+value shall use sale invoices.2. For stamps and tickets which are
+payment documents pre-printed with payment prices, those prices are inclusive
+of value-added tax.Chapter IVIMPLEMENTATION PROVISIONSArticle 15.-
+Implementation effect1. This Law takes effect on January
+1, 2009..........Hãy đăng nhập hoặc đăng ký Thành viên Pro tại đây để xem toàn bộ văn bản tiếng Anh.a/ The 1997 Law on Value-Added Tax;b/ Law No. 07/2003/QH11 Amending
+and Supplementing a Number of Articles of the Law on Value-Added Tax;3. To annul Article 2 of Law No.
+57/2005/QH11 Amending and Supplementing a Number of Articles of the Law on
+Excise Tax and the Law on Value-Added Tax.Article 16.-
+Implementation guidanceThe Government shall detail and
+guide the implementation of Articles 5, 7, 8, 12 and 13 and other necessary
+contents of this Law to meet management requirements.This Law was passed on June 3,
+2008, by the XIIth National Assembly of the Socialist Republic of Vietnam at
+its third session.  CHAIRMAN
+  OF THE NATIONAL ASSEMBLY 
+
+  Nguyen Phu Trong .........Hãy đăng nhập hoặc đăng ký Thành viên Pro tại đây để xem toàn bộ văn bản tiếng Anh.
