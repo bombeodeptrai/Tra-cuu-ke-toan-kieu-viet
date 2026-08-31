@@ -297,10 +297,14 @@ export function DecreeDetailPage() {
                 <div id="decree-content" className="prose prose-slate dark:prose-invert max-w-none prose-headings:text-primary prose-a:text-primary hover:prose-a:text-primary/80 prose-p:leading-relaxed prose-li:leading-relaxed">
                   {isLoadingContent ? (
                     <div className="py-10 text-center text-muted-foreground">Đang tải nội dung...</div>
+                  ) : fullTextContent.length > 50000 ? (
+                      <div className="whitespace-pre-wrap font-sans text-[15px] leading-relaxed text-slate-800 dark:text-slate-200">
+                        {fullTextContent.replace(/^#.*\n+/, '')}
+                      </div>
                   ) : (
-                    <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeRaw, rehypeKatex]}>
-                      {fullTextContent}
-                    </ReactMarkdown>
+                      <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeRaw, rehypeKatex]}>
+                        {fullTextContent}
+                      </ReactMarkdown>
                   )}
                 </div>
               </div>
