@@ -164,8 +164,9 @@ export const useDecreeStore = create<DecreeState>()(
                 
                 const sheetIds = new Set(mergedSheet.map((d: any) => d.id));
                 let merged = [...mergedSheet, ...validData.filter(d => !sheetIds.has(d.id))];
-                // Lọc bỏ bản giả định 2026 bị đồng bộ nhầm từ Google Sheet
-                merged = merged.filter(d => d.id !== 'nd-132-2026');
+                // Lọc bỏ các bản giả định/fake bị đồng bộ nhầm từ Google Sheet
+                const fakeIds = ['nd-132-2026', 'nd-254-2026', 'tt-89-2026-tt-btc', 'nd-310-2025'];
+                merged = merged.filter(d => !fakeIds.includes(d.id));
                 validData = merged;
                 set({ decrees: validData, lastFetched: Date.now() });
               }

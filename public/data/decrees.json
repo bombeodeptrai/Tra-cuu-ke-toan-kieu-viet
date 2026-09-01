@@ -1,19 +1,5 @@
 [
   {
-    "decree_number": "254/2026/NĐ-CP",
-    "title": "Nghị định 254/2026/NĐ-CP quy định về hóa đơn, chứng từ điện tử và quản lý thuế TMĐT",
-    "issued_date": "2026-05-15",
-    "effective_date": "2026-07-01",
-    "summary": "Nghị định quy định chuẩn mực kỹ thuật hóa đơn điện tử khởi tạo từ máy tính tiền kết nối 24/7 và mã hóa blockchain chống chỉnh sửa số liệu.",
-    "content_url": "/data/content/nd-254-2026.md",
-    "id": "nd-254-2026",
-    "category": "nghi-dinh",
-    "status": "active",
-    "source_url": "https://hethongphapluat.com",
-    "tax_field": "hoa-don-dien-tu",
-    "pdf_url": "/data/pdfs/nd-254-2026.pdf"
-  },
-  {
     "id": "tt-108-2025",
     "decree_number": "108/2025/TT-BTC",
     "title": "Thông tư 108/2025/TT-BTC Báo cáo tài chính hợp nhất cơ quan nhà nước",
@@ -89,21 +75,6 @@
     "tax_field": "bhxh-lao-dong"
   },
   {
-    "id": "nd-310-2025",
-    "decree_number": "310/2025/NĐ-CP",
-    "title": "Nghị định 310/2025/NĐ-CP sửa đổi quy định xử phạt thuế, hóa đơn",
-    "category": "thue",
-    "issued_date": "2025-12-02",
-    "effective_date": "2026-01-16",
-    "status": "active",
-    "source_url": "",
-    "pdf_url": "",
-    "summary": "Nghị định 310/2025/NĐ-CP sửa đổi NĐ 125/2020 về xử phạt vi phạm hành chính trong lĩnh vực thuế và hóa đơn, hiệu lực từ 16/01/2026.\n\n**Thay đổi quan trọng nhất:**\n1. **Nguyên tắc \"phạt gộp\":** Cùng ngày có nhiều vi phạm thủ tục thuế tương tự → chỉ phạt hành vi có mức phạt cao nhất (thay vì phạt từng lần riêng lẻ)\n2. **Phạt hóa đơn lũy tiến theo số lượng:** Phạt theo số hóa đơn vi phạm (chậm xuất, sai thời điểm...), mức tối đa lên tới **70-80 triệu đồng**\n3. **Mở rộng phạm vi:** Bổ sung các khoản thu do CQT quản lý: tiền sử dụng đất, thuê đất, tiền cấp quyền khai thác khoáng sản\n4. **Bãi bỏ phạt hóa đơn đặt in:** Phù hợp xu hướng 100% hóa đơn điện tử\n5. **Bổ sung trường hợp bất khả kháng:** Thiên tai, dịch bệnh, hỏa hoạn... được miễn/giảm xử phạt\n\n**Văn bản hợp nhất:** 27/2026/VBHN-NĐ-BTC (ngày 27/08/2026) hợp nhất NĐ125 và NĐ310.",
-    "content_url": "/data/content/nd-310-2025.md",
-    "free_download_url": "https://hethongphapluat.com/nghi-dinh-310-2025-nd-cp-sua-doi-nghi-dinh-125-2020-nd-cp-quy-dinh-xu-phat-vi-pham-hanh-chinh-ve-thue-hoa-don.html",
-    "tax_field": "quan-ly-thue"
-  },
-  {
     "id": "nd-193-2025-khoangsan",
     "decree_number": "193/2025/NĐ-CP",
     "title": "Nghị định 193/2025/NĐ-CP hướng dẫn thi hành Luật Địa chất và Khoáng sản 2024",
@@ -116,21 +87,6 @@
     "summary": "Nghị định 193/2025/NĐ-CP hướng dẫn chi tiết thi hành Luật Địa chất và Khoáng sản 2024 (Luật 54/2024/QH15), gồm 11 chương 155 điều, hiệu lực từ 02/07/2025.\n\n**4 nhóm khoáng sản theo luật mới:**\n- Nhóm I: Khoáng sản chiến lược, quý hiếm (đất hiếm, uranium) — Bộ TNMT cấp phép\n- Nhóm II: Khoáng sản công nghiệp (sắt, đồng, bauxite) — Bộ TNMT cấp phép\n- Nhóm III: Vật liệu xây dựng thông thường (đá, cát, sỏi, đất san lấp) — UBND tỉnh cấp phép\n- Nhóm IV: Khoáng sản quy mô nhỏ — Đơn giản hóa thủ tục\n\n**Điểm mới quan trọng với kế toán khai khoáng:**\n- Tăng cường phân cấp cho UBND tỉnh → thủ tục cấp phép nhanh hơn\n- Đơn giản hóa hồ sơ thăm dò, khai thác mỏ đất san lấp, cát sỏi\n- Quy định chặt về phục hồi môi trường và đóng cửa mỏ\n- Cho phép thực hiện thủ tục trực tuyến\n\n**Lưu ý:** Đã được sửa đổi bởi NĐ 21/2026/NĐ-CP (16/01/2026).",
     "content_url": "/data/content/nd-193-2025-khoangsan.md",
     "free_download_url": "https://hethongphapluat.com/nghi-dinh-193-2025-nd-cp-quy-dinh-chi-tiet-mot-so-dieu-va-bien-phap-thi-hanh-luat-dia-chat-va-khoang-san.html",
-    "tax_field": "khoang-san-tai-nguyen"
-  },
-  {
-    "id": "tt-89-2026-tt-btc",
-    "decree_number": "89/2026/TT-BTC",
-    "title": "Thông tư 89/2026/TT-BTC quy định chi tiết một số điều của Luật Quản lý thuế và Nghị định số 252/2026/NĐ-CP",
-    "summary": "Thông tư số 89/2026/TT-BTC do Bộ Tài chính ban hành ngày 30/06/2026 hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 và Nghị định 252/2026/NĐ-CP, chuẩn hóa quy trình kê khai thuế điện tử và đánh giá rủi ro doanh nghiệp.",
-    "category": "thong-tu",
-    "issued_date": "2026-06-30",
-    "effective_date": "2026-08-15",
-    "status": "active",
-    "source_url": "https://thuvienphapluat.vn/van-ban/Thue-Phi-Le-Phi/Thong-tu-89-2026-TT-BTC-huong-dan-Luat-Quan-ly-thue.aspx",
-    "pdf_url": "",
-    "content_url": "/data/content/tt-89-2026-tt-btc.md",
-    "free_download_url": "https://hethongphapluat.com/thong-tu-89-2026-tt-btc-huong-dan-luat-quan-ly-thue-va-nghi-dinh-252-2026-nd-cp-huong-dan-luat-quan-ly-thue-do-bo-truong-bo-tai-chinh-ban-hanh.html",
     "tax_field": "khoang-san-tai-nguyen"
   },
   {
