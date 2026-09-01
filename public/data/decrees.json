@@ -1,5 +1,53 @@
 [
   {
+    "id": "luat-gd-dien-tu-20-2023",
+    "number": "20/2023/QH15",
+    "title": "Luật Giao dịch điện tử số 20/2023/QH15",
+    "category": "luat",
+    "tax_field": "khac",
+    "issued_date": "2023-06-22",
+    "effective_date": "2024-07-01",
+    "status": "active",
+    "summary": "Xương sống pháp lý cho chữ ký số và hóa đơn điện tử trong giao dịch thương mại.",
+    "content_url": "/data/content/luat-gd-dien-tu-20-2023.md"
+  },
+  {
+    "id": "nd-22-2020",
+    "number": "22/2020/NĐ-CP",
+    "title": "Nghị định 22/2020/NĐ-CP sửa đổi, bổ sung Nghị định 139/2016/NĐ-CP về lệ phí môn bài",
+    "category": "nghi-dinh",
+    "tax_field": "khac",
+    "issued_date": "2020-02-24",
+    "effective_date": "2020-02-25",
+    "status": "active",
+    "summary": "Sửa đổi, bổ sung các trường hợp được miễn lệ phí môn bài.",
+    "content_url": "/data/content/nd-22-2020.md"
+  },
+  {
+    "id": "nd-139-2016",
+    "number": "139/2016/NĐ-CP",
+    "title": "Nghị định 139/2016/NĐ-CP quy định về lệ phí môn bài",
+    "category": "nghi-dinh",
+    "tax_field": "khac",
+    "issued_date": "2016-10-04",
+    "effective_date": "2017-01-01",
+    "status": "active",
+    "summary": "Quy định chi tiết về người nộp, trường hợp miễn, mức thu và tổ chức thu nộp lệ phí môn bài.",
+    "content_url": "/data/content/nd-139-2016.md"
+  },
+  {
+    "id": "luat-thue-xnk-107-2016",
+    "number": "107/2016/QH13",
+    "title": "Luật Thuế xuất khẩu, thuế nhập khẩu số 107/2016/QH13",
+    "category": "luat",
+    "tax_field": "thue-xnk",
+    "issued_date": "2016-04-06",
+    "effective_date": "2016-09-01",
+    "status": "active",
+    "summary": "Quy định về đối tượng chịu thuế, người nộp thuế, căn cứ, thời điểm tính thuế xuất nhập khẩu.",
+    "content_url": "/data/content/luat-thue-xnk-107-2016.md"
+  },
+  {
     "id": "tt-108-2025",
     "decree_number": "108/2025/TT-BTC",
     "title": "Thông tư 108/2025/TT-BTC Báo cáo tài chính hợp nhất cơ quan nhà nước",
