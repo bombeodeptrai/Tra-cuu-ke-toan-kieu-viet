@@ -163,7 +163,9 @@ export const useDecreeStore = create<DecreeState>()(
                 });
                 
                 const sheetIds = new Set(mergedSheet.map((d: any) => d.id));
-                const merged = [...mergedSheet, ...validData.filter(d => !sheetIds.has(d.id))];
+                let merged = [...mergedSheet, ...validData.filter(d => !sheetIds.has(d.id))];
+                // Lọc bỏ bản giả định 2026 bị đồng bộ nhầm từ Google Sheet
+                merged = merged.filter(d => d.id !== 'nd-132-2026');
                 validData = merged;
                 set({ decrees: validData, lastFetched: Date.now() });
               }
