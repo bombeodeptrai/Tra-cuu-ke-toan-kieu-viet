@@ -7,12 +7,14 @@ import { DecreeCard } from '@/components/decree/DecreeCard';
 import { CATEGORIES } from '@/lib/utils/constants';
 import { useDecrees } from '@/hooks/useDecrees';
 import { useNotesStore } from '@/stores/notes-store';
+import { useFeedbackStore } from '@/stores/feedback-store';
 
 export function SearchPage() {
   const [searchParams] = useSearchParams();
   const initialQuery = searchParams.get('q') || '';
   const navigate = useNavigate();
   const { addSearchHistory } = useNotesStore();
+  const openFeedback = useFeedbackStore(state => state.open);
   
   const [query, setQuery] = useState(initialQuery);
   const [activeCategory, setActiveCategory] = useState<string>('all');
@@ -100,7 +102,14 @@ export function SearchPage() {
         <div className="text-center py-20 bg-card border border-border rounded-xl border-dashed">
           <SearchIcon className="h-12 w-12 mx-auto text-muted-foreground mb-4 opacity-50" />
           <h3 className="text-lg font-medium mb-1">Không tìm thấy kết quả</h3>
-          <p className="text-muted-foreground">Vui lòng thử lại với từ khóa khác ngắn gọn hơn.</p>
+          <p className="text-muted-foreground mb-6">Vui lòng thử lại với từ khóa khác ngắn gọn hơn.</p>
+          <Button 
+            onClick={() => openFeedback()}
+            variant="outline" 
+            className="border-primary text-primary hover:bg-primary/10"
+          >
+            Yêu cầu bổ sung văn bản này
+          </Button>
         </div>
       )}
     </div>

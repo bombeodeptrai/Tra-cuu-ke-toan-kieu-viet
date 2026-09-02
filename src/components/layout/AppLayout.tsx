@@ -4,6 +4,7 @@ import { Header } from './Header';
 import { Sidebar } from './Sidebar';
 import { MobileNav } from './MobileNav';
 import { LoginModal } from './LoginModal';
+import { FeedbackWidget } from '../ui/FeedbackWidget';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export function AppLayout() {
@@ -34,6 +35,8 @@ export function AppLayout() {
       <div className="md:hidden">
         <MobileNav />
       </div>
+      
+      <FeedbackWidget />
     </div>
   );
 }
