@@ -60,6 +60,41 @@ export function FeedbackWidget() {
       console.warn('Lỗi gửi GAS, lưu bản sao cục bộ:', err);
     }
 
+    // 3. Gửi Email thông báo trực tiếp qua FormSubmit (hoạt động 100% không cần Google Apps Script quyền)
+    try {
+      const approveUrl = `${GAS_URL}?action=approve_request&id=${reqId}&number=${encodeURIComponent(audit.detectedNumber || '')}&title=${encodeURIComponent(formData.title)}`;
+      const rejectUrl = `${GAS_URL}?action=reject_request&id=${reqId}`;
+      
+      await fetch(`https://formsubmit.co/ajax/${ADMIN_EMAIL}`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          _subject: `[Kiểu Việt Tra Cứu] ⚖️ Yêu cầu văn bản: ${formData.title} (${audit.recommendation === 'APPROVE' ? 'ĐỀ XUẤT DUYỆT' : 'ĐỀ XUẤT TỪ CHỐI'})`,
+          _template: 'table',
+          'Người gửi': username || 'Ẩn danh',
+          'Thông tin liên hệ': formData.contact.trim() || 'Không có',
+          'Phân loại': formData.type === 'missing' ? 'Bổ sung văn bản mới' : (formData.type === 'error' ? 'Báo lỗi văn bản' : 'Góp ý khác'),
+          'Tiêu đề / Số hiệu': formData.title.trim(),
+          'Chi tiết yêu cầu': formData.description.trim(),
+          '--- THẨM ĐỊNH TỰ ĐỘNG ---': '----------------------------------------',
+          'Số hiệu nhận diện': audit.detectedNumber || 'Không rõ',
+          'Loại văn bản': audit.docType,
+          'Lĩnh vực': audit.relevantField,
+          'Tồn tại trong CSDL': audit.isExisting ? '⚠️ ĐÃ CÓ trong hệ thống' : '✅ CHƯA CÓ (Hợp lệ bổ sung)',
+          'Đánh giá hệ thống': audit.summary,
+          'KHUYẾN NGHỊ': audit.recommendation === 'APPROVE' ? '✅ ĐỀ XUẤT DUYỆT' : (audit.recommendation === 'REJECT' ? '❌ ĐỀ XUẤT TỪ CHỐI' : '⚠️ CẦN XEM XÉT'),
+          '--- HÀNH ĐỘNG CỦA ADMIN ---': '----------------------------------------',
+          '👉 LINK DUYỆT BỔ SUNG': approveUrl,
+          '👉 LINK TỪ CHỐI': rejectUrl
+        })
+      });
+    } catch (e) {
+      console.warn('Lỗi gửi FormSubmit:', e);
+    }
+
     // 3. Lưu bản sao vào LocalStorage
     try {
       const past = JSON.parse(localStorage.getItem('user_feedback') || '[]');
