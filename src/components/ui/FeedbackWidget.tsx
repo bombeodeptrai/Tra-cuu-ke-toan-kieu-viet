@@ -195,7 +195,7 @@ export function FeedbackWidget() {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         onClick={() => open()}
-        className="fixed bottom-20 md:bottom-8 right-4 md:right-8 z-40 bg-blue-600 text-white p-3.5 rounded-full shadow-lg shadow-blue-600/30 flex items-center justify-center group"
+        className="fixed bottom-20 md:bottom-8 right-4 md:right-8 z-40 bg-emerald-600 text-white p-3.5 rounded-full shadow-lg shadow-emerald-600/30 flex items-center justify-center group"
         title="Góp ý hoặc yêu cầu bổ sung văn bản"
       >
         <MessageSquarePlus className="h-6 w-6" />
@@ -494,7 +494,7 @@ export function FeedbackWidget() {
                       <button
                         type="submit"
                         disabled={status === 'submitting' || isExtractingPdf}
-                        className="px-4 py-2 bg-blue-600 text-white rounded-md text-sm font-medium flex items-center gap-2 hover:bg-blue-700 transition-colors disabled:opacity-70 disabled:cursor-not-allowed shadow-sm"
+                        className="px-4 py-2 bg-emerald-600 text-white rounded-md text-sm font-medium flex items-center gap-2 hover:bg-emerald-700 transition-colors disabled:opacity-70 disabled:cursor-not-allowed shadow-sm"
                       >
                         {status === 'submitting' ? (
                           <>
