@@ -379,17 +379,10 @@ export function DecreeDetailPage() {
                 >
                   {isLoadingContent ? (
                     <div className="py-10 text-center text-muted-foreground">Đang tải nội dung...</div>
-                  ) : fullTextContent.length > 50000 ? (
-                      <div 
-                        style={{ fontSize: `${fontSize}px`, lineHeight: 1.6 }}
-                        className="whitespace-pre-wrap font-sans leading-relaxed text-slate-800 dark:text-slate-200"
-                      >
-                        {fullTextContent.replace(/^#.*\n+/, '')}
-                      </div>
                   ) : (
-                      <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeRaw, rehypeKatex]}>
-                        {fullTextContent}
-                      </ReactMarkdown>
+                    <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeRaw, rehypeKatex]}>
+                      {fullTextContent}
+                    </ReactMarkdown>
                   )}
                 </div>
               </div>

@@ -18,7 +18,17 @@ Luật Thuế TNCN mới (số 109/2025/QH15) thay thế luật cũ, hiệu lự
 
 ## 📜 TOÀN VĂN VĂN BẢN
 
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding="0" style="border-collapse: collapse; border: #ffffff; width: 99.0981%; border-spacing: 0px; height: 160px;"><tbody><tr style="height: 50px;"><td width="302" valign="top" style="width: 53.4884%; padding: 0cm 5.4pt; border-color: #ffffff;"><p class="MsoNormal" align="center" style="text-align: center;"><span style="color: #000000;"><b>QUỐC HỘI</b></span></p></td><td width="302" valign="top" style="width: 46.5116%; padding: 0cm 5.4pt; border-color: #ffffff;"><p class="MsoNormal" align="center" style="text-align: center;"><span style="color: #000000;"><b>CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM</b></span></p></td></tr><tr style="height: 50px;"><td width="302" valign="top" style="width: 53.4884%; padding: 0cm 5.4pt; border-color: #ffffff;"><p class="MsoNormal" align="center" style="text-align: center;"><span style="color: #000000;"><b>&nbsp;</b></span></p></td><td width="302" valign="top" style="width: 46.5116%; padding: 0cm 5.4pt; border-color: #ffffff;"><p class="MsoNormal" align="center" style="text-align: center;"><span style="color: #000000;"><b>Độc lập – Tự do – Hạnh phúc</b></span></p></td></tr><tr style="height: 10px;"><td width="302" valign="top" style="width: 53.4884%; padding-top: 0cm; padding-right: 5.4pt; padding-bottom: 0cm; border-color: #ffffff;"></td><td width="302" valign="top" style="width: 46.5116%; padding: 0cm 5.4pt; border-color: #ffffff;"></td></tr><tr style="height: 50px;"><td width="302" valign="top" style="width: 53.4884%; padding: 0cm 5.4pt; border-color: #ffffff;"><p class="MsoNormal" align="center" style="text-align: center;"><span style="color: #000000;">Luật số: 109/2025/QH15</span></p></td><td width="302" valign="top" style="width: 46.5116%; padding: 0cm 5.4pt; border-color: #ffffff;"><p class="MsoNormal" align="center" style="text-align: center;"></p></td></tr></tbody></table>
+
+
+**QUỐC HỘI**
+
+**CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM**
+
+**Độc lập – Tự do – Hạnh phúc**
+
+Luật số: 109/2025/QH15
+
+
 
 **LUẬT**
 
@@ -260,7 +270,61 @@ e) Hoạt động kinh doanh khác: thuế suất 1%.
 
 2\. Biểu thuế luỹ tiến từng phần được quy định như sau:
 
-<table style="border-collapse: collapse; border-color: #000000; border-style: solid;" border="1"><colgroup><col width="91"> <col width="210"> <col width="193"> <col width="108"></colgroup><tbody><tr><td style="border-color: #000000; text-align: center;"><p><span>Bậc thuế</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>Phần thu nhập tính thuế/năm</span><span><br></span><span>(triệu đồng)</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>Phần thu nhập tính thuế/tháng</span><span><br></span><span>(triệu đồng)</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>Thuế suất (%)</span></p></td></tr><tr><td style="border-color: #000000; text-align: center;"><p><span>1</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>Đến 120</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>Đến 10</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>5</span></p></td></tr><tr><td style="border-color: #000000; text-align: center;"><p><span>2</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>Trên 120 đến 360</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>Trên 10 đến 30</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>10</span></p></td></tr><tr><td style="border-color: #000000; text-align: center;"><p><span>3</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>Trên 360 đến 720</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>Trên 30 đến 60</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>20</span></p></td></tr><tr><td style="border-color: #000000; text-align: center;"><p><span>4</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>Trên 720 đến 1.200</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>Trên 60 đến 100</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>30</span></p></td></tr><tr><td style="border-color: #000000; text-align: center;"><p><span>5</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>Trên 1.200</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>Trên 100</span></p></td><td style="border-color: #000000; text-align: center;"><p><span>35</span></p></td></tr></tbody></table>
+
+
+   
+
+Bậc thuế
+
+Phần thu nhập tính thuế/năm  
+(triệu đồng)
+
+Phần thu nhập tính thuế/tháng  
+(triệu đồng)
+
+Thuế suất (%)
+
+1
+
+Đến 120
+
+Đến 10
+
+5
+
+2
+
+Trên 120 đến 360
+
+Trên 10 đến 30
+
+10
+
+3
+
+Trên 360 đến 720
+
+Trên 30 đến 60
+
+20
+
+4
+
+Trên 720 đến 1.200
+
+Trên 60 đến 100
+
+30
+
+5
+
+Trên 1.200
+
+Trên 100
+
+35
+
+
 
 ****Điều 10. Giảm trừ gia cảnh****
 
@@ -472,7 +536,17 @@ Thuế thu nhập cá nhân đối với thu nhập từ trúng thưởng, nhậ
 
 _Luật này được Quốc hội nước Cộng hoà xã hội chủ nghĩa Việt Nam khóa XV, Kỳ họp thứ 10 thông qua ngày 10 tháng 12 năm 2025._
 
-<table border="1" style="border-collapse: collapse; width: 100%; height: 34.6px; border-width: 1px; border-color: #ffffff;"><colgroup><col style="width: 50%;"> <col style="width: 50%;"></colgroup><tbody><tr style="height: 34.6px;"><td style="border-color: #ffffff;"></td><td style="border-color: #ffffff;"><p style="font-family: 'Times New Roman', Times, serif; text-align: center;"><span style="color: #000000;"><strong>CHỦ TỊCH QUỐC HỘI</strong></span></p><p style="font-family: 'Times New Roman', Times, serif; text-align: center;"><span style="color: #000000;"><em><strong>(Đã ký)</strong></em></span></p><p style="font-family: 'Times New Roman', Times, serif; text-align: center;"><span style="color: #000000;"><strong>Trần Thanh Mẫn</strong></span></p></td></tr></tbody></table>
+
+
+ 
+
+**CHỦ TỊCH QUỐC HỘI**
+
+_**(Đã ký)**_
+
+**Trần Thanh Mẫn**
+
+
 
 
 ---

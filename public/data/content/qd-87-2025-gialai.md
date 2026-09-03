@@ -7,7 +7,21 @@ Quyết định số 87/2025/QĐ-UBND của UBND tỉnh Gia Lai quy định chi 
 
 ## 📜 TOÀN VĂN VĂN BẢN
 
-<table border="0" style="width: 100%; border-collapse: collapse; table-layout: fixed; margin-top: 20px; border: none;"><tbody><tr><td style="vertical-align: top; text-align: center; border: none; padding: 5px; font-family: 'Times New Roman', serif;"><p><strong>ỦY BAN NHÂN DÂN<br>THÀNH PHỐ HẢI PHÒNG<br>-------</strong></p></td><td style="vertical-align: top; text-align: center; border: none; padding: 5px; font-family: 'Times New Roman', serif;"><p><strong>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM<br>Độc lập - Tự do - Hạnh phúc<br>---------------</strong></p></td></tr><tr><td style="vertical-align: top; text-align: center; border: none; padding: 5px; font-family: 'Times New Roman', serif;"><p>Số: 87/2025/QĐ-UBND</p></td><td style="vertical-align: top; text-align: center; border: none; padding: 5px; font-family: 'Times New Roman', serif;"><p><em>Hải Phòng, ngày 07 tháng 8 năm 2025</em></p></td></tr></tbody></table>
+
+
+**ỦY BAN NHÂN DÂN  
+THÀNH PHỐ HẢI PHÒNG  
+\-------**
+
+**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  
+Độc lập - Tự do - Hạnh phúc  
+\---------------**
+
+Số: 87/2025/QĐ-UBND
+
+_Hải Phòng, ngày 07 tháng 8 năm 2025_
+
+
 
 **QUYẾT ĐỊNH**
 
@@ -159,7 +173,33 @@ Quyết định này có hiệu lực thi hành kể từ ngày ký và thay th�
 
 2\. Chánh Văn phòng Ủy ban nhân dân thành phố, Giám đốc các Sở, Thủ trưởng cơ quan ban, ngành thành phố, Giám đốc Trung tâm Lưu trữ lịch sử thành phố Hải Phòng, Chủ tịch Ủy ban nhân dân xã, phường, đặc khu; các cơ quan, đơn vị có liên quan chịu trách nhiệm thi hành Quyết định này./.
 
-<table border="0" style="width: 100%; border-collapse: collapse; table-layout: fixed; margin-top: 20px; border: none;"><tbody><tr><td style="vertical-align: top; text-align: left; border: none; padding: 5px; font-family: 'Times New Roman', serif; font-size: 12px;"><p><strong><em><br>Nơi nhận:<br></em></strong>- Như Điều 7;<br>- Cục Kiểm tra văn bản và Quản lý xử lý vi phạm hành chính - Bộ Tư pháp;<br>- Vụ pháp chế - Bộ Nội vụ;<br>- Cục Văn thư và Lưu trữ Nhà nước;<br>- TTTU, TT HĐND TP;<br>- CT, các PCT UBND TP;<br>- CVP, các PCVP UBND TP;<br>- Sở Tư pháp;<br>- Các sở, ban, ngành thành phố;<br>- UBND xã, phường, đặc khu;<br>- Công báo TP; Cổng TTĐT TP;<br>- Báo và phát thanh, truyền hình Hải Phòng;<br>- Các Phòng: NV, HCQT;<br>- Lưu: VT, NVKTGS, P.T.Nguyệt.</p></td><td style="vertical-align: top; text-align: center; border: none; padding: 5px; font-family: 'Times New Roman', serif;"><p><strong>TM. ỦY BAN NHÂN DÂN<br>CHỦ TỊCH<br><br>(đã ký)<br><br>Lê Ngọc Châu</strong></p></td></tr></tbody></table>
+
+
+**_  
+Nơi nhận:  
+_**\- Như Điều 7;  
+\- Cục Kiểm tra văn bản và Quản lý xử lý vi phạm hành chính - Bộ Tư pháp;  
+\- Vụ pháp chế - Bộ Nội vụ;  
+\- Cục Văn thư và Lưu trữ Nhà nước;  
+\- TTTU, TT HĐND TP;  
+\- CT, các PCT UBND TP;  
+\- CVP, các PCVP UBND TP;  
+\- Sở Tư pháp;  
+\- Các sở, ban, ngành thành phố;  
+\- UBND xã, phường, đặc khu;  
+\- Công báo TP; Cổng TTĐT TP;  
+\- Báo và phát thanh, truyền hình Hải Phòng;  
+\- Các Phòng: NV, HCQT;  
+\- Lưu: VT, NVKTGS, P.T.Nguyệt.
+
+**TM. ỦY BAN NHÂN DÂN  
+CHỦ TỊCH  
+  
+(đã ký)  
+  
+Lê Ngọc Châu**
+
+
 
 
 ---

@@ -17,7 +17,17 @@ Luật Thuế TNDN 2025 (số 67/2025/QH15) thay thế hoàn toàn Luật 14/200
 
 ## 📜 TOÀN VĂN VĂN BẢN
 
-<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="220%" style="width: 100.267%; border-collapse: collapse; border-style: none; border-color: initial; border-image: initial; height: 116.998px; border-spacing: 0px;"><tbody><tr style="height: 116.998px;"><td style="padding: 0.75pt; width: 34.2528%;"><p class="MsoNormal" align="center" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; text-align: center; line-height: normal;"><span style="font-family: 'times new roman', times, serif; font-size: 14px;"><b>QUỐC HỘI</b></span></p><p class="MsoNormal" align="center" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; text-align: center; line-height: normal;"><span style="font-size: 14px; font-family: 'times new roman', times, serif;">Luật số: 67/2025/QH15</span></p></td><td style="padding: 0.75pt; width: 65.7472%;"><p class="MsoNormal" align="center" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; text-align: center; line-height: normal;"><span style="font-family: 'times new roman', times, serif; font-size: 14px;"><b>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</b></span></p><p class="MsoNormal" align="center" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; text-align: center; line-height: normal;"><span style="font-family: 'times new roman', times, serif; font-size: 14px;"><b>Độc lập - Tự do - Hạnh phúc</b></span></p><p class="MsoNormal" align="right" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; text-align: right; line-height: normal;"></p></td></tr></tbody></table>
+
+
+**QUỐC HỘI**
+
+Luật số: 67/2025/QH15
+
+**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM**
+
+**Độc lập - Tự do - Hạnh phúc**
+
+
 
 **LUẬT**
 
@@ -558,7 +568,15 @@ d) Trường hợp đặc thù theo quy định của Chính phủ.
 
 _Luật này được Quốc hội nước Cộng hoà xã hội chủ nghĩa Việt Nam khoá XV, Kỳ họp thứ 9 thông qua ngày 14 tháng 6 năm 2025._
 
-<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="94%" style="width: 100.031%; border-collapse: collapse; border-spacing: 0px;"><tbody><tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes; mso-yfti-lastrow: yes;"><td style="padding: 0.75pt; width: 62.8901%;"></td><td style="padding: 0.75pt; width: 37.1099%;"><p class="MsoNormal" align="center" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; text-align: center; line-height: normal;"><span style="font-family: 'times new roman', times, serif; font-size: 14px;"><b>CHỦ TỊCH QUỐC HỘI</b></span></p><p class="MsoNormal" align="center" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; text-align: center; line-height: normal;"><span style="font-family: 'times new roman', times, serif; font-size: 14px;"><b><i>(Đã ký)</i></b></span></p><p class="MsoNormal" align="center" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; text-align: center; line-height: normal;"><span style="font-family: 'times new roman', times, serif; font-size: 14px;"><b>Trần Thanh Mẫn</b></span></p><p class="MsoNormal" align="center" style="mso-margin-top-alt: auto; mso-margin-bottom-alt: auto; text-align: center; line-height: normal;"><span style="font-family: 'times new roman', times, serif; font-size: 14px;"><b>&nbsp;</b></span></p></td></tr></tbody></table>
+
+
+**CHỦ TỊCH QUỐC HỘI**
+
+**_(Đã ký)_**
+
+**Trần Thanh Mẫn**
+
+
 
 
 ---
