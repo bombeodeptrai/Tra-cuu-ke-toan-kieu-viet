@@ -1,0 +1,65 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset="utf-8">
+<title>GIẤY ĐỀ NGHỊ THANH TOÁN</title>
+<style>
+body { font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; margin: 30px; }
+.header { width: 100%; margin-bottom: 20px; }
+.header td { vertical-align: top; }
+.title { text-align: center; font-size: 16pt; font-weight: bold; color: #006633; margin: 20px 0 5px 0; }
+.code { text-align: center; font-style: italic; font-size: 11pt; margin-bottom: 25px; }
+table.data { width: 100%; border-collapse: collapse; margin: 15px 0; }
+table.data th, table.data td { border: 1px solid #333; padding: 6px 8px; font-size: 11pt; }
+table.data th { background-color: #006633; color: white; text-align: center; }
+.signatures { width: 100%; margin-top: 40px; text-align: center; }
+.signatures td { vertical-align: top; width: 33%; font-weight: bold; }
+.italic { font-style: italic; font-weight: normal; font-size: 10pt; }
+</style>
+</head>
+<body>
+<table class="header">
+  <tr>
+    <td style="width: 50%;">
+      <strong>CÔNG TY CỔ PHẦN XÂY LẮP KIỂU VIỆT</strong><br>
+      <em>Mã số thuế: 4101487688</em><br>
+      <em>Địa chỉ: TP. Quy Nhơn, Tỉnh Bình Định</em>
+    </td>
+    <td style="width: 50%; text-align: right;">
+      <strong>Mẫu số: 05-TT</strong><br>
+      <em>(Ban hành theo chế độ kế toán hiện hành)</em>
+    </td>
+  </tr>
+</table>
+
+<div class="title">GIẤY ĐỀ NGHỊ THANH TOÁN</div>
+<div class="code">Ngày ..... tháng ..... năm 202...</div>
+
+<p>Kính gửi: <strong>Ban Giám đốc & Phòng Tài chính Kế toán Kiểu Việt</strong></p>
+       <p>- Họ và tên người đề nghị thanh toán: .........................................................................................</p>
+       <p>- Bộ phận / Đội thi công: ............................................................................................................</p>
+       <p>- Nội dung thanh toán: ...............................................................................................................</p>
+       <p>- Tổng số tiền đề nghị thanh toán: .................................................... đồng.</p>
+       <p><em>(Viết bằng chữ: ..........................................................................................................................)</em></p>
+       <p>- Kèm theo: .......... chứng từ gốc (hóa đơn GTGT, biên bản nghiệm thu, bảng kê...).</p>
+
+<table class="signatures">
+  <tr>
+    <td>
+      Người đề nghị / Người lập<br>
+      <span class="italic">(Ký, ghi rõ họ tên)</span>
+      <br><br><br><br>
+    </td>
+    <td>
+      Kế toán trưởng<br>
+      <span class="italic">(Ký, ghi rõ họ tên)</span>
+      <br><br><br><br>
+    </td>
+    <td>
+      Giám đốc phê duyệt<br>
+      <span class="italic">(Ký, đóng dấu, ghi rõ họ tên)</span>
+      <br><br><br><br>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

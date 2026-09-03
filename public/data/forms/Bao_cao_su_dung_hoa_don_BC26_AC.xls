@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="Company">
+   <Font ss:FontName="Times New Roman" ss:Size="11" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="Title">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" ss:Size="16" ss:Bold="1" ss:Color="#006633"/>
+  </Style>
+  <Style ss:ID="SubTitle">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" ss:Size="11" ss:Italic="1"/>
+  </Style>
+  <Style ss:ID="Header">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" ss:Size="11" ss:Bold="1" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#006633" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="Data">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CCCCCC"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CCCCCC"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CCCCCC"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#CCCCCC"/>
+   </Borders>
+   <Font ss:FontName="Times New Roman" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="Sign">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Font ss:FontName="Times New Roman" ss:Size="11" ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Bieu_Mau_Kieu_Viet">
+  <Table>
+   <Column ss:Width="40"/>
+   <Column ss:Width="150"/>
+   <Column ss:Width="100"/>
+   <Column ss:Width="100"/>
+   <Column ss:Width="120"/>
+   <Column ss:Width="120"/>
+   <Row>
+    <Cell ss:StyleID="Company"><Data ss:Type="String">CÔNG TY CỔ PHẦN XÂY LẮP KIỂU VIỆT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Địa chỉ: Lô 01, KĐT An Phú Thịnh, P. Nhơn Bình, TP. Quy Nhơn, Bình Định</Data></Cell>
+   </Row>
+   <Row ss:Height="10"/>
+   <Row ss:Height="25">
+    <Cell ss:MergeAcross="5" ss:StyleID="Title"><Data ss:Type="String">BÁO CÁO TÌNH HÌNH SỬ DỤNG HÓA ĐƠN (BC26/AC)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:MergeAcross="5" ss:StyleID="SubTitle"><Data ss:Type="String">Đơn vị: CÔNG TY CỔ PHẦN XÂY LẮP KIỂU VIỆT - MST: 4101487688</Data></Cell>
+   </Row>
+   <Row ss:Height="10"/>
+   <Row ss:Height="28">
+    <Cell ss:StyleID="Header"><Data ss:Type="String">STT</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Ký hiệu mẫu hóa đơn</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Ký hiệu hóa đơn</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Tổng số sử dụng</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Số lượng đã lập</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Số lượng xóa bỏ/hủy</Data></Cell>
+   </Row>
+   <Row><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell></Row>
+<Row><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell></Row>
+<Row><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell></Row>
+<Row><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell></Row>
+<Row><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell></Row>
+<Row><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell></Row>
+<Row><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell></Row>
+<Row><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell></Row>
+<Row><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell></Row>
+<Row><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell></Row>
+
+   <Row ss:Height="20"/>
+   <Row>
+    <Cell ss:StyleID="Sign"><Data ss:Type="String">Người lập biểu</Data></Cell>
+    <Cell ss:StyleID="Sign"><Data ss:Type="String">Kế toán trưởng</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="Sign"><Data ss:Type="String">Giám đốc duyệt</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="SubTitle"><Data ss:Type="String">(Ký, họ tên)</Data></Cell>
+    <Cell ss:StyleID="SubTitle"><Data ss:Type="String">(Ký, họ tên)</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="SubTitle"><Data ss:Type="String">(Ký, đóng dấu, họ tên)</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>
