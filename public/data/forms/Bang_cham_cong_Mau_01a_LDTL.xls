@@ -54,21 +54,21 @@
    <Column ss:Width="120"/>
    <Column ss:Width="120"/>
    <Row>
-    <Cell ss:StyleID="Company"><Data ss:Type="String">CÔNG TY CỔ PHẦN XÂY LẮP KIỂU VIỆT</Data></Cell>
+    <Cell ss:StyleID="Company"><Data ss:Type="String">CÔNG TY CỔ PHẦN KIỂU VIỆT</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Địa chỉ: Lô 01, KĐT An Phú Thịnh, P. Nhơn Bình, TP. Quy Nhơn, Bình Định</Data></Cell>
    </Row>
    <Row ss:Height="10"/>
    <Row ss:Height="25">
-    <Cell ss:MergeAcross="7" ss:StyleID="Title"><Data ss:Type="String">BẢNG CHẤM CÔNG CÔNG TRÌNH (MẪU 01A-LĐTL)</Data></Cell>
+    <Cell ss:MergeAcross="7" ss:StyleID="Title"><Data ss:Type="String">BẢNG CHẤM CÔNG (MẪU 01A-LĐTL)</Data></Cell>
    </Row>
    <Row>
-    <Cell ss:MergeAcross="7" ss:StyleID="SubTitle"><Data ss:Type="String">Tháng ...... Năm 202... - Đơn vị thi công: Công ty CP Xây Lắp Kiểu Việt</Data></Cell>
+    <Cell ss:MergeAcross="7" ss:StyleID="SubTitle"><Data ss:Type="String">Tháng ...... Năm 202... - Đơn vị: Công ty Cổ phần Kiểu Việt</Data></Cell>
    </Row>
    <Row ss:Height="10"/>
    <Row ss:Height="28">
-    <Cell ss:StyleID="Header"><Data ss:Type="String">STT</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Mã NV</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Họ và tên</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Chức vụ / Tổ đội</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Công làm việc (ngày)</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Tăng ca (giờ)</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Nghỉ phép</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Tổng công quy đổi</Data></Cell>
+    <Cell ss:StyleID="Header"><Data ss:Type="String">STT</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Mã NV</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Họ và tên</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Chức vụ / Bộ phận</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Công làm việc (ngày)</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Tăng ca (giờ)</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Nghỉ phép</Data></Cell><Cell ss:StyleID="Header"><Data ss:Type="String">Tổng công quy đổi</Data></Cell>
    </Row>
    <Row><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell></Row>
 <Row><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell><Cell ss:StyleID="Data"><Data ss:Type="String"></Data></Cell></Row>

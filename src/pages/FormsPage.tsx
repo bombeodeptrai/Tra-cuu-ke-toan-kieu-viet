@@ -78,7 +78,7 @@ export function FormsPage() {
             KHO BIỂU MẪU CHỨNG TỪ NỘI BỘ KIỂU VIỆT
           </div>
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-black tracking-tight">
-            Thư Viện Biểu Mẫu Kế Toán & Xây Lắp
+            Thư Viện Biểu Mẫu Kế Toán Kiểu Việt
           </h1>
           <p className="text-sm md:text-base text-emerald-100/90 leading-relaxed font-normal">
             Tải xuống 100% miễn phí các biểu mẫu phiếu thu, phiếu chi, bảng lương, tờ khai thuế GTGT/TNDN/TNCN và biên bản nghiệm thu xây dựng chuẩn hoá theo Thông tư 99/2025, Thông tư 200 và Thông tư 80.

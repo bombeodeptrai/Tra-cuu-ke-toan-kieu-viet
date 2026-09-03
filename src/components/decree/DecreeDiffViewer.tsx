@@ -1193,7 +1193,7 @@ export function DecreeDiffViewer({ decreeId }: DecreeDiffViewerProps) {
             <option value="qd-595-2017-bhxh">Quyết định 595/QĐ-BHXH (Doanh nghiệp xây dựng đóng BHXH theo quý)</option>
           </optgroup>
 
-          <optgroup label="4. Hợp đồng & Chi phí Xây lắp Kiểu Việt (6 văn bản)">
+          <optgroup label="4. Hợp đồng xây dựng & Chi phí đầu tư (3 văn bản)">
             <option value="nd-50-2021">Nghị định 50/2021/NĐ-CP (Tạm ứng 50%, bù giá trọn gói vs NĐ 37)</option>
             <option value="nd-37-2015">Nghị định 37/2015/NĐ-CP (Thời hạn CĐT thanh toán 14 ngày vs NĐ 48)</option>
             <option value="nd-10-2021">Nghị định 10/2021/NĐ-CP (Quản lý dự toán, định mức XD vs NĐ 68)</option>

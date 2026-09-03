@@ -20,7 +20,7 @@ table.data th { background-color: #006633; color: white; text-align: center; }
 <table class="header">
   <tr>
     <td style="width: 50%;">
-      <strong>CÔNG TY CỔ PHẦN XÂY LẮP KIỂU VIỆT</strong><br>
+      <strong>CÔNG TY CỔ PHẦN KIỂU VIỆT</strong><br>
       <em>Mã số thuế: 4101487688</em><br>
       <em>Địa chỉ: TP. Quy Nhơn, Tỉnh Bình Định</em>
     </td>
@@ -34,16 +34,16 @@ table.data th { background-color: #006633; color: white; text-align: center; }
 <div class="title">BIÊN BẢN GIAO NHẬN TÀI SẢN CỐ ĐỊNH</div>
 <div class="code">Ngày ..... tháng ..... năm 202...</div>
 
-<p>Căn cứ Quyết định đầu tư số: ......../QĐ-KV của Giám đốc Công ty CP Xây Lắp Kiểu Việt</p>
+<p>Căn cứ Quyết định đầu tư số: ......../QĐ-KV của Giám đốc Công ty Cổ phần Kiểu Việt</p>
        <p>Hôm nay, ngày ..... tháng ..... năm 202..., Ban giao nhận gồm có:</p>
        <p><strong>I. Bên giao:</strong> Ông/Bà: ....................................... Chức vụ: .................................................</p>
-       <p><strong>II. Bên nhận:</strong> Ông/Bà: ..................................... Chức vụ: Chỉ huy trưởng công trình .........</p>
+       <p><strong>II. Bên nhận:</strong> Ông/Bà: ..................................... Chức vụ: .................................................</p>
        <table class="data">
          <tr><th>STT</th><th>Tên TSCĐ</th><th>Số hiệu</th><th>Nước sản xuất</th><th>Năm SX</th><th>Nguyên giá (VNĐ)</th></tr>
-         <tr><td>1</td><td>Máy xúc thủy lực bánh xích</td><td>MX-01</td><td>Nhật Bản</td><td>2024</td><td>1.850.000.000</td></tr>
-         <tr><td>2</td><td>Xe lu rung thi công nền đường</td><td>LR-02</td><td>Hàn Quốc</td><td>2023</td><td>920.000.000</td></tr>
+         <tr><td>1</td><td>Máy móc thiết bị chuyên dùng</td><td>TB-01</td><td>Nhật Bản</td><td>2024</td><td>1.850.000.000</td></tr>
+         <tr><td>2</td><td>Phương tiện vận tải</td><td>VT-02</td><td>Hàn Quốc</td><td>2023</td><td>920.000.000</td></tr>
        </table>
-       <p>Kết luận: Tài sản bàn giao đúng thông số kỹ thuật, chạy thử tốt, đủ điều kiện đưa vào thi công.</p>
+       <p>Kết luận: Tài sản bàn giao đúng thông số kỹ thuật, chạy thử tốt, đủ điều kiện đưa vào sử dụng.</p>
 
 <table class="signatures">
   <tr>

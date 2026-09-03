@@ -20,7 +20,7 @@ table.data th { background-color: #006633; color: white; text-align: center; }
 <table class="header">
   <tr>
     <td style="width: 50%;">
-      <strong>CÔNG TY CỔ PHẦN XÂY LẮP KIỂU VIỆT</strong><br>
+      <strong>CÔNG TY CỔ PHẦN KIỂU VIỆT</strong><br>
       <em>Mã số thuế: 4101487688</em><br>
       <em>Địa chỉ: TP. Quy Nhơn, Tỉnh Bình Định</em>
     </td>
@@ -34,9 +34,9 @@ table.data th { background-color: #006633; color: white; text-align: center; }
 <div class="title">GIẤY ĐỀ NGHỊ THANH TOÁN</div>
 <div class="code">Ngày ..... tháng ..... năm 202...</div>
 
-<p>Kính gửi: <strong>Ban Giám đốc & Phòng Tài chính Kế toán Kiểu Việt</strong></p>
+<p>Kính gửi: <strong>Ban Giám đốc & Phòng Tài chính Kế toán Công ty Cổ phần Kiểu Việt</strong></p>
        <p>- Họ và tên người đề nghị thanh toán: .........................................................................................</p>
-       <p>- Bộ phận / Đội thi công: ............................................................................................................</p>
+       <p>- Bộ phận / Đội công tác: ............................................................................................................</p>
        <p>- Nội dung thanh toán: ...............................................................................................................</p>
        <p>- Tổng số tiền đề nghị thanh toán: .................................................... đồng.</p>
        <p><em>(Viết bằng chữ: ..........................................................................................................................)</em></p>

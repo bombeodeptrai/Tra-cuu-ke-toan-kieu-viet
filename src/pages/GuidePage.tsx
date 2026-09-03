@@ -42,7 +42,7 @@ export function GuidePage() {
         <div className="relative z-10 max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/15 backdrop-blur-md text-emerald-100 text-xs font-semibold border border-white/20">
             <Building2 className="h-3.5 w-3.5 text-emerald-300" />
-            CÔNG TY CỔ PHẦN XÂY LẮP KIỂU VIỆT
+            CÔNG TY CỔ PHẦN KIỂU VIỆT
           </div>
           <h1 className="text-2xl sm:text-3xl md:text-5xl font-black tracking-tight leading-tight">
             Cẩm Nang Hướng Dẫn Sử Dụng Hệ Thống Tra Cứu Kế Toán & Pháp Luật

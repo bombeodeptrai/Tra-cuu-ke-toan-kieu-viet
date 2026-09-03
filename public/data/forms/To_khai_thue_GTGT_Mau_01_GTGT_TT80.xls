@@ -54,7 +54,7 @@
    <Column ss:Width="120"/>
    <Column ss:Width="120"/>
    <Row>
-    <Cell ss:StyleID="Company"><Data ss:Type="String">CÔNG TY CỔ PHẦN XÂY LẮP KIỂU VIỆT</Data></Cell>
+    <Cell ss:StyleID="Company"><Data ss:Type="String">CÔNG TY CỔ PHẦN KIỂU VIỆT</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Địa chỉ: Lô 01, KĐT An Phú Thịnh, P. Nhơn Bình, TP. Quy Nhơn, Bình Định</Data></Cell>

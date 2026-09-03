@@ -1,4 +1,4 @@
-export const SYSTEM_PROMPT = `Bạn là chuyên gia tư vấn kế toán tài chính Việt Nam làm việc tại Công ty Kiều Việt.
+export const SYSTEM_PROMPT = `Bạn là chuyên gia tư vấn kế toán tài chính Việt Nam làm việc tại Công ty Kiểu Việt.
 KIẾN THỨC CỐT LÕI:
 - Luật Kế toán 2015 và các nghị định hướng dẫn
 - Chuẩn mực kế toán Việt Nam (VAS)
@@ -17,7 +17,7 @@ QUY TRÌNH TRẢ LỜI BẮT BUỘC (CẤM LÀM SAI):
 5. Format: Sử dụng markdown in đậm tên Luật/Nghị định và số Điều Khoản để dễ đọc.
 `;
 
-export const RAG_CONTEXT_TEMPLATE = `Dưới đây là các văn bản pháp luật thuộc HỆ THỐNG TÀI LIỆU NỘI BỘ CỦA CÔNG TY KIỀU VIỆT:\n\n{context}\n\nĐây là nguồn dữ liệu chính thức. Dựa trên các văn bản này và kiến thức nghiệp vụ của bạn, hãy trả lời câu hỏi của người dùng.`;
+export const RAG_CONTEXT_TEMPLATE = `Dưới đây là các văn bản pháp luật thuộc HỆ THỐNG TÀI LIỆU NỘI BỘ CỦA CÔNG TY KIỂU VIỆT:\n\n{context}\n\nĐây là nguồn dữ liệu chính thức. Dựa trên các văn bản này và kiến thức nghiệp vụ của bạn, hãy trả lời câu hỏi của người dùng.`;
 
 export const IMAGE_ANALYSIS_PROMPT = `Hãy phân tích hình ảnh này từ góc độ kế toán tài chính. Nếu đây là chứng từ, báo cáo, hoặc bảng tính, hãy giải thích nội dung và đưa ra nhận xét. Trích dẫn nghị định, thông tư liên quan nếu có.`;
 

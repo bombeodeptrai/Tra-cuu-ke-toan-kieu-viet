@@ -38,7 +38,7 @@ export const FORMS_DATA: FormItem[] = [
     "format": "Word",
     "fileName": "Giay_de_nghi_tam_ung_Mau_03_TT.doc",
     "fileUrl": "/data/forms/Giay_de_nghi_tam_ung_Mau_03_TT.doc",
-    "description": "Cơ sở để Ban Giám đốc Kiểu Việt xét duyệt tạm ứng tiền mặt thi công công trình hoặc mua sắm vật tư."
+    "description": "Cơ sở để Ban Giám đốc Kiểu Việt xét duyệt tạm ứng tiền mặt thực hiện công việc hoặc mua sắm vật tư."
   },
   {
     "id": "f4",
@@ -48,7 +48,7 @@ export const FORMS_DATA: FormItem[] = [
     "format": "Excel",
     "fileName": "Giay_thanh_toan_tam_ung_Mau_04_TT.xls",
     "fileUrl": "/data/forms/Giay_thanh_toan_tam_ung_Mau_04_TT.xls",
-    "description": "Bảng đối chiếu tổng số tiền đã tạm ứng và chi phí thực tế phát sinh tại công trường Kiểu Việt."
+    "description": "Bảng đối chiếu tổng số tiền đã tạm ứng và chi phí thực tế phát sinh tại Công ty Kiểu Việt."
   },
   {
     "id": "f5",
@@ -58,17 +58,17 @@ export const FORMS_DATA: FormItem[] = [
     "format": "Word",
     "fileName": "Giay_de_nghi_thanh_toan_Mau_05_TT.doc",
     "fileUrl": "/data/forms/Giay_de_nghi_thanh_toan_Mau_05_TT.doc",
-    "description": "Văn bản đề xuất thanh toán các chi phí mua ngoài, tiếp khách, sửa chữa máy móc thiết bị công trình."
+    "description": "Văn bản đề xuất thanh toán các chi phí mua ngoài, tiếp khách, sửa chữa máy móc thiết bị."
   },
   {
     "id": "f6",
     "code": "01a-LĐTL",
-    "name": "Bảng chấm công công trình (Mẫu 01a-LĐTL)",
+    "name": "Bảng chấm công (Mẫu 01a-LĐTL)",
     "type": "Lao động",
     "format": "Excel",
     "fileName": "Bang_cham_cong_Mau_01a_LDTL.xls",
     "fileUrl": "/data/forms/Bang_cham_cong_Mau_01a_LDTL.xls",
-    "description": "Theo dõi ngày công thực tế làm việc, tăng ca, nghỉ lễ của cán bộ kỹ sư và công nhân công trường."
+    "description": "Theo dõi ngày công thực tế làm việc, tăng ca, nghỉ lễ của cán bộ nhân viên Công ty Kiểu Việt."
   },
   {
     "id": "f7",
@@ -78,7 +78,7 @@ export const FORMS_DATA: FormItem[] = [
     "format": "Excel",
     "fileName": "Bang_thanh_toan_luong_Mau_02_LDTL.xls",
     "fileUrl": "/data/forms/Bang_thanh_toan_luong_Mau_02_LDTL.xls",
-    "description": "Bảng tính lương chi tiết: lương cơ bản, phụ cấp công trình, trích trừ BHXH/BHYT (10.5%), thuế TNCN và thực lĩnh."
+    "description": "Bảng tính lương chi tiết: lương cơ bản, phụ cấp, trích trừ BHXH/BHYT (10.5%), thuế TNCN và thực lĩnh."
   },
   {
     "id": "f8",
@@ -88,7 +88,7 @@ export const FORMS_DATA: FormItem[] = [
     "format": "Word",
     "fileName": "Bien_ban_giao_nhan_TSCD_Mau_01_TSCD.doc",
     "fileUrl": "/data/forms/Bien_ban_giao_nhan_TSCD_Mau_01_TSCD.doc",
-    "description": "Xác nhận nghiệm thu đưa máy móc thiết bị thi công xây lắp (xe xúc, cẩu tháp, xe ủi) vào sử dụng."
+    "description": "Xác nhận nghiệm thu đưa máy móc thiết bị vào quản lý và sử dụng tại Công ty Kiểu Việt."
   },
   {
     "id": "f9",
@@ -108,7 +108,7 @@ export const FORMS_DATA: FormItem[] = [
     "format": "Excel",
     "fileName": "To_khai_quyet_toan_TNDN_Mau_03_TNDN.xls",
     "fileUrl": "/data/forms/To_khai_quyet_toan_TNDN_Mau_03_TNDN.xls",
-    "description": "Tờ khai quyết toán thuế TNDN năm cho doanh nghiệp xây lắp Kiểu Việt theo quy định TT 80."
+    "description": "Tờ khai quyết toán thuế TNDN năm cho Công ty Kiểu Việt theo quy định TT 80."
   },
   {
     "id": "f11",
@@ -133,41 +133,41 @@ export const FORMS_DATA: FormItem[] = [
   {
     "id": "f13",
     "code": "01/VT",
-    "name": "Phiếu nhập kho vật tư công trình (Mẫu 01-VT)",
+    "name": "Phiếu nhập kho vật tư (Mẫu 01-VT)",
     "type": "Vật tư",
     "format": "Excel",
     "fileName": "Phieu_nhap_kho_Mau_01_VT.xls",
     "fileUrl": "/data/forms/Phieu_nhap_kho_Mau_01_VT.xls",
-    "description": "Ghi nhận nhập kho xi măng, sắt thép, cát đá phục vụ thi công công trình của Kiểu Việt."
+    "description": "Ghi nhận nhập kho vật tư, nguyên vật liệu, thiết bị của Công ty Kiểu Việt."
   },
   {
     "id": "f14",
     "code": "02/VT",
-    "name": "Phiếu xuất kho vật tư thi công (Mẫu 02-VT)",
+    "name": "Phiếu xuất kho vật tư (Mẫu 02-VT)",
     "type": "Vật tư",
     "format": "Excel",
     "fileName": "Phieu_xuat_kho_Mau_02_VT.xls",
     "fileUrl": "/data/forms/Phieu_xuat_kho_Mau_02_VT.xls",
-    "description": "Xuất kho vật tư trực tiếp cho đội thi công công trường, căn cứ hạch toán TK 154 theo TT 99/2025."
+    "description": "Xuất kho vật tư phục vụ sản xuất kinh doanh, căn cứ hạch toán TK 154 theo TT 99/2025."
   },
   {
     "id": "f15",
     "code": "03a-KL",
     "name": "Bảng xác định giá trị KL công việc hoàn thành (Mẫu 03a)",
-    "type": "Xây lắp",
+    "type": "Hợp đồng",
     "format": "Excel",
     "fileName": "Bang_xac_dinh_KL_hoan_thanh_Mau_03a.xls",
     "fileUrl": "/data/forms/Bang_xac_dinh_KL_hoan_thanh_Mau_03a.xls",
-    "description": "Bảng thanh toán khối lượng A-B hoàn thành giai đoạn theo Nghị định 99/2021 và hợp đồng Kiểu Việt."
+    "description": "Bảng thanh toán khối lượng hoàn thành giai đoạn theo hợp đồng kinh tế của Công ty Kiểu Việt."
   },
   {
     "id": "f16",
     "code": "BBNT-XD",
-    "name": "Biên bản nghiệm thu hạng mục công trình xây dựng",
-    "type": "Xây lắp",
+    "name": "Biên bản nghiệm thu hoàn thành công việc / dịch vụ",
+    "type": "Hợp đồng",
     "format": "Word",
     "fileName": "Bien_ban_nghiem_thu_xay_dung_BBNT.doc",
     "fileUrl": "/data/forms/Bien_ban_nghiem_thu_xay_dung_BBNT.doc",
-    "description": "Biên bản nghiệm thu kỹ thuật A-B đưa hạng mục xây lắp vào thanh quyết toán theo NĐ 06/2021."
+    "description": "Biên bản nghiệm thu kỹ thuật đưa hạng mục công việc vào thanh quyết toán theo hợp đồng Kiểu Việt."
   }
 ];

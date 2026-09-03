@@ -30,11 +30,11 @@ export function Sidebar({ onClose }: SidebarProps) {
     <div className="flex h-full w-full flex-col bg-card border-r border-border shadow-sm">
       <div className="p-6 flex items-center gap-3">
         <div className="bg-white px-2 py-1.5 rounded-lg shadow-sm border border-border/50">
-          <img src="https://kieuviet.com.vn/wp-content/uploads/2024/10/logo-kieu-viet.png" alt="Kiều Việt" className="h-8 object-contain" />
+          <img src="https://kieuviet.com.vn/wp-content/uploads/2024/10/logo-kieu-viet.png" alt="Kiểu Việt" className="h-8 object-contain" />
         </div>
         <div>
           <h2 className="font-bold text-base tracking-tight text-foreground leading-tight">Tra Cứu Kế Toán</h2>
-          <p className="text-[10px] uppercase tracking-wider text-muted-foreground font-semibold mt-0.5">Nội bộ Kiều Việt</p>
+          <p className="text-[10px] uppercase tracking-wider text-muted-foreground font-semibold mt-0.5">Nội bộ Kiểu Việt</p>
         </div>
       </div>
       
