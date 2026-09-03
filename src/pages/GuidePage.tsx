@@ -8,7 +8,6 @@ import {
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { useNavigate } from 'react-router-dom';
 
 export function GuidePage() {
@@ -25,31 +24,27 @@ export function GuidePage() {
 
   const tableOfContents = [
     { id: 'overview', title: '1. Tổng quan & Kiến trúc hệ thống', icon: LayoutDashboard },
-    { id: 'search-library', title: '2. Thư viện 55 văn bản & Tải PDF Drive', icon: LibraryIcon },
+    { id: 'search-library', title: '2. Thư viện 55 văn bản & Tải PDF Drive', icon: Layers },
     { id: 'smart-toc', title: '3. Mục lục thông minh & Đọc luật đa cỡ chữ', icon: FileText },
-    { id: 'legal-diff', title: '4. Bảng đối chiếu điểm mới (Diff Viewer)', icon: ArrowRightLeft },
+    { id: 'legal-diff', title: '4. Đối chiếu điểm mới (Toàn bộ 55 văn bản)', icon: ArrowRightLeft },
     { id: 'calculators', title: '5. Bộ tiện ích tính thuế & lương 2026', icon: Calculator },
-    { id: 'chart-accounts', title: '6. Hệ thống tài khoản TT 99/2025', icon: BookOpen },
+    { id: 'chart-accounts', title: '6. Hệ thống tài khoản TT 99/2025/TT-BTC', icon: BookOpen },
     { id: 'ai-assistant', title: '7. Trợ lý AI hỏi đáp pháp lý & bóc tách ảnh/PDF', icon: MessageSquareText },
     { id: 'notes-handbook', title: '8. Bôi đen trích dẫn & Sổ tay kế toán', icon: Edit3 },
     { id: 'pdf-audit', title: '9. Góp ý & Tự động bóc tách PDF trên trình duyệt', icon: CloudUpload },
     { id: 'faqs', title: '10. Câu hỏi thường gặp (FAQs)', icon: HelpCircle },
   ];
 
-  function LibraryIcon(props: any) {
-    return <Layers {...props} />;
-  }
-
   return (
     <div className="container max-w-6xl mx-auto px-4 py-8 space-y-10 animate-in fade-in duration-300">
       {/* Banner Tiêu Đề Doanh Nghiệp */}
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-emerald-800 via-emerald-700 to-teal-800 text-white p-8 md:p-12 shadow-lg">
+      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-emerald-800 via-emerald-700 to-teal-800 text-white p-6 sm:p-8 md:p-12 shadow-lg">
         <div className="relative z-10 max-w-3xl space-y-4">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/15 backdrop-blur-md text-emerald-100 text-xs font-semibold border border-white/20">
             <Building2 className="h-3.5 w-3.5 text-emerald-300" />
             CÔNG TY CỔ PHẦN XÂY LẮP KIỂU VIỆT
           </div>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl font-black tracking-tight leading-tight">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl font-black tracking-tight leading-tight">
             Cẩm Nang Hướng Dẫn Sử Dụng Hệ Thống Tra Cứu Kế Toán & Pháp Luật
           </h1>
           <p className="text-sm md:text-base text-emerald-100/90 leading-relaxed font-normal">
@@ -112,11 +107,11 @@ export function GuidePage() {
           
           {/* PHẦN 1: TỔNG QUAN HỆ THỐNG */}
           <section id="overview" className="space-y-4 scroll-mt-24">
-            <div className="flex items-center gap-2 border-b border-border pb-3">
+            <div className="flex items-center gap-2.5 border-b border-border pb-3">
               <div className="p-2 rounded-xl bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300">
                 <LayoutDashboard className="h-5 w-5" />
               </div>
-              <h2 className="text-xl md:text-2xl font-bold tracking-tight">1. Tổng Quan & Kiến Trúc Hệ Thống</h2>
+              <h2 className="text-lg sm:text-xl md:text-2xl font-bold tracking-tight">1. Tổng Quan & Kiến Trúc Hệ Thống</h2>
             </div>
             
             <p className="text-sm leading-relaxed text-muted-foreground">
@@ -137,7 +132,7 @@ export function GuidePage() {
                   <FileSpreadsheet className="h-4 w-4" /> Đồng bộ Google Sheet
                 </span>
                 <p className="text-muted-foreground leading-relaxed">
-                  Kết nối trực tiếp vào Google Sheet `Database Tra Cuu Ke Toan`, cho phép Admin thêm sửa xóa trực quan từ xa.
+                  Kết nối trực tiếp vào Google Sheet cơ sở dữ liệu nội bộ Kiểu Việt, cho phép Admin thêm sửa xóa trực quan từ xa.
                 </p>
               </div>
               <div className="p-4 rounded-xl border border-teal-200/80 bg-teal-50/40 dark:bg-teal-950/20 space-y-2">
@@ -153,15 +148,27 @@ export function GuidePage() {
 
           {/* PHẦN 2: THƯ VIỆN & TẢI PDF DRIVE */}
           <section id="search-library" className="space-y-4 scroll-mt-24">
-            <div className="flex items-center gap-2 border-b border-border pb-3">
-              <div className="p-2 rounded-xl bg-blue-100 text-blue-800 dark:bg-blue-950/60 dark:text-blue-300">
-                <Layers className="h-5 w-5" />
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border pb-3">
+              <div className="flex items-start sm:items-center gap-2.5 min-w-0">
+                <div className="p-2 rounded-xl bg-blue-100 text-blue-800 dark:bg-blue-950/60 dark:text-blue-300 shrink-0 mt-0.5 sm:mt-0">
+                  <Layers className="h-5 w-5" />
+                </div>
+                <h2 className="text-lg sm:text-xl md:text-2xl font-bold tracking-tight text-foreground">
+                  2. Thư Viện 55 Văn Bản & Cơ Chế Tải PDF Drive
+                </h2>
               </div>
-              <h2 className="text-xl md:text-2xl font-bold tracking-tight">2. Thư Viện 55 Văn Bản & Cơ Chế Tải PDF Drive</h2>
+              <Button 
+                size="sm" 
+                variant="outline" 
+                onClick={() => navigate('/thu-vien')}
+                className="h-8 text-xs gap-1.5 shrink-0 border-blue-300 dark:border-blue-800 text-blue-700 dark:text-blue-300 hover:bg-blue-50 dark:hover:bg-blue-950/40 w-fit"
+              >
+                <Layers className="h-3.5 w-3.5" /> Mở Thư Viện
+              </Button>
             </div>
 
             <p className="text-sm leading-relaxed text-muted-foreground">
-              Kho thư viện bao phủ 4 trục nghiệp vụ cốt lõi: <strong>Kế toán doanh nghiệp</strong>, <strong>Chính sách thuế</strong>, <strong>Lao động tiền lương & BHXH</strong>, và <strong>Hợp đồng xây dựng</strong>.
+              Kho thư viện bao phủ toàn bộ 55 văn bản pháp luật thuộc 5 nhóm chuyên đề: <strong>Chế độ kế toán & Tài sản</strong>, <strong>Chính sách thuế & Hóa đơn điện tử</strong>, <strong>Lao động tiền lương & BHXH</strong>, <strong>Hợp đồng & Chi phí xây lắp</strong>, và <strong>Địa chất khoáng sản & Thuế tài nguyên</strong>.
             </p>
 
             <div className="space-y-3 text-xs">
@@ -173,11 +180,11 @@ export function GuidePage() {
                 <div className="space-y-2 pl-2">
                   <div>
                     <strong className="text-blue-700 dark:text-blue-300">• Tải PDF & Phụ lục (Google Drive):</strong>
-                    <span className="text-muted-foreground ml-1">Tải file PDF chính thức được lưu trên thư mục Google Drive của Kiểu Việt (`Kiểu Việt - Kho Văn Bản PDF`). Tốc độ tải tối đa, mở được trên mọi thiết bị.</span>
+                    <span className="text-muted-foreground ml-1">Tải file PDF chính thức được lưu trên thư mục Google Drive của Kiểu Việt (thư mục "Kiểu Việt - Kho Văn Bản PDF"). Tốc độ tải tối đa, mở được trên mọi thiết bị.</span>
                   </div>
                   <div>
                     <strong className="text-emerald-700 dark:text-emerald-300">• Tải File Biểu Mẫu (Miễn Phí):</strong>
-                    <span className="text-muted-foreground ml-1">Mở liên kết tải trực tiếp các biểu mẫu Word/Excel, phụ lục đính kèm từ Hệ thống Pháp luật Việt Nam.</span>
+                    <span className="text-muted-foreground ml-1">Mở liên kết tải trực tiếp các biểu mẫu Word/Excel, phụ lục đính kèm từ Hệ thống Pháp luật Việt Nam (hoàn toàn miễn phí, không yêu cầu VIP).</span>
                   </div>
                   <div>
                     <strong className="text-foreground">• Hỏi AI về văn bản này:</strong>
@@ -190,11 +197,11 @@ export function GuidePage() {
 
           {/* PHẦN 3: MỤC LỤC THÔNG MINH & ĐỌC LUẬT */}
           <section id="smart-toc" className="space-y-4 scroll-mt-24">
-            <div className="flex items-center gap-2 border-b border-border pb-3">
+            <div className="flex items-center gap-2.5 border-b border-border pb-3">
               <div className="p-2 rounded-xl bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300">
                 <FileText className="h-5 w-5" />
               </div>
-              <h2 className="text-xl md:text-2xl font-bold tracking-tight">3. Mục Lục Điều Khoản Thông Minh & Trình Đọc Luật Đa Cỡ Chữ</h2>
+              <h2 className="text-lg sm:text-xl md:text-2xl font-bold tracking-tight">3. Mục Lục Điều Khoản Thông Minh & Trình Đọc Luật Đa Cỡ Chữ</h2>
             </div>
 
             <p className="text-sm leading-relaxed text-muted-foreground">
@@ -222,8 +229,8 @@ export function GuidePage() {
                   Thanh công cụ đọc luật chuyên nghiệp
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  • <strong>Bộ chỉnh cỡ chữ:</strong> Nút `[ A- | 16px | A+ ]` cho phép phóng to thu nhỏ văn bản từ 13px đến 24px, tự động lưu vào bộ nhớ máy để đọc luật nhiều giờ không mỏi mắt.
-                  <br />• <strong>Sao chép trích dẫn:</strong> 1-click để copy ngay số hiệu và trích dẫn chuẩn xác, thuận tiện paste vào email hoặc báo cáo gửi Sếp.
+                  • <strong>Bộ chỉnh cỡ chữ:</strong> Nút bấm tiện lợi <code className="px-1.5 py-0.5 rounded bg-muted font-mono font-bold text-foreground">A- / 16px / A+</code> cho phép phóng to thu nhỏ văn bản từ 13px đến 24px, tự động lưu vào bộ nhớ máy để đọc luật nhiều giờ không mỏi mắt.
+                  <br />• <strong>Sao chép trích dẫn:</strong> 1-click để copy ngay số hiệu và trích dẫn chuẩn xác, thuận tiện paste vào email hoặc báo cáo gửi Ban Giám đốc.
                 </p>
               </div>
             </div>
@@ -231,19 +238,31 @@ export function GuidePage() {
 
           {/* PHẦN 4: DIFF COMPARISON */}
           <section id="legal-diff" className="space-y-4 scroll-mt-24">
-            <div className="flex items-center gap-2 border-b border-border pb-3">
-              <div className="p-2 rounded-xl bg-amber-100 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300">
-                <ArrowRightLeft className="h-5 w-5" />
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border pb-3">
+              <div className="flex items-start sm:items-center gap-2.5 min-w-0">
+                <div className="p-2 rounded-xl bg-amber-100 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 shrink-0 mt-0.5 sm:mt-0">
+                  <ArrowRightLeft className="h-5 w-5" />
+                </div>
+                <h2 className="text-lg sm:text-xl md:text-2xl font-bold tracking-tight text-foreground">
+                  4. Bảng Đối Chiếu Điểm Mới (Toàn Bộ 55 Văn Bản)
+                </h2>
               </div>
-              <h2 className="text-xl md:text-2xl font-bold tracking-tight">4. Bảng Đối Chiếu Điểm Mới (Legal Diff Viewer)</h2>
+              <Button 
+                size="sm" 
+                variant="outline" 
+                onClick={() => navigate('/so-sanh')}
+                className="h-8 text-xs gap-1.5 shrink-0 border-amber-300 dark:border-amber-800 text-amber-700 dark:text-amber-300 hover:bg-amber-50 dark:hover:bg-amber-950/40 w-fit"
+              >
+                <ArrowRightLeft className="h-3.5 w-3.5" /> Mở Trung Tâm So Sánh
+              </Button>
             </div>
 
             <p className="text-sm leading-relaxed text-muted-foreground">
-              Tab <strong>"Điểm mới & So sánh"</strong> tại trang chi tiết giúp kế toán viên nắm bắt ngay những thay đổi mà không phải so sánh thủ công giữa 2 cuốn văn bản:
+              Hệ thống cung cấp chuyên trang riêng biệt và tab <strong>"Điểm mới & So sánh"</strong> bao phủ trọn vẹn <strong>100% cả 55 văn bản pháp luật</strong>, đối chiếu 2 cột Cũ vs Mới kèm phân tích rủi ro thực tế cho Công ty Kiểu Việt:
             </p>
 
             <div className="p-4 bg-card border border-border rounded-xl space-y-3 text-xs">
-              <div className="font-bold text-foreground text-sm">Các bộ đối chiếu trọng tâm được tích hợp sẵn:</div>
+              <div className="font-bold text-foreground text-sm">Một số bộ đối chiếu trọng tâm nổi bật:</div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <div className="p-3 bg-muted/40 rounded-lg space-y-1">
                   <strong className="text-emerald-700 dark:text-emerald-400">• TT 99/2025 vs TT 200/2014:</strong>
@@ -267,11 +286,23 @@ export function GuidePage() {
 
           {/* PHẦN 5: BỘ TIỆN ÍCH TÍNH TOÁN */}
           <section id="calculators" className="space-y-4 scroll-mt-24">
-            <div className="flex items-center gap-2 border-b border-border pb-3">
-              <div className="p-2 rounded-xl bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300">
-                <Calculator className="h-5 w-5" />
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border pb-3">
+              <div className="flex items-start sm:items-center gap-2.5 min-w-0">
+                <div className="p-2 rounded-xl bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300 shrink-0 mt-0.5 sm:mt-0">
+                  <Calculator className="h-5 w-5" />
+                </div>
+                <h2 className="text-lg sm:text-xl md:text-2xl font-bold tracking-tight text-foreground">
+                  5. Bộ Tiện Ích Kế Toán Thực Chiến
+                </h2>
               </div>
-              <h2 className="text-xl md:text-2xl font-bold tracking-tight">5. Bộ Tiện Ích Kế Toán Thực Chiến (`/tien-ich`)</h2>
+              <Button 
+                size="sm" 
+                variant="outline" 
+                onClick={() => navigate('/tien-ich')}
+                className="h-8 text-xs gap-1.5 shrink-0 border-emerald-300 dark:border-emerald-800 text-emerald-700 dark:text-emerald-300 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 w-fit"
+              >
+                <Calculator className="h-3.5 w-3.5" /> Mở Bộ Tiện Ích
+              </Button>
             </div>
 
             <p className="text-sm leading-relaxed text-muted-foreground">
@@ -310,7 +341,7 @@ export function GuidePage() {
                   <Badge variant="outline" className="border-red-500 text-red-700 dark:text-red-300">0.03%/ngày - Luật 38/2019</Badge>
                 </div>
                 <p className="text-muted-foreground leading-relaxed">
-                  Nhập số tiền nợ thuế, ngày đến hạn và ngày thực nộp ➔ Tự động tính ra số ngày chậm và tiền chậm nộp theo công thức `Tiền nợ × 0.03% × Ngày`.
+                  Nhập số tiền nợ thuế, ngày đến hạn và ngày thực nộp ➔ Tự động tính ra số ngày chậm và tiền chậm nộp theo công thức: <span className="font-semibold text-foreground">Tiền nợ × 0.03% × Số ngày chậm nộp</span>.
                   <br />Kèm nhắc nhở nghiệp vụ: Tiền chậm nộp thuế KHÔNG được tính vào chi phí được trừ khi tính thuế TNDN.
                 </p>
               </div>
@@ -319,11 +350,23 @@ export function GuidePage() {
 
           {/* PHẦN 6: HỆ THỐNG TÀI KHOẢN TT99 */}
           <section id="chart-accounts" className="space-y-4 scroll-mt-24">
-            <div className="flex items-center gap-2 border-b border-border pb-3">
-              <div className="p-2 rounded-xl bg-purple-100 text-purple-800 dark:bg-purple-950/60 dark:text-purple-300">
-                <BookOpen className="h-5 w-5" />
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border pb-3">
+              <div className="flex items-start sm:items-center gap-2.5 min-w-0">
+                <div className="p-2 rounded-xl bg-purple-100 text-purple-800 dark:bg-purple-950/60 dark:text-purple-300 shrink-0 mt-0.5 sm:mt-0">
+                  <BookOpen className="h-5 w-5" />
+                </div>
+                <h2 className="text-lg sm:text-xl md:text-2xl font-bold tracking-tight text-foreground">
+                  6. Hệ Thống Tài Khoản Kế Toán TT 99/2025/TT-BTC
+                </h2>
               </div>
-              <h2 className="text-xl md:text-2xl font-bold tracking-tight">6. Hệ Thống Tài Khoản Kế Toán TT 99/2025/TT-BTC (`/tai-khoan`)</h2>
+              <Button 
+                size="sm" 
+                variant="outline" 
+                onClick={() => navigate('/tai-khoan')}
+                className="h-8 text-xs gap-1.5 shrink-0 border-purple-300 dark:border-purple-800 text-purple-700 dark:text-purple-300 hover:bg-purple-50 dark:hover:bg-purple-950/40 w-fit"
+              >
+                <BookOpen className="h-3.5 w-3.5" /> Mở Hệ Thống Tài Khoản
+              </Button>
             </div>
 
             <p className="text-sm leading-relaxed text-muted-foreground">
@@ -341,11 +384,23 @@ export function GuidePage() {
 
           {/* PHẦN 7: TRỢ LÝ AI HỎI ĐÁP */}
           <section id="ai-assistant" className="space-y-4 scroll-mt-24">
-            <div className="flex items-center gap-2 border-b border-border pb-3">
-              <div className="p-2 rounded-xl bg-indigo-100 text-indigo-800 dark:bg-indigo-950/60 dark:text-indigo-300">
-                <MessageSquareText className="h-5 w-5" />
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border pb-3">
+              <div className="flex items-start sm:items-center gap-2.5 min-w-0">
+                <div className="p-2 rounded-xl bg-indigo-100 text-indigo-800 dark:bg-indigo-950/60 dark:text-indigo-300 shrink-0 mt-0.5 sm:mt-0">
+                  <MessageSquareText className="h-5 w-5" />
+                </div>
+                <h2 className="text-lg sm:text-xl md:text-2xl font-bold tracking-tight text-foreground">
+                  7. Trợ Lý AI Pháp Lý & Bóc Tách Văn Bản Hình Ảnh/PDF
+                </h2>
               </div>
-              <h2 className="text-xl md:text-2xl font-bold tracking-tight">7. Trợ Lý AI Pháp Lý & Bóc Tách Văn Bản Hình Ảnh/PDF</h2>
+              <Button 
+                size="sm" 
+                variant="outline" 
+                onClick={() => navigate('/hoi-ai')}
+                className="h-8 text-xs gap-1.5 shrink-0 border-indigo-300 dark:border-indigo-800 text-indigo-700 dark:text-indigo-300 hover:bg-indigo-50 dark:hover:bg-indigo-950/40 w-fit"
+              >
+                <MessageSquareText className="h-3.5 w-3.5" /> Mở Trợ Lý AI
+              </Button>
             </div>
 
             <p className="text-sm leading-relaxed text-muted-foreground">
@@ -357,8 +412,8 @@ export function GuidePage() {
                 <h4 className="font-bold text-foreground">3 Phương thức tương tác thông minh với AI:</h4>
                 <ul className="space-y-1.5 pl-3 list-disc text-muted-foreground">
                   <li><strong>Hỏi đáp tự nhiên:</strong> Gõ trực tiếp câu hỏi (ví dụ: <em>"Hợp đồng trọn gói xây lắp có được điều chỉnh giá khi giá thép tăng không?"</em>), AI sẽ viện dẫn chính xác Điều 3 Nghị định 50/2021 và Điều 37 Nghị định 37/2015.</li>
-                  <li><strong>Dán ảnh chụp văn bản (<kbd className="bg-muted px-1 rounded border">Ctrl + V</kbd>):</strong> Chụp một đoạn công văn, hóa đơn hoặc biên bản nghiệm thu dán thẳng vào khung chat ➔ AI tự bóc tách chữ và tư vấn rủi ro thuế.</li>
-                  <li><strong>Đính kèm file PDF:</strong> Tải văn bản bản scan lên để AI đọc và tóm tắt nội dung chính.</li>
+                  <li><strong>Dán ảnh chụp văn bản (Ctrl + V):</strong> Chụp một đoạn công văn, hóa đơn hoặc biên bản nghiệm thu dán thẳng vào khung chat ➔ AI tự bóc tách chữ và tư vấn rủi ro thuế.</li>
+                  <li><strong>Đính kèm file PDF:</strong> Tải văn bản scan lên để AI đọc và tóm tắt nội dung chính.</li>
                 </ul>
               </div>
             </div>
@@ -366,11 +421,23 @@ export function GuidePage() {
 
           {/* PHẦN 8: SỔ TAY KẾ TOÁN */}
           <section id="notes-handbook" className="space-y-4 scroll-mt-24">
-            <div className="flex items-center gap-2 border-b border-border pb-3">
-              <div className="p-2 rounded-xl bg-amber-100 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300">
-                <Edit3 className="h-5 w-5" />
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border pb-3">
+              <div className="flex items-start sm:items-center gap-2.5 min-w-0">
+                <div className="p-2 rounded-xl bg-amber-100 text-amber-800 dark:bg-amber-950/60 dark:text-amber-300 shrink-0 mt-0.5 sm:mt-0">
+                  <Edit3 className="h-5 w-5" />
+                </div>
+                <h2 className="text-lg sm:text-xl md:text-2xl font-bold tracking-tight text-foreground">
+                  8. Bôi Đen Trích Dẫn & Sổ Tay Kế Toán Cá Nhân
+                </h2>
               </div>
-              <h2 className="text-xl md:text-2xl font-bold tracking-tight">8. Bôi Đen Trích Dẫn & Sổ Tay Kế Toán Cá Nhân (`/so-tay`)</h2>
+              <Button 
+                size="sm" 
+                variant="outline" 
+                onClick={() => navigate('/so-tay')}
+                className="h-8 text-xs gap-1.5 shrink-0 border-amber-300 dark:border-amber-800 text-amber-700 dark:text-amber-300 hover:bg-amber-50 dark:hover:bg-amber-950/40 w-fit"
+              >
+                <Edit3 className="h-3.5 w-3.5" /> Mở Sổ Tay Kế Toán
+              </Button>
             </div>
 
             <p className="text-sm leading-relaxed text-muted-foreground">
@@ -389,11 +456,11 @@ export function GuidePage() {
 
           {/* PHẦN 9: GÓP Ý & BÓC TÁCH PDF TRÊN TRÌNH DUYỆT */}
           <section id="pdf-audit" className="space-y-4 scroll-mt-24">
-            <div className="flex items-center gap-2 border-b border-border pb-3">
+            <div className="flex items-center gap-2.5 border-b border-border pb-3">
               <div className="p-2 rounded-xl bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300">
                 <CloudUpload className="h-5 w-5" />
               </div>
-              <h2 className="text-xl md:text-2xl font-bold tracking-tight">9. Góp Ý & Tự Động Bóc Tách PDF Trực Tiếp Trên Trình Duyệt</h2>
+              <h2 className="text-lg sm:text-xl md:text-2xl font-bold tracking-tight">9. Góp Ý & Tự Động Bóc Tách PDF Trực Tiếp Trên Trình Duyệt</h2>
             </div>
 
             <p className="text-sm leading-relaxed text-muted-foreground">
@@ -412,11 +479,11 @@ export function GuidePage() {
 
           {/* PHẦN 10: FAQS */}
           <section id="faqs" className="space-y-4 scroll-mt-24">
-            <div className="flex items-center gap-2 border-b border-border pb-3">
+            <div className="flex items-center gap-2.5 border-b border-border pb-3">
               <div className="p-2 rounded-xl bg-muted text-foreground">
                 <HelpCircle className="h-5 w-5 text-emerald-600" />
               </div>
-              <h2 className="text-xl md:text-2xl font-bold tracking-tight">10. Câu Hỏi Thường Gặp (FAQs)</h2>
+              <h2 className="text-lg sm:text-xl md:text-2xl font-bold tracking-tight">10. Câu Hỏi Thường Gặp (FAQs)</h2>
             </div>
 
             <div className="space-y-3 text-xs">
