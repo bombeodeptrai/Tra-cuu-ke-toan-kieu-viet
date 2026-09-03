@@ -53,6 +53,13 @@ export const CATEGORIES: Category[] = [
     description: 'Quy định tài chính, kế toán ngành khoáng sản',
     icon: 'Mountain',
   },
+  {
+    id: '8',
+    name: 'Nhân sự - Tiền lương',
+    slug: 'nhan-su',
+    description: 'Lao động, BHXH, Tiền lương',
+    icon: 'Users',
+  },
 ]
 
 export const DECREE_STATUS_LABELS: Record<string, { label: string; color: string }> = {
