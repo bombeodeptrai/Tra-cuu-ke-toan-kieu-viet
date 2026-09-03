@@ -60,6 +60,13 @@ export const CATEGORIES: Category[] = [
     description: 'Lao động, BHXH, Tiền lương',
     icon: 'Users',
   },
+  {
+    id: '9',
+    name: 'Quyết định',
+    slug: 'quyet-dinh',
+    description: 'Quyết định của các cơ quan quản lý nhà nước & BHXH',
+    icon: 'FileCheck',
+  },
 ]
 
 export const DECREE_STATUS_LABELS: Record<string, { label: string; color: string }> = {
@@ -76,6 +83,7 @@ export const CATEGORY_COLORS: Record<string, string> = {
   'hoa-don': 'border-l-orange-500',
   'thue': 'border-l-cyan-500',
   'khoang-san': 'border-l-yellow-600',
+  'quyet-dinh': 'border-l-indigo-500',
 }
 
 export const TAX_FIELDS = [

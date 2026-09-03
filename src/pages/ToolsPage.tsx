@@ -151,17 +151,17 @@ export function ToolsPage() {
       </div>
 
       <Tabs defaultValue="tncn" className="w-full space-y-6">
-        <TabsList className="grid grid-cols-3 max-w-2xl bg-muted/60 p-1 rounded-xl">
-          <TabsTrigger value="tncn" className="rounded-lg text-xs sm:text-sm font-semibold gap-2">
-            <Percent className="h-4 w-4" />
+        <TabsList className="flex w-full overflow-x-auto justify-start sm:grid sm:grid-cols-3 max-w-2xl bg-muted/60 p-1 rounded-xl gap-1">
+          <TabsTrigger value="tncn" className="rounded-lg text-xs sm:text-sm font-semibold gap-1.5 shrink-0 whitespace-nowrap px-3">
+            <Percent className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
             Tính Thuế TNCN
           </TabsTrigger>
-          <TabsTrigger value="payroll" className="rounded-lg text-xs sm:text-sm font-semibold gap-2">
-            <ArrowRightLeft className="h-4 w-4" />
+          <TabsTrigger value="payroll" className="rounded-lg text-xs sm:text-sm font-semibold gap-1.5 shrink-0 whitespace-nowrap px-3">
+            <ArrowRightLeft className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
             Gross ➔ Net & BHXH
           </TabsTrigger>
-          <TabsTrigger value="penalty" className="rounded-lg text-xs sm:text-sm font-semibold gap-2">
-            <AlertTriangle className="h-4 w-4" />
+          <TabsTrigger value="penalty" className="rounded-lg text-xs sm:text-sm font-semibold gap-1.5 shrink-0 whitespace-nowrap px-3">
+            <AlertTriangle className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
             Phạt Chậm Nộp Thuế
           </TabsTrigger>
         </TabsList>

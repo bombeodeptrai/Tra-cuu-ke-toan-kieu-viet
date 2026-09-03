@@ -35,10 +35,18 @@ export function LoginModal() {
             placeholder="Ví dụ: Liên, Nhựt, Kế toán 1..." 
             value={nameInput}
             onChange={(e) => setNameInput(e.target.value)}
-            className="text-center text-lg h-12"
+            className="text-center text-base h-12"
           />
-          <Button type="submit" className="w-full h-12 text-lg" disabled={!nameInput.trim()}>
+          <Button type="submit" className="w-full h-11 text-base bg-emerald-600 hover:bg-emerald-700 text-white font-semibold" disabled={!nameInput.trim()}>
             Bắt đầu làm việc
+          </Button>
+          <Button 
+            type="button" 
+            variant="ghost" 
+            onClick={() => login('Nhân viên Kiểu Việt')}
+            className="w-full h-9 text-xs text-muted-foreground hover:text-foreground"
+          >
+            Bỏ qua (Truy cập nhanh với tư cách Khách)
           </Button>
         </form>
       </DialogContent>

@@ -10,9 +10,9 @@ interface UserState {
 export const useUserStore = create<UserState>()(
   persist(
     (set) => ({
-      username: null,
+      username: 'Nhân viên Kiểu Việt',
       login: (name: string) => set({ username: name.trim() }),
-      logout: () => set({ username: null }),
+      logout: () => set({ username: 'Nhân viên Kiểu Việt' }),
     }),
     {
       name: 'kv-user-storage',

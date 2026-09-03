@@ -35,29 +35,33 @@ export function ChartOfAccountsPage() {
         </div>
       </div>
 
-      <div className="bg-card rounded-xl border border-border shadow-sm overflow-hidden">
+      <div className="bg-card rounded-xl border border-border shadow-xs overflow-hidden">
+        <div className="p-3 bg-muted/30 border-b border-border text-xs text-muted-foreground flex items-center justify-between md:hidden">
+          <span>Vuốt ngang để xem đầy đủ nội dung & mô tả</span>
+          <span>➔</span>
+        </div>
         <div className="overflow-x-auto">
-          <table className="w-full text-sm text-left">
-            <thead className="bg-muted/50 text-muted-foreground">
+          <table className="w-full min-w-[650px] text-sm text-left">
+            <thead className="bg-muted/50 text-muted-foreground text-xs uppercase tracking-wider">
               <tr>
-                <th className="px-6 py-4 font-medium">Mã TK</th>
-                <th className="px-6 py-4 font-medium">Tên tài khoản</th>
-                <th className="px-6 py-4 font-medium">Loại</th>
-                <th className="px-6 py-4 font-medium">Mô tả nội dung</th>
+                <th className="px-4 py-3 font-semibold w-24">Mã TK</th>
+                <th className="px-4 py-3 font-semibold w-48">Tên tài khoản</th>
+                <th className="px-4 py-3 font-semibold w-28">Loại</th>
+                <th className="px-4 py-3 font-semibold">Mô tả nội dung</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-border">
               {filteredAccounts.length > 0 ? (
                 filteredAccounts.map((acc) => (
                   <tr key={acc.code} className="hover:bg-muted/30 transition-colors">
-                    <td className="px-6 py-4 font-semibold text-primary">{acc.code}</td>
-                    <td className="px-6 py-4 font-medium text-foreground">{acc.name}</td>
-                    <td className="px-6 py-4">
-                      <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-secondary text-secondary-foreground">
+                    <td className="px-4 py-3.5 font-bold text-emerald-600 dark:text-emerald-400">{acc.code}</td>
+                    <td className="px-4 py-3.5 font-medium text-foreground">{acc.name}</td>
+                    <td className="px-4 py-3.5">
+                      <span className="inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-emerald-100 dark:bg-emerald-950/60 text-emerald-800 dark:text-emerald-300">
                         {acc.type}
                       </span>
                     </td>
-                    <td className="px-6 py-4 text-muted-foreground">{acc.description}</td>
+                    <td className="px-4 py-3.5 text-xs text-muted-foreground leading-relaxed">{acc.description}</td>
                   </tr>
                 ))
               ) : (
