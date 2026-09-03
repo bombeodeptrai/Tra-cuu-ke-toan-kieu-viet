@@ -187,7 +187,7 @@ export function DecreeDetailPage() {
 
   const category = CATEGORIES.find(c => c.slug === decree.category);
   const relatedDecrees = decrees.filter(d => d.category === decree.category && d.id !== decree.id).slice(0, 3);
-  const statusInfo = DECREE_STATUS_LABELS[decree.status];
+  const statusInfo = DECREE_STATUS_LABELS[decree.status] || DECREE_STATUS_LABELS.active;
   const isBookmarked = bookmarks.includes(decree.id);
 
   const handleShare = () => {
