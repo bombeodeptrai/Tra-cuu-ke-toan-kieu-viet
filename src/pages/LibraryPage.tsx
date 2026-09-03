@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { useSearchParams } from 'react-router-dom';
-import { Filter, LayoutGrid, List as ListIcon } from 'lucide-react';
+import { useSearchParams, useNavigate } from 'react-router-dom';
+import { Filter, LayoutGrid, List as ListIcon, ArrowRightLeft } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { CATEGORIES, TAX_FIELDS } from '@/lib/utils/constants';
 import { DecreeCard } from '@/components/decree/DecreeCard';
@@ -14,6 +14,7 @@ export function LibraryPage() {
   const [activeCategory, setActiveCategory] = useState(initialCategory);
   const [activeYear, setActiveYear] = useState('all');
   const [activeTaxField, setActiveTaxField] = useState('all');
+  const navigate = useNavigate();
   
   const { viewMode, setViewMode } = useDecreeStore();
   const { filteredDecrees, isLoading } = useDecrees('', activeCategory, 'all', 1, 1000);
@@ -36,21 +37,33 @@ export function LibraryPage() {
           <p className="text-muted-foreground">Khám phá và tra cứu toàn bộ văn bản pháp luật về kế toán, tài chính.</p>
         </div>
         
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
           <Button 
-            variant={viewMode === 'grid' ? 'default' : 'outline'} 
-            size="icon"
-            onClick={() => setViewMode('grid')}
+            onClick={() => navigate('/so-sanh')}
+            variant="outline"
+            className="gap-2 text-xs font-semibold border-emerald-300 text-emerald-700 bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/40 dark:border-emerald-800 dark:text-emerald-300 h-9"
           >
-            <LayoutGrid className="h-4 w-4" />
+            <ArrowRightLeft className="h-4 w-4 text-emerald-600" />
+            Xem So Sánh Điểm Mới (18 Văn Bản)
           </Button>
-          <Button 
-            variant={viewMode === 'list' ? 'default' : 'outline'} 
-            size="icon"
-            onClick={() => setViewMode('list')}
-          >
-            <ListIcon className="h-4 w-4" />
-          </Button>
+          <div className="flex items-center gap-1 border border-border p-0.5 rounded-lg bg-muted/40">
+            <Button 
+              variant={viewMode === 'grid' ? 'default' : 'ghost'} 
+              size="icon"
+              className="h-8 w-8"
+              onClick={() => setViewMode('grid')}
+            >
+              <LayoutGrid className="h-4 w-4" />
+            </Button>
+            <Button 
+              variant={viewMode === 'list' ? 'default' : 'ghost'} 
+              size="icon"
+              className="h-8 w-8"
+              onClick={() => setViewMode('list')}
+            >
+              <ListIcon className="h-4 w-4" />
+            </Button>
+          </div>
         </div>
       </div>
 

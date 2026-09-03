@@ -160,23 +160,23 @@ export function HomePage() {
         </div>
 
         <div 
-          onClick={() => navigate('/thu-vien/tt-99-2025')}
+          onClick={() => navigate('/so-sanh')}
           className="group p-5 bg-card border border-teal-200/80 dark:border-teal-800/40 rounded-2xl shadow-soft hover:shadow-float hover:border-teal-400 cursor-pointer transition-all duration-300 flex flex-col justify-between hover:-translate-y-1"
         >
           <div>
             <div className="w-10 h-10 rounded-xl bg-teal-100 text-teal-800 dark:bg-teal-900/50 dark:text-teal-300 flex items-center justify-center mb-3 group-hover:scale-110 transition-transform">
-              <FileText className="w-5 h-5" />
+              <ArrowRightLeft className="w-5 h-5 text-teal-600" />
             </div>
             <h3 className="font-bold text-sm text-foreground group-hover:text-teal-700 transition-colors flex items-center justify-between">
-              Điểm Mới Thông Tư 99/2025
+              Đối Chiếu Điểm Mới (18 Văn Bản)
               <ArrowUpRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity text-teal-600" />
             </h3>
             <p className="text-xs text-muted-foreground mt-1 line-clamp-2">
-              Đối chiếu hệ thống tài khoản chi phí xây lắp 621, 622, 623, 627 vs TT 200.
+              Kho so sánh quy định Cũ vs Mới: TT 99, TT 200, TT 133, TT 45, TT 48, TT 96, TT 219, Luật TNCN, NĐ 50...
             </p>
           </div>
           <span className="text-[11px] text-teal-700 dark:text-teal-400 font-semibold mt-3 flex items-center gap-1">
-            Xem bảng so sánh &rarr;
+            Mở kho đối chiếu 18 văn bản &rarr;
           </span>
         </div>
 

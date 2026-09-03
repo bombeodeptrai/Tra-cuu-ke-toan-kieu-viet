@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Building2, LayoutDashboard, Library, Search, MessageSquareText, Settings, BookOpen, Download, LineChart, ScanText, Sparkles, LogOut, HelpCircle, Calculator } from 'lucide-react';
+import { Building2, LayoutDashboard, Library, Search, MessageSquareText, Settings, BookOpen, Download, LineChart, ScanText, Sparkles, LogOut, HelpCircle, Calculator, ArrowRightLeft } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { APP_NAME } from '@/lib/utils/constants';
 import { useUserStore } from '@/stores/user-store';
@@ -19,6 +19,7 @@ export function Sidebar({ onClose }: SidebarProps) {
     { to: '/tai-khoan', icon: BookOpen, label: 'Hệ thống TK (TT99)' },
     { to: '/bieu-mau', icon: Download, label: 'Biểu mẫu' },
     { to: '/tien-ich', icon: Calculator, label: 'Tiện ích kế toán' },
+    { to: '/so-sanh', icon: ArrowRightLeft, label: 'So sánh điểm mới' },
     { to: '/hoi-dap-ai', icon: MessageSquareText, label: 'Hỏi đáp AI' },
     { to: '/so-tay', icon: BookOpen, label: 'Sổ tay Kế toán' },
     { to: '/huong-dan', icon: HelpCircle, label: 'Hướng dẫn sử dụng' },
