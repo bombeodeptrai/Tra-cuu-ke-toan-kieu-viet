@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Building2, Search, Sun, Moon, Bell, Menu } from 'lucide-react';
+import { Building2, Search, Sun, Moon, Bell, Menu, Calculator } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -70,6 +70,16 @@ export function Header() {
         </div>
 
         <div className="flex items-center gap-1.5">
+          <Button 
+            variant="ghost" 
+            size="sm" 
+            onClick={() => navigate('/tien-ich')}
+            className="hidden sm:inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-800 dark:text-emerald-300 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 rounded-lg h-9 px-3 border border-emerald-200 dark:border-emerald-800/60"
+          >
+            <Calculator className="h-4 w-4 text-emerald-600" />
+            <span>Tiện ích kế toán</span>
+          </Button>
+
           <Button variant="ghost" size="icon" onClick={toggleTheme} className="rounded-full w-9 h-9 text-muted-foreground hover:text-foreground">
             <Sun className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
             <Moon className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />

@@ -15,7 +15,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 3.9%;
     
-    --primary: 212 100% 48%; /* Apple blue */
+    --primary: 149 100% 24%; /* Kiểu Việt Corporate Forest Green #007A3B */
     --primary-foreground: 0 0% 100%;
     
     --secondary: 240 4.8% 95.9%;
@@ -24,15 +24,15 @@
     --muted: 240 4.8% 95.9%;
     --muted-foreground: 240 3.8% 46.1%;
     
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
+    --accent: 149 30% 95%;
+    --accent-foreground: 149 100% 24%;
     
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
     
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
-    --ring: 212 100% 48%;
+    --ring: 149 100% 24%;
     
     --radius: 0.75rem; /* Smoother 12px radius */
   }
@@ -47,7 +47,7 @@
     --popover: 240 10% 3.9%;
     --popover-foreground: 0 0% 98%;
     
-    --primary: 212 100% 48%;
+    --primary: 147 72% 42%; /* Kiểu Việt Light Emerald #1A9E54 */
     --primary-foreground: 0 0% 100%;
     
     --secondary: 240 3.7% 15.9%;
@@ -56,8 +56,15 @@
     --muted: 240 3.7% 15.9%;
     --muted-foreground: 240 5% 64.9%;
     
-    --accent: 240 3.7% 15.9%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 147 30% 15%;
+    --accent-foreground: 147 72% 50%;
+    
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 147 72% 42%;
     
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;

@@ -3,11 +3,12 @@ import { useParams, useNavigate, Link } from 'react-router-dom';
 import { 
   ArrowLeft, Calendar, FileText, Download, Building, 
   Tag, Clock, AlertTriangle, CheckCircle, Bot,
-  Info, Share2, Printer, Heart 
+  Info, Share2, Printer, Heart, ListFilter, ArrowRightLeft, ZoomIn, ZoomOut, RotateCcw, Copy 
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
@@ -21,6 +22,8 @@ import { useNotesStore } from '@/stores/notes-store';
 import { useToast } from '@/components/ui/use-toast';
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogFooter } from '@/components/ui/dialog';
 import { Textarea } from '@/components/ui/textarea';
+import { TableOfContents } from '@/components/decree/TableOfContents';
+import { DecreeDiffViewer } from '@/components/decree/DecreeDiffViewer';
 
 const contentCache = new Map<string, string>();
 
@@ -36,6 +39,24 @@ export function DecreeDetailPage() {
   const [fullTextContent, setFullTextContent] = useState<string>('');
   const [isLoadingContent, setIsLoadingContent] = useState(false);
   
+  // Font size adjustment (persisted in localStorage)
+  const [fontSize, setFontSize] = useState<number>(() => {
+    return Number(localStorage.getItem('kv_doc_font_size')) || 16;
+  });
+
+  const changeFontSize = (delta: number) => {
+    setFontSize(prev => {
+      const next = Math.min(24, Math.max(13, prev + delta));
+      localStorage.setItem('kv_doc_font_size', next.toString());
+      return next;
+    });
+  };
+
+  const resetFontSize = () => {
+    setFontSize(16);
+    localStorage.setItem('kv_doc_font_size', '16');
+  };
+
   // Highlight Note states
   const [selectedText, setSelectedText] = useState('');
   const [isNoteDialogOpen, setIsNoteDialogOpen] = useState(false);
@@ -283,22 +304,86 @@ export function DecreeDetailPage() {
           )}
           
           <Tabs defaultValue="content" className="w-full">
-            <TabsList className="grid w-full grid-cols-2 mb-6">
-              <TabsTrigger value="content" className="gap-2 font-semibold">
-                <FileText className="h-4 w-4" /> Toàn văn văn bản gốc
+            <TabsList className="grid w-full grid-cols-3 mb-6">
+              <TabsTrigger value="content" className="gap-2 font-semibold text-xs sm:text-sm">
+                <FileText className="h-4 w-4 text-emerald-600" /> Toàn văn gốc
               </TabsTrigger>
-              <TabsTrigger value="summary" className="gap-2 font-semibold">
-                <Bot className="h-4 w-4" /> Phân tích & Tóm tắt AI
+              <TabsTrigger value="summary" className="gap-2 font-semibold text-xs sm:text-sm">
+                <Bot className="h-4 w-4 text-blue-600" /> Tóm tắt AI
+              </TabsTrigger>
+              <TabsTrigger value="diff" className="gap-2 font-semibold text-xs sm:text-sm">
+                <ArrowRightLeft className="h-4 w-4 text-amber-600" /> Điểm mới & So sánh
               </TabsTrigger>
             </TabsList>
             
-            <TabsContent value="content" className="mt-0">
+            <TabsContent value="content" className="mt-0 space-y-4">
+              {/* Font Size & Reader Utility Bar */}
+              <div className="flex items-center justify-between bg-muted/40 border border-border/60 rounded-xl px-4 py-2 text-xs">
+                <div className="flex items-center gap-2">
+                  <span className="text-muted-foreground font-medium hidden sm:inline">Cỡ chữ đọc luật:</span>
+                  <div className="flex items-center gap-1 bg-background border border-border/80 rounded-lg p-0.5 shadow-xs">
+                    <Button 
+                      variant="ghost" 
+                      size="sm" 
+                      className="h-7 px-2 text-xs font-bold hover:bg-muted"
+                      onClick={() => changeFontSize(-1)}
+                      title="Thu nhỏ chữ"
+                    >
+                      A-
+                    </Button>
+                    <span className="text-xs font-mono font-bold px-1.5 text-foreground">{fontSize}px</span>
+                    <Button 
+                      variant="ghost" 
+                      size="sm" 
+                      className="h-7 px-2 text-xs font-bold hover:bg-muted"
+                      onClick={() => changeFontSize(1)}
+                      title="Phóng to chữ"
+                    >
+                      A+
+                    </Button>
+                  </div>
+                  {fontSize !== 16 && (
+                    <Button 
+                      variant="ghost" 
+                      size="sm" 
+                      className="h-7 px-1.5 text-[11px] text-muted-foreground hover:text-foreground"
+                      onClick={resetFontSize}
+                      title="Đặt lại cỡ chữ chuẩn 16px"
+                    >
+                      <RotateCcw className="h-3 w-3 mr-1" /> Đặt lại
+                    </Button>
+                  )}
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="h-7 text-xs gap-1"
+                    onClick={() => {
+                      navigator.clipboard.writeText(`Căn cứ theo ${decree.decree_number}: "${decree.title}" (Ban hành ngày ${formatDate(decree.issued_date)})`);
+                      toast({ title: 'Đã sao chép trích dẫn căn cứ', description: 'Có thể dán trực tiếp vào email/báo cáo công việc.' });
+                    }}
+                  >
+                    <Copy className="h-3.5 w-3.5" />
+                    <span className="hidden sm:inline">Sao chép trích dẫn</span>
+                  </Button>
+                </div>
+              </div>
+
               <div className="bg-card border border-border/60 rounded-2xl p-6 sm:p-8 shadow-sm hover:shadow-md transition-shadow">
-                <div id="decree-content" className="prose prose-slate dark:prose-invert max-w-none prose-headings:text-primary prose-a:text-primary hover:prose-a:text-primary/80 prose-p:leading-relaxed prose-li:leading-relaxed">
+                <div 
+                  id="decree-content" 
+                  style={{ fontSize: `${fontSize}px`, lineHeight: 1.6 }}
+                  className="prose prose-slate dark:prose-invert max-w-none prose-headings:text-primary prose-a:text-primary hover:prose-a:text-primary/80 prose-p:leading-relaxed prose-li:leading-relaxed transition-all duration-150"
+                >
                   {isLoadingContent ? (
                     <div className="py-10 text-center text-muted-foreground">Đang tải nội dung...</div>
                   ) : fullTextContent.length > 50000 ? (
-                      <div className="whitespace-pre-wrap font-sans text-[15px] leading-relaxed text-slate-800 dark:text-slate-200">
+                      <div 
+                        style={{ fontSize: `${fontSize}px`, lineHeight: 1.6 }}
+                        className="whitespace-pre-wrap font-sans leading-relaxed text-slate-800 dark:text-slate-200"
+                      >
                         {fullTextContent.replace(/^#.*\n+/, '')}
                       </div>
                   ) : (
@@ -326,10 +411,23 @@ export function DecreeDetailPage() {
                 </div>
               </div>
             </TabsContent>
+
+            <TabsContent value="diff" className="mt-0">
+              <DecreeDiffViewer decreeId={decree.id} />
+            </TabsContent>
           </Tabs>
         </div>
 
         <div className="space-y-6 lg:sticky lg:top-24 h-fit">
+          {/* MỤC LỤC ĐIỀU KHOẢN STICKY */}
+          <div className="bg-card border border-border/60 rounded-2xl p-5 shadow-sm hover:shadow-md transition-shadow">
+            <h3 className="font-bold text-sm flex items-center gap-2 mb-3 text-emerald-800 dark:text-emerald-300">
+              <ListFilter className="h-4 w-4 text-emerald-600" />
+              Mục lục điều khoản
+            </h3>
+            <TableOfContents content={fullTextContent} />
+          </div>
+
           <div className="bg-card border border-border/60 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
             <h3 className="font-bold text-lg flex items-center gap-2 mb-4">
               <Info className="h-5 w-5 text-primary" />
@@ -402,6 +500,29 @@ export function DecreeDetailPage() {
           </DialogFooter>
         </DialogContent>
       </Dialog>
+
+      {/* Mobile Floating Action Button for Table of Contents */}
+      <div className="fixed bottom-6 right-6 lg:hidden z-30">
+        <Sheet>
+          <SheetTrigger asChild>
+            <Button className="rounded-full shadow-xl bg-emerald-600 hover:bg-emerald-700 text-white gap-2 h-12 px-4 border border-emerald-500">
+              <ListFilter className="h-5 w-5" />
+              <span className="font-semibold text-xs">Mục lục</span>
+            </Button>
+          </SheetTrigger>
+          <SheetContent side="bottom" className="h-[75vh] p-4 rounded-t-2xl">
+            <SheetHeader className="pb-3 border-b border-border">
+              <SheetTitle className="text-base font-bold text-emerald-800 dark:text-emerald-300 flex items-center gap-2">
+                <ListFilter className="h-4 w-4" />
+                Mục lục: {decree.decree_number}
+              </SheetTitle>
+            </SheetHeader>
+            <div className="mt-4 h-[calc(100%-60px)]">
+              <TableOfContents content={fullTextContent} />
+            </div>
+          </SheetContent>
+        </Sheet>
+      </div>
     </div>
   );
 }
