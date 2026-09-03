@@ -93,7 +93,7 @@ export function TableOfContents({ content, onItemClick, activeId }: TableOfConte
     }
 
     if (el) {
-      el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      el.scrollIntoView({ behavior: 'smooth', block: 'center' });
       // Temporary highlight
       el.classList.add('bg-amber-100', 'dark:bg-amber-900/60', 'transition-colors', 'duration-500');
       setTimeout(() => {

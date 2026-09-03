@@ -11,7 +11,8 @@
     "summary": "Xương sống pháp lý cho chữ ký số và hóa đơn điện tử trong giao dịch thương mại.",
     "content_url": "/data/content/luat-gd-dien-tu-20-2023.md",
     "pdf_drive_id": "1xeTkSsdzgUharkLVvFUghVvhxH86JWfe",
-    "pdf_url": "/data/pdfs/luat-gd-dien-tu-20-2023.pdf"
+    "pdf_url": "/data/pdfs/luat-gd-dien-tu-20-2023.pdf",
+    "decree_number": "20/2023/QH15"
   },
   {
     "id": "nd-22-2020",
@@ -25,7 +26,8 @@
     "summary": "Sửa đổi, bổ sung các trường hợp được miễn lệ phí môn bài.",
     "content_url": "/data/content/nd-22-2020.md",
     "pdf_drive_id": "1npddD5XNIfu0cjEPg7tzpJO97uRFdtAn",
-    "pdf_url": "/data/pdfs/nd-22-2020.pdf"
+    "pdf_url": "/data/pdfs/nd-22-2020.pdf",
+    "decree_number": "22/2020/NĐ-CP"
   },
   {
     "id": "nd-139-2016",
@@ -39,7 +41,8 @@
     "summary": "Quy định chi tiết về người nộp, trường hợp miễn, mức thu và tổ chức thu nộp lệ phí môn bài.",
     "content_url": "/data/content/nd-139-2016.md",
     "pdf_drive_id": "1f-KtHHS7R9J7ViKuGDVT1pr_TZoXsIJ-",
-    "pdf_url": "/data/pdfs/nd-139-2016.pdf"
+    "pdf_url": "/data/pdfs/nd-139-2016.pdf",
+    "decree_number": "139/2016/NĐ-CP"
   },
   {
     "id": "luat-thue-xnk-107-2016",
@@ -53,7 +56,8 @@
     "summary": "Quy định về đối tượng chịu thuế, người nộp thuế, căn cứ, thời điểm tính thuế xuất nhập khẩu.",
     "content_url": "/data/content/luat-thue-xnk-107-2016.md",
     "pdf_drive_id": "1MuLOCyULZVW-2H96zlhgUQ0_kcpyf3F7",
-    "pdf_url": "/data/pdfs/luat-thue-xnk-107-2016.pdf"
+    "pdf_url": "/data/pdfs/luat-thue-xnk-107-2016.pdf",
+    "decree_number": "107/2016/QH13"
   },
   {
     "id": "tt-108-2025",
@@ -181,7 +185,7 @@
     "content_url": "/data/content/nd-180-2024-nd-cp.md",
     "free_download_url": "https://hethongphapluat.com/nghi-dinh-180-2024-nd-cp-quy-dinh-chinh-sach-giam-thue-gia-tri-gia-tang-theo-nghi-quyet-174-2024-qh15.html",
     "tax_field": "khoang-san-tai-nguyen",
-    "pdf_drive_id": "14bZdIpP76yRhr-qr6MdT3VxqE-S9Duiy"
+    "pdf_drive_id": "1G_zUvqoYYXeHflklwm-m2jFju9IBGatX"
   },
   {
     "id": "tt-24-2024-tt-btc",
@@ -197,7 +201,7 @@
     "content_url": "/data/content/tt-24-2024-tt-btc.md",
     "free_download_url": "https://hethongphapluat.com/thong-tu-24-2024-tt-btc-huong-dan-che-do-ke-toan-hanh-chinh-su-nghiep-do-bo-truong-bo-tai-chinh-ban-hanh.html",
     "tax_field": "khoang-san-tai-nguyen",
-    "pdf_drive_id": "11oVgBeoHhVVLm-KRze1nVtHlMA2lueD_"
+    "pdf_drive_id": "1aASPbZ0A4hY4yoGvtK77DIVk5zuU8fn0"
   },
   {
     "id": "qd-87-2025-gialai",
