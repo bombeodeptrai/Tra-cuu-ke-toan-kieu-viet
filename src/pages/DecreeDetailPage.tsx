@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate, Link } from 'react-router-dom';
+import { useParams, useNavigate, Link, useSearchParams } from 'react-router-dom';
 import { 
   ArrowLeft, Calendar, FileText, Download, Building, 
   Tag, Clock, AlertTriangle, CheckCircle, Bot,
-  Info, Share2, Printer, Heart, ListFilter, ArrowRightLeft, ZoomIn, ZoomOut, RotateCcw, Copy 
+  Info, Share2, Printer, Heart, ListFilter, ArrowRightLeft, ZoomIn, ZoomOut, RotateCcw, Copy, Target, ExternalLink 
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -62,6 +62,50 @@ export function DecreeDetailPage() {
   const [isNoteDialogOpen, setIsNoteDialogOpen] = useState(false);
   const [noteInput, setNoteInput] = useState('');
   const [selectionRect, setSelectionRect] = useState<{top: number, left: number} | null>(null);
+
+  // Deep-link jump to exact Article (?dieu=X)
+  const [searchParams, setSearchParams] = useSearchParams();
+  const targetDieu = searchParams.get('dieu');
+  const [activeTab, setActiveTab] = useState<string>(() => {
+    return searchParams.get('tab') || 'content';
+  });
+  const [highlightedDieu, setHighlightedDieu] = useState<string | null>(targetDieu);
+
+  useEffect(() => {
+    if (targetDieu) {
+      setActiveTab('content');
+      setHighlightedDieu(targetDieu);
+    }
+  }, [targetDieu]);
+
+  useEffect(() => {
+    if (!isLoadingContent && fullTextContent && highlightedDieu && activeTab === 'content') {
+      const timer = setTimeout(() => {
+        let el = document.getElementById(`dieu-${highlightedDieu}`);
+        if (!el) {
+          const contentArea = document.getElementById('decree-content');
+          if (contentArea) {
+            const regex = new RegExp(`^\\s*(?:\\*+)?\\s*Điều\\s+${highlightedDieu}[\\.:\\s\\-–—]`, 'i');
+            const candidates = contentArea.querySelectorAll('h1, h2, h3, h4, h5, h6, p, strong, li');
+            for (const cand of candidates) {
+              if (regex.test(cand.textContent || '')) {
+                el = cand as HTMLElement;
+                break;
+              }
+            }
+          }
+        }
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          el.classList.add('bg-amber-100', 'dark:bg-amber-900/70', 'ring-4', 'ring-emerald-500/70', 'rounded-xl', 'p-3', 'transition-all', 'duration-500', 'shadow-md');
+          setTimeout(() => {
+            el?.classList.remove('ring-4', 'ring-emerald-500/70');
+          }, 5000);
+        }
+      }, 350);
+      return () => clearTimeout(timer);
+    }
+  }, [isLoadingContent, fullTextContent, highlightedDieu, activeTab]);
 
   const navigate = useNavigate();
 
@@ -315,7 +359,7 @@ export function DecreeDetailPage() {
             </div>
           )}
           
-          <Tabs defaultValue="content" className="w-full">
+          <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
             <TabsList className="grid w-full grid-cols-3 mb-6">
               <TabsTrigger value="content" className="gap-2 font-semibold text-xs sm:text-sm">
                 <FileText className="h-4 w-4 text-emerald-600" /> Toàn văn gốc
@@ -329,6 +373,28 @@ export function DecreeDetailPage() {
             </TabsList>
             
             <TabsContent value="content" className="mt-0 space-y-4">
+              {/* Highlight Target Dieu Banner */}
+              {highlightedDieu && (
+                <div className="bg-emerald-50/90 dark:bg-emerald-950/50 border border-emerald-300 dark:border-emerald-800 rounded-xl p-3 text-xs flex items-center justify-between gap-3 text-emerald-900 dark:text-emerald-200 shadow-xs animate-in fade-in slide-in-from-top-2 duration-300">
+                  <div className="flex items-center gap-2 font-medium">
+                    <span className="flex h-2.5 w-2.5 rounded-full bg-emerald-600 animate-ping shrink-0" />
+                    <span>🎯 Đang định vị: <strong>Điều {highlightedDieu}</strong> trong văn bản chính thức (theo liên kết đối chiếu điểm mới).</span>
+                  </div>
+                  <Button 
+                    variant="ghost" 
+                    size="sm" 
+                    className="h-6 px-2 text-[11px] text-emerald-700 dark:text-emerald-300 hover:bg-emerald-100 dark:hover:bg-emerald-900/60"
+                    onClick={() => {
+                      setHighlightedDieu(null);
+                      searchParams.delete('dieu');
+                      setSearchParams(searchParams, { replace: true });
+                    }}
+                  >
+                    Đóng
+                  </Button>
+                </div>
+              )}
+
               {/* Font Size & Reader Utility Bar */}
               <div className="flex items-center justify-between bg-muted/40 border border-border/60 rounded-xl px-4 py-2 text-xs">
                 <div className="flex items-center gap-2">
@@ -392,7 +458,44 @@ export function DecreeDetailPage() {
                   {isLoadingContent ? (
                     <div className="py-10 text-center text-muted-foreground">Đang tải nội dung...</div>
                   ) : (
-                    <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeRaw, rehypeKatex]}>
+                    <ReactMarkdown 
+                      remarkPlugins={[remarkGfm, remarkMath]} 
+                      rehypePlugins={[rehypeRaw, rehypeKatex]}
+                      components={{
+                        h1: ({ children, ...props }) => {
+                          const text = typeof children === 'string' ? children : (Array.isArray(children) ? children.join('') : '');
+                          const m = String(text).match(/Điều\s+(\d+)/i);
+                          return <h1 id={m ? `dieu-${m[1]}` : undefined} className={m ? 'scroll-mt-28' : ''} {...props}>{children}</h1>;
+                        },
+                        h2: ({ children, ...props }) => {
+                          const text = typeof children === 'string' ? children : (Array.isArray(children) ? children.join('') : '');
+                          const m = String(text).match(/Điều\s+(\d+)/i);
+                          return <h2 id={m ? `dieu-${m[1]}` : undefined} className={m ? 'scroll-mt-28' : ''} {...props}>{children}</h2>;
+                        },
+                        h3: ({ children, ...props }) => {
+                          const text = typeof children === 'string' ? children : (Array.isArray(children) ? children.join('') : '');
+                          const m = String(text).match(/Điều\s+(\d+)/i);
+                          return <h3 id={m ? `dieu-${m[1]}` : undefined} className={m ? 'scroll-mt-28' : ''} {...props}>{children}</h3>;
+                        },
+                        h4: ({ children, ...props }) => {
+                          const text = typeof children === 'string' ? children : (Array.isArray(children) ? children.join('') : '');
+                          const m = String(text).match(/Điều\s+(\d+)/i);
+                          return <h4 id={m ? `dieu-${m[1]}` : undefined} className={m ? 'scroll-mt-28' : ''} {...props}>{children}</h4>;
+                        },
+                        p: ({ children, ...props }) => {
+                          const extractStr = (n: any): string => {
+                            if (!n) return '';
+                            if (typeof n === 'string') return n;
+                            if (Array.isArray(n)) return n.map(extractStr).join('');
+                            if (typeof n === 'object' && n.props && n.props.children) return extractStr(n.props.children);
+                            return '';
+                          };
+                          const text = extractStr(children);
+                          const m = text.match(/^\s*(?:\*{2,4})?\s*Điều\s+(\d+)[\.:\s\-–—]/i);
+                          return <p id={m ? `dieu-${m[1]}` : undefined} className={m ? 'scroll-mt-28' : ''} {...props}>{children}</p>;
+                        }
+                      }}
+                    >
                       {fullTextContent}
                     </ReactMarkdown>
                   )}

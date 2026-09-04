@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
-import { ArrowRightLeft, Sparkles, PlusCircle, RefreshCw, Trash2, Bot, Layers, CheckCircle } from 'lucide-react';
+import { ArrowRightLeft, Sparkles, PlusCircle, RefreshCw, Trash2, Bot, Layers, CheckCircle, BookOpen, ExternalLink, ArrowUpRight } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { useNavigate } from 'react-router-dom';
 import { DecreeDiffAIChat } from './DecreeDiffAIChat';
+import { extractCitation, getDetailedPracticalExample } from '@/lib/utils/legalReference';
 
 import { DIFF_DATABASE, DecreeDiffData, DiffItem } from '@/data/diff-database';
 export type { DecreeDiffData, DiffItem };
@@ -184,6 +185,9 @@ export function DecreeDiffViewer({ decreeId }: DecreeDiffViewerProps) {
                 }[item.type];
 
                 const Icon = badgeConfig.icon;
+                const newCitation = extractCitation(item.newRule, currentDiffId);
+                const oldCitation = extractCitation(item.oldRule, diffData.compareWith || '');
+                const practicalExample = item.example || getDetailedPracticalExample(item.topic, item.newRule, item.oldRule);
 
                 return (
                   <Card key={index} className="border-border shadow-xs overflow-hidden hover:border-emerald-300 transition-colors">
@@ -194,7 +198,7 @@ export function DecreeDiffViewer({ decreeId }: DecreeDiffViewerProps) {
                         {badgeConfig.label}
                       </span>
                     </div>
-                    <CardContent className="p-4 space-y-3">
+                    <CardContent className="p-4 space-y-3.5">
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs">
                         {/* Cột Quy định cũ */}
                         <div className="p-3 bg-red-50/40 dark:bg-red-950/20 border border-red-100 dark:border-red-900/30 rounded-lg space-y-1">
@@ -217,6 +221,51 @@ export function DecreeDiffViewer({ decreeId }: DecreeDiffViewerProps) {
                       <div className="p-3 bg-amber-50/60 dark:bg-amber-950/20 border border-amber-200/60 dark:border-amber-900/30 rounded-lg text-xs text-amber-900 dark:text-amber-200 flex items-start gap-2">
                         <span className="font-bold shrink-0">💡 Tác động nghiệp vụ Kiểu Việt:</span>
                         <span>{item.impactNote}</span>
+                      </div>
+
+                      {/* Ví dụ minh họa thực tế & Hướng dẫn xử lý */}
+                      <div className="p-3.5 bg-blue-50/60 dark:bg-blue-950/20 border border-blue-200/60 dark:border-blue-900/40 rounded-lg text-xs space-y-1">
+                        <div className="font-bold text-blue-900 dark:text-blue-200 flex items-center gap-1.5">
+                          <BookOpen className="h-3.5 w-3.5 text-blue-600 dark:text-blue-400 shrink-0" />
+                          <span>Ví dụ số liệu thực tế & Hướng dẫn xử lý:</span>
+                        </div>
+                        <p className="text-foreground/90 leading-relaxed pl-5 font-normal">
+                          {practicalExample}
+                        </p>
+                      </div>
+
+                      {/* Nút thao tác nhảy thẳng tới đúng dòng Điều trong văn bản chính thức */}
+                      <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-border/50 text-xs">
+                        <div className="flex flex-wrap items-center gap-2">
+                          {newCitation && (
+                            <Button
+                              variant="outline"
+                              size="sm"
+                              onClick={() => navigate(`/thu-vien/${newCitation.decreeId}?dieu=${newCitation.articleNum}`)}
+                              className="h-7 px-2.5 text-xs bg-emerald-50 dark:bg-emerald-950/50 border-emerald-300 dark:border-emerald-800 text-emerald-800 dark:text-emerald-200 hover:bg-emerald-100 dark:hover:bg-emerald-900 font-semibold gap-1.5 transition-all shadow-2xs cursor-pointer"
+                              title={`Mở văn bản chính thức và cuộn tới Điều ${newCitation.articleNum}`}
+                            >
+                              <BookOpen className="h-3.5 w-3.5 text-emerald-600 dark:text-emerald-400 shrink-0" />
+                              <span>Đi thẳng tới {newCitation.label} văn bản chính thức</span>
+                              <ExternalLink className="h-3 w-3 opacity-70 shrink-0" />
+                            </Button>
+                          )}
+                          {oldCitation && oldCitation.decreeId && oldCitation.decreeId !== currentDiffId && (
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={() => navigate(`/thu-vien/${oldCitation.decreeId}?dieu=${oldCitation.articleNum}`)}
+                              className="h-7 px-2 text-xs text-muted-foreground hover:text-foreground hover:bg-muted gap-1.5 cursor-pointer"
+                              title={`Mở văn bản cũ và cuộn tới Điều ${oldCitation.articleNum}`}
+                            >
+                              <span>Đối chiếu {oldCitation.label} ({oldCitation.docTitle || 'Văn bản tiền nhiệm'})</span>
+                              <ArrowUpRight className="h-3 w-3 opacity-60 shrink-0" />
+                            </Button>
+                          )}
+                        </div>
+                        <span className="text-[11px] text-muted-foreground italic flex items-center gap-1">
+                          Nhấn để mở văn bản gốc và cuộn tới đúng dòng Điều
+                        </span>
                       </div>
                     </CardContent>
                   </Card>
