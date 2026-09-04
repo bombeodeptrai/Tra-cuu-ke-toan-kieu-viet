@@ -35,7 +35,7 @@ export function ComparisonPage() {
             Trung Tâm Đối Chiếu Điểm Mới Pháp Lý (55 Văn Bản)
           </h1>
           <p className="text-sm text-muted-foreground mt-1">
-            Tổng hợp bảng so sánh đối chiếu quy định Cũ vs Mới cho toàn bộ 55 văn bản pháp luật kế toán, thuế và xây lắp; phân tích tác động rủi ro và nghiệp vụ thực tế cho Công ty Kiểu Việt.
+            Tổng hợp bảng so sánh đối chiếu quy định Cũ vs Mới cho toàn bộ 55 văn bản pháp luật kế toán, thuế và xây lắp; phân tích tác động rủi ro và nghiệp vụ thực tế cho Công ty Cổ phần Kiểu Việt.
           </p>
         </div>
       </div>
