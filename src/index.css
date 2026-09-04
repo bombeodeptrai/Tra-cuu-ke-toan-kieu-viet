@@ -120,3 +120,41 @@ html {
     border-color: rgba(255, 255, 255, 0.2) !important;
   }
 }
+
+/* Chế độ In ấn sạch chuyên nghiệp cho Kế toán Kiểu Việt */
+@media print {
+  header, aside, nav, button, .no-print, [role="dialog"], .custom-scrollbar, .sticky {
+    display: none !important;
+  }
+  body, main {
+    background: white !important;
+    color: black !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .print-header {
+    display: block !important;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', serif;
+  }
+  .prose {
+    max-width: 100% !important;
+    font-family: 'Times New Roman', serif !important;
+    font-size: 12pt !important;
+    line-height: 1.5 !important;
+    color: black !important;
+  }
+  .prose table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+  }
+  .prose th, .prose td {
+    border: 1px solid black !important;
+    padding: 4px 8px !important;
+    color: black !important;
+  }
+}
+

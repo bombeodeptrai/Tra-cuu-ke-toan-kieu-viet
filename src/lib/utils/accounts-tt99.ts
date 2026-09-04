@@ -1410,3 +1410,197 @@ export const CHART_OF_ACCOUNTS_TT99: AccountTT99[] = [
     description: "Tài khoản trung gian cuối kỳ dùng để kết chuyển toàn bộ doanh thu, thu nhập (loại 5, 7) và chi phí (loại 6, 8, 821) nhằm xác định lãi thuần hoặc lỗ thuần trong kỳ kế toán chuyển sang TK 421."
   }
 ];
+
+export interface AccountingGuideTT99 {
+  id: string;
+  title: string;
+  subtitle: string;
+  badge: string;
+  summary: string;
+  ruleChange: string;
+  entries: {
+    desc: string;
+    debit: string;
+    credit: string;
+    note?: string;
+  }[];
+  practicalAdvice: string;
+}
+
+export const ACCOUNTING_GUIDES_TT99: AccountingGuideTT99[] = [
+  {
+    id: "g1",
+    title: "1. Tập Hợp Chi Phí Thi Công Xây Lắp & Sản Xuất (TK 154)",
+    subtitle: "Bãi bỏ các TK chi phí trung gian 621, 622, 623, 627 theo Thông tư 99/2025",
+    badge: "Trọng tâm TT 99",
+    summary: "Thông tư 99/2025/TT-BTC không còn sử dụng các tài khoản 621 (Chi phí NVL trực tiếp), 622 (Chi phí NCTT), 623 (Chi phí máy thi công), 627 (Chi phí SX chung). Toàn bộ chi phí cấu thành sản phẩm xây lắp hoặc công trình được tập hợp trực tiếp vào các tiểu khoản của TK 154.",
+    ruleChange: "Trước đây (TT 200): Tập hợp qua 621, 622, 623, 627 rồi kết chuyển Nợ 154 / Có 62x.\nNay (TT 99): Hạch toán trực tiếp Nợ 154 (chi tiết theo tiểu khoản và đối tượng công trình) ngay khi phát sinh.",
+    entries: [
+      {
+        desc: "Xuất kho vật tư, sắt thép, xi măng hoặc mua vật tư đưa thẳng vào công trình:",
+        debit: "TK 1541 (hoặc 154 - Chi tiết Chi phí NVL trực tiếp)",
+        credit: "TK 152 (xuất kho) hoặc TK 111, 112, 331 (mua ngoài)",
+        note: "Kèm theo phiếu xuất kho công trình hoặc hóa đơn GTGT, biên bản giao nhận"
+      },
+      {
+        desc: "Chi phí nhân công trực tiếp thi công tổ đội, công nhân hiện trường:",
+        debit: "TK 1542 (hoặc 154 - Chi tiết Chi phí nhân công)",
+        credit: "TK 334 (Phải trả người lao động)",
+        note: "Căn cứ bảng chấm công và bảng lương khoán tổ đội công trình"
+      },
+      {
+        desc: "Chi phí xe máy, máy thi công (nhiên liệu dầu diesel, thuê máy xúc, khấu hao):",
+        debit: "TK 1543 (hoặc 154 - Chi tiết Chi phí máy thi công)",
+        credit: "TK 152, 214, 331, 111, 112",
+        note: "Kèm nhật trình máy và phiếu đo ca xe công trình"
+      },
+      {
+        desc: "Chi phí sản xuất chung tại hiện trường công trường (lương chỉ huy trưởng, điện nước tạm, bảo hộ):",
+        debit: "TK 1547 (hoặc 154 - Chi tiết Chi phí sản xuất chung)",
+        credit: "TK 334, 111, 112, 331, 214",
+        note: "Phân bổ theo tỷ lệ chi phí trực tiếp hoặc diện tích/khối lượng thi công"
+      },
+      {
+        desc: "Khi công trình hoặc hạng mục hoàn thành bàn giao nghiệm thu A-B, kết chuyển giá thành vào giá vốn:",
+        debit: "TK 632 (Giá vốn hàng bán)",
+        credit: "TK 154 (Chi phí SXKD dở dang)",
+        note: "Căn cứ Biên bản nghiệm thu công việc hoàn thành và Bảng tổng hợp chi phí"
+      }
+    ],
+    practicalAdvice: "Kế toán Kiểu Việt nên mở mã vụ việc / công trình trên phần mềm kế toán gắn liền với từng tiểu khoản của TK 154. Điều này giúp giảm hơn 40% thao tác kết chuyển cuối tháng mà vẫn kiểm soát chặt chẽ lãi lỗ của từng gói thầu."
+  },
+  {
+    id: "g2",
+    title: "2. Doanh Thu Xây Lắp & Hóa Đơn Điện Tử Bàn Giao A-B (TK 511)",
+    subtitle: "Thời điểm ghi nhận doanh thu và xuất hóa đơn theo NĐ 123 & Thông tư 78",
+    badge: "Doanh thu & Thuế",
+    summary: "Doanh thu xây dựng được ghi nhận tại thời điểm nghiệm thu, bàn giao công trình hoặc hạng mục hoàn thành (không phụ thuộc vào việc Chủ đầu tư đã thanh toán hay chưa). Toàn bộ khoản giảm trừ doanh thu được ghi giảm trực tiếp vào Nợ TK 511.",
+    ruleChange: "Bỏ các TK giảm trừ 5211, 5212, 5213 theo TT 200. Các khoản chiết khấu thương mại, giảm giá hàng bán ghi thẳng Nợ TK 511.",
+    entries: [
+      {
+        desc: "Khi nghiệm thu bàn giao giai đoạn (kèm Biên bản A-B và hóa đơn GTGT điện tử):",
+        debit: "TK 131 (Phải thu khách hàng / Chủ đầu tư)",
+        credit: "TK 511 (5112 - Doanh thu dịch vụ, xây lắp) & TK 3331 (Thuế GTGT phải nộp 8% hoặc 10%)",
+        note: "Phải xuất hóa đơn ngay trong ngày ký Biên bản nghiệm thu hoàn thành"
+      },
+      {
+        desc: "Chủ đầu tư thanh toán tiền hoặc giải ngân vốn kho bạc / ngân hàng:",
+        debit: "TK 112 (1121 - Tiền gửi ngân hàng)",
+        credit: "TK 131 (Phải thu khách hàng)",
+        note: "Đối chiếu UNC và thư báo có của ngân hàng"
+      },
+      {
+        desc: "Thu hồi tạm ứng hợp đồng trừ dần vào đợt thanh toán (theo Điều 50 NĐ 50/2021):",
+        debit: "TK 331 (hoặc TK 131 tiểu khoản tạm ứng CĐT)",
+        credit: "TK 131 (Phải thu tiền theo đợt nghiệm thu)",
+        note: "Căn cứ Bảng xác định giá trị khối lượng hoàn thành Mẫu 03a"
+      }
+    ],
+    practicalAdvice: "Tránh tuyệt đối rủi ro xuất hóa đơn sai thời điểm: Kế toán phải yêu cầu Kỹ sư công trường chuyển ngay Biên bản nghiệm thu A-B trong vòng 24h để xuất hóa đơn điện tử đúng ngày ký."
+  },
+  {
+    id: "g3",
+    title: "3. Hạch Toán Mua Sắm & Trích Khấu Hao Tài Sản Cố Định (TK 211, 214)",
+    subtitle: "Quản lý máy móc thiết bị thi công (xe xúc, xe lu, cẩu tháp) theo TT 45/2013",
+    badge: "Tài sản cố định",
+    summary: "Tài sản cố định hữu hình phục vụ thi công xây lắp (nguyên giá ≥ 30 triệu đồng và thời gian sử dụng > 1 năm) được theo dõi chi tiết trên TK 211. Khấu hao hàng tháng được phân bổ phù hợp vào chi phí thi công TK 154 hoặc chi phí quản lý TK 642.",
+    ruleChange: "Khấu hao máy móc thi công hạch toán thẳng vào Nợ TK 1543 (không qua TK 6234).",
+    entries: [
+      {
+        desc: "Mua mới máy móc thi công xây lắp đưa vào sử dụng ngay:",
+        debit: "TK 211 (2112 - Máy móc, thiết bị) & TK 1332 (Thuế GTGT TSCĐ được khấu trừ)",
+        credit: "TK 331 (Phải trả người bán) hoặc TK 112",
+        note: "Kèm Biên bản giao nhận TSCĐ Mẫu 01-TSCĐ và hồ sơ kiểm định"
+      },
+      {
+        desc: "Trích khấu hao định kỳ hàng tháng cho máy móc, xe lu, máy xúc tại công trường:",
+        debit: "TK 154 (1543 - Chi phí máy thi công)",
+        credit: "TK 214 (2141 - Hao mòn TSCĐ hữu hình)",
+        note: "Căn cứ Bảng phân bổ khấu hao TSCĐ theo Thông tư 45/2013"
+      },
+      {
+        desc: "Trích khấu hao phương tiện đi lại văn phòng, thiết bị tin học trụ sở Kiểu Việt:",
+        debit: "TK 642 (Chi phí quản lý doanh nghiệp)",
+        credit: "TK 214 (Hao mòn TSCĐ)",
+        note: "Tính vào chi phí được trừ khi xác định thuế TNDN"
+      }
+    ],
+    practicalAdvice: "Đăng ký thời gian trích khấu hao phù hợp với khung Phụ lục I Thông tư 45. Thiết bị hoạt động 2-3 ca liên tục trên công trường có thể trích khấu hao nhanh tối đa 2 lần mức bình thường."
+  },
+  {
+    id: "g4",
+    title: "4. Hạch Toán Tiền Lương & Các Khoản Bảo Hiểm (TK 334, 338)",
+    subtitle: "Áp dụng mức trần lương cơ sở 2.340.000đ (NĐ 73/2024) và thuế TNCN",
+    badge: "Lao động tiền lương",
+    summary: "Tiền lương phải trả người lao động được tính trên TK 334. Doanh nghiệp trích đóng 23.5% vào chi phí (BHXH 17.5%, BHYT 3%, BHTN 1%, KPCĐ 2%) và khấu trừ 10.5% từ lương người lao động (BHXH 8%, BHYT 1.5%, BHTN 1%).",
+    ruleChange: "Chi phí nhân công trực tiếp công trường hạch toán Nợ 154 (không qua TK 622).",
+    entries: [
+      {
+        desc: "Tính tiền lương phải trả cho cán bộ kỹ sư và công nhân trong tháng:",
+        debit: "TK 154 (Nhân công công trình) / TK 642 (Nhân viên văn phòng)",
+        credit: "TK 334 (Phải trả người lao động)",
+        note: "Căn cứ Bảng chấm công Mẫu 01a-LĐTL và Bảng thanh toán lương Mẫu 02-LĐTL"
+      },
+      {
+        desc: "Trích các khoản bảo hiểm và kinh phí công đoàn tính vào chi phí DN (23.5%):",
+        debit: "TK 154 / TK 642",
+        credit: "TK 338 (3382 KPCĐ 2%, 3383 BHXH 17.5%, 3384 BHYT 3%, 3386 BHTN 1%)",
+        note: "Trần tính BHXH/BHYT tối đa 46.800.000đ/tháng"
+      },
+      {
+        desc: "Trích các khoản bảo hiểm trừ vào lương người lao động (10.5%):",
+        debit: "TK 334 (Phải trả người lao động)",
+        credit: "TK 338 (3383 BHXH 8%, 3384 BHYT 1.5%, 3386 BHTN 1%)",
+        note: "Trừ trực tiếp trên bảng thanh toán tiền lương tháng"
+      },
+      {
+        desc: "Khấu trừ thuế TNCN từ tiền lương, tiền công người lao động:",
+        debit: "TK 334 (Phải trả người lao động)",
+        credit: "TK 3335 (Thuế thu nhập cá nhân)",
+        note: "Theo biểu lũy tiến hoặc khấu trừ 10% đối với lao động thời vụ dưới 3 tháng"
+      }
+    ],
+    practicalAdvice: "Hợp đồng nhân công thời vụ dưới 3 tháng có thu nhập từ 2.000.000đ/lần trở lên phải khấu trừ thuế TNCN 10% tại nguồn hoặc lập Bản cam kết 08/CK-TNCN nếu đủ điều kiện."
+  },
+  {
+    id: "g5",
+    title: "5. Kết Chuyển Xác Định Kết Quả Kinh Doanh Cuối Kỳ (TK 911)",
+    subtitle: "Quy trình khóa sổ cuối tháng, cuối quý và cuối năm tài chính",
+    badge: "Khóa sổ cuối kỳ",
+    summary: "Tài khoản 911 không có số dư cuối kỳ. Cuối kỳ kế toán tiến hành kết chuyển toàn bộ doanh thu, thu nhập sang bên Có TK 911 và kết chuyển giá vốn, chi phí quản lý sang bên Nợ TK 911 để xác định số lãi/lỗ trước thuế.",
+    ruleChange: "Không còn kết chuyển từ các TK 621, 622, 623, 627 sang 154. Chỉ kết chuyển TK 154 ➔ 632 ➔ 911.",
+    entries: [
+      {
+        desc: "Kết chuyển doanh thu thuần bán hàng, cung cấp dịch vụ và xây lắp:",
+        debit: "TK 511 (5111, 5112)",
+        credit: "TK 911 (Xác định kết quả kinh doanh)",
+        note: "Doanh thu sau khi đã trừ giảm giá, chiết khấu (nếu có)"
+      },
+      {
+        desc: "Kết chuyển doanh thu hoạt động tài chính (lãi tiền gửi ngân hàng, lãi đầu tư):",
+        debit: "TK 515 (Doanh thu hoạt động tài chính)",
+        credit: "TK 911",
+        note: "Lãi tiền gửi TK 112 thu được trong kỳ"
+      },
+      {
+        desc: "Kết chuyển giá vốn công trình hoàn thành và dịch vụ cung cấp:",
+        debit: "TK 911",
+        credit: "TK 632 (Giá vốn hàng bán)",
+        note: "Tổng giá thành sản phẩm đã nghiệm thu bàn giao"
+      },
+      {
+        desc: "Kết chuyển chi phí quản lý doanh nghiệp trong kỳ:",
+        debit: "TK 911",
+        credit: "TK 642 (Chi phí quản lý doanh nghiệp)",
+        note: "Toàn bộ lương văn phòng, khấu hao, văn phòng phẩm"
+      },
+      {
+        desc: "Kết chuyển lãi thuần sang tài khoản Lợi nhuận chưa phân phối (nếu Doanh thu > Chi phí):",
+        debit: "TK 911",
+        credit: "TK 421 (4212 - Lợi nhuận sau thuế chưa phân phối năm nay)",
+        note: "Sau khi đã tính và trích trừ chi phí thuế TNDN (TK 821)"
+      }
+    ],
+    practicalAdvice: "Trước khi kết chuyển TK 911, kế toán phải rà soát số dư tạm nộp thuế TNDN (TK 3334) đảm bảo đã nộp đủ tối thiểu 80% số thuế TNDN phát sinh cả năm trước hạn 31/01 để tránh bị tính tiền phạt chậm nộp 0.03%/ngày."
+  }
+];

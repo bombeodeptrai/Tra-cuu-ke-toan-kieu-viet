@@ -19,11 +19,22 @@ export function LibraryPage() {
   const { viewMode, setViewMode } = useDecreeStore();
   const { filteredDecrees, isLoading } = useDecrees('', activeCategory, 'all', 1, 1000);
 
-  const years = Array.from(new Set(useDecreeStore.getState().decrees.map(d => new Date(d.issued_date).getFullYear().toString()))).sort().reverse();
+  const allYears = useDecreeStore.getState().decrees.flatMap(d => {
+    const list = [new Date(d.issued_date).getFullYear().toString()];
+    if (d.effective_date) list.push(new Date(d.effective_date).getFullYear().toString());
+    if (d.summary && d.summary.includes('2026')) list.push('2026');
+    return list;
+  });
+  const years = Array.from(new Set(allYears)).sort().reverse();
 
   const yearFiltered = activeYear === 'all' 
     ? filteredDecrees 
-    : filteredDecrees.filter(d => new Date(d.issued_date).getFullYear().toString() === activeYear);
+    : filteredDecrees.filter(d => {
+        const issuedYear = new Date(d.issued_date).getFullYear().toString();
+        const effectiveYear = d.effective_date ? new Date(d.effective_date).getFullYear().toString() : '';
+        const has2026Summary = activeYear === '2026' && d.summary && d.summary.includes('2026');
+        return issuedYear === activeYear || effectiveYear === activeYear || has2026Summary;
+      });
 
   const finalDecrees = activeTaxField === 'all'
     ? yearFiltered

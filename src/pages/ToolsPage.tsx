@@ -1,22 +1,28 @@
 import React, { useState } from 'react';
 import { 
   Calculator, DollarSign, Calendar, AlertTriangle, ShieldCheck, 
-  ArrowRightLeft, TrendingDown, Percent, FileText, CheckCircle2, ChevronRight, HelpCircle 
+  ArrowRightLeft, TrendingDown, Percent, FileText, CheckCircle2, ChevronRight, 
+  HelpCircle, Clock, Truck, Layers, Sparkles, Building2, Download
 } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
+import { Badge } from '@/components/ui/badge';
+import { useNavigate } from 'react-router-dom';
 
 export function ToolsPage() {
+  const navigate = useNavigate();
+
+  // ==========================================
   // TAB 1: THUẾ TNCN
+  // ==========================================
   const [tncnIncome, setTncnIncome] = useState<number>(25000000);
   const [dependents, setDependents] = useState<number>(1);
-  const [insuranceDeduction, setInsuranceDeduction] = useState<number>(2625000); // 10.5% of 25m
+  const [insuranceDeduction, setInsuranceDeduction] = useState<number>(2625000);
   const [tncnLawVersion, setTncnLawVersion] = useState<'current' | '2026' | 'compare'>('compare');
 
-  // Tính thuế biểu hiện hành (7 bậc, bản thân 11tr, phụ thuộc 4.4tr)
   const calcCurrentTncn = (gross: number, numDep: number, ins: number) => {
     const personalDeduction = 11000000;
     const depDeduction = numDep * 4400000;
@@ -47,7 +53,6 @@ export function ToolsPage() {
     return { taxable, tax, personalDeduction, depDeduction };
   };
 
-  // Tính thuế biểu Luật 109/2025 mới (5 bậc, bản thân 15.5tr, phụ thuộc 6.2tr)
   const calcNewTncn = (gross: number, numDep: number, ins: number) => {
     const personalDeduction = 15500000;
     const depDeduction = numDep * 6200000;
@@ -80,254 +85,529 @@ export function ToolsPage() {
   const newResult = calcNewTncn(tncnIncome, dependents, insuranceDeduction);
   const taxSaved = currentResult.tax - newResult.tax;
 
+  // ==========================================
   // TAB 2: GROSS -> NET & CHI PHÍ DOANH NGHIỆP
+  // ==========================================
   const [grossSalary, setGrossSalary] = useState<number>(20000000);
-  const [payrollRegion, setPayrollRegion] = useState<number>(1); // Vùng 1: 4.96tr, Vùng 2: 4.41tr, Vùng 3: 3.86tr, Vùng 4: 3.45tr
+  const [payrollRegion, setPayrollRegion] = useState<number>(1);
   
-  // Trần lương cơ sở 2.340.000đ (Nghị định 73/2024/NĐ-CP)
   const BASE_SALARY = 2340000;
   const CAP_BHXH_BHYT = 20 * BASE_SALARY; // 46.800.000 đ
-  
-  // Trần BHTN (20 lần lương tối thiểu vùng)
   const MIN_WAGES = [4960000, 4410000, 3860000, 3450000];
   const CAP_BHTN = 20 * MIN_WAGES[payrollRegion - 1];
 
   const salaryForBhxh = Math.min(grossSalary, CAP_BHXH_BHYT);
   const salaryForBhtn = Math.min(grossSalary, CAP_BHTN);
 
-  // Người lao động đóng
   const eeBhxh = salaryForBhxh * 0.08;
   const eeBhyt = salaryForBhxh * 0.015;
   const eeBhtn = salaryForBhtn * 0.01;
-  const totalEeIns = eeBhxh + eeBhyt + eeBhtn;
+  const totalEeInsurance = eeBhxh + eeBhyt + eeBhtn;
 
-  // Thuế TNCN ước tính (1 người phụ thuộc)
-  const eeTax = calcCurrentTncn(grossSalary, 1, totalEeIns).tax;
-  const netSalary = grossSalary - totalEeIns - eeTax;
-
-  // Công ty Kiểu Việt đóng
-  const erBhxh = salaryForBhxh * 0.175; // 17% hưu trí/ốm đau/thai sản + 0.5% TNLĐ-BNN
+  const erBhxh = salaryForBhxh * 0.175;
   const erBhyt = salaryForBhxh * 0.03;
   const erBhtn = salaryForBhtn * 0.01;
-  const erKpcd = grossSalary * 0.02; // Kinh phí công đoàn
+  const erKpcd = grossSalary * 0.02;
   const totalErCost = grossSalary + erBhxh + erBhyt + erBhtn + erKpcd;
 
+  const netSalaryEstimate = grossSalary - totalEeInsurance;
+
+  // ==========================================
   // TAB 3: TÍNH TIỀN PHẠT CHẬM NỘP THUẾ
+  // ==========================================
   const [taxDebt, setTaxDebt] = useState<number>(50000000);
-  const [dueDate, setDueDate] = useState<string>('2026-03-31');
-  const [payDate, setPayDate] = useState<string>('2026-05-15');
+  const [dueDate, setDueDate] = useState<string>('2026-01-30');
+  const [payDate, setPayDate] = useState<string>('2026-03-31');
 
   const calcDaysLate = () => {
-    const d1 = new Date(dueDate).getTime();
-    const d2 = new Date(payDate).getTime();
-    if (isNaN(d1) || isNaN(d2) || d2 <= d1) return 0;
-    return Math.ceil((d2 - d1) / (1000 * 60 * 60 * 24));
+    const d1 = new Date(dueDate);
+    const d2 = new Date(payDate);
+    const diffTime = d2.getTime() - d1.getTime();
+    if (diffTime <= 0) return 0;
+    return Math.ceil(diffTime / (1000 * 60 * 60 * 24));
   };
 
   const daysLate = calcDaysLate();
-  // 0.03% mỗi ngày theo Luật Quản lý thuế số 38/2019/QH14 Điều 59
-  const latePenalty = Math.round(taxDebt * 0.0003 * daysLate);
+  const latePenalty = taxDebt * 0.0003 * daysLate;
+
+  // ==========================================
+  // TAB 4: TÍNH KHẤU HAO TSCĐ (TT 45/2013 & TT 147)
+  // ==========================================
+  const ASSET_PRESETS = [
+    { name: 'Máy móc, thiết bị thi công (xe xúc, xe lu, cẩu tháp, máy ủi)', minYears: 5, maxYears: 10, defaultYears: 6, defaultCost: 1850000000, target: 'construction' },
+    { name: 'Phương tiện vận tải (xe ô tô tải, xe ben, bán tải công trường)', minYears: 6, maxYears: 10, defaultYears: 7, defaultCost: 920000000, target: 'construction' },
+    { name: 'Thiết bị tin học, đo đạc trắc địa (máy toàn đạc, máy tính văn phòng)', minYears: 3, maxYears: 5, defaultYears: 3, defaultCost: 45000000, target: 'office' },
+    { name: 'Nhà cửa, lán trại vật kiến trúc phục vụ ban điều hành công trường', minYears: 5, maxYears: 15, defaultYears: 5, defaultCost: 250000000, target: 'construction' },
+    { name: 'Văn phòng phẩm, thiết bị quản lý trụ sở Kiểu Việt', minYears: 3, maxYears: 8, defaultYears: 4, defaultCost: 60000000, target: 'office' }
+  ];
+
+  const [selectedAssetIdx, setSelectedAssetIdx] = useState<number>(0);
+  const [assetOriginalCost, setAssetOriginalCost] = useState<number>(1850000000);
+  const [assetYears, setAssetYears] = useState<number>(6);
+  const [assetMonthsUsed, setAssetMonthsUsed] = useState<number>(14);
+
+  const selectedPreset = ASSET_PRESETS[selectedAssetIdx];
+  const yearlyDepreciation = assetOriginalCost / (assetYears || 1);
+  const monthlyDepreciation = yearlyDepreciation / 12;
+  const accumulatedDepreciation = Math.min(assetOriginalCost, monthlyDepreciation * assetMonthsUsed);
+  const remainingAssetValue = Math.max(0, assetOriginalCost - accumulatedDepreciation);
+
+  // ==========================================
+  // TAB 5: LỊCH THUẾ & BÁO CÁO KẾ TOÁN (TAX CALENDAR)
+  // ==========================================
+  const TAX_DEADLINES = [
+    {
+      id: "td1",
+      period: "Hàng tháng (ngày 20)",
+      title: "Nộp Tờ khai thuế GTGT & TNCN tháng trước",
+      agency: "Chi cục Thuế quản lý trực tiếp",
+      dueDateText: "Ngày 20 hàng tháng",
+      formCode: "01/GTGT & 05/KK-TNCN",
+      description: "Áp dụng cho doanh nghiệp có doanh thu năm trước liền kề > 50 tỷ đồng kê khai thuế theo tháng.",
+      badge: "Định kỳ tháng"
+    },
+    {
+      id: "td2",
+      period: "30/01 hàng năm",
+      title: "Nộp Lệ phí môn bài & Tờ khai môn bài (nếu có thay đổi)",
+      agency: "Kho bạc Nhà nước / Ngân hàng nộp thuế",
+      dueDateText: "30 tháng 01 hàng năm",
+      formCode: "Nghị định 139 & 22",
+      description: "Vốn điều lệ > 10 tỷ: 3.000.000đ/năm. Vốn điều lệ ≤ 10 tỷ: 2.000.000đ/năm. Chi nhánh/VPĐD: 1.000.000đ/năm.",
+      badge: "Đầu năm"
+    },
+    {
+      id: "td3",
+      period: "30/01 hàng năm",
+      title: "Hạn Tờ khai GTGT, TNCN Quý IV & Tạm nộp Thuế TNDN Quý IV",
+      agency: "Cơ quan Thuế",
+      dueDateText: "Ngày 30 tháng 01",
+      formCode: "01/GTGT, 05/KK, TNDN",
+      description: "Tổng số thuế TNDN đã tạm nộp của 04 quý phải đạt tối thiểu 80% số thuế TNDN phải nộp theo quyết toán năm.",
+      badge: "Quý IV"
+    },
+    {
+      id: "td4",
+      period: "31/03 hàng năm (90 ngày)",
+      title: "Quyết toán Thuế TNDN, TNCN & Báo cáo tài chính (BCTC) năm",
+      agency: "Chi cục Thuế & Phòng Thống kê",
+      dueDateText: "Ngày 31 tháng 03",
+      formCode: "BCTC, 03/TNDN, 05/QTT",
+      description: "Hạn chót nộp toàn bộ BCTC theo TT 200 / TT 99, Quyết toán thuế TNDN (Mẫu 03/TNDN) và Quyết toán thuế TNCN.",
+      badge: "Trọng tâm năm"
+    },
+    {
+      id: "td5",
+      period: "30/04 hàng năm",
+      title: "Tờ khai thuế GTGT, TNCN Quý I & Tạm nộp Thuế TNDN Quý I",
+      agency: "Cơ quan Thuế",
+      dueDateText: "Ngày cuối cùng tháng 4 (30/04)",
+      formCode: "01/GTGT, 05/KK-TNCN",
+      description: "Hạn nộp hồ sơ khai thuế quý I cho doanh nghiệp kê khai theo quý và nộp tiền thuế phát sinh.",
+      badge: "Quý I"
+    },
+    {
+      id: "td6",
+      period: "31/07 hàng năm",
+      title: "Tờ khai thuế GTGT, TNCN Quý II & Tạm nộp Thuế TNDN Quý II",
+      agency: "Cơ quan Thuế",
+      dueDateText: "Ngày cuối cùng tháng 7 (31/07)",
+      formCode: "01/GTGT, 05/KK-TNCN",
+      description: "Hoàn thành nghĩa vụ thuế bán niên (6 tháng đầu năm), rà soát hóa đơn đầu vào - đầu ra.",
+      badge: "Quý II"
+    },
+    {
+      id: "td7",
+      period: "31/10 hàng năm",
+      title: "Tờ khai thuế GTGT, TNCN Quý III & Tạm nộp Thuế TNDN Quý III",
+      agency: "Cơ quan Thuế",
+      dueDateText: "Ngày cuối cùng tháng 10 (31/10)",
+      formCode: "01/GTGT, 05/KK-TNCN",
+      description: "Ước tính doanh thu và lợi nhuận cả năm để điều chỉnh số tạm nộp thuế TNDN Quý III hợp lý.",
+      badge: "Quý III"
+    }
+  ];
 
   const formatVnd = (num: number) => {
-    return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(num);
+    return new Intl.NumberFormat('vi-VN', { style: 'currency', currency: 'VND' }).format(Math.round(num));
   };
 
   return (
-    <div className="container max-w-6xl mx-auto px-4 py-8 space-y-8">
-      {/* Header Kiểu Việt Brand */}
-      <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 border-b border-border pb-6">
-        <div>
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 dark:bg-emerald-950/60 dark:text-emerald-300 text-xs font-semibold mb-2">
-            <Calculator className="h-3.5 w-3.5" />
-            Kiểu Việt Utility Tools
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 animate-in fade-in duration-300">
+      {/* Banner Doanh Nghiệp */}
+      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-emerald-800 via-emerald-700 to-teal-800 text-white p-6 sm:p-8 md:p-10 shadow-lg">
+        <div className="relative z-10 max-w-3xl space-y-3">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/15 backdrop-blur-md text-emerald-100 text-xs font-semibold border border-white/20">
+            <Building2 className="h-3.5 w-3.5 text-emerald-300" />
+            CÔNG TY CỔ PHẦN KIỂU VIỆT — BỘ TIỆN ÍCH KẾ TOÁN THỰC CHIẾN
           </div>
-          <h1 className="text-2xl md:text-3xl font-bold tracking-tight text-foreground">
-            Bộ Tiện Ích Kế Toán Thực Chiến
+          <h1 className="text-2xl sm:text-3xl md:text-4xl font-black tracking-tight">
+            Bộ Tiện Ích Kế Toán, Thuế & Lịch Tuân Thủ 2026
           </h1>
-          <p className="text-sm text-muted-foreground mt-1">
-            Công cụ tính tự động chuẩn xác theo Luật Thuế và chính sách tiền lương mới nhất
+          <p className="text-sm md:text-base text-emerald-100/90 leading-relaxed font-normal">
+            Công cụ tính toán tự động chuẩn xác theo luật định: So sánh Thuế TNCN (Luật 109/2025), Lương Gross-Net (Trần 46.8tr), Phạt chậm nộp thuế 0.03%, Khấu hao TSCĐ theo TT 45/2013 và Lịch nhắc hạn báo cáo thuế.
           </p>
         </div>
       </div>
 
-      <Tabs defaultValue="tncn" className="w-full space-y-6">
-        <TabsList className="flex w-full overflow-x-auto justify-start sm:grid sm:grid-cols-3 max-w-2xl bg-muted/60 p-1 rounded-xl gap-1">
-          <TabsTrigger value="tncn" className="rounded-lg text-xs sm:text-sm font-semibold gap-1.5 shrink-0 whitespace-nowrap px-3">
-            <Percent className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
-            Tính Thuế TNCN
+      {/* 5 TABS TIỆN ÍCH */}
+      <Tabs defaultValue="calendar" className="space-y-6">
+        <TabsList className="bg-muted p-1 rounded-2xl w-full flex flex-wrap sm:inline-flex h-auto gap-1">
+          <TabsTrigger value="calendar" className="rounded-xl gap-2 font-semibold text-xs py-2 px-3">
+            <Clock className="h-4 w-4 text-emerald-600" /> Lịch Thuế & Báo Cáo
           </TabsTrigger>
-          <TabsTrigger value="payroll" className="rounded-lg text-xs sm:text-sm font-semibold gap-1.5 shrink-0 whitespace-nowrap px-3">
-            <ArrowRightLeft className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
-            Gross ➔ Net & BHXH
+          <TabsTrigger value="depreciation" className="rounded-xl gap-2 font-semibold text-xs py-2 px-3">
+            <Truck className="h-4 w-4 text-purple-600" /> Khấu Hao TSCĐ (TT 45)
           </TabsTrigger>
-          <TabsTrigger value="penalty" className="rounded-lg text-xs sm:text-sm font-semibold gap-1.5 shrink-0 whitespace-nowrap px-3">
-            <AlertTriangle className="h-3.5 w-3.5 sm:h-4 sm:w-4" />
-            Phạt Chậm Nộp Thuế
+          <TabsTrigger value="tncn" className="rounded-xl gap-2 font-semibold text-xs py-2 px-3">
+            <Calculator className="h-4 w-4 text-blue-600" /> Thuế TNCN (Luật 109)
+          </TabsTrigger>
+          <TabsTrigger value="gross-net" className="rounded-xl gap-2 font-semibold text-xs py-2 px-3">
+            <DollarSign className="h-4 w-4 text-emerald-600" /> Lương Gross ➔ Net
+          </TabsTrigger>
+          <TabsTrigger value="penalty" className="rounded-xl gap-2 font-semibold text-xs py-2 px-3">
+            <AlertTriangle className="h-4 w-4 text-red-600" /> Tiền Chậm Nộp Thuế
           </TabsTrigger>
         </TabsList>
 
-        {/* 1. MÁY TÍNH THUẾ TNCN */}
-        <TabsContent value="tncn" className="space-y-6">
+        {/* 1. LỊCH THUẾ & BÁO CÁO TUÂN THỦ (MỚI) */}
+        <TabsContent value="calendar" className="space-y-6">
+          <div className="bg-card rounded-2xl border border-border/80 p-6 shadow-xs space-y-6">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-border pb-4">
+              <div>
+                <h3 className="font-bold text-xl text-foreground flex items-center gap-2">
+                  <Clock className="h-5 w-5 text-emerald-600" />
+                  Lịch Nộp Báo Cáo & Thuế Doanh Nghiệp (Áp dụng 2026)
+                </h3>
+                <p className="text-xs text-muted-foreground mt-1">
+                  Nhắc nhở tự động các mốc nộp tờ khai, nộp tiền thuế vào Ngân sách Nhà nước để tránh bị phạt vi phạm hành chính
+                </p>
+              </div>
+              <Button 
+                variant="outline" 
+                size="sm" 
+                onClick={() => navigate('/bieu-mau')}
+                className="gap-1.5 text-xs border-emerald-300 dark:border-emerald-800 text-emerald-700 dark:text-emerald-300 w-fit shrink-0"
+              >
+                <Download className="h-3.5 w-3.5" /> Mở Kho Biểu Mẫu Tờ Khai
+              </Button>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {TAX_DEADLINES.map((item) => (
+                <div 
+                  key={item.id} 
+                  className="p-4 rounded-2xl border border-border/80 bg-background hover:border-emerald-500/50 transition-all flex flex-col justify-between space-y-3"
+                >
+                  <div className="space-y-2">
+                    <div className="flex items-center justify-between gap-2">
+                      <span className="font-mono text-xs font-bold text-emerald-800 dark:text-emerald-300 bg-emerald-100 dark:bg-emerald-950/60 px-2.5 py-0.5 rounded-full border border-emerald-300/60">
+                        {item.dueDateText}
+                      </span>
+                      <Badge variant="outline" className="text-[11px]">
+                        {item.badge}
+                      </Badge>
+                    </div>
+
+                    <h4 className="font-bold text-base text-foreground">
+                      {item.title}
+                    </h4>
+
+                    <p className="text-xs text-muted-foreground leading-relaxed">
+                      {item.description}
+                    </p>
+                  </div>
+
+                  <div className="pt-3 border-t border-border/60 flex items-center justify-between text-xs">
+                    <span className="text-muted-foreground">
+                      Nơi nhận: <strong>{item.agency}</strong>
+                    </span>
+                    <span className="font-mono font-semibold text-emerald-600">
+                      Mẫu: {item.formCode}
+                    </span>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className="p-4 bg-amber-50/60 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800/60 rounded-2xl text-xs space-y-1.5">
+              <div className="font-bold text-amber-900 dark:text-amber-200 flex items-center gap-1.5">
+                <AlertTriangle className="h-4 w-4 text-amber-600" />
+                Chế tài xử phạt theo Nghị định 125/2020/NĐ-CP nếu nộp chậm:
+              </div>
+              <p className="text-amber-800 dark:text-amber-300 leading-relaxed">
+                • Nộp chậm từ 01 đến 05 ngày: Phạt cảnh cáo (nếu có tình tiết giảm nhẹ) hoặc phạt từ 2 - 5 triệu đồng.
+                <br />• Nộp chậm từ 06 đến 30 ngày: Phạt tiền từ <strong>5.000.000đ đến 8.000.000đ</strong>.
+                <br />• Nộp chậm từ 31 đến 60 ngày: Phạt tiền từ <strong>8.000.000đ đến 15.000.000đ</strong>.
+                <br />• Quá hạn nộp tiền thuế còn bị phạt thêm <strong>0,03%/ngày</strong> trên số tiền thuế chậm nộp.
+              </p>
+            </div>
+          </div>
+        </TabsContent>
+
+        {/* 2. TÍNH KHẤU HAO TSCĐ (MỚI) */}
+        <TabsContent value="depreciation" className="space-y-6">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
-            {/* Input form */}
             <Card className="lg:col-span-5 shadow-sm border-border">
               <CardHeader>
                 <CardTitle className="text-lg flex items-center gap-2">
-                  <DollarSign className="h-5 w-5 text-emerald-600" />
-                  Thông tin thu nhập tháng
+                  <Truck className="h-5 w-5 text-purple-600" />
+                  Thông số Tài sản cố định
                 </CardTitle>
                 <CardDescription>
-                  Nhập thu nhập chịu thuế và các khoản giảm trừ
+                  Căn cứ Thông tư 45/2013/TT-BTC & Thông tư 147/2016/TT-BTC
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-2">
-                  <Label>Tổng thu nhập (Lương + Thưởng) (VNĐ)</Label>
-                  <Input 
-                    type="number" 
-                    step="500000"
-                    value={tncnIncome}
+                  <Label>Nhóm tài sản cố định chuẩn</Label>
+                  <select
+                    className="w-full h-10 px-3 rounded-lg border border-border bg-background text-xs"
+                    value={selectedAssetIdx}
                     onChange={(e) => {
-                      const val = Number(e.target.value) || 0;
-                      setTncnIncome(val);
-                      setInsuranceDeduction(Math.round(val * 0.105));
+                      const idx = Number(e.target.value);
+                      setSelectedAssetIdx(idx);
+                      const p = ASSET_PRESETS[idx];
+                      setAssetYears(p.defaultYears);
+                      setAssetOriginalCost(p.defaultCost);
                     }}
+                  >
+                    {ASSET_PRESETS.map((p, idx) => (
+                      <option key={idx} value={idx}>{p.name}</option>
+                    ))}
+                  </select>
+                </div>
+
+                <div className="space-y-2">
+                  <Label>Nguyên giá tài sản (VNĐ - Chưa gồm VAT nếu khấu trừ)</Label>
+                  <Input 
+                    type="number"
+                    step="10000000"
+                    value={assetOriginalCost}
+                    onChange={(e) => setAssetOriginalCost(Number(e.target.value) || 0)}
+                    className="font-mono text-base font-semibold"
+                  />
+                  <div className="text-xs text-muted-foreground">{formatVnd(assetOriginalCost)}</div>
+                </div>
+
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="space-y-2">
+                    <Label>Thời gian trích (Năm)</Label>
+                    <Input 
+                      type="number"
+                      min="1"
+                      max="30"
+                      value={assetYears}
+                      onChange={(e) => setAssetYears(Number(e.target.value) || 1)}
+                      className="font-mono"
+                    />
+                    <span className="text-[11px] text-muted-foreground">
+                      Khung TT45: {selectedPreset.minYears} - {selectedPreset.maxYears} năm
+                    </span>
+                  </div>
+
+                  <div className="space-y-2">
+                    <Label>Số tháng đã sử dụng</Label>
+                    <Input 
+                      type="number"
+                      min="0"
+                      value={assetMonthsUsed}
+                      onChange={(e) => setAssetMonthsUsed(Number(e.target.value) || 0)}
+                      className="font-mono"
+                    />
+                    <span className="text-[11px] text-muted-foreground">
+                      Tính khấu hao lũy kế
+                    </span>
+                  </div>
+                </div>
+
+                <div className="p-3 bg-purple-50 dark:bg-purple-950/30 rounded-xl text-xs text-purple-900 dark:text-purple-200 space-y-1">
+                  <div className="font-semibold flex items-center gap-1.5">
+                    <ShieldCheck className="h-4 w-4 text-purple-600" />
+                    Điều kiện trích khấu hao hợp lý:
+                  </div>
+                  <p>• Phải có đầy đủ hóa đơn GTGT hợp pháp và chứng từ thanh toán không dùng tiền mặt (chuyển khoản từ TK Kiểu Việt).</p>
+                  <p>• Phải có Quyết định đầu tư và Biên bản giao nhận TSCĐ đưa vào sử dụng (Mẫu 01-TSCĐ).</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <div className="lg:col-span-7 space-y-4">
+              <div className="bg-card border border-border rounded-2xl p-6 shadow-sm space-y-6">
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
+                  <div className="p-4 rounded-xl bg-purple-50/50 dark:bg-purple-950/20 border border-purple-200 dark:border-purple-800">
+                    <span className="text-[11px] text-muted-foreground uppercase font-semibold">Khấu hao / Tháng</span>
+                    <div className="text-xl font-bold text-purple-900 dark:text-purple-200 mt-1">{formatVnd(monthlyDepreciation)}</div>
+                  </div>
+                  <div className="p-4 rounded-xl bg-blue-50/50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800">
+                    <span className="text-[11px] text-muted-foreground uppercase font-semibold">Khấu hao / Năm</span>
+                    <div className="text-xl font-bold text-blue-900 dark:text-blue-200 mt-1">{formatVnd(yearlyDepreciation)}</div>
+                  </div>
+                  <div className="p-4 rounded-xl bg-emerald-50/50 dark:bg-emerald-950/20 border border-emerald-200 dark:border-emerald-800 col-span-2 sm:col-span-1">
+                    <span className="text-[11px] text-muted-foreground uppercase font-semibold">Giá trị còn lại</span>
+                    <div className="text-xl font-bold text-emerald-900 dark:text-emerald-200 mt-1">{formatVnd(remainingAssetValue)}</div>
+                  </div>
+                </div>
+
+                <div className="p-4 bg-muted/40 rounded-xl space-y-3 text-xs border border-border/60">
+                  <div className="font-bold text-foreground">Bảng theo dõi hao mòn lũy kế:</div>
+                  <div className="flex justify-between text-muted-foreground">
+                    <span>Nguyên giá ban đầu (TK 211):</span>
+                    <strong className="font-mono text-foreground">{formatVnd(assetOriginalCost)}</strong>
+                  </div>
+                  <div className="flex justify-between text-purple-700 dark:text-purple-300">
+                    <span>Đã khấu hao lũy kế qua {assetMonthsUsed} tháng (TK 214):</span>
+                    <strong className="font-mono">-{formatVnd(accumulatedDepreciation)}</strong>
+                  </div>
+                  <div className="pt-2 border-t border-border flex justify-between text-sm font-bold text-foreground">
+                    <span>GIÁ TRỊ CÒN LẠI CỦA TÀI SẢN:</span>
+                    <span className="font-mono text-emerald-600">{formatVnd(remainingAssetValue)}</span>
+                  </div>
+                </div>
+
+                {/* Bút toán hạch toán theo TT 99/2025 */}
+                <div className="p-4 bg-background border border-emerald-300 dark:border-emerald-800/80 rounded-2xl space-y-3">
+                  <div className="font-bold text-xs uppercase tracking-wider text-emerald-800 dark:text-emerald-300 flex items-center gap-1.5">
+                    <Sparkles className="h-4 w-4 text-emerald-600" />
+                    Bút toán hạch toán hàng tháng (Theo Thông tư 99/2025):
+                  </div>
+                  <div className="space-y-2 text-xs">
+                    {selectedPreset.target === 'construction' ? (
+                      <div className="p-3 rounded-xl bg-emerald-50/60 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-800 font-mono space-y-1">
+                        <div><strong className="text-emerald-800 dark:text-emerald-300">NỢ TK 154</strong> (1543 - Chi phí máy thi công công trình): {formatVnd(monthlyDepreciation)}</div>
+                        <div><strong className="text-blue-800 dark:text-blue-300">CÓ TK 214</strong> (2141 - Hao mòn TSCĐ hữu hình): {formatVnd(monthlyDepreciation)}</div>
+                        <p className="text-[11px] text-muted-foreground italic pt-1 font-sans">
+                          * TT 99 bãi bỏ TK 6234, ghi thẳng vào chi phí dở dang TK 154 của công trình tương ứng.
+                        </p>
+                      </div>
+                    ) : (
+                      <div className="p-3 rounded-xl bg-blue-50/60 dark:bg-blue-950/30 border border-blue-200 dark:border-blue-800 font-mono space-y-1">
+                        <div><strong className="text-emerald-800 dark:text-emerald-300">NỢ TK 642</strong> (Chi phí quản lý doanh nghiệp): {formatVnd(monthlyDepreciation)}</div>
+                        <div><strong className="text-blue-800 dark:text-blue-300">CÓ TK 214</strong> (2141 - Hao mòn TSCĐ): {formatVnd(monthlyDepreciation)}</div>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </TabsContent>
+
+        {/* 3. TÍNH THUẾ TNCN (LUẬT 109/2025) */}
+        <TabsContent value="tncn" className="space-y-6">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            <Card className="lg:col-span-5 shadow-sm border-border">
+              <CardHeader>
+                <CardTitle className="text-lg flex items-center gap-2">
+                  <Calculator className="h-5 w-5 text-emerald-600" />
+                  Thông số thu nhập & giảm trừ
+                </CardTitle>
+                <CardDescription>
+                  Áp dụng theo Luật Thuế TNCN số 109/2025/QH15
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="space-y-4">
+                <div className="space-y-2">
+                  <Label>Thu nhập chịu thuế (Gross)</Label>
+                  <Input 
+                    type="number"
+                    step="1000000"
+                    value={tncnIncome}
+                    onChange={(e) => setTncnIncome(Number(e.target.value) || 0)}
                     className="font-mono text-base font-semibold"
                   />
                   <div className="text-xs text-muted-foreground">{formatVnd(tncnIncome)}</div>
                 </div>
 
                 <div className="space-y-2">
-                  <Label>Số người phụ thuộc (người)</Label>
+                  <Label>Số người phụ thuộc</Label>
                   <Input 
-                    type="number" 
+                    type="number"
                     min="0"
-                    max="20"
+                    max="10"
                     value={dependents}
-                    onChange={(e) => setDependents(Math.max(0, Number(e.target.value) || 0))}
+                    onChange={(e) => setDependents(Number(e.target.value) || 0)}
                     className="font-mono"
                   />
+                  <span className="text-xs text-muted-foreground">
+                    Hiện hành: 4,4 tr/người • Mới 2026: <strong>6,2 tr/người</strong>
+                  </span>
                 </div>
 
                 <div className="space-y-2">
-                  <Label>Các khoản đóng bảo hiểm bắt buộc (10.5%)</Label>
+                  <Label>Các khoản bảo hiểm bắt buộc (10.5%)</Label>
                   <Input 
                     type="number"
+                    step="500000"
                     value={insuranceDeduction}
                     onChange={(e) => setInsuranceDeduction(Number(e.target.value) || 0)}
                     className="font-mono"
                   />
                   <div className="text-xs text-muted-foreground">{formatVnd(insuranceDeduction)}</div>
                 </div>
-
-                <div className="p-3 bg-emerald-50 dark:bg-emerald-950/30 rounded-lg text-xs text-emerald-800 dark:text-emerald-300 space-y-1">
-                  <div className="font-semibold flex items-center gap-1.5">
-                    <CheckCircle2 className="h-4 w-4 text-emerald-600" />
-                    Căn cứ pháp lý:
-                  </div>
-                  <p>• Luật số 109/2025/QH15 (Hiệu lực 01/07/2026): Bản thân 15.5tr, Phụ thuộc 6.2tr.</p>
-                  <p>• Luật Thuế TNCN hiện hành: Bản thân 11tr, Phụ thuộc 4.4tr.</p>
-                </div>
               </CardContent>
             </Card>
 
-            {/* Bảng so sánh kết quả */}
-            <div className="lg:col-span-7 space-y-6">
-              {/* Thẻ chênh lệch tiết kiệm được */}
-              <div className="bg-gradient-to-r from-emerald-600 to-teal-700 text-white rounded-xl p-6 shadow-md">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <span className="text-xs uppercase tracking-wider text-emerald-100 font-semibold">
-                      Chênh lệch khi áp dụng Luật mới 109/2025
+            <div className="lg:col-span-7 space-y-4">
+              <div className="bg-card border border-border rounded-xl p-6 shadow-sm space-y-6">
+                <div>
+                  <span className="text-xs text-muted-foreground uppercase font-semibold">Thuế TNCN phải nộp (Luật 109/2025)</span>
+                  <div className="text-3xl font-black text-emerald-600 mt-1">{formatVnd(newResult.tax)}</div>
+                  <p className="text-xs text-muted-foreground mt-1">
+                    Thu nhập tính thuế sau giảm trừ: <strong>{formatVnd(newResult.taxable)}</strong>
+                  </p>
+                </div>
+
+                <div className="p-4 bg-emerald-50 dark:bg-emerald-950/20 border border-emerald-200 dark:border-emerald-800 rounded-xl space-y-3">
+                  <div className="flex items-center justify-between text-xs">
+                    <span className="font-semibold text-emerald-800 dark:text-emerald-300 flex items-center gap-1.5">
+                      <TrendingDown className="h-4 w-4" /> Số tiền thuế tiết kiệm được mỗi tháng:
                     </span>
-                    <div className="text-3xl font-extrabold mt-1">
-                      {taxSaved > 0 ? `Tiết kiệm ${formatVnd(taxSaved)}/tháng` : 'Chưa phát sinh thuế'}
-                    </div>
+                    <span className="font-black text-base font-mono text-emerald-600">
+                      +{formatVnd(Math.max(0, taxSaved))}
+                    </span>
                   </div>
-                  <div className="p-3 bg-white/20 rounded-full backdrop-blur-sm">
-                    <TrendingDown className="h-8 w-8 text-white" />
+                  <div className="text-[11px] text-muted-foreground">
+                    Tương đương tiết kiệm khoảng <strong>{formatVnd(Math.max(0, taxSaved * 12))}</strong> tiền thuế mỗi năm cho người lao động Kiểu Việt.
                   </div>
                 </div>
-                <p className="text-xs text-emerald-100 mt-2">
-                  {taxSaved > 0 
-                    ? `Mỗi năm người lao động tiết kiệm được ${formatVnd(taxSaved * 12)} tiền thuế TNCN!`
-                    : 'Thu nhập trong ngưỡng giảm trừ gia cảnh, không phải nộp thuế TNCN.'}
-                </p>
-              </div>
 
-              {/* So sánh 2 biểu thuế */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {/* Biểu hiện hành */}
-                <Card className="border-border shadow-sm">
-                  <CardHeader className="pb-3 border-b border-border/50">
-                    <div className="text-xs text-muted-foreground font-semibold uppercase">Biểu hiện hành (7 Bậc)</div>
-                    <CardTitle className="text-xl font-bold text-foreground">
-                      {formatVnd(currentResult.tax)}
-                    </CardTitle>
-                    <CardDescription className="text-xs">
-                      Giảm trừ: Bản thân 11tr • PT 4.4tr
-                    </CardDescription>
-                  </CardHeader>
-                  <CardContent className="pt-3 text-xs space-y-2">
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Thu nhập tính thuế:</span>
-                      <strong className="font-mono">{formatVnd(currentResult.taxable)}</strong>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Tổng giảm trừ:</span>
-                      <span className="font-mono">{formatVnd(currentResult.personalDeduction + currentResult.depDeduction)}</span>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                {/* Biểu mới 2026 */}
-                <Card className="border-emerald-200 dark:border-emerald-800 bg-emerald-50/20 shadow-sm">
-                  <CardHeader className="pb-3 border-b border-emerald-200/50">
-                    <div className="text-xs text-emerald-700 dark:text-emerald-400 font-semibold uppercase">
-                      Luật mới 2026 (5 Bậc)
-                    </div>
-                    <CardTitle className="text-xl font-bold text-emerald-700 dark:text-emerald-400">
-                      {formatVnd(newResult.tax)}
-                    </CardTitle>
-                    <CardDescription className="text-xs">
-                      Giảm trừ: Bản thân 15.5tr • PT 6.2tr
-                    </CardDescription>
-                  </CardHeader>
-                  <CardContent className="pt-3 text-xs space-y-2">
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Thu nhập tính thuế:</span>
-                      <strong className="font-mono text-emerald-700 dark:text-emerald-400">{formatVnd(newResult.taxable)}</strong>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-muted-foreground">Tổng giảm trừ:</span>
-                      <span className="font-mono">{formatVnd(newResult.personalDeduction + newResult.depDeduction)}</span>
-                    </div>
-                  </CardContent>
-                </Card>
+                <div className="grid grid-cols-2 gap-3 text-xs">
+                  <div className="p-3 bg-muted/40 rounded-lg space-y-1">
+                    <span className="text-muted-foreground font-semibold">Theo biểu cũ (7 bậc):</span>
+                    <div className="font-mono font-bold text-foreground">{formatVnd(currentResult.tax)}</div>
+                    <div className="text-[11px] text-muted-foreground">Giảm trừ: 11tr + {dependents}×4.4tr</div>
+                  </div>
+                  <div className="p-3 bg-emerald-50/50 dark:bg-emerald-950/40 rounded-lg space-y-1 border border-emerald-300/50">
+                    <span className="text-emerald-800 dark:text-emerald-300 font-semibold">Theo Luật 109/2025 (5 bậc):</span>
+                    <div className="font-mono font-bold text-emerald-700 dark:text-emerald-400">{formatVnd(newResult.tax)}</div>
+                    <div className="text-[11px] text-muted-foreground">Giảm trừ: 15.5tr + {dependents}×6.2tr</div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </TabsContent>
 
-        {/* 2. GROSS -> NET & CHI PHÍ DOANH NGHIỆP */}
-        <TabsContent value="payroll" className="space-y-6">
+        {/* 4. GROSS -> NET */}
+        <TabsContent value="gross-net" className="space-y-6">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
             <Card className="lg:col-span-5 shadow-sm border-border">
               <CardHeader>
                 <CardTitle className="text-lg flex items-center gap-2">
-                  <ArrowRightLeft className="h-5 w-5 text-emerald-600" />
-                  Thông số lương nhân sự
+                  <DollarSign className="h-5 w-5 text-blue-600" />
+                  Mức lương hợp đồng (Gross)
                 </CardTitle>
                 <CardDescription>
-                  Áp trần lương cơ sở 2.34tr (Nghị định 73/2024)
+                  Áp dụng mức trần lương cơ sở 2.340.000đ (NĐ 73/2024/NĐ-CP)
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-2">
-                  <Label>Mức lương thỏa thuận (Lương Gross) (VNĐ)</Label>
+                  <Label>Lương thỏa thuận Gross (VNĐ)</Label>
                   <Input 
                     type="number"
-                    step="500000"
+                    step="1000000"
                     value={grossSalary}
                     onChange={(e) => setGrossSalary(Number(e.target.value) || 0)}
                     className="font-mono text-base font-semibold"
@@ -336,88 +616,63 @@ export function ToolsPage() {
                 </div>
 
                 <div className="space-y-2">
-                  <Label>Khu vực áp dụng lương tối thiểu vùng</Label>
+                  <Label>Vùng lương tối thiểu áp dụng</Label>
                   <select
+                    className="w-full h-10 px-3 rounded-lg border border-border bg-background text-xs"
                     value={payrollRegion}
                     onChange={(e) => setPayrollRegion(Number(e.target.value))}
-                    className="w-full h-10 px-3 rounded-md border border-input bg-background text-sm"
                   >
-                    <option value={1}>Vùng I (Hà Nội, TP.HCM, Quy Nhơn...) - 4.960.000đ</option>
-                    <option value={2}>Vùng II (TP Pleiku, TX An Nhơn...) - 4.410.000đ</option>
-                    <option value={3}>Vùng III (Huyện Tây Sơn, Phù Cát...) - 3.860.000đ</option>
-                    <option value={4}>Vùng IV (Các vùng còn lại) - 3.450.000đ</option>
+                    <option value={1}>Vùng I (Hà Nội, TP.HCM, Quy Nhơn... - 4.960.000đ)</option>
+                    <option value={2}>Vùng II (Đô thị loại 2, 3 - 4.410.000đ)</option>
+                    <option value={3}>Vùng III (Thị xã, huyện - 3.860.000đ)</option>
+                    <option value={4}>Vùng IV (Khu vực nông thôn - 3.450.000đ)</option>
                   </select>
                 </div>
 
-                <div className="p-3 bg-muted/50 rounded-lg text-xs space-y-1.5 text-muted-foreground border border-border/50">
-                  <div className="font-semibold text-foreground">Quy định trần đóng bảo hiểm:</div>
-                  <p>• Mức lương cơ sở: <strong>2.340.000 đ/tháng</strong> (từ 01/07/2024)</p>
-                  <p>• Mức trần đóng BHXH, BHYT (20 lần): <strong>46.800.000 đ</strong></p>
-                  <p>• Mức trần đóng BHTN: <strong>{formatVnd(CAP_BHTN)}</strong></p>
+                <div className="p-3 bg-blue-50 dark:bg-blue-950/30 rounded-lg text-xs text-blue-800 dark:text-blue-300 space-y-1">
+                  <div className="font-semibold flex items-center gap-1.5">
+                    <ShieldCheck className="h-4 w-4 text-blue-600 shrink-0" />
+                    Trần bảo hiểm áp dụng:
+                  </div>
+                  <p>• Trần BHXH, BHYT: <strong>{formatVnd(CAP_BHXH_BHYT)}</strong> (20 lần lương cơ sở 2,34tr).</p>
+                  <p>• Trần BHTN: <strong>{formatVnd(CAP_BHTN)}</strong> (20 lần lương tối thiểu vùng).</p>
                 </div>
               </CardContent>
             </Card>
 
             <div className="lg:col-span-7 space-y-4">
-              {/* Tóm tắt Lương Thực Nhận (Net) */}
-              <div className="bg-card border border-border rounded-xl p-5 shadow-sm space-y-4">
-                <div className="flex items-center justify-between border-b border-border pb-3">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div className="bg-card border border-border rounded-xl p-5 shadow-sm space-y-4">
                   <div>
-                    <span className="text-xs text-muted-foreground uppercase font-semibold">Lương thực nhận của Người Lao Động</span>
-                    <div className="text-2xl font-black text-emerald-600 mt-0.5">{formatVnd(netSalary)}</div>
+                    <span className="text-xs text-muted-foreground uppercase font-semibold">Thực lĩnh ước tính (Net)</span>
+                    <div className="text-2xl font-black text-emerald-600 mt-0.5">{formatVnd(netSalaryEstimate)}</div>
                   </div>
-                  <span className="text-xs px-2.5 py-1 bg-emerald-100 text-emerald-800 rounded-full font-bold">
-                    NET
-                  </span>
+                  <div className="space-y-1.5 text-xs text-muted-foreground border-t border-border pt-3">
+                    <div className="flex justify-between">
+                      <span>Lương Gross:</span>
+                      <strong className="font-mono text-foreground">{formatVnd(grossSalary)}</strong>
+                    </div>
+                    <div className="flex justify-between text-red-600">
+                      <span>- Bảo hiểm người lao động (10.5%):</span>
+                      <strong className="font-mono">-{formatVnd(totalEeInsurance)}</strong>
+                    </div>
+                  </div>
                 </div>
 
-                <div className="space-y-2 text-xs">
-                  <div className="flex justify-between text-muted-foreground">
-                    <span>Lương Gross ban đầu:</span>
-                    <strong className="font-mono text-foreground">{formatVnd(grossSalary)}</strong>
-                  </div>
-                  <div className="flex justify-between text-red-600">
-                    <span>- Bảo hiểm người lao động đóng (10.5%):</span>
-                    <strong className="font-mono">-{formatVnd(totalEeIns)}</strong>
-                  </div>
-                  <div className="pl-3 text-[11px] text-muted-foreground space-y-0.5 border-l-2 border-red-200">
-                    <div>• BHXH (8%): {formatVnd(eeBhxh)}</div>
-                    <div>• BHYT (1.5%): {formatVnd(eeBhyt)}</div>
-                    <div>• BHTN (1%): {formatVnd(eeBhtn)}</div>
-                  </div>
-                  <div className="flex justify-between text-amber-600">
-                    <span>- Tạm tính Thuế TNCN (1 người phụ thuộc):</span>
-                    <strong className="font-mono">-{formatVnd(eeTax)}</strong>
-                  </div>
-                </div>
-              </div>
-
-              {/* Chi phí thực tế Doanh nghiệp Kiểu Việt chịu */}
-              <div className="bg-blue-50/50 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-900/40 rounded-xl p-5 shadow-sm space-y-3">
-                <div className="flex items-center justify-between border-b border-blue-200 dark:border-blue-800 pb-3">
+                <div className="bg-card border border-border rounded-xl p-5 shadow-sm space-y-4">
                   <div>
-                    <span className="text-xs text-blue-800 dark:text-blue-300 uppercase font-semibold">Tổng chi phí Công ty Kiểu Việt chi trả</span>
+                    <span className="text-xs text-muted-foreground uppercase font-semibold">Tổng chi phí Công ty Kiểu Việt</span>
                     <div className="text-2xl font-black text-blue-900 dark:text-blue-200 mt-0.5">{formatVnd(totalErCost)}</div>
                   </div>
-                  <span className="text-xs px-2.5 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 rounded-full font-bold">
-                    COMPANY COST
-                  </span>
-                </div>
-
-                <div className="space-y-2 text-xs">
-                  <div className="flex justify-between text-muted-foreground">
-                    <span>Lương trả cho nhân sự:</span>
-                    <strong className="font-mono text-foreground">{formatVnd(grossSalary)}</strong>
-                  </div>
-                  <div className="flex justify-between text-blue-700 dark:text-blue-300">
-                    <span>+ Bảo hiểm & Phí Công đoàn Công ty đóng (23.5%):</span>
-                    <strong className="font-mono">+{formatVnd(totalErCost - grossSalary)}</strong>
-                  </div>
-                  <div className="pl-3 text-[11px] text-muted-foreground space-y-0.5 border-l-2 border-blue-300">
-                    <div>• BHXH (17.5% gồm TNLĐ-BNN): {formatVnd(erBhxh)}</div>
-                    <div>• BHYT (3%): {formatVnd(erBhyt)}</div>
-                    <div>• BHTN (1%): {formatVnd(erBhtn)}</div>
-                    <div>• Kinh phí công đoàn (2%): {formatVnd(erKpcd)}</div>
+                  <div className="space-y-1.5 text-xs text-muted-foreground border-t border-border pt-3">
+                    <div className="flex justify-between">
+                      <span>Lương hợp đồng:</span>
+                      <strong className="font-mono text-foreground">{formatVnd(grossSalary)}</strong>
+                    </div>
+                    <div className="flex justify-between text-blue-700 dark:text-blue-300">
+                      <span>+ Bảo hiểm & KPCĐ DN đóng (23.5%):</span>
+                      <strong className="font-mono">+{formatVnd(totalErCost - grossSalary)}</strong>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -425,7 +680,7 @@ export function ToolsPage() {
           </div>
         </TabsContent>
 
-        {/* 3. TÍNH TIỀN PHẠT CHẬM NỘP THUẾ */}
+        {/* 5. TÍNH TIỀN PHẠT CHẬM NỘP THUẾ */}
         <TabsContent value="penalty" className="space-y-6">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
             <Card className="lg:col-span-5 shadow-sm border-border">
@@ -468,15 +723,6 @@ export function ToolsPage() {
                     onChange={(e) => setPayDate(e.target.value)}
                   />
                 </div>
-
-                <div className="p-3 bg-red-50 dark:bg-red-950/30 rounded-lg text-xs text-red-800 dark:text-red-300 space-y-1">
-                  <div className="font-semibold flex items-center gap-1.5">
-                    <AlertTriangle className="h-4 w-4 text-red-600 shrink-0" />
-                    Mức phạt chậm nộp luật định:
-                  </div>
-                  <p>• <strong>0,03%/ngày</strong> tính trên số tiền thuế chậm nộp.</p>
-                  <p>• Quá 90 ngày kể từ ngày hết hạn nộp thuế, cơ quan thuế sẽ áp dụng biện pháp cưỡng chế trích tiền từ tài khoản ngân hàng!</p>
-                </div>
               </CardContent>
             </Card>
 
@@ -504,10 +750,6 @@ export function ToolsPage() {
                     <span>TỔNG CỘNG PHẢI NỘP:</span>
                     <span className="font-mono text-red-600">{formatVnd(taxDebt + latePenalty)}</span>
                   </div>
-                </div>
-
-                <div className="p-3 bg-amber-50 dark:bg-amber-950/20 border border-amber-200 rounded-lg text-xs text-amber-800 dark:text-amber-300">
-                  💡 <strong>Lưu ý cho Kế toán Kiểu Việt:</strong> Tiền chậm nộp thuế KHÔNG được tính vào chi phí được trừ khi xác định thuế TNDN (theo Điều 4 Thông tư 96/2015/TT-BTC).
                 </div>
               </div>
             </div>

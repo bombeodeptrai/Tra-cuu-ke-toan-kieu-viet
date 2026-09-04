@@ -200,6 +200,18 @@ export function DecreeDetailPage() {
 
   return (
     <div className="max-w-5xl mx-auto pb-12">
+      {/* Header chỉ hiển thị khi in ấn (Print Header) */}
+      <div className="print-header hidden">
+        <div style={{ textAlign: 'center', marginBottom: '15px' }}>
+          <h3 style={{ fontSize: '13pt', fontWeight: 'bold', margin: '0' }}>CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</h3>
+          <p style={{ fontSize: '11pt', fontStyle: 'italic', margin: '2px 0 8px 0' }}>Độc lập - Tự do - Hạnh phúc</p>
+          <hr style={{ width: '120px', margin: '0 auto 10px auto' }} />
+          <h4 style={{ fontSize: '11pt', fontWeight: 'bold', textTransform: 'uppercase', margin: '0', color: '#006633' }}>
+            HỆ THỐNG TRA CỨU PHÁP LUẬT — CÔNG TY CỔ PHẦN KIỂU VIỆT
+          </h4>
+        </div>
+      </div>
+
       {/* Breadcrumb */}
       <div className="flex items-center text-sm text-muted-foreground mb-6 gap-2">
         <Link to="/" className="hover:text-primary transition-colors">Trang chủ</Link>
