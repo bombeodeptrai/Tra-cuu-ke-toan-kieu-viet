@@ -4,192 +4,192 @@ export const group4LaborSalaryContracts: Record<string, DecreeDiffData> = {
   "blld-45-2019": {
     "decreeId": "blld-45-2019",
     "title": "Bộ luật Lao động số 45/2019/QH14",
-    "category": "Lao động & Tiền lương",
+    "category": "Bộ luật Lao động",
     "compareWith": "Bộ luật Lao động số 10/2012/QH13",
-    "summary": "Cải cách lớn về quan hệ lao động: Tăng tuổi nghỉ hưu, thu hẹp còn 2 loại HĐLĐ (bãi bỏ HĐLĐ mùa vụ), công nhận HĐLĐ điện tử, quyền đơn phương chấm dứt HĐLĐ không cần lý do và nâng trần giờ làm thêm lên 40 giờ/tháng.",
+    "summary": "Bộ luật Lao động 45/2019/QH14 cải cách lớn quan hệ lao động: Bãi bỏ hợp đồng mùa vụ (chỉ còn 2 loại HĐLĐ), công nhận HĐLĐ điện tử, nâng trần làm thêm giờ lên 40h/tháng và thêm 01 ngày nghỉ lễ Quốc khánh.",
     "items": [
       {
-        "topic": "Bãi bỏ loại Hợp đồng lao động mùa vụ, chỉ còn 2 loại HĐLĐ",
+        "topic": "Bãi bỏ loại Hợp đồng lao động mùa vụ, chỉ còn 2 loại HĐLĐ hợp pháp",
         "type": "modified",
-        "oldRule": "Quy định 3 loại HĐLĐ: Không xác định thời hạn, Xác định thời hạn (12-36 tháng) và Mùa vụ/theo công việc nhất định (dưới 12 tháng).",
-        "newRule": "Bãi bỏ hoàn toàn HĐLĐ mùa vụ. Chỉ còn 2 loại: Hợp đồng lao động không xác định thời hạn và Hợp đồng lao động xác định thời hạn (tối đa 36 tháng).",
-        "impactNote": "Kiểu Việt chuyển đổi toàn bộ nhân công thời vụ thi công công trình sang ký HĐLĐ xác định thời hạn hoặc hợp đồng khoán việc dịch vụ dân sự."
+        "oldRule": "[Căn cứ: Điều 22 BLLĐ 2012] Quy định 3 loại HĐLĐ: 1) Không xác định thời hạn; 2) Xác định thời hạn (12-36 tháng); 3) Hợp đồng theo mùa vụ hoặc theo một công việc nhất định có thời hạn dưới 12 tháng.",
+        "newRule": "[Căn cứ: Điều 20 BLLĐ 2019] Bãi bỏ hoàn toàn HĐLĐ mùa vụ. Chỉ còn 2 loại: Hợp đồng lao động không xác định thời hạn và Hợp đồng lao động xác định thời hạn (thời hạn không quá 36 tháng, chỉ được ký tối đa 02 lần).",
+        "impactNote": "Kiểu Việt chuyển toàn bộ nhân công công trường sang ký Hợp đồng lao động xác định thời hạn có đóng BHXH bắt buộc hoặc ký Hợp đồng giao khoán công việc theo Bộ luật Dân sự."
       },
       {
-        "topic": "Công nhận giá trị pháp lý của Hợp đồng lao động điện tử",
+        "topic": "Công nhận giá trị pháp lý đầy đủ của Hợp đồng lao động điện tử",
         "type": "added",
-        "oldRule": "HĐLĐ bắt buộc phải được giao kết bằng văn bản giấy có chữ ký tươi của người lao động và người sử dụng lao động.",
-        "newRule": "Thừa nhận HĐLĐ được giao kết thông qua phương tiện điện tử dưới hình thức thông điệp dữ liệu có giá trị pháp lý như hợp đồng lao động bằng văn bản giấy.",
-        "impactNote": "Kiểu Việt ký hợp đồng lao động điện tử từ xa với các kỹ sư, cán bộ giám sát làm việc tại các công trường vùng sâu vùng xa."
+        "oldRule": "[Căn cứ: Điều 16 BLLĐ 2012] HĐLĐ bắt buộc phải được giao kết bằng văn bản giấy có chữ ký sống của hai bên và đóng dấu pháp nhân.",
+        "newRule": "[Căn cứ: Khoản 1 Điều 14 BLLĐ 2019] Thừa nhận HĐLĐ được giao kết thông qua phương tiện điện tử dưới hình thức thông điệp dữ liệu theo quy định của pháp luật về giao dịch điện tử có giá trị như hợp đồng lao động bằng văn bản giấy.",
+        "impactNote": "Kiểu Việt ký kết hợp đồng lao động điện tử từ xa với các kỹ sư cầu đường, lái máy xúc tại các công trường vùng sâu vùng xa chỉ trong 5 phút."
       },
       {
         "topic": "Quyền đơn phương chấm dứt HĐLĐ của người lao động không cần lý do",
         "type": "modified",
-        "oldRule": "Người lao động muốn đơn phương chấm dứt HĐLĐ phải có một trong các lý do luật định (không được bố trí đúng việc, bị ngược đãi...).",
-        "newRule": "Người lao động có quyền đơn phương chấm dứt HĐLĐ mà không cần bất kỳ lý do gì, chỉ cần tuân thủ thời hạn báo trước (45 ngày với HĐ không xác định thời hạn, 30 ngày với HĐ xác định thời hạn).",
-        "impactNote": "Phòng Hành chính - Nhân sự Kiểu Việt chủ động xây dựng phương án nhân sự dự phòng cho các vị trí kỹ sư trọng yếu của dự án."
+        "oldRule": "[Căn cứ: Điều 37 BLLĐ 2012] Người lao động muốn đơn phương chấm dứt HĐLĐ phải có một trong các lý do luật định (không được bố trí đúng công việc, bị ngược đãi, ốm đau kéo dài...).",
+        "newRule": "[Căn cứ: Điều 35 BLLĐ 2019] Người lao động có quyền đơn phương chấm dứt HĐLĐ mà không cần bất kỳ lý do gì, chỉ cần báo trước cho người sử dụng lao động: Ít nhất 45 ngày (HĐ không xác định thời hạn), 30 ngày (HĐ xác định thời hạn từ 12-36 tháng) hoặc 03 ngày làm việc (HĐ dưới 12 tháng).",
+        "impactNote": "Phòng Nhân sự Kiểu Việt chủ động xây dựng phương án dự phòng nhân sự kỹ thuật, không để xảy ra tình trạng thiếu kỹ sư công trường đột ngột."
       },
       {
-        "topic": "Nâng giới hạn làm thêm giờ tối đa lên 40 giờ/tháng",
+        "topic": "Nâng giới hạn thời gian làm thêm giờ tối đa lên 40 giờ/tháng",
         "type": "modified",
-        "oldRule": "Thời gian làm thêm giờ tối đa không quá 30 giờ trong 01 tháng và không quá 200 giờ trong 01 năm.",
-        "newRule": "Nâng số giờ làm thêm tối đa lên không quá 40 giờ trong 01 tháng; duy trì mức trần 200 giờ/năm (hoặc tối đa 300 giờ/năm đối với một số ngành nghề đặc thù xây dựng).",
-        "impactNote": "Kiểu Việt có cơ sở pháp lý để huy động kỹ sư, công nhân làm thêm giờ đẩy nhanh tiến độ thi công các công trình trước mùa mưa lũ."
+        "oldRule": "[Căn cứ: Điều 106 BLLĐ 2012] Số giờ làm thêm không quá 30 giờ trong 01 tháng và không quá 200 giờ trong 01 năm.",
+        "newRule": "[Căn cứ: Điểm b Khoản 2 Điều 107 BLLĐ 2019] Nâng giới hạn làm thêm giờ tối đa lên không quá 40 giờ trong 01 tháng; duy trì mức trần không quá 200 giờ trong 01 năm (hoặc 300 giờ trong 01 năm đối với ngành xây dựng công trình).",
+        "impactNote": "Kiểu Việt có cơ sở pháp lý để bố trí kỹ sư, công nhân làm thêm giờ thi công gấp rút các hạng mục vượt lũ, thảm nhựa bê tông mà không bị phạt vi phạm lao động."
       },
       {
-        "topic": "Tăng thêm 01 ngày nghỉ lễ Quốc khánh (Tổng cộng 11 ngày nghỉ lễ)",
+        "topic": "Tăng thêm 01 ngày nghỉ lễ Quốc khánh có hưởng nguyên lương (Tổng cộng 11 ngày/năm)",
         "type": "added",
-        "oldRule": "Ngày Quốc khánh chỉ được nghỉ 01 ngày duy nhất là ngày 02 tháng 09 dương lịch.",
-        "newRule": "Người lao động được nghỉ 02 ngày nhân dịp Quốc khánh: Ngày 02 tháng 09 và 01 ngày liền kề trước hoặc sau do Thủ tướng Chính phủ quyết định hàng năm.",
-        "impactNote": "Kế toán Kiểu Việt lưu ý cách tính tiền lương làm thêm giờ vào ngày nghỉ lễ (tối thiểu 300% chưa kể tiền lương ngày lễ)."
+        "oldRule": "[Căn cứ: Điều 115 BLLĐ 2012] Ngày Quốc khánh chỉ được nghỉ 01 ngày duy nhất là ngày 02 tháng 09 dương lịch.",
+        "newRule": "[Căn cứ: Điểm đ Khoản 1 Điều 112 BLLĐ 2019] Người lao động được nghỉ 02 ngày nhân dịp Quốc khánh: Ngày 02 tháng 09 và 01 ngày liền kề trước hoặc sau do Thủ tướng Chính phủ quyết định hàng năm.",
+        "impactNote": "Kế toán Kiểu Việt tính toán chính xác tiền lương làm thêm giờ vào ngày nghỉ lễ Quốc khánh cho công nhân trực công trường (hưởng tối thiểu 300% chưa kể tiền lương ngày lễ)."
       }
     ]
   },
   "nd-145-2020": {
     "decreeId": "nd-145-2020",
     "title": "Nghị định 145/2020/NĐ-CP",
-    "category": "Hướng dẫn Bộ luật Lao động",
+    "category": "Hướng dẫn thi hành Bộ luật Lao động",
     "compareWith": "Nghị định 05/2015/NĐ-CP",
-    "summary": "Hướng dẫn chi tiết thi hành Bộ luật Lao động: Cách tính tiền lương làm thêm giờ ban đêm/ngày nghỉ, tính trợ cấp thôi việc, thủ tục đối thoại định kỳ và thời hạn giải quyết quyền lợi khi chấm dứt HĐLĐ trong 14 ngày làm việc.",
+    "summary": "Nghị định 145/2020/NĐ-CP hướng dẫn chi tiết về điều kiện lao động và quan hệ lao động: Quy định công thức tính tiền lương làm thêm giờ ban đêm (150%, 200%, 300%), thủ tục đăng ký làm thêm 300 giờ/năm trong ngành xây dựng.",
     "items": [
       {
-        "topic": "Công thức chuẩn tính tiền lương làm thêm giờ và làm việc ban đêm",
-        "type": "modified",
-        "oldRule": "Cách tính lương làm thêm giờ dựa trên mức lương cấp bậc gây nhiều cách hiểu sai lệch trong thanh tra lao động.",
-        "newRule": "Quy định công thức tính dựa trên Tiền lương thực trả của công việc đang làm: Làm ngày thường (ít nhất 150%), ngày nghỉ hàng tuần (ít nhất 200%), ngày nghỉ lễ/tết (ít nhất 300%); làm ban đêm cộng thêm ít nhất 30% lương ngày và 20% lương giờ làm thêm ban ngày.",
-        "impactNote": "Kế toán tiền lương Kiểu Việt thiết lập công thức bảng lương Excel chuẩn xác theo đúng quy định tại Điều 55-57 NĐ 145."
-      },
-      {
-        "topic": "Căn cứ tính tiền trợ cấp thôi việc và trợ cấp mất việc làm",
-        "type": "modified",
-        "oldRule": "Tiền lương làm căn cứ tính trợ cấp là tiền lương ghi trên HĐLĐ bao gồm cả các khoản phụ cấp không ổn định.",
-        "newRule": "Tiền lương tính trợ cấp là tiền lương bình quân của 06 tháng liền kề theo hợp đồng lao động trước khi người lao động thôi việc hoặc mất việc làm.",
-        "impactNote": "Kiểu Việt tính toán chính xác nguồn quỹ dự phòng trợ cấp thôi việc cho những người lao động có thời gian làm việc trước năm 2009."
-      },
-      {
-        "topic": "Thời hạn thanh toán toàn bộ quyền lợi khi chấm dứt HĐLĐ (Tối đa 14 ngày làm việc)",
-        "type": "modified",
-        "oldRule": "Thời hạn thanh toán cũ là 07 ngày làm việc, có thể kéo dài không quá 30 ngày.",
-        "newRule": "Trong thời hạn 14 ngày làm việc kể từ ngày chấm dứt HĐLĐ, hai bên có trách nhiệm thanh toán đầy đủ các khoản tiền liên quan đến quyền lợi của mỗi bên (tiền lương, phép năm chưa nghỉ, trợ cấp).",
-        "impactNote": "Kiểu Việt chốt thanh toán dứt điểm tiền lương và trả sổ BHXH cho người lao động nghỉ việc trong vòng 14 ngày theo đúng luật định."
-      },
-      {
-        "topic": "Quy chế dân chủ và đối thoại định kỳ tại nơi làm việc",
+        "topic": "Quy định các trường hợp ngành xây dựng được làm thêm giờ từ 200h đến 300h/năm",
         "type": "added",
-        "oldRule": "Doanh nghiệp tổ chức đối thoại định kỳ 3 tháng một lần gây tốn kém thời gian và mang tính hình thức.",
-        "newRule": "Quy định tổ chức đối thoại tại nơi làm việc định kỳ ít nhất 01 năm một lần; hoặc khi có yêu cầu của một trong hai bên; hoặc khi có vụ việc bất thường.",
-        "impactNote": "Kiểu Việt tổ chức hội nghị người lao động và đối thoại định kỳ hàng năm hiệu quả, lắng nghe tâm tư của cán bộ kỹ thuật công trường."
+        "oldRule": "[Căn cứ: NĐ 05/2015] Quy định điều kiện làm thêm đến 300 giờ còn chung chung, ngành xây dựng thường bị cơ quan thanh tra lao động xử phạt.",
+        "newRule": "[Căn cứ: Điều 61 NĐ 145/2020/NĐ-CP] Cho phép ngành thi công xây dựng công trình giao thông, thủy lợi, hạ tầng kỹ thuật được huy động người lao động làm thêm đến 300 giờ/năm trong trường hợp: Giải quyết công việc cấp bách, đẩy nhanh tiến độ dự án trọng điểm quốc gia hoặc khắc phục thiên tai bão lũ.",
+        "impactNote": "Kiểu Việt gửi văn bản thông báo bằng văn bản cho Sở LĐ-TBXH địa phương nơi thi công về việc làm thêm giờ trên 200h/năm theo Mẫu số 02/PLIV để hợp thức hóa chi phí lương."
+      },
+      {
+        "topic": "Công thức chuẩn tính tiền lương làm thêm giờ vào ban đêm (Tối thiểu 210% - 390%)",
+        "type": "modified",
+        "oldRule": "[Căn cứ: Điều 25 NĐ 05/2015] Cách tính tiền lương làm thêm giờ ban đêm thường gây nhầm lẫn giữa cộng dồn và nhân hệ số.",
+        "newRule": "[Căn cứ: Điều 55 & Điều 57 NĐ 145/2020/NĐ-CP] Quy định công thức chuẩn: Tiền lương làm thêm giờ ban đêm = [Tiền lương giờ thực trả x Hệ số làm thêm (150%/200%/300%)] + [Tiền lương giờ thực trả x 30%] + [20% x Tiền lương giờ vào ban ngày]. Tổng mức trả từ 210% (ngày thường), 270% (ngày nghỉ tuần) đến 390% (ngày lễ Tết).",
+        "impactNote": "Kế toán tiền lương Kiểu Việt lập Bảng tính lương thợ ca đêm đổ bê tông đường theo công thức chuẩn xác, đảm bảo quyền lợi công nhân và chi phí hợp lý thuế TNDN."
+      },
+      {
+        "topic": "Quy định tiền lương ngừng việc do thời tiết mưa bão bất khả kháng trên công trường",
+        "type": "modified",
+        "oldRule": "[Căn cứ: NĐ 05/2015] Khi công trường dừng thi công do mưa bão, việc trả lương ngừng việc do hai bên tự thỏa thuận nhưng không rõ mức sàn.",
+        "newRule": "[Căn cứ: Điều 99 BLLĐ 2019 & NĐ 145/2020] Nếu phải ngừng việc do sự cố điện nước hoặc thiên tai, dịch bệnh bất khả kháng: Nếu ngừng việc từ 14 ngày làm việc trở xuống thì tiền lương ngừng việc do hai bên thỏa thuận nhưng không được thấp hơn mức lương tối thiểu vùng.",
+        "impactNote": "Kiểu Việt có cơ sở trả lương tối thiểu vùng cho công nhân trong những ngày mưa bão ngập lụt tại công trường Tây Nguyên, giữ chân người lao động sau thiên tai."
+      },
+      {
+        "topic": "Thời hạn và thủ tục thông báo tổ chức làm thêm giờ cho Sở LĐ-TBXH",
+        "type": "added",
+        "oldRule": "[Căn cứ: NĐ 05/2015] Không có quy định thời hạn gửi thông báo làm thêm giờ cụ thể.",
+        "newRule": "[Căn cứ: Khoản 2 Điều 62 NĐ 145/2020/NĐ-CP] Khi tổ chức làm thêm từ trên 200 giờ đến 300 giờ/năm, người sử dụng lao động phải thông báo bằng văn bản cho Sở LĐ-TBXH chậm nhất sau 15 ngày kể từ ngày thực hiện.",
+        "impactNote": "Phòng Hành chính - Nhân sự Kiểu Việt bảo đảm gửi thông báo làm thêm đúng thời hạn 15 ngày, tránh bị phạt hành chính từ 4 đến 8 triệu đồng."
       }
     ]
   },
   "nd-293-2025": {
     "decreeId": "nd-293-2025",
     "title": "Nghị định 293/2025/NĐ-CP",
-    "category": "Lương tối thiểu vùng (Hiệu lực 2026)",
-    "compareWith": "Nghị định 73/2024/NĐ-CP & 38/2022/NĐ-CP",
-    "summary": "Quy định mức lương tối thiểu vùng mới áp dụng cho toàn quốc từ năm 2026: Điều chỉnh tăng mức lương tối thiểu tháng và lương tối thiểu giờ cho cả 4 vùng, điều chỉnh mức trần đóng BHTN.",
+    "category": "Lương tối thiểu vùng mới (2026)",
+    "compareWith": "Nghị định 74/2024/NĐ-CP và Nghị định 38/2022/NĐ-CP",
+    "summary": "Nghị định 293/2025/NĐ-CP điều chỉnh tăng mức lương tối thiểu vùng thêm khoảng 6% áp dụng từ năm 2026: Tăng mức sàn đóng BHXH bắt buộc và tăng chi phí tiền lương tối thiểu cho người lao động.",
     "items": [
       {
-        "topic": "Cập nhật bảng mức lương tối thiểu vùng theo tháng mới áp dụng năm 2026",
+        "topic": "Điều chỉnh tăng mức lương tối thiểu vùng thêm 6% trên toàn bộ 4 vùng kinh tế",
         "type": "modified",
-        "oldRule": "Áp dụng mức lương tối thiểu vùng cũ theo Nghị định 38/2022 (Vùng I: 4.68tr, Vùng II: 4.16tr, Vùng III: 3.64tr, Vùng IV: 3.25tr).",
-        "newRule": "Tăng mức lương tối thiểu vùng tháng áp dụng từ 2026: Vùng I (4.960.000 đ), Vùng II (4.410.000 đ), Vùng III (3.860.000 đ), Vùng IV (3.450.000 đ/tháng).",
-        "impactNote": "Kiểu Việt rà soát lại toàn bộ mức lương cơ bản trong HĐLĐ của công nhân tại các địa bàn dự án (Quy Nhơn, Gia Lai, Bình Định) để điều chỉnh không thấp hơn mức tối thiểu vùng mới."
+        "oldRule": "[Căn cứ: NĐ 74/2024/NĐ-CP] Mức lương tối thiểu vùng: Vùng I là 4.960.000 đ/tháng; Vùng II là 4.410.000 đ/tháng; Vùng III là 3.860.000 đ/tháng; Vùng IV là 3.450.000 đ/tháng.",
+        "newRule": "[Căn cứ: Điều 3 NĐ 293/2025/NĐ-CP] Tăng mức lương tối thiểu tháng lên: Vùng I: 5.260.000 đ/tháng; Vùng II: 4.680.000 đ/tháng; Vùng III: 4.100.000 đ/tháng; Vùng IV: 3.660.000 đ/tháng (tăng bình quân 6%).",
+        "impactNote": "Kiểu Việt điều chỉnh tăng mức lương ghi trong hợp đồng lao động và thang bảng lương công ty cho toàn bộ thợ bậc 1 thi công tại các công trường."
       },
       {
-        "topic": "Quy định mức lương tối thiểu theo giờ tương ứng từng vùng",
+        "topic": "Tăng mức lương tối thiểu theo giờ (Hourly Minimum Wage)",
         "type": "modified",
-        "oldRule": "Mức lương tối thiểu giờ theo NĐ 38/2022 dao động từ 15.600 đ/h đến 22.500 đ/h.",
-        "newRule": "Điều chỉnh tăng mức lương tối thiểu giờ: Vùng I: 23.800 đ/giờ; Vùng II: 21.200 đ/giờ; Vùng III: 18.600 đ/giờ; Vùng IV: 16.600 đ/giờ.",
-        "impactNote": "Cơ sở để Kiểu Việt tính toán tiền công cho các vị trí bảo vệ công trường, nhân công bốc dỡ vật tư làm việc bán thời gian theo giờ."
+        "oldRule": "[Căn cứ: NĐ 74/2024] Lương tối thiểu giờ: Vùng I là 23.800 đ/giờ; Vùng II là 21.200 đ/giờ; Vùng III là 18.600 đ/giờ; Vùng IV là 16.600 đ/giờ.",
+        "newRule": "[Căn cứ: Điều 3 NĐ 293/2025/NĐ-CP] Điều chỉnh lương tối thiểu giờ: Vùng I lên 25.300 đ/giờ; Vùng II lên 22.500 đ/giờ; Vùng III lên 19.700 đ/giờ; Vùng IV lên 17.600 đ/giờ.",
+        "impactNote": "Căn cứ pháp lý để Kiểu Việt tính tiền công trả cho thợ phụ hồ, lái xe theo giờ tại các dự án ngắn hạn."
       },
       {
-        "topic": "Tăng mức trần đóng Bảo hiểm thất nghiệp (BHTN)",
+        "topic": "Rà soát lại danh bàn phân vùng địa phương nơi công ty thực hiện dự án",
         "type": "modified",
-        "oldRule": "Mức trần đóng BHTN tính bằng 20 lần mức lương tối thiểu vùng cũ.",
-        "newRule": "Mức tiền lương tối đa để đóng BHTN bằng 20 lần mức lương tối thiểu vùng mới (Vùng I tối đa lên đến 99.200.000 đồng/tháng).",
-        "impactNote": "Kiểu Việt điều chỉnh phần mềm nhân sự tiền lương để tính toán chính xác mức trần đóng BHTN 1% cho cán bộ quản lý cấp cao."
+        "oldRule": "[Căn cứ: Phụ lục NĐ 74/2024] Một số thành phố trực thuộc tỉnh và thị xã thuộc Vùng II hoặc Vùng III.",
+        "newRule": "[Căn cứ: Phụ lục ban hành kèm theo NĐ 293/2025/NĐ-CP] Nâng bậc phân vùng kinh tế cho nhiều địa bàn đô thị hóa nhanh tại khu vực Tây Nguyên và Duyên hải miền Trung từ Vùng III lên Vùng II.",
+        "impactNote": "Kế toán Kiểu Việt kiểm tra chính xác địa bàn công trường thi công thuộc Vùng nào để áp dụng đúng mức lương tối thiểu vùng theo luật."
       },
       {
-        "topic": "Nguyên tắc trả lương cho lao động đã qua đào tạo nghề (+7%)",
+        "topic": "Nghĩa vụ điều chỉnh mức đóng BHXH, BHYT, BHTN tối thiểu theo vùng",
         "type": "modified",
-        "oldRule": "Nghị định 38/2022 bỏ quy định bắt buộc phải trả cao hơn ít nhất 7% đối với lao động đã qua đào tạo nghề.",
-        "newRule": "Khuyến khích và duy trì thỏa thuận trong Thỏa ước lao động tập thể: Người lao động làm công việc đòi hỏi đã qua đào tạo, học nghề phải được trả lương cao hơn ít nhất 7% so với mức lương tối thiểu vùng.",
-        "impactNote": "Kiểu Việt duy trì chính sách trả lương cao hơn 7-15% cho thợ hàn công nghệ cao, thợ điện và lái máy xúc có chứng chỉ nghề."
+        "oldRule": "[Căn cứ: QĐ 595/QĐ-BHXH] Mức tiền lương tháng đóng BHXH bắt buộc thấp nhất bằng mức lương tối thiểu vùng cũ.",
+        "newRule": "[Căn cứ: NĐ 293/2025 & Luật BHXH] Mức lương đóng BHXH bắt buộc của người lao động không được thấp hơn mức lương tối thiểu vùng mới tại thời điểm đóng.",
+        "impactNote": "Kiểu Việt làm thủ tục báo tăng mức đóng BHXH (Mẫu D02-LT) cho nhóm lao động đang hưởng mức lương sàn, tránh bị cơ quan BHXH truy thu nợ đọng."
       }
     ]
   },
   "nd-73-2024": {
     "decreeId": "nd-73-2024",
     "title": "Nghị định 73/2024/NĐ-CP",
-    "category": "Lương cơ sở & Mức trần BHXH",
+    "category": "Mức Lương cơ sở 2,34 triệu & Trần BHXH",
     "compareWith": "Nghị định 24/2023/NĐ-CP",
-    "summary": "Tăng mức lương cơ sở lịch sử từ 1.800.000 đồng lên 2.340.000 đồng/tháng (tăng 30%), nâng trần đóng BHXH/BHYT bắt buộc lên 46.800.000 đồng/tháng và tăng toàn bộ các chế độ trợ cấp BHXH.",
+    "summary": "Nghị định 73/2024/NĐ-CP tăng mạnh mức lương cơ sở từ 1.800.000 đồng lên 2.340.000 đồng/tháng (tăng 30% từ 01/07/2024): Đẩy mức trần đóng BHXH, BHYT bắt buộc lên 46.800.000 đồng/tháng.",
     "items": [
       {
-        "topic": "Tăng mức lương cơ sở từ 1.800.000 đ lên 2.340.000 đ/tháng (Tăng 30%)",
+        "topic": "Tăng mức lương cơ sở lên 2.340.000 đồng/tháng (Mức tăng lịch sử 30%)",
         "type": "modified",
-        "oldRule": "Mức lương cơ sở áp dụng từ 01/07/2023 là 1.800.000 đồng/tháng theo Nghị định 24/2023.",
-        "newRule": "Nâng mức lương cơ sở lên 2.340.000 đồng/tháng áp dụng chính thức từ ngày 01/07/2024 (mức tăng cao nhất trong lịch sử cải cách tiền lương).",
-        "impactNote": "Tác động tức thì đến toàn bộ các khoản đóng BHXH, BHYT và chế độ trợ cấp ốm đau, thai sản của cán bộ nhân viên Kiểu Việt."
+        "oldRule": "[Căn cứ: NĐ 24/2023/NĐ-CP] Mức lương cơ sở áp dụng từ 01/07/2023 là 1.800.000 đồng/tháng.",
+        "newRule": "[Căn cứ: Điều 3 NĐ 73/2024/NĐ-CP] Điều chỉnh mức lương cơ sở lên 2.340.000 đồng/tháng áp dụng từ ngày 01/07/2024 cho toàn bộ cán bộ công chức, viên chức và lực lượng vũ trang.",
+        "impactNote": "Làm căn cứ để các Ban Quản lý dự án điều chỉnh đơn giá nhân công trong dự toán xây dựng công trình đầu tư công."
       },
       {
-        "topic": "Nâng mức trần đóng BHXH và BHYT bắt buộc lên 46.800.000 đ/tháng",
+        "topic": "Nâng mức trần đóng BHXH, BHYT bắt buộc lên 46.800.000 đồng/tháng",
         "type": "modified",
-        "oldRule": "Mức tiền lương tháng đóng BHXH, BHYT tối đa bằng 20 lần lương cơ sở cũ = 36.000.000 đồng/tháng.",
-        "newRule": "Mức tiền lương tháng đóng BHXH, BHYT bắt buộc tối đa bằng 20 lần lương cơ sở 2.340.000 đ = 46.800.000 đồng/tháng.",
-        "impactNote": "Kiểu Việt và người lao động có mức lương trên 36 triệu phải đóng tăng thêm bảo hiểm: Doanh nghiệp đóng thêm tối đa 2.214.000 đ/tháng (20.5%), người lao động đóng thêm 1.026.000 đ/tháng (9.5%)."
+        "oldRule": "[Căn cứ: Luật BHXH 2014] Tiền lương tháng đóng BHXH, BHYT tối đa bằng 20 lần mức lương cơ sở cũ: 20 x 1.800.000 = 36.000.000 đồng/tháng.",
+        "newRule": "[Căn cứ: Khoản 3 Điều 89 Luật BHXH & NĐ 73/2024] Mức lương tháng đóng BHXH, BHYT tối đa tăng lên: 20 x 2.340.000 = 46.800.000 đồng/tháng (tăng thêm 10.800.000 đ/tháng).",
+        "impactNote": "Chi phí trích nộp BHXH, BHYT của Kiểu Việt cho các vị trí Ban Lãnh đạo, Giám đốc dự án có mức lương trên 36 triệu tăng thêm khoảng 3,4 triệu đồng/người/tháng."
       },
       {
-        "topic": "Tăng mức trợ cấp thai sản 1 lần khi sinh con lên 4.680.000 đ",
+        "topic": "Tăng mức trợ cấp một lần khi sinh con và trợ cấp dưỡng sức sau sinh",
         "type": "modified",
-        "oldRule": "Mức trợ cấp 1 lần khi sinh con bằng 2 lần lương cơ sở cũ = 3.600.000 đồng/con.",
-        "newRule": "Mức trợ cấp 1 lần cho mỗi con sinh ra bằng 2 lần lương cơ sở mới = 4.680.000 đồng (tăng thêm 1.080.000 đồng).",
-        "impactNote": "Kế toán Kiểu Việt hoàn thiện hồ sơ thanh toán chế độ thai sản để người lao động nhận đủ quyền lợi tăng thêm từ cơ quan BHXH."
+        "oldRule": "[Căn cứ: Điều 38 Luật BHXH 2014] Trợ cấp một lần khi sinh con bằng 02 lần mức lương cơ sở: 2 x 1.800.000 = 3.600.000 đồng/con.",
+        "newRule": "[Căn cứ: NĐ 73/2024] Nâng mức trợ cấp một lần khi sinh con lên: 2 x 2.340.000 = 4.680.000 đồng cho mỗi con; trợ cấp dưỡng sức sau thai sản tăng lên 702.000 đ/ngày.",
+        "impactNote": "Cán bộ nữ công nhân viên công ty Kiểu Việt được hưởng chế độ thai sản cao hơn, nâng cao chế độ đãi ngộ an sinh nội bộ."
       },
       {
-        "topic": "Tăng mức trợ cấp mai táng phí lên 23.400.000 đ",
+        "topic": "Tăng mức trợ cấp mai táng phí và bồi thường tai nạn lao động trên công trường",
         "type": "modified",
-        "oldRule": "Trợ cấp mai táng bằng 10 lần lương cơ sở cũ = 18.000.000 đồng.",
-        "newRule": "Trợ cấp mai táng bằng 10 lần lương cơ sở mới = 23.400.000 đồng (tăng thêm 5.400.000 đồng) khi người lao động qua đời.",
-        "impactNote": "Bảo đảm các chế độ an sinh xã hội cho thân nhân người lao động không may gặp rủi ro."
+        "oldRule": "[Căn cứ: Luật ATVSLĐ] Trợ cấp mai táng phí bằng 10 lần lương cơ sở: 18.000.000 đồng.",
+        "newRule": "[Căn cứ: NĐ 73/2024] Trợ cấp mai táng phí tăng lên 10 x 2.340.000 = 23.400.000 đồng; trợ cấp một lần suy giảm khả năng lao động do TNLĐ cũng tăng tương ứng 30%.",
+        "impactNote": "Kiểu Việt thắt chặt tối đa an toàn lao động tại các mỏ đá, công trường xây dựng, không để xảy ra tai nạn lao động đáng tiếc."
       }
     ]
   },
   "luat-41-2024": {
     "decreeId": "luat-41-2024",
     "title": "Luật Bảo hiểm xã hội số 41/2024/QH15",
-    "category": "Luật Bảo hiểm xã hội (Mới)",
+    "category": "Luật Bảo hiểm xã hội mới",
     "compareWith": "Luật Bảo hiểm xã hội số 58/2014/QH13",
-    "summary": "Cải cách lớn về an sinh xã hội: Giảm số năm đóng BHXH tối thiểu để hưởng lương hưu từ 20 năm xuống 15 năm, siết chặt rút BHXH 1 lần, bổ sung chế tài hình sự đối với hành vi trốn đóng BHXH và bổ sung trợ cấp hưu trí xã hội.",
+    "summary": "Luật BHXH 41/2024/QH15 (hiệu lực từ 01/07/2025) mở rộng diện bao phủ an sinh: Giảm điều kiện đóng BHXH tối thiểu để hưởng lương hưu từ 20 năm xuống 15 năm, siết chặt chế tài xử lý nợ đọng, trốn đóng BHXH.",
     "items": [
       {
-        "topic": "Giảm thời gian đóng BHXH tối thiểu để hưởng lương hưu xuống 15 năm",
+        "topic": "Giảm số năm đóng BHXH tối thiểu để hưởng lương hưu từ 20 năm xuống 15 năm",
         "type": "modified",
-        "oldRule": "Người lao động phải có đủ ít nhất 20 năm đóng BHXH trở lên mới đủ điều kiện hưởng lương hưu hàng tháng khi đủ tuổi.",
-        "newRule": "Giảm điều kiện thời gian đóng BHXH tối thiểu xuống 15 năm là đã đủ điều kiện hưởng lương hưu khi đến tuổi nghỉ hưu.",
-        "impactNote": "Tạo động lực rất lớn cho những công nhân, lao động cao tuổi tại Kiểu Việt tiếp tục tham gia BHXH để có lương hưu dưỡng già."
+        "oldRule": "[Căn cứ: Điều 54 Luật BHXH 2014] Người lao động phải tích lũy đủ ít nhất 20 năm đóng BHXH thì mới đủ điều kiện hưởng lương hưu hàng tháng khi đến tuổi nghỉ hưu.",
+        "newRule": "[Căn cứ: Điều 64 Luật BHXH 2024] Người lao động khi nghỉ việc có thời gian đóng BHXH bắt buộc từ đủ 15 năm trở lên và đủ tuổi nghỉ hưu theo quy định thì được hưởng lương hưu hàng tháng.",
+        "impactNote": "Tạo động lực rất lớn cho những công nhân xây dựng lớn tuổi tại Kiểu Việt tiếp tục tham gia BHXH để có lương hưu khi về già."
       },
       {
-        "topic": "Chế tài xử lý nghiêm minh hành vi Chậm đóng và Trốn đóng BHXH",
+        "topic": "Bổ sung chế tài nghiêm khắc đối với hành vi trốn đóng và chậm đóng BHXH",
         "type": "added",
-        "oldRule": "Hành vi chậm đóng BHXH chỉ bị phạt tiền lãi chậm nộp thông thường, doanh nghiệp thường xuyên nợ đọng kéo dài.",
-        "newRule": "Quy định rõ ràng hành vi trốn đóng BHXH; doanh nghiệp trốn đóng sẽ bị tính tiền lãi chậm nộp 0.03%/ngày, bị phạt hành chính nặng, hoãn xuất cảnh người đại diện pháp luật và chuyển hồ sơ khởi tố hình sự theo Điều 216 Bộ luật Hình sự.",
-        "impactNote": "Nhắc nhở bộ phận tài chính Kiểu Việt: Luôn ưu tiên trích nộp tiền BHXH hàng tháng đúng hạn, tuyệt đối không để phát sinh nợ đọng."
+        "oldRule": "[Căn cứ: Luật BHXH 2014] Tiền lãi chậm đóng tính bằng 2 lần lãi suất đầu tư quỹ BHXH nhưng doanh nghiệp vẫn chây ì nợ đọng.",
+        "newRule": "[Căn cứ: Điều 37-41 Luật BHXH 2024] Bắt buộc nộp số tiền chậm đóng và nộp thêm số tiền bằng 0,03%/ngày tính trên số tiền trốn đóng; ngừng sử dụng hóa đơn; hoãn xuất cảnh đối với người đại diện theo pháp luật của doanh nghiệp trốn đóng BHXH; truy cứu trách nhiệm hình sự theo Điều 216 Bộ luật Hình sự.",
+        "impactNote": "Cảnh báo sống còn: Kiểu Việt tuyệt đối không được nợ đọng tiền BHXH của công nhân quá hạn, bảo vệ danh dự và tự do xuất cảnh của Ban Lãnh đạo."
       },
       {
-        "topic": "Quy định mới về điều kiện rút BHXH một lần",
+        "topic": "Mở rộng đối tượng tham gia BHXH bắt buộc (Chủ hộ kinh doanh, quản lý doanh nghiệp)",
+        "type": "added",
+        "oldRule": "[Căn cứ: Điều 2 Luật BHXH 2014] Người quản lý doanh nghiệp không hưởng tiền lương không thuộc diện tham gia BHXH bắt buộc.",
+        "newRule": "[Căn cứ: Điểm m Khoản 1 Điều 2 Luật BHXH 2024] Bổ sung người quản lý doanh nghiệp, kiểm soát viên, người đại diện phần vốn nhà nước không hưởng tiền lương cũng thuộc đối tượng tham gia BHXH bắt buộc theo mức lương do DN tự chọn.",
+        "impactNote": "Kiểu Việt rà soát danh sách Hội đồng quản trị và Ban Kiểm soát công ty để đăng ký tham gia BHXH theo đúng quy định mới."
+      },
+      {
+        "topic": "Chính sách hưởng BHXH một lần đối với người lao động tham gia mới sau ngày 01/07/2025",
         "type": "modified",
-        "oldRule": "Sau 1 năm nghỉ việc không tiếp tục đóng BHXH là người lao động được rút BHXH 1 lần toàn bộ.",
-        "newRule": "Người lao động bắt đầu tham gia BHXH sau ngày Luật có hiệu lực không được rút BHXH 1 lần nếu không thuộc các trường hợp đặc biệt (định cư nước ngoài, mắc bệnh hiểm nghèo).",
-        "impactNote": "Phòng nhân sự Kiểu Việt tuyên truyền giải thích cho người lao động hiểu rõ lợi ích của việc tích lũy thời gian đóng để hưởng lương hưu."
-      },
-      {
-        "topic": "Mở rộng đối tượng tham gia BHXH bắt buộc đối với chủ hộ kinh doanh, quản lý",
-        "type": "added",
-        "oldRule": "Chủ hộ kinh doanh cá thể, người quản lý doanh nghiệp không hưởng lương không thuộc diện tham gia BHXH bắt buộc.",
-        "newRule": "Mở rộng diện tham gia BHXH bắt buộc đối với: Chủ hộ kinh doanh, người quản lý doanh nghiệp, kiểm soát viên, người đại diện phần vốn nhà nước.",
-        "impactNote": "Kiểu Việt đăng ký tham gia BHXH bắt buộc cho các thành viên HĐQT và ban kiểm soát theo đúng quy định mới."
+        "oldRule": "[Căn cứ: Nghị quyết 93/2015/QH13] Người lao động nghỉ việc sau 01 năm không tham gia BHXH được rút BHXH một lần toàn bộ quá trình đóng.",
+        "newRule": "[Căn cứ: Điều 70 Luật BHXH 2024] Người lao động bắt đầu tham gia BHXH từ ngày 01/07/2025 trở đi không được rút BHXH một lần sau 01 năm nghỉ việc (trừ các trường hợp đặc biệt: đủ tuổi nghỉ hưu mà chưa đủ 15 năm đóng, ra nước ngoài định cư, mắc bệnh hiểm nghèo).",
+        "impactNote": "Kiểu Việt tuyên truyền giải thích cho công nhân mới hiểu rõ chính sách để an tâm tích lũy BHXH lâu dài tại công ty."
       }
     ]
   },
@@ -198,72 +198,72 @@ export const group4LaborSalaryContracts: Record<string, DecreeDiffData> = {
     "title": "Quyết định 595/QĐ-BHXH",
     "category": "Quy trình thu BHXH, BHYT, BHTN",
     "compareWith": "Quyết định 959/QĐ-BHXH",
-    "summary": "Quy trình thu và quản lý sổ BHXH, thẻ BHYT toàn quốc: Ban hành Mẫu D02-LT (báo tăng giảm lao động), chuẩn hóa tỷ lệ trích nộp doanh nghiệp 21.5% và người lao động 10.5%, mã số BHXH đồng bộ CCCD.",
+    "summary": "Quyết định 595/QĐ-BHXH ban hành quy trình thu BHXH, BHYT, BHTN thống nhất toàn quốc: Hướng dẫn cơ chế đóng bảo hiểm theo quý đối với doanh nghiệp xây dựng giao thông và thủ tục cấp sổ BHXH điện tử.",
     "items": [
       {
-        "topic": "Tỷ lệ trích nộp các quỹ BHXH, BHYT, BHTN chuẩn",
-        "type": "modified",
-        "oldRule": "Tỷ lệ trích nộp phân bổ ở nhiều văn bản riêng lẻ của từng ngành.",
-        "newRule": "Chuẩn hóa tỷ lệ trích nộp tổng cộng 32%: Doanh nghiệp đóng 21.5% (Hưu trí tử tuất 14%, Ốm đau thai sản 3%, Tai nạn lao động 0.5%, BHYT 3%, BHTN 1%); Người lao động đóng 10.5% (Hưu trí 8%, BHYT 1.5%, BHTN 1%).",
-        "impactNote": "Kế toán tiền lương Kiểu Việt thiết lập tỷ lệ trích nộp chuẩn vào chi phí (Nợ 154/642 Có 338) và trừ lương (Nợ 334 Có 338) chính xác 100%."
-      },
-      {
-        "topic": "Mẫu biểu báo biến động lao động chuẩn Mẫu D02-LT",
+        "topic": "Cơ chế đóng BHXH theo quý đối với Doanh nghiệp xây dựng, giao thông lưu động",
         "type": "added",
-        "oldRule": "Sử dụng Mẫu D02-TS với nhiều cột thông tin kê khai thủ công dễ sai sót.",
-        "newRule": "Ban hành Mẫu D02-LT (Danh sách lao động tham gia BHXH, BHYT, BHTN) kê khai điện tử tích hợp chữ ký số nộp qua phần mềm IVAN.",
-        "impactNote": "Kiểu Việt thực hiện báo tăng khi tiếp nhận nhân sự mới và báo giảm khi chấm dứt HĐLĐ ngay trong tháng để không bị truy thu lãi bảo hiểm."
+        "oldRule": "[Căn cứ: QĐ 959/QĐ-BHXH] Bắt buộc mọi doanh nghiệp phải đóng tiền BHXH hàng tháng chậm nhất vào ngày cuối cùng của tháng.",
+        "newRule": "[Căn cứ: Khoản 2 Điều 7 QĐ 595/QĐ-BHXH] Doanh nghiệp hoạt động trong lĩnh vực nông nghiệp, lâm nghiệp, ngư nghiệp, diêm nghiệp và xây dựng công trình giao thông, thủy lợi lưu động được đóng BHXH, BHYT, BHTN theo phương thức 03 tháng một lần hoặc 06 tháng một lần.",
+        "impactNote": "Kiểu Việt làm công văn đăng ký phương thức đóng BHXH theo quý (3 tháng/lần) phù hợp với chu kỳ giải ngân dòng tiền các gói thầu xây dựng."
       },
       {
-        "topic": "Mã số BHXH duy nhất đồng bộ với Căn cước công dân gắn chip",
+        "topic": "Quy định căn cứ tiền lương tháng đóng BHXH bắt buộc (Lương + Phụ cấp lương)",
         "type": "modified",
-        "oldRule": "Mỗi người lao động có thể có nhiều sổ BHXH khác nhau do thay đổi nơi làm việc.",
-        "newRule": "Cấp duy nhất 01 mã số BHXH gồm 10 chữ số gắn liền với số định danh cá nhân / CCCD của người lao động suốt đời.",
-        "impactNote": "Kiểu Việt hỗ trợ công nhân gộp các sổ BHXH cũ về một mã số định danh duy nhất trên ứng dụng VssID."
+        "oldRule": "[Căn cứ: QĐ 959] Chỉ đóng bảo hiểm trên mức lương cơ bản ghi trên hợp đồng.",
+        "newRule": "[Căn cứ: Điều 6 QĐ 595/QĐ-BHXH & Thông tư 59/2015] Tiền lương tháng đóng BHXH gồm: Mức lương theo công việc hoặc chức danh + Phụ cấp lương có tính chất thường xuyên (chức vụ, trách nhiệm, thâm niên). Không tính các khoản hỗ trợ tiền ăn, xăng xe, điện thoại, hiếu hỉ.",
+        "impactNote": "Kế toán Kiểu Việt tách bạch các khoản khoán chi xăng xe, điện thoại, ăn trưa ra khỏi hợp đồng lao động để giảm trừ hợp pháp chi phí BHXH công ty phải nộp (21.5%)."
       },
       {
-        "topic": "Quy trình hoàn trả tiền bảo hiểm nộp thừa hoặc thoái thu",
+        "topic": "Triển khai ứng dụng VssID và thay thế sổ BHXH giấy bằng dữ liệu số",
         "type": "added",
-        "oldRule": "Thủ tục thoái thu tiền BHXH do báo giảm chậm rất phức tạp và phải giải trình nhiều cấp.",
-        "newRule": "Quy định thời hạn cơ quan BHXH phải hoàn trả tiền đóng thừa hoặc bù trừ vào kỳ thu tiếp theo trong vòng tối đa 05 ngày làm việc.",
-        "impactNote": "Bảo đảm số tiền bảo hiểm nộp thừa của Kiểu Việt được cơ quan BHXH đối soát hoàn trả kịp thời."
+        "oldRule": "[Căn cứ: QĐ 959] Sử dụng cuốn sổ BHXH bằng bìa giấy cứng, việc in tờ rời xác nhận thời gian đóng BHXH hàng năm rất tốn công sức.",
+        "newRule": "[Căn cứ: Điều 4 QĐ 595/QĐ-BHXH] Số hóa toàn bộ quá trình đóng BHXH trên Cơ sở dữ liệu quốc gia về bảo hiểm; người lao động tự tra cứu quá trình tham gia và thẻ BHYT điện tử trên ứng dụng di động VssID.",
+        "impactNote": "Kiểu Việt hướng dẫn 100% cán bộ công nhân viên cài đặt VssID, không còn tình trạng thất lạc sổ BHXH giấy tại các công trường."
+      },
+      {
+        "topic": "Quy trình báo giảm lao động và giải quyết chế độ ốm đau, thai sản qua mạng điện tử",
+        "type": "modified",
+        "oldRule": "[Căn cứ: QĐ 959] Nộp hồ sơ giấy Mẫu D02-TS và chứng từ viện phí trực tiếp tại bộ phận một cửa cơ quan BHXH.",
+        "newRule": "[Căn cứ: Điều 23 QĐ 595/QĐ-BHXH] 100% hồ sơ báo tăng, báo giảm lao động, hồ sơ đề nghị thanh toán chế độ ốm đau, thai sản (Mẫu 01B-HSB) được thực hiện qua phần mềm Bảo hiểm xã hội điện tử có ký số HSM.",
+        "impactNote": "Rút ngắn thời gian cơ quan BHXH chuyển tiền trợ cấp ốm đau, thai sản vào tài khoản cá nhân công nhân Kiểu Việt xuống còn 3-5 ngày làm việc."
       }
     ]
   },
   "nd-12-2022": {
     "decreeId": "nd-12-2022",
     "title": "Nghị định 12/2022/NĐ-CP",
-    "category": "Xử phạt vi phạm hành chính Lao động & BHXH",
+    "category": "Xử phạt vi phạm Lao động & BHXH",
     "compareWith": "Nghị định 28/2020/NĐ-CP",
-    "summary": "Quy định xử phạt vi phạm hành chính trong lĩnh vực lao động và bảo hiểm xã hội: Tăng mạnh tiền phạt vi phạm hợp đồng lao động, chậm đóng BHXH phạt đến 15% số tiền nợ, vi phạm an toàn lao động công trường phạt đến 50 triệu đồng.",
+    "summary": "Nghị định 12/2022/NĐ-CP tăng mạnh mức tiền phạt vi phạm pháp luật lao động, BHXH và an toàn vệ sinh lao động: Phạt chậm đóng BHXH lên đến 15% số tiền nợ, phạt vi phạm an toàn công trường đến 50 triệu đồng.",
     "items": [
       {
-        "topic": "Phạt hành vi không giao kết HĐLĐ bằng văn bản",
+        "topic": "Khung tiền phạt đối với hành vi không giao kết Hợp đồng lao động bằng văn bản",
         "type": "modified",
-        "oldRule": "Mức phạt nhẹ từ 1 đến 5 triệu đồng đối với vi phạm dưới 10 lao động.",
-        "newRule": "Phạt tiền từ 2.000.000 đến 25.000.000 đồng đối với người sử dụng lao động không giao kết HĐLĐ bằng văn bản; mức phạt tăng dần theo số lượng lao động vi phạm.",
-        "impactNote": "Kiểu Việt ký hợp đồng lao động 100% với toàn bộ nhân công trước khi bố trí vào công trường làm việc, cấm tuyệt đối việc sử dụng lao động không hợp đồng."
+        "oldRule": "[Căn cứ: Điều 8 NĐ 28/2020] Phạt từ 2.000.000 đến 25.000.000 đồng đối với hành vi không ký hợp đồng lao động.",
+        "newRule": "[Căn cứ: Khoản 1 Điều 9 NĐ 12/2022/NĐ-CP] Phạt tiền từ 2.000.000 đến 25.000.000 đồng đối với người sử dụng lao động không giao kết HĐLĐ bằng văn bản; mức phạt tăng dần theo số lượng lao động vi phạm (từ 1 đến trên 100 người).",
+        "impactNote": "Kiểu Việt ký hợp đồng lao động đầy đủ cho từng nhân công thời vụ ngay trong ngày đầu tiên tiếp nhận vào công trường."
       },
       {
-        "topic": "Phạt hành vi chậm đóng, đóng không đủ số người tham gia BHXH",
+        "topic": "Xử phạt hành vi chậm đóng, nợ đóng BHXH bắt buộc, BHTN (Phạt từ 12% - 15% tiền nợ)",
         "type": "modified",
-        "oldRule": "Chỉ xử phạt mức tiền cố định mà không căn cứ vào tỷ lệ số tiền nợ BHXH.",
-        "newRule": "Phạt tiền từ 12% đến 15% tổng số tiền phải đóng BHXH bắt buộc tại thời điểm lập biên bản vi phạm (tối đa không quá 75.000.000 đồng).",
-        "impactNote": "Kiểu Việt không bao giờ để nợ đọng bảo hiểm để tránh bị xử phạt 15% trên tổng số tiền nợ kèm theo tiền lãi chậm nộp."
+        "oldRule": "[Căn cứ: Điều 38 NĐ 28/2020] Phạt tiền từ 12% đến 15% tổng số tiền phải nộp nhưng mức tối đa chỉ 75 triệu đồng.",
+        "newRule": "[Căn cứ: Khoản 5 Điều 39 NĐ 12/2022/NĐ-CP] Phạt tiền từ 12% đến 15% tổng số tiền phải nộp BHXH bắt buộc tại thời điểm lập biên bản vi phạm hành chính nhưng tối đa không quá 75.000.000 đồng đối với hành vi chậm đóng BHXH; đồng thời buộc truy nộp đủ số tiền nợ và tiền lãi chậm nộp.",
+        "impactNote": "Kiểu Việt thanh toán tiền BHXH đúng hạn hàng tháng/quý để không bị phạt thêm hàng chục triệu đồng tiền phạt hành chính."
       },
       {
-        "topic": "Phạt vi phạm quy định về an toàn vệ sinh lao động tại công trường",
-        "type": "added",
-        "oldRule": "Chưa quy định chi tiết các lỗi an toàn xây dựng (giàn giáo, lưới an toàn, đồ bảo hộ).",
-        "newRule": "Phạt tiền từ 20.000.000 đến 50.000.000 đồng đối với hành vi không trang bị đầy đủ phương tiện bảo hộ lao động cho công nhân làm việc trên cao; đình chỉ thi công công trình nếu có nguy cơ gây tai nạn nghiêm trọng.",
-        "impactNote": "Chỉ huy trưởng các công trường Kiểu Việt bắt buộc kiểm tra 100% công nhân đeo dây an toàn, đội mũ bảo hộ trước khi bước vào công trường."
+        "topic": "Xử phạt vi phạm quy định về an toàn vệ sinh lao động (ATVSLĐ) trên công trường",
+        "type": "modified",
+        "oldRule": "[Căn cứ: NĐ 28/2020] Phạt mức nhẹ đối với việc không trang bị đồ bảo hộ lao động.",
+        "newRule": "[Căn cứ: Điều 21 & Điều 23 NĐ 12/2022/NĐ-CP] Phạt tiền từ 20.000.000 đến 50.000.000 đồng đối với hành vi: Không trang bị phương tiện bảo vệ cá nhân cho người lao động làm việc trên công trường xây dựng nguy hiểm; không huấn luyện an toàn lao động định kỳ.",
+        "impactNote": "Kiểu Việt bắt buộc 100% công nhân vào công trường phải đội mũ bảo hộ, đeo dây đai an toàn trên cao và hoàn thành khóa huấn luyện an toàn nhóm 3."
       },
       {
-        "topic": "Phạt hành vi giữ bản chính giấy tờ tùy thân của người lao động",
-        "type": "added",
-        "oldRule": "Doanh nghiệp thường giữ CCCD gốc hoặc bằng cấp gốc của người lao động để làm tin.",
-        "newRule": "Phạt tiền từ 20.000.000 đến 25.000.000 đồng đối với hành vi giữ bản chính giấy tờ tùy thân, văn bằng, chứng chỉ của người lao động.",
-        "impactNote": "Kiểu Việt chỉ lưu giữ bản sao chứng thực CCCD và bằng cấp, hoàn trả ngay bản chính sau khi đối chiếu hồ sơ tuyển dụng."
+        "topic": "Xử phạt hành vi huy động làm thêm giờ vượt quá số giờ quy định theo luật",
+        "type": "modified",
+        "oldRule": "[Căn cứ: NĐ 28/2020] Phạt từ 5.000.000 đến 25.000.000 đồng.",
+        "newRule": "[Căn cứ: Khoản 3 Điều 18 NĐ 12/2022/NĐ-CP] Phạt tiền từ 40.000.000 đến 50.000.000 đồng đối với người sử dụng lao động có hành vi huy động người lao động làm thêm giờ vượt quá số giờ quy định (quá 40h/tháng hoặc quá 300h/năm).",
+        "impactNote": "Chỉ huy trưởng công trường Kiểu Việt phải điều phối chia ca kíp hợp lý, tuyệt đối không để công nhân làm thêm giờ vượt trần 40 giờ/tháng."
       }
     ]
   },
@@ -272,72 +272,72 @@ export const group4LaborSalaryContracts: Record<string, DecreeDiffData> = {
     "title": "Nghị định 37/2015/NĐ-CP",
     "category": "Hợp đồng xây dựng",
     "compareWith": "Nghị định 48/2010/NĐ-CP",
-    "summary": "Xương sống pháp lý cho toàn bộ các hợp đồng thi công xây dựng tại Việt Nam: Quy định 4 loại giá hợp đồng, tỷ lệ bảo lãnh thực hiện hợp đồng (2-10%), thời hạn thanh toán không quá 14 ngày làm việc và mức phạt vi phạm tối đa 12%.",
+    "summary": "Nghị định 37/2015/NĐ-CP là khung pháp lý chuẩn mực về hợp đồng xây dựng: Quy định thời hạn Chủ đầu tư thanh toán tối đa 14 ngày làm việc, bảo lãnh tạm ứng và quyền dừng thi công khi bị chậm thanh toán.",
     "items": [
       {
-        "topic": "Quy định 4 loại giá hợp đồng xây dựng",
+        "topic": "Quy định thời hạn Chủ đầu tư thanh toán tiền hợp đồng không quá 14 ngày làm việc",
         "type": "modified",
-        "oldRule": "Chưa phân định rạch ròi cơ chế điều chỉnh giá khi có biến động vật liệu xây dựng.",
-        "newRule": "Quy định chuẩn 4 loại giá: Hợp đồng trọn gói; Hợp đồng theo đơn giá cố định; Hợp đồng theo đơn giá điều chỉnh; và Hợp đồng theo giá kết hợp.",
-        "impactNote": "Kiểu Việt đàm phán áp dụng loại Hợp đồng theo đơn giá điều chỉnh đối với các công trình thi công dài hạn để phòng ngừa rủi ro trượt giá sắt thép, cát đá."
+        "oldRule": "[Căn cứ: Điều 19 NĐ 48/2010] Thời hạn thanh toán hợp đồng xây dựng thường bị Chủ đầu tư kéo dài tùy tiện hàng tháng do không có chế tài cụ thể.",
+        "newRule": "[Căn cứ: Khoản 10 Điều 19 NĐ 37/2015/NĐ-CP] Thời hạn thanh toán không được quá 14 ngày làm việc kể từ ngày Bên giao thầu (Chủ đầu tư) nhận đủ hồ sơ thanh toán hợp lệ của Bên nhận thầu. Trường hợp nguồn vốn ngân sách phải qua Kho bạc thì thời hạn thanh toán không quá 07 ngày làm việc kể từ ngày nhận đủ hồ sơ.",
+        "impactNote": "Vũ khí pháp lý quan trọng để Kiểu Việt yêu cầu Ban QLDA thanh toán tiền nghiệm thu gói thầu đúng hạn 14 ngày, không bị chiếm dụng vốn."
       },
       {
-        "topic": "Bảo lãnh thực hiện hợp đồng xây dựng (Tỷ lệ 2% - 10%)",
+        "topic": "Bảo lãnh tạm ứng hợp đồng xây dựng có giá trị tạm ứng trên 01 tỷ đồng",
         "type": "added",
-        "oldRule": "Tỷ lệ bảo lãnh do các bên tự thỏa thuận, nhiều chủ đầu tư đòi hỏi mức bảo lãnh quá cao gây khó khăn vốn.",
-        "newRule": "Quy định bắt buộc tỷ lệ bảo lãnh thực hiện hợp đồng từ 2% đến 10% giá hợp đồng; có hiệu lực từ ngày ký hợp đồng cho đến ngày công trình được nghiệm thu bàn giao đưa vào sử dụng.",
-        "impactNote": "Kiểu Việt làm việc với ngân hàng phát hành thư bảo lãnh hợp đồng với chi phí bảo lãnh thấp nhất để nộp cho Chủ đầu tư."
+        "oldRule": "[Căn cứ: NĐ 48/2010] Chưa quy định bắt buộc nộp thư bảo lãnh ngân hàng đối với mọi khoản tạm ứng.",
+        "newRule": "[Căn cứ: Khoản 4 Điều 18 NĐ 37/2015/NĐ-CP] Đối với hợp đồng xây dựng có giá trị tạm ứng trên 01 tỷ đồng, Bên nhận thầu phải nộp cho Bên giao thầu Bảo lãnh tạm ứng hợp đồng của tổ chức tín dụng có giá trị tương đương số tiền tạm ứng trước khi nhận tiền.",
+        "impactNote": "Kiểu Việt mở hạn mức phát hành thư bảo lãnh hoàn trả tiền tạm ứng tại BIDV/Vietinbank với chi phí phí bảo lãnh thấp nhất để nhanh chóng nhận vốn tạm ứng mua vật tư."
       },
       {
-        "topic": "Thời hạn thanh toán khối lượng hoàn thành không quá 14 ngày làm việc",
+        "topic": "Quyền dừng thi công của nhà thầu xây dựng khi Chủ đầu tư chậm thanh toán",
         "type": "added",
-        "oldRule": "Chủ đầu tư thường kéo dài thời gian thanh toán công nợ xây lắp hàng tháng, hàng năm mà không có chế tài.",
-        "newRule": "Trong thời hạn không quá 14 ngày làm việc kể từ ngày nhận đủ hồ sơ thanh toán hợp lệ (Mẫu 03a và hóa đơn), bên giao thầu phải thanh toán cho bên nhận thầu.",
-        "impactNote": "Kiểu Việt có cơ sở pháp lý vững chắc để gửi công văn yêu cầu Chủ đầu tư thanh toán đúng hạn và tính lãi chậm trả nếu quá 14 ngày."
+        "oldRule": "[Căn cứ: NĐ 48/2010] Nhà thầu dừng thi công thường bị Chủ đầu tư phạt vi phạm hợp đồng và tịch thu bảo lãnh thực hiện hợp đồng.",
+        "newRule": "[Căn cứ: Điểm a Khoản 2 Điều 43 NĐ 37/2015/NĐ-CP] Bên nhận thầu có quyền tạm dừng thực hiện hợp đồng xây dựng nếu Bên giao thầu chậm thanh toán quá 28 ngày kể từ ngày hết thời hạn thanh toán mà không có lý do chính đáng; đồng thời được bồi thường thiệt hại thực tế phát sinh.",
+        "impactNote": "Bảo vệ Kiểu Việt có quyền tạm dừng thi công máy móc tại hiện trường khi Chủ đầu tư nợ đọng tiền thanh toán quá 28 ngày mà không bị phạt vi phạm tiến độ."
       },
       {
-        "topic": "Mức phạt vi phạm hợp đồng xây dựng tối đa 12% giá trị vi phạm",
+        "topic": "Xử phạt chậm thanh toán theo mức lãi suất quá hạn của Ngân hàng thương mại",
         "type": "modified",
-        "oldRule": "Nhiều hợp đồng quy định mức phạt vi phạm chậm tiến độ không giới hạn dẫn đến tranh chấp lớn.",
-        "newRule": "Mức phạt vi phạm hợp đồng do các bên thỏa thuận nhưng đối với công trình vốn nhà nước, mức phạt tối đa không vượt quá 12% giá trị phần hợp đồng bị vi phạm.",
-        "impactNote": "Giúp Kiểu Việt giới hạn tối đa rủi ro tài chính khi gặp sự cố bất khả kháng về thời tiết làm chậm tiến độ thi công."
+        "oldRule": "[Căn cứ: NĐ 48/2010] Lãi suất phạt chậm thanh toán tính theo lãi suất cơ bản NHNN ở mức rất thấp.",
+        "newRule": "[Căn cứ: Khoản 11 Điều 19 NĐ 37/2015/NĐ-CP] Trường hợp Bên giao thầu chậm thanh toán thì phải bồi thường cho Bên nhận thầu theo lãi suất quá hạn do ngân hàng thương mại nơi Bên nhận thầu mở tài khoản thanh toán công bố tại thời điểm thanh toán.",
+        "impactNote": "Kiểu Việt tính tiền lãi phạt quá hạn vào Bảng quyết toán hợp đồng đối với các Chủ đầu tư chậm giải ngân tiền thi công công trình."
       }
     ]
   },
   "nd-50-2021": {
     "decreeId": "nd-50-2021",
     "title": "Nghị định 50/2021/NĐ-CP",
-    "category": "Hợp đồng xây dựng (Sửa đổi)",
+    "category": "Sửa đổi Quản lý Hợp đồng xây dựng",
     "compareWith": "Nghị định 37/2015/NĐ-CP",
-    "summary": "Sửa đổi, bổ sung Nghị định 37/2015/NĐ-CP: Nâng mức tạm ứng hợp đồng xây dựng tối đa lên đến 50% giá trị hợp đồng, quy định giảm dần giá trị bảo lãnh tạm ứng và cơ chế điều chỉnh giá hợp đồng do bão lũ.",
+    "summary": "Nghị định 50/2021/NĐ-CP sửa đổi NĐ 37: Nới lỏng mức tạm ứng hợp đồng xây dựng tối đa lên đến 50% giá trị hợp đồng, cơ chế điều chỉnh giá hợp đồng trọn gói khi có biến động lớn và thu hồi tạm ứng linh hoạt.",
     "items": [
       {
-        "topic": "Nâng mức tạm ứng hợp đồng xây dựng tối đa lên đến 50% giá trị hợp đồng",
+        "topic": "Nới lỏng mức tạm ứng hợp đồng xây dựng tối đa lên đến 50% giá trị hợp đồng",
         "type": "modified",
-        "oldRule": "Mức tạm ứng hợp đồng xây dựng thi công thường chỉ được khống chế ở mức 20% đến 30% giá trị hợp đồng.",
-        "newRule": "Cho phép mức tạm ứng tối đa lên đến 50% giá trị hợp đồng xây dựng (đối với các gói thầu xây dựng quy mô lớn, hợp đồng EPC hoặc dự án cấp bách).",
-        "impactNote": "Kiểu Việt tiếp cận được nguồn vốn tạm ứng dồi dào từ Chủ đầu tư lên tới 50% ngay sau khi ký hợp đồng để tập kết vật tư sắt thép khối lượng lớn với giá rẻ."
+        "oldRule": "[Căn cứ: Khoản 5 Điều 18 NĐ 37/2015] Mức tạm ứng hợp đồng xây lắp tối thiểu từ 10% đến 20%, mức tối đa thường bị khống chế cứng nhắc dưới 30% giá trị hợp đồng.",
+        "newRule": "[Căn cứ: Khoản 6 Điều 1 NĐ 50/2021/NĐ-CP] Mức tạm ứng hợp đồng tối đa không vượt quá 50% giá trị hợp đồng (trường hợp đặc biệt cần tạm ứng cao hơn phải được Người có thẩm quyền quyết định đầu tư cho phép); mức tạm ứng tối thiểu là 10% - 15% tùy loại gói thầu.",
+        "impactNote": "Kiểu Việt đàm phán đưa điều khoản tạm ứng 30% - 50% vào hợp đồng thi công để huy động ngay nguồn vốn lớn đặt cọc mua sắt thép, xi măng giá rẻ."
       },
       {
-        "topic": "Cơ chế giảm dần giá trị thư bảo lãnh tạm ứng tương ứng giá trị thu hồi",
+        "topic": "Cơ chế điều chỉnh đơn giá đối với Hợp đồng xây dựng trọn gói khi có biến động bất khả kháng",
         "type": "added",
-        "oldRule": "Doanh nghiệp phải duy trì nguyên giá trị bảo lãnh tạm ứng suốt thời gian thực hiện hợp đồng gây phong tỏa hạn mức tín dụng.",
-        "newRule": "Quy định giá trị bảo lãnh tiền tạm ứng sẽ được giảm trừ tương ứng với số tiền tạm ứng mà chủ đầu tư đã thu hồi qua các đợt thanh toán khối lượng hoàn thành.",
-        "impactNote": "Kiểu Việt yêu cầu ngân hàng giải phóng dần hạn mức bảo lãnh sau mỗi đợt nghiệm thu A-B, giải phóng hạn mức tín dụng để tham gia đấu thầu dự án mới."
+        "oldRule": "[Căn cứ: NĐ 37/2015] Hợp đồng trọn gói (Lump-sum) tuyệt đối không được điều chỉnh giá trong suốt quá trình thi công dù giá vật liệu tăng vọt.",
+        "newRule": "[Căn cứ: Khoản 2 Điều 1 NĐ 50/2021/NĐ-CP] Đối với hợp đồng trọn gói: Được phép điều chỉnh giá hợp đồng trong các trường hợp: Bổ sung khối lượng công việc ngoài phạm vi hợp đồng; sự kiện bất khả kháng hoặc biến động giá vật liệu xây dựng lớn ảnh hưởng đến tiến độ dự án nếu được cấp có thẩm quyền cho phép.",
+        "impactNote": "Cơ sở pháp lý then chốt giúp Kiểu Việt lập hồ sơ xin bù giá vật liệu đất đắp, cát bê tông đối với các hợp đồng trọn gói bị trượt giá tại thời điểm thi công."
       },
       {
-        "topic": "Điều chỉnh đơn giá và giá hợp đồng do biến động vật liệu xây dựng",
+        "topic": "Quy định linh hoạt về thời điểm bắt đầu thu hồi tiền tạm ứng hợp đồng",
         "type": "modified",
-        "oldRule": "Thủ tục xin điều chỉnh giá hợp đồng do trượt giá vật liệu rất phức tạp và kéo dài nhiều cấp phê duyệt.",
-        "newRule": "Quy định công thức điều chỉnh giá cụ thể căn cứ vào Chỉ số giá xây dựng do Sở Xây dựng công bố và các tài liệu chứng minh biến động giá khách quan.",
-        "impactNote": "Kiểu Việt lập phụ lục điều chỉnh tăng giá hợp đồng thi công khi giá thép, xi măng tăng đột biến, bảo toàn lợi nhuận dự án."
+        "oldRule": "[Căn cứ: NĐ 37/2015] Bắt buộc thu hồi tạm ứng ngay từ lần thanh toán đầu tiên theo tỷ lệ cố định.",
+        "newRule": "[Căn cứ: Khoản 6 Điều 1 NĐ 50/2021/NĐ-CP] Tiền tạm ứng được thu hồi dần qua các lần thanh toán khối lượng hoàn thành; thời điểm bắt đầu thu hồi và mức thu hồi từng lần do hai bên thỏa thuận trong hợp đồng nhưng phải thu hồi hết khi khối lượng thanh toán đạt 80% giá trị hợp đồng.",
+        "impactNote": "Kiểu Việt thỏa thuận thu hồi tạm ứng từ từ từ đợt thanh toán thứ 2 trở đi để tối ưu hóa vòng quay tiền mặt trong giai đoạn đào đắp ban đầu."
       },
       {
-        "topic": "Đơn giản hóa hồ sơ quyết toán vốn hợp đồng xây dựng hoàn thành",
+        "topic": "Đơn giản hóa hồ sơ thanh toán hợp đồng xây lắp (Mẫu biểu 03a chuẩn hóa)",
         "type": "modified",
-        "oldRule": "Hồ sơ quyết toán vốn phải nộp hàng chục loại biểu mẫu kiểm toán độc lập tốn kém thời gian.",
-        "newRule": "Chuẩn hóa danh mục hồ sơ quyết toán hợp đồng xây dựng tinh gọn, xác định trách nhiệm của bên giao thầu phải phê duyệt quyết toán trong thời hạn luật định.",
-        "impactNote": "Rút ngắn thời gian thu hồi 5% bảo hành và công nợ tồn đọng cuối cùng của các dự án xây dựng Kiểu Việt đã bàn giao."
+        "oldRule": "[Căn cứ: NĐ 37/2015] Hồ sơ thanh toán giai đoạn đòi hỏi hàng chục tài liệu chứng chỉ xuất xưởng, nhật ký thi công bản gốc.",
+        "newRule": "[Căn cứ: Khoản 7 Điều 1 NĐ 50/2021/NĐ-CP] Hồ sơ thanh toán giai đoạn chỉ gồm: Biên bản nghiệm thu khối lượng hoàn thành (Mẫu 03a); Bảng tính giá trị thanh toán; và Giấy đề nghị thanh toán. Các chứng chỉ chất lượng vật tư được lưu giữ tại hiện trường.",
+        "impactNote": "Rút ngắn thời gian lập hồ sơ nghiệm thu thanh toán A-B của Kiểu Việt từ 2 tuần xuống còn 3 ngày làm việc."
       }
     ]
   },
@@ -346,79 +346,79 @@ export const group4LaborSalaryContracts: Record<string, DecreeDiffData> = {
     "title": "Nghị định 10/2021/NĐ-CP",
     "category": "Quản lý chi phí đầu tư xây dựng",
     "compareWith": "Nghị định 68/2019/NĐ-CP",
-    "summary": "Quy chuẩn quản lý chi phí đầu tư xây dựng: Sơ bộ tổng mức đầu tư, định mức kinh tế - kỹ thuật, phương pháp xác định giá ca máy thi công và trách nhiệm công bố chỉ số giá xây dựng hàng tháng của địa phương.",
+    "summary": "Nghị định 10/2021/NĐ-CP quy định về quản lý chi phí đầu tư xây dựng: Bãi bỏ quy định cứng nhắc về định mức của NĐ 68, trao quyền cho Chủ đầu tư tự xác định đơn giá xây dựng công trình và điều chỉnh định mức mới.",
     "items": [
       {
-        "topic": "Phân định rõ các giai đoạn quản lý chi phí đầu tư xây dựng",
+        "topic": "Trao quyền cho Chủ đầu tư quyết định áp dụng, điều chỉnh định mức dự toán xây dựng",
         "type": "modified",
-        "oldRule": "Dự toán xây dựng công trình và tổng mức đầu tư thường thiếu tính cập nhật theo biến động giá thị trường.",
-        "newRule": "Quản lý chi phí chặt chẽ qua từng giai đoạn: Sơ bộ tổng mức đầu tư (Báo cáo nghiên cứu tiền khả thi) -> Tổng mức đầu tư (Báo cáo F/S) -> Dự toán xây dựng công trình -> Dự toán gói thầu -> Giá hợp đồng xây dựng.",
-        "impactNote": "Kiểu Việt kiểm soát chi phí đấu thầu bám sát dự toán gói thầu được duyệt, bảo đảm trúng thầu với biên lợi nhuận an toàn."
+        "oldRule": "[Căn cứ: Điều 15 NĐ 68/2019] Định mức xây dựng bắt buộc phải xin ý kiến thỏa thuận bằng văn bản của Bộ Xây dựng, gây đình trệ hàng nghìn dự án.",
+        "newRule": "[Căn cứ: Điều 21 NĐ 10/2021/NĐ-CP] Chủ đầu tư được quyền tự tổ chức xác định định mức dự toán mới hoặc điều chỉnh định mức dự toán xây dựng chưa có trong hệ thống định mức nhà nước để áp dụng cho công trình, chỉ cần báo cáo Người quyết định đầu tư.",
+        "impactNote": "Kiểu Việt dễ dàng thỏa thuận với Chủ đầu tư xây dựng định mức ca máy cào bóc tái sinh nguội mặt đường, định mức phụ gia xi măng đặc thù phù hợp thực tế."
       },
       {
-        "topic": "Phương pháp xác định Định mức kinh tế - kỹ thuật và Giá xây dựng",
+        "topic": "Xác định giá vật liệu xây dựng theo Giá thị trường công bố hàng tháng của Sở Xây dựng",
         "type": "modified",
-        "oldRule": "Áp dụng cứng nhắc các bộ định mức nhà nước cũ đã lỗi thời, không phản ánh công nghệ thi công hiện đại.",
-        "newRule": "Cho phép chủ đầu tư và nhà thầu khảo sát, xây dựng định mức dự toán mới hoặc điều chỉnh định mức dự toán đối với các công nghệ thi công mới chưa có trong hệ thống định mức.",
-        "impactNote": "Kiểu Việt đề xuất áp dụng các định mức thi công cọc ép thủy lực và phụ gia bê tông đông kết nhanh để tối ưu hóa dự toán công trình."
+        "oldRule": "[Căn cứ: NĐ 68/2019] Giá vật liệu công bố thường bị chậm trễ từ 3-6 tháng so với giá thị trường thực tế.",
+        "newRule": "[Căn cứ: Điều 26 NĐ 10/2021/NĐ-CP] Sở Xây dựng các tỉnh có trách nhiệm chủ trì phối hợp công bố chỉ số giá xây dựng và bảng giá vật liệu xây dựng hàng tháng phù hợp với biến động thị trường; trường hợp vật tư chưa có giá công bố thì lấy theo báo giá của nhà sản xuất.",
+        "impactNote": "Kiểu Việt có căn cứ pháp lý để lấy báo giá thực tế của các mỏ đá Gia Lai đưa vào dự toán thanh toán bù giá khi chỉ số giá của Sở Xây dựng chưa cập nhật kịp."
       },
       {
-        "topic": "Cách tính giá ca máy và thiết bị thi công xây dựng",
+        "topic": "Quản lý chi phí dự phòng trong tổng mức đầu tư xây dựng (Dự phòng 1 và Dự phòng 2)",
         "type": "modified",
-        "oldRule": "Giá ca máy tính theo bảng giá chuẩn cố định, không bù trừ kịp thời biến động giá dầu diesel và tiền lương thợ lái máy.",
-        "newRule": "Ban hành phương pháp xác định giá ca máy phản ánh đủ 5 thành phần chi phí: Khấu hao, sửa chữa, nhiên liệu năng lượng, tiền lương thợ điều khiển máy và chi phí khác theo giá thị trường thời điểm lập dự toán.",
-        "impactNote": "Kế toán Kiểu Việt tính toán chính xác chi phí vận hành máy xúc, xe cẩu thi công thực tế tại công trường để bù giá ca máy."
+        "oldRule": "[Căn cứ: NĐ 68/2019] Tỷ lệ chi phí dự phòng khống chế cứng nhắc ở mức 10%.",
+        "newRule": "[Căn cứ: Điều 14 NĐ 10/2021/NĐ-CP] Chi phí dự phòng gồm: Dự phòng cho khối lượng công việc phát sinh (Dự phòng 1) và Dự phòng cho yếu tố trượt giá (Dự phòng 2) được tính toán khoa học căn cứ vào độ dài thời gian thực hiện dự án và chỉ số giá xây dựng.",
+        "impactNote": "Khoản chi phí dự phòng trong gói thầu là nguồn tài chính bảo đảm để Chủ đầu tư chi trả bù giá trượt giá sắt thép, cát đá cho Kiểu Việt."
       },
       {
-        "topic": "Trách nhiệm công bố giá vật liệu và chỉ số giá xây dựng định kỳ",
-        "type": "added",
-        "oldRule": "Nhiều địa phương công bố giá vật liệu chậm 3 - 6 tháng khiến nhà thầu bị lỗ nặng vì bão giá vật tư.",
-        "newRule": "Quy định UBND cấp tỉnh có trách nhiệm chỉ đạo Sở Xây dựng công bố giá vật liệu xây dựng, đơn giá nhân công và chỉ số giá xây dựng định kỳ hàng tháng, hàng quý bám sát thị trường.",
-        "impactNote": "Kiểu Việt cập nhật kịp thời công bố giá vật liệu của Sở Xây dựng Bình Định, Gia Lai để làm căn cứ điều chỉnh giá hợp đồng A-B."
+        "topic": "Quy định phương pháp xác định Đơn giá nhân công và Bảng giá ca máy thi công",
+        "type": "modified",
+        "oldRule": "[Căn cứ: NĐ 68/2019] Đơn giá nhân công xây dựng quá thấp, không phản ánh đúng mặt bằng tiền lương thợ bậc 3, bậc 4 ngoài công trường.",
+        "newRule": "[Căn cứ: Điều 25 & Thông tư 13/2021/TT-BXD] Khung đơn giá nhân công xây dựng được khảo sát thực tế theo 4 nhóm địa bàn và nhóm thợ; giá ca máy tính đúng, tính đủ khấu hao, chi phí nhiên liệu, tiền lương thợ điều khiển máy và chi phí sửa chữa lớn.",
+        "impactNote": "Dự toán gói thầu xây lắp tính sát với chi phí nhân công thực tế Kiểu Việt phải trả cho thợ thi công, không bị lỗ định mức nhân công."
       }
     ]
   },
   "tt-45-2013": {
     "decreeId": "tt-45-2013",
     "title": "Thông tư 45/2013/TT-BTC",
-    "category": "Chế độ quản lý & Khấu hao TSCĐ",
+    "category": "Chế độ Quản lý và Khấu hao TSCĐ",
     "compareWith": "Thông tư 203/2009/TT-BTC",
-    "summary": "Cẩm nang quản trị Tài sản cố định: Nâng tiêu chuẩn nguyên giá lên 30 triệu đồng, quy định điều kiện trích khấu hao nhanh tối đa 2 lần, khống chế xe ô tô 1.6 tỷ và khung thời gian khấu hao chuẩn các loại máy móc thi công.",
+    "summary": "Thông tư 45/2013/TT-BTC nâng tiêu chuẩn nguyên giá Tài sản cố định từ 10 triệu lên 30 triệu đồng: Hướng dẫn khung thời gian trích khấu hao xe máy thi công công trình và phân bổ công cụ dụng cụ tối đa 3 năm.",
     "items": [
       {
-        "topic": "Nâng tiêu chuẩn nguyên giá ghi nhận TSCĐ lên từ 30.000.000 đồng trở lên",
+        "topic": "Nâng tiêu chuẩn nguyên giá ghi nhận Tài sản cố định từ 10 triệu lên 30 triệu đồng",
         "type": "modified",
-        "oldRule": "Tài sản có giá trị từ 10.000.000 đồng trở lên và thời gian sử dụng trên 1 năm đã phải theo dõi là TSCĐ.",
-        "newRule": "Nâng mức nguyên giá lên từ 30.000.000 đồng trở lên đồng thời có thời gian sử dụng trên 1 năm mới đủ điều kiện ghi nhận là TSCĐ.",
-        "impactNote": "Các máy móc công trường dưới 30 triệu (máy đầm cóc, máy hàn, máy cắt sắt...) Kiểu Việt đưa thẳng vào Công cụ dụng cụ (TK 242) phân bổ dần tối đa 3 năm, giảm bớt thủ tục theo dõi TSCĐ."
+        "oldRule": "[Căn cứ: Điều 2 TT 203/2009/TT-BTC] Tiêu chuẩn ghi nhận TSCĐ hữu hình là có nguyên giá từ 10.000.000 đồng trở lên và thời gian sử dụng trên 01 năm.",
+        "newRule": "[Căn cứ: Điểm b Khoản 1 Điều 3 TT 45/2013/TT-BTC] Nâng tiêu chuẩn nguyên giá ghi nhận TSCĐ hữu hình lên từ 30.000.000 đồng trở lên (tăng gấp 3 lần) và có thời gian sử dụng từ 01 năm trở lên.",
+        "impactNote": "Các máy đầm cóc, máy hàn, máy cắt sắt có giá trị từ 10 đến dưới 30 triệu đồng của Kiểu Việt được chuyển sang theo dõi là Công cụ dụng cụ (TK 242) và phân bổ dần vào chi phí thi công, không cần theo dõi trích khấu hao phức tạp."
       },
       {
-        "topic": "Điều kiện trích khấu hao nhanh tối đa 2 lần cho máy móc thiết bị",
+        "topic": "Khống chế thời gian phân bổ chi phí Công cụ dụng cụ xuất dùng tối đa không quá 3 năm",
         "type": "added",
-        "oldRule": "Chủ yếu áp dụng phương pháp khấu hao đường thẳng, điều kiện khấu hao nhanh rất khắt khe.",
-        "newRule": "Doanh nghiệp hoạt động có hiệu quả kinh tế cao được quyền trích khấu hao nhanh tối đa không quá 2 lần mức khấu hao đường thẳng đối với máy móc, thiết bị công nghệ cao để nhanh chóng đổi mới thiết bị.",
-        "impactNote": "Kiểu Việt tận dụng quyền trích khấu hao nhanh cho dàn xe lu, máy đào mới trong những năm có lợi nhuận thầu xây dựng cao để giảm thuế TNDN hợp pháp."
+        "oldRule": "[Căn cứ: TT 203/2009] Doanh nghiệp tự do phân bổ chi phí CCDC kéo dài 5-10 năm theo ý muốn chủ quan.",
+        "newRule": "[Căn cứ: Khoản 2 Điều 4 TT 45/2013/TT-BTC (sửa đổi bởi TT 147/2016)] Đối với các tài sản không đủ tiêu chuẩn TSCĐ thì chi phí mua tài sản được phân bổ dần vào chi phí hoạt động sản xuất kinh doanh trong thời gian tối đa không quá 03 năm (36 tháng).",
+        "impactNote": "Kế toán Kiểu Việt phân bổ chi phí coppha thép, giàn giáo thi công trong thời hạn từ 12 đến 36 tháng, bảo đảm toàn bộ chi phí phân bổ được cơ quan thuế chấp nhận là chi phí hợp lý."
       },
       {
-        "topic": "Khống chế trần nguyên giá xe ô tô 9 chỗ ngồi trở xuống (1.6 tỷ đồng)",
+        "topic": "Khung thời gian trích khấu hao các loại máy móc thi công xây dựng (Phụ lục I)",
         "type": "modified",
-        "oldRule": "Cho phép tính vào chi phí được trừ toàn bộ chi phí khấu hao của xe ô tô chở người bất kể nguyên giá.",
-        "newRule": "Đối với xe ô tô chở người từ 9 chỗ ngồi trở xuống (không dùng kinh doanh vận tải, du lịch), phần nguyên giá vượt trên 1.6 tỷ đồng thì phần trích khấu hao tương ứng không được tính vào chi phí được trừ khi xác định thuế TNDN.",
-        "impactNote": "Kiểu Việt hạch toán kế toán toàn bộ khấu hao xe cơ quan vào sổ sách (TK 642) nhưng loại trừ phần khấu hao vượt 1.6 tỷ tại chỉ tiêu B4 khi quyết toán thuế TNDN."
+        "oldRule": "[Căn cứ: TT 203/2009] Khung thời gian khấu hao máy xây dựng cứng nhắc, không tính đến hao mòn cơ học do thi công địa hình hiểm trở.",
+        "newRule": "[Căn cứ: Phụ lục I TT 45/2013/TT-BTC] Ban hành khung thời gian chuẩn: Xe máy thi công đào đắp (máy xúc, máy ủi): từ 6 đến 10 năm; Xe ô tô tải ben tự đổ: từ 6 đến 10 năm; Trạm trộn bê tông, máy rải nhựa đường: từ 5 đến 12 năm. Doanh nghiệp được tự chọn thời gian khấu hao trong khung.",
+        "impactNote": "Kiểu Việt lựa chọn thời gian khấu hao nhanh (mức tối thiểu 6 năm) đối với xe máy đào đắp để thu hồi vốn đầu tư nhanh và tối ưu chi phí thuế TNDN."
       },
       {
-        "topic": "Khung thời gian trích khấu hao chuẩn cho máy móc thi công xây dựng",
+        "topic": "Thay đổi thời gian trích khấu hao TSCĐ phải làm thông báo bằng văn bản cho Cục Thuế",
         "type": "modified",
-        "oldRule": "Khung thời gian khấu hao cũ rộng và thiếu phân loại chi tiết các dòng máy móc công trình nặng.",
-        "newRule": "Ban hành Phụ lục 1 quy định khung năm chuẩn: Máy móc thi công xây dựng (5 - 10 năm), Phương tiện vận tải đường bộ (6 - 10 năm), Nhà cửa vật kiến trúc (10 - 50 năm), Thiết bị đo lường thí nghiệm (3 - 8 năm).",
-        "impactNote": "Kế toán Kiểu Việt đăng ký khung khấu hao xe máy thi công với Chi cục Thuế theo đúng khung chuẩn để chi phí khấu hao được chấp thuận 100%."
+        "oldRule": "[Căn cứ: TT 203/2009] Doanh nghiệp tự ý thay đổi thời gian khấu hao trên sổ sách kế toán.",
+        "newRule": "[Căn cứ: Điều 10 TT 45/2013/TT-BTC] Doanh nghiệp phải đăng ký phương pháp trích khấu hao với cơ quan thuế trực tiếp trước khi thực hiện. Khi thay đổi thời gian trích khấu hao TSCĐ phải có văn bản giải trình và được sự chấp thuận của cơ quan quản lý trước khi áp dụng.",
+        "impactNote": "Kiểu Việt duy trì phương pháp khấu hao đường thẳng nhất quán cho toàn bộ đội xe máy thi công, không tự ý thay đổi làm phát sinh chênh lệch kiểm toán."
       },
       {
-        "topic": "Xử lý chi phí nâng cấp và sửa chữa lớn TSCĐ",
-        "type": "modified",
-        "oldRule": "Mọi khoản chi phí sửa chữa lớn đều phải ghi tăng nguyên giá TSCĐ (vốn hóa).",
-        "newRule": "Chi phí sửa chữa TSCĐ nhằm duy trì hoạt động bình thường không được ghi tăng nguyên giá mà phân bổ vào chi phí SXKD tối đa 3 năm; chỉ ghi tăng nguyên giá nếu việc nâng cấp làm tăng công suất hoặc kéo dài tuổi thọ sử dụng.",
-        "impactNote": "Kiểu Việt phân bổ chi phí đại tu động cơ máy xúc, thay lốp xe tải qua TK 242 trong 2-3 năm, không cần làm thủ tục tăng nguyên giá phức tạp."
+        "topic": "Trích khấu hao đối với Tài sản cố định tạm dừng hoạt động theo mùa vụ (Dưới 9 tháng)",
+        "type": "added",
+        "oldRule": "[Căn cứ: TT 203/2009] Mọi tài sản dừng hoạt động đều không được trích khấu hao tính vào chi phí được trừ.",
+        "newRule": "[Căn cứ: Điểm 2.2 Khoản 2 Điều 6 TT 78/2014 & TT 45/2013] TSCĐ tạm thời dừng hoạt động do tính chất mùa vụ dưới 09 tháng (hoặc dừng để sửa chữa, bảo dưỡng dưới 12 tháng) sau đó tiếp tục đưa vào phục vụ sản xuất kinh doanh thì trong thời gian tạm dừng vẫn được trích khấu hao và tính vào chi phí được trừ.",
+        "impactNote": "Trong mùa mưa bão Tây Nguyên khi máy móc thi công nền đường phải nằm bãi bảo dưỡng, Kiểu Việt vẫn được trích khấu hao tính vào chi phí hợp lý thuế TNDN bình thường."
       }
     ]
   }

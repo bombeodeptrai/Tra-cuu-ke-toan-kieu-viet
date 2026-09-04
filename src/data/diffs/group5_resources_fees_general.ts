@@ -4,110 +4,110 @@ export const group5ResourcesFeesGeneral: Record<string, DecreeDiffData> = {
   "tt-48-2019": {
     "decreeId": "tt-48-2019",
     "title": "Thông tư 48/2019/TT-BTC",
-    "category": "Trích lập dự phòng",
+    "category": "Trích lập các khoản Dự phòng",
     "compareWith": "Thông tư 228/2009/TT-BTC",
-    "summary": "Hướng dẫn trích lập và xử lý các khoản dự phòng giảm giá hàng tồn kho, tổn thất đầu tư, nợ phải thu khó đòi tại doanh nghiệp; bãi bỏ dự phòng bảo hành công trình xây dựng theo chế độ thuế.",
+    "summary": "Thông tư 48/2019/TT-BTC chuẩn hóa việc trích lập các khoản dự phòng: Bãi bỏ dự phòng bảo hành sản phẩm xây lắp khỏi diện trích lập theo thông tư này, siết chặt trích lập dự phòng nợ phải thu khó đòi theo tỷ lệ 30%, 50%, 70%, 100%.",
     "items": [
       {
-        "topic": "Mức trích lập dự phòng nợ phải thu khó đòi theo 4 mốc thời gian quá hạn",
+        "topic": "Tỷ lệ trích lập dự phòng nợ phải thu khó đòi theo độ tuổi quá hạn (Khoản 2 Điều 6)",
         "type": "modified",
-        "oldRule": "Quy định trích lập chung chung, doanh nghiệp tự ước lượng tỷ lệ dẫn đến tranh cãi với đoàn thanh tra thuế.",
-        "newRule": "Quy định khung 4 mốc tỷ lệ trích lập cứng: 30% giá trị (quá hạn từ 6 tháng đến dưới 1 năm); 50% giá trị (quá hạn từ 1 năm đến dưới 2 năm); 70% giá trị (quá hạn từ 2 năm đến dưới 3 năm); 100% giá trị (quá hạn từ 3 năm trở lên).",
-        "impactNote": "Kiểu Việt có căn cứ pháp lý vững chắc trích dự phòng cho các khoản công nợ tồn đọng từ các chủ đầu tư chậm thanh toán, đưa vào chi phí hợp lý được trừ."
+        "oldRule": "[Căn cứ: Điều 6 TT 228/2009/TT-BTC] Tỷ lệ trích lập cũ: Quá hạn từ 6 tháng đến dưới 1 năm: 30%; từ 1 đến dưới 2 năm: 50%; từ 2 đến dưới 3 năm: 70%; từ 3 năm trở lên: 100%.",
+        "newRule": "[Căn cứ: Điểm a Khoản 2 Điều 6 TT 48/2019/TT-BTC] Chuẩn hóa 4 bậc trích lập: 1) Quá hạn từ 06 tháng đến dưới 01 năm: trích 30% giá trị; 2) Quá hạn từ 01 năm đến dưới 02 năm: trích 50% giá trị; 3) Quá hạn từ 02 năm đến dưới 03 năm: trích 70% giá trị; 4) Quá hạn từ 03 năm trở lên: trích 100% giá trị khoản nợ.",
+        "impactNote": "Kế toán công nợ Kiểu Việt theo dõi sát tuổi nợ từng hợp đồng A-B; khi nợ quá hạn trên 6 tháng lập hồ sơ trích lập dự phòng ghi vào Chi phí quản lý doanh nghiệp (Nợ TK 642 / Có TK 2293) để giảm thuế TNDN."
       },
       {
-        "topic": "Bãi bỏ việc trích lập dự phòng bảo hành công trình xây dựng theo chế độ thuế",
+        "topic": "Điều kiện hồ sơ bắt buộc để trích lập dự phòng nợ phải thu khó đòi",
+        "type": "modified",
+        "oldRule": "[Căn cứ: TT 228/2009] Chỉ cần bảng kê tự lập của doanh nghiệp mà không đòi hỏi biên bản đối chiếu công nợ gốc.",
+        "newRule": "[Căn cứ: Khoản 1 Điều 6 TT 48/2019/TT-BTC] Bắt buộc phải có đầy đủ chứng từ gốc chứng minh: 1) Hợp đồng kinh tế, biên bản nghiệm thu, hóa đơn GTGT; 2) Biên bản đối chiếu công nợ có xác nhận của khách nợ (hoặc văn bản đòi nợ gửi bảo đảm qua bưu điện); 3) Giấy tờ chứng minh đã quá hạn thanh toán.",
+        "impactNote": "Kiểu Việt bắt buộc các phòng điều hành dự án gửi công văn đòi nợ có dấu bưu điện định kỳ hàng quý đối với các Chủ đầu tư chây ì thanh toán để hoàn thiện hồ sơ trích lập dự phòng hợp pháp."
+      },
+      {
+        "topic": "Bãi bỏ việc trích lập dự phòng bảo hành công trình xây dựng theo Thông tư này",
         "type": "removed",
-        "oldRule": "Thông tư 228 cho phép nhà thầu xây dựng trích trước tối đa 5% giá trị hợp đồng để lập quỹ dự phòng bảo hành công trình tính vào chi phí được trừ.",
-        "newRule": "Bãi bỏ hoàn toàn việc trích lập dự phòng bảo hành công trình xây lắp tính vào chi phí được trừ khi xác định thuế TNDN; chi phí bảo hành thực tế phát sinh kỳ nào thì hạch toán vào chi phí kỳ đó.",
-        "impactNote": "Kế toán Kiểu Việt chỉ hạch toán chi phí bảo hành công trình khi có chứng từ sửa chữa, thay thế vật tư thực tế tại hiện trường, không trích trước chi phí ảo."
+        "oldRule": "[Căn cứ: Điều 7 TT 228/2009] Doanh nghiệp xây lắp được trích lập dự phòng bảo hành công trình tối đa không quá 5% giá trị hợp đồng theo quy định của Thông tư 228.",
+        "newRule": "[Căn cứ: Điều 1 & Điều 11 TT 48/2019/TT-BTC] Bãi bỏ nội dung trích lập dự phòng bảo hành công trình xây dựng khỏi phạm vi điều chỉnh của Thông tư 48. Việc trích lập dự phòng bảo hành công trình xây dựng được thực hiện theo quy định của Chuẩn mực kế toán Việt Nam số 18 và Luật Xây dựng.",
+        "impactNote": "Kiểu Việt chuyển sang trích lập Dự phòng phải trả về bảo hành công trình theo Chuẩn mực VAS 18 (Nợ TK 627/154 / Có TK 352) và quy định hợp đồng xây dựng, không bị vướng mắc theo TT 48."
       },
       {
-        "topic": "Điều kiện trích lập dự phòng giảm giá hàng tồn kho (Vật tư, sắt thép)",
+        "topic": "Xử lý khoản nợ phải thu khó đòi không thể thu hồi được (Xóa nợ thực tế)",
         "type": "modified",
-        "oldRule": "Căn cứ theo giá thị trường tự thu thập từ các báo giá bán lẻ.",
-        "newRule": "Phải có bằng chứng tin cậy về việc suy giảm Giá trị thuần có thể thực hiện được (NRV) thấp hơn giá gốc tại ngày lập BCTC và hàng tồn kho phải thuộc quyền sở hữu hợp pháp của doanh nghiệp.",
-        "impactNote": "Kiểu Việt lập Hội đồng đánh giá chất lượng và giá trị vật tư sắt thép tồn kho cuối năm để trích lập dự phòng hợp lệ."
-      },
-      {
-        "topic": "Hồ sơ bắt buộc khi xử lý xóa sổ khoản nợ không có khả năng thu hồi",
-        "type": "added",
-        "oldRule": "Doanh nghiệp tự làm biên bản nội bộ để xóa nợ và tính thẳng vào chi phí.",
-        "newRule": "Bắt buộc phải có: Biên bản đối chiếu công nợ; Quyết định tuyên bố phá sản của Tòa án; hoặc Giấy chứng tử của cá nhân; hoặc Thông báo truy nã/bỏ trốn của cơ quan công an.",
-        "impactNote": "Kiểu Việt lưu trữ đầy đủ hồ sơ pháp lý đòi nợ trước khi thực hiện xóa sổ các khoản công nợ thầu phụ không thể thu hồi."
+        "oldRule": "[Căn cứ: TT 228/2009] Thủ tục xóa nợ kéo dài, phải chờ quyết định của Tòa án tuyên bố phá sản.",
+        "newRule": "[Căn cứ: Khoản 4 Điều 6 TT 48/2019/TT-BTC] Doanh nghiệp được xóa nợ khi: Khách nợ đã chết, mất tích, bị Tòa án tuyên bố phá sản hoặc đã ngừng hoạt động giải thể có xác nhận của cơ quan thuế. Số nợ xóa được bù đắp bằng nguồn dự phòng đã trích lập (Nợ TK 2293 / Có TK 131), phần thiếu hạch toán vào Chi phí QLDN.",
+        "impactNote": "Kiểu Việt dứt điểm xử lý xóa các khoản nợ xấu tồn đọng nhiều năm từ các nhà thầu phụ đã giải thể, làm sạch Bảng cân đối tài chính công ty."
       }
     ]
   },
   "luat-54-2024-khoangsan": {
     "decreeId": "luat-54-2024-khoangsan",
     "title": "Luật Địa chất và Khoáng sản số 54/2024/QH15",
-    "category": "Luật Khoáng sản (Mới)",
+    "category": "Luật Địa chất và Khoáng sản mới",
     "compareWith": "Luật Khoáng sản số 60/2010/QH12",
-    "summary": "Cải cách thể chế tài nguyên khoáng sản: Phân loại 4 nhóm khoáng sản, cơ chế cấp phép khai thác đất đắp vật liệu san lấp công trình trọng điểm theo thủ tục rút gọn, phân cấp mạnh cho địa phương và tính tiền cấp quyền theo sản lượng thực tế.",
+    "summary": "Luật Địa chất và Khoáng sản 54/2024/QH15 phân loại 4 nhóm khoáng sản, cải cách đột phá thủ tục cấp phép khai thác mỏ vật liệu xây dựng thông thường (Nhóm IV) và phân cấp mạnh mẽ cho UBND cấp tỉnh.",
     "items": [
       {
-        "topic": "Phân loại khoáng sản thành 4 nhóm theo công dụng và giá trị quản lý",
-        "type": "modified",
-        "oldRule": "Khoáng sản chỉ phân chia chung chung thành khoáng sản kim loại, phi kim loại, nước khoáng mà không có cơ chế quản lý riêng cho vật liệu xây dựng.",
-        "newRule": "Phân chia thành 4 nhóm cụ thể: Nhóm I (khoáng sản chiến lược, kim loại quý); Nhóm II (vật liệu xây dựng công nghiệp); Nhóm III (vật liệu xây dựng thông thường); Nhóm IV (đất san lấp, đất đắp công trình).",
-        "impactNote": "Tạo hành lang pháp lý thông thoáng cho Kiểu Việt xin cấp phép khai thác các mỏ đất đắp (Nhóm IV) phục vụ trực tiếp các dự án đường giao thông."
-      },
-      {
-        "topic": "Cơ chế cấp phép khai thác khoáng sản làm vật liệu san lấp theo thủ tục rút gọn",
+        "topic": "Phân loại khoáng sản thành 4 nhóm theo tính chất quản trị (Nhóm I, II, III, IV)",
         "type": "added",
-        "oldRule": "Mọi mỏ đất đắp san lấp đều phải trải qua quy trình đấu giá, thăm dò, phê duyệt trữ lượng kéo dài từ 2 đến 3 năm.",
-        "newRule": "Cho phép cấp phép khai thác khoáng sản Nhóm IV phục vụ các công trình hạ tầng giao thông trọng điểm theo cơ chế chỉ định thầu khai thác trực tiếp cho nhà thầu thi công.",
-        "impactNote": "Kiểu Việt được giao mỏ đất đắp ngay tại chân công trình, giảm 70% thời gian chờ đợi cấp phép và chủ động 100% nguồn vật liệu san lấp."
+        "oldRule": "[Căn cứ: Luật Khoáng sản 2010] Không phân nhóm, áp dụng quy trình cấp phép khai thác phức tạp cào bằng như nhau giữa mỏ vàng, than đá với mỏ đất đắp đường, cát sỏi san lấp.",
+        "newRule": "[Căn cứ: Điều 6 Luật 54/2024/QH15] Phân thành 4 nhóm: Nhóm I (khoáng sản kim loại, năng lượng); Nhóm II (khoáng sản công nghiệp); Nhóm III (vật liệu xây dựng thông thường như đá, cát, cuội, sỏi); Nhóm IV (đất sét, đất đồi làm vật liệu san lấp, đất đắp nền đường).",
+        "impactNote": "Kiểu Việt được áp dụng thủ tục cấp phép khai thác đơn giản hóa tối đa đối với mỏ đất đắp nền đường (Nhóm IV) phục vụ các dự án cao tốc, giảm 70% thủ tục hành chính."
       },
       {
-        "topic": "Tính tiền cấp quyền khai thác khoáng sản theo sản lượng thực tế",
+        "topic": "Cắt giảm tối đa thủ tục cấp phép mỏ vật liệu san lấp Nhóm IV (Chỉ cần đăng ký khai thác)",
         "type": "modified",
-        "oldRule": "Tính tiền cấp quyền khai thác khoáng sản dựa trên trữ lượng địa chất phê duyệt trên giấy tờ cấp phép, gây thiệt hại lớn cho doanh nghiệp nếu trữ lượng thực tế ít hơn.",
-        "newRule": "Chuyển sang phương thức thu tiền cấp quyền khai thác khoáng sản căn cứ trên khối lượng sản phẩm khoáng sản thực tế khai thác được đo đếm qua trạm cân và camera giám sát.",
-        "impactNote": "Kiểu Việt chỉ phải nộp tiền cấp quyền cho đúng khối lượng đất đá thực tế đào đắp vào công trình, không phải nộp tiền cho khối lượng ảo."
+        "oldRule": "[Căn cứ: Luật 2010] Khai thác đất san lấp vẫn phải lập Báo cáo thăm dò, Hội đồng trữ lượng phê duyệt và xin Giấy phép khai thác khoáng sản kéo dài từ 2 đến 3 năm.",
+        "newRule": "[Căn cứ: Điều 55 & Điều 67 Luật 54/2024/QH15] Đối với khoáng sản Nhóm IV (đất san lấp): Tổ chức, cá nhân chỉ cần lập Bản đăng ký khối lượng khai thác nộp cho UBND cấp tỉnh mà không phải thực hiện thủ tục cấp Giấy phép thăm dò và Giấy phép khai thác khoáng sản.",
+        "impactNote": "Bước đột phá cho Kiểu Việt: Đưa mỏ đất đắp vào khai thác phục vụ công trình chỉ trong vòng 30 ngày kể từ ngày trúng thầu, giải quyết triệt để nguy cơ thiếu hụt vật liệu đắp nền."
       },
       {
-        "topic": "Bắt buộc lắp đặt trạm cân và camera giám sát tại cửa mỏ khoáng sản",
-        "type": "added",
-        "oldRule": "Kê khai khối lượng khai thác thủ công bằng sổ nhật ký mỏ.",
-        "newRule": "Bắt buộc 100% các mỏ khai thác khoáng sản phải lắp đặt trạm cân tải trọng và camera giám sát truyền dữ liệu trực tiếp về Sở TN&MT và Cơ quan Thuế.",
-        "impactNote": "Kiểu Việt đầu tư hệ thống trạm cân điện tử tự động tại các mỏ vật liệu để chuẩn hóa dữ liệu khối lượng vận chuyển vào công trình."
+        "topic": "Cơ chế đấu giá quyền khai thác khoáng sản và các trường hợp không đấu giá",
+        "type": "modified",
+        "oldRule": "[Căn cứ: Điều 78 Luật 2010] Phạm vi mỏ khoáng sản không đấu giá bị hạn chế, các mỏ vật liệu cho dự án giao thông vẫn phải qua đấu giá kéo dài.",
+        "newRule": "[Căn cứ: Điều 79 Luật 54/2024/QH15] Quy định rõ các trường hợp không đấu giá quyền khai thác khoáng sản: Khu vực khoáng sản phục vụ dự án công trình hạ tầng giao thông trọng điểm quốc gia, dự án khẩn cấp phòng chống thiên tai được chỉ định giao trực tiếp cho nhà thầu thi công.",
+        "impactNote": "Kiểu Việt được giao trực tiếp các mỏ đất đắp, mỏ đá dọc tuyến cao tốc theo cơ chế đặc thù không qua đấu giá, tiết kiệm chi phí đầu tư ban đầu."
+      },
+      {
+        "topic": "Trách nhiệm cải tạo, phục hồi môi trường và đóng cửa mỏ khoáng sản",
+        "type": "modified",
+        "oldRule": "[Căn cứ: Luật 2010] Ký quỹ cải tạo môi trường hàng năm bằng tiền mặt nộp vào Quỹ BVMT nhưng thủ tục hoàn trả sau đóng cửa mỏ bị tắc nghẽn.",
+        "newRule": "[Căn cứ: Điều 74-76 Luật 54/2024/QH15] Cho phép thực hiện cải tạo phục hồi môi trường cuốn chiếu theo từng giai đoạn khai thác; nghiệm thu hoàn trả tiền ký quỹ môi trường theo tiến độ hoàn thổ thực tế của mỏ.",
+        "impactNote": "Kiểu Việt thực hiện hoàn thổ và trồng cây xanh ngay trên các phần mỏ đất đã khai thác hết cao trình, thu hồi tiền ký quỹ môi trường hàng tỷ đồng để tái quay vòng vốn."
       }
     ]
   },
   "nd-193-2025-khoangsan": {
     "decreeId": "nd-193-2025-khoangsan",
     "title": "Nghị định 193/2025/NĐ-CP",
-    "category": "Quy chế khai thác mỏ vật liệu công trình",
+    "category": "Cơ chế đặc thù khai thác Mỏ vật liệu XD",
     "compareWith": "Nghị định 158/2016/NĐ-CP",
-    "summary": "Hướng dẫn thi hành cơ chế đặc thù khai thác mỏ vật liệu xây dựng thông thường phục vụ các dự án hạ tầng giao thông quốc gia, rút ngắn thủ tục đánh giá tác động môi trường và bàn giao mặt bằng mỏ.",
+    "summary": "Nghị định 193/2025/NĐ-CP hướng dẫn thi hành cơ chế đặc thù khai thác mỏ vật liệu xây dựng thông thường phục vụ các dự án hạ tầng giao thông quốc gia: Giao mỏ trực tiếp cho nhà thầu, rút ngắn thẩm định ĐTM và nghiệm thu hoàn thổ.",
     "items": [
       {
         "topic": "Cơ chế giao mỏ vật liệu trực tiếp cho nhà thầu thi công gói thầu xây lắp",
         "type": "added",
-        "oldRule": "Nhà thầu phải mua đất đắp qua các đơn vị thương mại trung gian với giá bị thổi phồng gấp nhiều lần.",
-        "newRule": "Nhà thầu trúng thầu gói thầu xây lắp được quyền nộp hồ sơ xin cấp phép khai thác mỏ khoáng sản nằm trong hồ sơ khảo sát mỏ vật liệu của dự án mà không phải qua đấu giá quyền khai thác.",
-        "impactNote": "Kiểu Việt tự chủ toàn bộ nguồn cung đất đắp nền đường, kiểm soát 100% chất lượng cơ lý của đất và tiết kiệm hàng chục tỷ đồng chi phí mua vật tư."
+        "oldRule": "[Căn cứ: NĐ 158/2016/NĐ-CP] Nhà thầu phải mua đất đắp qua các đơn vị thương mại trung gian với giá bị thổi phồng gấp 2-3 lần giá dự toán.",
+        "newRule": "[Căn cứ: Điều 4 NĐ 193/2025/NĐ-CP] Nhà thầu trúng thầu gói thầu xây lắp được quyền nộp hồ sơ xin cấp phép khai thác mỏ khoáng sản nằm trong hồ sơ khảo sát vật liệu xây dựng của dự án; UBND tỉnh giao mỏ trực tiếp cho nhà thầu mà không phải thông qua đấu giá.",
+        "impactNote": "Kiểu Việt tự chủ toàn bộ nguồn cung đất đắp nền đường, kiểm soát 100% chất lượng cơ lý của đất và tiết kiệm hàng chục tỷ đồng chi phí mua vật tư trung gian."
       },
       {
-        "topic": "Rút ngắn thời gian thẩm định Báo cáo đánh giá tác động môi trường (ĐTM)",
+        "topic": "Rút ngắn thời gian thẩm định Báo cáo đánh giá tác động môi trường (ĐTM) xuống 30 ngày",
         "type": "modified",
-        "oldRule": "Quy trình thẩm định ĐTM mỏ khoáng sản kéo dài từ 6 tháng đến 1 năm qua nhiều hội đồng thẩm định.",
-        "newRule": "Áp dụng quy trình thẩm định rút gọn trong vòng tối đa 30 ngày làm việc đối với các mỏ vật liệu phục vụ dự án khẩn cấp quốc gia.",
-        "impactNote": "Kiểu Việt đưa mỏ vật liệu vào khai thác ngay trong tháng đầu khởi công dự án, không bị nghẽn tiến độ đắp nền đường."
+        "oldRule": "[Căn cứ: NĐ 158/2016] Quy trình thẩm định ĐTM mỏ khoáng sản kéo dài từ 6 tháng đến 1 năm qua nhiều hội đồng thẩm định các cấp.",
+        "newRule": "[Căn cứ: Điều 6 NĐ 193/2025/NĐ-CP] Áp dụng quy trình thẩm định rút gọn trong vòng tối đa không quá 30 ngày làm việc đối với các mỏ vật liệu phục vụ dự án khẩn cấp quốc gia.",
+        "impactNote": "Kiểu Việt đưa mỏ vật liệu vào khai thác ngay trong tháng đầu khởi công dự án, không bị nghẽn tiến độ đắp nền đường mùa khô."
       },
       {
-        "topic": "Trách nhiệm phục hồi môi trường và hoàn trả mặt bằng sau khi hoàn thành dự án",
+        "topic": "Trách nhiệm phục hồi môi trường và hoàn trả mặt bằng mỏ đồng thời với dự án",
         "type": "modified",
-        "oldRule": "Thủ tục đóng cửa mỏ và hoàn trả tiền ký quỹ cải tạo môi trường kéo dài nhiều năm sau khi kết thúc công trình.",
-        "newRule": "Quy định nghiệm thu hoàn trả mặt bằng mỏ đồng thời với thời điểm nghiệm thu hoàn thành đưa công trình vào sử dụng và hoàn trả ngay tiền ký quỹ môi trường.",
-        "impactNote": "Kiểu Việt thu hồi nhanh khoản tiền ký quỹ môi trường nộp tại Quỹ Bảo vệ môi trường địa phương sau khi hoàn thành gói thầu."
+        "oldRule": "[Căn cứ: NĐ 158/2016] Thủ tục đóng cửa mỏ và hoàn trả tiền ký quỹ cải tạo môi trường kéo dài nhiều năm sau khi kết thúc công trình.",
+        "newRule": "[Căn cứ: Điều 10 NĐ 193/2025/NĐ-CP] Quy định nghiệm thu hoàn trả mặt bằng mỏ đồng thời với thời điểm nghiệm thu hoàn thành đưa công trình vào sử dụng và hoàn trả ngay tiền ký quỹ môi trường cho nhà thầu.",
+        "impactNote": "Kiểu Việt thu hồi nhanh khoản tiền ký quỹ môi trường nộp tại Quỹ Bảo vệ môi trường địa phương sau khi hoàn thành gói thầu xây dựng."
       },
       {
-        "topic": "Nghĩa vụ kê khai nộp thuế tài nguyên và tiền cấp quyền khi tự khai thác mỏ đất",
+        "topic": "Nghĩa vụ kê khai nộp thuế tài nguyên và tiền cấp quyền khi tự khai thác mỏ đất đặc thù",
         "type": "added",
-        "oldRule": "Chưa quy định rõ việc nhà thầu thi công tự khai thác mỏ vật liệu theo cơ chế đặc thù có phải nộp tiền cấp quyền khai thác khoáng sản hay không.",
-        "newRule": "Nhà thầu được giao mỏ đất đắp đặc thù phải thực hiện đầy đủ nghĩa vụ kê khai, nộp thuế tài nguyên, phí BVMT và tiền cấp quyền khai thác khoáng sản vào ngân sách nhà nước theo sản lượng thực tế khai thác.",
+        "oldRule": "[Căn cứ: NĐ 158/2016] Chưa quy định rõ việc nhà thầu thi công tự khai thác mỏ vật liệu theo cơ chế đặc thù có phải nộp tiền cấp quyền khai thác khoáng sản hay không.",
+        "newRule": "[Căn cứ: Điều 8 NĐ 193/2025/NĐ-CP] Nhà thầu được giao mỏ đất đắp đặc thù phải thực hiện đầy đủ nghĩa vụ kê khai, nộp thuế tài nguyên, phí BVMT và tiền cấp quyền khai thác khoáng sản vào ngân sách nhà nước theo sản lượng thực tế khai thác.",
         "impactNote": "Kế toán Kiểu Việt lập hồ sơ đăng ký mã số thuế vãng lai và kê khai nộp đầy đủ thuế tài nguyên mỏ đất đắp tại địa phương thi công dự án."
       }
     ]
@@ -117,108 +117,108 @@ export const group5ResourcesFeesGeneral: Record<string, DecreeDiffData> = {
     "title": "Quyết định 87/2025/QĐ-UBND",
     "category": "Bảng giá tính thuế tài nguyên 2026 (Gia Lai)",
     "compareWith": "Quyết định giá tính thuế tài nguyên các năm trước",
-    "summary": "Ban hành Bảng giá tính thuế tài nguyên năm 2026 trên địa bàn tỉnh Gia Lai: Cập nhật giá tính thuế đá xây dựng, cát san lấp, đất đắp công trình bám sát giá thị trường khu vực Tây Nguyên.",
+    "summary": "Quyết định 87/2025/QĐ-UBND ban hành Bảng giá tính thuế tài nguyên năm 2026 trên địa bàn tỉnh Gia Lai: Cập nhật giá tính thuế đá xây dựng, cát san lấp, đất đắp công trình bám sát giá thị trường khu vực Tây Nguyên.",
     "items": [
       {
-        "topic": "Cập nhật bảng giá tính thuế tài nguyên đối với đất đắp san lấp công trình",
+        "topic": "Cập nhật bảng giá tính thuế tài nguyên đối với đất đắp san lấp công trình tại Gia Lai",
         "type": "modified",
-        "oldRule": "Giá tính thuế tài nguyên đất san lấp cũ ở mức thấp (từ 35.000 - 45.000 đ/m3).",
-        "newRule": "Điều chỉnh khung giá tính thuế tài nguyên đối với đất khai thác làm vật liệu san lấp mặt bằng, đắp nền đường lên mức phù hợp với mặt bằng thị trường năm 2026.",
-        "impactNote": "Kế toán Kiểu Việt áp dụng chính xác đơn giá tính thuế tài nguyên khi khai Tờ khai thuế tài nguyên Mẫu 01/TAIN tại Cục Thuế tỉnh Gia Lai."
+        "oldRule": "[Căn cứ: QĐ cũ UBND tỉnh Gia Lai] Giá tính thuế tài nguyên đất san lấp cũ ở mức thấp (từ 35.000 đến 45.000 đ/m3).",
+        "newRule": "[Căn cứ: Bảng Phụ lục ban hành kèm theo QĐ 87/2025/QĐ-UBND] Điều chỉnh khung giá tính thuế tài nguyên đối với đất khai thác làm vật liệu san lấp mặt bằng, đắp nền đường lên mức 49.000 - 55.000 đ/m3 phù hợp với mặt bằng thị trường năm 2026.",
+        "impactNote": "Kế toán Kiểu Việt áp dụng chính xác đơn giá tính thuế tài nguyên khi lập Tờ khai thuế tài nguyên Mẫu 01/TAIN tại Cục Thuế tỉnh Gia Lai."
       },
       {
-        "topic": "Giá tính thuế tài nguyên đối với đá hộc, đá dăm làm bê tông",
+        "topic": "Giá tính thuế tài nguyên đối với đá hộc, đá dăm làm bê tông (Phân loại theo quy cách)",
         "type": "modified",
-        "oldRule": "Bảng giá cũ chưa phân loại chi tiết các loại đá nghiền sàng (đá 1x2, đá 2x4, đá 4x6, đá mi sàng).",
-        "newRule": "Quy định chi tiết đơn giá tính thuế tài nguyên cho từng quy cách đá thành phẩm sau nổ mìn và chế biến tại mỏ.",
+        "oldRule": "[Căn cứ: QĐ cũ] Bảng giá cũ chưa phân loại chi tiết các loại đá nghiền sàng (đá 1x2, đá 2x4, đá 4x6, đá mi sàng).",
+        "newRule": "[Căn cứ: Nhóm IV Phụ lục QĐ 87/2025/QĐ-UBND] Quy định chi tiết đơn giá tính thuế tài nguyên: Đá hộc khai thác: 90.000 đ/m3; Đá dăm 1x2, 2x4 làm bê tông: 160.000 - 180.000 đ/m3; Cát nghiền nhân tạo: 120.000 đ/m3.",
         "impactNote": "Kiểu Việt bóc tách chính xác chi phí thuế tài nguyên trong cơ cấu đơn giá sản xuất bê tông nhựa và bê tông xi măng phục vụ dự án cao tốc Tây Nguyên."
       },
       {
-        "topic": "Quy định hệ số quy đổi từ thể tích nguyên khai sang thể tích nở rời",
+        "topic": "Quy định hệ số quy đổi từ thể tích nguyên khai sang thể tích nở rời (Hệ số K = 1.20 - 1.25)",
         "type": "added",
-        "oldRule": "Chưa có quy định hệ số quy đổi chuẩn, gây tranh cãi giữa cơ quan thuế và nhà thầu khi đo đếm trên thùng xe tải.",
-        "newRule": "Ban hành bảng hệ số quy đổi chuẩn từ đất đá nguyên khai (tại mỏ) sang đất đá nở rời (trên phương tiện vận chuyển: hệ số K = 1.20 - 1.25).",
-        "impactNote": "Bảo đảm Kiểu Việt kê khai đúng khối lượng nguyên khai chịu thuế, không bị tính thuế áp đặt trên khối lượng nở rời của xe ben."
+        "oldRule": "[Căn cứ: QĐ cũ] Chưa có quy định hệ số quy đổi chuẩn, gây tranh cãi gay gắt giữa cơ quan thuế và nhà thầu khi đo đếm trên thùng xe tải.",
+        "newRule": "[Căn cứ: Điều 2 QĐ 87/2025/QĐ-UBND] Ban hành bảng hệ số quy đổi chuẩn: Từ đất đá nguyên khai (tại mỏ) sang đất đá nở rời (trên phương tiện vận chuyển thùng xe tải: hệ số K = 1,20 đối với đá và 1,25 đối với đất san lấp).",
+        "impactNote": "Bảo đảm Kiểu Việt kê khai đúng khối lượng nguyên khai chịu thuế, không bị tính thuế áp đặt oan trên khối lượng nở rời trên thùng xe ben vận chuyển."
       },
       {
         "topic": "Giá tính thuế tài nguyên đối với cát vàng xây dựng và cát san lấp mặt bằng",
         "type": "modified",
-        "oldRule": "Chỉ quy định chung chung một mức giá cát xây dựng mà không phân biệt cát hạt lớn làm bê tông và cát san lấp.",
-        "newRule": "Quy định tách biệt: Cát vàng hạt thô làm bê tông chịu mức giá tính thuế tài nguyên cao hơn; cát san lấp chịu mức giá tối thiểu theo khung của Bộ Tài chính.",
-        "impactNote": "Kiểu Việt kê khai đúng chủng loại cát sử dụng cho từng hạng mục công trình tại Gia Lai để tối ưu hóa chi phí thuế tài nguyên."
+        "oldRule": "[Căn cứ: QĐ cũ] Chỉ quy định chung chung một mức giá cát xây dựng mà không phân biệt cát hạt lớn làm bê tông và cát san lấp.",
+        "newRule": "[Căn cứ: Phụ lục QĐ 87/2025/QĐ-UBND] Quy định tách biệt: Cát vàng hạt thô làm bê tông chịu mức giá tính thuế tài nguyên 150.000 đ/m3; cát san lấp chịu mức giá 80.000 đ/m3 theo khung của Bộ Tài chính.",
+        "impactNote": "Kiểu Việt kê khai đúng chủng loại cát sử dụng cho từng hạng mục công trình tại Gia Lai để tối ưu hóa chi phí thuế tài nguyên hợp pháp."
       }
     ]
   },
   "tt-152-2015": {
     "decreeId": "tt-152-2015",
     "title": "Thông tư 152/2015/TT-BTC",
-    "category": "Thuế Tài nguyên",
+    "category": "Hướng dẫn Thuế Tài nguyên",
     "compareWith": "Thông tư 105/2010/TT-BTC",
-    "summary": "Thông tư căn bản hướng dẫn về thuế tài nguyên: Quy định người nộp thuế, phương pháp xác định sản lượng tài nguyên tính thuế, giá tính thuế tài nguyên tại nơi khai thác và biểu mức thuế suất cho khoáng sản xây dựng.",
+    "summary": "Thông tư 152/2015/TT-BTC là cẩm nang hướng dẫn thuế tài nguyên: Quy định công thức tính thuế tài nguyên, sản lượng khai thác thực tế, giá tính thuế và các trường hợp miễn giảm thuế tài nguyên.",
     "items": [
       {
-        "topic": "Xác định người nộp thuế tài nguyên trong hợp đồng hợp tác kinh doanh",
+        "topic": "Công thức xác định Thuế tài nguyên phải nộp trong kỳ (Điều 4)",
         "type": "modified",
-        "oldRule": "Trách nhiệm nộp thuế tài nguyên trong các liên danh khai thác mỏ thường chồng chéo.",
-        "newRule": "Tổ chức, cá nhân đứng tên trên Giấy phép khai thác khoáng sản là người nộp thuế tài nguyên; trường hợp liên doanh phân chia sản phẩm thì các bên tự nộp theo phần sản phẩm nhận được.",
-        "impactNote": "Kiểu Việt xác định rõ nghĩa vụ thuế tài nguyên trong các hợp đồng liên danh khai thác mỏ đá, mỏ đất với đối tác địa phương."
+        "oldRule": "[Căn cứ: TT 105/2010] Cách tính sản lượng tài nguyên tính thuế chưa phân định rõ tỷ lệ thu hồi thành phẩm sau chế biến.",
+        "newRule": "[Căn cứ: Điều 4 TT 152/2015/TT-BTC] Thuế tài nguyên phải nộp trong kỳ = Sản lượng tài nguyên tính thuế x Giá tính thuế đơn vị tài nguyên x Thuế suất thuế tài nguyên (Thuế suất đá xây dựng: 10%; cát: 15%; đất san lấp: 5%).",
+        "impactNote": "Kế toán Kiểu Việt áp dụng công thức chuẩn và thuế suất 5% đối với đất đắp, 10% đối với đá xây dựng để trích lập chi phí thuế tài nguyên hàng tháng."
       },
       {
-        "topic": "Phương pháp xác định sản lượng tài nguyên tính thuế thực tế",
+        "topic": "Xác định sản lượng tài nguyên tính thuế đối với mỏ khoáng sản không bán mà tự dùng thi công",
         "type": "modified",
-        "oldRule": "Ước lượng sản lượng khai thác dựa trên số ca máy hoạt động.",
-        "newRule": "Sản lượng tài nguyên tính thuế là số lượng, trọng lượng hoặc thể tích tài nguyên thực tế khai thác trong kỳ ghi nhận trên hóa đơn bán hàng, phiếu cân đo hoặc chứng từ vận chuyển hợp pháp.",
-        "impactNote": "Kế toán Kiểu Việt căn cứ vào số liệu phiếu cân điện tử hàng ngày để tổng hợp sản lượng khai thác kê khai tờ khai tháng."
+        "oldRule": "[Căn cứ: TT 105/2010] Chưa quy định rõ phương pháp đo đếm khi nhà thầu tự khai thác đất đá để đắp đường.",
+        "newRule": "[Căn cứ: Khoản 2 Điều 5 TT 152/2015/TT-BTC] Đối với tài nguyên khai thác không tiêu thụ mà đưa vào sản xuất sản phẩm khác: Sản lượng tính thuế là sản lượng tài nguyên nguyên khai thực tế khai thác đưa vào sử dụng, căn cứ vào sổ sách kiểm kê mỏ hoặc hồ sơ nghiệm thu khối lượng công trình.",
+        "impactNote": "Kiểu Việt lấy trực tiếp khối lượng đất đắp K95, K98 nghiệm thu trong Bảng 03a nhân với hệ số đầm nén để làm căn cứ kê khai sản lượng tính thuế tài nguyên."
       },
       {
-        "topic": "Xác định giá tính thuế tài nguyên tại nơi khai thác",
+        "topic": "Trường hợp được miễn thuế tài nguyên đối với đất khai thác san lấp tại chỗ trong dự án",
         "type": "added",
-        "oldRule": "Giá tính thuế thường bị cơ quan thuế tính theo giá bán đã bao gồm cả chi phí vận chuyển đến công trường.",
-        "newRule": "Giá tính thuế tài nguyên là giá bán đơn vị sản phẩm tài nguyên chưa bao gồm thuế GTGT tại nơi khai thác (không bao gồm chi phí vận chuyển từ mỏ về công trường thi công).",
-        "impactNote": "Kiểu Việt bóc tách riêng chi phí vận chuyển ra khỏi giá vật tư để giảm số thuế tài nguyên phải nộp tại cửa mỏ một cách hợp pháp."
+        "oldRule": "[Căn cứ: TT 105/2010] Mọi khối lượng đất đào xúc đều bị cơ quan thuế tính thuế tài nguyên dù chỉ điều phối nội bộ trên cùng tuyến đường.",
+        "newRule": "[Căn cứ: Khoản 3 Điều 10 TT 152/2015/TT-BTC] Đất khai thác để san lấp, xây dựng công trình an ninh, quân sự; đất khai thác trong phạm vi diện tích đất được giao, được thuê để sử dụng tại chỗ cho chính công trình đó mà không vận chuyển ra ngoài phạm vi dự án thì được miễn thuế tài nguyên.",
+        "impactNote": "Kiểu Việt tận dụng đất đào nền đường để đắp bù nền đường trên cùng phạm vi gói thầu giao thông, tiết kiệm 100% tiền thuế tài nguyên cho khối lượng điều phối nội bộ."
       },
       {
-        "topic": "Biểu thuế suất thuế tài nguyên đối với khoáng sản làm VLXD",
+        "topic": "Hồ sơ và tờ khai quyết toán thuế tài nguyên năm (Mẫu 02/TAIN)",
         "type": "modified",
-        "oldRule": "Thuế suất cũ quy định biên độ dao động rộng do UBND tỉnh tự quyết định.",
-        "newRule": "Quy định mức thuế suất thống nhất: Đất khai thác san lấp (5% - 7%), Đá cát sỏi xây dựng (7% - 10%), Khoáng sản kim loại (10% - 15%).",
-        "impactNote": "Kiểu Việt lập dự toán ngân sách thuế tài nguyên chính xác khi tham gia đấu thầu các dự án có mỏ khoáng sản đi kèm."
+        "oldRule": "[Căn cứ: TT 105/2010] Quyết toán thuế tài nguyên giấy nộp cùng BCTC.",
+        "newRule": "[Căn cứ: Điều 12 TT 152/2015/TT-BTC] Khai thuế tài nguyên theo tháng (Mẫu 01/TAIN) và quyết toán thuế tài nguyên năm (Mẫu 02/TAIN) nộp chậm nhất là ngày cuối cùng của tháng thứ 3 kể từ ngày kết thúc năm dương lịch qua mạng Cổng Thuế điện tử.",
+        "impactNote": "Kế toán Kiểu Việt hoàn thành Tờ khai quyết toán thuế tài nguyên năm 02/TAIN trước ngày 31/03 hàng năm đúng thời hạn quy định."
       }
     ]
   },
   "tt-44-2017": {
     "decreeId": "tt-44-2017",
     "title": "Thông tư 44/2017/TT-BTC",
-    "category": "Khung giá tính thuế tài nguyên",
-    "compareWith": "Quy định khung giá cũ",
-    "summary": "Ban hành Khung giá tính thuế tài nguyên thống nhất toàn quốc: Quy định mức giá tối thiểu và giá tối đa cho từng nhóm khoáng sản, khống chế quyền ban hành bảng giá của UBND cấp tỉnh.",
+    "category": "Khung giá tính thuế tài nguyên toàn quốc",
+    "compareWith": "Các quy định khung giá tài nguyên trước đây",
+    "summary": "Thông tư 44/2017/TT-BTC ban hành Khung giá tính thuế tài nguyên toàn quốc: Thiết lập mức giá trần và giá sàn đối với mọi loại khoáng sản cát, đá, sỏi, đất đắp công trình trên cả nước.",
     "items": [
       {
-        "topic": "Ban hành Khung giá tính thuế tài nguyên toàn quốc",
+        "topic": "Khung giá tối thiểu và tối đa tính thuế tài nguyên nhóm Vật liệu xây dựng thông thường",
         "type": "added",
-        "oldRule": "Các địa phương tự ban hành bảng giá tính thuế tài nguyên tùy tiện, chênh lệch nhau nhiều lần giữa các tỉnh giáp ranh.",
-        "newRule": "Bộ Tài chính ban hành Khung giá chuẩn gồm mức giá tối thiểu và mức giá tối đa cho hàng trăm nhóm tài nguyên khoáng sản trên toàn lãnh thổ Việt Nam.",
-        "impactNote": "Tạo cơ sở pháp lý minh bạch để Kiểu Việt so sánh chi phí thuế tài nguyên khi thi công liên tỉnh giữa Bình Định, Gia Lai, Phú Yên."
+        "oldRule": "Mỗi tỉnh ban hành một khung giá tự phát, chênh lệch giữa các tỉnh giáp ranh lên đến 300% gây bất bình đẳng cho doanh nghiệp.",
+        "newRule": "[Căn cứ: Phụ lục Khung giá TT 44/2017/TT-BTC] Ban hành khung giá chuẩn: Đất khai thác san lấp: tối thiểu 27.000 đ/m3 - tối đa 70.000 đ/m3; Đá xây dựng thông thường: tối thiểu 63.000 đ/m3 - tối đa 200.000 đ/m3; Cát vàng xây dựng: tối thiểu 105.000 đ/m3 - tối đa 350.000 đ/m3.",
+        "impactNote": "Bảo đảm mức giá tính thuế tài nguyên do UBND tỉnh Gia Lai ban hành không được vượt khung tối đa của Bộ Tài chính, bảo vệ quyền lợi hợp pháp của Kiểu Việt."
       },
       {
-        "topic": "Khống chế quyền ban hành bảng giá tính thuế tài nguyên của UBND cấp tỉnh",
+        "topic": "Quy tắc điều chỉnh bảng giá tài nguyên cấp tỉnh khi giá thị trường biến động quá 20%",
         "type": "modified",
-        "oldRule": "UBND cấp tỉnh được tự quyết định giá tính thuế mà không bị ràng buộc trần sàn.",
-        "newRule": "Bảng giá tính thuế tài nguyên do UBND cấp tỉnh ban hành không được thấp hơn mức giá tối thiểu và không được cao hơn mức giá tối đa quy định tại Khung giá của Bộ Tài chính.",
-        "impactNote": "Bảo vệ Kiểu Việt khỏi nguy cơ bị địa phương áp đặt mức thuế tài nguyên bất hợp lý vượt quá khung pháp lý của Chính phủ."
+        "oldRule": "Bảng giá tính thuế cấp tỉnh giữ nguyên qua nhiều năm dù giá thị trường tăng gấp đôi.",
+        "newRule": "[Căn cứ: Điều 4 TT 44/2017/TT-BTC] Khi giá tài nguyên trên thị trường biến động tăng hoặc giảm từ 20% trở lên so với Khung giá của Bộ Tài chính thì UBND cấp tỉnh có trách nhiệm gửi văn bản báo cáo Bộ Tài chính để điều chỉnh Khung giá toàn quốc.",
+        "impactNote": "Kiểu Việt có căn cứ pháp lý để kiến nghị Hiệp hội Doanh nghiệp tỉnh phản hồi về giá tính thuế tài nguyên khi giá thị trường đá cát bị trồi sụt."
       },
       {
-        "topic": "Cơ chế điều chỉnh Khung giá khi thị trường biến động trên 20%",
+        "topic": "Trách nhiệm đối chiếu giá tính thuế tài nguyên với giá vật liệu công bố của Sở Xây dựng",
         "type": "added",
-        "oldRule": "Khung giá cố định qua nhiều năm dù giá vật liệu xây dựng trên thị trường tăng phi mã.",
-        "newRule": "Khi giá bán tài nguyên trên thị trường phổ biến biến động tăng hoặc giảm từ 20% trở lên so với mức giá trong Khung giá, UBND cấp tỉnh có trách nhiệm gửi văn bản đề nghị Bộ Tài chính điều chỉnh khung giá.",
-        "impactNote": "Kiểu Việt chủ động kiến nghị thông qua Hiệp hội Doanh nghiệp địa phương để điều chỉnh khung giá sát với thực tế khi thị trường suy giảm."
+        "oldRule": "Giá tính thuế tài nguyên và giá công bố của Sở Xây dựng độc lập hoàn toàn, lệch pha nhau nghiêm trọng.",
+        "newRule": "[Căn cứ: Điều 5 TT 44/2017/TT-BTC] Bảng giá tính thuế tài nguyên của UBND cấp tỉnh phải được xây dựng trên cơ sở tham khảo Bảng giá vật liệu xây dựng do Sở Xây dựng công bố hàng quý và giá thực tế giao dịch tại địa phương.",
+        "impactNote": "Giúp Kiểu Việt cân đối hài hòa giữa chi phí thuế tài nguyên kê khai và chi phí vật liệu đưa vào thanh toán dự toán công trình."
       },
       {
         "topic": "Thẩm quyền và trách nhiệm rà soát điều chỉnh bảng giá tài nguyên cấp tỉnh",
         "type": "added",
         "oldRule": "UBND cấp tỉnh tự quyết định thời điểm điều chỉnh giá tính thuế tài nguyên mà không có quy định giám sát của Hội đồng nhân dân.",
-        "newRule": "Định kỳ hàng năm hoặc khi giá thị trường biến động, Sở Tài chính chủ trì phối hợp với Cục Thuế và Sở TN-MT khảo sát giá thị trường, tham mưu UBND tỉnh điều chỉnh bảng giá phù hợp với Khung giá của Bộ Tài chính.",
+        "newRule": "[Căn cứ: Điều 6 TT 44/2017/TT-BTC] Định kỳ hàng năm hoặc khi giá thị trường biến động, Sở Tài chính chủ trì phối hợp với Cục Thuế và Sở TN-MT khảo sát giá thị trường, tham mưu UBND tỉnh điều chỉnh bảng giá phù hợp với Khung giá của Bộ Tài chính.",
         "impactNote": "Kiểu Việt theo dõi các dự thảo điều chỉnh bảng giá tính thuế tài nguyên của Sở Tài chính để kịp thời có ý kiến phản hồi bảo vệ doanh nghiệp xây dựng."
       }
     ]
@@ -226,37 +226,37 @@ export const group5ResourcesFeesGeneral: Record<string, DecreeDiffData> = {
   "nd-27-2023": {
     "decreeId": "nd-27-2023",
     "title": "Nghị định 27/2023/NĐ-CP",
-    "category": "Phí Bảo vệ môi trường khoáng sản",
+    "category": "Phí Bảo vệ môi trường với khai thác khoáng sản",
     "compareWith": "Nghị định 164/2016/NĐ-CP",
-    "summary": "Quy định mức thu, chế độ thu, nộp, quản lý và sử dụng Phí bảo vệ môi trường đối với khai thác khoáng sản: Tăng mức thu phí đối với đất cát sỏi san lấp và quy định kê khai định kỳ cùng thuế tài nguyên.",
+    "summary": "Nghị định 27/2023/NĐ-CP điều chỉnh tăng mức thu phí bảo vệ môi trường đối với khai thác khoáng sản: Tăng mức thu đối với đất san lấp lên 1.000 - 2.000 đ/m3, đá xây dựng lên 1.000 - 5.000 đ/m3.",
     "items": [
       {
-        "topic": "Tăng mức thu Phí bảo vệ môi trường đối với đất san lấp công trình",
+        "topic": "Khung mức thu Phí bảo vệ môi trường đối với khoáng sản đất, đá, cát xây dựng",
         "type": "modified",
-        "oldRule": "Mức thu phí BVMT đối với đất khai thác làm vật liệu san lấp mặt bằng theo NĐ 164 từ 1.000 đến 2.000 đ/m3.",
-        "newRule": "Điều chỉnh khung mức thu phí BVMT đối với đất khai thác để san lấp, xây dựng công trình từ 1.000 đến 2.000 đ/m3; đất sét làm gạch ngói từ 1.500 đến 2.500 đ/m3.",
-        "impactNote": "Kế toán Kiểu Việt tính đúng chi phí phí BVMT nộp ngân sách địa phương nơi khai thác mỏ đất thi công."
+        "oldRule": "[Căn cứ: Biểu phí NĐ 164/2016] Mức thu phí BVMT đối với đất san lấp: 1.000 đ/m3; Đá xây dựng: từ 1.000 đến 3.000 đ/m3.",
+        "newRule": "[Căn cứ: Biểu khung mức thu phí NĐ 27/2023/NĐ-CP] Khung mức thu mới: Đất làm vật liệu san lấp, đất đắp nền: 1.000 đến 2.000 đ/m3; Đá làm vật liệu xây dựng thông thường: 1.000 đến 5.000 đ/m3; Cát vàng: 3.000 đến 5.000 đ/m3. HĐND cấp tỉnh ban hành mức thu cụ thể.",
+        "impactNote": "Kế toán Kiểu Việt cập nhật mức thu phí BVMT khoáng sản mới do HĐND tỉnh Gia Lai ban hành để đưa vào cơ cấu giá thành sản xuất đá và đất đắp."
       },
       {
-        "topic": "Khung mức thu phí BVMT đối với đá cát sỏi xây dựng",
+        "topic": "Phương pháp tính Phí bảo vệ môi trường đối với đất đá khai thác tận thu",
+        "type": "added",
+        "oldRule": "[Căn cứ: NĐ 164/2016] Chưa quy định rõ phương pháp tính phí BVMT khi đào móng công trình tận thu đất đá san lấp.",
+        "newRule": "[Căn cứ: Điều 6 NĐ 27/2023/NĐ-CP] Trường hợp tận thu khoáng sản từ các công trình xây dựng: Phí BVMT phải nộp tính theo sản lượng khoáng sản thực tế tận thu nhân với mức thu phí BVMT tương ứng; nếu đất đá tận thu chỉ sử dụng trong phạm vi công trình thì không phải nộp phí BVMT.",
+        "impactNote": "Kiểu Việt được miễn nộp phí BVMT đối với khối lượng đất đào móng cầu cống tái sử dụng đắp nền đường ngay trong gói thầu dự án."
+      },
+      {
+        "topic": "Thời hạn kê khai và nộp phí Bảo vệ môi trường định kỳ hàng tháng",
         "type": "modified",
-        "oldRule": "Khung mức thu cũ đối với đá dăm là 1.000 - 5.000 đ/m3; cát vàng từ 3.000 - 5.000 đ/m3.",
-        "newRule": "Quy định mức thu phí BVMT: Đá xây dựng thông thường (1.000 - 5.000 đ/m3); Cát sỏi các loại (3.000 - 7.000 đ/m3) do HĐND cấp tỉnh quyết định cụ thể.",
-        "impactNote": "Kiểu Việt cập nhật Nghị quyết HĐND tỉnh Bình Định và Gia Lai để nộp đúng mức phí BVMT theo m3 khoáng sản thành phẩm."
+        "oldRule": "[Căn cứ: NĐ 164/2016] Kê khai phí BVMT cùng tờ khai thuế tài nguyên nhưng thời hạn nộp chưa đồng bộ.",
+        "newRule": "[Căn cứ: Điều 7 NĐ 27/2023/NĐ-CP] Tổ chức khai thác khoáng sản nộp hồ sơ khai phí BVMT theo tháng chậm nhất là ngày 20 của tháng tiếp theo; thời hạn nộp tiền phí BVMT chậm nhất là ngày cuối cùng của thời hạn nộp hồ sơ khai phí.",
+        "impactNote": "Kế toán Kiểu Việt nộp Tờ khai phí BVMT Mẫu 01/PBVMT đồng thời với Tờ khai thuế tài nguyên đúng hạn ngày 20 hàng tháng."
       },
       {
-        "topic": "Đồng bộ thời hạn kê khai và nộp phí BVMT cùng tờ khai thuế tài nguyên",
+        "topic": "Trách nhiệm lắp đặt camera giám sát và trạm cân tại cửa mỏ khoáng sản",
         "type": "added",
-        "oldRule": "Kê khai phí BVMT theo tờ khai riêng biệt với quy trình nộp tiền khác nhau.",
-        "newRule": "Người nộp phí nộp tờ khai phí BVMT cho cơ quan thuế cùng thời hạn với thời hạn nộp hồ sơ khai thuế tài nguyên (chậm nhất ngày 20 tháng sau).",
-        "impactNote": "Kế toán Kiểu Việt gộp quy trình kê khai thuế tài nguyên và phí BVMT thành 1 bước đồng thời hàng tháng, tiết kiệm thời gian giao dịch."
-      },
-      {
-        "topic": "Mục đích sử dụng nguồn thu phí BVMT để tái thiết hạ tầng địa phương",
-        "type": "added",
-        "oldRule": "Nguồn thu phí BVMT nộp chung vào ngân sách tỉnh, ít khi đầu tư lại cho khu vực chịu ảnh hưởng bởi mỏ.",
-        "newRule": "100% nguồn thu phí BVMT được điều tiết về ngân sách địa phương cấp huyện, xã nơi có mỏ để đầu tư nâng cấp đường giao thông dân sinh và khắc phục ô nhiễm môi trường.",
-        "impactNote": "Kiểu Việt phối hợp với chính quyền địa phương tạo sự đồng thuận của người dân xung quanh khu vực mỏ khoáng sản của công ty."
+        "oldRule": "[Căn cứ: NĐ 164/2016] Chưa bắt buộc trạm cân điện tử đối với các mỏ vật liệu xây dựng thông thường.",
+        "newRule": "[Căn cứ: Điều 8 NĐ 27/2023/NĐ-CP & Luật Khoáng sản] Bắt buộc tổ chức khai thác mỏ khoáng sản (trừ mỏ đất san lấp quy mô nhỏ) phải lắp đặt trạm cân điện tử và camera giám sát tại vị trí cửa mỏ; dữ liệu trạm cân được truyền về cơ quan thuế và Sở TN-MT để kiểm soát sản lượng chịu phí.",
+        "impactNote": "Kiểu Việt lắp đặt trạm cân điện tử 80 tấn tự động tại mỏ đá Gia Lai, kết nối dữ liệu số với phần mềm kế toán để minh bạch sản lượng chịu thuế."
       }
     ]
   },
@@ -265,34 +265,34 @@ export const group5ResourcesFeesGeneral: Record<string, DecreeDiffData> = {
     "title": "Nghị định 67/2019/NĐ-CP",
     "category": "Tiền cấp quyền khai thác khoáng sản",
     "compareWith": "Nghị định 203/2013/NĐ-CP",
-    "summary": "Quy định phương pháp tính, mức thu tiền cấp quyền khai thác khoáng sản: Ban hành công thức chuẩn (M = Q x G x K x R), cho phép nộp tiền nhiều lần hàng năm và cơ chế khấu trừ tiền cấp quyền khi trả lại mỏ.",
+    "summary": "Nghị định 67/2019/NĐ-CP sửa đổi phương pháp tính, mức thu và thủ tục thu nộp tiền cấp quyền khai thác khoáng sản: Quy định chi tiết công thức tính tiền cấp quyền (T), thời hạn nộp và cơ chế điều chỉnh số tiền nộp theo trữ lượng thực tế.",
     "items": [
       {
-        "topic": "Công thức chuẩn tính Tiền cấp quyền khai thác khoáng sản (M = Q x G x K x R)",
+        "topic": "Công thức chuẩn tính Tiền cấp quyền khai thác khoáng sản (T = Q x G x K x R)",
         "type": "modified",
-        "oldRule": "Công thức tính cũ theo NĐ 203 có nhiều hệ số không rõ ràng, dẫn đến mức thu tiền cấp quyền vượt quá khả năng tài chính của doanh nghiệp.",
-        "newRule": "Quy định chuẩn xác: M = Q x G x K x R (Trong đó: Q là trữ lượng tính tiền; G là giá tính tiền cấp quyền; K là hệ số phương pháp khai thác; R là mức thu tiền cấp quyền từ 1% đến 5%).",
-        "impactNote": "Kế toán Kiểu Việt thẩm tra lại Thông báo nộp tiền cấp quyền của Cục Thuế bảo đảm áp đúng hệ số K (lộ thiên K = 1.0; hầm lò K = 0.9)."
+        "oldRule": "[Căn cứ: Điều 4 NĐ 203/2013/NĐ-CP] Công thức tính phức tạp, hệ số thu hồi khoáng sản K và giá tính tiền cấp quyền G chưa phản ánh đúng điều kiện khai thác mỏ lộ thiên.",
+        "newRule": "[Căn cứ: Điều 4 NĐ 67/2019/NĐ-CP] Công thức chuẩn: T = Q x G x K x R. Trong đó: Q là trữ lượng khoáng sản được phép khai thác (m3); G là giá tính tiền cấp quyền (lấy theo Bảng giá tính thuế tài nguyên); K là hệ số thu hồi khai thác; R là mức thu tiền cấp quyền (R = 5% đối với đá cát sỏi xây dựng; R = 3% đối với đất san lấp).",
+        "impactNote": "Kiểu Việt tính toán chính xác số tiền cấp quyền khai thác khoáng sản phải nộp trước khi xin cấp phép mỏ đất đắp cao tốc để hạch toán vào chi phí dự án."
       },
       {
-        "topic": "Cho phép phân kỳ nộp tiền cấp quyền khai thác khoáng sản hàng năm",
-        "type": "added",
-        "oldRule": "Doanh nghiệp phải nộp toàn bộ số tiền cấp quyền khai thác khoáng sản trong 1-2 năm đầu của giấy phép.",
-        "newRule": "Cho phép doanh nghiệp nộp tiền cấp quyền khai thác khoáng sản làm nhiều lần hàng năm chia đều theo số năm được cấp phép khai thác (mỗi năm nộp 2 kỳ).",
-        "impactNote": "Giảm áp lực dòng tiền vốn đầu tư ban đầu cho Kiểu Việt, tiền cấp quyền được chia nhỏ phân bổ đều vào chi phí từng năm khai thác."
+        "topic": "Phân kỳ nộp tiền cấp quyền khai thác khoáng sản hàng năm (Nộp 2 kỳ/năm)",
+        "type": "modified",
+        "oldRule": "[Căn cứ: NĐ 203/2013] Tiền cấp quyền thường bắt buộc nộp dồn một lần trong những năm đầu cấp phép, gây áp lực dòng tiền kiệt quệ cho nhà thầu.",
+        "newRule": "[Căn cứ: Điều 9 NĐ 67/2019/NĐ-CP] Tiền cấp quyền được phân bổ nộp hàng năm trong suốt thời hạn khai thác của giấy phép; mỗi năm nộp làm 02 kỳ: Kỳ 1 chậm nhất ngày 31/05 (nộp 50%) và Kỳ 2 chậm nhất ngày 31/10 (nộp 50%).",
+        "impactNote": "Giãn tiến độ nộp tiền cấp quyền theo từng kỳ 6 tháng một lần cho Kiểu Việt, giúp công ty cân đối dòng tiền chi trả theo doanh thu bán hàng thực tế."
       },
       {
-        "topic": "Thủ tục hoàn trả hoặc khấu trừ tiền cấp quyền khi trả lại một phần mỏ",
+        "topic": "Điều chỉnh số tiền cấp quyền khai thác khoáng sản khi có biến động trữ lượng hoặc giá tính thuế",
         "type": "added",
-        "oldRule": "Doanh nghiệp trả lại mỏ hoặc dừng khai thác do thiên tai không được hoàn trả số tiền cấp quyền đã nộp trước.",
-        "newRule": "Quy định cơ chế hoàn trả hoặc bù trừ số tiền cấp quyền đã nộp thừa vào các nghĩa vụ thuế khác khi doanh nghiệp trả lại một phần hoặc toàn bộ diện tích mỏ.",
-        "impactNote": "Kiểu Việt được bảo toàn quyền lợi tài chính khi điều chỉnh ranh giới mỏ vật liệu phục vụ dự án."
+        "oldRule": "[Căn cứ: NĐ 203/2013] Số tiền cấp quyền xác định cứng trong Quyết định ban đầu, không được điều chỉnh khi mỏ gặp sự cố địa chất.",
+        "newRule": "[Căn cứ: Điều 11 NĐ 67/2019/NĐ-CP] Được điều chỉnh số tiền cấp quyền trong các trường hợp: 1) Thay đổi Bảng giá tính thuế tài nguyên của tỉnh; 2) Trữ lượng thực tế khai thác giảm do điều kiện địa chất phức tạp; 3) Cơ quan nhà nước thu hồi một phần diện tích mỏ.",
+        "impactNote": "Kiểu Việt lập hồ sơ xin giảm trừ tiền cấp quyền khai thác mỏ đá nếu địa tầng gặp vỉa đá mồ côi hoặc sạt lở không thể khai thác hết trữ lượng phê duyệt."
       },
       {
         "topic": "Thời hạn thẩm định và thông báo số tiền cấp quyền khai thác khoáng sản phải nộp",
         "type": "added",
         "oldRule": "Thời gian cơ quan thuế ban hành thông báo nộp tiền cấp quyền thường chậm trễ, dồn tích nhiều kỳ làm doanh nghiệp bị động dòng tiền.",
-        "newRule": "Quy định trong thời hạn không quá 10 ngày làm việc kể từ ngày nhận được văn bản phê duyệt của cơ quan có thẩm quyền, Cục Thuế phải ban hành Thông báo nộp tiền cấp quyền gửi cho doanh nghiệp.",
+        "newRule": "[Căn cứ: Điều 10 NĐ 67/2019/NĐ-CP] Quy định trong thời hạn không quá 10 ngày làm việc kể từ ngày nhận được văn bản phê duyệt của cơ quan có thẩm quyền, Cục Thuế phải ban hành Thông báo nộp tiền cấp quyền gửi cho doanh nghiệp.",
         "impactNote": "Kiểu Việt chủ động nhận thông báo nộp tiền cấp quyền sớm để cân đối dòng tiền chi trả theo từng đợt quy định."
       }
     ]
@@ -302,146 +302,146 @@ export const group5ResourcesFeesGeneral: Record<string, DecreeDiffData> = {
     "title": "Nghị định 22/2020/NĐ-CP",
     "category": "Miễn Lệ phí môn bài",
     "compareWith": "Nghị định 139/2016/NĐ-CP",
-    "summary": "Cải cách thủ tục lệ phí môn bài: Miễn lệ phí môn bài trong năm đầu thành lập cho doanh nghiệp mới, miễn 3 năm cho DNNVV chuyển đổi từ hộ kinh doanh và kéo dài thời hạn nộp tờ khai đến 30/01 năm sau.",
+    "summary": "Nghị định 22/2020/NĐ-CP sửa đổi NĐ 139: Miễn lệ phí môn bài trong năm đầu thành lập cho doanh nghiệp mới, miễn cho chi nhánh thành lập trong thời gian DN được miễn và miễn cho cơ sở giáo dục.",
     "items": [
       {
-        "topic": "Miễn lệ phí môn bài trong năm đầu thành lập mới",
+        "topic": "Miễn lệ phí môn bài trong năm đầu thành lập (Từ 01/01 đến 31/12)",
         "type": "added",
-        "oldRule": "Doanh nghiệp mới thành lập phải nộp ngay lệ phí môn bài trong tháng đầu hoạt động (nếu thành lập 6 tháng cuối năm nộp 50%).",
-        "newRule": "Miễn lệ phí môn bài trong năm đầu thành lập hoặc ra hoạt động sản xuất, kinh doanh (từ ngày 01/01 đến ngày 31/12) cho toàn bộ tổ chức mới thành lập.",
-        "impactNote": "Tiết kiệm chi phí hành chính ban đầu cho các công ty con, công ty thành viên mới thành lập trong hệ sinh thái Kiểu Việt."
+        "oldRule": "[Căn cứ: NĐ 139/2016] Doanh nghiệp thành lập mới nếu trong 6 tháng đầu năm phải nộp 100% lệ phí môn bài; thành lập trong 6 tháng cuối năm nộp 50% lệ phí môn bài.",
+        "newRule": "[Căn cứ: Khoản 1 Điều 1 NĐ 22/2020/NĐ-CP] Miễn lệ phí môn bài trong năm đầu thành lập hoặc ra hoạt động sản xuất, kinh doanh (từ ngày 01 tháng 01 đến ngày 31 tháng 12) đối với tổ chức thành lập mới.",
+        "impactNote": "Các công ty con, công ty thành viên mới thành lập trong hệ sinh thái Kiểu Việt được miễn 100% lệ phí môn bài trong năm đầu hoạt động."
       },
       {
-        "topic": "Miễn lệ phí môn bài cho chi nhánh, địa điểm kinh doanh thành lập trong năm đầu",
+        "topic": "Miễn lệ phí môn bài cho Chi nhánh, Văn phòng đại diện thành lập trong năm đầu",
         "type": "added",
-        "oldRule": "Chi nhánh, văn phòng đại diện thành lập mới luôn phải nộp 1.000.000 đồng/năm ngay khi được cấp phép.",
-        "newRule": "Trong thời gian doanh nghiệp được miễn lệ phí môn bài, chi nhánh, văn phòng đại diện, địa điểm kinh doanh thành lập của doanh nghiệp đó cũng được miễn lệ phí môn bài.",
-        "impactNote": "Kiểu Việt thoải mái mở các văn phòng ban điều hành công trường tại các tỉnh thành mà không phát sinh chi phí môn bài trong năm đầu."
+        "oldRule": "[Căn cứ: NĐ 139/2016] Chi nhánh, địa điểm kinh doanh thành lập mới luôn phải nộp lệ phí môn bài 1.000.000 đồng/năm.",
+        "newRule": "[Căn cứ: Điểm c Khoản 1 Điều 1 NĐ 22/2020/NĐ-CP] Trong thời gian doanh nghiệp nhỏ và vừa được miễn lệ phí môn bài, chi nhánh, văn phòng đại diện, địa điểm kinh doanh của doanh nghiệp được thành lập trong thời gian này cũng được miễn lệ phí môn bài.",
+        "impactNote": "Kiểu Việt mở các Ban Điều hành dự án công trường, văn phòng hiện trường tại các tỉnh trong năm đầu thành lập công ty được miễn lệ phí môn bài."
       },
       {
-        "topic": "Miễn lệ phí môn bài 03 năm cho DNNVV chuyển đổi từ hộ kinh doanh",
-        "type": "added",
-        "oldRule": "Hộ kinh doanh chuyển đổi lên công ty phải nộp lệ phí môn bài theo vốn điều lệ công ty ngay từ năm đầu.",
-        "newRule": "Miễn lệ phí môn bài trong thời hạn 03 năm kể từ ngày được cấp Giấy chứng nhận đăng ký doanh nghiệp lần đầu cho doanh nghiệp nhỏ và vừa chuyển đổi từ hộ kinh doanh.",
-        "impactNote": "Chính sách khuyến khích các đối tác tổ đội xây dựng liên kết với Kiểu Việt nâng cấp lên mô hình công ty cổ phần/TNHH chuyên nghiệp."
-      },
-      {
-        "topic": "Thời hạn nộp hồ sơ khai lệ phí môn bài chuyển sang ngày 30/01 năm sau",
+        "topic": "Hạn nộp Tờ khai lệ phí môn bài chuyển sang ngày 30/01 năm sau năm thành lập",
         "type": "modified",
-        "oldRule": "Phải nộp tờ khai lệ phí môn bài chậm nhất vào ngày cuối cùng của tháng bắt đầu hoạt động sản xuất kinh doanh.",
-        "newRule": "Người nộp lệ phí mới thành lập nộp hồ sơ khai lệ phí môn bài chậm nhất là ngày 30 tháng 01 năm sau năm thành lập.",
-        "impactNote": "Kế toán Kiểu Việt có tới cả năm đầu để ổn định bộ máy trước khi phải nộp tờ khai lệ phí môn bài lần đầu tiên."
+        "oldRule": "[Căn cứ: NĐ 139/2016] Khai lệ phí môn bài một lần khi người nộp thuế mới ra hoạt động kinh doanh, chậm nhất là ngày cuối cùng của tháng bắt đầu hoạt động.",
+        "newRule": "[Căn cứ: Khoản 3 Điều 1 NĐ 22/2020/NĐ-CP] Doanh nghiệp mới thành lập nộp hồ sơ khai lệ phí môn bài chậm nhất là ngày 30 tháng 01 năm sau năm thành lập hoặc bắt đầu hoạt động sản xuất kinh doanh.",
+        "impactNote": "Kế toán Kiểu Việt có thêm thời gian đến tận ngày 30/01 năm sau để nộp tờ khai môn bài cho các đơn vị trực thuộc mới thành lập."
+      },
+      {
+        "topic": "Miễn lệ phí môn bài đối với cơ sở đào tạo nghề và cơ sở giáo dục",
+        "type": "added",
+        "oldRule": "[Căn cứ: NĐ 139/2016] Cơ sở giáo dục ngoài công lập vẫn phải nộp lệ phí môn bài theo mức vốn điều lệ.",
+        "newRule": "[Căn cứ: Điểm d Khoản 1 Điều 1 NĐ 22/2020/NĐ-CP] Miễn lệ phí môn bài đối với: Cơ sở giáo dục phổ thông công lập và cơ sở giáo dục mầm non công lập; cơ sở giáo dục nghề nghiệp ngoài công lập.",
+        "impactNote": "Trung tâm đào tạo tay nghề thợ vận hành máy xúc, máy ủi nội bộ của Kiểu Việt được hưởng chính sách miễn lệ phí môn bài."
       }
     ]
   },
   "nd-139-2016": {
     "decreeId": "nd-139-2016",
     "title": "Nghị định 139/2016/NĐ-CP",
-    "category": "Lệ phí môn bài",
-    "compareWith": "Thông tư 96/2002/TT-BTC & Pháp lệnh Thuế môn bài",
-    "summary": "Chuyển đổi tên gọi chính thức từ Thuế môn bài sang Lệ phí môn bài, quy định 3 bậc mức thu theo vốn điều lệ (Vốn trên 10 tỷ: 3 triệu/năm, vốn dưới 10 tỷ: 2 triệu/năm, chi nhánh: 1 triệu/năm) và thời hạn nộp ngày 30/01 hàng năm.",
+    "category": "Quy định Lệ phí môn bài",
+    "compareWith": "Pháp lệnh thuế Môn bài và Thông tư 96/2002/TT-BTC",
+    "summary": "Nghị định 139/2016/NĐ-CP chuyển đổi Thuế môn bài sang Lệ phí môn bài: Chuẩn hóa 3 bậc mức thu theo vốn điều lệ (3 triệu, 2 triệu, 1 triệu đồng/năm), mức thu 1 triệu đồng cho chi nhánh và thời hạn nộp ngày 30/01 hàng năm.",
     "items": [
       {
-        "topic": "Quy định 3 bậc mức thu lệ phí môn bài cho tổ chức kinh doanh",
+        "topic": "Ba bậc mức thu Lệ phí môn bài theo vốn điều lệ ghi trên Giấy chứng nhận ĐKKD (Điều 4)",
         "type": "modified",
-        "oldRule": "Thuế môn bài cũ áp dụng 4 bậc mức thu căn cứ vào vốn đăng ký theo Thông tư 96/2002 (Bậc 1: 3tr, Bậc 2: 2tr, Bậc 3: 1.5tr, Bậc 4: 1tr).",
-        "newRule": "Quy định chuẩn 3 bậc: Bậc 1 (Vốn điều lệ trên 10 tỷ đồng: 3.000.000 đ/năm); Bậc 2 (Vốn điều lệ từ 10 tỷ đồng trở xuống: 2.000.000 đ/năm); Bậc 3 (Chi nhánh, VPĐD, địa điểm kinh doanh: 1.000.000 đ/năm).",
-        "impactNote": "Kiểu Việt có vốn điều lệ trên 10 tỷ đồng thuộc Bậc 1, nộp đúng 3.000.000 đ/năm cho công ty mẹ và 1.000.000 đ/năm cho mỗi chi nhánh."
+        "oldRule": "[Căn cứ: Thông tư 96/2002/TT-BTC] Thuế môn bài cũ gồm 4 bậc: Bậc 1 (trên 10 tỷ: 3tr), Bậc 2 (5-10 tỷ: 2tr), Bậc 3 (2-5 tỷ: 1.5tr), Bậc 4 (dưới 2 tỷ: 1tr).",
+        "newRule": "[Căn cứ: Khoản 1 Điều 4 NĐ 139/2016/NĐ-CP] Thu gọn còn 3 bậc mức thu: 1) Tổ chức có vốn điều lệ hoặc vốn đầu tư trên 10 tỷ đồng: 3.000.000 đồng/năm; 2) Tổ chức có vốn điều lệ từ 10 tỷ đồng trở xuống: 2.000.000 đồng/năm; 3) Chi nhánh, văn phòng đại diện, địa điểm kinh doanh: 1.000.000 đồng/năm.",
+        "impactNote": "Công ty Cổ phần Kiểu Việt có vốn điều lệ trên 10 tỷ đồng nộp mức lệ phí môn bài 3.000.000 đồng/năm; các chi nhánh mỏ đá, xưởng sản xuất nộp 1.000.000 đồng/năm/chi nhánh."
       },
       {
-        "topic": "Căn cứ xác định mức thu lệ phí môn bài là Vốn ghi trên Giấy phép",
+        "topic": "Thời hạn nộp Lệ phí môn bài hàng năm chậm nhất là ngày 30 tháng 01",
         "type": "modified",
-        "oldRule": "Căn cứ theo vốn tự có hoặc tổng tài sản trên Bảng cân đối kế toán năm trước.",
-        "newRule": "Căn cứ vào Vốn điều lệ ghi trong Giấy chứng nhận đăng ký doanh nghiệp; trường hợp không có vốn điều lệ thì căn cứ vào Vốn đầu tư ghi trong Giấy chứng nhận đăng ký đầu tư.",
-        "impactNote": "Trường hợp Kiểu Việt tăng vốn điều lệ vượt mốc 10 tỷ đồng, mức nộp lệ phí môn bài bậc mới sẽ áp dụng từ năm tài chính tiếp theo."
+        "oldRule": "[Căn cứ: TT 96/2002] Nộp thuế môn bài chậm nhất ngày 31/01 hàng năm.",
+        "newRule": "[Căn cứ: Khoản 9 Điều 18 NĐ 126/2020 & NĐ 139/2016] Thời hạn nộp lệ phí môn bài chậm nhất là ngày 30 tháng 01 hàng năm. Doanh nghiệp đã nộp tờ khai môn bài một lần thì các năm sau không phải nộp lại tờ khai nếu không thay đổi vốn điều lệ.",
+        "impactNote": "Kế toán Kiểu Việt cài đặt nộp điện tử Lệ phí môn bài trước ngày 30/01 hàng năm qua Cổng Thuế điện tử nộp thuế tự động."
       },
       {
-        "topic": "Thời hạn nộp tiền lệ phí môn bài hàng năm chậm nhất là ngày 30/01",
+        "topic": "Quy định mức thu 50% lệ phí môn bài khi thành lập trong 6 tháng cuối năm",
+        "type": "modified",
+        "oldRule": "[Căn cứ: TT 96/2002] Cách tính thuế môn bài nửa năm cũ gây tranh cãi về thời điểm bắt đầu tính.",
+        "newRule": "[Căn cứ: Khoản 3 Điều 4 NĐ 139/2016/NĐ-CP] Trường hợp thành lập, được cấp đăng ký thuế và mã số thuế trong thời gian 6 tháng cuối năm (từ ngày 01/07 trở đi) thì nộp 50% mức lệ phí môn bài cả năm (sau khi hết thời gian được miễn môn bài theo NĐ 22/2020).",
+        "impactNote": "Áp dụng cho các chi nhánh Kiểu Việt thành lập sau ngày 01/07 các năm tiếp theo để nộp 500.000 đồng cho nửa năm hoạt động."
+      },
+      {
+        "topic": "Xử lý khi thay đổi vốn điều lệ ảnh hưởng đến bậc Lệ phí môn bài",
         "type": "added",
-        "oldRule": "Thời hạn nộp thuế môn bài cũ quy định từ ngày 01 đến ngày 30 tháng 01 nhưng nhiều doanh nghiệp hay quên nộp.",
-        "newRule": "Quy định thời hạn nộp tiền lệ phí môn bài hàng năm chậm nhất là ngày 30 tháng 01 năm tài chính; nếu nộp chậm sẽ bị tính tiền chậm nộp 0.03%/ngày theo Luật Quản lý thuế.",
-        "impactNote": "Kiểu Việt đặt lịch cố định: Chuyển khoản nộp lệ phí môn bài cho toàn bộ công ty mẹ và các chi nhánh ngay trong tuần đầu tiên của tháng 01 hàng năm."
-      },
-      {
-        "topic": "Bãi bỏ thủ tục nộp tờ khai môn bài hàng năm nếu không thay đổi vốn",
-        "type": "removed",
-        "oldRule": "Hàng năm doanh nghiệp đều phải in và nộp lại tờ khai thuế môn bài Mẫu 01/MBAI.",
-        "newRule": "Doanh nghiệp chỉ phải nộp Tờ khai lệ phí môn bài 01 lần duy nhất khi mới thành lập; các năm tiếp theo chỉ cần nộp tiền vào NSNN, không phải nộp lại tờ khai nếu không thay đổi vốn điều lệ.",
-        "impactNote": "Cắt giảm 100% thủ tục giấy tờ kê khai môn bài hàng năm cho phòng kế toán Kiểu Việt."
+        "oldRule": "[Căn cứ: TT 96/2002] Thay đổi vốn phải làm lại thủ tục kê khai thuế môn bài hàng năm.",
+        "newRule": "[Căn cứ: Khoản 1 Điều 10 Nghị định 126/2020 & NĐ 139/2016] Khi có thay đổi về vốn điều lệ làm thay đổi bậc lệ phí môn bài phải nộp: Người nộp thuế phải nộp hồ sơ khai lệ phí môn bài chậm nhất là ngày 30 tháng 01 năm sau năm phát sinh thông tin thay đổi.",
+        "impactNote": "Khi Kiểu Việt tăng vốn điều lệ lên trên 10 tỷ đồng hoặc ngược lại, kế toán chủ động nộp Tờ khai điều chỉnh môn bài trước ngày 30/01 năm sau."
       }
     ]
   },
   "luat-gd-dien-tu-20-2023": {
     "decreeId": "luat-gd-dien-tu-20-2023",
     "title": "Luật Giao dịch điện tử số 20/2023/QH15",
-    "category": "Luật Giao dịch điện tử",
+    "category": "Luật Giao dịch điện tử mới",
     "compareWith": "Luật Giao dịch điện tử số 51/2005/QH11",
-    "summary": "Nền tảng pháp lý vững chắc cho kỷ nguyên số: Mở rộng áp dụng giao dịch điện tử toàn diện cho mọi lĩnh vực, công nhận giá trị pháp lý tuyệt đối của Hợp đồng điện tử, phân loại 3 cấp độ chữ ký điện tử và bảo mật dữ liệu số.",
+    "summary": "Luật Giao dịch điện tử 20/2023/QH15 (áp dụng từ 01/07/2024) tạo hành lang pháp lý hoàn chỉnh cho kinh tế số: Công nhận giá trị pháp lý thông điệp dữ liệu, phân loại chữ ký điện tử an toàn và thừa nhận hợp đồng điện tử toàn diện.",
     "items": [
       {
-        "topic": "Mở rộng phạm vi điều chỉnh ra toàn bộ các hoạt động kinh tế - xã hội",
+        "topic": "Công nhận giá trị pháp lý của Thông điệp dữ liệu như văn bản gốc (Điều 9)",
         "type": "modified",
-        "oldRule": "Luật 2005 loại trừ không áp dụng giao dịch điện tử đối với việc cấp sổ đỏ, giấy chứng nhận kết hôn, văn bản thừa kế.",
-        "newRule": "Mở rộng áp dụng toàn diện: Giao dịch điện tử được phép áp dụng cho toàn bộ hoạt động kinh tế, dân sự, thương mại, hành chính công mà không còn phạm vi loại trừ.",
-        "impactNote": "Kiểu Việt có cơ sở pháp lý vững chắc để thực hiện số hóa toàn bộ hợp đồng giao nhận thầu, biên bản nghiệm thu và hồ sơ dự án xây dựng."
+        "oldRule": "[Căn cứ: Điều 14 Luật 51/2005] Giá trị làm chứng của thông điệp dữ liệu còn bị hạn chế, khi có tranh chấp tòa án vẫn đòi hỏi văn bản giấy gốc.",
+        "newRule": "[Căn cứ: Điều 9 & Điều 10 Luật 20/2023/QH15] Thông điệp dữ liệu có giá trị như văn bản gốc nếu bảo đảm tính toàn vẹn của thông tin kể từ khi được khởi tạo lần đầu dưới dạng thông điệp dữ liệu hoàn chỉnh và thông tin có thể truy cập, sử dụng được dưới dạng hoàn chỉnh.",
+        "impactNote": "Kiểu Việt số hóa toàn bộ hồ sơ quản lý chất lượng công trình, nhật ký thi công điện tử, biên bản nghiệm thu; các file dữ liệu số có giá trị pháp lý 100% trước cơ quan thanh tra và Tòa án."
       },
       {
-        "topic": "Công nhận giá trị pháp lý tuyệt đối của Hợp đồng điện tử",
+        "topic": "Phân loại rõ Chữ ký điện tử chuyên dùng, Chữ ký số công cộng và Chữ ký số chuyên dùng",
         "type": "added",
-        "oldRule": "Hợp đồng ký kết qua mạng vẫn bị nhiều chủ đầu tư và cơ quan tòa án yêu cầu phải có bản in đóng dấu đỏ mới công nhận.",
-        "newRule": "Khẳng định giá trị pháp lý của Hợp đồng điện tử không thể bị phủ nhận chỉ vì hợp đồng đó được thể hiện dưới dạng thông điệp dữ liệu.",
-        "impactNote": "Kiểu Việt ký kết các hợp đồng kinh tế mua bán vật liệu xây dựng với các nhà cung cấp toàn quốc hoàn toàn trực tuyến, tiết kiệm thời gian đi lại."
+        "oldRule": "[Căn cứ: Luật 51/2005] Quy định chữ ký điện tử chung chung, không phân định giữa chữ ký scan, chữ ký hình ảnh và chữ ký số mật mã.",
+        "newRule": "[Căn cứ: Điều 21 & Điều 22 Luật 20/2023/QH15] Phân loại rõ ràng 3 cấp độ: 1) Chữ ký điện tử chuyên dùng; 2) Chữ ký số công cộng (VNPT, Viettel...); 3) Chữ ký số chuyên dùng công vụ. Chữ ký số là chữ ký điện tử an toàn đáp ứng điều kiện bảo mật cao nhất, có giá trị tương đương chữ ký tay và con dấu pháp nhân.",
+        "impactNote": "Kiểu Việt trang bị Chữ ký số HSM cho Kế toán trưởng và Giám đốc để ký hóa đơn, hợp đồng; trang bị chữ ký số cá nhân cho các kỹ sư hiện trường ký hồ sơ hoàn công."
       },
       {
-        "topic": "Phân định rõ ràng 3 loại Chữ ký điện tử",
+        "topic": "Hiệu lực pháp lý của Hợp đồng điện tử trong hoạt động xây dựng và thương mại",
         "type": "added",
-        "oldRule": "Chưa phân loại cụ thể mức độ tin cậy và giá trị pháp lý của các loại chữ ký số và chữ ký điện tử thông thường.",
-        "newRule": "Phân loại rõ 3 loại: (1) Chữ ký điện tử chuyên dùng; (2) Chữ ký số công cộng (dùng nộp thuế, hải quan, đấu thầu); (3) Chữ ký số chuyên dùng công vụ.",
-        "impactNote": "Kiểu Việt trang bị chữ ký số công cộng tích hợp HSM đám mây cho phép Ban Giám đốc ký duyệt chứng từ mọi lúc mọi nơi an toàn."
+        "oldRule": "[Căn cứ: Luật 51/2005] Chưa có quy định chi tiết về việc ký kết và thực hiện hợp đồng điện tử tự động (Smart Contracts).",
+        "newRule": "[Căn cứ: Điều 34-38 Luật 20/2023/QH15] Giá trị pháp lý của hợp đồng điện tử không thể bị phủ nhận chỉ vì hợp đồng đó được thể hiện dưới dạng thông điệp dữ liệu; các bên có quyền thỏa thuận sử dụng phương tiện điện tử để giao kết và thực hiện hợp đồng toàn phần hoặc một phần.",
+        "impactNote": "Kiểu Việt ký kết 100% hợp đồng mua bán vật liệu xây dựng và hợp đồng giao khoán nhà thầu phụ qua nền tảng hợp đồng điện tử, tiết kiệm hàng tuần luân chuyển bưu điện."
       },
       {
-        "topic": "Quy định điều kiện chuyển đổi giữa văn bản giấy và thông điệp dữ liệu",
+        "topic": "Quy định điều kiện chuyển đổi giữa Văn bản giấy và Thông điệp dữ liệu (Điều 12)",
         "type": "modified",
-        "oldRule": "Chưa quy định chuẩn kỹ thuật khi scan hoặc số hóa tài liệu giấy chuyển sang lưu trữ điện tử.",
-        "newRule": "Quy định điều kiện chuyển đổi: Phải bảo đảm tính toàn vẹn của thông tin; có chữ ký số của bên thực hiện chuyển đổi; và có thể truy cập, sử dụng lại bất cứ lúc nào.",
-        "impactNote": "Kiểu Việt số hóa toàn bộ kho hồ sơ hoàn công công trình giấy cũ sang kho lưu trữ số đạt chuẩn pháp lý."
+        "oldRule": "[Căn cứ: Điều 15 Luật 51/2005] Quy định chuyển đổi văn bản giấy sang dữ liệu điện tử rất khắt khe.",
+        "newRule": "[Căn cứ: Điều 12 Luật 20/2023/QH15] Thông điệp dữ liệu được chuyển đổi từ văn bản giấy phải đáp ứng điều kiện: Phản ánh đầy đủ nội dung của văn bản giấy; có ký hiệu riêng xác nhận đã được chuyển đổi từ văn bản giấy; và thông tin về người thực hiện chuyển đổi.",
+        "impactNote": "Kiểu Việt scan toàn bộ hồ sơ thiết kế kỹ thuật, bản vẽ thi công giấy cũ sang file PDF lưu trữ điện tử có đóng dấu 'Bản scan điện tử chuyển đổi từ bản gốc' hợp pháp."
       }
     ]
   },
   "luat-thue-xnk-107-2016": {
     "decreeId": "luat-thue-xnk-107-2016",
-    "title": "Luật Thuế Xuất khẩu, thuế nhập khẩu số 107/2016/QH13",
-    "category": "Thuế Xuất nhập khẩu",
-    "compareWith": "Luật Thuế Xuất khẩu, nhập khẩu số 45/2005/QH11",
-    "summary": "Quy chuẩn chính sách thuế quan Việt Nam hội nhập quốc tế: Miễn thuế nhập khẩu máy móc thiết bị tạo tài sản cố định cho dự án ưu đãi đầu tư, áp dụng phương pháp tính thuế hỗn hợp và các biện pháp phòng vệ thương mại.",
+    "title": "Luật Thuế XNK số 107/2016/QH13",
+    "category": "Luật Thuế Xuất khẩu, thuế Nhập khẩu",
+    "compareWith": "Luật Thuế XNK số 45/2005/QH11",
+    "summary": "Luật Thuế XNK 107/2016/QH13 quy định chính sách thuế hải quan: Miễn thuế nhập khẩu máy móc, thiết bị thi công tạo tài sản cố định cho dự án ưu đãi đầu tư và thủ tục hoàn thuế xuất nhập khẩu.",
     "items": [
       {
-        "topic": "Miễn thuế nhập khẩu đối với máy móc, thiết bị tạo tài sản cố định (TSCĐ)",
-        "type": "added",
-        "oldRule": "Chính sách miễn thuế nhập khẩu máy móc thiết bị ưu đãi đầu tư phải qua nhiều khâu thẩm định danh mục xét miễn thuế phức tạp.",
-        "newRule": "Miễn thuế nhập khẩu đối với hàng hóa nhập khẩu để tạo TSCĐ của đối tượng được hưởng ưu đãi đầu tư (máy móc, thiết bị thi công chuyên dùng trong nước chưa sản xuất được).",
-        "impactNote": "Kiểu Việt được miễn 100% thuế nhập khẩu khi nhập khẩu dàn máy xúc lật cỡ lớn, máy khoan hầm hiện đại từ Nhật Bản, Đức tạo TSCĐ công ty."
-      },
-      {
-        "topic": "Áp dụng phương pháp tính thuế hỗn hợp (Hỗn hợp % và thuế tuyệt đối)",
+        "topic": "Miễn thuế nhập khẩu máy móc, thiết bị nhập khẩu tạo Tài sản cố định (Điều 16)",
         "type": "modified",
-        "oldRule": "Chủ yếu áp dụng phương pháp tính thuế theo tỷ lệ phần trăm (%) trên trị giá hải quan.",
-        "newRule": "Bổ sung phương pháp tính thuế hỗn hợp: Kết hợp giữa tính thuế theo tỷ lệ % và áp dụng mức thuế tuyệt đối trên đơn vị hàng hóa nhập khẩu.",
-        "impactNote": "Kế toán Kiểu Việt nắm vững phương pháp tính thuế để kiểm tra chi phí hải quan khi nhập khẩu linh kiện, phụ tùng thay thế xe máy công trường."
+        "oldRule": "[Căn cứ: Luật 45/2005] Danh mục máy móc được miễn thuế nhập khẩu hạn chế, thủ tục thẩm định danh mục trong nước chưa sản xuất được rất rườm rà.",
+        "newRule": "[Căn cứ: Khoản 11 Điều 16 Luật 107/2016/QH13] Miễn thuế nhập khẩu đối với: Hàng hóa nhập khẩu để tạo tài sản cố định của đối tượng được hưởng ưu đãi đầu tư gồm máy móc, thiết bị; phương tiện vận tải chuyên dùng trong dây chuyền công nghệ trong nước chưa sản xuất được; vật tư xây dựng trong nước chưa sản xuất được.",
+        "impactNote": "Kiểu Việt được miễn 100% thuế nhập khẩu khi nhập khẩu máy khoan hầm, dây chuyền nghiền đá siêu mịn của Nhật Bản/Hàn Quốc tạo tài sản cố định cho dự án mỏ."
       },
       {
-        "topic": "Chính sách bảo lãnh tiền thuế hải quan qua hệ thống điện tử ngân hàng",
-        "type": "added",
-        "oldRule": "Phải nộp tiền mặt hoặc nộp séc trực tiếp tại kho bạc hải quan mới được thông quan hàng hóa.",
-        "newRule": "Doanh nghiệp có thư bảo lãnh nghĩa vụ nộp thuế của Ngân hàng thương mại được thông quan hàng hóa ngay lập tức và được ân hạn nộp thuế tối đa 30 ngày.",
-        "impactNote": "Kiểu Việt thông quan máy móc nhập khẩu nhanh chóng trong ngày, đưa ngay thiết bị ra công trường phục vụ thi công đúng tiến độ."
+        "topic": "Thời hạn nộp thuế đối với hàng hóa xuất khẩu, nhập khẩu (Phải nộp trước khi thông quan)",
+        "type": "modified",
+        "oldRule": "[Căn cứ: Luật 45/2005] Từng áp dụng thời hạn ân hạn nộp thuế 30 ngày hoặc 275 ngày đối với nguyên liệu sản xuất.",
+        "newRule": "[Căn cứ: Điều 9 Luật 107/2016/QH13] Hàng hóa xuất khẩu, nhập khẩu thuộc đối tượng chịu thuế phải nộp thuế trước khi thông quan hoặc giải phóng hàng hóa; trừ trường hợp được tổ chức tín dụng bảo lãnh nộp tiền thuế thì thời hạn nộp thuế theo thời hạn bảo lãnh (tối đa không quá 30 ngày).",
+        "impactNote": "Kế toán xuất nhập khẩu Kiểu Việt mở bảo lãnh nộp thuế tại ngân hàng thương mại để thông quan nhanh phụ tùng thay thế xe máy thi công mà không bị đọng hàng ở cảng."
       },
       {
-        "topic": "Các biện pháp phòng vệ thương mại (Thuế tự vệ, chống bán phá giá thép)",
+        "topic": "Thủ tục hoàn thuế xuất nhập khẩu đối với máy móc tạm nhập - tái xuất thi công dự án",
+        "type": "modified",
+        "oldRule": "[Căn cứ: Luật 45/2005] Thủ tục hoàn thuế tạm nhập tái xuất kéo dài qua nhiều cấp xét duyệt.",
+        "newRule": "[Căn cứ: Điều 19 Luật 107/2016/QH13] Hàng hóa là máy móc, thiết bị tạm nhập, tái xuất để phục vụ thi công công trình, dự án đầu tư được hoàn lại số thuế nhập khẩu đã nộp tương ứng với thời gian thực tế sử dụng tại Việt Nam khi tái xuất ra nước ngoài.",
+        "impactNote": "Khi Kiểu Việt thuê tạm nhập các thiết bị thi công đặc thù từ nước ngoài để thi công gói thầu dự án, khi xuất trả lại đối tác nước ngoài sẽ được hoàn thuế nhập khẩu tương ứng."
+      },
+      {
+        "topic": "Quy định áp dụng Biểu thuế xuất khẩu, Biểu thuế nhập khẩu ưu đãi đặc biệt (FTA)",
         "type": "added",
-        "oldRule": "Chưa có quy định luật định thống nhất về các loại thuế phòng vệ thương mại ngoài thuế nhập khẩu thông thường.",
-        "newRule": "Quy định cụ thể 3 loại thuế phòng vệ thương mại: Thuế chống bán phá giá, Thuế chống trợ cấp và Thuế tự vệ áp dụng đối với hàng hóa nhập khẩu ồ ạt cạnh tranh không lành mạnh.",
-        "impactNote": "Kiểu Việt theo dõi sát các quyết định áp thuế tự vệ đối với phôi thép, thép cuộn nhập khẩu để dự báo biến động giá sắt thép xây dựng trong nước."
+        "oldRule": "[Căn cứ: Luật 45/2005] Chỉ quy định Biểu thuế ưu đãi (MFN) thông thường.",
+        "newRule": "[Căn cứ: Điều 5 & Điều 11 Luật 107/2016/QH13] Áp dụng thuế suất ưu đãi đặc biệt (thường là 0%) đối với hàng hóa nhập khẩu có Giấy chứng nhận xuất xứ (C/O Mẫu D, E, AK, AJ, EVFTA...) từ các quốc gia ký Hiệp định thương mại tự do với Việt Nam.",
+        "impactNote": "Kiểu Việt yêu cầu nhà cung cấp nước ngoài cấp C/O form chuẩn để áp dụng thuế suất thuế nhập khẩu 0% cho các phụ tùng xe máy công trình nhập khẩu."
       }
     ]
   }

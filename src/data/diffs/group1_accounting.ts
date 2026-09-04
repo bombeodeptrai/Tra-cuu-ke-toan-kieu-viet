@@ -6,49 +6,56 @@ export const group1Accounting: Record<string, DecreeDiffData> = {
     "title": "Thông tư 99/2025/TT-BTC",
     "category": "Chế độ Kế toán Doanh nghiệp",
     "compareWith": "Thông tư 200/2014/TT-BTC",
-    "summary": "Thông tư 99/2025/TT-BTC hiện đại hóa căn bản hệ thống kế toán doanh nghiệp Việt Nam, bãi bỏ các tài khoản trung gian rườm rà, đo lường theo Giá trị hợp lý (Fair Value), tiệm cận chuẩn mực quốc tế IFRS và hỗ trợ chuyển đổi số toàn diện.",
+    "summary": "Thông tư 99/2025/TT-BTC cải cách căn bản chế độ kế toán doanh nghiệp Việt Nam: Tiệm cận IFRS, bãi bỏ các tài khoản trung gian rườm rà, đo lường theo Giá trị hợp lý (Fair Value), chuẩn hóa hạch toán số và số hóa 100% chứng từ kế toán.",
     "items": [
       {
         "topic": "Tập hợp chi phí thi công xây lắp & sản xuất (TK 154 thay thế 621, 622, 623, 627)",
         "type": "modified",
-        "oldRule": "Bắt buộc mở và theo dõi tách biệt 4 tài khoản chi phí: 621 (Chi phí NVL trực tiếp), 622 (Nhân công trực tiếp), 623 (Máy thi công), 627 (Sản xuất chung), cuối kỳ mới kết chuyển sang TK 154.",
-        "newRule": "Cho phép doanh nghiệp tinh giản, theo dõi trực tiếp chi phí xây lắp trên các tiểu khoản cấp 2, cấp 3 của TK 154 (1541-NVL, 1542-Nhân công, 1543-Máy thi công, 1547-Sản xuất chung) mà không cần qua tài khoản loại 6.",
-        "impactNote": "Kế toán Kiểu Việt giảm bớt hơn 40% bút toán kết chuyển trung gian cuối tháng, giá thành từng hạng mục công trình thi công được tổng hợp tức thời và minh bạch."
+        "oldRule": "[Căn cứ: Điều 86-90 TT 200/2014] Bắt buộc mở và theo dõi tách biệt 4 tài khoản chi phí: 621 (Chi phí NVL trực tiếp), 622 (Nhân công trực tiếp), 623 (Máy thi công), 627 (Sản xuất chung). Cuối tháng phải lập bút toán kết chuyển Nợ TK 154 / Có TK 621, 622, 623, 627.",
+        "newRule": "[Căn cứ: Điều 28-32 TT 99/2025] Cho phép doanh nghiệp tinh giản quy trình: Hạch toán trực tiếp chi phí xây lắp vào các tiểu khoản chi tiết của TK 154 (1541-NVL trực tiếp, 1542-Nhân công thi công, 1543-Máy thi công, 1547-Sản xuất chung). Định khoản trực tiếp: Nợ TK 154 / Có TK 112, 331, 334, 214.",
+        "impactNote": "Kế toán Kiểu Việt giảm bớt hơn 40% khối lượng chứng từ kết chuyển trung gian cuối tháng, giá thành từng hạng mục gói thầu công trình được cập nhật tức thời theo thời gian thực."
       },
       {
-        "topic": "Bãi bỏ các tài khoản giảm trừ doanh thu (TK 5211, 5212, 5213)",
+        "topic": "Bãi bỏ các tài khoản giảm trừ doanh thu (Xóa sổ TK 5211, 5212, 5213)",
         "type": "removed",
-        "oldRule": "Sử dụng TK 521 gồm các tài khoản chiết khấu thương mại (5211), giảm giá hàng bán (5212), hàng bán bị trả lại (5213) rồi cuối kỳ kết chuyển giảm trừ sang TK 511.",
-        "newRule": "Xóa bỏ toàn bộ các tài khoản 521x. Toàn bộ các khoản chiết khấu, giảm giá, bồi hoàn khối lượng nghiệm thu được hạch toán trực tiếp vào bên Nợ của TK 511 (Doanh thu bán hàng và cung cấp dịch vụ).",
-        "impactNote": "Báo cáo doanh thu thuần phản ánh tức thì giá trị thực nhận sau điều chỉnh A-B, không còn độ trễ kết chuyển doanh thu."
+        "oldRule": "[Căn cứ: Điều 81 TT 200/2014] Mở riêng TK 521 gồm các tiểu khoản: 5211 (Chiết khấu thương mại), 5212 (Giảm giá hàng bán), 5213 (Hàng bán bị trả lại). Cuối kỳ hạch toán kết chuyển giảm trừ sang TK 511: Nợ TK 511 / Có TK 521.",
+        "newRule": "[Căn cứ: Điều 45 TT 99/2025] Xóa bỏ hoàn toàn hệ thống tài khoản loại 521x. Toàn bộ các khoản chiết khấu thanh toán theo hợp đồng, giảm giá khối lượng nghiệm thu công trình được ghi trực tiếp vào bên Nợ của TK 511 (Nợ TK 511, Nợ TK 3331 / Có TK 131, 112).",
+        "impactNote": "Báo cáo doanh thu thuần phản ánh trực tiếp giá trị thực nhận sau điều chỉnh A-B, không còn độ trễ hạch toán kết chuyển doanh thu cuối quý."
       },
       {
-        "topic": "Xóa bỏ toàn bộ hệ thống tài khoản ngoài bảng (Loại 0)",
+        "topic": "Bãi bỏ toàn bộ hệ thống tài khoản ngoài bảng (Xóa sổ Tài khoản Loại 0)",
         "type": "removed",
-        "oldRule": "Duy trì bắt buộc tài khoản loại 0 (TK 001, 002, 004, 007...) để ghi đơn vật tư nhận giữ hộ, tài sản thuê ngoài, ngoại tệ.",
-        "newRule": "Bãi bỏ hoàn toàn việc ghi đơn trên tài khoản loại 0. Toàn bộ tài sản nhận giữ hộ, máy móc thuê ngoài công trình được quản lý chi tiết trên sổ kế toán nội bộ và thuyết minh trên Báo cáo tài chính.",
-        "impactNote": "Hệ thống phần mềm kế toán Kiểu Việt không còn xung đột giữa hạch toán kép và ghi đơn, bảo đảm tính toàn vẹn cơ sở dữ liệu."
+        "oldRule": "[Căn cứ: Điều 112 TT 200/2014] Bắt buộc duy trì các tài khoản ngoài bảng ghi đơn: TK 001 (Tài sản thuê ngoài), 002 (Vật tư giữ hộ, gia công), 004 (Nợ khó đòi đã xử lý xóa nợ), 007 (Ngoại tệ các loại).",
+        "newRule": "[Căn cứ: Điều 5 & Điều 18 TT 99/2025] Bãi bỏ hoàn toàn việc ghi đơn trên tài khoản loại 0. Mọi tài sản máy móc thiết bị thuê ngoài, vật tư nhận giữ hộ tại công trường được quản trị chi tiết trên Sổ theo dõi tài sản ngoại bảng điện tử và thuyết minh đầy đủ trên Thuyết minh BCTC (Mẫu B09-DN).",
+        "impactNote": "Phần mềm kế toán Kiểu Việt không còn xung đột kỹ thuật giữa hạch toán kép và hạch toán đơn, đảm bảo tính nhất quán dữ liệu kiểm toán."
       },
       {
-        "topic": "Đo lường tài sản và công nợ theo Giá trị hợp lý (Fair Value)",
+        "topic": "Áp dụng nguyên tắc Giá trị hợp lý (Fair Value) trong đo lường tài sản và công nợ",
         "type": "added",
-        "oldRule": "Chủ yếu hạch toán cứng nhắc theo nguyên tắc Giá gốc (Historical Cost), việc đánh giá lại tài sản chỉ thực hiện khi có quyết định cổ phần hóa hoặc định giá nhà nước.",
-        "newRule": "Quy định khung đo lường tài sản tài chính, công cụ nợ và công nợ dài hạn theo Giá trị hợp lý tại ngày lập BCTC nếu có thị trường hoạt động đáng tin cậy.",
-        "impactNote": "Tài sản máy móc và công cụ tài chính của Kiểu Việt được phản ánh sát giá thị trường, nâng cao năng lực hồ sơ đấu thầu khi tham gia các dự án xây dựng lớn."
+        "oldRule": "[Căn cứ: Điều 13 TT 200/2014] Hạch toán cứng nhắc theo nguyên tắc Giá gốc (Historical Cost). Việc đánh giá lại tài sản chỉ được thực hiện khi có quyết định cổ phần hóa hoặc định giá của cơ quan nhà nước có thẩm quyền.",
+        "newRule": "[Căn cứ: Điều 12 & Điều 24 TT 99/2025] Bổ sung khung pháp lý cho phép đo lường tài sản tài chính, công cụ nợ, bất động sản đầu tư theo Giá trị hợp lý tại ngày lập BCTC (nếu có thị trường niêm yết đáng tin cậy). Chênh lệch đánh giá lại được ghi nhận vào Doanh thu tài chính (TK 515) hoặc Chi phí tài chính (TK 635).",
+        "impactNote": "Tài sản máy móc chuyên dùng và các khoản đầu tư của Kiểu Việt được định giá sát với giá trị thị trường, nâng cao năng lực tài chính khi nộp hồ sơ dự thầu các dự án cao tốc trọng điểm."
       },
       {
-        "topic": "Tự chủ hoàn toàn mẫu biểu chứng từ và hệ thống sổ kế toán",
+        "topic": "Tự chủ hoàn toàn thiết kế mẫu biểu chứng từ và hệ thống sổ kế toán điện tử",
         "type": "modified",
-        "oldRule": "Các biểu mẫu chứng từ kế toán và sổ sách tuy là hướng dẫn nhưng các cơ quan thanh tra vẫn yêu cầu cứng nhắc theo mẫu biểu ban hành kèm Thông tư.",
-        "newRule": "Doanh nghiệp có toàn quyền tự thiết kế hệ thống chứng từ và sổ kế toán điện tử, chỉ cần bảo đảm tối thiểu 7 nội dung cơ bản theo Luật Kế toán.",
-        "impactNote": "Kiểu Việt tự do chuẩn hóa các Biên bản giao nhận vật tư công trường, Bảng xác định khối lượng hoàn thành Mẫu 03a tích hợp chữ ký số nội bộ."
+        "oldRule": "[Căn cứ: Điều 117-119 TT 200/2014] Danh mục chứng từ và sổ kế toán mang tính chất hướng dẫn nhưng khi quyết toán, đoàn thanh tra thuế thường yêu cầu mẫu biểu phải khớp tuyệt đối với biểu mẫu in sẵn kèm theo Thông tư.",
+        "newRule": "[Căn cứ: Điều 8 & Phụ lục II TT 99/2025] Doanh nghiệp có toàn quyền tự thiết kế hệ thống chứng từ và sổ kế toán điện tử phù hợp với đặc thù sản xuất kinh doanh, chỉ cần bảo đảm tối thiểu 7 nội dung bắt buộc theo Điều 16 Luật Kế toán 2015.",
+        "impactNote": "Kiểu Việt tự do số hóa Biên bản nghiệm thu công việc xây dựng, Phiếu xuất kho vật tư kiêm vận chuyển nội bộ và Bảng kê khối lượng hoàn thành Mẫu 03a có gắn chữ ký số HSM."
       },
       {
         "topic": "Cải cách toàn diện hệ thống Báo cáo tài chính (B01-DN, B02-DN, B03-DN, B09-DN)",
         "type": "modified",
-        "oldRule": "Mẫu BCTC theo TT 200 có nhiều chỉ tiêu trùng lặp và bản thuyết minh BCTC dài dòng, thiếu thông tin về dòng tiền thực tế.",
-        "newRule": "Ban hành mẫu Báo cáo tình hình tài chính, Báo cáo KQKD, Báo cáo LCTT và Thuyết minh BCTC tinh gọn, bổ sung chỉ tiêu phân tích rủi ro thanh khoản và biến động vốn lưu động.",
-        "impactNote": "Ban Giám đốc Kiểu Việt nắm bắt chính xác sức khỏe tài chính và cấu trúc dòng tiền thi công công trình của toàn công ty."
+        "oldRule": "[Căn cứ: Điều 100-111 TT 200/2014] Hệ thống BCTC gồm Bảng cân đối kế toán, Báo cáo KQKD, Báo cáo LCTT và Thuyết minh BCTC với nhiều chỉ tiêu trùng lặp, thiếu thông tin về rủi ro dòng tiền ngắn hạn.",
+        "newRule": "[Căn cứ: Điều 50-65 TT 99/2025] Đổi tên thành Báo cáo tình hình tài chính (Mẫu B01-DN). Bổ sung các chỉ tiêu phân tích dòng tiền thi công dở dang, thuyết minh chi tiết các khoản bảo lãnh ngân hàng thực hiện hợp đồng xây dựng và cam kết bảo hành công trình.",
+        "impactNote": "Ban Tổng Giám đốc Kiểu Việt kiểm soát chặt chẽ cơ cấu vốn lưu động, chỉ tiêu thanh toán nhanh và quản trị rủi ro nợ đọng vốn ngân sách."
+      },
+      {
+        "topic": "Xử lý chuyển đổi số dư tài khoản khi chuyển tiếp từ TT 200 sang TT 99",
+        "type": "added",
+        "oldRule": "[Căn cứ: Điều 127 TT 200/2014] Hướng dẫn chuyển đổi số dư từ Quyết định 15 sang TT 200 theo bảng đối chiếu chuyển tiếp cũ.",
+        "newRule": "[Căn cứ: Điều 70 TT 99/2025] Quy định chi tiết bảng chuyển đổi số dư: Số dư các tài khoản chi phí dở dang 621, 622, 623, 627 chuyển toàn bộ sang TK 154 tương ứng; số dư tài khoản loại 0 được tất toán và mở sổ theo dõi riêng; điều chỉnh số dư dự phòng nợ phải thu khó đòi theo phân loại mới.",
+        "impactNote": "Phòng Kế toán Kiểu Việt hoàn thành bảng đối chiếu chuyển đổi số dư tài khoản trước ngày 01/01/2026, đảm bảo tính liên tục của số liệu Báo cáo tài chính."
       }
     ]
   },
@@ -57,42 +64,42 @@ export const group1Accounting: Record<string, DecreeDiffData> = {
     "title": "Thông tư 200/2014/TT-BTC",
     "category": "Chế độ Kế toán Doanh nghiệp",
     "compareWith": "Quyết định 15/2006/QĐ-BTC",
-    "summary": "Cột mốc lịch sử trong quản trị tài chính doanh nghiệp, trao quyền tự chủ tối đa trong tổ chức công tác kế toán, thiết kế chứng từ, bãi bỏ quy định cứng nhắc và mở rộng ghi nhận doanh thu theo bản chất hơn hình thức.",
+    "summary": "Thông tư 200/2014/TT-BTC là bước chuyển lịch sử: Trao quyền chủ động tối đa cho doanh nghiệp, tôn trọng bản chất hơn hình thức, bãi bỏ các tài khoản trung gian như 142, hợp nhất tài khoản dự phòng và chuẩn hóa ghi nhận doanh thu xây lắp.",
     "items": [
       {
-        "topic": "Tính bắt buộc của mẫu biểu chứng từ kế toán",
-        "type": "modified",
-        "oldRule": "Doanh nghiệp phải áp dụng chuẩn xác 100% theo các mẫu chứng từ bắt buộc do Bộ Tài chính ban hành trong Quyết định 15.",
-        "newRule": "Toàn bộ mẫu chứng từ kế toán mang tính chất hướng dẫn. Doanh nghiệp được tự thiết kế mẫu phù hợp đặc thù sản xuất kinh doanh của mình.",
-        "impactNote": "Kiểu Việt chủ động thiết kế Phiếu xuất kho công trình và Phiếu nghiệm thu nội bộ gắn mã dự án riêng biệt."
+        "topic": "Bãi bỏ tài khoản Chi phí trả trước ngắn hạn (TK 142), hợp nhất vào TK 242",
+        "type": "removed",
+        "oldRule": "[Căn cứ: QĐ 15/2006] Phân tách thành 2 tài khoản riêng biệt: TK 142 (Chi phí trả trước ngắn hạn dưới 12 tháng) và TK 242 (Chi phí trả trước dài hạn trên 12 tháng). Kế toán phải định kỳ rà soát phân loại lại số dư.",
+        "newRule": "[Căn cứ: Điều 47 TT 200/2014] Xóa bỏ hoàn toàn TK 142. Mọi chi phí trả trước (tiền thuê đất, chi phí lán trại tạm, công cụ dụng cụ xuất dùng) được theo dõi chung trên TK 242 (Chi phí trả trước), cuối kỳ lập BCTC mới tách ngắn hạn / dài hạn.",
+        "impactNote": "Kế toán Kiểu Việt giảm 50% thời gian phân bổ chi phí lán trại, giàn giáo coppha công trình, tập trung theo dõi thời gian phân bổ thực tế."
       },
       {
-        "topic": "Hạch toán chênh lệch tỷ giá hối đoái (TK 413)",
+        "topic": "Hợp nhất các tài khoản Dự phòng vào TK 229 (Dự phòng tổn thất tài sản)",
         "type": "modified",
-        "oldRule": "Chênh lệch tỷ giá giai đoạn trước hoạt động được treo trên TK 413 rồi phân bổ dần vào chi phí tối đa 5 năm sau khi đi vào hoạt động.",
-        "newRule": "Bãi bỏ việc treo chênh lệch tỷ giá trước hoạt động. Toàn bộ chênh lệch tỷ giá phát sinh trong kỳ đều đưa ngay vào doanh thu tài chính (TK 515) hoặc chi phí tài chính (TK 635).",
-        "impactNote": "Báo cáo tài chính phản ánh trung thực kết quả kinh doanh từng kỳ, không còn rủi ro tồn đọng chi phí tỷ giá treo phân bổ."
+        "oldRule": "[Căn cứ: QĐ 15/2006] Sử dụng 4 tài khoản dự phòng riêng biệt: TK 129 (Dự phòng giảm giá chứng khoán), TK 139 (Dự phòng nợ khó đòi), TK 159 (Dự phòng giảm giá hàng tồn kho), TK 229 (Dự phòng tổn thất đầu tư tài chính dài hạn).",
+        "newRule": "[Căn cứ: Điều 45 TT 200/2014] Gom toàn bộ vào TK 229 gồm 4 tiểu khoản cấp 2: 2291 (Giảm giá đầu tư tài chính), 2292 (Tổn thất đầu tư vào đơn vị khác), 2293 (Nợ phải thu khó đòi), 2294 (Giảm giá hàng tồn kho).",
+        "impactNote": "Hệ thống tài khoản Kiểu Việt gọn gàng, trích lập dự phòng công nợ khách hàng nợ đọng công trình được quản lý tập trung trên TK 2293."
       },
       {
-        "topic": "Ghi nhận doanh thu bất động sản và công trình xây dựng",
-        "type": "modified",
-        "oldRule": "Cho phép ghi nhận doanh thu bất động sản theo tiến độ thu tiền của khách hàng khi đã ký hợp đồng mua bán.",
-        "newRule": "Chỉ được ghi nhận doanh thu khi đã bàn giao thực tế bất động sản cho người mua và chuyển giao phần lớn rủi ro, lợi ích gắn liền với quyền sở hữu.",
-        "impactNote": "Kế toán Kiểu Việt chỉ ghi nhận doanh thu khi có Biên bản bàn giao công trình đưa vào sử dụng có xác nhận của Chủ đầu tư (A-B)."
+        "topic": "Bãi bỏ việc theo dõi riêng Quỹ dự phòng tài chính (TK 415)",
+        "type": "removed",
+        "oldRule": "[Căn cứ: QĐ 15/2006] Bắt buộc trích lập Quỹ dự phòng tài chính (TK 415) từ lợi nhuận sau thuế theo tỷ lệ quy định.",
+        "newRule": "[Căn cứ: Điều 67 TT 200/2014] Bãi bỏ TK 415 do Luật Doanh nghiệp không còn bắt buộc trích lập quỹ này. Số dư quỹ dự phòng tài chính được kết chuyển toàn bộ sang Quỹ đầu tư phát triển (TK 414).",
+        "impactNote": "Kiểu Việt chuyển toàn bộ nguồn quỹ tài chính sang Quỹ đầu tư phát triển (TK 414) để bổ sung nguồn vốn mua sắm máy xúc, máy ủi và dây chuyền thi công."
       },
       {
-        "topic": "Xử lý chi phí khấu hao TSCĐ nhàn rỗi, ngừng hoạt động",
+        "topic": "Ghi nhận doanh thu xây dựng theo hợp đồng (Chuẩn hóa TK 337 và TK 511)",
         "type": "modified",
-        "oldRule": "Khấu hao TSCĐ nhàn rỗi hoặc ngừng hoạt động vì lý do mùa vụ được hạch toán vào Chi phí khác (TK 811).",
-        "newRule": "Toàn bộ chi phí khấu hao của TSCĐ tạm ngừng hoạt động do theo mùa vụ, sửa chữa định kỳ được hạch toán vào Chi phí quản lý doanh nghiệp (TK 642).",
-        "impactNote": "Chi phí khấu hao các máy móc thi công chờ điều chuyển công trường được hạch toán đúng tính chất chi phí quản lý vận hành."
+        "oldRule": "[Căn cứ: QĐ 15/2006] Doanh thu xây lắp thường chỉ được ghi nhận khi công trình đã bàn giao đưa vào sử dụng toàn bộ hoặc theo hóa đơn xuất ra.",
+        "newRule": "[Căn cứ: Điều 79 & Điều 59 TT 200/2014] Quy định rõ 2 phương pháp: Theo giá trị khối lượng thực hiện được nghiệm thu (hóa đơn) hoặc Theo tỷ lệ phần trăm công việc hoàn thành. Nếu nghiệm thu trước khi lập hóa đơn: Ghi nhận doanh thu qua TK 337 (Thanh toán theo tiến độ kế hoạch hợp đồng xây dựng).",
+        "impactNote": "Kiểu Việt phản ánh đúng doanh thu thi công trong kỳ, không bị cơ quan thuế xử phạt chậm xuất hóa đơn hoặc lệch doanh thu kế toán - thuế."
       },
       {
-        "topic": "Đổi mới phương pháp lập Báo cáo lưu chuyển tiền tệ (LCTT)",
-        "type": "modified",
-        "oldRule": "Phương pháp gián tiếp điều chỉnh từ lợi nhuận thuần sau thuế, dẫn đến các sai số lũy kế trong hạch toán thuế.",
-        "newRule": "Chuẩn hóa phương pháp lập Báo cáo LCTT gián tiếp bắt đầu từ Lợi nhuận kế toán trước thuế, loại trừ chính xác các khoản mục phi tiền tệ.",
-        "impactNote": "Dòng tiền thuần từ hoạt động kinh doanh của Kiểu Việt được kiểm soát chính xác phục vụ kế hoạch trả nợ vay ngân hàng."
+        "topic": "Nguyên tắc 'Bản chất quan trọng hơn hình thức' (Substance over Form)",
+        "type": "added",
+        "oldRule": "[Căn cứ: QĐ 15/2006] Hạch toán nặng về hình thức chứng từ giấy tờ, nếu thiếu chứng từ cứng nhắc thì không được ghi nhận dù nghiệp vụ kinh tế đã phát sinh thực tế.",
+        "newRule": "[Căn cứ: Điều 4 TT 200/2014] Quy định rõ nguyên tắc bản chất quan trọng hơn hình thức: Giao dịch phải được ghi nhận và trình bày phù hợp với bản chất kinh tế chứ không chỉ căn cứ vào hình thức pháp lý.",
+        "impactNote": "Bảo vệ Kiểu Việt trong các vụ việc tranh chấp chi phí xây dựng dở dang, nghiệm thu khối lượng thực tế tại công trường khi hồ sơ giấy tờ bị chậm trễ từ phía Chủ đầu tư."
       }
     ]
   },
@@ -101,153 +108,153 @@ export const group1Accounting: Record<string, DecreeDiffData> = {
     "title": "Thông tư 133/2016/TT-BTC",
     "category": "Kế toán Doanh nghiệp nhỏ và vừa",
     "compareWith": "Quyết định 48/2006/QĐ-BTC",
-    "summary": "Chế độ kế toán dành riêng cho Doanh nghiệp nhỏ và vừa (DNNVV), cắt giảm triệt để các thủ tục rườm rà, tinh giản tối đa hệ thống tài khoản và không bắt buộc nộp Báo cáo lưu chuyển tiền tệ.",
+    "summary": "Thông tư 133/2016/TT-BTC thay thế QĐ 48, áp dụng cho DNNVV: Bãi bỏ tài khoản chi phí loại 6 (621, 622, 623, 627), theo dõi giá thành trực tiếp trên TK 154, đơn giản hóa tối đa Báo cáo tài chính và không bắt buộc lập Báo cáo lưu chuyển tiền tệ.",
     "items": [
       {
-        "topic": "Đơn giản hóa hệ thống tài khoản tập hợp chi phí thi công",
-        "type": "modified",
-        "oldRule": "Vẫn duy trì các tài khoản chi phí 621, 622, 627 phức tạp tương tự doanh nghiệp quy mô lớn.",
-        "newRule": "Bãi bỏ hoàn toàn các tài khoản 621, 622, 623, 627. Toàn bộ chi phí sản xuất, thi công công trình tập hợp trực tiếp vào TK 154 (Chi phí SXKD dở dang).",
-        "impactNote": "Rất phù hợp cho các công ty liên kết, nhà thầu phụ quy mô vừa và nhỏ trong hệ sinh thái Kiểu Việt hạch toán nhanh gọn."
-      },
-      {
-        "topic": "Lập Báo cáo lưu chuyển tiền tệ (LCTT)",
+        "topic": "Bãi bỏ toàn bộ tài khoản chi phí sản xuất loại 6 (621, 622, 623, 627)",
         "type": "removed",
-        "oldRule": "Bắt buộc phải lập và nộp Báo cáo lưu chuyển tiền tệ cùng Bảng CĐKT và Báo cáo KQKD cho Cơ quan Thuế.",
-        "newRule": "Không bắt buộc lập Báo cáo LCTT nộp cho Cơ quan Thuế (chỉ khuyến khích lập phục vụ mục đích quản trị nội bộ doanh nghiệp).",
-        "impactNote": "Cắt giảm 50% áp lực lập BCTC niên độ cho các đơn vị trực thuộc quy mô nhỏ của Kiểu Việt."
+        "oldRule": "[Căn cứ: QĐ 48/2006] Vẫn quy định các tài khoản 621, 622, 623, 627 làm cho DNNVV phải thực hiện quá nhiều bút toán kết chuyển cuối kỳ.",
+        "newRule": "[Căn cứ: Điều 27 TT 133/2016] DNNVV không sử dụng tài khoản loại 6 để tập hợp chi phí sản xuất xây lắp. Toàn bộ chi phí NVL, nhân công, máy thi công được hạch toán trực tiếp vào TK 154 (Chi phí SXKD dở dang) qua các tiểu khoản: 1541, 1542, 1543, 1544.",
+        "impactNote": "Các công ty con, chi nhánh quy mô vừa và nhỏ thuộc hệ sinh thái Kiểu Việt áp dụng chế độ hạch toán tinh gọn, tiết kiệm 50% thời gian đóng sổ kế toán tháng."
       },
       {
-        "topic": "Trích lập dự phòng phải thu khó đòi theo ước tính tổn thất",
+        "topic": "Bãi bỏ tài khoản Chiết khấu thương mại (TK 521), ghi nhận trực tiếp vào TK 511",
+        "type": "removed",
+        "oldRule": "[Căn cứ: QĐ 48/2006] Mở riêng TK 521 để hạch toán giảm trừ doanh thu.",
+        "newRule": "[Căn cứ: Điều 56 TT 133/2016] Bãi bỏ TK 521. Mọi khoản chiết khấu thương mại, giảm giá hàng bán được ghi Nợ trực tiếp vào TK 511 (Nợ TK 511 / Có TK 131, 112).",
+        "impactNote": "Đơn giản hóa công tác kế toán tiêu thụ vật tư, giảm trừ khối lượng thi công."
+      },
+      {
+        "topic": "Báo cáo lưu chuyển tiền tệ là báo cáo không bắt buộc (Khuyến khích lập)",
         "type": "modified",
-        "oldRule": "Phải tuân thủ cứng nhắc theo các mốc thời gian quá hạn của Thông tư 228 (30%, 50%, 70%).",
-        "newRule": "Doanh nghiệp tự ước tính mức tổn thất có thể xảy ra của các khoản nợ phải thu chưa đến hạn hoặc quá hạn để trích lập dự phòng phù hợp.",
-        "impactNote": "Kiểu Việt có quyền tự đánh giá khả năng thanh toán của từng chủ đầu tư để chủ động trích lập dự phòng công nợ."
+        "oldRule": "[Căn cứ: QĐ 48/2006] Bắt buộc 100% doanh nghiệp nhỏ và vừa phải nộp Báo cáo lưu chuyển tiền tệ kèm theo Báo cáo tài chính năm.",
+        "newRule": "[Căn cứ: Điều 71 TT 133/2016] Báo cáo lưu chuyển tiền tệ (Mẫu B03-DNN) không bắt buộc trong hồ sơ BCTC nộp cơ quan thuế, chỉ mang tính khuyến khích quản trị.",
+        "impactNote": "Giảm áp lực lập báo cáo phức tạp cho các đơn vị trực thuộc Kiểu Việt khi quyết toán năm."
       },
       {
-        "topic": "Quyền lựa chọn áp dụng Chế độ Kế toán Doanh nghiệp (TT 200)",
+        "topic": "Linh hoạt lựa chọn áp dụng Chế độ kế toán TT 200 hoặc TT 133",
         "type": "added",
-        "oldRule": "DNNVV bắt buộc phải áp dụng Quyết định 48, muốn đổi phải làm văn bản xin phép Bộ Tài chính.",
-        "newRule": "DNNVV được quyền tự do lựa chọn áp dụng Chế độ KT Doanh nghiệp theo Thông tư 200 nhưng phải thông báo cho cơ quan thuế và nhất quán trong năm.",
-        "impactNote": "Kiểu Việt hoàn toàn chủ động áp dụng chế độ kế toán nâng cao để đáp ứng yêu cầu thẩm định hồ sơ năng lực dự án."
+        "oldRule": "[Căn cứ: QĐ 48/2006] Doanh nghiệp có quy mô nhỏ bắt buộc phải tuân theo QĐ 48, nếu muốn áp dụng QĐ 15 phải làm công văn xin phép bằng văn bản gửi cơ quan thuế.",
+        "newRule": "[Căn cứ: Điều 3 TT 133/2016] DNNVV được quyền tự do lựa chọn áp dụng TT 200/2014 nhưng phải thông báo cho cơ quan thuế quản lý trực tiếp và áp dụng nhất quán trong năm tài chính.",
+        "impactNote": "Công ty Cổ phần Kiểu Việt thống nhất áp dụng toàn diện Chế độ TT 200 (và chuyển tiếp sang TT 99) cho toàn công ty để đồng bộ số liệu đấu thầu xây dựng."
       },
       {
-        "topic": "Mẫu biểu BCTC dành cho doanh nghiệp siêu nhỏ",
-        "type": "added",
-        "oldRule": "Chưa có quy định riêng biệt cho doanh nghiệp siêu nhỏ, vẫn áp dụng biểu mẫu chung.",
-        "newRule": "Ban hành mẫu Báo cáo tình hình tài chính siêu đơn giản (Mẫu B01a-DNN và B01b-DNN) theo nguyên tắc tính thanh khoản giảm dần.",
-        "impactNote": "Giúp các tổ đội thi công hạch toán độc lập dễ dàng lập báo cáo phục vụ quyết toán nội bộ."
+        "topic": "Đơn giản hóa phương pháp trích lập dự phòng phải thu khó đòi",
+        "type": "modified",
+        "oldRule": "[Căn cứ: QĐ 48/2006] Yêu cầu hồ sơ chứng minh nợ khó đòi phức tạp như doanh nghiệp lớn (biên bản đối chiếu công nợ từng tháng, xác nhận của chính quyền địa phương).",
+        "newRule": "[Căn cứ: Điều 20 TT 133/2016] Cho phép doanh nghiệp căn cứ vào tuổi nợ quá hạn thực tế theo quy định của Bộ Tài chính để trích lập dự phòng mà không đòi hỏi thủ tục xác minh quá rườm rà.",
+        "impactNote": "Bảo đảm trích lập chi phí dự phòng hợp lý khi tính thuế TNDN cho các khoản công nợ tồn đọng."
       }
     ]
   },
   "tt-46-2025": {
     "decreeId": "tt-46-2025",
     "title": "Thông tư 46/2025/TT-BTC",
-    "category": "Kế toán DNNVV (Sửa đổi)",
+    "category": "Sửa đổi Kế toán Doanh nghiệp nhỏ và vừa",
     "compareWith": "Thông tư 133/2016/TT-BTC",
-    "summary": "Sửa đổi, bổ sung Chế độ kế toán doanh nghiệp nhỏ và vừa: Đồng bộ hóa với giao dịch số, hóa đơn điện tử, chuẩn mực kế toán đám mây và quy định kê khai thuế trực tuyến.",
+    "summary": "Thông tư 46/2025/TT-BTC sửa đổi, bổ sung Thông tư 133: Cập nhật quy định chữ ký số trên chứng từ kế toán, hướng dẫn lưu trữ điện tử và đồng bộ chuẩn dữ liệu báo cáo tài chính với cổng dịch vụ công thuế quốc gia.",
     "items": [
       {
-        "topic": "Công nhận 100% tính pháp lý của chứng từ số và lưu trữ đám mây",
+        "topic": "Quy chuẩn hóa chữ ký điện tử trên chứng từ kế toán số của DNNVV",
         "type": "added",
-        "oldRule": "Ưu tiên in và lưu trữ sổ sách, chứng từ kế toán giấy đóng tập có đóng dấu giáp lai theo năm tài chính.",
-        "newRule": "Công nhận giá trị pháp lý đầy đủ của chứng từ điện tử, chữ ký số phân quyền và dữ liệu sổ kế toán lưu trữ trên nền tảng đám mây đạt chuẩn an toàn thông tin.",
-        "impactNote": "Kiểu Việt hoàn toàn có thể loại bỏ việc in ấn hàng ngàn trang sổ chi tiết, chuyển sang lưu trữ số an toàn và tiết kiệm 80% chi phí kho bãi."
+        "oldRule": "[Căn cứ: Điều 7 TT 133/2016] Chỉ quy định chung về chứng từ điện tử theo Luật Kế toán, chưa có hướng dẫn kỹ thuật chi tiết về chữ ký số từ xa (Remote Signing) và mã xác thực OTP.",
+        "newRule": "[Căn cứ: Điều 1 Thông tư 46/2025] Quy định rõ chứng từ kế toán điện tử được ký bằng chữ ký số hợp chuẩn (token USB hoặc ký số đám mây HSM) của người đại diện theo pháp luật và kế toán trưởng có giá trị pháp lý tương đương chữ ký tươi.",
+        "impactNote": "Kiểu Việt triển khai hệ thống ký số điện tử trên thiết bị di động cho các Chỉ huy trưởng công trường ký phê duyệt chứng từ vật tư từ xa."
       },
       {
-        "topic": "Đồng bộ hạch toán hóa đơn điện tử khởi tạo từ máy tính tiền",
+        "topic": "Đồng bộ định dạng tệp báo cáo tài chính điện tử theo chuẩn XML/JSON",
+        "type": "modified",
+        "oldRule": "[Căn cứ: Phụ lục III TT 133/2016] Cho phép nộp BCTC bằng file PDF scan hoặc bảng tính Excel qua mạng.",
+        "newRule": "[Căn cứ: Điều 3 Thông tư 46/2025] Bắt buộc nộp BCTC theo định dạng cấu trúc dữ liệu XML/JSON tích hợp mã vạch hai chiều, kết nối trực tiếp với Cơ sở dữ liệu quốc gia về Đăng ký kinh doanh và Cổng Thuế điện tử.",
+        "impactNote": "Phần mềm kế toán Kiểu Việt trích xuất tự động file XML chuẩn dữ liệu, loại bỏ 100% lỗi sai định dạng khi nộp báo cáo cho Cục Thuế."
+      },
+      {
+        "topic": "Quy định thời hạn lưu trữ chứng từ kế toán số hóa trên nền tảng đám mây",
         "type": "added",
-        "oldRule": "Chưa có hướng dẫn cụ thể về việc ghi nhận doanh thu từ hóa đơn khởi tạo từ máy tính tiền kết nối dữ liệu thuế.",
-        "newRule": "Quy định quy trình đối soát dữ liệu bán hàng tự động hàng ngày giữa máy tính tiền với phần mềm kế toán và Cổng thông tin Tổng cục Thuế.",
-        "impactNote": "Bảo đảm doanh thu bán lẻ vật tư, dịch vụ sửa chữa của Kiểu Việt được khớp đúng 100% với dữ liệu thuế điện tử."
+        "oldRule": "[Căn cứ: Điều 11 TT 133/2016] Chỉ quy định chung về thời hạn lưu trữ 5 năm và 10 năm theo tài liệu giấy.",
+        "newRule": "[Căn cứ: Điều 2 Thông tư 46/2025] Cho phép doanh nghiệp lưu trữ tài liệu kế toán điện tử trên dịch vụ lưu trữ đám mây (Cloud Storage) tại Việt Nam với điều kiện bảo đảm tính toàn vẹn, chống truy cập trái phép và khả năng tra cứu trong 10 năm.",
+        "impactNote": "Kiểu Việt tiết kiệm hàng trăm triệu đồng chi phí kho lưu trữ hồ sơ công trình bằng cách số hóa toàn bộ chứng từ thanh toán."
       },
       {
-        "topic": "Tiêu chí linh hoạt phân loại quy mô doanh nghiệp",
+        "topic": "Xử lý hóa đơn điều chỉnh và hóa đơn thay thế trong hạch toán kế toán DNNVV",
         "type": "modified",
-        "oldRule": "Căn cứ cứng nhắc theo mức vốn điều lệ đăng ký trên Giấy phép kinh doanh và số lao động đóng BHXH.",
-        "newRule": "Cập nhật tiêu chí đánh giá linh hoạt theo Doanh thu bán hàng năm trước và Tổng tài sản bình quân, tạo hành lang thuận lợi khi mở rộng quy mô.",
-        "impactNote": "Giúp ban điều hành Kiểu Việt chuẩn bị lộ trình chuyển đổi từ chuẩn kế toán DNNVV sang chuẩn doanh nghiệp lớn đúng thời điểm."
-      },
-      {
-        "topic": "Quy trình chuyển đổi số liệu kế toán giữa hai niên độ",
-        "type": "modified",
-        "oldRule": "Việc chuyển đổi sổ kế toán cuối năm phải khóa sổ thủ công và in biên bản bàn giao số dư đầu kỳ.",
-        "newRule": "Cho phép hệ thống phần mềm kế toán tự động kết chuyển số dư và tự động tạo mã hash kiểm tra tính toàn vẹn của dữ liệu kỳ trước.",
-        "impactNote": "Khóa sổ cuối năm tại Kiểu Việt diễn ra chỉ trong vài giây, loại bỏ hoàn toàn nguy cơ sai lệch số dư chuyển tiếp."
+        "oldRule": "[Căn cứ: Điều 15 TT 133/2016] Chưa có quy định tương thích với quy trình xử lý hóa đơn điện tử sai sót theo Nghị định 123/2020 và Thông tư 78/2021.",
+        "newRule": "[Căn cứ: Điều 4 Thông tư 46/2025] Hướng dẫn chi tiết: Khi nhận hóa đơn điều chỉnh hoặc hóa đơn thay thế, kế toán hạch toán bổ sung hoặc ghi âm trực tiếp vào kỳ phát sinh hóa đơn điều chỉnh mà không hồi tố sổ sách kỳ trước nếu không trọng yếu.",
+        "impactNote": "Quy trình xử lý hóa đơn vật tư xây dựng sai sót của Kiểu Việt trở nên thông suốt, tránh sai lệch sổ sách thuế."
       }
     ]
   },
   "tt-24-2024-tt-btc": {
     "decreeId": "tt-24-2024-tt-btc",
     "title": "Thông tư 24/2024/TT-BTC",
-    "category": "Kế toán HCSN & Dự án",
+    "category": "Chế độ Kế toán Hành chính sự nghiệp",
     "compareWith": "Thông tư 107/2017/TT-BTC",
-    "summary": "Hướng dẫn chế độ kế toán hành chính sự nghiệp mới từ 01/01/2025, chuẩn hóa tài khoản theo dõi nguồn vốn đầu tư công, giải ngân vốn xây dựng cơ bản và đối soát kho bạc nhà nước.",
+    "summary": "Thông tư 24/2024/TT-BTC (áp dụng từ 01/01/2025) thay thế TT 107/2017: Cải cách chế độ kế toán cho các đơn vị HCSN và Ban Quản lý dự án đầu tư công, đồng bộ hệ thống tài khoản nguồn vốn đầu tư XDCB và thủ tục quyết toán vốn ngân sách.",
     "items": [
       {
-        "topic": "Phương pháp hạch toán nguồn vốn giải ngân xây dựng cơ bản",
+        "topic": "Tái cấu trúc hệ thống tài khoản theo dõi vốn đầu tư XDCB (Ban QLDA)",
         "type": "modified",
-        "oldRule": "Sử dụng TK 337 và 241 với các bút toán tạm ứng nguồn vốn ngân sách nhà nước phức tạp.",
-        "newRule": "Chuẩn hóa quy trình ghi nhận công nợ và giải ngân qua Kho bạc theo phương thức thực chi và tạm ứng hợp đồng dự án.",
-        "impactNote": "Giúp Kiểu Việt đối chiếu hồ sơ thanh toán khối lượng xây lắp A-B với các Ban Quản lý Dự án (Chủ đầu tư vốn nhà nước) chuẩn xác."
+        "oldRule": "[Căn cứ: TT 107/2017/TT-BTC] Hệ thống tài khoản nguồn vốn đầu tư XDCB phức tạp, tách rời giữa kế toán đơn vị chủ đầu tư và đơn vị sự nghiệp có thu.",
+        "newRule": "[Căn cứ: Điều 15 & Phụ lục I TT 24/2024/TT-BTC] Cập nhật danh mục tài khoản chuyên dụng theo dõi nguồn vốn ngân sách cấp cho dự án đầu tư công, phân định rõ vốn tạm ứng hợp đồng và vốn thanh toán khối lượng hoàn thành.",
+        "impactNote": "Kiểu Việt nắm bắt chính xác quy trình hạch toán giải ngân của các Ban Quản lý dự án (Chủ đầu tư) để lập hồ sơ nghiệm thu thanh toán giải ngân vốn công nhanh chóng."
       },
       {
-        "topic": "Chứng từ kế toán điện tử giao dịch với Kho bạc Nhà nước",
+        "topic": "Bắt buộc chuyển đổi số và lập chứng từ kế toán điện tử tại Ban QLDA công",
         "type": "added",
-        "oldRule": "Hồ sơ thanh toán vốn đầu tư công phải in và nộp chứng từ giấy có dấu đỏ trực tiếp tại quầy Kho bạc.",
-        "newRule": "100% hồ sơ nghiệm thu, ủy nhiệm chi và bảng xác định khối lượng hoàn thành Mẫu 03a được ký số và gửi qua Cổng Dịch vụ công Kho bạc.",
-        "impactNote": "Rút ngắn thời gian giải ngân thu hồi công nợ các gói thầu thi công hạ tầng của Kiểu Việt từ hàng tuần xuống 24 - 48 giờ."
+        "oldRule": "[Căn cứ: Điều 5 TT 107/2017] Vẫn ưu tiên luân chuyển hồ sơ chứng từ giấy qua nhiều khâu ký duyệt thủ công của Ban QLDA và Kho bạc.",
+        "newRule": "[Căn cứ: Điều 7 TT 24/2024/TT-BTC] 100% hồ sơ tạm ứng, thanh toán khối lượng hoàn thành công trình công được số hóa, gửi qua Cổng Dịch vụ công trực tuyến của Kho bạc Nhà nước.",
+        "impactNote": "Rút ngắn thời gian Chủ đầu tư chuyển tiền thanh toán từ Kho bạc về tài khoản Kiểu Việt từ 10 ngày xuống còn 2-3 ngày làm việc."
       },
       {
-        "topic": "Xử lý khoản chi phí tư vấn và quản lý dự án chưa quyết toán",
+        "topic": "Chuẩn hóa quy trình đối chiếu số liệu giải ngân vốn đầu tư công hàng tháng",
         "type": "modified",
-        "oldRule": "Theo dõi dồn tích kéo dài, khó bóc tách chi phí quản lý dự án khi bàn giao từng giai đoạn công trình.",
-        "newRule": "Quy định nguyên tắc phân bổ chi phí tư vấn, thẩm tra và quản lý dự án theo tỷ lệ tương ứng giá trị khối lượng nghiệm thu bàn giao.",
-        "impactNote": "Kiểu Việt có cơ sở pháp lý để yêu cầu Ban QLDA thanh toán dứt điểm chi phí xây lắp theo từng giai đoạn nghiệm thu."
+        "oldRule": "[Căn cứ: Điều 22 TT 107/2017] Đối chiếu số liệu vốn cấp theo quý, dẫn đến chênh lệch kéo dài giữa số liệu của nhà thầu xây lắp và Kho bạc.",
+        "newRule": "[Căn cứ: Điều 18 TT 24/2024/TT-BTC] Định kỳ hàng tháng, Ban QLDA và nhà thầu phải thực hiện đối chiếu xác nhận số dư vốn tạm ứng và khối lượng hoàn thành lũy kế trên hệ thống dịch vụ công Kho bạc.",
+        "impactNote": "Kế toán Kiểu Việt chủ động kiểm soát số dư tạm ứng hợp đồng, tránh bị phạt chậm hoàn ứng theo quy định quản lý ngân sách nhà nước."
       },
       {
-        "topic": "Hệ thống tài khoản tài sản công và máy móc thiết bị dự án",
+        "topic": "Quy định khấu hao và hao mòn tài sản kết cấu hạ tầng công trình",
         "type": "modified",
-        "oldRule": "Tài sản dự án và tài sản đơn vị sự nghiệp theo dõi chung trên nhóm tài khoản 211 thiếu phân định nguồn vốn.",
-        "newRule": "Tách bạch tài sản cố định hình thành từ nguồn vốn ngân sách nhà nước với tài sản của nhà thầu thi công tại hiện trường.",
-        "impactNote": "Tránh rủi ro tranh chấp sở hữu máy móc thiết bị thi công của Kiểu Việt đưa vào công trường dự án đầu tư công."
+        "oldRule": "[Căn cứ: Điều 14 TT 107/2017] Tài sản công trình hạ tầng bàn giao cho Ban QLDA quản lý tính hao mòn theo phương pháp thủ công cuối năm.",
+        "newRule": "[Căn cứ: Điều 12 TT 24/2024/TT-BTC] Quy định chi tiết tỷ lệ tính hao mòn hàng năm đối với từng nhóm công trình cầu, đường bộ, hạ tầng kỹ thuật theo thời gian sử dụng hữu ích chuẩn.",
+        "impactNote": "Hỗ trợ Kiểu Việt lập hồ sơ bàn giao tài sản công trình hoàn thành cho cơ quan quản lý nhà nước đúng quy chuẩn kỹ thuật và giá trị tài sản."
       }
     ]
   },
   "tt-108-2025": {
     "decreeId": "tt-108-2025",
     "title": "Thông tư 108/2025/TT-BTC",
-    "category": "Báo cáo tài chính hợp nhất",
-    "compareWith": "Thông tư 202/2014/TT-BTC",
-    "summary": "Hướng dẫn lập và trình bày Báo cáo tài chính hợp nhất theo chuẩn mực quốc tế IFRS 10, loại trừ triệt để giao dịch nội bộ và xác định chính xác lợi ích cổ đông không kiểm soát (NCI).",
+    "category": "Báo cáo tài chính cơ quan nhà nước",
+    "compareWith": "Thông tư 99/2018/TT-BTC",
+    "summary": "Thông tư 108/2025/TT-BTC hướng dẫn lập Báo cáo tài chính tổng hợp của các cơ quan quản lý nhà nước cấp trên và Chủ đầu tư dự án: Thẩm tra chặt chẽ số liệu giải ngân vốn đầu tư công và công nợ nhà thầu xây dựng.",
     "items": [
       {
-        "topic": "Xác định quyền kiểm soát công ty con (Control Assessment)",
+        "topic": "Tổng hợp số liệu vốn đầu tư công và công nợ tạm ứng nhà thầu xây lắp",
         "type": "modified",
-        "oldRule": "Căn cứ chủ yếu vào tỷ lệ quyền biểu quyết trực tiếp trên 50% vốn điều lệ của công ty con.",
-        "newRule": "Đánh giá quyền kiểm soát dựa trên 3 yếu tố cốt lõi: Quyền lực đối với bên nhận đầu tư, khả năng tiếp cận lợi nhuận biến đổi và khả năng sử dụng quyền lực để tác động đến lợi nhuận.",
-        "impactNote": "Kiểu Việt đánh giá chuẩn xác quyền chi phối đối với các đơn vị liên doanh, liên kết thi công để hợp nhất BCTC."
+        "oldRule": "[Căn cứ: TT 99/2018/TT-BTC] Báo cáo tài chính tổng hợp chỉ phản ánh số liệu tài chính chung của cơ quan hành chính, thiếu chi tiết về công nợ xây dựng cơ bản.",
+        "newRule": "[Căn cứ: Điều 8 TT 108/2025/TT-BTC] Bắt buộc tách bạch chỉ tiêu: Vốn đầu tư xây dựng cơ bản dở dang, số tiền tạm ứng cho nhà thầu quá hạn chưa thu hồi và các khoản nợ đọng xây dựng cơ bản.",
+        "impactNote": "Chủ đầu tư bắt buộc phải giải ngân và thu hồi tạm ứng đúng hạn theo hợp đồng, giảm thiểu rủi ro bị chiếm dụng vốn hoặc chậm thanh toán cho Kiểu Việt."
       },
       {
-        "topic": "Loại trừ giao dịch nội bộ và lãi chưa thực hiện (Unrealized Profit)",
+        "topic": "Ứng dụng hệ thống cơ sở dữ liệu Báo cáo tài chính nhà nước thống nhất",
+        "type": "added",
+        "oldRule": "[Căn cứ: TT 99/2018/TT-BTC] Báo cáo tổng hợp nộp bằng phương thức thủ công hoặc gửi file qua email nội bộ giữa các cấp ngân sách.",
+        "newRule": "[Căn cứ: Điều 14 TT 108/2025/TT-BTC] Dữ liệu BCTC được đẩy trực tiếp lên Hệ thống Thông tin quản lý Ngân sách và Kho bạc (TABMIS) nâng cấp, minh bạch hóa toàn bộ tiến độ giải ngân từng dự án.",
+        "impactNote": "Kiểu Việt có thể theo dõi tiến độ bố trí vốn đầu tư công của các dự án đang thi công thông qua thông tin công khai của Kho bạc."
+      },
+      {
+        "topic": "Xử lý chênh lệch số liệu kiểm toán độc lập và số liệu quyết toán vốn công",
         "type": "modified",
-        "oldRule": "Phương pháp loại trừ số dư nợ phải thu, phải trả và lãi nội bộ phân bổ thủ công theo tỷ lệ sở hữu.",
-        "newRule": "Loại trừ 100% lãi chưa thực hiện phát sinh từ các giao dịch bán vật tư, điều chuyển máy móc nội bộ giữa công ty mẹ và công ty con.",
-        "impactNote": "Bảo đảm Báo cáo tài chính hợp nhất của Tập đoàn Kiểu Việt không bị thổi phồng doanh thu hay lợi nhuận ảo."
+        "oldRule": "[Căn cứ: TT 99/2018/TT-BTC] Khi có kết luận Kiểm toán Nhà nước, thủ tục điều chỉnh sổ sách kéo dài qua nhiều kỳ kế toán.",
+        "newRule": "[Căn cứ: Điều 20 TT 108/2025/TT-BTC] Trong vòng 30 ngày kể từ ngày nhận kết luận Kiểm toán Nhà nước, Chủ đầu tư phải thực hiện điều chỉnh số liệu trên BCTC tổng hợp và thông báo cho nhà thầu điều chỉnh hóa đơn giá trị gia tăng tương ứng.",
+        "impactNote": "Kế toán Kiểu Việt kịp thời xuất hóa đơn điều chỉnh khối lượng theo kết luận kiểm toán, không bị phạt vi phạm hành chính về thuế."
       },
       {
-        "topic": "Đo lường Lợi ích cổ đông không kiểm soát (NCI)",
+        "topic": "Minh bạch hóa các khoản bảo lãnh bảo hành công trình xây dựng",
         "type": "added",
-        "oldRule": "NCI chỉ được đo lường duy nhất theo tỷ lệ giá trị tài sản thuần của bên bị mua tại ngày mua.",
-        "newRule": "Cho phép lựa chọn đo lường NCI theo Giá trị hợp lý (Fair Value Method) hoặc theo Tỷ lệ phần trăm tài sản thuần tương ứng.",
-        "impactNote": "Phản ánh giá trị thặng dư tài sản và thương hiệu của các công ty thành viên Kiểu Việt trung thực hơn."
-      },
-      {
-        "topic": "Thuyết minh chi tiết các bên liên quan và cam kết bảo lãnh",
-        "type": "added",
-        "oldRule": "Thuyết minh nghĩa vụ nợ chung chung, ít giải trình các khoản bảo lãnh tín dụng ngân hàng giữa các công ty con.",
-        "newRule": "Bắt buộc thuyết minh chi tiết giá trị bảo lãnh thực hiện hợp đồng, bảo lãnh thanh toán công nợ và cam kết tài chính chéo trong tập đoàn.",
-        "impactNote": "Tăng cường tính minh bạch tín dụng của Kiểu Việt trước các đối tác tài chính và ngân hàng thương mại."
+        "oldRule": "[Căn cứ: TT 99/2018/TT-BTC] Tiền bảo hành công trình giữ lại (5%) chỉ được theo dõi ngoại bảng đơn giản.",
+        "newRule": "[Căn cứ: Điều 11 TT 108/2025/TT-BTC] Quy định hạch toán và theo dõi riêng biệt nghĩa vụ hoàn trả tiền bảo hành công trình hoặc giải tỏa thư bảo lãnh ngân hàng cho nhà thầu sau khi hết thời hạn bảo hành.",
+        "impactNote": "Kiểu Việt thu hồi đúng hạn 5% tiền bảo hành công trình hoặc giải tỏa hạn mức bảo lãnh tại ngân hàng BIDV, Vietinbank."
       }
     ]
   },
@@ -256,190 +263,190 @@ export const group1Accounting: Record<string, DecreeDiffData> = {
     "title": "Luật Kế toán số 88/2015/QH13",
     "category": "Luật Kế toán",
     "compareWith": "Luật Kế toán số 03/2003/QH11",
-    "summary": "Xương sống pháp lý cao nhất điều chỉnh toàn bộ công tác kế toán Việt Nam, lần đầu tiên đưa nguyên tắc Giá trị hợp lý vào luật, bắt buộc kiểm soát nội bộ và quy định chế tài nghiêm ngặt đối với gian lận sổ sách.",
+    "summary": "Đạo luật nền tảng của hệ thống kế toán Việt Nam: Bổ sung nguyên tắc Giá trị hợp lý, quy định chặt chẽ về chứng từ điện tử, tiêu chuẩn Kế toán trưởng và trách nhiệm pháp lý cá nhân của người làm kế toán.",
     "items": [
       {
-        "topic": "Áp dụng nguyên tắc Giá trị hợp lý (Fair Value) trong đo lường tài sản",
+        "topic": "Bổ sung nguyên tắc Giá trị hợp lý (Fair Value) vào hệ thống pháp luật kế toán",
         "type": "added",
-        "oldRule": "Chỉ quy định duy nhất nguyên tắc Giá gốc (Historical Cost) trong việc tính toán và ghi nhận tài sản, nợ phải trả.",
-        "newRule": "Bổ sung nguyên tắc đo lường theo Giá trị hợp lý đối với tài sản và nợ phải trả có giá trị biến động thường xuyên theo giá thị trường.",
-        "impactNote": "Kiểu Việt có cơ sở pháp lý để định giá lại máy móc thiết bị thi công theo đúng giá trị thị trường thực tế khi cần huy động vốn."
+        "oldRule": "[Căn cứ: Điều 6 Luật Kế toán 2003] Chỉ thừa nhận duy nhất nguyên tắc Giá gốc (Historical Cost) trong việc tính toán giá trị tài sản và công nợ.",
+        "newRule": "[Căn cứ: Điều 6 Luật Kế toán 2015] Quy định: Giá trị tài sản và nợ phải trả được ghi nhận ban đầu theo giá gốc. Sau đó, đối với một số loại tài sản và nợ phải trả mà giá trị biến động theo thị trường thì được đánh giá lại theo Giá trị hợp lý.",
+        "impactNote": "Mở đường cho các doanh nghiệp xây dựng lớn như Kiểu Việt đánh giá lại tài sản máy móc thiết bị thi công theo giá trị thị trường phục vụ định giá doanh nghiệp."
       },
       {
-        "topic": "Quy định bắt buộc về Kiểm soát nội bộ và Kiểm toán nội bộ",
+        "topic": "Công nhận giá trị pháp lý đầy đủ của Chứng từ kế toán điện tử",
         "type": "added",
-        "oldRule": "Luật Kế toán 2003 chưa quy định nghĩa vụ của doanh nghiệp trong việc thiết lập hệ thống kiểm soát nội bộ.",
-        "newRule": "Doanh nghiệp có nghĩa vụ thiết lập, duy trì hệ thống kiểm soát nội bộ để bảo đảm tài sản được bảo vệ và số liệu kế toán trung thực.",
-        "impactNote": "Ban Giám đốc Kiểu Việt thành lập ban kiểm soát nội bộ độc lập để giám sát định mức tiêu hao vật tư tại các công trường thi công."
+        "oldRule": "[Căn cứ: Điều 17 Luật Kế toán 2003] Chứng từ điện tử chỉ được coi là bản sao của chứng từ giấy, khi thanh tra quyết toán vẫn bắt buộc phải in ra giấy và đóng dấu tươi.",
+        "newRule": "[Căn cứ: Điều 17 & Điều 18 Luật Kế toán 2015] Chứng từ điện tử có giá trị như chứng từ bằng giấy khi có chữ ký điện tử hợp pháp và bảo đảm an toàn dữ liệu số trong suốt thời gian lưu trữ.",
+        "impactNote": "Kiểu Việt số hóa 100% quy trình ký hóa đơn điện tử, ủy nhiệm chi ngân hàng điện tử và hợp đồng xây dựng mà không cần in giấy lưu kho."
       },
       {
-        "topic": "Thời hạn lưu trữ tài liệu kế toán doanh nghiệp",
+        "topic": "Nâng cao tiêu chuẩn và điều kiện hành nghề Kế toán trưởng doanh nghiệp",
         "type": "modified",
-        "oldRule": "Quy định chung chung về thời hạn lưu trữ tài liệu chứng từ kế toán mà không phân loại rõ ràng mức độ quan trọng.",
-        "newRule": "Phân loại 3 cấp độ thời hạn lưu trữ: Tối thiểu 5 năm (chứng từ không dùng trực tiếp ghi sổ), tối thiểu 10 năm (sổ sách, BCTC), và lưu trữ vĩnh viễn (tài liệu quốc phòng, an ninh, lịch sử).",
-        "impactNote": "Kiểu Việt áp dụng quy chế tiêu hủy chứng từ kế toán quá 5 năm và phân loại lưu trữ BCTC tối thiểu 10 năm theo đúng luật."
+        "oldRule": "[Căn cứ: Điều 53 Luật Kế toán 2003] Tiêu chuẩn Kế toán trưởng đơn giản, chỉ cần chứng chỉ bồi dưỡng kế toán trưởng chung.",
+        "newRule": "[Căn cứ: Điều 54 Luật Kế toán 2015] Kế toán trưởng phải có phẩm chất đạo đức nghề nghiệp, bằng cử nhân chuyên ngành, chứng chỉ Kế toán trưởng và có thời gian công tác thực tế về kế toán ít nhất 02 năm (đối với đại học) hoặc 03 năm (đối với cao đẳng).",
+        "impactNote": "Nhân sự Kế toán trưởng Kiểu Việt được chuẩn hóa bằng cấp và cập nhật kiến thức kế toán định kỳ theo quy định của Bộ Tài chính."
       },
       {
-        "topic": "Các hành vi bị nghiêm cấm tuyệt đối trong kế toán",
+        "topic": "Quy định cấm kiêm nhiệm và các hành vi bị nghiêm cấm trong công tác kế toán",
         "type": "modified",
-        "oldRule": "Chưa quy định chi tiết chế tài đối với việc lập hai hệ thống sổ sách hoặc để ngoài sổ kế toán.",
-        "newRule": "Nghiêm cấm tuyệt đối: Lập hai hệ thống sổ kế toán tài chính trở lên; để ngoài sổ kế toán tài sản, nợ phải trả; giả mạo, khai man chứng từ kế toán.",
-        "impactNote": "Cảnh báo pháp lý tối thượng: Toàn bộ dữ liệu doanh thu, chi phí của Kiểu Việt phải được quản lý trên duy nhất một hệ thống kế toán chính thức."
+        "oldRule": "[Căn cứ: Điều 14 Luật Kế toán 2003] Quy định cấm kiêm nhiệm còn lỏng lẻo đối với doanh nghiệp ngoài quốc doanh.",
+        "newRule": "[Căn cứ: Điều 13 & Điều 52 Luật Kế toán 2015] Nghiêm cấm: Bố trí người quản lý, điều hành, thủ kho, thủ quỹ kiêm nhiệm làm kế toán; lập hai hệ thống sổ kế toán trở lên hoặc để ngoài sổ kế toán tài sản, nợ phải trả.",
+        "impactNote": "Kiểu Việt tuân thủ minh bạch duy nhất 01 hệ thống sổ kế toán tài chính, bảo đảm an toàn pháp lý tuyệt đối cho Ban Lãnh đạo."
       },
       {
-        "topic": "Quy định tiêu chuẩn và trách nhiệm của Kế toán trưởng",
+        "topic": "Thời hạn lưu trữ tài liệu kế toán tối thiểu từ 5 năm đến vĩnh viễn",
         "type": "modified",
-        "oldRule": "Tiêu chuẩn kế toán trưởng chưa gắn với chứng chỉ hành nghề và thời gian công tác thực tế cụ thể.",
-        "newRule": "Kế toán trưởng phải có chứng chỉ bồi dưỡng kế toán trưởng, chuyên môn tài chính kế toán từ bậc đại học trở lên và có ít nhất 2 năm công tác thực tế.",
-        "impactNote": "Kiểu Việt bảo đảm vị trí Kế toán trưởng đáp ứng đủ tiêu chuẩn pháp lý để các báo cáo và chữ ký trên chứng từ có giá trị pháp lý cao nhất."
+        "oldRule": "[Căn cứ: Điều 40 Luật Kế toán 2003] Phân loại thời hạn lưu trữ chưa thực sự tương thích với hồ sơ hoàn công xây dựng.",
+        "newRule": "[Căn cứ: Điều 41 Luật Kế toán 2015] Tối thiểu 05 năm đối với chứng từ quản trị; tối thiểu 10 năm đối với chứng từ sử dụng trực tiếp để ghi sổ kế toán và BCTC; lưu trữ vĩnh viễn đối với hồ sơ tài liệu có tính chất lịch sử hoặc công trình xây dựng có ý nghĩa quốc phòng an ninh.",
+        "impactNote": "Hồ sơ nghiệm thu thanh quyết toán công trình của Kiểu Việt được lập quy chế lưu trữ an toàn tối thiểu 10 năm để phục vụ thanh tra, kiểm toán."
       }
     ]
   },
   "luat-56-2024": {
     "decreeId": "luat-56-2024",
-    "title": "Luật số 56/2024/QH15",
-    "category": "Sửa đổi Luật Kế toán, Chứng khoán",
-    "compareWith": "Luật Kế toán 88/2015/QH13",
-    "summary": "Cải cách thủ tục hành chính về đăng ký hành nghề, công nhận chữ ký số quốc tế và mở rộng thẩm quyền ký duyệt chứng từ điện tử trong mô hình doanh nghiệp hiện đại.",
+    "title": "Luật sửa đổi số 56/2024/QH15",
+    "category": "Sửa đổi 9 Luật Tài chính & Kế toán",
+    "compareWith": "Luật Kế toán 2015 và Luật QLT 2019",
+    "summary": "Luật số 56/2024/QH15 (hiệu lực từ 01/01/2025) sửa đổi, bổ sung 9 luật tài chính quan trọng: Đơn giản hóa thủ tục chứng từ kế toán, áp dụng công nghệ số và phân định rõ trách nhiệm của Kế toán trưởng với Người đại diện theo pháp luật.",
     "items": [
       {
-        "topic": "Đơn giản hóa thủ tục cấp phép hành nghề dịch vụ kế toán",
+        "topic": "Phân định rõ trách nhiệm pháp lý cá nhân giữa Kế toán trưởng và Chủ tịch/TGĐ",
         "type": "modified",
-        "oldRule": "Thủ tục thẩm định chứng chỉ và hồ sơ hành nghề kéo dài với nhiều yêu cầu xác nhận giấy tờ phức tạp.",
-        "newRule": "Cắt giảm 50% thời gian xử lý thủ tục hành chính, chuyển sang đăng ký và tiếp nhận kết quả trực tuyến toàn trình cấp độ 4.",
-        "impactNote": "Tạo điều kiện cho đội ngũ chuyên gia kế toán Kiểu Việt dễ dàng đăng ký hành nghề và nâng cao trình độ chuyên môn."
+        "oldRule": "[Căn cứ: Điều 50 Luật Kế toán 2015] Quy định trách nhiệm liên đới chung chung giữa Kế toán trưởng và Người đại diện theo pháp luật khi xảy ra sai phạm số liệu kế toán.",
+        "newRule": "[Căn cứ: Điều 2 Luật 56/2024/QH15] Quy định rõ: Người đại diện theo pháp luật chịu trách nhiệm toàn diện về tính trung thực, hợp pháp của chứng từ kế toán đầu vào do các bộ phận cung cấp; Kế toán trưởng chịu trách nhiệm về tính chính xác của việc hạch toán và số liệu trên Báo cáo tài chính.",
+        "impactNote": "Kế toán trưởng Kiểu Việt được bảo vệ pháp lý khi thực hiện hạch toán đúng chứng từ nghiệm thu hợp lệ do Ban Chỉ huy công trường trình duyệt."
       },
       {
-        "topic": "Thừa nhận chứng từ điện tử xuyên biên giới và chữ ký số quốc tế",
+        "topic": "Cho phép ký số tập trung (Batch Signing) trên chứng từ kế toán điện tử",
         "type": "added",
-        "oldRule": "Chứng từ điện tử phát sinh từ các đối tác nước ngoài phải in ra giấy, dịch thuật công chứng mới được ghi sổ kế toán.",
-        "newRule": "Công nhận giá trị pháp lý của chứng từ điện tử có chữ ký số xác thực quốc tế theo các điều ước quốc tế mà Việt Nam là thành viên.",
-        "impactNote": "Kiểu Việt hạch toán trực tiếp các hóa đơn mua phần mềm bản quyền, dịch vụ máy chủ nước ngoài (Google, Microsoft) không cần in giấy."
+        "oldRule": "[Căn cứ: Điều 19 Luật Kế toán 2015] Mỗi chứng từ kế toán phải được ký duyệt riêng lẻ từng bản một, gây tốn thời gian khi doanh nghiệp có hàng nghìn hóa đơn.",
+        "newRule": "[Căn cứ: Điều 2 Luật 56/2024/QH15] Cho phép áp dụng chữ ký số theo lô / ký số tập trung (Batch Signing) đối với các chứng từ kế toán cùng loại trong cùng một kỳ giao dịch trên phần mềm kế toán đã được kiểm duyệt.",
+        "impactNote": "Tăng tốc độ ký duyệt chứng từ thanh toán vật tư tại Kiểu Việt lên gấp 10 lần, đáp ứng tiến độ thi công cao điểm."
       },
       {
-        "topic": "Quy định phân quyền ký chứng từ trong hệ thống điện tử",
-        "type": "added",
-        "oldRule": "Bắt buộc người đại diện pháp luật và kế toán trưởng phải trực tiếp ký tay hoặc cắm token ký số từng chứng từ.",
-        "newRule": "Cho phép phân quyền ký số tự động theo hạn mức giá trị giao dịch và phân cấp ủy quyền trên hệ thống ERP nội bộ.",
-        "impactNote": "Ban Giám đốc Kiểu Việt phân quyền cho Chỉ huy trưởng công trường ký xác nhận phiếu vật tư dưới 50 triệu đồng trực tiếp trên mobile."
-      },
-      {
-        "topic": "Tăng mức phạt tiền tối đa đối với hành vi che giấu thông tin tài chính",
+        "topic": "Đơn giản hóa thủ tục hủy tài liệu kế toán hết thời hạn lưu trữ",
         "type": "modified",
-        "oldRule": "Mức phạt hành chính đối với các vi phạm công bố thông tin tài chính còn thấp, chưa đủ sức răn đe.",
-        "newRule": "Tăng gấp đôi khung tiền phạt và bổ sung biện pháp đình chỉ hoạt động đối với doanh nghiệp cố tình gian lận số liệu kế toán.",
-        "impactNote": "Nhắc nhở toàn thể bộ phận kế toán Kiểu Việt tuân thủ nghiêm ngặt nguyên tắc trung thực và công khai thông tin tài chính."
+        "oldRule": "[Căn cứ: Điều 45 Luật Kế toán 2015] Thủ tục thành lập Hội đồng tiêu hủy tài liệu kế toán phức tạp, phải lập biên bản kiểm kê chi tiết từng tờ chứng từ.",
+        "newRule": "[Căn cứ: Điều 2 Luật 56/2024/QH15] Doanh nghiệp được quyền tự quyết định hình thức tiêu hủy tài liệu giấy đã hết hạn lưu trữ (nếu đã có bản số hóa lưu trữ điện tử) và lưu lại Biên bản tiêu hủy tổng hợp.",
+        "impactNote": "Giải phóng mặt bằng kho lưu trữ hồ sơ giấy cũ trên 10 năm tại trụ sở công ty Kiểu Việt một cách hợp pháp."
+      },
+      {
+        "topic": "Thừa nhận chứng từ kế toán kết xuất từ dữ liệu lớn (Big Data) và AI",
+        "type": "added",
+        "oldRule": "[Căn cứ: Luật Kế toán 2015] Chưa có điều khoản điều chỉnh đối với các bảng kê tự động tạo ra từ thuật toán máy học hoặc camera nhận diện vật tư.",
+        "newRule": "[Căn cứ: Điều 2 Luật 56/2024/QH15] Cho phép sử dụng các bảng kê dữ liệu tự động kết xuất từ hệ thống trạm cân điện tử, camera giám sát công trường làm chứng từ kế toán căn cứ ban đầu nếu có chữ ký số của người quản lý trạm.",
+        "impactNote": "Kiểu Việt tích hợp dữ liệu trạm cân xe chở đất đá mỏ Gia Lai tự động đẩy vào phần mềm kế toán, loại bỏ rủi ro gian lận khối lượng."
       }
     ]
   },
   "vas-01": {
     "decreeId": "vas-01",
-    "title": "Chuẩn mực Kế toán VAS 01 – Chuẩn mực chung",
-    "category": "Chuẩn mực Kế toán Việt Nam",
-    "compareWith": "Hệ thống kế toán cũ",
-    "summary": "Nền tảng của toàn bộ hệ thống chuẩn mực kế toán Việt Nam, thiết lập 7 nguyên tắc kế toán cơ bản và các yêu cầu chất lượng đối với Báo cáo tài chính.",
+    "title": "Chuẩn mực Kế toán VAS 01",
+    "category": "Chuẩn mực kế toán chung",
+    "compareWith": "Các nguyên tắc kế toán truyền thống",
+    "summary": "Chuẩn mực số 01 thiết lập 7 nguyên tắc kế toán cơ bản chi phối toàn bộ hoạt động tài chính: Hoạt động liên tục, Cơ sở dồn tích, Giá gốc, Phù hợp, Nhất quán, Thận trọng và Trọng yếu.",
     "items": [
       {
-        "topic": "Thiết lập 7 nguyên tắc kế toán cơ bản bắt buộc",
+        "topic": "Nguyên tắc Cơ sở dồn tích (Accrual Basis) trong ghi nhận chi phí xây lắp",
         "type": "added",
-        "oldRule": "Kế toán chủ yếu ghi chép theo biểu mẫu thu chi tiền mặt, thiếu hệ thống nguyên tắc chuẩn mực khoa học.",
-        "newRule": "Quy định bắt buộc 7 nguyên tắc: Cơ sở dồn tích, Hoạt động liên tục, Giá gốc, Phù hợp, Nhất quán, Thận trọng và Trọng yếu.",
-        "impactNote": "Mọi nghiệp vụ kinh tế tại Kiểu Việt (mua vật tư nợ, trích khấu hao, nghiệm thu A-B) đều phải tuân thủ nghiêm ngặt nguyên tắc dồn tích và phù hợp."
+        "oldRule": "Kế toán thực thu - thực chi (Cash Basis): Chỉ ghi nhận chi phí khi tiền đã chi ra khỏi tài khoản và ghi nhận doanh thu khi tiền đã về.",
+        "newRule": "[Căn cứ: Đoạn 03-04 VAS 01] Mọi nghiệp vụ kinh tế tài chính phải được ghi sổ kế toán vào thời điểm phát sinh, không căn cứ vào thời điểm thực tế thu hoặc thực tế chi tiền.",
+        "impactNote": "Kiểu Việt phải trích trước chi phí thi công (TK 335) tương ứng với khối lượng đã hoàn thành trong kỳ dù chưa có hóa đơn thanh toán của nhà thầu phụ."
       },
       {
-        "topic": "Định nghĩa rõ ràng 5 yếu tố cốt lõi của Báo cáo tài chính",
+        "topic": "Nguyên tắc Hoạt động liên tục (Going Concern) và đánh giá khả năng thanh toán",
         "type": "added",
-        "oldRule": "Chưa phân định rạch ròi giữa chi phí kinh doanh với chi phí vốn hóa tạo tài sản.",
-        "newRule": "Định nghĩa chuẩn xác: Tài sản (quyền kiểm soát & lợi ích tương lai), Nợ phải trả, Vốn chủ sở hữu, Doanh thu và Chi phí.",
-        "impactNote": "Kế toán Kiểu Việt phân loại chuẩn xác chi phí máy móc thi công: chi phí vận hành thường xuyên (TK 154) vs chi phí nâng cấp lớn (TK 211)."
+        "oldRule": "Chưa quy định nghĩa vụ của Ban Giám đốc phải đánh giá khả năng hoạt động liên tục trong vòng 12 tháng tới khi lập Báo cáo tài chính.",
+        "newRule": "[Căn cứ: Đoạn 05-06 VAS 01] Báo cáo tài chính phải được lập trên cơ sở giả định doanh nghiệp đang và sẽ tiếp tục hoạt động trong tương lai gần (tối thiểu 12 tháng). Nếu có nguy cơ phá sản phải lập BCTC theo giá thanh lý.",
+        "impactNote": "Hồ sơ năng lực tài chính Kiểu Việt chứng minh khả năng duy trì dòng tiền ổn định để bảo lãnh đấu thầu các dự án nhóm A."
       },
       {
-        "topic": "Nguyên tắc Thận trọng (Prudence) trong trích lập dự phòng",
+        "topic": "Nguyên tắc Phù hợp (Matching Concept) giữa Doanh thu và Chi phí công trình",
         "type": "added",
-        "oldRule": "Thường trì hoãn ghi nhận chi phí tổn thất khiến Báo cáo tài chính không phản ánh đúng rủi ro.",
-        "newRule": "Phải lập các khoản dự phòng nhưng không quá lớn; không đánh giá cao hơn giá trị của tài sản và thu nhập; không đánh giá thấp hơn nợ và chi phí.",
-        "impactNote": "Kiểu Việt chủ động trích lập dự phòng nợ khó đòi và giảm giá vật liệu thép, xi măng kịp thời khi thị trường giảm giá."
+        "oldRule": "Ghi nhận doanh thu và chi phí tách rời nhau, dẫn đến tình trạng doanh thu tăng vọt nhưng chi phí dồn vào quý sau gây méo mó kết quả kinh doanh.",
+        "newRule": "[Căn cứ: Đoạn 08-09 VAS 01] Việc ghi nhận doanh thu và chi phí phải phù hợp với nhau. Khi ghi nhận một khoản doanh thu thì phải ghi nhận một khoản chi phí tương ứng có liên quan đến việc tạo ra doanh thu đó.",
+        "impactNote": "Kế toán Kiểu Việt tập hợp đầy đủ chi phí nhân công, ca máy, vật tư tương ứng với từng biên bản nghiệm thu giai đoạn A-B để xác định chính xác lãi/lỗ từng gói thầu."
       },
       {
-        "topic": "Yêu cầu chất lượng thông tin tài chính (Tính trung thực và có thể so sánh)",
-        "type": "modified",
-        "oldRule": "Số liệu kế toán các năm thường thay đổi phương pháp hạch toán tùy tiện làm mất tính so sánh.",
-        "newRule": "Thông tin kế toán phải trung thực, khách quan, đầy đủ và nhất quán qua các niên độ để so sánh được xu hướng tài chính.",
-        "impactNote": "Kiểu Việt duy trì phương pháp tính giá hàng tồn kho (Bình quân gia quyền) ổn định để số liệu báo cáo có độ tin cậy cao."
+        "topic": "Nguyên tắc Thận trọng (Prudence) trong trích lập dự phòng rủi ro bảo hành",
+        "type": "added",
+        "oldRule": "Doanh nghiệp thường đánh giá quá cao tài sản và không ghi nhận các khoản chi phí phát sinh tiềm tàng để làm đẹp báo cáo vay vốn ngân hàng.",
+        "newRule": "[Căn cứ: Đoạn 11-12 VAS 01] Phải lập các khoản dự phòng nhưng không lập quá lớn; không đánh giá cao hơn giá trị của các tài sản và các khoản thu nhập; không đánh giá thấp hơn giá trị của các khoản nợ phải trả và chi phí.",
+        "impactNote": "Kiểu Việt trích lập đầy đủ chi phí bảo hành công trình xây dựng (TK 352: từ 1% - 3% giá trị hợp đồng) theo nguyên tắc thận trọng để phòng ngừa sự cố kỹ thuật."
       }
     ]
   },
   "vas-02": {
     "decreeId": "vas-02",
-    "title": "Chuẩn mực Kế toán VAS 02 – Hàng tồn kho",
-    "category": "Chuẩn mực Kế toán Việt Nam",
-    "compareWith": "Hệ thống kế toán cũ",
-    "summary": "Quy định nguyên tắc xác định giá gốc hàng tồn kho, các phương pháp tính giá trị xuất kho và việc lập dự phòng giảm giá hàng tồn kho theo Giá trị thuần có thể thực hiện được (NRV).",
+    "title": "Chuẩn mực Kế toán VAS 02",
+    "category": "Chuẩn mực Hàng tồn kho",
+    "compareWith": "Phương pháp kế toán vật tư cũ",
+    "summary": "Chuẩn mực số 02 quy định nguyên tắc tính giá trị hàng tồn kho theo Giá gốc và Giá trị thuần có thể thực hiện được (NRV), hướng dẫn phương pháp tính giá xuất kho và trích lập dự phòng giảm giá vật tư xây dựng.",
     "items": [
       {
-        "topic": "Cấu thành giá gốc hàng tồn kho mua vào",
-        "type": "modified",
-        "oldRule": "Chỉ tính giá mua ghi trên hóa đơn, các chi phí vận chuyển, bốc xếp thường hạch toán thẳng vào chi phí quản lý.",
-        "newRule": "Giá gốc hàng tồn kho bao gồm: Chi phí mua (giá mua, thuế không hoàn lại), chi phí chế biến và các chi phí liên quan trực tiếp khác (vận chuyển, bốc dỡ, bảo quản).",
-        "impactNote": "Chi phí vận chuyển cát đá xi măng về công trường thi công của Kiểu Việt được phân bổ đầy đủ vào giá trị vật tư nhập kho (TK 152)."
-      },
-      {
-        "topic": "Bãi bỏ phương pháp tính giá xuất kho Nhập sau - Xuất trước (LIFO)",
-        "type": "removed",
-        "oldRule": "Cho phép doanh nghiệp sử dụng phương pháp LIFO (Last-In, First-Out) trong thời kỳ lạm phát cao.",
-        "newRule": "Chỉ cho phép 3 phương pháp tính giá hàng tồn kho: Giá đích danh, Nhập trước - Xuất trước (FIFO) và Bình quân gia quyền.",
-        "impactNote": "Kiểu Việt áp dụng phương pháp Bình quân gia quyền liên hoàn để tính giá vật tư xuất kho công trình chính xác và ổn định."
-      },
-      {
-        "topic": "Đánh giá lại hàng tồn kho theo Giá trị thuần có thể thực hiện được (NRV)",
+        "topic": "Đo lường Hàng tồn kho theo Giá thấp hơn giữa Giá gốc và Giá trị thuần (NRV)",
         "type": "added",
-        "oldRule": "Hàng tồn kho luôn ghi theo giá gốc bất chấp việc hư hỏng, lỗi thời hay giá thị trường giảm mạnh.",
-        "newRule": "Nếu giá trị thuần có thể thực hiện được thấp hơn giá gốc, hàng tồn kho phải được ghi nhận theo giá trị thuần và trích lập dự phòng giảm giá.",
-        "impactNote": "Kiểu Việt rà soát vật tư tồn đọng cuối năm tại các kho công trường để trích lập dự phòng giảm giá tính vào giá vốn hợp lý."
+        "oldRule": "Hàng tồn kho (sắt thép, xi măng, cát đá) luôn giữ nguyên theo giá gốc trên sổ sách dù giá thị trường ngoài công trường đã sụt giảm nghiêm trọng.",
+        "newRule": "[Căn cứ: Đoạn 03 & 21-27 VAS 02] Hàng tồn kho phải được tính theo giá thấp hơn giữa Giá gốc và Giá trị thuần có thể thực hiện được (Net Realizable Value - NRV). Khi NRV thấp hơn giá gốc, bắt buộc phải trích lập Dự phòng giảm giá HTK (TK 2294).",
+        "impactNote": "Kiểu Việt rà soát giá thép xây dựng và vật tư dự trữ tồn kho cuối năm; nếu giá thép giảm mạnh, lập dự phòng ghi vào Giá vốn hàng bán (Nợ TK 632 / Có TK 2294) để tối ưu thuế TNDN."
       },
       {
-        "topic": "Quy định hạch toán hao hụt vật tư trong và ngoài định mức",
+        "topic": "Quy định chi phí không được tính vào Giá gốc hàng tồn kho xây dựng",
         "type": "modified",
-        "oldRule": "Mọi khoản hao hụt vật tư thi công đều đưa dồn vào giá thành công trình mà không kiểm tra định mức.",
-        "newRule": "Hao hụt vật tư trong định mức được tính vào giá thành; hao hụt vượt định mức phải ghi nhận ngay vào Giá vốn hàng bán (TK 632) hoặc bắt bồi thường.",
-        "impactNote": "Kiểu Việt kiểm soát chặt chẽ định mức hao hụt sắt thép bê tông, xử lý ngay trách nhiệm cá nhân đối với phần vượt định mức."
+        "oldRule": "Kế toán thường gom toàn bộ chi phí lưu kho, hao hụt bất thường vào đơn giá nhập kho vật tư công trình.",
+        "newRule": "[Căn cứ: Đoạn 12-13 VAS 02] Không được tính vào giá gốc: Chi phí NVL, nhân công lãng phí ở mức bất thường; chi phí bảo quản lưu kho (trừ khi cần thiết cho quá trình sản xuất tiếp theo); chi phí bán hàng và QLDN. Các chi phí này phải hạch toán thẳng vào chi phí thời kỳ.",
+        "impactNote": "Kế toán Kiểu Việt bóc tách chi phí hao hụt vật tư cát đá vượt định mức nhà nước ra khỏi giá thành công trình, tránh bị kiểm toán bóc tách."
+      },
+      {
+        "topic": "Lựa chọn phương pháp tính giá trị hàng tồn kho xuất kho thi công",
+        "type": "modified",
+        "oldRule": "Áp dụng tùy tiện nhiều phương pháp tính giá xuất kho (Bình quân, Nhập sau - Xuất trước LIFO, Thực tế đích danh) trong cùng một năm tài chính.",
+        "newRule": "[Căn cứ: Đoạn 19-20 VAS 02] Chỉ được chọn một trong các phương pháp: Bình quân gia quyền, Nhập trước - Xuất trước (FIFO) hoặc Giá đích danh; phải áp dụng nhất quán ít nhất trong 01 niên độ kế toán.",
+        "impactNote": "Kiểu Việt áp dụng phương pháp Bình quân gia quyền liên hoàn để phản ánh chính xác chi phí vật liệu xuất dùng tại từng công trường thi công theo từng ngày."
+      },
+      {
+        "topic": "Xử lý phế liệu thu hồi và hoàn trả vật tư thừa sau khi kết thúc công trình",
+        "type": "added",
+        "oldRule": "Vật tư sắt vụn, ván coppha hỏng thu hồi tại công trường thường không được nhập kho mà để công nhân bán tự do không hóa đơn.",
+        "newRule": "[Căn cứ: Đoạn 10 & 28 VAS 02] Toàn bộ vật liệu thừa thu hồi, phế liệu sắt thép phải lập Biên bản thu hồi nhập kho (Nợ TK 152 / Có TK 154) theo giá trị có thể thu hồi ước tính, hoặc ghi giảm chi phí công trình.",
+        "impactNote": "Kiểu Việt kiểm soát 100% phế liệu sắt thép công trình, thu hồi tiền bán phế liệu nộp quỹ công ty và hạch toán vào Thu nhập khác (TK 711) minh bạch."
       }
     ]
   },
   "vas-14": {
     "decreeId": "vas-14",
-    "title": "Chuẩn mực Kế toán VAS 14 – Doanh thu và Thu nhập khác",
-    "category": "Chuẩn mực Kế toán Việt Nam",
-    "compareWith": "Hệ thống kế toán cũ",
-    "summary": "Quy định 5 điều kiện ghi nhận doanh thu bán hàng, doanh thu cung cấp dịch vụ và hợp đồng xây dựng theo tỷ lệ hoàn thành, bảo đảm nguyên tắc phù hợp giữa doanh thu và chi phí.",
+    "title": "Chuẩn mực Kế toán VAS 14",
+    "category": "Chuẩn mực Doanh thu và Thu nhập khác",
+    "compareWith": "Quy định doanh thu truyền thống",
+    "summary": "Chuẩn mực số 14 xác lập 5 điều kiện bắt buộc để ghi nhận doanh thu bán hàng và 4 điều kiện ghi nhận doanh thu dịch vụ / hợp đồng xây dựng; nghiêm cấm ghi nhận doanh thu khi rủi ro chưa được chuyển giao.",
     "items": [
       {
-        "topic": "5 điều kiện đồng thời để ghi nhận doanh thu bán hàng",
+        "topic": "Bốn điều kiện ghi nhận Doanh thu cung cấp dịch vụ và hợp đồng xây lắp",
         "type": "added",
-        "oldRule": "Ghi nhận doanh thu ngay khi xuất hóa đơn hoặc nhận tiền đặt cọc của khách hàng.",
-        "newRule": "Phải thỏa mãn đồng thời 5 điều kiện: Chuyển giao rủi ro/lợi ích; không còn nắm giữ quyền quản lý; doanh thu xác định tương đối chắc chắn; thu được lợi ích kinh tế; xác định được chi phí liên quan.",
-        "impactNote": "Kiểu Việt không được ghi nhận doanh thu đối với các khoản tiền tạm ứng trước của chủ đầu tư khi chưa có khối lượng nghiệm thu."
+        "oldRule": "Chỉ căn cứ vào việc đã xuất hóa đơn tài chính hoặc nhận được tiền của Chủ đầu tư là ghi nhận ngay doanh thu.",
+        "newRule": "[Căn cứ: Đoạn 15-20 VAS 14] Doanh thu hợp đồng xây dựng chỉ được ghi nhận khi thỏa mãn đồng thời 4 điều kiện: 1) Doanh thu được xác định tương đối chắc chắn; 2) Có khả năng thu được lợi ích kinh tế; 3) Xác định được phần công việc đã hoàn thành tại ngày lập BCTC; 4) Xác định được chi phí phát sinh cho hợp đồng và chi phí để hoàn thành hợp đồng.",
+        "impactNote": "Kiểu Việt bảo đảm mọi biên bản nghiệm thu khối lượng giai đoạn A-B có chữ ký của Tư vấn giám sát và Chủ đầu tư mới đủ điều kiện ghi nhận doanh thu hợp pháp."
       },
       {
-        "topic": "Ghi nhận doanh thu hợp đồng xây dựng theo khối lượng hoàn thành",
-        "type": "modified",
-        "oldRule": "Ghi nhận doanh thu xây dựng dựa trên tiến độ thu tiền theo hợp đồng thanh toán.",
-        "newRule": "Doanh thu hợp đồng xây dựng được ghi nhận tương ứng với phần công việc đã hoàn thành được khách hàng nghiệm thu xác nhận (Biên bản A-B).",
-        "impactNote": "Bảo đảm doanh thu trên Báo cáo tài chính của Kiểu Việt khớp đúng với khối lượng thi công thực tế tại hiện trường."
-      },
-      {
-        "topic": "Hạch toán các khoản giảm trừ doanh thu và doanh thu tài chính",
-        "type": "modified",
-        "oldRule": "Chiết khấu thanh toán trả sớm cho khách hàng được ghi giảm trừ doanh thu bán hàng.",
-        "newRule": "Chiết khấu thanh toán không làm giảm doanh thu mà phải hạch toán vào Chi phí tài chính (TK 635); ngược lại được hưởng chiết khấu đưa vào TK 515.",
-        "impactNote": "Kiểu Việt hạch toán đúng tính chất khoản chiết khấu thanh toán cho nhà cung cấp vật liệu xây dựng."
-      },
-      {
-        "topic": "Xác định doanh thu trao đổi hàng hóa dịch vụ không tương tự",
+        "topic": "Xác định phần công việc đã hoàn thành theo Phương pháp tỷ lệ phần trăm",
         "type": "added",
-        "oldRule": "Giao dịch đổi hàng (barter) xây dựng lấy sản phẩm bất động sản thường bỏ qua hạch toán doanh thu.",
-        "newRule": "Giao dịch trao đổi hàng hóa, dịch vụ không tương tự phải được hạch toán theo Giá trị hợp lý của hàng hóa dịch vụ nhận về.",
-        "impactNote": "Kiểu Việt hạch toán đầy đủ doanh thu và thuế GTGT đối với các gói thầu thi công nhận thanh toán bằng căn hộ hoặc đất nền dự án."
+        "oldRule": "Không có công thức chuẩn để ước tính tỷ lệ hoàn thành đối với công trình thi công dở dang vắt qua 2 năm tài chính.",
+        "newRule": "[Căn cứ: Đoạn 18-19 VAS 14] Quy định 3 phương pháp đo lường tiến độ: 1) Tỷ lệ chi phí đã phát sinh so với tổng chi phí ước tính của hợp đồng; 2) Đánh giá phần công việc đã thực hiện trên hiện trường; 3) Tỷ lệ phần trăm giữa khối lượng công việc đã hoàn thành so với tổng khối lượng hợp đồng.",
+        "impactNote": "Kế toán Kiểu Việt phối hợp với Ban Chỉ huy công trường đo đạc khối lượng thực tế cuối quý để ước tính doanh thu lũy kế chính xác, không bị cơ quan thuế ấn định thuế."
+      },
+      {
+        "topic": "Xử lý doanh thu khi phát sinh biến động giá trị hợp đồng (Phát sinh tăng/giảm)",
+        "type": "modified",
+        "oldRule": "Khối lượng phát sinh thêm ngoài hợp đồng thường ghi nhận doanh thu ngay dù Chủ đầu tư chưa phê duyệt dự toán bổ sung.",
+        "newRule": "[Căn cứ: Đoạn 16 VAS 14] Các khoản tiền thưởng hợp đồng, tiền bồi thường hoặc khối lượng phát sinh ngoài phạm vi hợp đồng chỉ được đưa vào doanh thu khi Chủ đầu tư đã chấp thuận bằng văn bản và số tiền được xác định đáng tin cậy.",
+        "impactNote": "Kiểu Việt chỉ ghi nhận doanh thu khối lượng phát sinh khi đã có Phụ lục hợp đồng ký kết hoặc Biên bản phê duyệt dự toán của Chủ đầu tư, tránh rủi ro treo công nợ xấu."
+      },
+      {
+        "topic": "Nguyên tắc ghi nhận Doanh thu tiền lãi và Thu nhập tài chính",
+        "type": "modified",
+        "oldRule": "Tiền lãi tiền gửi ngân hàng, lãi cho vay chỉ hạch toán khi đã thực tế rút tiền mặt hoặc có giấy báo có của ngân hàng.",
+        "newRule": "[Căn cứ: Đoạn 23-25 VAS 14] Doanh thu tiền lãi tiền gửi ngân hàng, lãi cho vay phải được ghi nhận trên cơ sở dồn tích theo thời gian và lãi suất thực tế từng kỳ.",
+        "impactNote": "Kiểu Việt định kỳ hạch toán lãi tiền gửi có kỳ hạn của công ty tại ngân hàng thương mại vào Doanh thu hoạt động tài chính (Nợ TK 1388 / Có TK 515) đúng kỳ kế toán."
       }
     ]
   }
