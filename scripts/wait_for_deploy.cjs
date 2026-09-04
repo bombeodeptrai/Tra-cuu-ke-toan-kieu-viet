@@ -1,4 +1,4 @@
-const targetHash = 'index-DxPYqN0O.js';
+const targetHash = 'index-CD5XRBxv.js';
 
 async function check() {
   for (let i = 1; i <= 20; i++) {
@@ -8,7 +8,7 @@ async function check() {
       const match = html.match(/index-[a-zA-Z0-9_-]+\.js/);
       const current = match ? match[0] : 'none';
       console.log(`[Attempt ${i}/20] Current live JS: ${current}`);
-      if (current === targetHash || (current !== 'index-DzFgnN4X.js' && current !== 'none')) {
+      if (current === targetHash || (current !== 'index-BIU5MCoL.js' && current !== 'none')) {
         console.log(`🚀 Deployment complete! New bundle live: ${current}`);
         return true;
       }

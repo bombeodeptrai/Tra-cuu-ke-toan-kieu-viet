@@ -44,6 +44,15 @@ async function testLive() {
       console.log(`Live Decree ${id}: ${cards} diff cards rendered`);
     }
 
+    // Test AI Boxchat on live site
+    const chatInput = await page.$('textarea');
+    if (chatInput) {
+      console.log('Live AI Boxchat input detected.');
+      await page.type('textarea', 'So sánh điểm mới cho Kiểu Việt');
+      await page.keyboard.press('Enter');
+      await new Promise(r => setTimeout(r, 1200));
+    }
+
     const htmlLeak = await page.evaluate(() => {
       const text = document.body.innerText;
       return /<div|<span|<p>|&lt;div/.test(text);
@@ -54,6 +63,8 @@ async function testLive() {
     console.log(`Page Crashes / Errors: ${pageErrors.length}`);
     console.log(`Raw HTML Leaks: ${htmlLeak ? 1 : 0}`);
 
+    await page.evaluate(() => window.scrollTo(0, 150));
+    await new Promise(r => setTimeout(r, 400));
     const screenshotPath = path.join(__dirname, '..', 'audit_screens', 'live_so_sanh.png');
     await page.screenshot({ path: screenshotPath, fullPage: false });
     console.log('Live screenshot saved to:', screenshotPath);
