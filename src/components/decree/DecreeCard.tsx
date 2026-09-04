@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Heart, Calendar, Sparkles } from 'lucide-react';
+import { Heart, Calendar, Sparkles, Eye } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Decree } from '@/types/decree';
@@ -10,9 +10,10 @@ import { formatDate } from '@/lib/utils/format';
 interface DecreeCardProps {
   decree: Decree;
   viewMode: 'grid' | 'list';
+  onPreview?: (decree: Decree) => void;
 }
 
-export function DecreeCard({ decree, viewMode }: DecreeCardProps) {
+export function DecreeCard({ decree, viewMode, onPreview }: DecreeCardProps) {
   const navigate = useNavigate();
   const category = CATEGORIES.find(c => c.slug === decree.category);
   const borderColorClass = category ? CATEGORY_COLORS[category.slug] || 'border-l-gray-500' : 'border-l-gray-500';
@@ -50,9 +51,26 @@ export function DecreeCard({ decree, viewMode }: DecreeCardProps) {
               </div>
             )}
           </div>
-          <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-950/30" onClick={(e) => { e.stopPropagation(); }}>
-            <Heart className="h-4 w-4" />
-          </Button>
+          <div className="flex items-center gap-1.5">
+            {onPreview && (
+              <Button
+                variant="outline"
+                size="sm"
+                className="h-8 px-2.5 gap-1.5 text-xs text-blue-700 bg-blue-50/80 hover:bg-blue-100 dark:text-blue-300 dark:bg-blue-950/50 dark:hover:bg-blue-900/50 border-blue-200 dark:border-blue-800"
+                title="Xem trước văn bản"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onPreview(decree);
+                }}
+              >
+                <Eye className="h-3.5 w-3.5" />
+                <span>Xem trước</span>
+              </Button>
+            )}
+            <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-950/30" onClick={(e) => { e.stopPropagation(); }}>
+              <Heart className="h-4 w-4" />
+            </Button>
+          </div>
         </div>
       </div>
     );
@@ -92,9 +110,26 @@ export function DecreeCard({ decree, viewMode }: DecreeCardProps) {
             </div>
           )}
         </div>
-        <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground hover:text-red-500" onClick={(e) => { e.stopPropagation(); }}>
-          <Heart className="h-4 w-4" />
-        </Button>
+        <div className="flex items-center gap-1.5">
+          {onPreview && (
+            <Button
+              variant="outline"
+              size="sm"
+              className="h-8 px-2.5 gap-1.5 text-xs text-blue-700 bg-blue-50/80 hover:bg-blue-100 dark:text-blue-300 dark:bg-blue-950/50 dark:hover:bg-blue-900/50 border-blue-200 dark:border-blue-800"
+              title="Xem trước văn bản"
+              onClick={(e) => {
+                e.stopPropagation();
+                onPreview(decree);
+              }}
+            >
+              <Eye className="h-3.5 w-3.5" />
+              <span>Xem trước</span>
+            </Button>
+          )}
+          <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground hover:text-red-500" onClick={(e) => { e.stopPropagation(); }}>
+            <Heart className="h-4 w-4" />
+          </Button>
+        </div>
       </div>
     </div>
   );

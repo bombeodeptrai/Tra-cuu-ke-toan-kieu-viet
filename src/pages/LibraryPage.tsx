@@ -1,11 +1,14 @@
 import React, { useState } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
-import { Filter, LayoutGrid, List as ListIcon, ArrowRightLeft } from 'lucide-react';
+import { Filter, LayoutGrid, List as ListIcon, ArrowRightLeft, Eye, X, Download, BookOpen, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { CATEGORIES, TAX_FIELDS } from '@/lib/utils/constants';
+import { Badge } from '@/components/ui/badge';
+import { CATEGORIES, TAX_FIELDS, DECREE_STATUS_LABELS } from '@/lib/utils/constants';
+import { formatDate } from '@/lib/utils/format';
 import { DecreeCard } from '@/components/decree/DecreeCard';
 import { useDecreeStore } from '@/stores/decree-store';
 import { useDecrees } from '@/hooks/useDecrees';
+import { Decree } from '@/types/decree';
 
 export function LibraryPage() {
   const [searchParams] = useSearchParams();
@@ -14,6 +17,7 @@ export function LibraryPage() {
   const [activeCategory, setActiveCategory] = useState(initialCategory);
   const [activeYear, setActiveYear] = useState('all');
   const [activeTaxField, setActiveTaxField] = useState('all');
+  const [previewDecree, setPreviewDecree] = useState<Decree | null>(null);
   const navigate = useNavigate();
   
   const { viewMode, setViewMode } = useDecreeStore();
@@ -210,7 +214,7 @@ export function LibraryPage() {
                     
                     <div className={`grid gap-4 ${viewMode === 'grid' ? 'grid-cols-1 md:grid-cols-2 xl:grid-cols-3' : 'grid-cols-1'}`}>
                       {decrees.map(decree => (
-                        <DecreeCard key={decree.id} decree={decree} viewMode={viewMode} />
+                        <DecreeCard key={decree.id} decree={decree} viewMode={viewMode} onPreview={setPreviewDecree} />
                       ))}
                     </div>
                   </div>
@@ -244,7 +248,7 @@ export function LibraryPage() {
                     
                     <div className={`grid gap-4 ${viewMode === 'grid' ? 'grid-cols-1 md:grid-cols-2 xl:grid-cols-3' : 'grid-cols-1'}`}>
                       {unclassified.map(decree => (
-                        <DecreeCard key={decree.id} decree={decree} viewMode={viewMode} />
+                        <DecreeCard key={decree.id} decree={decree} viewMode={viewMode} onPreview={setPreviewDecree} />
                       ))}
                     </div>
                   </div>
@@ -253,13 +257,156 @@ export function LibraryPage() {
             </div>
           )}
               
-              {finalDecrees.length === 0 && !isLoading && (
+          {finalDecrees.length === 0 && !isLoading && (
             <div className="text-center py-20 bg-card border border-border rounded-xl border-dashed">
               <p className="text-muted-foreground">Không có văn bản nào trong danh mục này.</p>
             </div>
           )}
         </div>
       </div>
+
+      {/* QUICK PREVIEW MODAL FOR 100% OF DECREES */}
+      {previewDecree && (
+        <div 
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-200"
+          onClick={() => setPreviewDecree(null)}
+        >
+          <div 
+            className="bg-background border border-border w-full max-w-3xl max-h-[90vh] rounded-2xl shadow-2xl flex flex-col overflow-hidden animate-in zoom-in-95 duration-200"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Header Modal */}
+            <div className="flex items-center justify-between px-6 py-4 border-b border-border bg-muted/40">
+              <div className="flex items-center gap-2.5">
+                <div className="p-2 bg-primary/10 text-primary rounded-lg">
+                  <Eye className="h-5 w-5" />
+                </div>
+                <div>
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-muted-foreground">Bản xem trước nhanh</span>
+                  <h3 className="font-bold text-lg text-foreground flex items-center gap-2">
+                    {previewDecree.decree_number}
+                  </h3>
+                </div>
+              </div>
+              <Button 
+                variant="ghost" 
+                size="icon" 
+                className="rounded-full h-8 w-8 hover:bg-muted"
+                onClick={() => setPreviewDecree(null)}
+              >
+                <X className="h-4 w-4" />
+              </Button>
+            </div>
+
+            {/* Body Modal */}
+            <div className="p-6 overflow-y-auto flex-1 space-y-6">
+              {/* Tiêu đề & Quốc hiệu */}
+              <div className="text-center pb-4 border-b border-border space-y-1">
+                <div className="text-xs uppercase font-bold tracking-wider text-muted-foreground">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</div>
+                <div className="text-xs font-medium text-muted-foreground">Độc lập - Tự do - Hạnh phúc</div>
+                <div className="text-xs text-primary font-semibold pt-1">HỆ THỐNG TRA CỨU PHÁP LUẬT — CÔNG TY CỔ PHẦN KIỂU VIỆT</div>
+              </div>
+
+              <div>
+                <div className="flex flex-wrap gap-2 items-center mb-2">
+                  <Badge className={DECREE_STATUS_LABELS[previewDecree.status]?.color || 'bg-slate-500'}>
+                    {DECREE_STATUS_LABELS[previewDecree.status]?.label || previewDecree.status}
+                  </Badge>
+                  {(() => {
+                    const effYear = previewDecree.effective_date ? new Date(previewDecree.effective_date).getFullYear() : null;
+                    if (effYear === 2026 || (previewDecree.summary && previewDecree.summary.includes('2026'))) {
+                      return (
+                        <Badge className="bg-amber-500 hover:bg-amber-600 text-white gap-1 text-xs">
+                          <Sparkles className="h-3 w-3" /> Hiệu lực 2026
+                        </Badge>
+                      );
+                    }
+                    return null;
+                  })()}
+                  {CATEGORIES.find(c => c.slug === previewDecree.category) && (
+                    <Badge variant="outline">
+                      {CATEGORIES.find(c => c.slug === previewDecree.category)?.name}
+                    </Badge>
+                  )}
+                </div>
+                <h2 className="text-xl font-bold text-foreground leading-snug">
+                  {previewDecree.title}
+                </h2>
+              </div>
+
+              {/* Thông tin bảng tóm lược */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 p-4 bg-muted/30 rounded-xl border border-border text-sm">
+                <div>
+                  <span className="text-xs text-muted-foreground">Số hiệu:</span>
+                  <div className="font-semibold text-primary">{previewDecree.decree_number}</div>
+                </div>
+                <div>
+                  <span className="text-xs text-muted-foreground">Lĩnh vực pháp lý:</span>
+                  <div className="font-semibold text-foreground">
+                    {TAX_FIELDS.find(t => t.slug === previewDecree.tax_field)?.name || 'Quy phạm Pháp luật Doanh nghiệp'}
+                  </div>
+                </div>
+                <div>
+                  <span className="text-xs text-muted-foreground">Ngày ban hành:</span>
+                  <div className="font-semibold text-foreground">{formatDate(previewDecree.issued_date)}</div>
+                </div>
+                <div>
+                  <span className="text-xs text-muted-foreground">Ngày hiệu lực:</span>
+                  <div className="font-semibold text-emerald-700 dark:text-emerald-400">
+                    {previewDecree.effective_date ? formatDate(previewDecree.effective_date) : 'Đang cập nhật'}
+                  </div>
+                </div>
+              </div>
+
+              {/* Trích yếu nghiệp vụ kế toán */}
+              <div className="space-y-2">
+                <h4 className="font-bold text-sm text-foreground flex items-center gap-2">
+                  <BookOpen className="h-4 w-4 text-blue-600" />
+                  Nội dung tóm lược & Căn cứ áp dụng:
+                </h4>
+                <div className="p-4 bg-blue-50/50 dark:bg-blue-950/20 border border-blue-200/60 dark:border-blue-800/40 rounded-xl text-sm leading-relaxed text-foreground">
+                  {previewDecree.summary || 'Văn bản quy phạm pháp luật phục vụ công tác kế toán và quản trị doanh nghiệp Kiểu Việt.'}
+                </div>
+              </div>
+            </div>
+
+            {/* Footer Modal */}
+            <div className="px-6 py-4 border-t border-border bg-muted/20 flex flex-wrap items-center justify-between gap-3">
+              <Button 
+                variant="outline" 
+                onClick={() => setPreviewDecree(null)}
+              >
+                Đóng
+              </Button>
+              <div className="flex items-center gap-2">
+                {previewDecree.pdf_url && (
+                  <a 
+                    href={(import.meta.env.BASE_URL || '/').replace(/\/$/, '') + previewDecree.pdf_url}
+                    download
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Button variant="outline" className="gap-2">
+                      <Download className="h-4 w-4" /> Tải file PDF
+                    </Button>
+                  </a>
+                )}
+                <Button 
+                  className="gap-2 bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
+                  onClick={() => {
+                    const id = previewDecree.id;
+                    setPreviewDecree(null);
+                    navigate(`/thu-vien/${id}`);
+                  }}
+                >
+                  <BookOpen className="h-4 w-4" />
+                  Xem toàn văn & Điều khoản
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

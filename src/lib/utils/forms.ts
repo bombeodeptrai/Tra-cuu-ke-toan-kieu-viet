@@ -169,5 +169,95 @@ export const FORMS_DATA: FormItem[] = [
     "fileName": "Bien_ban_nghiem_thu_xay_dung_BBNT.doc",
     "fileUrl": "/data/forms/Bien_ban_nghiem_thu_xay_dung_BBNT.doc",
     "description": "Biên bản nghiệm thu kỹ thuật đưa hạng mục công việc vào thanh quyết toán theo hợp đồng Kiểu Việt."
+  },
+  {
+    "id": "f17",
+    "code": "B01-DN",
+    "name": "Báo cáo tình hình tài chính (Bảng CĐKT)",
+    "type": "BCTC",
+    "format": "Excel",
+    "fileName": "Bao_cao_tinh_hinh_tai_chinh_B01_DN.xls",
+    "fileUrl": "/data/forms/Bao_cao_tinh_hinh_tai_chinh_B01_DN.xls",
+    "description": "Báo cáo tình hình tài chính tổng hợp phản ánh toàn bộ tài sản, nợ phải trả và vốn chủ sở hữu theo Thông tư 99/2025/TT-BTC."
+  },
+  {
+    "id": "f18",
+    "code": "B02-DN",
+    "name": "Báo cáo kết quả hoạt động kinh doanh",
+    "type": "BCTC",
+    "format": "Excel",
+    "fileName": "Bao_cao_ket_qua_kinh_doanh_B02_DN.xls",
+    "fileUrl": "/data/forms/Bao_cao_ket_qua_kinh_doanh_B02_DN.xls",
+    "description": "Báo cáo doanh thu, giá vốn, chi phí quản lý và lợi nhuận thuần trong kỳ theo Thông tư 99/2025/TT-BTC."
+  },
+  {
+    "id": "f19",
+    "code": "B03-DN",
+    "name": "Báo cáo lưu chuyển tiền tệ (Phương pháp gián tiếp)",
+    "type": "BCTC",
+    "format": "Excel",
+    "fileName": "Bao_cao_luu_chuyen_tien_te_B03_DN.xls",
+    "fileUrl": "/data/forms/Bao_cao_luu_chuyen_tien_te_B03_DN.xls",
+    "description": "Phân tích dòng tiền từ hoạt động kinh doanh, đầu tư và tài chính của Công ty Kiểu Việt theo quy định TT 99/2025."
+  },
+  {
+    "id": "f20",
+    "code": "B09-DN",
+    "name": "Bản thuyết minh Báo cáo tài chính",
+    "type": "BCTC",
+    "format": "Word",
+    "fileName": "Thuyet_minh_BCTC_B09_DN.doc",
+    "fileUrl": "/data/forms/Thuyet_minh_BCTC_B09_DN.doc",
+    "description": "Thuyết minh chi tiết các chính sách kế toán, biến động TSCĐ, các khoản dự phòng và thông tin giải trình theo TT 99/2025."
+  },
+  {
+    "id": "f21",
+    "code": "04/SS-HĐĐT",
+    "name": "Thông báo hóa đơn điện tử có sai sót (Mẫu 04/SS-HĐĐT)",
+    "type": "Hóa đơn",
+    "format": "Excel",
+    "fileName": "Thong_bao_sai_sot_hoa_don_04_SS.xls",
+    "fileUrl": "/data/forms/Thong_bao_sai_sot_hoa_don_04_SS.xls",
+    "description": "Mẫu thông báo gửi Cơ quan Thuế giải trình điều chỉnh, thay thế hoặc hủy hóa đơn điện tử sai sót theo NĐ 123/2020 và TT 78/2021."
+  },
+  {
+    "id": "f22",
+    "code": "01/ĐKTĐ-HĐĐT",
+    "name": "Tờ khai đăng ký sử dụng hóa đơn điện tử",
+    "type": "Hóa đơn",
+    "format": "Excel",
+    "fileName": "Dang_ky_su_dung_HDDT_01_DKTD.xls",
+    "fileUrl": "/data/forms/Dang_ky_su_dung_HDDT_01_DKTD.xls",
+    "description": "Tờ khai đăng ký áp dụng hoặc thay đổi thông tin sử dụng hóa đơn điện tử có mã/không có mã theo Nghị định 123/2020."
+  },
+  {
+    "id": "f23",
+    "code": "D02-LT",
+    "name": "Danh sách lao động tham gia BHXH, BHYT, BHTN",
+    "type": "Lao động",
+    "format": "Excel",
+    "fileName": "Danh_sach_lao_dong_BHXH_D02_LT.xls",
+    "fileUrl": "/data/forms/Danh_sach_lao_dong_BHXH_D02_LT.xls",
+    "description": "Mẫu biểu báo tăng, giảm lao động và điều chỉnh mức lương đóng BHXH/BHYT theo Quyết định 595/QĐ-BHXH & Luật BHXH 41/2024."
+  },
+  {
+    "id": "f24",
+    "code": "02-TSCĐ",
+    "name": "Thẻ tài sản cố định (Mẫu 02-TSCĐ)",
+    "type": "TSCĐ",
+    "format": "Excel",
+    "fileName": "The_tai_san_co_dinh_Mau_02_TSCD.xls",
+    "fileUrl": "/data/forms/The_tai_san_co_dinh_Mau_02_TSCD.xls",
+    "description": "Theo dõi nguyên giá, thời gian trích khấu hao, hao mòn lũy kế và giá trị còn lại theo Thông tư 45/2013/TT-BTC."
+  },
+  {
+    "id": "f25",
+    "code": "03-TSCĐ",
+    "name": "Biên bản thanh lý tài sản cố định (Mẫu 03-TSCĐ)",
+    "type": "TSCĐ",
+    "format": "Word",
+    "fileName": "Bien_ban_thanh_ly_TSCD_Mau_03_TSCD.doc",
+    "fileUrl": "/data/forms/Bien_ban_thanh_ly_TSCD_Mau_03_TSCD.doc",
+    "description": "Ghi nhận việc nhượng bán, thanh lý máy móc thiết bị hết hạn sử dụng hoặc hư hỏng không thể phục hồi tại Công ty Kiểu Việt."
   }
 ];

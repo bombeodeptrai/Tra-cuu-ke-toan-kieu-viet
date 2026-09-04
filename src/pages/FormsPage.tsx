@@ -17,7 +17,8 @@ const CATEGORIES = [
   'Hóa đơn',
   'TSCĐ',
   'Vật tư',
-  'Hợp đồng'
+  'Hợp đồng',
+  'BCTC'
 ];
 
 export function FormsPage() {
