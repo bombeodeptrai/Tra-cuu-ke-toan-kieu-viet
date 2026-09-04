@@ -44,74 +44,83 @@ export function DecreeDiffViewer({ decreeId }: DecreeDiffViewerProps) {
           onChange={(e) => setSelectedId(e.target.value)}
           className="text-xs bg-muted/50 border border-border rounded-lg px-3 py-2 text-foreground font-medium focus:ring-1 focus:ring-emerald-500 max-w-full sm:max-w-md cursor-pointer"
         >
-          <optgroup label="1. Chế độ Kế toán & Tài sản (15 Thông tư & Chuẩn mực)">
-            <option value="tt-99-2025">Thông tư 99/2025/TT-BTC (Chế độ KT mới vs TT 200)</option>
-            <option value="tt-200-2014">Thông tư 200/2014/TT-BTC (Chế độ KT Doanh nghiệp vs QĐ 15)</option>
-            <option value="tt-133-2016">Thông tư 133/2016/TT-BTC (Kế toán DNNVV vs QĐ 48)</option>
-            <option value="tt-46-2025">Thông tư 46/2025/TT-BTC (Sửa đổi TT 133)</option>
-            <option value="tt-45-2013">Thông tư 45/2013/TT-BTC (Khấu hao TSCĐ 30tr vs TT 203)</option>
-            <option value="tt-48-2019">Thông tư 48/2019/TT-BTC (Trích lập Dự phòng nợ vs TT 228)</option>
-            <option value="tt-24-2024-tt-btc">Thông tư 24/2024/TT-BTC (Kế toán HCSN vs TT 107)</option>
-            <option value="tt-108-2025">Thông tư 108/2025/TT-BTC (BCTC hợp nhất cơ quan NN)</option>
+          <optgroup label="1. 📊 Chế độ Kế toán & Chuẩn mực VAS (13 văn bản)">
+            <option value="tt-99-2025">Thông tư 99/2025/TT-BTC (Chế độ KT mới vs TT 200/2014 & TT 133)</option>
+            <option value="tt-200-2014">Thông tư 200/2014/TT-BTC (Chế độ KT Doanh nghiệp vs QĐ 15/2006)</option>
+            <option value="tt-133-2016">Thông tư 133/2016/TT-BTC (Kế toán DNNVV vs QĐ 48/2006)</option>
+            <option value="tt-46-2025">Thông tư 46/2025/TT-BTC (Sửa đổi TT 133/2016)</option>
+            <option value="tt-24-2024-tt-btc">Thông tư 24/2024/TT-BTC (Kế toán HCSN vs TT 107/2017)</option>
+            <option value="tt-108-2025">Thông tư 108/2025/TT-BTC (BCTC cơ quan nhà nước vs TT 99/2018)</option>
             <option value="luat-ke-toan-2015">Luật Kế toán 88/2015/QH13 (Chuẩn mực chung vs Luật 2003)</option>
             <option value="luat-56-2024">Luật sửa đổi 56/2024/QH15 (Sửa 9 Luật Tài chính & Kế toán)</option>
-            <option value="nd-174-2016">Nghị định 174/2016/NĐ-CP (Hướng dẫn Luật Kế toán)</option>
-            <option value="nd-41-2018">Nghị định 41/2018/NĐ-CP (Xử phạt Kế toán – Kiểm toán)</option>
+            <option value="nd-174-2016">Nghị định 174/2016/NĐ-CP (Hướng dẫn Luật Kế toán vs NĐ 128)</option>
+            <option value="nd-41-2018">Nghị định 41/2018/NĐ-CP (Xử phạt Kế toán – Kiểm toán vs NĐ 105)</option>
             <option value="vas-01">Chuẩn mực VAS 01 (Chuẩn mực kế toán chung)</option>
             <option value="vas-02">Chuẩn mực VAS 02 (Hàng tồn kho & NRV)</option>
             <option value="vas-14">Chuẩn mực VAS 14 (Doanh thu xây lắp & dịch vụ)</option>
           </optgroup>
 
-          <optgroup label="2. Thuế & Hóa đơn điện tử (15 văn bản)">
-            <option value="luat-67-2025-tndn">Luật Thuế TNDN 67/2025/QH15 (Thuế tối thiểu toàn cầu 15%)</option>
-            <option value="luat-thue-tndn">Luật Thuế TNDN 14/2008 (Thuế suất 20% vs 28%)</option>
-            <option value="nd-218-2013">Nghị định 218/2013/NĐ-CP (Hướng dẫn Thuế TNDN)</option>
-            <option value="tt-96-2015">Thông tư 96/2015/TT-BTC (Chi phí được trừ thuế TNDN vs TT 78)</option>
-            <option value="luat-thue-gtgt">Luật Thuế GTGT 13/2008 (Khấu trừ thuế vs Luật 1997)</option>
-            <option value="tt-219-2013">Thông tư 219/2013/TT-BTC (Thuế GTGT xây lắp vs TT 06)</option>
-            <option value="nd-180-2024-nd-cp">Nghị định 180/2024/NĐ-CP (Giảm 2% thuế GTGT xuống 8%)</option>
-            <option value="nd-15-2022">Nghị định 15/2022/NĐ-CP (Gói giảm thuế GTGT 2% phục hồi)</option>
-            <option value="nd-64-2024">Nghị định 64/2024/NĐ-CP (Gia hạn nộp thuế GTGT, TNDN, tiền thuê đất)</option>
-            <option value="nd-123-2020">Nghị định 123/2020/NĐ-CP (Hóa đơn điện tử bắt buộc vs HĐ giấy)</option>
-            <option value="tt-78-2021">Thông tư 78/2021/TT-BTC (Hóa đơn điện tử Mẫu 04/SS vs TT 39)</option>
-            <option value="nd-70-2025">Nghị định 70/2025/NĐ-CP (Chứng từ khấu trừ TNCN điện tử)</option>
-            <option value="nd-125-2020">Nghị định 125/2020/NĐ-CP (Phạt xuất HĐ sai thời điểm vs NĐ 129)</option>
-            <option value="luat-quan-ly-thue-2019">Luật Quản lý thuế 38/2019/QH14 (Phạt chậm nộp 0.03%/ngày)</option>
-            <option value="nd-126-2020">Nghị định 126/2020/NĐ-CP (Tạm nộp 80% thuế TNDN 4 quý)</option>
-            <option value="tt-80-2021">Thông tư 80/2021/TT-BTC (Phân bổ thuế xây dựng vãng lai 1% vs 2%)</option>
+          <optgroup label="2. 🏢 Thuế Thu nhập Doanh nghiệp - TNDN (5 văn bản)">
+            <option value="luat-67-2025-tndn">Luật Thuế TNDN 67/2025/QH15 (Thuế tối thiểu toàn cầu 15% vs Luật 14)</option>
+            <option value="luat-thue-tndn">Luật Thuế TNDN 14/2008/QH12 (Thuế suất 20% vs 28% Luật 09)</option>
+            <option value="nd-218-2013">Nghị định 218/2013/NĐ-CP (Hướng dẫn Luật Thuế TNDN vs NĐ 124)</option>
+            <option value="tt-96-2015">Thông tư 96/2015/TT-BTC (Chi phí được trừ thuế TNDN vs TT 78/2014)</option>
             <option value="nd-132-2020">Nghị định 132/2020/NĐ-CP (Giao dịch liên kết, trần lãi vay 30% EBITDA)</option>
           </optgroup>
 
-          <optgroup label="3. Lao động, Tiền lương & BHXH (7 văn bản)">
-            <option value="luat-109-2025-tncn">Luật Thuế TNCN 109/2025/QH15 (Giảm trừ 15.5tr/6.2tr vs Luật cũ)</option>
-            <option value="tt-111-2013">Thông tư 111/2013/TT-BTC (Khoán chi ăn ca 730k, trang phục 5tr vs TT 84)</option>
-            <option value="blld-45-2019">Bộ luật Lao động 45/2019/QH14 (Bỏ HĐLĐ mùa vụ, thêm nghỉ Quốc khánh)</option>
-            <option value="nd-73-2024">Nghị định 73/2024/NĐ-CP (Lương cơ sở 2.34tr tăng trần BHXH 46.8tr)</option>
-            <option value="nd-293-2025">Nghị định 293/2025/NĐ-CP (Lương tối thiểu vùng tăng 6% năm 2026)</option>
-            <option value="nd-145-2020">Nghị định 145/2020/NĐ-CP (Lương tăng ca, trần 300h xây dựng vs NĐ 05)</option>
-            <option value="nd-12-2022">Nghị định 12/2022/NĐ-CP (Xử phạt chậm đóng BHXH & ATVSLĐ vs NĐ 28)</option>
-            <option value="luat-41-2024">Luật Bảo hiểm xã hội 41/2024/QH15 (Đóng 15 năm hưởng hưu vs 20 năm)</option>
-            <option value="qd-595-2017-bhxh">Quyết định 595/QĐ-BHXH (Doanh nghiệp xây dựng đóng BHXH theo quý)</option>
+          <optgroup label="3. 🧾 Thuế Giá trị Gia tăng - GTGT (5 văn bản)">
+            <option value="luat-thue-gtgt">Luật Thuế GTGT 13/2008/QH12 (Khấu trừ thuế vs Luật 1997)</option>
+            <option value="tt-219-2013">Thông tư 219/2013/TT-BTC (Thuế GTGT xây lắp vs TT 06/2012)</option>
+            <option value="nd-180-2024-nd-cp">Nghị định 180/2024/NĐ-CP (Giảm 2% thuế GTGT xuống 8% vs NĐ 72)</option>
+            <option value="nd-15-2022">Nghị định 15/2022/NĐ-CP (Gói giảm thuế GTGT 2% phục hồi kinh tế)</option>
+            <option value="nd-64-2024">Nghị định 64/2024/NĐ-CP (Gia hạn nộp thuế GTGT, TNDN, tiền thuê đất)</option>
           </optgroup>
 
-          <optgroup label="4. Hợp đồng xây dựng & Chi phí đầu tư (3 văn bản)">
-            <option value="nd-50-2021">Nghị định 50/2021/NĐ-CP (Tạm ứng 50%, bù giá trọn gói vs NĐ 37)</option>
+          <optgroup label="4. 💻 Hóa đơn điện tử & Quản lý Thuế (7 văn bản)">
+            <option value="nd-123-2020">Nghị định 123/2020/NĐ-CP (Hóa đơn điện tử bắt buộc vs HĐ giấy NĐ 51)</option>
+            <option value="tt-78-2021">Thông tư 78/2021/TT-BTC (Hóa đơn điện tử Mẫu 04/SS vs TT 39)</option>
+            <option value="nd-70-2025">Nghị định 70/2025/NĐ-CP (Chứng từ khấu trừ TNCN điện tử, VNeID)</option>
+            <option value="nd-125-2020">Nghị định 125/2020/NĐ-CP (Phạt vi phạm Thuế & Hóa đơn vs NĐ 129)</option>
+            <option value="luat-quan-ly-thue-2019">Luật Quản lý thuế 38/2019/QH14 (Phạt chậm nộp 0.03%/ngày vs Luật 78)</option>
+            <option value="nd-126-2020">Nghị định 126/2020/NĐ-CP (Tạm nộp 80% thuế TNDN 4 quý vs NĐ 83)</option>
+            <option value="tt-80-2021">Thông tư 80/2021/TT-BTC (Phân bổ thuế xây dựng vãng lai 1% vs TT 156)</option>
+          </optgroup>
+
+          <optgroup label="5. 👥 Thuế TNCN, Tiền lương & BHXH (9 văn bản)">
+            <option value="luat-109-2025-tncn">Luật Thuế TNCN 109/2025/QH15 (Giảm trừ 15.5tr/6.2tr vs Luật 04)</option>
+            <option value="tt-111-2013">Thông tư 111/2013/TT-BTC (Khoán chi ăn ca, trang phục công trường vs TT 84)</option>
+            <option value="nd-293-2025">Nghị định 293/2025/NĐ-CP (Lương tối thiểu vùng năm 2026 vs NĐ 74)</option>
+            <option value="blld-45-2019">Bộ luật Lao động 45/2019/QH14 (Bỏ HĐLĐ mùa vụ, thêm nghỉ Quốc khánh)</option>
+            <option value="nd-73-2024">Nghị định 73/2024/NĐ-CP (Lương cơ sở 2.34tr tăng trần BHXH 46.8tr)</option>
+            <option value="nd-145-2020">Nghị định 145/2020/NĐ-CP (Lương tăng ca, trần 300h xây dựng vs NĐ 05)</option>
+            <option value="nd-12-2022">Nghị định 12/2022/NĐ-CP (Xử phạt trốn đóng BHXH & ATVSLĐ vs NĐ 28)</option>
+            <option value="luat-41-2024">Luật Bảo hiểm xã hội 41/2024/QH15 (Đóng 15 năm hưởng hưu vs Luật 58)</option>
+            <option value="qd-595-2017-bhxh">Quyết định 595/QĐ-BHXH (Quy trình thu nộp BHXH doanh nghiệp xây dựng)</option>
+          </optgroup>
+
+          <optgroup label="6. 🏗️ Hợp đồng Xây dựng & Quản lý Dự toán (3 văn bản)">
             <option value="nd-37-2015">Nghị định 37/2015/NĐ-CP (Thời hạn CĐT thanh toán 14 ngày vs NĐ 48)</option>
+            <option value="nd-50-2021">Nghị định 50/2021/NĐ-CP (Tạm ứng 50%, bù giá trọn gói vs NĐ 37)</option>
             <option value="nd-10-2021">Nghị định 10/2021/NĐ-CP (Quản lý dự toán, định mức XD vs NĐ 68)</option>
           </optgroup>
 
-          <optgroup label="5. Khoáng sản, Tài nguyên & Lệ phí khác (12 văn bản)">
+          <optgroup label="7. ⛏️ Khai thác Mỏ, Thuế Tài nguyên & Phí BVMT (7 văn bản)">
             <option value="luat-54-2024-khoangsan">Luật Địa chất và Khoáng sản 54/2024 (Phân 4 nhóm khoáng sản vs Luật 2010)</option>
-            <option value="nd-193-2025-khoangsan">Nghị định 193/2025/NĐ-CP (Cấp phép mỏ đất đắp công trình trọng điểm)</option>
+            <option value="nd-193-2025-khoangsan">Nghị định 193/2025/NĐ-CP (Cơ chế mỏ đất đắp cao tốc vs NĐ 158)</option>
             <option value="qd-87-2025-gialai">Quyết định 87/2025/QĐ-UBND (Bảng giá tính thuế tài nguyên 2026 Gia Lai)</option>
-            <option value="tt-152-2015">Thông tư 152/2015/TT-BTC (Thuế Tài nguyên đá cát đất vs TT 105)</option>
-            <option value="tt-44-2017">Thông tư 44/2017/TT-BTC (Khung giá tính thuế tài nguyên toàn quốc)</option>
-            <option value="nd-27-2023">Nghị định 27/2023/NĐ-CP (Phí bảo vệ môi trường khoáng sản vs NĐ 164)</option>
+            <option value="nd-27-2023">Nghị định 27/2023/NĐ-CP (Phí BVMT khai thác khoáng sản vs NĐ 164)</option>
+            <option value="tt-152-2015">Thông tư 152/2015/TT-BTC (Thuế Tài nguyên đá mỏ cát đất vs TT 105)</option>
             <option value="nd-67-2019">Nghị định 67/2019/NĐ-CP (Tiền cấp quyền khai thác khoáng sản vs NĐ 203)</option>
-            <option value="nd-22-2020">Nghị định 22/2020/NĐ-CP (Miễn lệ phí môn bài năm đầu thành lập)</option>
-            <option value="nd-139-2016">Nghị định 139/2016/NĐ-CP (3 Bậc mức thu lệ phí môn bài)</option>
-            <option value="luat-gd-dien-tu-20-2023">Luật Giao dịch điện tử 20/2023 (Chữ ký số & Hợp đồng điện tử)</option>
-            <option value="luat-thue-xnk-107-2016">Luật Thuế XNK 107/2016 (Miễn thuế nhập khẩu máy móc TSCĐ)</option>
+            <option value="tt-44-2017">Thông tư 44/2017/TT-BTC (Khung giá tính thuế tài nguyên toàn quốc)</option>
+          </optgroup>
+
+          <optgroup label="8. 📑 TSCĐ, Dự phòng & Lệ phí khác (6 văn bản)">
+            <option value="tt-45-2013">Thông tư 45/2013/TT-BTC (Khung khấu hao TSCĐ máy móc vs TT 203)</option>
+            <option value="tt-48-2019">Thông tư 48/2019/TT-BTC (Trích lập dự phòng nợ xấu, hàng tồn kho vs TT 228)</option>
+            <option value="nd-139-2016">Nghị định 139/2016/NĐ-CP (3 Bậc mức thu lệ phí môn bài vs Pháp lệnh 1983)</option>
+            <option value="nd-22-2020">Nghị định 22/2020/NĐ-CP (Miễn lệ phí môn bài năm đầu thành lập vs NĐ 139)</option>
+            <option value="luat-gd-dien-tu-20-2023">Luật Giao dịch điện tử 20/2023 (Chữ ký số & HĐ điện tử vs Luật 2005)</option>
+            <option value="luat-thue-xnk-107-2016">Luật Thuế XNK 107/2016 (Miễn thuế nhập khẩu máy móc TSCĐ vs Luật 2005)</option>
           </optgroup>
         </select>
       </div>
@@ -127,9 +136,14 @@ export function DecreeDiffViewer({ decreeId }: DecreeDiffViewerProps) {
                 <span className="text-muted-foreground font-normal">đối chiếu với:</span>
                 <span className="underline decoration-emerald-500 underline-offset-4 font-semibold">{diffData.compareWith}</span>
               </div>
-              <Badge variant="outline" className="bg-white/80 dark:bg-background/80 text-emerald-700 dark:text-emerald-300 text-[11px]">
-                {diffData.category}
-              </Badge>
+              <div className="flex items-center gap-1.5">
+                <Badge variant="outline" className="bg-emerald-100 dark:bg-emerald-950 text-emerald-800 dark:text-emerald-300 text-[11px] font-semibold border-emerald-300">
+                  Cùng Sắc Thuế / Chuyên Đề
+                </Badge>
+                <Badge variant="outline" className="bg-white/80 dark:bg-background/80 text-emerald-700 dark:text-emerald-300 text-[11px]">
+                  {diffData.category}
+                </Badge>
+              </div>
             </div>
             <p className="text-xs md:text-sm text-foreground/80 leading-relaxed">
               {diffData.summary}
