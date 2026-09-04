@@ -5,6 +5,7 @@ import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { useNavigate } from 'react-router-dom';
+import { DecreeDiffAIChat } from './DecreeDiffAIChat';
 
 import { DIFF_DATABASE, DecreeDiffData, DiffItem } from '@/data/diff-database';
 export type { DecreeDiffData, DiffItem };
@@ -134,6 +135,9 @@ export function DecreeDiffViewer({ decreeId }: DecreeDiffViewerProps) {
               {diffData.summary}
             </p>
           </div>
+
+          {/* AI Box Chat Đối Chiếu Pháp Lý Tức Thời */}
+          <DecreeDiffAIChat currentDiff={diffData} />
 
           {/* Thanh tìm kiếm nhanh */}
           <div className="flex items-center justify-between gap-4">
