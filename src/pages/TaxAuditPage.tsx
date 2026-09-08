@@ -469,6 +469,7 @@ export function TaxAuditPage() {
                 return (
                   <div
                     key={item.id}
+                    data-checklist-item={item.id}
                     className={`p-4 rounded-xl border transition-all duration-200 ${
                       isChecked 
                         ? 'bg-emerald-50/40 dark:bg-emerald-950/20 border-emerald-200 dark:border-emerald-900/40 opacity-80' 
