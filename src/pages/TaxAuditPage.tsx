@@ -124,6 +124,8 @@ export function TaxAuditPage() {
 
   const criticalItems = allItems.filter(i => i.priority === 'critical');
   const criticalPending = criticalItems.filter(i => !checkedItems[i.id]).length;
+  const importantItems = allItems.filter(i => i.priority === 'important');
+  const recommendedItems = allItems.filter(i => i.priority === 'recommended');
 
   // Risk calculation
   const totalRiskScore = useMemo(() => {
@@ -400,7 +402,7 @@ export function TaxAuditPage() {
                 onClick={() => setFilterPriority('all')}
                 className={`px-2 py-0.5 rounded text-xs ${filterPriority === 'all' ? 'bg-muted font-bold text-foreground' : 'hover:text-foreground'}`}
               >
-                Tất cả
+                Tất cả ({totalItems})
               </button>
               <button 
                 onClick={() => setFilterPriority('critical')}
@@ -412,13 +414,13 @@ export function TaxAuditPage() {
                 onClick={() => setFilterPriority('important')}
                 className={`px-2 py-0.5 rounded text-xs text-amber-600 ${filterPriority === 'important' ? 'bg-amber-100 dark:bg-amber-950 font-bold' : 'hover:underline'}`}
               >
-                🟡 Quan trọng
+                🟡 Quan trọng ({importantItems.length})
               </button>
               <button 
                 onClick={() => setFilterPriority('recommended')}
                 className={`px-2 py-0.5 rounded text-xs text-emerald-600 ${filterPriority === 'recommended' ? 'bg-emerald-100 dark:bg-emerald-950 font-bold' : 'hover:underline'}`}
               >
-                🟢 Khuyến nghị
+                🟢 Khuyến nghị ({recommendedItems.length})
               </button>
             </div>
           </div>
