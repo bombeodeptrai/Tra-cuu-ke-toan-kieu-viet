@@ -4,7 +4,7 @@ import {
   ExternalLink, Filter, RotateCcw, Download, Printer, ChevronRight, 
   Building2, Sparkles, HelpCircle, Check, X, AlertCircle, ArrowRight,
   TrendingUp, BarChart3, Scale, BookOpen, Search, Copy, Bot,
-  FileSpreadsheet, MessageSquareText
+  FileSpreadsheet, MessageSquareText, ChevronDown, ChevronUp
 } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
@@ -55,6 +55,29 @@ export function TaxAuditPage() {
   // Selected template in Tab 5
   const [selectedTemplateId, setSelectedTemplateId] = useState<string>(AUDIT_TEMPLATES[0].id);
   const [copiedTemplate, setCopiedTemplate] = useState<boolean>(false);
+
+  // State mở rộng chi tiết hướng dẫn thực chiến (20+ dòng)
+  const [expandedItems, setExpandedItems] = useState<Record<string, boolean>>({});
+  const [expandAll, setExpandAll] = useState<boolean>(false);
+
+  const toggleExpandItem = (id: string) => {
+    setExpandedItems(prev => ({
+      ...prev,
+      [id]: !prev[id]
+    }));
+  };
+
+  const handleToggleExpandAll = () => {
+    const next = !expandAll;
+    setExpandAll(next);
+    if (next) {
+      const allExp: Record<string, boolean> = {};
+      allItems.forEach(i => { allExp[i.id] = true; });
+      setExpandedItems(allExp);
+    } else {
+      setExpandedItems({});
+    }
+  };
 
   // Save checked items to localStorage
   useEffect(() => {
@@ -338,6 +361,15 @@ export function TaxAuditPage() {
                 <Button 
                   variant="outline" 
                   size="sm" 
+                  onClick={handleToggleExpandAll}
+                  className="h-8 text-xs text-emerald-700 dark:text-emerald-300 border-emerald-300 dark:border-emerald-800 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 gap-1.5"
+                >
+                  {expandAll ? <ChevronUp className="h-3.5 w-3.5 text-emerald-600" /> : <ChevronDown className="h-3.5 w-3.5 text-emerald-600" />}
+                  {expandAll ? 'Thu gọn chi tiết' : 'Mở rộng 100% chi tiết (20+ dòng)'}
+                </Button>
+                <Button 
+                  variant="outline" 
+                  size="sm" 
                   onClick={() => window.print()}
                   className="h-8 text-xs gap-1.5"
                 >
@@ -488,11 +520,97 @@ export function TaxAuditPage() {
                           {item.description}
                         </p>
 
-                        <div className="flex items-center gap-2 pt-1 text-[11px] text-muted-foreground">
+                        <div className="flex flex-wrap items-center justify-between gap-2 pt-1 text-[11px] text-muted-foreground border-t border-border/40 mt-2">
                           <span className="font-semibold text-emerald-700 dark:text-emerald-300">
                             Lộ trình: Giai đoạn {item.phase} ({item.phase === 1 ? 'Trước 30 ngày' : item.phase === 2 ? 'Trước 15 ngày' : 'Trước 7 ngày'})
                           </span>
+
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            onClick={() => toggleExpandItem(item.id)}
+                            className="h-6 text-xs text-emerald-700 dark:text-emerald-300 hover:bg-emerald-50 dark:hover:bg-emerald-950/50 gap-1 px-2 font-semibold cursor-pointer"
+                          >
+                            {(expandedItems[item.id] ?? expandAll) ? <ChevronUp className="h-3.5 w-3.5" /> : <ChevronDown className="h-3.5 w-3.5" />}
+                            <span>{(expandedItems[item.id] ?? expandAll) ? 'Thu gọn chi tiết' : 'Xem chi tiết thực chiến (4 trụ cột)'}</span>
+                          </Button>
                         </div>
+
+                        {/* CHI TIẾT CHUYÊN SÂU 4 TRỤ CỘT (20+ DÒNG MÔ TẢ) */}
+                        {(expandedItems[item.id] ?? expandAll) && (
+                          <div className="mt-3 pt-3 border-t border-border/60 space-y-3 text-xs animate-in fade-in-50 duration-200">
+                            {/* Trụ cột 1: Hồ sơ & Chứng từ gốc */}
+                            {item.documentsRequired && item.documentsRequired.length > 0 && (
+                              <div className="bg-muted/40 dark:bg-muted/20 rounded-xl p-3 border border-border/50">
+                                <div className="flex items-center gap-1.5 font-bold text-foreground mb-1.5">
+                                  <span className="flex items-center justify-center h-4 w-4 rounded bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300 text-[10px]">📂</span>
+                                  <span>1. Danh mục Hồ sơ & Chứng từ gốc bắt buộc phải kẹp cùng:</span>
+                                </div>
+                                <ul className="space-y-1 pl-5 list-disc text-muted-foreground">
+                                  {item.documentsRequired.map((doc, dIdx) => (
+                                    <li key={dIdx} className="leading-relaxed">
+                                      <span className="text-foreground font-medium">{doc}</span>
+                                    </li>
+                                  ))}
+                                </ul>
+                              </div>
+                            )}
+
+                            {/* Trụ cột 2: Quy trình rà soát tài khoản kế toán */}
+                            {item.accountingSteps && item.accountingSteps.length > 0 && (
+                              <div className="bg-muted/40 dark:bg-muted/20 rounded-xl p-3 border border-border/50">
+                                <div className="flex items-center gap-1.5 font-bold text-foreground mb-1.5">
+                                  <span className="flex items-center justify-center h-4 w-4 rounded bg-purple-100 dark:bg-purple-950 text-purple-700 dark:text-purple-300 text-[10px]">📊</span>
+                                  <span>2. Quy trình rà soát sổ sách & Đối ứng tài khoản kế toán:</span>
+                                </div>
+                                <div className="space-y-1.5 pl-1 text-muted-foreground">
+                                  {item.accountingSteps.map((step, sIdx) => (
+                                    <div key={sIdx} className="leading-relaxed flex items-start gap-2">
+                                      <span className="text-purple-600 font-bold shrink-0">•</span>
+                                      <span className="text-foreground">{step}</span>
+                                    </div>
+                                  ))}
+                                </div>
+                              </div>
+                            )}
+
+                            {/* Trụ cột 3 & 4: Rủi ro bóc tách và Phương án giải trình */}
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                              {/* Rủi ro */}
+                              {item.auditRisks && item.auditRisks.length > 0 && (
+                                <div className="bg-red-50/40 dark:bg-red-950/20 rounded-xl p-3 border border-red-200 dark:border-red-900/40">
+                                  <div className="flex items-center gap-1.5 font-bold text-red-700 dark:text-red-300 mb-1.5">
+                                    <span className="flex items-center justify-center h-4 w-4 rounded bg-red-100 dark:bg-red-900/60 text-red-700 dark:text-red-300 text-[10px]">⚠️</span>
+                                    <span>3. Điểm nóng thuế hay bóc tách & Mức phạt:</span>
+                                  </div>
+                                  <ul className="space-y-1 pl-4 list-disc text-red-900/80 dark:text-red-300/80">
+                                    {item.auditRisks.map((risk, rIdx) => (
+                                      <li key={rIdx} className="leading-relaxed">{risk}</li>
+                                    ))}
+                                  </ul>
+                                </div>
+                              )}
+
+                              {/* Giải trình thực chiến */}
+                              {item.defenseStrategy && item.defenseStrategy.length > 0 && (
+                                <div className="bg-emerald-50/40 dark:bg-emerald-950/20 rounded-xl p-3 border border-emerald-200 dark:border-emerald-900/40">
+                                  <div className="flex items-center gap-1.5 font-bold text-emerald-800 dark:text-emerald-300 mb-1.5">
+                                    <span className="flex items-center justify-center h-4 w-4 rounded bg-emerald-100 dark:bg-emerald-900/60 text-emerald-700 dark:text-emerald-300 text-[10px]">🛡️</span>
+                                    <span>4. Phương án giải trình & Lập luận bảo vệ:</span>
+                                  </div>
+                                  <div className="space-y-1 text-emerald-900/90 dark:text-emerald-300/90">
+                                    {item.defenseStrategy.map((def, dfIdx) => (
+                                      <div key={dfIdx} className="leading-relaxed flex items-start gap-1.5">
+                                        <span className="text-emerald-600 font-bold shrink-0">✓</span>
+                                        <span>{def}</span>
+                                      </div>
+                                    ))}
+                                  </div>
+                                </div>
+                              )}
+                            </div>
+                          </div>
+                        )}
                       </div>
                     </div>
                   </div>
