@@ -11,6 +11,7 @@ import { ChartOfAccountsPage } from './pages/ChartOfAccountsPage';
 import { FormsPage } from './pages/FormsPage';
 import { ToolsPage } from './pages/ToolsPage';
 import { ComparisonPage } from './pages/ComparisonPage';
+import { TaxAuditPage } from './pages/TaxAuditPage';
 import { GuidePage } from './pages/GuidePage';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { NotesPage } from './pages/NotesPage';
@@ -51,6 +52,7 @@ export default function App() {
             <Route path="bieu-mau" element={<FormsPage />} />
             <Route path="tien-ich" element={<ToolsPage />} />
             <Route path="so-sanh" element={<ComparisonPage />} />
+            <Route path="kiem-tra-thue" element={<TaxAuditPage />} />
             <Route path="hoi-dap-ai" element={<ChatAIPage />} />
             <Route path="so-tay" element={<NotesPage />} />
             <Route path="huong-dan" element={<GuidePage />} />

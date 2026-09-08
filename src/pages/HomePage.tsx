@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Search, FileText, FolderOpen, Bot, RefreshCw, Building2, Calculator, ArrowRightLeft, Scale, ArrowUpRight, Sparkles } from 'lucide-react';
+import { Search, FileText, FolderOpen, Bot, RefreshCw, Building2, Calculator, ArrowRightLeft, Scale, ArrowUpRight, Sparkles, ShieldCheck } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
@@ -199,6 +199,34 @@ export function HomePage() {
           <span className="text-[11px] text-amber-700 dark:text-amber-400 font-semibold mt-3 flex items-center gap-1">
             Tra cứu văn bản XD &rarr;
           </span>
+        </div>
+      </div>
+
+      {/* Banner Nổi Bật: Chuẩn Bị Kiểm Tra Thuế Hàng Năm */}
+      <div 
+        onClick={() => navigate('/kiem-tra-thue')}
+        className="relative overflow-hidden rounded-2xl bg-gradient-to-r from-emerald-950 via-teal-950 to-slate-900 border border-emerald-500/40 p-5 sm:p-6 text-white shadow-md cursor-pointer hover:border-emerald-400 transition-all hover:scale-[1.005] group"
+      >
+        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 relative z-10">
+          <div className="flex items-center gap-4">
+            <div className="p-3 bg-emerald-500/20 border border-emerald-400/30 rounded-2xl text-emerald-300 shrink-0 group-hover:scale-110 transition-transform">
+              <ShieldCheck className="h-8 w-8" />
+            </div>
+            <div className="space-y-1">
+              <div className="flex items-center gap-2">
+                <span className="font-bold text-base sm:text-lg text-white group-hover:text-emerald-300 transition-colors">
+                  Trợ Lý Chuẩn Bị Kiểm Tra Thuế Doanh Nghiệp (Thực Chiến 2026)
+                </span>
+                <Badge className="bg-emerald-500/30 text-emerald-300 border-emerald-400/40 text-[10px]">MỚI</Badge>
+              </div>
+              <p className="text-xs sm:text-sm text-slate-300 max-w-2xl leading-relaxed">
+                Checklist 7 nhóm sắc thuế (TNDN, GTGT, TNCN, Hóa đơn, BHXH, Mỏ đá, BCTC), công cụ tự đo lường rủi ro xử phạt và lộ trình chuẩn bị 30-15-7 ngày tiếp đoàn kiểm tra.
+              </p>
+            </div>
+          </div>
+          <Button size="sm" className="bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs gap-1.5 shrink-0 rounded-xl shadow-xs">
+            Mở Trợ Lý Thanh Tra &rarr;
+          </Button>
         </div>
       </div>
 
