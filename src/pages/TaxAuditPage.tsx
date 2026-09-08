@@ -3,11 +3,13 @@ import {
   ShieldCheck, AlertTriangle, CheckCircle2, Clock, FileText, 
   ExternalLink, Filter, RotateCcw, Download, Printer, ChevronRight, 
   Building2, Sparkles, HelpCircle, Check, X, AlertCircle, ArrowRight,
-  TrendingUp, BarChart3, Scale, BookOpen
+  TrendingUp, BarChart3, Scale, BookOpen, Search, Copy, Bot,
+  FileSpreadsheet, MessageSquareText
 } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
 import { useNavigate } from 'react-router-dom';
 import { 
@@ -17,6 +19,8 @@ import {
   ChecklistItem, 
   CheckPriority 
 } from '@/data/tax-audit-checklist';
+import { AUDIT_TEMPLATES, AuditTemplate } from '@/data/tax-audit-templates';
+import { TaxAuditAIChat } from '@/components/tax-audit/TaxAuditAIChat';
 
 const STORAGE_KEY_ITEMS = 'kv_tax_audit_checked_items';
 const STORAGE_KEY_RISK = 'kv_tax_audit_risk_answers';
@@ -46,6 +50,11 @@ export function TaxAuditPage() {
 
   const [selectedGroup, setSelectedGroup] = useState<string>('all');
   const [filterPriority, setFilterPriority] = useState<string>('all');
+  const [searchQuery, setSearchQuery] = useState<string>('');
+
+  // Selected template in Tab 5
+  const [selectedTemplateId, setSelectedTemplateId] = useState<string>(AUDIT_TEMPLATES[0].id);
+  const [copiedTemplate, setCopiedTemplate] = useState<boolean>(false);
 
   // Save checked items to localStorage
   useEffect(() => {
@@ -92,14 +101,21 @@ export function TaxAuditPage() {
     return TAX_AUDIT_GROUPS.flatMap(g => g.items);
   }, []);
 
-  // Filtered items
+  // Filtered items (by group, priority, and search query)
   const filteredItems = useMemo(() => {
+    const q = searchQuery.toLowerCase().trim();
     return allItems.filter(item => {
       const matchGroup = selectedGroup === 'all' || TAX_AUDIT_GROUPS.find(g => g.id === selectedGroup)?.items.some(i => i.id === item.id);
       const matchPriority = filterPriority === 'all' || item.priority === filterPriority;
-      return matchGroup && matchPriority;
+      const matchSearch = !q || 
+        item.title.toLowerCase().includes(q) || 
+        item.description.toLowerCase().includes(q) ||
+        item.decreeLabel.toLowerCase().includes(q) ||
+        (item.articleNum && `điều ${item.articleNum}`.includes(q));
+
+      return matchGroup && matchPriority && matchSearch;
     });
-  }, [allItems, selectedGroup, filterPriority]);
+  }, [allItems, selectedGroup, filterPriority, searchQuery]);
 
   // Calculations
   const totalItems = allItems.length;
@@ -136,14 +152,43 @@ export function TaxAuditPage() {
     }
   };
 
+  const selectedTemplate = useMemo(() => {
+    return AUDIT_TEMPLATES.find(t => t.id === selectedTemplateId) || AUDIT_TEMPLATES[0];
+  }, [selectedTemplateId]);
+
+  const handleCopyTemplate = () => {
+    navigator.clipboard.writeText(selectedTemplate.templateContent);
+    setCopiedTemplate(true);
+    setTimeout(() => setCopiedTemplate(false), 2000);
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 animate-in fade-in duration-300">
-      {/* Banner Doanh Nghiệp */}
-      <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-slate-900 via-emerald-950 to-teal-950 text-white p-6 sm:p-8 md:p-10 shadow-xl border border-emerald-800/40">
+      {/* Printable Report Header (Active on print) */}
+      <div className="hidden print:block border-b-2 border-black pb-4 mb-6">
+        <div className="flex justify-between items-start">
+          <div>
+            <h2 className="text-sm font-bold uppercase">CÔNG TY CỔ PHẦN KIỂU VIỆT</h2>
+            <p className="text-xs">Phòng Tài chính - Kế toán</p>
+            <p className="text-xs">Mã số thuế: 5901168128 | Gia Lai</p>
+          </div>
+          <div className="text-right">
+            <h3 className="text-sm font-bold uppercase">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</h3>
+            <p className="text-xs italic">Độc lập - Tự do - Hạnh phúc</p>
+          </div>
+        </div>
+        <div className="text-center mt-6">
+          <h1 className="text-lg font-black uppercase">BIÊN BẢN TỰ RÀ SOÁT HỒ SƠ PHỤC VỤ THANH TRA / KIỂM TRA THUẾ</h1>
+          <p className="text-xs text-gray-600 mt-1">Ngày lập: {new Date().toLocaleDateString('vi-VN')} | Tiến độ hoàn thành: {progressPercent}% ({completedCount}/{totalItems} mục)</p>
+        </div>
+      </div>
+
+      {/* Banner Doanh Nghiệp (Screen Only) */}
+      <div className="print:hidden relative overflow-hidden rounded-3xl bg-gradient-to-r from-slate-900 via-emerald-950 to-teal-950 text-white p-6 sm:p-8 md:p-10 shadow-xl border border-emerald-800/40">
         <div className="relative z-10 max-w-3xl space-y-3">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur-md text-emerald-300 text-xs font-semibold border border-emerald-500/30">
             <Building2 className="h-3.5 w-3.5 text-emerald-400" />
-            CÔNG TY CỔ PHẦN KIỂU VIỆT — PHÒNG THỦ PHÁP LÝ & THANH TRA THUẾ
+            CÔNG TY CỔ PHẦN KIỂU VIỆT — HỆ THỐNG PHÒNG THỦ & THANH TRA THUẾ
           </div>
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-black tracking-tight text-white flex items-center gap-3">
             <ShieldCheck className="h-8 w-8 text-emerald-400 shrink-0" />
@@ -151,13 +196,13 @@ export function TaxAuditPage() {
           </h1>
           <p className="text-sm md:text-base text-slate-300 leading-relaxed font-normal">
             Hệ thống rà soát toàn diện 7 nhóm sắc thuế (TNDN, GTGT, TNCN, Hóa đơn, BHXH, Mỏ đá Gia Lai, BCTC), 
-            công cụ tự đo lường rủi ro xử phạt và lộ trình chuẩn bị 3 giai đoạn (30-15-7 ngày) trước khi tiếp đoàn kiểm tra thuế.
+            bộ mẫu biểu giải trình thực chiến, công cụ tự đo lường rủi ro và trợ lý AI phản biện bảo vệ chi phí hợp lệ.
           </p>
         </div>
       </div>
 
-      {/* 4 THẺ DASHBOARD TỔNG QUAN */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      {/* 4 THẺ DASHBOARD TỔNG QUAN (Screen Only) */}
+      <div className="print:hidden grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {/* Card 1: Tiến độ hồ sơ */}
         <Card className="border-border shadow-xs">
           <CardContent className="p-5 space-y-2">
@@ -182,7 +227,7 @@ export function TaxAuditPage() {
           </CardContent>
         </Card>
 
-        {/* Card 2: Mục bắt buộc còn thiếu */}
+        {/* Card 2: Mục bắt buộc chưa xong */}
         <Card className={`border-border shadow-xs ${criticalPending > 0 ? 'bg-red-50/40 dark:bg-red-950/20 border-red-200 dark:border-red-900/40' : ''}`}>
           <CardContent className="p-5 space-y-2">
             <div className="flex items-center justify-between text-xs font-bold text-muted-foreground uppercase">
@@ -239,24 +284,32 @@ export function TaxAuditPage() {
         </Card>
       </div>
 
-      {/* TABS NỘI DUNG CHÍNH */}
-      <Tabs defaultValue="checklist" className="space-y-6">
+      {/* TABS NỘI DUNG CHÍNH (Screen Only) */}
+      <Tabs defaultValue="checklist" className="print:hidden space-y-6">
         <TabsList className="bg-muted p-1 rounded-2xl w-full flex flex-wrap sm:inline-flex h-auto gap-1">
-          <TabsTrigger value="checklist" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-4">
+          <TabsTrigger value="checklist" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
             <FileText className="h-4 w-4 text-emerald-600" /> 
             1. Checklist Hồ Sơ ({completedCount}/{totalItems})
           </TabsTrigger>
-          <TabsTrigger value="risk" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-4">
+          <TabsTrigger value="risk" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
             <AlertTriangle className="h-4 w-4 text-amber-600" /> 
             2. Tự Đánh Giá Rủi Ro ({totalRiskScore}đ)
           </TabsTrigger>
-          <TabsTrigger value="timeline" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-4">
+          <TabsTrigger value="timeline" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
             <Clock className="h-4 w-4 text-blue-600" /> 
             3. Lộ Trình 30-15-7 Ngày
           </TabsTrigger>
-          <TabsTrigger value="rights" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-4">
+          <TabsTrigger value="rights" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
             <ShieldCheck className="h-4 w-4 text-purple-600" /> 
             4. Quyền DN & Kỹ Năng Tiếp Đoàn
+          </TabsTrigger>
+          <TabsTrigger value="templates" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
+            <FileSpreadsheet className="h-4 w-4 text-teal-600" /> 
+            5. Mẫu Biểu Giải Trình (6 Mẫu)
+          </TabsTrigger>
+          <TabsTrigger value="ai-advisor" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
+            <Bot className="h-4 w-4 text-emerald-500 animate-pulse" /> 
+            6. Trợ Lý AI Phản Biện (Gemini)
           </TabsTrigger>
         </TabsList>
 
@@ -264,7 +317,7 @@ export function TaxAuditPage() {
         {/* TAB 1: CHECKLIST HỒ SƠ CHI TIẾT */}
         {/* ========================================================================= */}
         <TabsContent value="checklist" className="space-y-6">
-          {/* Bộ lọc nhóm và độ ưu tiên */}
+          {/* Bộ lọc nhóm, tìm kiếm và độ ưu tiên */}
           <div className="bg-card rounded-2xl border border-border p-4 shadow-xs space-y-3">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div className="flex items-center gap-2 text-xs font-bold text-foreground uppercase">
@@ -286,9 +339,29 @@ export function TaxAuditPage() {
                   onClick={() => window.print()}
                   className="h-8 text-xs gap-1.5"
                 >
-                  <Printer className="h-3.5 w-3.5" /> In danh mục
+                  <Printer className="h-3.5 w-3.5" /> In danh mục A4
                 </Button>
               </div>
+            </div>
+
+            {/* Ô tìm kiếm nhanh */}
+            <div className="relative">
+              <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
+              <Input
+                type="search"
+                placeholder="Tìm kiếm mục kiểm tra (ví dụ: hóa đơn, khấu hao, mỏ đá, trích trước 335, BHXH, vãng lai 1%...)"
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+                className="pl-10 pr-14 h-10 text-xs rounded-xl bg-muted/30 focus-visible:ring-emerald-500/30"
+              />
+              {searchQuery && (
+                <button 
+                  onClick={() => setSearchQuery('')}
+                  className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-muted-foreground hover:text-foreground font-semibold"
+                >
+                  Xóa
+                </button>
+              )}
             </div>
 
             {/* Selector các nhóm */}
@@ -352,72 +425,78 @@ export function TaxAuditPage() {
 
           {/* Danh sách các mục checklist */}
           <div className="space-y-3">
-            {filteredItems.map(item => {
-              const isChecked = Boolean(checkedItems[item.id]);
-              return (
-                <div
-                  key={item.id}
-                  className={`p-4 rounded-xl border transition-all duration-200 ${
-                    isChecked 
-                      ? 'bg-emerald-50/40 dark:bg-emerald-950/20 border-emerald-200 dark:border-emerald-900/40 opacity-80' 
-                      : 'bg-card border-border hover:border-emerald-300 shadow-2xs'
-                  }`}
-                >
-                  <div className="flex items-start gap-3.5">
-                    {/* Checkbox */}
-                    <button
-                      type="button"
-                      onClick={() => toggleItem(item.id)}
-                      className={`mt-0.5 h-5 w-5 rounded-md border flex items-center justify-center shrink-0 transition-colors cursor-pointer ${
-                        isChecked 
-                          ? 'bg-emerald-600 border-emerald-600 text-white' 
-                          : 'border-muted-foreground/40 hover:border-emerald-500 bg-background'
-                      }`}
-                      title={isChecked ? 'Đánh dấu chưa hoàn thành' : 'Đánh dấu đã hoàn thành'}
-                    >
-                      {isChecked && <Check className="h-3.5 w-3.5 stroke-[3]" />}
-                    </button>
+            {filteredItems.length === 0 ? (
+              <div className="text-center py-12 bg-card rounded-xl border border-dashed border-border text-muted-foreground text-xs">
+                Không tìm thấy mục kiểm tra nào phù hợp với từ khóa "{searchQuery}".
+              </div>
+            ) : (
+              filteredItems.map(item => {
+                const isChecked = Boolean(checkedItems[item.id]);
+                return (
+                  <div
+                    key={item.id}
+                    className={`p-4 rounded-xl border transition-all duration-200 ${
+                      isChecked 
+                        ? 'bg-emerald-50/40 dark:bg-emerald-950/20 border-emerald-200 dark:border-emerald-900/40 opacity-80' 
+                        : 'bg-card border-border hover:border-emerald-300 shadow-2xs'
+                    }`}
+                  >
+                    <div className="flex items-start gap-3.5">
+                      {/* Checkbox */}
+                      <button
+                        type="button"
+                        onClick={() => toggleItem(item.id)}
+                        className={`mt-0.5 h-5 w-5 rounded-md border flex items-center justify-center shrink-0 transition-colors cursor-pointer ${
+                          isChecked 
+                            ? 'bg-emerald-600 border-emerald-600 text-white' 
+                            : 'border-muted-foreground/40 hover:border-emerald-500 bg-background'
+                        }`}
+                        title={isChecked ? 'Đánh dấu chưa hoàn thành' : 'Đánh dấu đã hoàn thành'}
+                      >
+                        {isChecked && <Check className="h-3.5 w-3.5 stroke-[3]" />}
+                      </button>
 
-                    {/* Content */}
-                    <div className="flex-1 min-w-0 space-y-1.5">
-                      <div className="flex flex-wrap items-center justify-between gap-2">
-                        <div className="flex items-center gap-2">
-                          <span className={`text-sm font-bold ${isChecked ? 'line-through text-muted-foreground' : 'text-foreground'}`}>
-                            {item.title}
-                          </span>
-                          {priorityBadge(item.priority)}
+                      {/* Content */}
+                      <div className="flex-1 min-w-0 space-y-1.5">
+                        <div className="flex flex-wrap items-center justify-between gap-2">
+                          <div className="flex items-center gap-2">
+                            <span className={`text-sm font-bold ${isChecked ? 'line-through text-muted-foreground' : 'text-foreground'}`}>
+                              {item.title}
+                            </span>
+                            {priorityBadge(item.priority)}
+                          </div>
+                          
+                          {/* Deep-link to Official Decree */}
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={() => navigate(`/thu-vien/${item.decreeId}${item.articleNum ? `?dieu=${item.articleNum}` : ''}`)}
+                            className="h-7 px-2.5 text-xs bg-muted/40 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 hover:border-emerald-300 text-foreground gap-1.5 shrink-0"
+                            title={`Mở ${item.decreeLabel}${item.articleNum ? ` (Điều ${item.articleNum})` : ''} trong Thư viện`}
+                          >
+                            <BookOpen className="h-3 w-3 text-emerald-600" />
+                            <span className="truncate max-w-[200px]">
+                              {item.decreeLabel} {item.articleNum ? `(Đ.${item.articleNum})` : ''}
+                            </span>
+                            <ExternalLink className="h-2.5 w-2.5 opacity-60" />
+                          </Button>
                         </div>
-                        
-                        {/* Deep-link to Official Decree */}
-                        <Button
-                          variant="outline"
-                          size="sm"
-                          onClick={() => navigate(`/thu-vien/${item.decreeId}${item.articleNum ? `?dieu=${item.articleNum}` : ''}`)}
-                          className="h-7 px-2.5 text-xs bg-muted/40 hover:bg-emerald-50 dark:hover:bg-emerald-950/40 hover:border-emerald-300 text-foreground gap-1.5 shrink-0"
-                          title={`Mở ${item.decreeLabel}${item.articleNum ? ` (Điều ${item.articleNum})` : ''} trong Thư viện`}
-                        >
-                          <BookOpen className="h-3 w-3 text-emerald-600" />
-                          <span className="truncate max-w-[200px]">
-                            {item.decreeLabel} {item.articleNum ? `(Đ.${item.articleNum})` : ''}
+
+                        <p className="text-xs text-muted-foreground leading-relaxed">
+                          {item.description}
+                        </p>
+
+                        <div className="flex items-center gap-2 pt-1 text-[11px] text-muted-foreground">
+                          <span className="font-semibold text-emerald-700 dark:text-emerald-300">
+                            Lộ trình: Giai đoạn {item.phase} ({item.phase === 1 ? 'Trước 30 ngày' : item.phase === 2 ? 'Trước 15 ngày' : 'Trước 7 ngày'})
                           </span>
-                          <ExternalLink className="h-2.5 w-2.5 opacity-60" />
-                        </Button>
-                      </div>
-
-                      <p className="text-xs text-muted-foreground leading-relaxed">
-                        {item.description}
-                      </p>
-
-                      <div className="flex items-center gap-2 pt-1 text-[11px] text-muted-foreground">
-                        <span className="font-semibold text-emerald-700 dark:text-emerald-300">
-                          Lộ trình: Giai đoạn {item.phase} ({item.phase === 1 ? 'Trước 30 ngày' : item.phase === 2 ? 'Trước 15 ngày' : 'Trước 7 ngày'})
-                        </span>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              );
-            })}
+                );
+              })
+            )}
           </div>
         </TabsContent>
 
@@ -667,7 +746,161 @@ export function TaxAuditPage() {
             </Card>
           </div>
         </TabsContent>
+
+        {/* ========================================================================= */}
+        {/* TAB 5: MẪU BIỂU GIẢI TRÌNH THỰC CHIẾN (MỚI) */}
+        {/* ========================================================================= */}
+        <TabsContent value="templates" className="space-y-6">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+            {/* Sidebar danh sách mẫu biểu */}
+            <div className="lg:col-span-4 space-y-2">
+              <div className="text-xs font-bold text-muted-foreground uppercase px-1 mb-2">
+                Danh mục biểu mẫu giải trình chuẩn:
+              </div>
+              {AUDIT_TEMPLATES.map((tmpl) => {
+                const isSelected = tmpl.id === selectedTemplateId;
+                return (
+                  <div
+                    key={tmpl.id}
+                    onClick={() => setSelectedTemplateId(tmpl.id)}
+                    className={`p-3.5 rounded-xl border transition-all cursor-pointer ${
+                      isSelected
+                        ? 'bg-emerald-50 dark:bg-emerald-950/40 border-emerald-500 shadow-xs'
+                        : 'bg-card border-border hover:border-emerald-300'
+                    }`}
+                  >
+                    <div className="flex items-center justify-between gap-2 mb-1">
+                      <Badge variant="outline" className={`text-[10px] ${isSelected ? 'border-emerald-500 text-emerald-700 dark:text-emerald-300' : ''}`}>
+                        {tmpl.code}
+                      </Badge>
+                      <span className="text-[10px] text-muted-foreground truncate">{tmpl.category}</span>
+                    </div>
+                    <div className={`text-xs font-bold ${isSelected ? 'text-emerald-900 dark:text-emerald-200' : 'text-foreground'}`}>
+                      {tmpl.title}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+
+            {/* Chi tiết nội dung biểu mẫu */}
+            <div className="lg:col-span-8">
+              <Card className="border-border shadow-xs">
+                <CardHeader className="p-5 border-b border-border bg-muted/20">
+                  <div className="flex flex-wrap items-center justify-between gap-3">
+                    <div className="space-y-1">
+                      <div className="flex items-center gap-2">
+                        <Badge className="bg-emerald-600 text-white text-xs">{selectedTemplate.code}</Badge>
+                        <Badge variant="outline" className="text-xs text-muted-foreground">{selectedTemplate.category}</Badge>
+                      </div>
+                      <CardTitle className="text-base sm:text-lg text-foreground mt-1">
+                        {selectedTemplate.title}
+                      </CardTitle>
+                    </div>
+
+                    <div className="flex items-center gap-2">
+                      <Button
+                        size="sm"
+                        onClick={handleCopyTemplate}
+                        className="h-8 text-xs bg-emerald-600 hover:bg-emerald-700 text-white gap-1.5 rounded-lg shadow-xs"
+                      >
+                        {copiedTemplate ? <Check className="h-3.5 w-3.5" /> : <Copy className="h-3.5 w-3.5" />}
+                        {copiedTemplate ? 'Đã sao chép' : 'Sao chép văn bản'}
+                      </Button>
+                    </div>
+                  </div>
+
+                  <div className="mt-3 pt-3 border-t border-border/50 grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                    <div>
+                      <span className="font-semibold text-muted-foreground">Rủi ro xử lý: </span>
+                      <span className="text-red-700 dark:text-red-300">{selectedTemplate.targetRisk}</span>
+                    </div>
+                    <div>
+                      <span className="font-semibold text-muted-foreground">Căn cứ pháp lý: </span>
+                      <span className="text-emerald-700 dark:text-emerald-300 font-medium">{selectedTemplate.legalBase}</span>
+                    </div>
+                  </div>
+                </CardHeader>
+
+                <CardContent className="p-5">
+                  <div className="bg-muted/30 border border-border rounded-xl p-4 overflow-x-auto">
+                    <pre className="font-mono text-xs text-foreground leading-relaxed whitespace-pre-wrap selection:bg-emerald-200">
+                      {selectedTemplate.templateContent}
+                    </pre>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </TabsContent>
+
+        {/* ========================================================================= */}
+        {/* TAB 6: TRỢ LÝ AI PHẢN BIỆN BẢO VỆ CHI PHÍ (MỚI) */}
+        {/* ========================================================================= */}
+        <TabsContent value="ai-advisor" className="space-y-6">
+          <TaxAuditAIChat />
+        </TabsContent>
       </Tabs>
+
+      {/* ========================================================================= */}
+      {/* BẢNG IN CHUYÊN NGHIỆP TRÊN GIẤY A4 (PRINT-ONLY VIEW) */}
+      {/* ========================================================================= */}
+      <div className="hidden print:block space-y-6">
+        <table className="w-full text-xs border-collapse border border-black">
+          <thead>
+            <tr className="bg-gray-100">
+              <th className="border border-black p-1.5 w-8 text-center">STT</th>
+              <th className="border border-black p-1.5 text-left">Nội dung rà soát hồ sơ</th>
+              <th className="border border-black p-1.5 w-28 text-center">Nhóm thuế</th>
+              <th className="border border-black p-1.5 w-40 text-left">Căn cứ pháp lý</th>
+              <th className="border border-black p-1.5 w-24 text-center">Trạng thái</th>
+              <th className="border border-black p-1.5 w-28 text-center">Ghi chú</th>
+            </tr>
+          </thead>
+          <tbody>
+            {allItems.map((item, idx) => {
+              const isChecked = Boolean(checkedItems[item.id]);
+              const groupName = TAX_AUDIT_GROUPS.find(g => g.items.some(i => i.id === item.id))?.name || '';
+              return (
+                <tr key={item.id} className={idx % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                  <td className="border border-black p-1.5 text-center font-bold">{idx + 1}</td>
+                  <td className="border border-black p-1.5">
+                    <div className="font-semibold">{item.title}</div>
+                    <div className="text-[10px] text-gray-600">{item.description}</div>
+                  </td>
+                  <td className="border border-black p-1.5 text-center text-[10px]">{groupName.split('(')[0]}</td>
+                  <td className="border border-black p-1.5 text-[10px]">
+                    {item.decreeLabel} {item.articleNum ? `(Điều ${item.articleNum})` : ''}
+                  </td>
+                  <td className="border border-black p-1.5 text-center font-bold">
+                    {isChecked ? 'ĐÃ CHUẨN BỊ' : '[ CHƯA ]'}
+                  </td>
+                  <td className="border border-black p-1.5 text-[10px]"></td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+
+        {/* Chữ ký xác nhận */}
+        <div className="grid grid-cols-3 text-center text-xs mt-10 pt-4">
+          <div>
+            <div className="font-bold">NGƯỜI LẬP BIỂU</div>
+            <div className="italic text-[10px] text-gray-500 mt-0.5">(Ký, ghi rõ họ tên)</div>
+            <div className="h-16"></div>
+          </div>
+          <div>
+            <div className="font-bold">KẾ TOÁN TRƯỞNG</div>
+            <div className="italic text-[10px] text-gray-500 mt-0.5">(Ký, ghi rõ họ tên)</div>
+            <div className="h-16"></div>
+          </div>
+          <div>
+            <div className="font-bold">BAN GIÁM ĐỐC PHÊ DUYỆT</div>
+            <div className="italic text-[10px] text-gray-500 mt-0.5">(Ký tên, đóng dấu)</div>
+            <div className="h-16"></div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
