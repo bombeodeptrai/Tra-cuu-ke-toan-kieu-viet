@@ -1,9 +1,10 @@
 export class GeminiService {
   private apiKey: string;
   private fallbackModels = [
+    'gemini-flash-lite-latest',
+    'gemini-flash-latest',
     'gemini-3.6-flash',
     'gemini-3.5-flash',
-    'gemini-flash-latest',
     'gemini-3.1-flash-lite',
     'gemini-pro-latest'
   ];

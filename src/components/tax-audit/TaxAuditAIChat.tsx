@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { 
   Bot, SendHorizontal, Sparkles, RotateCcw, MessageSquare, 
   HelpCircle, ChevronDown, ChevronUp, AlertCircle, CheckCircle2,
-  Copy, Check, ShieldCheck, Scale, FileText, Building2
+  Copy, Check, ShieldCheck, Scale, FileText, Building2, BookOpen, Layers
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Textarea } from '@/components/ui/textarea';
@@ -10,6 +10,7 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 import { useSettingsStore } from '@/stores/settings-store';
 import { GeminiService } from '@/lib/ai/gemini';
+import { buildTaxAuditSystemPrompt } from '@/lib/ai/tax-audit-knowledge';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
@@ -34,12 +35,14 @@ export function TaxAuditAIChat() {
   const effectiveKey = geminiApiKey?.trim() || defaultKey;
 
   const quickQuestions = [
-    'Đoàn kiểm tra đòi loại chi phí dầu xe ben & máy xúc mỏ đá vì thiếu định mức, cách giải trình ra sao?',
-    'Giải trình chênh lệch doanh thu giữa tờ khai GTGT và quyết toán TNDN do công trình xây dựng dở dang?',
-    'Đoàn thanh tra muốn truy thu 10% thuế TNCN nhân công thời vụ, cách dùng cam kết 08/CK-TNCN để bảo vệ?',
-    'Chi phí lãi vay bên liên kết vượt trần 30% EBITDA (NĐ 132/2020) được chuyển sang năm sau thế nào?',
-    'Hồ sơ chứng minh và đối trừ thuế GTGT vãng lai 1% ngoại tỉnh theo Thông tư 80/2021 gồm những gì?',
-    'Đoàn kiểm tra nghi ngờ sản lượng nổ mìn và đá thành phẩm bán ra, giải trình tỷ lệ hao hụt mỏ đá thế nào?'
+    { label: '⛽ Nhiên liệu mỏ đá', text: 'Đoàn kiểm tra đòi loại chi phí dầu DO xe ben, máy xúc mỏ đá vì thiếu định mức, cách giải trình và bộ hồ sơ bảo vệ chi phí?' },
+    { label: '🏗️ Trích trước TK 335', text: 'Đoàn kiểm tra đòi bóc chi phí trích trước TK 335 của công trình xây lắp đã nghiệm thu bàn giao nhưng chưa quyết toán, lập luận bảo vệ thế nào?' },
+    { label: '👷 Nhân công thời vụ', text: 'Đoàn thanh tra muốn truy thu 10% thuế TNCN lao động thời vụ mỏ đá, cách dùng cam kết 08/CK-TNCN và hợp đồng thời vụ để bảo vệ?' },
+    { label: '💰 Lãi vay NĐ 132', text: 'Chi phí lãi vay bên liên kết vượt trần 30% EBITDA theo Nghị định 132/2020/NĐ-CP được chuyển sang các năm sau tính toán thế nào?' },
+    { label: '🏛️ GTGT vãng lai 1%', text: 'Hồ sơ chứng minh và đối trừ thuế GTGT vãng lai 1% ngoại tỉnh theo Thông tư 80/2021/TT-BTC tránh bị nộp thừa/thiếu?' },
+    { label: '⛏️ Mỏ đá & Tài nguyên', text: 'Đoàn kiểm tra nghi ngờ sản lượng nổ mìn và đá thành phẩm bán ra, giải trình tỷ lệ hao hụt đá theo Quyết định 87/2025 Gia Lai?' },
+    { label: '📊 Lệch DT GTGT vs TNDN', text: 'Giải trình chênh lệch doanh thu giữa tờ khai GTGT và quyết toán TNDN do công trình dở dang TK 154 và doanh thu tài chính TK 515?' },
+    { label: '🧾 Hóa đơn bên bỏ trốn', text: 'Công ty nhận được thông báo từ cơ quan thuế về hóa đơn đầu vào của doanh nghiệp có dấu hiệu rủi ro, bỏ trốn, quy trình xử lý giải trình?' }
   ];
 
   useEffect(() => {
@@ -47,7 +50,19 @@ export function TaxAuditAIChat() {
       {
         id: 'welcome',
         role: 'assistant',
-        content: `👋 Xin chào Kế toán Kiểu Việt! Tôi là **Trợ lý AI Phản Biện & Bảo Vệ Chi Phí Thanh Tra Thuế** (hỗ trợ bởi Gemini 3.6 Flash).\n\nTôi được nạp sẵn toàn bộ căn cứ từ **kho 55 văn bản pháp luật** (Luật Quản lý thuế 38/2019, NĐ 125/2020, NĐ 126/2020, TT 96/2015, TT 219/2013, TT 80/2021, NĐ 132/2020, QĐ 87/2025 Gia Lai...) cùng đặc thù của **Công ty Cổ phần Kiểu Việt** (thi công xây dựng hạ tầng & khai thác mỏ đá tại Gia Lai).\n\nKhi đoàn kiểm tra đặt câu hỏi hoặc có ý định loại trừ chi phí, hãy gõ ngay tình huống thực tế bên dưới hoặc chọn gợi ý. Tôi sẽ cung cấp:\n1. 📜 Căn cứ pháp lý chuẩn xác (Điều, Khoản, Văn bản)\n2. 🛡️ Lập luận phản biện sắc bén, đúng luật bảo vệ quyền lợi công ty\n3. 📑 Danh mục hồ sơ, chứng từ cần xuất trình bổ sung ngay`,
+        content: `👋 Xin chào Ban Lãnh đạo & Kế toán Kiểu Việt! Tôi là **Trưởng Ban Cố Vấn Pháp Lý & Thanh Tra Thuế Cấp Cao** của Công ty Cổ phần Kiểu Việt.
+
+🏛️ **HỆ THỐNG DỮ LIỆU ĐÃ KẾT NỐI TOÀN DIỆN**:
+- Đầy đủ **55/55 Văn bản pháp luật** chuyên sâu về Thuế & Kế toán Doanh nghiệp (Luật QLT 38/2019, NĐ 125/2020, NĐ 126/2020, NĐ 132/2020, TT 96/2015, TT 219/2013, TT 80/2021, TT 99/2025, QĐ 87/2025/QĐ-UBND Gia Lai...).
+- Đầy đủ **6 Bộ Mẫu biểu & Văn bản giải trình thực chiến** (Mẫu 01 đến Mẫu 06).
+- Tích hợp sâu nghiệp vụ đặc thù: **Thi công xây lắp hạ tầng giao thông** và **Khai thác mỏ đá xây dựng tại Gia Lai**.
+
+Khi đoàn kiểm tra thuế đặt câu hỏi hoặc có ý định loại trừ chi phí, hãy chọn tình huống bên dưới hoặc gõ trực tiếp câu hỏi. Tôi sẽ cung cấp câu trả lời chuẩn mực gồm **5 phần**:
+1. 🎯 **Nhận định nghiệp vụ & Phân tích rủi ro**
+2. 📜 **Căn cứ pháp lý tối thượng** (chính xác từng Điều, Khoản)
+3. 🛡️ **Chiến lược lập luận & Phản biện 3 lớp**
+4. 📑 **Danh mục hồ sơ, chứng từ cần xuất trình ngay**
+5. ⚠️ **Phương án dự phòng & Kỹ năng làm việc với Đoàn**`,
         timestamp: new Date().toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' })
       }
     ]);
@@ -90,29 +105,8 @@ export function TaxAuditAIChat() {
 
     setMessages(prev => [...prev, assistantMessage]);
 
-    const systemPrompt = `Bạn là Trưởng ban Cố vấn Pháp lý & Thanh tra Thuế cấp cao của Công ty Cổ phần Kiểu Việt (doanh nghiệp lớn tại tỉnh Gia Lai chuyên về: Thi công xây dựng công trình giao thông hạ tầng, Khai thác mỏ đá và sản xuất đá xây dựng).
-Bạn am hiểu sâu sắc hệ thống pháp luật Việt Nam, đặc biệt là:
-- Luật Quản lý thuế 38/2019/QH14 (quyền của NNT Điều 110-111, xử lý chậm nộp Điều 59)
-- Nghị định 125/2020/NĐ-CP (xử phạt vi phạm hành chính thuế, hóa đơn)
-- Nghị định 126/2020/NĐ-CP (tạm nộp 4 quý đạt 80%)
-- Thông tư 96/2015/TT-BTC & NĐ 218/2013 (chi phí được trừ và không được trừ thuế TNDN, trích trước TK 335)
-- Thông tư 219/2013/TT-BTC (điều kiện khấu trừ thuế GTGT, hóa đơn > 20tr ngân hàng)
-- Thông tư 80/2021/TT-BTC (phân bổ thuế GTGT 1% và TNDN 1% công trình xây dựng vãng lai ngoại tỉnh)
-- Nghị định 132/2020/NĐ-CP (trần chi phí lãi vay giao dịch liên kết 30% EBITDA)
-- Thông tư 152/2015/TT-BTC & Quyết định 87/2025/QĐ-UBND tỉnh Gia Lai (bảng giá tính thuế tài nguyên đá khai thác)
-- Nghị định 27/2023/NĐ-CP (phí bảo vệ môi trường khai thác khoáng sản)
-- Thông tư 45/2013/TT-BTC (khung khấu hao xe ben, máy đào, máy nghiền)
-- Thông tư 111/2013/TT-BTC & Luật Thuế TNCN 109/2025 (cam kết 08/CK-TNCN cho lao động thời vụ).
-
-Nhiệm vụ của bạn:
-1. Luôn bảo vệ tối đa quyền lợi hợp pháp của Công ty Cổ phần Kiểu Việt trên cơ sở quy định pháp luật.
-2. Trả lời chi tiết, chuyên nghiệp, có cấu trúc:
-   - 🎯 Tóm tắt nhận định tình huống
-   - 📜 Căn cứ pháp lý cụ thể (nêu rõ Tên văn bản, Số Điều, Khoản)
-   - 🛡️ Lập luận phản biện thực chiến để làm việc trực tiếp với Đoàn kiểm tra
-   - 📑 Danh mục hồ sơ, chứng từ cần kế toán xuất trình ngay để làm bằng chứng
-   - ⚠️ Khuyến nghị phương án an toàn nhất (nếu có rủi ro yếu thế, đề xuất cách tự kê khai bổ sung để tránh phạt 20% khai sai).
-3. Tuyệt đối không dùng thông tin chung chung. Luôn gắn liền với thực tế xây lắp và khai thác mỏ đá tại Gia Lai.`;
+    // Build dynamic high-accuracy system prompt injected with relevant legal decrees & templates
+    const systemPrompt = buildTaxAuditSystemPrompt(textToSend);
 
     const chatHistory = [...messages, userMessage].map(m => ({
       role: m.role,
@@ -172,6 +166,7 @@ Nhiệm vụ của bạn:
             <h3 className="font-bold text-sm text-white flex items-center gap-2">
               Trợ Lý AI Phản Biện & Bảo Vệ Chi Phí Thanh Tra Thuế
               <Badge className="bg-emerald-500/30 text-emerald-300 border-emerald-400/40 text-[10px]">Thực Chiến</Badge>
+              <Badge className="bg-cyan-500/20 text-cyan-300 border-cyan-400/30 text-[10px]">55/55 Văn bản & 6 Mẫu biểu</Badge>
             </h3>
             <p className="text-[11px] text-slate-300">
               Trực chiến hỗ trợ kế toán Kiểu Việt phản biện các yêu cầu xuất toán chi phí của đoàn kiểm tra
@@ -257,19 +252,19 @@ Nhiệm vụ của bạn:
       </div>
 
       {/* Quick Questions Bar */}
-      <div className="p-2.5 bg-muted/30 border-t border-border flex flex-wrap gap-1.5 overflow-x-auto">
-        <span className="text-[11px] font-semibold text-muted-foreground flex items-center gap-1 self-center px-1">
-          <HelpCircle className="h-3 w-3 text-emerald-600" /> Gợi ý phản biện:
+      <div className="p-2.5 bg-muted/30 border-t border-border flex flex-wrap gap-1.5 overflow-x-auto items-center">
+        <span className="text-[11px] font-semibold text-muted-foreground flex items-center gap-1 shrink-0 px-1">
+          <HelpCircle className="h-3.5 w-3.5 text-emerald-600" /> Tình huống phản biện:
         </span>
         {quickQuestions.map((q, idx) => (
           <button
             key={idx}
-            onClick={() => handleSend(q)}
+            onClick={() => handleSend(q.text)}
             disabled={isTyping}
-            className="text-[11px] px-2.5 py-1 rounded-lg bg-card hover:bg-emerald-50 dark:hover:bg-emerald-950/40 text-foreground border border-border/80 hover:border-emerald-300 transition-colors truncate max-w-[320px] disabled:opacity-50"
-            title={q}
+            className="text-[11px] font-medium px-2.5 py-1 rounded-lg bg-card hover:bg-emerald-50 dark:hover:bg-emerald-950/40 text-foreground border border-border/80 hover:border-emerald-400 transition-all truncate max-w-[280px] disabled:opacity-50 shadow-2xs hover:shadow-xs flex items-center gap-1.5"
+            title={q.text}
           >
-            {q}
+            <span>{q.label}</span>
           </button>
         ))}
       </div>
