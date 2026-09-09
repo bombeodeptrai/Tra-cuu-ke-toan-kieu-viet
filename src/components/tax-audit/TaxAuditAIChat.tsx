@@ -41,6 +41,7 @@ export function TaxAuditAIChat() {
     { label: '🏗️ Cấu kiện đúc sẵn & Cừ Larsen', text: 'Giải trình tỷ lệ hao hụt nứt vỡ KCS cống hộp, bó vỉa, gạch không nung và chi phí dầu DO máy ép cọc cừ Larsen phục vụ thi công công trình?' },
     { label: '🏗️ Trích trước TK 335', text: 'Đoàn kiểm tra đòi bóc chi phí trích trước TK 335 của công trình xây lắp và dự án cung cấp lắp đặt nội thất trọn gói đã bàn giao nhưng chưa có đủ hóa đơn thầu phụ, bảo vệ thế nào?' },
     { label: '👷 Nhân công thời vụ xưởng mộc & bê tông', text: 'Đoàn thanh tra muốn truy thu 10% thuế TNCN thợ mộc gia công gỗ và nhân công trạm trộn bê tông, cách dùng bản cam kết 08/CK-TNCN và hợp đồng khoán việc bảo vệ?' },
+    { label: '📐 Chi phí Tư vấn, Thiết kế & Giám sát', text: 'Đoàn kiểm tra soi chi phí chuyên gia tư vấn thiết kế, công tác phí khảo sát hiện trường và phân bổ chi phí phần mềm bản quyền dự án, cách bảo vệ?' },
     { label: '🏛️ Thuế vãng lai 1% ngoại tỉnh', text: 'Hồ sơ chứng minh và đối trừ thuế GTGT vãng lai 1% các công trình và gói thầu nội thất tại Bình Định, Gia Lai, Phú Yên theo Thông tư 80/2021/TT-BTC?' },
     { label: '📊 Lệch DT GTGT vs Quyết toán TNDN', text: 'Giải trình chênh lệch doanh thu giữa tờ khai GTGT và quyết toán TNDN đối với hợp đồng cung cấp lắp đặt nội thất và khối lượng bê tông xuất trạm cuối tháng?' }
   ];
@@ -50,15 +51,16 @@ export function TaxAuditAIChat() {
       {
         id: 'welcome',
         role: 'assistant',
-        content: `👋 Xin chào Ban Lãnh đạo & Đội ngũ Kế toán Kiểu Việt! Tôi là **Trưởng Ban Cố Vấn Pháp Lý & Thanh Tra Thuế Cấp Cao** của Công ty Cổ phần Kiểu Việt (Nội thất — Vật liệu Xây dựng — Thi công Xây lắp | kieuviet.com.vn).
+        content: `👋 Xin chào Ban Lãnh đạo & Đội ngũ Kế toán Kiểu Việt! Tôi là **Trưởng Ban Cố Vấn Pháp Lý & Thanh Tra Thuế Cấp Cao** của Công ty Cổ phần Kiểu Việt (Nội thất — VLXD & Bê tông — Thi công Xây lắp — Tư vấn Dự án | kieuviet.com.vn).
 
 🏛️ **HỆ THỐNG DỮ LIỆU ĐÃ KẾT NỐI TOÀN DIỆN**:
 - Đầy đủ **55/55 Văn bản pháp luật** chuyên sâu về Thuế & Kế toán Doanh nghiệp.
 - Đầy đủ **8 Bộ Mẫu biểu & Văn bản giải trình thực chiến** (Mẫu 01 đến Mẫu 08).
-- Tích hợp sâu nghiệp vụ 3 trụ cột sản xuất - kinh doanh của Kiểu Việt:
+- Tích hợp sâu nghiệp vụ 4 trụ cột sản xuất - kinh doanh của Kiểu Việt:
   1. 🪑 **Nhà máy Sản xuất Đồ gỗ Nội thất Phú Tài**: Định mức gỗ tự nhiên xẻ sấy, sơn PU, hao hụt mùn cưa, hồ sơ lâm sản hợp pháp (TT 26/2022/TT-BNNPTNT), nhân công thợ mộc, bàn ghế hội trường, thiết bị trường học, thiết bị y tế.
   2. 🧱 **Nhà máy Vật liệu Xây dựng & Trạm Bê tông Thương phẩm**: Cấp phối trạm trộn xi măng - cát - đá TCVN, hao hụt xe bồn, xe bơm, cấu kiện đúc sẵn (cống hộp, bó vỉa, gạch không nung), thi công ép cừ Larsen, mỏ khoáng sản cát đá.
-  3. 🏗️ **Thi công Xây lắp & Tư vấn Dự án**: Trụ sở Cục Hải quan Bình Định, Phú Yên, HĐND Gia Lai, QL19 Becamex... Nghiệm thu A-B, dở dang TK 154, trích trước TK 335, thuế vãng lai 1% TT 80/2021.
+  3. 🏗️ **Thi công Xây lắp Công trình**: Nghiệm thu A-B giai đoạn, dở dang TK 154, trích trước giá vốn TK 335 theo TT 96/2015, thuế vãng lai 1% ngoại tỉnh TT 80/2021 (Hải quan Bình Định, Phú Yên, HĐND Gia Lai...).
+  4. 📐 **Tư vấn Xây dựng & Quản lý Dự án**: Nghiệm thu hồ sơ thiết kế, chi phí chuyên gia chứng chỉ hành nghề, công tác phí khảo sát hiện trường, phân bổ bản quyền phần mềm TK 242.
 
 Khi đoàn kiểm tra thuế đặt câu hỏi hoặc có ý định loại trừ chi phí, hãy chọn tình huống bên dưới hoặc gõ trực tiếp câu hỏi. Tôi sẽ cung cấp câu trả lời chuẩn mực gồm **5 phần**:
 1. 🎯 **Nhận định nghiệp vụ & Phân tích rủi ro**

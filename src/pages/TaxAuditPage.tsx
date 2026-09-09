@@ -213,14 +213,14 @@ export function TaxAuditPage() {
         <div className="relative z-10 max-w-3xl space-y-3">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur-md text-emerald-300 text-xs font-semibold border border-emerald-500/30">
             <Building2 className="h-3.5 w-3.5 text-emerald-400" />
-            CÔNG TY CỔ PHẦN KIỂU VIỆT — NỘI THẤT | VẬT LIỆU XÂY DỰNG & BÊ TÔNG | THI CÔNG XÂY LẮP
+            CÔNG TY CỔ PHẦN KIỂU VIỆT — NỘI THẤT | VLXD & BÊ TÔNG | THI CÔNG XÂY LẮP | TƯ VẤN DỰ ÁN
           </div>
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-black tracking-tight text-white flex items-center gap-3">
             <ShieldCheck className="h-8 w-8 text-emerald-400 shrink-0" />
             Trợ Lý Chuẩn Bị Kiểm Tra Thuế Doanh Nghiệp
           </h1>
           <p className="text-sm md:text-base text-slate-300 leading-relaxed font-normal">
-            Hệ sinh thái rà soát toàn diện theo đúng cơ cấu doanh nghiệp Kiểu Việt: Nhà máy Sản xuất Đồ gỗ Nội thất Phú Tài, Nhà máy Sản xuất Vật liệu Xây dựng & Bê tông Thương phẩm, và các Dự án Thi công Xây lắp; tích hợp kho 55 văn bản pháp luật, 8 bộ mẫu biểu giải trình thực chiến và Trợ lý AI phản biện cấp cao.
+            Hệ sinh thái rà soát toàn diện theo đúng cơ cấu 4 mảng của Kiểu Việt: Nhà máy Sản xuất Đồ gỗ Nội thất Phú Tài, Nhà máy Sản xuất Vật liệu Xây dựng & Bê tông Thương phẩm, các Dự án Thi công Xây lắp liên tỉnh và Mảng Tư vấn Quản lý Dự án/Thiết kế; tích hợp kho 55 văn bản pháp luật, 8 bộ mẫu biểu giải trình thực chiến và Trợ lý AI phản biện cấp cao.
           </p>
         </div>
       </div>

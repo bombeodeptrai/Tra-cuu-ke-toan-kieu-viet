@@ -90,8 +90,9 @@ export function buildTaxAuditSystemPrompt(userQuery: string): string {
     'bê tông', 'bê tông thương phẩm', 'trạm trộn', 'xe bồn', 'xe bơm', 'cừ larsen', 'ép cừ',
     'cống hộp', 'cống ly tâm', 'bó vỉa', 'dải phân cách', 'gạch không nung', 'con kê', 'rãnh thoát nước',
     'cấp phối', 'xi măng', 'tro bay', 'phụ gia', 'mác bê tông', 'm250', 'm300', 'thí nghiệm las',
-    // Xây lắp & Dự án & Khai thác mỏ
-    'hải quan bình định', 'hải quan phú yên', 'hđnd gia lai', 'becamex', 'ql19', 'y tế quy nhơn',
+    // Thi công Xây lắp, Tư vấn & Khai thác mỏ
+    'xây lắp', 'thi công', 'hải quan bình định', 'hải quan phú yên', 'hđnd gia lai', 'becamex', 'ql19', 'y tế quy nhơn',
+    'tư vấn', 'thiết kế', 'giám sát', 'quản lý dự án', 'đấu thầu', 'hồ sơ thầu', 'khảo sát', 'chuyên gia', 'công tác phí',
     'mỏ đá', 'mỏ cát', 'tài nguyên', 'môi trường', 'nổ mìn', 'hao hụt', '87/2025', '152/2015', '27/2023',
     // Kế toán, Tài chính & Thuế
     '335', 'trích trước', 'dở dang', '154', 'nghiệm thu', 'hoàn công', 'hóa đơn', '123/2020', '78/2021',
@@ -164,7 +165,7 @@ ${tpl.templateContent.slice(0, 750)}...
 - **VPGD 2**: 04 Quang Trung, TP. Pleiku, tỉnh Gia Lai.
 - **Hệ thống Nhà máy**: Khuôn viên hơn 4.5 ha tại KCN Phú Tài, TP. Quy Nhơn (bao gồm Nhà máy Chế biến Gỗ & Sản xuất Nội Thất và Nhà máy Sản xuất Vật Liệu Xây Dựng & Bê Tông Thương Phẩm).
 
-🏭 **3 TRỤ CỘT SẢN XUẤT & KINH DOANH CỐT LÕI CỦA CÔNG TY**:
+🏭 **4 TRỤ CỘT SẢN XUẤT & KINH DOANH CỐT LÕI CỦA CÔNG TY**:
 1. 🪑 **CÔNG TY NỘI THẤT KIỂU VIỆT (Nhà máy Phú Tài)**:
    - Chuyên sản xuất đồ gỗ nội thất tự nhiên cao cấp: Bàn họp, ghế hội trường, ghế chủ trì đại biểu (mẫu 1/2/3), ghế chạm chim, ghế đầu bò, ghế chữ thọ, bục Bác, phòng làm việc lãnh đạo, trưởng phòng, phòng họp trực tuyến...
    - Sản xuất và cung ứng thiết bị trường học, giáo dục (bàn ghế học sinh, bàn ghế phòng thí nghiệm hóa sinh lý, tủ thí nghiệm).
@@ -177,9 +178,12 @@ ${tpl.templateContent.slice(0, 750)}...
    - Dịch vụ thi công Ép cọc cừ Larsen, xe bơm bê tông (bơm cần, bơm tĩnh).
    - Khai thác mỏ khoáng sản cát, đá xây dựng cung ứng trạm trộn và bán thương phẩm.
    - **Trọng điểm thuế**: Định mức cấp phối xi măng - cát - đá - phụ gia theo TCVN, hao hụt xe bồn vận chuyển và rửa bồn bê tông dính cặn, tỷ lệ nứt vỡ hỏng KCS cấu kiện đúc sẵn, hóa đơn đầu vào cát đá từ mỏ hợp pháp, dầu DO máy ép cừ Larsen, thuế tài nguyên và phí BVMT mỏ khoáng sản (QĐ 87/2025 Gia Lai).
-3. 🏗️ **THI CÔNG XÂY LẮP & TƯ VẤN DỰ ÁN KIỂU VIỆT**:
+3. 🏗️ **THI CÔNG XÂY LẮP CÔNG TRÌNH KIỂU VIỆT**:
    - Thi công các dự án trọng điểm: Trụ sở Cục Hải quan tỉnh Bình Định, Trụ sở Cục Hải quan tỉnh Phú Yên, Văn phòng Đoàn ĐBQH & HĐND tỉnh Gia Lai, Tuyến đường kết nối QL19 đến KCN Becamex VSIP Bình Định, Trung tâm Y tế Quy Nhơn, Khu đô thị Phú Tài Jade Garden...
-   - **Trọng điểm thuế**: Nghiệm thu khối lượng A-B giai đoạn, dở dang TK 154, trích trước chi phí giá vốn TK 335 khi công trình hoàn thành, thuế GTGT/TNDN vãng lai 1% ngoại tỉnh (Bình Định, Gia Lai, Phú Yên...) theo Thông tư 80/2021/TT-BTC, quyết toán vốn ngân sách qua Kho bạc.
+   - **Trọng điểm thuế**: Nghiệm thu khối lượng A-B giai đoạn, dở dang TK 154, trích trước chi phí giá vốn TK 335 khi công trình hoàn thành theo TT 96/2015, thuế GTGT/TNDN vãng lai 1% ngoại tỉnh (Bình Định, Gia Lai, Phú Yên...) theo Thông tư 80/2021/TT-BTC, quyết toán vốn ngân sách qua Kho bạc.
+4. 📐 **TƯ VẤN XÂY DỰNG & QUẢN LÝ DỰ ÁN KIỂU VIỆT**:
+   - Lập dự án đầu tư, khảo sát địa hình/địa chất, thiết kế bản vẽ thi công, thẩm tra dự toán, tư vấn giám sát chất lượng thi công xây dựng và tư vấn lập/đánh giá hồ sơ mời thầu (E-HSMT).
+   - **Trọng điểm thuế**: Xuất hóa đơn theo từng giai đoạn bàn giao hồ sơ tư vấn theo NĐ 123/2020, quản lý chi phí chuyên gia có chứng chỉ hành nghề, công tác phí khảo sát hiện trường (giấy đi đường, vé xe/máy bay, khách sạn theo TT 96/2015), phân bổ chi phí bản quyền phần mềm thiết kế (AutoCAD, Revit, Dự toán) vào TK 242.
 
 ---
 ## 🏛️ KHO TRI THỨC PHÁP LUẬT ĐẦY ĐỦ 55 VĂN BẢN (100% CƠ SỞ DỮ LIỆU CÔNG TY):
