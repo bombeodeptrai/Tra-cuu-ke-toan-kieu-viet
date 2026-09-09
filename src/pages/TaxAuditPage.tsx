@@ -213,15 +213,14 @@ export function TaxAuditPage() {
         <div className="relative z-10 max-w-3xl space-y-3">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur-md text-emerald-300 text-xs font-semibold border border-emerald-500/30">
             <Building2 className="h-3.5 w-3.5 text-emerald-400" />
-            CÔNG TY CỔ PHẦN KIỂU VIỆT — HỆ THỐNG PHÒNG THỦ & THANH TRA THUẾ
+            CÔNG TY CỔ PHẦN KIỂU VIỆT — NỘI THẤT | VẬT LIỆU XÂY DỰNG & BÊ TÔNG | THI CÔNG XÂY LẮP
           </div>
           <h1 className="text-2xl sm:text-3xl md:text-4xl font-black tracking-tight text-white flex items-center gap-3">
             <ShieldCheck className="h-8 w-8 text-emerald-400 shrink-0" />
             Trợ Lý Chuẩn Bị Kiểm Tra Thuế Doanh Nghiệp
           </h1>
           <p className="text-sm md:text-base text-slate-300 leading-relaxed font-normal">
-            Hệ thống rà soát toàn diện 7 nhóm sắc thuế (TNDN, GTGT, TNCN, Hóa đơn, BHXH, Mỏ đá Gia Lai, BCTC), 
-            bộ mẫu biểu giải trình thực chiến, công cụ tự đo lường rủi ro và trợ lý AI phản biện bảo vệ chi phí hợp lệ.
+            Hệ sinh thái rà soát toàn diện theo đúng cơ cấu doanh nghiệp Kiểu Việt: Nhà máy Sản xuất Đồ gỗ Nội thất Phú Tài, Nhà máy Sản xuất Vật liệu Xây dựng & Bê tông Thương phẩm, và các Dự án Thi công Xây lắp; tích hợp kho 55 văn bản pháp luật, 8 bộ mẫu biểu giải trình thực chiến và Trợ lý AI phản biện cấp cao.
           </p>
         </div>
       </div>
@@ -260,7 +259,7 @@ export function TaxAuditPage() {
               <AlertTriangle className={`h-4 w-4 ${criticalPending > 0 ? 'text-red-600 animate-pulse' : 'text-emerald-600'}`} />
             </div>
             <div className="flex items-baseline gap-2">
-              <span className={`text-3xl font-black ${criticalPending > 0 ? 'text-red-600' : 'text-emerald-600'}`}>
+              <span className="text-3xl font-black ${criticalPending > 0 ? 'text-red-600' : 'text-emerald-600'}">
                 {criticalPending}
               </span>
               <span className="text-sm text-muted-foreground">/ {criticalItems.length} mục</span>
@@ -330,7 +329,7 @@ export function TaxAuditPage() {
           </TabsTrigger>
           <TabsTrigger value="templates" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
             <FileSpreadsheet className="h-4 w-4 text-teal-600" /> 
-            5. Mẫu Biểu Giải Trình (6 Mẫu)
+            5. Mẫu Biểu Giải Trình (8 Mẫu)
           </TabsTrigger>
           <TabsTrigger value="ai-advisor" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
             <Bot className="h-4 w-4 text-emerald-500 animate-pulse" /> 

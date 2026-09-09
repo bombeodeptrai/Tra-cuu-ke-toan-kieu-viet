@@ -60,12 +60,12 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         decreeLabel: 'Luật Thuế TNDN 67/2025',
         phase: 1,
         documentsRequired: [
-        "Giấy chứng nhận đăng ký đầu tư dự án khai thác mỏ đá và thi công công trình tại Gia Lai",
+        "Giấy chứng nhận đăng ký đầu tư, Giấy phép Nhà máy Nội thất gỗ Phú Tài, Nhà máy VLXD Bê tông và Dự án thi công công trình",
         "Hồ sơ quyết toán thuế TNDN hàng năm kèm phụ lục ưu đãi đầu tư (mẫu theo quy định)",
         "Báo cáo tài chính đã kiểm toán và Tờ khai quyết toán thuế TNDN các năm tài chính",
         "Sổ chi tiết các tài khoản doanh thu (TK 511), giá vốn (TK 632) và chi phí quản lý (TK 642)",
         "Bảng phân bổ hạch toán riêng doanh thu, chi phí của dự án được hưởng ưu đãi và dự án thông thường",
-        "Quyết định bổ nhiệm nhân sự và danh sách lao động thực tế làm việc tại địa bàn ưu đãi Gia Lai",
+        "Danh sách công nhân xưởng mộc, thợ sơn Nhà máy Nội thất Phú Tài, công nhân trạm trộn bê tông VLXD và đội thợ thi công công trường",
         "Biên bản làm việc với cơ quan thuế địa phương về việc xác nhận ưu đãi miễn, giảm thuế TNDN"
 ],
         accountingSteps: [
@@ -82,7 +82,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         "Truy thu thuế TNDN đối với các khoản thu nhập khác (thanh lý tài sản, phế liệu mỏ đá) không được hưởng ưu đãi nhưng doanh nghiệp gộp chung vào ưu đãi."
 ],
         defenseStrategy: [
-        "Lập luận sắc bén viện dẫn Điều 13 Luật Thuế TNDN số 67/2025/QH15, chứng minh dự án khai thác mỏ đá và xây lắp công trình giao thông thủy lợi của Công ty Cổ phần Kiểu Việt nằm trên địa bàn ưu đãi đầu tư tại Gia Lai được cấp phép hợp pháp.",
+        "Lập luận sắc bén viện dẫn Điều 13 Luật Thuế TNDN số 67/2025/QH15, chứng minh các dự án sản xuất đồ gỗ nội thất, trạm bê tông thương phẩm VLXD và thi công xây lắp công trình của Công ty Cổ phần Kiểu Việt nằm trên địa bàn ưu đãi đầu tư tại Gia Lai được cấp phép hợp pháp.",
         "Trình bày chi tiết hệ thống sổ sách kế toán mở riêng biệt các tiểu khoản doanh thu, chi phí cho từng công trình và mỏ đá, đáp ứng nguyên tắc hạch toán riêng thu nhập ưu đãi theo đúng hướng dẫn của Bộ Tài chính.",
         "Giải trình trước đoàn thanh tra về đặc thù thi công công trình giao thông thủy lợi chịu ảnh hưởng bởi thời tiết Tây Nguyên, dẫn đến tiến độ và doanh thu ghi nhận theo từng giai đoạn hoàn thành nghiệm thu A-B là hoàn toàn tuân thủ chuẩn mực kế toán.",
         "Khẳng định mọi số liệu kê khai ưu đãi đầu tư đều có căn cứ từ Giấy chứng nhận đầu tư và được kiểm toán độc lập xác nhận, đề nghị đoàn thanh tra xem xét khách quan trước khi đưa ra quyết định truy thu."
@@ -98,8 +98,8 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         decreeLabel: 'Luật Thuế TNDN 14/2008',
         phase: 1,
         documentsRequired: [
-        "Hợp đồng thi công xây lắp công trình giao thông thủy lợi và Phụ lục hợp đồng kèm theo",
-        "Biên bản nghiệm thu khối lượng hoàn thành A-B theo từng giai đoạn hoặc toàn bộ công trình",
+        "Hợp đồng cung cấp lắp đặt đồ gỗ nội thất (hội trường, văn phòng), Hợp đồng cung cấp Bê tông thương phẩm & Cấu kiện VLXD, Hợp đồng thi công xây lắp",
+        "Biên bản nghiệm thu bàn giao lắp đặt nội thất hoàn thiện, Phiếu giao nhận Bê tông thương phẩm tại công trường và Biên bản nghiệm thu A-B công trình",
         "Hóa đơn điện tử (XML/PDF) xuất doanh thu theo từng lần nghiệm thu hoặc bàn giao",
         "Nhật ký thi công công trình, biên bản bàn giao mặt bằng và biên bản xác nhận khối lượng",
         "Sổ chi tiết tài khoản doanh thu (TK 511), tài khoản phải thu khách hàng (TK 131)",
@@ -110,7 +110,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         "Bước 1: Kiểm tra đối chiếu số liệu trên Sổ cái TK 511 (Doanh thu bán hàng và cung cấp dịch vụ) với Tờ khai thuế GTGT và Tờ khai quyết toán thuế TNDN hàng năm.",
         "Bước 2: Rà soát tài khoản phải thu khách hàng (TK 131) chi tiết từng chủ đầu tư công trình giao thông, thủy lợi để phát hiện doanh thu đã thực hiện nhưng chậm xuất hóa đơn.",
         "Bước 3: Kiểm tra tài khoản 3331 (Thuế GTGT phải nộp) và 3334 (Thuế TNDN) để đảm bảo thời điểm ghi nhận doanh thu tính thuế trùng khớp với thời điểm lập hóa đơn.",
-        "Bước 4: Đối chiếu sản lượng đá khai thác xuất bán trên Sổ kho (TK 152, 155) với số liệu doanh thu trên TK 511, đảm bảo không có tình trạng xuất bán mỏ đá nhưng bỏ ngoài sổ sách.",
+        "Bước 4: Đối chiếu thành phẩm đồ gỗ nội thất (TK 155), sản lượng bê tông thương phẩm xuất trạm và cấu kiện đúc sẵn (cống hộp, bó vỉa, gạch không nung) với doanh thu TK 511, đảm bảo khớp đúng hóa đơn.",
         "Bước 5: Kiểm tra các khoản doanh thu tài chính (TK 515) và thu nhập khác (TK 711) từ thanh lý xe máy thi công, thiết bị mỏ đá để tính đủ vào thu nhập chịu thuế."
 ],
         auditRisks: [
@@ -166,41 +166,41 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
       },
       {
         id: 'chk-tt-96-2015',
-        title: 'Chi phí được trừ & Chi phí trích trước giá vốn TK 335 (TT 96/2015)',
-        description: 'Loại bỏ các khoản chi không có hóa đơn, chi vượt trần. Kiểm tra hồ sơ trích trước giá vốn công trình dở dang (Khoản 2.20 Điều 4) kèm dự toán phê duyệt.',
+        title: 'Chi phí được trừ, Định mức Gỗ/Bê tông & Trích trước TK 335 (TT 96/2015)',
+        description: 'Kiểm soát định mức tiêu hao gỗ xẻ sấy, sơn PU xưởng Nội thất, cấp phối bê tông thương phẩm VLXD, và hồ sơ trích trước giá vốn TK 335 công trình bàn giao.',
         priority: 'critical',
         decreeId: 'tt-96-2015',
         articleNum: '4',
-        decreeLabel: 'TT 96/2015 (Chi phí được trừ TNDN)',
+        decreeLabel: 'Thông tư 96/2015/TT-BTC',
         phase: 1,
         documentsRequired: [
-        "Hợp đồng thuê nhân công ngoài, danh sách lao động kèm bản sao CCCD và Cam kết mẫu 08/CK-TNCN",
-        "Bảng tính giá thành công trình xây lắp, bảng phân bổ chi phí nguyên vật liệu (TK 152), nhân công (TK 622), máy thi công (TK 623), sản xuất chung (TK 627)",
-        "Hồ sơ trích trước chi phí giá vốn công trình (TK 335) có dự toán chi tiết từng hạng mục chưa nghiệm thu",
-        "Hóa đơn điện tử mua nguyên vật liệu đá, cát, xi măng, dầu diezel phục vụ thi công và khai thác mỏ",
-        "Ủy nhiệm chi qua ngân hàng (TK 112) thanh toán tiền mua hàng, tiền lương, nhân công trên 20 triệu đồng",
-        "Bảng kê trạm cân mỏ đá, lệnh điều xe tải vận chuyển đá xây dựng xuất kho hàng ngày",
-        "Quyết định khấu hao tài sản cố định (máy xúc, máy nghiền đá, xe ô tô tải) trích vào TK 214"
-],
+          "Quyết định ban hành Định mức tiêu hao nguyên vật liệu gỗ, sơn PU xưởng Nội thất và Cấp phối trạm Bê tông Kiểu Việt",
+          "Lệnh sản xuất, Bảng tính giá thành sản phẩm đồ gỗ mộc (bàn ghế hội trường, nội thất văn phòng lãnh đạo) theo TK 154",
+          "Phiếu giao nhận Bê tông thương phẩm in từ cân điện tử trạm trộn và Phiếu thí nghiệm nén mẫu bê tông R28 của phòng LAS-XD",
+          "Hồ sơ trích trước chi phí giá vốn (TK 335) kèm dự toán công trình và biên bản bàn giao nghiệm thu đưa vào sử dụng",
+          "Hóa đơn điện tử đầu vào hợp pháp cho gỗ xẻ sấy, xi măng PCB40, cát vàng, đá dăm, phụ gia bê tông và sao kê UNC ngân hàng",
+          "Biên bản thanh lý, thu hồi phế liệu mùn cưa, dăm gỗ và hạch toán thu nhập khác TK 711 hoặc giảm chi phí TK 152",
+          "Bảng kê lâm sản có xác nhận kiểm lâm theo Thông tư 26/2022/TT-BNNPTNT cho các lô gỗ nguyên liệu tự nhiên"
+        ],
         accountingSteps: [
-        "Bước 1: Rà soát toàn bộ số dư và phát sinh có của tài khoản 335 (Chi phí phải trả), kiểm tra chi tiết các khoản trích trước giá vốn công trình xây lắp chưa có hóa đơn.",
-        "Bước 2: Kiểm tra đối chiếu số liệu tập hợp chi phí sản xuất kinh doanh dở dang trên TK 154 với giá vốn hàng bán trên TK 632 và Báo cáo tài chính năm.",
-        "Bước 3: Kiểm tra tài khoản chi phí nhân công (TK 622), đối chiếu bảng lương với chứng từ chi trả tiền mặt/chuyển khoản qua TK 112 và hồ sơ khấu trừ thuế TNCN.",
-        "Bước 4: Kiểm tra tài khoản chi phí máy thi công (TK 623), chi phí sản xuất chung (TK 627) để loại bỏ các hóa đơn mua hàng không hợp pháp hoặc chi phí không phục vụ sản xuất kinh doanh.",
-        "Bước 5: Kiểm tra tài khoản TSCĐ (TK 211) và khấu hao (TK 214) của các thiết bị khai thác mỏ đá, xe máy thi công giao thông, đảm bảo trích khấu hao đúng khung quy định."
-],
+          "Bước 1: Đối chiếu chi phí nguyên vật liệu trực tiếp (TK 621) xưởng Nội thất với Định mức gỗ và sơn PU, kiểm tra hạch toán thu hồi phế liệu mùn cưa.",
+          "Bước 2: Rà soát chi phí cấp phối trạm trộn Bê tông thương phẩm (TK 621, 622, 627) với khối lượng bê tông xuất trạm và kết quả nén mẫu R28.",
+          "Bước 3: Kiểm tra số dư Tài khoản 335 (Chi phí phải trả), đối chiếu hồ sơ trích trước giá vốn công trình hoàn thành và đơn hàng nội thất đã xuất hóa đơn.",
+          "Bước 4: Rà soát tài khoản chi phí máy thi công (TK 623), kiểm tra định mức dầu DO máy ép cọc cừ Larsen, xe bồn trộn và máy cơ giới.",
+          "Bước 5: Xác định các khoản chi phí không có hóa đơn chứng từ hợp pháp để loại trừ khi lập Tờ khai quyết toán thuế TNDN (chỉ tiêu B4)."
+        ],
         auditRisks: [
-        "Rủi ro đoàn thanh tra bóc tách toàn bộ chi phí trích trước giá vốn công trình trên TK 335 do đến thời điểm quyết toán vẫn chưa có hóa đơn, chứng từ hợp pháp theo Thông tư 96/2015/TT-BTC.",
-        "Bẫy thuế về việc loại trừ chi phí nhân công thuê ngoài do thiếu hợp đồng, thiếu CCCD hoặc thiếu bản cam kết mẫu 08/CK-TNCN đối với lao động thời vụ không ký hợp đồng lao động dài hạn.",
-        "Truy thu thuế TNDN do chi phí mua vật liệu (đá, cát, nhiên liệu) không có hóa đơn hợp pháp hoặc thanh toán bằng tiền mặt đối với các hóa đơn trên 20 triệu đồng.",
-        "Ấn định thuế tài nguyên và phí bảo vệ môi trường mỏ đá do đoàn thanh tra áp dụng hệ số quy đổi khối lượng đá nguyên khai sang đá thành phẩm khác với phương pháp hạch toán của công ty."
-],
+          "Rủi ro đoàn thanh tra bóc tách chi phí gỗ xẻ sấy và sơn PU do tỷ lệ hao hụt mùn cưa vượt định mức hoặc không có hồ sơ thu hồi phế liệu.",
+          "Bẫy thuế về việc kiểm tra viên đối chiếu cấp phối xi măng trạm trộn Bê tông thương phẩm lệch với tiêu chuẩn TCVN, dẫn đến loại chi phí nguyên liệu.",
+          "Xuất toán toàn bộ chi phí trích trước TK 335 do thiếu biên bản nghiệm thu bàn giao hoặc sang năm sau không nhận đủ hóa đơn thầu phụ.",
+          "Truy thu thuế TNDN 20% và phạt chậm nộp do hạch toán chi phí máy ép cừ Larsen, xe bồn bê tông thiếu nhật trình máy hoặc vượt định mức."
+        ],
         defenseStrategy: [
-        "Viện dẫn Điều 4 Thông tư 96/2015/TT-BTC, lập luận sắc bén bảo vệ khoản trích trước giá vốn trên TK 335 dựa trên dự toán công trình được phê duyệt và khối lượng thực tế đã thực hiện dở dang nhưng chưa đến kỳ xuất hóa đơn.",
-        "Xuất trình đầy đủ hồ sơ nhân công thuê ngoài gồm hợp đồng dịch vụ, biên bản bàn giao, danh sách nhận tiền kèm bản sao CCCD và Cam kết 08/CK-TNCN hợp lệ để chứng minh tính hợp lý của chi phí tiền lương.",
-        "Giải trình chi tiết đặc thù ngành thi công công trình giao thông thủy lợi và khai thác mỏ đá tại Gia Lai: tiêu hao nhiên liệu (dầu diezel cho máy xúc, xe ben) gắn liền với định mức kỹ thuật đã đăng ký và nhật ký máy thi công.",
-        "Khẳng định mọi chi phí hạch toán vào giá vốn (TK 632) và các tài khoản chi phí sản xuất đều có đầy đủ chứng từ gốc, hóa đơn điện tử hợp pháp và thanh toán qua ngân hàng đúng quy định pháp luật thuế."
-]
+          "Viện dẫn Điều 4 Thông tư 96/2015/TT-BTC, khẳng định chi phí gỗ, sơn PU và xi măng cát đá phát sinh thực tế phục vụ trực tiếp hoạt động sản xuất kinh doanh có đủ hóa đơn hợp pháp.",
+          "Xuất trình Quyết định ban hành Định mức kỹ thuật nội bộ của Tổng Giám đốc Kiểu Việt và kết quả kiểm định phòng thí nghiệm LAS-XD chứng minh cấp phối bê tông đạt chuẩn.",
+          "Cung cấp Biên bản bàn giao đưa vào sử dụng và Dự toán gói thầu đã duyệt để bảo vệ tính hợp pháp của khoản trích trước giá vốn TK 335 theo Khoản 2.20 Điều 4 TT 96/2015.",
+          "Khẳng định tỷ lệ hao hụt mùn cưa gỗ xẻ (18-22%) và hao hụt vận chuyển bồn bê tông (1.5-2.0%) hoàn toàn phù hợp với thực tế sản xuất và định mức của Bộ Xây dựng."
+        ]
       },
       {
         id: 'chk-nd-132-2020',
@@ -243,41 +243,40 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
       },
       {
         id: 'chk-tt-45-2013',
-        title: 'Khấu hao xe tải, máy xúc, máy nghiền mỏ đá (TT 45/2013)',
-        description: 'Đối chiếu phương pháp khấu hao đã đăng ký với CQT, kiểm tra thời gian trích nằm đúng khung cho phép (xe tải 6-10 năm, máy đào 6-10 năm).',
-        priority: 'critical',
+        title: 'Khấu hao TSCĐ Xưởng Nội Thất, Trạm Bê Tông & Xe Máy Cơ Giới (TT 45/2013)',
+        description: 'Rà soát trích khấu hao máy CNC chế biến gỗ, buồng sơn xưởng Nội thất, trạm trộn bê tông, xe bồn trộn, máy ép cọc cừ Larsen theo khung thời gian Thông tư 45/2013.',
+        priority: 'important',
         decreeId: 'tt-45-2013',
-        articleNum: '10',
-        decreeLabel: 'TT 45/2013 (Khấu hao TSCĐ)',
+        articleNum: '4',
+        decreeLabel: 'Thông tư 45/2013/TT-BTC',
         phase: 1,
         documentsRequired: [
-        "Biên bản giao nhận tài sản cố định (Mẫu 01-TSCĐ) cho xe tải ben, máy xúc đào, dây chuyền máy nghiền đá",
-        "Hóa đơn mua sắm TSCĐ, tờ khai hải quan (nếu nhập khẩu), hợp đồng mua bán và biên bản thanh lý hợp đồng",
-        "Nhật ký vận hành máy, lịch trình xe tải chạy mỏ, phiếu xuất kho nhiên liệu (xăng/dầu) phục vụ trực tiếp cho máy móc",
-        "Hồ sơ kỹ thuật, biên bản bàn giao mặt bằng lắp đặt trạm nghiền đá tại mỏ đá tỉnh Gia Lai",
-        "Quyết định của Giám đốc về phương pháp trích khấu hao (đường thẳng/theo số lượng sản phẩm) và bảng tính khấu hao hàng tháng",
-        "Hồ sơ đăng ký quyền sở hữu, giấy đăng ký xe ô tô tải, giấy phép kiểm định an toàn kỹ thuật và bảo vệ môi trường"
-],
+          "Hồ sơ tài sản cố định: Hóa đơn mua máy CNC đục gỗ, máy bào cuốn, buồng sơn màng nước xưởng Nội thất Phú Tài",
+          "Hóa đơn, hợp đồng mua sắm và lắp đặt Dây chuyền Trạm trộn Bê tông thương phẩm và đoàn xe bồn trộn bê tông",
+          "Hồ sơ kỹ thuật và hóa đơn máy ép cọc cừ Larsen, búa rung và máy cơ giới thi công công trình",
+          "Quyết định đưa tài sản cố định vào sử dụng và Bảng đăng ký phương pháp trích khấu hao TSCĐ với cơ quan thuế",
+          "Bảng tính và phân bổ khấu hao TSCĐ hàng tháng (TK 214) chi tiết cho TK 627 (Nội thất, Bê tông) và TK 623 (Xây lắp)",
+          "Biên bản kiểm kê TSCĐ cuối năm tài chính có chữ ký của Hội đồng kiểm kê Kiểu Việt"
+        ],
         accountingSteps: [
-        "Bước 1: Rà soát toàn bộ số dư và phát sinh trên TK 211 (Nguyên giá TSCĐ hữu hình) đối chiếu với biên bản giao nhận và hóa đơn GTGT đầu vào.",
-        "Bước 2: Kiểm tra bút toán hạch toán chi phí khấu hao hàng tháng: Nợ TK 623 (Chi phí sử dụng máy thi công), TK 627 (Chi phí sản xuất chung tại mỏ đá) / Có TK 214 (Hao mòn TSCĐ).",
-        "Bước 3: Đối chiếu tổng số phát sinh khấu hao trên Sổ cái TK 214 với chỉ tiêu chi phí khấu hao trên Báo cáo kết quả hoạt động kinh doanh và tờ khai quyết toán thuế TNDN.",
-        "Bước 4: Kiểm tra việc phân bổ chi phí khấu hao của máy nghiền đá và xe tải vận chuyển vào giá thành sản phẩm khai thác (TK 154) và giá vốn hàng bán (TK 632).",
-        "Bước 5: Rà soát các tài sản đã khấu hao hết nhưng vẫn đang tham gia hoạt động thi công và khai thác mỏ để đảm bảo không trích khấu hao vượt nguyên giá."
-],
+          "Bước 1: Rà soát nguyên giá toàn bộ TSCĐ mới mua sắm, đảm bảo đủ điều kiện ghi nhận TSCĐ (nguyên giá >= 30 triệu đồng và thời gian sử dụng > 1 năm).",
+          "Bước 2: Đối chiếu khung thời gian trích khấu hao của máy móc xưởng gỗ, trạm bê tông với Phụ lục 1 Thông tư 45/2013/TT-BTC.",
+          "Bước 3: Kiểm tra việc phân bổ chi phí khấu hao đúng đối tượng chịu chi phí: Máy chế biến gỗ vào TK 627 xưởng Nội thất, trạm trộn bê tông vào TK 627 VLXD, máy ép cừ Larsen vào TK 623.",
+          "Bước 4: Rà soát các tài sản đã khấu hao hết nhưng vẫn đang phục vụ sản xuất kinh doanh, ngừng trích khấu hao nhưng vẫn theo dõi trên sổ sách.",
+          "Bước 5: Kiểm tra việc trích khấu hao trong thời gian máy móc tạm dừng sản xuất để bảo dưỡng định kỳ."
+        ],
         auditRisks: [
-        "Đoàn thanh tra bóc tách chi phí khấu hao của máy móc thiết bị không hoạt động hoặc không phục vụ cho hoạt động sản xuất kinh doanh tại mỏ đá và công trình.",
-        "Phạt truy thu thuế TNDN do trích khấu hao nhanh hơn hoặc chậm hơn khung thời gian quy định tại Thông tư 45/2013/TT-BTC mà không có sự chấp thuận của cơ quan thuế.",
-        "Loại trừ chi phí khấu hao của xe tải vận chuyển đá không có nhật ký chạy xe, không khớp số lượng nhiên liệu tiêu hao thực tế với định mức kỹ thuật.",
-        "Truy thu thuế do hạch toán nhầm công cụ dụng cụ (TK 242) thành tài sản cố định (TK 211) hoặc ngược lại, dẫn đến sai lệch kỳ phân bổ chi phí.",
-        "Phạt vi phạm hành chính khai sai dẫn đến thiếu số tiền thuế phải nộp theo quy định tại Nghị định 125/2020/NĐ-CP kèm tiền chậm nộp 0.03%/ngày."
-],
+          "Rủi ro đoàn thanh tra loại chi phí khấu hao do áp dụng thời gian trích khấu hao nhanh hơn khung quy định tại Thông tư 45/2013/TT-BTC.",
+          "Bóc tách khấu hao đối với máy móc xưởng mộc hoặc trạm trộn bê tông mua về nhưng thiếu biên bản nghiệm thu chạy thử hoặc chưa đưa vào sử dụng thực tế.",
+          "Phạt vi phạm về việc hạch toán lẫn lộn chi phí khấu hao máy thi công giữa các công trình xây lắp và phân xưởng sản xuất VLXD.",
+          "Truy thu thuế TNDN do trích khấu hao vượt mức cho phép đối với các phương tiện vận tải không có đủ giấy tờ đăng kiểm hợp lệ."
+        ],
         defenseStrategy: [
-        "Lập luận rằng toàn bộ xe tải ben, máy xúc và dây chuyền máy nghiền đá đều phục vụ trực tiếp và không thể tách rời khỏi chuỗi giá trị khai thác đá và thi công giao thông thủy lợi tại Gia Lai.",
-        "Viện dẫn Điều 10 Thông tư 45/2013/TT-BTC, khẳng định doanh nghiệp đã áp dụng đúng khung thời gian trích khấu hao đối với máy móc thiết bị khai thác khoảng sản và xe vận tải chuyên dụng.",
-        "Cung cấp đầy đủ nhật ký vận hành, bảng xác nhận khối lượng đá khai thác thực tế hàng tháng, biên bản nghiệm thu khối lượng thi công giao thông thủy lợi để chứng minh tài sản hoạt động liên tục.",
-        "Giải trình rằng việc tiêu hao nhiên liệu (dầu DO) hoàn toàn phù hợp với định mức kỹ thuật khai thác mỏ đá đã được đăng ký và phê duyệt nội bộ, không có chuyện tài sản bỏ trống không dùng."
-]
+          "Viện dẫn Thông tư 45/2013/TT-BTC, chứng minh toàn bộ máy móc dây chuyền sản xuất đồ gỗ và trạm bê tông thương phẩm đều có đầy đủ hóa đơn chứng từ, biên bản nghiệm thu chạy thử và thuộc sở hữu hợp pháp của Kiểu Việt.",
+          "Khẳng định khung thời gian khấu hao được công ty lựa chọn nằm trong giới hạn tối thiểu và tối đa của Khung trích khấu hao do Bộ Tài chính ban hành.",
+          "Xuất trình hồ sơ nhật trình hoạt động của xe bồn bê tông và máy ép cọc cừ Larsen, chứng minh tài sản phục vụ 100% cho hoạt động sản xuất kinh doanh tạo doanh thu chịu thuế.",
+          "Giải trình rõ ràng về việc trích khấu hao trong thời gian sửa chữa bảo dưỡng định kỳ máy móc hoàn toàn tuân thủ quy định tại Khoản 1 Điều 9 Thông tư 45/2013."
+        ]
       },
       {
         id: 'chk-tt-48-2019',
@@ -406,41 +405,40 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
       },
       {
         id: 'chk-tt-219-2013',
-        title: 'Thanh toán qua ngân hàng cho hóa đơn >= 20 triệu (TT 219/2013)',
-        description: 'Kiểm tra toàn bộ hóa đơn mua đá, cát, xi măng, xăng dầu >= 20 triệu phải có chứng từ ủy nhiệm chi qua ngân hàng để không bị loại khấu trừ thuế.',
+        title: 'Điều kiện khấu trừ thuế GTGT Gỗ Lâm Sản, VLXD & TT Ngân Hàng (TT 219/2013)',
+        description: 'Kiểm tra điều kiện khấu trừ thuế GTGT đối với gỗ nguyên liệu xẻ sấy (kèm Bảng kê lâm sản TT 26/2022/TT-BNNPTNT), xi măng cát đá trạm bê tông và thanh toán qua ngân hàng >= 20 triệu.',
         priority: 'critical',
         decreeId: 'tt-219-2013',
         articleNum: '15',
-        decreeLabel: 'TT 219/2013 (Hướng dẫn Thuế GTGT)',
+        decreeLabel: 'Thông tư 219/2013/TT-BTC',
         phase: 1,
         documentsRequired: [
-        "Hóa đơn điện tử giá trị gia tăng (file XML và PDF) có giá trị thanh toán từ 20 triệu đồng trở lên mua vật tư đá, sắt thép, máy móc",
-        "Hợp đồng kinh tế mua bán vật liệu xây dựng, thuê máy móc thiết bị, thuê xe vận tải ký kết với nhà cung cấp",
-        "Ủy nhiệm chi qua ngân hàng, lệnh chi tiền, giấy báo nợ của ngân hàng thể hiện giao dịch chuyển tiền từ tài khoản công ty sang tài khoản nhà cung cấp",
-        "Đối với trường hợp thanh toán qua bên thứ ba: Biên bản bù trừ công nợ, biên bản ủy quyền thanh toán ba bên có đầy đủ chữ ký và con dấu",
-        "Sổ chi tiết tài khoản 331 (Phải trả cho người bán) phản ánh đúng khớp số tiền thanh toán giữa hóa đơn và chứng từ ngân hàng",
-        "Phiếu xuất kho, biên bản giao nhận vật tư mỏ đá, biên bản nghiệm thu khối lượng dịch vụ mua ngoài"
-],
+          "Hóa đơn GTGT điện tử đầu vào hợp pháp của các nhà cung cấp gỗ tự nhiên, xi măng PCB40, cát, đá, sắt thép, phụ gia",
+          "Ủy nhiệm chi (UNC) và Giấy báo Nợ ngân hàng khớp đúng tên, số tài khoản của bên bán trên hóa đơn GTGT đối với các hóa đơn từ 20 triệu đồng trở lên",
+          "Bảng kê lâm sản hợp pháp có xác nhận của Kiểm lâm sở tại theo Thông tư 26/2022/TT-BNNPTNT đối với gỗ mua vào xưởng Nội thất",
+          "Hợp đồng kinh tế và Biên bản giao nhận hàng hóa tại kho Nhà máy Nội thất Phú Tài hoặc Trạm trộn Bê tông VLXD",
+          "Sổ chi tiết tài khoản 1331 (Thuế GTGT đầu vào được khấu trừ) đối chiếu với Tờ khai thuế GTGT Mẫu 01/GTGT từng kỳ",
+          "Biên bản bù trừ công nợ 3 bên hợp lệ (nếu có phát sinh cấn trừ công nợ vật liệu xây dựng và nội thất)"
+        ],
         accountingSteps: [
-        "Bước 1: Rà soát toàn bộ các hóa đơn mua vào có tổng giá thanh toán từ 20 triệu đồng trở lên trên Sổ cái TK 331 và TK 1331.",
-        "Bước 2: Đối chiếu từng hóa đơn GTGT đầu vào với Ủy nhiệm chi ngân hàng tương ứng để đảm bảo khớp đúng số tiền, tên người thụ hưởng và mã số thuế.",
-        "Bước 3: Kiểm tra các bút toán thanh toán công nợ qua ngân hàng: Nợ TK 331 / Có TK 112 (Tiền gửi ngân hàng).",
-        "Bước 4: Kiểm tra các trường hợp đặc biệt như thanh toán bù trừ công nợ, vay mượn, thanh toán qua bên thứ ba xem có đủ hồ sơ pháp lý hợp lệ hay không.",
-        "Bước 5: Rà soát và loại bỏ ngay trên tờ khai thuế GTGT hàng quý các hóa đơn >= 20 triệu đồng nhưng thanh toán bằng tiền mặt để tránh bị truy thu và phạt."
-],
+          "Bước 1: Rà soát 100% hóa đơn mua hàng có tổng giá trị thanh toán từ 20 triệu đồng trở lên trên Sổ cái TK 133 và TK 331, đảm bảo đều có chứng từ thanh toán không dùng tiền mặt.",
+          "Bước 2: Kiểm tra tài khoản ngân hàng thụ hưởng của bên bán, đảm bảo tài khoản này đã được thông báo với cơ quan thuế theo quy định.",
+          "Bước 3: Đối chiếu số thuế GTGT đầu vào trên Tờ khai 01/GTGT các kỳ với Bảng kê mua vào và Sổ cái TK 133, rà soát các hóa đơn kê khai sót hoặc trùng.",
+          "Bước 4: Kiểm tra việc phân bổ thuế GTGT đầu vào dùng chung cho hoạt động chịu thuế và không chịu thuế (nếu có cung cấp thiết bị y tế hoặc giáo dục thuộc diện miễn/giảm thuế).",
+          "Bước 5: Rà soát tình trạng hoạt động của nhà cung cấp gỗ và vật liệu tại thời điểm xuất hóa đơn, tránh rủi ro doanh nghiệp bỏ trốn."
+        ],
         auditRisks: [
-        "Đoàn thanh tra bóc tách toàn bộ thuế GTGT đầu vào được khấu trừ của các hóa đơn từ 20 triệu đồng trở lên nhưng không có chứng từ thanh toán qua ngân hàng.",
-        "Loại trừ chi phí mua vật liệu xây dựng, khai thác mỏ đá ra khỏi chi phí được trừ khi tính thuế TNDN do vi phạm điều kiện thanh toán không dùng tiền mặt.",
-        "Truy thu số thuế GTGT đã khấu trừ sai quy định kèm theo tiền chậm nộp 0.03%/ngày và phạt vi phạm khai sai 20% theo Nghị định 125/2020/NĐ-CP.",
-        "Phạt truy thu đối với các trường hợp thanh toán qua tài khoản cá nhân của người đại diện theo pháp luật mà không có quy chế tài chính hoặc ủy quyền hợp pháp.",
-        "Rủi ro bị ấn định thuế hoặc rà soát chéo hóa đơn với các nhà cung cấp cấp 2 tại địa bàn tỉnh Gia Lai."
-],
+          "Rủi ro đoàn thanh tra loại khấu trừ thuế GTGT đầu vào do hóa đơn trên 20 triệu đồng thanh toán bằng tiền mặt hoặc nộp tiền mặt vào tài khoản bên bán.",
+          "Bị loại thuế GTGT các lô gỗ xẻ sấy do thiếu Bảng kê lâm sản hợp pháp hoặc Bảng kê lâm sản không có xác nhận kiểm lâm hợp lệ.",
+          "Bẫy thuế về việc ủy nhiệm chi thanh toán sang tài khoản cá nhân của giám đốc bên bán mà không phải tài khoản công ty bên bán đăng ký với cơ quan thuế.",
+          "Phạt kê khai sai 20% và tính tiền chậm nộp đối với số thuế GTGT đầu vào bị loại trừ của các doanh nghiệp bán vật tư có dấu hiệu ngừng kinh doanh."
+        ],
         defenseStrategy: [
-        "Khẳng định doanh nghiệp luôn tuân thủ nghiêm ngặt quy định tại Điều 15 Thông tư 219/2013/TT-BTC, mọi giao dịch mua sắm hàng hóa dịch vụ từ 20 triệu đồng trở lên đều thực hiện thanh toán qua ngân hàng.",
-        "Xuất trình đầy đủ hệ thống ủy nhiệm chi điện tử có dấu xác nhận của ngân hàng thương mại, khớp đúng từng số hóa đơn và giá trị hợp đồng.",
-        "Đối với các giao dịch phức tạp như bù trừ công nợ hoặc thanh toán qua bên thứ ba, cung cấp đầy đủ bộ biên bản thỏa thuận ba bên, hợp đồng ủy quyền hợp pháp chứng minh tính logic dòng tiền.",
-        "Lập luận sắc bén bảo vệ quyền khấu trừ thuế GTGT đầu vào và chi phí được trừ khi tính thuế TNDN, chứng minh tính minh bạch trong hoạt động tài chính của Công ty Cổ phần Kiểu Việt tại Gia Lai."
-]
+          "Cung cấp trọn bộ hồ sơ gồm Hóa đơn điện tử gốc, Hợp đồng kinh tế, Biên bản giao nhận hàng thực tế và Ủy nhiệm chi chuyển khoản qua ngân hàng chứng minh thanh toán đúng quy định Điều 15 Thông tư 219/2013.",
+          "Xuất trình Bảng kê lâm sản hợp pháp có đầy đủ nguồn gốc xuất xứ theo quy định của Bộ Nông nghiệp & PTNT chứng minh gỗ nguyên liệu đưa vào sản xuất là hợp pháp.",
+          "Giải trình rõ ràng về bản chất kinh tế thực tế của các giao dịch mua vật tư trạm bê tông và gỗ mộc, vật tư đã thực sự cấu thành nên sản phẩm và công trình đã nghiệm thu.",
+          "Đối với các trường hợp thanh toán qua bên thứ ba hoặc bù trừ công nợ, xuất trình đầy đủ Biên bản đối chiếu công nợ và điều khoản hợp đồng cho phép thanh toán bù trừ theo đúng Điểm c Khoản 3 Điều 15 Thông tư 219/2013."
+        ]
       },
       {
         id: 'chk-nd-180-2024-nd-cp',
@@ -719,40 +717,40 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
       },
       {
         id: 'chk-tt-111-2013',
-        title: 'Khấu trừ 10% lao động thời vụ & Cam kết 08/CK-TNCN (TT 111/2013)',
-        description: 'Công nhân thời vụ xây dựng, bốc vác mỏ đá thu nhập >= 2 triệu phải khấu trừ 10% hoặc có Cam kết 08/CK-TNCN kèm CCCD và MST cá nhân hợp lệ.',
+        title: 'Thuế TNCN Thợ Mộc Xưởng Gỗ, Trạm Bê Tông & Cam Kết 08 (TT 111/2013)',
+        description: 'Rà soát hồ sơ nhân công thời vụ thợ mộc, thợ sơn xưởng Nội thất Phú Tài, công nhân trạm trộn bê tông và thợ ép cừ Larsen; kiểm tra cam kết 08/CK-TNCN miễn khấu trừ 10%.',
         priority: 'critical',
         decreeId: 'tt-111-2013',
         articleNum: '25',
-        decreeLabel: 'TT 111/2013 (Hướng dẫn Thuế TNCN)',
-        phase: 1,
+        decreeLabel: 'Thông tư 111/2013/TT-BTC',
+        phase: 2,
         documentsRequired: [
-        "Danh sách lao động thời vụ thi công công trình và khai thác mỏ đá tại Gia Lai",
-        "Bản cam kết mẫu 08/CK-TNCN có chữ ký của người lao động (chưa đến mức khấu trừ thuế)",
-        "Bản sao có chứng thực Căn cước công dân (CCCD) của toàn bộ lao động thời vụ",
-        "Hợp đồng lao động thời vụ dưới 3 tháng hoặc hợp đồng dịch vụ nhân công ngắn hạn",
-        "Bảng thanh toán tiền lương, phiếu chi tiền mặt hoặc chứng từ chuyển khoản qua ngân hàng",
-        "Chứng từ khấu trừ thuế TNCN 10% (trường hợp không làm cam kết 08/CK-TNCN)"
-],
+          "Hợp đồng giao khoán công việc / Hợp đồng lao động mùa vụ dưới 03 tháng ký với thợ mộc, thợ sơn xưởng gỗ và công nhân trạm bê tông",
+          "Bản cam kết thu nhập cá nhân Mẫu 08/CK-TNCN (theo Thông tư 80/2021/TT-BTC) kèm bản sao CCCD gắn chip còn hạn của từng lao động",
+          "Danh sách đăng ký Mã số thuế cá nhân cho 100% người lao động làm cam kết tại thời điểm ký cam kết",
+          "Bảng chấm công, Bảng theo dõi sản phẩm mộc hoàn thiện (ghế hội trường, bàn họp) có chữ ký Quản đốc xưởng",
+          "Bảng thanh toán tiền lương, tiền công có chữ ký nhận tiền mặt hoặc chứng từ chi trả qua tài khoản ngân hàng (TK 112)",
+          "Sổ chi tiết tài khoản 334 (Phải trả người lao động) và TK 3335 (Thuế TNCN) đối chiếu khớp đúng từng tháng"
+        ],
         accountingSteps: [
-        "Bước 1: Rà soát toàn bộ hợp đồng lao động thời vụ và danh sách nhân công thuê ngoài hạch toán vào TK 154, 622, 627.",
-        "Bước 2: Kiểm tra việc phân loại lao động có cam kết mẫu 08/CK-TNCN (không khấu trừ 10%) và lao động không làm cam kết (khấu trừ 10% trước khi chi trả).",
-        "Bước 3: Đối chiếu số tiền thuế TNCN 10% đã khấu trừ của lao động thời vụ trên Sổ chi tiết TK 3335 với bảng lương và chứng từ nộp ngân sách.",
-        "Bước 4: Kiểm tra tính hợp lệ, đầy đủ của Bản cam kết mẫu 08/CK-TNCN: cá nhân có mã số thuế, có thu nhập duy nhất tại công ty và tổng thu nhập chưa đến mức phải chịu thuế TNCN.",
-        "Bước 5: Kiểm tra đối chiếu số liệu chi phí nhân công thời vụ giữa Sổ cái TK 622, TK 154 với Tờ khai quyết toán thuế TNCN năm."
-],
+          "Bước 1: Rà soát danh sách lao động thời vụ có mức chi trả từ 2.000.000 đồng/lần trở lên, kiểm tra điều kiện áp dụng Bản cam kết 08/CK-TNCN để tạm thời không khấu trừ 10%.",
+          "Bước 2: Kiểm tra MST cá nhân của từng thợ mộc, công nhân trạm bê tông trên hệ thống của Tổng cục Thuế, đảm bảo MST có hiệu lực trước ngày ký cam kết.",
+          "Bước 3: Đối chiếu tổng chi phí nhân công thời vụ trên TK 622 (Nhà máy Nội thất, Trạm Bê tông) và TK 623 (Công trường) với Bảng thanh toán tiền lương.",
+          "Bước 4: Kiểm tra việc kê khai số lao động này trên Tờ khai quyết toán thuế TNCN Mẫu 05/QTT-TNCN và Phụ lục 05-2/BK-QTT-TNCN.",
+          "Bước 5: Rà soát đảm bảo không ký liên tiếp nhiều hợp đồng thời vụ dưới 3 tháng với cùng một người lao động trong năm tài chính."
+        ],
         auditRisks: [
-        "Rủi ro đoàn thanh tra truy thu 10% thuế TNCN đối với toàn bộ lao động thời vụ do bản cam kết mẫu 08/CK-TNCN thiếu thông tin, không có mã số thuế hoặc người lao động thực tế có thu nhập ở nơi khác.",
-        "Bẫy bóc tách chi phí nhân công thời vụ khỏi chi phí được trừ khi tính thuế TNDN do không có đủ CCCD, hợp đồng thời vụ hoặc chứng từ thanh toán không hợp lệ.",
-        "Phạt vi phạm hành chính do chậm nộp hoặc không khấu trừ thuế 10% đối với lao động thời vụ theo Nghị định 125/2020/NĐ-CP kèm tiền chậm nộp 0.03%/ngày.",
-        "Rủi ro cơ quan thuế quy chụp chi phí nhân công thuê ngoài là chi phí khống do thiếu xác nhận của đội trưởng thi công hoặc tư vấn giám sát công trình."
-],
+          "Rủi ro đoàn thanh tra truy thu 10% thuế TNCN đối với toàn bộ lao động thời vụ xưởng mộc và công trường do bản cam kết 08 lập không đúng mẫu hoặc ký sau thời điểm chi trả.",
+          "Bị loại chi phí tiền lương do cá nhân làm cam kết chưa có MST cá nhân tại thời điểm cam kết theo quy định của Thông tư 111/2013.",
+          "Nghi ngờ gian lận mượn CCCD để khống chi phí nhân công nếu đoàn thanh tra xác minh thực tế người lao động không thừa nhận có làm việc tại Kiểu Việt.",
+          "Tính tiền chậm nộp thuế TNCN 0.03%/ngày và phạt khai sai 20% trên tổng số thuế TNCN bị truy thu."
+        ],
         defenseStrategy: [
-        "Căn cứ điểm i khoản 1 Điều 25 Thông tư 111/2013/TT-BTC, Công ty Cổ phần Kiểu Việt đã thực hiện đúng quy định về việc hướng dẫn người lao động thời vụ lập Bản cam kết mẫu 08/CK-TNCN đối với những cá nhân có ước tính tổng mức thu nhập chịu thuế sau khi giảm trừ gia cảnh chưa đến mức phải nộp thuế.",
-        "Giải trình rằng đặc thù thi công xây lắp giao thông thủy lợi và khai thác mỏ đá tại Gia Lai thường xuyên sử dụng lượng lớn lao động phổ thông thời vụ theo mùa vụ; công ty đã thu thập đầy đủ bản sao CCCD và Bản cam kết 08 có chữ ký sống của từng cá nhân trước khi chi trả tiền lương.",
-        "Xuất trình hồ sơ chi tiết gồm hợp đồng lao động thời vụ dưới 3 tháng, bảng chấm công công trường, phiếu chi tiền mặt có chữ ký nhận của người lao động để chứng minh chi phí nhân công là có thật, phục vụ trực tiếp cho hoạt động sản xuất kinh doanh.",
-        "Lập luận sắc bén: Công ty chỉ thực hiện khấu trừ 10% đối với các cá nhân có mức thu nhập đến mức phải chịu thuế và không làm cam kết; đối với các trường hợp có cam kết hợp lệ, việc chi trả toàn bộ thu nhập mà không khấu trừ 10% là hoàn toàn tuân thủ đúng Thông tư 111/2013/TT-BTC, đoàn thanh tra không được phép truy thu thuế TNCN của người lao động từ phía doanh nghiệp."
-]
+          "Viện dẫn Điểm i Khoản 1 Điều 25 Thông tư 111/2013/TT-BTC, khẳng định người lao động chỉ có duy nhất thu nhập tại Kiểu Việt và ước tính tổng mức thu nhập trong năm chưa đến mức phải nộp thuế nên công ty không khấu trừ 10% là đúng luật.",
+          "Cung cấp đầy đủ hồ sơ gốc gồm Hợp đồng khoán việc, Bản cam kết 08 có chữ ký sống, Bản sao CCCD và Bảng chấm công xác nhận khối lượng sản phẩm mộc, bê tông thực tế.",
+          "Chứng minh tính thực tế của việc thuê thợ mộc, thợ sơn thời vụ để đáp ứng tiến độ hoàn thiện bàn ghế hội trường cho các gói thầu khẩn trương của cơ quan nhà nước.",
+          "Khẳng định 100% lao động làm cam kết đều có MST cá nhân hợp lệ tra cứu trên cổng thông tin ngành thuế, hồ sơ lưu trữ chặt chẽ sẵn sàng cho đoàn kiểm tra phỏng vấn đối chiếu."
+        ]
       },
       {
         id: 'chk-blld-45-2019',
@@ -915,40 +913,40 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
       },
       {
         id: 'chk-tt-80-2021',
-        title: 'Phân bổ thuế GTGT 1% & TNDN 1% công trình vãng lai (TT 80/2021)',
-        description: 'Tổng hợp chứng từ nộp thuế 1% tại Kho bạc các tỉnh lân cận (Kon Tum, Đắk Lắk) theo Mẫu 01-6/GTGT để bù trừ thuế đầu ra tại Cục Thuế Gia Lai.',
+        title: 'Phân bổ thuế GTGT 1% & TNDN 1% Công trình & Nội thất Ngoại tỉnh (TT 80/2021)',
+        description: 'Đối chiếu nghĩa vụ thuế vãng lai 1% các công trình xây lắp và gói thầu nội thất tại Bình Định (Hải quan Bình Định, QL19 Becamex), Phú Yên (Hải quan Phú Yên), Gia Lai theo TT 80/2021.',
         priority: 'critical',
         decreeId: 'tt-80-2021',
         articleNum: '13',
-        decreeLabel: 'TT 80/2021 (Phân bổ thuế vãng lai)',
+        decreeLabel: 'Thông tư 80/2021/TT-BTC',
         phase: 1,
         documentsRequired: [
-        "Hợp đồng thi công các công trình giao thông, thủy lợi thực hiện ngoài địa bàn tỉnh Gia Lai (hoặc tại các huyện/thị xã khác ngoài trụ sở chính).",
-        "Giấy xác nhận hoàn thành công trình vãng lai hoặc biên bản bàn giao, nghiệm thu đưa vào sử dụng từng hạng mục công trình.",
-        "Các tờ khai thuế GTGT hàng tháng/quý có kê khai chỉ tiêu phân bổ thuế GTGT vãng lai (mẫu 01/GTGT, phụ lục phân bổ 01-7/GTGT).",
-        "Các chứng từ nộp ngân sách nhà nước (Ủy nhiệm chi TK 112 đối ứng TK 3331) cho cơ quan thuế địa phương nơi có công trình vãng lai.",
-        "Bảng tính phân bổ thuế TNDN đối với hoạt động xây lắp vãng lai khi quyết toán thuế TNDN năm.",
-        "Hóa đơn điện tử đầu ra xuất cho chủ đầu tư tại các công trình vãng lai."
-],
+          "Bảng phân bổ thuế GTGT phải nộp cho các địa phương nơi có công trình xây dựng, lắp đặt nội thất ngoại tỉnh (Mẫu 01-6/GTGT)",
+          "Hợp đồng thi công xây dựng và Hợp đồng cung cấp lắp đặt nội thất tại các tỉnh Bình Định, Phú Yên, Gia Lai, Kon Tum",
+          "Biên bản nghiệm thu khối lượng hoàn thành A-B và Hóa đơn GTGT xuất cho từng chủ đầu tư ngoại tỉnh",
+          "Giấy nộp tiền vào Ngân sách Nhà nước nộp thuế GTGT 1% và TNDN 1% tại Kho bạc Nhà nước các tỉnh nơi có công trình",
+          "Tờ khai thuế GTGT (Mẫu 01/GTGT) tại trụ sở chính có kê khai bù trừ số thuế vãng lai đã nộp (Chỉ tiêu [39])",
+          "Sổ chi tiết tài khoản 3331 và TK 3334 theo dõi nghĩa vụ thuế đã nộp tại các địa phương"
+        ],
         accountingSteps: [
-        "Bước 1: Rà soát danh mục các công trình xây lắp vãng lai ngoại tỉnh hoặc ngoài địa bàn tỉnh Gia Lai để xác định nghĩa vụ phân bổ thuế GTGT 1% theo Điều 13 Thông tư 80/2021/TT-BTC.",
-        "Bước 2: Kiểm tra việc hạch toán thuế GTGT phải nộp cho cơ quan thuế nơi có công trình vãng lai trên tài khoản TK 33312 đối ứng TK 112.",
-        "Bước 3: Đối chiếu số thuế GTGT đã nộp vãng lai tại các địa phương với số được khấu trừ trên tờ khai thuế GTGT trụ sở chính (mẫu 01/GTGT).",
-        "Bước 4: Kiểm tra việc phân bổ thuế TNDN 1% đối với hoạt động xây lắp ngoại tỉnh khi lập quyết toán thuế TNDN năm, đối chiếu số liệu trên TK 3334 và Báo cáo tài chính.",
-        "Bước 5: Rà soát Sổ cái các tài khoản doanh thu (TK 511) của từng công trình vãng lai để đảm bảo không bỏ sót doanh thu chịu phân bổ thuế."
-],
+          "Bước 1: Rà soát danh mục toàn bộ các công trình xây lắp và dự án lắp đặt nội thất thực hiện ngoài địa bàn tỉnh nơi đóng trụ sở chính.",
+          "Bước 2: Tính toán chính xác số thuế GTGT vãng lai 1% phải nộp trên doanh thu chưa có thuế GTGT của từng lần chủ đầu tư thanh toán.",
+          "Bước 3: Thu thập toàn bộ Giấy nộp tiền vào NSNN tại Kho bạc Nhà nước các tỉnh Bình Định, Phú Yên, Gia Lai có ghi đúng mã chương, tiểu mục thuế vãng lai.",
+          "Bước 4: Đối chiếu số thuế GTGT vãng lai đã nộp ngoại tỉnh với số liệu kê khai bù trừ vào Chỉ tiêu [39] trên Tờ khai 01/GTGT tại Cục Thuế quản lý.",
+          "Bước 5: Kiểm tra việc phân bổ và tạm nộp thuế TNDN 1% đối với hoạt động xây lắp ngoại tỉnh theo quy định tại Điều 17 Thông tư 80/2021/TT-BTC."
+        ],
         auditRisks: [
-        "Bị phạt chậm nộp và ấn định thuế do không thực hiện kê khai và nộp tiền phân bổ thuế GTGT 1% tại cơ quan thuế nơi có công trình vãng lai.",
-        "Cơ quan thuế tại trụ sở chính xuất toán số thuế GTGT đã phân bổ ngoại tỉnh do thiếu giấy nộp tiền hoặc thiếu hồ sơ xác nhận công trình vãng lai.",
-        "Sai sót trong việc xác định tỷ lệ phân bổ doanh thu công trình vãng lai so với tổng doanh thu khi quyết toán thuế TNDN.",
-        "Trùng lặp khấu trừ thuế GTGT đầu vào hoặc kê khai sót doanh thu vãng lai dẫn đến truy thu thuế và xử phạt hành chính."
-],
+          "Rủi ro đoàn thanh tra yêu cầu truy thu thuế GTGT vãng lai 1% do doanh nghiệp chưa nộp tại địa phương nơi có công trình mà chỉ kê khai nộp thuế tại trụ sở chính.",
+          "Bị loại trừ số thuế GTGT đã kê khai vào Chỉ tiêu [39] do Giấy nộp tiền vào Kho bạc ghi sai thông tin cơ quan thuế quản lý địa bàn vãng lai.",
+          "Bẫy thuế về việc nộp thừa thuế tại địa phương nhưng không được hoàn trả hoặc thủ tục bù trừ kéo dài gây đọng vốn.",
+          "Phạt chậm nộp thuế GTGT và TNDN vãng lai tại các tỉnh nơi có công trình thi công do chủ đầu tư Kho bạc đã thanh toán nhưng doanh nghiệp chậm nộp thuế 1%."
+        ],
         defenseStrategy: [
-        "Luận điểm 1: Căn cứ Điều 13 Thông tư 80/2021/TT-BTC, công ty đã thực hiện đầy đủ việc phân bổ và nộp thuế GTGT 1% trên doanh thu chưa thuế đối với các công trình giao thông thủy lợi vãng lai ngoại tỉnh.",
-        "Luận điểm 2: Xuất trình đầy đủ các giấy nộp tiền vào ngân sách nhà nước tại Kho bạc/Cơ quan thuế địa phương nơi có công trình vãng lai để chứng minh doanh nghiệp không trốn tránh nghĩa vụ thuế địa phương.",
-        "Luận điểm 3: Đối với công trình vãng lai có giá trị nhỏ hoặc thời gian thi công ngắn, công ty đã hạch toán và phân bổ đúng theo hướng dẫn tại Thông tư 80, đảm bảo không có sự trùng lặp hoặc bỏ sót số liệu.",
-        "Luận điểm 4: Lập bảng đối chiếu chi tiết doanh thu từng công trình vãng lai khớp đúng giữa Sổ cái TK 511, Tờ khai thuế GTGT hàng quý và Phụ lục phân bổ thuế TNDN năm, thuyết phục hoàn toàn đoàn thanh tra."
-]
+          "Viện dẫn Điều 13 và Điều 17 Thông tư 80/2021/TT-BTC, chứng minh Công ty Kiểu Việt đã thực hiện đúng và đủ nghĩa vụ phân bổ thuế GTGT 1% cho các địa phương có công trình.",
+          "Xuất trình trọn bộ Giấy nộp tiền vào Ngân sách Nhà nước tại Kho bạc các tỉnh (Bình Định, Phú Yên, Gia Lai) có xác nhận của ngân hàng và kho bạc.",
+          "Chứng minh việc bù trừ vào Chỉ tiêu [39] trên Tờ khai thuế GTGT tại trụ sở chính là hoàn toàn trùng khớp 100% với số tiền thuế thực nộp, không có gian lận.",
+          "Giải trình đối với các gói thầu cung cấp lắp đặt nội thất trọn gói đã nộp thuế vãng lai tại địa phương lắp đặt, đề nghị đoàn thanh tra công nhận số thuế đã nộp vào ngân sách nhà nước."
+        ]
       },
       {
         id: 'chk-nd-125-2020',

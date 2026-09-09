@@ -35,14 +35,14 @@ export function TaxAuditAIChat() {
   const effectiveKey = geminiApiKey?.trim() || defaultKey;
 
   const quickQuestions = [
-    { label: '⛽ Nhiên liệu mỏ đá', text: 'Đoàn kiểm tra đòi loại chi phí dầu DO xe ben, máy xúc mỏ đá vì thiếu định mức, cách giải trình và bộ hồ sơ bảo vệ chi phí?' },
-    { label: '🏗️ Trích trước TK 335', text: 'Đoàn kiểm tra đòi bóc chi phí trích trước TK 335 của công trình xây lắp đã nghiệm thu bàn giao nhưng chưa quyết toán, lập luận bảo vệ thế nào?' },
-    { label: '👷 Nhân công thời vụ', text: 'Đoàn thanh tra muốn truy thu 10% thuế TNCN lao động thời vụ mỏ đá, cách dùng cam kết 08/CK-TNCN và hợp đồng thời vụ để bảo vệ?' },
-    { label: '💰 Lãi vay NĐ 132', text: 'Chi phí lãi vay bên liên kết vượt trần 30% EBITDA theo Nghị định 132/2020/NĐ-CP được chuyển sang các năm sau tính toán thế nào?' },
-    { label: '🏛️ GTGT vãng lai 1%', text: 'Hồ sơ chứng minh và đối trừ thuế GTGT vãng lai 1% ngoại tỉnh theo Thông tư 80/2021/TT-BTC tránh bị nộp thừa/thiếu?' },
-    { label: '⛏️ Mỏ đá & Tài nguyên', text: 'Đoàn kiểm tra nghi ngờ sản lượng nổ mìn và đá thành phẩm bán ra, giải trình tỷ lệ hao hụt đá theo Quyết định 87/2025 Gia Lai?' },
-    { label: '📊 Lệch DT GTGT vs TNDN', text: 'Giải trình chênh lệch doanh thu giữa tờ khai GTGT và quyết toán TNDN do công trình dở dang TK 154 và doanh thu tài chính TK 515?' },
-    { label: '🧾 Hóa đơn bên bỏ trốn', text: 'Công ty nhận được thông báo từ cơ quan thuế về hóa đơn đầu vào của doanh nghiệp có dấu hiệu rủi ro, bỏ trốn, quy trình xử lý giải trình?' }
+    { label: '🪑 Định mức gỗ & Sơn PU', text: 'Đoàn kiểm tra đòi bóc chi phí gỗ nguyên liệu và sơn PU xưởng Nội thất Phú Tài vì nghi ngờ tỷ lệ hao hụt mùn cưa và định mức tiêu hao, lập luận giải trình ra sao?' },
+    { label: '🪵 Nguồn gốc lâm sản gỗ', text: 'Cơ quan thuế yêu cầu chứng minh nguồn gốc lâm sản hợp pháp cho các lô gỗ xẻ đóng bàn ghế hội trường, phòng làm việc theo Thông tư 26/2022/TT-BNNPTNT, hồ sơ gồm những gì?' },
+    { label: '🧱 Cấp phối trạm Bê tông', text: 'Đoàn kiểm tra soi định mức cấp phối xi măng trạm trộn Bê tông thương phẩm Kiểu Việt và đòi loại chi phí hao hụt xe bồn, cách đối chiếu kết quả thí nghiệm LAS và bảo vệ?' },
+    { label: '🏗️ Cấu kiện đúc sẵn & Cừ Larsen', text: 'Giải trình tỷ lệ hao hụt nứt vỡ KCS cống hộp, bó vỉa, gạch không nung và chi phí dầu DO máy ép cọc cừ Larsen phục vụ thi công công trình?' },
+    { label: '🏗️ Trích trước TK 335', text: 'Đoàn kiểm tra đòi bóc chi phí trích trước TK 335 của công trình xây lắp và dự án cung cấp lắp đặt nội thất trọn gói đã bàn giao nhưng chưa có đủ hóa đơn thầu phụ, bảo vệ thế nào?' },
+    { label: '👷 Nhân công thời vụ xưởng mộc & bê tông', text: 'Đoàn thanh tra muốn truy thu 10% thuế TNCN thợ mộc gia công gỗ và nhân công trạm trộn bê tông, cách dùng bản cam kết 08/CK-TNCN và hợp đồng khoán việc bảo vệ?' },
+    { label: '🏛️ Thuế vãng lai 1% ngoại tỉnh', text: 'Hồ sơ chứng minh và đối trừ thuế GTGT vãng lai 1% các công trình và gói thầu nội thất tại Bình Định, Gia Lai, Phú Yên theo Thông tư 80/2021/TT-BTC?' },
+    { label: '📊 Lệch DT GTGT vs Quyết toán TNDN', text: 'Giải trình chênh lệch doanh thu giữa tờ khai GTGT và quyết toán TNDN đối với hợp đồng cung cấp lắp đặt nội thất và khối lượng bê tông xuất trạm cuối tháng?' }
   ];
 
   useEffect(() => {
@@ -50,12 +50,15 @@ export function TaxAuditAIChat() {
       {
         id: 'welcome',
         role: 'assistant',
-        content: `👋 Xin chào Ban Lãnh đạo & Kế toán Kiểu Việt! Tôi là **Trưởng Ban Cố Vấn Pháp Lý & Thanh Tra Thuế Cấp Cao** của Công ty Cổ phần Kiểu Việt.
+        content: `👋 Xin chào Ban Lãnh đạo & Đội ngũ Kế toán Kiểu Việt! Tôi là **Trưởng Ban Cố Vấn Pháp Lý & Thanh Tra Thuế Cấp Cao** của Công ty Cổ phần Kiểu Việt (Nội thất — Vật liệu Xây dựng — Thi công Xây lắp | kieuviet.com.vn).
 
 🏛️ **HỆ THỐNG DỮ LIỆU ĐÃ KẾT NỐI TOÀN DIỆN**:
-- Đầy đủ **55/55 Văn bản pháp luật** chuyên sâu về Thuế & Kế toán Doanh nghiệp (Luật QLT 38/2019, NĐ 125/2020, NĐ 126/2020, NĐ 132/2020, TT 96/2015, TT 219/2013, TT 80/2021, TT 99/2025, QĐ 87/2025/QĐ-UBND Gia Lai...).
-- Đầy đủ **6 Bộ Mẫu biểu & Văn bản giải trình thực chiến** (Mẫu 01 đến Mẫu 06).
-- Tích hợp sâu nghiệp vụ đặc thù: **Thi công xây lắp hạ tầng giao thông** và **Khai thác mỏ đá xây dựng tại Gia Lai**.
+- Đầy đủ **55/55 Văn bản pháp luật** chuyên sâu về Thuế & Kế toán Doanh nghiệp.
+- Đầy đủ **8 Bộ Mẫu biểu & Văn bản giải trình thực chiến** (Mẫu 01 đến Mẫu 08).
+- Tích hợp sâu nghiệp vụ 3 trụ cột sản xuất - kinh doanh của Kiểu Việt:
+  1. 🪑 **Nhà máy Sản xuất Đồ gỗ Nội thất Phú Tài**: Định mức gỗ tự nhiên xẻ sấy, sơn PU, hao hụt mùn cưa, hồ sơ lâm sản hợp pháp (TT 26/2022/TT-BNNPTNT), nhân công thợ mộc, bàn ghế hội trường, thiết bị trường học, thiết bị y tế.
+  2. 🧱 **Nhà máy Vật liệu Xây dựng & Trạm Bê tông Thương phẩm**: Cấp phối trạm trộn xi măng - cát - đá TCVN, hao hụt xe bồn, xe bơm, cấu kiện đúc sẵn (cống hộp, bó vỉa, gạch không nung), thi công ép cừ Larsen, mỏ khoáng sản cát đá.
+  3. 🏗️ **Thi công Xây lắp & Tư vấn Dự án**: Trụ sở Cục Hải quan Bình Định, Phú Yên, HĐND Gia Lai, QL19 Becamex... Nghiệm thu A-B, dở dang TK 154, trích trước TK 335, thuế vãng lai 1% TT 80/2021.
 
 Khi đoàn kiểm tra thuế đặt câu hỏi hoặc có ý định loại trừ chi phí, hãy chọn tình huống bên dưới hoặc gõ trực tiếp câu hỏi. Tôi sẽ cung cấp câu trả lời chuẩn mực gồm **5 phần**:
 1. 🎯 **Nhận định nghiệp vụ & Phân tích rủi ro**
@@ -166,7 +169,7 @@ Khi đoàn kiểm tra thuế đặt câu hỏi hoặc có ý định loại tr�
             <h3 className="font-bold text-sm text-white flex items-center gap-2">
               Trợ Lý AI Phản Biện & Bảo Vệ Chi Phí Thanh Tra Thuế
               <Badge className="bg-emerald-500/30 text-emerald-300 border-emerald-400/40 text-[10px]">Thực Chiến</Badge>
-              <Badge className="bg-cyan-500/20 text-cyan-300 border-cyan-400/30 text-[10px]">55/55 Văn bản & 6 Mẫu biểu</Badge>
+              <Badge className="bg-cyan-500/20 text-cyan-300 border-cyan-400/30 text-[10px]">55/55 Văn bản & 8 Mẫu biểu</Badge>
             </h3>
             <p className="text-[11px] text-slate-300">
               Trực chiến hỗ trợ kế toán Kiểu Việt phản biện các yêu cầu xuất toán chi phí của đoàn kiểm tra
