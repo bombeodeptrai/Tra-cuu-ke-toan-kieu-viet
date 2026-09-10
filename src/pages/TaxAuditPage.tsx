@@ -21,6 +21,11 @@ import {
 } from '@/data/tax-audit-checklist';
 import { AUDIT_TEMPLATES, AuditTemplate } from '@/data/tax-audit-templates';
 import { TaxAuditAIChat } from '@/components/tax-audit/TaxAuditAIChat';
+import { AuditCaseHeader } from '@/components/tax-audit/AuditCaseHeader';
+import { ReconciliationPanel } from '@/components/tax-audit/ReconciliationPanel';
+import { EvidencePanel } from '@/components/tax-audit/EvidencePanel';
+import { AuditRequestLog } from '@/components/tax-audit/AuditRequestLog';
+import { FolderArchive } from 'lucide-react';
 
 const STORAGE_KEY_ITEMS = 'kv_tax_audit_checked_items';
 const STORAGE_KEY_RISK = 'kv_tax_audit_risk_answers';
@@ -150,7 +155,7 @@ export function TaxAuditPage() {
   const importantItems = allItems.filter(i => i.priority === 'important');
   const recommendedItems = allItems.filter(i => i.priority === 'recommended');
 
-  // Risk calculation
+  // Risk calculation - Fixed false-green according to Codex Walkthrough Section 7.3
   const totalRiskScore = useMemo(() => {
     return RISK_QUESTIONS.reduce((sum, q) => {
       return sum + (riskAnswers[q.id] ? q.weight : 0);
@@ -158,13 +163,30 @@ export function TaxAuditPage() {
   }, [riskAnswers]);
 
   const maxRiskScore = RISK_QUESTIONS.reduce((sum, q) => sum + q.weight, 0); // 61
-  const answeredQuestionsCount = Object.keys(riskAnswers).length;
+  const answeredQuestionsCount = RISK_QUESTIONS.filter(
+    q => typeof riskAnswers[q.id] === 'boolean'
+  ).length;
+  const assessmentComplete = answeredQuestionsCount === RISK_QUESTIONS.length;
 
   const riskLevel = useMemo(() => {
-    if (totalRiskScore <= 15) return { text: 'RỦI RO THẤP', color: 'text-emerald-700 bg-emerald-100 dark:bg-emerald-950/60 dark:text-emerald-300 border-emerald-300', desc: 'Hồ sơ doanh nghiệp cơ bản an toàn, tuân thủ tương đối tốt.' };
+    if (answeredQuestionsCount === 0) {
+      return {
+        text: 'CHƯA ĐÁNH GIÁ',
+        color: 'text-slate-700 bg-slate-100 dark:bg-slate-800 dark:text-slate-300 border-slate-300',
+        desc: 'Chưa thực hiện trả lời bài đánh giá rủi ro. Vui lòng trả lời để nhận diện nguy cơ thực tế.'
+      };
+    }
+    if (!assessmentComplete) {
+      return {
+        text: `CHƯA ĐỦ DỮ LIỆU (${answeredQuestionsCount}/${RISK_QUESTIONS.length})`,
+        color: 'text-amber-700 bg-amber-100 dark:bg-amber-950/60 dark:text-amber-300 border-amber-300',
+        desc: `Đã trả lời ${answeredQuestionsCount}/${RISK_QUESTIONS.length} câu. Tiếp tục hoàn thành để có đánh giá toàn diện.`
+      };
+    }
+    if (totalRiskScore <= 15) return { text: 'RỦI RO THẤP', color: 'text-emerald-700 bg-emerald-100 dark:bg-emerald-950/60 dark:text-emerald-300 border-emerald-300', desc: 'Hồ sơ doanh nghiệp cơ bản tuân thủ tốt, cần duy trì đủ chứng từ gốc.' };
     if (totalRiskScore <= 35) return { text: 'RỦI RO TRUNG BÌNH', color: 'text-amber-700 bg-amber-100 dark:bg-amber-950/60 dark:text-amber-300 border-amber-300', desc: 'Có một số sai sót cần khắc phục ngay và lập bản giải trình trước khi thanh tra.' };
     return { text: 'RỦI RO CAO', color: 'text-red-700 bg-red-100 dark:bg-red-950/60 dark:text-red-300 border-red-300', desc: 'Nguy cơ bị ấn định thuế, loại trừ chi phí và xử phạt nặng! Cần rà soát khẩn cấp.' };
-  }, [totalRiskScore]);
+  }, [totalRiskScore, answeredQuestionsCount, assessmentComplete]);
 
   const priorityBadge = (priority: CheckPriority) => {
     switch (priority) {
@@ -181,10 +203,15 @@ export function TaxAuditPage() {
     return AUDIT_TEMPLATES.find(t => t.id === selectedTemplateId) || AUDIT_TEMPLATES[0];
   }, [selectedTemplateId]);
 
-  const handleCopyTemplate = () => {
-    navigator.clipboard.writeText(selectedTemplate.templateContent);
-    setCopiedTemplate(true);
-    setTimeout(() => setCopiedTemplate(false), 2000);
+  const handleCopyTemplate = async () => {
+    try {
+      await navigator.clipboard.writeText(selectedTemplate.templateContent);
+      setCopiedTemplate(true);
+      setTimeout(() => setCopiedTemplate(false), 2000);
+    } catch {
+      setCopiedTemplate(false);
+      alert('Chưa thể tự động sao chép. Vui lòng chọn và sao chép thủ công.');
+    }
   };
 
   return (
@@ -206,6 +233,11 @@ export function TaxAuditPage() {
           <h1 className="text-lg font-black uppercase">BIÊN BẢN TỰ RÀ SOÁT HỒ SƠ PHỤC VỤ THANH TRA / KIỂM TRA THUẾ</h1>
           <p className="text-xs text-gray-600 mt-1">Ngày lập: {new Date().toLocaleDateString('vi-VN')} | Tiến độ hoàn thành: {progressPercent}% ({completedCount}/{totalItems} mục)</p>
         </div>
+      </div>
+
+      {/* Header Điều Hành Ca Kiểm Tra Thuế Kiểu Việt (CODEX WALKTHROUGH) */}
+      <div className="print:hidden">
+        <AuditCaseHeader completedCount={completedCount} totalCount={totalItems} />
       </div>
 
       {/* Banner Doanh Nghiệp (Screen Only) */}
@@ -311,6 +343,14 @@ export function TaxAuditPage() {
       {/* TABS NỘI DUNG CHÍNH (Screen Only) */}
       <Tabs defaultValue="checklist" className="print:hidden space-y-6">
         <TabsList className="bg-muted p-1 rounded-2xl w-full flex flex-wrap sm:inline-flex h-auto gap-1">
+          <TabsTrigger value="reconcile" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5 bg-blue-50/60 dark:bg-blue-950/40 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800">
+            <Scale className="h-4 w-4 text-blue-600" /> 
+            🔥 Đối Chiếu 6 Số Liệu (Nợ 37 tỷ, 154, 2293)
+          </TabsTrigger>
+          <TabsTrigger value="evidence-log" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
+            <FolderArchive className="h-4 w-4 text-purple-600" /> 
+            📁 Hồ Sơ & Sổ Đoàn Kiểm Tra
+          </TabsTrigger>
           <TabsTrigger value="checklist" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
             <FileText className="h-4 w-4 text-emerald-600" /> 
             1. Checklist Hồ Sơ ({completedCount}/{totalItems})
@@ -955,7 +995,22 @@ export function TaxAuditPage() {
         </TabsContent>
 
         {/* ========================================================================= */}
-        {/* TAB 6: TRỢ LÝ AI PHẢN BIỆN BẢO VỆ CHI PHÍ (MỚI) */}
+        {/* ========================================================================= */}
+        {/* TAB MỚI: 6 CÔNG CỤ ĐỐI CHIẾU SỐ LIỆU TÀI CHÍNH KIỂU VIỆT */}
+        {/* ========================================================================= */}
+        <TabsContent value="reconcile" className="space-y-6">
+          <ReconciliationPanel />
+        </TabsContent>
+
+        {/* ========================================================================= */}
+        {/* TAB MỚI: HỒ SƠ CHỨNG TỪ & SỔ GIAO VIỆC ĐOÀN KIỂM TRA */}
+        {/* ========================================================================= */}
+        <TabsContent value="evidence-log" className="space-y-6">
+          <EvidencePanel />
+          <AuditRequestLog />
+        </TabsContent>
+
+                {/* TAB 6: TRỢ LÝ AI PHẢN BIỆN BẢO VỆ CHI PHÍ (MỚI) */}
         {/* ========================================================================= */}
         <TabsContent value="ai-advisor" className="space-y-6">
           <TaxAuditAIChat />
