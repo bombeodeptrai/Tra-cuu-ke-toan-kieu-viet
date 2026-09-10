@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Building2, LayoutDashboard, Library, Search, MessageSquareText, Settings, BookOpen, Download, LineChart, ScanText, Sparkles, LogOut, HelpCircle, Calculator, ArrowRightLeft, ShieldCheck } from 'lucide-react';
+import { Building2, LayoutDashboard, Library, Search, MessageSquareText, Settings, BookOpen, Download, LineChart, ScanText, Sparkles, LogOut, HelpCircle, Calculator, ArrowRightLeft, ShieldCheck, Stethoscope } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { APP_NAME } from '@/lib/utils/constants';
 import { useUserStore } from '@/stores/user-store';
@@ -60,6 +60,19 @@ export function Sidebar({ onClose }: SidebarProps) {
 
       <div className="px-4 mb-4">
         <div className="pt-2 flex flex-col gap-3">
+          <a
+            href="./med-app/"
+            onClick={onClose}
+            className="group relative flex items-center justify-center gap-2 rounded-xl p-0.5 transition-all duration-300 hover:scale-[1.02] shadow-md hover:shadow-lg active:scale-95"
+          >
+            <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-teal-500 via-cyan-500 to-emerald-500 opacity-80 group-hover:opacity-100 blur-sm transition-opacity duration-300"></div>
+            <div className="relative flex w-full items-center justify-center gap-2 rounded-[10px] bg-gradient-to-r from-teal-600 via-cyan-600 to-emerald-600 px-4 py-3 text-white">
+              <Stethoscope className="h-5 w-5" />
+              <span className="font-bold text-sm tracking-wide">ĐẤU THẦU TBYT & HÒA ĐỨC</span>
+              <Sparkles className="h-4 w-4 text-cyan-100 absolute top-2 right-2 animate-pulse" />
+            </div>
+          </a>
+          
           <a
             href="https://abs-variation-nathan-clan.trycloudflare.com"
             target="_blank"

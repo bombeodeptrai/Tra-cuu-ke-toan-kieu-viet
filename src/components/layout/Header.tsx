@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Building2, Search, Sun, Moon, Bell, Menu, Calculator } from 'lucide-react';
+import { Building2, Search, Sun, Moon, Bell, Menu, Calculator, Stethoscope } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -70,6 +70,14 @@ export function Header() {
         </div>
 
         <div className="flex items-center gap-1.5">
+          <a
+            href="./med-app/"
+            className="hidden sm:inline-flex items-center gap-1.5 text-xs font-semibold text-teal-800 dark:text-teal-300 hover:bg-teal-50 dark:hover:bg-teal-950/40 rounded-lg h-9 px-3 border border-teal-200 dark:border-teal-800/60 transition-colors"
+          >
+            <Stethoscope className="h-4 w-4 text-teal-600 dark:text-teal-400" />
+            <span>TBYT & Hòa Đức</span>
+          </a>
+
           <Button 
             variant="ghost" 
             size="sm" 
