@@ -1,0 +1,150 @@
+{
+  "testedAt": "2026-09-10T10:22:12.294Z",
+  "scope": "Plan code snippets: strict TypeScript and synthetic logic only; no live website or legal validation",
+  "typecheckErrors": 0,
+  "passed": 28,
+  "groups": 40,
+  "templates": 14,
+  "results": [
+    {
+      "name": "pass",
+      "actual": "pass",
+      "expected": "pass"
+    },
+    {
+      "name": "false evidence",
+      "actual": "fail",
+      "expected": "fail"
+    },
+    {
+      "name": "missing",
+      "actual": "insufficient",
+      "expected": "insufficient"
+    },
+    {
+      "name": "OCR unverified",
+      "actual": "insufficient",
+      "expected": "insufficient"
+    },
+    {
+      "name": "wrong model",
+      "actual": "insufficient",
+      "expected": "insufficient"
+    },
+    {
+      "name": "wrong entity",
+      "actual": "insufficient",
+      "expected": "insufficient"
+    },
+    {
+      "name": "stale",
+      "actual": "insufficient",
+      "expected": "insufficient"
+    },
+    {
+      "name": "expired",
+      "actual": "insufficient",
+      "expected": "insufficient"
+    },
+    {
+      "name": "draft",
+      "actual": "review",
+      "expected": "review"
+    },
+    {
+      "name": "no citation",
+      "actual": "review",
+      "expected": "review"
+    },
+    {
+      "name": "unknown scope",
+      "actual": "insufficient",
+      "expected": "insufficient"
+    },
+    {
+      "name": "unproven exemption",
+      "actual": "insufficient",
+      "expected": "insufficient"
+    },
+    {
+      "name": "exemption",
+      "actual": "not_applicable",
+      "expected": "not_applicable"
+    },
+    {
+      "name": "outside interval",
+      "actual": "not_applicable",
+      "expected": "not_applicable"
+    },
+    {
+      "name": "future event",
+      "actual": "review",
+      "expected": "review"
+    },
+    {
+      "name": "future check",
+      "actual": "review",
+      "expected": "review"
+    },
+    {
+      "name": "conflict",
+      "actual": "review",
+      "expected": "review"
+    },
+    {
+      "name": "duplicate fact",
+      "actual": "review",
+      "expected": "review"
+    },
+    {
+      "name": "empty conditions",
+      "actual": "review",
+      "expected": "review"
+    },
+    {
+      "name": "invalid interval",
+      "actual": "review",
+      "expected": "review"
+    },
+    {
+      "name": "invalid day",
+      "actual": null,
+      "expected": null
+    },
+    {
+      "name": "leap day",
+      "actual": true,
+      "expected": true
+    },
+    {
+      "name": "empty required",
+      "actual": "insufficient",
+      "expected": "insufficient"
+    },
+    {
+      "name": "missing required",
+      "actual": "insufficient",
+      "expected": "insufficient"
+    },
+    {
+      "name": "all NA",
+      "actual": "insufficient",
+      "expected": "insufficient"
+    },
+    {
+      "name": "cannot average fail",
+      "actual": "fail",
+      "expected": "fail"
+    },
+    {
+      "name": "duplicate finding",
+      "actual": "review",
+      "expected": "review"
+    },
+    {
+      "name": "complete",
+      "actual": "pass",
+      "expected": "pass"
+    }
+  ]
+}

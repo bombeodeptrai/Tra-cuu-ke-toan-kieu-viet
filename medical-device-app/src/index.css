@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    
+    --primary: 149 100% 24%; /* Kiểu Việt Corporate Forest Green #007A3B */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    
+    --accent: 149 30% 95%;
+    --accent-foreground: 149 100% 24%;
+    
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 149 100% 24%;
+    
+    --radius: 0.75rem; /* Smoother 12px radius */
+  }
+
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    
+    --primary: 147 72% 42%; /* Kiểu Việt Light Emerald #1A9E54 */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    
+    --accent: 147 30% 15%;
+    --accent-foreground: 147 72% 50%;
+    
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 147 72% 42%;
+    
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 212 100% 48%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-muted-foreground/30 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-muted-foreground/50;
+}
+
+/* Fix dark mode inline styles from raw HTML tables */
+@layer base {
+  .dark .prose table, 
+  .dark .prose th, 
+  .dark .prose td, 
+  .dark .prose tr,
+  .dark .prose span,
+  .dark .prose p,
+  .dark .prose div {
+    color: inherit !important;
+    background-color: transparent !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+  }
+}
+
+/* Chế độ In ấn sạch chuyên nghiệp cho Kế toán Kiểu Việt */
+@media print {
+  header, aside, nav, button, .no-print, [role="dialog"], .custom-scrollbar, .sticky {
+    display: none !important;
+  }
+  body, main {
+    background: white !important;
+    color: black !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .print-header {
+    display: block !important;
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', serif;
+  }
+  .prose {
+    max-width: 100% !important;
+    font-family: 'Times New Roman', serif !important;
+    font-size: 12pt !important;
+    line-height: 1.5 !important;
+    color: black !important;
+  }
+  .prose table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+  }
+  .prose th, .prose td {
+    border: 1px solid black !important;
+    padding: 4px 8px !important;
+    color: black !important;
+  }
+}
+

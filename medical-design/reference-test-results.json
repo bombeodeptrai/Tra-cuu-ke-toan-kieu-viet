@@ -1,0 +1,157 @@
+{
+  "testedAt": "2026-09-10T08:35:50.301Z",
+  "scope": "Synthetic logic only; not medical legal validation",
+  "passed": 30,
+  "cases": [
+    {
+      "name": "verified matching evidence",
+      "expected": "pass",
+      "result": "pass"
+    },
+    {
+      "name": "verified contrary evidence",
+      "expected": "fail",
+      "result": "fail"
+    },
+    {
+      "name": "no evidence is not violation",
+      "expected": "insufficient",
+      "result": "insufficient"
+    },
+    {
+      "name": "unknown value",
+      "expected": "insufficient",
+      "result": "insufficient"
+    },
+    {
+      "name": "unverified OCR",
+      "expected": "insufficient",
+      "result": "insufficient"
+    },
+    {
+      "name": "model mismatch",
+      "expected": "insufficient",
+      "result": "insufficient"
+    },
+    {
+      "name": "entity mismatch",
+      "expected": "insufficient",
+      "result": "insufficient"
+    },
+    {
+      "name": "stale registry snapshot",
+      "expected": "insufficient",
+      "result": "insufficient"
+    },
+    {
+      "name": "invalid calendar date",
+      "expected": "insufficient",
+      "result": "insufficient"
+    },
+    {
+      "name": "rule not yet applies",
+      "expected": "not_applicable",
+      "result": "not_applicable"
+    },
+    {
+      "name": "rule upper boundary exclusive",
+      "expected": "not_applicable",
+      "result": "not_applicable"
+    },
+    {
+      "name": "evidence upper boundary exclusive",
+      "expected": "insufficient",
+      "result": "insufficient"
+    },
+    {
+      "name": "draft legal source",
+      "expected": "review",
+      "result": "review"
+    },
+    {
+      "name": "missing citation",
+      "expected": "review",
+      "result": "review"
+    },
+    {
+      "name": "unverified citation",
+      "expected": "review",
+      "result": "review"
+    },
+    {
+      "name": "missing scope decision",
+      "expected": "insufficient",
+      "result": "insufficient"
+    },
+    {
+      "name": "unexplained exemption",
+      "expected": "insufficient",
+      "result": "insufficient"
+    },
+    {
+      "name": "documented exemption",
+      "expected": "not_applicable",
+      "result": "not_applicable"
+    },
+    {
+      "name": "evidence conflicts",
+      "expected": "review",
+      "result": "review"
+    },
+    {
+      "name": "scope conflicts",
+      "expected": "review",
+      "result": "review"
+    },
+    {
+      "name": "duplicate fact",
+      "expected": "review",
+      "result": "review"
+    },
+    {
+      "name": "invalid interval",
+      "expected": "review",
+      "result": "review"
+    },
+    {
+      "name": "future transaction not certified",
+      "expected": "review",
+      "result": "review"
+    },
+    {
+      "name": "future verification",
+      "expected": "review",
+      "result": "review"
+    },
+    {
+      "name": "empty condition list",
+      "expected": "review",
+      "result": "review"
+    },
+    {
+      "name": "empty overall assessment",
+      "expected": "insufficient",
+      "result": "insufficient"
+    },
+    {
+      "name": "all not applicable not compliance",
+      "expected": "insufficient",
+      "result": "insufficient"
+    },
+    {
+      "name": "failure cannot be averaged away",
+      "expected": "fail",
+      "result": "fail"
+    },
+    {
+      "name": "missing check prevents overall pass",
+      "expected": "insufficient",
+      "result": "insufficient"
+    },
+    {
+      "name": "valid leap day",
+      "expected": true,
+      "result": true
+    }
+  ]
+}
