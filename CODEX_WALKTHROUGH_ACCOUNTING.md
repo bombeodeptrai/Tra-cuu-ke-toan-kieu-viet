@@ -116,3 +116,11 @@ Không chạy lại các script biến đổi một lần `fix-audit-content-202
 `AuditCalculations.tsx` bổ sung hướng dẫn nguồn chứng từ, chuẩn hóa đầu vào và đọc kết quả cho cả 7 công cụ. Không nhập số dư cuối kỳ TK 511 sau kết chuyển thay doanh thu; đối chiếu 154 phải xét luân chuyển qua 155; công nợ đến hạn và điều kiện dự phòng cần kiểm riêng.
 
 Kho bổ sung có 1 trang OCR chưa đọc đủ (TT 91/2026, trang 52); bản PDF gốc vẫn có đủ trang. Các trang OCR độ tin cậy thấp phải đối chiếu bản gốc, không chứng nhận bản chép là toàn văn đã kiểm duyệt.
+
+## 6. Kết quả phát hành đã kiểm tra
+
+Bản mã ứng dụng: `ae9f96a3dc9f75375a6d5536c631217865299b3d`. GitHub Actions run `34790476004` build và deploy thành công. Kiểm thử live ngày 14/09/2026 (giờ Việt Nam): 11 nhóm kiểm tra đạt, 0 console/page errors, 0 failures. Báo cáo: `test-results/audit-20260914/live.json`.
+
+Kiểm riêng trình đọc live: TT 91/2026 hiển thị đủ 97 mục trang, bật toàn bộ bản chép và PDF gốc trong iframe thành công, không có page error. Điều này xác minh chức năng đọc, không xác nhận từng ký tự OCR đúng. Trang 52 còn phải đối chiếu bản gốc.
+
+`.gitattributes` đánh dấu PDF là binary để Git không đổi xuống dòng trong file gốc. Kiểm tài sản trên CI đã qua đối chiếu SHA256, đủ 55 bản cũ và 29 văn bản bổ sung/34 PDF/1.251 trang. Build còn cảnh báo kích thước bundle; không phải lỗi build hay lỗi console được ghi nhận trong các luồng đã kiểm.
