@@ -2495,63 +2495,422 @@ export const RISK_QUESTIONS: RiskQuestion[] = [
   }
 ];
 
-// ===== TIMELINE 3 GIAI ĐOẠN =====
+// ===== TIMELINE 3 GIAI ĐOẠN (NÂNG CẤP CHUYÊN SÂU THỰC CHIẾN) =====
+
+export interface TimelineTask {
+  id: string;
+  title: string;
+  legalBase: string;
+  decreeId: string;
+  articleNum: string;
+  decreeLabel: string;
+  actionGuide: string;
+  requiredDossier: string[];
+  riskIfDelayed: string;
+}
 
 export interface TimelinePhase {
   phase: number;
   label: string;
   daysBefore: string;
   color: string;
-  tasks: string[];
+  objective: string;
+  legalRule: string;
+  tasks: TimelineTask[];
 }
 
 export const TIMELINE_PHASES: TimelinePhase[] = [
   {
     phase: 1,
-    label: 'Rà soát tổng thể',
-    daysBefore: 'Trước 30 ngày',
+    label: 'Rà soát tổng thể & Khắc phục sai sót',
+    daysBefore: 'Trước 30 ngày (Giai đoạn VÀNG)',
     color: 'emerald',
+    objective: 'Chủ động phát hiện chênh lệch, nộp hồ sơ khai bổ sung Mẫu 01/KHBS trước khi CQT ban hành Quyết định kiểm tra để được miễn 100% tiền phạt 20% khai sai.',
+    legalRule: 'Điều 142 Khoản 1 & Điều 47 Luật Quản lý thuế số 38/2019/QH14: NNT tự phát hiện hồ sơ khai thuế đã nộp có sai sót thì được khai bổ sung trước khi CQT công bố quyết định kiểm tra thuế.',
     tasks: [
-      'Rà soát chênh lệch doanh thu GTGT vs TNDN — lập bảng giải trình Mẫu 01',
-      'Đối chiếu sổ cái TK 511, 131, 154, 632 với tờ khai thuế',
-      'Kiểm tra điều kiện thanh toán hóa đơn đầu vào theo kỳ; GTGT và TNDN xét riêng',
-      'In sổ cái, sổ chi tiết cho năm kiểm tra theo Luật Kế toán 88/2015',
-      'Rà soát khấu hao TSCĐ — đúng khung TT 45, đúng phương pháp',
-      'Kiểm tra hồ sơ giao dịch liên kết Mẫu 01 & trần 30% EBITDA (NĐ 132)',
-      'Đối chiếu sản lượng khai thác mỏ đá vs kê khai thuế tài nguyên & QĐ 87 Gia Lai',
-      'Tính lại tạm nộp TNDN 4 quý — nộp bổ sung nếu < 80% (NĐ 126)',
+      {
+        id: 't1-01',
+        title: 'Đối chiếu Doanh thu kê khai GTGT (Tờ khai 01) và Quyết toán TNDN (Mẫu 03)',
+        legalBase: 'Điều 42 Luật QLT 38/2019/QH14, Điều 8 TT 219/2013/TT-BTC & Điều 5 TT 78/2014/TT-BTC',
+        decreeId: 'luat-quan-ly-thue-2019',
+        articleNum: '42',
+        decreeLabel: 'Luật QLT 38/2019 — Điều 42',
+        actionGuide: 'Rà soát chênh lệch giữa Chỉ tiêu [34] trên 4 Tờ khai 01/GTGT với Chỉ tiêu [01] trên Phụ lục 03-1A/TNDN và Doanh thu trên Báo cáo kết quả HĐKD. Lập Bảng điều hòa giải trình: bóc tách doanh thu xây lắp chưa nghiệm thu, doanh thu tài chính TK 515, thanh lý TSCĐ, phế liệu mỏ đá.',
+        requiredDossier: [
+          '4 Tờ khai thuế GTGT quý (Mẫu 01/GTGT) có xác nhận eTax',
+          'Tờ khai quyết toán TNDN (Mẫu 03/TNDN) kèm Phụ lục 03-1A',
+          'Sổ cái TK 511, 515, 711, 521',
+          'Bảng điều hòa giải trình nguyên nhân chênh lệch doanh thu (Mẫu nội bộ Kiểu Việt)'
+        ],
+        riskIfDelayed: 'CQT đưa vào danh sách rủi ro loại 1; ấn định thuế và phạt 20% trên số thuế khai thiếu (Điều 16 NĐ 125/2020) + chậm nộp 0,03%/ngày.'
+      },
+      {
+        id: 't1-02',
+        title: 'Rà soát ngưỡng thanh toán không dùng tiền mặt hóa đơn >= 20 triệu VNĐ',
+        legalBase: 'Điều 15 Khoản 2 TT 219/2013/TT-BTC (sửa đổi bởi TT 173/2016) & Điều 4 TT 96/2015/TT-BTC',
+        decreeId: 'tt-219-2013',
+        articleNum: '15',
+        decreeLabel: 'Thông tư 219/2013/TT-BTC — Điều 15',
+        actionGuide: 'Lọc toàn bộ Sổ chi tiết TK 111 đối ứng TK 331, 152, 156, 642, 627. Phát hiện mọi hóa đơn >= 20 triệu (đã gồm VAT) hoặc mua cùng một NCC trong ngày cộng dồn >= 20 triệu trả tiền mặt. Lập tờ khai bổ sung 01/KHBS giảm thuế GTGT khấu trừ và loại chi phí TNDN (chỉ tiêu B4).',
+        requiredDossier: [
+          'Sổ chi tiết TK 111 (Tiền mặt) và TK 112 (Tiền gửi ngân hàng)',
+          'Ủy nhiệm chi (UNC) và Giấy báo Nợ ngân hàng',
+          'Biên bản đối chiếu công nợ và bù trừ 3 bên hợp pháp (nếu có)'
+        ],
+        riskIfDelayed: 'Bị bóc tách toàn bộ: Vừa mất quyền khấu trừ thuế GTGT đầu vào 10%, vừa bị loại khỏi chi phí hợp lý tính thuế TNDN 20%, cộng phạt 20% khai sai.'
+      },
+      {
+        id: 't1-03',
+        title: 'Kiểm tra tỷ lệ tạm nộp thuế TNDN 4 quý so với quyết toán năm (ngưỡng 80%)',
+        legalBase: 'Điều 8 Khoản 6 Điểm b Nghị định 126/2020/NĐ-CP (sửa đổi bởi Nghị định 91/2022/NĐ-CP)',
+        decreeId: 'nd-126-2020',
+        articleNum: '8',
+        decreeLabel: 'Nghị định 126/2020/NĐ-CP — Điều 8',
+        actionGuide: 'Tính tổng số thuế TNDN đã tạm nộp 4 quý so với 80% số thuế TNDN phải nộp theo quyết toán năm (Chỉ tiêu G trên Mẫu 03/TNDN). Nếu số nộp < 80%, lập Giấy nộp tiền vào NSNN ngay lập tức để ngắt chu kỳ tính tiền chậm nộp 0,03%/ngày.',
+        requiredDossier: [
+          'Giấy nộp tiền vào NSNN 4 quý và quyết toán năm',
+          'Sổ cái TK 3334 (Thuế TNDN)',
+          'Bảng kê tính tỷ lệ tạm nộp thuế TNDN theo quy định NĐ 91/2022'
+        ],
+        riskIfDelayed: 'CQT tự động áp tiền chậm nộp 0,03%/ngày từ ngày 01/02 đến ngày thực nộp (Điều 59 Luật Quản lý thuế 38/2019).'
+      },
+      {
+        id: 't1-04',
+        title: 'Khóa sổ, in trọn bộ Sổ cái và Sổ chi tiết TK 111 đến TK 911 đóng quyển',
+        legalBase: 'Điều 24, Điều 25 & Điều 41 Luật Kế toán số 88/2015/QH13, Điều 9 Nghị định 41/2018/NĐ-CP',
+        decreeId: 'luat-ke-toan-2015',
+        articleNum: '24',
+        decreeLabel: 'Luật Kế toán 88/2015 — Điều 24',
+        actionGuide: 'Thực hiện khóa sổ kế toán, in toàn bộ Sổ cái các tài khoản từ loại 1 đến loại 9, Sổ chi tiết công nợ 131, 331, Sổ chi tiết tồn kho 152, 154, 156. Đóng thành quyển riêng theo từng năm tài chính, có chữ ký đầy đủ của Người lập, Kế toán trưởng và Tổng Giám đốc.',
+        requiredDossier: [
+          'Sổ cái (General Ledger) TK 111 đến TK 911 đã in và đóng quyển',
+          'Sổ chi tiết các tài khoản trọng yếu (131, 331, 141, 152, 154, 211, 242, 335, 632, 642)',
+          'Bảng cân đối số phát sinh các tài khoản năm kiểm tra'
+        ],
+        riskIfDelayed: 'Phạt tiền từ 5 - 10 triệu đồng về hành vi không in sổ kế toán ra giấy sau khi khóa sổ điện tử (NĐ 41/2018) và bị coi là không chấp hành chế độ kế toán dẫn đến ấn định thuế.'
+      },
+      {
+        id: 't1-05',
+        title: 'Rà soát trần lãi vay 30% EBITDA & kê khai Giao dịch liên kết Mẫu 01/NĐ-132',
+        legalBase: 'Điều 16 Khoản 3 & Điều 18, 19 Nghị định 132/2020/NĐ-CP',
+        decreeId: 'nd-132-2020',
+        articleNum: '16',
+        decreeLabel: 'Nghị định 132/2020/NĐ-CP — Điều 16',
+        actionGuide: 'Rà soát quan hệ liên kết (vay vốn cá nhân lãnh đạo, vay ngân hàng vượt 25% vốn chủ sở hữu và chiếm > 50% tổng nợ vay). Tính toán chỉ tiêu EBITDA và trần lãi vay 30%. Kê khai nộp bổ sung Phụ lục Mẫu 01/NĐ-132. Mở sổ theo dõi lãi vay vượt trần để chuyển chi phí sang 5 năm sau.',
+        requiredDossier: [
+          'Phụ lục I, II, III thông tin giao dịch liên kết theo NĐ 132/2020',
+          'Bảng tính EBITDA và trần chi phí lãi vay được trừ',
+          'Hợp đồng tín dụng ngân hàng, hợp đồng vay mượn cá nhân và khế ước nhận nợ',
+          'Sổ theo dõi phần lãi vay không được trừ chuyển kỳ sau (tối đa 5 năm)'
+        ],
+        riskIfDelayed: 'Phạt từ 8 - 15 triệu đồng do không nộp hồ sơ GDLK; CQT ấn định thuế TNDN và bóc tách toàn bộ lãi vay vượt mức 30% EBITDA không cho chuyển tiếp.'
+      },
+      {
+        id: 't1-06',
+        title: 'Đối chiếu sản lượng khai thác mỏ đá với kê khai thuế tài nguyên & phí BVMT',
+        legalBase: 'Điều 6 TT 152/2015/TT-BTC, Nghị định 27/2023/NĐ-CP & Quyết định 87/2025/QĐ-UBND Gia Lai',
+        decreeId: 'tt-152-2015',
+        articleNum: '6',
+        decreeLabel: 'Thông tư 152/2015/TT-BTC — Điều 6',
+        actionGuide: 'Lập bảng cân đối 3 bên: Khối lượng đất đá bóc nổ mìn, khối lượng xe qua trạm cân điện tử mỏ đá và khối lượng khai trên Tờ khai 01/TAIN. Rà soát tỷ lệ hao hụt sàng tuyển ra đá 1x2, đá 2x4, đá mi và cấp phối bê tông. Kê khai đúng đơn giá tính thuế tài nguyên theo QĐ 87 Gia Lai.',
+        requiredDossier: [
+          'Tờ khai thuế tài nguyên (01/TAIN) và Tờ khai phí BVMT (01/PBVMT)',
+          'Bản đồ hiện trạng mỏ đá và Báo cáo kiểm kê trữ lượng nộp Sở TN&MT',
+          'Sổ theo dõi trạm cân điện tử và nhật ký nổ mìn',
+          'Bảng định mức hao hụt sàng tuyển khoáng sản nội bộ đã duyệt'
+        ],
+        riskIfDelayed: 'Bị truy thu thuế tài nguyên theo giá ấn định của UBND tỉnh, truy thu tiền cấp quyền mỏ đá (NĐ 67/2019), phạt khai thiếu 20% và phạt khai thác vượt công suất cấp phép.'
+      },
+      {
+        id: 't1-07',
+        title: 'Kiểm tra trích khấu hao TSCĐ (xe bồn bê tông, máy xúc mỏ đá, xưởng mộc Phú Tài)',
+        legalBase: 'Điều 10 & Phụ lục 1 Thông tư 45/2013/TT-BTC, Điều 4 Thông tư 96/2015/TT-BTC',
+        decreeId: 'tt-45-2013',
+        articleNum: '10',
+        decreeLabel: 'Thông tư 45/2013/TT-BTC — Điều 10',
+        actionGuide: 'Đối chiếu thời gian trích khấu hao của toàn bộ xe bồn, máy xúc, trạm trộn bê tông, dây chuyền xưởng mộc với khung khấu hao Phụ lục 1 TT 45. Kiểm tra Văn bản thông báo phương pháp trích khấu hao đã nộp CQT. Điều chỉnh phần khấu hao vượt khung vào chỉ tiêu B4 tờ khai quyết toán TNDN.',
+        requiredDossier: [
+          'Văn bản thông báo phương pháp trích khấu hao TSCĐ gửi CQT',
+          'Bảng phân bổ trích khấu hao TSCĐ 12 tháng từng năm',
+          'Thẻ TSCĐ, Hóa đơn mua xe, Hợp đồng, Biên bản bàn giao đưa vào sử dụng',
+          'Hồ sơ kiểm định, đăng kiểm kỹ thuật phương tiện cơ giới'
+        ],
+        riskIfDelayed: 'Xuất toán toàn bộ phần khấu hao trích vượt khung tối thiểu, truy thu 20% thuế TNDN tương ứng và phạt chậm nộp.'
+      },
+      {
+        id: 't1-08',
+        title: 'Lập Bảng điều hòa số liệu và nộp Tờ khai bổ sung Mẫu 01/KHBS trước ngày thanh tra',
+        legalBase: 'Điều 47 Luật Quản lý thuế số 38/2019/QH14 & Điều 142 Khoản 1',
+        decreeId: 'luat-quan-ly-thue-2019',
+        articleNum: '47',
+        decreeLabel: 'Luật QLT 38/2019 — Điều 47',
+        actionGuide: 'Tổng hợp toàn bộ các sai lệch phát hiện ở các bước trên. Lập Tờ khai bổ sung Mẫu 01/KHBS gửi qua mạng eTax kèm bản giải trình lý do sai sót. Nộp tiền thuế phát sinh tăng và tiền chậm nộp tự tính vào NSNN trước ngày CQT ký Quyết định thanh tra.',
+        requiredDossier: [
+          'Hồ sơ khai bổ sung Mẫu 01/KHBS và Bản giải trình 01-1/KHBS qua mạng eTax',
+          'Giấy nộp tiền vào NSNN nộp số thuế tăng thêm và tiền chậm nộp',
+          'Biên bản đối chiếu nghĩa vụ thuế trên trang eTax'
+        ],
+        riskIfDelayed: 'Nếu để đoàn thanh tra công bố quyết định mới phát hiện: Mất hoàn toàn quyền tự khắc phục, bị phạt cứng 20% trên toàn bộ số thuế truy thu (Điều 16 NĐ 125/2020).'
+      }
     ]
   },
   {
     phase: 2,
-    label: 'Bổ sung hồ sơ',
-    daysBefore: 'Trước 15 ngày',
+    label: 'Ghép hồ sơ chứng từ gốc & Kẹp chứng cứ 3 bên',
+    daysBefore: 'Trước 15 ngày (Giai đoạn BỔ SUNG)',
     color: 'blue',
+    objective: 'Hoàn thiện 100% chứng từ gốc, đảm bảo tính khép kín hợp pháp của dòng tiền và dòng hàng, phân loại tệp hồ sơ sẵn sàng xuất trình.',
+    legalRule: 'Điều 110 Khoản 2 Luật QLT 38/2019/QH14: Quyết định kiểm tra thuế phải được gửi cho người nộp thuế chậm nhất 03 ngày làm việc kể từ ngày ban hành; thời hạn kiểm tra tại trụ sở tối đa 10 ngày làm việc.',
     tasks: [
-      'In BCTC bản chính thức có ký tên đóng dấu (TT 200 / TT 99)',
-      'Chuẩn bị tập hóa đơn sai sót đã xử lý (Mẫu 04/SS, biên bản thỏa thuận)',
-      'Đối chiếu bảng lương với HĐLĐ, hồ sơ BHXH Mẫu D02-LT (QĐ 595)',
-      'Chuẩn bị hồ sơ thuế tài nguyên, phí BVMT mỏ đá (NĐ 27, NĐ 67)',
-      'Lập bảng tổng hợp chi phí trích trước TK 335 kèm dự toán duyệt (TT 96)',
-      'Bổ sung biên bản nghiệm thu A-B cho công trình xây lắp chưa có (NĐ 37)',
-      'Kiểm tra chứng từ khấu trừ TNCN điện tử cấp cho NLĐ nghỉ việc (NĐ 70)',
-      'Rà soát quy chế lương thưởng, thỏa ước LĐ tập thể gửi Phòng LĐTBXH',
+      {
+        id: 't2-01',
+        title: 'Kẹp bộ chứng từ 3 bên đồng bộ cho 100% công trình xây dựng & cung cấp nội thất',
+        legalBase: 'Điều 19 Nghị định 37/2015/NĐ-CP & Điều 9 Nghị định 123/2020/NĐ-CP',
+        decreeId: 'nd-37-2015',
+        articleNum: '19',
+        decreeLabel: 'Nghị định 37/2015/NĐ-CP — Điều 19',
+        actionGuide: 'Kiểm tra tính xâu chuỗi: Hợp đồng kinh tế ➔ Nhật ký thi công/Lệnh sản xuất ➔ Biên bản nghiệm thu A-B theo giai đoạn ➔ Bảng xác nhận khối lượng ➔ Hóa đơn điện tử hợp lệ ➔ Ủy nhiệm chi ngân hàng. Đảm bảo ngày lập hóa đơn trùng khớp hoặc sau ngày ký biên bản nghiệm thu bàn giao.',
+        requiredDossier: [
+          'Hợp đồng thi công xây lắp/cung cấp nội thất gỗ và các phụ lục bổ sung',
+          'Biên bản nghiệm thu bàn giao khối lượng A-B giai đoạn và tổng thể',
+          'Hóa đơn điện tử tra cứu hợp lệ (file XML gốc)',
+          'Chứng từ thanh toán qua ngân hàng (UNC, Giấy báo Nợ/Có)'
+        ],
+        riskIfDelayed: 'Bị xử phạt xuất hóa đơn sai thời điểm (4 - 8 triệu đồng/hóa đơn) hoặc bị quy kết hóa đơn khống, bóc tách toàn bộ chi phí giá vốn TK 632.'
+      },
+      {
+        id: 't2-02',
+        title: 'Lập hồ sơ bảo vệ chi phí trích trước giá vốn TK 335 công trình bàn giao',
+        legalBase: 'Khoản 2.20 Điều 4 Thông tư 96/2015/TT-BTC',
+        decreeId: 'tt-96-2015',
+        articleNum: '4',
+        decreeLabel: 'Thông tư 96/2015/TT-BTC — Điều 4',
+        actionGuide: 'Rà soát toàn bộ số dư Có TK 335. Với công trình đã bàn giao ghi nhận doanh thu nhưng chưa đủ hóa đơn chi phí thầu phụ: Lập bảng kê chi tiết chi phí trích trước kèm Dự toán thiết kế thi công đã duyệt, Biên bản bàn giao đưa vào sử dụng và cam kết nhận hóa đơn.',
+        requiredDossier: [
+          'Dự toán công trình đã được cấp có thẩm quyền phê duyệt',
+          'Biên bản nghiệm thu bàn giao đưa công trình vào sử dụng trong kỳ',
+          'Bảng tính chi tiết giá vốn trích trước theo tỷ lệ khối lượng hoàn thành',
+          'Hợp đồng giao khoán với thầu phụ và hóa đơn đầu vào nhận sau'
+        ],
+        riskIfDelayed: 'Đoàn kiểm tra sẽ bóc tách toàn bộ số chi phí trích trước TK 335, tăng thu nhập chịu thuế TNDN 20% và phạt chậm nộp do không đủ hóa đơn chứng từ tại thời điểm quyết toán.'
+      },
+      {
+        id: 't2-03',
+        title: 'Kẹp trọn bộ 5 chứng từ chứng minh giao dịch có thật cho hóa đơn rủi ro cao',
+        legalBase: 'Điều 34 Nghị định 123/2020/NĐ-CP & Công văn chỉ đạo chống gian lận hóa đơn của TCT',
+        decreeId: 'nd-123-2020',
+        articleNum: '34',
+        decreeLabel: 'Nghị định 123/2020/NĐ-CP — Điều 34',
+        actionGuide: 'Lọc toàn bộ nhà cung cấp bị CQT cảnh báo rủi ro (Mẫu 01/TB-HĐ) hoặc DN ngừng hoạt động bỏ trốn khỏi địa chỉ kinh doanh. Kẹp bộ 5 tài liệu cốt tử: Hợp đồng, Biên bản giao nhận tại kho/công trường, Phiếu cân xe trạm cân, Chứng từ chuyển khoản ngân hàng đúng tài khoản đăng ký, Ảnh chụp vật tư đưa vào sản xuất.',
+        requiredDossier: [
+          'Hợp đồng kinh tế ký trước thời điểm người bán bỏ trốn',
+          'Biên bản giao nhận hàng hóa có chữ ký người giao, thủ kho nhận',
+          'Phiếu cân xe, lệnh điều xe, thông tin biển số xe vận chuyển cát, xi măng, đá',
+          'Ủy nhiệm chi ngân hàng chuyển tiền vào tài khoản bên bán',
+          'Báo cáo chứng minh vật tư đã đưa vào định mức công trình'
+        ],
+        riskIfDelayed: 'Bị quy kết sử dụng hóa đơn bất hợp pháp, loại toàn bộ thuế GTGT và chi phí TNDN, phạt từ 1 - 3 lần thuế trốn và nguy cơ chuyển hồ sơ cơ quan điều tra.'
+      },
+      {
+        id: 't2-04',
+        title: 'Chuẩn bị hồ sơ lao động tiền lương và đối chiếu khớp đúng hồ sơ BHXH',
+        legalBase: 'Nghị định 293/2025/NĐ-CP, Nghị định 12/2022/NĐ-CP & Quyết định 595/QĐ-BHXH',
+        decreeId: 'nd-293-2025',
+        articleNum: '3',
+        decreeLabel: 'Nghị định 293/2025/NĐ-CP — Điều 3',
+        actionGuide: 'Đối chiếu 3 bảng: Danh sách quyết toán thuế TNCN (Mẫu 05/QTT-TNCN), Danh sách tham gia BHXH (Mẫu D02-LT) và Bảng thanh toán tiền lương qua ngân hàng. Đảm bảo mức lương cơ bản >= lương tối thiểu vùng Gia Lai. Kẹp hồ sơ miễn trừ BHXH (lao động thời vụ dưới 1 tháng, người đã nghỉ hưu hưởng chế độ).',
+        requiredDossier: [
+          'Hợp đồng lao động và các phụ lục điều chỉnh lương',
+          'Bảng thanh toán tiền lương có xác nhận chi trả qua ngân hàng hoặc chữ ký NLĐ',
+          'Thông báo kết quả đóng BHXH Mẫu C12-TS hàng tháng của cơ quan BHXH',
+          'Bảng chấm công và Quy chế lương thưởng nội bộ công ty'
+        ],
+        riskIfDelayed: 'Phạt tiền từ 20 - 75 triệu đồng do trả lương dưới mức tối thiểu vùng; truy thu tiền đóng BHXH và bóc tách chi phí lương nhân công xây dựng không hợp lý.'
+      },
+      {
+        id: 't2-05',
+        title: 'Kiểm tra cấp Chứng từ khấu trừ thuế TNCN điện tử cho lao động nghỉ việc',
+        legalBase: 'Nghị định 70/2025/NĐ-CP & Điều 32 Nghị định 123/2020/NĐ-CP',
+        decreeId: 'nd-70-2025',
+        articleNum: '4',
+        decreeLabel: 'Nghị định 70/2025/NĐ-CP — Điều 4',
+        actionGuide: 'Rà soát danh sách nhân công công trình, thợ mộc thời vụ đã nghỉ việc trong năm tài chính có khấu trừ 10% thuế TNCN. Xuất và gửi ngay Chứng từ khấu trừ thuế TNCN điện tử theo chuẩn dữ liệu Tổng cục Thuế để NLĐ tự đi quyết toán.',
+        requiredDossier: [
+          'File XML và PDF chứng từ khấu trừ thuế TNCN điện tử đã cấp',
+          'Danh sách ký nhận hoặc biên lai email gửi mã tra cứu chứng từ thuế cho NLĐ',
+          'Bảng kê khấu trừ thuế TNCN Mẫu 05-2/BK-TNCN'
+        ],
+        riskIfDelayed: 'Phạt từ 2 - 5 triệu đồng về hành vi chậm cấp hoặc không cấp chứng từ khấu trừ thuế TNCN điện tử cho người lao động.'
+      },
+      {
+        id: 't2-06',
+        title: 'Hồ sơ định mức tiêu hao gỗ xẻ, sơn PU và cấp phối bê tông thương phẩm',
+        legalBase: 'Điều 4 Thông tư 96/2015/TT-BTC & Tiêu chuẩn Quốc gia TCVN về Bê tông',
+        decreeId: 'tt-96-2015',
+        articleNum: '4',
+        decreeLabel: 'Thông tư 96/2015/TT-BTC — Điều 4',
+        actionGuide: 'Tập hợp Quyết định ban hành định mức kỹ thuật gỗ xẻ sấy, sơn PU của xưởng mộc Phú Tài và Định mức cấp phối xi măng cát đá của trạm trộn bê tông. Kẹp Phiếu thí nghiệm nén mẫu bê tông R28 của phòng kiểm định LAS-XD chứng minh chất lượng cấp phối.',
+        requiredDossier: [
+          'Quyết định ban hành Định mức tiêu hao nguyên vật liệu nội bộ của TGĐ',
+          'Lệnh sản xuất và Thẻ tính giá thành sản phẩm TK 154',
+          'Phiếu giao nhận bê tông in từ cân điện tử trạm trộn và Phiếu thí nghiệm nén mẫu R28',
+          'Biên bản thu hồi phế liệu dăm gỗ mùn cưa và hạch toán giảm chi phí'
+        ],
+        riskIfDelayed: 'Đoàn kiểm tra quy kết chi phí nguyên vật liệu vượt định mức, xuất toán chi phí xi măng, đá, gỗ xẻ và truy thu thuế TNDN 20%.'
+      },
+      {
+        id: 't2-07',
+        title: 'Phân loại tài liệu thành 3 tệp hồ sơ chuyên biệt trước khi xuất trình',
+        legalBase: 'Điều 110, Điều 111 Luật Quản lý thuế số 38/2019/QH14',
+        decreeId: 'luat-quan-ly-thue-2019',
+        articleNum: '110',
+        decreeLabel: 'Luật QLT 38/2019 — Điều 110',
+        actionGuide: 'Phân chia tài liệu thành 3 nhóm rõ ràng: Tệp 1 (Hồ sơ pháp định nộp ngay: BCTC, Tờ khai thuế, Sổ cái in đóng quyển); Tệp 2 (Hồ sơ giải trình chi tiết: Hợp đồng, Nghiệm thu, Định mức kỹ thuật, chỉ xuất khi đoàn có yêu cầu cụ thể); Tệp 3 (Tài liệu nội bộ, tuyệt đối không xuất trình).',
+        requiredDossier: [
+          'Tệp 1: Hồ sơ đại cương và sổ sách kế toán chính thức đã duyệt',
+          'Tệp 2: Hồ sơ nghiệp vụ chi tiết theo từng chuyên đề sắc thuế',
+          'Mục lục hồ sơ (Index) chi tiết từng tập tài liệu có đánh số thứ tự'
+        ],
+        riskIfDelayed: 'Xuất trình lộn xộn khiến đoàn thanh tra nghi ngờ độ tin cậy của sổ sách, tự ý lục tìm tài liệu nội bộ dẫn đến mở rộng phạm vi kiểm tra bất lợi cho DN.'
+      },
+      {
+        id: 't2-08',
+        title: 'Thiết lập Sổ theo dõi giao nhận hồ sơ có ký nhận 2 bên với kiểm tra viên',
+        legalBase: 'Điều 111 Luật Quản lý thuế số 38/2019/QH14',
+        decreeId: 'luat-quan-ly-thue-2019',
+        articleNum: '111',
+        decreeLabel: 'Luật QLT 38/2019 — Điều 111',
+        actionGuide: 'In sẵn mẫu Biên bản giao nhận tài liệu có 2 cột chữ ký: Đại diện Kiểu Việt bàn giao và Kiểm tra viên tiếp nhận. Ghi rõ: Tên hồ sơ, số trang, bản gốc hay bản sao y, ngày giờ bàn giao và thời hạn hoàn trả.',
+        requiredDossier: [
+          'Sổ/Biên bản bàn giao tài liệu phục vụ kiểm tra thuế',
+          'Phiếu yêu cầu cung cấp tài liệu của Trưởng đoàn kiểm tra'
+        ],
+        riskIfDelayed: 'Thất lạc chứng từ gốc quan trọng (Hợp đồng, hóa đơn gốc, nghiệm thu) không có bằng chứng chứng minh đã nộp cho đoàn, dẫn đến bị kết luận thiếu chứng từ.'
+      }
     ]
   },
   {
     phase: 3,
-    label: 'Sẵn sàng tiếp đoàn',
-    daysBefore: 'Trước 7 ngày',
+    label: 'Diễn tập phản biện & Thiết lập phòng tiếp đoàn',
+    daysBefore: 'Trước 7 ngày (Giai đoạn SẴN SÀNG)',
     color: 'amber',
+    objective: 'Bố trí không gian làm việc an toàn, diễn tập kịch bản phản biện 5 điểm nóng, thống nhất đầu mối phát ngôn và bảo vệ tối đa lợi ích doanh nghiệp.',
+    legalRule: 'Điều 111 & Điều 112 Luật Quản lý thuế số 38/2019/QH14: Quyền giải trình, bảo lưu ý kiến trong biên bản kiểm tra và quyền khiếu nại của người nộp thuế.',
     tasks: [
-      'Sắp xếp phòng làm việc cho đoàn kiểm tra (bàn, ghế, ổ điện, wifi)',
-      'Phân công người trực tiếp làm việc với đoàn (Kế toán trưởng làm đầu mối)',
-      'Chuẩn bị bản giải trình cho các chênh lệch đã phát hiện ở giai đoạn 1',
-      'Rà đủ 55 mục, ghi rõ áp dụng/không áp dụng/chưa đủ hồ sơ; không tick để làm đẹp tỷ lệ',
-      'Backup toàn bộ dữ liệu kế toán (phần mềm, Excel, chứng từ scan)',
-      'Nắm rõ quyền của DN khi bị kiểm tra thuế (Điều 110-111 Luật QLT 2019)',
-      'Chuẩn bị con dấu, giấy ủy quyền (nếu Tổng Giám đốc vắng mặt)',
-      'Photo sẵn bộ BCTC, tờ khai thuế đã nộp cho đoàn kiểm tra',
+      {
+        id: 't3-01',
+        title: 'Bố trí phòng làm việc cách biệt cho đoàn kiểm tra & bảo mật mạng nội bộ',
+        legalBase: 'Điều 110 Luật Quản lý thuế số 38/2019/QH14',
+        decreeId: 'luat-quan-ly-thue-2019',
+        articleNum: '110',
+        decreeLabel: 'Luật QLT 38/2019 — Điều 110',
+        actionGuide: 'Bố trí phòng họp riêng biệt có khóa cửa, trang bị máy in, máy photo, đường truyền mạng internet riêng (Wifi khách) tách biệt hoàn toàn với hệ thống máy chủ mạng nội bộ công ty. Khóa toàn bộ các phòng kế toán và phòng lưu trữ hồ sơ các năm khác.',
+        requiredDossier: [
+          'Văn phòng phẩm, máy in, máy scan, đường truyền internet riêng',
+          'Nội quy tiếp đoàn thanh tra kiểm tra nội bộ Kiểu Việt'
+        ],
+        riskIfDelayed: 'Đoàn kiểm tra tự do tiếp cận các tài liệu nhạy cảm hoặc các file nháp nội bộ trên mạng máy tính công ty, gây lộ thông tin bất lợi.'
+      },
+      {
+        id: 't3-02',
+        title: 'Ban hành Quyết định phân công đầu mối duy nhất làm việc với Đoàn',
+        legalBase: 'Điều 111 Luật Quản lý thuế số 38/2019/QH14 & Luật Doanh nghiệp 2020',
+        decreeId: 'luat-quan-ly-thue-2019',
+        articleNum: '111',
+        decreeLabel: 'Luật QLT 38/2019 — Điều 111',
+        actionGuide: 'Tổng Giám đốc ký Quyết định phân công Kế toán trưởng làm đầu mối duy nhất phát ngôn và làm việc trực tiếp với Trưởng đoàn. Chuẩn bị Giấy ủy quyền theo mẫu pháp luật nếu Tổng Giám đốc vắng mặt trong những ngày làm việc tại trụ sở.',
+        requiredDossier: [
+          'Quyết định phân công nhân sự tiếp đoàn kiểm tra thuế',
+          'Văn bản ủy quyền đại diện doanh nghiệp có công chứng/chữ ký TGĐ',
+          'Danh sách số điện thoại khẩn cấp của Ban Giám đốc và Luật sư tư vấn'
+        ],
+        riskIfDelayed: 'Nhân viên kế toán hoặc thủ kho tự ý trả lời phỏng vấn đoàn kiểm tra sai lệch thực tế, tạo mâu thuẫn số liệu khiến đoàn lập biên bản bắt lỗi.'
+      },
+      {
+        id: 't3-03',
+        title: 'Diễn tập kịch bản phản biện và bảo vệ 5 điểm nóng dễ bị xuất toán nhất',
+        legalBase: 'Điều 111 Luật QLT 38/2019, TT 96/2015/TT-BTC & NĐ 132/2020/NĐ-CP',
+        decreeId: 'luat-quan-ly-thue-2019',
+        articleNum: '111',
+        decreeLabel: 'Luật QLT 38/2019 — Điều 111',
+        actionGuide: 'Ban Giám đốc và Kế toán trưởng diễn tập bảo vệ 5 tình huống: (1) Doanh thu công trình dở dang chưa nghiệm thu; (2) Trích trước TK 335; (3) Hao hụt sàng tuyển mỏ đá; (4) Khấu hao xe bồn bê tông; (5) Chi phí lãi vay vượt 30% EBITDA. Chuẩn bị sẵn luận điểm và căn cứ điều luật.',
+        requiredDossier: [
+          'Bản nháp hồ sơ giải trình chi tiết cho 5 điểm nóng trọng điểm',
+          'Hồ sơ kỹ thuật và văn bản hướng dẫn chuyên ngành có liên quan',
+          'Các công văn hướng dẫn của Tổng cục Thuế trong các trường hợp tương tự'
+        ],
+        riskIfDelayed: 'Bị động khi đoàn kiểm tra chất vấn dồn dập, lúng túng không đưa ra được căn cứ pháp lý bảo vệ chi phí dẫn đến phải ký nhận biên bản bất lợi.'
+      },
+      {
+        id: 't3-04',
+        title: 'Photo sẵn bộ Báo cáo tài chính, Tờ khai thuế các năm có mã vạch xác nhận',
+        legalBase: 'Điều 110 Luật Quản lý thuế số 38/2019/QH14',
+        decreeId: 'luat-quan-ly-thue-2019',
+        articleNum: '110',
+        decreeLabel: 'Luật QLT 38/2019 — Điều 110',
+        actionGuide: 'Photo đóng quyển sẵn 02 bộ tài liệu nộp thuế: BCTC các năm kiểm tra, Tờ khai quyết toán TNDN, Tờ khai quyết toán TNCN, Tờ khai thuế GTGT, Tờ khai thuế tài nguyên. Tất cả phải in trực tiếp từ hệ thống eTax có mã vạch và thông báo chấp nhận của CQT.',
+        requiredDossier: [
+          '02 bộ BCTC và Tờ khai thuế có dấu xác nhận nộp điện tử qua Cổng eTax',
+          'Thông báo chấp nhận hồ sơ khai thuế điện tử của Cục Thuế tỉnh Gia Lai'
+        ],
+        riskIfDelayed: 'Cán bộ thuế sử dụng số liệu tờ khai cũ chưa cập nhật tờ khai bổ sung, gây mất thời gian tranh cãi và áp đặt sai số liệu.'
+      },
+      {
+        id: 't3-05',
+        title: 'Điền số liệu vào 8 Mẫu biểu giải trình thực chiến sẵn sàng bảo vệ chi phí',
+        legalBase: 'Điều 111 Luật Quản lý thuế số 38/2019/QH14',
+        decreeId: 'luat-quan-ly-thue-2019',
+        articleNum: '111',
+        decreeLabel: 'Luật QLT 38/2019 — Điều 111',
+        actionGuide: 'Sử dụng hệ thống 8 Mẫu biểu giải trình chuẩn của Kiểu Việt (Mẫu 01 điều hòa doanh thu, Mẫu 02 trích trước 335, Mẫu 03 định mức xưởng mộc, Mẫu 04 hao hụt mỏ đá...). Điền sẵn số liệu thực tế, sẵn sàng ký duyệt và xuất trình ngay khi đoàn yêu cầu.',
+        requiredDossier: [
+          'Trọn bộ 8 Mẫu biểu giải trình có sẵn số liệu đối chiếu của Kiểu Việt',
+          'Các bảng tính Excel phụ lục đi kèm chứng minh chi tiết từng phép tính'
+        ],
+        riskIfDelayed: 'Mất nhiều ngày mới soạn thảo xong văn bản giải trình, quá thời hạn 10 ngày làm việc của đoàn dẫn đến việc đoàn chốt số liệu truy thu vào biên bản.'
+      },
+      {
+        id: 't3-06',
+        title: 'Sao lưu toàn bộ dữ liệu kế toán ra ổ cứng ngoài và cloud bảo mật',
+        legalBase: 'Điều 41 Luật Kế toán số 88/2015/QH13',
+        decreeId: 'luat-ke-toan-2015',
+        articleNum: '41',
+        decreeLabel: 'Luật Kế toán 88/2015 — Điều 41',
+        actionGuide: 'Thực hiện xuất file backup cơ sở dữ liệu phần mềm kế toán (MISA/Fast), sao chép ra 02 ổ cứng di động cất giữ nơi an toàn và đồng bộ lên tài khoản Google Drive bảo mật của Kiểu Việt. Đảm bảo khôi phục được số liệu ngay lập tức nếu máy tính gặp sự cố.',
+        requiredDossier: [
+          'File backup dữ liệu kế toán (.mbk / .bak / file Excel nén có mật khẩu)',
+          'Biên bản kiểm tra an toàn dữ liệu và phân quyền truy cập'
+        ],
+        riskIfDelayed: 'Rủi ro máy tính hỏng hoặc dữ liệu bị can thiệp trong quá trình kiểm tra, không có bằng chứng khôi phục đối chiếu với đoàn.'
+      },
+      {
+        id: 't3-07',
+        title: 'Quán triệt nguyên tắc phát ngôn: Hỏi gì đáp nấy, không giao file nháp',
+        legalBase: 'Điều 111 Luật Quản lý thuế số 38/2019/QH14',
+        decreeId: 'luat-quan-ly-thue-2019',
+        articleNum: '111',
+        decreeLabel: 'Luật QLT 38/2019 — Điều 111',
+        actionGuide: 'Họp toàn bộ nhân viên kế toán, thủ kho, nhân sự: Tuyệt đối tuân thủ nguyên tắc chỉ cung cấp tài liệu chính thức có ký đóng dấu; không giải thích ngoài thẩm quyền; không giao file Excel nháp chưa được Kế toán trưởng phê duyệt.',
+        requiredDossier: [
+          'Biên bản họp quán triệt nguyên tắc làm việc với đoàn kiểm tra thuế',
+          'Bảng quy tắc phát ngôn 10 KHÔNG dành cho nhân viên Kiểu Việt'
+        ],
+        riskIfDelayed: 'Cán bộ thuế thu thập được file Excel nội bộ có các ghi chú chưa chuẩn xác của nhân viên, lấy đó làm chứng cứ để truy thu và phạt trốn thuế.'
+      },
+      {
+        id: 't3-08',
+        title: 'Rà soát lần cuối 55 mục danh mục hồ sơ và 15 câu hỏi rủi ro trên hệ thống',
+        legalBase: 'Toàn văn 55 văn bản pháp luật kế toán, thuế và khoáng sản Kiểu Việt',
+        decreeId: 'luat-quan-ly-thue-2019',
+        articleNum: '110',
+        decreeLabel: 'Hệ thống 55 VBPL Kiểu Việt',
+        actionGuide: 'Truy cập tab Checklist Hồ Sơ (55 mục) và Bộ Câu Hỏi Rủi Ro (15 điểm nóng), kiểm tra trạng thái từng mục. Đảm bảo 100% hồ sơ bắt buộc (critical) đã có chứng từ kẹp cùng; các rủi ro đã có phương án giải trình dự phòng.',
+        requiredDossier: [
+          'Báo cáo tự đánh giá rủi ro thanh tra thuế Kiểu Việt (in từ hệ thống)',
+          'Checklist 55 mục hồ sơ đã tích chọn và kiểm tra thực tế trong kho chứng từ'
+        ],
+        riskIfDelayed: 'Bỏ sót các điểm nóng nghiêm trọng khiến doanh nghiệp bị bất ngờ khi đoàn kiểm tra công bố dự thảo biên bản với số thuế truy thu lớn.'
+      }
     ]
   }
 ];
