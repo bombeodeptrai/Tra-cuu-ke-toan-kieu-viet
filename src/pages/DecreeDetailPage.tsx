@@ -155,8 +155,8 @@ export function DecreeDetailPage() {
 
   const parseAndSetText = (text: string) => {
     if (text.includes('> *Lỗi tạo tóm tắt tự động*') || text.includes('Lỗi gọi AI:')) {
-      text = text.replace(/> \*Lỗi tạo tóm tắt tự động\*/g, '> *⚠️ Hệ thống AI hiện đang bị quá tải (do giới hạn từ Google). Tóm tắt chuyên sâu sẽ tự động cập nhật sau ít phút. Trong lúc chờ đợi, anh/chị vui lòng tham khảo chi tiết ở phần Toàn văn bên dưới.*');
-      text = text.replace(/Lỗi gọi AI: Bad status \d+:[\s\S]*?(?=---|$)/g, '> *⚠️ Hệ thống AI hiện đang bị quá tải. Tóm tắt sẽ cập nhật sau.* \n\n');
+      text = text.replace(/> \*Lỗi tạo tóm tắt tự động\*/g, '> Không có bản phân tích đã tạo thành công.');
+      text = text.replace(/Lỗi gọi AI: Bad status \d+:[\s\S]*?(?=---|$)/g, '> Không tạo được phân tích. Không có tác vụ tự cập nhật được xác nhận.\n\n');
     }
     setContent(text);
 
@@ -174,13 +174,13 @@ export function DecreeDetailPage() {
       setFullTextContent(fullPart);
     } else {
       // Check if text starts directly with government header
-      if (text.includes('# CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM') || text.includes('**CỘNG HOÀ XÃ HỘI CHỦ NGHĨA VIỆT NAM**')) {
-        setFullTextContent(text);
+      if (/CỘNG\s+H[ÒO]A\s+XÃ\s+HỘI/i.test(text) || /(?:^|\n)\s*\*{0,2}Điều\s+1[.:]/.test(text) || /^vas-/.test(decree?.id || '')) {
+        setFullTextContent('> Bản chép trong kho cũ, chưa đối chiếu lại toàn bộ với file gốc trong đợt này. Không dùng độ dài hoặc số điều để xác nhận đủ phụ lục.\n\n' + text);
         setSummaryContent(decree?.summary ? `### 🌟 TÓM TẮT TRỌNG TÂM CHO KẾ TOÁN\n\n${decree.summary}` : 'Đang cập nhật phân tích AI...');
       } else {
-        // Pure analysis
+        // Analysis cannot stand in for the original legal text.
         setSummaryContent(text);
-        setFullTextContent(text);
+        setFullTextContent('Chưa xác định được phần văn bản gốc trong file này. Nội dung phân tích nằm ở tab Tóm tắt; không dùng thay toàn văn.');
       }
     }
   };
@@ -209,7 +209,7 @@ export function DecreeDetailPage() {
         })
         .catch((err) => {
           console.warn('Could not load markdown file, using decree.content:', err);
-          setFullTextContent(decree.content || decree.summary || 'Nội dung đang được cập nhật...');
+          setFullTextContent('Không tải được file văn bản gốc. Chưa có toàn văn để hiển thị; hãy thử tải lại. Bản tóm tắt không thay thế nội dung gốc.');
           setSummaryContent(decree.summary || '');
         })
         .finally(() => setIsLoadingContent(false));

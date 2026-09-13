@@ -15,9 +15,9 @@ export function AppLayout() {
         <Sidebar />
       </div>
       
-      <div className="md:pl-64 flex flex-col flex-1 min-h-screen">
+      <div className="md:pl-64 flex flex-col flex-1 min-h-screen min-w-0">
         <Header />
-        <main className="flex-1 w-full max-w-7xl mx-auto p-4 md:p-6 lg:p-8 pb-20 md:pb-8 flex flex-col relative">
+        <main className="flex-1 w-full min-w-0 max-w-7xl mx-auto p-4 md:p-6 lg:p-8 pb-20 md:pb-8 flex flex-col relative">
           <AnimatePresence mode="wait">
             <motion.div
               initial={{ opacity: 0, y: 10 }}

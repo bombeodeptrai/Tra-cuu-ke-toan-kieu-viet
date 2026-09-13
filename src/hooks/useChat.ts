@@ -19,7 +19,7 @@ export function useChat() {
 
     // Give it a tiny bit of time to update state if it just created it,
     // though Zustand is sync, we can just grab from store.
-    let sessionId = chatStore.currentSessionId;
+    let sessionId = useChatStore.getState().currentSessionId;
     if (!sessionId) {
       sessionId = chatStore.sessions[0]?.id;
     }
@@ -70,7 +70,7 @@ export function useChat() {
         finalPrompt = await buildRAGContext(text, decrees);
       }
 
-      const session = chatStore.sessions.find(s => s.id === sessionId);
+      const session = useChatStore.getState().sessions.find(s => s.id === sessionId);
       const history = session?.messages.slice(0, -2) || []; 
       
       const mappedHistory: { role: string; content: string; imageData?: string; imageMimeType?: string }[] = history.map(m => {

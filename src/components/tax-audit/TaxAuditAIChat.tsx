@@ -10,7 +10,8 @@ import { Badge } from '@/components/ui/badge';
 import { Card, CardContent } from '@/components/ui/card';
 import { useSettingsStore } from '@/stores/settings-store';
 import { GeminiService } from '@/lib/ai/gemini';
-import { buildTaxAuditSystemPrompt } from '@/lib/ai/tax-audit-knowledge';
+import { AUDIT_SYSTEM_PROMPT, retrievePublicAuditSources } from '@/lib/ai/audit-public-context';
+import { useDecreeStore } from '@/stores/decree-store';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 
@@ -30,49 +31,23 @@ export function TaxAuditAIChat() {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
-  // Verified working key fallback
-  const defaultKey = ['AQ.', 'Ab8RN6JrE', 'F4GCx1LjDg9r', 'WU3ofwXvyvW', 'wXNjZOS7', 'Pac9JdB91Q'].join('');
-  const effectiveKey = geminiApiKey?.trim() || defaultKey;
-
+  const effectiveKey = geminiApiKey?.trim();
+  const decrees = useDecreeStore(s => s.decrees);
   const quickQuestions = [
     { label: '🪑 Định mức gỗ & Sơn PU', text: 'Đoàn kiểm tra đòi bóc chi phí gỗ nguyên liệu và sơn PU xưởng Nội thất Phú Tài vì nghi ngờ tỷ lệ hao hụt mùn cưa và định mức tiêu hao, lập luận giải trình ra sao?' },
-    { label: '🪵 Nguồn gốc lâm sản gỗ', text: 'Cơ quan thuế yêu cầu chứng minh nguồn gốc lâm sản hợp pháp cho các lô gỗ xẻ đóng bàn ghế hội trường, phòng làm việc theo Thông tư 26/2022/TT-BNNPTNT, hồ sơ gồm những gì?' },
+    { label: '🪵 Nguồn gốc lâm sản gỗ', text: 'Cơ quan thuế yêu cầu chứng minh nguồn gốc lâm sản hợp pháp cho các lô gỗ xẻ đóng bàn ghế hội trường, phòng làm việc theo thời điểm mua và nguồn gỗ; cần phân biệt TT26/2022 với TT26/2025 và TT84/2025, hồ sơ gồm những gì?' },
     { label: '🧱 Cấp phối trạm Bê tông', text: 'Đoàn kiểm tra soi định mức cấp phối xi măng trạm trộn Bê tông thương phẩm Kiểu Việt và đòi loại chi phí hao hụt xe bồn, cách đối chiếu kết quả thí nghiệm LAS và bảo vệ?' },
     { label: '🏗️ Cấu kiện đúc sẵn & Cừ Larsen', text: 'Giải trình tỷ lệ hao hụt nứt vỡ KCS cống hộp, bó vỉa, gạch không nung và chi phí dầu DO máy ép cọc cừ Larsen phục vụ thi công công trình?' },
     { label: '🏗️ Trích trước TK 335', text: 'Đoàn kiểm tra đòi bóc chi phí trích trước TK 335 của công trình xây lắp và dự án cung cấp lắp đặt nội thất trọn gói đã bàn giao nhưng chưa có đủ hóa đơn thầu phụ, bảo vệ thế nào?' },
     { label: '👷 Nhân công thời vụ xưởng mộc & bê tông', text: 'Đoàn thanh tra muốn truy thu 10% thuế TNCN thợ mộc gia công gỗ và nhân công trạm trộn bê tông, cách dùng bản cam kết 08/CK-TNCN và hợp đồng khoán việc bảo vệ?' },
     { label: '📐 Chi phí Tư vấn, Thiết kế & Giám sát', text: 'Đoàn kiểm tra soi chi phí chuyên gia tư vấn thiết kế, công tác phí khảo sát hiện trường và phân bổ chi phí phần mềm bản quyền dự án, cách bảo vệ?' },
-    { label: '🏛️ Thuế vãng lai 1% ngoại tỉnh', text: 'Hồ sơ chứng minh và đối trừ thuế GTGT vãng lai 1% các công trình và gói thầu nội thất tại Bình Định, Gia Lai, Phú Yên theo Thông tư 80/2021/TT-BTC?' },
+    { label: '🏛️ Nghĩa vụ thuế ngoài tỉnh', text: 'Phân biệt nghĩa vụ GTGT và TNDN ngoài tỉnh của bán nội thất và xây lắp; cần thông tin hợp đồng, kỳ và căn cứ nào để xác định có phải phân bổ thuế?' },
     { label: '📊 Lệch DT GTGT vs Quyết toán TNDN', text: 'Giải trình chênh lệch doanh thu giữa tờ khai GTGT và quyết toán TNDN đối với hợp đồng cung cấp lắp đặt nội thất và khối lượng bê tông xuất trạm cuối tháng?' }
   ];
 
   useEffect(() => {
-    setMessages([
-      {
-        id: 'welcome',
-        role: 'assistant',
-        content: `👋 Xin chào Ban Lãnh đạo & Đội ngũ Kế toán Kiểu Việt! Tôi là **Trưởng Ban Cố Vấn Pháp Lý & Thanh Tra Thuế Cấp Cao** của Công ty Cổ phần Kiểu Việt (Nội thất — VLXD & Bê tông — Thi công Xây lắp — Tư vấn Dự án | kieuviet.com.vn).
-
-🏛️ **HỆ THỐNG DỮ LIỆU ĐÃ KẾT NỐI TOÀN DIỆN**:
-- Đầy đủ **55/55 Văn bản pháp luật** chuyên sâu về Thuế & Kế toán Doanh nghiệp.
-- Đầy đủ **8 Bộ Mẫu biểu & Văn bản giải trình thực chiến** (Mẫu 01 đến Mẫu 08).
-- Tích hợp sâu nghiệp vụ 4 trụ cột sản xuất - kinh doanh của Kiểu Việt:
-  1. 🪑 **Nhà máy Sản xuất Đồ gỗ Nội thất Phú Tài**: Định mức gỗ tự nhiên xẻ sấy, sơn PU, hao hụt mùn cưa, hồ sơ lâm sản hợp pháp (TT 26/2022/TT-BNNPTNT), nhân công thợ mộc, bàn ghế hội trường, thiết bị trường học, thiết bị y tế.
-  2. 🧱 **Nhà máy Vật liệu Xây dựng & Trạm Bê tông Thương phẩm**: Cấp phối trạm trộn xi măng - cát - đá TCVN, hao hụt xe bồn, xe bơm, cấu kiện đúc sẵn (cống hộp, bó vỉa, gạch không nung), thi công ép cừ Larsen, mỏ khoáng sản cát đá.
-  3. 🏗️ **Thi công Xây lắp Công trình**: Nghiệm thu A-B giai đoạn, dở dang TK 154, trích trước giá vốn TK 335 theo TT 96/2015, thuế vãng lai 1% ngoại tỉnh TT 80/2021 (Hải quan Bình Định, Phú Yên, HĐND Gia Lai...).
-  4. 📐 **Tư vấn Xây dựng & Quản lý Dự án**: Nghiệm thu hồ sơ thiết kế, chi phí chuyên gia chứng chỉ hành nghề, công tác phí khảo sát hiện trường, phân bổ bản quyền phần mềm TK 242.
-
-Khi đoàn kiểm tra thuế đặt câu hỏi hoặc có ý định loại trừ chi phí, hãy chọn tình huống bên dưới hoặc gõ trực tiếp câu hỏi. Tôi sẽ cung cấp câu trả lời chuẩn mực gồm **5 phần**:
-1. 🎯 **Nhận định nghiệp vụ & Phân tích rủi ro**
-2. 📜 **Căn cứ pháp lý tối thượng** (chính xác từng Điều, Khoản)
-3. 🛡️ **Chiến lược lập luận & Phản biện 3 lớp**
-4. 📑 **Danh mục hồ sơ, chứng từ cần xuất trình ngay**
-5. ⚠️ **Phương án dự phòng & Kỹ năng làm việc với Đoàn**`,
-        timestamp: new Date().toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' })
-      }
-    ]);
+    setMessages([{ id: 'welcome', role: 'assistant', content: 'Nhập câu hỏi và kỳ cần đối chiếu. Chat tra cứu nguồn luật công khai; không tự đọc chứng từ hay nhật ký nội bộ. Nội dung anh chủ động gửi trong chat sẽ chuyển tới Gemini theo API key đã cấu hình.', timestamp: '' }]);
   }, []);
-
   useEffect(() => {
     if (messagesEndRef.current) {
       messagesEndRef.current.scrollIntoView({ behavior: 'smooth' });
@@ -88,6 +63,7 @@ Khi đoàn kiểm tra thuế đặt câu hỏi hoặc có ý định loại tr�
   const handleSend = async (questionText?: string) => {
     const textToSend = questionText || input.trim();
     if (!textToSend || isTyping) return;
+    if (!effectiveKey) { setMessages(prev => [...prev, { id: Date.now().toString(), role: 'assistant', content: 'Chưa cấu hình dịch vụ AI. Nhập API key trong Cài đặt để hỏi AI; hồ sơ và công cụ đối chiếu vẫn dùng được.', timestamp: '' }]); return; }
 
     const userMessage: Message = {
       id: Date.now().toString(),
@@ -111,7 +87,7 @@ Khi đoàn kiểm tra thuế đặt câu hỏi hoặc có ý định loại tr�
     setMessages(prev => [...prev, assistantMessage]);
 
     // Build dynamic high-accuracy system prompt injected with relevant legal decrees & templates
-    const systemPrompt = buildTaxAuditSystemPrompt(textToSend);
+    const systemPrompt = AUDIT_SYSTEM_PROMPT;
 
     const chatHistory = [...messages, userMessage].map(m => ({
       role: m.role,
@@ -119,6 +95,8 @@ Khi đoàn kiểm tra thuế đặt câu hỏi hoặc có ý định loại tr�
     }));
 
     try {
+      const sources = await retrievePublicAuditSources(textToSend, decrees);
+      chatHistory[chatHistory.length - 1].content = 'NGUỒN LUẬT CÔNG KHAI:\n' + sources + '\nCÂU HỎI:\n' + textToSend;
       const gemini = new GeminiService(effectiveKey);
       let accumulatedText = '';
 
@@ -128,8 +106,9 @@ Khi đoàn kiểm tra thuế đặt câu hỏi hoặc có ý định loại tr�
           prev.map(m => m.id === assistantMsgId ? { ...m, content: accumulatedText } : m)
         );
       }
+      if (!accumulatedText.trim()) throw new Error('Dịch vụ không trả nội dung. Chưa có kết quả phân tích.');
     } catch (err: any) {
-      console.error('Gemini error:', err);
+      // The failure is displayed below, without a fabricated successful response.
       setMessages(prev => 
         prev.map(m => m.id === assistantMsgId ? { 
           ...m, 
@@ -171,7 +150,7 @@ Khi đoàn kiểm tra thuế đặt câu hỏi hoặc có ý định loại tr�
             <h3 className="font-bold text-sm text-white flex items-center gap-2">
               Trợ Lý AI Phản Biện & Bảo Vệ Chi Phí Thanh Tra Thuế
               <Badge className="bg-emerald-500/30 text-emerald-300 border-emerald-400/40 text-[10px]">Thực Chiến</Badge>
-              <Badge className="bg-cyan-500/20 text-cyan-300 border-cyan-400/30 text-[10px]">55/55 Văn bản & 8 Mẫu biểu</Badge>
+              <Badge className="bg-cyan-500/20 text-cyan-300 border-cyan-400/30 text-[10px]">Tra cứu nguồn luật công khai</Badge>
             </h3>
             <p className="text-[11px] text-slate-300">
               Trực chiến hỗ trợ kế toán Kiểu Việt phản biện các yêu cầu xuất toán chi phí của đoàn kiểm tra

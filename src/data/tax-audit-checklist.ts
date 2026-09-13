@@ -34,10 +34,17 @@ export interface RiskQuestion {
   id: string;
   question: string;
   weight: number;          // 1-5 điểm rủi ro
-  decreeId: string;
-  articleRef: string;
-  tip: string;             // Hướng dẫn khắc phục
+  decreeId: string;        // ID văn bản trong hệ thống 55 VB (Chính xác 1-1)
+  decreeTitle: string;     // Tên chính thức đầy đủ của văn bản pháp luật
+  articleNum: string;      // Số Điều để deep-link (ví dụ: "42", "15", "8"...)
+  articleRef: string;      // Nhãn Điều Khoản cụ thể
+  legalQuote: string;      // Dẫn chứng pháp lý nguyên văn trích dẫn từ văn bản
+  riskAnalysis: string;    // Bản chất rủi ro và kỹ thuật đối chiếu của đoàn thanh tra
+  penaltyFramework: string;// Khung xử phạt cụ thể (Nghị định 125/2020, phạt 20%, tiền chậm nộp 0.03%/ngày...)
+  defenseDocuments: string[]; // Danh mục hồ sơ & chứng từ gốc kẹp cùng giải trình
+  tip: string;             // Biện pháp xử lý khẩn cấp
 }
+
 
 // ===== 8 NHÓM CHUYÊN ĐỀ BAO PHỦ 100% CẢ 55 VĂN BẢN =====
 
@@ -53,7 +60,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
       {
         id: 'chk-luat-67-2025-tndn',
         title: 'Quyết toán thuế TNDN & Ưu đãi đầu tư (Luật 67/2025)',
-        description: 'Kiểm tra tờ khai Mẫu 03/TNDN, rà soát điều kiện hưởng thuế suất ưu đãi, miễn giảm thuế TNDN cho dự án khai khoáng tại địa bàn kinh tế khó khăn Gia Lai.',
+        description: 'Kiểm tra tờ khai Mẫu 03/TNDN, rà soát điều kiện hưởng thuế suất ưu đãi, miễn giảm thuế TNDN theo dự án thực tế; không mặc định khai khoáng được ưu đãi chỉ vì địa bàn.',
         priority: 'critical',
         decreeId: 'luat-67-2025-tndn',
         articleNum: '13',
@@ -224,7 +231,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         "Bước 1: Rà soát toàn bộ danh sách khách hàng, nhà cung cấp, chủ nợ, người cho vay để xác định các bên có quan hệ liên kết theo đúng quy định tại Khoản 2 Điều 5 Nghị định 132/2020/NĐ-CP (như sở hữu vốn từ 25% trở lên, cùng một cá nhân điều hành hoặc kiểm soát).",
         "Bước 2: Đối chiếu tổng phát sinh trên Sổ cái TK 341 (Vay và nợ thuê tài chính) và TK 635 (Chi phí tài chính) đối với các khoản vay từ bên liên kết và bên độc lập để tách bạch rõ ràng nguồn gốc chi phí lãi vay.",
         "Bước 3: Lập bảng tính toán chỉ tiêu EBITDA (Lợi nhuận thuần từ hoạt động kinh doanh cộng chi phí lãi vay, cộng chi phí khấu hao) theo đúng hướng dẫn tại Khoản 3 Điều 16 Nghị định 132/2020/NĐ-CP.",
-        "Bước 4: Kiểm tra việc áp dụng mức trần chi phí lãi vay được trừ (tối đa 30% tổng lợi nhuận thuần từ hoạt động kinh doanh trước khi trừ lãi vay và trước khi khấu hao - EBITDA) đối với toàn bộ chi phí lãi vay phát sinh từ các giao dịch liên kết.",
+        "Bước 4: Kiểm tra việc áp dụng mức trần chi phí lãi vay được trừ (tối đa 30% tổng lợi nhuận thuần từ hoạt động kinh doanh trước khi trừ lãi vay và trước khi khấu hao - EBITDA) đối với chi phí lãi vay thuần thuộc phạm vi áp dụng, kể cả vay bên độc lập; rà NĐ20/2025 và điều kiện miễn trừ.",
         "Bước 5: Thực hiện bút toán kết chuyển và điều chỉnh tăng thu nhập chịu thuế TNDN trên tờ khai quyết toán thuế năm đối với phần chi phí lãi vay vượt mức trần 30% EBITDA không được trừ theo quy định.",
         "Bước 6: Đối chiếu số liệu kê khai tại Phụ lục I (Giao dịch liên kết) đính kèm Tờ khai quyết toán thuế TNDN với Báo cáo tài chính, Sổ cái các tài khoản công nợ và chi phí tài chính đảm bảo khớp đúng 100%."
 ],
@@ -406,7 +413,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
       {
         id: 'chk-tt-219-2013',
         title: 'Điều kiện khấu trừ thuế GTGT Gỗ Lâm Sản, VLXD & TT Ngân Hàng (TT 219/2013)',
-        description: 'Kiểm tra điều kiện khấu trừ thuế GTGT đối với gỗ nguyên liệu xẻ sấy (kèm Bảng kê lâm sản TT 26/2022/TT-BNNPTNT), xi măng cát đá trạm bê tông và thanh toán qua ngân hàng >= 20 triệu.',
+        description: 'Kiểm tra điều kiện khấu trừ thuế GTGT đối với gỗ nguyên liệu xẻ sấy (hồ sơ lâm sản theo kỳ: TT26/2022 lịch sử, TT26/2025 và TT84/2025), xi măng cát đá trạm bê tông và điều kiện thanh toán theo ngày giao dịch; không áp ngưỡng 20 triệu cho mọi kỳ.',
         priority: 'critical',
         decreeId: 'tt-219-2013',
         articleNum: '15',
@@ -872,7 +879,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
     name: 'Quản Lý Thuế, Xử Phạt & Lệ Phí',
     icon: '🛡️',
     color: 'orange',
-    description: 'Quyền doanh nghiệp khi kiểm tra, phạt khai sai 20%, nộp chậm 0.03%, phân bổ 1% vãng lai',
+    description: 'Phạm vi kiểm tra, nghĩa vụ khai bổ sung, xử phạt và phân bổ thuế theo trường hợp/kỳ áp dụng',
     items: [
       {
         id: 'chk-luat-quan-ly-thue-2019',
@@ -912,42 +919,40 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
 ]
       },
       {
-        id: 'chk-tt-80-2021',
-        title: 'Phân bổ thuế GTGT 1% & TNDN 1% Công trình & Nội thất Ngoại tỉnh (TT 80/2021)',
-        description: 'Đối chiếu nghĩa vụ thuế vãng lai 1% các công trình xây lắp và gói thầu nội thất tại Bình Định (Hải quan Bình Định, QL19 Becamex), Phú Yên (Hải quan Phú Yên), Gia Lai theo TT 80/2021.',
-        priority: 'critical',
-        decreeId: 'tt-80-2021',
-        articleNum: '13',
-        decreeLabel: 'Thông tư 80/2021/TT-BTC',
-        phase: 1,
-        documentsRequired: [
-          "Bảng phân bổ thuế GTGT phải nộp cho các địa phương nơi có công trình xây dựng, lắp đặt nội thất ngoại tỉnh (Mẫu 01-6/GTGT)",
-          "Hợp đồng thi công xây dựng và Hợp đồng cung cấp lắp đặt nội thất tại các tỉnh Bình Định, Phú Yên, Gia Lai, Kon Tum",
-          "Biên bản nghiệm thu khối lượng hoàn thành A-B và Hóa đơn GTGT xuất cho từng chủ đầu tư ngoại tỉnh",
-          "Giấy nộp tiền vào Ngân sách Nhà nước nộp thuế GTGT 1% và TNDN 1% tại Kho bạc Nhà nước các tỉnh nơi có công trình",
-          "Tờ khai thuế GTGT (Mẫu 01/GTGT) tại trụ sở chính có kê khai bù trừ số thuế vãng lai đã nộp (Chỉ tiêu [39])",
-          "Sổ chi tiết tài khoản 3331 và TK 3334 theo dõi nghĩa vụ thuế đã nộp tại các địa phương"
-        ],
-        accountingSteps: [
-          "Bước 1: Rà soát danh mục toàn bộ các công trình xây lắp và dự án lắp đặt nội thất thực hiện ngoài địa bàn tỉnh nơi đóng trụ sở chính.",
-          "Bước 2: Tính toán chính xác số thuế GTGT vãng lai 1% phải nộp trên doanh thu chưa có thuế GTGT của từng lần chủ đầu tư thanh toán.",
-          "Bước 3: Thu thập toàn bộ Giấy nộp tiền vào NSNN tại Kho bạc Nhà nước các tỉnh Bình Định, Phú Yên, Gia Lai có ghi đúng mã chương, tiểu mục thuế vãng lai.",
-          "Bước 4: Đối chiếu số thuế GTGT vãng lai đã nộp ngoại tỉnh với số liệu kê khai bù trừ vào Chỉ tiêu [39] trên Tờ khai 01/GTGT tại Cục Thuế quản lý.",
-          "Bước 5: Kiểm tra việc phân bổ và tạm nộp thuế TNDN 1% đối với hoạt động xây lắp ngoại tỉnh theo quy định tại Điều 17 Thông tư 80/2021/TT-BTC."
-        ],
-        auditRisks: [
-          "Rủi ro đoàn thanh tra yêu cầu truy thu thuế GTGT vãng lai 1% do doanh nghiệp chưa nộp tại địa phương nơi có công trình mà chỉ kê khai nộp thuế tại trụ sở chính.",
-          "Bị loại trừ số thuế GTGT đã kê khai vào Chỉ tiêu [39] do Giấy nộp tiền vào Kho bạc ghi sai thông tin cơ quan thuế quản lý địa bàn vãng lai.",
-          "Bẫy thuế về việc nộp thừa thuế tại địa phương nhưng không được hoàn trả hoặc thủ tục bù trừ kéo dài gây đọng vốn.",
-          "Phạt chậm nộp thuế GTGT và TNDN vãng lai tại các tỉnh nơi có công trình thi công do chủ đầu tư Kho bạc đã thanh toán nhưng doanh nghiệp chậm nộp thuế 1%."
-        ],
-        defenseStrategy: [
-          "Viện dẫn Điều 13 và Điều 17 Thông tư 80/2021/TT-BTC, chứng minh Công ty Kiểu Việt đã thực hiện đúng và đủ nghĩa vụ phân bổ thuế GTGT 1% cho các địa phương có công trình.",
-          "Xuất trình trọn bộ Giấy nộp tiền vào Ngân sách Nhà nước tại Kho bạc các tỉnh (Bình Định, Phú Yên, Gia Lai) có xác nhận của ngân hàng và kho bạc.",
-          "Chứng minh việc bù trừ vào Chỉ tiêu [39] trên Tờ khai thuế GTGT tại trụ sở chính là hoàn toàn trùng khớp 100% với số tiền thuế thực nộp, không có gian lận.",
-          "Giải trình đối với các gói thầu cung cấp lắp đặt nội thất trọn gói đã nộp thuế vãng lai tại địa phương lắp đặt, đề nghị đoàn thanh tra công nhận số thuế đã nộp vào ngân sách nhà nước."
-        ]
-      },
+  "id": "chk-tt-80-2021",
+  "title": "Nơi kê khai và phân bổ thuế khi có hoạt động ngoài tỉnh",
+  "description": "Phân loại bán nội thất, gia công, xây lắp, cơ sở sản xuất và tư vấn theo hợp đồng thực tế; xác định nghĩa vụ riêng cho GTGT và TNDN theo kỳ, không tự áp TNDN vãng lai 1%.",
+  "priority": "critical",
+  "decreeId": "tt-80-2021",
+  "articleNum": "13",
+  "decreeLabel": "Thông tư 80/2021/TT-BTC",
+  "phase": 1,
+  "documentsRequired": [
+    "Hợp đồng, phụ lục xác định bán hàng hay xây lắp; địa chỉ công trình và đơn vị thực hiện",
+    "Biên bản giao hàng/nghiệm thu, hóa đơn và bảng doanh thu theo từng công trình",
+    "Tờ khai tại trụ sở và địa phương, chứng từ nộp ngân sách có tiểu mục, mã cơ quan thu",
+    "Hồ sơ chi nhánh/cơ sở sản xuất và bảng phân bổ nếu có nghĩa vụ tương ứng",
+    "Danh mục kỳ thuế và phiên bản TT80 cùng văn bản sửa đổi áp dụng"
+  ],
+  "accountingSteps": [
+    "Tách bán hàng nội thất đơn thuần khỏi hợp đồng xây dựng, lắp đặt theo bản chất và hồ sơ.",
+    "Đối chiếu 511/131/3331 theo công trình với doanh thu kê khai; ghi riêng khoản chênh lệch thời điểm.",
+    "Xác định phạm vi và căn cứ phân bổ GTGT theo Điều 13 TT80 và sửa đổi, không lấy tiền chủ đầu tư trả làm căn cứ mặc định.",
+    "Đối chiếu chứng từ đã nộp tại địa phương với kỳ kê khai, không bù trừ hai lần.",
+    "Xét TNDN theo trường hợp phân bổ thực tế tại Điều 17 và quy định đúng kỳ; không suy ra mức 1% từ nghĩa vụ GTGT."
+  ],
+  "auditRisks": [
+    "Áp nghĩa vụ xây lắp cho hợp đồng chỉ bán hàng.",
+    "Áp TNDN 1% không có căn cứ cho mọi công trình ngoài tỉnh.",
+    "Nộp nhầm tiểu mục, kê khai trùng hoặc bỏ sót nghĩa vụ tại nơi có công trình.",
+    "Áp văn bản hiện tại hồi tố cho giao dịch thuộc kỳ trước."
+  ],
+  "defenseStrategy": [
+    "Lập bảng từng công trình: bản chất hợp đồng, địa phương, kỳ, doanh thu, nghĩa vụ, số đã nộp và tài liệu chứng minh.",
+    "Dẫn đúng điều khoản theo kỳ sau khi mở bản gốc; chỉ kết luận hoàn thành nghĩa vụ khi tờ khai và chứng từ khớp.",
+    "Nếu phát hiện thiếu nghĩa vụ, ghi rõ hướng khai bổ sung và trách nhiệm xử lý; không viết sẵn kết luận công ty đã nộp đủ."
+  ]
+},
       {
         id: 'chk-nd-125-2020',
         title: 'Khung xử phạt vi phạm hành chính thuế & hóa đơn (NĐ 125/2020)',
@@ -2200,21 +2205,294 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
 // ===== 15 CÂU HỎI TỰ ĐÁNH GIÁ RỦI RO =====
 
 export const RISK_QUESTIONS: RiskQuestion[] = [
-  { id: 'rq-01', question: 'Doanh thu kê khai GTGT và doanh thu quyết toán TNDN có chênh lệch > 5% không?', weight: 5, decreeId: 'luat-quan-ly-thue-2019', articleRef: 'Điều 42', tip: 'Lập bảng giải trình chi tiết nguyên nhân chênh lệch: doanh thu trả lại, doanh thu không chịu thuế GTGT, doanh thu chưa xuất HĐ.' },
-  { id: 'rq-02', question: 'Có hóa đơn đầu vào > 20 triệu thanh toán bằng tiền mặt không?', weight: 5, decreeId: 'tt-219-2013', articleRef: 'Điều 15 K10', tip: 'Chuyển đổi sang thanh toán qua ngân hàng trước khi kiểm tra. Nếu đã thanh toán tiền mặt, loại HĐ khỏi bảng kê khấu trừ và kê khai bổ sung.' },
-  { id: 'rq-03', question: 'Tổng tạm nộp thuế TNDN 4 quý có < 80% số quyết toán cả năm không?', weight: 5, decreeId: 'nd-126-2020', articleRef: 'Điều 8 K6', tip: 'Nộp bổ sung phần thiếu ngay lập tức. Tính tiền chậm nộp 0.03%/ngày từ ngày 31/01 năm sau đến ngày nộp đủ.' },
-  { id: 'rq-04', question: 'Có giao dịch liên kết nhưng chưa lập/nộp hồ sơ xác định giá (NĐ 132) không?', weight: 4, decreeId: 'nd-132-2020', articleRef: 'Điều 18', tip: 'Lập hồ sơ giao dịch liên kết ngay. Kê khai Mẫu 01 và nộp kèm quyết toán TNDN. Nếu quá hạn, nộp bổ sung và chấp nhận phạt khai chậm.' },
-  { id: 'rq-05', question: 'Có chi phí không có hóa đơn hoặc hóa đơn bất hợp pháp không?', weight: 5, decreeId: 'nd-125-2020', articleRef: 'Điều 24-29', tip: 'Loại bỏ chi phí không có HĐ ra khỏi chi phí được trừ. Kê khai bổ sung thuế TNDN tương ứng. Kiểm tra HĐ nhà cung cấp trên hoadondientu.gdt.gov.vn.' },
-  { id: 'rq-06', question: 'Có khấu hao TSCĐ vượt khung hoặc sai phương pháp đăng ký không?', weight: 4, decreeId: 'tt-45-2013', articleRef: 'Điều 10', tip: 'Rà soát bảng tính khấu hao, điều chỉnh về đúng khung cho phép. Phần khấu hao vượt khung phải loại chi phí thuế TNDN.' },
-  { id: 'rq-07', question: 'Lương NLĐ trên HĐLĐ có thấp hơn mức tối thiểu vùng không?', weight: 3, decreeId: 'nd-293-2025', articleRef: 'Điều 3', tip: 'Lập phụ lục HĐLĐ điều chỉnh lương ngay. Truy nộp BHXH trên phần chênh lệch.' },
-  { id: 'rq-08', question: 'Có nợ BHXH quá 30 ngày không?', weight: 3, decreeId: 'nd-12-2022', articleRef: 'Điều 38-39', tip: 'Nộp dứt điểm nợ BHXH và tiền chậm đóng trước khi đoàn kiểm tra. Lưu biên lai nộp.' },
-  { id: 'rq-09', question: 'Sản lượng khai thác thực tế và kê khai thuế tài nguyên có chênh > 5% không?', weight: 5, decreeId: 'tt-152-2015', articleRef: 'Điều 6-7', tip: 'Đối chiếu sổ sản lượng khai thác với tờ khai thuế TN. Kê khai bổ sung nếu thiếu. Chuẩn bị giải trình hao hụt tự nhiên.' },
-  { id: 'rq-10', question: 'Có chưa nộp phí BVMT khoáng sản đúng hạn không?', weight: 3, decreeId: 'nd-27-2023', articleRef: 'Điều 8', tip: 'Nộp bổ sung phí BVMT khoáng sản và tiền chậm nộp trước ngày kiểm tra.' },
-  { id: 'rq-11', question: 'Có hóa đơn bị CQT thông báo rủi ro (cảnh báo Mẫu 01/TB-HĐ) không?', weight: 5, decreeId: 'nd-123-2020', articleRef: 'Điều 34', tip: 'Kiểm tra danh sách NCC bị cảnh báo. Loại HĐ của NCC rủi ro cao ra khỏi bảng kê khấu trừ. Kê khai bổ sung.' },
-  { id: 'rq-12', question: 'Chi phí lãi vay giao dịch liên kết có > 30% EBITDA không?', weight: 4, decreeId: 'nd-132-2020', articleRef: 'Điều 16', tip: 'Tính lại trần lãi vay 30% EBITDA. Phần vượt trần phải loại khỏi chi phí được trừ thuế TNDN.' },
-  { id: 'rq-13', question: 'Có NLĐ nghỉ việc chưa được cấp chứng từ khấu trừ TNCN ĐT không?', weight: 2, decreeId: 'nd-70-2025', articleRef: 'Điều 4', tip: 'Cấp chứng từ khấu trừ TNCN điện tử cho tất cả NLĐ đã nghỉ việc trong năm.' },
-  { id: 'rq-14', question: 'Có HĐ xây dựng chưa có biên bản nghiệm thu khối lượng đúng mẫu không?', weight: 3, decreeId: 'nd-37-2015', articleRef: 'Điều 15-19', tip: 'Bổ sung biên bản nghiệm thu cho tất cả giai đoạn đã thanh toán. Biên bản phải có đủ chữ ký CĐT và nhà thầu.' },
-  { id: 'rq-15', question: 'Sổ cái, sổ chi tiết kế toán chưa in/lưu cho kỳ kiểm tra không?', weight: 3, decreeId: 'luat-ke-toan-2015', articleRef: 'Điều 24-27', tip: 'In đầy đủ sổ cái, sổ chi tiết cho năm kiểm tra. Lưu bản mềm PDF backup.' },
+  {
+    id: 'rq-01',
+    question: 'Doanh thu kê khai GTGT và doanh thu quyết toán TNDN có chênh lệch > 5% không?',
+    weight: 5,
+    decreeId: 'luat-quan-ly-thue-2019',
+    decreeTitle: 'Luật Quản lý thuế số 38/2019/QH14',
+    articleNum: '42',
+    articleRef: 'Điều 42 & Điều 47 (Nguyên tắc khai thuế, tính thuế)',
+    legalQuote: 'Điều 42 Khoản 1 Luật Quản lý thuế 38/2019/QH14: "Người nộp thuế phải khai chính xác, trung thực, đầy đủ các nội dung trong tờ khai thuế theo mẫu do Bộ trưởng Bộ Tài chính quy định và nộp đủ các chứng từ, tài liệu quy định trong hồ sơ khai thuế với cơ quan quản lý thuế." Đối chiếu thời điểm xác định doanh thu GTGT (Điều 8 Thông tư 219/2013/TT-BTC) và doanh thu TNDN (Điều 5 Thông tư 78/2014/TT-BTC & Thông tư 96/2015/TT-BTC).',
+    riskAnalysis: 'Cơ quan thuế dùng phần mềm rà soát tự động đối chiếu tổng doanh thu trên 4 Tờ khai 01/GTGT (Chỉ tiêu [34]) với Chỉ tiêu [01] trên Phụ lục kết quả HĐKD 03-1A/TNDN và Doanh thu trên Báo cáo kết quả hoạt động kinh doanh (Mẫu B02-DN). Khi độ lệch vượt quá 5%, hệ thống tự động gắn cờ rủi ro cao loại 1, đưa doanh nghiệp vào danh sách kiểm tra trọng điểm. Các nguyên nhân phổ biến: Doanh thu công trình xây dựng chưa nghiệm thu nhưng đã xuất hóa đơn; doanh thu tài chính (TK 515) không chịu GTGT; bán phế liệu, thanh lý tài sản chưa vào chỉ tiêu GTGT; hoặc các khoản giảm trừ doanh thu (TK 521).',
+    penaltyFramework: 'Nếu chênh lệch dẫn đến thiếu thuế TNDN hoặc GTGT: Phạt 20% trên số tiền thuế khai thiếu (Điều 16 Nghị định 125/2020/NĐ-CP) cộng tiền chậm nộp 0,03%/ngày tính trên số tiền thuế chậm nộp (Điều 59 Luật Quản lý thuế 2019). Trường hợp trốn thuế: Phạt từ 1 đến 3 lần số thuế trốn (Điều 17 NĐ 125/2020).',
+    defenseDocuments: [
+      'Bảng điều hòa đối chiếu doanh thu GTGT và doanh thu TNDN cả năm (Mẫu nội bộ giải trình chi tiết từng nguyên nhân chênh lệch)',
+      'Hợp đồng xây dựng, Biên bản nghiệm thu A-B theo giai đoạn và hóa đơn GTGT tương ứng cho các công trình thi công dở dang',
+      'Sổ cái TK 511, TK 515, TK 711, TK 521 và Bảng kê hóa đơn GTGT đầu ra (Mẫu 01-1/GTGT)',
+      'Tờ khai quyết toán thuế TNDN (Mẫu 03/TNDN) kèm Báo cáo tài chính năm đã nộp cho CQT'
+    ],
+    tip: 'Lập ngay Bảng điều hòa giải trình chi tiết nguyên nhân chênh lệch; nếu phát hiện sót doanh thu phải nộp tờ khai bổ sung Mẫu 01/KHBS trước khi có quyết định thanh tra.'
+  },
+  {
+    id: 'rq-02',
+    question: 'Có hóa đơn đầu vào > 20 triệu thanh toán bằng tiền mặt không?',
+    weight: 5,
+    decreeId: 'tt-219-2013',
+    decreeTitle: 'Thông tư 219/2013/TT-BTC hướng dẫn Luật Thuế GTGT',
+    articleNum: '15',
+    articleRef: 'Điều 15 Khoản 2 (sửa đổi bởi TT 173/2016/TT-BTC & TT 96/2015/TT-BTC)',
+    legalQuote: 'Điều 15 Khoản 2 Thông tư 219/2013/TT-BTC: "Có chứng từ thanh toán không dùng tiền mặt đối với hàng hóa, dịch vụ mua vào (bao gồm cả hàng hóa nhập khẩu) từ hai mươi triệu đồng trở lên, trừ... trường hợp hàng hóa, dịch vụ mua từng lần có giá trị dưới hai mươi triệu đồng theo giá đã có thuế GTGT." Trường hợp mua của một người bán nhiều lần trong cùng một ngày có tổng trị giá từ 20 triệu đồng trở lên thì chỉ được khấu trừ khi có chứng từ không dùng tiền mặt.',
+    riskAnalysis: 'Đoàn thanh tra lọc toàn bộ sổ chi tiết TK 111 (Tiền mặt) đối ứng với TK 331, TK 152, TK 156, TK 642, TK 627 và TK 1331. Mọi hóa đơn từ 20 triệu đồng (đã gồm thuế GTGT) hoặc mua cùng một nhà cung cấp trong 1 ngày cộng dồn >= 20 triệu thanh toán tiền mặt sẽ bị bóc tách toàn bộ: Vừa bị loại khấu trừ thuế GTGT đầu vào, vừa bị loại khỏi chi phí được trừ khi tính thuế TNDN.',
+    penaltyFramework: 'Truy thu 10% thuế GTGT đã khấu trừ sai + Truy thu 20% thuế TNDN tương ứng với chi phí bị bóc tách + Phạt 20% trên tổng số thuế truy thu (Điều 16 NĐ 125/2020) + Tiền chậm nộp 0,03%/ngày (Điều 59 Luật QLT 2019).',
+    defenseDocuments: [
+      'Giấy báo Nợ, Ủy nhiệm chi (UNC) và Sổ phụ ngân hàng xác nhận giao dịch qua tài khoản ngân hàng của DN (TK 112)',
+      'Biên bản bù trừ công nợ 3 bên hợp pháp (nếu có thanh toán bù trừ, phải có điều khoản quy định rõ trong hợp đồng)',
+      'Hợp đồng mua bán, biên bản giao nhận hàng hóa và hóa đơn điện tử tra cứu hợp lệ',
+      'Nếu lỡ thanh toán tiền mặt: Lập tờ khai bổ sung mẫu 01/KHBS điều chỉnh giảm thuế GTGT đầu vào và điều chỉnh tăng chỉ tiêu B4 trên quyết toán TNDN trước khi CQT công bố quyết định kiểm tra.'
+    ],
+    tip: 'Chuyển đổi sang thanh toán qua ngân hàng trước ngày kiểm tra. Nếu đã trả tiền mặt, khẩn trương lập hồ sơ điều chỉnh giảm khấu trừ GTGT và loại chi phí TNDN để tránh phạt 20%.'
+  },
+  {
+    id: 'rq-03',
+    question: 'Tổng tạm nộp thuế TNDN 4 quý có < 80% số quyết toán cả năm không?',
+    weight: 5,
+    decreeId: 'nd-126-2020',
+    decreeTitle: 'Nghị định 126/2020/NĐ-CP hướng dẫn chi tiết Luật Quản lý thuế',
+    articleNum: '8',
+    articleRef: 'Điều 8 Khoản 6 Điểm b (sửa đổi bởi Nghị định 91/2022/NĐ-CP)',
+    legalQuote: 'Điều 8 Khoản 6 Điểm b Nghị định 126/2020/NĐ-CP (sửa đổi bởi NĐ 91/2022/NĐ-CP): "Tổng số thuế thu nhập doanh nghiệp đã tạm nộp của 04 quý không được thấp hơn 80% số thuế thu nhập doanh nghiệp phải nộp theo quyết toán năm... Trường hợp người nộp thuế nộp thiếu so với số thuế phải tạm nộp 04 quý thì phải nộp tiền chậm nộp tính trên số thuế nộp thiếu kể từ ngày tiếp sau ngày cuối cùng của thời hạn tạm nộp thuế thu nhập doanh nghiệp quý 04 đến ngày nộp số thuế còn thiếu vào ngân sách nhà nước."',
+    riskAnalysis: 'Thời hạn nộp tạm tính thuế TNDN quý 4 là ngày 31/01 năm dương lịch tiếp theo. Cơ quan thuế tự động tính chênh lệch giữa: (Thuế TNDN tạm nộp Q1 + Q2 + Q3 + Q4) so với 80% của [Chỉ tiêu G trên Tờ khai 03/TNDN]. Nếu số đã nộp < 80%, hệ thống tự động sinh thông báo tiền chậm nộp tiền thuế từ ngày 01/02 đến ngày người nộp thuế thực nộp tiền vào NSNN.',
+    penaltyFramework: 'Tính tiền chậm nộp 0,03%/ngày trên số tiền thuế nộp thiếu so với mốc 80% (Điều 59 Luật Quản lý thuế số 38/2019/QH14). Không bị phạt 20% nếu đã tự giác nộp đủ trước khi có kết luận thanh tra, nhưng tiền chậm nộp là bắt buộc không thể miễn trừ.',
+    defenseDocuments: [
+      'Giấy nộp tiền vào Ngân sách Nhà nước (các món tạm nộp Q1, Q2, Q3, Q4) trên Cổng Dịch vụ công hoặc qua eTax',
+      'Bảng tính tỷ lệ 80% tạm nộp so với quyết toán năm và lịch sử nộp tiền thực tế',
+      'Sổ cái TK 3334 (Thuế TNDN) và TK 112 (Tiền gửi ngân hàng)',
+      'Biên bản đối chiếu nghĩa vụ thuế điện tử trên Cổng eTax tại thời điểm 31/01 và 31/03'
+    ],
+    tip: 'Nộp bổ sung ngay số thuế TNDN còn thiếu so với ngưỡng 80% để cắt tiền chậm nộp 0.03%/ngày phát sinh từng ngày.'
+  },
+  {
+    id: 'rq-04',
+    question: 'Có giao dịch liên kết nhưng chưa lập/nộp hồ sơ xác định giá (NĐ 132) không?',
+    weight: 4,
+    decreeId: 'nd-132-2020',
+    decreeTitle: 'Nghị định 132/2020/NĐ-CP quản lý thuế giao dịch liên kết',
+    articleNum: '18',
+    articleRef: 'Điều 18 & Điều 19 (Quy định lập và nộp hồ sơ GDLK)',
+    legalQuote: 'Điều 18 Nghị định 132/2020/NĐ-CP: "Người nộp thuế có giao dịch liên kết thuộc phạm vi điều chỉnh tại Nghị định này có trách nhiệm kê khai thông tin về quan hệ liên kết và giao dịch liên kết theo Mẫu số 01, Mẫu số 02, Mẫu số 03, Mẫu số 04 tại Phụ lục ban hành kèm theo Nghị định này và nộp cùng Tờ khai quyết toán thuế thu nhập doanh nghiệp." Thời hạn nộp hồ sơ xác định giá giao dịch liên kết là thời hạn nộp hồ sơ quyết toán thuế TNDN.',
+    riskAnalysis: 'DN có vay vốn cá nhân điều hành (Giám đốc, thành viên HĐQT) hoặc vay ngân hàng vượt 25% vốn góp chủ sở hữu và chiếm trên 50% tổng dư nợ (Điều 5 Điểm d NĐ 132/2020) mặc nhiên là bên liên kết. Rất nhiều DN vừa và nhỏ bỏ qua việc tích chọn và nộp Phụ lục Mẫu 01 kèm quyết toán TNDN. Khi bị thanh tra, CQT sẽ ấn định thuế và bác bỏ toàn bộ chi phí lãi vay vượt trần 30% EBITDA.',
+    penaltyFramework: 'Phạt từ 8.000.000đ đến 15.000.000đ về hành vi không lập/không nộp hồ sơ giao dịch liên kết (Điều 13 NĐ 125/2020). Bị CQT ấn định thuế theo Điều 50 Luật QLT 2019 và bóc tách toàn bộ phần lãi vay vượt mức 30% EBITDA (Điều 16 NĐ 132/2020).',
+    defenseDocuments: [
+      'Phụ lục thông tin về quan hệ liên kết và giao dịch liên kết (Mẫu 01/NĐ-132) đã nộp qua mạng',
+      'Hồ sơ quốc gia (Local file), Báo cáo nghiên cứu so sánh Benchmark xác định biên độ giá thị trường',
+      'Hợp đồng vay vốn, phụ lục khế ước nhận nợ, bảng tính lãi vay và phân tích EBITDA thực tế',
+      'Rà soát điều kiện miễn trừ lập Hồ sơ xác định giá giao dịch liên kết theo Điều 19 NĐ 132/2020 (Doanh thu < 50 tỷ và tổng giá trị GDLK < 30 tỷ)'
+    ],
+    tip: 'Lập và nộp bổ sung Phụ lục Mẫu 01/NĐ-132 ngay cùng hồ sơ quyết toán TNDN; kiểm tra trần lãi vay 30% EBITDA để chuẩn bị phương án giải trình.'
+  },
+  {
+    id: 'rq-05',
+    question: 'Có chi phí không có hóa đơn hoặc hóa đơn bất hợp pháp không?',
+    weight: 5,
+    decreeId: 'nd-125-2020',
+    decreeTitle: 'Nghị định 125/2020/NĐ-CP xử phạt vi phạm hành chính về thuế, hóa đơn',
+    articleNum: '24',
+    articleRef: 'Điều 24, 25, 28, 29 & Điều 16, 17',
+    legalQuote: 'Điều 4 Nghị định 125/2020/NĐ-CP: "Sử dụng hóa đơn bất hợp pháp, sử dụng không hợp pháp hóa đơn gồm: Hóa đơn giả; hóa đơn chưa có giá trị sử dụng, hết giá trị sử dụng; hóa đơn bị ngừng sử dụng trong thời gian bị cưỡng chế... hóa đơn có nội dung được ghi không có thực một phần hoặc toàn bộ hàng hóa, dịch vụ." Kết hợp Điều 6 Thông tư 78/2014/TT-BTC và Điều 4 Thông tư 96/2015/TT-BTC về các khoản chi phí không được trừ.',
+    riskAnalysis: 'CQT sử dụng Trí tuệ nhân tạo (AI) và cơ sở dữ liệu Big Data hóa đơn điện tử toàn quốc để quét tự động chuỗi F1, F2, F3 của các DN có dấu hiệu rủi ro hóa đơn cao hoặc DN đã bỏ trốn khỏi địa chỉ kinh doanh. Nếu DN mua hàng của các DN này, CQT sẽ gửi công văn Mẫu 01/TB-HĐ yêu cầu giải trình tính có thực của giao dịch (hàng hóa đi đường nào, ai vận chuyển, cân xe, kho bãi ở đâu).',
+    penaltyFramework: 'Hành vi sử dụng hóa đơn không hợp pháp để hạch toán chi phí: Phạt từ 1 đến 3 lần số thuế trốn (Điều 17 NĐ 125/2020) hoặc phạt từ 20.000.000đ đến 50.000.000đ (Điều 28 NĐ 125/2020). Nếu số thuế trốn từ 100 triệu đồng trở lên có thể bị chuyển hồ sơ sang Cơ quan Cảnh sát Điều tra hình sự theo Điều 200 Bộ luật Hình sự 2015.',
+    defenseDocuments: [
+      'Hồ sơ chứng minh tính có thực của giao dịch: Hợp đồng mua bán, Biên bản nghiệm thu/giao nhận hàng tại kho, Phiếu cân xe',
+      'Chứng từ vận chuyển, thông tin tài xế, biển số xe chở vật tư (đá, cát, xi măng, gỗ)',
+      'Chứng từ thanh toán qua ngân hàng đúng tài khoản đăng ký của nhà cung cấp',
+      'Ảnh chụp hiện trường sử dụng vật tư vào công trình xây lắp hoặc quy trình gia công xưởng mộc',
+      'Biên bản tra cứu tình trạng người bán trên trang hoadondientu.gdt.gov.vn tại thời điểm lập hóa đơn'
+    ],
+    tip: 'Loại bỏ ngay các khoản chi phí không có hóa đơn hợp lệ ra khỏi chi phí được trừ khi quyết toán TNDN (chỉ tiêu B4); rà soát kỹ nguồn gốc vật tư trên trang hóa đơn điện tử.'
+  },
+  {
+    id: 'rq-06',
+    question: 'Có khấu hao TSCĐ vượt khung hoặc sai phương pháp đăng ký không?',
+    weight: 4,
+    decreeId: 'tt-45-2013',
+    decreeTitle: 'Thông tư 45/2013/TT-BTC hướng dẫn chế độ trích khấu hao TSCĐ',
+    articleNum: '10',
+    articleRef: 'Điều 10 & Khung khấu hao Phụ lục 1',
+    legalQuote: 'Điều 10 Khoản 3 Thông tư 45/2013/TT-BTC: "Doanh nghiệp tự quyết định phương pháp trích khấu hao, thời gian trích khấu hao TSCĐ theo quy định tại Thông tư này và thông báo với cơ quan thuế trực tiếp quản lý trước khi bắt đầu thực hiện." Khung thời gian trích khấu hao các loại tài sản cố định quy định cụ thể tại Phụ lục 1 ban hành kèm theo Thông tư 45/2013/TT-BTC.',
+    riskAnalysis: 'Thanh tra viên soi kỹ các TSCĐ lớn: Trạm trộn bê tông, xe bồn bê tông, máy xúc mỏ đá, dây chuyền xưởng mộc Phú Tài, nhà xưởng kho bãi. Lỗi thường gặp: Khấu hao nhanh không đủ điều kiện theo luật; trích thời gian khấu hao ngắn hơn mức tối thiểu quy định tại Phụ lục 1 TT 45 (nhằm tăng chi phí năm có lãi); hoặc thay đổi phương pháp trích khấu hao mà không đăng ký/thông báo với cơ quan thuế.',
+    penaltyFramework: 'Loại toàn bộ phần chi phí khấu hao vượt khung ra khỏi chi phí được trừ khi xác định thu nhập chịu thuế TNDN (Điều 4 Thông tư 96/2015/TT-BTC). Truy thu 20% thuế TNDN tương ứng + Phạt 20% trên số thuế khai thiếu + Tiền chậm nộp 0,03%/ngày.',
+    defenseDocuments: [
+      'Bảng đăng ký phương pháp trích khấu hao TSCĐ đã gửi Cơ quan thuế trực tiếp quản lý',
+      'Thẻ tài sản cố định, Bảng tính và phân bổ khấu hao TSCĐ chi tiết 12 tháng của từng năm',
+      'Hóa đơn mua, Hợp đồng, Biên bản bàn giao đưa tài sản vào sử dụng, Hồ sơ đăng kiểm phương tiện (xe bồn, máy ủi)',
+      'Biên bản đánh giá lại TSCĐ hoặc dự toán chi phí sửa chữa nâng cấp lớn làm tăng nguyên giá TSCĐ'
+    ],
+    tip: 'Rà soát bảng tính khấu hao 12 tháng, đối chiếu từng máy móc với khung Phụ lục 1 TT 45; điều chỉnh phần khấu hao vượt khung vào chỉ tiêu B4 trên tờ khai quyết toán TNDN.'
+  },
+  {
+    id: 'rq-07',
+    question: 'Lương NLĐ trên HĐLĐ có thấp hơn mức tối thiểu vùng không?',
+    weight: 3,
+    decreeId: 'nd-293-2025',
+    decreeTitle: 'Nghị định 293/2025/NĐ-CP quy định mức lương tối thiểu vùng năm 2026',
+    articleNum: '3',
+    articleRef: 'Điều 3 & Điều 4 (Hiệu lực thi hành)',
+    legalQuote: 'Điều 3 Nghị định 293/2025/NĐ-CP: Quy định mức lương tối thiểu tháng và mức lương tối thiểu giờ áp dụng đối với người lao động làm việc theo hợp đồng lao động tại các vùng I, II, III, IV. Nghiêm cấm trả lương cho người lao động làm công việc giản đơn nhất trong điều kiện lao động bình thường thấp hơn mức lương tối thiểu vùng.',
+    riskAnalysis: 'Tại địa bàn tỉnh Gia Lai (thành phố Pleiku vùng III; các huyện còn lại vùng IV), đoàn kiểm tra liên ngành Thuế - BHXH - Lao động sẽ rà soát Hợp đồng lao động, Bảng lương và Tờ khai quyết toán thuế TNCN (Mẫu 05/QTT-TNCN). Nếu mức lương cơ bản trên HĐLĐ thấp hơn mức tối thiểu vùng, DN vi phạm pháp luật lao động, dẫn đến nguy cơ bị bóc tách chi phí tiền lương do không đúng quy định pháp luật.',
+    penaltyFramework: 'Phạt tiền từ 20.000.000đ đến 75.000.000đ đối với người sử dụng lao động trả lương thấp hơn mức lương tối thiểu vùng (Điều 17 Nghị định 12/2022/NĐ-CP). Buộc trả đủ tiền lương cộng thêm khoản tiền lãi của số tiền trả thiếu cho người lao động.',
+    defenseDocuments: [
+      'Hệ thống Thang lương, Bảng lương và Quy chế trả lương, thưởng nội bộ của Công ty Kiểu Việt',
+      'Hợp đồng lao động chính thức và các Phụ lục điều chỉnh mức lương theo đúng lộ trình tăng lương tối thiểu vùng',
+      'Bảng chấm công, Bảng thanh toán tiền lương có chữ ký NLĐ hoặc chứng từ chuyển khoản ngân hàng',
+      'Thỏa ước lao động tập thể đã đăng ký với Sở LĐTBXH địa phương'
+    ],
+    tip: 'Lập ngay phụ lục HĐLĐ điều chỉnh mức lương cơ bản cho các lao động thấp hơn ngưỡng tối thiểu vùng; truy nộp bổ sung BHXH nếu có chênh lệch.'
+  },
+  {
+    id: 'rq-08',
+    question: 'Có nợ BHXH quá 30 ngày không?',
+    weight: 3,
+    decreeId: 'nd-12-2022',
+    decreeTitle: 'Nghị định 12/2022/NĐ-CP xử phạt vi phạm hành chính lĩnh vực lao động, BHXH',
+    articleNum: '39',
+    articleRef: 'Điều 39 Khoản 4 & Điều 40',
+    legalQuote: 'Điều 39 Khoản 4 Nghị định 12/2022/NĐ-CP: Phạt tiền từ 12% đến 15% tổng số tiền phải đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp tại thời điểm lập biên bản vi phạm hành chính nhưng tối đa không quá 75.000.000 đồng đối với người sử dụng lao động có hành vi: Chậm đóng bảo hiểm xã hội bắt buộc, bảo hiểm thất nghiệp; Đóng không đủ số người thuộc diện tham gia.',
+    riskAnalysis: 'Cơ chế trao đổi thông tin điện tử tự động giữa Cơ quan Thuế và Cơ quan BHXH (theo Quy chế phối hợp liên ngành) cho phép cơ quan thuế nắm rõ danh sách lao động quyết toán thuế TNCN nhưng không tham gia BHXH bắt buộc hoặc tình trạng nợ đọng BHXH của DN. Khi thanh tra, cơ quan thuế sẽ đặt dấu hỏi lớn về tính hợp lý của chi phí trích theo lương (TK 3383, 3384, 3386).',
+    penaltyFramework: 'Phạt hành chính từ 12% đến 15% số tiền chậm đóng (tối đa 75 triệu đồng) + Buộc nộp đủ số tiền chậm đóng + Nộp số tiền lãi chậm đóng bằng 02 lần mức lãi suất đầu tư quỹ BHXH bình quân của năm trước liền kề (Điều 39 NĐ 12/2022). Nếu trốn đóng từ 50 triệu trở lên có thể bị xử lý hình sự theo Điều 216 Bộ luật Hình sự.',
+    defenseDocuments: [
+      'Thông báo kết quả đóng BHXH, BHYT, BHTN (Mẫu C12-TS) do Cơ quan BHXH gửi hàng tháng',
+      'Ủy nhiệm chi nộp tiền BHXH vào tài khoản chuyên thu của Cơ quan BHXH quản lý',
+      'Danh sách lao động tham gia BHXH (Mẫu D02-LT) đối chiếu khớp đúng với Danh sách quyết toán thuế TNCN',
+      'Hồ sơ của các trường hợp không thuộc diện tham gia BHXH bắt buộc (Lao động đã nghỉ hưu hưởng chế độ, HĐ khoán việc dưới 1 tháng...)'
+    ],
+    tip: 'Nộp dứt điểm nợ BHXH và tiền chậm đóng trước khi đoàn kiểm tra có mặt; lưu trữ đầy đủ biên lai Mẫu C12-TS chứng minh đã tất toán.'
+  },
+  {
+    id: 'rq-09',
+    question: 'Sản lượng khai thác thực tế và kê khai thuế tài nguyên có chênh > 5% không?',
+    weight: 5,
+    decreeId: 'tt-152-2015',
+    decreeTitle: 'Thông tư 152/2015/TT-BTC hướng dẫn về Thuế Tài Nguyên',
+    articleNum: '6',
+    articleRef: 'Điều 6 & Điều 7 (Sản lượng và giá tính thuế tài nguyên)',
+    legalQuote: 'Điều 6 Khoản 1 Thông tư 152/2015/TT-BTC: "Sản lượng tài nguyên tính thuế là sản lượng tài nguyên thực tế khai thác trong kỳ tính thuế... Đối với tài nguyên khai thác không tiêu thụ ngay mà đưa vào chế biến thì sản lượng tài nguyên tính thuế được xác định căn cứ vào sản lượng sản phẩm chế biến hoàn thành và định mức tiêu hao tài nguyên tính cho một đơn vị sản phẩm chế biến." Kết hợp Quyết định số 87/2025/QĐ-UBND tỉnh Gia Lai.',
+    riskAnalysis: 'Đặc thù Kiểu Việt khai thác mỏ đá và sản xuất bê tông: Đoàn kiểm tra sẽ đối chiếu Sản lượng khai thác trên Sổ theo dõi mỏ, Bản đồ hiện trạng mỏ đá, Báo cáo thống kê nộp Sở TN&MT, lượng thuốc nổ công nghiệp sử dụng (đối ứng định mức bốc nổ đá hộc) với Số mét khối đá hộc, đá dăm kê khai trên Tờ khai thuế tài nguyên (Mẫu 01/TAIN). Bất kỳ chênh lệch > 5% nào cũng bị coi là khai thiếu sản lượng khai thác.',
+    penaltyFramework: 'Truy thu thuế tài nguyên theo giá quy định tại QĐ 87/2025/QĐ-UBND tỉnh Gia Lai + Truy thu tiền cấp quyền khai thác khoáng sản (NĐ 67/2019) + Phạt 20% thuế khai thiếu + Phạt vi phạm khai thác vượt công suất cấp phép (theo Nghị định 36/2020/NĐ-CP có thể lên tới 500 triệu đồng).',
+    defenseDocuments: [
+      'Báo cáo thống kê, kiểm kê trữ lượng khoáng sản và Bản đồ hiện trạng mỏ đá đã nộp Sở TN&MT',
+      'Sổ giao nhận, phiếu cân trạm cân tại cửa mỏ và nhật ký nổ mìn khai thác đá',
+      'Bảng tính định mức hao hụt, sàng tuyển từ đá hộc ra các phân đoạn đá 1x2, đá 2x4, đá mi bụi và cấp phối bê tông',
+      'Tờ khai thuế tài nguyên hàng tháng và quyết toán năm (Mẫu 02/TAIN) kèm chứng từ nộp thuế'
+    ],
+    tip: 'Lập bảng đối chiếu 3 bên giữa sản lượng nổ mìn, khối lượng trạm cân và sản lượng khai thuế; lập báo cáo giải trình hao hụt sàng tuyển trước ngày kiểm tra.'
+  },
+  {
+    id: 'rq-10',
+    question: 'Có chưa nộp phí BVMT khoáng sản đúng hạn không?',
+    weight: 3,
+    decreeId: 'nd-27-2023',
+    decreeTitle: 'Nghị định 27/2023/NĐ-CP phí bảo vệ môi trường khai thác khoáng sản',
+    articleNum: '8',
+    articleRef: 'Điều 8 (Kê khai và nộp phí BVMT)',
+    legalQuote: 'Điều 8 Nghị định 27/2023/NĐ-CP: "Người nộp phí bảo vệ môi trường đối với khai thác khoáng sản thực hiện nộp hồ sơ khai phí theo quy định của pháp luật về quản lý thuế. Hàng tháng, người nộp phí thực hiện nộp hồ sơ khai phí bảo vệ môi trường cho cơ quan thuế quản lý trực tiếp chậm nhất là ngày 20 của tháng tiếp theo... Quyết toán năm chậm nhất là ngày cuối cùng của tháng thứ 3 kể từ ngày kết thúc năm dương lịch."',
+    riskAnalysis: 'Phí BVMT khoáng sản đi liền với sản lượng đất đá thải và sản lượng đá nguyên khai khai thác. Khi thanh tra, cơ quan thuế kiểm tra việc nộp phí BVMT theo tháng và quyết toán năm. Nếu DN nộp chậm hoặc quên kê khai khối lượng đất đá bóc thải, sẽ bị xử lý vi phạm cả về thủ tục thuế lẫn số phí còn nợ.',
+    penaltyFramework: 'Phạt chậm nộp phí BVMT theo mức 0,03%/ngày. Phạt hành vi vi phạm thời hạn nộp tờ khai phí từ 2.000.000đ đến 25.000.000đ (Điều 13 NĐ 125/2020).',
+    defenseDocuments: [
+      'Tờ khai phí BVMT đối với khai thác khoáng sản (Mẫu 01/PBVMT) hàng tháng và Tờ khai quyết toán năm',
+      'Giấy nộp tiền vào NSNN về phí BVMT (Mục lục ngân sách tiểu mục phí BVMT)',
+      'Biên bản xác định khối lượng đất đá bóc và đất đá thải trong quá trình khai thác mỏ đá',
+      'Đề án đóng cửa mỏ và quỹ ký cược phục hồi môi trường tại Quỹ BVMT tỉnh Gia Lai'
+    ],
+    tip: 'Nộp bổ sung toàn bộ phí BVMT còn thiếu và số tiền chậm nộp tương ứng trước khi đoàn thanh tra công bố quyết định.'
+  },
+  {
+    id: 'rq-11',
+    question: 'Có hóa đơn bị CQT thông báo rủi ro (cảnh báo Mẫu 01/TB-HĐ) không?',
+    weight: 5,
+    decreeId: 'nd-123-2020',
+    decreeTitle: 'Nghị định 123/2020/NĐ-CP quy định về Hóa đơn, Chứng từ',
+    articleNum: '34',
+    articleRef: 'Điều 34 & Điều 19 (Xử lý hóa đơn sai sót và rủi ro)',
+    legalQuote: 'Điều 34 Nghị định 123/2020/NĐ-CP: "Trường hợp cơ quan thuế phát hiện hóa đơn điện tử đã lập có sai sót hoặc thuộc đối tượng rủi ro thì cơ quan thuế thông báo cho người bán theo Mẫu số 01/TB-HĐSS để người bán kiểm tra sai sót." Kết hợp Thông báo của Tổng cục Thuế về ranh giới pháp lý: Người mua chỉ phải điều chỉnh nếu xác định giao dịch không có thật; thông báo cảnh báo nhà cung cấp không tự động làm vô hiệu hóa đơn nếu hàng hóa, thanh toán có thật.',
+    riskAnalysis: 'Thanh tra viên sẽ rà soát danh sách đối tác cung cấp đầu vào của DN đối chiếu với Danh sách DN rủi ro cao về thuế của Tổng cục Thuế (danh sách 524 DN, danh sách DN ngừng hoạt động nhưng chưa đóng MST). Nếu có hóa đơn của nhà cung cấp này, thuế sẽ yêu cầu DN làm việc giải trình chi tiết từng hóa đơn, cam kết tính có thực của giao dịch.',
+    penaltyFramework: 'Nếu không chứng minh được tính có thật: Bị loại toàn bộ thuế GTGT đầu vào và chi phí được trừ TNDN; truy thu 10% GTGT + 20% TNDN; phạt 1 - 3 lần thuế trốn (Điều 17 NĐ 125/2020). Nếu chứng minh được giao dịch có thực: Không bị phạt trốn thuế, nhưng phải hoàn thiện đầy đủ hồ sơ nguồn gốc hàng hóa.',
+    defenseDocuments: [
+      'Hồ sơ trọn gói chứng minh giao dịch có thực: Hợp đồng kinh tế ký trước thời điểm người bán bỏ trốn',
+      'Biên bản giao nhận hàng hóa ký tá thực tế giữa thủ kho Kiểu Việt và người giao hàng',
+      'Chứng từ thanh toán 100% qua tài khoản ngân hàng chính thức của bên bán',
+      'Biên bản làm việc nội bộ giải trình nguồn gốc và quá trình sử dụng thực tế số vật tư/hàng hóa đó',
+      'Văn bản giải trình gửi CQT khẳng định giao dịch có thật kèm toàn bộ chứng từ bản gốc'
+    ],
+    tip: 'Lọc danh sách các hóa đơn thuộc nhà cung cấp bị cảnh báo; kẹp trọn bộ hồ sơ 5 chứng từ (Hợp đồng, Biên bản giao nhận, Cân xe, UNC ngân hàng, Báo cáo sử dụng) để bảo vệ tính có thật.'
+  },
+  {
+    id: 'rq-12',
+    question: 'Chi phí lãi vay giao dịch liên kết có > 30% EBITDA không?',
+    weight: 4,
+    decreeId: 'nd-132-2020',
+    decreeTitle: 'Nghị định 132/2020/NĐ-CP quản lý thuế giao dịch liên kết',
+    articleNum: '16',
+    articleRef: 'Điều 16 Khoản 3 (Khống chế trần chi phí lãi vay)',
+    legalQuote: 'Điều 16 Khoản 3 Điểm a Nghị định 132/2020/NĐ-CP: "Tổng chi phí lãi vay sau khi trừ lãi tiền gửi và lãi cho vay phát sinh trong kỳ của người nộp thuế được trừ khi xác định thu nhập chịu thuế thu nhập doanh nghiệp không vượt quá 30% của tổng lợi nhuận thuần từ hoạt động kinh doanh trong kỳ cộng chi phí lãi vay sau khi trừ lãi tiền gửi và lãi cho vay phát sinh trong kỳ cộng chi phí khấu hao phát sinh trong kỳ (EBITDA)."',
+    riskAnalysis: 'Đây là điểm nóng kiểm toán hàng đầu tại các DN có vốn đầu tư lớn vào nhà xưởng, máy móc thiết bị như Kiểu Việt. Điểm b Khoản 3 Điều 16 cho phép: "Phần chi phí lãi vay không được trừ được chuyển sang kỳ tính thuế tiếp theo khi xác định tổng chi phí lãi vay được trừ... Thời gian chuyển chi phí lãi vay tính liên tục không quá 05 năm." Nhiều kế toán không nắm được quyền chuyển chi phí này dẫn đến mất hẳn quyền lợi.',
+    penaltyFramework: 'Bóc tách toàn bộ phần lãi vay thuần vượt 30% EBITDA ra khỏi chi phí được trừ năm hiện hành, tăng thu nhập chịu thuế TNDN tương ứng. Nếu không kê khai đúng, bị truy thu 20% thuế TNDN + Phạt 20% khai sai (Điều 16 NĐ 125/2020).',
+    defenseDocuments: [
+      'Bảng tính chi tiết EBITDA và tỷ lệ chi phí lãi vay thuần (Mẫu biểu theo NĐ 132/2020)',
+      'Hợp đồng tín dụng ngân hàng, khế ước nhận nợ, sao kê lãi vay trả ngân hàng (TK 635)',
+      'Sổ theo dõi chi phí lãi vay không được trừ chuyển tiếp sang các năm sau (tối đa 5 năm)',
+      'Phụ lục xác định giao dịch liên kết nộp kèm Tờ khai quyết toán thuế TNDN Mẫu 01'
+    ],
+    tip: 'Lập bảng tính mô phỏng EBITDA theo đúng công thức Điều 16 NĐ 132; mở sổ theo dõi riêng phần lãi vay vượt trần để chuyển tiếp chi phí trong vòng 5 năm theo quy định.'
+  },
+  {
+    id: 'rq-13',
+    question: 'Có NLĐ nghỉ việc chưa được cấp chứng từ khấu trừ TNCN ĐT không?',
+    weight: 2,
+    decreeId: 'nd-70-2025',
+    decreeTitle: 'Nghị định 70/2025/NĐ-CP sửa đổi quy định hóa đơn, chứng từ',
+    articleNum: '4',
+    articleRef: 'Điều 4 (Quy định về chứng từ khấu trừ thuế TNCN điện tử)',
+    legalQuote: 'Nghị định 70/2025/NĐ-CP & Nghị định 123/2020/NĐ-CP Điều 32: "Tổ chức khấu trừ thuế thu nhập cá nhân có trách nhiệm cấp chứng từ khấu trừ thuế điện tử cho cá nhân bị khấu trừ thuế theo định dạng chuẩn dữ liệu do Tổng cục Thuế ban hành, trừ trường hợp cá nhân ủy quyền quyết toán thuế."',
+    riskAnalysis: 'Người lao động nghỉ việc giữa năm (thợ mộc, công nhân bê tông, kỹ sư công trường) tự đi quyết toán thuế TNCN trực tiếp tại Cơ quan Thuế. Nếu Kiểu Việt chưa cấp chứng từ khấu trừ thuế TNCN điện tử, CQT nơi NLĐ nộp hồ sơ sẽ gửi công văn tra cứu hoặc xử phạt Kiểu Việt về hành vi chậm cấp chứng từ thuế.',
+    penaltyFramework: 'Phạt tiền từ 2.000.000đ đến 5.000.000đ về hành vi không cấp hoặc chậm cấp chứng từ khấu trừ thuế TNCN theo quy định tại Nghị định 125/2020/NĐ-CP.',
+    defenseDocuments: [
+      'Danh sách lao động chấm dứt hợp đồng lao động trong năm tài chính',
+      'File XML và bản thể hiện PDF chứng từ khấu trừ thuế TNCN điện tử đã ký số gửi cho NLĐ',
+      'Biên bản bàn giao chứng từ khấu trừ TNCN điện tử hoặc email/tin nhắn xác nhận gửi mã tra cứu cho NLĐ',
+      'Tờ khai quyết toán thuế TNCN (Mẫu 05/QTT-TNCN) và Phụ lục 05-1/BK-TNCN, 05-2/BK-TNCN'
+    ],
+    tip: 'Cấp chứng từ khấu trừ TNCN điện tử ngay cho tất cả người lao động đã nghỉ việc trong năm tài chính có phát sinh khấu trừ thuế.'
+  },
+  {
+    id: 'rq-14',
+    question: 'Có HĐ xây dựng chưa có biên bản nghiệm thu khối lượng đúng mẫu không?',
+    weight: 3,
+    decreeId: 'nd-37-2015',
+    decreeTitle: 'Nghị định 37/2015/NĐ-CP quy định chi tiết về hợp đồng xây dựng',
+    articleNum: '15',
+    articleRef: 'Điều 15 & Điều 19 (Nghiệm thu và thanh quyết toán hợp đồng xây dựng)',
+    legalQuote: 'Điều 19 Nghị định 37/2015/NĐ-CP: "Hồ sơ thanh toán hợp đồng xây dựng phải bao gồm: Biên bản nghiệm thu khối lượng hoàn thành trong giai đoạn thanh toán có xác nhận của đại diện bên giao thầu và bên nhận thầu; Bảng tính giá trị thanh toán; Hóa đơn theo quy định của pháp luật." Kết hợp Điều 9 Nghị định 123/2020/NĐ-CP về thời điểm lập hóa đơn đối với xây dựng, lắp đặt.',
+    riskAnalysis: 'Thanh tra thuế cực kỳ chặt chẽ đối với các công trình xây lắp: Thời điểm lập hóa đơn là thời điểm nghiệm thu, bàn giao công trình, hạng mục công trình, khối lượng xây dựng, lắp đặt hoàn thành, không phân biệt đã thu được tiền hay chưa. Nếu có nghiệm thu mà chưa xuất HĐ -> Phạt trốn doanh thu. Nếu xuất HĐ mà không có biên bản nghiệm thu khối lượng tương ứng -> Hóa đơn khống, bóc chi phí giá vốn.',
+    penaltyFramework: 'Hành vi lập hóa đơn không đúng thời điểm: Phạt từ 4.000.000đ đến 8.000.000đ (Điều 24 NĐ 125/2020). Nếu bị coi là xuất hóa đơn khống: Phạt từ 20.000.000đ đến 50.000.000đ và loại toàn bộ chi phí giá vốn (TK 632) công trình.',
+    defenseDocuments: [
+      'Hợp đồng giao nhận thầu thi công xây dựng và các phụ lục hợp đồng bổ sung khối lượng',
+      'Biên bản nghiệm thu công việc xây dựng, Biên bản nghiệm thu giai đoạn (Mẫu A-B)',
+      'Bảng xác nhận khối lượng hoàn thành và Bảng tính giá trị thanh toán theo đợt',
+      'Nhật ký thi công công trình có xác nhận của Tư vấn giám sát và Chủ đầu tư',
+      'Biên bản bàn giao đưa công trình/hạng mục vào sử dụng và thanh lý hợp đồng'
+    ],
+    tip: 'Rà soát và ký đầy đủ biên bản nghiệm thu A-B cho toàn bộ các hóa đơn xây lắp đã xuất trong kỳ; đảm bảo ngày nghiệm thu phù hợp với ngày lập hóa đơn.'
+  },
+  {
+    id: 'rq-15',
+    question: 'Sổ cái, sổ chi tiết kế toán chưa in/lưu cho kỳ kiểm tra không?',
+    weight: 3,
+    decreeId: 'luat-ke-toan-2015',
+    decreeTitle: 'Luật Kế toán số 88/2015/QH13',
+    articleNum: '24',
+    articleRef: 'Điều 24, 25 & Điều 41 (Sổ kế toán và lưu trữ tài liệu kế toán)',
+    legalQuote: 'Điều 24 Luật Kế toán 88/2015/QH13: "Đơn vị kế toán phải mở sổ kế toán để ghi chép, hệ thống và lưu giữ toàn bộ các nghiệp vụ kinh tế, tài chính đã phát sinh có liên quan đến đơn vị kế toán... Trường hợp ghi sổ kế toán bằng phương tiện điện tử thì phải thực hiện các quy định về sổ kế toán tại Luật này, sau khi khóa sổ kế toán phải in sổ kế toán ra giấy và đóng thành quyển riêng cho từng kỳ kế toán năm hoặc lưu trữ trên phương tiện điện tử."',
+    riskAnalysis: 'Khi công bố Quyết định thanh tra/kiểm tra thuế, ngày đầu tiên đoàn làm việc sẽ yêu cầu cung cấp ngay lập tức: Sổ cái tất cả các tài khoản (TK loại 1 đến loại 9), Sổ chi tiết công nợ 131, 331, Sổ chi tiết hàng tồn kho 152, 154, 156, Sổ chi tiết chi phí xây lắp từng công trình. Nếu DN không xuất trình được hoặc mất nhiều ngày để in, đoàn sẽ lập biên bản cản trở thanh tra và áp dụng ấn định thuế.',
+    penaltyFramework: 'Phạt từ 5.000.000đ đến 10.000.000đ đối với hành vi mở sổ kế toán chậm hoặc không in sổ kế toán ra giấy sau khi khóa sổ kế toán trên phương tiện điện tử (Điều 9 Nghị định 41/2018/NĐ-CP). Bị coi là không chấp hành chế độ kế toán và bị ấn định thuế theo Điều 50 Luật QLT 2019.',
+    defenseDocuments: [
+      'Trọn bộ Sổ cái (TK 111 đến TK 911) đã khóa sổ, in đóng quyển có chữ ký của Người lập, Kế toán trưởng và Tổng Giám đốc',
+      'Sổ chi tiết tài khoản (đặc biệt: 131, 331, 141, 152, 154, 211, 214, 242, 335, 632, 642)',
+      'File dữ liệu kế toán dự phòng (File sao lưu phần mềm kế toán MISA/Fast/Excel) lưu trên ổ cứng ngoài và Google Drive Kiểu Việt',
+      'Báo cáo tài chính, Bảng cân đối tài khoản (F01-DNSN) khớp đúng 100% với Sổ cái kế toán'
+    ],
+    tip: 'In trọn bộ sổ cái và sổ chi tiết của các năm kiểm tra, đóng quyển có chữ ký đầy đủ; xuất file PDF backup lưu trên ổ cứng dự phòng sẵn sàng nộp cho đoàn.'
+  }
 ];
 
 // ===== TIMELINE 3 GIAI ĐOẠN =====
@@ -2236,7 +2514,7 @@ export const TIMELINE_PHASES: TimelinePhase[] = [
     tasks: [
       'Rà soát chênh lệch doanh thu GTGT vs TNDN — lập bảng giải trình Mẫu 01',
       'Đối chiếu sổ cái TK 511, 131, 154, 632 với tờ khai thuế',
-      'Kiểm tra toàn bộ hóa đơn đầu vào > 20 triệu (thanh toán ngân hàng)',
+      'Kiểm tra điều kiện thanh toán hóa đơn đầu vào theo kỳ; GTGT và TNDN xét riêng',
       'In sổ cái, sổ chi tiết cho năm kiểm tra theo Luật Kế toán 88/2015',
       'Rà soát khấu hao TSCĐ — đúng khung TT 45, đúng phương pháp',
       'Kiểm tra hồ sơ giao dịch liên kết Mẫu 01 & trần 30% EBITDA (NĐ 132)',
@@ -2269,7 +2547,7 @@ export const TIMELINE_PHASES: TimelinePhase[] = [
       'Sắp xếp phòng làm việc cho đoàn kiểm tra (bàn, ghế, ổ điện, wifi)',
       'Phân công người trực tiếp làm việc với đoàn (Kế toán trưởng làm đầu mối)',
       'Chuẩn bị bản giải trình cho các chênh lệch đã phát hiện ở giai đoạn 1',
-      'Kiểm tra lần cuối checklist 55 văn bản — mọi mục phải ✅',
+      'Rà đủ 55 mục, ghi rõ áp dụng/không áp dụng/chưa đủ hồ sơ; không tick để làm đẹp tỷ lệ',
       'Backup toàn bộ dữ liệu kế toán (phần mềm, Excel, chứng từ scan)',
       'Nắm rõ quyền của DN khi bị kiểm tra thuế (Điều 110-111 Luật QLT 2019)',
       'Chuẩn bị con dấu, giấy ủy quyền (nếu Tổng Giám đốc vắng mặt)',

@@ -7,7 +7,7 @@ export interface Decree {
   category: string
   issued_date: string
   effective_date: string
-  status: 'active' | 'expired' | 'amended'
+  status: 'active' | 'expired' | 'amended' | 'replaced'
   source_url: string
   pdf_drive_id?: string
   content_url?: string

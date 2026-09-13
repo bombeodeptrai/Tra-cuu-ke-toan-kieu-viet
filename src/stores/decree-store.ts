@@ -102,84 +102,9 @@ export const useDecreeStore = create<DecreeState>()(
             console.warn('Could not load local decrees.json, falling back...', e);
           }
 
-          // 2. Try to fetch/merge from Google Apps Script if available in background
-          try {
-            const API_URL = 'https://script.google.com/macros/s/AKfycbwkPqx3h1fhA-2vhAB5W4VZnEsKyIEfrUNrnf3WjZ35A48Eido-GvK6IKF9Zu2n3YCG/exec';
-            const res = await fetch(API_URL);
-            if (res.ok) {
-              const sheetData = await res.json();
-              if (Array.isArray(sheetData) && sheetData.length > 0) {
-                const sheetValid = sheetData.filter((d: any) => d.id && d.title);
-                // Deduplicate sheet data in case the Google Sheet has multiple rows with the same ID
-                const uniqueSheetMap = new Map();
-                sheetValid.forEach((s: any) => {
-                  uniqueSheetMap.set(s.id, s);
-                });
-                const uniqueSheetValid = Array.from(uniqueSheetMap.values());
-                
-                const localMap = new Map(validData.map(d => [d.id, d]));
-                
-                // Helper to loosely match Google Sheet IDs to Local IDs (e.g. tt99-2025 vs tt-99-2025)
-                const findLocalMatch = (sheetItem: any) => {
-                  if (localMap.has(sheetItem.id)) return localMap.get(sheetItem.id);
-                  
-                  // Try to match without hyphens
-                  const normalizeId = (id: string) => id.replace(/-/g, '').toLowerCase();
-                  const normalizedSheetId = normalizeId(sheetItem.id);
-                  
-                  const match = validData.find(d => 
-                    normalizeId(d.id) === normalizedSheetId || 
-                    (d.decree_number && sheetItem.decree_number && d.decree_number === sheetItem.decree_number)
-                  );
-                  return match;
-                };
-
-                const mergedSheet = uniqueSheetValid.map((s: any) => {
-                  const local = findLocalMatch(s);
-                  
-                  const mergedItem = {
-                    ...s,
-                    ...(local || {}), // Local JSON takes precedence over Google Sheet for core curated fields
-                    id: local ? local.id : s.id, // Prefer the standard local ID if matched
-                    content_url: local?.content_url || s.content_url || `/data/content/${local ? local.id : s.id}.md`,
-                    pdf_url: local?.pdf_url || s.pdf_url || '',
-                  };
-                  
-                  // Auto-assign tax_field if missing based on title keywords
-                  if (!mergedItem.tax_field || mergedItem.tax_field === 'khac') {
-                    const t = (mergedItem.title || '').toLowerCase();
-                    if (t.includes('quản lý thuế')) mergedItem.tax_field = 'quan-ly-thue';
-                    else if (t.includes('gtgt') || t.includes('giá trị gia tăng')) mergedItem.tax_field = 'thue-gtgt';
-                    else if (t.includes('tndn') || t.includes('thu nhập doanh nghiệp')) mergedItem.tax_field = 'thue-tndn';
-                    else if (t.includes('tncn') || t.includes('thu nhập cá nhân')) mergedItem.tax_field = 'thue-tncn';
-                    else if (t.includes('hóa đơn') || t.includes('chứng từ')) mergedItem.tax_field = 'hoa-don-dien-tu';
-                    else if (t.includes('kế toán')) mergedItem.tax_field = 'ke-toan-dn';
-                    else if (t.includes('khoáng sản') || t.includes('tài nguyên')) mergedItem.tax_field = 'khoang-san-tai-nguyen';
-                    else if (t.includes('bhxh') || t.includes('lao động') || t.includes('bảo hiểm')) mergedItem.tax_field = 'bhxh-lao-dong';
-                    else mergedItem.tax_field = 'khac'; // fallback
-                  }
-                  
-                  return mergedItem;
-                });
-                
-                const sheetIds = new Set(mergedSheet.map((d: any) => d.id));
-                let merged = [...mergedSheet, ...validData.filter(d => !sheetIds.has(d.id))];
-                // Lọc bỏ các bản giả định/fake bị đồng bộ nhầm từ Google Sheet
-                const fakeIds = [
-                  'nd-132-2026', 'nd-254-2026', 'tt-89-2026-tt-btc', 'nd-310-2025',
-                  'tt58-2026', 'nd254-2026', 'luat-thue-108', 'luat-tncn-109', 
-                  'tt-58-2026', 'nd-252-2026', 'luat-108-2025', 'luat-109-2025',
-                  '123-2020-nd-cp'
-                ];
-                merged = merged.filter(d => !fakeIds.includes(d.id));
-                validData = merged;
-                set({ decrees: validData, lastFetched: Date.now() });
-              }
-            }
-          } catch (e) {
-            console.log('Apps Script fetch skipped or offline, using local data');
-          }
-
+          // Chỉ công bố danh mục đã kiểm vào repository. Văn bản mới có file gốc
+          // nằm trong kho bổ sung; không dùng blacklist theo số hiệu hoặc hàng Sheet chưa duyệt.
+          if (!validData.length) throw new Error('Không tải được danh mục luật. Dữ liệu đang hiển thị có thể là bản cũ.');
           set({ decrees: validData, isLoading: false, lastFetched: Date.now() });
         } catch (error: any) {
           set({ error: error.message, isLoading: false });

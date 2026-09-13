@@ -8,6 +8,8 @@ export interface ChatState {
   currentSessionId: string | null;
   isAiTyping: boolean;
   createSession: (initialMessage?: string) => string;
+  branchSession: (sessionId: string, messageId?: string, customTitle?: string) => string;
+  createBranchFromPrompt: (title: string, initialUserPrompt: string) => string;
   deleteSession: (id: string) => void;
   setCurrentSession: (id: string | null) => void;
   addMessage: (sessionId: string, message: Omit<ChatMessage, 'id' | 'timestamp'>) => void;
@@ -38,6 +40,70 @@ export const useChatStore = create<ChatState>()(
           currentSessionId: newSession.id,
         }));
         
+        return newSession.id;
+      },
+      
+      branchSession: (sessionId, messageId, customTitle) => {
+        const sourceSession = get().sessions.find((s) => s.id === sessionId);
+        if (!sourceSession) {
+          return get().createSession(customTitle);
+        }
+
+        let messagesToClone = sourceSession.messages;
+        if (messageId) {
+          const idx = sourceSession.messages.findIndex((m) => m.id === messageId);
+          if (idx !== -1) {
+            messagesToClone = sourceSession.messages.slice(0, idx + 1);
+          }
+        }
+
+        const baseTitle = sourceSession.title.replace(/^🌿\s*\[Nhánh\]\s*/, '').trim();
+        const branchTitle = customTitle || `🌿 [Nhánh] ${baseTitle}`;
+
+        const newSession: ChatSession = {
+          id: generateId(),
+          title: branchTitle,
+          messages: messagesToClone.map((m) => ({
+            ...m,
+            id: generateId(),
+          })),
+          createdAt: new Date().toISOString(),
+          updatedAt: new Date().toISOString(),
+          parentSessionId: sessionId,
+          forkedFromMessageId: messageId,
+          isBranch: true,
+        };
+
+        set((state) => ({
+          sessions: [newSession, ...state.sessions],
+          currentSessionId: newSession.id,
+        }));
+
+        return newSession.id;
+      },
+
+      createBranchFromPrompt: (title, initialUserPrompt) => {
+        const newSession: ChatSession = {
+          id: generateId(),
+          title: `🌿 ${title}`,
+          messages: [
+            {
+              id: generateId(),
+              role: 'user',
+              content: initialUserPrompt,
+              timestamp: new Date().toISOString(),
+            },
+          ],
+          createdAt: new Date().toISOString(),
+          updatedAt: new Date().toISOString(),
+          isBranch: true,
+        };
+
+        set((state) => ({
+          sessions: [newSession, ...state.sessions],
+          currentSessionId: newSession.id,
+        }));
+
         return newSession.id;
       },
       

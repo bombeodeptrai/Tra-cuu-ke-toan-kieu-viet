@@ -21,4 +21,8 @@ export interface ChatSession {
   messages: ChatMessage[]
   createdAt: string | number
   updatedAt: string | number
+  parentSessionId?: string
+  forkedFromMessageId?: string
+  isBranch?: boolean
 }
+

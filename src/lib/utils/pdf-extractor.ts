@@ -22,8 +22,8 @@ export async function extractTextFromPdf(file: File): Promise<ExtractedPdfData> 
   const numPages = pdfDoc.numPages;
 
   let fullText = '';
-  // Trích xuất tối đa 20 trang đầu để đảm bảo hiệu năng và đủ toàn bộ nội dung pháp lý chính
-  const maxPagesToExtract = Math.min(numPages, 20);
+  // Process every page; a preview is separate from the extracted document.
+  const maxPagesToExtract = numPages;
 
   for (let pageNum = 1; pageNum <= maxPagesToExtract; pageNum++) {
     const page = await pdfDoc.getPage(pageNum);
@@ -31,7 +31,8 @@ export async function extractTextFromPdf(file: File): Promise<ExtractedPdfData> 
     const pageText = textContent.items
       .map((item: any) => item.str || '')
       .join(' ');
-    fullText += pageText + '\n\n';
+    fullText += '[Trang ' + pageNum + ']\n' + (pageText.trim() || '[Trang chưa có lớp chữ; cần OCR, không coi là đã đọc.]') + '\n\n';
+    page.cleanup();
   }
 
   const cleanedText = fullText.replace(/\s+/g, ' ').trim();

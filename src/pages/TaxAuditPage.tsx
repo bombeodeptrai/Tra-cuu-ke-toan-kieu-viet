@@ -4,7 +4,7 @@ import {
   ExternalLink, Filter, RotateCcw, Download, Printer, ChevronRight, 
   Building2, Sparkles, HelpCircle, Check, X, AlertCircle, ArrowRight,
   TrendingUp, BarChart3, Scale, BookOpen, Search, Copy, Bot,
-  FileSpreadsheet, MessageSquareText, ChevronDown, ChevronUp
+  FileSpreadsheet, MessageSquareText, ChevronDown, ChevronUp, GitBranch
 } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
@@ -17,15 +17,22 @@ import {
   RISK_QUESTIONS, 
   TIMELINE_PHASES, 
   ChecklistItem, 
-  CheckPriority 
+  CheckPriority,
+  RiskQuestion
 } from '@/data/tax-audit-checklist';
+import { useChatStore } from '@/stores/chat-store';
 import { AUDIT_TEMPLATES, AuditTemplate } from '@/data/tax-audit-templates';
 import { TaxAuditAIChat } from '@/components/tax-audit/TaxAuditAIChat';
-import { AuditCaseHeader } from '@/components/tax-audit/AuditCaseHeader';
-import { ReconciliationPanel } from '@/components/tax-audit/ReconciliationPanel';
-import { EvidencePanel } from '@/components/tax-audit/EvidencePanel';
-import { AuditRequestLog } from '@/components/tax-audit/AuditRequestLog';
+import { AuditCaseHeader } from '@/components/tax-audit/AuditWorkspaceHeader';
+import { ReconciliationPanel } from '@/components/tax-audit/AuditCalculations';
+import { EvidencePanel } from '@/components/tax-audit/AuditEvidencePanel';
+import { AuditRequestLog } from '@/components/tax-audit/AuditWorkLog';
 import { FolderArchive } from 'lucide-react';
+import { AuditLegalLibrary } from '@/components/tax-audit/AuditLegalLibrary';
+
+import { useLiveQuery } from 'dexie-react-hooks';
+import { auditDb, newId } from '@/lib/audit/workspace';
+import { useAuditWorkspace } from '@/stores/audit-workspace-store';
 
 const STORAGE_KEY_ITEMS = 'kv_tax_audit_checked_items';
 const STORAGE_KEY_RISK = 'kv_tax_audit_risk_answers';
@@ -33,25 +40,18 @@ const STORAGE_KEY_RISK = 'kv_tax_audit_risk_answers';
 export function TaxAuditPage() {
   const navigate = useNavigate();
 
-  // State checked items: Record<itemId, boolean>
-  const [checkedItems, setCheckedItems] = useState<Record<string, boolean>>(() => {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY_ITEMS);
-      return saved ? JSON.parse(saved) : {};
-    } catch {
-      return {};
-    }
-  });
-
-  // State risk answers: Record<questionId, boolean> (true = có nguy cơ)
-  const [riskAnswers, setRiskAnswers] = useState<Record<string, boolean>>(() => {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY_RISK);
-      return saved ? JSON.parse(saved) : {};
-    } catch {
-      return {};
-    }
-  });
+  const caseId = useAuditWorkspace(s => s.caseId);
+  const currentCase = useLiveQuery(() => auditDb.cases.get(caseId), [caseId]);
+  const checkedItems = currentCase?.checked || {};
+  const riskAnswers = currentCase?.risk || {};
+  const updateAnswers = (field: 'checked' | 'risk', update: Record<string, boolean> | ((previous: Record<string, boolean>) => Record<string, boolean>)) => {
+    if (!caseId) return;
+    void auditDb.cases.where('id').equals(caseId).modify(record => {
+      record[field] = typeof update === 'function' ? update(record[field] || {}) : update;
+    }).catch(() => alert('Không lưu được tiến độ. Hãy kiểm tra dung lượng trình duyệt và sao lưu.'));
+  };
+  const setCheckedItems = (update: Record<string, boolean> | ((previous: Record<string, boolean>) => Record<string, boolean>)) => updateAnswers('checked', update);
+  const setRiskAnswers = (update: Record<string, boolean> | ((previous: Record<string, boolean>) => Record<string, boolean>)) => updateAnswers('risk', update);
 
   const [selectedGroup, setSelectedGroup] = useState<string>('all');
   const [filterPriority, setFilterPriority] = useState<string>('all');
@@ -84,19 +84,18 @@ export function TaxAuditPage() {
     }
   };
 
-  // Save checked items to localStorage
-  useEffect(() => {
-    localStorage.setItem(STORAGE_KEY_ITEMS, JSON.stringify(checkedItems));
-  }, [checkedItems]);
-
-  // Save risk answers to localStorage
-  useEffect(() => {
-    localStorage.setItem(STORAGE_KEY_RISK, JSON.stringify(riskAnswers));
-  }, [riskAnswers]);
-
   // Toggle checklist item
   const toggleItem = (id: string) => {
     setCheckedItems(prev => ({
+      ...prev,
+      [id]: !prev[id]
+    }));
+  };
+
+  // State mở rộng chi tiết dẫn chứng & hồ sơ 15 điểm nóng
+  const [expandedRiskItems, setExpandedRiskItems] = useState<Record<string, boolean>>({});
+  const toggleExpandRiskItem = (id: string) => {
+    setExpandedRiskItems(prev => ({
       ...prev,
       [id]: !prev[id]
     }));
@@ -108,6 +107,34 @@ export function TaxAuditPage() {
       ...prev,
       [id]: value
     }));
+    // Tự động mở chi tiết dẫn chứng khi phát hiện có rủi ro
+    if (value === true) {
+      setExpandedRiskItems(prev => ({
+        ...prev,
+        [id]: true
+      }));
+    }
+  };
+
+  // Phân nhánh cuộc trò chuyện sang Hỏi đáp AI
+  const handleBranchToAIChat = (q: RiskQuestion) => {
+    const prompt = `Tôi cần tư vấn pháp lý chuyên sâu và phương án bảo vệ giải trình cho điểm nóng thanh tra thuế sau đây của Công ty Cổ phần Kiểu Việt:
+
+📌 **Điểm nóng kiểm tra:** ${q.question}
+⚖️ **Căn cứ pháp luật:** ${q.decreeTitle} (${q.articleRef})
+📜 **Trích dẫn điều luật:** "${q.legalQuote}"
+⚠️ **Bản chất rủi ro & Kỹ thuật soi của đoàn:** ${q.riskAnalysis}
+🚨 **Khung xử phạt vi phạm:** ${q.penaltyFramework}
+📂 **Hồ sơ cần chuẩn bị:**
+${q.defenseDocuments.map(d => `- ${d}`).join('\n')}
+
+Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết các bước xử lý, phương án làm việc với đoàn thanh tra và cách chuẩn bị chứng từ giải trình bảo vệ tối đa lợi ích hợp pháp cho doanh nghiệp.`;
+
+    const newSessionId = useChatStore.getState().createBranchFromPrompt(
+      `Điểm nóng: ${q.question.slice(0, 35)}...`,
+      prompt
+    );
+    navigate('/hoi-dap-ai', { state: { sessionId: newSessionId, autoSend: true } });
   };
 
   // Reset checklist
@@ -147,7 +174,7 @@ export function TaxAuditPage() {
 
   // Calculations
   const totalItems = allItems.length;
-  const completedCount = Object.values(checkedItems).filter(Boolean).length;
+  const completedCount = allItems.filter(item => checkedItems[item.id] === true).length;
   const progressPercent = totalItems > 0 ? Math.round((completedCount / totalItems) * 100) : 0;
 
   const criticalItems = allItems.filter(i => i.priority === 'critical');
@@ -220,9 +247,9 @@ export function TaxAuditPage() {
       <div className="hidden print:block border-b-2 border-black pb-4 mb-6">
         <div className="flex justify-between items-start">
           <div>
-            <h2 className="text-sm font-bold uppercase">CÔNG TY CỔ PHẦN KIỂU VIỆT</h2>
+            <h2 className="text-sm font-bold uppercase">{currentCase?.entity || 'Kiểu Việt'}</h2>
             <p className="text-xs">Phòng Tài chính - Kế toán</p>
-            <p className="text-xs">Mã số thuế: 5901168128 | Gia Lai</p>
+            <p className="text-xs">Mã số thuế: {currentCase?.taxCode} | Kỳ: {currentCase?.periods || 'Chưa xác định'}</p>
           </div>
           <div className="text-right">
             <h3 className="text-sm font-bold uppercase">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</h3>
@@ -238,23 +265,7 @@ export function TaxAuditPage() {
       {/* Header Điều Hành Ca Kiểm Tra Thuế Kiểu Việt (CODEX WALKTHROUGH) */}
       <div className="print:hidden">
         <AuditCaseHeader completedCount={completedCount} totalCount={totalItems} />
-      </div>
-
-      {/* Banner Doanh Nghiệp (Screen Only) */}
-      <div className="print:hidden relative overflow-hidden rounded-3xl bg-gradient-to-r from-slate-900 via-emerald-950 to-teal-950 text-white p-6 sm:p-8 md:p-10 shadow-xl border border-emerald-800/40">
-        <div className="relative z-10 max-w-3xl space-y-3">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 backdrop-blur-md text-emerald-300 text-xs font-semibold border border-emerald-500/30">
-            <Building2 className="h-3.5 w-3.5 text-emerald-400" />
-            CÔNG TY CỔ PHẦN KIỂU VIỆT — NỘI THẤT | VLXD & BÊ TÔNG | THI CÔNG XÂY LẮP | TƯ VẤN DỰ ÁN
-          </div>
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-black tracking-tight text-white flex items-center gap-3">
-            <ShieldCheck className="h-8 w-8 text-emerald-400 shrink-0" />
-            Trợ Lý Chuẩn Bị Kiểm Tra Thuế Doanh Nghiệp
-          </h1>
-          <p className="text-sm md:text-base text-slate-300 leading-relaxed font-normal">
-            Hệ sinh thái rà soát toàn diện theo đúng cơ cấu 4 mảng của Kiểu Việt: Nhà máy Sản xuất Đồ gỗ Nội thất Phú Tài, Nhà máy Sản xuất Vật liệu Xây dựng & Bê tông Thương phẩm, các Dự án Thi công Xây lắp liên tỉnh và Mảng Tư vấn Quản lý Dự án/Thiết kế; tích hợp kho 55 văn bản pháp luật, 8 bộ mẫu biểu giải trình thực chiến và Trợ lý AI phản biện cấp cao.
-          </p>
-        </div>
+        <p className="text-sm border rounded p-3">Checklist là đề mục rà soát, không xác nhận công ty đã tuân thủ. Các luận điểm chỉ dùng khi có chứng từ; mục khai thác khoáng sản chỉ áp dụng nếu Kiểu Việt trực tiếp có hoạt động thuộc phạm vi. Ngưỡng thanh toán và điều khoản phải đối chiếu lại theo kỳ trong Kho luật bổ sung.</p>
       </div>
 
       {/* 4 THẺ DASHBOARD TỔNG QUAN (Screen Only) */}
@@ -334,7 +345,7 @@ export function TaxAuditPage() {
               <span className="text-sm text-muted-foreground">nhóm chuyên đề</span>
             </div>
             <p className="text-[11px] text-muted-foreground">
-              Liên kết 100% tới kho 55 văn bản pháp luật
+              55 mục rà soát; kiểm căn cứ theo kỳ phát sinh
             </p>
           </CardContent>
         </Card>
@@ -342,10 +353,11 @@ export function TaxAuditPage() {
 
       {/* TABS NỘI DUNG CHÍNH (Screen Only) */}
       <Tabs defaultValue="checklist" className="print:hidden space-y-6">
-        <TabsList className="bg-muted p-1 rounded-2xl w-full flex flex-wrap sm:inline-flex h-auto gap-1">
+        <TabsList className="bg-muted p-1 rounded-2xl w-full flex flex-wrap sm:inline-flex h-auto gap-1 [&_button]:whitespace-normal [&_button]:max-w-full [&_button]:min-w-0">
+          <TabsTrigger value="legal-corpus" className="rounded-xl text-xs">Kho luật bổ sung</TabsTrigger>
           <TabsTrigger value="reconcile" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5 bg-blue-50/60 dark:bg-blue-950/40 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800">
             <Scale className="h-4 w-4 text-blue-600" /> 
-            🔥 Đối Chiếu 6 Số Liệu (Nợ 37 tỷ, 154, 2293)
+            Đối chiếu sổ và nhập CSV
           </TabsTrigger>
           <TabsTrigger value="evidence-log" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
             <FolderArchive className="h-4 w-4 text-purple-600" /> 
@@ -721,28 +733,64 @@ export function TaxAuditPage() {
                     }`}
                   >
                     <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3">
-                      <div className="space-y-1 flex-1">
-                        <div className="flex items-center gap-2">
+                      <div className="space-y-2 flex-1">
+                        <div className="flex flex-wrap items-center gap-2">
                           <span className="text-xs font-bold text-muted-foreground">#{idx + 1}</span>
-                          <span className="text-sm font-semibold text-foreground">{q.question}</span>
-                          <Badge variant="outline" className="text-[10px] border-amber-300 text-amber-700 dark:text-amber-300">
+                          <span className="text-sm font-bold text-foreground">{q.question}</span>
+                          <Badge variant="outline" className="text-[10px] border-amber-300 text-amber-700 dark:text-amber-300 font-semibold">
                             Trọng số: +{q.weight}đ
                           </Badge>
                         </div>
-                        <div className="text-[11px] text-muted-foreground">
-                          Căn cứ pháp luật: <strong className="text-foreground">{q.articleRef}</strong> ({q.decreeId})
+
+                        {/* Thanh điều hướng văn bản & Phân nhánh hội thoại */}
+                        <div className="flex flex-wrap items-center gap-2 pt-1">
+                          {/* Nút ĐƯA TỚI TRANG VĂN BẢN */}
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={() => navigate(`/thu-vien/${q.decreeId}?dieu=${q.articleNum}`)}
+                            className="h-7 text-xs bg-emerald-50/80 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-200 border-emerald-300 dark:border-emerald-800 hover:bg-emerald-100 dark:hover:bg-emerald-900 gap-1.5 font-semibold cursor-pointer shadow-2xs"
+                            title={`Chuyển thẳng tới trang văn bản: ${q.decreeTitle} (Điều ${q.articleNum}) trong Thư viện`}
+                          >
+                            <BookOpen className="h-3.5 w-3.5 text-emerald-600 dark:text-emerald-400" />
+                            <span className="truncate max-w-[280px] sm:max-w-none">{q.decreeTitle} — {q.articleRef}</span>
+                            <ExternalLink className="h-3 w-3 opacity-70" />
+                          </Button>
+
+                          {/* Nút PHÂN NHÁNH CUỘC TRÒ CHUYỆN SANG HỎI ĐÁP AI */}
+                          <Button
+                            variant="outline"
+                            size="sm"
+                            onClick={() => handleBranchToAIChat(q)}
+                            className="h-7 text-xs bg-purple-50/80 dark:bg-purple-950/40 text-purple-800 dark:text-purple-200 border-purple-300 dark:border-purple-800 hover:bg-purple-100 dark:hover:bg-purple-900 gap-1.5 font-semibold cursor-pointer shadow-2xs"
+                            title="Phân nhánh cuộc trò chuyện: Mở luồng tư vấn AI chuyên sâu cho điểm nóng này"
+                          >
+                            <GitBranch className="h-3.5 w-3.5 text-purple-600 dark:text-purple-400" />
+                            <span>Phân nhánh Hỏi AI 🌿</span>
+                          </Button>
+
+                          {/* Nút Mở rộng dẫn chứng & giải trình */}
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            onClick={() => toggleExpandRiskItem(q.id)}
+                            className="h-7 text-xs text-muted-foreground hover:text-foreground gap-1 px-2 cursor-pointer ml-auto"
+                          >
+                            {(expandedRiskItems[q.id] || isYes) ? <ChevronUp className="h-3.5 w-3.5" /> : <ChevronDown className="h-3.5 w-3.5" />}
+                            <span>{(expandedRiskItems[q.id] || isYes) ? 'Thu gọn dẫn chứng' : 'Xem dẫn chứng & hồ sơ giải trình'}</span>
+                          </Button>
                         </div>
                       </div>
 
                       {/* Nút Yes / No */}
-                      <div className="flex items-center gap-2 shrink-0">
+                      <div className="flex items-center gap-2 shrink-0 pt-1 sm:pt-0">
                         <Button
                           variant={isYes ? 'default' : 'outline'}
                           size="sm"
                           onClick={() => toggleRiskAnswer(q.id, true)}
                           className={`h-8 px-3 text-xs font-bold ${
                             isYes 
-                              ? 'bg-red-600 hover:bg-red-700 text-white' 
+                              ? 'bg-red-600 hover:bg-red-700 text-white shadow-xs' 
                               : 'hover:border-red-300 hover:text-red-600'
                           }`}
                         >
@@ -754,21 +802,72 @@ export function TaxAuditPage() {
                           onClick={() => toggleRiskAnswer(q.id, false)}
                           className={`h-8 px-3 text-xs font-bold ${
                             isNo 
-                              ? 'bg-emerald-600 hover:bg-emerald-700 text-white' 
+                              ? 'bg-emerald-600 hover:bg-emerald-700 text-white shadow-xs' 
                               : 'hover:border-emerald-300 hover:text-emerald-600'
                           }`}
                         >
-                          KHÔNG (An toàn)
+                          KHÔNG ghi nhận
                         </Button>
                       </div>
                     </div>
 
-                    {/* Lời khuyên khi bị Yes */}
-                    {isYes && (
-                      <div className="mt-3 pt-3 border-t border-red-200 dark:border-red-900/40 text-xs text-red-900 dark:text-red-200 flex items-start gap-2 bg-red-100/50 dark:bg-red-950/40 p-2.5 rounded-lg">
-                        <AlertCircle className="h-4 w-4 text-red-600 shrink-0 mt-0.5" />
-                        <div>
-                          <strong className="font-bold">Biện pháp xử lý ngay:</strong> {q.tip}
+                    {/* KHỐI DẪN CHỨNG PHÁP LÝ & HỒ SƠ GIẢI TRÌNH CHUYÊN SÂU */}
+                    {(expandedRiskItems[q.id] || isYes) && (
+                      <div className="mt-3.5 pt-3.5 border-t border-border/60 space-y-3 animate-in fade-in duration-200">
+                        {/* 1. Dẫn chứng pháp lý nguyên văn trích dẫn từ văn bản */}
+                        <div className="bg-amber-50/70 dark:bg-amber-950/25 rounded-xl p-3.5 border border-amber-200 dark:border-amber-900/40 text-xs">
+                          <div className="flex items-center justify-between gap-2 font-bold text-amber-900 dark:text-amber-200 mb-1.5">
+                            <div className="flex items-center gap-1.5">
+                              <Scale className="h-4 w-4 text-amber-600 dark:text-amber-400" />
+                              <span>Dẫn chứng pháp lý nguyên văn & Căn cứ kiểm tra:</span>
+                            </div>
+                            <button 
+                              onClick={() => navigate(`/thu-vien/${q.decreeId}?dieu=${q.articleNum}`)}
+                              className="text-[11px] text-amber-700 dark:text-amber-300 hover:underline flex items-center gap-1 font-semibold cursor-pointer"
+                            >
+                              Đọc toàn văn Điều {q.articleNum} ↗
+                            </button>
+                          </div>
+                          <p className="italic leading-relaxed text-amber-950 dark:text-amber-100 bg-white/70 dark:bg-card/50 p-2.5 rounded-lg border border-amber-200/60 dark:border-amber-900/30">
+                            "{q.legalQuote}"
+                          </p>
+                        </div>
+
+                        {/* 2. Bản chất rủi ro & Kỹ thuật đối chiếu của đoàn thanh tra */}
+                        <div className="bg-red-50/50 dark:bg-red-950/20 rounded-xl p-3.5 border border-red-200 dark:border-red-900/40 text-xs space-y-2">
+                          <div className="flex items-center gap-1.5 font-bold text-red-800 dark:text-red-200">
+                            <AlertTriangle className="h-4 w-4 text-red-600 dark:text-red-400" />
+                            <span>Bản chất rủi ro nghiệp vụ & Kỹ thuật kiểm tra của Đoàn Thuế:</span>
+                          </div>
+                          <p className="leading-relaxed text-red-950 dark:text-red-200">
+                            {q.riskAnalysis}
+                          </p>
+                          <div className="bg-red-100/60 dark:bg-red-900/30 p-2.5 rounded-lg text-[11px] text-red-900 dark:text-red-100 font-medium">
+                            <strong>🚨 Khung xử phạt dự kiến:</strong> {q.penaltyFramework}
+                          </div>
+                        </div>
+
+                        {/* 3. Danh mục hồ sơ & chứng từ gốc bắt buộc kẹp cùng */}
+                        <div className="bg-blue-50/50 dark:bg-blue-950/20 rounded-xl p-3.5 border border-blue-200 dark:border-blue-900/40 text-xs">
+                          <div className="flex items-center gap-1.5 font-bold text-blue-900 dark:text-blue-200 mb-1.5">
+                            <FolderArchive className="h-4 w-4 text-blue-600 dark:text-blue-400" />
+                            <span>Danh mục Hồ sơ & Chứng từ gốc bắt buộc phải chuẩn bị kẹp cùng:</span>
+                          </div>
+                          <ul className="space-y-1 pl-5 list-disc text-blue-950 dark:text-blue-100">
+                            {q.defenseDocuments.map((doc, dIdx) => (
+                              <li key={dIdx} className="leading-relaxed font-medium">
+                                {doc}
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+
+                        {/* 4. Biện pháp xử lý cấp bách */}
+                        <div className="bg-emerald-50/60 dark:bg-emerald-950/25 rounded-xl p-3 border border-emerald-200 dark:border-emerald-900/40 text-xs flex items-start gap-2 text-emerald-900 dark:text-emerald-200">
+                          <ShieldCheck className="h-4 w-4 text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5" />
+                          <div>
+                            <strong className="font-bold">Biện pháp xử lý ngay:</strong> {q.tip}
+                          </div>
                         </div>
                       </div>
                     )}
@@ -887,7 +986,7 @@ export function TaxAuditPage() {
                 <div className="space-y-1">
                   <div className="font-bold text-foreground">2. Luôn chuẩn bị hồ sơ 3 bên đồng bộ:</div>
                   <p className="text-muted-foreground leading-relaxed">
-                    Với công trình xây dựng: Hợp đồng ➔ Biên bản nghiệm thu ➔ Hóa đơn ➔ Chứng từ ngân hàng. 4 chứng từ này phải khớp 100% về ngày tháng, tên công trình và số tiền.
+                    Với công trình xây dựng: Hợp đồng ➔ Biên bản nghiệm thu ➔ Hóa đơn ➔ Chứng từ ngân hàng. Đối chiếu mã công trình, khối lượng, giá trị và trình tự thời điểm; ngày hợp đồng, nghiệm thu, hóa đơn và thanh toán có thể khác nhau theo thực tế và quy định.
                   </p>
                 </div>
                 <div className="space-y-1">
@@ -967,6 +1066,14 @@ export function TaxAuditPage() {
                         {copiedTemplate ? <Check className="h-3.5 w-3.5" /> : <Copy className="h-3.5 w-3.5" />}
                         {copiedTemplate ? 'Đã sao chép' : 'Sao chép văn bản'}
                       </Button>
+                      <Button variant="outline" size="sm" disabled={!caseId} onClick={async () => {
+                        try {
+                          await auditDb.work.add({ id: newId(), caseId, kind: 'task', title: selectedTemplate.title,
+                            pillar: 'unassigned', owner: '', deadline: '', requestedBy: '', receivedAt: '', status: 'preparing',
+                            evidenceIds: [], response: selectedTemplate.templateContent, receipt: '', submittedAt: '', deliveries: [] });
+                          alert('Đã lưu bản nháp vào Hồ sơ & nhật ký. Mở công việc để chọn mảng, phân công, điền dữ kiện và gắn chứng từ.');
+                        } catch { alert('Không lưu được bản nháp. Hãy kiểm tra dung lượng trình duyệt.'); }
+                      }}>Lập hồ sơ từ mẫu này</Button>
                     </div>
                   </div>
 
@@ -999,21 +1106,22 @@ export function TaxAuditPage() {
         {/* TAB MỚI: 6 CÔNG CỤ ĐỐI CHIẾU SỐ LIỆU TÀI CHÍNH KIỂU VIỆT */}
         {/* ========================================================================= */}
         <TabsContent value="reconcile" className="space-y-6">
-          <ReconciliationPanel />
+          <ReconciliationPanel key={caseId} />
         </TabsContent>
 
         {/* ========================================================================= */}
         {/* TAB MỚI: HỒ SƠ CHỨNG TỪ & SỔ GIAO VIỆC ĐOÀN KIỂM TRA */}
         {/* ========================================================================= */}
+        <TabsContent value="legal-corpus"><AuditLegalLibrary /></TabsContent>
         <TabsContent value="evidence-log" className="space-y-6">
-          <EvidencePanel />
-          <AuditRequestLog />
+          <EvidencePanel key={`evidence-${caseId}`} />
+          <AuditRequestLog key={`work-${caseId}`} />
         </TabsContent>
 
                 {/* TAB 6: TRỢ LÝ AI PHẢN BIỆN BẢO VỆ CHI PHÍ (MỚI) */}
         {/* ========================================================================= */}
         <TabsContent value="ai-advisor" className="space-y-6">
-          <TaxAuditAIChat />
+          <TaxAuditAIChat key={caseId} />
         </TabsContent>
       </Tabs>
 
