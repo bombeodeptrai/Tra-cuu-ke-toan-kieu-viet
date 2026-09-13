@@ -1,0 +1,1034 @@
+{
+  "asOf": "2026-09-14",
+  "documents": [
+    {
+      "id": "nd-20-2025",
+      "number": "20/2025/NĐ-CP",
+      "title": "Sửa đổi, bổ sung một số điều của Nghị định số 132/2020/NĐ-CP ngày 05 tháng 11 năm 2020 của Chính phủ quy định về quản lý thuế đối với doanh nghiệp có giao dịch liên kết",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=212716",
+      "acquiredAt": "2026-09-13T23:36:15.665Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/20-cp.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-20-2025-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-20-2025-1.json",
+          "bytes": 1207080,
+          "sha256": "293548bddcdf6ed05937bf3292e2cfc1573bc15dbb0a220ea33e6cf6847a1bf2",
+          "pages": 30,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1Ct7W7mnDgMWm7UXrikVa1-yTZUzfr1My/view",
+          "driveId": "1Ct7W7mnDgMWm7UXrikVa1-yTZUzfr1My",
+          "driveReadbackBytes": 1207080,
+          "driveHashVerified": false,
+          "lowConfidencePages": [
+            5,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "ocrPages": 30
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "luat-48-2024-gtgt",
+      "number": "48/2024/QH15",
+      "title": "Luật Thuế giá trị gia tăng",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=212476",
+      "acquiredAt": "2026-09-13T23:36:16.081Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/01/luat48.pdf",
+          "localUrl": "/data/accounting-laws/luat-48-2024-gtgt-1.pdf",
+          "textUrl": "/data/accounting-laws/luat-48-2024-gtgt-1.json",
+          "bytes": 704804,
+          "sha256": "8be4caa345b42bce86386831da0bf4a9ed2bebbc54b471535c758431a5277569",
+          "pages": 20,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/17ysbdit-IkaH4pPJz0ZcWnapt9wTKBn1/view?usp=drivesdk",
+          "driveId": "17ysbdit-IkaH4pPJz0ZcWnapt9wTKBn1",
+          "driveReadbackBytes": 704804,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 1
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "nd-181-2025",
+      "number": "181/2025/NĐ-CP",
+      "title": "Quy định chi tiết thi hành một số điều của Luật Thuế giá trị gia tăng",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=214336",
+      "acquiredAt": "2026-09-13T23:36:16.281Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/181nd.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-181-2025-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-181-2025-1.json",
+          "bytes": 3551060,
+          "sha256": "63777bd1640c91598f95ee40e3d793cf9422afc123ae79bb75f83dd183d74157",
+          "pages": 75,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1_422BhpOP3u5w5nB2NAISiM2lN9mV0yu/view?usp=drivesdk",
+          "driveId": "1_422BhpOP3u5w5nB2NAISiM2lN9mV0yu",
+          "driveReadbackBytes": 3551060,
+          "driveHashVerified": false,
+          "lowConfidencePages": [
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69
+          ],
+          "ocrPages": 75
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "nd-359-2025",
+      "number": "359/2025/NĐ-CP",
+      "title": "Sửa đổi, bổ sung một số điều của Nghị định số 181/2025/NĐ-CP ngày 01 tháng 7 năm 2025 của Chính phủ quy định chi tiết thi hành một số điều của Luật Thuế giá trị gia tăng",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=216388",
+      "acquiredAt": "2026-09-13T23:36:16.470Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/359-nd.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-359-2025-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-359-2025-1.json",
+          "bytes": 194522,
+          "sha256": "c4a9071f2d74f777246bcbbb4de5f310a1f71854b480336425036caca6a7cb4a",
+          "pages": 3,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/18La2G_PZc_t3yjulCoMK2SvtxQAi8Apu/view?usp=drivesdk",
+          "driveId": "18La2G_PZc_t3yjulCoMK2SvtxQAi8Apu",
+          "driveReadbackBytes": 194522,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 3
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "nd-144-2026",
+      "number": "144/2026/NĐ-CP",
+      "title": "Sửa đổi, bổ sung một số điều của Nghị định số 181/2025/NĐ-CP ngày 01 tháng 7 năm 2025 của Chính phủ quy định chi tiết thi hành một số điều của Luật Thuế giá trị gia tăng đã được sửa đổi, bổ sung một số điều bởi Nghị định số 359/2025/NĐ-CP ngày 31 tháng 12 năm 2025 của Chính phủ",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=218020",
+      "acquiredAt": "2026-09-13T23:36:16.915Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/144-ndcp.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-144-2026-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-144-2026-1.json",
+          "bytes": 983186,
+          "sha256": "2ab7fc38ad68e435447299126982014bf1d2b6a3051e40f709ae3e14b92bd98a",
+          "pages": 23,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1T4vxwoQptSsT9dmRZeeANqSR_St5rBiH/view?usp=drivesdk",
+          "driveId": "1T4vxwoQptSsT9dmRZeeANqSR_St5rBiH",
+          "driveReadbackBytes": 983186,
+          "driveHashVerified": false,
+          "lowConfidencePages": [
+            4,
+            5,
+            6,
+            8,
+            9,
+            10,
+            11,
+            12,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23
+          ],
+          "ocrPages": 23
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "tt-69-2025",
+      "number": "69/2025/TT-BTC",
+      "title": "Quy định chi tiết một số điều của Luật Thuế giá trị gia tăng và hướng dẫn thực hiện Nghị định số 181/2025/NĐ-CP ngày 01 tháng 7 năm 2025 của Chính phủ quy định chi tiết thi hành một số điều của Luật Thuế giá trị gia tăng",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=214417",
+      "acquiredAt": "2026-09-13T23:36:17.081Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/69-btc.signed.pdf",
+          "localUrl": "/data/accounting-laws/tt-69-2025-1.pdf",
+          "textUrl": "/data/accounting-laws/tt-69-2025-1.json",
+          "bytes": 1060568,
+          "sha256": "e9f743a8db84b9373ba49b6e82c41defd3a3fce07617f7b8da72dedaba7c8a2f",
+          "pages": 21,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/19fNn9DCCDN_yOgb0rUc39HM7p0-CCSJT/view?usp=drivesdk",
+          "driveId": "19fNn9DCCDN_yOgb0rUc39HM7p0-CCSJT",
+          "driveReadbackBytes": 1060568,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 21
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "nd-174-2025",
+      "number": "174/2025/NĐ-CP",
+      "title": "Quy định chính sách giảm thuế giá trị gia tăng theo Nghị quyết số 204/2025/QH15 ngày 17 tháng 6 năm 2025 của Quốc hội",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=214310",
+      "acquiredAt": "2026-09-13T23:36:17.533Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/174nd.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-174-2025-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-174-2025-1.json",
+          "bytes": 1705349,
+          "sha256": "2d657fd341f5f16ee2dfa36846854ffd07d6aad11064247fe553d881614ef419",
+          "pages": 56,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1JpujZdHTDycDBsR3WBiS24zgnlyI72l3/view?usp=drivesdk",
+          "driveId": "1JpujZdHTDycDBsR3WBiS24zgnlyI72l3",
+          "driveReadbackBytes": 1705349,
+          "driveHashVerified": false,
+          "lowConfidencePages": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            12,
+            13,
+            15,
+            17,
+            19,
+            20,
+            21,
+            22,
+            24,
+            25,
+            26,
+            27,
+            34,
+            37,
+            45,
+            47,
+            49,
+            51,
+            55,
+            56
+          ],
+          "ocrPages": 56
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "nq-198-2025",
+      "number": "198/2025/QH15",
+      "title": "Về một số cơ chế, chính sách đặc biệt phát triển kinh tế tư nhân",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=213695",
+      "acquiredAt": "2026-09-13T23:36:17.928Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/5/198_nq.pdf",
+          "localUrl": "/data/accounting-laws/nq-198-2025-1.pdf",
+          "textUrl": "/data/accounting-laws/nq-198-2025-1.json",
+          "bytes": 4312372,
+          "sha256": "08225548b5d76673da173f2819c18b7180d96daf8dea4f1b03f665d7e318100a",
+          "pages": 11,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1HlosO2pmUMisKSUU_jtNAJ3hYSELfnp8/view?usp=drivesdk",
+          "driveId": "1HlosO2pmUMisKSUU_jtNAJ3hYSELfnp8",
+          "driveReadbackBytes": 4312372,
+          "driveHashVerified": false,
+          "lowConfidencePages": [
+            11
+          ],
+          "ocrPages": 11
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "tt-26-2022-lamsan",
+      "number": "26/2022/TT-BNNPTNT",
+      "title": "Quy định về quản lý, truy xuất nguồn gốc lâm sản",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=207247",
+      "acquiredAt": "2026-09-13T23:36:18.134Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2023/01/26-bnnptnt.signed.pdf",
+          "localUrl": "/data/accounting-laws/tt-26-2022-lamsan-1.pdf",
+          "textUrl": "/data/accounting-laws/tt-26-2022-lamsan-1.json",
+          "bytes": 1849631,
+          "sha256": "cc5b337b1a74665460914ec3b1a3cb6c802899c505808d719d5c6b9e9d9725aa",
+          "pages": 57,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1B_WdBttVbG_SWP9Db9GJjJIneNEo11i9/view?usp=drivesdk",
+          "driveId": "1B_WdBttVbG_SWP9Db9GJjJIneNEo11i9",
+          "driveReadbackBytes": 1849631,
+          "driveHashVerified": false,
+          "lowConfidencePages": [
+            27,
+            30,
+            32,
+            34,
+            40,
+            41,
+            44,
+            46,
+            50,
+            54,
+            55,
+            57
+          ],
+          "ocrPages": 57
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "tt-26-2025-lamsan",
+      "number": "26/2025/TT-BNNMT",
+      "title": "Quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=214350",
+      "acquiredAt": "2026-09-13T23:36:18.562Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/26-bnnmt.pdf",
+          "localUrl": "/data/accounting-laws/tt-26-2025-lamsan-1.pdf",
+          "textUrl": "/data/accounting-laws/tt-26-2025-lamsan-1.json",
+          "bytes": 1523102,
+          "sha256": "c0bd787c67adcd1bc724f97f2b255699850500c3428a01d019934a1f77c2b6d7",
+          "pages": 41,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1_CZwk-i1BQaSI7NAWRothrOdGxGwrpwZ/view?usp=drivesdk",
+          "driveId": "1_CZwk-i1BQaSI7NAWRothrOdGxGwrpwZ",
+          "driveReadbackBytes": 1523102,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 0
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/2.phuluci-rasoatbanhanh__27062025220146_signed.pdf",
+          "localUrl": "/data/accounting-laws/tt-26-2025-lamsan-2.pdf",
+          "textUrl": "/data/accounting-laws/tt-26-2025-lamsan-2.json",
+          "bytes": 911770,
+          "sha256": "864e4a2cc6c8f519c991c78c4786a69daf41b1376953f29498e1d2014d2d10bb",
+          "pages": 3,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/129-GHeFf4uRhbMHlE16mkqvUgcFYMhqz/view?usp=drivesdk",
+          "driveId": "129-GHeFf4uRhbMHlE16mkqvUgcFYMhqz",
+          "driveReadbackBytes": 911770,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 0
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/3.phulucii-rasoatbanhanh__27062025220237_signed.pdf",
+          "localUrl": "/data/accounting-laws/tt-26-2025-lamsan-3.pdf",
+          "textUrl": "/data/accounting-laws/tt-26-2025-lamsan-3.json",
+          "bytes": 1724082,
+          "sha256": "b9fb2d2dfc3e8f227c7ef3093e9edd128628b57df5b2e7f4977b7f2dad0693e9",
+          "pages": 52,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/15ezicGcSW-UC5j4bN3X_dfseJzhAdgbl/view?usp=drivesdk",
+          "driveId": "15ezicGcSW-UC5j4bN3X_dfseJzhAdgbl",
+          "driveReadbackBytes": 1724082,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 0
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/4.phuluciii-rasoatbanhanh__27062025220213_signed.pdf",
+          "localUrl": "/data/accounting-laws/tt-26-2025-lamsan-4.pdf",
+          "textUrl": "/data/accounting-laws/tt-26-2025-lamsan-4.json",
+          "bytes": 1068838,
+          "sha256": "045ea181c4ebca981e6a99a9755bd6e58d176f1002874e207619f5e69994693f",
+          "pages": 8,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1j2LtRcr_F7Mc4T3WxoQnlPKrTaVJA8jo/view?usp=drivesdk",
+          "driveId": "1j2LtRcr_F7Mc4T3WxoQnlPKrTaVJA8jo",
+          "driveReadbackBytes": 1068838,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 0
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "vbhn-04-2026-lamsan",
+      "number": "04/VBHN-BNNMT",
+      "title": "Hợp nhất quy định quản lý lâm sản và xử lý tài sản xác lập sở hữu toàn dân",
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/04-vbhn-bnnmt.pdf",
+      "acquiredAt": "2026-09-13T23:36:18.594Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/04-vbhn-bnnmt.pdf",
+          "localUrl": "/data/accounting-laws/vbhn-04-2026-lamsan-1.pdf",
+          "textUrl": "/data/accounting-laws/vbhn-04-2026-lamsan-1.json",
+          "bytes": 2574282,
+          "sha256": "555cd7e16a3a8a061d6b1a117fc1b4340fa404dcc6d6c3c24fb91f59848f5fce",
+          "pages": 114,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1LhBhiPsCQ82I7IvBB_W0eU7wiJqFtMuu/view?usp=drivesdk",
+          "driveId": "1LhBhiPsCQ82I7IvBB_W0eU7wiJqFtMuu",
+          "driveReadbackBytes": 2574282,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 0
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "tt-84-2025-lamsan",
+      "number": "84/2025/TT-BNNMT",
+      "title": "Quy định chi tiết một số nội dung của Luật Lâm nghiệp và sửa đổi, bổ sung một số Thông tư trong lĩnh vực lâm nghiệp và kiểm lâm",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=216774",
+      "acquiredAt": "2026-09-13T23:36:19.006Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/84-bnnmt.pdf",
+          "localUrl": "/data/accounting-laws/tt-84-2025-lamsan-1.pdf",
+          "textUrl": "/data/accounting-laws/tt-84-2025-lamsan-1.json",
+          "bytes": 1364259,
+          "sha256": "4fc173f0b0de7a75c6bef364885ea457a434077fc574cad623154011f54e355c",
+          "pages": 35,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/124BVOn7USCOtiH8QwF_taHy9E4dYqOfQ/view?usp=drivesdk",
+          "driveId": "124BVOn7USCOtiH8QwF_taHy9E4dYqOfQ",
+          "driveReadbackBytes": 1364259,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 0
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/84-bnnmt-kem.pdf",
+          "localUrl": "/data/accounting-laws/tt-84-2025-lamsan-2.pdf",
+          "textUrl": "/data/accounting-laws/tt-84-2025-lamsan-2.json",
+          "bytes": 1729841,
+          "sha256": "ee0f0a2ef0cb4b034a1b7e0d068fe8db00d6cc7357120e32fdc4ae26009dec7d",
+          "pages": 81,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1NtqjpgOYWpUz6R9LPx9cd9Qe7m_je7Qz/view?usp=drivesdk",
+          "driveId": "1NtqjpgOYWpUz6R9LPx9cd9Qe7m_je7Qz",
+          "driveReadbackBytes": 1729841,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 0
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/dinh-chinh-tt84-bnnmt.pdf",
+          "localUrl": "/data/accounting-laws/tt-84-2025-lamsan-3.pdf",
+          "textUrl": "/data/accounting-laws/tt-84-2025-lamsan-3.json",
+          "bytes": 1199857,
+          "sha256": "b0eca8343e126b2aacdfe9cb9f351ee14524b9f77aa284a1813f50d88b7b58b2",
+          "pages": 2,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/11tj_nI1rXYF5C9prfc5HOoRleFlSO6ZY/view?usp=drivesdk",
+          "driveId": "11tj_nI1rXYF5C9prfc5HOoRleFlSO6ZY",
+          "driveReadbackBytes": 1199857,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 0
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "tt-32-2025",
+      "number": "32/2025/TT-BTC",
+      "title": "Hướng dẫn thực hiện một số điều của Luật Quản lý thuế ngày 13 tháng 6 năm 2019, Nghị định số 123/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định về hóa đơn, chứng từ, Nghị định số 70/2025/NĐ-CP ngày 20 tháng 3 năm 2025 sửa đổi, bổ sung một số điều của Nghị định số 123/2020/NĐ-CP",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=213855",
+      "acquiredAt": "2026-09-13T23:36:19.477Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/6/32-btc.pdf",
+          "localUrl": "/data/accounting-laws/tt-32-2025-1.pdf",
+          "textUrl": "/data/accounting-laws/tt-32-2025-1.json",
+          "bytes": 7080597,
+          "sha256": "88431d75855e9b8fa394c7afe3c1a204485caf648bc2355fd2fc8878a39fefa5",
+          "pages": 49,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1ddz354bTE5zS6yo4kOmezm1uodWE1Kpp/view?usp=drivesdk",
+          "driveId": "1ddz354bTE5zS6yo4kOmezm1uodWE1Kpp",
+          "driveReadbackBytes": 7080597,
+          "driveHashVerified": false,
+          "lowConfidencePages": [
+            17,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            34,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46
+          ],
+          "ocrPages": 49
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "nd-320-2025",
+      "number": "320/2025/NĐ-CP",
+      "title": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập doanh nghiệp",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=216219",
+      "acquiredAt": "2026-09-13T23:36:19.668Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/12/320-ndcp.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-320-2025-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-320-2025-1.json",
+          "bytes": 3728566,
+          "sha256": "4a426bbe928511d278aa23318156d27747c45669e8ee9002fb7a635794f51e06",
+          "pages": 76,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1euBK13jtmJG4Hp6G35K6Nzjz9cjThDeb/view?usp=drivesdk",
+          "driveId": "1euBK13jtmJG4Hp6G35K6Nzjz9cjThDeb",
+          "driveReadbackBytes": 3728566,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 76
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "nd-141-2026",
+      "number": "141/2026/NĐ-CP",
+      "title": "Sửa đổi, bổ sung một số điều của Nghị định số 68/2026/NĐ-CP quy định về chính sách thuế đối với hộ kinh doanh, cá nhân kinh doanh và Nghị định số 320/2025/NĐ-CP quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập doanh nghiệp",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=217960",
+      "acquiredAt": "2026-09-13T23:36:20.133Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/141-ndcp.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-141-2026-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-141-2026-1.json",
+          "bytes": 262358,
+          "sha256": "fa9a7c47b637f47528225d9cdd03dbde1032607ec8c39648071178ce4091413f",
+          "pages": 4,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1NZFwvjlFeNITtK-RUj7bVYR3ebdQ39jS/view?usp=drivesdk",
+          "driveId": "1NZFwvjlFeNITtK-RUj7bVYR3ebdQ39jS",
+          "driveReadbackBytes": 262358,
+          "driveHashVerified": false,
+          "lowConfidencePages": [
+            4
+          ],
+          "ocrPages": 4
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "nd-102-2020-go",
+      "number": "102/2020/NĐ-CP",
+      "title": "Quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=200888",
+      "acquiredAt": "2026-09-13T23:36:20.658Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2020/09/102.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-102-2020-go-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-102-2020-go-1.json",
+          "bytes": 2508648,
+          "sha256": "ffcbea68df84b11fafcb84e1855658a3d10498011c108cc1c1dd9f342f603817",
+          "pages": 52,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/17O867WXkRHxd2wZNYhHoeBpSP2hF-obh/view?usp=drivesdk",
+          "driveId": "17O867WXkRHxd2wZNYhHoeBpSP2hF-obh",
+          "driveReadbackBytes": 2508648,
+          "driveHashVerified": false,
+          "lowConfidencePages": [
+            23,
+            24,
+            26,
+            33,
+            35,
+            37,
+            40,
+            41,
+            45
+          ],
+          "ocrPages": 52
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "nd-120-2024-go",
+      "number": "120/2024/NĐ-CP",
+      "title": "Sửa đổi, bổ sung một số điều của Nghị định số 102/2020/NĐ-CP ngày 01 tháng 9 năm 2020 của Chính phủ quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=211300",
+      "acquiredAt": "2026-09-13T23:36:21.077Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2024/9/120-nd.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-120-2024-go-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-120-2024-go-1.json",
+          "bytes": 1092540,
+          "sha256": "c9a138a0a80f47b78dc7474e1b513df5642876a61adabbfe9a0352b548ce46eb",
+          "pages": 27,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1PSKh05e_TlEvTkkAiDuM7UXIhtFW3G9E/view?usp=drivesdk",
+          "driveId": "1PSKh05e_TlEvTkkAiDuM7UXIhtFW3G9E",
+          "driveReadbackBytes": 1092540,
+          "driveHashVerified": false,
+          "lowConfidencePages": [
+            12,
+            18,
+            20,
+            25
+          ],
+          "ocrPages": 27
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "luat-108-2025",
+      "number": "108/2025/QH15",
+      "title": "Luật Quản lý thuế",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=216541",
+      "acquiredAt": "2026-09-13T23:36:21.478Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/108-qh15.signed.pdf",
+          "localUrl": "/data/accounting-laws/luat-108-2025-1.pdf",
+          "textUrl": "/data/accounting-laws/luat-108-2025-1.json",
+          "bytes": 3031876,
+          "sha256": "c1128f09f90b43d509fc75067caa5ad734a8773c2f82f4fdf46d54592107ae72",
+          "pages": 65,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1MhyIf6q_mzSk7_LZ-nCdO2Fg61rFvLvE/view?usp=drivesdk",
+          "driveId": "1MhyIf6q_mzSk7_LZ-nCdO2Fg61rFvLvE",
+          "driveReadbackBytes": 3031876,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 65
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "nd-254-2026",
+      "number": "254/2026/NĐ-CP",
+      "title": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=218689",
+      "acquiredAt": "2026-09-13T23:36:21.662Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/254-ndcp.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-254-2026-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-254-2026-1.json",
+          "bytes": 2549084,
+          "sha256": "d8df03ef58aa26f2f3bf7014c830fe598c7939e2fc32643e436eca24f1fe85ae",
+          "pages": 55,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1uqW1aFicj94J3s41z0knHnFDNQMQHA4s/view?usp=drivesdk",
+          "driveId": "1uqW1aFicj94J3s41z0knHnFDNQMQHA4s",
+          "driveReadbackBytes": 2549084,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 55
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "tt-91-2026",
+      "number": "91/2026/TT-BTC",
+      "title": "Quy định một số điều của Luật Quản lý thuế và Nghị định số 254/2026/NĐ-CP của Chính phủ quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Quản lý thuế số 108/2025/QH15 về hóa đơn điện tử, chứng từ điện tử",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=219006",
+      "acquiredAt": "2026-09-13T23:36:22.042Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/91-btc.signed.pdf",
+          "localUrl": "/data/accounting-laws/tt-91-2026-1.pdf",
+          "textUrl": "/data/accounting-laws/tt-91-2026-1.json",
+          "bytes": 3423905,
+          "sha256": "3986d7970bd3658ce66523d8f8fcfca22c34abffb807e733b459e4729e06aab6",
+          "pages": 97,
+          "emptyPages": [
+            52
+          ],
+          "driveUrl": "https://drive.google.com/file/d/1HMliCUmetEY6sMEinsakZduptBF7X44P/view?usp=drivesdk",
+          "driveId": "1HMliCUmetEY6sMEinsakZduptBF7X44P",
+          "driveReadbackBytes": 3423905,
+          "driveHashVerified": false,
+          "lowConfidencePages": [
+            42,
+            43,
+            44,
+            47,
+            48,
+            49,
+            51,
+            52,
+            54,
+            55,
+            57,
+            58,
+            60,
+            61,
+            62,
+            68,
+            69,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            87,
+            88,
+            89,
+            90,
+            91,
+            92,
+            93,
+            94,
+            95,
+            96,
+            97
+          ],
+          "ocrPages": 97
+        }
+      ],
+      "layoutVerified": false,
+      "status": "ocr-review"
+    },
+    {
+      "id": "luat-09-2026",
+      "number": "09/2026/QH16",
+      "title": "Luật sửa đổi, bổ sung một số điều của Luật Thuế thu nhập cá nhân, Luật Thuế giá trị gia tăng, Luật Thuế thu nhập doanh nghiệp và Luật Thuế tiêu thụ đặc biệt",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=218095",
+      "acquiredAt": "2026-09-13T23:36:22.462Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/5/09-qh.signed.pdf",
+          "localUrl": "/data/accounting-laws/luat-09-2026-1.pdf",
+          "textUrl": "/data/accounting-laws/luat-09-2026-1.json",
+          "bytes": 176913,
+          "sha256": "d9207c14c9af462454dd7ce9ef5b23c8a22dfea8d3462438be9ffd3897a1f94e",
+          "pages": 2,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1D7D5DMiRYbSKGwYKRWG3yL93e9IqUxro/view?usp=drivesdk",
+          "driveId": "1D7D5DMiRYbSKGwYKRWG3yL93e9IqUxro",
+          "driveReadbackBytes": 176913,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 2
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "luat-90-2025",
+      "number": "90/2025/QH15",
+      "title": "Luật sửa đổi, bổ sung một số điều của Luật Đấu thầu, Luật Đầu tư theo phương thức đối tác công tư, Luật Hải quan, Luật Thuế giá trị gia tăng, Luật Thuế xuất khẩu, thuế nhập khẩu, Luật Đầu tư, Luật Đầu tư công, Luật Quản lý, sử dụng tài sản công",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=214558",
+      "acquiredAt": "2026-09-13T23:36:22.666Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/90qh.signed.pdf",
+          "localUrl": "/data/accounting-laws/luat-90-2025-1.pdf",
+          "textUrl": "/data/accounting-laws/luat-90-2025-1.json",
+          "bytes": 2896670,
+          "sha256": "881be3fc0692b9628dc3915eab0b98ffe13a0722a7de36edba1bfecc388de400",
+          "pages": 60,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1lFE1mOiaNBhGWM2NwBU_FM29FCaOunN-/view?usp=drivesdk",
+          "driveId": "1lFE1mOiaNBhGWM2NwBU_FM29FCaOunN-",
+          "driveReadbackBytes": 2896670,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 60
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "luat-149-2025",
+      "number": "149/2025/QH15",
+      "title": "Luật sửa đổi, bổ sung một số điều của Luật Thuế giá trị gia tăng",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=216588",
+      "acquiredAt": "2026-09-13T23:36:23.034Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/luat149.signed.pdf",
+          "localUrl": "/data/accounting-laws/luat-149-2025-1.pdf",
+          "textUrl": "/data/accounting-laws/luat-149-2025-1.json",
+          "bytes": 154125,
+          "sha256": "5c9ee94f7139165174b437e042dcd9385d6d146bcee1fa4889a0f10ef7177183",
+          "pages": 2,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1eNgAl1Urq6TtyjShv57izoDpC-vKvUMX/view?usp=drivesdk",
+          "driveId": "1eNgAl1Urq6TtyjShv57izoDpC-vKvUMX",
+          "driveReadbackBytes": 154125,
+          "driveHashVerified": false,
+          "lowConfidencePages": [
+            2
+          ],
+          "ocrPages": 2
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "tt-24-2022",
+      "number": "24/2022/TT-BTC",
+      "title": "Sửa đổi, bổ sung một số điều của Thông tư số 48/2019/TT-BTC ngày 08 tháng 8 năm 2019 của Bộ trưởng Bộ Tài chính hướng dẫn việc trích lập và xử lý các khoản dự phòng giảm giá hàng tồn kho, tổn thất các khoản đầu tư, nợ phải thu khó đòi và bảo hành sản phẩm, hàng hóa, dịch vụ, công trình xây dựng tại doanh nghiệp",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=205610",
+      "acquiredAt": "2026-09-13T23:36:23.441Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2022/04/24-btc.pdf",
+          "localUrl": "/data/accounting-laws/tt-24-2022-1.pdf",
+          "textUrl": "/data/accounting-laws/tt-24-2022-1.json",
+          "bytes": 1059521,
+          "sha256": "93e0bb771115294c832d643cf34ff2947fd6cdfe106170b20e3c0e9f57e5f32f",
+          "pages": 3,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1FsYY64Qi5Qg7w7EtvHY0VDcVQdhMI7Hv/view?usp=drivesdk",
+          "driveId": "1FsYY64Qi5Qg7w7EtvHY0VDcVQdhMI7Hv",
+          "driveReadbackBytes": 1059521,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 3
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "nd-373-2025",
+      "number": "373/2025/NĐ-CP",
+      "title": "Sửa đổi, bổ sung một số điều của Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=216685",
+      "acquiredAt": "2026-09-13T23:36:23.833Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/373ndcp.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-373-2025-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-373-2025-1.json",
+          "bytes": 2574350,
+          "sha256": "6ca9d1a16b5d47c7aa23f06f243dc59bd2e9dda4d70f3f3c892e4254d2c7d914",
+          "pages": 74,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/198Vhe2wxiGt4nKSQZc9yleUEw8xw6v5k/view?usp=drivesdk",
+          "driveId": "198Vhe2wxiGt4nKSQZc9yleUEw8xw6v5k",
+          "driveReadbackBytes": 2574350,
+          "driveHashVerified": false,
+          "lowConfidencePages": [
+            29,
+            30,
+            32,
+            33,
+            35,
+            37,
+            39,
+            41,
+            42,
+            44,
+            46,
+            47,
+            49,
+            50,
+            51,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            63,
+            65,
+            66,
+            68
+          ],
+          "ocrPages": 74
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "tt-21-2026",
+      "number": "21/2026/TT-BTC",
+      "title": "Sửa đổi, bổ sung một số điều của Thông tư số 80/2021/TT-BTC ngày 29 tháng 9 năm 2021 của Bộ trưởng Bộ Tài chính hướng dẫn thi hành một số điều của Luật Quản lý thuế và Nghị định số 126/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định chi tiết một số điều của Luật Quản lý thuế",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=217241",
+      "acquiredAt": "2026-09-13T23:36:24.295Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/21-btc.pdf",
+          "localUrl": "/data/accounting-laws/tt-21-2026-1.pdf",
+          "textUrl": "/data/accounting-laws/tt-21-2026-1.json",
+          "bytes": 2828004,
+          "sha256": "01a424c525a850ce92296fb1128f66ebfabd5bb101cfae2d4975f301f4c9248f",
+          "pages": 8,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1_UEQ2C8xJXzCX1Z433IWvXnwAocz1YRq/view?usp=drivesdk",
+          "driveId": "1_UEQ2C8xJXzCX1Z433IWvXnwAocz1YRq",
+          "driveReadbackBytes": 2828004,
+          "driveHashVerified": false,
+          "lowConfidencePages": [
+            6,
+            8
+          ],
+          "ocrPages": 8
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "nd-102-2021",
+      "number": "102/2021/NĐ-CP",
+      "title": "Sửa đổi, bổ sung một số điều của các Nghị định về xử phạt vi phạm hành chính trong lĩnh vực thuế, hóa đơn; hải quan; kinh doanh bảo hiểm, kinh doanh xổ số; quản lý, sử dụng tài sản công; thực hành tiết kiệm, chống lãng phí; dự trữ quốc gia; kho bạc nhà nước; kế toán, kiểm toán độc lập",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=204477",
+      "acquiredAt": "2026-09-13T23:36:24.732Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2021/11/102.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-102-2021-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-102-2021-1.json",
+          "bytes": 1507182,
+          "sha256": "2d4ea494360877c923ac60a393ea2014cca30fb0172f0676525ccd29f1594f2f",
+          "pages": 26,
+          "emptyPages": [],
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 26,
+          "driveUrl": "https://drive.google.com/file/d/11zKOK7baIWQHBexK4eHgxe4kU5FfY1tZ/view?usp=drivesdk",
+          "driveId": "11zKOK7baIWQHBexK4eHgxe4kU5FfY1tZ",
+          "driveReadbackBytes": 1507182
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "nd-310-2025",
+      "number": "310/2025/NĐ-CP",
+      "title": "Sửa đổi, bổ sung một số điều của Nghị định số 125/2020/NĐ-CP ngày 19 tháng 10 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính về thuế, hóa đơn",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=216102",
+      "acquiredAt": "2026-09-13T23:36:26.719Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/12/310-cp.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-310-2025-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-310-2025-1.json",
+          "bytes": 782307,
+          "sha256": "9c8a7f4ae823f42b396830912f82c65524b78081dbc6a8a604ba803f2b0d962d",
+          "pages": 16,
+          "emptyPages": [],
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 16,
+          "driveUrl": "https://drive.google.com/file/d/10FZDR1C59N23fpAybKePFJQaX7VRViwM/view?usp=drivesdk",
+          "driveId": "10FZDR1C59N23fpAybKePFJQaX7VRViwM",
+          "driveReadbackBytes": 782307
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    },
+    {
+      "id": "nd-291-2026",
+      "number": "291/2026/NĐ-CP",
+      "title": "Sửa đổi, bổ sung một số điều của Nghị định số 125/2020/NĐ-СР ngày 19 tháng 10 năm 2020 của Chính phủ quy định xử phạt vi phạm hành chính về thuế, hóa đơn được sửa đổi, bổ sung bởi Nghị định số 102/2021/NĐ-CP ngày 16 tháng 11 năm 2021 của Chính phủ và Nghị định số 310/2025/NĐ-CP ngày 02 tháng 12 năm 2025 của Chính phủ",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=218956",
+      "acquiredAt": "2026-09-13T23:36:27.630Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/291_2026_nd-cp_21072026-signed.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-291-2026-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-291-2026-1.json",
+          "bytes": 1271954,
+          "sha256": "3c1da845e96829df310ff9790a41bf80f4ba2061eee96c691acc068cdb4d951e",
+          "pages": 3,
+          "emptyPages": [],
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 3,
+          "driveUrl": "https://drive.google.com/file/d/1_Bug9wPSW0LE9vwUm4DShWB2hkVymSMQ/view?usp=drivesdk",
+          "driveId": "1_Bug9wPSW0LE9vwUm4DShWB2hkVymSMQ",
+          "driveReadbackBytes": 1271954
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
+    }
+  ]
+}

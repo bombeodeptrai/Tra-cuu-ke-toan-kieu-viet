@@ -1,0 +1,208 @@
+{
+  "asOf": "2026-09-14",
+  "documents": {
+    "nd-20-2025": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=212716",
+      "issuedDate": "2025-02-10",
+      "effectiveDate": "2025-03-27",
+      "checkedAt": "2026-09-13T23:36:14.787Z",
+      "error": ""
+    },
+    "luat-48-2024-gtgt": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=212476",
+      "issuedDate": "2024-11-26",
+      "effectiveDate": "2025-07-01",
+      "checkedAt": "2026-09-13T23:36:15.675Z",
+      "error": ""
+    },
+    "nd-181-2025": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=214336",
+      "issuedDate": "2025-07-01",
+      "effectiveDate": "2025-07-01",
+      "checkedAt": "2026-09-13T23:36:16.092Z",
+      "error": ""
+    },
+    "nd-359-2025": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=216388",
+      "issuedDate": "2025-12-31",
+      "effectiveDate": "2026-01-01",
+      "checkedAt": "2026-09-13T23:36:16.297Z",
+      "error": ""
+    },
+    "nd-144-2026": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=218020",
+      "issuedDate": "2026-05-05",
+      "effectiveDate": "2026-06-20",
+      "checkedAt": "2026-09-13T23:36:16.477Z",
+      "error": ""
+    },
+    "tt-69-2025": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=214417",
+      "issuedDate": "2025-07-01",
+      "effectiveDate": "2025-07-01",
+      "checkedAt": "2026-09-13T23:36:16.922Z",
+      "error": ""
+    },
+    "nd-174-2025": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=214310",
+      "issuedDate": "2025-06-30",
+      "effectiveDate": "2025-07-01",
+      "checkedAt": "2026-09-13T23:36:17.088Z",
+      "error": ""
+    },
+    "nq-198-2025": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=213695",
+      "issuedDate": "2025-05-17",
+      "effectiveDate": "2025-05-17",
+      "checkedAt": "2026-09-13T23:36:17.543Z",
+      "error": ""
+    },
+    "tt-26-2022-lamsan": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=207247",
+      "issuedDate": "2022-12-30",
+      "effectiveDate": "2023-02-15",
+      "checkedAt": "2026-09-13T23:36:17.946Z",
+      "error": ""
+    },
+    "tt-26-2025-lamsan": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=214350",
+      "issuedDate": "2025-06-24",
+      "effectiveDate": "2025-07-01",
+      "checkedAt": "2026-09-13T23:36:18.144Z",
+      "error": ""
+    },
+    "vbhn-04-2026-lamsan": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/01/04-vbhn-bnnmt.pdf",
+      "issuedDate": "",
+      "effectiveDate": "",
+      "checkedAt": "2026-09-13T23:36:18.594Z",
+      "error": ""
+    },
+    "tt-84-2025-lamsan": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=216774",
+      "issuedDate": "2025-12-31",
+      "effectiveDate": "2026-01-01",
+      "checkedAt": "2026-09-13T23:36:18.607Z",
+      "error": ""
+    },
+    "tt-32-2025": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=213855",
+      "issuedDate": "2025-05-31",
+      "effectiveDate": "2025-06-01",
+      "checkedAt": "2026-09-13T23:36:19.028Z",
+      "error": ""
+    },
+    "nd-320-2025": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=216219",
+      "issuedDate": "2025-12-15",
+      "effectiveDate": "2025-12-15",
+      "checkedAt": "2026-09-13T23:36:19.502Z",
+      "error": ""
+    },
+    "nd-141-2026": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=217960",
+      "issuedDate": "2026-04-29",
+      "effectiveDate": "2026-01-01",
+      "checkedAt": "2026-09-13T23:36:19.685Z",
+      "error": ""
+    },
+    "nd-102-2020-go": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=200888",
+      "issuedDate": "2020-09-01",
+      "effectiveDate": "2020-10-30",
+      "checkedAt": "2026-09-13T23:36:20.137Z",
+      "error": ""
+    },
+    "nd-120-2024-go": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=211300",
+      "issuedDate": "2024-09-30",
+      "effectiveDate": "2024-11-15",
+      "checkedAt": "2026-09-13T23:36:20.669Z",
+      "error": ""
+    },
+    "luat-108-2025": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=216541",
+      "issuedDate": "2025-12-10",
+      "effectiveDate": "2026-07-01",
+      "checkedAt": "2026-09-13T23:36:21.085Z",
+      "error": ""
+    },
+    "nd-254-2026": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=218689",
+      "issuedDate": "2026-06-30",
+      "effectiveDate": "2026-07-01",
+      "checkedAt": "2026-09-13T23:36:21.491Z",
+      "error": ""
+    },
+    "tt-91-2026": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=219006",
+      "issuedDate": "2026-06-30",
+      "effectiveDate": "2026-07-01",
+      "checkedAt": "2026-09-13T23:36:21.674Z",
+      "error": ""
+    },
+    "luat-09-2026": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=218095",
+      "issuedDate": "2026-04-24",
+      "effectiveDate": "2026-04-24",
+      "checkedAt": "2026-09-13T23:36:22.056Z",
+      "error": ""
+    },
+    "luat-90-2025": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=214558",
+      "issuedDate": "2025-06-25",
+      "effectiveDate": "2025-07-01",
+      "checkedAt": "2026-09-13T23:36:22.466Z",
+      "error": ""
+    },
+    "luat-149-2025": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=216588",
+      "issuedDate": "2025-12-11",
+      "effectiveDate": "2026-01-01",
+      "checkedAt": "2026-09-13T23:36:22.680Z",
+      "error": ""
+    },
+    "tt-24-2022": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=205610",
+      "issuedDate": "2022-04-07",
+      "effectiveDate": "2022-05-25",
+      "checkedAt": "2026-09-13T23:36:23.039Z",
+      "error": ""
+    },
+    "nd-373-2025": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=216685",
+      "issuedDate": "2025-12-31",
+      "effectiveDate": "2026-02-14",
+      "checkedAt": "2026-09-13T23:36:23.450Z",
+      "error": ""
+    },
+    "tt-21-2026": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=217241",
+      "issuedDate": "2026-03-17",
+      "effectiveDate": "2026-03-17",
+      "checkedAt": "2026-09-13T23:36:23.848Z",
+      "error": ""
+    },
+    "nd-102-2021": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=204477",
+      "issuedDate": "2021-11-16",
+      "effectiveDate": "2022-01-01",
+      "checkedAt": "2026-09-13T23:36:24.308Z",
+      "error": ""
+    },
+    "nd-310-2025": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=216102",
+      "issuedDate": "2025-12-02",
+      "effectiveDate": "2025-01-16",
+      "checkedAt": "2026-09-13T23:36:26.675Z",
+      "error": ""
+    },
+    "nd-291-2026": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=218956",
+      "issuedDate": "2026-07-21",
+      "effectiveDate": "2026-07-21",
+      "checkedAt": "2026-09-13T23:36:27.212Z",
+      "error": ""
+    }
+  }
+}

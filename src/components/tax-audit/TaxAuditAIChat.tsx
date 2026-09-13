@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
-import { 
-  Bot, SendHorizontal, Sparkles, RotateCcw, MessageSquare, 
+import {
+  Bot, SendHorizontal, Sparkles, RotateCcw, MessageSquare,
   HelpCircle, ChevronDown, ChevronUp, AlertCircle, CheckCircle2,
   Copy, Check, ShieldCheck, Scale, FileText, Building2, BookOpen, Layers,
   ExternalLink, ArrowRight, FolderArchive, Flame
@@ -56,7 +56,7 @@ export function TaxAuditAIChat() {
       {
         id: "welcome",
         role: "assistant",
-        content: "### 🛡️ TRỢ LÝ PHẢN BIỆN & BẢO VỆ CHI PHÍ THANH TRA THUẾ — CÔNG TY KIỂU VIỆT\n\nChào Ban Giám đốc và Phòng Kế toán Kiểu Việt! Tôi được nạp sẵn toàn bộ căn cứ pháp lý từ **kho 55 văn bản quy phạm pháp luật** (Luật Quản lý thuế 38/2019, Thông tư 96/2015, Nghị định 123/2020, Thông tư 80/2021, Quyết định 87/2025/QĐ-UBND Gia Lai...) và hệ thống kịch bản bảo vệ đặc thù:\n- **Xưởng chế biến gỗ & Nội thất công sở:** Định mức tiêu hao gỗ xẻ, sơn PU, hồ sơ lâm sản hợp pháp.\n- **Trạm trộn bê tông thương phẩm:** Cấp phối LAS-XD, hao hụt xe bồn, chứng chỉ chất lượng R28.\n- **Khai thác mỏ đá xây dựng:** Hệ số nở rời nổ mìn, Bảng giá tính thuế tài nguyên Gia Lai.\n- **Thi công xây lắp hạ tầng:** Trích trước TK 335, nhân công khoán 08/CK-TNCN, thuế vãng lai 1%.\n\n👉 **Hướng dẫn:** Bạn có thể xem ngay **8 Kịch Bản Mẫu** phía trên hoặc chọn câu hỏi gợi ý / nhập tình huống đoàn thanh tra đang chất vấn bên dưới để nhận lập luận phản biện tức thì!",
+        content: "Nhập câu hỏi và kỳ cần đối chiếu. AI chỉ sử dụng nguồn luật tìm được và nội dung anh chủ động gửi; không tự đọc chứng từ nội bộ. Các tình huống bên dưới là hướng dẫn chuẩn bị, chưa phải sự kiện đã xảy ra ở Kiểu Việt.",
         timestamp: new Date().toLocaleTimeString("vi-VN", { hour: "2-digit", minute: "2-digit" })
       }
     ]);
@@ -79,29 +79,6 @@ export function TaxAuditAIChat() {
     navigator.clipboard.writeText(fullText);
     setCopiedScenarioId(scenario.id);
     setTimeout(() => setCopiedScenarioId(null), 2000);
-  };
-
-  const getOfflineDefenseResponse = (query: string): string => {
-    const qLower = query.toLowerCase();
-    if (qLower.includes("gỗ") || qLower.includes("sơn pu") || qLower.includes("mùn cưa") || qLower.includes("định mức")) {
-      return "### 🛡️ PHƯƠNG ÁN BẢO VỆ: ĐỊNH MỨC NGUYÊN LIỆU GỖ & SƠN PU (XƯỞNG NỘI THẤT)\n\n**1. Căn cứ pháp lý cốt tử:**\n- **Khoản 2.3 Điều 4 Thông tư 96/2015/TT-BTC:** Doanh nghiệp tự xây dựng, quản lý định mức tiêu hao nguyên liệu, vật liệu sử dụng vào sản xuất từ đầu năm/đầu kỳ và lưu tại doanh nghiệp. Không phải nộp cho cơ quan thuế!\n- **Chuẩn mực Kế toán số 02 (VAS 02) & Thông tư 200/2014:** Nguyên tắc tính giá thành sản xuất thực tế.\n\n**2. Lập luận đối đáp đanh thép trước Đoàn kiểm tra:**\n- Sản phẩm Kiểu Việt là đồ gỗ mỹ nghệ cao cấp, thiết kế phòng họp, hội trường theo đơn đặt hàng riêng, phôi thô phải qua tạo phôi, chà nhám, soi chỉ nên tỷ lệ hao hụt dăm bào mùn cưa 18% - 22% là hoàn toàn tất yếu.\n- Định mức được Tổng Giám đốc duyệt tại Quyết định số 02/QĐ-KV/2024 ngày 05/01/2024 trước khi tổ chức sản xuất.\n- Toàn bộ phế liệu mùn cưa thu hồi đều được bán có hóa đơn GTGT và hạch toán vào TK 711 nộp thuế TNDN 20% đầy đủ, không hề trốn thuế hay làm thất thoát ngân sách.\n\n**3. Hồ sơ cần xuất trình ngay:**\n- Quyết định ban hành định mức kỹ thuật nội bộ xưởng mộc năm 2024.\n- Lệnh sản xuất, Phiếu xuất kho gỗ xẻ TK 152 và Thẻ tính giá thành TK 154.\n- 12 Hóa đơn GTGT xuất bán phế liệu mùn cưa TK 711.\n\n**4. Kịch bản đối thoại:**\n*\"Thưa Trưởng đoàn, Khoản 2.3 Điều 4 Thông tư 96/2015 cho phép DN tự xây dựng định mức và lưu nội bộ. Sản phẩm của chúng tôi đóng theo thiết kế cong lượn, hao hụt mùn cưa thực tế 20.6% hoàn toàn khớp với định mức kỹ thuật đã phê duyệt. Đặc biệt phế liệu bán ra đã kê khai nộp thuế TK 711 đầy đủ, kính đề nghị Đoàn không loại chi phí này.\"*";
-    }
-    if (qLower.includes("bê tông") || qLower.includes("cấp phối") || qLower.includes("xe bồn")) {
-      return "### 🛡️ PHƯƠNG ÁN BẢO VỆ: CẤP PHỐI BÊ TÔNG THƯƠNG PHẨM & HAO HỤT XE BỒN\n\n**1. Căn cứ pháp lý cốt tử:**\n- **Thông tư 12/2021/TT-BXD của Bộ Xây dựng (Bảng 2 Phụ lục II):** Định mức hao hụt bê tông thương phẩm vận chuyển xe bồn và bơm bê tông vào kết cấu cho phép từ **1.5% đến 2.5%**.\n- **Tiêu chuẩn Quốc gia TCVN 9382:2012:** Hướng dẫn chọn thành phần bê tông nặng.\n\n**2. Lập luận đối đáp đanh thép:**\n- Mức hao hụt 2.0% của Kiểu Việt nằm trọn vẹn trong khung 1.5% - 2.5% của Bộ Xây dựng. Địa hình Gia Lai nhiều đèo dốc hiểm trở, thời gian quay thùng kéo dài làm tăng độ dính bám thành bồn.\n- Cấp phối trạm trộn kiểm soát tự động bằng cân điện tử, định kỳ được Chi cục Tiêu chuẩn Đo lường Chất lượng kiểm định sai số dưới 1%.\n- Kết quả nén mẫu độc lập R28 tại các công trình đều đạt 102% - 115% mác thiết kế, chứng minh vật tư đưa vào mẻ trộn là 100% thực tế và đầy đủ.\n\n**3. Hồ sơ cần xuất trình:**\n- Thiết kế cấp phối của Phòng thí nghiệm LAS-XD được duyệt.\n- Nhật ký mẻ trộn tự động xuất từ phần mềm trạm trộn.\n- Kết quả thí nghiệm nén mẫu R28 của Trung tâm Kiểm định Chất lượng Xây dựng Gia Lai.";
-    }
-    if (qLower.includes("335") || qLower.includes("trích trước") || qLower.includes("giá vốn")) {
-      return "### 🛡️ PHƯƠNG ÁN BẢO VỆ: CHI PHÍ TRÍCH TRƯỚC GIÁ VỐN TK 335\n\n**1. Căn cứ pháp lý cốt tử:**\n- **Điểm 2.20 Khoản 2 Điều 4 Thông tư 96/2015/TT-BTC:** Hoạt động xây dựng đã ghi nhận doanh thu thì ĐƯỢC PHÉP TRÍCH TRƯỚC GIÁ VỐN tương ứng với doanh thu đã ghi nhận.\n- **Chuẩn mực Kế toán số 01 (VAS 01):** Nguyên tắc phù hợp giữa doanh thu và chi phí.\n\n**2. Lập luận phản biện then chốt:**\n- Công trình đã được bàn giao đưa vào sử dụng trong năm và đã kê khai 100% Doanh thu tính thuế TNDN (TK 511). Do đó, bắt buộc phải trích trước giá vốn khối lượng hoàn thành tương ứng.\n- Toàn bộ hóa đơn của nhà thầu phụ đã được phát hành và nhận đầy đủ trước ngày 31/03 năm sau (thời hạn nộp hồ sơ quyết toán thuế TNDN) kèm UNC chuyển khoản ngân hàng.\n\n**3. Hồ sơ cần chuẩn bị:**\n- Biên bản nghiệm thu bàn giao A-B đưa vào sử dụng trong năm tài chính.\n- Hợp đồng thầu phụ kèm Biên bản nghiệm thu khối lượng giai đoạn.\n- Hóa đơn điện tử của thầu phụ có ngày lập trước 31/03 năm tiếp theo và UNC thanh toán.";
-    }
-    if (qLower.includes("tncn") || qLower.includes("nhân công") || qLower.includes("08/ck") || qLower.includes("thời vụ")) {
-      return "### 🛡️ PHƯƠNG ÁN BẢO VỆ: THUẾ TNCN NHÂN CÔNG THỜI VỤ & CAM KẾT 08/CK-TNCN\n\n**1. Căn cứ pháp lý cốt tử:**\n- **Điểm i Khoản 1 Điều 25 Thông tư 111/2013/TT-BTC & Thông tư 80/2021/TT-BTC:** Cá nhân chỉ có duy nhất thu nhập tại một nơi và ước tính chưa đến mức phải nộp thuế (sau giảm trừ gia cảnh 132 triệu/năm) thì được làm Cam kết 08/CK-TNCN để tạm thời chưa khấu trừ 10%.\n\n**2. Lập luận bảo vệ:**\n- 100% lao động thời vụ ký cam kết đều ĐÃ ĐƯỢC CẤP MÃ SỐ THUẾ CÁ NHÂN trước thời điểm lập cam kết.\n- Doanh nghiệp căn cứ cam kết hợp pháp của người lao động để chi trả tiền công. Người lao động chịu trách nhiệm trước pháp luật về tính trung thực.\n- Kiểu Việt đã tổng hợp danh sách trên Phụ lục 05-2/BK-QTT-TNCN nộp Cục Thuế tỉnh Gia Lai đầy đủ, minh bạch.";
-    }
-    if (qLower.includes("đá") || qLower.includes("mỏ") || qLower.includes("tài nguyên") || qLower.includes("87")) {
-      return "### 🛡️ PHƯƠNG ÁN BẢO VỆ: THUẾ TÀI NGUYÊN & SẢN LƯỢNG MỎ ĐÁ GIA LAI\n\n**1. Căn cứ pháp lý cốt tử:**\n- **Quyết định 87/2025/QĐ-UBND của UBND tỉnh Gia Lai:** Bảng giá tính thuế tài nguyên trên địa bàn tỉnh Gia Lai.\n- **Hồ sơ Thiết kế cơ sở mỏ đá:** Được Sở Xây dựng Gia Lai thẩm định, hệ số nở rời đá đập vỡ dao động từ 1.20 đến 1.35.\n\n**2. Lập luận khoa học:**\n- Thể tích đá dăm thành phẩm (140.000 m³) lớn hơn thể tích đá nổ mìn nguyên khai (112.500 m³) là do ĐẶC ĐIỂM CƠ LÝ NỞ RỜI CỦA ĐẤT ĐÁ (hệ số k = 1.244).\n- Kiểu Việt kê khai thuế tài nguyên đúng 100% sản lượng đá nguyên khai theo Quyết định 87/2025/QĐ-UBND và truyền dữ liệu camera trạm cân 24/24 về Sở TN&MT.";
-    }
-    if (qLower.includes("lãi vay") || qLower.includes("liên kết") || qLower.includes("132") || qLower.includes("ebitda")) {
-      return "### 🛡️ PHƯƠNG ÁN BẢO VỆ: CHI PHÍ LÃI VAY VƯỢT TRẦN 30% EBITDA (NĐ 132/2020)\n\n**1. Căn cứ pháp lý cốt tử:**\n- **Khoản 3 Điều 16 Nghị định 132/2020/NĐ-CP:** Chi phí lãi vay không được trừ vượt trần 30% EBITDA ĐƯỢC CHUYỂN TIẾP SANG KỲ TÍNH THUẾ TIẾP THEO trong thời hạn không quá 05 năm liên tục.\n\n**2. Lập luận đàm phán:**\n- Nếu cơ quan thuế xác định khoản mượn tiền cổ đông cấu thành giao dịch liên kết, phần chi phí lãi vay vượt 30% EBITDA không bị loại bỏ vĩnh viễn mà được ghi nhận chuyển tiếp sang 5 năm sau để bù trừ vào chi phí khi EBITDA tăng trưởng.";
-    }
-    return "### 🛡️ PHƯƠNG ÁN BẢO VỆ PHÁP LÝ CHO DOANH NGHIỆP KIỂU VIỆT\n\n**1. Căn cứ quy định pháp luật áp dụng:**\n- **Luật Quản lý thuế số 38/2019/QH14 (Điều 16, 110, 111, 112):** Quyền giải trình bằng văn bản, quyền bảo lưu ý kiến trong biên bản kiểm tra và quyền khiếu nại trong 90 ngày.\n- **Thông tư 96/2015/TT-BTC (Điều 4):** 3 điều kiện tiên quyết để chi phí được trừ: Thực tế phát sinh liên quan đến HĐSXKD, có đủ hóa đơn chứng từ hợp pháp, có chứng từ thanh toán không dùng tiền mặt đối với hóa đơn từ 20 triệu trở lên.\n\n**2. Chiến thuật đàm phán 3 nhóm chi phí:**\n- **Nhóm 1 (Kiên quyết giữ vững):** Chi phí có đầy đủ hợp đồng, nghiệm thu A-B, hóa đơn điện tử và chứng từ ngân hàng. Trích dẫn nguyên văn điều luật bác bỏ ý kiến kiểm tra viên.\n- **Nhóm 2 (Thương lượng 50/50):** Chi phí có thiếu sót về hình thức (biên bản giao hàng chậm, thiếu chữ ký người nhận). Chủ động bổ sung hồ sơ chứng minh tính có thật của giao dịch.\n- **Nhóm 3 (Chủ động chấp nhận loại):** Chi phí quà biếu tặng, tiếp khách thiếu danh sách khách mời. Chấp nhận loại nhóm này để tạo thiện chí giữ vững các khoản tiền tỷ ở nhóm 1.\n\n**3. Nguyên tắc khi ký biên bản:**\nNếu đoàn kiểm tra vẫn bảo lưu ý kiến xuất toán trái quy định, Kế toán trưởng yêu cầu ghi rõ vào Biên bản: *\"Công ty Cổ phần Kiểu Việt bảo lưu ý kiến đối với nội dung... căn cứ theo Điều... và sẽ gửi văn bản giải trình chi tiết trong thời hạn luật định.\"* Tuyệt đối không ký đồng ý vào các kết luận không có căn cứ pháp lý!";
   };
 
   const handleSend = async (questionText?: string) => {
@@ -130,16 +107,9 @@ export function TaxAuditAIChat() {
     setMessages(prev => [...prev, assistantMessage]);
 
     if (!effectiveKey) {
-      setTimeout(() => {
-        const offlineReply = getOfflineDefenseResponse(textToSend);
-        setMessages(prev => 
-          prev.map(m => m.id === assistantMsgId ? { ...m, content: offlineReply } : m)
-        );
-        setIsTyping(false);
-      }, 500);
-      return;
+      setMessages(prev=>prev.map(m=>m.id===assistantMsgId?{...m,content:'Chưa cấu hình API key nên chưa có câu trả lời AI. Có thể đọc hướng dẫn và tạo hồ sơ nội bộ; ứng dụng không tạo câu trả lời giả thay cho dịch vụ.'}:m));
+      setIsTyping(false);return;
     }
-
     const systemPrompt = AUDIT_SYSTEM_PROMPT;
     const chatHistory = [...messages, userMessage].map(m => ({
       role: m.role,
@@ -154,17 +124,17 @@ export function TaxAuditAIChat() {
 
       for await (const chunk of gemini.streamChat(chatHistory, systemPrompt)) {
         accumulatedText += chunk;
-        setMessages(prev => 
+        setMessages(prev =>
           prev.map(m => m.id === assistantMsgId ? { ...m, content: accumulatedText } : m)
         );
       }
       if (!accumulatedText.trim()) throw new Error("Dịch vụ không trả nội dung.");
     } catch (err: any) {
-      const fallbackReply = getOfflineDefenseResponse(textToSend);
-      setMessages(prev => 
-        prev.map(m => m.id === assistantMsgId ? { 
-          ...m, 
-          content: fallbackReply + "\n\n*(Đã kích hoạt Kho tri thức phòng thủ nội bộ Kiểu Việt do API tạm gián đoạn)*" 
+
+      setMessages(prev =>
+        prev.map(m => m.id === assistantMsgId ? {
+          ...m,
+          content: "Không nhận được kết quả từ dịch vụ AI. Chưa có phân tích hoàn tất; kiểm tra cấu hình hoặc thử lại. Các hồ sơ đã lưu vẫn giữ nguyên."
         } : m)
       );
     } finally {
@@ -202,7 +172,7 @@ export function TaxAuditAIChat() {
                   <Flame className="h-4 w-4" />
                 </div>
                 <CardTitle className="text-base sm:text-lg font-bold text-white flex items-center gap-2">
-                  Kho Kịch Bản Phản Biện Thực Chiến (8 Điểm Nóng Trọng Yếu)
+                  Hồ sơ và cách làm rõ từng tình huống ({DEFENSE_SCENARIOS.length} quy trình)
                 </CardTitle>
                 <Badge className="bg-emerald-500 text-slate-950 font-bold text-[10px]">Thực Chiến Kiểu Việt</Badge>
               </div>
@@ -211,7 +181,7 @@ export function TaxAuditAIChat() {
               </CardDescription>
             </div>
             <Badge variant="outline" className="bg-white/10 text-emerald-300 border-white/20 text-xs">
-              8 Kịch Bản Sẵn Sàng
+              {DEFENSE_SCENARIOS.length} hướng dẫn tình huống
             </Badge>
           </div>
         </CardHeader>
@@ -221,11 +191,11 @@ export function TaxAuditAIChat() {
             {DEFENSE_SCENARIOS.map((sc, idx) => {
               const isExpanded = expandedScenarioId === sc.id;
               return (
-                <div 
+                <div
                   key={sc.id}
                   className={`rounded-xl border transition-all ${
-                    isExpanded 
-                      ? "border-emerald-500 bg-emerald-50/20 dark:bg-emerald-950/20 shadow-xs" 
+                    isExpanded
+                      ? "border-emerald-500 bg-emerald-50/20 dark:bg-emerald-950/20 shadow-xs"
                       : "border-border bg-card hover:border-emerald-300"
                   }`}
                 >
@@ -250,7 +220,7 @@ export function TaxAuditAIChat() {
 
                     <div className="flex flex-wrap items-center justify-between gap-2 pt-1 border-t border-border/50">
                       <button
-                        onClick={() => navigate(`/thu-vien/${sc.decreeId}?dieu=${sc.articleNum}`)}
+                        onClick={() => navigate(`/thu-vien/${sc.decreeId}${sc.articleNum ? `?dieu=${sc.articleNum}` : ""}`)}
                         className="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[10.5px] font-semibold bg-emerald-50 dark:bg-emerald-950/40 text-emerald-800 dark:text-emerald-300 border border-emerald-200 dark:border-emerald-800 hover:bg-emerald-100 transition-colors cursor-pointer"
                       >
                         <BookOpen className="h-3 w-3 text-emerald-600" />
@@ -345,7 +315,7 @@ export function TaxAuditAIChat() {
             <div>
               <h3 className="font-bold text-sm text-white flex items-center gap-2">
                 Trực Chiến AI Phản Biện & Bảo Vệ Chi Phí
-                <Badge className="bg-emerald-500 text-slate-950 font-bold text-[10px]">Online & Sẵn Sàng</Badge>
+                <Badge className="bg-emerald-500 text-slate-950 font-bold text-[10px]">{effectiveKey ? 'Đã cấu hình API' : 'Chưa cấu hình API'}</Badge>
               </h3>
               <p className="text-[11px] text-slate-300">
                 Nhập câu hỏi hoặc chọn kịch bản để nhận phương án đối đáp, căn cứ điều khoản và danh mục hồ sơ gốc
