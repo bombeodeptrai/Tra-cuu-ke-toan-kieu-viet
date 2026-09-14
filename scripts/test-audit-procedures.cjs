@@ -3,7 +3,7 @@ const box={exports:{}};vm.runInNewContext(ts.transpileModule(fs.readFileSync('sr
 const {AUDIT_PROCEDURES,procedureDraft}=box.exports;
 assert.equal(AUDIT_PROCEDURES.length,15);assert.equal(AUDIT_PROCEDURES.filter(p=>p.pillar==='concrete_materials').length,7);assert.equal(new Set(AUDIT_PROCEDURES.map(p=>p.pillar)).size,4);
 for(const p of AUDIT_PROCEDURES){assert.equal(p.steps.length,4);assert.ok(p.records.length>=4);assert.ok(procedureDraft(p,'2024').includes('Kỳ: 2024'));assert.ok(p.columns.length>=9);}
-const report={base:process.env.AUDIT_TEST_URL||'http://127.0.0.1:5174/Tra-cuu-ke-toan-kieu-viet/',checks:['15 procedures / 7 VLXD / 4 pillars / 60 operational steps'],errors:[],failures:[],at:new Date().toISOString()};
+const report={base:(process.env.AUDIT_TEST_URL||'http://127.0.0.1:5174/Tra-cuu-ke-toan-kieu-viet/').trim(),checks:['15 procedures / 7 VLXD / 4 pillars / 60 operational steps'],errors:[],failures:[],at:new Date().toISOString()};
 const out=path.resolve('test-results/audit-20260914');fs.mkdirSync(out,{recursive:true});
 (async()=>{const browser=await puppeteer.launch({headless:true});const page=await browser.newPage();page.on('pageerror',e=>report.errors.push(e.message));page.on('console',m=>{if(m.type()==='error')report.errors.push(m.text());});
  const text=async s=>page.waitForFunction(s=>document.body.innerText.includes(s),{timeout:20000},s);
