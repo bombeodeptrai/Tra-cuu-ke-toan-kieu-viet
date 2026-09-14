@@ -1,6 +1,7 @@
 export interface Decree {
   id: string
   decree_number: string
+  number?: string
   title: string
   content?: string
   summary: string
@@ -8,7 +9,7 @@ export interface Decree {
   issued_date: string
   effective_date: string
   status: 'active' | 'expired' | 'amended' | 'replaced'
-  source_url: string
+  source_url?: string
   pdf_drive_id?: string
   content_url?: string
   pdf_url?: string

@@ -284,10 +284,68 @@ Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết
         </div>
       </div>
 
-      {/* Header Điều Hành Ca Kiểm Tra Thuế Kiểu Việt (CODEX WALKTHROUGH) */}
-      <div className="print:hidden">
+      {/* Header Điều Hành Ca Kiểm Tra Thuế Kiểu Việt */}
+      <div className="print:hidden space-y-4">
         <AuditCaseHeader completedCount={completedCount} totalCount={totalItems} />
-        <p className="text-sm border rounded p-3">Checklist là đề mục rà soát, không xác nhận công ty đã tuân thủ. Các luận điểm chỉ dùng khi có chứng từ; mục khai thác khoáng sản chỉ áp dụng nếu Kiểu Việt trực tiếp có hoạt động thuộc phạm vi. Ngưỡng thanh toán và điều khoản phải đối chiếu lại theo kỳ trong Kho luật bổ sung.</p>
+        
+        {/* Cẩm Nang Hướng Dẫn 4 Bước Sử Dụng Nhanh Cho Kế Toán Kiểu Việt */}
+        <div className="rounded-2xl border border-blue-200/80 bg-gradient-to-r from-blue-50/70 via-indigo-50/50 to-emerald-50/60 dark:from-blue-950/30 dark:via-indigo-950/20 dark:to-emerald-950/20 p-5 shadow-xs">
+          <div className="flex items-center gap-2 mb-3">
+            <span className="p-1.5 rounded-lg bg-blue-600 text-white shadow-2xs">
+              <Sparkles className="h-4 w-4" />
+            </span>
+            <div>
+              <h3 className="text-sm font-bold text-blue-950 dark:text-blue-100">
+                Cẩm Nang 4 Bước Thao Tác Chuẩn Bị Kiểm Tra Thuế Dành Cho Kế Toán Kiểu Việt
+              </h3>
+              <p className="text-[11px] text-muted-foreground">
+                Thực hiện tuần tự 4 bước nghiệp vụ bên dưới để hoàn thiện toàn bộ hồ sơ sổ sách trước khi đoàn kiểm tra công bố quyết định.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
+            <div className="bg-card/90 rounded-xl p-3.5 border border-border/80 space-y-1.5 shadow-2xs">
+              <div className="font-bold text-blue-700 dark:text-blue-400 flex items-center gap-1.5">
+                <span className="w-5 h-5 rounded-full bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 flex items-center justify-center font-black text-[11px]">1</span>
+                <span>Thiết Lập Ca Kiểm Tra</span>
+              </div>
+              <p className="text-muted-foreground leading-relaxed text-[11px]">
+                Chọn đợt kiểm tra và niên độ thuế ở bảng trên để phân lập dữ liệu và quản lý sổ bàn giao chứng từ theo từng quyết định thanh tra.
+              </p>
+            </div>
+
+            <div className="bg-card/90 rounded-xl p-3.5 border border-border/80 space-y-1.5 shadow-2xs">
+              <div className="font-bold text-emerald-700 dark:text-emerald-400 flex items-center gap-1.5">
+                <span className="w-5 h-5 rounded-full bg-emerald-100 dark:bg-emerald-900 text-emerald-700 dark:text-emerald-300 flex items-center justify-center font-black text-[11px]">2</span>
+                <span>Chuẩn Bị 15 Bộ Hồ Sơ</span>
+              </div>
+              <p className="text-muted-foreground leading-relaxed text-[11px]">
+                Vào tab "Chuẩn bị từng hồ sơ", chọn mảng kinh doanh (Gỗ, Bê tông, Đá, Xây lắp) để gom đủ chứng từ gốc và tải bảng CSV đối soát.
+              </p>
+            </div>
+
+            <div className="bg-card/90 rounded-xl p-3.5 border border-border/80 space-y-1.5 shadow-2xs">
+              <div className="font-bold text-amber-700 dark:text-amber-400 flex items-center gap-1.5">
+                <span className="w-5 h-5 rounded-full bg-amber-100 dark:bg-amber-900 text-amber-700 dark:text-amber-300 flex items-center justify-center font-black text-[11px]">3</span>
+                <span>Rà Soát Điểm Nóng & Sổ</span>
+              </div>
+              <p className="text-muted-foreground leading-relaxed text-[11px]">
+                Tick chọn Checklist 55 mục, làm bài tự đánh giá 15 rủi ro và sử dụng 6 công cụ đối chiếu để rà soát chênh lệch trước ngày đoàn vào.
+              </p>
+            </div>
+
+            <div className="bg-card/90 rounded-xl p-3.5 border border-border/80 space-y-1.5 shadow-2xs">
+              <div className="font-bold text-purple-700 dark:text-purple-400 flex items-center gap-1.5">
+                <span className="w-5 h-5 rounded-full bg-purple-100 dark:bg-purple-900 text-purple-700 dark:text-purple-300 flex items-center justify-center font-black text-[11px]">4</span>
+                <span>Phòng Thủ & Giải Trình</span>
+              </div>
+              <p className="text-muted-foreground leading-relaxed text-[11px]">
+                Khai thác 15 mẫu văn bản giải trình hành chính, tra cứu 84 văn bản gốc và kích hoạt Trợ lý AI để luyện tập bảo vệ số liệu.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* 4 THẺ DASHBOARD TỔNG QUAN (Screen Only) */}
@@ -324,7 +382,7 @@ Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết
               <AlertTriangle className={`h-4 w-4 ${criticalPending > 0 ? 'text-red-600 animate-pulse' : 'text-emerald-600'}`} />
             </div>
             <div className="flex items-baseline gap-2">
-              <span className="text-3xl font-black ${criticalPending > 0 ? 'text-red-600' : 'text-emerald-600'}">
+              <span className={`text-3xl font-black ${criticalPending > 0 ? 'text-red-600' : 'text-emerald-600'}`}>
                 {criticalPending}
               </span>
               <span className="text-sm text-muted-foreground">/ {criticalItems.length} mục</span>
@@ -367,50 +425,118 @@ Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết
               <span className="text-sm text-muted-foreground">nhóm chuyên đề</span>
             </div>
             <p className="text-[11px] text-muted-foreground">
-              55 mục rà soát; kiểm căn cứ theo kỳ phát sinh
+              55 mục rà soát theo 84 văn bản pháp luật hiện hành
             </p>
           </CardContent>
         </Card>
       </div>
 
-      {/* TABS NỘI DUNG CHÍNH (Screen Only) */}
+      {/* TABS NỘI DUNG CHÍNH (Screen Only) - HỆ THỐNG 3 CỤM NGHIỆP VỤ CHUYÊN SÂU */}
       <Tabs value={auditTab} onValueChange={setAuditTab} className="print:hidden space-y-6">
-        <TabsList className="bg-muted p-1 rounded-2xl w-full flex flex-wrap sm:inline-flex h-auto gap-1 [&_button]:whitespace-normal [&_button]:max-w-full [&_button]:min-w-0">
-          <TabsTrigger value="preparation" className="rounded-xl text-xs font-semibold">Chuẩn bị từng hồ sơ</TabsTrigger>
-          <TabsTrigger value="legal-corpus" className="rounded-xl text-xs">Kho luật bổ sung</TabsTrigger>
-          <TabsTrigger value="reconcile" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5 bg-blue-50/60 dark:bg-blue-950/40 text-blue-700 dark:text-blue-300 border border-blue-200 dark:border-blue-800">
-            <Scale className="h-4 w-4 text-blue-600" /> 
-            Đối chiếu sổ và nhập CSV
-          </TabsTrigger>
-          <TabsTrigger value="evidence-log" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
-            <FolderArchive className="h-4 w-4 text-purple-600" /> 
-            📁 Hồ Sơ & Sổ Đoàn Kiểm Tra
-          </TabsTrigger>
-          <TabsTrigger value="checklist" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
-            <FileText className="h-4 w-4 text-emerald-600" /> 
-            1. Checklist Hồ Sơ ({completedCount}/{totalItems})
-          </TabsTrigger>
-          <TabsTrigger value="risk" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
-            <AlertTriangle className="h-4 w-4 text-amber-600" /> 
-            2. Tự Đánh Giá Rủi Ro ({totalRiskScore}đ)
-          </TabsTrigger>
-          <TabsTrigger value="timeline" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
-            <Clock className="h-4 w-4 text-blue-600" /> 
-            3. Lộ Trình 30-15-7 Ngày
-          </TabsTrigger>
-          <TabsTrigger value="rights" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
-            <ShieldCheck className="h-4 w-4 text-purple-600" /> 
-            4. Quyền DN & Kỹ Năng Tiếp Đoàn
-          </TabsTrigger>
-          <TabsTrigger value="templates" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
-            <FileSpreadsheet className="h-4 w-4 text-teal-600" /> 
-            5. Mẫu giải trình ({AUDIT_TEMPLATES.length} mẫu)
-          </TabsTrigger>
-          <TabsTrigger value="ai-advisor" className="rounded-xl gap-2 font-semibold text-xs py-2.5 px-3.5">
-            <Bot className="h-4 w-4 text-emerald-500 animate-pulse" /> 
-            6. Trợ Lý AI Phản Biện (Gemini)
-          </TabsTrigger>
-        </TabsList>
+        <div className="bg-card rounded-2xl border border-border p-3.5 shadow-xs space-y-3">
+          <TabsList className="bg-transparent p-0 w-full h-auto grid grid-cols-1 md:grid-cols-3 gap-3">
+            {/* Cụm 1: Chuẩn bị thực chiến */}
+            <div className="bg-muted/40 dark:bg-muted/20 rounded-xl p-2.5 border border-border/60 space-y-1.5 flex flex-col justify-between">
+              <div className="flex items-center justify-between px-1 text-[11px] font-bold text-blue-700 dark:text-blue-400 uppercase tracking-wider">
+                <span className="flex items-center gap-1.5"><Sparkles className="h-3.5 w-3.5" /> 1. Chuẩn Bị & Bàn Giao</span>
+                <span className="text-[10px] text-muted-foreground font-medium">3 chức năng</span>
+              </div>
+              <div className="grid grid-cols-1 gap-1">
+                <TabsTrigger 
+                  value="preparation" 
+                  className="rounded-lg text-xs font-semibold py-2 px-3 justify-start gap-2 data-[state=active]:bg-blue-600 data-[state=active]:text-white shadow-none transition-all"
+                >
+                  <Building2 className="h-3.5 w-3.5 shrink-0" />
+                  <span className="truncate">Chuẩn bị từng hồ sơ</span>
+                  <Badge variant="outline" className="ml-auto text-[10px] font-bold px-1.5 py-0 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 border-none">15 bộ</Badge>
+                </TabsTrigger>
+                <TabsTrigger 
+                  value="timeline" 
+                  className="rounded-lg text-xs font-medium py-2 px-3 justify-start gap-2 data-[state=active]:bg-blue-600 data-[state=active]:text-white shadow-none transition-all"
+                >
+                  <Clock className="h-3.5 w-3.5 shrink-0" />
+                  <span className="truncate">3. Lộ Trình 30-15-7 Ngày</span>
+                </TabsTrigger>
+                <TabsTrigger 
+                  value="evidence-log" 
+                  className="rounded-lg text-xs font-medium py-2 px-3 justify-start gap-2 data-[state=active]:bg-blue-600 data-[state=active]:text-white shadow-none transition-all"
+                >
+                  <FolderArchive className="h-3.5 w-3.5 shrink-0" />
+                  <span className="truncate">📁 Hồ Sơ & Sổ Đoàn Kiểm Tra</span>
+                </TabsTrigger>
+              </div>
+            </div>
+
+            {/* Cụm 2: Rà soát rủi ro & đối chiếu số liệu */}
+            <div className="bg-muted/40 dark:bg-muted/20 rounded-xl p-2.5 border border-border/60 space-y-1.5 flex flex-col justify-between">
+              <div className="flex items-center justify-between px-1 text-[11px] font-bold text-emerald-700 dark:text-emerald-400 uppercase tracking-wider">
+                <span className="flex items-center gap-1.5"><Scale className="h-3.5 w-3.5" /> 2. Rà Soát & Đối Chiếu</span>
+                <span className="text-[10px] text-muted-foreground font-medium">3 chức năng</span>
+              </div>
+              <div className="grid grid-cols-1 gap-1">
+                <TabsTrigger 
+                  value="checklist" 
+                  className="rounded-lg text-xs font-medium py-2 px-3 justify-start gap-2 data-[state=active]:bg-emerald-600 data-[state=active]:text-white shadow-none transition-all"
+                >
+                  <FileText className="h-3.5 w-3.5 shrink-0" />
+                  <span className="truncate">1. Checklist Hồ Sơ ({completedCount}/{totalItems})</span>
+                </TabsTrigger>
+                <TabsTrigger 
+                  value="risk" 
+                  className="rounded-lg text-xs font-medium py-2 px-3 justify-start gap-2 data-[state=active]:bg-emerald-600 data-[state=active]:text-white shadow-none transition-all"
+                >
+                  <AlertTriangle className="h-3.5 w-3.5 shrink-0" />
+                  <span className="truncate">2. Tự Đánh Giá Rủi Ro ({totalRiskScore}đ)</span>
+                </TabsTrigger>
+                <TabsTrigger 
+                  value="reconcile" 
+                  className="rounded-lg text-xs font-medium py-2 px-3 justify-start gap-2 data-[state=active]:bg-emerald-600 data-[state=active]:text-white shadow-none transition-all"
+                >
+                  <Scale className="h-3.5 w-3.5 shrink-0" />
+                  <span className="truncate">Đối chiếu sổ và nhập CSV</span>
+                </TabsTrigger>
+              </div>
+            </div>
+
+            {/* Cụm 3: Phòng thủ, mẫu biểu & pháp lý */}
+            <div className="bg-muted/40 dark:bg-muted/20 rounded-xl p-2.5 border border-border/60 space-y-1.5 flex flex-col justify-between">
+              <div className="flex items-center justify-between px-1 text-[11px] font-bold text-purple-700 dark:text-purple-400 uppercase tracking-wider">
+                <span className="flex items-center gap-1.5"><ShieldCheck className="h-3.5 w-3.5" /> 3. Phòng Thủ & Pháp Lý</span>
+                <span className="text-[10px] text-muted-foreground font-medium">4 chức năng</span>
+              </div>
+              <div className="grid grid-cols-2 gap-1">
+                <TabsTrigger 
+                  value="templates" 
+                  className="rounded-lg text-xs font-medium py-2 px-2 justify-start gap-1 data-[state=active]:bg-purple-600 data-[state=active]:text-white shadow-none transition-all"
+                >
+                  <FileSpreadsheet className="h-3.5 w-3.5 shrink-0" />
+                  <span className="truncate">5. Mẫu giải trình ({AUDIT_TEMPLATES.length} mẫu)</span>
+                </TabsTrigger>
+                <TabsTrigger 
+                  value="rights" 
+                  className="rounded-lg text-xs font-medium py-2 px-2 justify-start gap-1 data-[state=active]:bg-purple-600 data-[state=active]:text-white shadow-none transition-all"
+                >
+                  <ShieldCheck className="h-3.5 w-3.5 shrink-0" />
+                  <span className="truncate">4. Quyền DN & Kỹ Năng</span>
+                </TabsTrigger>
+                <TabsTrigger 
+                  value="ai-advisor" 
+                  className="rounded-lg text-xs font-medium py-2 px-2 justify-start gap-1 data-[state=active]:bg-purple-600 data-[state=active]:text-white shadow-none transition-all"
+                >
+                  <Bot className="h-3.5 w-3.5 shrink-0 text-emerald-500 animate-pulse" />
+                  <span className="truncate">6. Trợ Lý AI Phản Biện (Gemini)</span>
+                </TabsTrigger>
+                <TabsTrigger 
+                  value="legal-corpus" 
+                  className="rounded-lg text-xs font-medium py-2 px-2 justify-start gap-1 data-[state=active]:bg-purple-600 data-[state=active]:text-white shadow-none transition-all"
+                >
+                  <BookOpen className="h-3.5 w-3.5 shrink-0" />
+                  <span className="truncate">Kho luật bổ sung</span>
+                </TabsTrigger>
+              </div>
+            </div>
+          </TabsList>
+        </div>
 
         {/* ========================================================================= */}
         {/* TAB 1: CHECKLIST HỒ SƠ CHI TIẾT */}

@@ -96,4 +96,8 @@ export const TAX_FIELDS = [
   { slug: 'hoa-don-dien-tu', name: 'Hóa đơn điện tử', icon: '🧾' },
   { slug: 'bhxh-lao-dong', name: 'BHXH - Lao động', icon: '🛡️' },
   { slug: 'khoang-san-tai-nguyen', name: 'Khoáng sản - Tài nguyên', icon: '⛏️' },
+  { slug: 'lam-san-go', name: 'Lâm sản & Gỗ hợp pháp', icon: '🪵' },
+  { slug: 'giao-dich-lien-ket', name: 'Giao dịch liên kết', icon: '🔄' },
+  { slug: 'xu-phat-thue', name: 'Xử phạt vi phạm hành chính', icon: '⚖️' },
+  { slug: 'dau-thau-xay-lap', name: 'Đấu thầu & Xây lắp', icon: '🏗️' },
 ]
