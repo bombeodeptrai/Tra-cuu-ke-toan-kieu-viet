@@ -433,29 +433,81 @@ Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết
 
       {/* TABS NỘI DUNG CHÍNH (Screen Only) - HỆ THỐNG 3 CỤM NGHIỆP VỤ CHUYÊN SÂU */}
       <Tabs value={auditTab} onValueChange={setAuditTab} className="print:hidden space-y-6">
-        <div className="bg-card rounded-2xl border border-border p-3.5 shadow-xs space-y-3">
-          <TabsList className="bg-transparent p-0 w-full h-auto grid grid-cols-1 md:grid-cols-3 gap-3">
-            {/* Cụm 1: Chuẩn bị thực chiến */}
-            <div className="bg-muted/40 dark:bg-muted/20 rounded-xl p-2.5 border border-border/60 space-y-1.5 flex flex-col justify-between">
-              <div className="flex items-center justify-between px-1 text-[11px] font-bold text-blue-700 dark:text-blue-400 uppercase tracking-wider">
-                <span className="flex items-center gap-1.5"><Sparkles className="h-3.5 w-3.5" /> 1. Chuẩn Bị & Bàn Giao</span>
-                <span className="text-[10px] text-muted-foreground font-medium">3 chức năng</span>
+        <div className="bg-card rounded-2xl border border-border p-4 shadow-xs space-y-4">
+          <TabsList className="bg-transparent p-0 w-full h-auto flex flex-col gap-3">
+            {/* Hàng 1: Quy trình & Nghiệp vụ kiểm tra thực chiến */}
+            <div className="w-full bg-muted/40 dark:bg-muted/20 rounded-xl p-2.5 border border-border/60">
+              <div className="flex items-center justify-between px-2 pb-2 text-[11px] font-bold text-blue-700 dark:text-blue-400 uppercase tracking-wider border-b border-border/40 mb-2">
+                <span className="flex items-center gap-1.5"><Sparkles className="h-3.5 w-3.5" /> Nghiệp Vụ Kiểm Tra & Phòng Thủ Thực Chiến</span>
+                <span className="text-[10px] text-muted-foreground font-medium">7 chuyên đề cốt lõi</span>
               </div>
-              <div className="grid grid-cols-1 gap-1">
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-1.5">
                 <TabsTrigger 
                   value="preparation" 
-                  className="rounded-lg text-xs font-semibold py-2 px-3 justify-start gap-2 data-[state=active]:bg-blue-600 data-[state=active]:text-white shadow-none transition-all"
+                  className="rounded-lg text-xs font-semibold py-2 px-2.5 justify-center sm:justify-start gap-1.5 data-[state=active]:bg-blue-600 data-[state=active]:text-white shadow-none transition-all"
                 >
                   <Building2 className="h-3.5 w-3.5 shrink-0" />
                   <span className="truncate">Chuẩn bị từng hồ sơ</span>
-                  <Badge variant="outline" className="ml-auto text-[10px] font-bold px-1.5 py-0 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 border-none">15 bộ</Badge>
+                  <Badge variant="outline" className="hidden xl:inline-flex ml-auto text-[9px] font-bold px-1.5 py-0 bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 border-none">15 bộ</Badge>
+                </TabsTrigger>
+                <TabsTrigger 
+                  value="checklist" 
+                  className="rounded-lg text-xs font-medium py-2 px-2.5 justify-center sm:justify-start gap-1.5 data-[state=active]:bg-emerald-600 data-[state=active]:text-white shadow-none transition-all"
+                >
+                  <FileText className="h-3.5 w-3.5 shrink-0" />
+                  <span className="truncate">1. Checklist Hồ Sơ ({completedCount}/{totalItems})</span>
+                </TabsTrigger>
+                <TabsTrigger 
+                  value="risk" 
+                  className="rounded-lg text-xs font-medium py-2 px-2.5 justify-center sm:justify-start gap-1.5 data-[state=active]:bg-emerald-600 data-[state=active]:text-white shadow-none transition-all"
+                >
+                  <AlertTriangle className="h-3.5 w-3.5 shrink-0" />
+                  <span className="truncate">2. Tự Đánh Giá Rủi Ro ({totalRiskScore}đ)</span>
                 </TabsTrigger>
                 <TabsTrigger 
                   value="timeline" 
-                  className="rounded-lg text-xs font-medium py-2 px-3 justify-start gap-2 data-[state=active]:bg-blue-600 data-[state=active]:text-white shadow-none transition-all"
+                  className="rounded-lg text-xs font-medium py-2 px-2.5 justify-center sm:justify-start gap-1.5 data-[state=active]:bg-blue-600 data-[state=active]:text-white shadow-none transition-all"
                 >
                   <Clock className="h-3.5 w-3.5 shrink-0" />
                   <span className="truncate">3. Lộ Trình 30-15-7 Ngày</span>
+                </TabsTrigger>
+                <TabsTrigger 
+                  value="rights" 
+                  className="rounded-lg text-xs font-medium py-2 px-2.5 justify-center sm:justify-start gap-1.5 data-[state=active]:bg-purple-600 data-[state=active]:text-white shadow-none transition-all"
+                >
+                  <ShieldCheck className="h-3.5 w-3.5 shrink-0" />
+                  <span className="truncate">4. Quyền DN & Kỹ Năng Tiếp Đoàn</span>
+                </TabsTrigger>
+                <TabsTrigger 
+                  value="templates" 
+                  className="rounded-lg text-xs font-medium py-2 px-2.5 justify-center sm:justify-start gap-1.5 data-[state=active]:bg-purple-600 data-[state=active]:text-white shadow-none transition-all"
+                >
+                  <FileSpreadsheet className="h-3.5 w-3.5 shrink-0" />
+                  <span className="truncate">5. Mẫu giải trình ({AUDIT_TEMPLATES.length} mẫu)</span>
+                </TabsTrigger>
+                <TabsTrigger 
+                  value="ai-advisor" 
+                  className="rounded-lg text-xs font-medium py-2 px-2.5 justify-center sm:justify-start gap-1.5 data-[state=active]:bg-purple-600 data-[state=active]:text-white shadow-none transition-all"
+                >
+                  <Bot className="h-3.5 w-3.5 shrink-0 text-emerald-500 animate-pulse" />
+                  <span className="truncate">6. Trợ Lý AI Phản Biện (Gemini)</span>
+                </TabsTrigger>
+              </div>
+            </div>
+
+            {/* Hàng 2: Bàn làm việc số liệu, Nhật ký & Thư viện luật */}
+            <div className="w-full bg-muted/30 dark:bg-muted/10 rounded-xl p-2.5 border border-border/50">
+              <div className="flex items-center justify-between px-2 pb-2 text-[11px] font-bold text-foreground uppercase tracking-wider border-b border-border/40 mb-2">
+                <span className="flex items-center gap-1.5"><Scale className="h-3.5 w-3.5 text-emerald-600" /> Bàn Làm Việc Đối Soát Số Liệu, Nhật Ký Đoàn & Pháp Lý</span>
+                <span className="text-[10px] text-muted-foreground font-medium">3 công cụ tác nghiệp</span>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
+                <TabsTrigger 
+                  value="reconcile" 
+                  className="rounded-lg text-xs font-medium py-2 px-3 justify-start gap-2 data-[state=active]:bg-emerald-600 data-[state=active]:text-white shadow-none transition-all"
+                >
+                  <Scale className="h-3.5 w-3.5 shrink-0" />
+                  <span className="truncate">Đối chiếu sổ và nhập CSV</span>
                 </TabsTrigger>
                 <TabsTrigger 
                   value="evidence-log" 
@@ -464,74 +516,12 @@ Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết
                   <FolderArchive className="h-3.5 w-3.5 shrink-0" />
                   <span className="truncate">📁 Hồ Sơ & Sổ Đoàn Kiểm Tra</span>
                 </TabsTrigger>
-              </div>
-            </div>
-
-            {/* Cụm 2: Rà soát rủi ro & đối chiếu số liệu */}
-            <div className="bg-muted/40 dark:bg-muted/20 rounded-xl p-2.5 border border-border/60 space-y-1.5 flex flex-col justify-between">
-              <div className="flex items-center justify-between px-1 text-[11px] font-bold text-emerald-700 dark:text-emerald-400 uppercase tracking-wider">
-                <span className="flex items-center gap-1.5"><Scale className="h-3.5 w-3.5" /> 2. Rà Soát & Đối Chiếu</span>
-                <span className="text-[10px] text-muted-foreground font-medium">3 chức năng</span>
-              </div>
-              <div className="grid grid-cols-1 gap-1">
-                <TabsTrigger 
-                  value="checklist" 
-                  className="rounded-lg text-xs font-medium py-2 px-3 justify-start gap-2 data-[state=active]:bg-emerald-600 data-[state=active]:text-white shadow-none transition-all"
-                >
-                  <FileText className="h-3.5 w-3.5 shrink-0" />
-                  <span className="truncate">1. Checklist Hồ Sơ ({completedCount}/{totalItems})</span>
-                </TabsTrigger>
-                <TabsTrigger 
-                  value="risk" 
-                  className="rounded-lg text-xs font-medium py-2 px-3 justify-start gap-2 data-[state=active]:bg-emerald-600 data-[state=active]:text-white shadow-none transition-all"
-                >
-                  <AlertTriangle className="h-3.5 w-3.5 shrink-0" />
-                  <span className="truncate">2. Tự Đánh Giá Rủi Ro ({totalRiskScore}đ)</span>
-                </TabsTrigger>
-                <TabsTrigger 
-                  value="reconcile" 
-                  className="rounded-lg text-xs font-medium py-2 px-3 justify-start gap-2 data-[state=active]:bg-emerald-600 data-[state=active]:text-white shadow-none transition-all"
-                >
-                  <Scale className="h-3.5 w-3.5 shrink-0" />
-                  <span className="truncate">Đối chiếu sổ và nhập CSV</span>
-                </TabsTrigger>
-              </div>
-            </div>
-
-            {/* Cụm 3: Phòng thủ, mẫu biểu & pháp lý */}
-            <div className="bg-muted/40 dark:bg-muted/20 rounded-xl p-2.5 border border-border/60 space-y-1.5 flex flex-col justify-between">
-              <div className="flex items-center justify-between px-1 text-[11px] font-bold text-purple-700 dark:text-purple-400 uppercase tracking-wider">
-                <span className="flex items-center gap-1.5"><ShieldCheck className="h-3.5 w-3.5" /> 3. Phòng Thủ & Pháp Lý</span>
-                <span className="text-[10px] text-muted-foreground font-medium">4 chức năng</span>
-              </div>
-              <div className="grid grid-cols-2 gap-1">
-                <TabsTrigger 
-                  value="templates" 
-                  className="rounded-lg text-xs font-medium py-2 px-2 justify-start gap-1 data-[state=active]:bg-purple-600 data-[state=active]:text-white shadow-none transition-all"
-                >
-                  <FileSpreadsheet className="h-3.5 w-3.5 shrink-0" />
-                  <span className="truncate">5. Mẫu giải trình ({AUDIT_TEMPLATES.length} mẫu)</span>
-                </TabsTrigger>
-                <TabsTrigger 
-                  value="rights" 
-                  className="rounded-lg text-xs font-medium py-2 px-2 justify-start gap-1 data-[state=active]:bg-purple-600 data-[state=active]:text-white shadow-none transition-all"
-                >
-                  <ShieldCheck className="h-3.5 w-3.5 shrink-0" />
-                  <span className="truncate">4. Quyền DN & Kỹ Năng</span>
-                </TabsTrigger>
-                <TabsTrigger 
-                  value="ai-advisor" 
-                  className="rounded-lg text-xs font-medium py-2 px-2 justify-start gap-1 data-[state=active]:bg-purple-600 data-[state=active]:text-white shadow-none transition-all"
-                >
-                  <Bot className="h-3.5 w-3.5 shrink-0 text-emerald-500 animate-pulse" />
-                  <span className="truncate">6. Trợ Lý AI Phản Biện (Gemini)</span>
-                </TabsTrigger>
                 <TabsTrigger 
                   value="legal-corpus" 
-                  className="rounded-lg text-xs font-medium py-2 px-2 justify-start gap-1 data-[state=active]:bg-purple-600 data-[state=active]:text-white shadow-none transition-all"
+                  className="rounded-lg text-xs font-medium py-2 px-3 justify-start gap-2 data-[state=active]:bg-purple-600 data-[state=active]:text-white shadow-none transition-all"
                 >
                   <BookOpen className="h-3.5 w-3.5 shrink-0" />
-                  <span className="truncate">Kho luật bổ sung</span>
+                  <span className="truncate">Kho luật bổ sung (84 văn bản)</span>
                 </TabsTrigger>
               </div>
             </div>
@@ -1167,7 +1157,314 @@ Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết
         {/* ========================================================================= */}
         {/* TAB 4: QUYỀN DOANH NGHIỆP & KỸ NĂNG TIẾP ĐOÀN (NÂNG CẤP TOÀN DIỆN 8x8) */}
         {/* ========================================================================= */}
-        <TabsContent value="rights"><AuditHandoffGuide openWork={()=>setAuditTab('evidence-log')} openLaws={()=>setAuditTab('legal-corpus')}/></TabsContent>
+        <TabsContent value="rights" className="space-y-6">
+          <div className="bg-muted/30 border border-border rounded-2xl p-4 sm:p-6 space-y-2">
+            <div className="flex items-center gap-2 text-sm font-black text-foreground uppercase tracking-wide">
+              <ShieldCheck className="h-5 w-5 text-purple-600" />
+              <span>Cẩm Nang Pháp Lý & Kỹ Năng Thực Chiến Khi Tiếp Đoàn Thanh Tra / Kiểm Tra Thuế</span>
+            </div>
+            <p className="text-xs text-muted-foreground leading-relaxed">
+              Trang bị 8 quyền pháp lý tối thượng của người nộp thuế theo Luật Quản lý thuế số 38/2019/QH14 và 8 kỹ năng thực chiến đối thoại, đàm phán từng dòng bóc tách chi phí, lập sổ bàn giao chứng từ và xử lý khi bị ép ký biên bản bất lợi.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            {/* CỘT A: 8 QUYỀN PHÁP LÝ TỐI THƯỢNG CỦA DOANH NGHIỆP */}
+            <Card className="border-border shadow-xs">
+              <CardHeader className="bg-emerald-50/60 dark:bg-emerald-950/30 border-b border-border pb-4">
+                <CardTitle className="text-base flex items-center justify-between gap-2 text-emerald-900 dark:text-emerald-200">
+                  <div className="flex items-center gap-2">
+                    <Scale className="h-5 w-5 text-emerald-600" />
+                    <span>8 Quyền Pháp Lý Cốt Tử Của Doanh Nghiệp</span>
+                  </div>
+                  <Badge className="bg-emerald-600 text-white text-[10px]">Luật QLT 38/2019</Badge>
+                </CardTitle>
+                <CardDescription className="text-xs">
+                  Căn cứ Điều 16, 110, 111, 112 Luật Quản lý thuế — Bảo vệ doanh nghiệp trước các yêu cầu lạm quyền
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="p-5 space-y-4 text-xs">
+                {/* Quyền 1 */}
+                <div className="p-3.5 rounded-xl border border-border bg-card space-y-2">
+                  <div className="flex items-center justify-between gap-2 font-bold text-foreground">
+                    <span className="text-emerald-700 dark:text-emerald-300">1. Quyền nhận Quyết định kiểm tra trước tối thiểu 03 ngày làm việc:</span>
+                    <button 
+                      onClick={() => navigate('/thu-vien/luat-quan-ly-thue-2019?dieu=110')}
+                      className="text-[10px] text-emerald-600 hover:underline flex items-center gap-0.5 shrink-0 cursor-pointer"
+                    >
+                      Điều 110 K2 ↗
+                    </button>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Quyết định kiểm tra thuế phải được gửi cho doanh nghiệp trong thời hạn 03 ngày làm việc kể từ ngày ban hành.
+                  </p>
+                  <div className="text-[11px] bg-emerald-50/50 dark:bg-emerald-950/20 p-2 rounded-lg text-emerald-950 dark:text-emerald-200 font-medium">
+                    💡 <strong>Chiến thuật áp dụng:</strong> Nếu cơ quan thuế gửi thông báo sát ngày hoặc yêu cầu kiểm tra ngay, DN có quyền yêu cầu lùi ngày công bố để có đủ thời gian chuẩn bị hồ sơ theo quy định pháp luật.
+                  </div>
+                </div>
+
+                {/* Quyền 2 */}
+                <div className="p-3.5 rounded-xl border border-border bg-card space-y-2">
+                  <div className="flex items-center justify-between gap-2 font-bold text-foreground">
+                    <span className="text-emerald-700 dark:text-emerald-300">2. Quyền từ chối kiểm tra nếu Quyết định sai thẩm quyền:</span>
+                    <button 
+                      onClick={() => navigate('/thu-vien/luat-quan-ly-thue-2019?dieu=110')}
+                      className="text-[10px] text-emerald-600 hover:underline flex items-center gap-0.5 shrink-0 cursor-pointer"
+                    >
+                      Điều 110 K1 ↗
+                    </button>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Quyết định kiểm tra phải do Thủ trưởng cơ quan thuế (Cục trưởng hoặc Chi cục trưởng) ký ban hành, ghi rõ phạm vi, nội dung, thời kỳ kiểm tra và danh sách thành viên đoàn.
+                  </p>
+                  <div className="text-[11px] bg-emerald-50/50 dark:bg-emerald-950/20 p-2 rounded-lg text-emerald-950 dark:text-emerald-200 font-medium">
+                    💡 <strong>Chiến thuật áp dụng:</strong> Kiểm tra thẻ kiểm tra thuế và chức danh của từng cán bộ. DN có quyền từ chối làm việc với bất kỳ ai không có tên trong Quyết định kiểm tra thuế chính thức.
+                  </div>
+                </div>
+
+                {/* Quyền 3 */}
+                <div className="p-3.5 rounded-xl border border-border bg-card space-y-2">
+                  <div className="flex items-center justify-between gap-2 font-bold text-foreground">
+                    <span className="text-emerald-700 dark:text-emerald-300">3. Quyền từ chối cung cấp tài liệu ngoài phạm vi kiểm tra:</span>
+                    <button 
+                      onClick={() => navigate('/thu-vien/luat-quan-ly-thue-2019?dieu=111')}
+                      className="text-[10px] text-emerald-600 hover:underline flex items-center gap-0.5 shrink-0 cursor-pointer"
+                    >
+                      Điều 111 K1(b) ↗
+                    </button>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Người nộp thuế có quyền từ chối cung cấp thông tin, tài liệu không liên quan đến nội dung, phạm vi, thời kỳ kiểm tra ghi trong Quyết định kiểm tra thuế.
+                  </p>
+                  <div className="text-[11px] bg-emerald-50/50 dark:bg-emerald-950/20 p-2 rounded-lg text-emerald-950 dark:text-emerald-200 font-medium">
+                    💡 <strong>Chiến thuật áp dụng:</strong> Nếu đoàn kiểm tra năm 2024 mà đòi xem sổ sách 2025 hoặc tài liệu bí mật công nghệ, kế toán trưởng lịch sự từ chối bằng văn bản căn cứ Điều 111.
+                  </div>
+                </div>
+
+                {/* Quyền 4 */}
+                <div className="p-3.5 rounded-xl border border-border bg-card space-y-2">
+                  <div className="flex items-center justify-between gap-2 font-bold text-foreground">
+                    <span className="text-emerald-700 dark:text-emerald-300">4. Quyền giải trình bằng văn bản trước khi lập Biên bản kiểm tra:</span>
+                    <button 
+                      onClick={() => navigate('/thu-vien/luat-quan-ly-thue-2019?dieu=111')}
+                      className="text-[10px] text-emerald-600 hover:underline flex items-center gap-0.5 shrink-0 cursor-pointer"
+                    >
+                      Điều 111 K1(c) ↗
+                    </button>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Được quyền giải trình các vấn đề chưa thống nhất với đoàn kiểm tra trước khi trưởng đoàn công bố dự thảo và ký Biên bản kiểm tra thuế chính thức.
+                  </p>
+                  <div className="text-[11px] bg-emerald-50/50 dark:bg-emerald-950/20 p-2 rounded-lg text-emerald-950 dark:text-emerald-200 font-medium">
+                    💡 <strong>Chiến thuật áp dụng:</strong> Đòi đoàn cung cấp biên bản làm việc từng phần hoặc số liệu tạm tính trước 2 ngày. Nộp ngay Bản giải trình chính thức kèm trích dẫn văn bản quy phạm pháp luật để gỡ bỏ số thuế truy thu.
+                  </div>
+                </div>
+
+                {/* Quyền 5 */}
+                <div className="p-3.5 rounded-xl border border-border bg-card space-y-2">
+                  <div className="flex items-center justify-between gap-2 font-bold text-foreground">
+                    <span className="text-emerald-700 dark:text-emerald-300">5. Quyền ghi ý kiến bảo lưu vào Biên bản kiểm tra thuế:</span>
+                    <button 
+                      onClick={() => navigate('/thu-vien/luat-quan-ly-thue-2019?dieu=111')}
+                      className="text-[10px] text-emerald-600 hover:underline flex items-center gap-0.5 shrink-0 cursor-pointer"
+                    >
+                      Điều 111 K1(d) ↗
+                    </button>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Được quyền bảo lưu ý kiến trong biên bản kiểm tra thuế nếu không thống nhất với ý kiến hoặc kết luận của đoàn kiểm tra.
+                  </p>
+                  <div className="text-[11px] bg-emerald-50/50 dark:bg-emerald-950/20 p-2 rounded-lg text-emerald-950 dark:text-emerald-200 font-medium">
+                    💡 <strong>Chiến thuật áp dụng:</strong> Tuyệt đối không ký đồng ý vào các kết luận vô căn cứ. Việc ghi ý kiến bảo lưu chuẩn mực pháp lý vào biên bản là điều kiện bắt buộc để khiếu nại thành công sau này.
+                  </div>
+                </div>
+
+                {/* Quyền 6 */}
+                <div className="p-3.5 rounded-xl border border-border bg-card space-y-2">
+                  <div className="flex items-center justify-between gap-2 font-bold text-foreground">
+                    <span className="text-emerald-700 dark:text-emerald-300">6. Quyền khiếu nại Quyết định xử lý về thuế trong 90 ngày:</span>
+                    <button 
+                      onClick={() => navigate('/thu-vien/luat-quan-ly-thue-2019?dieu=112')}
+                      className="text-[10px] text-emerald-600 hover:underline flex items-center gap-0.5 shrink-0 cursor-pointer"
+                    >
+                      Điều 112 ↗
+                    </button>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Thời hiệu khiếu nại là 90 ngày kể từ ngày nhận được Quyết định xử lý về thuế hoặc Quyết định xử phạt vi phạm hành chính (Luật Khiếu nại 2011 & Luật QLT).
+                  </p>
+                  <div className="text-[11px] bg-emerald-50/50 dark:bg-emerald-950/20 p-2 rounded-lg text-emerald-950 dark:text-emerald-200 font-medium">
+                    💡 <strong>Chiến thuật áp dụng:</strong> Doanh nghiệp vẫn thực hiện nộp số tiền thuế truy thu để tránh bị cưỡng chế hóa đơn, đồng thời gửi Đơn khiếu nại lên Cục Thuế/Tổng cục Thuế để đòi lại quyền lợi chính đáng.
+                  </div>
+                </div>
+
+                {/* Quyền 7 */}
+                <div className="p-3.5 rounded-xl border border-border bg-card space-y-2">
+                  <div className="flex items-center justify-between gap-2 font-bold text-foreground">
+                    <span className="text-emerald-700 dark:text-emerald-300">7. Quyền khởi kiện ra Tòa án Hành chính trong thời hạn 01 năm:</span>
+                    <button 
+                      onClick={() => navigate('/thu-vien/luat-quan-ly-thue-2019?dieu=16')}
+                      className="text-[10px] text-emerald-600 hover:underline flex items-center gap-0.5 shrink-0 cursor-pointer"
+                    >
+                      Điều 16 K10 ↗
+                    </button>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Theo Luật Tố tụng Hành chính 2015, DN có quyền khởi kiện trực tiếp Quyết định xử lý của Cục Thuế ra Tòa án nhân dân tỉnh Gia Lai mà không bắt buộc phải qua bước khiếu nại lần hai lên Tổng cục Thuế.
+                  </p>
+                  <div className="text-[11px] bg-emerald-50/50 dark:bg-emerald-950/20 p-2 rounded-lg text-emerald-950 dark:text-emerald-200 font-medium">
+                    💡 <strong>Chiến thuật áp dụng:</strong> Sử dụng hồ sơ thực tế (hợp đồng nghiệm thu công trình, phiếu cân trạm cân mỏ đá, định mức sản xuất) làm chứng cứ hủy bỏ quyết định truy thu trái luật.
+                  </div>
+                </div>
+
+                {/* Quyền 8 */}
+                <div className="p-3.5 rounded-xl border border-border bg-card space-y-2">
+                  <div className="flex items-center justify-between gap-2 font-bold text-foreground">
+                    <span className="text-emerald-700 dark:text-emerald-300">8. Quyền yêu cầu bồi thường thiệt hại do CQT gây ra:</span>
+                    <button 
+                      onClick={() => navigate('/thu-vien/luat-quan-ly-thue-2019?dieu=16')}
+                      className="text-[10px] text-emerald-600 hover:underline flex items-center gap-0.5 shrink-0 cursor-pointer"
+                    >
+                      Điều 16 K11 ↗
+                    </button>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Được bồi thường thiệt hại do cơ quan quản lý thuế, công chức quản lý thuế gây ra theo quy định của Luật Trách nhiệm bồi thường của Nhà nước.
+                  </p>
+                  <div className="text-[11px] bg-emerald-50/50 dark:bg-emerald-950/20 p-2 rounded-lg text-emerald-950 dark:text-emerald-200 font-medium">
+                    💡 <strong>Chiến thuật áp dụng:</strong> Lưu giữ toàn bộ thiệt hại về tiền lãi ngân hàng, chi phí đình trệ thi công hoặc tổn thất do bị phong tỏa tài khoản trái quy định để làm căn cứ khởi kiện bồi thường.
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* CỘT B: 8 KỸ NĂNG THỰC CHIẾN TIẾP ĐOÀN KIỂM TRA THUẾ */}
+            <Card className="border-border shadow-xs">
+              <CardHeader className="bg-blue-50/60 dark:bg-blue-950/30 border-b border-border pb-4">
+                <CardTitle className="text-base flex items-center justify-between gap-2 text-blue-900 dark:text-blue-200">
+                  <div className="flex items-center gap-2">
+                    <Sparkles className="h-5 w-5 text-blue-600" />
+                    <span>8 Kỹ Năng Thực Chiến Khi Làm Việc Với Đoàn Thuế</span>
+                  </div>
+                  <Badge className="bg-blue-600 text-white text-[10px]">Thực Chiến Kiểu Việt</Badge>
+                </CardTitle>
+                <CardDescription className="text-xs">
+                  Kinh nghiệm xử lý thực tiễn giúp hạn chế tối đa số tiền bị truy thu, phạt và xuất toán chi phí
+                </CardDescription>
+              </CardHeader>
+              <CardContent className="p-5 space-y-4 text-xs">
+                {/* Kỹ năng 1 */}
+                <div className="p-3.5 rounded-xl border border-border bg-card space-y-2">
+                  <div className="font-bold text-foreground text-blue-700 dark:text-blue-300">
+                    1. Nguyên tắc sống còn: "Hỏi gì đáp nấy, đòi gì cung cấp nấy":
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Tuyệt đối không tự ý cung cấp thêm tài liệu, file Excel nháp hoặc sổ sách không được yêu cầu trong Phiếu yêu cầu. Chỉ cung cấp tài liệu chính thức có ký tên đóng dấu.
+                  </p>
+                  <div className="text-[11px] bg-blue-50/50 dark:bg-blue-950/20 p-2 rounded-lg text-blue-950 dark:text-blue-200 font-medium">
+                    🎯 <strong>Lưu ý:</strong> Không bao giờ copy toàn bộ thư mục máy tính cho kiểm tra viên. Mỗi tài liệu giao nộp phải được chọn lọc và kiểm duyệt trước.
+                  </div>
+                </div>
+
+                {/* Kỹ năng 2 */}
+                <div className="p-3.5 rounded-xl border border-border bg-card space-y-2">
+                  <div className="font-bold text-foreground text-blue-700 dark:text-blue-300">
+                    2. Kỹ thuật đồng bộ hóa bộ chứng từ 3 bên khép kín:
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Với công trình xây dựng: Hợp đồng kinh tế ➔ Nhật ký thi công/Lệnh sản xuất ➔ Biên bản nghiệm thu A-B ➔ Hóa đơn điện tử ➔ Chứng từ ngân hàng (UNC).
+                  </p>
+                  <div className="text-[11px] bg-blue-50/50 dark:bg-blue-950/20 p-2 rounded-lg text-blue-950 dark:text-blue-200 font-medium">
+                    🎯 <strong>Lưu ý:</strong> Kiểm tra tính logic về thời gian: Ngày xuất hóa đơn không được trước ngày ký nghiệm thu khối lượng hoàn thành.
+                  </div>
+                </div>
+
+                {/* Kỹ năng 3 */}
+                <div className="p-3.5 rounded-xl border border-border bg-card space-y-2">
+                  <div className="font-bold text-foreground text-blue-700 dark:text-blue-300">
+                    3. Cơ chế một đầu mối phát ngôn duy nhất:
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Chỉ định Kế toán trưởng chủ trì làm việc trực tiếp với Trưởng đoàn. Các nhân viên kế toán phần hành, thủ kho, nhân sự không trực tiếp giải trình các nội dung ngoài thẩm quyền để tránh xung đột thông tin.
+                  </p>
+                  <div className="text-[11px] bg-blue-50/50 dark:bg-blue-950/20 p-2 rounded-lg text-blue-950 dark:text-blue-200 font-medium">
+                    🎯 <strong>Lưu ý:</strong> Mọi câu trả lời chất vấn về số liệu kế toán phải được thống nhất trước, không phỏng đoán số liệu trước mặt đoàn.
+                  </div>
+                </div>
+
+                {/* Kỹ năng 4 */}
+                <div className="p-3.5 rounded-xl border border-border bg-card space-y-2">
+                  <div className="font-bold text-foreground text-blue-700 dark:text-blue-300">
+                    4. Chủ động nộp bổ sung Mẫu 01/KHBS trước ngày công bố quyết định:
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Nếu tự phát hiện sai sót và nộp tờ khai bổ sung trước thời điểm cơ quan thuế công bố quyết định kiểm tra: <strong>không bị phạt 20% khai sai</strong> (Điều 142 Luật QLT), chỉ phải nộp tiền chậm nộp 0.03%/ngày.
+                  </p>
+                  <div className="text-[11px] bg-blue-50/50 dark:bg-blue-950/20 p-2 rounded-lg text-blue-950 dark:text-blue-200 font-medium">
+                    🎯 <strong>Lưu ý:</strong> Tận dụng triệt để khoảng thời gian từ khi nhận quyết định (trước 03 ngày làm việc) đến ngày công bố để rà soát và nộp bổ sung ngay các sai lệch rõ ràng.
+                  </div>
+                </div>
+
+                {/* Kỹ năng 5 */}
+                <div className="p-3.5 rounded-xl border border-border bg-card space-y-2">
+                  <div className="font-bold text-foreground text-blue-700 dark:text-blue-300">
+                    5. Chiến thuật đàm phán 3 nhóm bóc tách chi phí:
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Phân loại các khoản đoàn dự kiến xuất toán thành 3 nhóm: (1) Nhóm kiên quyết giữ: đầy đủ chứng từ, luật rõ ràng; (2) Nhóm thương lượng 50/50: thiếu sót nhỏ về hình thức; (3) Nhóm chủ động chấp nhận loại: chi phí nhạy cảm, thiếu hồ sơ gốc.
+                  </p>
+                  <div className="text-[11px] bg-blue-50/50 dark:bg-blue-950/20 p-2 rounded-lg text-blue-950 dark:text-blue-200 font-medium">
+                    🎯 <strong>Lưu ý:</strong> Chủ động nhượng bộ ở nhóm 3 để giữ vững các khoản chi phí lớn có giá trị hàng trăm triệu ở nhóm 1.
+                  </div>
+                </div>
+
+                {/* Kỹ năng 6 */}
+                <div className="p-3.5 rounded-xl border border-border bg-card space-y-2">
+                  <div className="font-bold text-foreground text-blue-700 dark:text-blue-300">
+                    6. Lập Sổ giao nhận hồ sơ có ký nhận của kiểm tra viên:
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Mọi hồ sơ, tài liệu gốc giao cho đoàn kiểm tra phải có Phiếu giao nhận tài liệu có chữ ký của cán bộ nhận, ghi rõ tên tài liệu, số lượng bản, ngày nhận và thời hạn trả.
+                  </p>
+                  <div className="text-[11px] bg-blue-50/50 dark:bg-blue-950/20 p-2 rounded-lg text-blue-950 dark:text-blue-200 font-medium">
+                    🎯 <strong>Lưu ý:</strong> Tuyệt đối không để kiểm tra viên tự ý mang chứng từ gốc ra khỏi trụ sở công ty mà không có văn bản biên nhận theo quy định.
+                  </div>
+                </div>
+
+                {/* Kỹ năng 7 */}
+                <div className="p-3.5 rounded-xl border border-border bg-card space-y-2">
+                  <div className="font-bold text-foreground text-blue-700 dark:text-blue-300">
+                    7. Kỹ thuật viết ý kiến bảo lưu chuẩn mực pháp lý:
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Nếu không đồng ý với biên bản kiểm tra, ghi ngắn gọn, đanh thép: "Công ty bảo lưu ý kiến đối với khoản xuất toán chi phí X giá trị Y triệu đồng căn cứ theo Điều... Thông tư... và sẽ gửi văn bản giải trình chi tiết trong thời hạn luật định."
+                  </p>
+                  <div className="text-[11px] bg-blue-50/50 dark:bg-blue-950/20 p-2 rounded-lg text-blue-950 dark:text-blue-200 font-medium">
+                    🎯 <strong>Lưu ý:</strong> Không dùng từ ngữ cảm tính xúc phạm; lập luận chắc chắn dựa trên đúng số điều, khoản của văn bản quy phạm pháp luật hiện hành.
+                  </div>
+                </div>
+
+                {/* Kỹ năng 8 */}
+                <div className="p-3.5 rounded-xl border border-border bg-card space-y-2">
+                  <div className="font-bold text-foreground text-blue-700 dark:text-blue-300">
+                    8. Bố trí phòng tiếp đoàn cách ly và bảo mật mạng máy tính:
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Bố trí phòng họp riêng có khóa cửa, trang bị máy in, máy photo, đường mạng internet riêng biệt (Wifi khách không kết nối mạng LAN nội bộ công ty). Khóa toàn bộ các phòng kế toán và kho tài liệu khác.
+                  </p>
+                  <div className="text-[11px] bg-blue-50/50 dark:bg-blue-950/20 p-2 rounded-lg text-blue-950 dark:text-blue-200 font-medium">
+                    🎯 <strong>Lưu ý:</strong> Phân công 01 nhân sự lễ tân phục vụ nước uống, văn phòng phẩm chu đáo, tạo tâm lý làm việc thoải mái, xây dựng quan hệ hợp tác tôn trọng lẫn nhau.
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        
+          {/* QUY TRÌNH 4 BƯỚC BÀN GIAO CA & XỬ LÝ TÀI LIỆU MẬT */}
+          <div className="pt-4 border-t border-border">
+            <AuditHandoffGuide openWork={()=>setAuditTab('evidence-log')} openLaws={()=>setAuditTab('legal-corpus')}/>
+          </div>
+        </TabsContent>
 
 
         {/* ========================================================================= */}
@@ -1188,8 +1485,8 @@ Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết
             {/* Sidebar danh sách 8 mẫu biểu */}
             <div className="lg:col-span-4 space-y-2.5">
               <div className="text-xs font-bold text-muted-foreground uppercase px-1 mb-2 flex items-center justify-between">
-                <span>Danh mục 8 biểu mẫu giải trình:</span>
-                <Badge variant="outline" className="text-[10px]">8/8 Chuẩn hoá</Badge>
+                <span>Danh mục {AUDIT_TEMPLATES.length} biểu mẫu giải trình:</span>
+                <Badge variant="outline" className="text-[10px]">{AUDIT_TEMPLATES.length}/{AUDIT_TEMPLATES.length} Chuẩn hoá</Badge>
               </div>
               {AUDIT_TEMPLATES.map((tmpl) => {
                 const isSelected = tmpl.id === selectedTemplateId;
