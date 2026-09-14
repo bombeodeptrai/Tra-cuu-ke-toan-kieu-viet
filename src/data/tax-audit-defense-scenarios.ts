@@ -1,6 +1,6 @@
 // 15 Kịch Bản Phản Biện Thực Chiến & Kho Tri Thức Đối Đáp Thanh Tra Thuế Kiểu Việt
 // Doanh nghiệp: CÔNG TY CỔ PHẦN KIỂU VIỆT (Gia Lai)
-// Nội thất gỗ — Bê tông thương phẩm — Khai thác mỏ đá — Thi công hạ tầng xây lắp
+// Cung cấp lời thoại đối thoại đanh thép, trích dẫn căn cứ điều luật và hướng dẫn điền số liệu thực tế trong ngoặc vuông
 
 export interface DefenseScenario {
   id: string;
@@ -37,7 +37,7 @@ export const DEFENSE_SCENARIOS: DefenseScenario[] = [
       "Lệnh sản xuất xưởng mộc, Phiếu xuất kho nguyên liệu gỗ xẻ TK 152 và Thẻ tính giá thành sản phẩm TK 154/155.",
       "Bảng tổng hợp nhập - xuất phế liệu mùn cưa và 12 hóa đơn GTGT xuất bán phế liệu thu hồi ghi nhận TK 711."
     ],
-    "dialogueScript": "Thưa Trưởng đoàn, căn cứ Khoản 2.3 Điều 4 Thông tư 96/2015/TT-BTC, định mức vật tư do DN tự ban hành và chịu trách nhiệm. Kiểu Việt sản xuất nội thất mỹ nghệ cao cấp từ gỗ tự nhiên nguyên khối, không phải gỗ công nghiệp cắt phẳng đại trà. Định mức này đã được Tổng Giám đốc duyệt từ ngày 05/01/2024 trước khi sản xuất. Hơn nữa, toàn bộ phế liệu mùn cưa thu hồi chúng tôi đều xuất hóa đơn bán thu tiền và đã kê khai nộp thuế TNDN trên TK 711 đầy đủ, không hề làm giảm nghĩa vụ thuế đối với Nhà nước."
+    "dialogueScript": "Thưa Trưởng đoàn, căn cứ Khoản 2.3 Điều 4 Thông tư 96/2015/TT-BTC, định mức vật tư do doanh nghiệp tự xây dựng, ban hành và chịu trách nhiệm. Kiểu Việt sản xuất nội thất mỹ nghệ cao cấp từ gỗ tự nhiên nguyên khối theo thiết kế riêng [nêu tên đơn hàng/sản phẩm, ví dụ: bàn họp oval, vách ốp cong...], không phải gỗ công nghiệp cắt phẳng đại trà. Định mức hao hụt [điền tỷ lệ theo QĐ nội bộ, ví dụ: 20.6%] đã được Tổng Giám đốc duyệt tại Quyết định số [điền số QĐ định mức ban hành từ đầu năm] trước khi sản xuất. Hơn nữa, toàn bộ phế liệu mùn cưa thu hồi chúng tôi đều xuất hóa đơn bán thu tiền và đã kê khai nộp thuế TNDN trên TK 711 đầy đủ [dẫn chứng số tiền và hóa đơn xuất bán phế liệu], không hề làm giảm nghĩa vụ thuế đối với Nhà nước."
   },
   {
     "id": "kb-02",
@@ -59,7 +59,7 @@ export const DEFENSE_SCENARIOS: DefenseScenario[] = [
       "Giấy chứng nhận kiểm định trạm cân điện tử tự động của Chi cục Tiêu chuẩn Đo lường Chất lượng Gia Lai.",
       "Phiếu giao nhận bê tông thương phẩm ký nhận tại chân công trình và Phiếu kết quả thử nghiệm nén mẫu R28."
     ],
-    "dialogueScript": "Thưa Đoàn kiểm tra, tỷ lệ hao hụt bê tông 2.0% của chúng tôi nằm hoàn toàn trong khung cho phép 1.5% - 2.5% theo Thông tư 12/2021/TT-BXD của Bộ Xây dựng. Địa bàn Gia Lai đường đồi dốc, cự ly vận chuyển xa nên dính bám thùng quay là yếu tố bất khả kháng. Đặc biệt, kết quả nén mẫu R28 độc lập của Trung tâm Kiểm định Gia Lai cho thấy 100% mẻ đổ đều đạt và vượt mác, chứng minh chúng tôi dùng đủ xi măng cốt liệu thật, kính đề nghị đoàn không xuất toán khoản này."
+    "dialogueScript": "Thưa Trưởng đoàn, cấp phối bê tông trạm trộn Kiểu Việt tuân thủ 100% theo Thiết kế cấp phối của Phòng thí nghiệm LAS-XD. Theo Bảng 2 Phụ lục II Thông tư 12/2021/TT-BXD của Bộ Xây dựng, định mức hao hụt vận chuyển xe bồn và bơm cần cho phép từ 1.5% đến 2.5%. Với địa hình đồi dốc Gia Lai cự ly vận chuyển [điền cự ly thực tế, ví dụ: 25km], mức hao hụt [điền mức hao hụt đăng ký, ví dụ: 2.0%] là hoàn toàn phù hợp. Toàn bộ mẻ trộn đều có kết quả nén mẫu R28 đạt chuẩn mác thiết kế và nhật ký mẻ trộn PLC tự động của trạm cân điện tử đã kiểm định."
   },
   {
     "id": "kb-03",
@@ -81,7 +81,7 @@ export const DEFENSE_SCENARIOS: DefenseScenario[] = [
       "Bảng tính chi tiết giá vốn trích trước theo dự toán kỹ thuật tương ứng khối lượng đã bàn giao.",
       "Hóa đơn điện tử của thầu phụ phát hành trước ngày 31/03 năm tiếp theo và Ủy nhiệm chi thanh toán qua ngân hàng."
     ],
-    "dialogueScript": "Kính thưa Trưởng đoàn, theo Điểm 2.20 Khoản 2 Điều 4 Thông tư 96/2015/TT-BTC, hoạt động xây dựng đã ghi nhận doanh thu thì bắt buộc phải trích trước giá vốn tương ứng. Chúng tôi đã kê khai toàn bộ 16.8 tỷ doanh thu của 2 công trình này vào năm 2024. Đồng thời, toàn bộ 3 nhà thầu phụ đã xuất hóa đơn cho Kiểu Việt trước ngày 31/03/2025, trước khi nộp tờ khai quyết toán thuế TNDN. Đây là chi phí thực tế có đầy đủ hóa đơn, chứng từ thanh toán ngân hàng, kính đề nghị Đoàn công nhận chi phí được trừ theo đúng quy định."
+    "dialogueScript": "Thưa Đoàn kiểm tra, căn cứ Điều 4 Thông tư 96/2015/TT-BTC và chuẩn mực kế toán số 01 (Cơ sở dồn tích), công trình [điền tên công trình/gói thầu đã bàn giao] đã nghiệm thu bàn giao đưa vào sử dụng trong năm tài chính và đã ghi nhận doanh thu tính thuế TNDN. Các khoản chi phí thầu phụ [điền tên hạng mục trích trước, ví dụ: thí nghiệm nén mẫu, gia cố hố móng...] đã có khối lượng thực tế và hợp đồng kinh tế ký kết trước ngày 31/12. Doanh nghiệp đã nhận đủ hóa đơn tài chính của nhà thầu phụ trước thời điểm lập hồ sơ quyết toán thuế TNDN, do đó hoàn toàn đủ điều kiện tính vào giá vốn được trừ năm tài chính."
   },
   {
     "id": "kb-04",
@@ -103,7 +103,7 @@ export const DEFENSE_SCENARIOS: DefenseScenario[] = [
       "Bảng tra cứu mã số thuế cá nhân của 32 lao động trên hệ thống Thuế điện tử trước ngày ký cam kết.",
       "Bảng chấm công, Bảng thanh toán tiền lương có chữ ký nhận tiền thực tế của người lao động và Phụ lục 05-2/BK-QTT-TNCN."
     ],
-    "dialogueScript": "Thưa Đoàn kiểm tra, căn cứ Điểm i Khoản 1 Điều 25 Thông tư 111/2013/TT-BTC, doanh nghiệp căn cứ vào Cam kết Mẫu 08/CK-TNCN của người lao động để tạm thời chưa khấu trừ 10% thuế TNCN. Toàn bộ 32 lao động này đều có MST cá nhân hợp lệ trước ngày ký cam kết, có CCCD đầy đủ và Kiểu Việt đã kê khai quyết toán minh bạch trên phụ lục 05-2/BK. Người lao động chịu trách nhiệm trước pháp luật về tính trung thực của cam kết. Doanh nghiệp thực hiện đúng vai trò tổ chức chi trả theo luật định, không có căn cứ để truy thu thuế TNCN đối với doanh nghiệp."
+    "dialogueScript": "Thưa Trưởng đoàn, đối với lao động thời vụ bốc xếp gỗ và phụ trạm trộn dưới 3 tháng, căn cứ Điểm i Khoản 1 Điều 25 Thông tư 111/2013/TT-BTC sửa đổi bởi Thông tư 92/2015/TT-BTC, người lao động có duy nhất một nguồn thu nhập và ước tính tổng thu nhập chưa đến mức chịu thuế đã lập Bản cam kết Mẫu số 08/CK-TNCN kèm theo bản photo Căn cước công dân và mã số thuế cá nhân đã đăng ký. Doanh nghiệp căn cứ bản cam kết này để tạm thời không khấu trừ 10% thuế TNCN theo đúng quy định pháp luật."
   },
   {
     "id": "kb-05",
@@ -125,7 +125,7 @@ export const DEFENSE_SCENARIOS: DefenseScenario[] = [
       "Bảng tính EBITDA chi tiết theo công thức Điều 16 NĐ 132/2020: Lợi nhuận thuần HĐKD + Chi phí lãi vay + Khấu hao TSCĐ.",
       "Phụ lục kê khai giao dịch liên kết Mẫu 01 ban hành kèm theo Nghị định 132/2020/NĐ-CP."
     ],
-    "dialogueScript": "Thưa Đoàn kiểm tra, chúng tôi thống nhất quan điểm xác định giao dịch liên kết theo Nghị định 132/2020/NĐ-CP. Tuy nhiên, căn cứ Điểm b Khoản 3 Điều 16 Nghị định 132/2020/NĐ-CP, phần chi phí lãi vay không được trừ vượt trần 30% EBITDA được chuyển sang kỳ tính thuế tiếp theo khi xác định tổng chi phí lãi vay được trừ của 5 năm liên tục tiếp theo. Kính đề nghị Đoàn kiểm tra ghi nhận số liệu 650 triệu này vào mục chi phí lãi vay được chuyển tiếp sang các năm sau, không ấn định xem đây là khoản chi phí bị xuất toán vĩnh viễn."
+    "dialogueScript": "Thưa Đoàn kiểm tra, căn cứ Nghị định 132/2020/NĐ-CP, mức khống chế trần 30% EBITDA của Kiểu Việt trong năm là [điền số tiền mức trần 30% EBITDA, ví dụ: 2.25 tỷ đồng], trong khi tổng chi phí lãi vay thực tế phát sinh trên TK 635 chỉ là [điền số chi phí lãi vay thực tế, ví dụ: 1.85 tỷ đồng], hoàn toàn thấp hơn mức trần quy định. Đối với khoản mượn vốn của cá nhân Giám đốc, Công ty mượn với lãi suất 0% phục vụ trực tiếp vốn lưu động, không làm phát sinh bất kỳ khoản chi phí lãi vay nào tính vào chi phí được trừ, nên không làm thất thoát thuế của Nhà nước."
   },
   {
     "id": "kb-06",
@@ -147,7 +147,7 @@ export const DEFENSE_SCENARIOS: DefenseScenario[] = [
       "Tờ khai thuế GTGT Mẫu 05/GTGT đã nộp thành công qua mạng cho Cục Thuế tỉnh Kon Tum.",
       "Bảng kê chứng từ nộp thuế vãng lai ngoại tỉnh đối chiếu khớp đúng với Chỉ tiêu [39] trên Tờ khai 01/GTGT tại Gia Lai."
     ],
-    "dialogueScript": "Kính thưa Trưởng đoàn, căn cứ Điều 13 Thông tư 80/2021/TT-BTC, khoản thuế 54 triệu nộp tại Kon Tum là hoạt động xây lắp độc lập, có Giấy nộp tiền KBNN đầy đủ và chúng tôi bù trừ chỉ tiêu [39] tại Gia Lai là hoàn toàn chuẩn xác theo mẫu biểu của Bộ Tài chính. Còn dự án nội thất Đắk Lắk là hàng hóa đóng sẵn tại xưởng Gia Lai đem giao, toàn bộ tiền thuế GTGT đã nộp đủ 100% cho Cục Thuế Gia Lai chúng ta, không gây thất thoát bất kỳ đồng thuế nào cho tỉnh nhà."
+    "dialogueScript": "Thưa Trưởng đoàn, căn cứ Điểm c Khoản 1 Điều 13 Thông tư 80/2021/TT-BTC, hoạt động thi công lắp đặt nội thất tại công trình ngoại tỉnh [điền tên tỉnh nơi thi công, ví dụ: Kon Tum / Đắk Lắk] đã được Công ty Kiểu Việt kê khai và nộp 1% thuế GTGT vãng lai vào Kho bạc Nhà nước sở tại theo Giấy nộp tiền số [điền số giấy nộp tiền ngân sách]. Khi kê khai thuế GTGT tại Cục Thuế Gia Lai, Công ty đã bù trừ số thuế đã nộp vãng lai theo Phụ lục 01-2/GTGT đúng luật định, không có hành vi trốn thuế hay nộp thiếu ngân sách."
   },
   {
     "id": "kb-07",
@@ -169,7 +169,7 @@ export const DEFENSE_SCENARIOS: DefenseScenario[] = [
       "Hợp đồng mua bán nguyên vật liệu, Phiếu cân trạm cân điện tử, Phiếu nhập kho TK 152 và Nhật ký công trình sử dụng vật tư.",
       "Chứng từ thanh toán qua ngân hàng (Ủy nhiệm chi, Sổ phụ ngân hàng có dấu xác nhận) vào đúng số tài khoản bên bán đăng ký với cơ quan thuế."
     ],
-    "dialogueScript": "Thưa Đoàn kiểm tra, căn cứ Công văn 1798/TCT-TTKT của Tổng cục Thuế, tại thời điểm xuất hóa đơn năm 2024, nhà cung cấp hoàn toàn hoạt động bình thường và hóa đơn đã được cấp mã xác thực hợp lệ trên cổng hóa đơn điện tử quốc gia. Việc họ ngừng hoạt động vào cuối năm 2025 là việc phát sinh sau đó mà bên mua không thể biết trước. Kiểu Việt có đầy đủ Phiếu cân trạm cân, Phiếu nhập kho và toàn bộ số cát đá này đã đổ vào mố cầu công trình giao thông có biên bản nghiệm thu A-B, thanh toán 100% qua ngân hàng. Kính đề nghị đoàn kiểm tra xác nhận giao dịch có thật và chấp nhận chi phí theo quy định."
+    "dialogueScript": "Thưa Đoàn kiểm tra, tại thời điểm Kiểu Việt ký hợp đồng và tiếp nhận hóa đơn GTGT mua vật tư [điền loại vật tư, ví dụ: cát sỏi, phụ gia...], doanh nghiệp bên bán hoàn toàn đang hoạt động bình thường trên Cổng thông tin Tổng cục Thuế, hóa đơn điện tử có mã hợp lệ. Chúng tôi có đầy đủ Hợp đồng kinh tế, Biên bản giao nhận tại công trường, Phiếu cân xe tải và 100% tiền hàng đều thanh toán qua chuyển khoản ngân hàng BIDV sang tài khoản của bên bán theo đúng Điều 15 Thông tư 219/2013/TT-BTC. Nghiệp vụ mua bán là hoàn toàn có thật và hợp pháp."
   },
   {
     "id": "kb-08",
@@ -191,7 +191,7 @@ export const DEFENSE_SCENARIOS: DefenseScenario[] = [
       "Thuyết minh Dự án đầu tư xây dựng công trình khai thác mỏ đá có chương về Hệ số nở rời của đá.",
       "Biên bản nộp Tờ khai 01/TAIN, 01/PBVMT và Giấy nộp tiền thuế tài nguyên, phí BVMT tại KBNN Ia Grai."
     ],
-    "dialogueScript": "Kính thưa Đoàn kiểm tra, đá nguyên khối trong lòng núi khi nổ mìn đập vỡ thành đá dăm 1x2, 2x4 sẽ tạo ra các khe hở giữa các hạt cốt liệu, làm tăng thể tích đo được. Đó là định luật vật lý cơ mỏ và hệ số nở rời k = 1.244 hoàn toàn nằm trong thiết kế kỹ thuật mỏ được Sở Xây dựng Gia Lai thẩm định (k = 1.20 - 1.35). Chúng tôi đã kê khai nộp thuế tài nguyên theo đúng 112.500 m³ đá nguyên khai theo Quyết định 87/2025/QĐ-UBND của tỉnh, truyền camera và dữ liệu trạm cân về Sở TN&MT 24/24. Kính đề nghị Đoàn ghi nhận tính chính xác và khoa học của số liệu."
+    "dialogueScript": "Thưa Trưởng đoàn, mỏ đá Kiểu Việt kê khai thuế tài nguyên và phí bảo vệ môi trường căn cứ vào Sản lượng đá nguyên khai khai thác thực tế đo đạc theo Thiết kế khai thác mỏ và Nhật ký nổ mìn có xác nhận của Chỉ huy nổ mìn và Sở Tài nguyên Môi trường. Đá sau nổ mìn đưa qua dây chuyền nghiền sàng tạo ra đá dăm 1x2, đá 2x4, đá mi có hệ số nở rời [điền hệ số chuyển đổi, ví dụ: 1.25]. Doanh nghiệp nộp thuế tài nguyên trên khối lượng đá nguyên khai theo đúng Luật Thuế tài nguyên và bảng giá tính thuế tài nguyên của UBND tỉnh Gia Lai."
   },
   {
     "id": "kb-09",
