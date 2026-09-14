@@ -10,8 +10,9 @@ async function testGuidePage() {
   });
   page.on('pageerror', err => errors.push(err.message));
 
-  console.log('Navigating to Guide page...');
-  await page.goto('http://127.0.0.1:5174/Tra-cuu-ke-toan-kieu-viet/#/huong-dan', { waitUntil: 'networkidle2', timeout: 30000 });
+  const targetUrl = process.argv[2] || 'http://127.0.0.1:5174/Tra-cuu-ke-toan-kieu-viet/#/huong-dan';
+  console.log('Navigating to Guide page at:', targetUrl);
+  await page.goto(targetUrl, { waitUntil: 'networkidle2', timeout: 45000 });
 
   // Check title or header
   const title = await page.title();
