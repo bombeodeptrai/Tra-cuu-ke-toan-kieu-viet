@@ -3,6 +3,7 @@ const puppeteer = require('puppeteer');
 async function testGuidePage() {
   const browser = await puppeteer.launch({ headless: 'new', args: ['--no-sandbox', '--disable-setuid-sandbox'] });
   const page = await browser.newPage();
+  await page.setCacheEnabled(false);
   
   const errors = [];
   page.on('console', msg => {

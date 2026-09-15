@@ -12,7 +12,8 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
+import { AuditIssueDesk } from '@/components/tax-audit/AuditIssueDesk';
 import { 
   TAX_AUDIT_GROUPS, 
   RISK_QUESTIONS, 
@@ -40,8 +41,23 @@ const STORAGE_KEY_ITEMS = 'kv_tax_audit_checked_items';
 const STORAGE_KEY_RISK = 'kv_tax_audit_risk_answers';
 
 export function TaxAuditPage() {
-  const [auditTab,setAuditTab] = useState('preparation');
+  const [searchParams, setSearchParams] = useSearchParams();
+  const tabParam = searchParams.get('tab');
+  const [auditTab, setAuditTab] = useState<string>(tabParam || 'issues');
   const navigate = useNavigate();
+
+  useEffect(() => {
+    if (tabParam && tabParam !== auditTab) {
+      setAuditTab(tabParam);
+    }
+  }, [tabParam, auditTab]);
+
+  const handleTabChange = (val: string) => {
+    setAuditTab(val);
+    const newParams = new URLSearchParams(searchParams);
+    newParams.set('tab', val);
+    setSearchParams(newParams, { replace: true });
+  };
 
   const caseId = useAuditWorkspace(s => s.caseId);
   const currentCase = useLiveQuery(() => auditDb.cases.get(caseId), [caseId]);
@@ -264,7 +280,7 @@ Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 animate-in fade-in duration-300">
+    <div className="w-full max-w-7xl min-w-0 overflow-x-hidden mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 animate-in fade-in duration-300">
       {/* Printable Report Header (Active on print) */}
       <div className="hidden print:block border-b-2 border-black pb-4 mb-6">
         <div className="flex justify-between items-start">
@@ -432,16 +448,24 @@ Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết
       </div>
 
       {/* TABS NỘI DUNG CHÍNH (Screen Only) - HỆ THỐNG 3 CỤM NGHIỆP VỤ CHUYÊN SÂU */}
-      <Tabs value={auditTab} onValueChange={setAuditTab} className="print:hidden space-y-6">
+      <Tabs value={auditTab} onValueChange={handleTabChange} className="print:hidden space-y-6">
         <div className="bg-card rounded-2xl border border-border p-4 shadow-xs space-y-4">
           <TabsList className="bg-transparent p-0 w-full h-auto flex flex-col gap-3">
             {/* Hàng 1: Quy trình & Nghiệp vụ kiểm tra thực chiến */}
             <div className="w-full bg-muted/40 dark:bg-muted/20 rounded-xl p-2.5 border border-border/60">
               <div className="flex items-center justify-between px-2 pb-2 text-[11px] font-bold text-blue-700 dark:text-blue-400 uppercase tracking-wider border-b border-border/40 mb-2">
                 <span className="flex items-center gap-1.5"><Sparkles className="h-3.5 w-3.5" /> Nghiệp Vụ Kiểm Tra & Phòng Thủ Thực Chiến</span>
-                <span className="text-[10px] text-muted-foreground font-medium">7 chuyên đề cốt lõi</span>
+                <span className="text-[10px] text-muted-foreground font-medium">8 chuyên đề cốt lõi</span>
               </div>
-              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-7 gap-1.5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-1.5">
+                <TabsTrigger 
+                  value="issues" 
+                  className="rounded-lg text-xs font-bold py-2 px-2.5 justify-center sm:justify-start gap-1.5 data-[state=active]:bg-emerald-600 data-[state=active]:text-white shadow-none transition-all border border-emerald-500/30"
+                >
+                  <Sparkles className="h-3.5 w-3.5 shrink-0 text-amber-400" />
+                  <span className="truncate">Sự vụ (Mới)</span>
+                  <Badge variant="outline" className="hidden xl:inline-flex ml-auto text-[9px] font-bold px-1.5 py-0 bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300 border-none">24 vụ</Badge>
+                </TabsTrigger>
                 <TabsTrigger 
                   value="preparation" 
                   className="rounded-lg text-xs font-semibold py-2 px-2.5 justify-center sm:justify-start gap-1.5 data-[state=active]:bg-blue-600 data-[state=active]:text-white shadow-none transition-all"
@@ -527,6 +551,13 @@ Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết
             </div>
           </TabsList>
         </div>
+
+        {/* ========================================================================= */}
+        {/* TAB 0: BÀN XỬ LÝ SỰ VỤ & CHÊNH LỆCH THỰC TẾ (MẶC ĐỊNH MỚI) */}
+        {/* ========================================================================= */}
+        <TabsContent value="issues" className="space-y-6">
+          <AuditIssueDesk caseId={caseId} />
+        </TabsContent>
 
         {/* ========================================================================= */}
         {/* TAB 1: CHECKLIST HỒ SƠ CHI TIẾT */}
@@ -1398,10 +1429,10 @@ Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết
                     4. Chủ động nộp bổ sung Mẫu 01/KHBS trước ngày công bố quyết định:
                   </div>
                   <p className="text-muted-foreground leading-relaxed">
-                    Nếu tự phát hiện sai sót và nộp tờ khai bổ sung trước thời điểm cơ quan thuế công bố quyết định kiểm tra: <strong>không bị phạt 20% khai sai</strong> (Điều 142 Luật QLT), chỉ phải nộp tiền chậm nộp 0.03%/ngày.
+                    Điều kiện miễn phạt vi phạm hành chính khai sai 20% khi nộp tờ khai bổ sung (Mẫu 01/KHBS): Áp dụng khi người nộp thuế tự phát hiện và khai bổ sung <strong>trước thời điểm công bố quyết định thanh tra, kiểm tra</strong> tại trụ sở, hoặc sai sót thuộc kỳ tính thuế/phạm vi ngoài quyết định kiểm tra (Điều 142 Luật QLT 38/2019, Điều 9 NĐ 125/2020 và Điều 12 NĐ 252/2026). Khi đó chỉ phải nộp đủ tiền thuế thiếu và tiền chậm nộp 0.03%/ngày.
                   </p>
                   <div className="text-[11px] bg-blue-50/50 dark:bg-blue-950/20 p-2 rounded-lg text-blue-950 dark:text-blue-200 font-medium">
-                    🎯 <strong>Lưu ý:</strong> Tận dụng triệt để khoảng thời gian từ khi nhận quyết định (trước 03 ngày làm việc) đến ngày công bố để rà soát và nộp bổ sung ngay các sai lệch rõ ràng.
+                    🎯 <strong>Lưu ý:</strong> Phải kiểm tra chính xác phạm vi thời kỳ, sắc thuế ghi trong quyết định thanh tra và biên bản kiểm tra; nếu đã công bố quyết định mà nộp bổ sung cho cùng kỳ/sắc thuế thì không được tự động miễn phạt 20%.
                   </div>
                 </div>
 
@@ -1662,7 +1693,7 @@ Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết
         {/* ========================================================================= */}
         {/* TAB MỚI: HỒ SƠ CHỨNG TỪ & SỔ GIAO VIỆC ĐOÀN KIỂM TRA */}
         {/* ========================================================================= */}
-        <TabsContent value="preparation"><AuditPreparationDesk key={caseId} openWork={()=>setAuditTab('evidence-log')} openCalculations={()=>setAuditTab('reconcile')} openLaws={()=>setAuditTab('legal-corpus')}/></TabsContent>
+        <TabsContent value="preparation"><AuditPreparationDesk key={caseId} openWork={()=>handleTabChange('evidence-log')} openCalculations={()=>handleTabChange('reconcile')} openLaws={()=>handleTabChange('legal-corpus')}/></TabsContent>
         <TabsContent value="legal-corpus"><AuditLegalLibrary /></TabsContent>
         <TabsContent value="evidence-log" className="space-y-6">
           <EvidencePanel key={`evidence-${caseId}`} />

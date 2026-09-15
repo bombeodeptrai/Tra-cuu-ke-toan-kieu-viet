@@ -245,7 +245,7 @@ export function ToolsPage() {
             Bộ Tiện Ích Kế Toán, Thuế & Lịch Tuân Thủ 2026
           </h1>
           <p className="text-sm md:text-base text-emerald-100/90 leading-relaxed font-normal">
-            Công cụ tính toán tự động chuẩn xác theo luật định: So sánh Thuế TNCN (Luật 109/2025), Lương Gross-Net (Trần 46.8tr), Phạt chậm nộp thuế 0.03%, Khấu hao TSCĐ theo TT 45/2013 và Lịch nhắc hạn báo cáo thuế.
+            Công cụ tính toán tự động chuẩn xác theo luật định: So sánh Thuế TNCN (Luật 109/2025), Lương Gross-Net (Trần 46.8tr), Tiền chậm nộp thuế 0.03%/ngày, Khấu hao TSCĐ theo TT 45/2013 và Lịch nhắc hạn báo cáo thuế.
           </p>
         </div>
       </div>
@@ -680,17 +680,17 @@ export function ToolsPage() {
           </div>
         </TabsContent>
 
-        {/* 5. TÍNH TIỀN PHẠT CHẬM NỘP THUẾ */}
+        {/* 5. TÍNH TIỀN CHẬM NỘP TIỀN THUẾ */}
         <TabsContent value="penalty" className="space-y-6">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
             <Card className="lg:col-span-5 shadow-sm border-border">
               <CardHeader>
                 <CardTitle className="text-lg flex items-center gap-2">
                   <Calendar className="h-5 w-5 text-red-600" />
-                  Dữ liệu số tiền & ngày chậm nộp
+                  Dữ liệu số tiền thuế & thời gian chậm nộp
                 </CardTitle>
                 <CardDescription>
-                  Căn cứ Điều 59 Luật Quản lý thuế số 38/2019/QH14
+                  Căn cứ Điều 59 Luật Quản lý thuế 38/2019/QH14 (Tiền chậm nộp 0.03%/ngày)
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -713,6 +713,9 @@ export function ToolsPage() {
                     value={dueDate}
                     onChange={(e) => setDueDate(e.target.value)}
                   />
+                  <p className="text-[11px] text-muted-foreground italic">
+                    * Nếu hạn nộp rơi vào ngày nghỉ/lễ, thời hạn được lùi sang ngày làm việc tiếp theo (Điều 86 TT 80/2021).
+                  </p>
                 </div>
 
                 <div className="space-y-2">
@@ -729,7 +732,7 @@ export function ToolsPage() {
             <div className="lg:col-span-7 space-y-4">
               <div className="bg-card border border-border rounded-xl p-6 shadow-sm space-y-6">
                 <div>
-                  <span className="text-xs text-muted-foreground uppercase font-semibold">Tiền chậm nộp phải nộp thêm vào NSNN</span>
+                  <span className="text-xs text-muted-foreground uppercase font-semibold">Tiền chậm nộp tiền thuế phải nộp thêm vào NSNN</span>
                   <div className="text-3xl font-black text-red-600 mt-1">{formatVnd(latePenalty)}</div>
                   <p className="text-xs text-muted-foreground mt-1">
                     Thời gian chậm nộp: <strong>{daysLate} ngày</strong> (từ {dueDate} đến {payDate})
@@ -743,13 +746,20 @@ export function ToolsPage() {
                     <strong className="font-mono">{formatVnd(taxDebt)}</strong>
                   </div>
                   <div className="flex justify-between text-red-600">
-                    <span>Tiền phạt chậm nộp (0.03% × {daysLate} ngày):</span>
+                    <span>Tiền chậm nộp tiền thuế (0.03% × {daysLate} ngày):</span>
                     <strong className="font-mono">+{formatVnd(latePenalty)}</strong>
                   </div>
                   <div className="pt-2 border-t border-border flex justify-between text-sm font-bold text-foreground">
                     <span>TỔNG CỘNG PHẢI NỘP:</span>
                     <span className="font-mono text-red-600">{formatVnd(taxDebt + latePenalty)}</span>
                   </div>
+                </div>
+
+                <div className="p-3 bg-amber-50 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-900/40 rounded-lg text-xs text-amber-900 dark:text-amber-200 space-y-1">
+                  <div className="font-semibold">Lưu ý phân định chế tài pháp lý:</div>
+                  <p>• <strong>Tiền chậm nộp 0.03%/ngày:</strong> Là khoản bồi hoàn ngân sách do nộp chậm, không cấu thành phạt hành chính.</p>
+                  <p>• <strong>Phạt vi phạm hành chính (20%):</strong> Áp dụng riêng theo Nghị định 125/2020 nếu phát sinh hành vi khai sai dẫn đến thiếu thuế.</p>
+                  <p>• <strong>Miễn tính chậm nộp:</strong> Trường hợp được gia hạn theo chính sách Chính phủ (như NĐ 64/2024), không tính tiền chậm nộp trong thời gian gia hạn.</p>
                 </div>
               </div>
             </div>

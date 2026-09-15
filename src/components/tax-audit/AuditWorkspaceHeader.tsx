@@ -45,11 +45,11 @@ export function AuditCaseHeader({ completedCount, totalCount }: { completedCount
       <CardHeader className="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white p-5 border-b border-border">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div className="space-y-1">
-            <div className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2">
               <div className="p-1.5 rounded-lg bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">
                 <Building2 className="h-4 w-4" />
               </div>
-              <CardTitle className="text-base sm:text-lg font-bold text-white flex items-center gap-2">
+              <CardTitle className="text-base sm:text-lg font-bold text-white flex flex-wrap items-center gap-2">
                 Thiết Lập Thông Tin Ca Kiểm Tra Thuế Kiểu Việt
               </CardTitle>
               <Badge className="bg-emerald-500 text-slate-950 font-bold text-[10px]">Cơ Sở Dữ Liệu Nội Bộ</Badge>
@@ -108,7 +108,7 @@ export function AuditCaseHeader({ completedCount, totalCount }: { completedCount
 
       <CardContent className="p-5 space-y-4">
         {legacyAvailable && (
-          <div className="rounded-xl border border-amber-200 bg-amber-50/60 dark:bg-amber-950/30 p-3.5 flex items-center justify-between gap-3 text-xs">
+          <div className="rounded-xl border border-amber-200 bg-amber-50/60 dark:bg-amber-950/30 p-3.5 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 text-xs">
             <div className="flex items-center gap-2 text-amber-900 dark:text-amber-200">
               <Clock className="h-4 w-4 text-amber-600 flex-shrink-0" />
               <span>Hệ thống phát hiện tiến độ checklist từ phiên làm việc trước. Bạn có muốn đồng bộ vào ca kiểm tra này?</span>

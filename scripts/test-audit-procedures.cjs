@@ -11,7 +11,7 @@ const out=path.resolve('test-results/audit-20260914');fs.mkdirSync(out,{recursiv
  const tab=async s=>{for(const e of await page.$$('[role="tab"]'))if(await e.evaluate((e,s)=>e.textContent.includes(s),s)){await e.click();return;}throw Error('Missing tab '+s);};
  const input=async(s,v)=>{await page.$eval(`[aria-label="${s}"]`,(e,v)=>{Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(e,v);e.dispatchEvent(new Event('input',{bubbles:true}));},v);};
  try{
-  await page.evaluateOnNewDocument(()=>{localStorage.setItem('kv_username','TEST_INTERNAL');localStorage.setItem('ketoan-settings',JSON.stringify({state:{geminiApiKey:''},version:0}));});await page.setViewport({width:1440,height:1000});await page.goto(report.base+'#/kiem-tra-thue',{waitUntil:'networkidle2'});
+  await page.evaluateOnNewDocument(()=>{localStorage.setItem('kv_username','TEST_INTERNAL');localStorage.setItem('ketoan-settings',JSON.stringify({state:{geminiApiKey:''},version:0}));});await page.setViewport({width:1440,height:1000});await page.goto(report.base+'#/kiem-tra-thue?tab=preparation',{waitUntil:'networkidle2'});
   const dialog=await page.$('[role="dialog"]');if(dialog){const i=await dialog.$('input');if(i)await i.type('TEST_INTERNAL');await page.evaluate(()=>document.querySelector('[role="dialog"] button[type="submit"]')?.click());}
   await text('Chuẩn bị theo hồ sơ thực tế');await page.waitForSelector('[aria-label="Người phụ trách quy trình"]');
   const cdp=await page.createCDPSession();await cdp.send('Page.setDownloadBehavior',{behavior:'allow',downloadPath:out});

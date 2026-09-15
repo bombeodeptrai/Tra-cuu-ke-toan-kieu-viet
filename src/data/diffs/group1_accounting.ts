@@ -125,7 +125,7 @@ export const group1Accounting: Record<string, DecreeDiffData> = {
         "type": "added",
         "oldRule": "[Căn cứ: Điều 120 TT 200/2014] Chứng từ điện tử khi phục vụ thanh tra, kiểm tra thuế bắt buộc phải in ra bản giấy có chữ ký sống và đóng dấu đỏ của người đại diện pháp luật.",
         "newRule": "[Căn cứ: Điều 9 TT 99/2025] Quy định rõ chứng từ kế toán điện tử có giá trị pháp lý nguyên bản nếu được ký số bằng chữ ký số hợp lệ (USB Token hoặc HSM) và lưu trữ an toàn theo Luật Giao dịch điện tử 2023. Đoàn thanh tra kiểm tra phải tiếp nhận dữ liệu điện tử, không được yêu cầu in ra giấy.",
-        "impactNote": "Kiểu Việt tiết kiệm hàng trăm triệu đồng chi phí in ấn, lưu kho lưu trữ hàng vạn tờ biên bản nghiệm thu và phiếu xuất kho hàng năm."
+        "impactNote": "Doanh nghiệp được lưu trữ và xuất trình chứng từ kế toán điện tử có chữ ký số hợp lệ cho đoàn kiểm tra, giảm tải thủ tục in ấn bản giấy theo quy định chuyển tiếp."
       },
       {
         "topic": "Xử lý chuyển đổi số dư tài khoản khi chuyển tiếp từ TT 200 sang TT 99",

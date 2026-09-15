@@ -76,7 +76,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         "Biên bản làm việc với cơ quan thuế địa phương về việc xác nhận ưu đãi miễn, giảm thuế TNDN"
 ],
         accountingSteps: [
-        "Bước 1: Đối chiếu tổng doanh thu trên Sổ cái TK 511 với Tờ khai quyết toán thuế TNDN (chỉ tiêu B1) và Báo cáo tài chính, đảm bảo khớp đúng tuyệt đối từng đồng.",
+        "Bước 1: Đối chiếu doanh thu trên Sổ cái TK 511 với Mã số 01 trên Báo cáo kết quả hoạt động kinh doanh (Mẫu B02-DN), sau đó lập bảng nối sang Tờ khai quyết toán thuế TNDN (chỉ tiêu A1: Tổng lợi nhuận kế toán trước thuế; các chỉ tiêu B1–B14: Các khoản điều chỉnh tăng thu nhập chịu thuế), làm rõ các khoản chênh lệch thời điểm ghi nhận nếu có.",
         "Bước 2: Rà soát tài khoản chi phí quản lý (TK 642) và chi phí bán hàng (TK 641), kiểm tra các khoản chi phí không được trừ theo quy định mới của Luật 67/2025/QH15.",
         "Bước 3: Kiểm tra việc hạch toán riêng thu nhập được hưởng ưu đãi thuế TNDN (địa bàn KTXH khó khăn/đặc biệt khó khăn tại Gia Lai) trên TK 421 và các tiểu khoản doanh thu.",
         "Bước 4: Đối chiếu số thuế TNDN phải nộp trên TK 3334 với Tờ khai quyết toán thuế TNDN năm và các Giấy nộp tiền vào ngân sách nhà nước qua tài khoản TK 112.",
@@ -85,7 +85,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         auditRisks: [
         "Rủi ro đoàn thanh tra bóc tách ưu đãi thuế TNDN do không hạch toán riêng được doanh thu và chi phí của dự án đầu tư mở rộng hoặc dự án mới tại Gia Lai.",
         "Bẫy thuế về việc áp dụng sai mức thuế suất ưu đãi do nhầm lẫn giữa địa bàn huyện thường và huyện có điều kiện KTXH đặc biệt khó khăn tại tỉnh Gia Lai.",
-        "Phạt khai sai 20% trên số thuế thiếu và tính tiền chậm nộp 0.03%/ngày do kê khai sai doanh thu chịu thuế hoặc bỏ sót doanh thu vãng lai từ công trình giao thông.",
+        "Nguy cơ bị xử phạt 20% trên số thuế thiếu (NĐ 125/2020) và tính tiền chậm nộp 0.03%/ngày (Luật QLT 38/2019) do kê khai sai doanh thu chịu thuế hoặc bỏ sót doanh thu vãng lai từ công trình giao thông.",
         "Truy thu thuế TNDN đối với các khoản thu nhập khác (thanh lý tài sản, phế liệu mỏ đá) không được hưởng ưu đãi nhưng doanh nghiệp gộp chung vào ưu đãi."
 ],
         defenseStrategy: [
@@ -242,7 +242,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         "Bẫy thuế 4: Phạt vi phạm hành chính theo Nghị định 125/2020/NĐ-CP từ 8.000.000 đồng đến 25.000.000 đồng do không lập, không lưu giữ Hồ sơ xác định giá giao dịch liên kết theo đúng thời hạn quy định tại Nghị định 132/2020/NĐ-CP."
 ],
         defenseStrategy: [
-        "Luận điểm 1: Viện dẫn chính xác Khoản 3 Điều 16 Nghị định 132/2020/NĐ-CP, khẳng định tổng chi phí lãi vay phát sinh được trừ khi xác định thu nhập chịu thuế TNDN của Công ty Cổ phần Kiểu Việt đã được tính toán tuân thủ tuyệt đối giới hạn trần 30% của tổng lợi nhuận thuần từ hoạt động kinh doanh trước khi trừ lãi vay và trước khi khấu hao (EBITDA).",
+        "Luận điểm 1: Viện dẫn chính xác Khoản 3 Điều 16 Nghị định 132/2020/NĐ-CP, khẳng định tổng chi phí lãi vay phát sinh được trừ khi xác định thu nhập chịu thuế TNDN của Công ty Cổ phần Kiểu Việt đã được tính toán được tính toán và khống chế theo mức trần 30% EBITDA theo Khoản 3 Điều 16 Nghị định 132/2020/NĐ-CP, lập phụ lục xác định chi phí lãi vay không được trừ chuyển kỳ sau.",
         "Lập luận đặc thù ngành xây lắp - khai khoáng tại Gia Lai: Giải trình trước đoàn thanh tra rằng đặc thù ngành thi công công trình giao thông thủy lợi và khai thác mỏ đá đòi hỏi nguồn vốn đầu tư máy móc thiết bị (xe xúc, máy nghiền đá, trạm trộn) rất lớn, việc Công ty huy động vốn ngắn/trung hạn từ các cổ đông hoặc công ty liên kết là hoàn toàn thiết yếu để duy trì thi công các dự án trọng điểm, lãi suất vay hoàn toàn phù hợp với biên độ thị trường tại thời điểm ký kết.",
         "Trình bày chi tiết hồ sơ chứng minh tính độc lập của giá giao dịch: Xuất trình đầy đủ các Hợp đồng kinh tế, biên bản xác định đơn giá vật tư đá xây dựng, chứng thư thẩm định giá (nếu có) để chứng minh các giao dịch mua bán đá và thi công với các bên liên kết được thực hiện theo đúng nguyên tắc thị trường độc lập, không có hành vi chuyển giá hoặc trốn thuế.",
         "Giải trình về việc lập Hồ sơ giao dịch liên kết: Cung cấp đầy đủ các biểu mẫu Phụ lục I, II, III kê khai trung thực, chính xác các bên có quan hệ liên kết và giá trị giao dịch, đồng thời chứng minh doanh nghiệp thuộc các trường hợp được miễn lập hồ sơ xác định giá giao dịch liên kết (nếu đạt điều kiện doanh thu và tổng giá trị giao dịch theo Khoản 2 Điều 19 Nghị định 132), bảo vệ tối đa quyền lợi tài chính hợp pháp cho doanh nghiệp."
@@ -317,7 +317,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         "Phạt hành vi khai sai dẫn đến thiếu số thuế phải nộp và tính tiền chậm nộp theo quy định pháp luật quản lý thuế hiện hành."
 ],
         defenseStrategy: [
-        "Khẳng định việc trích lập dự phòng nợ phải thu khó đòi tuân thủ tuyệt đối Điều 5 Thông tư 48/2019/TT-BTC, dựa trên thực tế các công trình giao thông thủy lợi tại Gia Lai bị chậm thanh toán vốn đầu tư công.",
+        "Khẳng định việc trích lập dự phòng nợ phải thu khó đòi đáp ứng đầy đủ các điều kiện theo Điều 5 Thông tư 48/2019/TT-BTC (có biên bản đối chiếu công nợ, công văn đôn đốc nợ và thời gian quá hạn xác thực theo hợp đồng).",
         "Trình bày đầy đủ các công văn đôn đốc nợ gửi Ban quản lý dự án, biên bản làm việc ba bên và chứng cứ pháp lý chứng minh nợ đã quá hạn thanh toán từ 6 tháng trở lên.",
         "Lập luận rằng các khoản nợ này ảnh hưởng trực tiếp đến dòng tiền lưu động của doanh nghiệp xây lắp, việc trích lập dự phòng là nghĩa vụ ghi nhận thận trọng theo chuẩn mực kế toán.",
         "Giải trình rõ ràng các căn cứ pháp lý và số liệu đối chiếu công nợ chi tiết cho từng công trình trước đoàn kiểm tra thuế, bảo vệ quyền lợi hợp pháp của doanh nghiệp."
@@ -630,7 +630,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         "Phạt khai sai 20% và tiền chậm nộp 0.03%/ngày do kê khai thiếu số thuế TNCN phải khấu trừ đối với các khoản thu nhập chịu thuế của chuyên gia hoặc lao động thời vụ."
 ],
         defenseStrategy: [
-        "Căn cứ Nghị định 70/2025/NĐ-CP, Công ty Cổ phần Kiểu Việt đã triển khai áp dụng hệ thống chứng từ điện tử khấu trừ thuế TNCN và sử dụng chữ ký số hợp lệ cho toàn bộ hóa đơn, chứng từ phát hành, đảm bảo tuân thủ tuyệt đối quy định công nghệ mới.",
+        "Căn cứ Nghị định 70/2025/NĐ-CP, doanh nghiệp rà soát việc cấp chứng từ khấu trừ thuế TNCN điện tử và chữ ký số hợp lệ cho các chứng từ phát hành, đảm bảo hồ sơ khấu trừ đầy đủ căn cứ khi quyết toán.",
         "Đối với hoạt động khai thác mỏ đá và thi công công trình tại Gia Lai có sử dụng nhiều lao động thời vụ, công ty đã lập đầy đủ danh sách chi trả thu nhập, ký hợp đồng giao khoán, thu thập đầy đủ CCCD và bản cam kết 08/CK-TNCN hoặc thực hiện khấu trừ thuế TNCN điện tử theo đúng biểu thuế lũy tiến từng phần.",
         "Giải trình với đoàn thanh tra rằng hệ thống chữ ký số của công ty được cấp phép bởi tổ chức cung cấp dịch vụ chứng thực chữ ký số công cộng hợp pháp, đã đăng ký tích hợp trên phần mềm hóa đơn điện tử và phần mềm kế toán.",
         "Khẳng định các khoản chi phí nhân công hạch toán vào TK 622 và TK 627 đều có đầy đủ chứng từ thanh toán, chứng từ khấu trừ TNCN điện tử, hoàn toàn hợp lệ để tính vào chi phí được trừ khi quyết toán thuế TNDN."
@@ -670,7 +670,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         defenseStrategy: [
         "Căn cứ Điều 10 Luật Giao dịch điện tử số 20/2023/QH15, thông điệp dữ liệu đáp ứng các điều kiện kỹ thuật được pháp luật công nhận có giá trị pháp lý tương đương văn bản giấy. Chúng tôi xuất trình đầy đủ file XML gốc kèm theo mã tra cứu trực tuyến trên Cổng thông tin của Tổng cục Thuế để chứng minh tính hợp pháp.",
         "Giải trình trước đoàn thanh tra rằng đối với đặc thù thi công công trình giao thông thủy lợi và khai thác mỏ đá ở vùng sâu vùng xa tại Gia Lai, việc sử dụng chữ ký số và hóa đơn điện tử được thực hiện nghiêm ngặt theo đúng Nghị định 123/2020/NĐ-CP và Thông tư 78/2021/TT-BTC, đảm bảo tính liên tục của chuỗi dữ liệu tài chính.",
-        "Lập luận rằng các biên bản nghiệm thu khối lượng A-B và phiếu cân trạm cân mỏ đá được ký số bởi người có thẩm quyền của Công ty Cổ phần Kiểu Việt và chủ đầu tư có giá trị ràng buộc pháp lý tuyệt đối theo đúng Luật Giao dịch điện tử, không thể bị phủ nhận chỉ vì không in ấn bản giấy có dấu mộc đỏ trực tiếp.",
+        "Xuất trình các biên bản nghiệm thu khối lượng A-B và phiếu cân trạm cân có chữ ký số hợp lệ của các bên theo Luật Giao dịch điện tử 2023, chứng minh tính toàn vẹn và giá trị pháp lý của chứng từ điện tử khi làm việc với đoàn kiểm tra.",
         "Cung cấp biên bản xác nhận của nhà cung cấp dịch vụ hóa đơn điện tử (T-Van) chứng minh tính toàn vẹn của dữ liệu hóa đơn, khẳng định không có sự can thiệp chỉnh sửa số liệu, từ đó bảo vệ toàn bộ chi phí sản xuất kinh doanh và thuế GTGT đầu vào không bị bóc tách vô lý."
 ]
       },
@@ -1606,7 +1606,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         "Viện chuẩn quy định tại Điều 5 Thông tư 24/2024/TT-BTC và các quy định về kế toán doanh nghiệp, khẳng định toàn bộ hệ thống sổ sách kế toán của Công ty Kiểu Việt luôn tuân thủ nguyên tắc độc lập và khớp đúng chặt chẽ với hệ thống chứng từ xác nhận của Kho bạc Nhà nước và Ban QLDA tại Gia Lai.",
         "Cung cấp đầy đủ các biên bản đối chiếu công nợ có dấu xác nhận đỏ của Ban QLDA và Kho bạc Nhà nước theo định kỳ hàng quý, chứng minh không có hiện tượng bỏ sót doanh thu hoặc gian lận số liệu tài chính.",
         "Lập luận sắc bén rằng mọi khoản vốn ngân sách giải ngân đều đi kèm ủy nhiệm chi và hóa đơn GTGT hợp lệ, việc hạch toán doanh thu và giá vốn được thực hiện đúng kỳ kế toán dựa trên nguyên tắc dồn tích.",
-        "Yêu cầu đoàn thanh tra xem xét toàn diện bộ hồ sơ quyết toán vốn đầu tư dự án hoàn thành đã được cấp thẩm quyền phê duyệt, khẳng định tình hình tài chính của công ty hoàn toàn minh bạch, tuân thủ tuyệt đối pháp luật thuế và kế toán hiện hành."
+        "Xuất trình bộ hồ sơ quyết toán vốn đầu tư dự án hoàn thành đã được cấp có thẩm quyền phê duyệt theo Thông tư 108/2025/TT-BTC làm căn cứ đối chiếu số liệu chi phí, doanh thu và nghĩa vụ tài chính của công trình."
 ]
       },
       {
@@ -1807,7 +1807,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         "Phạt khai sai 20% và tiền chậm nộp theo Nghị định 125/2020/NĐ-CP do hành vi phân bổ sai kỳ chi phí xây lắp."
 ],
         defenseStrategy: [
-        "Lập luận chặt chẽ dựa trên Điều 27 Thông tư 133/2016/TT-BTC: Công ty Cổ phần Kiểu Việt thực hiện hạch toán chi phí sản xuất kinh doanh dở dang trên TK 154 tuân thủ tuyệt đối nguyên tắc hạch toán chi tiết theo từng công trình giao thông, thủy lợi, có sự đối chiếu khớp đúng với dự toán thầu và hồ sơ nghiệm thu A-B.",
+        "Viện dẫn Điều 27 Thông tư 133/2016/TT-BTC: Đối với doanh nghiệp áp dụng chế độ kế toán vừa và nhỏ, chi phí sản xuất xây lắp được hạch toán trực tiếp vào TK 154 theo từng công trình/hạng mục, có bảng phân bổ và đối chiếu với hồ sơ nghiệm thu A-B thay vì mở các tài khoản loại 6.",
         "Giải trình về nguồn gốc đá xây dựng sử dụng cho công trình: Xuất trình toàn bộ giấy phép khai thác mỏ đá tại Gia Lai, lệnh điều xe vận chuyển, phiếu cân điện tử tại trạm cân mỏ để chứng minh lượng đá xuất kho hạch toán vào TK 621/154 là hoàn toàn chính xác, thực tế và phục vụ trực tiếp cho công trình.",
         "Đối với chi phí nhân công thuê ngoài thi công tại các vùng sâu vùng xa ở Gia Lai, xuất trình đầy đủ Danh sách chi trả tiền lương, hợp đồng kho việc, bản sao CCCD và Bản cam kết mẫu 08/CK-TNCN của người lao động có thu nhập chưa đến mức phải khấu trừ thuế TNCN, bảo vệ tính hợp lệ của chi phí.",
         "Cung cấp Nhật ký thi công, bảng xác định ca máy thiết bị thi công (TK 623) có xác nhận của đơn vị tư vấn giám sát để chứng minh sự cần thiết và định mức hợp lý của chi phí máy thi công tại các công trình giao thông thủy lợi địa hình khó khăn.",
@@ -1884,7 +1884,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         "Rủi ro mất mát dữ liệu kế toán do không có cơ chế lưu trữ đám mây hoặc thiết bị lưu trữ ngoại vi an toàn, dẫn đến vi phạm quy định thời hạn lưu trữ tài liệu kế toán tối thiểu 5 năm hoặc 10 năm."
 ],
         defenseStrategy: [
-        "Lập luận rằng toàn bộ hệ thống hóa đơn, chứng từ, sổ sách kế toán của Công ty Cổ phần Kiểu Việt đều được lưu trữ đầy đủ dưới cả hai định dạng pháp lý là file XML gốc có chữ ký số hợp lệ và bản thể hiện PDF tuân thủ tuyệt đối Điều 9 Nghị định 174/2016/NĐ-CP.",
+        "Xuất trình quy chế quản lý dữ liệu kế toán điện tử và hệ thống lưu trữ đồng thời file XML gốc có chữ ký số hợp lệ và bản thể hiện PDF theo Điều 9 Nghị định 174/2016/NĐ-CP, giải trình phương thức tra cứu cho đoàn kiểm tra.",
         "Cung cấp ngay lập tức cho đoàn thanh tra đường dẫn truy xuất cơ sở dữ liệu lưu trữ đám mây và biên bản bàn giao, kiểm tra tính toàn vẹn dữ liệu kế toán hàng quý, chứng minh không có hiện tượng sửa đổi hoặc làm giả chứng từ điện tử.",
         "Giải trình rõ đặc thù ngành xây lắp và khai khoáng tại Gia Lai đòi hỏi khối lượng chứng từ vận chuyển, phiếu cân trạm cân và lệnh điều xe rất lớn, công ty đã số hóa 100% tài liệu để tra cứu nhanh chóng và chính xác.",
         "Viện dẫn Luật Kế toán và Nghị định 174/2016/NĐ-CP để khẳng định các chứng từ điện tử của công ty có giá trị pháp lý tương đương chứng từ giấy, đáp ứng đầy đủ tiêu chuẩn kiểm toán và thuế."
@@ -1947,7 +1947,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         accountingSteps: [
         "Bước 1: Kiểm tra việc ghi nhận doanh thu (TK 511) và giá vốn (TK 632) theo đúng nguyên tắc dồn tích: Doanh thu phát sinh khi nào thì ghi nhận lúc đó, không phụ thuộc vào thời điểm thực thu tiền.",
         "Bước 2: Rà soát các bút toán trích trước chi phí giá vốn công trình xây lắp vào TK 335 đối ứng TK 154 hoặc TK 632, đối chiếu với khối lượng thực tế đã nghiệm thu A-B nhưng chưa có hóa đơn.",
-        "Bước 3: Kiểm tra sự phù hợp tuyệt đối giữa doanh thu khai thác mỏ đá kê khai thuế GTGT hàng tháng với doanh thu hạch toán trên Sổ cái TK 511 và Báo cáo tài chính.",
+        "Bước 3: Đối chiếu doanh thu khai thác mỏ đá kê khai thuế GTGT hàng tháng với doanh thu trên Sổ cái TK 511, lập bảng giải trình các khoản chênh lệch thời điểm phát sinh (nếu có).",
         "Bước 4: Kiểm tra việc phân bổ chi phí trả trước (TK 242) chi phí bóc đất tầng phủ mỏ đá theo sản lượng khai thác thực tế hàng tháng, đảm bảo chi phí phù hợp với doanh thu bán đá.",
         "Bước 5: Đối chiếu số liệu giữa Bảng cân đối phát sinh, Báo cáo kết quả hoạt động kinh doanh và Tờ khai quyết toán thuế TNDN để kiểm tra các khoản chi phí không có doanh thu tương ứng."
 ],
@@ -1961,7 +1961,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         defenseStrategy: [
         "Lập luận vững chắc dựa trên Chuẩn mực VAS 01 (Nguyên tắc dồn tích và Phù hợp): Công ty Cổ phần Kiểu Việt thực hiện ghi nhận doanh thu và chi phí xây lắp công trình giao thông thủy lợi căn cứ trên khối lượng thực tế thi công đã được chủ đầu tư nghiệm thu (A-B), không chờ đến khi thu tiền.",
         "Chứng minh các khoản trích trước vào TK 335 là hoàn toàn có cơ sở kinh tế, dựa trên dự toán thi công đã duyệt, khối lượng dở dang thực tế tại công trường và được đối trừ chính xác khi nhận được hóa đơn hợp pháp.",
-        "Đối với hoạt động khai thác mỏ đá tại Gia Lai, giải trình chi tiết phương pháp phân bổ chi phí bóc đất tầng phủ theo sản lượng đá khai thác thực tế (unit-of-production method), tuân thủ tuyệt đối nguyên tắc phù hợp giữa doanh thu bán đá và giá vốn.",
+        "Đối với hoạt động khai thác mỏ đá tại Gia Lai, giải trình chi tiết phương pháp phân bổ chi phí bóc đất tầng phủ theo sản lượng đá khai thác thực tế (unit-of-production method), đáp ứng nguyên tắc phù hợp giữa doanh thu bán đá và chi phí giá vốn theo VAS 01.",
         "Trình bày đầy đủ nhật ký thi công, biên bản nghiệm thu giai đoạn và bảng tính giá thành chi tiết để vô hiệu hóa lập luận bóc tách chi phí của đoàn thanh tra, bảo vệ quyền lợi chính đáng cho doanh nghiệp."
 ]
       },
@@ -1999,7 +1999,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         "Lập luận sắc bén dựa trên Chuẩn mực VAS 02: Công ty Cổ phần Kiểu Việt xác định giá gốc hàng tồn kho (đá xây dựng các loại) bao gồm chi phí mua, chi phí chế biến và các chi phí liên quan trực tiếp khác được tính toán chính xác theo định mức kỹ thuật mỏ đã đăng ký.",
         "Cung cấp toàn bộ phiếu cân trạm cân điện tử tự động, nhật ký khai thác mỏ, hệ số quy đổi thể tích nở rời do cơ quan có thẩm quyền hoặc tổ chức tư vấn độc lập giám định, chứng minh số liệu sản lượng khai thác và tồn kho là hoàn toàn xác thực.",
         "Giải trình trước đoàn thanh tra về quy trình tập hợp chi phí sản xuất đá xây dựng tại mỏ Gia Lai, khẳng định mọi chi phí nhiên liệu (dầu mỏ), khấu hao máy móc thiết bị khai thác (máy nghiền, máy đào) đều được phân bổ khoa học vào TK 154 và kết chuyển vào giá vốn (TK 632) theo đúng sản lượng thực tế.",
-        "Trình bày biên bản kiểm kê kho cuối năm có sự tham gia chứng kiến của các bên, khẳng định không có việc giấu sản lượng hay trốn thuế tài nguyên, bảo vệ tuyệt đối tính đúng đắn của Báo cáo tài chính và Tờ khai quyết toán thuế."
+        "Trình bày biên bản kiểm kê kho cuối kỳ có đầy đủ chữ ký của hội đồng kiểm kê, giải trình chi tiết nguyên nhân các khoản chênh lệch thừa/thiếu (nếu có) tại mỏ đá và xưởng gỗ theo đúng nguyên tắc Chuẩn mực kế toán VAS 02."
 ]
       },
       {
@@ -2084,7 +2084,7 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         "Lập luận rằng Công ty Cổ phần Kiểu Việt đã thực hiện nghiêm túc Nghị định 73/2024/NĐ-CP, áp dụng mức lương cơ sở 2,34 triệu đồng từ ngày 01/07/2024 để làm căn cứ tính toán mức trần đóng BHXH (20 x 2,34 triệu = 46,8 triệu đồng/tháng) cho đội ngũ cán bộ quản lý và kỹ sư.",
         "Giải trình trước đoàn thanh tra về cấu trúc thu nhập của công nhân thi công công trình và khai thác mỏ đá tại Gia Lai, chứng minh các khoản phụ cấp độc hại, nặng nhọc (đặc thù nghề khai thác mỏ) được chi trả minh bạch, có đầy đủ quy chế tài chính và thỏa ước lao động tập thể.",
         "Cung cấp biên bản đối chiếu số liệu đóng BHXH hàng tháng với cơ quan BHXH tỉnh Gia Lai, chứng minh không có sự chênh lệch trốn đóng hoặc chậm đóng bảo hiểm.",
-        "Trường hợp có nhân sự có mức lương cao vượt trần 46,8 triệu đồng, doanh nghiệp đã tách bạch rõ ràng phần đóng BHXH kịch trần và phần thu nhập không tính đóng BHXH, tuân thủ tuyệt đối quy định tại Luật Bảo hiểm xã hội và các văn bản hướng dẫn thi hành."
+        "Trường hợp có nhân sự có mức lương vượt trần 46,8 triệu đồng (20 lần mức lương cơ sở 2,34 triệu theo NĐ 73/2024), kế toán kiểm tra lại bảng lương để đảm bảo chỉ trích đóng BHXH/BHYT tối đa theo mức trần quy định, không trích vượt vào chi phí."
 ]
       },
       {
@@ -2765,7 +2765,7 @@ export const TIMELINE_PHASES: TimelinePhase[] = [
         decreeId: 'luat-quan-ly-thue-2019',
         articleNum: '110',
         decreeLabel: 'Luật QLT 38/2019 — Điều 110',
-        actionGuide: 'Phân chia tài liệu thành 3 nhóm rõ ràng: Tệp 1 (Hồ sơ pháp định nộp ngay: BCTC, Tờ khai thuế, Sổ cái in đóng quyển); Tệp 2 (Hồ sơ giải trình chi tiết: Hợp đồng, Nghiệm thu, Định mức kỹ thuật, chỉ xuất khi đoàn có yêu cầu cụ thể); Tệp 3 (Tài liệu nội bộ, tuyệt đối không xuất trình).',
+        actionGuide: 'Phân chia tài liệu thành 3 nhóm rõ ràng: Tệp 1 (Hồ sơ pháp định nộp ngay: BCTC, Tờ khai thuế, Sổ cái in đóng quyển); Tệp 2 (Hồ sơ giải trình chi tiết: Hợp đồng, Nghiệm thu, Định mức kỹ thuật, chỉ xuất khi đoàn có yêu cầu cụ thể); Tệp 3 (Tài liệu dự thảo nội bộ, không thuộc danh mục chứng từ kế toán chính thức yêu cầu theo quyết định).',
         requiredDossier: [
           'Tệp 1: Hồ sơ đại cương và sổ sách kế toán chính thức đã duyệt',
           'Tệp 2: Hồ sơ nghiệp vụ chi tiết theo từng chuyên đề sắc thuế',

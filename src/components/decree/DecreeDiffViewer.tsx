@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { ArrowRightLeft, Sparkles, PlusCircle, RefreshCw, Trash2, Bot, Layers, CheckCircle, BookOpen, ExternalLink, ArrowUpRight } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { ArrowRightLeft, Sparkles, PlusCircle, RefreshCw, Trash2, Bot, Layers, CheckCircle, BookOpen, ExternalLink, ArrowUpRight, AlertTriangle } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
@@ -27,8 +27,10 @@ export function DecreeDiffViewer({ decreeId }: DecreeDiffViewerProps) {
     }
   }, [decreeId]);
 
-  const currentDiffId = DIFF_DATABASE[selectedId] ? selectedId : (DIFF_DATABASE[decreeId] ? decreeId : 'tt-99-2025');
-  const diffData = DIFF_DATABASE[currentDiffId];
+  const targetId = selectedId || decreeId;
+  const hasDiff = Boolean(DIFF_DATABASE[targetId]);
+  const currentDiffId = hasDiff ? targetId : '';
+  const diffData = hasDiff ? DIFF_DATABASE[targetId] : null;
 
   return (
     <div className="space-y-6">
@@ -273,6 +275,18 @@ export function DecreeDiffViewer({ decreeId }: DecreeDiffViewerProps) {
               })}
           </div>
         </>
+      )}
+
+      {!diffData && (
+        <div className="p-8 rounded-xl border border-amber-200 bg-amber-50/50 dark:bg-amber-950/20 dark:border-amber-900/40 text-amber-900 dark:text-amber-200 space-y-3">
+          <div className="flex items-center gap-2.5 font-bold text-sm">
+            <AlertTriangle className="h-5 w-5 text-amber-600 shrink-0" />
+            <span>Chưa có dữ liệu đối chiếu điểm mới song song cho văn bản: {targetId}</span>
+          </div>
+          <p className="text-xs text-muted-foreground leading-relaxed">
+            Văn bản này hiện chưa có bảng đối chiếu 2 cột song song (là văn bản ban hành độc lập hoặc đang trong lộ trình số hóa đối chiếu). Vui lòng chọn một văn bản khác từ danh mục trên hoặc vào Thư viện để tra cứu toàn văn.
+          </p>
+        </div>
       )}
     </div>
   );

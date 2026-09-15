@@ -1,278 +1,295 @@
-// src/lib/audit/reconcile.ts
-// Các hàm tính toán thuần túy (Pure Functions) cho 6 công cụ đối chiếu tài chính Kiểu Việt
-// Không dùng float tùy tiện để tránh sai số làm tròn tiền tệ
+import Decimal from 'decimal.js';
+import type { Finding } from '@/types/audit-issues';
 
-import { BalanceBridge, EbitdaInterestCalculation, BadDebtProvisionCalculation, Pillar } from '@/types/tax-audit';
-
-/**
- * Chuẩn hóa chuỗi số tiền VND thành BigInt
- */
-export function parseVndInteger(value: string | number): bigint {
-  if (typeof value === 'number') {
-    return BigInt(Math.round(value));
-  }
-  const clean = value.replace(/[^0-9-]/g, '');
-  if (!clean || clean === '-') return 0n;
-  try {
-    return BigInt(clean);
-  } catch {
-    return 0n;
-  }
+export function remaining(total: string, allocations: string[]): Decimal {
+  return allocations.reduce((v, x) => v.minus(new Decimal(x || 0)), new Decimal(total || 0));
 }
 
-/**
- * Định dạng BigInt thành chuỗi tiền tệ VND có phân cách hàng nghìn
- */
-export function formatVnd(amount: bigint | number): string {
-  const big = typeof amount === 'bigint' ? amount : BigInt(Math.round(amount));
-  const isNegative = big < 0n;
-  const abs = isNegative ? -big : big;
-  const str = abs.toString();
-  const formatted = str.replace(/\B(?=(\d{3})+(?!\d))/g, '.');
-  return (isNegative ? '-' : '') + formatted + ' đ';
+export function checkAllocation(total: string, used: string[], next: string): void {
+  const n = new Decimal(next);
+  if (!n.isFinite() || n.lte(0)) throw new Error('Lượng phân bổ phải dương');
+  const rem = remaining(total, used);
+  if (n.gt(rem)) throw new Error(`Phân bổ vượt phần còn lại (còn: ${rem.toString()}, muốn phân bổ: ${n.toString()})`);
 }
 
-/**
- * 1. Cầu nối số dư tổng quát: Số đầu kỳ + Tăng trong kỳ - Giảm trong kỳ = Số cuối kỳ
- */
-export function reconcileBalance(x: BalanceBridge): { expected: bigint; difference: bigint; isBalanced: boolean } {
-  const expected = x.opening + x.increases - x.decreases;
-  const difference = x.closing - expected;
+export function stockDifference(book: string, physical: string): string {
+  return new Decimal(physical || 0).minus(new Decimal(book || 0)).toFixed();
+}
+
+export function marginSignal(netRevenue: string, matchedCost: string | null): { state: 'signal' | 'no_negative_margin' | 'insufficient_data'; margin?: string; reason?: string } {
+  if (matchedCost === null || matchedCost === undefined) {
+    return { state: 'insufficient_data', reason: 'Chưa có giá vốn cùng phạm vi' };
+  }
+  const rev = new Decimal(netRevenue || 0);
+  const cost = new Decimal(matchedCost || 0);
+  const margin = rev.minus(cost);
   return {
-    expected,
-    difference,
-    isBalanced: difference === 0n
+    state: margin.lt(0) ? 'signal' : 'no_negative_margin',
+    margin: margin.toFixed()
   };
 }
 
-/**
- * 2. Cầu nối Doanh thu TK 511 vs Hóa đơn GTGT (VAS 14 & Luật Quản lý thuế 38/2019)
- */
-export interface RevenueReconciliationResult {
-  accounting511: bigint;
-  invoicesIssued: bigint;
-  timingDifference: bigint;
-  salesDeductions: bigint;
-  unexplainedDiff: bigint;
-  severity: 'normal' | 'medium' | 'high';
-  riskMessage: string;
+export interface ReconcileContext {
+  caseId: string;
+  issueId: string;
+  deliveries?: { id: string; sku: string; quantity: string; deliveryNo: string }[];
+  invoices?: { id: string; sku: string; quantity: string; price?: string; series?: string; number?: string; lifecycle?: string; parentId?: string }[];
+  payments?: { id: string; gross: string; allocated: string[] }[];
+  stocks?: { date: string; sku: string; balance: string }[];
+  physicalCounts?: { sku: string; book: string; actual: string }[];
+  wipItems?: { id: string; objectCode: string; cost154: string; acceptedAmount: string }[];
+  agreements?: { sku: string; contractPrice: string }[];
+  offsets?: { id: string; parties: string[]; amount: string; hasSignedAgreement: boolean }[];
 }
 
-export function reconcileRevenue(
-  accounting511: bigint,
-  invoicesIssued: bigint,
-  timingDifference: bigint,
-  salesDeductions: bigint
-): RevenueReconciliationResult {
-  const expectedInvoices = accounting511 + timingDifference - salesDeductions;
-  const unexplainedDiff = invoicesIssued - expectedInvoices;
-  const absDiff = unexplainedDiff < 0n ? -unexplainedDiff : unexplainedDiff;
+export function runReconciliationRules(ctx: ReconcileContext): Finding[] {
+  const findings: Finding[] = [];
+  let counter = 1;
+  const fid = () => `${ctx.caseId}:finding:${counter++}`;
 
-  let severity: 'normal' | 'medium' | 'high' = 'normal';
-  let riskMessage = 'Số liệu doanh thu 511 và hóa đơn GTGT đã khớp đúng logic chứng từ.';
-
-  if (absDiff > 100_000_000n) {
-    severity = 'high';
-    riskMessage = 'Lệch trọng yếu trên 100 triệu! Nguy cơ đoàn thuế truy thu GTGT đầu ra và phạt chậm nộp.';
-  } else if (absDiff > 0n) {
-    severity = 'medium';
-    riskMessage = 'Có chênh lệch nhỏ cần bổ sung bảng kê chứng từ và thời điểm nghiệm thu xây dựng (VAS 14).';
-  }
-
-  return {
-    accounting511,
-    invoicesIssued,
-    timingDifference,
-    salesDeductions,
-    unexplainedDiff,
-    severity,
-    riskMessage
-  };
-}
-
-/**
- * 3. Cầu nối Chi phí Dở dang TK 154 (26 tỷ dở dang của Kiểu Việt)
- */
-export interface Wip154ReconciliationResult {
-  opening154: bigint;
-  incurred154: bigint;
-  transferredToCogs632: bigint;
-  closing154: bigint;
-  calculatedClosing154: bigint;
-  unexplainedDiff: bigint;
-  unacceptedCogsEstimated: bigint;
-  severity: 'normal' | 'medium' | 'high';
-  recommendation: string;
-}
-
-export function reconcileWip154(
-  opening154: bigint,
-  incurred154: bigint,
-  transferredToCogs632: bigint,
-  closing154: bigint
-): Wip154ReconciliationResult {
-  const calculatedClosing154 = opening154 + incurred154 - transferredToCogs632;
-  const unexplainedDiff = closing154 - calculatedClosing154;
-  const absDiff = unexplainedDiff < 0n ? -unexplainedDiff : unexplainedDiff;
-
-  let severity: 'normal' | 'medium' | 'high' = 'normal';
-  let recommendation = 'Số dư 154 phù hợp với tiến độ thi công công trình và tồn xưởng gỗ.';
-
-  if (absDiff !== 0n) {
-    severity = 'high';
-    recommendation = 'Lệch sổ cái 154 so với bảng tập hợp chi phí công trình! Kiểm tra ngay bút toán kết chuyển 632 dở dang.';
-  } else if (closing154 > 20_000_000_000n) {
-    severity = 'medium';
-    recommendation = 'Số dư dở dang lớn (>20 tỷ). Cần chuẩn bị đầy đủ Biên bản kiểm kê hiện trường cuối kỳ, hợp đồng dở dang và giải trình trích trước 335 theo TT 96/2015.';
-  }
-
-  return {
-    opening154,
-    incurred154,
-    transferredToCogs632,
-    closing154,
-    calculatedClosing154,
-    unexplainedDiff,
-    unacceptedCogsEstimated: 0n,
-    severity,
-    recommendation
-  };
-}
-
-/**
- * 4. Kiểm soát trần chi phí Lãi vay 30% EBITDA (Nghị định 132/2020/NĐ-CP)
- * Áp dụng giải bài toán 37 tỷ nợ liên kết Kiểu Việt
- */
-export function calculateEbitdaInterest(
-  netOperatingProfit: bigint,
-  netInterestExpense: bigint,
-  depreciationExpense: bigint
-): EbitdaInterestCalculation {
-  const ebitda = netOperatingProfit + netInterestExpense + depreciationExpense;
-  
-  let interestCap30Percent = 0n;
-  let disallowedInterest = 0n;
-  let carriedForwardAvailable = 0n;
-
-  if (ebitda > 0n) {
-    interestCap30Percent = (ebitda * 30n) / 100n;
-    if (netInterestExpense > interestCap30Percent) {
-      disallowedInterest = netInterestExpense - interestCap30Percent;
-      carriedForwardAvailable = disallowedInterest;
-    }
-  } else {
-    disallowedInterest = netInterestExpense;
-    carriedForwardAvailable = netInterestExpense;
-  }
-
-  return {
-    netOperatingProfit,
-    netInterestExpense,
-    depreciationExpense,
-    ebitda,
-    interestCap30Percent,
-    disallowedInterest,
-    carriedForwardAvailable
-  };
-}
-
-/**
- * 5. Trích lập dự phòng Nợ phải thu khó đòi TK 2293 (Thông tư 48/2019/TT-BTC)
- * Áp dụng cho 3.11 tỷ nợ bê tông & vật tư công trình
- */
-export function calculateBadDebtProvision(
-  customerName: string,
-  pillar: Pillar,
-  originalDebtAmount: bigint,
-  overdueMonths: number,
-  hasReconciliationDoc: boolean,
-  hasDebtReminderDocs: boolean
-): BadDebtProvisionCalculation {
-  let rate = 0;
-  if (overdueMonths >= 36) {
-    rate = 1.0;
-  } else if (overdueMonths >= 24) {
-    rate = 0.7;
-  } else if (overdueMonths >= 12) {
-    rate = 0.5;
-  } else if (overdueMonths >= 6) {
-    rate = 0.3;
-  }
-
-  const provisionAmount = (originalDebtAmount * BigInt(Math.round(rate * 100))) / 100n;
-  const taxDeductible = rate > 0 && (hasReconciliationDoc || hasDebtReminderDocs);
-
-  let notes = 'Nợ chưa quá hạn hoặc dưới 6 tháng; chưa đủ điều kiện trích lập.';
-  if (rate > 0) {
-    if (taxDeductible) {
-      notes = `Đủ điều kiện trích lập ${(rate * 100)}% theo TT 48/2019. Hồ sơ chứng từ hợp lệ để tính chi phí được trừ TNDN.`;
-    } else {
-      notes = `Trích lập kế toán ${(rate * 100)}% nhưng THIẾU biên bản đối chiếu/giấy đòi nợ! Thuế sẽ LOẠI khỏi chi phí hợp lý khi thanh tra!`;
+  // 1. RULE: UNBILLED_DELIVERY (Giao hàng chưa xuất hóa đơn)
+  if (ctx.deliveries && ctx.invoices) {
+    for (const d of ctx.deliveries) {
+      const matched = ctx.invoices.find(inv => inv.sku.toLowerCase() === d.sku.toLowerCase());
+      if (!matched) {
+        findings.push({
+          id: fid(),
+          caseId: ctx.caseId,
+          issueId: ctx.issueId,
+          ruleId: 'UNBILLED_DELIVERY',
+          state: 'signal',
+          sourceIds: [d.id],
+          explanation: `Phiếu giao hàng ${d.deliveryNo} (SKU: ${d.sku}, số lượng: ${d.quantity}) chưa tìm thấy hóa đơn GTGT đối ứng.`,
+          missing: ['Hóa đơn GTGT đầu ra'],
+          legalRuleIds: ['RULE_INV_DELIVERY_TIMING']
+        });
+      }
     }
   }
 
-  return {
-    customerName,
-    pillar,
-    originalDebtAmount,
-    overdueMonths,
-    rate,
-    provisionAmount,
-    hasReconciliationDoc,
-    hasDebtReminderDocs,
-    taxDeductible,
-    notes
-  };
-}
-
-/**
- * 6. Đối chiếu thanh toán ngân hàng hóa đơn > 20 triệu (TK 331 - TK 112 & Biên bản cấn trừ)
- */
-export interface BankPaymentCheckResult {
-  invoiceAmount: bigint;
-  paidViaBank112: bigint;
-  offsetAmount: bigint;
-  cashPaymentAmount: bigint;
-  hasValidOffsetContract: boolean;
-  vatDeductible: boolean;
-  citDeductible: boolean;
-  riskWarning: string;
-}
-
-export function checkBankPaymentRule(
-  invoiceAmount: bigint,
-  paidViaBank112: bigint,
-  offsetAmount: bigint,
-  cashPaymentAmount: bigint,
-  hasValidOffsetContract: boolean
-): BankPaymentCheckResult {
-  const threshold20M = 20_000_000n;
-  const isOverThreshold = invoiceAmount >= threshold20M;
-
-  let vatDeductible = true;
-  let citDeductible = true;
-  let riskWarning = 'Thanh toán hợp lệ.';
-
-  if (isOverThreshold) {
-    if (cashPaymentAmount > 0n) {
-      vatDeductible = false;
-      citDeductible = false;
-      riskWarning = `Hóa đơn từ 20 triệu có thanh toán tiền mặt (${formatVnd(cashPaymentAmount)})! Thuế sẽ loại trừ thuế GTGT đầu vào và chi phí được trừ TNDN.`;
-    } else if (offsetAmount > 0n && !hasValidOffsetContract) {
-      vatDeductible = false;
-      citDeductible = false;
-      riskWarning = 'Có cấn trừ công nợ nhưng THIẾU Biên bản đối trừ có chữ ký 2 bên hoặc điều khoản cấn trừ trong hợp đồng kinh tế!';
+  // 2. RULE: INVOICE_WITHOUT_DELIVERY (Hóa đơn không có phiếu giao nhận)
+  if (ctx.invoices && ctx.deliveries) {
+    for (const inv of ctx.invoices) {
+      const matched = ctx.deliveries.find(d => d.sku.toLowerCase() === inv.sku.toLowerCase());
+      if (!matched) {
+        findings.push({
+          id: fid(),
+          caseId: ctx.caseId,
+          issueId: ctx.issueId,
+          ruleId: 'INVOICE_WITHOUT_DELIVERY',
+          state: 'signal',
+          sourceIds: [inv.id],
+          explanation: `Hóa đơn số ${inv.number || inv.id} (SKU: ${inv.sku}) chưa có phiếu xuất kho / biên bản giao nhận tương ứng.`,
+          missing: ['Biên bản bàn giao hàng / Phiếu xuất kho'],
+          legalRuleIds: ['RULE_INV_DELIVERY_TIMING']
+        });
+      }
     }
   }
 
-  return {
-    invoiceAmount,
-    paidViaBank112,
-    offsetAmount,
-    cashPaymentAmount,
-    hasValidOffsetContract,
-    vatDeductible,
-    citDeductible,
-    riskWarning
-  };
+  // 3. RULE: QUANTITY_MISMATCH (Lệch số lượng giao nhận so với hóa đơn)
+  if (ctx.deliveries && ctx.invoices) {
+    for (const d of ctx.deliveries) {
+      const inv = ctx.invoices.find(i => i.sku.toLowerCase() === d.sku.toLowerCase());
+      if (inv) {
+        const dQty = new Decimal(d.quantity || 0);
+        const iQty = new Decimal(inv.quantity || 0);
+        if (!dQty.equals(iQty)) {
+          findings.push({
+            id: fid(),
+            caseId: ctx.caseId,
+            issueId: ctx.issueId,
+            ruleId: 'QUANTITY_MISMATCH',
+            state: 'signal',
+            sourceIds: [d.id, inv.id],
+            explanation: `Lệch số lượng SKU ${d.sku}: Thực giao ${d.quantity} khác số lượng trên hóa đơn ${inv.quantity} (chênh lệch: ${dQty.minus(iQty).abs().toString()}).`,
+            missing: ['Biên bản nghiệm thu khối lượng chính thức'],
+            legalRuleIds: ['RULE_INV_DELIVERY_TIMING']
+          });
+        }
+      }
+    }
+  }
+
+  // 4. RULE: PRICE_AGREEMENT_MISMATCH (Giá hóa đơn lệch hợp đồng)
+  if (ctx.invoices && ctx.agreements) {
+    for (const inv of ctx.invoices) {
+      if (inv.price) {
+        const agr = ctx.agreements.find(a => a.sku.toLowerCase() === inv.sku.toLowerCase());
+        if (agr && !new Decimal(inv.price).equals(new Decimal(agr.contractPrice))) {
+          findings.push({
+            id: fid(),
+            caseId: ctx.caseId,
+            issueId: ctx.issueId,
+            ruleId: 'PRICE_AGREEMENT_MISMATCH',
+            state: 'signal',
+            sourceIds: [inv.id],
+            explanation: `Đơn giá hóa đơn (${inv.price}) lệch so với giá thỏa thuận trong hợp đồng (${agr.contractPrice}).`,
+            missing: ['Phụ lục hợp đồng điều chỉnh giá'],
+            legalRuleIds: ['RULE_CIT_BELOW_COST']
+          });
+        }
+      }
+    }
+  }
+
+  // 5. RULE: PAYMENT_UNALLOCATED (Dòng tiền chưa phân bổ)
+  if (ctx.payments) {
+    for (const p of ctx.payments) {
+      const rem = remaining(p.gross, p.allocated);
+      if (rem.gt(0)) {
+        findings.push({
+          id: fid(),
+          caseId: ctx.caseId,
+          issueId: ctx.issueId,
+          ruleId: 'PAYMENT_UNALLOCATED',
+          state: 'signal',
+          sourceIds: [p.id],
+          explanation: `Khoản thanh toán ${p.id} còn tồn dư ${rem.toString()} chưa được phân bổ cho hóa đơn nào.`,
+          missing: ['Chứng từ đối chiếu công nợ / Hợp đồng tạm ứng'],
+          legalRuleIds: ['RULE_CIT_BELOW_COST']
+        });
+      }
+    }
+  }
+
+  // 6. RULE: NEGATIVE_STOCK (Âm kho theo ngày)
+  if (ctx.stocks) {
+    for (const s of ctx.stocks) {
+      if (new Decimal(s.balance).lt(0)) {
+        findings.push({
+          id: fid(),
+          caseId: ctx.caseId,
+          issueId: ctx.issueId,
+          ruleId: 'NEGATIVE_STOCK',
+          state: 'signal',
+          sourceIds: [`stock:${s.sku}:${s.date}`],
+          explanation: `Phát hiện âm kho thời điểm tại ngày ${s.date} đối với SKU ${s.sku} (Số dư tồn: ${s.balance}).`,
+          missing: ['Phiếu nhập kho trước thời điểm xuất'],
+          legalRuleIds: ['RULE_CIT_BELOW_COST']
+        });
+      }
+    }
+  }
+
+  // 7. RULE: STOCK_COUNT_DIFFERENCE (Lệch kiểm kê thực tế)
+  if (ctx.physicalCounts) {
+    for (const pc of ctx.physicalCounts) {
+      const diff = stockDifference(pc.book, pc.actual);
+      if (!new Decimal(diff).isZero()) {
+        findings.push({
+          id: fid(),
+          caseId: ctx.caseId,
+          issueId: ctx.issueId,
+          ruleId: 'STOCK_COUNT_DIFFERENCE',
+          state: 'signal',
+          sourceIds: [`inventory:${pc.sku}`],
+          explanation: `Chênh lệch kiểm kê kho SKU ${pc.sku}: Sổ sách ${pc.book} vs Thực tế ${pc.actual} (Chênh lệch: ${diff}).`,
+          missing: ['Biên bản kiểm kê kho', 'Quyết định xử lý thừa thiếu hàng tồn kho'],
+          legalRuleIds: ['RULE_CIT_BELOW_COST']
+        });
+      }
+    }
+  }
+
+  // 8. RULE: INVOICE_CHAIN_INVALID (Chuỗi hóa đơn có vòng lặp hoặc thiếu cha)
+  if (ctx.invoices) {
+    for (const inv of ctx.invoices) {
+      if ((inv.lifecycle === 'adjusted' || inv.lifecycle === 'replaced') && !inv.parentId) {
+        findings.push({
+          id: fid(),
+          caseId: ctx.caseId,
+          issueId: ctx.issueId,
+          ruleId: 'INVOICE_CHAIN_INVALID',
+          state: 'signal',
+          sourceIds: [inv.id],
+          explanation: `Hóa đơn ${inv.number} mang trạng thái ${inv.lifecycle} nhưng không có thông tin hóa đơn cha (parentId).`,
+          missing: ['Hóa đơn gốc cần điều chỉnh/thay thế'],
+          legalRuleIds: ['RULE_INV_ADJUST_REPLACE']
+        });
+      }
+    }
+  }
+
+  // 9. RULE: COST_OBJECT_MISSING (Chi phí thiếu đối tượng tính giá thành)
+  if (ctx.wipItems) {
+    for (const w of ctx.wipItems) {
+      if (!w.objectCode || w.objectCode === 'unassigned') {
+        findings.push({
+          id: fid(),
+          caseId: ctx.caseId,
+          issueId: ctx.issueId,
+          ruleId: 'COST_OBJECT_MISSING',
+          state: 'signal',
+          sourceIds: [w.id],
+          explanation: `Chi phí dở dang TK 154 (${w.cost154} đ) chưa được gán đối tượng công trình / sản phẩm cụ thể.`,
+          missing: ['Mã công trình / Sản phẩm đích'],
+          legalRuleIds: ['RULE_CIT_BELOW_COST']
+        });
+      }
+    }
+  }
+
+  // 10. RULE: ACCEPTED_WORK_STILL_WIP (Nghiệm thu nhưng TK 154 còn treo)
+  if (ctx.wipItems) {
+    for (const w of ctx.wipItems) {
+      if (new Decimal(w.acceptedAmount || 0).gt(0) && new Decimal(w.cost154 || 0).gt(0)) {
+        findings.push({
+          id: fid(),
+          caseId: ctx.caseId,
+          issueId: ctx.issueId,
+          ruleId: 'ACCEPTED_WORK_STILL_WIP',
+          state: 'signal',
+          sourceIds: [w.id],
+          explanation: `Công trình ${w.objectCode} đã ký nghiệm thu ${w.acceptedAmount} nhưng chi phí dở dang TK 154 vẫn treo ${w.cost154} chưa kết chuyển giá vốn TK 632.`,
+          missing: ['Bút toán kết chuyển giá vốn tương ứng'],
+          legalRuleIds: ['RULE_CIT_BELOW_COST']
+        });
+      }
+    }
+  }
+
+  // 11. RULE: BELOW_COST (Bán dưới giá vốn)
+  if (ctx.invoices && ctx.wipItems) {
+    for (const inv of ctx.invoices) {
+      const wip = ctx.wipItems.find(w => w.objectCode === inv.sku);
+      if (wip && inv.price) {
+        const sig = marginSignal(inv.price, wip.cost154);
+        if (sig.state === 'signal') {
+          findings.push({
+            id: fid(),
+            caseId: ctx.caseId,
+            issueId: ctx.issueId,
+            ruleId: 'BELOW_COST',
+            state: 'signal',
+            sourceIds: [inv.id, wip.id],
+            explanation: `Doanh thu đơn vị (${inv.price}) thấp hơn giá thành sản xuất (${wip.cost154}) chênh lệch âm: ${sig.margin}.`,
+            missing: ['Quyết định phê duyệt bán thanh lý / Định mức phẩm cấp'],
+            legalRuleIds: ['RULE_CIT_BELOW_COST']
+          });
+        }
+      }
+    }
+  }
+
+  // 12. RULE: OFFSET_EVIDENCE_MISSING (Cấn trừ công nợ thiếu chứng cứ đối chiếu)
+  if (ctx.offsets) {
+    for (const off of ctx.offsets) {
+      if (!off.hasSignedAgreement) {
+        findings.push({
+          id: fid(),
+          caseId: ctx.caseId,
+          issueId: ctx.issueId,
+          ruleId: 'OFFSET_EVIDENCE_MISSING',
+          state: 'signal',
+          sourceIds: [off.id],
+          explanation: `Giao dịch cấn trừ công nợ (${off.amount} đ) giữa các bên [${off.parties.join(', ')}] thiếu biên bản thỏa thuận bù trừ có chữ ký xác nhận của các bên.`,
+          missing: ['Biên bản đối chiếu và thỏa thuận bù trừ công nợ đa bên'],
+          legalRuleIds: ['RULE_VAT_BANK_TRANSFER']
+        });
+      }
+    }
+  }
+
+  return findings;
 }

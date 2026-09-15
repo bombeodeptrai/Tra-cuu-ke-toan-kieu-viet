@@ -310,5 +310,3 @@ Nghiệm thu Antigravity: `npm run build`; test unit imports/reconcile/legalPeri
 
 Đã kiểm khả năng mở toàn bộ 12 route và 10 tab; đọc mã dữ liệu/công thức/prompt liên quan; tra lại nguồn pháp luật trọng yếu. Chưa có bộ hóa đơn, sổ kho, sao kê thực tế của kỳ kiểm tra để xác định doanh nghiệp đang sai ở khoản nào. Những tình huống trên là phạm vi phải hỗ trợ, không phải kết luận Kiểu Việt đã thực hiện. Không gửi dữ liệu tài chính riêng lên web search/AI ngoài. Bản này là walkthrough để Antigravity làm theo yêu cầu, không thay đổi/deploy source ứng dụng trong lượt này.
 
-Kế hoạch y tế trước đây được bảo toàn nguyên văn tại [CODEX_WALKTHROUGH_MEDICAL_ARCHIVE_2026-09-15.md](CODEX_WALKTHROUGH_MEDICAL_ARCHIVE_2026-09-15.md). Không triển khai nhánh y tế trong tác vụ này.
-

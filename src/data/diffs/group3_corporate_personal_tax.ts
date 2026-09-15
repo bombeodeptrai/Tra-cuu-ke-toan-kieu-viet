@@ -985,7 +985,7 @@ export const group3CorporatePersonalTax: Record<string, DecreeDiffData> = {
         "type": "added",
         "oldRule": "[Căn cứ: Luật QLT] Nộp thuế sau hạn bị tính lãi phạt 0.03%/ngày.",
         "newRule": "[Căn cứ: Điều 4 Khoản 5 NĐ 64/2024] Cơ quan thuế không tính tiền chậm nộp đối với số tiền thuế và tiền thuê đất được gia hạn trong khoảng thời gian được gia hạn nộp thuế.",
-        "impactNote": "Kiểu Việt tiết kiệm hàng trăm triệu đồng tiền lãi phạt chậm nộp trong thời gian 3-5 tháng được gia hạn."
+        "impactNote": "Doanh nghiệp không bị tính tiền chậm nộp 0.03%/ngày đối với số thuế được gia hạn hợp lệ trong thời gian quy định tại Nghị định."
       },
       {
         "topic": "Không áp dụng gia hạn đối với doanh nghiệp thuộc đối tượng cưỡng chế thuế (Điều 3)",

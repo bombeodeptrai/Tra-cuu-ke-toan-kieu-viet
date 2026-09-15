@@ -35,7 +35,7 @@ export function GuidePage() {
   // Mục lục 15 tính năng cốt lõi
   const tableOfContents = [
     { id: 'overview', title: '1. Tổng quan & Kiến trúc nền tảng', category: 'legal', icon: LayoutDashboard },
-    { id: 'tax-audit', title: '2. Chuẩn bị kiểm tra thuế (10 Module)', category: 'audit', icon: ShieldCheck, badge: 'Trọng tâm' },
+    { id: 'tax-audit', title: '2. Bàn xử lý sự vụ (S01-S24) & Kiểm tra thuế', category: 'audit', icon: ShieldCheck, badge: 'Trọng tâm' },
     { id: 'audit-dossiers', title: '3. 15 Bộ hồ sơ thực chiến & Bảng CSV', category: 'audit', icon: Building2 },
     { id: 'audit-checklist', title: '4. Checklist 55 mục & Lộ trình 30-15-7 ngày', category: 'audit', icon: CheckSquare },
     { id: 'audit-defense', title: '5. 15 Mẫu giải trình & 15 Kịch bản đối thoại', category: 'audit', icon: FileSpreadsheet },
@@ -289,24 +289,24 @@ export function GuidePage() {
                 </div>
                 <div>
                   <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground flex items-center gap-2">
-                    2. Không Gian Kiểm Tra Thuế (10 Module Cốt Tử)
-                    <Badge className="bg-red-600 text-white text-xs">Vũ khí bảo vệ giá vốn</Badge>
+                    2. Bàn Xử Lý Sự Vụ (S01-S24) & Không Gian Kiểm Tra Thuế
+                    <Badge className="bg-emerald-600 text-white text-xs">Phát hiện & Xử lý chênh lệch thực tế</Badge>
                   </h2>
-                  <p className="text-xs text-muted-foreground">Hệ thống bàn làm việc, tự đánh giá, mẫu biểu và pháp lý trước - trong - sau thanh tra</p>
+                  <p className="text-xs text-muted-foreground">Hệ thống bàn xử lý sự vụ, đối chiếu dòng chứng từ, tự đánh giá, mẫu biểu và pháp lý thực chiến</p>
                 </div>
               </div>
 
               <Button 
                 size="sm" 
                 onClick={() => navigate('/kiem-tra-thue')}
-                className="bg-red-600 hover:bg-red-700 text-white text-xs font-bold h-8 gap-1.5 shrink-0 rounded-lg cursor-pointer"
+                className="bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold h-8 gap-1.5 shrink-0 rounded-lg cursor-pointer"
               >
                 <ShieldCheck className="h-3.5 w-3.5" /> Thao Tác Ngay
               </Button>
             </div>
 
             <p className="text-sm leading-relaxed text-muted-foreground">
-              Module <strong>"Chuẩn bị kiểm tra thuế"</strong> là trung tâm tác nghiệp quan trọng nhất của kế toán Kiểu Việt. Giao diện được thiết kế dạng <strong>Thanh Tab 2 Tầng Hiện Đại</strong> chia làm 2 nhóm:
+              Module <strong>"Chuẩn bị kiểm tra thuế"</strong> là trung tâm tác nghiệp quan trọng nhất của kế toán Kiểu Việt. Mặc định kích hoạt <strong>Bàn xử lý sự vụ thực tế (S01 - S24)</strong> cùng hệ thống điều hướng 2 tầng gồm 11 công cụ chuyên sâu:
             </p>
 
             {/* MINH HỌA GIAO DIỆN THANH TAB 2 TẦNG */}
@@ -316,7 +316,7 @@ export function GuidePage() {
                   <Sliders className="h-4 w-4 text-purple-600" />
                   <span>Minh họa: Thanh Điều Hướng 2 Tầng Trong Trang Kiểm Tra Thuế</span>
                 </div>
-                <Badge variant="outline" className="text-[10px]">10 Tabs Chức Năng</Badge>
+                <Badge variant="outline" className="text-[10px]">11 Tabs Chức Năng (Mặc định: Sự Vụ S01-S24)</Badge>
               </div>
 
               {/* MOCKUP UI FRAME */}
@@ -324,12 +324,16 @@ export function GuidePage() {
                 {/* Tầng 1 Mockup */}
                 <div className="space-y-1.5">
                   <div className="text-[10.5px] font-bold text-blue-700 dark:text-blue-400 uppercase tracking-wide flex items-center gap-1">
-                    <Sparkles className="h-3 w-3" /> Tầng 1: Quy Trình & Nghiệp Vụ Kiểm Tra Thực Chiến (7 Chuyên Đề)
+                    <Sparkles className="h-3 w-3" /> Tầng 1: Nghiệp Vụ Kiểm Tra & Phòng Thủ Thực Chiến (8 Chuyên Đề)
                   </div>
-                  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-1.5 text-[11px]">
-                    <div className="p-2 rounded-lg bg-blue-600 text-white font-bold flex items-center justify-between shadow-2xs">
+                  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-1.5 text-[11px]">
+                    <div className="p-2 rounded-lg bg-emerald-600 text-white font-bold flex items-center justify-between shadow-2xs border border-emerald-500/30">
+                      <span>⚡ Sự Vụ (Mới)</span>
+                      <span className="text-[9px] bg-white/20 px-1 rounded">24 vụ</span>
+                    </div>
+                    <div className="p-2 rounded-lg bg-card border border-border text-foreground font-medium flex items-center justify-between">
                       <span>📁 15 Bộ Hồ Sơ</span>
-                      <span className="text-[9px] bg-white/20 px-1 rounded">15</span>
+                      <span className="text-[9px] text-muted-foreground">15</span>
                     </div>
                     <div className="p-2 rounded-lg bg-card border border-border text-foreground font-medium flex items-center justify-between">
                       <span>📋 Checklist</span>
@@ -353,7 +357,7 @@ export function GuidePage() {
                     </div>
                     <div className="p-2 rounded-lg bg-card border border-border text-foreground font-medium flex items-center justify-between">
                       <span>🤖 AI Phản Biện</span>
-                      <span className="text-[9px] text-muted-foreground">15</span>
+                      <span className="text-[9px] text-muted-foreground">Gemini</span>
                     </div>
                   </div>
                 </div>
@@ -366,7 +370,7 @@ export function GuidePage() {
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 text-[11px]">
                     <div className="p-2 rounded-lg bg-card border border-border text-foreground font-medium flex items-center gap-2">
                       <Scale className="h-3.5 w-3.5 text-emerald-600" />
-                      <span>Đối Chiếu Sổ & Nhập CSV (511, 154, 635, 335, 229)</span>
+                      <span>Đối Chiếu Sổ & Nhập CSV (12 Rules Reconcile Engine)</span>
                     </div>
                     <div className="p-2 rounded-lg bg-card border border-border text-foreground font-medium flex items-center gap-2">
                       <FolderArchive className="h-3.5 w-3.5 text-blue-600" />
@@ -377,6 +381,43 @@ export function GuidePage() {
                       <span>Kho Luật Bổ Sung (84 Văn Bản Pháp Luật)</span>
                     </div>
                   </div>
+                </div>
+              </div>
+            </div>
+
+            {/* HƯỚNG DẪN 6 VÙNG CHỨC NĂNG BÀN XỬ LÝ SỰ VỤ S01 - S24 */}
+            <div className="p-5 bg-gradient-to-r from-emerald-50/50 via-teal-50/30 to-blue-50/40 dark:from-emerald-950/20 dark:via-teal-950/10 dark:to-blue-950/20 border border-emerald-200/80 dark:border-emerald-800/40 rounded-2xl space-y-3 text-xs">
+              <div className="font-bold text-emerald-950 dark:text-emerald-100 flex items-center gap-2 text-sm">
+                <Sparkles className="h-4 w-4 text-emerald-600" />
+                Cấu Trúc 6 Vùng Nghiệp Vụ Tại Bàn Xử Lý Sự Vụ (S01 - S24):
+              </div>
+              <p className="text-muted-foreground text-[11px] leading-relaxed">
+                Khi nhấp vào bất kỳ sự vụ nào trong 24 kịch bản (ví dụ S01 Giao hàng lệch hóa đơn, S03 Bán dưới giá vốn, S05 Âm kho theo ngày), hệ thống mở ra bàn làm việc 6 vùng khép kín:
+              </p>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2.5 pt-1 text-[11px]">
+                <div className="p-3 bg-card border border-border rounded-xl space-y-1">
+                  <div className="font-bold text-foreground">1. Dữ kiện nghiệp vụ</div>
+                  <p className="text-muted-foreground">Ghi nhận mảng hoạt động, khách hàng/công trình, ngày phát sinh, số hóa đơn và số liệu cụ thể.</p>
+                </div>
+                <div className="p-3 bg-card border border-border rounded-xl space-y-1">
+                  <div className="font-bold text-foreground">2. Câu hỏi phân loại bản chất</div>
+                  <p className="text-muted-foreground">Tối đa 3 câu hỏi trắc nghiệm chia 3 nhánh: Giải thích được, Cần sửa chữa, hoặc Chưa rõ cần xác minh thêm.</p>
+                </div>
+                <div className="p-3 bg-card border border-border rounded-xl space-y-1">
+                  <div className="font-bold text-foreground">3. Hồ sơ chứng từ đối chiếu</div>
+                  <p className="text-muted-foreground">Danh mục chứng từ gốc cần kiểm tra đối ứng (Hợp đồng, phiếu cân, biên bản nghiệm thu, hóa đơn).</p>
+                </div>
+                <div className="p-3 bg-card border border-border rounded-xl space-y-1">
+                  <div className="font-bold text-foreground">4. Đánh giá nguyên nhân thực tế</div>
+                  <p className="text-muted-foreground">Phân biệt nguyên nhân kinh doanh khách quan với sai sót kế toán hoặc vi phạm quy định kê khai.</p>
+                </div>
+                <div className="p-3 bg-card border border-border rounded-xl space-y-1">
+                  <div className="font-bold text-foreground">5. Phương án khắc phục & Giải trình</div>
+                  <p className="text-muted-foreground">4 bảng phương án: xác minh thực tế, dự thảo hóa đơn, dự thảo sổ kế toán và tờ khai bổ sung Mẫu 01/KHBS.</p>
+                </div>
+                <div className="p-3 bg-card border border-border rounded-xl space-y-1">
+                  <div className="font-bold text-foreground">6. Kết luận & Người phụ trách</div>
+                  <p className="text-muted-foreground">Phân công nhân sự thực hiện, thời hạn hoàn tất và liên kết trực tiếp với mẫu giải trình hành chính.</p>
                 </div>
               </div>
             </div>
@@ -1099,7 +1140,7 @@ export function GuidePage() {
               {[
                 {
                   q: '1. Dữ liệu chuẩn bị hồ sơ kiểm tra thuế lưu ở đâu? Có bị mất khi tắt trình duyệt không?',
-                  a: 'Toàn bộ 15 bộ hồ sơ, phân công người phụ trách, ghi chú đối chiếu và nhật ký đoàn thanh tra được lưu trữ tự động trong cơ sở dữ liệu IndexedDB (Dexie) an toàn trên trình duyệt của máy bạn. Kể cả khi tải lại trang (F5) hoặc tắt máy mở lại, 100% dữ liệu vẫn nguyên vẹn.'
+                  a: 'Toàn bộ sự vụ, 15 bộ hồ sơ, phân công người phụ trách, dòng đối chiếu và nhật ký đoàn được lưu trữ cục bộ trong cơ sở dữ liệu IndexedDB (Dexie) trên trình duyệt của máy bạn. Dữ liệu vẫn được giữ khi tải lại trang (F5) hoặc tắt máy. Tuy nhiên, nếu xóa lịch sử/dữ liệu duyệt web hoặc đổi máy tính, dữ liệu cục bộ có thể bị mất. Bạn CẦN chủ động bấm "Sao lưu dữ liệu" (JSON) định kỳ để bảo toàn hồ sơ an toàn.'
                 },
                 {
                   q: '2. Khi tải file CSV về máy, tại sao mở bằng Excel bị lỗi font tiếng Việt?',

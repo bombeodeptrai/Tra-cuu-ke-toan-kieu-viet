@@ -16,6 +16,7 @@ export interface WorkRecord {
   owner: string; deadline: string; requestedBy: string; receivedAt: string;
   status: 'open' | 'preparing' | 'submitted' | 'closed' | 'not_applicable'; evidenceIds: string[];
   response: string; receipt: string; submittedAt: string;
+  procedureId?: string;
   deliveries: { at: string; response: string; files: { id: string; title: string; hash?: string; location: string }[] }[];
 }
 export interface CalculationRecord {
@@ -23,12 +24,38 @@ export interface CalculationRecord {
   inputs: Record<string, string>; output: string; createdAt: string;
 }
 export interface AuditEvent { id: string; caseId: string; at: string; action: string; target: string }
+
+import type { AuditIssue, ImportBatch, MatchAllocation, Finding, CorrectionPlan } from '@/types/audit-issues';
+
 class WorkspaceDatabase extends Dexie {
-  cases!: Table<CaseRecord>; evidence!: Table<EvidenceRecord>; work!: Table<WorkRecord>;
-  calculations!: Table<CalculationRecord>; events!: Table<AuditEvent>;
+  cases!: Table<CaseRecord>;
+  evidence!: Table<EvidenceRecord>;
+  work!: Table<WorkRecord>;
+  calculations!: Table<CalculationRecord>;
+  events!: Table<AuditEvent>;
+  issues!: Table<AuditIssue>;
+  importBatches!: Table<ImportBatch>;
+  sourceRows!: Table<any>;
+  allocations!: Table<MatchAllocation>;
+  findings!: Table<Finding>;
+  correctionPlans!: Table<CorrectionPlan>;
+
   constructor() {
     super('kv-accounting-audit-v1');
-    this.version(1).stores({ cases: 'id', evidence: 'id,caseId', work: 'id,caseId', calculations: 'id,caseId', events: 'id,caseId' });
+    this.version(1).stores({
+      cases: 'id', evidence: 'id,caseId', work: 'id,caseId',
+      calculations: 'id,caseId', events: 'id,caseId'
+    });
+    this.version(2).stores({
+      cases: 'id', evidence: 'id,caseId', work: 'id,caseId',
+      calculations: 'id,caseId', events: 'id,caseId',
+      issues: 'id,caseId,scenarioId,status,[caseId+scenarioId]',
+      importBatches: 'id,caseId,[caseId+fileHash]',
+      sourceRows: 'id,caseId,batchId,kind',
+      allocations: 'id,caseId,issueId,leftId,rightId',
+      findings: 'id,caseId,issueId,ruleId',
+      correctionPlans: 'id,caseId,issueId'
+    });
   }
 }
 export const auditDb = new WorkspaceDatabase();
