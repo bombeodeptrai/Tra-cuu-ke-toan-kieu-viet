@@ -1,5 +1,5 @@
 // src/pages/TenderBiddingPage.tsx
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Briefcase,
   CheckCircle2,
@@ -19,15 +19,58 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
-import { MOCK_TENDER_PACKAGES } from '@/data/mock-medical';
+import { apiClient } from '@/lib/api/client';
 import { TenderPackage, SpecificationItem } from '@/types/medical';
 import { formatVnd } from '@/lib/utils';
 
 export const TenderBiddingPage: React.FC = () => {
-  const [selectedTenderId, setSelectedTenderId] = useState<string>(MOCK_TENDER_PACKAGES[0].id);
+  const [tenders, setTenders] = useState<TenderPackage[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [selectedTenderId, setSelectedTenderId] = useState<string>('');
   const [searchFilter, setSearchFilter] = useState('');
+  const [pricingData, setPricingData] = useState<any>(null);
 
-  const activeTender = MOCK_TENDER_PACKAGES.find((t) => t.id === selectedTenderId) || MOCK_TENDER_PACKAGES[0];
+  useEffect(() => {
+    const fetchTenders = async () => {
+      try {
+        const data = await apiClient.get('/api/tenders');
+        const parsedData = (data || []).map((t: any) => ({
+          ...t,
+          estimatedBudgetVnd: typeof t.estimatedBudgetVnd === 'string' && /^\d+$/.test(t.estimatedBudgetVnd) ? BigInt(t.estimatedBudgetVnd) : (typeof t.estimatedBudgetVnd === 'bigint' ? t.estimatedBudgetVnd : 0n),
+          bidBondAmountVnd: typeof t.bidBondAmountVnd === 'string' && /^\d+$/.test(t.bidBondAmountVnd) ? BigInt(t.bidBondAmountVnd) : (typeof t.bidBondAmountVnd === 'bigint' ? t.bidBondAmountVnd : 0n),
+          bidPriceVnd: typeof t.bidPriceVnd === 'string' && /^\d+$/.test(t.bidPriceVnd) ? BigInt(t.bidPriceVnd) : (typeof t.bidPriceVnd === 'bigint' ? t.bidPriceVnd : 0n),
+        }));
+        setTenders(parsedData);
+        if (parsedData && parsedData.length > 0) {
+          setSelectedTenderId(parsedData[0].id);
+        }
+      } catch (err) {
+        console.error(err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchTenders();
+  }, []);
+
+  useEffect(() => {
+    const fetchPricing = async () => {
+      if (!selectedTenderId) return;
+      try {
+        const data = await apiClient.get(`/api/tenders/${selectedTenderId}/pricing`);
+        setPricingData(data);
+      } catch (err) {
+        console.error('Failed to fetch pricing:', err);
+        setPricingData(null);
+      }
+    };
+    fetchPricing();
+  }, [selectedTenderId]);
+
+  if (loading) return <div className="p-8 text-center text-slate-500">Đang tải dữ liệu...</div>;
+  if (!tenders.length) return <div className="p-8 text-center text-slate-500">Không có gói thầu nào</div>;
+
+  const activeTender = tenders.find((t) => t.id === selectedTenderId) || tenders[0];
 
   const filteredSpecs = activeTender.specs.filter(
     (s) =>
@@ -61,7 +104,7 @@ export const TenderBiddingPage: React.FC = () => {
 
       {/* Package Selector Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-        {MOCK_TENDER_PACKAGES.map((t) => {
+        {tenders.map((t) => {
           const isSelected = t.id === activeTender.id;
           return (
             <div
@@ -229,36 +272,18 @@ export const TenderBiddingPage: React.FC = () => {
                     </CardDescription>
                   </CardHeader>
                   <CardContent className="space-y-2.5 text-xs pt-3">
-                    <div className="flex justify-between py-1.5 border-b border-slate-200">
-                      <span className="text-slate-600">1. Giá vốn nhập khẩu (CIF Đà Nẵng/Hải Phòng):</span>
-                      <span className="font-mono text-slate-900 font-semibold">
-                        {formatVnd((activeTender.bidPriceVnd * 72n) / 100n)}
-                      </span>
-                    </div>
-                    <div className="flex justify-between py-1.5 border-b border-slate-200">
-                      <span className="text-slate-600">2. Thuế GTGT đầu vào TBYT (5% theo TT 219):</span>
-                      <span className="font-mono text-slate-900 font-semibold">
-                        {formatVnd((activeTender.bidPriceVnd * 5n) / 100n)}
-                      </span>
-                    </div>
-                    <div className="flex justify-between py-1.5 border-b border-slate-200">
-                      <span className="text-slate-600">3. Vận chuyển, bảo hiểm & lắp đặt tại Bệnh viện:</span>
-                      <span className="font-mono text-slate-900 font-semibold">
-                        {formatVnd((activeTender.bidPriceVnd * 3n) / 100n)}
-                      </span>
-                    </div>
-                    <div className="flex justify-between py-1.5 border-b border-slate-200">
-                      <span className="text-slate-600">4. Chi phí kỹ thuật SLA thường trú 36 tháng:</span>
-                      <span className="font-mono text-slate-900 font-semibold">
-                        {formatVnd((activeTender.bidPriceVnd * 4n) / 100n)}
-                      </span>
-                    </div>
-                    <div className="flex justify-between py-1.5 border-b border-slate-200">
-                      <span className="text-slate-600">5. Lợi nhuận gộp dự kiến (Gross Margin ~16%):</span>
-                      <span className="font-mono text-emerald-700 font-bold">
-                        {formatVnd((activeTender.bidPriceVnd * 16n) / 100n)}
-                      </span>
-                    </div>
+                    {pricingData && pricingData.breakdown ? (
+                      pricingData.breakdown.map((item: any, idx: number) => (
+                        <div key={idx} className="flex justify-between py-1.5 border-b border-slate-200">
+                          <span className="text-slate-600">{idx + 1}. {item.label}:</span>
+                          <span className={item.isHighlight ? "font-mono text-emerald-700 font-bold" : "font-mono text-slate-900 font-semibold"}>
+                            {formatVnd(BigInt(item.amount || 0))}
+                          </span>
+                        </div>
+                      ))
+                    ) : (
+                      <div className="text-center text-slate-500 py-4">Đang tải cấu trúc giá...</div>
+                    )}
                     <div className="flex justify-between pt-2 text-sm font-bold">
                       <span className="text-teal-800">TỔNG GIÁ CHÀO THẦU TRỌN GÓI:</span>
                       <span className="text-teal-700 font-mono font-black">{formatVnd(activeTender.bidPriceVnd)}</span>

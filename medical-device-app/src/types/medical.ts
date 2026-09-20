@@ -62,6 +62,8 @@ export interface HoaDucClinicFinance {
   allocatedInputVatDeductible: bigint; // Thuế GTGT đầu vào được khấu trừ (theo tỷ lệ doanh thu)
   depreciationMedicalEquipment: bigint; // Khấu hao dàn máy xét nghiệm/siêu âm trong kỳ (TK 211/214)
   equipmentLoanInterest: bigint; // Lãi vay mua thiết bị y tế (kiểm soát trần 30% EBITDA - NĐ 132)
+  netOperatingProfit?: bigint; // Lợi nhuận thuần từ HĐKD
+  interestIncome?: bigint; // Doanh thu lãi tiền gửi/cho vay
 }
 
 export interface CriteriaGroup {

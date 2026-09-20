@@ -1,5 +1,5 @@
-﻿// src/pages/LegalLibraryPage.tsx
-import React, { useState } from 'react';
+// src/pages/LegalLibraryPage.tsx
+import React, { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import {
   Scale,
@@ -13,19 +13,39 @@ import {
   ArrowRight,
   FileText,
   Sparkles,
-  Layers
+  Layers,
+  Loader2,
+  AlertCircle
 } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { LEGAL_MANIFEST, LegalDocItem } from '@/data/legal-manifest';
+import type { LegalDocItem } from '@/data/legal-manifest';
 import driveManifest from '@/data/drive-manifest.json';
+import { apiClient } from '@/lib/api/client';
 
 export const LegalLibraryPage: React.FC = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string>('ALL');
+  const [docs, setDocs] = useState<LegalDocItem[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<Error | null>(null);
   const navigate = useNavigate();
+
+  useEffect(() => {
+    const fetchDocs = async () => {
+      try {
+        const data = await apiClient.getDocuments();
+        setDocs(data);
+      } catch (err: any) {
+        setError(err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchDocs();
+  }, []);
 
   const categories = [
     { key: 'ALL', label: 'Tất Cả 12 Văn Bản' },
@@ -35,7 +55,7 @@ export const LegalLibraryPage: React.FC = () => {
     { key: 'tax_finance', label: 'Thuế & Liên Kết (TT 219, NĐ 132)' }
   ];
 
-  const filteredDocs = LEGAL_MANIFEST.filter((doc) => {
+  const filteredDocs = docs.filter((doc) => {
     const matchSearch =
       doc.docNumber.toLowerCase().includes(searchTerm.toLowerCase()) ||
       doc.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -50,6 +70,28 @@ export const LegalLibraryPage: React.FC = () => {
     const matchCat = selectedCategory === 'ALL' || doc.category === selectedCategory;
     return matchSearch && matchCat;
   });
+
+  if (loading) {
+    return (
+      <div className="flex flex-col items-center justify-center h-64 p-8 text-center bg-white rounded-2xl border border-slate-200">
+        <Loader2 className="w-12 h-12 text-teal-500 animate-spin mb-4" />
+        <h2 className="text-xl font-bold mb-2">Đang tải tài liệu...</h2>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="flex flex-col items-center justify-center h-64 p-8 text-center bg-white rounded-2xl border border-slate-200">
+        <AlertCircle className="w-12 h-12 text-red-500 mb-4" />
+        <h2 className="text-xl font-bold mb-2">Lỗi tải tài liệu</h2>
+        <p className="text-gray-600 mb-6">{error.message}</p>
+        <Button onClick={() => window.location.reload()} className="bg-teal-600 text-white hover:bg-teal-700 font-semibold">
+          Thử lại
+        </Button>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6 pb-10">

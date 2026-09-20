@@ -1,5 +1,4 @@
-// src/pages/DashboardPage.tsx
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
   Briefcase,
@@ -20,13 +19,72 @@ import {
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import { MOCK_TENDER_PACKAGES, MOCK_MEDICAL_DEVICES, MOCK_HOA_DUC_FINANCE } from '@/data/mock-medical';
+import { apiClient } from '@/lib/api/client';
+import { TenderPackage, MedicalDevice, HoaDucClinicFinance } from '@/types/medical';
 import { formatVnd } from '@/lib/utils';
 
 export const DashboardPage: React.FC = () => {
-  const currentFinance = MOCK_HOA_DUC_FINANCE[0];
-  const totalTenderValue = MOCK_TENDER_PACKAGES.reduce((acc, t) => acc + t.estimatedBudgetVnd, 0n);
-  const totalBidBond = MOCK_TENDER_PACKAGES.reduce((acc, t) => acc + t.bidBondAmountVnd, 0n);
+  const [tenders, setTenders] = useState<TenderPackage[]>([]);
+  const [devices, setDevices] = useState<MedicalDevice[]>([]);
+  const [finance, setFinance] = useState<HoaDucClinicFinance[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        setLoading(true);
+        setError(null);
+        const [tendersRes, devicesRes, financeRes] = await Promise.all([
+          apiClient.get('/api/tenders'),
+          apiClient.get('/api/devices'),
+          apiClient.get('/api/finance')
+        ]);
+        setTenders(tendersRes);
+        setDevices(devicesRes);
+        setFinance(financeRes);
+      } catch (err: any) {
+        console.error(err);
+        setError(err.message || 'Không thể tải dữ liệu.');
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchData();
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="flex flex-col items-center justify-center h-64 space-y-4">
+        <div className="w-8 h-8 border-4 border-teal-500 border-t-transparent rounded-full animate-spin"></div>
+        <div className="text-slate-500 font-medium">Đang tải dữ liệu trung tâm chỉ huy...</div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="flex flex-col items-center justify-center h-64 space-y-4 bg-rose-50 rounded-2xl border border-rose-200">
+        <AlertTriangle className="w-10 h-10 text-rose-500" />
+        <div className="text-rose-700 font-medium">{error}</div>
+        <Button onClick={() => window.location.reload()} variant="outline" className="border-rose-300 text-rose-700 hover:bg-rose-100">
+          Thử lại
+        </Button>
+      </div>
+    );
+  }
+
+  const currentFinance = finance[0] || {
+    revenueKcbNonTaxable: 0n, revenueMedicine5Percent: 0n, revenueSupplements10Percent: 0n,
+    allocatedInputVatDeductible: 0n, depreciationMedicalEquipment: 0n, equipmentLoanInterest: 0n,
+    netOperatingProfit: 0n, interestIncome: 0n
+  };
+  const totalTenderValue = tenders.reduce((acc, t) => acc + BigInt(t.estimatedBudgetVnd || 0), 0n);
+  const totalBidBond = tenders.reduce((acc, t) => acc + BigInt(t.bidBondAmountVnd || 0), 0n);
+  
+  const netInterest = Math.max(0, Number(currentFinance.equipmentLoanInterest || 0) - Number(currentFinance.interestIncome || 0));
+  const ebitda = Number(currentFinance.netOperatingProfit || 0) + netInterest + Number(currentFinance.depreciationMedicalEquipment || 0);
+  const ebitdaCap = Math.round(ebitda * 0.3);
 
   return (
     <div className="space-y-6">
@@ -101,7 +159,7 @@ export const DashboardPage: React.FC = () => {
           <CardContent className="space-y-1.5 text-xs">
             <div className="flex justify-between text-slate-600">
               <span>Quy mô đang chạy:</span>
-              <span className="font-bold text-teal-700">{MOCK_TENDER_PACKAGES.length} gói bệnh viện</span>
+              <span className="font-bold text-teal-700">{tenders.length} gói bệnh viện</span>
             </div>
             <div className="flex justify-between text-slate-600">
               <span>Bảo đảm dự thầu BIDV:</span>
@@ -122,17 +180,17 @@ export const DashboardPage: React.FC = () => {
               </div>
             </div>
             <CardTitle className="text-2xl font-black text-slate-900">
-              {MOCK_MEDICAL_DEVICES.length} Hệ Thống
+              {devices.length} Hệ Thống
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-1.5 text-xs">
             <div className="flex justify-between text-slate-600">
               <span>Đạt Nhóm 1 (G7/EU):</span>
-              <span className="font-bold text-cyan-700">6 / 8 thiết bị</span>
+              <span className="font-bold text-cyan-700">{devices.filter(d => d.technicalGroup === 1).length} / {devices.length} thiết bị</span>
             </div>
             <div className="flex justify-between text-slate-600">
               <span>Kê khai giá Cổng BYT:</span>
-              <span className="font-bold text-emerald-600">100% Hoàn thành</span>
+              <span className="font-bold text-emerald-600">{devices.length > 0 ? Math.round((devices.filter(d => d.isPriceDeclared).length / devices.length) * 100) : 0}% Hoàn thành</span>
             </div>
           </CardContent>
         </Card>
@@ -149,14 +207,14 @@ export const DashboardPage: React.FC = () => {
               </div>
             </div>
             <CardTitle className="text-2xl font-black text-slate-900">
-              40 / 40 Nhóm
+              Kiểm tra MD
             </CardTitle>
           </CardHeader>
           <CardContent className="space-y-1.5 text-xs">
             <div className="flex justify-between text-slate-600">
-              <span>Chuẩn hóa MD01 - MD40:</span>
-              <Badge className="bg-emerald-50 text-emerald-700 border-emerald-200 text-[10px] font-bold">
-                100% Pass
+              <span>Trạng thái:</span>
+              <Badge className="bg-amber-50 text-amber-700 border-amber-200 text-[10px] font-bold">
+                Đang theo dõi
               </Badge>
             </div>
             <div className="flex justify-between text-slate-600">
@@ -183,12 +241,12 @@ export const DashboardPage: React.FC = () => {
           </CardHeader>
           <CardContent className="space-y-1.5 text-xs">
             <div className="flex justify-between text-slate-600">
-              <span>VAT dùng chung khấu trừ:</span>
-              <span className="font-bold text-emerald-700">{formatVnd(currentFinance.allocatedInputVatDeductible)}</span>
+              <span>Trần lãi vay (30% EBITDA):</span>
+              <span className="font-bold text-emerald-700">{formatVnd(ebitdaCap)}</span>
             </div>
             <div className="flex justify-between text-slate-600">
-              <span>Khấu hao máy móc TK 211:</span>
-              <span className="font-semibold text-slate-800">{formatVnd(currentFinance.depreciationMedicalEquipment)}</span>
+              <span>Lãi vay thực tế:</span>
+              <span className="font-semibold text-slate-800">{formatVnd(currentFinance.equipmentLoanInterest)}</span>
             </div>
           </CardContent>
         </Card>
@@ -239,7 +297,7 @@ export const DashboardPage: React.FC = () => {
         </CardHeader>
         <CardContent className="pt-4">
           <div className="space-y-3">
-            {MOCK_TENDER_PACKAGES.map((tender) => (
+            {tenders.map((tender) => (
               <div
                 key={tender.id}
                 className="p-4 rounded-xl bg-slate-50/60 border border-slate-200/80 hover:border-teal-300 hover:bg-white transition-all flex flex-col md:flex-row md:items-center justify-between gap-4 shadow-2xs"

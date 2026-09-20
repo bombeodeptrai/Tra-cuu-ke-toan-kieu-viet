@@ -1,54 +1,79 @@
-﻿// src/pages/ComparisonPage.tsx
-import React, { useState } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import {
   ArrowRightLeft,
   Sparkles,
-  BookOpen,
-  Layers,
-  ShieldCheck,
-  CheckCircle2,
-  AlertTriangle,
-  Building2,
-  Stethoscope,
-  Receipt,
-  Scale,
   Search,
-  ExternalLink,
-  ChevronRight,
-  Info
+  AlertTriangle,
+  CheckCircle2,
+  Info,
+  Loader2,
+  Download
 } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-import { DIFF_MEDICAL_DATABASE, DiffDocumentGroup, DiffClauseItem } from '@/data/diff-medical-database';
+import { LEGAL_MANIFEST } from '@/data/legal-manifest';
+import { apiClient } from '@/lib/api/client';
 
 export const ComparisonPage: React.FC = () => {
-  const [selectedDiffId, setSelectedDiffId] = useState<string>('nd-214-vs-nd-24');
+  const [leftDocId, setLeftDocId] = useState<string>('');
+  const [rightDocId, setRightDocId] = useState<string>('');
+  const [mode, setMode] = useState<string>('whole');
   const [searchTerm, setSearchTerm] = useState<string>('');
-  const [selectedCategory, setSelectedCategory] = useState<string>('all');
+  
+  const [isLoading, setIsLoading] = useState<boolean>(false);
+  const [comparisonResult, setComparisonResult] = useState<any>(null);
+  const [error, setError] = useState<string | null>(null);
 
-  const diffKeys = Object.keys(DIFF_MEDICAL_DATABASE);
-  const currentDiff: DiffDocumentGroup = DIFF_MEDICAL_DATABASE[selectedDiffId] || DIFF_MEDICAL_DATABASE['nd-214-vs-nd-24'];
+  const abortControllerRef = useRef<AbortController | null>(null);
 
-  const categories = [
-    { id: 'all', label: 'Tất Cả 6 Chuyên Đề Đối Chiếu', icon: Layers },
-    { id: 'bidding', label: 'Đấu Thầu (NĐ 214 vs NĐ 24)', icon: Scale },
-    { id: 'medical_device', label: 'Quy Chuẩn TBYT (TT 57, TT 24, VBHN 08)', icon: Stethoscope },
-    { id: 'tax_finance', label: 'Thuế & Liên Kết (TT 219, NĐ 132)', icon: Receipt }
-  ];
+  const handleCompare = async () => {
+    if (!leftDocId || !rightDocId) return;
 
-  const filteredClauses = currentDiff.clauses.filter((clause) => {
+    if (abortControllerRef.current) {
+      abortControllerRef.current.abort();
+    }
+    const controller = new AbortController();
+    abortControllerRef.current = controller;
+
+    setIsLoading(true);
+    setError(null);
+    setComparisonResult(null);
+
+    try {
+      const data = await apiClient.post('/api/compare', {
+        leftVersionId: leftDocId,
+        rightVersionId: rightDocId,
+        mode
+      }, { signal: controller.signal });
+      
+      setComparisonResult(data);
+    } catch (err: any) {
+      if (err.name === 'AbortError') return;
+      setError(err.message || 'Có lỗi xảy ra khi gọi API');
+    } finally {
+      if (abortControllerRef.current === controller) {
+        setIsLoading(false);
+      }
+    }
+  };
+
+  useEffect(() => {
+    if (leftDocId && rightDocId) {
+      handleCompare();
+    }
+  }, [leftDocId, rightDocId, mode]);
+
+  const filteredClauses = comparisonResult?.alignments?.filter((alignment: any) => {
+    if (!searchTerm) return true;
     const q = searchTerm.toLowerCase();
     return (
-      clause.clauseNumber.toLowerCase().includes(q) ||
-      clause.topic.toLowerCase().includes(q) ||
-      clause.newVersionText.toLowerCase().includes(q) ||
-      clause.oldVersionText.toLowerCase().includes(q) ||
-      clause.practicalImpact.toLowerCase().includes(q) ||
-      clause.actionRequired.toLowerCase().includes(q)
+      (alignment.leftText || '').toLowerCase().includes(q) ||
+      (alignment.rightText || '').toLowerCase().includes(q) ||
+      (alignment.rationale || '').toLowerCase().includes(q)
     );
-  });
+  }) || [];
 
   return (
     <div className="space-y-6 max-w-7xl mx-auto">
@@ -57,55 +82,66 @@ export const ComparisonPage: React.FC = () => {
         <div>
           <h1 className="text-2xl font-black text-slate-900 flex items-center gap-2">
             <ArrowRightLeft className="w-6 h-6 text-teal-600" />
-            Đối Chiếu Điểm Mới Văn Bản Pháp Luật (2 Cột Song Song)
+            Đối Chiếu Điểm Mới Văn Bản Pháp Luật
           </h1>
           <p className="text-xs sm:text-sm text-slate-500">
-            Hệ thống so sánh trực quan từng điều khoản cũ - mới giữa các văn bản then chốt về Đấu thầu TBYT và Quản trị Phòng khám Hòa Đức.
+            Hệ thống so sánh trực quan theo điều khoản và xuất báo cáo.
           </p>
         </div>
         <div className="flex items-center gap-2">
-          <Badge variant="outline" className="border-teal-300 text-teal-800 bg-teal-50 px-3 py-1 text-xs font-semibold">
-            <Sparkles className="w-3.5 h-3.5 mr-1 text-teal-600" />
-            Cập nhật Chuẩn NĐ 214 & TT 57
-          </Badge>
+          <Button variant="outline" size="sm" className="gap-2" disabled={!comparisonResult}>
+            <Download className="w-4 h-4" /> Xuất Báo Cáo
+          </Button>
         </div>
       </div>
 
-      {/* Category Tabs & Selector */}
+      {/* Selectors */}
       <div className="p-4 rounded-2xl bg-white border border-slate-200/90 shadow-xs space-y-4">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-          <div className="flex items-center gap-2">
-            <Layers className="h-4 w-4 text-teal-600 shrink-0" />
-            <span className="text-xs font-bold text-slate-800 uppercase tracking-wide">
-              Chọn Cặp Văn Bản Đối Chiếu:
-            </span>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div>
+            <label className="text-xs font-bold text-slate-800 uppercase block mb-1">Văn bản gốc (Trái):</label>
+            <select
+              value={leftDocId}
+              onChange={(e) => setLeftDocId(e.target.value)}
+              className="text-xs w-full bg-slate-50 border border-slate-300 rounded-xl px-3 py-2 focus:ring-2 focus:ring-teal-500"
+            >
+              <option value="">-- Chọn văn bản --</option>
+              {LEGAL_MANIFEST.map(doc => (
+                <option key={doc.id} value={doc.id}>{doc.docNumber} - {doc.title}</option>
+              ))}
+            </select>
           </div>
-
-          <select
-            value={selectedDiffId}
-            onChange={(e) => setSelectedDiffId(e.target.value)}
-            className="text-xs bg-slate-50 border border-slate-300 rounded-xl px-3 py-2 text-slate-900 font-bold focus:ring-2 focus:ring-teal-500 max-w-full sm:max-w-md cursor-pointer"
-          >
-            <optgroup label="1. Đấu thầu Thiết bị y tế">
-              <option value="nd-214-vs-nd-24">NĐ 214/2025 vs NĐ 24/2024 (Đấu thầu qua mạng 100%, bảo lãnh số)</option>
-            </optgroup>
-            <optgroup label="2. Quản lý & Quy chuẩn TBYT">
-              <option value="tt-57-phan-6-nhom">TT 57/2025/TT-BYT (Phân chia 6 nhóm tiêu chuẩn kỹ thuật TBYT)</option>
-              <option value="tt-24-kiem-dinh-tbyt">TT 24/2026/TT-BYT (Lộ trình kiểm định an toàn kỹ thuật bắt buộc)</option>
-              <option value="vbhn-08-vs-nd-98">VBHN 08/VBHN-BYT (Hợp nhất NĐ 98, NĐ 07, NĐ 04 về TBYT)</option>
-            </optgroup>
-            <optgroup label="3. Thuế & Quản trị Phòng khám Hòa Đức">
-              <option value="nd-132-giao-dich-lien-ket">NĐ 132/2020 (Giao dịch liên kết Kiểu Việt - Hòa Đức, trần 30% EBITDA)</option>
-              <option value="tt-219-phan-bo-vat-hoa-duc">TT 219/2013 Điều 14 (Phân bổ thuế GTGT đầu vào dùng chung Hòa Đức)</option>
-            </optgroup>
-          </select>
+          <div>
+            <label className="text-xs font-bold text-slate-800 uppercase block mb-1">Văn bản so sánh (Phải):</label>
+            <select
+              value={rightDocId}
+              onChange={(e) => setRightDocId(e.target.value)}
+              className="text-xs w-full bg-slate-50 border border-slate-300 rounded-xl px-3 py-2 focus:ring-2 focus:ring-teal-500"
+            >
+              <option value="">-- Chọn văn bản --</option>
+              {LEGAL_MANIFEST.map(doc => (
+                <option key={doc.id} value={doc.id}>{doc.docNumber} - {doc.title}</option>
+              ))}
+            </select>
+          </div>
+          <div>
+            <label className="text-xs font-bold text-slate-800 uppercase block mb-1">Phạm vi đối chiếu:</label>
+            <select
+              value={mode}
+              onChange={(e) => setMode(e.target.value)}
+              className="text-xs w-full bg-slate-50 border border-slate-300 rounded-xl px-3 py-2 focus:ring-2 focus:ring-teal-500"
+            >
+              <option value="whole">Toàn văn bản</option>
+              <option value="chapter">Theo Chương</option>
+              <option value="article">Theo Điều</option>
+            </select>
+          </div>
         </div>
 
-        {/* Search within clauses */}
         <div className="relative">
           <Search className="w-4 h-4 absolute left-3 top-3 text-slate-400" />
           <Input
-            placeholder="Tìm kiếm nhanh trong bảng đối chiếu (từ khóa: bảo lãnh, nhóm 1, kiểm định, liên kết, EBITDA, phân bổ...)"
+            placeholder="Tìm kiếm nội dung, căn cứ..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
             className="pl-9 bg-slate-50 border-slate-200 text-xs text-slate-900 focus:bg-white"
@@ -113,136 +149,88 @@ export const ComparisonPage: React.FC = () => {
         </div>
       </div>
 
-      {/* Selected Comparison Overview Card */}
-      <Card className="bg-white border-slate-200/90 shadow-xs rounded-2xl overflow-hidden">
-        <CardHeader className="bg-gradient-to-r from-slate-900 to-teal-950 text-white p-5">
-          <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
-            <div>
-              <div className="flex items-center gap-2 mb-1">
-                <Badge className="bg-teal-500/20 text-teal-300 border-teal-500/30 text-[10px] font-bold">
-                  {currentDiff.statusBadge}
-                </Badge>
-                <span className="text-xs text-slate-300 font-mono">
-                  Hiệu lực từ: {currentDiff.effectiveDate}
+      {isLoading ? (
+        <div className="flex flex-col items-center justify-center h-48 p-8 text-center bg-white rounded-2xl border border-slate-200">
+          <Loader2 className="w-10 h-10 text-teal-500 mb-3 animate-spin" />
+          <h2 className="text-lg font-bold">Đang so sánh văn bản...</h2>
+        </div>
+      ) : error ? (
+        <div className="flex flex-col items-center justify-center h-48 p-8 text-center bg-white rounded-2xl border border-rose-200">
+          <AlertTriangle className="w-10 h-10 text-rose-500 mb-3" />
+          <h2 className="text-lg font-bold text-rose-700">Lỗi so sánh</h2>
+          <p className="text-rose-600 text-sm">{error}</p>
+        </div>
+      ) : comparisonResult ? (
+        <Card className="bg-white border-slate-200/90 shadow-xs rounded-2xl overflow-hidden">
+          <CardHeader className="bg-gradient-to-r from-slate-900 to-teal-950 text-white p-5">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
+              <div>
+                <CardTitle className="text-lg font-black text-white">
+                  Kết quả đối chiếu ({comparisonResult.coverage?.processedLeft || 0} / {comparisonResult.coverage?.processedRight || 0} khối)
+                </CardTitle>
+                <p className="text-xs text-teal-200 mt-1">
+                  Đã tải job: {comparisonResult.id}
+                </p>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="text-sm font-bold text-teal-300 px-2.5 py-1 bg-white/10 rounded-lg">
+                  {filteredClauses.length} Điều Khoản Khớp
                 </span>
               </div>
-              <CardTitle className="text-lg sm:text-xl font-black text-white">
-                {currentDiff.title}
-              </CardTitle>
-              <p className="text-xs text-teal-200 font-normal mt-1">
-                {currentDiff.subtitle}
-              </p>
             </div>
-            <div className="flex items-center gap-2 self-start md:self-center">
-              <span className="text-xs text-slate-300">Tổng số đối chiếu:</span>
-              <span className="text-sm font-bold text-teal-300 px-2.5 py-1 bg-white/10 rounded-lg">
-                {currentDiff.clauses.length} Điều Khoản
-              </span>
-            </div>
-          </div>
-          <div className="mt-3 pt-3 border-t border-white/10 text-xs text-slate-200 leading-relaxed font-normal">
-            {currentDiff.summary}
-          </div>
-        </CardHeader>
-
-        <CardContent className="p-4 sm:p-6 space-y-6">
-          {filteredClauses.length === 0 ? (
-            <div className="text-center py-8 text-slate-400 text-xs">
-              Không tìm thấy điều khoản nào khớp với từ khóa "{searchTerm}".
-            </div>
-          ) : (
-            filteredClauses.map((clause, idx) => (
-              <div
-                key={idx}
-                className="border border-slate-200 rounded-2xl p-4 sm:p-5 bg-slate-50/50 hover:bg-white hover:border-teal-200 transition-all shadow-2xs space-y-4"
-              >
-                {/* Clause Title & Badges */}
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-3 border-b border-slate-200">
-                  <div className="flex items-center gap-2">
-                    <span className="px-2.5 py-1 rounded-lg bg-teal-100 text-teal-900 font-mono text-xs font-black">
-                      {clause.clauseNumber}
-                    </span>
-                    <h3 className="text-sm font-bold text-slate-900">
-                      {clause.topic}
-                    </h3>
-                  </div>
-                  <Badge
-                    variant="outline"
-                    className={`text-[10px] font-bold px-2 py-0.5 self-start sm:self-center ${
-                      clause.riskLevel === 'high'
-                        ? 'bg-rose-50 text-rose-700 border-rose-300'
-                        : clause.riskLevel === 'medium'
-                        ? 'bg-amber-50 text-amber-700 border-amber-300'
-                        : 'bg-emerald-50 text-emerald-700 border-emerald-300'
-                    }`}
-                  >
-                    {clause.riskLevel === 'high' ? '⚠️ Rủi Ro Cao' : clause.riskLevel === 'medium' ? '⚡ Cần Lưu Ý' : '✓ Thuận Lợi'}
-                  </Badge>
-                </div>
-
-                {/* 2-Column Side-by-Side Comparison */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {/* Left Column: Quy Định Cũ */}
-                  <div className="p-4 rounded-xl bg-rose-50/40 border border-rose-200 space-y-2">
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs font-bold text-rose-900 flex items-center gap-1.5">
-                        <span className="w-2 h-2 rounded-full bg-rose-500" />
-                        {currentDiff.oldDocName}
-                      </span>
-                      <span className="text-[10px] font-mono text-rose-700">
-                        {clause.oldReference}
-                      </span>
-                    </div>
-                    <p className="text-xs text-slate-700 leading-relaxed font-sans bg-white/80 p-3 rounded-lg border border-rose-100">
-                      {clause.oldVersionText}
-                    </p>
-                  </div>
-
-                  {/* Right Column: Quy Định Mới */}
-                  <div className="p-4 rounded-xl bg-emerald-50/50 border border-emerald-300 space-y-2">
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs font-bold text-emerald-900 flex items-center gap-1.5">
-                        <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
-                        {currentDiff.newDocName}
-                      </span>
-                      <span className="text-[10px] font-mono text-emerald-800 font-bold">
-                        {clause.newReference}
-                      </span>
-                    </div>
-                    <p className="text-xs text-slate-900 leading-relaxed font-sans font-medium bg-white p-3 rounded-lg border border-emerald-200">
-                      {clause.newVersionText}
-                    </p>
-                  </div>
-                </div>
-
-                {/* Practical Impact & Action Plan for Kieu Viet */}
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
-                  <div className="p-3 rounded-xl bg-teal-50/70 border border-teal-200 space-y-1">
-                    <div className="text-[11px] font-bold text-teal-900 flex items-center gap-1">
-                      <Info className="w-3.5 h-3.5 text-teal-700" />
-                      <span>Tác Động Thực Tế (Kiểu Việt & Hòa Đức):</span>
-                    </div>
-                    <p className="text-xs text-slate-700 leading-relaxed">
-                      {clause.practicalImpact}
-                    </p>
-                  </div>
-
-                  <div className="p-3 rounded-xl bg-blue-50/70 border border-blue-200 space-y-1">
-                    <div className="text-[11px] font-bold text-blue-900 flex items-center gap-1">
-                      <CheckCircle2 className="w-3.5 h-3.5 text-blue-700" />
-                      <span>Hành Động Nghiệp Vụ Cần Làm Ngay:</span>
-                    </div>
-                    <p className="text-xs text-slate-700 leading-relaxed">
-                      {clause.actionRequired}
-                    </p>
-                  </div>
-                </div>
+          </CardHeader>
+          <CardContent className="p-4 sm:p-6 space-y-6">
+            {filteredClauses.length === 0 ? (
+              <div className="text-center py-8 text-slate-400 text-xs">
+                Không tìm thấy điều khoản nào khớp với từ khóa "{searchTerm}".
               </div>
-            ))
-          )}
-        </CardContent>
-      </Card>
+            ) : (
+              filteredClauses.map((alignment: any, idx: number) => (
+                <div key={idx} className="border border-slate-200 rounded-2xl p-4 bg-slate-50/50 space-y-4">
+                  <div className="flex justify-between border-b pb-2">
+                    <Badge variant="outline" className="text-[10px] font-bold">
+                      {alignment.change === 'added' ? 'Thêm mới' : alignment.change === 'removed' ? 'Bỏ' : alignment.change === 'modified' ? 'Sửa' : 'Giữ nguyên'}
+                    </Badge>
+                  </div>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div className="p-3 bg-rose-50/40 border-rose-200 rounded-xl">
+                      <p className="text-xs">{alignment.leftText || <span className="text-slate-400 italic">Không có dữ liệu</span>}</p>
+                      {alignment.leftCitations?.length > 0 && (
+                        <div className="mt-2 pt-2 border-t border-rose-100 flex gap-2">
+                           <span className="text-[10px] font-bold text-rose-600">Căn cứ:</span>
+                           {alignment.leftCitations.map((c: string) => <Badge key={c} variant="outline" className="text-[10px]">{c}</Badge>)}
+                        </div>
+                      )}
+                    </div>
+                    <div className="p-3 bg-emerald-50/40 border-emerald-200 rounded-xl">
+                      <p className="text-xs">{alignment.rightText || <span className="text-slate-400 italic">Không có dữ liệu</span>}</p>
+                      {alignment.rightCitations?.length > 0 && (
+                        <div className="mt-2 pt-2 border-t border-emerald-100 flex gap-2">
+                           <span className="text-[10px] font-bold text-emerald-600">Căn cứ:</span>
+                           {alignment.rightCitations.map((c: string) => <Badge key={c} variant="outline" className="text-[10px]">{c}</Badge>)}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                  {alignment.rationale && (
+                    <div className="p-3 bg-teal-50 border-teal-200 rounded-xl text-xs text-slate-700">
+                      <strong>Nhận định:</strong> {alignment.rationale}
+                    </div>
+                  )}
+                </div>
+              ))
+            )}
+          </CardContent>
+        </Card>
+      ) : (
+        <div className="flex flex-col items-center justify-center h-48 p-8 text-center bg-white rounded-2xl border border-slate-200">
+          <Info className="w-10 h-10 text-teal-500 mb-3" />
+          <h2 className="text-lg font-bold mb-2">Chưa có kết quả đối chiếu</h2>
+          <p className="text-gray-600 text-sm">Vui lòng chọn 2 văn bản pháp luật để bắt đầu.</p>
+        </div>
+      )}
     </div>
   );
 };
+
 export default ComparisonPage;

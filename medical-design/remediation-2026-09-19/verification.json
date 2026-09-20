@@ -1,0 +1,35 @@
+{
+  "date": "2026-09-19",
+  "scope": "Architecture walkthrough and executable reference contracts only",
+  "referenceTestCommand": "node medical-design/remediation-2026-09-19/contracts.test.mjs",
+  "referenceTests": {
+    "passed": 29,
+    "failed": 0,
+    "skipped": 0
+  },
+  "runnerNote": "node --test could not spawn a child process (EPERM); running the node:test module directly executed all 29 tests successfully.",
+  "liveAudit": {
+    "lawReadersOpened": 12,
+    "downloadLinksPointingToFolder": 12,
+    "comparisonOptionsInspected": 6,
+    "tenderWorkspaceTabsInspected": 6,
+    "findingsInReview": 21,
+    "redirectToAccounting": "User-reported; not reproduced through the two navigation entry points tested; remains open for full route/viewport/cache regression.",
+    "driveFolderMetadata": "404 under connected account; contents and ownership not verified",
+    "referenceTestResultsAreLiveAcceptance": false
+  },
+  "notPerformed": [
+    "Production application changes",
+    "Production deployment",
+    "Drive PDF upload or sharing changes",
+    "Full legal corpus certification",
+    "Backend integration or LLM acceptance tests",
+    "All-viewport and all-tenant regression"
+  ],
+  "acceptanceGateTests": {
+    "passed": 17,
+    "failed": 0,
+    "skipped": 0,
+    "scope": "synthetic report integrity tests only"
+  }
+}

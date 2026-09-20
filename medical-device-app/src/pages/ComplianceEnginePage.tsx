@@ -1,5 +1,4 @@
-// src/pages/ComplianceEnginePage.tsx
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   FileCheck2,
   CheckCircle2,
@@ -20,14 +19,41 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { CRITERIA_40_GROUPS } from '@/data/criteria-md';
-import { CriteriaGroup } from '@/types/medical';
+import { CriteriaGroup, TenderPackage } from '@/types/medical';
 import { Verdict } from '@/types/compliance';
+import { apiClient } from '@/lib/api/client';
 
 export const ComplianceEnginePage: React.FC = () => {
+  const [tenders, setTenders] = useState<TenderPackage[]>([]);
+  const [selectedTenderId, setSelectedTenderId] = useState<string>('');
+  
   const [searchTerm, setSearchTerm] = useState('');
   const [categoryFilter, setCategoryFilter] = useState<string>('ALL');
   const [verdictFilter, setVerdictFilter] = useState<string>('ALL');
   const [expandedCode, setExpandedCode] = useState<string | null>(null);
+  const [assessments, setAssessments] = useState<Record<string, any>>({});
+
+  useEffect(() => {
+    const fetchTenders = async () => {
+      try {
+        const data = await apiClient.get('/api/tenders');
+        setTenders(data || []);
+      } catch (err) {
+        console.error(err);
+      }
+    };
+    fetchTenders();
+  }, []);
+
+  useEffect(() => {
+    if (selectedTenderId) {
+      apiClient.get(`/api/compliance/${selectedTenderId}/assessments`)
+        .then(data => setAssessments(data || {}))
+        .catch(() => setAssessments({}));
+    } else {
+      setAssessments({});
+    }
+  }, [selectedTenderId]);
 
   const categories = [
     { key: 'ALL', label: 'Tất Cả 40 Nhóm' },
@@ -38,7 +64,19 @@ export const ComplianceEnginePage: React.FC = () => {
     { key: 'operation', label: 'Vận Hành & Bảo Hành (MD36-MD40)' }
   ];
 
-  const filteredCriteria = CRITERIA_40_GROUPS.filter((item) => {
+  const isCaseSelected = selectedTenderId !== '';
+
+  const mappedCriteria = CRITERIA_40_GROUPS.map(item => {
+    const assessment = assessments[item.code];
+    return {
+      ...item,
+      verdict: isCaseSelected ? (assessment?.verdict || 'review') : 'review',
+      passedChecks: assessment?.passedChecks ?? 0,
+      totalChecks: assessment?.totalChecks ?? item.totalChecks
+    };
+  });
+
+  const filteredCriteria = mappedCriteria.filter((item) => {
     const matchSearch =
       item.code.toLowerCase().includes(searchTerm.toLowerCase()) ||
       item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
@@ -51,9 +89,9 @@ export const ComplianceEnginePage: React.FC = () => {
     return matchSearch && matchCategory && matchVerdict;
   });
 
-  const passedCount = CRITERIA_40_GROUPS.filter((c) => c.verdict === 'pass').length;
-  const reviewCount = CRITERIA_40_GROUPS.filter((c) => c.verdict === 'review').length;
-  const failCount = CRITERIA_40_GROUPS.filter((c) => c.verdict === 'fail').length;
+  const passedCount = mappedCriteria.filter((c) => c.verdict === 'pass').length;
+  const reviewCount = mappedCriteria.filter((c) => c.verdict === 'review').length;
+  const failCount = mappedCriteria.filter((c) => c.verdict === 'fail').length;
 
   const toggleExpand = (code: string) => {
     setExpandedCode(expandedCode === code ? null : code);
@@ -107,7 +145,17 @@ export const ComplianceEnginePage: React.FC = () => {
             Triển khai 100% đầy đủ 40 nhóm tiêu chuẩn theo kiến trúc Codex Section 8.1; bảo đảm tính pháp lý cho gói thầu TBYT và vận hành phòng khám Hòa Đức.
           </p>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex flex-col sm:flex-row items-center gap-2">
+          <select 
+            value={selectedTenderId} 
+            onChange={e => setSelectedTenderId(e.target.value)}
+            className="text-xs p-2 border border-slate-200 rounded-md bg-white focus:outline-none focus:ring-1 focus:ring-teal-500"
+          >
+            <option value="">-- Chọn gói thầu / hồ sơ để kiểm tra --</option>
+            {tenders.map(t => (
+              <option key={t.id} value={t.id}>{t.tenderCode} - {t.title}</option>
+            ))}
+          </select>
           <Badge variant="outline" className="border-emerald-300 text-emerald-700 bg-emerald-50 px-3 py-1 font-semibold text-xs">
             <ShieldCheck className="w-3.5 h-3.5 mr-1" />
             Đủ 100% 40/40 Nhóm MD

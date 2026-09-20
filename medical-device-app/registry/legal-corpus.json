@@ -1,0 +1,575 @@
+[
+  {
+    "id": "vbhn-08-2026",
+    "officialNumber": "08/VBHN-BYT",
+    "issuer": "Bộ Y tế",
+    "title": "Văn bản hợp nhất Nghị định về quản lý trang thiết bị y tế (06/03/2026)",
+    "dates": {
+      "issueDate": "2026-03-06",
+      "effectiveDate": "2026-03-06",
+      "implementationDate": "2026-03-06",
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "medical_device"
+    },
+    "candidateSources": [
+      {
+        "url": "https://hethongphapluat.com/van-ban-hop-nhat-08-vbhn-byt-nam-2026-hop-nhat-nghi-dinh-ve-quan-ly-thiet-bi-y-te-do-bo-y-te-ban-hanh.html",
+        "type": "official",
+        "fetchedAt": "2026-09-19T15:48:28.312Z",
+        "reason": "Main official source"
+      }
+    ],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "tt-24-2026",
+    "officialNumber": "24/2026/TT-BYT",
+    "issuer": "Bộ Y tế",
+    "title": "Quy định xác định mức độ rủi ro, biện pháp quản lý và sửa đổi TT 05/2022/TT-BYT",
+    "dates": {
+      "issueDate": "2026-06-30",
+      "effectiveDate": "2026-07-01",
+      "implementationDate": "2026-07-01",
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "medical_device"
+    },
+    "candidateSources": [
+      {
+        "url": "https://hethongphapluat.com/thong-tu-24-2026-tt-byt-quy-dinh-ve-xac-dinh-muc-do-rui-ro-bien-phap-quan-ly-doi-voi-san-pham-hang-hoa-la-thiet-bi-y-te-va-sua-doi-thong-tu-05-2022-tt-byt-huong-dan-nghi-dinh-98-2021-nd-cp-ve-quan-ly-thiet-bi-y-te-do-bo-truong-bo-y-te-ban-hanh.html",
+        "type": "official",
+        "fetchedAt": "2026-09-19T15:48:28.312Z",
+        "reason": "Main official source"
+      }
+    ],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "tt-57-2025",
+    "officialNumber": "57/2025/TT-BYT",
+    "issuer": "Bộ Y tế",
+    "title": "Hướng dẫn phân nhóm thiết bị y tế theo tiêu chuẩn kỹ thuật, chất lượng trong đấu thầu",
+    "dates": {
+      "issueDate": "2025-12-31",
+      "effectiveDate": "2026-02-15",
+      "implementationDate": "2026-02-15",
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "bidding"
+    },
+    "candidateSources": [
+      {
+        "url": "https://hethongphapluat.com/thong-tu-57-2025-tt-byt-huong-dan-ve-phan-nhom-thiet-bi-y-te-theo-tieu-chuan-ky-thuat-chat-luong-do-bo-truong-bo-y-te-ban-hanh.html",
+        "type": "official",
+        "fetchedAt": "2026-09-19T15:48:28.312Z",
+        "reason": "Main official source"
+      }
+    ],
+    "requiredAttachments": [],
+    "expectedStructure": [
+      { "type": "articles", "count": 8 },
+      { "type": "appendix", "count": 1 }
+    ]
+  },
+  {
+    "id": "nd-214-2025",
+    "officialNumber": "214/2025/NĐ-CP",
+    "issuer": "Chính phủ",
+    "title": "Nghị định quy định chi tiết thi hành Luật Đấu thầu về lựa chọn nhà thầu (Thay thế NĐ 24/2024)",
+    "dates": {
+      "issueDate": "2025-08-04",
+      "effectiveDate": "2025-08-04",
+      "implementationDate": "2025-08-04",
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "bidding"
+    },
+    "candidateSources": [
+      {
+        "url": "https://hethongphapluat.com/nghi-dinh-214-2025-nd-cp-huong-dan-luat-dau-thau-ve-lua-chon-nha-thau.html",
+        "type": "official",
+        "fetchedAt": "2026-09-19T15:48:28.312Z",
+        "reason": "Main official source"
+      }
+    ],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "luat-22-2023",
+    "officialNumber": "22/2023/QH15",
+    "issuer": "Quốc hội",
+    "title": "Luật Đấu thầu năm 2023",
+    "dates": {
+      "issueDate": "2023-06-23",
+      "effectiveDate": "2024-01-01",
+      "implementationDate": "2024-01-01",
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "bidding"
+    },
+    "candidateSources": [
+      {
+        "url": "https://hethongphapluat.com/luat-dau-thau-2023.html",
+        "type": "official",
+        "fetchedAt": "2026-09-19T15:48:28.312Z",
+        "reason": "Main official source"
+      }
+    ],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "luat-15-2023",
+    "officialNumber": "15/2023/QH15",
+    "issuer": "Quốc hội",
+    "title": "Luật Khám bệnh, chữa bệnh năm 2023",
+    "dates": {
+      "issueDate": "2023-01-09",
+      "effectiveDate": "2024-01-01",
+      "implementationDate": "2024-01-01",
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "clinic_insurance"
+    },
+    "candidateSources": [
+      {
+        "url": "https://hethongphapluat.com/luat-kham-benh-chua-benh-nam-2023.html",
+        "type": "official",
+        "fetchedAt": "2026-09-19T15:48:28.312Z",
+        "reason": "Main official source"
+      }
+    ],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "nd-132-2020",
+    "officialNumber": "132/2020/NĐ-CP",
+    "issuer": "Chính phủ",
+    "title": "Nghị định quy định về quản lý thuế đối với doanh nghiệp có giao dịch liên kết",
+    "dates": {
+      "issueDate": "2020-11-05",
+      "effectiveDate": "2020-12-20",
+      "implementationDate": "2020-12-20",
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "tax_finance"
+    },
+    "candidateSources": [
+      {
+        "url": "https://hethongphapluat.com/nghi-dinh-132-2020-nd-cp-quy-dinh-ve-quan-ly-thue-doi-voi-doanh-nghiep-co-giao-dich-lien-ket.html",
+        "type": "official",
+        "fetchedAt": "2026-09-19T15:48:28.312Z",
+        "reason": "Main official source"
+      }
+    ],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "tt-219-2013",
+    "officialNumber": "219/2013/TT-BTC",
+    "issuer": "Bộ Tài chính",
+    "title": "Thông tư hướng dẫn thi hành Luật Thuế giá trị gia tăng",
+    "dates": {
+      "issueDate": "2013-12-31",
+      "effectiveDate": "2014-01-01",
+      "implementationDate": "2014-01-01",
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "tax_finance"
+    },
+    "candidateSources": [
+      {
+        "url": "https://hethongphapluat.com/thong-tu-219-2013-tt-btc-huong-dan-thi-hanh-luat-thue-gia-tri-gia-tang-va-nghi-dinh-209-2013-nd-cp.html",
+        "type": "official",
+        "fetchedAt": "2026-09-19T15:48:28.312Z",
+        "reason": "Main official source"
+      }
+    ],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "tt-01-2026",
+    "officialNumber": "01/2026/TT-BYT",
+    "issuer": "Bộ Y tế",
+    "title": "Quy định danh mục thuốc, thiết bị y tế, vật tư xét nghiệm mua sắm tập trung",
+    "dates": {
+      "issueDate": "2026-01-09",
+      "effectiveDate": "2026-03-01",
+      "implementationDate": "2026-03-01",
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "bidding"
+    },
+    "candidateSources": [
+      {
+        "url": "https://hethongphapluat.com/thong-tu-01-2026-tt-byt-danh-muc-mua-sam-tap-trung-y-te.html",
+        "type": "official",
+        "fetchedAt": "2026-09-19T15:48:28.312Z",
+        "reason": "Main official source"
+      }
+    ],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "tt-19-2024",
+    "officialNumber": "19/2024/TT-BYT",
+    "issuer": "Bộ Y tế",
+    "title": "Ban hành Danh mục trang thiết bị y tế kèm theo mã số HS",
+    "dates": {
+      "issueDate": "2024-11-01",
+      "effectiveDate": "2024-12-15",
+      "implementationDate": "2024-12-15",
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "medical_device"
+    },
+    "candidateSources": [
+      {
+        "url": "https://hethongphapluat.com/thong-tu-19-2024-tt-byt-danh-muc-thiet-bi-y-te-ma-hs.html",
+        "type": "official",
+        "fetchedAt": "2026-09-19T15:48:28.312Z",
+        "reason": "Main official source"
+      }
+    ],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "tt-29-2024",
+    "officialNumber": "29/2024/TT-BYT",
+    "issuer": "Bộ Y tế",
+    "title": "Quy định đặc điểm kinh tế - kỹ thuật của trang thiết bị y tế kê khai giá",
+    "dates": {
+      "issueDate": "2024-11-15",
+      "effectiveDate": "2025-01-01",
+      "implementationDate": "2025-01-01",
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "medical_device"
+    },
+    "candidateSources": [
+      {
+        "url": "https://hethongphapluat.com/thong-tu-29-2024-tt-byt-ke-khai-gia-thiet-bi-y-te.html",
+        "type": "official",
+        "fetchedAt": "2026-09-19T15:48:28.312Z",
+        "reason": "Main official source"
+      }
+    ],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "nd-04-2025",
+    "officialNumber": "04/2025/NĐ-CP",
+    "issuer": "Chính phủ",
+    "title": "Nghị định sửa đổi, bổ sung một số điều về quản lý trang thiết bị y tế",
+    "dates": {
+      "issueDate": "2025-01-01",
+      "effectiveDate": "2025-01-01",
+      "implementationDate": "2025-01-01",
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "medical_device"
+    },
+    "candidateSources": [
+      {
+        "url": "https://hethongphapluat.com/nghi-dinh-04-2025-nd-cp-sua-doi-nghi-dinh-98-quan-ly-trang-thiet-bi-y-te.html",
+        "type": "official",
+        "fetchedAt": "2026-09-19T15:48:28.312Z",
+        "reason": "Main official source"
+      }
+    ],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "new-doc-0",
+    "officialNumber": "57/2024/QH15",
+    "issuer": "TBD",
+    "title": "TBD 57/2024/QH15",
+    "dates": {
+      "issueDate": null,
+      "effectiveDate": null,
+      "implementationDate": null,
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "tbd"
+    },
+    "candidateSources": [],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "new-doc-1",
+    "officialNumber": "90/2025/QH15",
+    "issuer": "TBD",
+    "title": "TBD 90/2025/QH15",
+    "dates": {
+      "issueDate": null,
+      "effectiveDate": null,
+      "implementationDate": null,
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "tbd"
+    },
+    "candidateSources": [],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "new-doc-2",
+    "officialNumber": "24/2024/N�-CP",
+    "issuer": "TBD",
+    "title": "TBD 24/2024/N�-CP",
+    "dates": {
+      "issueDate": null,
+      "effectiveDate": null,
+      "implementationDate": null,
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "tbd"
+    },
+    "candidateSources": [],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "new-doc-3",
+    "officialNumber": "79/2025/TT-BTC",
+    "issuer": "TBD",
+    "title": "TBD 79/2025/TT-BTC",
+    "dates": {
+      "issueDate": null,
+      "effectiveDate": null,
+      "implementationDate": null,
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "tbd"
+    },
+    "candidateSources": [],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "new-doc-4",
+    "officialNumber": "98/2021/N�-CP",
+    "issuer": "TBD",
+    "title": "TBD 98/2021/N�-CP",
+    "dates": {
+      "issueDate": null,
+      "effectiveDate": null,
+      "implementationDate": null,
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "tbd"
+    },
+    "candidateSources": [],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "new-doc-5",
+    "officialNumber": "07/2023/N�-CP",
+    "issuer": "TBD",
+    "title": "TBD 07/2023/N�-CP",
+    "dates": {
+      "issueDate": null,
+      "effectiveDate": null,
+      "implementationDate": null,
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "tbd"
+    },
+    "candidateSources": [],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "new-doc-6",
+    "officialNumber": "96/2023/N�-CP",
+    "issuer": "TBD",
+    "title": "TBD 96/2023/N�-CP",
+    "dates": {
+      "issueDate": null,
+      "effectiveDate": null,
+      "implementationDate": null,
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "tbd"
+    },
+    "candidateSources": [],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "new-doc-7",
+    "officialNumber": "85/2024/N�-CP",
+    "issuer": "TBD",
+    "title": "TBD 85/2024/N�-CP",
+    "dates": {
+      "issueDate": null,
+      "effectiveDate": null,
+      "implementationDate": null,
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "tbd"
+    },
+    "candidateSources": [],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "new-doc-8",
+    "officialNumber": "342/2025/N�-CP",
+    "issuer": "TBD",
+    "title": "TBD 342/2025/N�-CP",
+    "dates": {
+      "issueDate": null,
+      "effectiveDate": null,
+      "implementationDate": null,
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "tbd"
+    },
+    "candidateSources": [],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "new-doc-9",
+    "officialNumber": "05/2022/TT-BYT",
+    "issuer": "TBD",
+    "title": "TBD 05/2022/TT-BYT",
+    "dates": {
+      "issueDate": null,
+      "effectiveDate": null,
+      "implementationDate": null,
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "tbd"
+    },
+    "candidateSources": [],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "new-doc-10",
+    "officialNumber": "59/2025/TT-BYT",
+    "issuer": "TBD",
+    "title": "TBD 59/2025/TT-BYT",
+    "dates": {
+      "issueDate": null,
+      "effectiveDate": null,
+      "implementationDate": null,
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "tbd"
+    },
+    "candidateSources": [],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "new-doc-11",
+    "officialNumber": "Lu?t Gi� 2023",
+    "issuer": "TBD",
+    "title": "TBD Lu?t Gi� 2023",
+    "dates": {
+      "issueDate": null,
+      "effectiveDate": null,
+      "implementationDate": null,
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "tbd"
+    },
+    "candidateSources": [],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "new-doc-12",
+    "officialNumber": "43/2017/N�-CP",
+    "issuer": "TBD",
+    "title": "TBD 43/2017/N�-CP",
+    "dates": {
+      "issueDate": null,
+      "effectiveDate": null,
+      "implementationDate": null,
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "tbd"
+    },
+    "candidateSources": [],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "new-doc-13",
+    "officialNumber": "111/2021/N�-CP",
+    "issuer": "TBD",
+    "title": "TBD 111/2021/N�-CP",
+    "dates": {
+      "issueDate": null,
+      "effectiveDate": null,
+      "implementationDate": null,
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "tbd"
+    },
+    "candidateSources": [],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  },
+  {
+    "id": "new-doc-14",
+    "officialNumber": "20/2025/N�-CP",
+    "issuer": "TBD",
+    "title": "TBD 20/2025/N�-CP",
+    "dates": {
+      "issueDate": null,
+      "effectiveDate": null,
+      "implementationDate": null,
+      "consolidationDate": null
+    },
+    "scope": {
+      "category": "tbd"
+    },
+    "candidateSources": [],
+    "requiredAttachments": [],
+    "expectedStructure": []
+  }
+]

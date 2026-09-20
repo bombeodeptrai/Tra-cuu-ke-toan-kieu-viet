@@ -1,4 +1,3 @@
-﻿// src/pages/LegalDocumentDetailPage.tsx
 import React, { useState, useEffect, useRef } from 'react';
 import { useParams, useNavigate, Link, useSearchParams } from 'react-router-dom';
 import {
@@ -20,23 +19,42 @@ import {
   FolderDown,
   Layers,
   Sparkles,
-  AlertCircle
+  AlertCircle,
+  Loader2
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { Input } from '@/components/ui/input';
-import { LEGAL_MANIFEST, LegalDocItem, LegalArticle } from '@/data/legal-manifest';
+import type { LegalDocItem, LegalArticle } from '@/data/legal-manifest';
 import driveManifest from '@/data/drive-manifest.json';
+import { apiClient } from '@/lib/api/client';
 
 export const LegalDocumentDetailPage: React.FC = () => {
-  const { id } = useParams<{ id: string }>();
+  const { docId } = useParams<{ docId: string }>();
   const navigate = useNavigate();
   const [searchParams] = useSearchParams();
   const targetDieu = searchParams.get('dieu');
 
-  const doc = LEGAL_MANIFEST.find((d) => d.id === id) || LEGAL_MANIFEST[0];
+  const [doc, setDoc] = useState<LegalDocItem | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<Error | null>(null);
+
+  useEffect(() => {
+    const fetchDoc = async () => {
+      try {
+        if (!docId) return;
+        const data = await apiClient.getDocumentById(docId);
+        setDoc(data);
+      } catch (err: any) {
+        setError(err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchDoc();
+  }, [docId]);
 
   const [activeTab, setActiveTab] = useState<'fulltext' | 'analysis' | 'timeline'>('fulltext');
   const [tocFilter, setTocFilter] = useState('');
@@ -46,7 +64,7 @@ export const LegalDocumentDetailPage: React.FC = () => {
 
   // Jump to article when query param exists
   useEffect(() => {
-    if (targetDieu) {
+    if (targetDieu && doc) {
       setHighlightedDieu(targetDieu);
       setActiveTab('fulltext');
       setTimeout(() => {
@@ -60,9 +78,10 @@ export const LegalDocumentDetailPage: React.FC = () => {
         }
       }, 300);
     }
-  }, [targetDieu]);
+  }, [targetDieu, doc]);
 
   const handleCopyCitation = (art: LegalArticle) => {
+    if (!doc) return;
     const citation = `Căn cứ ${art.articleNumber} (${art.title}) - ${doc.docNumber} (${doc.title}) do ${doc.issuer} ban hành: "${art.content}" [Nguồn: hethongphapluat.com / Drive Kiểu Việt: ${driveManifest.rootFolderId}]`;
     navigator.clipboard.writeText(citation);
     setCopiedArticle(art.articleNumber);
@@ -84,6 +103,33 @@ export const LegalDocumentDetailPage: React.FC = () => {
       }, 2500);
     }
   };
+
+  if (loading) {
+    return (
+      <div className="flex flex-col items-center justify-center h-64 p-8 text-center bg-white rounded-2xl border border-slate-200">
+        <Loader2 className="w-12 h-12 text-teal-500 animate-spin mb-4" />
+        <h2 className="text-xl font-bold mb-2">Đang tải chi tiết tài liệu...</h2>
+      </div>
+    );
+  }
+
+  if (error || !doc) {
+    return (
+      <div className="flex flex-col items-center justify-center h-64 p-8 text-center bg-white rounded-2xl border border-slate-200">
+        <AlertCircle className="w-12 h-12 text-red-500 mb-4" />
+        <h2 className="text-xl font-bold mb-2">Không tải được tài liệu</h2>
+        <p className="text-gray-600 mb-6">{error?.message || `Mã tài liệu "${docId}" không tồn tại hoặc có lỗi xảy ra.`}</p>
+        <div className="flex gap-4">
+          <Button onClick={() => window.location.reload()} className="bg-teal-600 text-white hover:bg-teal-700 font-semibold">
+            Thử lại
+          </Button>
+          <Link to="/phap-luat" className="px-4 py-2 bg-slate-100 text-slate-700 rounded-lg hover:bg-slate-200 font-semibold border border-slate-200">
+            Quay về thư viện
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   const filteredArticles = doc.articles.filter(
     (a) =>

@@ -1,4 +1,4 @@
-﻿// src/components/layout/AppLayout.tsx
+// src/components/layout/AppLayout.tsx
 import React, { useState } from 'react';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import {
@@ -27,6 +27,20 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { cn } from '@/lib/utils';
 import driveManifest from '@/data/drive-manifest.json';
+import { medicalRoutes } from '@/lib/routes';
+
+const PortalSwitcher = () => (
+  <a
+    href="https://bombeodeptrai.github.io/Tra-cuu-ke-toan-kieu-viet/"
+    className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-700 hover:text-teal-700 bg-white hover:bg-slate-50 px-3 py-1.5 rounded-xl border border-slate-200 transition-colors shadow-2xs min-h-[44px] lg:min-h-0"
+    aria-label="Chuyển sang web kế toán"
+  >
+    <span>Chuyển sang web kế toán</span>
+    <ExternalLink className="w-3.5 h-3.5 text-slate-400" aria-hidden="true" />
+  </a>
+);
+
+const stripSlash = (path: string) => path.replace(/^\//, '');
 
 export const AppLayout: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -34,19 +48,19 @@ export const AppLayout: React.FC = () => {
 
   const businessNav = [
     { to: '/', label: 'Tổng Quan', icon: LayoutDashboard, desc: 'Chỉ huy đấu thầu & điều hành' },
-    { to: '/dau-thau', label: 'Đấu Thầu TBYT', icon: Briefcase, desc: 'Soi HSMT & bảo lãnh số' },
+    { to: medicalRoutes.tenders, label: 'Đấu Thầu TBYT', icon: Briefcase, desc: 'Soi HSMT & bảo lãnh số' },
     { to: '/thiet-bi', label: 'Danh Mục Thiết Bị', icon: Stethoscope, desc: 'Phân loại A/B/C/D & TT 57' },
     { to: '/tuan-thu-40', label: '40 Tiêu Chí MD', icon: FileCheck2, desc: 'Bộ tiêu chuẩn MD01 - MD40' },
     { to: '/phong-kham-hoa-duc', label: 'Phòng Khám Hòa Đức', icon: Building2, desc: 'Thuế GTGT, Khấu hao & NĐ 132' }
   ];
 
   const legalAndToolsNav = [
-    { to: '/phap-luat', label: 'Thư Viện Pháp Luật', icon: Scale, desc: '12 VBQPPL y tế toàn văn' },
+    { to: medicalRoutes.laws, label: 'Thư Viện Pháp Luật', icon: Scale, desc: '12 VBQPPL y tế toàn văn' },
     { to: '/tra-cuu', label: 'Tra Cứu Nâng Cao', icon: Search, desc: 'Tìm văn bản, điều khoản, HS' },
-    { to: '/so-sanh', label: 'So Sánh Điểm Mới', icon: ArrowRightLeft, desc: 'Đối chiếu 2 cột NĐ 214 & TT 57' },
-    { to: '/bieu-mau', label: '14 Biểu Mẫu E-HSDT', icon: FileText, desc: 'Mẫu đơn thầu, LOA, SLA, HĐ' },
+    { to: medicalRoutes.comparison, label: 'So Sánh Điểm Mới', icon: ArrowRightLeft, desc: 'Đối chiếu 2 cột NĐ 214 & TT 57' },
+    { to: medicalRoutes.templates, label: '14 Biểu Mẫu E-HSDT', icon: FileText, desc: 'Mẫu đơn thầu, LOA, SLA, HĐ' },
     { to: '/tien-ich', label: 'Tiện Ích Tính Toán', icon: Calculator, desc: 'Phân bổ thuế & trần EBITDA' },
-    { to: '/hoi-dap-ai', label: 'Trợ Lý AI Y Tế', icon: Bot, desc: 'RAG hỏi đáp trích dẫn luật' },
+    { to: medicalRoutes.chat, label: 'Trợ Lý AI Y Tế', icon: Bot, desc: 'RAG hỏi đáp trích dẫn luật' },
     { to: '/huong-dan', label: 'Cẩm Nang Nghiệp Vụ', icon: BookOpen, desc: 'Sổ tay 7 bước dự thầu' }
   ];
 
@@ -121,13 +135,7 @@ export const AppLayout: React.FC = () => {
               <ExternalLink className="w-3.5 h-3.5 text-teal-500" />
             </a>
 
-            <a
-              href="https://bombeodeptrai.github.io/Tra-cuu-ke-toan-kieu-viet/"
-              className="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-700 hover:text-teal-700 bg-white hover:bg-slate-50 px-3 py-1.5 rounded-xl border border-slate-200 transition-colors shadow-2xs"
-            >
-              <span>App Kế Toán KV</span>
-              <ExternalLink className="w-3.5 h-3.5 text-slate-400" />
-            </a>
+            <PortalSwitcher />
           </div>
 
           {/* Mobile menu toggle */}
@@ -136,16 +144,18 @@ export const AppLayout: React.FC = () => {
               variant="outline"
               size="sm"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="bg-white border-slate-200 text-slate-700 hover:bg-slate-50"
+              className="bg-white border-slate-200 text-slate-700 hover:bg-slate-50 min-h-[44px] min-w-[44px]"
+              aria-label={mobileMenuOpen ? "Đóng menu" : "Mở menu"}
+              aria-expanded={mobileMenuOpen}
             >
-              {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+              {mobileMenuOpen ? <X className="w-5 h-5" aria-hidden="true" /> : <Menu className="w-5 h-5" aria-hidden="true" />}
             </Button>
           </div>
         </div>
       </header>
 
       {/* Main Workspace */}
-      <div className="flex-1 flex max-w-7xl w-full mx-auto px-3 sm:px-6 lg:px-8 py-5 gap-6">
+      <div className="flex-1 flex max-w-7xl w-full mx-auto px-3 sm:px-6 lg:px-8 py-5 gap-6 relative">
         {/* Desktop Sidebar Navigation */}
         <aside className="hidden lg:block w-64 flex-shrink-0 space-y-4">
           {/* Group 1: Business */}
@@ -188,7 +198,7 @@ export const AppLayout: React.FC = () => {
             })}
           </nav>
 
-          {/* Group 2: Legal & Tools (100% equivalent to Kế Toán) */}
+          {/* Group 2: Legal & Tools */}
           <nav className="space-y-1 bg-white border border-slate-200/90 rounded-2xl p-2.5 shadow-xs">
             <div className="px-3 py-1.5 text-[11px] font-bold text-slate-400 uppercase tracking-wider">
               Pháp Luật & Công Cụ Hỗ Trợ
@@ -230,9 +240,14 @@ export const AppLayout: React.FC = () => {
 
         {/* Mobile Slide-down Menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden fixed inset-x-0 top-24 z-50 bg-white border-b border-slate-200 px-4 py-4 shadow-xl space-y-3 max-h-[80vh] overflow-y-auto">
-            <div className="text-xs font-bold text-slate-400 uppercase">
-              Danh Mục Phân Hệ
+          <div className="lg:hidden absolute inset-x-0 top-0 z-50 bg-white border-b border-slate-200 px-4 py-4 shadow-xl space-y-3 max-h-[80vh] overflow-y-auto">
+            <div className="flex justify-between items-center mb-2">
+                <div className="text-xs font-bold text-slate-400 uppercase">
+                  Danh Mục Phân Hệ
+                </div>
+            </div>
+            <div className="mb-4">
+              <PortalSwitcher />
             </div>
             {allNavItems.map((item) => {
               const Icon = item.icon;
@@ -243,13 +258,13 @@ export const AppLayout: React.FC = () => {
                   to={item.to}
                   onClick={() => setMobileMenuOpen(false)}
                   className={cn(
-                    'flex items-center gap-3 px-3.5 py-2 rounded-xl text-sm font-medium transition-colors',
+                    'flex items-center gap-3 px-3.5 py-2 rounded-xl text-sm font-medium transition-colors min-h-[44px]',
                     isActive
                       ? 'bg-teal-50 text-teal-800 font-bold border-l-4 border-teal-600'
                       : 'text-slate-700 hover:bg-slate-50'
                   )}
                 >
-                  <Icon className="w-5 h-5 text-teal-600" />
+                  <Icon className="w-5 h-5 text-teal-600" aria-hidden="true" />
                   <div>
                     <div className="font-semibold">{item.label}</div>
                     <div className="text-xs text-slate-400 font-normal">{item.desc}</div>
@@ -261,19 +276,19 @@ export const AppLayout: React.FC = () => {
         )}
 
         {/* Main Content Area */}
-        <main className="flex-1 min-w-0 pb-16 lg:pb-6">
+        <main className="flex-1 min-w-0 pb-24 lg:pb-6 relative z-10">
           <Outlet />
         </main>
       </div>
 
       {/* Mobile Bottom Navigation Bar */}
-      <div className="lg:hidden fixed bottom-0 inset-x-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200 px-2 py-1.5 flex justify-around items-center shadow-lg">
+      <div className="lg:hidden fixed bottom-0 inset-x-0 z-40 bg-white/95 backdrop-blur-md border-t border-slate-200 px-2 py-2 flex justify-around items-center shadow-lg pb-[calc(0.5rem+env(safe-area-inset-bottom,0px))]">
         {[
           { to: '/', label: 'Tổng Quan', icon: LayoutDashboard },
-          { to: '/dau-thau', label: 'Đấu Thầu', icon: Briefcase },
-          { to: '/phap-luat', label: 'Pháp Luật', icon: Scale },
-          { to: '/so-sanh', label: 'So Sánh', icon: ArrowRightLeft },
-          { to: '/hoi-dap-ai', label: 'AI RAG', icon: Bot }
+          { to: medicalRoutes.tenders, label: 'Đấu Thầu', icon: Briefcase },
+          { to: medicalRoutes.laws, label: 'Pháp Luật', icon: Scale },
+          { to: medicalRoutes.comparison, label: 'So Sánh', icon: ArrowRightLeft },
+          { to: medicalRoutes.chat, label: 'AI RAG', icon: Bot }
         ].map((item) => {
           const Icon = item.icon;
           const isActive = location.pathname === item.to || (item.to === '/' && location.pathname === '');
@@ -282,11 +297,13 @@ export const AppLayout: React.FC = () => {
               key={item.to}
               to={item.to}
               className={cn(
-                'flex flex-col items-center justify-center py-1 px-2 rounded-lg text-[10px] font-medium transition-colors',
+                'flex flex-col items-center justify-center min-h-[48px] min-w-[48px] px-2 rounded-lg text-[10px] font-medium transition-colors',
                 isActive ? 'text-teal-700 font-bold' : 'text-slate-500 hover:text-slate-900'
               )}
+              aria-label={item.label}
+              aria-current={isActive ? 'page' : undefined}
             >
-              <Icon className={cn('w-5 h-5 mb-0.5', isActive ? 'text-teal-600' : 'text-slate-400')} />
+              <Icon className={cn('w-5 h-5 mb-0.5', isActive ? 'text-teal-600' : 'text-slate-400')} aria-hidden="true" />
               <span className="truncate max-w-[64px] text-center">{item.label}</span>
             </NavLink>
           );

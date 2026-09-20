@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "documents": ["vbhn-08-2026", "tt-24-2026", "tt-57-2025", "nd-214-2025", "luat-22-2023", "luat-15-2023", "nd-132-2020", "tt-219-2013", "tt-01-2026", "tt-19-2024", "tt-29-2024", "nd-04-2025"],
+  "rules": ["MD01", "MD02", "MD03", "MD04", "MD05", "MD06", "MD07", "MD08", "MD09", "MD10", "MD11", "MD12", "MD13", "MD14", "MD15", "MD16", "MD17", "MD18", "MD19", "MD20", "MD21", "MD22", "MD23", "MD24", "MD25", "MD26", "MD27", "MD28", "MD29", "MD30", "MD31", "MD32", "MD33", "MD34", "MD35", "MD36", "MD37", "MD38", "MD39", "MD40"],
+  "templates": ["T01", "T02", "T03", "T04", "T05", "T06", "T07", "T08", "T09", "T10", "T11", "T12", "T13", "T14"],
+  "checks": ["NAV-01", "NAV-02", "SRC-01", "PDF-01", "PDF-02", "PDF-03", "TXT-01", "TXT-02", "TXT-03", "SEARCH-01", "CMP-01", "CMP-02", "CMP-03", "LAW-01", "LAW-02", "CASE-01", "CASE-02", "CASE-03", "MD-01", "MD-02", "MD-03", "CLOCK-01", "TASK-01", "ASSET-01", "CLINIC-01", "EXPORT-01", "TOOL-01", "AI-01", "AI-02", "AI-03", "AUTH-01", "LIVE-01"],
+  "deployments": ["https://bombeodeptrai.github.io/thau-y-te-gia-lai/kieu-viet/", "https://bombeodeptrai.github.io/Tra-cuu-ke-toan-kieu-viet/med-app/"]
+}

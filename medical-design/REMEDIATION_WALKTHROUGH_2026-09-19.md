@@ -1,7 +1,5 @@
 # WALKTHROUGH KHẮC PHỤC TRIỆT ĐỂ WEB THẦU & HEALTHCARE KIỂU VIỆT
 
-> **Review mới nhất 20/09/2026:** Antigravity đọc và thực hiện [REVIEW_WALKTHROUGH_2026-09-20.md](REVIEW_WALKTHROUGH_2026-09-20.md) trước. Bản mới chưa đạt nghiệm thu: API thiếu endpoint, chat lệch payload, thư viện lỗi JSON, so sánh404, sự cố mất sau reload, Drive chưa có chuỗi upload/readback được nối vào sản phẩm. Tài liệu mới có21 nhóm lỗi N01–N21, chỉ dẫn từng file và ma trận kiểm thử. Nội dung bên dưới giữ làm kiến trúc nền; không coi thay đổi UI/API stub là đã hoàn thành kế hoạch.
-
 Ngày: 19/09/2026. Người thực thi: Antigravity. Phạm vi: web thầu và hai địa chỉ Healthcare hiện có. Không sửa ứng dụng kế toán, không ghi vào `CODEX_WALKTHROUGH_ACCOUNTING.md`, không dùng `CODEX_WALKTHROUGH.md` ở gốc làm file ghi chung giữa hai nhánh.
 
 ## 0. Đọc trước khi sửa
