@@ -5,19 +5,20 @@ import * as aiService from '../services/ai.js';
 // POST /api/chat/messages
 router.post('/messages', async (req, res) => {
   try {
-    const { sessionId, clientMessageId, caseId, question, selectedDocumentVersionIds } = req.body;
+    const { sessionId, clientMessageId, caseId, question: q, history, message, history, selectedDocumentVersionIds } = req.body;
+    const q = question || message;
     
     // Do NOT read tenant from body (assume it's from auth middleware)
     const tenantId = req.tenantId || req.user?.tenantId; 
 
-    if (!question) {
+    if (!q) {
       return res.status(400).json({ error: 'Question is required' });
     }
 
     const stream = await aiService.streamChatResponse({
       sessionId,
       caseId,
-      question,
+      question: q, history,
       selectedDocumentVersionIds,
       tenantId
     });
