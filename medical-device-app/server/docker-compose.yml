@@ -1,18 +1,13 @@
-version: '3.8'
-
-services:
-  medical-backend:
-    build: .
-    container_name: medical-backend
-    restart: unless-stopped
-    ports:
-      - "4000:4000"
-    volumes:
-      - ./database.sqlite:/app/database.sqlite
-      - ./uploads:/app/uploads
-    environment:
-      - NODE_ENV=production
-      - PORT=4000
-      - GEMINI_API_KEY=YOUR_GEMINI_API_KEY_HERE
-      - DRIVE_FOLDER_ID=13kL0O-A1K7u3qP1kQ2qE4A4Zc8tXf8_
-      - FRONTEND_URL=https://bombeodeptrai.github.io
+version: '3.8'  
+services:  
+  medical-backend:  
+    build: .  
+    container_name: medical-backend  
+    restart: unless-stopped  
+    ports:  
+      - 4000:4000  
+    volumes:  
+      - ./database.sqlite:/app/database.sqlite  
+      - ./uploads:/app/uploads  
+    env_file:  
+      - .env 
