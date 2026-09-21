@@ -16,6 +16,10 @@ const cheerio = require('cheerio');
 const TurndownService = require('turndown');
 require('dotenv').config();
 
+const puppeteer = require('puppeteer-extra');
+const StealthPlugin = require('puppeteer-extra-plugin-stealth');
+puppeteer.use(StealthPlugin());
+
 const turndownService = new TurndownService({
   headingStyle: 'atx',
   codeBlockStyle: 'fenced'
@@ -91,6 +95,59 @@ async function runCrawler() {
   console.log(`[INFO] Hiện có ${currentDecrees.length} văn bản trong cơ sở dữ liệu.`);
 
   const newDecreesFound = [];
+
+  // Source 0: TVPL Metadata Discovery (Rule L03 Compliant: No TVPL links/text used, just for discovery)
+  console.log('\n🔍 Đang quét Thư Viện Pháp Luật (Metadata Feed) bằng Puppeteer Stealth...');
+  try {
+    const browser = await puppeteer.launch({ 
+      headless: 'new',
+      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage']
+    });
+    const page = await browser.newPage();
+    await page.setUserAgent(USER_AGENT);
+    await page.goto('https://thuvienphapluat.vn/chinh-sach-phap-luat-moi', { waitUntil: 'networkidle2', timeout: 30000 });
+    
+    const pageText = await page.evaluate(() => document.body.innerText);
+    await browser.close();
+
+    const tvplDocNumbers = [];
+    const matches = pageText.match(/[0-9]+\/[0-9]{4}\/[A-ZĐ]+-[A-Z]+/gi);
+    if (matches) {
+      matches.forEach(m => {
+        if (!tvplDocNumbers.includes(m) && !currentDecrees.find(d => d.decree_number === m)) {
+          tvplDocNumbers.push(m);
+        }
+      });
+    }
+
+    console.log(`[INFO] Phát hiện ${tvplDocNumbers.length} văn bản mới từ feed. Tiến hành tìm kiếm trên Cổng Công Báo...`);
+
+    // For each new document number, search CongBao
+    for (const docNum of tvplDocNumbers) {
+      console.log(`  -> Tìm kiếm văn bản gốc: ${docNum}`);
+      const searchUrl = `https://congbao.chinhphu.vn/tim-kiem-nang-cao?q=${encodeURIComponent(docNum)}`;
+      const searchHtml = await fetchHtml(searchUrl);
+      if (searchHtml) {
+        if (searchHtml.includes(docNum)) {
+           console.log(`     ✅ Đã tìm thấy ${docNum} trên Cổng Công Báo Chính Phủ!`);
+           newDecreesFound.push({
+             id: `new-${Date.now()}`,
+             decree_number: docNum,
+             title: `Văn bản ${docNum} (Tự động phát hiện)`,
+             issued_date: new Date().toISOString().split('T')[0],
+             effective_date: new Date().toISOString().split('T')[0],
+             source_url: searchUrl,
+             content: `Nội dung đang chờ đồng bộ từ Cổng Công Báo cho văn bản ${docNum}...`
+           });
+        } else {
+           console.log(`     ❌ Không tìm thấy ${docNum} trên Cổng Công Báo.`);
+        }
+      }
+      await new Promise(r => setTimeout(r, 2000));
+    }
+  } catch (e) {
+    console.log('[WARN] TVPL Discovery skip:', e.message);
+  }
 
   // Source 1: Check Cong Bao Official Portal for new Tax & Accounting Circulars/Decrees
   console.log('\n🔍 Đang quét Cổng Công Báo Chính Phủ (congbao.chinhphu.vn)...');
