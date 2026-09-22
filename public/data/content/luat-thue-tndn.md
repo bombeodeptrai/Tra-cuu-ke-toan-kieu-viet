@@ -1,28 +1,51 @@
-|  |  |
-| --- | --- |
-| **QUỐC HỘI  -------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  --------------** |
-| Luật số: 14/2008/QH12 | *Hà Nội, ngày 03 tháng 06 năm 2008* |
+## 🤖 TÓM TẮT CHUYÊN SÂU (Bởi AI)
+Luật Thuế Thu nhập doanh nghiệp (TNDN) là nền tảng pháp lý điều chỉnh nghĩa vụ thuế TNDN của mọi doanh nghiệp tại Việt Nam. Luật đã qua nhiều lần sửa đổi (2013, 2014, 2020, 2022).
+
+**Mức thuế suất hiện hành:**
+- Thuế suất phổ thông: **20%** thu nhập chịu thuế
+- Doanh nghiệp có tổng doanh thu năm không quá 20 tỷ đồng: **20%**
+- Hoạt động tìm kiếm, thăm dò, khai thác dầu khí: **25–50%**
+- Hoạt động tìm kiếm, thăm dò khoáng sản quý hiếm: **40–50%**
+
+**Ưu đãi thuế:** Miễn thuế tối đa 4 năm và giảm 50% trong 9 năm tiếp theo cho dự án đầu tư vào lĩnh vực ưu tiên, địa bàn khó khăn.
+
+**Lưu ý rủi ro:** Chi phí được trừ khi tính thuế TNDN phải đáp ứng đồng thời 3 điều kiện: phát sinh liên quan đến hoạt động sản xuất kinh doanh; có chứng từ hợp lệ; không thuộc danh mục chi phí không được trừ.
+
+⚠️ **Đã hết hiệu lực** — thay thế bởi **67/2025/QH15**. Giữ lại để đối chiếu.
+
+## 📜 TOÀN VĂN VĂN BẢN
+
+QUỐC HỘI
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+
+Độc lập – Tự do – Hạnh phúc
+
+Luật số: 14/2008/QH12
+
+Ngày 3 tháng 6 năm 2008
 
 **LUẬT**
 
- 
+**Thuế thu nhập doanh nghiệp**
 
-THUẾ THU NHẬP DOANH NGHIỆP
+ **\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
-*Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam năm 1992 đã được sửa đổi, bổ sung một số điều theo Nghị quyết số 51/2001/QH10;  
- Quốc hội ban hành Luật thuế thu nhập doanh nghiệp,*
+Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam năm 1992 đã được sửa đổi, bổ sung một số điều theo Nghị quyết số 51/2001/QH10;
 
-**Chương 1.**
+Quốc hội ban hành Luật thuế thu nhập doanh nghiệp,
 
-**NHỮNG QUY ĐỊNH CHUNG**
+****Chương I****
 
-**Điều 1. Phạm vi điều chỉnh**
+****NHỮNG QUY ĐỊNH CHUNG****
+
+****Điều 1. Phạm vi điều chỉnh****
 
 Luật này quy định về người nộp thuế, thu nhập chịu thuế, thu nhập được miễn thuế, căn cứ tính thuế, phương pháp tính thuế và ưu đãi thuế thu nhập doanh nghiệp.
 
-**Điều 2. Người nộp thuế**
+****Điều 2. Người nộp thuế****
 
-1. Người nộp thuế thu nhập doanh nghiệp là tổ chức hoạt động sản xuất, kinh doanh hàng hóa, dịch vụ có thu nhập chịu thuế theo quy định của Luật này (sau đây gọi là doanh nghiệp), bao gồm:
+1\. Người nộp thuế thu nhập doanh nghiệp là tổ chức hoạt động sản xuất, kinh doanh hàng hóa, dịch vụ có thu nhập chịu thuế theo quy định của Luật này (sau đây gọi là doanh nghiệp), bao gồm:
 
 a) Doanh nghiệp được thành lập theo quy định của pháp luật Việt Nam;
 
@@ -34,7 +57,7 @@ d) Đơn vị sự nghiệp được thành lập theo quy định của pháp l
 
 đ) Tổ chức khác có hoạt động sản xuất, kinh doanh có thu nhập.
 
-2. Doanh nghiệp có thu nhập chịu thuế quy định tại Điều 3 của Luật này phải nộp thuế thu nhập doanh nghiệp như sau:
+2\. Doanh nghiệp có thu nhập chịu thuế quy định tại Điều 3 của Luật này phải nộp thuế thu nhập doanh nghiệp như sau:
 
 a) Doanh nghiệp được thành lập theo quy định của pháp luật Việt Nam nộp thuế đối với thu nhập chịu thuế phát sinh tại Việt Nam và thu nhập chịu thuế phát sinh ngoài Việt Nam;
 
@@ -44,7 +67,7 @@ c) Doanh nghiệp nước ngoài có cơ sở thường trú tại Việt Nam n�
 
 d) Doanh nghiệp nước ngoài không có cơ sở thường trú tại Việt Nam nộp thuế đối với thu nhập chịu thuế phát sinh tại Việt Nam.
 
-3. Cơ sở thường trú của doanh nghiệp nước ngoài là cơ sở sản xuất, kinh doanh mà thông qua cơ sở này, doanh nghiệp nước ngoài tiến hành một phần hoặc toàn bộ hoạt động sản xuất, kinh doanh tại Việt Nam mang lại thu nhập, bao gồm:
+3\. Cơ sở thường trú của doanh nghiệp nước ngoài là cơ sở sản xuất, kinh doanh mà thông qua cơ sở này, doanh nghiệp nước ngoài tiến hành một phần hoặc toàn bộ hoạt động sản xuất, kinh doanh tại Việt Nam mang lại thu nhập, bao gồm:
 
 a) Chi nhánh, văn phòng điều hành, nhà máy, công xưởng, phương tiện vận tải, hầm mỏ, mỏ dầu, khí hoặc địa điểm khai thác tài nguyên thiên nhiên khác tại Việt Nam;
 
@@ -56,67 +79,67 @@ d) Đại lý cho doanh nghiệp nước ngoài;
 
 đ) Đại diện tại Việt Nam trong trường hợp là đại diện có thẩm quyền ký kết hợp đồng đứng tên doanh nghiệp nước ngoài hoặc đại diện không có thẩm quyền ký kết hợp đồng đứng tên doanh nghiệp nước ngoài nhưng thường xuyên thực hiện việc giao hàng hóa hoặc cung ứng dịch vụ tại Việt Nam.
 
-**Điều 3. Thu nhập chịu thuế**
+****Điều 3. Thu nhập chịu thuế****
 
-1. Thu nhập chịu thuế bao gồm thu nhập từ hoạt động sản xuất, kinh doanh hàng hóa, dịch vụ và thu nhập khác quy định tại khoản 2 Điều này.
+1\. Thu nhập chịu thuế bao gồm thu nhập từ hoạt động sản xuất, kinh doanh hàng hóa, dịch vụ và thu nhập khác quy định tại khoản 2 Điều này.
 
-2. Thu nhập khác bao gồm thu nhập từ chuyển nhượng vốn, chuyển nhượng bất động sản; thu nhập từ quyền sở hữu, quyền sử dụng tài sản; thu nhập từ chuyển nhượng, cho thuê, thanh lý tài sản; thu nhập từ lãi tiền gửi, cho vay vốn, bán ngoại tệ; hoàn nhập các khoản dự phòng; thu khoản nợ khó đòi đã xóa nay đòi được; thu khoản nợ phải trả không xác định được chủ; khoản thu nhập từ kinh doanh của những năm trước bị bỏ sót và các khoản thu nhập khác, kể cả thu nhập nhận được từ hoạt động sản xuất, kinh doanh ở ngoài Việt Nam.
+2\. Thu nhập khác bao gồm thu nhập từ chuyển nhượng vốn, chuyển nhượng bất động sản; thu nhập từ quyền sở hữu, quyền sử dụng tài sản; thu nhập từ chuyển nhượng, cho thuê, thanh lý tài sản; thu nhập từ lãi tiền gửi, cho vay vốn, bán ngoại tệ; hoàn nhập các khoản dự phòng; thu khoản nợ khó đòi đã xóa nay đòi được; thu khoản nợ phải trả không xác định được chủ; khoản thu nhập từ kinh doanh của những năm trước bị bỏ sót và các khoản thu nhập khác, kể cả thu nhập nhận được từ hoạt động sản xuất, kinh doanh ở ngoài Việt Nam.
 
-**Điều 4. Thu nhập được miễn thuế**
+****Điều 4. Thu nhập được miễn thuế****
 
-1. Thu nhập từ trồng trọt, chăn nuôi, nuôi trồng thủy sản của tổ chức được thành lập theo Luật hợp tác xã.
+1\. Thu nhập từ trồng trọt, chăn nuôi, nuôi trồng thủy sản của tổ chức được thành lập theo Luật hợp tác xã.
 
-2. Thu nhập từ việc thực hiện dịch vụ kỹ thuật trực tiếp phục vụ nông nghiệp.
+2\. Thu nhập từ việc thực hiện dịch vụ kỹ thuật trực tiếp phục vụ nông nghiệp.
 
-3. Thu nhập từ việc thực hiện hợp đồng nghiên cứu khoa học và phát triển công nghệ, sản phẩm đang trong thời kỳ sản xuất thử nghiệm, sản phẩm làm ra từ công nghệ mới lần đầu áp dụng tại Việt Nam.
+3\. Thu nhập từ việc thực hiện hợp đồng nghiên cứu khoa học và phát triển công nghệ, sản phẩm đang trong thời kỳ sản xuất thử nghiệm, sản phẩm làm ra từ công nghệ mới lần đầu áp dụng tại Việt Nam.
 
-4. Thu nhập từ hoạt động sản xuất, kinh doanh hàng hóa, dịch vụ của doanh nghiệp dành riêng cho lao động là người tàn tật, người sau cai nghiện, người nhiễm HIV. Chính phủ quy định tiêu chí, điều kiện xác định doanh nghiệp dành riêng cho lao động là người tàn tật, người sau cai nghiện, người nhiễm HIV.
+4\. Thu nhập từ hoạt động sản xuất, kinh doanh hàng hóa, dịch vụ của doanh nghiệp dành riêng cho lao động là người tàn tật, người sau cai nghiện, người nhiễm HIV. Chính phủ quy định tiêu chí, điều kiện xác định doanh nghiệp dành riêng cho lao động là người tàn tật, người sau cai nghiện, người nhiễm HIV.
 
-5. Thu nhập từ hoạt động dạy nghề dành riêng cho người dân tộc thiểu số, người tàn tật, trẻ em có hoàn cảnh đặc biệt khó khăn, đối tượng tệ nạn xã hội.
+5\. Thu nhập từ hoạt động dạy nghề dành riêng cho người dân tộc thiểu số, người tàn tật, trẻ em có hoàn cảnh đặc biệt khó khăn, đối tượng tệ nạn xã hội.
 
-6. Thu nhập được chia từ hoạt động góp vốn, liên doanh, liên kết với doanh nghiệp trong nước, sau khi đã nộp thuế thu nhập doanh nghiệp theo quy định của Luật này.
+6\. Thu nhập được chia từ hoạt động góp vốn, liên doanh, liên kết với doanh nghiệp trong nước, sau khi đã nộp thuế thu nhập doanh nghiệp theo quy định của Luật này.
 
-7. Khoản tài trợ nhận được để sử dụng cho hoạt động giáo dục, nghiên cứu khoa học, văn hóa, nghệ thuật, từ thiện, nhân đạo và hoạt động xã hội khác tại Việt Nam.
+7\. Khoản tài trợ nhận được để sử dụng cho hoạt động giáo dục, nghiên cứu khoa học, văn hóa, nghệ thuật, từ thiện, nhân đạo và hoạt động xã hội khác tại Việt Nam.
 
-**Điều 5. Kỳ tính thuế**
+****Điều 5. Kỳ tính thuế****
 
-1. Kỳ tính thuế thu nhập doanh nghiệp được xác định theo năm dương lịch hoặc năm tài chính, trừ trường hợp quy định tại khoản 2 Điều này.
+1\. Kỳ tính thuế thu nhập doanh nghiệp được xác định theo năm dương lịch hoặc năm tài chính, trừ trường hợp quy định tại khoản 2 Điều này.
 
-2. Kỳ tính thuế thu nhập doanh nghiệp theo từng lần phát sinh thu nhập áp dụng đối với doanh nghiệp nước ngoài được quy định tại điểm c và điểm d khoản 2 Điều 2 của Luật này.
+2\. Kỳ tính thuế thu nhập doanh nghiệp theo từng lần phát sinh thu nhập áp dụng đối với doanh nghiệp nước ngoài được quy định tại điểm c và điểm d khoản 2 Điều 2 của Luật này.
 
-**Chương 2.**
+****Chương II****
 
-**CĂN CỨ VÀ PHƯƠNG PHÁP TÍNH THUẾ**
+****CĂN CỨ VÀ PHƯƠNG PHÁP TÍNH THUẾ****
 
-**Điều 6. Căn cứ tính thuế**
+****Điều 6. Căn cứ tính thuế****
 
 Căn cứ tính thuế là thu nhập tính thuế và thuế suất.
 
-**Điều 7. Xác định thu nhập tính thuế**
+****Điều 7. Xác định thu nhập tính thuế****
 
-1. Thu nhập tính thuế trong kỳ tính thuế được xác định bằng thu nhập chịu thuế trừ thu nhập được miễn thuế và các khoản lỗ được kết chuyển từ các năm trước.
+1\. Thu nhập tính thuế trong kỳ tính thuế được xác định bằng thu nhập chịu thuế trừ thu nhập được miễn thuế và các khoản lỗ được kết chuyển từ các năm trước.
 
-2. Thu nhập chịu thuế bằng doanh thu trừ các khoản chi được trừ của hoạt động sản xuất, kinh doanh cộng thu nhập khác, kể cả thu nhập nhận được ở ngoài Việt Nam.
+2\. Thu nhập chịu thuế bằng doanh thu trừ các khoản chi được trừ của hoạt động sản xuất, kinh doanh cộng thu nhập khác, kể cả thu nhập nhận được ở ngoài Việt Nam.
 
-3. Thu nhập từ hoạt động chuyển nhượng bất động sản phải xác định riêng để kê khai nộp thuế.
+3\. Thu nhập từ hoạt động chuyển nhượng bất động sản phải xác định riêng để kê khai nộp thuế.
 
 Chính phủ quy định chi tiết và hướng dẫn thi hành Điều này.
 
-**Điều 8. Doanh thu**
+****Điều 8. Doanh thu****
 
 Doanh thu là toàn bộ tiền bán hàng, tiền gia công, tiền cung ứng dịch vụ, trợ giá, phụ thu, phụ trội mà doanh nghiệp được hưởng. Doanh thu được tính bằng đồng Việt Nam; trường hợp có doanh thu bằng ngoại tệ thì phải quy đổi ngoại tệ ra đồng Việt Nam theo tỷ giá giao dịch bình quân trên thị trường ngoại tệ liên ngân hàng do Ngân hàng Nhà nước Việt Nam công bố tại thời điểm phát sinh doanh thu bằng ngoại tệ.
 
 Chính phủ quy định chi tiết và hướng dẫn thi hành Điều này.
 
-**Điều 9. Các khoản chi được trừ và không được trừ khi xác định thu nhập chịu thuế**
+****Điều 9. Các khoản chi được trừ và không được trừ khi xác định thu nhập chịu thuế****
 
-1. Trừ các khoản chi quy định tại khoản 2 Điều này, doanh nghiệp được trừ mọi khoản chi nếu đáp ứng đủ các điều kiện sau đây:
+1\. Trừ các khoản chi quy định tại khoản 2 Điều này, doanh nghiệp được trừ mọi khoản chi nếu đáp ứng đủ các điều kiện sau đây:
 
 a) Khoản chi thực tế phát sinh liên quan đến hoạt động sản xuất, kinh doanh của doanh nghiệp;
 
 b) Khoản chi có đủ hóa đơn, chứng từ theo quy định của pháp luật.
 
-2. Các khoản chi không được trừ khi xác định thu nhập chịu thuế bao gồm:
+2\. Các khoản chi không được trừ khi xác định thu nhập chịu thuế bao gồm:
 
 a) Khoản chi không đáp ứng đủ các điều kiện quy định tại khoản 1 Điều này, trừ phần giá trị tổn thất do thiên tai, dịch bệnh và trường hợp bất khả kháng khác không được bồi thường;
 
@@ -146,79 +169,79 @@ n) Phần chi quảng cáo, tiếp thị, khuyến mại, hoa hồng môi giới
 
 o) Khoản tài trợ, trừ khoản tài trợ cho giáo dục, y tế, khắc phục hậu quả thiên tai và làm nhà tình nghĩa cho người nghèo theo quy định của pháp luật.
 
-3. Khoản chi bằng ngoại tệ được trừ khi xác định thu nhập chịu thuế phải quy đổi ra đồng Việt Nam theo tỷ giá giao dịch bình quân trên thị trường ngoại tệ liên ngân hàng do Ngân hàng Nhà nước Việt Nam công bố tại thời điểm phát sinh chi phí bằng ngoại tệ.
+3\. Khoản chi bằng ngoại tệ được trừ khi xác định thu nhập chịu thuế phải quy đổi ra đồng Việt Nam theo tỷ giá giao dịch bình quân trên thị trường ngoại tệ liên ngân hàng do Ngân hàng Nhà nước Việt Nam công bố tại thời điểm phát sinh chi phí bằng ngoại tệ.
 
 Chính phủ quy định chi tiết và hướng dẫn thi hành Điều này.
 
-**Điều 10. Thuế suất**
+****Điều 10. Thuế suất****
 
-1. Thuế suất thuế thu nhập doanh nghiệp là 25%, trừ trường hợp quy định tại khoản 2 Điều này và Điều 13 của Luật này.
+1\. Thuế suất thuế thu nhập doanh nghiệp là 25%, trừ trường hợp quy định tại khoản 2 Điều này và Điều 13 của Luật này.
 
-2. Thuế suất thuế thu nhập doanh nghiệp đối với hoạt động tìm kiếm, thăm dò, khai thác dầu khí và tài nguyên quý hiếm khác từ 32% đến 50% phù hợp với từng dự án, từng cơ sở kinh doanh.
+2\. Thuế suất thuế thu nhập doanh nghiệp đối với hoạt động tìm kiếm, thăm dò, khai thác dầu khí và tài nguyên quý hiếm khác từ 32% đến 50% phù hợp với từng dự án, từng cơ sở kinh doanh.
 
 Chính phủ quy định chi tiết và hướng dẫn thi hành Điều này.
 
-**Điều 11. Phương pháp tính thuế**
+****Điều 11. Phương pháp tính thuế****
 
-1. Số thuế thu nhập doanh nghiệp phải nộp trong kỳ tính thuế được tính bằng thu nhập tính thuế nhân với thuế suất; trường hợp doanh nghiệp đã nộp thuế thu nhập ở ngoài Việt Nam thì được trừ số thuế thu nhập đã nộp nhưng tối đa không quá số thuế thu nhập doanh nghiệp phải nộp theo quy định của Luật này.
+1\. Số thuế thu nhập doanh nghiệp phải nộp trong kỳ tính thuế được tính bằng thu nhập tính thuế nhân với thuế suất; trường hợp doanh nghiệp đã nộp thuế thu nhập ở ngoài Việt Nam thì được trừ số thuế thu nhập đã nộp nhưng tối đa không quá số thuế thu nhập doanh nghiệp phải nộp theo quy định của Luật này.
 
-2. Phương pháp tính thuế đối với doanh nghiệp quy định tại điểm c và điểm d khoản 2 Điều 2 của Luật này được thực hiện theo quy định của Chính phủ.
+2\. Phương pháp tính thuế đối với doanh nghiệp quy định tại điểm c và điểm d khoản 2 Điều 2 của Luật này được thực hiện theo quy định của Chính phủ.
 
-**Điều 12. Nơi nộp thuế**
+****Điều 12. Nơi nộp thuế****
 
 Doanh nghiệp nộp thuế tại nơi có trụ sở chính. Trường hợp doanh nghiệp có cơ sở sản xuất hạch toán phụ thuộc hoạt động tại địa bàn tỉnh, thành phố trực thuộc trung ương khác với địa bàn nơi doanh nghiệp có trụ sở chính thì số thuế được tính nộp theo tỷ lệ chi phí giữa nơi có cơ sở sản xuất và nơi có trụ sở chính. Việc phân cấp, quản lý, sử dụng nguồn thu được thực hiện theo quy định của Luật ngân sách nhà nước.
 
 Chính phủ quy định chi tiết và hướng dẫn thi hành Điều này.
 
-**Chương 3.**
+****Chương III****
 
-**ƯU ĐÃI THUẾ THU NHẬP DOANH NGHIỆP**
+****ƯU ĐÃI THUẾ THU NHẬP DOANH NGHIỆP****
 
-**Điều 13. Ưu đãi về thuế suất**
+****Điều 13. Ưu đãi về thuế suất****
 
-1. Doanh nghiệp thành lập mới từ dự án đầu tư tại địa bàn có điều kiện kinh tế - xã hội đặc biệt khó khăn, khu kinh tế, khu công nghệ cao; doanh nghiệp thành lập mới từ dự án đầu tư thuộc lĩnh vực công nghệ cao, nghiên cứu khoa học và phát triển công nghệ, đầu tư phát triển cơ sở hạ tầng đặc biệt quan trọng của Nhà nước, sản xuất sản phẩm phần mềm được áp dụng thuế suất 10% trong thời gian mười lăm năm.
+1\. Doanh nghiệp thành lập mới từ dự án đầu tư tại địa bàn có điều kiện kinh tế - xã hội đặc biệt khó khăn, khu kinh tế, khu công nghệ cao; doanh nghiệp thành lập mới từ dự án đầu tư thuộc lĩnh vực công nghệ cao, nghiên cứu khoa học và phát triển công nghệ, đầu tư phát triển cơ sở hạ tầng đặc biệt quan trọng của Nhà nước, sản xuất sản phẩm phần mềm được áp dụng thuế suất 10% trong thời gian mười lăm năm.
 
-2. Doanh nghiệp hoạt động trong lĩnh vực giáo dục – đào tạo, dạy nghề, y tế, văn hóa, thể thao và môi trường được áp dụng thuế suất 10%.
+2\. Doanh nghiệp hoạt động trong lĩnh vực giáo dục – đào tạo, dạy nghề, y tế, văn hóa, thể thao và môi trường được áp dụng thuế suất 10%.
 
-3. Doanh nghiệp thành lập mới từ dự án đầu tư tại địa bàn có điều kiện kinh tế - xã hội khó khăn được áp dụng thuế suất 20% trong thời gian mười năm.
+3\. Doanh nghiệp thành lập mới từ dự án đầu tư tại địa bàn có điều kiện kinh tế - xã hội khó khăn được áp dụng thuế suất 20% trong thời gian mười năm.
 
-4. Hợp tác xã dịch vụ nông nghiệp và quỹ tín dụng nhân dân được áp dụng thuế suất 20%.
+4\. Hợp tác xã dịch vụ nông nghiệp và quỹ tín dụng nhân dân được áp dụng thuế suất 20%.
 
-5. Đối với dự án cần đặc biệt thu hút đầu tư có quy mô lớn và công nghệ cao thì thời gian áp dụng thuế suất ưu đãi có thể kéo dài thêm, nhưng thời gian kéo dài thêm không quá thời hạn quy định tại khoản 1 Điều này.
+5\. Đối với dự án cần đặc biệt thu hút đầu tư có quy mô lớn và công nghệ cao thì thời gian áp dụng thuế suất ưu đãi có thể kéo dài thêm, nhưng thời gian kéo dài thêm không quá thời hạn quy định tại khoản 1 Điều này.
 
-6. Thời gian áp dụng thuế suất ưu đãi quy định tại Điều này được tính từ năm đầu tiên doanh nghiệp có doanh thu.
-
-Chính phủ quy định chi tiết và hướng dẫn thi hành Điều này.
-
-Điều 14. Ưu đãi về thời gian miễn thuế, giảm thuế
-
-1. Doanh nghiệp thành lập mới từ dự án đầu tư tại địa bàn có điều kiện kinh tế - xã hội đặc biệt khó khăn, khu kinh tế, khu công nghệ cao; doanh nghiệp thành lập mới từ dự án đầu tư thuộc lĩnh vực công nghệ cao, nghiên cứu khoa học và phát triển công nghệ, đầu tư phát triển cơ sở hạ tầng đặc biệt quan trọng của Nhà nước, sản xuất sản phẩm phần mềm; doanh nghiệp thành lập mới hoạt động trong lĩnh vực giáo dục – đào tạo, dạy nghề, y tế, văn hóa, thể thao và môi trường được miễn thuế tối đa không quá bốn năm và giảm 50% số thuế phải nộp tối đa không quá chín năm tiếp theo.
-
-2. Doanh nghiệp thành lập mới từ dự án đầu tư tại địa bàn có điều kiện kinh tế - xã hội khó khăn được miễn thuế tối đa không quá hai năm và giảm 50% số thuế phải nộp tối đa không quá bốn năm tiếp theo.
-
-3. Thời gian miễn thuế, giảm thuế quy định tại Điều này được tính từ năm đầu tiên doanh nghiệp có thu nhập chịu thuế; trường hợp doanh nghiệp không có thu nhập chịu thuế trong ba năm đầu, kể từ năm đầu tiên có doanh thu thì thời gian miễn thuế, giảm thuế được tính từ năm thứ tư.
+6\. Thời gian áp dụng thuế suất ưu đãi quy định tại Điều này được tính từ năm đầu tiên doanh nghiệp có doanh thu.
 
 Chính phủ quy định chi tiết và hướng dẫn thi hành Điều này.
 
-**Điều 15. Các trường hợp giảm thuế khác**
+**Điều 14. Ưu đãi về thời gian miễn thuế, giảm thuế**
 
-1. Doanh nghiệp sản xuất, xây dựng, vận tải sử dụng nhiều lao động nữ được giảm thuế thu nhập doanh nghiệp bằng số chi thêm cho lao động nữ.
+1\. Doanh nghiệp thành lập mới từ dự án đầu tư tại địa bàn có điều kiện kinh tế - xã hội đặc biệt khó khăn, khu kinh tế, khu công nghệ cao; doanh nghiệp thành lập mới từ dự án đầu tư thuộc lĩnh vực công nghệ cao, nghiên cứu khoa học và phát triển công nghệ, đầu tư phát triển cơ sở hạ tầng đặc biệt quan trọng của Nhà nước, sản xuất sản phẩm phần mềm; doanh nghiệp thành lập mới hoạt động trong lĩnh vực giáo dục – đào tạo, dạy nghề, y tế, văn hóa, thể thao và môi trường được miễn thuế tối đa không quá bốn năm và giảm 50% số thuế phải nộp tối đa không quá chín năm tiếp theo.
 
-2. Doanh nghiệp sử dụng nhiều lao động là người dân tộc thiểu số được giảm thuế thu nhập doanh nghiệp bằng số chi thêm cho lao động là người dân tộc thiểu số.
+2\. Doanh nghiệp thành lập mới từ dự án đầu tư tại địa bàn có điều kiện kinh tế - xã hội khó khăn được miễn thuế tối đa không quá hai năm và giảm 50% số thuế phải nộp tối đa không quá bốn năm tiếp theo.
+
+3\. Thời gian miễn thuế, giảm thuế quy định tại Điều này được tính từ năm đầu tiên doanh nghiệp có thu nhập chịu thuế; trường hợp doanh nghiệp không có thu nhập chịu thuế trong ba năm đầu, kể từ năm đầu tiên có doanh thu thì thời gian miễn thuế, giảm thuế được tính từ năm thứ tư.
 
 Chính phủ quy định chi tiết và hướng dẫn thi hành Điều này.
 
-**Điều 16. Chuyển lỗ**
+****Điều 15. Các trường hợp giảm thuế khác****
 
-1. Doanh nghiệp có lỗ được chuyển số lỗ sang năm sau; số lỗ này được trừ vào thu nhập tính thuế. Thời gian được chuyển lỗ không quá năm năm, kể từ năm tiếp theo năm phát sinh lỗ.
+1\. Doanh nghiệp sản xuất, xây dựng, vận tải sử dụng nhiều lao động nữ được giảm thuế thu nhập doanh nghiệp bằng số chi thêm cho lao động nữ.
 
-2. Doanh nghiệp có lỗ từ hoạt động chuyển nhượng bất động sản chỉ được chuyển số lỗ vào thu nhập tính thuế của hoạt động này.
+2\. Doanh nghiệp sử dụng nhiều lao động là người dân tộc thiểu số được giảm thuế thu nhập doanh nghiệp bằng số chi thêm cho lao động là người dân tộc thiểu số.
 
-Điều 17. Trích lập Quỹ phát triển khoa học và công nghệ của doanh nghiệp
+Chính phủ quy định chi tiết và hướng dẫn thi hành Điều này.
 
-1. Doanh nghiệp được thành lập, hoạt động theo quy định của pháp luật Việt Nam được trích tối đa 10% thu nhập tính thuế hàng năm để lập Quỹ phát triển khoa học và công nghệ của doanh nghiệp.
+****Điều 16. Chuyển lỗ****
 
-2. Trong thời hạn năm năm, kể từ khi trích lập, nếu Quỹ phát triển khoa học và công nghệ không được sử dụng hoặc sử dụng không hết 70% hoặc sử dụng không đúng mục đích thì doanh nghiệp phải nộp ngân sách nhà nước phần thuế thu nhập doanh nghiệp tính trên khoản thu nhập đã trích lập quỹ mà không sử dụng hoặc sử dụng không đúng mục đích và phần lãi phát sinh từ số thuế thu nhập doanh nghiệp đó.
+1\. Doanh nghiệp có lỗ được chuyển số lỗ sang năm sau; số lỗ này được trừ vào thu nhập tính thuế. Thời gian được chuyển lỗ không quá năm năm, kể từ năm tiếp theo năm phát sinh lỗ.
+
+2\. Doanh nghiệp có lỗ từ hoạt động chuyển nhượng bất động sản chỉ được chuyển số lỗ vào thu nhập tính thuế của hoạt động này.
+
+**Điều 17. Trích lập Quỹ phát triển khoa học và công nghệ của doanh nghiệp**
+
+1\. Doanh nghiệp được thành lập, hoạt động theo quy định của pháp luật Việt Nam được trích tối đa 10% thu nhập tính thuế hàng năm để lập Quỹ phát triển khoa học và công nghệ của doanh nghiệp.
+
+2\. Trong thời hạn năm năm, kể từ khi trích lập, nếu Quỹ phát triển khoa học và công nghệ không được sử dụng hoặc sử dụng không hết 70% hoặc sử dụng không đúng mục đích thì doanh nghiệp phải nộp ngân sách nhà nước phần thuế thu nhập doanh nghiệp tính trên khoản thu nhập đã trích lập quỹ mà không sử dụng hoặc sử dụng không đúng mục đích và phần lãi phát sinh từ số thuế thu nhập doanh nghiệp đó.
 
 Thuế suất thuế thu nhập doanh nghiệp dùng để tính số thuế thu hồi là thuế suất áp dụng cho doanh nghiệp trong thời gian trích lập quỹ.
 
@@ -226,19 +249,17 @@ Lãi suất tính lãi đối với số thuế thu hồi tính trên phần qu�
 
 Lãi suất tính lãi đối với số thuế thu hồi tính trên phần quỹ sử dụng sai mục đích là lãi phạt chậm nộp theo quy định của Luật quản lý thuế và thời gian tính lãi là khoảng thời gian kể từ khi trích lập quỹ đến khi thu hồi.
 
-3. Doanh nghiệp không được hạch toán các khoản chi từ Quỹ phát triển khoa học và công nghệ của doanh nghiệp vào chi phí được trừ khi xác định thu nhập chịu thuế trong kỳ tính thuế.
+3\. Doanh nghiệp không được hạch toán các khoản chi từ Quỹ phát triển khoa học và công nghệ của doanh nghiệp vào chi phí được trừ khi xác định thu nhập chịu thuế trong kỳ tính thuế.
 
-4. Quỹ phát triển khoa học và công nghệ của doanh nghiệp chỉ được sử dụng cho đầu tư khoa học và công nghệ tại Việt Nam.
+4\. Quỹ phát triển khoa học và công nghệ của doanh nghiệp chỉ được sử dụng cho đầu tư khoa học và công nghệ tại Việt Nam.
 
-**Điều 18. Điều kiện áp dụng ưu đãi thuế**
+****Điều 18. Điều kiện áp dụng ưu đãi thuế****
 
-1. Ưu đãi thuế thu nhập doanh nghiệp quy định tại các điều 13, 14, 15, 16 và 17 của Luật này chỉ áp dụng đối với doanh nghiệp thực hiện chế độ kế toán, hóa đơn, chứng từ và nộp thuế theo kê khai.
+1\. Ưu đãi thuế thu nhập doanh nghiệp quy định tại các điều 13, 14, 15, 16 và 17 của Luật này chỉ áp dụng đối với doanh nghiệp thực hiện chế độ kế toán, hóa đơn, chứng từ và nộp thuế theo kê khai.
 
-2. Doanh nghiệp phải hạch toán riêng thu nhập từ hoạt động sản xuất, kinh doanh được ưu đãi thuế quy định tạiĐiều 13vàĐiều 14 của Luật nàyvới thu nhập từ hoạt động sản xuất, kinh doanh không được ưu đãi thuế; trường hợp không hạch toán riêng được thì thu nhập từ hoạt động sản xuất, kinh doanh được ưu đãi thuế được xác định theo tỷ lệ doanh thu giữa hoạt động sản xuất, kinh doanh được ưu đãi thuế trên tổng doanh thu của doanh nghiệp.
+2\. Doanh nghiệp phải hạch toán riêng thu nhập từ hoạt động sản xuất, kinh doanh được ưu đãi thuế quy định tại Điều 13 và Điều 14 của Luật này với thu nhập từ hoạt động sản xuất, kinh doanh không được ưu đãi thuế; trường hợp không hạch toán riêng được thì thu nhập từ hoạt động sản xuất, kinh doanh được ưu đãi thuế được xác định theo tỷ lệ doanh thu giữa hoạt động sản xuất, kinh doanh được ưu đãi thuế trên tổng doanh thu của doanh nghiệp.
 
- 
-
-3. Việc ưu đãi thuế thu nhập doanh nghiệp quy định tại Điều 13 và Điều 14 của Luật này không áp dụng đối với:
+3\. Việc ưu đãi thuế thu nhập doanh nghiệp quy định tại Điều 13 và Điều 14 của Luật này không áp dụng đối với:
 
 a) Thu nhập quy định tại khoản 2 Điều 3 của Luật này;
 
@@ -248,26 +269,28 @@ c) Thu nhập từ kinh doanh trò chơi có thưởng, cá cược theo quy đ�
 
 d) Trường hợp khác theo quy định của Chính phủ.
 
-**Chương 4.**
+****Chương IV****
 
-**ĐIỀU KHOẢN THI HÀNH**
+****ĐIỀU KHOẢN THI HÀNH****
 
-**Điều 19. Hiệu lực thi hành**
+****Điều 19. Hiệu lực thi hành****
 
-1. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2009.
+1\. Luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2009.
 
-2. Luật này thay thế Luật thuế thu nhập doanh nghiệp số 09/2003/QH11.
+2\. Luật này thay thế Luật thuế thu nhập doanh nghiệp số 09/2003/QH11.
 
-3. Doanh nghiệp đang hưởng ưu đãi thuế thu nhập doanh nghiệp theo quy định của Luật thuế thu nhập doanh nghiệp số 09/2003/QH11 tiếp tục được hưởng các ưu đãi này cho thời gian còn lại theo quy định của Luật thuế thu nhập doanh nghiệp số 09/2003/QH11; trường hợp mức ưu đãi về thuế thu nhập doanh nghiệp bao gồm cả thuế suất ưu đãi và thời gian miễn thuế, giảm thuế thấp hơn mức ưu đãi theo quy định của Luật này thì được áp dụng ưu đãi thuế theo quy định của Luật này cho thời gian còn lại.
+3\. Doanh nghiệp đang hưởng ưu đãi thuế thu nhập doanh nghiệp theo quy định của Luật thuế thu nhập doanh nghiệp số 09/2003/QH11 tiếp tục được hưởng các ưu đãi này cho thời gian còn lại theo quy định của Luật thuế thu nhập doanh nghiệp số 09/2003/QH11; trường hợp mức ưu đãi về thuế thu nhập doanh nghiệp bao gồm cả thuế suất ưu đãi và thời gian miễn thuế, giảm thuế thấp hơn mức ưu đãi theo quy định của Luật này thì được áp dụng ưu đãi thuế theo quy định của Luật này cho thời gian còn lại.
 
-4. Doanh nghiệp thuộc diện hưởng thời gian miễn thuế, giảm thuế theo quy định của Luật thuế thu nhập doanh nghiệp số 09/2003/QH11 mà chưa có thu nhập chịu thuế thì thời điểm bắt đầu tính thời gian miễn thuế, giảm thuế được tính theo quy định của Luật này và kể từ ngày Luật này có hiệu lực.
+4\. Doanh nghiệp thuộc diện hưởng thời gian miễn thuế, giảm thuế theo quy định của Luật thuế thu nhập doanh nghiệp số 09/2003/QH11 mà chưa có thu nhập chịu thuế thì thời điểm bắt đầu tính thời gian miễn thuế, giảm thuế được tính theo quy định của Luật này và kể từ ngày Luật này có hiệu lực.
 
-Điều 20. Hướng dẫn thi hành
+**Điều 20. Hướng dẫn thi hành**
 
 Chính phủ quy định chi tiết và hướng dẫn thi hành các điều 4, 7, 8, 9, 10, 11, 12, 13, 14, 15, 18 và các nội dung cần thiết khác của Luật này theo yêu cầu quản lý.
 
-*Luật này đã được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XII, kỳ họp thứ 3 thông qua ngày 03 tháng 6 năm 2008.*
+_Luật này đã được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XII, kỳ họp thứ 3 thông qua ngày 03 tháng 6 năm 2008./._
 
-|  |  |
-| --- | --- |
-|  | **CHỦ TỊCH QUỐC HỘI           Nguyễn Phú Trọng** |
+CHỦ TỊCH QUỐC HỘI
+
+(Đã ký)
+
+Nguyễn Phú Trọng

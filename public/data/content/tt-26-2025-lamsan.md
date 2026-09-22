@@ -1,3342 +1,8267 @@
-|  |  |
-| --- | --- |
-| **BỘ NÔNG NGHIỆP VÀ   MÔI TRƯỜNG  -------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
-| Số: 26/2025/TT-BNNMT | *Hà Nội, ngày 24 tháng 6 năm 2025* |
+# Quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân
 
-**THÔNG TƯ**
+**Số hiệu:** 26/2025/TT-BNNMT
 
- 
+---
 
-QUY ĐỊNH VỀ QUẢN LÝ LÂM SẢN; XỬ LÝ LÂM SẢN, THỦY SẢN LÀ TÀI SẢN ĐƯỢC XÁC LẬP QUYỀN SỞ HỮU TOÀN DÂN
+## 📜 TOÀN VĂN VĂN BẢN
 
- 
+BỘ NÔNG NGHIỆP   VÀ   MÔI TRƯ Ờ NG   CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
 
-*Căn cứ Luật Lâm nghiệp ngày 15 tháng 11 năm 2017 được sửa đổi, bổ sung năm 2024;*
+Độc lập - Tự do - Hạnh phúc 
 
-*Căn cứ Nghị định số 35/2025/NĐ-CP ngày 25 tháng 02 năm 2025 của Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ Nông nghiệp và Môi trường;*
+Số:   / 2025 /TT - BNN M T   Hà Nội, ngày   tháng   năm 2025 
 
-*Căn cứ Nghị định số 102/2020/NĐ-CP ngày 01 tháng 9 năm 2020 của Chính phủ quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam được sửa đổi, bổ sung năm 2024;*
+THÔNG TƯ 
 
-*Căn cứ Nghị định số 77/2025/NĐ-CP ngày 01 tháng 4 năm 2025 của Chính phủ quy định trình tự, thủ tục xác lập quyền sở hữu toàn dân về tài sản và xử lý đối với tài sản được xác lập quyền sở hữu toàn dân;*
+Quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản 
 
-*Theo đề nghị của Cục trưởng Cục Lâm nghiệp và Kiểm lâm, Cục trưởng* *Cục Thủy sản và Kiểm ngư;*
+được xác lập quyền sở hữu toàn dân 
 
-*Bộ trưởng Bộ Nông nghiệp và Môi trường ban hành Thông tư quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở* *hữu toàn dân.*
+Căn cứ Luật Lâm nghiệp ngày 15 tháng 11 năm 2017 được sửa đổi, bổ
 
-**Chương I**
+sung năm 2024; 
 
-**QUY ĐỊNH CHUNG**
+Căn cứ Nghị định số 35/2025/NĐ-CP ngày 25 tháng 02 năm 2025 của
 
-**Điều 1. Phạm vi điều chỉnh**
+Chính phủ quy định chức năng, nhiệm vụ, quyền hạn và cơ cấu tổ chức của Bộ
 
-Thông tư này quy định về:
+Nông nghiệp và Môi trường; 
 
-1. Hồ sơ lâm sản hợp pháp, quản lý, truy xuất nguồn gốc lâm sản; trình tự, thủ tục khai thác thực vật rừng thông thường, động vật rừng thông thường.
+Căn cứ Nghị định số 102/2020/NĐ-CP ngày 01 tháng 9 năm 2020 của
 
-2. Đánh dấu mẫu vật động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm; động vật, thực vật thuộc Phụ lục Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp (sau đây viết tắt là CITES), trừ loài thủy sản.
+Chính phủ quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam được sửa đổi, bổ
 
-3. Phân loại doanh nghiệp trồng; khai thác và cung cấp gỗ rừng trồng; chế biến; nhập khẩu; xuất khẩu gỗ.
+sung năm 2024; 
 
-4. Tiếp nhận lâm sản, động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm, Phụ lục CITES do chủ sở hữu tự nguyện chuyển giao quyền sở hữu cho Nhà nước.
+Căn cứ Nghị định số 77/2025/NĐ-CP ngày 01 tháng 4 năm 2025 của
 
-5. Bảo quản lâm sản, động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm, Phụ lục CITES là tang vật, vật chứng trong quá trình tạm giữ hoặc do chủ sở hữu tự nguyện chuyển giao quyền sở hữu cho Nhà nước.
+Chính phủ quy định trình tự, thủ tục xác lập quyền sở   hữ u toàn dân về tài sản và
 
-6. Xử lý lâm sản, động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm; Phụ lục CITES được xác lập quyền sở hữu toàn dân.
+xử lý đối với tài sản được xác lập quyền sở   hữ u toàn dân; 
 
-**Điều 2. Đối tượng áp dụng**
+Theo đề nghị của Cục trưở ng Cục Lâm nghiệp và Kiểm lâm, Cục trưở ng
 
-Thông tư này áp dụng đối với tổ chức, cá nhân, hộ kinh doanh, hộ gia đình, cộng đồng dân cư có hoạt động liên quan đến các nội dung quy định tại Điều 1 Thông tư này.
+Cục Thủy sản và Kiểm ngư; 
 
-**Điều 3. Giải thích từ ngữ**
+Bộ trưở ng Bộ Nông nghiệp và Môi trường ban hành Thông tư quy định
 
-Trong Thông tư này các từ ngữ dưới đây được hiểu như sau:
+về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở
 
-1. Cơ quan Kiểm lâm sở tại là Hạt Kiểm lâm hoặc Kiểm lâm cấp tỉnh ở những địa phương không có Hạt Kiểm lâm.
+hữ u toàn dân. 
 
-2. Gỗ tròn là gỗ nguyên khai, còn nguyên hình dạng sau khai thác chưa cắt khúc hoặc đã cắt khúc, gỗ bóc vỏ, gỗ lóc lõi (chỉ còn phần gỗ lõi) có kích thước thuộc một trong các trường hợp sau:
+Chương I 
 
-a) Gỗ có đường kính đầu nhỏ từ 10 centimét (cm) đến dưới 20 cm và chiều dài từ 01 mét (m) trở lên;
+QUY ĐỊNH CHUNG 
 
-b) Gỗ có đường kính đầu nhỏ từ 20 cm trở lên và chiều dài từ 30 cm trở lên;
+Điều 1. Phạm vi điều chỉnh 
 
-c) Gỗ rừng trồng, rừng tràm, rừng ngập mặn có đường kính đầu nhỏ từ 06 cm trở lên và chiều dài từ 01 m trở lên.
+Thông tư này quy định về: 
 
-3. Gỗ xẻ, gỗ đẽo là gỗ đã bị tác động thành gỗ có hình dạng thanh, tấm, hộp, tròn, khối trụ đa giác hoặc hình thù khác, trừ trường hợp gỗ bóc vỏ.
+1. Hồ sơ lâm sản hợp pháp, quản lý, truy xuất nguồn gốc lâm sản; trình tự,
 
-4. Thực vật ngoài gỗ, bao gồm: các loài thuộc họ song, mây, tre, nứa, cau, dừa, tuế, sim, mua; thực vật rừng thân thảo; nấm; củi, dẫn xuất, hạt, củ, quả, hoa, các bộ phận khác của cây gỗ.
+thủ tục khai thác thực vật rừng thông thường, động vật rừng thông thường. 
 
-5. Sản phẩm gỗ là sản phẩm chế biến từ gỗ được lắp ráp đầy đủ các bộ phận theo công dụng của sản phẩm hoặc các chi tiết tháo rời của sản phẩm, khi lắp ráp có thể sử dụng được ngay theo công dụng của sản phẩm.
+2. Đánh dấu mẫu vật động vật, thực vật thuộc Danh mục loài nguy cấp,
 
-6. Gỗ nguyên liệu là gỗ tròn, gỗ xẻ, gỗ đẽo, ván các loại, dăm gỗ, bột gỗ, sợi gỗ và các loại gỗ đã chế biến hoặc chưa qua chế biến được sử dụng để làm nguyên liệu sản xuất sản phẩm gỗ.
+quý, hiếm; động vật, thực vật thuộc Phụ lục Công ước về buôn bán quốc tế các
 
-7. Thực vật rừng thông thường là loài thực vật có nguồn gốc từ rừng không thuộc Danh mục loài nguy cấp, quý, hiếm và không thuộc Phụ lục CITES.
+loài động vật, thực vật hoang dã nguy cấp (sau đây viết tắt là CITES), trừ loài
 
-8. Chủ lâm sản là tổ chức, hộ kinh doanh, hộ gia đình, cộng đồng dân cư, cá nhân có quyền sở hữu hợp pháp đối với lâm sản, gỗ nguyên liệu, sản phẩm gỗ, động vật rừng thông thường và sản phẩm của chúng, thực vật rừng; động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm; động vật, thực vật hoang dã nguy cấp thuộc Phụ lục CITES.
+thủy sản.
 
-9. Bảng kê lâm sản là bảng kê do chủ lâm sản lập để kê khai, mô tả thông tin chi tiết về: gỗ nguyên liệu, sản phẩm gỗ; động vật rừng và sản phẩm của chúng, thực vật rừng ngoài gỗ; động vật, sản phẩm của động vật, thực vật ngoài gỗ, sản phẩm của thực vật ngoài gỗ thuộc Danh mục loài nguy cấp, quý, hiếm, Phụ lục CITES, trừ loài thủy sản.
+---
 
-10. Khai thác động vật rừng thông thường từ tự nhiên là hoạt động lấy cá thể, trứng, ấu trùng của động vật rừng thông thường ra khỏi nơi cư trú tự nhiên.
+2 
 
-11. Lô khai thác là diện tích rừng cụ thể được xác định về tọa độ địa lý, ranh giới để khai thác gỗ.
+3. Phân loại doanh nghiệp trồng; khai thác và cung cấp gỗ rừng trồng; chế
 
-12. Sản phẩm của động vật là thịt, trứng, phôi động vật, nội tạng, da, lông, xương, sừng, ngà, móng, vảy, dẫn xuất và các sản phẩm khác có nguồn gốc từ động vật.
+biến; nhập khẩ u; xuất khẩ u gỗ. 
 
-13. Cơ sở cứu hộ động vật là tổ chức, đơn vị có chức năng, nhiệm vụ cứu hộ động vật rừng, được thành lập và hoạt động theo quy định của pháp luật.
+4. Tiếp nhận lâm sản, động vật, thực vật thuộc Danh mục loài nguy cấp,
 
-14. Bảo quản là việc cơ quan chủ trì quản lý tài sản áp dụng hình thức nuôi, trồng hoặc hình thức khác phù hợp với từng loại lâm sản; động vật, thực vật để giữ gìn tài sản trong tình trạng an toàn, nguyên vẹn, đảm bảo chất lượng, công năng và giá trị sử dụng, tình trạng sống của động vật, thực vật.
+quý, hiếm, Phụ lục CITES do chủ sở hữu tự nguyện chuyển giao quyền sở hữu
 
-**Điều 4. Quy định đo, tính khối lượng, đánh số hiệu lâm sản**
+cho Nhà nước. 
 
-1. Việc xác định phương pháp đo, tính khối lượng gỗ phải đảm bảo phù hợp với hình dạng gỗ hoặc cây thân gỗ và thực hiện theo hướng dẫn tại Phụ lục I ban hành kèm theo Thông tư này.
+5 .   B ả o qu ả n   lâm s ả n ,   đ ộ ng v ậ t, th ự c v ậ t thu ộ c Danh m ụ c loài nguy c ấ p, 
 
-2. Ghi khối lượng rỗng ruột, khối lượng mục trong khi thực hiện lập Bảng kê lâm sản.
+quý, hi ế m ,   Ph ụ   l ụ c CITES   là   tang v ậ t, v ậ t ch ứ ng trong quá trình t ạ m gi ữ   ho ặ c do 
 
-3. Đối với gỗ có kích thước không thuộc trường hợp quy định tại khoản 2, khoản 3 Điều 3 Thông tư này; cây gỗ không xác định được đường kính tại vị trí 1,3 m; gỗ gốc, rễ; gỗ có hình thù phức tạp, không đồng nhất; gỗ lạng, gỗ bóc, dăm gỗ, gỗ không thể đo được kích thước thì thực hiện cân, đơn vị tính là kilogam (kg) hoặc tính theo ster; quy đổi 1000 kg bằng 01 m3 gỗ tròn hoặc quy đổi 01 ster bằng 0,7 m3 gỗ tròn.
+ch ủ   s ở   h ữ u   t ự   nguy ệ n c huy ể n giao q uy ề n s ở   h ữ u cho Nhà nư ớ c . 
 
-4. Đơn vị tính đối với động vật là số lượng cá thể, trứng động vật là số lượng quả; trường hợp không xác định được số lượng thì thực hiện cân, đơn vị tính là kg.
+6.   X ử   lý   l âm s ả n ,   đ ộ ng v ậ t, th ự c v ậ t thu ộ c   Danh m ụ c loài nguy c ấ p, quý, 
 
-5. Đơn vị tính đối với thực vật ngoài gỗ là kg hoặc ster; lâm sản thuộc họ song, mây, tre, nứa, cau, dừa, tuế, sim, mua được xác định bằng số lượng cây hoặc cân trọng lượng, đơn vị tính bằng kg; xác định trọng lượng của bộ phận của động vật rừng bằng kg; củi được xác định bằng ster.
+hi ế m ;   Ph ụ   l ụ c CITES   đư ợ c xác l ậ p quy ề n s ở   h ữ u toà n dân. 
 
-6. Dẫn xuất của động vật, thực vật được xác định bằng kg, m3, lít hoặc mililít (ml).
+Điều 2. Đối tượng áp dụng 
 
-7. Sau khi đo đếm, xác định khối lượng, chủ lâm sản hoặc cơ quan chức năng phải thực hiện đánh số hiệu đầu lóng, khúc, hộp, thanh, tấm gỗ đối với gỗ tròn, gỗ đẽo tròn có kích thước theo quy định tại điểm a, điểm b khoản 2 Điều 3
+Thông tư này áp dụng đối với tổ chức, cá nhân, hộ kinh doanh, hộ gia
 
-Thông tư này; gỗ xẻ, gỗ đẽo có chiều dài từ 1m trở lên, chiều rộng từ 20 cm trở lên, chiều dày từ 5 cm trở lên; đối với gỗ thuộc Danh mục loài nguy cấp, quý, hiếm hoặc gỗ thuộc Phụ lục CITES không phân biệt kích thước. Số hiệu gỗ đánh bằng chữ Ả Rập, được ghi vào mặt cắt ngang hai đầu lóng gỗ, hộp gỗ và sử dụng sơn có màu sắc khác với màu của gỗ để đánh số hiệu. Số hiệu gỗ phù hợp với số hiệu trong bảng kê chi tiết kèm theo Bảng kê lâm sản.
+đình, cộng đồng dân cư có hoạt động liên quan đến các nội dung quy định tại
 
-**Điều 5. Bảng kê lâm sản**
+Điều 1 Thông tư này. 
 
-1. Chủ thể lập Bảng kê lâm sản:
+Điều 3. Giải thích từ ngữ 
 
-a) Chủ lâm sản hoặc tổ chức, cá nhân được chủ lâm sản ủy quyền lập sau khi khai thác;
+Trong Thông tư này các từ ngữ dưới đây được hiểu như sau: 
 
-b) Chủ lâm sản lập khi bán, chuyển giao quyền sở hữu, vận chuyển lâm sản trong cùng một lần; khi lập hồ sơ đề nghị cấp giấy phép xuất khẩu, tái xuất khẩu lâm sản;
+1. Cơ quan Kiểm lâm sở tại là Hạt Kiểm lâm hoặc Kiểm lâm cấp tỉnh ở
 
-c) Người có thẩm quyền xử lý vi phạm pháp luật liên quan đến lâm sản;
+những địa phương không có Hạt Kiểm lâm. 
 
-d) Cơ quan được giao chủ trì quản lý tài sản được xác lập quyền sở hữu toàn dân khi thực hiện xử lý tài sản theo phương án đã được cấp có thẩm quyền phê duyệt.
+2. Gỗ tròn là gỗ nguyên khai, còn nguyên hình dạng sau khai thác chưa
 
-2. Lập Bảng kê lâm sản: tổ chức, cá nhân quy định tại khoản 1 Điều này lập Bảng kê lâm sản theo Mẫu số 01 hoặc Mẫu số 02 Phụ lục II ban hành kèm theo Thông tư này, trừ sản phẩm đã được đánh dấu theo quy định tại Điều 14
+cắt khúc hoặc đã cắt khúc, gỗ bóc vỏ, gỗ lóc lõi (chỉ còn phần gỗ lõi) có kích
 
-Thông tư này. Chủ lâm sản chịu trách nhiệm trước pháp luật về tính hợp pháp của những nội dung kê khai tại Bảng kê lâm sản. Trường hợp lâm sản được vận chuyển mà không có thay đổi về chủ sở hữu và khối lượng, số lượng trong Bảng kê lâm sản thì được sử dụng cùng một Bảng kê lâm sản.
+thước thuộc một trong các trường hợp sau: 
 
-3. Đối tượng phải xác nhận Bảng kê lâm sản, gồm:
+a) Gỗ có đường kính đầu nhỏ từ 10 centimét (cm) đến dưới 20 cm và
 
-a) Gỗ loài thông thường khai thác từ rừng tự nhiên;
+chiều dài từ 01 mét (m) trở lên; 
 
-b) Lâm sản ngoài gỗ sau xử lý tịch thu trong trường hợp tổ chức, cá nhân đã nhận chuyển giao quyền sở hữu từ cơ quan xử lý tài sản khi mua bán, vận chuyển, chuyển giao quyền sở hữu các lần tiếp theo;
+b) Gỗ có đường kính đầu nhỏ từ 20 cm trở lên và chiều dài từ 30 cm trở lên; 
 
-c) Gỗ nguyên liệu, thực vật ngoài gỗ thuộc: Danh mục loài nguy cấp, quý, hiếm; Phụ lục CITES;
+c) Gỗ rừng trồng, rừng tràm, rừng ngập mặn có đường kính đầu nhỏ từ 06
 
-d) Động vật và sản phẩm của chúng thuộc: Danh mục loài nguy cấp, quý, hiếm; Danh mục động vật rừng thông thường; Phụ lục CITES;
+cm trở lên và chiều dài từ 01 m trở lên. 
 
-đ) Lâm sản không thuộc trường hợp quy định tại điểm a, điểm b, điểm c và điểm d khoản này nhưng chủ lâm sản đề nghị xác nhận.
+3. Gỗ xẻ, gỗ đẽo là gỗ đã bị tác động thành gỗ có hình dạng thanh, tấm,
 
-4. Lâm sản không phải xác nhận Bảng kê lâm sản: gỗ nguyên liệu của doanh nghiệp Nhóm I theo quy định của Hệ thống bảo đảm gỗ hợp pháp Việt Nam; sản phẩm gỗ, trừ trường hợp quy định tại điểm đ khoản 3 Điều này.
+hộp, tròn, khối trụ đa giác hoặc hình thù khác, trừ trường hợp gỗ bóc vỏ. 
 
-5. Cơ quan có thẩm quyền xác nhận Bảng kê lâm sản: cơ quan Kiểm lâm sở tại.
+4. Thực vật ngoài gỗ, bao gồm: các loài thuộc họ song, mây, tre, nứa, cau,
 
-6. Hồ sơ:
+dừa, tuế, sim, mua; thực vật rừng thân thảo; nấm; củi, dẫn xuất, hạt, củ, quả,
 
-a) Bản chính Đơn đề nghị xác nhận Bảng kê lâm sản theo Mẫu số 03 Phụ lục II ban hành kèm theo Thông tư này;
+hoa, các bộ phận khác của cây gỗ. 
 
-b) Bản chính Bảng kê lâm sản;
+5. Sản phẩ m gỗ là sản phẩ m chế biến từ gỗ được lắp ráp đầy đủ các bộ
 
-c) Bản sao Phương án khai thác đối với trường hợp xác nhận bảng kê lâm sản sau khai thác;
+phận theo công dụng của sản phẩ m hoặc các chi tiết tháo rời của sản phẩ m, khi
 
-d) Bản sao hồ sơ lâm sản nhập khẩu quy định tại Điều 9 Thông tư này đối với trường hợp chủ lâm sản nhập khẩu bán hoặc chuyển giao quyền sở hữu;
+---
 
-đ) Bản sao hồ sơ lâm sản sau xử lý tịch thu theo quy định tại Điều 10 Thông tư này đối với trường hợp chủ lâm sản mua trực tiếp từ cơ quan được giao xử lý tài sản, bán, chuyển giao quyền sở hữu lần kế tiếp;
+3 
 
-e) Bản sao Bảng kê lâm sản mua bán, chuyển giao quyền sở hữu liền kề trước đó;
+lắp ráp có thể sử dụng được ngay theo công dụng của sản phẩ m. 
 
-g) Bản sao hồ sơ nguồn gốc lâm sản đối với trường hợp xác nhận theo đề nghị của tổ chức, cá nhân quy định tại điểm đ khoản 3 Điều này;
+6. Gỗ nguyên liệu là gỗ tròn, gỗ xẻ, gỗ đẽo, ván các loại, dăm gỗ, bột gỗ,
 
-h) Bản chính Sổ theo dõi nhập, xuất lâm sản đối với chủ lâm sản là tổ chức, hộ kinh doanh xuất bán lâm sản theo Mẫu số 04 Phụ lục II ban hành kèm theo Thông tư này đối với trường hợp lâm sản là thực vật rừng. Bản chính Sổ theo dõi nuôi, trồng đối với chủ cơ sở nuôi động vật, trồng thực vật thuộc Danh mục loài nguy cấp, quý, hiếm hoặc động vật, thực vật hoang dã nguy cấp thuộc Phụ lục CITES; Sổ theo dõi hoạt động, kinh doanh, sản xuất, chế biến loài nguy cấp, quý, hiếm, động vật, thực vật hoang dã nguy cấp thuộc Phụ lục CITES đối với cơ sở kinh doanh chế biến theo quy định của Bộ trưởng Bộ Nông nghiệp và Môi trường về quản lý loài nguy cấp, quý, hiếm; nuôi động vật rừng thông thường và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp;
+sợi gỗ và các loại gỗ đã chế biến hoặc chưa qua chế biến được sử dụng để làm
 
-Trường hợp chủ lâm sản sử dụng hệ thống quản lý, truy xuất nguồn gốc lâm sản để cập nhật Sổ theo dõi nhập, xuất lâm sản hoặc Sổ theo dõi nuôi, trồng thì không phải nộp hồ sơ theo quy định tại điểm này.
+nguyên liệu sản xuất sản phẩ m gỗ. 
 
-7. Trình tự thực hiện:
+7. Thực vật rừng thông thường là loài thực vật có nguồn gốc từ rừng không
 
-a) Chủ lâm sản hoặc tổ chức, cá nhân được chủ lâm sản ủy quyền nộp trực tiếp hoặc qua dịch vụ bưu chính hoặc qua môi trường điện tử 01 bộ hồ sơ tương ứng với từng loại lâm sản đề nghị xác nhận theo quy định tại khoản 6 Điều này đến cơ quan Kiểm lâm sở tại. Trường hợp chủ lâm sản tạo mã phản hồi nhanh (QR) chứa đựng hồ sơ lâm sản trong Bảng kê lâm sản thì không phải nộp hồ sơ quy định tại các điểm c, điểm d, điểm đ, điểm e và điểm g khoản 6 Điều này. Trường hợp nộp hồ sơ qua môi trường điện tử thực hiện theo quy định của pháp luật về thực hiện thủ tục hành chính trên môi trường điện tử;
+thuộc Danh mục loài nguy cấp, quý, hiếm và không thuộc Phụ lục CITES. 
 
-b) Trong thời hạn 01 ngày làm việc, kể từ ngày nhận được hồ sơ, cơ quan Kiểm lâm sở tại xem xét tính hợp lệ của thành phần hồ sơ; trường hợp hồ sơ không hợp lệ theo quy định thì thông báo bằng văn bản và nêu rõ lý do;
+8 . Ch ủ   lâm s ả n là   t ổ   ch ứ c, h ộ   kinh doanh, h ộ   gia đình, c ộ ng đ ồ ng dân cư, 
 
-c) Trong thời hạn 02 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, cơ quan Kiểm lâm sở tại xác nhận lâm sản tồn vào sổ theo quy định tại điểm h khoản 6 Điều này, đối với trường hợp nộp hồ sơ bằng bản giấy;
+cá nhân có quy ề n s ở   h ữ u h ợ p pháp đ ố i v ớ i lâm s ả n, g ỗ   nguyên li ệ u, s ả n p h ẩ   m 
 
-Trường hợp cần xác minh nguồn gốc lâm sản trong thời hạn 01 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, cơ quan Kiểm lâm sở tại thông báo cho chủ lâm sản về việc xác minh; trong thời hạn 02 ngày làm việc kể từ ngày thông báo, cơ quan Kiểm lâm sở tại tiến hành xác minh, lập Biên bản xác minh theo Mẫu số 05 Phụ lục II ban hành kèm theo Thông tư này và hoàn thành xác nhận Bảng kê lâm sản đồng thời xác nhận lâm sản tồn vào sổ quy định tại điểm h khoản 6 Điều này; trường hợp có nhiều nội dung phức tạp, việc xác minh và xác nhận được thực hiện không quá 03 ngày làm việc. Trường hợp không xác nhận thì trả lời bằng văn bản và nêu rõ lý do;
+g ỗ , đ ộ ng v ậ t r ừ ng thông thư ờ ng   và s ả n ph ẩ   m c ủ a chúng ,   th ự c v ậ t r ừ ng ;   đ ộ ng 
 
-d) Sau khi xác nhận, cơ quan Kiểm lâm sở tại trả bản chính Bảng kê lâm sản, các loại sổ theo quy định tại điểm h khoản 6 Điều này cho chủ lâm sản hoặc tổ chức, cá nhân được ủy quyền; trừ trường hợp các sổ nêu trên được cập nhật bằng hình thức điện tử qua hệ thống quản lý, truy xuất nguồn gốc lâm sản.
+v ậ t, th ự c v ậ t   thu ộ c   Danh m ụ c loài nguy c ấ p, quý, hi ế m ;   đ ộ ng v ậ t, th ự c v ậ t   hoang 
 
-8. Cơ quan Kiểm lâm sở tại chịu trách nhiệm trước pháp luật khi xác nhận Bảng kê lâm sản; lập và cập nhật xác nhận vào Sổ theo dõi xác nhận Bảng kê lâm sản theo Mẫu số 06 Phụ lục II ban hành kèm theo Thông tư này; lưu giữ bản sao của Bảng kê lâm sản đã xác nhận và hồ sơ lâm sản theo quy định tại khoản 6 Điều này.
+d ã nguy c ấ p   thu ộ c Ph ụ   l ụ c CITES. 
 
-9. Trường hợp động vật, thực vật nhập khẩu có tên trùng với tên loài thuộc Danh mục loài nguy cấp, quý, hiếm, khi mua bán, vận chuyển, chuyển giao quyền sở hữu thực hiện như đối với loài thuộc Danh mục loài nguy cấp, quý, hiếm.
+9.   B ả ng kê lâm s ả n là b ả ng kê do ch ủ   lâm s ả n l ậ p đ ể   kê khai, mô t ả   thông 
 
-**Chương II**
+tin chi ti ế t v ề : g ỗ   nguyên li ệ u, s ả n ph ẩ   m g ỗ ; đ ộ ng v ậ t   r ừ ng và s ả n ph ẩ   m c ủ a 
 
-**QUY ĐỊNH VỀ QUẢN LÝ, TRUY XUẤT NGUỒN GỐC LÂM SẢN**
+chúng, th ự c v ậ t r ừ ng ngoài g ỗ ; đ ộ ng v ậ t, s ả n ph ẩ   m c ủ a đ ộ ng v ậ t, th ự c v ậ t ngoài 
 
-**Mục 1. KHAI THÁC THỰC VẬT RỪNG, ĐỘNG VẬT RỪNG THÔNG THƯỜNG**
+g ỗ , s ả n ph ẩ   m c ủ a th ự c v ậ t ngoài g ỗ   thu ộ c Danh m ụ c loài nguy c ấ p, quý, hi ế m, 
 
-**Điều 6. Khai thác gỗ và thực vật rừng ngoài gỗ**
+Ph ụ   l ụ c CITES, tr ừ   loài th ủ y s ả n. 
 
-1. Xây dựng phương án khai thác:
+10. Khai thác động vật rừng thông thường từ tự nhiên là hoạt động lấy cá
 
-a) Chủ rừng hoặc chủ lâm sản tự xây dựng hoặc thuê tư vấn xây dựng phương án khai thác, trừ trường hợp quy định tại điểm b khoản này;
+thể, trứng, ấu trùng của động vật rừng thông thường ra khỏi nơi cư trú tự nhiên. 
 
-b) Chủ các dự án được phê duyệt phương án tạm sử dụng rừng chủ trì, phối hợp với chủ rừng tự xây dựng hoặc thuê tư vấn xây dựng phương án khai thác tận dụng đối với diện tích tạm sử dụng rừng, diện tích rừng chuyển mục đích sử dụng rừng sang mục đích khác thuộc dự án của mình;
+11. Lô khai thác là diện tích rừng cụ thể được xác định về tọa độ địa lý,
 
-c) Ủy ban nhân dân cấp xã giao cơ quan chuyên môn xây dựng phương án khai thác hoặc thuê tư vấn xây dựng phương án khai thác đối với diện tích rừng do Nhà nước là đại diện chủ sở hữu nhưng chưa giao, chưa cho thuê, hiện đang giao cho Ủy ban nhân dân cấp xã quản lý, trừ trường hợp quy định tại điểm b khoản này;
+ranh giới để khai thác gỗ. 
 
-d) Nội dung phương án khai thác thực hiện theo Mẫu số 07 Phụ lục II ban hành kèm theo Thông tư này đối với tổ chức hoặc Mẫu số 08 Phụ lục II ban hành kèm theo Thông tư này đối với hộ gia đình, cá nhân, cộng đồng dân cư.
+12. Sản phẩ m của động vật là thịt, trứng, phôi động vật, nội tạng, da, lông,
 
-2. Trường hợp phê duyệt phương án khai thác:
+xương, sừng, ngà, móng, vảy, dẫn xuất và các sản phẩ m khác có nguồn gốc từ
 
-a) Khai thác tận dụng, khai thác tận thu gỗ loài thực vật rừng thông thường từ rừng tự nhiên;
+động vật. 
 
-b) Khai thác chính, khai thác tận dụng, khai thác tận thu rừng trồng do Nhà nước là đại diện chủ sở hữu;
+13. Cơ sở cứu hộ động vật là tổ chức, đơn vị có chức năng, nhiệm vụ cứu
 
-c) Khai thác chính, khai thác tận dụng, khai thác tận thu rừng phòng hộ là rừng trồng do tổ chức, cá nhân, hộ gia đình, cộng đồng dân cư tự đầu tư hoặc được Nhà nước hỗ trợ;
+hộ động vật rừng, được thành lập và hoạt động theo quy định của pháp luật. 
 
-d) Khai thác tận dụng, khai thác tận thu thực vật rừng ngoài gỗ từ rừng đặc dụng là rừng tự nhiên;
+14. Bảo quản là việc cơ quan chủ trì quản lý tài sản áp dụng hình thức
 
-đ) Khai thác, thu thập mẫu vật theo nhiệm vụ nghiên cứu khoa học và công nghệ từ rừng đặc dụng.
+nuôi, trồng hoặc hình thức khác phù hợp với từng loại   l âm s ả n; đ ộ ng v ậ t, th ự c 
 
-3. Thẩm quyền phê duyệt phương án khai thác:
+v ậ t   đ ể   gi ữ   gìn   tài s ả n   trong tình tr ạ n g an toàn, nguyê n v ẹ n, đ ả m b ả o ch ấ t lư ợ ng, 
 
-a) Bộ trưởng, Thủ trưởng cơ quan ngang bộ hoặc cơ quan được ủy quyền phê duyệt phương án khai thác chính, khai thác tận dụng, khai thác tận thu, thu thập mẫu vật đối với trường hợp quy định tại khoản 2 Điều này của đơn vị trực thuộc Bộ, cơ quan ngang bộ quản lý;
+công năng và giá tr ị   s ử   d ụ ng ,   tình tr ạ ng s ố ng c ủ a đ ộ ng v ậ t, th ự c v ậ t . 
 
-b) Cơ quan có thẩm quyền phê duyệt nguồn vốn trồng rừng phê duyệt phương án khai thác chính, khai thác tận dụng, khai thác tận thu đối với rừng sản xuất là rừng trồng quy định tại điểm b khoản 2 Điều này của chủ rừng là tổ chức. Trường hợp không xác định được cơ quan có thẩm quyền phê duyệt nguồn vốn trồng rừng thì Sở Nông nghiệp và Môi trường nơi có diện tích rừng được khai thác phê duyệt;
+Điều 4. Quy định đo, tính khối lượng, đánh số hiệu lâm sản 
 
-c) Chủ tịch Ủy ban nhân dân cấp xã phê duyệt phương án khai thác chính, khai thác tận dụng, khai thác tận thu của hộ gia đình, cá nhân, cộng đồng dân cư trên địa bàn đối với trường hợp quy định tại khoản 2 Điều này;
+1. Việc xác định phương pháp đo, tính khối lượng gỗ phải đảm bảo phù
 
-d) Sở Nông nghiệp và Môi trường phê duyệt phương án khai thác đối với trường hợp không thuộc quy định tại điểm a, điểm b và điểm c khoản này.
+hợp với hình dạng gỗ hoặc cây thân gỗ và thực hiện theo hướng dẫn tại Phụ lục I
 
-4. Hồ sơ phê duyệt phương án khai thác chính rừng trồng do Nhà nước đại diện chủ sở hữu, rừng phòng hộ là rừng trồng do chủ rừng tự đầu tư hoặc được Nhà nước hỗ trợ:
+ban hành kèm theo Thông tư này. 
 
-a) Đối với tổ chức: bản chính đề nghị phê duyệt phương án khai thác theo Mẫu số 09 và Phương án khai thác theo Mẫu số 07 Phụ lục II ban hành kèm theo Thông tư này.
+2. Ghi khối lượng rỗng ruột, khối lượng mục trong khi thực hiện lập Bảng
 
-b) Đối với hộ gia đình, cá nhân, cộng đồng dân cư: bản chính đề nghị phê duyệt phương án khai thác theo Mẫu số 09 và Phương án khai thác theo Mẫu số 08 Phụ lục II ban hành kèm theo Thông tư này.
+---
 
-5. Hồ sơ phê duyệt phương án khai thác tận dụng, khai thác tận thu gỗ rừng tự nhiên, rừng sản xuất là rừng trồng do Nhà nước đại diện chủ sở hữu, rừng phòng hộ là rừng trồng; thực vật rừng ngoài gỗ từ rừng đặc dụng là rừng tự nhiên của tổ chức, hộ gia đình, cá nhân, cộng đồng dân cư thực hiện theo quy định tại điểm a, điểm b khoản 4 Điều này và bản sao một trong các tài liệu sau:
+4 
 
-a) Đối với khai thác tận dụng trên diện tích giải phóng mặt bằng khi chuyển mục đích sử dụng rừng sang mục đích khác: quyết định chuyển mục đích sử dụng rừng sang mục đích khác được cấp có thẩm quyền phê duyệt;
+kê lâm sản. 
 
-b) Đối với khai thác tận dụng trên diện tích rừng được sử dụng để xây dựng kết cấu hạ tầng phục vụ bảo vệ và phát triển rừng: quyết định phê duyệt và hồ sơ dự án xây dựng công trình kết cấu hạ tầng phục vụ bảo vệ, phát triển rừng được cấp có thẩm quyền phê duyệt;
+3. Đối với gỗ có kích thước không thuộc trường hợp quy định tại khoản 2,
 
-c) Đối với khai thác tận dụng trên diện tích tạm sử dụng rừng để thi công các công trình tạm phục vụ thi công dự án: quyết định phê duyệt và phương án tạm sử dụng rừng để thi công công trình, dự án được cấp có thẩm quyền phê duyệt;
+khoản 3 Điều 3   Thông tư này; cây gỗ không xác định được đường kính tại vị trí
 
-d) Đối với khai thác tận dụng trong quá trình thực hiện biện pháp lâm sinh: quyết định phê duyệt dự án lâm sinh hoặc tài liệu chứng minh việc thực hiện các biện pháp lâm sinh được cấp có thẩm quyền phê duyệt;
+1,3 m; gỗ gốc, rễ; gỗ có hình thù phức tạp, không đồng nhất; gỗ lạng, gỗ bóc,
 
-đ) Đối với khai thác tận dụng trên diện tích rừng trồng thanh lý: quyết định thanh lý kèm theo phương án thanh lý rừng trồng được cấp có thẩm quyền phê duyệt;
+dăm gỗ, gỗ không thể đo được kích thước thì thực hiện cân, đơn vị tính là
 
-e) Đối với khai thác tận dụng trong phạm vi hành lang bảo vệ an toàn đường dây dẫn điện trên không điện áp cao theo quy định pháp luật về điện lực: Biên bản kiểm tra hiện trường cây rừng chặt, tỉa, hạ độ cao trong hành lang bảo vệ an toàn đường dây dẫn điện theo Mẫu số 10 Phụ lục II ban hành kèm theo Thông tư này;
+kilogam (kg) hoặc tính theo ster; quy đổi 1000 kg bằng 01 m 
+3   
+gỗ tròn hoặc quy
 
-g) Đối với khai thác phục vụ nhiệm vụ đào tạo, nghiên cứu khoa học và công nghệ trong rừng đặc dụng, rừng phòng hộ; rừng sản xuất do nhà nước đại diện chủ sở hữu; thu thập mẫu vật trong rừng đặc dụng: quyết định phê duyệt kèm theo tài liệu dự án, nhiệm vụ, chương trình đào tạo, nghiên cứu khoa học của cấp có thẩm quyền.
+đổi 01 ster bằng 0,7 m 
+3   
+gỗ tròn. 
 
-6. Trình tự, thủ tục phê duyệt phương án khai thác:
+4. Đơn vị tính đối với động vật là số lượng cá thể, trứng động vật là số
 
-a) Chủ rừng, chủ lâm sản, chủ dự án hoặc tổ chức, cá nhân được giao hoặc cơ quan chuyên môn thuộc Ủy ban nhân dân cấp xã (sau đây gọi là tổ chức, cá nhân nộp hồ sơ) nộp trực tiếp hoặc qua dịch vụ bưu chính hoặc qua môi trường điện tử 01 bộ hồ sơ tương ứng với từng trường hợp khai thác quy định khoản 4, khoản 5 Điều này đến cơ quan có thẩm quyền phê duyệt phương án khai thác quy định tại khoản 3 Điều này. Trường hợp nộp hồ sơ qua môi trường điện tử thực hiện theo quy định pháp luật về thực hiện thủ tục hành chính trên môi trường điện tử;
+lượng quả; trường hợp không xác định được số lượng thì thực hiện cân, đơn vị
 
-b) Cơ quan có thẩm quyền phê duyệt phương án khai thác kiểm tra hồ sơ và trả lời ngay tính hợp lệ của thành phần hồ sơ đối với hồ sơ nộp trực tiếp, trong thời hạn 01 ngày làm việc, kể từ ngày nhận được hồ sơ nộp qua dịch vụ bưu chính hoặc qua môi trường điện tử; trường hợp hồ sơ chưa đủ thành phần theo quy định, cơ quan có thẩm quyền phê duyệt thông báo bằng văn bản và nêu rõ lý do;
+tính là kg. 
 
-c) Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, cơ quan có thẩm quyền quy định tại khoản 3 Điều này ban hành Quyết định phê duyệt phương án khai thác theo Mẫu số 11 Phụ lục II ban hành kèm theo Thông tư này và trả kết quả cho tổ chức, cá nhân nộp hồ sơ. Trường hợp cần xác minh tính chính xác của hồ sơ trình phê duyệt phương án khai thác, trong thời hạn 03 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, cơ quan có thẩm quyền phê duyệt phương án khai thác thông báo cho tổ chức, cá nhân nộp hồ sơ về việc xác minh. Trường hợp không phê duyệt thì thông báo bằng văn bản và nêu rõ lý do.
+5. Đơn vị tính đối với thực vật ngoài gỗ là kg hoặc ster; lâm sản thuộc họ
 
-7. Đối với các trường hợp khai thác rừng sản xuất là rừng trồng, cây rừng trồng trên đất ngoài quy hoạch lâm nghiệp, gỗ vườn nhà, cây gỗ trồng phân tán do chủ rừng, chủ lâm sản tự đầu tư hoặc được Nhà nước hỗ trợ; thực vật rừng ngoài gỗ trong rừng phòng hộ, rừng sản xuất: chủ rừng, chủ lâm sản xây dựng phương án khai thác theo quy định tại điểm d khoản 1 Điều này, không phải trình cơ quan có thẩm quyền phê duyệt. Thực hiện trình tự khai thác theo quy định tại khoản 9 Điều này.
+song, mây, tre, nứa, cau, dừa, tuế, sim, mua được xác định bằng số lượng cây
 
-8. Đối với trường hợp khai thác rừng phòng hộ, rừng sản xuất là rừng trồng của hộ gia đình, cá nhân, cộng đồng dân cư tự đầu tư hoặc Nhà nước hỗ trợ trên diện tích nhận khoán của các chủ rừng là Ban quản lý rừng, Công ty trách nhiệm hữu hạn một thành viên lâm nghiệp Nhà nước:
+hoặc cân trọng lượng, đơn vị tính bằng kg; xác định trọng lượng của bộ phận
 
-a) Đối với rừng phòng hộ: chủ rừng chủ trì, phối hợp với hộ gia đình, cá nhân, cộng đồng dân cư xây dựng phương án khai thác, lập hồ sơ trình cơ quan có thẩm quyền phê duyệt theo quy định tại khoản 1, khoản 3, khoản 4, khoản 5 và khoản 6 Điều này; sau khi phương án khai thác được phê duyệt, thực hiện trình tự khai thác theo quy định tại khoản 9 Điều này;
+của động vật rừng bằng kg; củi được xác định bằng ster. 
 
-b) Đối với rừng sản xuất: chủ rừng chủ trì, phối hợp với hộ gia đình, cá nhân, cộng đồng dân cư xây dựng phương án khai thác theo Mẫu số 07 Phụ lục II ban hành kèm theo Thông tư này, không phải trình cơ quan có thẩm quyền phê duyệt, thực hiện trình tự khai thác theo quy định tại khoản 9 Điều này.
+6. Dẫn xuất của động vật, thực vật được xác định bằng kg, m 
+3 
+, lít hoặc
 
-9. Thực hiện khai thác gỗ và thực vật rừng ngoài gỗ:
+mililít (ml). 
 
-a) Trước khi khai thác: chủ rừng, hoặc chủ lâm sản, hoặc chủ dự án, hoặc tổ chức cá nhân được giao khai thác gửi 01 bộ hồ sơ gồm bản sao quyết định và phương án khai thác được phê duyệt đối với trường hợp phải phê duyệt phương án khai thác theo quy định tại khoản 2 và điểm a khoản 8 Điều này hoặc 01 bản chính phương án khai thác đối với trường hợp không phải phê duyệt phương án khai thác theo quy định tại khoản 7 và điểm b khoản 8 Điều này đến cơ quan Kiểm lâm sở tại để giám sát quá trình thực hiện;
+7. Sau khi đo đếm, xác định khối lượng, chủ lâm sản hoặc cơ quan chức
 
-b) Sau khai thác: trong thời hạn 05 ngày làm việc kể từ ngày hoàn thành khai thác; chủ rừng, chủ lâm sản, chủ dự án hoặc tổ chức, cá nhân được giao khai thác gửi bản chính Bảng kê lâm sản đến cơ quan Kiểm lâm sở tại để theo dõi hoặc xác nhận Bảng kê lâm sản đối với trường hợp quy định tại khoản 3 Điều 5 Thông tư này.
+năng phải thực hiện đánh số hiệu đầu lóng, khúc, hộp, thanh, tấm gỗ đối với gỗ
 
-**Điều 7. Khai thác động vật rừng thông thường từ tự nhiên**
+tròn, gỗ đẽo tròn có kích thước theo quy định tại điểm a, điểm b khoản 2 Điều 3
 
-1. Cơ quan có thẩm quyền phê duyệt phương án: cơ quan Kiểm lâm sở tại.
+Thông tư này; gỗ xẻ, gỗ đẽo có chiều dài từ 1m trở lên, chiều rộng từ 20 cm trở
 
-2. Hồ sơ:
+lên, chiều dày từ 5 cm trở lên; đối với gỗ thuộc Danh mục loài nguy cấp, quý,
 
-a) Bản chính Đề nghị phê duyệt phương án khai thác động vật rừng thông thường từ tự nhiên theo Mẫu số 09 Phụ lục II ban hành kèm theo Thông tư này;
+hiếm hoặc gỗ thuộc Phụ lục CITES không phân biệt kích thước. Số hiệu gỗ đánh
 
-b) Bản chính Phương án khai thác động vật rừng thông thường từ tự nhiên theo Mẫu số 12 Phụ lục II ban hành kèm theo Thông tư này.
+bằng chữ Ả Rập, được ghi vào mặt cắt ngang hai đầu lóng gỗ, hộp gỗ và sử
 
-3. Trình tự thực hiện:
+dụng sơn có màu sắc khác với màu của gỗ để đánh số hiệu. Số hiệu gỗ phù hợp
 
-a) Tổ chức, cá nhân, hộ gia đình, cộng đồng dân cư khai thác động vật rừng thông thường từ tự nhiên nộp trực tiếp hoặc qua dịch vụ bưu chính hoặc qua môi trường điện tử 01 bộ hồ sơ theo quy định tại khoản 2 Điều này đến cơ quan có thẩm quyền phê duyệt. Trường hợp nộp hồ sơ qua môi trường điện tử thực hiện theo quy định của pháp luật về thực hiện thủ tục hành chính trên môi trường điện tử;
+với số hiệu trong bảng kê chi tiết kèm theo Bảng kê lâm sản. 
 
-b) Trường hợp nộp hồ sơ trực tiếp: cơ quan có thẩm quyền phê duyệt kiểm tra thành phần hồ sơ và trả lời tính hợp lệ của thành phần hồ sơ cho tổ chức, cá nhân, hộ gia đình, cộng đồng dân cư.
+Điều 5. Bảng kê lâm sản 
 
-Trường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc qua môi trường điện tử: trong thời hạn 01 ngày làm việc kể từ ngày nhận được hồ sơ, cơ quan có thẩm quyền phê duyệt xem xét tính hợp lệ của thành phần hồ sơ; trường hợp hồ sơ không hợp lệ theo quy định, thông báo bằng văn bản và nêu rõ lý do;
+1. Chủ thể lập Bảng kê lâm sản: 
 
-c) Trong thời hạn 06 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, cơ quan có thẩm quyền phê duyệt phương án khai thác và trả kết quả cho tổ chức, cá nhân, hộ gia đình, cộng đồng dân cư; trường hợp không phê duyệt thì thông báo bằng văn bản và nêu rõ lý do.
+a) Chủ lâm sản hoặc tổ chức, cá nhân được chủ lâm sản ủy quyền lập sau
 
-4. Thực hiện khai thác:
+khi khai thác; 
 
-a) Chủ rừng hoặc tổ chức, cá nhân được chủ rừng ủy quyền tự quyết định thời điểm khai thác, việc khai thác động vật rừng thông thường từ tự nhiên phải đảm bảo phù hợp với phương án khai thác đã được cấp có thẩm quyền phê duyệt;
+b) Chủ lâm sản lập khi bán, chuyển giao quyền sở hữu, vận chuyển lâm
 
-b) Trong thời hạn 02 ngày làm việc kể từ ngày hoàn thành khai thác, chủ lâm sản hoặc tổ chức, cá nhân được chủ lâm sản ủy quyền nộp 01 bộ hồ sơ theo quy định tại khoản 1 Điều này và bản chính Bảng kê lâm sản gửi cơ quan Kiểm lâm sở tại để xác nhận theo quy định tại Điều 5 Thông tư này.
+sản trong cùng một lần; khi lập hồ sơ đề nghị cấp giấy phép xuất khẩ u, tái xuất
 
-5. Chủ rừng hoặc tổ chức, cá nhân được chủ rừng ủy quyền chịu trách nhiệm trước pháp luật nếu khai thác vượt quá số lượng loài, cá thể theo phương án khai thác được cấp có thẩm quyền phê duyệt.
+khẩ u lâm sản; 
 
-**Mục 2. HỒ SƠ NGUỒN GỐC LÂM SẢN**
+c) Người có thẩ m quyền xử lý vi phạm pháp luật liên quan đến lâm sản; 
 
-**Điều 8. Hồ sơ lâm sản có nguồn gốc khai thác trong nước**
+d) Cơ quan được giao chủ trì quản lý tài sản được xác lập quyền sở hữu
 
-1. Gỗ khai thác từ rừng tự nhiên: bản chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở tại.
+toàn dân   khi th ự c hi ệ n x ử   lý tài s ả n theo phương án đã đ ư ợ c c ấ p có th ẩ   m
 
-2. Gỗ loài thông thường khai thác từ rừng trồng do Nhà nước là đại diện chủ sở hữu; rừng trồng phòng hộ do tổ chức, cá nhân, hộ gia đình, cộng đồng dân cư tự đầu tư:
+---
 
-a) Bản chính Bảng kê lâm sản do chủ lâm sản lập; bản sao phương án khai thác được cơ quan có thẩm quyền phê duyệt;
+5 
 
-b) Bản chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở tại đối với trường hợp chủ lâm sản đề nghị xác nhận theo quy định tại điểm đ khoản 3 Điều 5 Thông tư này.
+quyền phê duyệt . 
 
-3. Gỗ loài thông thường khai thác từ rừng sản xuất là rừng trồng, gỗ có tên trùng với cây gỗ rừng tự nhiên, cây trồng phân tán, cây vườn nhà do tổ chức, cá nhân, hộ gia đình, cộng đồng dân cư tự đầu tư: bản chính Bảng kê lâm sản do chủ lâm sản lập hoặc Bản chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở tại đối với trường hợp chủ lâm sản đề nghị xác nhận theo quy định tại điểm đ khoản 3 Điều 5 Thông tư này.
+2. L ậ p B ả ng kê lâm s ả n :   t ổ   ch ứ c, cá nhân quy đ ị nh t ạ i kho ả n 1 Đi ề u này 
 
-4. Gỗ thuộc Danh mục loài nguy cấp, quý, hiếm hoặc gỗ thuộc Phụ lục CITES khai thác trong nước: bản chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở tại.
+l ậ p B ả ng kê lâm s ả n theo M ẫ u s ố   01 ho ặ c M ẫ u s ố   02 Ph ụ   l ụ c II ban hành kèm 
 
-5. Thực vật ngoài gỗ:
+theo Thông tư này, tr ừ   s ả n ph ẩ   m đã đư ợ c đánh d ấ u theo quy đ ị nh t ạ i Đi ề u 14 
 
-a) Đối với thực vật ngoài gỗ thuộc Danh mục loài nguy cấp, quý, hiếm; thực vật ngoài gỗ thuộc Phụ lục CITES khai thác trong nước: bản chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở tại;
+Thô ng tư này. Ch ủ   lâm s ả n ch ị u trách nhi ệ m trư ớ c pháp lu ậ t v ề   tính h ợ p pháp 
 
-b) Đối với thực vật rừng ngoài gỗ không thuộc trường hợp quy định tại điểm a khoản này: bản chính Bảng kê lâm sản do chủ lâm sản lập hoặc bản chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở tại đối với trường hợp chủ lâm sản đề nghị xác nhận theo quy định tại điểm đ khoản 3 Điều 5 Thông tư này.
+c ủ a nh ữ ng n ộ i dung kê khai t ạ i B ả ng kê lâm s ả n. Trư ờ ng h ợ p lâm s ả n đư ợ c v ậ n 
 
-6. Bản chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở tại đối với động vật và sản phẩm của chúng thuộc Danh mục loài nguy cấp quý, hiếm; Phụ lục CITES; động vật rừng thông thường.
+chuy ể n mà   không có thay đ ổ i v ề   ch ủ   s ở   h ữ u và kh ố i lư ợ ng, s ố   lư ợ ng trong B ả ng 
 
-**Điều 9. Hồ sơ lâm sản có nguồn gốc nhập khẩu**
+kê lâm s ả n thì đư ợ c s ử   d ụ ng cù ng m ộ t B ả ng kê lâm s ả n . 
 
-1. Gỗ nhập khẩu: thực hiện theo quy định tại Điều 7 Nghị định số 102/2020/NĐ-CP ngày 01 tháng 9 năm 2020 của Chính phủ quy định Hệ thống bảo đảm gỗ hợp pháp Việt Nam, được sửa đổi, bổ sung năm 2024.
+3. Đối tượng phải xác nhận Bảng kê lâm sản, gồm: 
 
-2. Đối với thực vật ngoài gỗ, động vật và sản phẩm của chúng thuộc Phụ lục CITES:
+a) Gỗ loài thông thường khai thác từ rừng tự nhiên; 
 
-a) Bản sao hoặc bản điện tử tờ khai hải quan theo quy định pháp luật về hải quan;
+b) Lâm sản ngoài gỗ sau xử lý tịch thu trong trường hợp tổ chức, cá nhân
 
-b) Bản sao hoặc bản điện tử giấy phép CITES nhập khẩu do Cơ quan quản lý CITES Việt Nam cấp, trừ trường hợp nhập khẩu không cần giấy phép CITES theo quy định của Bộ trưởng Bộ Nông nghiệp và Môi trường về quản lý loài nguy cấp, quý, hiếm; nuôi động vật rừng thông thường và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp;
+đã nhận chuyển giao quyền sở hữu từ cơ quan xử lý tài sản khi mua bán, vận
 
-c) Bản chính hoặc bản điện tử giấy phép CITES xuất khẩu, tái xuất khẩu trong trường hợp nhập khẩu từ các quốc gia thành viên CITES, trừ trường hợp nhập khẩu không cần giấy phép CITES theo quy định của Bộ trưởng Bộ Nông nghiệp và Môi trường về quản lý loài nguy cấp, quý, hiếm; nuôi động vật rừng thông thường và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp;
+chuyển, chuyển giao quyền sở hữu các lần tiếp theo; 
 
-d) Bản chính hoặc bản điện tử giấy phép xuất khẩu, tái xuất khẩu do Cơ quan có thẩm quyền nước xuất khẩu cấp trong trường hợp nhập khẩu từ quốc gia không phải là thành viên CITES, trừ trường hợp nhập khẩu không cần giấy phép theo quy định của Bộ trưởng Bộ Nông nghiệp và Môi trường về quản lý loài nguy cấp, quý, hiếm; nuôi động vật rừng thông thường và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp.
+c) Gỗ nguyên liệu, thực vật ngoài gỗ thuộc: Danh mục loài nguy cấp, quý,
 
-3. Đối với thực vật ngoài gỗ không thuộc Phụ lục CITES:
+hiếm; Phụ lục CITES; 
 
-a) Bản sao hoặc bản điện tử tờ khai hải quan theo quy định pháp luật về hải quan;
+d) Động vật và sản phẩm của chúng   thuộc: Danh mục loài nguy cấp, quý,
 
-b) Bản chính Bảng kê lâm sản do chủ lâm sản lập hoặc packing-list/log- list do tổ chức, cá nhân lập theo quy định của nước xuất khẩu.
+hiếm ;   Danh m ụ c đ ộ ng v ậ t   r ừ ng thông thư ờ n g;   Ph ụ   l ụ c CITES; 
 
-4. Chủ lâm sản lưu trữ hồ sơ nhập khẩu quy định tại khoản 1, khoản 2, khoản 3 Điều này để phục vụ kiểm tra, truy xuất nguồn gốc lâm sản của cơ quan chức năng.
+đ) Lâm sản không thuộc trường hợp quy định tại điểm a, điểm b, điểm c
 
-**Điều 10. Hồ sơ lâm sản có nguồn gốc sau xử lý tịch thu**
+và điểm d khoản này nhưng chủ lâm sản đề nghị xác nhận. 
 
-1. Bản sao phương án xử lý tài sản được xác lập quyền sở hữu toàn dân do cấp có thẩm quyền phê duyệt và Quyết định phê duyệt phương án xử lý tài sản được xác lập quyền sở hữu toàn dân.
+4. Lâm sản không phải xác nhận Bảng kê lâm sản: gỗ nguyên liệu của
 
-2. Bản chính Bảng kê lâm sản do cơ quan được giao xử lý tài sản lập.
+doanh nghiệp Nhóm I theo quy định của Hệ thống bảo đảm gỗ hợp pháp Việt
 
-**Mục 3. HỒ SƠ LÂM SẢN KHI MUA BÁN, CHUYỂN GIAO QUYỀN SỞ HỮU, VẬN CHUYỂN TRONG NƯỚC VÀ XUẤT KHẨU**
+Nam; sản phẩ m gỗ, trừ trường hợp quy định tại điểm đ khoản 3 Điều này. 
 
-**Điều 11. Hồ sơ lâm sản khi mua bán, chuyển giao quyền sở hữu, vận chuyển trong nước**
+5. Cơ quan có thẩ m quyền xác nhận Bảng kê lâm sản: cơ quan Kiểm
 
-1. Đối với lâm sản thuộc đối tượng phải xác nhận Bảng kê lâm sản theo quy định tại điểm a, điểm b, điểm c và điểm d khoản 3 Điều 5 Thông tư này: bản chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở tại. Trường hợp vận chuyển lâm sản ra cảng để xuất khẩu: bản chính hoặc bản điện tử giấy phép CITES và bản sao Bảng kê lâm sản khi lập hồ sơ đề nghị cấp giấy phép CITES.
+lâm sở tại. 
 
-2. Đối với lâm sản không thuộc trường hợp quy định tại điểm a, điểm b, điểm c và điểm d khoản 3 Điều 5 Thông tư này:
+6. Hồ sơ: 
 
-a) Bản chính Bảng kê lâm sản do chủ lâm sản bán, chuyển giao quyền sở hữu lập hoặc bản chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở tại đối với trường hợp chủ lâm sản đề nghị xác nhận theo quy định tại điểm đ khoản 3 Điều 5 Thông tư này;
+a) Bản chính Đơn đề nghị xác nhận Bảng kê lâm sản theo Mẫu số 03 Phụ
 
-b) Bản sao hồ sơ mua bán, chuyển giao quyền sở hữu liền kề trước đó hoặc sử dụng mã phản hồi nhanh (QR) chứa đựng hồ sơ quy định tại điểm này trên Bảng kê lâm sản. Trừ trường hợp Bảng kê lâm sản có xác nhận theo đề nghị của chủ lâm sản tại điểm đ khoản 3 Điều 5 Thông tư này.
+lục II ban hành kèm theo Thông tư này; 
 
-3. Đối với lâm sản sau khai thác do chủ lâm sản vận chuyển về kho, bãi trong cùng một lần và cùng một phương tiện: thực hiện theo quy định tại Điều 8 Thông tư này.
+b) Bản chính Bảng kê lâm sản; 
 
-4. Đối với lâm sản nhập khẩu vận chuyển từ cửa khẩu đến kho hàng của tổ chức, cá nhân nhập khẩu: thực hiện theo quy định tại Điều 9 Thông tư này.
+c) Bản sao Phương án khai thác đối với trường hợp xác nhận bảng kê lâm
 
-5. Đối với lâm sản mua trực tiếp từ Hội đồng đấu giá, sau đó lâm sản vận chuyển về kho hàng của tổ chức, cá nhân mua: thực hiện theo quy định tại Điều 10 Thông tư này.
+sản sau khai thác; 
 
-6. Đối với sản phẩm gỗ: bản chính Bảng kê lâm sản do chủ lâm sản lập hoặc bản chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở tại đối với trường hợp chủ lâm sản đề nghị xác nhận theo quy định tại điểm đ khoản 3 Điều 5 Thông tư này.
+d) Bản sao hồ sơ lâm sản nhập khẩ u quy định tại Điều 9   Thông tư này đối
 
-7. Đối với mẫu vật được đánh dấu theo quy định tại Điều 14 Thông tư này: có mã đánh dấu chứa thông tin theo quy định tại khoản 3 Điều 14 Thông tư này*.*
+với trường hợp chủ lâm sản nhập khẩ u bán hoặc chuyển giao quyền sở hữu; 
 
-**Điều 12. Hồ sơ lâm sản xuất khẩu**
+đ) Bản sao hồ sơ lâm sản sau xử lý tịch thu theo quy định tại Điều 10
 
-1. Đối với gỗ nguyên liệu, sản phẩm gỗ:
+---
 
-a) Bản sao hoặc bản điện tử tờ khai hải quan theo quy định pháp luật về hải quan;
+6 
 
-b) Đối với gỗ nguyên liệu, sản phẩm gỗ thuộc Danh mục loài nguy cấp, quý, hiếm, Phụ lục CITES: bản sao hoặc bản điện tử Giấy phép CITES xuất khẩu, tái xuất khẩu do Cơ quan quản lý CITES Việt Nam cấp;
+Thông tư này đối với trường hợp chủ lâm sản mua trực tiếp từ cơ quan được
 
-c) Đối với gỗ nguyên liệu, sản phẩm gỗ không thuộc trường hợp quy định tại điểm b khoản này: bản chính Bảng kê lâm sản hoặc bản chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở tại đối với trường hợp chủ lâm sản đề nghị xác nhận theo quy định tại điểm đ khoản 3 Điều 5 Thông tư này.
+giao xử lý tài sản, bán, chuyển giao quyền sở hữu lần kế tiếp; 
 
-2. Đối với thực vật ngoài gỗ:
+e) Bản sao Bảng kê lâm sản mua bán, chuyển giao quyền sở hữu liền kề
 
-a) Bản sao hoặc bản điện tử tờ khai hải quan theo quy định pháp luật về hải quan;
+trước đó; 
 
-b) Đối với thực vật ngoài gỗ thuộc Danh mục loài nguy cấp, quý, hiếm; Phụ lục CITES: bản sao hoặc bản điện tử giấy phép CITES xuất khẩu, tái xuất khẩu do Cơ quan quản lý CITES Việt Nam cấp;
+g) Bản sao hồ sơ nguồn gốc lâm sản đối với trường hợp xác nhận theo đề
 
-c) Đối với động vật rừng thông thường: bản chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở tại;
+nghị của tổ chức, cá nhân quy định tại điểm đ khoản 3 Điều này; 
 
-d) Đối với thực vật ngoài gỗ thuộc loài thực vật rừng thông thường: bản chính Bảng kê lâm sản hoặc Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở tại đối với trường hợp chủ lâm sản đề nghị xác nhận theo quy định tại điểm đ khoản 3 Điều 5 Thông tư này.
+h) Bản chính Sổ theo dõi nhập, xuất lâm sản đối với chủ lâm sản là tổ
 
-3. Chủ lâm sản lưu trữ hồ sơ xuất khẩu quy định tại khoản 1, khoản 2 Điều này để phục vụ kiểm tra, truy xuất nguồn gốc lâm sản của cơ quan chức năng. Trường hợp pháp luật về hải quan yêu cầu xuất trình Bảng kê lâm sản để chứng minh lâm sản có nguồn gốc hợp pháp, kết thúc kiểm tra, cơ quan Hải quan trả Bảng kê lâm sản cho chủ lâm sản để lưu trữ theo quy định tại Thông tư này.
+chức, hộ kinh doanh xuất bán lâm sản theo Mẫu số 04 Phụ lục II ban hành kèm
 
-**Mục 4. HỒ SƠ LÂM SẢN TẠI CƠ SỞ CHẾ BIẾN, KINH DOANH, CẤT GIỮ, NUÔI, TRỒNG THỰC VẬT RỪNG, ĐỘNG VẬT RỪNG VÀ ĐÁNH DẤU MẪU VẬT**
+theo Thông tư này đối với trường hợp lâm sản là thực vật rừng. Bản chính Sổ
 
-**Điều 13. Hồ sơ lâm sản tại cơ sở chế biến, kinh doanh, cất giữ gỗ, thực vật rừng, động vật rừng thông thường, động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm; động vật, thực vật thuộc Phụ lục CITES; cơ sở nuôi, trồng**
+theo dõi nuôi, trồng đối với chủ cơ sở nuôi động vật, trồng thực vật thuộc Danh
 
-1. Hồ sơ lâm sản tại cơ sở chế biến, kinh doanh, cất giữ gỗ, thực vật rừng, động vật rừng thông thường, động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm; động vật, thực vật hoang dã nguy cấp thuộc Phụ lục CITES:
+mục loài nguy cấp, quý, hiếm hoặc động vật, thực vật hoang dã nguy cấp thuộc
 
-a) Bản chính hồ sơ nguồn gốc lâm sản sau khai thác, nhập khẩu, gây nuôi hoặc sau xử lý tịch thu đối với trường hợp chủ cơ sở trực tiếp khai thác, nhập khẩu hoặc mua lâm sản sau xử lý tịch thu;
+Phụ lục CITES; Sổ theo dõi hoạt động, kinh doanh, sản xuất, chế biến loài nguy
 
-b) Bản chính Bảng kê lâm sản và bản sao hồ sơ lâm sản chuyển giao quyền sở hữu từ tổ chức, cá nhân liền kề trước đó;
+cấp, quý, hiếm, động vật, thực vật hoang dã nguy cấp thuộc Phụ lục CITES đối
 
-c) Bản sao hồ sơ lâm sản khi xuất bán hoặc chuyển giao quyền sở hữu cho tổ chức, cá nhân;
+với cơ sở kinh doanh chế biến theo quy định của Bộ trưởng Bộ Nông nghiệp và
 
-d) Sổ theo dõi nhập, xuất lâm sản đối với tổ chức, hộ kinh doanh theo Mẫu số 04 Phụ lục II ban hành kèm theo Thông tư này. Chủ lâm sản có trách nhiệm cập nhật đầy đủ, kịp thời các thông tin vào Sổ theo dõi nhập, xuất lâm sản khi nhập, xuất lâm sản;
+Môi trường về quản lý loài nguy cấp, quý, hiếm; nuôi động vật rừng thông
 
-đ) Đối với động vật, thực vật thuộc Danh mục loài nguy cấp, quý hiếm; Phụ lục CITES: các loại sổ theo quy định của Bộ trưởng Bộ Nông nghiệp và Môi trường về quản lý loài nguy cấp, quý, hiếm; nuôi động vật rừng thông thường và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp;
+thường và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật
 
-e) Chủ lâm sản có trách nhiệm lưu giữ hồ sơ lâm sản tương ứng với từng giai đoạn của chuỗi cung ứng lâm sản, bao gồm: hồ sơ nguồn gốc lâm sản sau khai thác, vận chuyển, chế biến, sản xuất, mua bán, chuyển giao quyền sở hữu nhập khẩu, lâm sản sau xử lý tịch thu theo quy định tại Thông tư này.
+hoang dã nguy cấp; 
 
-2. Hồ sơ lâm sản tại cơ sở nuôi:
+Trường hợp chủ lâm sản sử dụng hệ thống quản lý, truy xuất nguồn gốc
 
-a) Đối với cơ sở nuôi động vật thuộc Danh mục loài nguy cấp, quý, hiếm; Phụ lục CITES: mã số cơ sở nuôi hoặc Giấy chứng nhận cơ sở bảo tồn đa dạng sinh học đối với cơ sở bảo tồn đa dạng sinh học được cơ quan Nhà nước có thẩm quyền cấp;
+lâm sản để cập nhật Sổ theo dõi nhập, xuất lâm sản hoặc Sổ theo dõi nuôi, trồng
 
-b) Bản chính hồ sơ nguồn gốc động vật được khai thác trong nước, nhập khẩu đối với chủ cơ sở đồng thời là tổ chức, cá nhân trực tiếp khai thác, nhập khẩu hoặc bản chính hồ sơ lâm sản khi nhận chuyển giao quyền sở hữu từ tổ chức, cá nhân liền kề trước đó;
+thì không phải nộp hồ sơ theo quy định tại điểm này. 
 
-c) Bản sao hồ sơ lâm sản khi xuất bán hoặc chuyển giao quyền sở hữu;
+7. Trình tự thực hiện: 
 
-d) Sổ theo dõi nuôi, trồng theo quy định của Bộ trưởng Bộ Nông nghiệp và Môi trường về quản lý loài nguy cấp, quý, hiếm; nuôi động vật rừng thông thường và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp.
+a) Chủ lâm sản hoặc tổ chức, cá nhân được chủ lâm sản ủy quyền nộp trực
 
-3. Hồ sơ lâm sản tại cơ sở trồng thực vật thuộc Danh mục loài nguy cấp, quý, hiếm; thực vật thuộc Phụ lục CITES:
+tiếp hoặc qua dịch vụ bưu chính hoặc qua môi trường điện tử 01 bộ hồ sơ tương
 
-a) Mã số cơ sở trồng hoặc Giấy chứng nhận cơ sở bảo tồn đa dạng sinh học được cơ quan Nhà nước có thẩm quyền cấp;
+ứng với từng loại lâm sản đề nghị xác nhận theo quy định tại khoản 6 Điều này
 
-b) Bản chính hồ sơ nguồn gốc lâm sản khai thác trong nước, nhập khẩu đối với chủ cơ sở đồng thời là tổ chức, cá nhân trực tiếp khai thác, nhập khẩu;
+đến cơ quan Kiểm lâm sở tại. Trường hợp chủ lâm sản tạo mã phản hồi nhanh
 
-c) Bản chính hồ sơ lâm sản khi nhận chuyển giao quyền sở hữu từ tổ chức, cá nhân khác trước đó;
+(QR) chứa đựng hồ sơ lâm sản trong Bảng kê lâm sản thì không phải nộp hồ sơ
 
-d) Bản sao hồ sơ lâm sản khi xuất bán hoặc chuyển giao quyền sở hữu cho tổ chức, cá nhân khác;
+quy định tại các điểm c, điểm d, điểm đ, điểm e và điểm g khoản 6 Điều này.
 
-đ) Sổ theo dõi nuôi, trồng theo quy định của Bộ trưởng Bộ Nông nghiệp và Môi trường về quản lý loài nguy cấp, quý, hiếm; nuôi động vật rừng thông thường và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp.
+Trường hợp nộp hồ sơ qua môi trường điện tử thực hiện theo quy định của pháp
 
-**Điều 14. Đánh dấu mẫu vật**
+luật về thực hiện thủ tục hành chính trên môi trường điện tử; 
 
-1. Đối tượng đánh dấu:
+b) Trong thời hạn 01 ngày làm việc, kể từ ngày nhận được hồ sơ, cơ quan
 
-a) Động vật và sản phẩm của động vật thuộc Phụ lục I CITES, có nguồn gốc từ cơ sở nuôi sinh sản đã được Ban Thư ký CITES cấp mã số;
+Kiểm lâm sở tại xem xét tính hợp lệ của thành phần hồ sơ; trường hợp hồ sơ
 
-b) Cá thể động vật rừng còn sống thuộc lớp thú, bao gồm: các loài nguy cấp, quý, hiếm thuộc Nhóm IB theo quy định của pháp luật Việt Nam; các loài thuộc Phụ lục I CITES, trừ trường hợp quy định tại điểm a khoản 1 của Điều này.
+không hợp lệ theo quy định thì thông báo bằng văn bản và nêu rõ lý do; 
 
-2. Hình thức, phương pháp, trách nhiệm đánh dấu mẫu vật:
+c) Trong thời hạn 02 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, cơ
 
-a) Việc đánh dấu mẫu vật có thể thực hiện bằng chip, vòng, thẻ, máy phát tín hiệu. Trường hợp đánh dấu bằng tem, mã số, mã vạch, mã QR, hoặc vật liệu khác (sau đây gọi chung là nhãn đánh dấu), nhãn đánh dấu có chứa đựng thông tin quy định tại khoản 3 Điều này;
+quan Kiểm lâm sở tại xác nhận lâm sản tồn vào sổ theo quy định tại điểm h
 
-b) Chủ mẫu vật tự quyết định chất liệu, kích thước, hình thức của nhãn đánh dấu, phù hợp với tính chất, chủng loại của mẫu vật;
+khoản 6 Điều này, đối với trường hợp nộp hồ sơ bằng bản giấy;
 
-c) Một mẫu vật được đánh dấu bằng một chip, vòng, thẻ, máy phát tín hiệu hoặc nhãn đánh dấu, được gắn trực tiếp lên mẫu vật hoặc bao bì, vật dụng chứa mẫu vật, đảm bảo có thể dễ dàng nhận biết bằng mắt thường hoặc thiết bị đọc và tránh làm giả. Nhãn đánh dấu phải bị hư hỏng, không thể sử dụng lại khi bóc, tháo nhãn khỏi mẫu vật;
+---
 
-d) Trong thời hạn 01 ngày làm việc kể từ khi hoàn thành việc đánh dấu mẫu vật, chủ mẫu vật có trách nhiệm ghi đầy đủ thông tin vào Sổ theo dõi đánh dấu mẫu vật, bằng hình thức sổ giấy hoặc sổ điện tử, theo Mẫu số 13 Phụ lục II ban hành kèm theo Thông tư này.
+7 
 
-Chủ mẫu vật có trách nhiệm gửi Thông báo đánh dấu mẫu vật theo Mẫu số 14 Phụ lục II ban hành kèm theo Thông tư này đến cơ quan Kiểm lâm sở tại để phục vụ theo dõi, quản lý.
+Trường hợp cần xác minh nguồn gốc lâm sản trong thời hạn 01 ngày làm
 
-Chủ mẫu vật chịu trách nhiệm trước pháp luật về tính chính xác của các thông tin ghi trên nhãn đánh dấu và trong hồ sơ theo dõi.
+việc kể từ ngày nhận được hồ sơ hợp lệ, cơ quan Kiểm lâm sở tại thông báo cho
 
-3. Thông tin và đăng ký nhãn đánh dấu:
+chủ lâm sản về việc xác minh; trong thời hạn 02 ngày làm việc kể từ ngày thông
 
-a) Tên loài: tên phổ thông và tên khoa học. Trường hợp sản phẩm được sản xuất từ nhiều loài động vật khác nhau, phải ghi đầy đủ tên phổ thông và tên khoa học của từng loài;
+báo, cơ quan Kiểm lâm sở tại tiến hành xác minh, lập Biên bản xác minh theo
 
-b) Số Sê-ri của nhãn, gồm: số của nhãn đánh dấu, mã số đơn vị hành chính cấp xã, tên viết tắt của chủ mẫu vật, 2 số cuối của năm đánh dấu. Trong đó:
+Mẫu số 05 Phụ lục II ban hành kèm theo Thông tư này và hoàn thành xác nhận
 
-Số của nhãn đánh dấu: được ghi bằng chữ số Ả Rập, theo số thứ tự tăng dần từ số 01 trở đi đến khi kết thúc năm.
+Bảng kê lâm sản đồng thời xác nhận lâm sản tồn vào sổ quy định tại điểm h
 
-Tên viết tắt của chủ mẫu vật: do chủ mẫu vật tự quyết định và thông báo với cơ quan Kiểm lâm cấp tỉnh. Trường hợp chủ mẫu vật thay đổi tên, chủ mẫu vật lựa chọn tên viết tắt mới và thông báo cho cơ quan Kiểm lâm cấp tỉnh để biết và quản lý.
+khoản 6 Điều này; trường hợp có nhiều nội dung phức tạp, việc xác minh và xác
 
-**Mục 5. KIỂM TRA, TRUY XUẤT NGUỒN GỐC LÂM SẢN**
+nhận được thực hiện không quá 03 ngày làm việc. Trường hợp không xác nhận
 
-**Điều 15. Đối tượng, hình thức, nội dung kiểm tra**
+thì trả lời bằng văn bản và nêu rõ lý do; 
 
-1. Đối tượng kiểm tra: tổ chức, cá nhân, hộ kinh doanh, hộ gia đình, cộng đồng dân cư có hoạt động khai thác, vận chuyển, chế biến, sản xuất, mua bán, chuyển quyền sở hữu lâm sản, xuất khẩu, nhập khẩu, cất giữ lâm sản, nuôi động vật rừng, trồng thực vật rừng và đánh dấu mẫu vật quy định tại Điều 14 Thông tư này.
+d) Sau khi xác nhận, cơ quan Kiểm lâm sở tại trả bản chính Bảng kê lâm
 
-2. Hình thức kiểm tra:
+sản, các loại sổ theo quy định tại điểm h khoản 6 Điều này cho chủ lâm sản hoặc
 
-a) Kiểm tra theo kế hoạch;
+tổ chức, cá nhân được ủy quyền; trừ trường hợp các sổ nêu trên được cập nhật
 
-b) Kiểm tra theo chuyên đề;
+bằng hình thức điện tử qua hệ thống quản lý, truy xuất nguồn gốc lâm sản. 
 
-c) Kiểm tra đột xuất.
+8. Cơ quan Kiểm lâm sở tại chịu trách nhiệm trước pháp luật khi xác nhận
 
-3. Nội dung kiểm tra:
+Bảng kê lâm sản; lập và cập nhật xác nhận vào Sổ theo dõi xác nhận Bảng kê
 
-a) Đối với khai thác lâm sản: kiểm tra việc chấp hành pháp luật về khai thác lâm sản theo Quy chế quản lý rừng và quy định tại Điều 6, Điều 7 Thông tư này và lâm sản khai thác thực tế tại hiện trường;
+lâm sản theo Mẫu số 06 Phụ lục II ban hành kèm theo Thông tư này; lưu giữ bản
 
-b) Đối với lâm sản khi nhập khẩu, xuất khẩu: kiểm tra hồ sơ lâm sản theo quy định tại Điều 9 và Điều 12 Thông tư này và lâm sản thực tế tại cửa khẩu;
+sao của Bảng kê lâm sản đã xác nhận và hồ sơ lâm sản theo quy định tại khoản 6
 
-c) Đối với vận chuyển lâm sản: kiểm tra việc chấp hành quy định về hồ sơ lâm sản trong quá trình vận chuyển theo quy định tại Điều 11 Thông tư này và lâm sản trên phương tiện vận chuyển;
+Điều này. 
 
-d) Đối với cơ sở chế biến, kinh doanh, cất giữ gỗ, lâm sản: kiểm tra việc chấp hành quy định về hồ sơ lâm sản theo quy định tại Điều 13 Thông tư này và lâm sản hiện có tại cơ sở;
+9. Trường hợp động vật, thực vật nhập khẩ u có tên trùng với tên loài
 
-d) Đối với cơ sở nuôi động vật rừng thông thường, động vật thuộc Phụ lục CITES, động vật thuộc Danh mục loài nguy cấp, quý, hiếm; cơ sở trồng các loài thực vật thuộc Danh mục loài nguy cấp, quý, hiếm hoặc thực vật thuộc Phụ lục CITES: kiểm tra việc chấp hành quy định về hồ sơ lâm sản theo quy định tại Điều 13 Thông tư này và động vật, thực vật đang nuôi, trồng tại cơ sở;
+thuộc Danh mục loài nguy cấp, quý, hiếm, khi mua bán, vận chuyển, chuyển
 
-e) Đối với nơi cất giữ lâm sản: kiểm tra hồ sơ lâm sản theo quy định tại Thông tư này và lâm sản hiện có.
+giao quyền sở hữu thực hiện như đối với loài thuộc Danh mục loài nguy cấp,
 
-**Điều 16. Quy định kiểm tra**
+quý, hiếm. 
 
-1. Nguyên tắc:
+Chương II 
 
-a) Hoạt động kiểm tra của cơ quan Kiểm lâm do Tổ kiểm tra hoặc Đoàn kiểm tra (sau đây gọi viết là Tổ kiểm tra) thực hiện khi có quyết định kiểm tra của người có thẩm quyền quy định tại khoản 7 Điều này, trừ trường hợp kiểm tra đột xuất theo quy định tại khoản 4 Điều này;
+QUY ĐỊNH VỀ QUẢN LÝ, TRUY XUẤT NGUỒN GỐC LÂM SẢN 
 
-b) Hoạt động kiểm tra của Kiểm lâm phải đảm bảo kịp thời, khách quan, chính xác, đúng nhiệm vụ, quyền hạn và tuân thủ quy định của pháp luật;
+Mục 1 
 
-c) Hoạt động kiểm tra phải thực hiện đúng trình tự quy định tại khoản 8 Điều này và phải lập Biên bản kiểm tra theo Mẫu số 15 hoặc Mẫu số 16 Phụ lục II ban hành kèm theo Thông tư này.
+KHAI THÁC THỰC VẬT RỪNG, ĐỘNG VẬT RỪNG THÔNG
 
-2. Kiểm tra theo kế hoạch:
+THƯỜNG 
 
-a) Trước ngày 30 tháng 11 hằng năm, thủ trưởng cơ quan Kiểm lâm quy định tại điểm a khoản 7 Điều này có trách nhiệm xây dựng và phê duyệt kế hoạch kiểm tra năm sau;
+Điều 6. Khai thác   g ỗ   và th ự c v ậ t r ừ ng ngoài g ỗ 
 
-b) Trường hợp có ý kiến chỉ đạo của cơ quan cấp trên hoặc có nội dung cần quản lý phát sinh ngoài kế hoạch kiểm tra hằng năm thì điều chỉnh kế hoạch kiểm tra;
+1. Xây dựng phương án khai thác: 
 
-c) Căn cứ kế hoạch kiểm tra được duyệt, cơ quan Kiểm lâm thông báo đến các cơ quan, tổ chức, cá nhân có liên quan trước ngày 31 tháng 12 hằng năm hoặc sau khi phê duyệt điều chỉnh kế hoạch kiểm tra.
+a)   Chủ rừng hoặc   chủ lâm sản   tự   xây dựng hoặc thuê tư vấn x ây dựng 
 
-3. Kiểm tra theo chuyên đề: căn cứ tình hình quản lý lâm sản trên địa bàn cần phải kiểm tra ngăn chặn và xử lý, thủ trưởng cơ quan Kiểm lâm chủ động xây dựng kế hoạch kiểm tra theo chuyên đề.
+phương án khai thác, trừ trường hợp quy định tại điểm b khoản này ; 
 
-4. Kiểm tra đột xuất, áp dụng khi có một trong các căn cứ sau:
+b)   Chủ các dự án   được   phê d uyệt   p hương án   t ạ m s ử   d ụ ng r ừ ng ch ủ   trì, 
 
-a) Thông tin từ phương tiện thông tin đại chúng;
+phối hợp với chủ rừng   t ự   xây dựng hoặc thuê tư vấn xây dựng phương án khai 
 
-b) Thông tin từ đơn thư khiếu nại, tố cáo hoặc tin báo của tổ chức, cá nhân;
+thác tận dụng đối với diện tích tạm sử dụng rừng, diện tích rừng chuyển mục 
 
-c) Thông tin từ đơn đề nghị xử lý vi phạm của tổ chức, cá nhân;
+đích sử dụng rừng sang mục đích khác thuộc dự án của mình;
 
-d) Thông tin từ phát hiện hoặc trường hợp phát hiện vi phạm quả tang của công chức Kiểm lâm quản lý địa bàn hoặc công chức Kiểm lâm được giao nhiệm vụ theo dõi, phát hiện vi phạm;
+---
 
-đ) Văn bản chỉ đạo của cơ quan quản lý nhà nước có thẩm quyền;
+8 
 
-e) Khi phát hiện có dấu hiệu vi phạm pháp luật.
+c) Ủy ban nhân dân cấp xã giao cơ quan chuyên môn xây dựng phương án 
 
-5. Công chức Kiểm lâm thu thập, tiếp nhận thông tin về hành vi vi phạm pháp luật hoặc dấu hiệu vi phạm pháp luật tại khoản 4 Điều này phải báo cáo ngay thủ trưởng cơ quan Kiểm lâm trực tiếp để xử lý thông tin.
+khai thác hoặc thuê tư vấn xây dựng phương án khai thác đối với diện tích rừng 
 
-6. Căn cứ thông tin quy định tại khoản 4 Điều này, thủ trưởng cơ quan Kiểm lâm có trách nhiệm xử lý thông tin, chỉ đạo kiểm tra, chịu trách nhiệm về quyết định của mình; chỉ đạo việc lập sổ theo dõi thông tin và tổ chức quản lý theo chế độ quản lý tài liệu mật.
+do Nhà nư ớ c   là đ ạ i di ệ n ch ủ   s ở   h ữ u   nhưng chưa giao, chưa cho thuê, hi ệ n đang 
 
-7. Thẩm quyền ban hành quyết định kiểm tra của Kiểm lâm:
+giao cho   Ủ y ban nhân dân c ấ p xã   qu ả n lý,   trừ trường hợp quy định tại điểm b 
 
-a) Cục trưởng Cục Lâm nghiệp và Kiểm lâm, Chi cục trưởng Chi cục Kiểm lâm vùng, Chi cục trưởng Chi cục Kiểm lâm cấp tỉnh, Đội trưởng Đội Kiểm lâm cơ động và phòng cháy chữa cháy rừng, Hạt trưởng Hạt Kiểm lâm ban hành quyết định kiểm tra theo chức năng, nhiệm vụ được giao;
+khoản này ; 
 
-b) Người có thẩm quyền quy định tại điểm a khoản này có thể ủy quyền cho cấp phó ban hành quyết định kiểm tra theo quy định của pháp luật.
+d) N ộ i dung phương án khai thác th ự c hi ệ n   theo   Mẫu số 0 7   Phụ lục II ban 
 
-8. Thực hiện kiểm tra:
+hành kèm theo Thông tư này đối với tổ chức   hoặc   Mẫu số 0 8   Phụ lục II ban 
 
-a) Công bố và giao quyết định kiểm tra cho đối tượng được kiểm tra hoặc người đại diện của đối tượng được kiểm tra; thông báo về thành phần Tổ kiểm tra và người chứng kiến (nếu có). Trường hợp kiểm tra đột xuất không có quyết định kiểm tra thì người đại diện của Tổ kiểm tra phải giới thiệu về thành phần tham gia và lý do kiểm tra;
+hành kèm theo Thông tư này đối với hộ gia đình ,   cá nhân ,   cộng đồng dân cư . 
 
-b) Yêu cầu đối tượng được kiểm tra hoặc người đại diện của đối tượng được kiểm tra chấp hành quyết định kiểm tra của người có thẩm quyền và làm việc với Tổ kiểm tra. Trường hợp những người này không có mặt tại nơi kiểm tra thì Tổ kiểm tra mời đại diện Ủy ban nhân dân cấp xã hoặc đại diện cơ quan công an nơi kiểm tra, người chứng kiến để công bố quyết định kiểm tra và tiến hành kiểm tra theo quy định;
+2. Trường hợp phê duyệt phương án khai thác: 
 
-c) Tổ chức kiểm tra theo đúng nội dung quyết định kiểm tra đã công bố. Trường hợp có nội dung phát sinh trong quá trình kiểm tra vượt quá thẩm quyền, Tổ kiểm tra phải báo cáo ngay với người ban hành quyết định kiểm tra để kịp thời xử lý;
+a) Khai thác tận dụng, khai thác tận thu gỗ loài thực vật rừng thông 
 
-d) Kiểm tra vận chuyển lâm sản: Tổ kiểm tra chỉ được dừng phương tiện giao thông đang lưu thông để kiểm tra lâm sản khi có căn cứ theo quy định tại khoản 4 Điều 16 Thông tư này. Hiệu lệnh dừng phương tiện có thể sử dụng một loại hoặc sử dụng kết hợp còi, cờ hiệu Kiểm lâm, đèn pin;
+thường từ rừng tự nhiên; 
 
-đ) Kiểm tra lâm sản nhập khẩu, xuất khẩu, quá cảnh tại cửa khẩu: cơ quan Kiểm lâm phối hợp với cơ quan Hải quan cửa khẩu tổ chức kiểm tra lâm sản theo quy định tại Thông tư này;
+b) Khai thác chính, khai thác t ậ n d ụ ng, khai thác t ậ n thu r ừ ng tr ồ ng do 
 
-e) Đối tượng được kiểm tra phải chấp hành các yêu cầu kiểm tra của Tổ kiểm tra; xuất trình ngay hồ sơ lâm sản theo quy định tại Thông tư này và các tài liệu liên quan khác theo quy định của pháp luật.
+Nhà nư ớ c là đ ạ i di ệ n ch ủ   s ở   h ữ u ; 
 
-**Chương III**
+c) Khai thác chính, khai thác t ậ n d ụ ng, khai thác t ậ n thu r ừ ng phòng h ộ   là 
 
-**PHÂN LOẠI DOANH NGHIỆP**
+r ừ ng tr ồ ng do   t ổ   ch ứ c, cá nhân, h ộ   gia đình, c ộ ng đ ồ ng   dân cư   t ự   đ ầ u tư   ho ặ c 
 
-**Điều 17. Đăng ký phân loại doanh nghiệp**
+đư ợ c Nhà nư ớ c h ỗ   tr ợ ; 
 
-1. Doanh nghiệp đăng ký phân loại tại Điều này gồm: doanh nghiệp thực hiện một hoặc nhiều hoạt động như: trồng rừng; khai thác và cung cấp gỗ rừng trồng; chế biến gỗ; nhập khẩu gỗ; xuất khẩu gỗ (sau đây viết tắt là doanh nghiệp).
+d)   Khai thác t ậ n d ụ ng, khai thác t ậ n thu t hực vật rừng ngoài gỗ từ rừng 
 
-2. Doanh nghiệp đăng ký với cơ quan Kiểm lâm cấp tỉnh hoặc Sở Nông nghiệp và Môi trường ở những địa phương không có cơ quan Kiểm lâm cấp tỉnh (sau đây viết tắt là cơ quan tiếp nhận) bằng hình thức trực tuyến hoặc trực tiếp theo quy định tại khoản 3, khoản 4 Điều này.
+đ ặc dụng là rừng tự nhiên ; 
 
-3. Hình thức trực tuyến: doanh nghiệp truy cập trên Hệ thống thông tin phân loại doanh nghiệp để đăng ký và thực hiện theo hướng dẫn.
+đ)   Khai thác, t hu thập mẫu vật theo nhiệm vụ nghiên cứu khoa học và 
+
+công nghệ từ rừng đặc dụng . 
+
+3. Thẩm quyền phê duyệt phương án khai thác: 
+
+a)   B ộ   trư ở ng ,   Th ủ   trư ở ng   cơ quan ngang b ộ   ho ặ c cơ quan đư ợ c   ủ y quy ề n 
+
+phê duyệt phương án   khai thác chính, k hai thác tận dụng, khai thác tận thu, thu 
+
+thập mẫu vật đối với trường hợp quy định tại khoản 2 Điều này của đơn vị trực 
+
+thuộc   Bộ, cơ quan ngang bộ quản lý; 
+
+b)   Cơ quan có thẩm quyền phê duyệt nguồn vốn trồng rừng phê duyệt 
+
+phương án khai   thác chính, khai thác tận dụng, khai thác tận thu đối với rừng 
+
+sản xuất là rừng trồng quy định tại điểm b khoản 2 Điều này của chủ rừng là tổ 
+
+chức. Trường hợp không xác định được cơ quan có thẩm quyền phê duyệt nguồn 
+
+vốn trồng rừng thì Sở Nông nghiệp và Mô i trường   nơi có diện tích rừng được 
+
+khai thác   phê duyệt; 
+
+c) Chủ tịch   Ủy ban nhân dân cấp xã   phê duyệt phương án khai thác chính, 
+
+khai thác tận dụng, khai thác tận thu của hộ gia đình, cá nhân, cộng đồng dân cư 
+
+trên địa bàn đối với trường hợp quy định tại k hoản   2   Điều này;
+
+---
+
+9 
+
+d) Sở Nông nghiệp và Môi trường phê duyệt phương án khai thác đối với 
+
+trường hợp không thuộc quy định tại điểm a, điểm b và điểm c khoản này. 
+
+4 . Hồ sơ phê duyệt phương án khai thác chính rừng trồng do Nhà nước đại 
+
+diện chủ sở hữu, rừng phò ng hộ là rừng trồng do chủ rừng tự đầu tư   ho ặ c đư ợ c 
+
+Nhà nư ớ c h ỗ   tr ợ : 
+
+a) Đối với tổ chức:   b ản chính đề nghị phê duyệt phương án khai thác theo 
+
+Mẫu số 0 9   và Phương án khai thác theo Mẫu số 0 7   Phụ lục II ban hành kèm theo 
+
+Thông tư này . 
+
+b) Đ ối với   hộ gia đình , cá nhân ,   cộng đồng dân cư:   b ản chính đề nghị   phê 
+
+duyệt phương án khai thác theo Mẫu số 0 9   và Phương án khai thác theo Mẫu số 
+
+0 8   Phụ lục II ban hành kèm theo Thông tư này. 
+
+5.   Hồ sơ phê duyệt phương án khai thác tận dụng, khai thác tận thu gỗ 
+
+rừng tự nhiên ,   r ừ ng s ả n xu ấ t là r ừ ng tr ồ ng   do Nhà nước đại diện chủ sở hữu, 
+
+r ừ ng phòng h ộ   là r ừ ng tr ồ ng; th ự c v ậ t r ừ ng ngoài g ỗ   t ừ   r ừ ng đ ặ c d ụ ng là r ừ ng t ự 
+
+nhiên c ủ a t ổ   ch ứ c, h ộ   gia đình, cá nhân, c ộ ng đ ồ ng dân cư th ự c hi ệ n theo quy 
+
+đ ị nh t ạ i đi ể m a, đi ể m b kho ả n 4 Đi ề u   này   và bản sao một trong   các   tài liệu sau: 
+
+a) Đối với khai thác tận dụng trên diện tích giải phóng mặt bằng khi
+
+chuyển mục đích sử dụng rừng sang mục đích khác: quyết định chuyển mục
+
+đích sử dụng rừng sang mục đích khác được cấp có thẩ m quyền phê duyệt; 
+
+b) Đối với khai thác tận dụng trên diện tích rừng được sử dụng để xây
+
+dựng kết cấu hạ tầng phục vụ bảo vệ và phát triển rừng: quyết định phê duyệt và 
+
+hồ sơ dự án xây dựng công trình kết cấu hạ tầng phục vụ bảo vệ, phát triển rừng
+
+được cấp có thẩm quyền phê   duyệt; 
+
+c) Đối với khai thác tận dụng trên diện tích tạm sử dụng rừng để thi công các
+
+công trình tạm phục vụ thi công dự án: quyết định phê duyệt và phương án tạm sử
+
+dụng rừng để thi công công trình, dự án được cấp có thẩm quyền phê duyệt; 
+
+d) Đối với khai thác tận dụng trong quá trình thực hiện biện pháp lâm
+
+sinh: quyết định phê duyệt dự án lâm sinh hoặc tài liệu chứng minh việc thực
+
+hiện các biện pháp lâm sinh được cấp có thẩm quyền phê duyệt ; 
+
+đ) Đối với khai thác tận dụng trên diện tích rừng trồng thanh lý: quyết
+
+định thanh lý kèm theo phương án thanh lý rừng trồng được cấp có thẩm quyền
+
+phê duyệt; 
+
+e) Đối với khai thác tận dụng trong phạm vi hành lang bảo vệ an toàn
+
+đường dây dẫn điện trên không điện áp cao theo quy định pháp luật về điện lực:
+
+Biên bản kiểm tra hiện trường cây rừng chặt, tỉa, hạ độ cao trong hành lang bảo
+
+---
+
+10 
+
+vệ an toàn đường dây dẫn điện theo Mẫu số 10 Phụ lục II ban hành kèm theo
+
+Thông tư này ; 
+
+g) Đối với khai thác phục vụ nhiệm vụ đào tạo, nghiên cứu khoa học và
+
+công nghệ trong rừng đặc dụng, rừng phòng hộ ;   r ừ ng s ả n xu ấ t   do nhà nư ớ c đ ạ i 
+
+di ệ n ch ủ   s ở   h ữ u;   thu th ậ p m ẫ u v ậ t   trong r ừ ng đ ặ c d ụ ng :   q uy ế t đ ị nh phê duy ệ t 
+
+kèm theo tài li ệ u d ự   án, nhi ệ m v ụ , chương trình đào t ạ o, nghiên c ứ u khoa h ọ c 
+
+c ủ a c ấ p có th ẩ   m quy ề n. 
+
+6.   Trình tự, thủ tục phê duyệt phư ơng án khai thác: 
+
+a) Chủ rừng ,   chủ lâm sản ,   chủ dự án   hoặc tổ chức, cá nhân được giao hoặc 
+
+cơ quan chuyên môn thuộc   Ủy ban nhân dân cấp xã (sau đây gọi là tổ chức, cá 
+
+nhân nộp hồ sơ) nộp trực tiếp hoặc qua dịch vụ bưu chính hoặc qua môi trường 
+
+điện tử 01 b ộ hồ sơ tương ứng với từng trường hợp khai thác quy định khoản 4, 
+
+khoản 5 Điều này đến cơ quan có thẩm quyền   phê duyệt phương án khai thác 
+
+quy định tại khoản 3 Điều   này.   Trường hợp nộp hồ sơ qua môi trường điện tử 
+
+thực hiện theo quy định pháp luật về thực   hiện thủ tục hành chính trên môi 
+
+trường điện tử; 
+
+b) Cơ quan có thẩm quyền phê duyệt phương án khai thác kiểm tra hồ sơ và
+
+trả lời ngay tính hợp lệ của thành phần hồ sơ đối với hồ sơ nộp trực tiếp, trong
+
+thời hạn 01 ngày làm việc, kể từ ngày nhận được hồ sơ nộp qua dịch vụ bưu chính
+
+hoặc qua môi trường điện tử; trường hợp hồ sơ chưa đủ thành phần theo quy định,
+
+cơ quan có thẩ m quyền phê duyệt thông báo bằng văn bản và nêu rõ lý do; 
+
+c) Trong thời hạn 07 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, cơ
+
+quan có thẩm quyền quy định tại khoản 3 Điều này   ban hành Quyết định phê
+
+duyệt phương án khai thác theo Mẫu số 11 Phụ lục II ban hành kèm theo Thông
+
+tư này và trả kết quả cho tổ chức, cá nhân nộp hồ sơ. Trường hợp cần xác minh
+
+tính chính xác của hồ sơ trình phê duyệt phương án khai thác, trong thời hạn 03
+
+ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, cơ quan có thẩ m quyền phê
+
+duyệt phương án khai thác thông báo cho tổ chức, cá nhân nộp hồ sơ về việc xác
+
+minh. Trường hợp không phê duyệt thì thông báo bằng văn bản và nêu rõ lý do. 
+
+7.   Đối với các trường hợp khai thác rừng sản xuất là rừng trồng, cây rừng 
+
+trồng trên đất ngoài quy hoạch lâm nghiệp, gỗ vườn   nhà , cây   gỗ   trồng phân tán 
+
+do chủ rừng, chủ lâm sản tự đầu tư hoặc   được   Nhà nước hỗ trợ; thực vật rừng 
+
+ngoà i gỗ trong rừng phòng hộ, rừng sản xuất: chủ rừng, chủ lâm sản xây dựng 
+
+phương án khai thác theo quy định tại điểm d khoản 1 Điều này, không phải 
+
+trình cơ quan có thẩm quyền phê duyệt. Thực hiện   trình t ự   khai thác theo quy 
+
+đ ị nh t ạ i kho ả n 9 Đi ề u này.
+
+---
+
+11 
+
+8. Đối với trường hợp khai thác rừng phòng hộ, rừng sản xuất là rừng
+
+trồng của hộ gia đình, cá nhân, cộng đồng dân cư tự đầu tư hoặc Nhà nước hỗ
+
+trợ trên diện tích nhận khoán của các chủ rừng là Ban quản lý rừng, Công ty
+
+trách nhiệm hữu hạn một thành viên lâm nghiệp Nhà nước: 
+
+a) Đối với rừng phòng hộ: chủ rừng chủ trì, phối hợp với hộ gia đình, cá
+
+nhân, cộng đồng dân cư xây dựng phương án khai thác, lập hồ sơ trình cơ quan
+
+có thẩ m quyền phê duyệt theo quy định tại khoản 1, khoản 3, khoản 4, khoản 5
+
+và khoản 6 Điều này; sau khi phương án khai thác được phê duyệt, thực hiện
+
+trình tự khai thác theo quy định tại khoản 9 Điều này; 
+
+b) Đối với rừng sản xuất: chủ rừng chủ trì, phối hợp với hộ gia đình, cá
+
+nhân, cộng đồng dân cư xây dựng phương án khai thác theo Mẫu số 07 Phụ lục
+
+II ban hành kèm theo Thông tư này, không phải trình cơ quan có thẩm quyền
+
+phê duyệt, thực hiện trình tự khai thác theo quy định tại khoản 9 Điều này. 
+
+9. Th ự c hi ệ n khai thác g ỗ   và th ự c v ậ t r ừ ng ngoài g ỗ : 
+
+a) Trư ớ c khi khai thác:   c h ủ   r ừ ng, ho ặ c ch ủ   lâ m s ả n, ho ặ c ch ủ   d ự   á n, ho ặ c 
+
+t ổ   ch ứ c cá nhân đư ợ c giao khai thác g ử i 01 b ộ   h ồ   sơ g ồ m b ả n sao quy ế t đ ị nh và 
+
+phương án khai thác đư ợ c phê duy ệ t   đối với trường hợp phải phê duyệt phương 
+
+án khai thác theo quy định tại khoản 2 và điểm a khoản 8 Điều này hoặc   01   b ả n 
+
+chính p hương án khai thác đ ố i   với trường hợp không phải phê duyệt phương án 
+
+khai thác theo quy định tại khoản 7 và điểm b khoản 8 Điều này   đ ế n   c ơ quan 
+
+Ki ể m lâm s ở   t ạ i   đ ể   giám sát quá trình th ự c hi ệ n ; 
+
+b) Sau khai thác: trong thời hạn 05 ngày làm việc kể từ ngày hoàn thành
+
+khai thác; chủ rừng, chủ lâm sản, chủ dự án hoặc tổ chức, cá nhân được giao
+
+khai thác gửi bản chính Bảng kê lâm sản đến cơ quan Kiểm lâm sở tại để theo
+
+dõi hoặc xác nhận Bảng kê lâm sản đối với trường hợp quy định tại khoản 3
+
+Điều 5 Thông tư này. 
+
+Điều 7. Khai thác động vật rừng thông thường từ tự nhiên 
+
+1. Cơ quan có thẩ m quyền phê duyệt phương án: cơ quan Kiểm lâm sở tại. 
+
+2. Hồ sơ: 
+
+a) Bản chính Đề nghị phê duyệt phương án khai thác động vật rừng thông
+
+thường từ tự nhiên theo Mẫu số 09 Phụ lục II ban hành kèm theo Thông tư này; 
+
+b) Bản chính Phương án khai thác động vật rừng thông thường từ tự nhiên
+
+theo Mẫu số 12 Phụ lục II ban hành kèm theo Thông tư này. 
+
+3. Trình tự thực hiện: 
+
+a) Tổ chức, cá nhân, hộ gia đình, cộng đồng dân cư khai thác động vật
+
+---
+
+12 
+
+rừng thông thường từ tự nhiên nộp trực tiếp hoặc qua dịch vụ bưu chính hoặc qua
+
+môi trường điện tử 01 bộ hồ sơ theo quy định tại khoản 2 Điều này đến cơ quan
+
+có thẩ m quyền phê duyệt. Trường hợp nộp hồ sơ qua môi trường điện tử thực
+
+hiện theo quy định của pháp luật về thực hiện thủ tục hành chính trên môi trường
+
+điện tử; 
+
+b) Trường hợp nộp hồ sơ trực tiếp: cơ quan có thẩ m quyền phê duyệt
+
+kiểm tra thành phần hồ sơ và trả lời tính hợp lệ của thành phần hồ sơ cho tổ
+
+chức, cá nhân, hộ gia đình, cộng đồng dân cư. 
+
+Trường hợp nộp hồ sơ qua dịch vụ bưu chính hoặc qua môi trường điện
+
+tử: trong thời hạn 01 ngày làm việc kể từ ngày nhận được hồ sơ, cơ quan có
+
+thẩ m quyền phê duyệt xem xét tính hợp lệ của thành phần hồ sơ; trường hợp hồ
+
+sơ không hợp lệ theo quy định, thông báo bằng văn bản và nêu rõ lý do; 
+
+c) Trong thời hạn 06 ngày làm việc kể từ ngày nhận được hồ sơ hợp lệ, cơ
+
+quan có thẩ m quyền phê duyệt phương án khai thác và trả kết quả cho tổ chức,
+
+cá nhân, hộ gia đình, cộng đồng dân cư; trường hợp không phê duyệt thì thông
+
+báo bằng văn bản và nêu rõ lý do. 
+
+4. Thực hiện khai thác: 
+
+a) Chủ rừng hoặc tổ chức, cá nhân được chủ rừng ủy quyền tự quyết định
+
+thời điểm khai thác, việc khai thác động vật rừng thông thường từ tự nhiên phải
+
+đảm bảo phù hợp với phương án khai thác đã được cấp có thẩ m quyền phê duyệt; 
+
+b) Trong thời hạn 02 ngày làm việc kể từ ngày hoàn thành khai thác, chủ
+
+lâm sản hoặc tổ chức, cá nhân được chủ lâm sản ủy quyền nộp 01 bộ hồ sơ theo
+
+quy định tại khoản 1 Điều này và bản chính Bảng kê lâm sản gửi cơ quan Kiểm
+
+lâm sở tại để xác nhận theo quy định tại Điều 5 Thông tư này. 
+
+5. Chủ rừng hoặc tổ chức, cá nhân được chủ rừng ủy quyền chịu trách
+
+nhiệm trước pháp luật nếu khai thác vượt quá số lượng loài, cá thể theo phương
+
+án khai thác được cấp có thẩ m quyền phê duyệt. 
+
+Mục 2 
+
+HỒ SƠ NGUỒN GỐC LÂM SẢN 
+
+Điều 8. Hồ sơ lâm sản có nguồn gốc khai thác trong nước 
+
+1.   G ỗ   khai thác t ừ   r ừ ng t ự   nhiên:   b ả n chính B ả ng kê lâm s ả n   có xác nh ậ n 
+
+c ủ a   c ơ quan Ki ể m lâm s ở   t ạ i. 
+
+2. Gỗ loài thông thường khai thác từ rừng trồng do Nhà nước là đại diện
+
+chủ sở hữu; rừng trồng phòng hộ do tổ chức, cá nhân, hộ gia đình, cộng đồng
+
+dân cư tự đầu tư: 
+
+a) Bản chính Bảng kê lâm sản do chủ lâm sản lập; bản sao phương án khai
+
+---
+
+13 
+
+thác được cơ quan có thẩ m quyền phê duyệt; 
+
+b)   B ả n chính B ả ng kê lâm s ả n c ó xác nh ậ n c ủ a   c ơ quan Ki ể m lâm s ở   t ạ i 
+
+đ ố i v ớ i   trư ờ ng h ợ p   ch ủ   lâm s ả n đ ề   ngh ị   xác nh ậ n theo quy đ ị nh t ạ i đi ể m đ kho ả n 
+
+3 Đi ề u 5 Thông tư này. 
+
+3. Gỗ loài thông thường khai thác từ rừng sản xuất là rừng trồng, gỗ có
+
+tên trùng với cây gỗ rừng tự nhiên, cây trồng phân tán, cây vườn nhà do tổ chức,
+
+cá nhân, hộ gia đình, cộng đồng dân cư tự đầu tư: bản chính Bảng kê lâm sản do
+
+chủ lâm sản lập hoặc Bản chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm
+
+lâm sở tại đối với trường hợp chủ lâm sản đề nghị xác nhận theo quy định tại
+
+điểm đ khoản 3 Điều 5 Thông tư này. 
+
+4. Gỗ thuộc Danh mục loài nguy cấp, quý, hiếm hoặc gỗ thuộc Phụ lục
+
+CITES khai thác trong nước: bản chính Bảng kê lâm sản có xác nhận của cơ
+
+quan Kiểm lâm sở tại. 
+
+5. Thực vật ngoài gỗ: 
+
+a) Đối với thực vật ngoài gỗ thuộc Danh mục loài nguy cấp, quý, hiếm;
+
+thực vật ngoài gỗ thuộc Phụ lục CITES khai thác trong nước: bản chính Bảng kê
+
+lâm sản có xác nhận của cơ quan Kiểm lâm sở tại; 
+
+b) Đối với thực vật rừng ngoài gỗ không thuộc trường hợp quy định tại
+
+điểm a khoản này: bản chính Bảng kê lâm sản do chủ lâm sản lập hoặc bản
+
+chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở tại đối với trường
+
+hợp chủ lâm sản đề nghị xác nhận theo quy định tại điểm đ khoản 3 Điều 5
+
+Thông tư này. 
+
+6 .   B ả n chính B ả ng kê lâm s ả n   có xác nh ậ n c ủ a   c ơ quan Ki ể m lâm s ở   t ạ i 
+
+đ ố i v ớ i đ ộ ng v ậ t   và   s ả n ph ẩ   m   c ủ a chún g   thu ộ c   Danh m ụ c loài nguy c ấ p quý, 
+
+hi ế m ;   Ph ụ   l ụ c CITES; đ ộ ng v ậ t r ừ ng thông thư ờ ng . 
+
+Điều 9. Hồ sơ lâm sản có nguồn gốc nhập khẩu 
+
+1. Gỗ nhập khẩ u: thực hiện theo quy định tại Điều 7 Nghị định số
+
+102/2020/NĐ-CP ngày 01 tháng 9 năm 2020 của Chính phủ quy định Hệ thống
+
+bảo đảm gỗ hợp pháp Việt Nam, được sửa đổi, bổ sung năm 2024. 
+
+2. Đối với thực vật ngoài gỗ, động vật và sản phẩ m của chúng thuộc Phụ
+
+lục CITES: 
+
+a) Bản sao hoặc bản điện tử   tờ khai hải quan theo quy định pháp luật về
+
+hải quan; 
+
+b) Bản sao hoặc bản điện tử giấy phép CITES nhập khẩ u do Cơ quan quản
+
+lý CITES Việt Nam cấp, trừ trường hợp nhập khẩ u không cần giấy phép CITES
+
+theo quy định của Bộ trưởng Bộ Nông nghiệp và Môi trường về quản lý loài
+
+---
+
+14 
+
+nguy cấp, quý, hiếm; nuôi động vật rừng thông thường và thực thi Công ước về
+
+buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp; 
+
+c) B ả n chính ho ặ c b ả n đi ệ n t ử   gi ấ y phép CITES xu ấ t kh ẩ   u, tái xu ấ t kh ẩ   u 
+
+trong trư ờ ng h ợ p nh ậ p kh ẩ   u t ừ   các qu ố c gia thành viên CITES, tr ừ   trư ờ ng h ợ p 
+
+nh ậ p kh ẩ   u không c ầ n gi ấ y phép CITES theo quy đ ị nh   c ủ a B ộ   trư ở ng B ộ   Nông 
+
+nghi ệ p và Môi trư ờ ng   v ề   qu ả n lý loài nguy c ấ p, quý, hi ế m; nuôi đ ộ ng v ậ t r ừ ng 
+
+thông thư ờ ng và th ự c thi Công   ư ớ c   v ề   buôn bán qu ố c t ế   cá c loài đ ộ ng v ậ t, th ự c 
+
+v ậ t hoang dã nguy c ấ p; 
+
+d) B ả n chính ho ặ c b ả n đi ệ n t ử   gi ấ y phép xu ấ t kh ẩ   u, tái xu ấ t kh ẩ   u do Cơ 
+
+quan có th ẩ   m quy ề n nư ớ c xu ấ t kh ẩ   u c ấ p trong trư ờ ng h ợ p nh ậ p kh ẩ   u t ừ   qu ố c gia 
+
+không ph ả i là thành viên CITES, tr ừ   trư ờ ng h ợ p nh ậ p kh ẩ   u không   c ầ n gi ấ y phép 
+
+theo quy đ ị nh   c ủ a B ộ   trư ở ng B ộ   Nông nghi ệ p và Môi trư ờ ng   v ề   qu ả n lý loài 
+
+nguy c ấ p, quý, hi ế m; nuôi đ ộ ng v ậ t r ừ ng thông thư ờ ng và th ự c thi Công   ư ớ c   v ề 
+
+buôn bán qu ố c t ế   các loài đ ộ ng v ậ t, th ự c v ậ t hoang dã nguy c ấ p. 
+
+3. Đối với thực vật ngoài gỗ không thuộc Phụ lục CITES: 
+
+a) Bản sao hoặc bản điện tử   tờ khai hải quan theo quy định pháp luật về
+
+hải quan; 
+
+b) Bản chính Bảng kê lâm sản do chủ lâm sản lập hoặc packing-list/log-
+
+list do tổ chức, cá nhân lập theo quy định của nước xuất khẩ u. 
+
+4.   Ch ủ   lâm s ả n lưu tr ữ   h ồ   sơ   nh ậ p   kh ẩ   u quy đ ị nh t ạ i kho ả n 1, kho ả n 2, 
+
+kho ả n 3 Đi ề u này đ ể   ph ụ c v ụ   ki ể m tra, truy xu ấ t ngu ồ n g ố c lâm s ả n   c ủ a cơ quan 
+
+ch ứ c năng. 
+
+Điều   10 . Hồ sơ lâm sản   có nguồn gốc   sau xử lý tịch thu 
+
+1. Bản sao phương án xử lý tài sản được xác lập quyền sở hữu toàn dân do
+
+cấp có thẩm quyền phê duyệt và   Quyết định phê duyệt phương án xử lý tài sản
+
+được xác lập quyền sở hữu toàn dân. 
+
+2.   B ản chính   Bảng kê lâm sản   do   cơ quan được giao xử lý tài sản lập . 
+
+Mục 3 
+
+HỒ SƠ LÂM SẢN KHI MUA BÁN, CHUYỂN GIAO QUYỀN SỞ 
+
+HỮU, VẬN CHUYỂN TRONG NƯỚC VÀ XUẤT KHẨU 
+
+Điều 11. Hồ sơ lâm sản khi mua bán, chuyển giao quyền sở hữu, vận
+
+chuyển trong nước 
+
+1.   Đ ố i v ớ i lâm s ả n thu ộ c đ ố i tư ợ ng ph ả i xác nh ậ n B ả ng kê lâm s ả n theo 
+
+quy đ ị nh t ạ i đi ể m a, đi ể m b, đi ể m c và đi ể m d kho ả n 3 Đi ề u 5 Thô ng tư này: b ả n 
+
+chính B ả ng kê lâm s ả n có xác nh ậ n c ủ a cơ quan Ki ể m lâm s ở   t ạ i. Trư ờ ng h ợ p
+
+---
+
+15 
+
+v ậ n chuy ể n lâm s ả n ra c ả ng đ ể   xu ấ t kh ẩ   u: b ả n chính ho ặ c b ả n đi ệ n t ử   gi ấ y phép 
+
+CITES và b ả n sao B ả ng kê lâm s ả n khi l ậ p h ồ   sơ đ ề   ngh ị   c ấ p gi ấ y phép CITES . 
+
+2. Đối với lâm sản không thuộc trường hợp quy định tại điểm a, điểm b,
+
+điểm c và điểm d khoản 3 Điều 5 Thông tư này: 
+
+a) Bản chính Bảng kê lâm sản do chủ lâm sản bán, chuyển giao quyền sở
+
+hữu lập hoặc bản chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở
+
+tại đối với trường hợp chủ lâm sản đề nghị xác nhận theo quy định tại điểm đ
+
+khoản 3 Điều 5 Thông tư này; 
+
+b) Bản sao hồ sơ mua bán, chuyển giao quyền sở hữu liền kề trước đó
+
+hoặc sử dụng mã phản hồi nhanh (QR) chứa đựng hồ sơ quy định tại điểm này
+
+trên Bảng kê lâm sản. Trừ trường hợp Bảng kê lâm sản có xác nhận theo đề nghị
+
+của chủ lâm sản tại điểm đ khoản 3 Điều 5 Thông tư này. 
+
+3. Đối với lâm sản sau khai thác do chủ lâm sản vận chuyển về kho, bãi
+
+trong cùng một lần và cùng một phương tiện: thực hiện theo quy định tại Điều 8
+
+Thông tư này. 
+
+4. Đối với lâm sản nhập khẩ u vận chuyển từ cửa khẩ u đến kho hàng của
+
+tổ chức, cá nhân nhập khẩ u: thực hiện theo quy định tại Điều 9 Thông tư này. 
+
+5. Đối với lâm sản mua trực tiếp từ Hội đồng đấu giá, sau đó lâm sản vận
+
+chuyển về kho hàng của tổ chức, cá nhân mua: thực hiện theo quy định tại Điều
+
+10 Thông tư này. 
+
+6. Đối với sản phẩ m gỗ: bản chính Bảng kê lâm sản do chủ lâm sản lập
+
+hoặc bản chính Bảng kê lâm sản có xác nhận của cơ quan Kiểm lâm sở tại đối
+
+với trường hợp chủ lâm sản đề nghị xác nhận theo quy định tại điểm đ khoản 3
+
+Điều 5 Thông tư này. 
+
+7. Đối với mẫu vật được đánh dấu theo quy định tại Điều 14 Thông tư này:
+
+có mã đánh dấu chứa thông tin theo quy định tại khoản 3 Điều 14   Thông tư này . 
+
+Điều 12. Hồ sơ lâm sản xuất khẩu 
+
+1. Đối với gỗ nguyên liệu, sản phẩ m gỗ: 
+
+a) Bản sao hoặc bản điện tử tờ khai hải quan theo quy định pháp luật về
+
+hải quan; 
+
+b) Đối với gỗ nguyên liệu, sản phẩ m gỗ thuộc Danh mục loài nguy cấp,
+
+quý, hiếm, Phụ lục CITES: bản sao hoặc bản điện tử Giấy phép CITES xuất
+
+khẩ u, tái xuất khẩ u do Cơ quan quản lý CITES Việt Nam cấp; 
+
+c) Đối với gỗ nguyên liệu, sản phẩ m gỗ không thuộc trường hợp quy định
+
+---
+
+16 
+
+tại điểm b khoản này: bản chính Bảng kê lâm sản hoặc bản chính Bảng kê lâm
+
+sản có xác nhận của cơ quan Kiểm lâm sở tại đối với trường hợp chủ lâm sản đề
+
+nghị xác nhận theo quy định tại điểm đ khoản 3 Điều 5 Thông tư này. 
+
+2. Đối với thực vật ngoài gỗ: 
+
+a) Bản sao hoặc bản điện tử   tờ khai hải quan theo quy định pháp luật về
+
+hải quan; 
+
+b) Đối với thực vật ngoài gỗ thuộc Danh mục loài nguy cấp, quý, hiếm;
+
+Phụ lục CITES: bản sao hoặc bản điện tử giấy phép CITES xuất khẩ u, tái xuất
+
+khẩ u do Cơ quan quản lý CITES Việt Nam cấp; 
+
+c) Đối với động vật rừng thông thường: bản chính Bảng kê lâm sản có xác
+
+nhận của cơ quan Kiểm lâm sở tại; 
+
+d) Đối với thực vật ngoài gỗ thuộc loài thực vật rừng thông thường: bản
+
+chính Bảng kê lâm sản hoặc Bảng kê lâm sản có xác nhận của cơ quan Kiểm
+
+lâm sở tại đối với trường hợp chủ lâm sản đề nghị xác nhận theo quy định tại
+
+điểm đ khoản 3 Điều 5 Thông tư này. 
+
+3 .   Ch ủ   lâm s ả n lưu tr ữ   h ồ   sơ xu ấ t kh ẩ   u quy đ ị nh t ạ i kho ả n 1, kho ả n 2 
+
+Đi ề u nà y đ ể   ph ụ c v ụ   ki ể m tra, truy xu ấ t ngu ồ n g ố c lâm s ả n c ủ a cơ quan ch ứ c 
+
+năng.   Trư ờ ng h ợ p   pháp lu ậ t v ề   h ả i quan yêu c ầ u xu ấ t trình   B ả ng kê   lâm s ả n   đ ể 
+
+ch ứ ng minh lâm s ả n có ngu ồ n g ố c h ợ p   pháp ,   k ế t thúc ki ể m tra, cơ quan H ả i quan 
+
+tr ả   B ả ng kê   lâm s ả n cho ch ủ   lâm s ả n đ ể   lưu   tr ữ   theo quy đ ị nh t ạ i Thông tư này. 
+
+Mục 4 
+
+HỒ SƠ LÂM SẢN TẠI CƠ SỞ CHẾ BIẾN, KINH DOANH, CẤT GIỮ,
+
+NUÔI, TRỒNG THỰC VẬT RỪNG, ĐỘNG VẬT RỪNG VÀ ĐÁNH DẤU
+
+MẪU VẬT 
+
+Điều 13. Hồ sơ lâm sản tại cơ sở chế biến, kinh doanh, cất giữ gỗ, thực
+
+vật rừng, động vật rừng thông thường, động vật, thực vật thuộc Danh mục
+
+loài nguy cấp, quý, hiếm; động vật, thực vật thuộc Phụ lục CITES; cơ sở
+
+nuôi, trồng 
+
+1. Hồ sơ lâm sản tại cơ sở chế biến, kinh doanh, cất giữ gỗ, thực vật rừng,
+
+động vật rừng thông thường, động vật, thực vật thuộc Danh mục loài nguy cấp,
+
+quý, hiếm; động vật, thực vật hoang dã nguy cấp thuộc Phụ lục CITES: 
+
+a) Bản chính hồ sơ nguồn gốc lâm sản sau khai thác, nhập khẩ u, gây nuôi
+
+hoặc sau xử lý tịch thu đối với trường hợp chủ cơ sở trực tiếp khai thác, nhập
+
+khẩ u hoặc mua lâm sản sau xử lý tịch thu;
+
+---
+
+17 
+
+b) Bản chính Bảng kê lâm sản và bản sao hồ sơ lâm sản chuyển giao
+
+quyền sở hữu từ tổ chức, cá nhân liền kề trước đó; 
+
+c) Bản sao hồ sơ lâm sản khi xuất bán hoặc chuyển giao quyền sở hữu cho
+
+tổ chức, cá nhân; 
+
+d)   Sổ theo dõi nhập, xuất lâm sản đối với tổ chức, hộ kinh doanh theo
+
+Mẫu số 04 Phụ lục II ban hành kèm theo Thông tư này. Chủ lâm sản có trách
+
+nhiệm cập nhật   đ ầ y đ ủ , k ị p th ờ i   các thông   tin vào   S ổ   theo dõi nh ậ p, xu ấ t lâm s ả n 
+
+khi nh ậ p, xu ấ t lâm s ả n ; 
+
+đ)   Đối với động vật, thực vật thuộc Danh mục loài nguy cấp, quý hiếm;
+
+Phụ lục CITES: các loại sổ theo quy định của Bộ trưởng Bộ Nông nghiệp và
+
+Môi trường về quản lý loài nguy cấp, quý, hiếm; nuôi động vật rừng thông
+
+thường và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật
+
+hoang dã nguy cấp; 
+
+e)   Chủ lâm sản có trách nhiệm lưu giữ hồ sơ lâm sản tương ứng với từng
+
+giai đoạn của chuỗi cung ứng lâm sản, bao gồm: hồ sơ nguồn gốc lâm sản sau
+
+khai thác, vận chuyển, chế biến, sản xuất, mua bán, chuyển giao quyền sở hữu
+
+nhập khẩ u, lâm sản sau xử lý tịch thu theo quy định tại Thông tư này. 
+
+2. Hồ sơ lâm sản tại cơ sở nuôi: 
+
+a) Đối với cơ sở nuôi động vật thuộc Danh mục loài nguy cấp, quý, hiếm;
+
+Phụ lục CITES: mã số cơ sở nuôi hoặc Giấy chứng nhận cơ sở bảo tồn đa dạng
+
+sinh học đối với cơ sở bảo tồn đa dạng sinh học được cơ quan Nhà nước có thẩ m
+
+quyền cấp; 
+
+b) Bản chính hồ sơ nguồn gốc động vật được khai thác trong nước, nhập
+
+khẩ u đối với chủ cơ sở đồng thời là tổ chức, cá nhân trực tiếp khai thác, nhập
+
+khẩ u hoặc bản chính hồ sơ lâm sản khi nhận chuyển giao quyền sở hữu từ tổ
+
+chức, cá nhân liền kề trước đó; 
+
+c) Bản sao hồ sơ lâm sản khi xuất bán hoặc chuyển giao quyền sở hữu; 
+
+d) Sổ theo dõi nuôi, trồng theo quy định của Bộ trưởng Bộ Nông nghiệp
+
+và Môi trường về quản lý loài nguy cấp, quý, hiếm; nuôi động vật rừng thông
+
+thường và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật
+
+hoang dã nguy cấp. 
+
+3. Hồ sơ lâm sản tại cơ sở trồng thực vật thuộc Danh mục loài nguy cấp,
+
+quý, hiếm; thực vật thuộc Phụ lục CITES: 
+
+a) Mã số cơ sở trồng hoặc Giấy chứng nhận cơ sở bảo tồn đa dạng sinh
+
+học được cơ quan Nhà nước có thẩ m quyền cấp;
+
+---
+
+18 
+
+b) Bản chính hồ sơ nguồn gốc lâm sản khai thác trong nước, nhập khẩ u
+
+đối với chủ cơ sở đồng thời là tổ chức, cá nhân trực tiếp khai thác, nhập khẩ u; 
+
+c) Bản chính hồ sơ lâm sản khi nhận chuyển giao quyền sở hữu từ tổ
+
+chức, cá nhân khác trước đó; 
+
+d) Bản sao hồ sơ lâm sản khi xuất bán hoặc chuyển giao quyền sở hữu cho
+
+tổ chức, cá nhân khác; 
+
+đ) Sổ theo dõi nuôi, trồng theo quy định của Bộ trưởng Bộ Nông nghiệp
+
+và Môi trường về quản lý loài nguy cấp, quý, hiếm; nuôi động vật rừng thông
+
+thường và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật
+
+hoang dã nguy cấp. 
+
+Điều 14. Đánh dấu mẫu vật 
+
+1. Đối tượng đánh dấu: 
+
+a) Động vật và sản phẩ m của động vật thuộc Phụ lục I CITES, có nguồn
+
+gốc từ cơ sở nuôi sinh sản đã được Ban Thư ký CITES cấp mã số; 
+
+b) Cá thể động vật rừng còn sống thuộc lớp thú, bao gồm: các loài nguy
+
+cấp, quý, hiếm thuộc Nhóm IB theo quy định của pháp luật Việt Nam; các loài
+
+thuộc Phụ lục I CITES, trừ trường hợp quy định tại điểm a khoản 1 của Điều này. 
+
+2. Hình thức, phương pháp, trách nhiệm đánh dấu mẫu vật: 
+
+a) Việc đánh dấu mẫu vật có thể thực hiện bằng chip, vòng, thẻ, máy phát
+
+tín hiệu. Trường hợp đánh dấu bằng tem, mã số, mã vạch, mã QR, hoặc vật liệu
+
+khác (sau đây gọi chung là nhãn đánh dấu), nhãn đánh dấu có chứa đựng thông
+
+tin quy định tại khoản 3 Điều này; 
+
+b) Chủ mẫu vật tự quyết định chất liệu, kích thước, hình thức của nhãn
+
+đánh dấu, phù hợp với tính chất, chủng loại của mẫu vật; 
+
+c) Một mẫu vật được đánh dấu bằng một chip, vòng, thẻ, máy phát tín
+
+hiệu hoặc nhãn đánh dấu, được gắn trực tiếp lên mẫu vật hoặc bao bì, vật dụng
+
+chứa mẫu vật, đảm bảo có thể dễ dàng nhận biết bằng mắt thường hoặc thiết bị
+
+đọc và tránh làm giả.   Nhãn đánh dấu phải bị hư hỏng, không thể sử dụng lại khi
+
+bóc, tháo nhãn khỏi mẫu vật; 
+
+d) Trong thời hạn 01 ngày làm việc kể từ khi hoàn thành việc đánh dấu
+
+mẫu vật, chủ mẫu vật có trách nhiệm ghi đầy đủ thông tin vào Sổ theo dõi đánh
+
+dấu mẫu vật, bằng hình thức sổ giấy hoặc sổ điện tử, theo Mẫu số 13 Phụ lục II
+
+ban hành kèm theo Thông tư này. 
+
+Chủ mẫu vật có trách nhiệm gửi Thông báo đánh dấu mẫu vật theo Mẫu
+
+---
+
+19 
+
+số 14 Phụ lục II ban hành kèm theo Thông tư này đến cơ quan Kiểm lâm sở tại
+
+để phục vụ theo dõi, quản lý. 
+
+Chủ mẫu vật chịu trách nhiệm trước pháp luật về tính chính xác của các
+
+thông tin ghi trên nhãn đánh dấu và trong hồ sơ theo dõi. 
+
+3. Thông tin và đăng ký nhãn đánh dấu: 
+
+a) Tên loài: tên phổ thông và tên khoa học. Trường hợp sản phẩ m được
+
+sản xuất từ nhiều loài động vật khác nhau, phải ghi đầy đủ tên phổ thông và tên
+
+khoa học của từng loài; 
+
+b) Số Sê-ri của nhãn, gồm: số của nhãn đánh dấu, mã số đơn vị hành chính
+
+cấp xã, tên viết tắt của chủ mẫu vật, 2 số cuối của năm đánh dấu. Trong đó: 
+
+Số của nhãn đánh dấu: được ghi bằng chữ số Ả Rập, theo số thứ tự tăng
+
+dần từ số 01 trở đi đến khi kết thúc năm. 
+
+Tên viết tắt của chủ mẫu vật: do chủ mẫu vật tự quyết định và thông báo
+
+với cơ quan Kiểm lâm cấp tỉnh. Trường hợp chủ mẫu vật thay đổi tên, chủ mẫu
+
+vật lựa chọn tên viết tắt mới và thông báo cho cơ quan Kiểm lâm cấp tỉnh để
+
+biết và quản lý. 
+
+Mục 5 
+
+KIỂM TRA, TRUY XUẤT NGUỒN GỐC LÂM SẢN 
+
+Điều 15. Đối tượng, hình thức, nội dung   kiểm tra 
+
+1. Đối tượng kiểm tra: tổ chức, cá nhân, hộ kinh doanh, hộ gia đình, cộng
+
+đồng dân cư có hoạt động khai thác, vận chuyển, chế biến, sản xuất, mua bán,
+
+chuyển quyền sở hữu lâm sản, xuất khẩ u, nhập khẩ u, cất giữ lâm sản, nuôi động
+
+vật rừng, trồng thực vật rừng và đánh dấu mẫu vật quy định tại Điều 14 Thông
+
+tư này. 
+
+2. Hình thức kiểm tra: 
+
+a) Kiểm tra theo kế hoạch ; 
+
+b) K i ể m tra theo chuyên đ ề ; 
+
+c) Kiểm tra đột xuất. 
+
+3. Nội dung kiểm tra: 
+
+a) Đối với khai thác lâm sản: kiểm tra việc chấp hành pháp luật về khai
+
+thác lâm sản theo Quy chế quản lý rừng và quy định tại Điều 6, Điều 7 Thông tư
+
+này và lâm sản khai thác thực tế tại hiện trường; 
+
+b) Đối với lâm sản khi nhập khẩ u, xuất khẩ u: kiểm tra hồ sơ lâm sản theo
+
+---
+
+20 
+
+quy định tại Điều 9 và Điều 12 Thông tư này và lâm sản thực tế tại cửa khẩ u; 
+
+c) Đối với vận chuyển lâm sản: kiểm tra việc chấp hành quy định về hồ sơ
+
+lâm sản trong quá trình vận chuyển theo quy định tại Điều 11 Thông tư này và
+
+lâm sản trên phương tiện vận chuyển; 
+
+d) Đối với cơ sở chế biến, kinh doanh, cất giữ gỗ, lâm sản: kiểm tra việc
+
+chấp hành quy định về hồ sơ lâm sản theo quy định tại Điều 13   Thông tư này và
+
+lâm sản hiện có tại cơ sở; 
+
+d) Đối với cơ sở nuôi động vật rừng thông thường, động vật thuộc Phụ lục
+
+CITES, động vật thuộc Danh mục loài nguy cấp, quý, hiếm; cơ sở trồng các loài
+
+thực vật thuộc Danh mục loài nguy cấp, quý, hiếm hoặc thực vật thuộc Phụ lục
+
+CITES: kiểm tra việc chấp hành quy định về hồ sơ lâm sản theo quy định tại
+
+Điều 13   Thông tư này và động vật, thực vật đang nuôi, trồng tại cơ sở; 
+
+e) Đối với nơi cất giữ lâm sản: kiểm tra hồ sơ lâm sản theo quy định tại
+
+Thông tư này và lâm sản hiện có. 
+
+Điều 16. Quy định kiểm tra 
+
+1. Nguyên tắc: 
+
+a) Hoạt động kiểm tra của cơ quan Kiểm lâm do Tổ kiểm tra hoặc Đoàn
+
+kiểm tra (sau đây gọi viết là Tổ kiểm tra) thực hiện khi có quyết định kiểm tra
+
+của người có thẩ m quyền quy định tại khoản 7 Điều này, trừ trường hợp kiểm tra
+
+đột xuất theo quy định tại khoản 4 Điều này; 
+
+b) Hoạt động kiểm tra của Kiểm lâm phải đảm bảo kịp thời, khách quan,
+
+chính xác, đúng nhiệm vụ, quyền hạn và tuân thủ quy định của pháp luật; 
+
+c) Hoạt động kiểm tra phải thực hiện đúng trình tự quy định tại khoản 8
+
+Điều này và phải lập Biên bản kiểm tra theo Mẫu số 15 hoặc Mẫu số 16 Phụ lục
+
+II ban hành kèm theo Thông tư này. 
+
+2. Kiểm tra theo kế hoạch: 
+
+a) Trước ngày 30 tháng 11 hằng năm, thủ trưởng cơ quan Kiểm lâm quy
+
+định tại điểm a khoản 7 Điều này có trách nhiệm xây dựng và phê duyệt kế
+
+hoạch kiểm tra năm sau; 
+
+b) Trường hợp có ý kiến chỉ đạo của cơ quan cấp trên hoặc có nội dung
+
+cần quản lý phát sinh ngoài kế hoạch kiểm tra hằng năm thì điều chỉnh kế
+
+hoạch kiểm tra; 
+
+c) Căn cứ kế hoạch kiểm tra được duyệt, cơ quan Kiểm lâm thông báo đến
+
+các cơ quan, tổ chức, cá nhân có liên quan trước ngày 31 tháng 12 hằng năm
+
+---
+
+21 
+
+hoặc sau khi phê duyệt điều chỉnh kế hoạch kiểm tra. 
+
+3. Kiểm tra theo chuyên đề: căn cứ tình hình quản lý lâm sản trên địa bàn
+
+cần phải kiểm tra ngăn chặn và xử lý, thủ trưởng cơ quan Kiểm lâm chủ động
+
+xây dựng kế hoạch kiểm tra theo chuyên đề. 
+
+4. Kiểm tra đột xuất, áp dụng khi có một trong các căn cứ sau: 
+
+a) Thông tin từ phương tiện thông tin đại chúng; 
+
+b) Thông tin từ đơn thư khiếu nại, tố cáo hoặc tin báo của tổ chức, cá nhân; 
+
+c) Thông tin từ đơn đề nghị xử lý vi phạm của tổ chức, cá nhân; 
+
+d) Thông tin từ phát hiện hoặc trường hợp phát hiện vi phạm quả tang của
+
+công chức Kiểm lâm quản lý địa bàn hoặc công chức Kiểm lâm được giao
+
+nhiệm vụ theo dõi, phát hiện vi phạm; 
+
+đ) Văn bản chỉ đạo của cơ quan quản lý nhà nước có thẩ m quyền; 
+
+e) Khi phát hiện có dấu hiệu vi phạm pháp luật. 
+
+5. Công chức Kiểm lâm thu thập, tiếp nhận thông tin về hành vi vi phạm
+
+pháp luật hoặc dấu hiệu vi phạm pháp luật tại khoản 4 Điều này phải báo cáo
+
+ngay thủ trưởng cơ quan Kiểm lâm trực tiếp để xử lý thông tin. 
+
+6. Căn cứ thông tin quy định tại khoản 4 Điều này, thủ trưởng cơ quan
+
+Kiểm lâm có trách nhiệm xử lý thông tin, chỉ đạo kiểm tra, chịu trách nhiệm về
+
+quyết định của mình; chỉ đạo việc lập sổ theo dõi thông tin và tổ chức quản lý
+
+theo chế độ quản lý tài liệu mật. 
+
+7. Thẩ m quyền ban hành quyết định kiểm tra của Kiểm lâm: 
+
+a) Cục trưởng Cục Lâm nghiệp và Kiểm lâm, Chi cục trưởng Chi cục
+
+Kiểm lâm vùng, Chi cục trưởng Chi cục Kiểm lâm cấp tỉnh, Đội trưởng Đội
+
+Kiểm lâm cơ động và phòng cháy chữa cháy rừng, Hạt trưởng Hạt Kiểm lâm
+
+ban hành quyết định kiểm tra theo chức năng, nhiệm vụ được giao; 
+
+b) Người có thẩ m quyền quy định tại điểm a khoản này có thể ủy quyền
+
+cho cấp phó ban hành quyết định kiểm tra theo quy định của pháp luật. 
+
+8. Thực hiện kiểm tra: 
+
+a) Công bố và giao quyết định kiểm tra cho đối tượng được kiểm tra hoặc
+
+người đại diện của đối tượng được kiểm tra; thông báo về thành phần Tổ kiểm
+
+tra và người chứng kiến (nếu có). Trường hợp kiểm tra đột xuất không có quyết
+
+định kiểm tra thì người đại diện của Tổ kiểm tra phải giới thiệu về thành phần
+
+tham gia và lý do kiểm tra;
+
+---
+
+22 
+
+b)   Yêu cầu đối tượng được kiểm tra hoặc người đại diện của đối tượng
+
+được kiểm tra chấp hành quyết định kiểm tra của người có thẩ m quyền và làm
+
+việc với Tổ kiểm tra. Trường hợp những người này không có mặt tại nơi kiểm
+
+tra thì Tổ kiểm tra mời đại diện Ủy ban nhân dân cấp xã hoặc đại diện cơ quan
+
+công an nơi kiểm tra, người chứng kiến để công bố quyết định kiểm tra và tiến
+
+hành kiểm tra theo quy định; 
+
+c) Tổ chức kiểm tra theo đúng nội dung quyết định kiểm tra đã công bố.
+
+Trường hợp có nội dung phát sinh trong quá trình kiểm tra vượt quá thẩ m quyền,
+
+Tổ kiểm tra phải báo cáo ngay với người ban hành quyết định kiểm tra để kịp
+
+thời xử lý; 
+
+d)   Kiểm tra vận chuyển lâm sản: Tổ kiểm tra chỉ được dừng phương tiện
+
+giao thông đang lưu thông để kiểm tra lâm sản khi có căn cứ theo quy định tại
+
+khoản 4 Điều 16 Thông tư này. Hiệu lệnh dừng phương tiện có thể sử dụng một
+
+loại hoặc sử dụng kết hợp còi, cờ hiệu Kiểm lâm, đèn pin; 
+
+đ) Kiểm tra lâm sản nhập khẩ u, xuất khẩ u, quá cảnh tại cửa khẩ u: cơ quan
+
+Kiểm lâm phối hợp với cơ quan Hải quan cửa khẩ u tổ chức kiểm tra lâm sản
+
+theo quy định tại Thông tư này; 
+
+e) Đối tượng được kiểm tra phải chấp hành các yêu cầu kiểm tra của Tổ
+
+kiểm tra; xuất trình ngay hồ sơ lâm sản theo quy định tại Thông tư này và các tài
+
+liệu liên quan khác theo quy định của pháp luật. 
+
+Chương III 
+
+PHÂN LOẠI DOANH NGHIỆP 
+
+Điều 17. Đăng ký phân loại doanh nghiệp 
+
+1. Doanh nghiệp đăng ký phân loại tại Điều này gồm: doanh nghiệp thực
+
+hiện một hoặc nhiều hoạt động như: trồng rừng; khai thác và cung cấp gỗ rừng
+
+trồng; chế biến gỗ; nhập khẩ u gỗ; xuất khẩ u gỗ (sau đây viết tắt là doanh nghiệp). 
+
+2. Doanh nghiệp đăng ký với cơ quan Kiểm lâm cấp tỉnh hoặc Sở Nông
+
+nghiệp và Môi trường ở những địa phương không có cơ quan Kiểm lâm cấp tỉnh
+
+(sau đây viết tắt là cơ quan tiếp nhận) bằng hình thức trực tuyến hoặc trực tiếp
+
+theo quy định tại khoản 3, khoản 4 Điều này. 
+
+3. Hình thức trực tuyến: doanh nghiệp truy cập trên Hệ thống thông tin
+
+phân loại doanh nghiệp để đăng ký và thực hiện theo hướng dẫn. 
 
 4. Hình thức trực tiếp:
 
-a) Doanh nghiệp gửi trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc bưu điện 01 bộ hồ sơ tới cơ quan tiếp nhận.
+---
 
-Hồ sơ gồm: đề nghị phân loại doanh nghiệp theo Mẫu số 17 Phụ lục II ban hành kèm theo Thông tư này; Bảng kê khai phân loại doanh nghiệp theo Mẫu số 08 Phụ lục I ban hành kèm theo Nghị định số 102/2020/NĐ-CP; tài liệu chứng minh tuân thủ tiêu chí phân loại doanh nghiệp theo quy định tại Mẫu số 01 Phụ lục III ban hành kèm theo Thông tư này; Bảng tổng hợp hồ sơ chứng minh tuân thủ quy định về nguồn gốc gỗ hợp pháp tại Mẫu số 02 Phụ lục III ban hành kèm theo Thông tư này;
+23 
 
-b) Cơ quan tiếp nhận nhập hồ sơ của doanh nghiệp vào Hệ thống thông tin phân loại doanh nghiệp; Thông báo kết quả tiếp nhận hồ sơ đăng ký phân loại doanh nghiệp theo Mẫu số 18 Phụ lục II ban hành kèm theo Thông tư này đến doanh nghiệp; lưu trữ tài liệu đăng ký theo quy định của pháp luật.
+a) Doanh nghiệp gửi trực tiếp hoặc qua dịch vụ bưu chính công ích hoặc
 
-5. Trong thời gian chưa xây dựng và áp dụng Hệ thống thông tin phân loại doanh nghiệp thì cơ quan tiếp nhận thực hiện phân loại trực tiếp như sau:
+bưu điện 01 bộ hồ sơ tới cơ quan tiếp nhận. 
 
-a) Doanh nghiệp gửi hồ sơ đến cơ quan tiếp nhận theo quy định tại điểm a khoản 4 Điều này;
+Hồ sơ gồm: đề nghị phân loại doanh nghiệp theo Mẫu số 17 Phụ lục II
 
-b) Cơ quan tiếp nhận nhận hồ sơ, Thông báo kết quả tiếp nhận hồ sơ đăng ký phân loại doanh nghiệp theo Mẫu số 18 Phụ lục II ban hành kèm theo Thông tư này đến doanh nghiệp; thực hiện phân loại doanh nghiệp theo quy định tại Điều 13 Nghị định số 102/2020/NĐ-CP và Điều 19 Thông tư này; gửi ngay kết quả phân loại doanh nghiệp qua thư điện tử về Cục Lâm nghiệp và Kiểm lâm và lưu trữ tài liệu đăng ký theo quy định;
+ban hành kèm theo Thông tư này; Bảng kê khai phân loại doanh nghiệp theo
 
-c) Cục Lâm nghiệp và Kiểm lâm công bố danh sách doanh nghiệp Nhóm I theo quy định tại điểm b khoản 3 Điều 19 Thông tư này.
+Mẫu số 08 Phụ lục I ban hành kèm theo Nghị định số 102/2020/NĐ-CP; tài liệu
 
-**Điều 18. Xác minh thông tin kê khai**
+chứng minh tuân thủ tiêu chí phân loại doanh nghiệp theo quy định tại Mẫu số
 
-1. Các trường hợp xác minh thông tin:
+01 Phụ lục III ban hành kèm theo Thông tư này; Bảng tổng hợp hồ sơ chứng
 
-a) Tài liệu kê khai của doanh nghiệp có dấu hiệu sửa chữa, tẩy xóa, làm giả; nội dung tài liệu kê khai mâu thuẫn, không thống nhất;
+minh tuân thủ quy định về nguồn gốc gỗ hợp pháp tại Mẫu số 02 Phụ lục III ban
 
-b) Có thông tin về việc doanh nghiệp kê khai không trung thực một trong các tiêu chí phân loại doanh nghiệp.
+hành kèm theo Thông tư này; 
 
-2. Nguồn thông tin để xác minh:
+b) Cơ quan tiếp nhận   nhập hồ sơ của doanh nghiệp vào Hệ thống thông tin
 
-a) Đối với tiêu chí tuân thủ đầy đủ quy định của pháp luật trong việc thành lập và hoạt động ít nhất 01 năm kể từ ngày đăng ký thành lập doanh nghiệp: căn cứ nguồn thông tin từ Cổng thông tin quốc gia về đăng ký doanh nghiệp [www.dangkykinhdoanh.gov.vn](http://www.dangkykinhdoanh.gov.vn/); hoặc thông tin từ các cơ quan, tổ chức, cá nhân khác có liên quan;
+phân loại doanh nghiệp; Thông báo kết quả tiếp nhận hồ sơ đăng ký phân loại
 
-b) Đối với tiêu chí tuân thủ quy định của pháp luật về môi trường: căn cứ nguồn thông tin từ cơ quan chức năng về môi trường; cơ quan Kiểm lâm sở tại hoặc Sở Nông nghiệp và Môi trường ở những địa phương không có cơ quan Kiểm lâm sở tại; các tổ chức, cá nhân khác có liên quan;
+doanh nghiệp theo Mẫu số 18 Phụ lục II ban hành kèm theo Thông tư này đến
 
-c) Đối với tiêu chí tuân thủ quy định của pháp luật về phòng cháy, chữa cháy: căn cứ nguồn thông tin từ cơ quan chức năng về phòng cháy, chữa cháy; cơ quan Kiểm lâm sở tại hoặc Sở Nông nghiệp và Môi trường ở những địa phương không có cơ quan Kiểm lâm sở tại; tổ chức, cá nhân khác có liên quan;
+doanh nghiệp; lưu trữ tài liệu đăng ký theo quy định của pháp luật. 
 
-d) Đối với tiêu chí tuân thủ quy định của pháp luật về thuế và lao động: căn cứ nguồn thông tin từ cơ quan chức năng về thuế và lao động; cơ quan Kiểm lâm sở tại hoặc Sở Nông nghiệp và Môi trường ở những địa phương không có cơ quan Kiểm lâm sở tại; tổ chức, cá nhân khác có liên quan;
+5. Trong thời gian chưa xây dựng và áp dụng Hệ thống thông tin phân loại
 
-đ) Đối với tiêu chí tuân thủ quy định của pháp luật về bảo đảm gỗ hợp pháp; căn cứ nguồn thông tin từ cơ quan Kiểm lâm sở tại hoặc Sở Nông nghiệp và Môi trường ở những địa phương không có cơ quan Kiểm lâm sở tại; Cơ sở dữ liệu vi phạm pháp luật trong lĩnh vực Lâm nghiệp (sau đây viết tắt là Cơ sở dữ liệu vi phạm); tổ chức, cá nhân khác có liên quan.
+doanh nghiệp thì cơ quan tiếp nhận thực hiện phân loại trực tiếp như sau: 
 
-3. Thực hiện xác minh:
+a) Doanh nghiệp gửi hồ sơ đến cơ quan tiếp nhận theo quy định tại điểm a
 
-a) Cơ quan tiếp nhận thông báo trên Hệ thống thông tin phân loại doanh nghiệp cho doanh nghiệp về thời gian, nội dung cần xác minh. Trường hợp không áp dụng được Hệ thống thông tin phân loại doanh nghiệp thì gửi Thông báo xác minh thông tin đăng ký phân loại doanh nghiệp theo Mẫu số 19 Phụ lục II ban hành kèm theo Thông tư này cho doanh nghiệp;
+khoản 4 Điều này; 
 
-b) Cơ quan tiếp nhận trực tiếp thực hiện hoặc phối hợp với cơ quan có liên quan (trong trường hợp cần thiết), thực hiện xác minh và lập Biên bản xác minh thông tin đăng ký phân loại doanh nghiệp theo Mẫu số 20 Phụ lục II ban hành kèm theo Thông tư này;
+b) Cơ quan tiếp nhận nhận hồ sơ, Thông báo kết quả tiếp nhận hồ sơ đăng
 
-c) Trường hợp xác minh ngoài địa phương cấp tỉnh nơi doanh nghiệp đăng ký phân loại: cơ quan tiếp nhận gửi nội dung cần xác minh đến cơ quan tiếp nhận tại địa phương nơi cần xác minh để thực hiện xác minh theo quy định tại điểm a, điểm b khoản này. Cơ quan tiếp nhận thực hiện việc xác minh, thông báo kết quả xác minh đến cơ quan tiếp nhận nơi doanh nghiệp đăng ký phân loại doanh nghiệp.
+ký phân loại doanh nghiệp theo Mẫu số 18 Phụ lục II ban hành kèm theo Thông
 
-**Điều 19. Công bố kết quả, chuyển loại, phân loại lại doanh nghiệp**
+tư này đến doanh nghiệp; thực hiện phân loại doanh nghiệp theo quy định tại
 
-1. Cơ quan tiếp nhận xếp loại và thông báo kết quả phân loại doanh nghiệp trên Hệ thống thông tin phân loại doanh nghiệp. Trường hợp không áp dụng được Hệ thống thông tin phân loại doanh nghiệp thì gửi Thông báo kết quả phân loại cho doanh nghiệp, Cục Lâm nghiệp và Kiểm lâm theo Mẫu số 21 Phụ lục II ban hành kèm theo Thông tư này.
+Điều 13 Nghị định số 102/2020/NĐ-CP và Điều 19 Thông tư này; gửi ngay kết
 
-2*.* Trong thời hạn 01 ngày làm việc kể từ ngày nhận được kết quả phân loại là doanh nghiệp Nhóm I theo quy định tại khoản 1 Điều này, Cục Lâm nghiệp và Kiểm lâm công bố kết quả phân loại doanh nghiệp trên trang thông tin điện tử theo quy định.
+quả phân loại doanh nghiệp qua thư điện tử về Cục Lâm nghiệp và Kiểm lâm và
 
-3. Chuyển loại doanh nghiệp:
+lưu trữ tài liệu đăng ký theo quy định; 
 
-a) Cơ quan tiếp nhận thực hiện chuyển loại doanh nghiệp theo quy định tại khoản 4, khoản 4a Điều 13 Nghị định số 102/2020/NĐ-CP;
+c) Cục Lâm nghiệp và Kiểm lâm công bố danh sách doanh nghiệp Nhóm I
 
-b) Cơ quan tiếp nhận Thông báo kết quả phân loại cho doanh nghiệp theo Mẫu số 21 Phụ lục II ban hành kèm theo Thông tư này và gửi ngay kết quả chuyển loại doanh nghiệp qua thư điện tử công khai của Cục Lâm nghiệp và Kiểm lâm.
+theo quy định tại điểm b khoản 3 Điều 19   Thông tư này. 
 
-Trong thời hạn 01 ngày làm việc kể từ ngày nhận được thông tin từ cơ quan tiếp nhận qua Hệ thống thông tin phân loại doanh nghiệp hoặc văn bản thông báo của cơ quan tiếp nhận đối với trường hợp thực hiện phân loại doanh nghiệp bằng hình thức trực tiếp, Cục Lâm nghiệp và Kiểm lâm công bố kết quả chuyển loại doanh nghiệp trên trang thông tin điện tử theo quy định.
+Điều 18. Xác minh thông tin kê khai 
 
-4*.* Phân loại lại doanh nghiệp:
+1. Các trường hợp xác minh thông tin: 
 
-a) Doanh nghiệp có trách nhiệm tự kê khai phân loại doanh nghiệp lần hai và các lần kế tiếp theo quy định tại Điều 17 Thông tư này;
+a) Tài liệu kê khai của doanh nghiệp có dấu hiệu sửa chữa, tẩ y xóa, làm
 
-b) Cơ quan tiếp nhận có trách nhiệm phân loại doanh nghiệp lần hai và các lần kế tiếp như thực hiện phân loại doanh nghiệp lần đầu. Cục Lâm nghiệp và Kiểm lâm công bố kết quả phân loại lại doanh nghiệp theo quy định tại điểm b khoản 3 Điều này;
+giả; nội dung tài liệu kê khai mâu thuẫn, không thống nhất; 
 
-c) Trường hợp doanh nghiệp thay đổi loại hình và tên gọi thì doanh nghiệp thực hiện kê khai phân loại doanh nghiệp lại như quy định tại Điều 17 Thông tư này.
+b) Có thông tin về việc doanh nghiệp kê khai không trung thực một trong
 
-**Điều 20. Hệ thống thông tin phân loại doanh nghiệp, Cơ sở dữ liệu vi phạm**
+các tiêu chí phân loại doanh nghiệp. 
 
-1. Hệ thống thông tin phân loại doanh nghiệp:
+2. Nguồn thông tin để xác minh: 
 
-a) Được xây dựng theo quy định của pháp luật; ứng dụng để tiếp nhận, lưu trữ thông tin và phân loại doanh nghiệp theo quy định tại Nghị định số 102/2020/NĐ-CP và tại Thông tư này;
+a) Đối với tiêu chí tuân thủ đầy đủ quy định của pháp luật trong việc
 
-b) Được điều chỉnh, thay đổi khi có yêu cầu và phù hợp với quy định mới; phục vụ cho việc phân loại doanh nghiệp thuận lợi, chính xác, kịp thời; hoạt động trên nền tảng công nghệ thông tin hiện đại, bảo đảm phân quyền truy cập, tính bảo mật cao;
+thành lập và hoạt động ít nhất 01 năm kể từ ngày đăng ký thành lập doanh
 
-c) Được xây dựng và vận hành trên môi trường trực tuyến, có giao diện thân thiện với người dùng, phù hợp với thực tiễn, dễ thực hiện trong việc kê khai, tiếp nhận, xử lý hồ sơ; bảo đảm vận hành liên tục, không bị gián đoạn;
+---
 
-d) Có khả năng chia sẻ thông tin với hệ thống cơ sở dữ liệu có liên quan: Hệ thống cấp giấy phép FLEGT, Hệ thống điện tử hải quan và các hệ thống thông tin liên quan khác;
+24 
 
-đ) Tuân thủ các quy định của pháp luật về an ninh mạng, công nghệ thông tin, bảo mật an toàn thông tin và các quy định của pháp luật khác có liên quan.
+nghiệp: căn cứ nguồn thông tin từ Cổng thông tin quốc gia về đăng ký doanh
 
-2. Cơ sở dữ liệu vi phạm:
+nghiệp www.dangkykinhdoanh.gov.vn; hoặc thông tin từ các cơ quan, tổ chức,
 
-a) Được xây dựng để tập hợp, lưu trữ dữ liệu thông tin về xử lý vi phạm hành chính, hình sự trong lĩnh vực Lâm nghiệp theo quy định của pháp luật; cập nhật, duy trì, khai thác và sử dụng trên môi trường điện tử;
+cá nhân khác có liên quan; 
 
-b) Cơ sở dữ liệu vi phạm được kết nối, chia sẻ thông tin với Hệ thống thông tin phân loại doanh nghiệp để thực hiện phân loại doanh nghiệp;
+b) Đối với tiêu chí tuân thủ quy định của pháp luật về môi trường: căn cứ
 
-c) Cơ sở dữ liệu vi phạm được khai thác để thực hiện các hoạt động quản lý nhà nước trong lĩnh vực Lâm nghiệp và lĩnh vực quản lý nhà nước có liên quan.
+nguồn thông tin từ cơ quan chức năng về môi trường; cơ quan Kiểm lâm sở tại
 
-3. Quản lý Hệ thống thông tin phân loại doanh nghiệp, Cơ sở dữ liệu vi phạm:
+hoặc Sở Nông nghiệp và Môi trường ở những địa phương không có cơ quan
 
-a) Cục Lâm nghiệp và Kiểm lâm: quản lý và vận hành Hệ thống thông tin phân loại doanh nghiệp, Cơ sở dữ liệu vi phạm. Chịu trách nhiệm đầu tư trang thiết bị đồng bộ và bố trí nguồn nhân lực phù hợp bảo đảm duy trì Hệ thống thông tin phân loại doanh nghiệp và Cơ sở dữ liệu vi phạm hoạt động liên tục;
+Kiểm lâm sở tại; các tổ chức, cá nhân khác có liên quan; 
 
-b) Cơ quan tiếp nhận: chịu trách nhiệm đầu tư trang thiết bị đồng bộ; bố trí nguồn nhân lực phù hợp bảo đảm duy trì Hệ thống thông tin phân loại doanh nghiệp, Cơ sở dữ liệu vi phạm hoạt động liên tục.
+c) Đối với tiêu chí tuân thủ quy định của pháp luật về phòng cháy, chữa
 
-**Chương IV**
+cháy: căn cứ nguồn thông tin từ cơ quan chức năng về phòng cháy, chữa cháy;
 
-**TIẾP NHẬN, BẢO QUẢN, XỬ LÝ LÂM SẢN, ĐỘNG VẬT, THỰC VẬT THUỘC DANH MỤC LOÀI NGUY CẤP, QUÝ, HIẾM, PHỤ LỤC CITES LÀ TANG VẬT, VẬT CHỨNG HOẶC DO CHỦ SỞ HỮU TỰ NGUYỆN CHUYỂN GIAO QUYỀN SỞ HỮU CHO NHÀ NƯỚC**
+cơ quan Kiểm lâm sở tại hoặc Sở Nông nghiệp và Môi trường ở những địa
 
-**Mục 1. TIẾP NHẬN, BẢO QUẢN LÂM SẢN, ĐỘNG VẬT, THỰC VẬT THUỘC DANH MỤC LOÀI NGUY CẤP, QUÝ, HIẾM, PHỤ LỤC CITES**
+phương không có cơ quan Kiểm lâm sở tại; tổ chức, cá nhân khác có liên quan; 
 
-**Điều 21. Tiếp nhận lâm sản, động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm, Phụ lục CITES do chủ sở hữu tự nguyện chuyển giao quyền sở hữu cho Nhà nước**
+d) Đối với tiêu chí tuân thủ quy định của pháp luật về thuế và lao động:
 
-1. Cơ quan tiếp nhận gồm:
+căn cứ nguồn thông tin từ cơ quan chức năng về thuế và lao động; cơ quan Kiểm
 
-a) Cơ quan Kiểm lâm sở tại tiếp nhận thực vật rừng, động vật rừng; loài động vật, thực vật hoang dã nguy cấp thuộc Phụ lục CITES;
+lâm sở tại hoặc Sở Nông nghiệp và Môi trường ở những địa phương không có
 
-b) Cơ quan quản lý nhà nước về thủy sản cấp tỉnh tiếp nhận loài thủy sản thuộc Danh mục loài nguy cấp, quý, hiếm Nhóm I, Phụ lục I CITES;
+cơ quan Kiểm lâm sở tại; tổ chức, cá nhân khác có liên quan; 
 
-c) Cơ quan quản lý chuyên ngành thuộc Ủy ban nhân dân cấp tỉnh hoặc Bộ Nông nghiệp và Môi trường theo quy định tại khoản 3 Điều 7 Nghị định số 77/2025/NĐ-CP ngày 01 tháng 4 năm 2025 của Chính phủ quy định trình tự, thủ tục xác lập quyền sở hữu toàn dân về tài sản và xử lý đối với tài sản được xác lập quyền sở hữu toàn dân (sau đây viết tắt là Nghị định số 77/2025/NĐ-CP).
+đ) Đối với tiêu chí tuân thủ quy định của pháp luật về bảo đảm gỗ hợp
 
-2. Trình tự tiếp nhận:
+pháp; căn cứ nguồn thông tin từ cơ quan Kiểm lâm sở tại hoặc Sở Nông nghiệp
 
-a) Chủ sở hữu thông báo tới một trong những cơ quan quy định tại khoản 1 Điều này về việc tự nguyện chuyển giao thực vật rừng, động vật rừng, thủy sản cho Nhà nước; kèm theo hồ sơ, giấy tờ chứng minh quyền sở hữu hợp pháp đối với thực vật, động vật tự nguyện chuyển giao quyền sở hữu cho Nhà nước;
+và Môi trường ở những địa phương không có cơ quan Kiểm lâm sở tại; Cơ sở dữ
 
-b) Cơ quan tiếp nhận lập Biên bản bàn giao, tiếp nhận theo Mẫu số 22 Phụ lục II ban hành kèm theo Thông tư này.
+liệu vi phạm pháp luật trong lĩnh vực Lâm nghiệp (sau đây viết tắt là Cơ sở dữ
 
-3. Trách nhiệm của cơ quan tiếp nhận:
+liệu vi phạm); tổ chức, cá nhân khác có liên quan. 
 
-a) Đối với cơ quan tại điểm a, điểm b khoản 1 Điều này, cơ quan quản lý chuyên ngành do Ủy ban nhân dân cấp tỉnh công bố: sau khi tiếp nhận động vật, thực vật, cơ quan tiếp nhận trình cơ quan, người có thẩm quyền ban hành quyết định xác lập quyền sở hữu toàn dân về tài sản và quyết định phê duyệt phương án xử lý tài sản được xác lập quyền sở hữu toàn dân theo quy định tại Nghị định số 77/2025/NĐ-CP;
+3.   Thực hiện xác minh: 
 
-b) Đối với cơ quan quản lý chuyên ngành thuộc Bộ Nông nghiệp và Môi trường: sau khi tiếp nhận lâm sản, động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm, Phụ lục CITES lập hồ sơ, trình cơ quan, người có thẩm quyền ban hành quyết định xác lập quyền sở hữu toàn dân về tài sản và quyết định phê duyệt Phương án xử lý tài sản được xác lập quyền sở hữu toàn dân, như sau:
+a) Cơ quan tiếp nhận thông báo trên Hệ thống thông tin phân loại doanh
 
-Đối với tài sản là thực vật rừng, động vật rừng: cơ quan tiếp nhận trình Cục trưởng Cục Lâm nghiệp và Kiểm lâm quyết định xác lập quyền sở hữu toàn dân đối với tài sản và phê duyệt Phương án xử lý tài sản được xác lập quyền sở hữu toàn dân.
+nghiệp cho doanh nghiệp về thời gian, nội dung cần xác minh. Trường hợp
 
-Đối với loài thủy sản thuộc Danh mục loài nguy cấp, quý, hiếm Nhóm I, Phụ lục I CITES: cơ quan tiếp nhận trình Cục trưởng Cục Thủy sản và Kiểm ngư quyết định xác lập quyền sở hữu toàn dân đối với tài sản và phê duyệt Phương án xử lý tài sản được xác lập quyền sở hữu toàn dân.
+không áp dụng được Hệ thống thông tin phân loại doanh nghiệp thì gửi Thông
 
-4. Cơ quan tiếp nhận có trách nhiệm bảo quản tài sản từ khi tiếp nhận đến khi xử lý tài sản theo phương án được cơ quan, người có thẩm quyền quyết định phê duyệt phương án xử lý tài sản được xác lập quyền sở hữu toàn dân.
+báo xác minh thông tin đăng ký phân loại doanh nghiệp theo Mẫu số 19 Phụ lục
 
-**Điều 22. Bảo quản lâm sản, động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm, Phụ lục CITES là tang vật, vật chứng trong quá trình tạm giữ**
+II ban hành kèm theo Thông tư này cho doanh nghiệp; 
 
-1. Cơ quan tạm giữ lâm sản, động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm, Phụ lục CITES trong thời gian chờ xử lý có trách nhiệm nuôi dưỡng, chăm sóc đối với lâm sản, động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm hoặc thuộc Phụ lục CITES, loài thủy sản thuộc Phụ lục I CITES còn sống; bảo quản mẫu vật đã chết và sản phẩm của chúng. Biện pháp bảo quản phù hợp với đặc điểm từng loài; bảo đảm vệ sinh, an toàn cho người và loài đó.
+b) Cơ quan tiếp nhận trực tiếp thực hiện hoặc phối hợp với cơ quan có
 
-2. Trường hợp cơ quan tạm giữ không có điều kiện nuôi dưỡng, bảo quản lâm sản; động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm hoặc thuộc Phụ lục CITES, loài thủy sản thuộc Phụ lục I CITES thì tạm giao cho cơ quan quản lý chuyên ngành hoặc cơ sở có đủ điều kiện để nuôi dưỡng, bảo quản trong thời gian chờ quyết định xử lý của người có thẩm quyền; việc tạm giao lâm sản, động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm, Phụ lục CITES, loài thủy sản thuộc Phụ lục I CITES phải lập Biên bản bàn giao, tiếp nhận theo Mẫu số 22 Phụ lục II ban hành kèm theo Thông tư này.
+liên quan (trong trường hợp cần thiết), thực hiện xác minh và lập Biên bản xác
 
-**Mục 2. XỬ LÝ GỖ, THỰC VẬT NGOÀI GỖ LÀ TANG VẬT, VẬT CHỨNG BỊ TỊCH THU**
+minh thông tin đăng ký phân loại doanh nghiệp theo Mẫu số 20 Phụ lục II ban
 
-**Điều 23. Hình thức xử lý, trình tự thực hiện**
+hành kèm theo Thông tư này; 
 
-1. Hình thức xử lý: Gỗ, thực vật ngoài gỗ bị tịch thu được xử lý bằng một trong các hình thức theo thứ tự ưu tiên từ điểm a đến đ khoản này, trường hợp không xử lý được bằng hình thức trước mới áp dụng hình thức xử lý kế tiếp, gồm:
+c) Trường hợp xác minh ngoài địa phương cấp tỉnh nơi doanh nghiệp
 
-a) Trả lại quốc gia nơi khai thác hoặc quốc gia xuất khẩu đối với gỗ, thực vật ngoài gỗ có nguồn gốc nước ngoài;
+đăng ký phân loại: cơ quan tiếp nhận gửi nội dung cần xác minh đến cơ quan
 
-b) Giao tài sản là gỗ, thực vật ngoài gỗ cho cơ quan quản lý chuyên ngành;
+tiếp nhận tại địa phương nơi cần xác minh để thực hiện xác minh theo quy định
 
-c) Giao, điều chuyển tài sản là gỗ, thực vật ngoài gỗ cho cơ quan, tổ chức, đơn vị để quản lý, sử dụng;
+tại điểm a, điểm b khoản này. Cơ quan tiếp nhận thực hiện việc xác minh, thông
 
-d) Bán thực vật ngoài gỗ cho tổ chức, cá nhân;
+báo kết quả xác minh đến cơ quan tiếp nhận nơi doanh nghiệp đăng ký phân loại
 
-đ) Tiêu hủy đối với trường hợp không áp dụng được bằng một trong các hình thức quy định tại điểm a, điểm b, điểm c và điểm d khoản này.
+doanh nghiệp.
 
-2. Trả lại quốc gia nơi khai thác hoặc quốc gia xuất khẩu đối với gỗ, thực vật rừng ngoài gỗ có nguồn gốc nước ngoài:
+---
 
-a) Đối với gỗ, thực vật ngoài gỗ thuộc Phụ lục CITES: thực hiện theo quy định của Bộ trưởng Bộ Nông nghiệp và Môi trường về quản lý loài nguy cấp, quý, hiếm; nuôi động vật rừng thông thường và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp;
+25 
 
-b) Đối với gỗ tịch thu không thuộc Phụ lục CITES: cơ quan chủ trì quản lý tài sản quy định tại Điều 5 Nghị định số 77/2025/NĐ-CP (sau đây viết tắt là cơ quan chủ trì quản lý tài sản) báo cáo cơ quan cấp trên có văn bản gửi Bộ, Ngành chủ quản đề nghị quốc gia nơi khai thác tiếp nhận gỗ tịch thu. Trong thời hạn 30 ngày làm việc kể từ ngày Bộ, Ngành chủ quản đề nghị quốc gia nơi khai thác tiếp nhận gỗ tịch thu mà quốc gia nơi khai thác từ chối tiếp nhận hoặc không phản hồi thì gỗ tịch thu được áp dụng xử lý bằng một trong các hình thức quy định tại khoản 3, khoản 4, khoản 5 hoặc khoản 6 Điều này.
+Điều 19. Công bố kết quả, chuyển loại, phân loại lại doanh nghiệp 
 
-Trường hợp không xác định được quốc gia nơi khai thác thì áp dụng xử lý bằng một trong các hình thức quy định tại khoản 3, khoản 4, khoản 5 hoặc khoản 6 Điều này.
+1. Cơ quan tiếp nhận xếp loại và thông báo kết quả phân loại doanh
 
-3. Giao tài sản là gỗ, thực vật ngoài gỗ cho cơ quan quản lý chuyên ngành:
+nghiệp trên Hệ thống thông tin phân loại doanh nghiệp. Trường hợp không áp
 
-a) Đối với gỗ, thực vật ngoài gỗ thuộc Danh mục loài nguy cấp, quý, hiếm Nhóm I, Phụ lục I CITES, cơ quan chủ trì quản lý tài sản gửi văn bản tới cơ quan quản lý chuyên ngành đề nghị tiếp nhận tài sản. Cơ quan quản lý chuyên ngành có văn bản gửi cơ quan chủ trì quản lý tài sản về việc tiếp nhận tài sản theo Mẫu số 23 Phụ lục II ban hành kèm theo Thông tư này để sử dụng vào mục đích bảo tồn, nhận dạng loài, nghiên cứu khoa học, đào tạo, giáo dục môi trường, bảo tàng chuyên ngành bảo đảm phù hợp với từng loại lâm sản và điều kiện của nơi được chuyển giao;
+dụng được Hệ thống thông tin phân loại doanh nghiệp thì gửi Thông báo kết quả
 
-b) Đối với gỗ, thực vật ngoài gỗ không thuộc Danh mục loài nguy cấp, quý, hiếm Nhóm I, Phụ lục I CITES: cơ quan quản lý chuyên ngành có văn bản đề nghị được tiếp nhận tài sản theo Mẫu số 23 Phụ lục II ban hành kèm theo Thông tư này gửi cơ quan chủ trì quản lý tài sản;
+phân loại cho doanh nghiệp, Cục Lâm nghiệp và Kiểm lâm theo Mẫu số 21 Phụ
 
-c) Trong thời hạn 10 ngày làm việc, kể từ ngày nhận được văn bản đề nghị quy định tại điểm a hoặc điểm b khoản này, cơ quan chủ trì quản lý tài sản lập Phương án xử lý tài sản được xác lập quyền sở hữu toàn dân trình cơ quan, người có thẩm quyền quyết định phê duyệt;
+lục II ban hành kèm theo Thông tư này. 
 
-d) Trong thời hạn 15 ngày làm việc, kể từ ngày Phương án xử lý tài sản được xác lập quyền sở hữu toàn dân được phê duyệt, cơ quan chủ trì quản lý tài sản tổ chức giao, nhận và lập Biên bản bàn giao, tiếp nhận theo Mẫu số 07 ban hành kèm theo Nghị định số 77/2025/NĐ-CP.
+2 .   Trong thời hạn 01 ngày làm việc kể từ ngày nhận được kết quả phân
 
-4. Giao, điều chuyển cho cơ quan, đơn vị quản lý, sử dụng đối với gỗ, thực vật ngoài gỗ không thuộc Danh mục loài nguy cấp, quý, hiếm Nhóm I, Phụ lục I CITES:
+loại là doanh nghiệp Nhóm I theo quy định tại khoản 1 Điều này, Cục Lâm
 
-a) Cơ quan, đơn vị có nhu cầu sử dụng gỗ tịch thu để xây dựng trụ sở, hình thành máy móc, thiết bị làm việc của cơ quan nhà nước, xây dựng các công trình công cộng phục vụ cho nhu cầu dân sinh như cơ sở y tế công lập, cơ sở giáo dục công lập, các trung tâm văn hóa, thể thao công lập, cơ sở tôn giáo, tín ngưỡng có văn bản đề nghị được tiếp nhận tài sản là gỗ, thực vật ngoài gỗ theo Mẫu số 23 tại Phụ lục II ban hành kèm theo Thông tư này gửi cơ quan chủ trì quản lý tài sản;
+nghiệp và Kiểm lâm công bố kết quả phân loại doanh nghiệp trên trang thông tin
 
-b) Trong thời hạn 05 ngày làm việc, kể từ ngày nhận được văn bản đề nghị tại điểm a khoản này, cơ quan chủ trì quản lý tài sản lập Phương án xử lý tài sản được xác lập quyền sở hữu toàn dân trình cơ quan, người có thẩm quyền quyết định phê duyệt;
+điện tử theo quy định. 
 
-c) Trong thời hạn 15 ngày làm việc, kể từ ngày Phương án xử lý tài sản được xác lập quyền sở hữu toàn dân được phê duyệt, cơ quan chủ trì quản lý tài sản tổ chức giao, nhận và lập Biên bản bàn giao, tiếp nhận theo Mẫu số 07 ban hành kèm theo Nghị định số 77/2025/NĐ-CP.
+3. Chuyển loại doanh nghiệp: 
 
-5. Bán tài sản là thực vật ngoài gỗ không thuộc quy định tại khoản 3, khoản 4 Điều này:
+a) Cơ quan tiếp nhận thực hiện chuyển loại doanh nghiệp theo quy định
 
-a) Cơ quan chủ trì quản lý tài sản trình cơ quan, người có thẩm quyền quyết định phê duyệt Phương án xử lý tài sản được xác lập quyền sở hữu toàn dân;
+tại khoản 4, khoản 4a Điều 13 Nghị định số 102/2020/NĐ-CP; 
 
-b) Cơ quan chủ trì quản lý tài sản lập hồ sơ nguồn gốc theo quy định tại Điều 10 Thông tư này, chuyển giao tài sản và hồ sơ cho tổ chức, cá nhân nhận chuyển giao quyền sở hữu.
+b) Cơ quan tiếp nhận Thông báo kết quả phân loại cho doanh nghiệp theo
 
-6. Tiêu hủy gỗ, thực vật rừng ngoài gỗ:
+Mẫu số 21 Phụ lục II ban hành kèm theo Thông tư này và gửi ngay kết quả
 
-a) Cơ quan chủ trì quản lý tài sản xây dựng phương án xử lý tài sản được xác lập quyền sở hữu toàn dân trình cơ quan, người có thẩm quyền phê duyệt theo quy định pháp luật về quản lý, sử dụng tài sản công đối với gỗ, thực vật rừng ngoài gỗ không còn giá trị sử dụng, gây hại cho sức khỏe con người hoặc không xử lý được bằng một trong các hình thức quy định tại khoản 3, khoản 4, khoản 5 Điều này;
+chuyển loại doanh nghiệp qua thư điện tử công khai của Cục Lâm nghiệp và
 
-b) Trường hợp cơ quan chủ trì quản lý tài sản không phải là cơ quan, đơn vị được giao tiêu hủy: cơ quan chủ trì quản lý tài sản lập Biên bản bàn giao, tiếp nhận cho cơ quan được giao tiêu hủy theo Mẫu số 22 Phụ lục II ban hành kèm theo Thông tư này;
+Kiểm lâm. 
 
-c) Cơ quan chủ trì tiêu hủy ban hành quyết định thành lập Hội đồng tiêu hủy, gồm đại diện: cơ quan Kiểm lâm sở tại, Ủy ban nhân dân cấp xã, cơ quan có thẩm quyền tiến hành tố tụng đối với gỗ, thực vật ngoài gỗ là vật chứng và tổ chức, cá nhân khác có liên quan do cơ quan chủ trì tiêu hủy quyết định;
+Trong thời hạn 01 ngày làm việc kể từ ngày nhận được thông tin từ cơ
 
-d) Ngay sau khi kết thúc tiêu hủy: cơ quan chủ trì tiêu hủy lập Biên bản tiêu hủy theo Mẫu số 24 Phụ lục II ban hành kèm theo Thông tư này.
+quan tiếp nhận qua Hệ thống thông tin phân loại doanh nghiệp hoặc văn bản
 
-**Điều 24. Trách nhiệm của cơ quan chủ trì quản lý tài sản, đơn vị tiếp nhận tài sản sau khi được xác lập quyền sở hữu toàn dân**
+thông báo của cơ quan tiếp nhận đối với trường hợp thực hiện phân loại doanh
 
-1. Cơ quan chủ trì quản lý tài sản:
+nghiệp bằng hình thức trực tiếp, Cục Lâm nghiệp và Kiểm lâm công bố kết quả
 
-a) Chịu trách nhiệm xây dựng Phương án xử lý tài sản xác lập quyền sở hữu toàn dân trình cơ quan, người có thẩm quyền quyết định phê duyệt theo đúng thời hạn và thực hiện việc xử lý tài sản theo Phương án đã được phê duyệt;
+chuyển loại doanh nghiệp trên trang thông tin điện tử theo quy định. 
 
-b) Quản lý và lưu giữ hồ sơ trong quá trình xử lý; bàn giao, tiếp nhận; tiêu hủy theo quy định.
+4 .   Phân loại lại doanh nghiệp: 
 
-2. Cơ quan quản lý chuyên ngành; cơ quan, đơn vị được giao tài sản tại khoản 4 Điều 23 Thông tư này:
+a) Doanh nghiệp có trách nhiệm tự kê khai phân loại doanh nghiệp lần hai
 
-a) Sử dụng tài sản được chuyển giao theo đúng Phương án và mục đích được phê duyệt;
+và các lần kế tiếp theo quy định tại Điều 17   Thông tư này; 
 
-b) Quản lý tài sản theo đúng quy định của pháp luật về quản lý, sử dụng tài sản công;
+b) Cơ quan tiếp nhận có trách nhiệm phân loại doanh nghiệp lần hai và
 
-c) Định kỳ hằng năm trước ngày 31 tháng 12 báo cáo tình hình sử dụng tài sản là gỗ theo mẫu tại Mục A Mẫu số 25 Phụ lục II ban hành kèm theo Thông tư này gửi đến cơ quan Kiểm lâm sở tại để kiểm tra, giám sát. Báo cáo định kỳ hằng năm tính từ ngày 15 tháng 12 năm trước kỳ báo cáo đến ngày 14 tháng 12 của kỳ báo cáo.
+các lần kế tiếp như thực hiện phân loại doanh nghiệp lần đầu. Cục Lâm nghiệp
 
-3. Cơ quan chủ trì tiêu hủy: lưu trữ hồ sơ tiếp nhận tài sản tiêu hủy đối với trường hợp cơ quan tiêu hủy không phải là cơ quan chủ trì quản lý tài sản và biên bản tiêu hủy theo quy định pháp luật về lưu trữ.
+và Kiểm lâm công bố kết quả phân loại lại doanh nghiệp theo quy định tại điểm
 
-**Mục 3. XỬ LÝ ĐỘNG VẬT**
+b khoản 3 Điều này; 
 
-**Điều 25. Nguyên tắc, hình thức xử lý động vật**
+c) Trường hợp doanh nghiệp thay đổi loại hình và tên gọi thì doanh
 
-1. Nguyên tắc xử lý:
+nghiệp thực hiện kê khai phân loại doanh nghiệp lại như quy định tại Điều 17
 
-a) Đối với động vật thuộc Phụ lục CITES bị tịch thu thực hiện theo quy định của Bộ trưởng Bộ Nông nghiệp và Môi trường về quản lý loài nguy cấp, quý, hiếm; nuôi động vật rừng thông thường và thực thi Công ước về buôn bán quốc tế các loài động vật, thực vật hoang dã nguy cấp;
+Thông tư này.
 
-b) Trường hợp cơ quan quản lý chuyên ngành tiếp nhận động vật thuộc Danh mục loài nguy cấp, quý, hiếm Nhóm I theo Phương án xử lý tài sản được xác lập quyền sở hữu toàn dân thì tiếp tục xử lý theo một trong các hình thức quy định tại khoản 2 Điều này;
+---
 
-c) Các hình thức xử lý động vật được thực hiện theo thứ tự ưu tiên từ điểm a đến điểm đ khoản 2 Điều này, trường hợp không xử lý được bằng hình thức trước mới áp dụng hình thức xử lý kế tiếp.
+26 
 
-2. Hình thức xử lý:
+Điều 20. Hệ thống thông tin phân loại doanh nghiệp,   Cơ s ở   d ữ   li ệ u 
 
-a) Thả động vật về môi trường tự nhiên;
+vi ph ạ m 
 
-b) Cứu hộ động vật;
+1. Hệ thống thông tin phân loại doanh nghiệp: 
 
-c) Chuyển giao động vật rừng cho cơ quan quản lý chuyên ngành;
+a) Được xây dựng theo quy định của pháp luật; ứng dụng để tiếp nhận,
 
-d) Bán động vật rừng, trừ loài thuộc Danh mục loài nguy cấp, quý, hiếm Nhóm I, Phụ lục I CITES; loài ngoại lai xâm hại;
+lưu trữ thông tin và phân loại doanh nghiệp theo quy định tại Nghị định số
 
-đ) Tiêu hủy động vật.
+102/2020/NĐ-CP và tại Thông tư này; 
 
-**Điều 26. Thả động vật về môi trường tự nhiên**
+b) Được điều chỉnh, thay đổi khi có yêu cầu và phù hợp với quy định mới;
 
-1. Đối tượng: cá thể động vật, thủy sản còn sống, khỏe mạnh hoặc sau khi cứu hộ.
+phục vụ cho việc phân loại doanh nghiệp thuận lợi, chính xác, kịp thời; hoạt
 
-2. Điều kiện:
+động trên nền tảng công nghệ thông tin hiện đại, bảo đảm phân quyền truy cập,
 
-a) Có Biên bản xác nhận tình trạng sức khỏe của cơ quan thú y đối với động vật hoặc của cơ sở cứu hộ động vật, loài thủy sản theo Mẫu số 26 Phụ lục II ban hành kèm theo Thông tư này;
+tính bảo mật cao; 
 
-b) Có phân bố tự nhiên tại Việt Nam;
+c) Được xây dựng và vận hành trên môi trường trực tuyến, có giao diện
 
-c) Có quyết định phê duyệt Phương án xử lý tài sản được xác lập quyền sở hữu toàn dân;
+thân thiện với người dùng, phù hợp với thực tiễn, dễ thực hiện trong việc kê
 
-đ) Trường hợp cơ quan, đơn vị thả không phải là chủ rừng hoặc khu bảo tồn biển nơi dự kiến tái thả: có văn bản đồng ý của chủ rừng hoặc khu bảo tồn biển nơi dự kiến thả theo Mẫu số 27 Phụ lục II ban hành kèm theo Thông tư này.
+khai, tiếp nhận, xử lý hồ sơ; bảo đảm vận hành liên tục, không bị gián đoạn; 
 
-3. Trình tự thực hiện:
+d) Có khả năng chia sẻ thông tin với hệ thống cơ sở dữ liệu có liên quan:
 
-a) Trước khi tái thả, cơ quan chủ trì quản lý tài sản có trách nhiệm liên hệ, thống nhất với chủ rừng hoặc khu bảo tồn biển nơi dự kiến tái thả;
+Hệ thống cấp giấy phép FLEGT, Hệ thống điện tử hải quan và các hệ thống
 
-b) Trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn bản đồng ý thả động vật của chủ rừng hoặc khu bảo tồn biển, thủ trưởng cơ quan, đơn vị có thẩm quyền xử lý động vật ban hành quyết định thả lại động vật về môi trường tự nhiên;
+thông tin liên quan khác; 
 
-c) Thành phần tham gia thả động vật về môi trường tự nhiên: cơ quan chủ trì thả động vật mời đại diện cơ quan Kiểm lâm sở tại, chính quyền địa phương, chủ rừng hoặc Ban quản lý khu bảo tồn biển, cơ quan có thẩm quyền tiến hành tố tụng trong trường hợp động vật là vật chứng và tổ chức, cá nhân khác có liên quan do cơ quan chủ trì thả động vật quyết định;
+đ) Tuân thủ các quy định của pháp luật về an ninh mạng, công nghệ thông
 
-d) Ngay sau khi hoàn thành việc thả động vật về môi trường tự nhiên: cơ quan, đơn vị chủ trì thả lập Biên bản thả động vật về môi trường tự nhiên theo Mẫu số 28 Phụ lục II ban hành kèm theo Thông tư này.
+tin, bảo mật an toàn thông tin và các quy định của pháp luật khác có liên quan. 
 
-**Điều 27. Cứu hộ động vật**
+2. Cơ sở dữ liệu vi phạm: 
 
-1. Đối tượng: động vật rừng, loài thủy sản thuộc Phụ lục I CITES còn sống là tang vật, vật chứng; động vật rừng, loài thủy sản thuộc Phụ lục I CITES còn sống do chủ sở hữu tự nguyện chuyển giao quyền sở hữu cho Nhà nước.
+a) Được xây dựng để tập hợp, lưu trữ dữ liệu thông tin về xử lý vi phạm
 
-2. Điều kiện:
+hành chính, hình sự trong lĩnh vực Lâm nghiệp theo quy định của pháp luật; cập
 
-a) Đối với động vật rừng, loài thủy sản thuộc Phụ lục I CITES còn sống do chủ sở hữu tự nguyện chuyển giao quyền sở hữu cho Nhà nước có hồ sơ chứng minh nguồn gốc hợp pháp;
+nhật, duy trì, khai thác và sử dụng trên môi trường điện tử; 
 
-b) Cơ sở cứu hộ động vật rừng, loài thủy sản có điều kiện bảo đảm công tác cứu hộ, phù hợp với loài động vật, thủy sản cần cứu hộ.
+b) Cơ sở dữ liệu vi phạm được kết nối, chia sẻ thông tin với Hệ thống
 
-3. Trình tự thực hiện:
+thông tin phân loại doanh nghiệp để thực hiện phân loại doanh nghiệp; 
 
-a) Thủ trưởng cơ quan, đơn vị có thẩm quyền xử lý quy định tại khoản 1 Điều này ban hành quyết định cứu hộ;
+c) Cơ sở dữ liệu vi phạm được khai thác để thực hiện các hoạt động quản lý
 
-b) Trường hợp phải chuyển giao động vật rừng, loài thủy sản thuộc Phụ lục I CITES đến cơ sở cứu hộ để tổ chức cứu hộ: cơ quan, người có thẩm quyền quyết định cứu hộ lập Biên bản bàn giao, tiếp nhận động vật rừng để cứu hộ theo Mẫu số 22 Phụ lục II ban hành kèm theo Thông tư này.
+nhà nước trong lĩnh vực Lâm nghiệp và lĩnh vực quản lý nhà nước có liên quan. 
 
-4. Xử lý động vật sau cứu hộ:
+3. Quản lý   H ệ   th ố ng thông tin phân   lo ạ i doanh nghi ệ p, Cơ s ở   d ữ   li ệ u vi p h ạ m : 
 
-a) Trường hợp động vật sau cứu hộ đủ điều kiện thả lại về môi trường tự nhiên thì cơ sở cứu hộ tổ chức thả lại động vật về môi trường tự nhiên theo quy định tại Điều 26 Thông tư này;
+a) Cục Lâm nghiệp và Kiểm lâm:   q u ả n lý   và v ậ n hành   H ệ   th ố ng   thông tin 
 
-b) Trường hợp động vật sau cứu hộ không đủ điều kiện thả lại về môi trường tự nhiên thì cơ sở cứu hộ có thể chuyển giao động vật rừng cho cơ quan quản lý chuyên ngành theo quy định tại Điều 28 Thông tư này;
+phân lo ạ i   doanh nghi ệ p , Cơ s ở   d ữ   li ệ u vi ph ạ m . C h ị u trách nhi ệ m đ ầ u tư trang 
 
-c) Trường hợp cá thể chết trong quá trình cứu hộ thì có thể chuyển giao theo quy định tại điểm b khoản này; trường hợp xác định bị bệnh, có khả năng gây dịch bệnh nguy hiểm thì thực hiện tiêu hủy theo quy định tại Điều 30 Thông tư này.
+thi ế t b ị   đ ồ ng b ộ   và b ố   trí ngu ồ n nhân l ự c phù h ợ p b ả o đ ả m duy trì H ệ   th ố ng 
 
-**Điều 28. Chuyển giao cho cơ quan quản lý chuyên ngành**
+thông tin phân lo ạ i doanh ngh i ệ p và Cơ s ở   d ữ   li ệ u vi ph ạ m ho ạ t đ ộ ng liên t ụ c ; 
 
-1. Đối tượng:
+b) Cơ quan tiếp nhận: chịu trách nhiệm đầu tư trang thiết bị đồng bộ; bố
 
-a) Động vật, loài thủy sản thuộc Danh mục loài nguy cấp, quý, hiếm Nhóm I, Phụ lục I CITES;
+trí nguồn nhân lực phù hợp bảo đảm duy trì Hệ thống thông tin phân loại doanh
 
-b) Động vật, loài thủy sản không thuộc điểm a khoản này, cơ quan quản lý chuyên ngành có văn bản đề nghị được tiếp nhận tài sản theo Mẫu số 23 Phụ lục II ban hành kèm theo Thông tư này.
+nghiệp, Cơ sở dữ liệu vi phạm hoạt động liên tục.
 
-2. Cơ sở tiếp nhận: cơ quan quản lý chuyên ngành do Bộ Nông nghiệp và Môi trường hoặc Ủy ban nhân dân cấp tỉnh công bố.
+---
 
-3. Trình tự thực hiện:
+27 
 
-a) Cơ quan chủ trì quản lý tài sản gửi văn bản tới cơ quan quản lý chuyên ngành đề nghị tiếp nhận tài sản, trừ trường hợp quy định tại điểm b khoản 1 Điều này. Cơ quan quản lý chuyên ngành có văn bản gửi cơ quan chủ trì quản lý tài sản về việc được tiếp nhận tài sản theo Mẫu số 23 Phụ lục II ban hành kèm theo Thông tư này để sử dụng vào mục đích bảo tồn, làm mẫu nhận dạng loài, nghiên cứu khoa học, đào tạo, giáo dục môi trường, bảo tàng chuyên ngành bảo đảm phù hợp với từng loài và điều kiện của nơi được chuyển giao;
+Chương IV 
 
-b) Trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn bản của cơ quan quản lý chuyên ngành, cơ quan chủ trì quản lý tài sản lập Phương án xử lý tài sản được xác lập quyền sở hữu toàn dân trình cơ quan, người có thẩm quyền quyết định phê duyệt theo quy định pháp luật quản lý, sử dụng tài sản công;
+TIẾP NHẬN, BẢO QUẢN, XỬ LÝ LÂM SẢN, ĐỘNG VẬT, THỰC VẬT
 
-c) Trong thời hạn 15 ngày làm việc kể từ ngày Phương án xử lý tài sản được xác lập quyền sở hữu toàn dân được phê duyệt, cơ quan chủ trì quản lý tài sản tổ chức bàn giao, tiếp nhận và lập Biên bản bàn giao, tiếp nhận động vật chuyển giao theo Mẫu số 07 ban hành kèm theo Nghị định số 77/2025/NĐ-CP.
+THUỘC DANH MỤC LOÀI NGUY CẤP, QUÝ, HIẾM, PHỤ LỤC CITES
 
-**Điều 29. Bán động vật cho tổ chức, cá nhân**
+LÀ TANG VẬT, VẬT CHỨNG HOẶC DO CHỦ SỞ HỮU TỰ NGUYỆN
 
-1. Đối tượng: động vật được xác lập quyền sở hữu toàn dân trừ động vật thuộc Danh mục nguy cấp, quý, hiếm Nhóm I, động vật thuộc Phụ lục I CITES và không xử lý được bằng một trong các hình thức quy định tại Điều 26, Điều 27 hoặc Điều 28 Thông tư này.
+CHUYỂN GIAO QUYỀN SỞ HỮU CHO NHÀ NƯỚC 
 
-2. Điều kiện: có quyết định phê duyệt Phương án xử lý tài sản được xác lập quyền sở hữu toàn dân.
+Mục 1 
 
-3. Cơ quan chủ trì quản lý tài sản lập hồ sơ nguồn gốc theo quy định tại Điều 10 Thông tư này, chuyển giao tài sản và hồ sơ cho tổ chức, cá nhân nhận chuyển giao quyền sở hữu.
+TIẾP NHẬN, BẢO QUẢN   LÂM S Ả N ,   Đ Ộ NG V Ậ T, TH Ự C V Ậ T THU Ộ C 
 
-**Điều 30. Tiêu hủy động vật**
+DANH M Ụ C LOÀI NGUY C Ấ P, QUÝ, HI Ế M ,   PH Ụ   L Ụ C CITES 
 
-1. Đối tượng: động vật, bộ phận sản phẩm của động vật mang dịch bệnh không thể bảo quản được hoặc không xử lý được bằng một trong các hình thức quy định tại Điều 26, Điều 27, Điều 28 hoặc Điều 29 Thông tư này.
+Điều 21. Tiếp nhận lâm sản, động vật, thực vật thuộc Danh mục loài
 
-2. Điều kiện: có quyết định phê duyệt Phương án xử lý tài sản được xác lập quyền sở hữu toàn dân.
+nguy cấp, quý, hiếm, Phụ lục CITES do chủ sở hữu tự nguyện chuyển giao
 
-3. Hình thức tiêu hủy: căn cứ vào tính chất, đặc điểm của động vật tiêu hủy, người có thẩm quyền quyết định một trong các hình thức tiêu hủy động vật sau: biện pháp duy trì độ ẩm cao hoặc sử dụng sản phẩm sinh học thân thiện môi trường để tăng hiệu quả phân hủy; biện pháp cơ học, thiêu đốt, chôn, sử dụng hóa chất hoặc các hình thức khác theo quy định của pháp luật để hủy động vật, bảo đảm động vật đó không còn tồn tại hoặc không còn giá trị sử dụng và không ảnh hưởng đến môi trường.
+quyền sở hữu cho Nhà nước 
 
-4. Trình tự thực hiện:
+1.   Cơ quan tiếp nhận gồm: 
 
-a) Thủ trưởng cơ quan, đơn vị có thẩm quyền xử lý động vật ban hành quyết định tiêu hủy động vật;
+a) Cơ quan Kiểm lâm sở tại tiếp nhận thực vật rừng, động vật rừng; loài
 
-b) Thành phần tham gia tiêu hủy gồm đại diện: cơ quan chủ trì tiêu hủy động vật; cơ quan Kiểm lâm sở tại. Cơ quan chủ trì tiêu hủy có thể mời người chứng kiến, cơ quan có thẩm quyền tiến hành tố tụng trong trường hợp động vật là vật chứng, chính quyền địa phương, cơ quan truyền thông và các tổ chức, cá nhân có liên quan khác tham gia;
+động vật, thực vật hoang dã nguy cấp thuộc Phụ lục CITES; 
 
-c) Ngay sau khi kết thúc tiêu hủy: cơ quan chủ trì tiêu hủy động vật lập Biên bản tiêu hủy động vật rừng theo Mẫu số 24 Phụ lục II ban hành kèm theo Thông tư này.
+b) Cơ quan quản lý nhà nước về thủy sản cấp tỉnh tiếp nhận loài thủy sản
 
-**Điều 31. Lưu giữ hồ sơ, báo cáo kết quả tiếp nhận, xử lý động vật**
+thuộc Danh mục loài nguy cấp, quý, hiếm Nhóm I, Phụ lục I CITES; 
 
-1. Cơ quan, đơn vị tiếp nhận, xử lý động vật có trách nhiệm lưu giữ hồ sơ tiếp nhận, xử lý động vật theo quy định tại Thông tư này.
+c)   Cơ quan qu ả n lý chuyên ngành   thu ộ c   Ủ y ban nhân dân c ấ p t ỉ nh ho ặ c 
 
-2. Cơ quan quản lý chuyên ngành định kỳ hằng năm trước ngày 30 tháng 01 báo cáo kết quả tiếp nhận, xử lý động vật theo nhóm loài về cơ quan Kiểm lâm sở tại, cơ quan chuyên ngành thủy sản đối với quan quản lý chuyên ngành do Ủy ban dân dân cấp tỉnh công bố hoặc Cục Lâm nghiệp và Kiểm lâm, Cục Thủy sản và Kiểm ngư đối với cơ quan quản lý chuyên ngành do Bộ Nông nghiệp và Môi trường công bố. Báo cáo định kỳ hằng năm tính từ ngày 15 tháng 12 năm trước kỳ báo cáo đến ngày 14 tháng 12 của kỳ báo cáo.
+B ộ   Nông nghi ệ p và Môi trư ờ ng   theo quy đ ị nh t ạ i kho ả n 3 Đi ề u 7   Ngh ị   đ ị nh s ố 
 
-3. Hạt Kiểm lâm tổng hợp, định kỳ trước ngày 30 tháng 01 hằng năm báo cáo kết quả tiếp nhận, xử lý động vật trên địa bàn (nếu có) về Kiểm lâm cấp tỉnh. Báo cáo định kỳ hằng năm tính từ ngày 15 tháng 12 năm trước kỳ báo cáo đến ngày 14 tháng 12 của kỳ báo cáo.
+77/2025/NĐ - CP   ngày 01 tháng 4 năm 2025 c ủ a Chính ph ủ   quy đ ị nh trình t ự , th ủ 
 
-4. Sở Nông nghiệp và Môi trường định kỳ hằng năm báo cáo trước ngày 30 tháng 01 hằng năm kết quả tiếp nhận, xử lý động vật trên địa bàn (nếu có) về Bộ Nông nghiệp và Môi trường. Báo cáo định kỳ hằng năm tính từ ngày 15 tháng 12 năm trước kỳ báo cáo đến ngày 14 tháng 12 của kỳ báo cáo.
+t ụ c xác l ậ p quy ề n s ở   h ữ u toàn dâ n v ề   tài s ả n và x ử   lý đ ố i v ớ i tài s ả n đư ợ c xác 
 
-**Chương V**
+l ậ p quy ề n s ở   h ữ u toàn dân (sau đây vi ế t t ắ t là   Ngh ị   đ ị nh s ố   77/2025/NĐ - CP ) . 
 
-**TỔ CHỨC THỰC HIỆN**
+2.   Trình t ự   ti ế p nh ậ n : 
 
-**Điều 32. Trách nhiệm thi hành**
+a) Chủ sở hữu   thông báo   t ớ i   m ộ t trong nh ữ ng cơ quan quy đ ị nh t ạ i   kho ả n 
 
-1. Cục Lâm nghiệp và Kiểm lâm:
+1 Đi ề u này   v ề   vi ệ c t ự   nguy ệ n chuy ể n gia o th ự c v ậ t   r ừ ng , đ ộ ng v ậ t r ừ ng, th ủ y 
 
-a) Tổ chức tuyên truyền, phổ biến, triển khai thực hiện Thông tư này trên phạm vi cả nước;
+s ả n cho Nhà nư ớ c; kèm theo h ồ   sơ, gi ấ y t ờ   ch ứ ng minh quy ề n s ở   h ữ u h ợ p pháp 
 
-b) Hướng dẫn, kiểm tra việc thực hiện trình tự, thủ tục khai thác lâm sản; hoạt động chấp hành pháp luật về quản lý, truy xuất nguồn gốc lâm sản; phân loại doanh nghiệp, xử lý động vật, thực vật rừng trên phạm vi toàn quốc theo quy định tại Thông tư này;
+đ ố i v ớ i th ự c v ậ t, đ ộ ng v ậ t t ự   nguy ệ n chuy ể n giao quy ề n s ở   h ữ u cho Nhà nư ớ c ; 
 
-c) Xây dựng, vận hành hệ thống thông tin trong quản lý, truy xuất nguồn gốc lâm sản; hệ thống về cấp và quản lý mã số vùng trồng rừng nguyên liệu phục vụ truy xuất nguồn gốc lâm sản gắn với quản lý rừng bền vững và chứng chỉ rừng; xây dựng cơ sở dữ liệu để ứng dụng chuyển đổi số trong quản lý, truy xuất nguồn gốc lâm sản;
+b)   Cơ quan ti ế p nh ậ n l ậ p Biên b ả n   bàn giao, ti ế p nh ậ n   theo M ẫ u s ố   22 
 
-d) Xây dựng, quản lý, vận hành Hệ thống thông tin phân loại doanh nghiệp và Cơ sở dữ liệu vi phạm về lâm nghiệp; kiểm tra, quá trình phân loại doanh nghiệp và sự tuân thủ pháp luật về sản xuất, chế biến gỗ, xử lý vi phạm; tổng hợp, báo cáo kết quả thực hiện phân loại doanh nghiệp trên phạm vi cả nước;
+Ph ụ   l ụ c II   ban hành kèm theo   Thông tư này . 
 
-đ) Tổng hợp, báo cáo tình hình chấp hành quy định về quản lý, truy xuất nguồn gốc lâm sản trong phạm vi toàn quốc tại Thông tư này;
+3. Trách nhiệm của cơ quan tiếp nhận: 
 
-e) Chủ trì phối hợp với Cục Thủy sản và Kiểm ngư tham mưu Bộ Nông nghiệp và Môi trường ban hành quyết định, công khai danh sách cơ quan quản lý chuyên ngành thuộc Bộ Nông nghiệp và Môi trường được nhận tài sản quy định tại điểm d, điểm đ khoản 2 Điều 7 Nghị định số 77/2025/NĐ-CP trên Cổng thông tin điện tử của Bộ Nông nghiệp và Môi trường.
+a) Đối với cơ quan tại điểm a, điểm b khoản 1 Điều này, cơ quan quản lý
 
-2. Cục Thủy sản và Kiểm ngư:
+chuyên ngành do Ủy ban nhân dân cấp tỉnh công bố: sau khi tiếp nhận động vật,
 
-a) Phối hợp với Cục Lâm nghiệp và Kiểm lâm tham mưu Bộ Nông nghiệp và Môi trường quyết định, công khai danh sách cơ quan quản lý chuyên ngành thuộc Bộ Nông nghiệp và Môi trường được nhận tài sản quy định tại điểm d, điểm đ khoản 2 Điều 7 Nghị định số 77/2025/NĐ-CP trên Cổng thông tin điện tử của Bộ Nông nghiệp và Môi trường;
+thực vật, cơ quan tiếp nhận trình cơ quan, người có thẩ m quyền ban hành quyết
 
-b) Hướng dẫn, kiểm tra xử lý loài thủy sản thuộc Danh mục loài nguy cấp quý, hiếm hoặc Phục lục I CITES là tang vật, vật chứng hoặc do chủ sở hữu tự nguyện chuyển giao quyền sở hữu cho nhà nước trên phạm vi toàn quốc theo quy định tại Thông tư này.
+định xác lập quyền sở hữu toàn dân về tài sản và quyết định phê duyệt phương
 
-3. Cục Bảo tồn thiên nhiên và Đa dạng sinh học: phối hợp với Cục Lâm nghiệp và Kiểm lâm tham mưu Bộ Nông nghiệp và Môi trường quyết định, công khai danh sách cơ quan quản lý chuyên ngành thuộc Bộ Nông nghiệp và Môi trường được nhận tài sản quy định tại điểm d, điểm đ khoản 2 Điều 7 Nghị định số 77/2025/NĐ-CP trên Cổng thông tin điện tử của Bộ Nông nghiệp và Môi trường.
+---
 
-4. Ủy ban nhân dân cấp tỉnh:
+28 
 
-a) Chỉ đạo Sở Nông nghiệp và Môi trường tổ chức triển khai và hướng dẫn thực hiện Thông tư này trên địa bàn tỉnh;
+án x ử   lý tài s ả n đư ợ c xác l ậ p quy ề n s ở   h ữ u toàn dân theo quy đ ị nh t ạ i   Ngh ị   đ ị nh 
 
-b) Chỉ đạo Sở Nông nghiệp và Môi trường chủ trì, phối hợp với các cơ quan, đơn vị liên quan xây dựng quy chế phối hợp và tổ chức thực hiện phân loại doanh nghiệp, xác minh thông tin do doanh nghiệp kê khai theo quy định tại Thông tư này;
+s ố   77/2025/NĐ - CP ; 
 
-c) Chỉ đạo Sở Tài chính chủ trì, phối hợp với các cơ quan có liên quan tham mưu cho Ủy ban nhân dân cấp tỉnh phân cấp cho tổ chức, cá nhân thẩm quyền xác lập tài sản được xác lập quyền sở hữu toàn dân và phê duyệt phương án xử lý tài sản được xác lập quyền sở hữu toàn dân.
+b)   Đ ố i v ớ i cơ quan qu ả n lý   chuyên ngành thu ộ c   B ộ   Nông nghi ệ p và Môi 
 
-5. Cơ quan Kiểm lâm cấp tỉnh:
+trư ờ ng:   s au khi ti ế p nh ậ n   l âm s ả n ,   đ ộ ng v ậ t, th ự c v ậ t thu ộ c Danh m ụ c loài nguy 
 
-a) Tổng hợp, lưu giữ thông tin về tình hình khai thác; nhập, xuất lâm sản xử lý lâm sản; động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm hoặc thuộc Phụ lục CITES; loài thủy sản thuộc Phụ lục I CITES trên địa bàn tỉnh; tổ chức kiểm tra, giám sát, truy xuất nguồn gốc lâm sản theo quy định của Thông tư này;
+c ấ p, quý, hi ế m ,   Ph ụ   l ụ c CITES   lập hồ sơ, trình cơ quan, người có thẩm quyền 
 
-b) Thực hiện phân loại doanh nghiệp; kiểm tra, giám sát sự tuân thủ pháp luật của doanh nghiệp theo thẩm quyền, xử lý khi phát hiện có vi phạm; lưu trữ hồ sơ, bảo đảm an toàn thông tin dữ liệu trên Hệ thống thông tin phân loại doanh nghiệp; tổng hợp, báo cáo kết quả thực hiện phân loại doanh nghiệp trên địa bàn theo quy định tại Thông tư này;
+ban hành quyết định xác lập quyền sở hữu toàn dân về tài sản   và   quyết định phê 
 
-c) Quản lý hồ sơ lâm sản theo quy định tại Thông tư này;
+duyệt   P hương án xử lý tài sản được xác lập quyền sở hữu toàn dân , như sau: 
 
-d) Báo cáo tình hình quản lý, kiểm tra, truy xuất nguồn gốc lâm sản; cơ sở nuôi động vật, trồng thực vật trên địa bàn theo quy định tại Thông tư này;
+Đ ố i v ớ i tài s ả n là th ự c v ậ t r ừ ng, đ ộ ng v ậ t r ừ ng : cơ quan ti ế p nh ậ n t rình 
 
-đ) Thống kê, báo cáo gỗ do cơ quan Kiểm lâm và các cơ quan chức năng khác tịch thu trên địa bàn quản lý định kỳ hằng năm hoặc khi có yêu cầu của cấp có thẩm quyền theo mẫu tại Mục B Mẫu số 25 Phụ lục II ban hành kèm theo Thông tư này.
+C ụ c trư ở ng C ụ c Lâm nghi ệ p và Ki ể m lâm   quy ế t đ ị nh xác l ậ p quy ề n s ở   h ữ u toàn 
 
-6. Hạt Kiểm lâm:
+dân   đ ố i v ớ i   tà i s ả n và phê duy ệ t   P hương án x ử   lý tài s ả n   đư ợ c xác l ậ p quy ề n s ở 
 
-a) Tổng hợp, lưu giữ thông tin về tình hình khai thác; nhập, xuất lâm sản; xử lý lâm sản; động vật, thực vật thuộc Danh mục loài nguy cấp, quý hiếm hoặc thuộc Phụ lục CITES và tang vật, vật chứng hoặc do chủ sở hữu tự nguyện chuyển giao quyền sở hữu cho nhà nước trên địa bàn quản lý; tổ chức kiểm tra, xác minh, giám sát, truy xuất nguồn gốc lâm sản theo quy định của Thông tư này;
+h ữ u toàn dân . 
 
-b) Quản lý hồ sơ theo quy định tại Thông tư này;
+Đối với loài thủy sản thuộc Danh mục loài nguy cấp, quý, hiếm Nhóm I,
 
-c) Lưu giữ hồ sơ do chủ rừng, chủ lâm sản nộp theo quy định tại Chương II, III Thông tư này; quản lý Sổ theo dõi xác nhận Bảng kê lâm sản theo Mẫu số 06 Phụ lục II ban hành kèm theo Thông tư này;
+Phụ lục I CITES: cơ quan tiếp nhận trình Cục trưởng Cục Thủy sản và Kiểm
 
-d) Tổng hợp báo cáo theo Mẫu số 29 Phụ lục II ban hành kèm theo Thông tư này về tình hình nhập, xuất lâm sản trên địa bàn gửi về cơ quan Kiểm lâm cấp tỉnh chậm nhất sau 10 ngày làm việc kể từ ngày nhận được báo cáo của tổ chức, hộ kinh doanh theo quy định tại điểm c khoản 7 Điều này.
+ngư   quy ế t đ ị nh xác l ậ p quy ề n s ở   h ữ u toàn dân   đ ố i v ớ i   tài s ả n và phê duy ệ t 
 
-7. Tổ chức, cá nhân, hộ kinh doanh, hộ gia đình, cộng đồng dân cư:
+P hương án x ử   lý tài s ả n đư ợ c xác l ậ p quy ề n s ở   h ữ u toàn dân . 
 
-a) Lưu giữ đầy đủ hồ sơ lâm sản theo quy định tại Thông tư này;
+4. Cơ quan tiếp nhận   có trách nhiệm bảo quản tài sản từ khi tiếp nhận đến 
 
-b) Chịu trách nhiệm về tính chính xác và chấp hành quy định kiểm tra, truy xuất của cơ quan chức năng có thẩm quyền;
+khi xử lý   tài sản   theo phương án được cơ quan, người có thẩm quyền   quyết định 
 
-c) Đối với tổ chức, hộ kinh doanh: lập Sổ theo dõi nhập, xuất lâm sản theo Mẫu số 04 Phụ lục II ban hành kèm theo Thông tư này; cập nhật đầy đủ, kịp thời tình hình nhập xuất lâm sản và xuất trình khi có yêu cầu kiểm tra của cơ quan có thẩm quyền; báo cáo tình hình nhập, xuất lâm sản cho cơ quan Kiểm lâm sở tại theo Mẫu số 29 Phụ lục II ban hành kèm theo Thông tư này theo định kỳ hằng năm trước ngày 15 tháng 01. Thời gian chốt số liệu báo cáo được tính từ ngày 15 tháng 12 năm trước kỳ báo cáo đến ngày 14 tháng 12 của kỳ báo cáo. Trừ trường hợp tổ chức, hộ kinh doanh cập nhật tình hình nhập, xuất lâm sản trên hệ thống quản lý, truy xuất nguồn gốc lâm sản.
+phê   duyệt   phương án xử lý tài sản   được xác lập quyền sở hữu toàn dân . 
 
-**Điều 33. Hiệu lực thi hành**
+Điều 22.   B ả o qu ả n   lâm s ả n ,   đ ộ ng v ậ t, th ự c v ậ t   thu ộ c   Danh m ụ c loài 
 
-1. Thông tư này có hiệu lực kể từ ngày 01 tháng 7 năm 2025, trừ trường hợp quy định tại khoản 2 Điều này.
+nguy c ấ p, quý, hi ế m ,   Ph ụ   l ụ c CITES   l à tang v ậ t, v ậ t ch ứ ng trong quá trình 
 
-2. Quy định Phân loại doanh nghiệp tại Chương III Thông tư này có hiệu lực kể từ ngày 16 tháng 5 năm 2026. Thông tư số 21/2021/TT-BNNPTNT ngày 29 tháng 12 năm 2021 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định phân loại doanh nghiệp chế biến và xuất khẩu gỗ; Điều 13 Thông tư số 22/2023/TT-BNNPTNT ngày 15 tháng 12 năm 2023 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn sửa đổi, bổ sung một số điều của các Thông tư trong lĩnh vực lâm nghiệp hết hiệu lực kể từ ngày quy định về Phân loại doanh nghiệp tại Chương III Thông tư này có hiệu lực thi hành.
+t ạ m gi ữ 
 
-3. Các quy định sau hết hiệu lực kể từ ngày Thông tư này có hiệu lực thi hành:
+1.   Cơ quan t ạ m gi ữ   l âm s ả n ,   đ ộ ng v ậ t, th ự c v ậ t   thu ộ c   Danh m ụ c loài nguy 
 
-a) Thông tư số 26/2022/TT-BNNPTNT ngày 30 tháng 11 năm 2022 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định về quản lý, truy xuất nguồn gốc lâm sản;
+c ấ p, quý, hi ế m ,   Ph ụ   l ụ c CITES   trong th ờ i gian ch ờ   x ử   lý   có trách nhi ệ m nuôi 
 
-b) Thông tư số 29/2019/TT-BNN ngày 31 tháng 12 năm 2019 của Bộ Nông nghiệp và Phát triển nông thôn quy định xử lý động vật rừng là tang vật, vật chứng; động vật rừng do tổ chức, cá nhân tự nguyện giao nộp Nhà nước;
+dư ỡ ng , chăm sóc   đ ố i v ớ i   lâm s ả n ,   đ ộ ng v ậ t, th ự c v ậ t thu ộ c Danh m ụ c loài nguy 
 
-c) Điều 2 và Điều 12 Thông tư số 22/2023/TT-BNNPTNT ngày 15 tháng 12 năm 2023 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn sửa đổi, bổ sung một số điều của các Thông tư trong lĩnh vực lâm nghiệp;
+c ấ p, quý, hi ế m ho ặ c thu ộ c Ph ụ   l ụ c CITES ,   loài th ủ y s ả n thu ộ c Ph ụ   l ụ c I C ITES 
 
-d) Khoản 2a Điều 6 Thông tư số 12/2019/TT-BNNPTNT ngày 25 tháng 10 năm 2019 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định về thống kê ngành lâm nghiệp được sửa đổi, bổ sung năm 2023;
+còn s ố ng; b ả o qu ả n   m ẫ u v ậ t   đã ch ế t   và   s ả n ph ẩ   m c ủ a   chúng . Bi ệ n pháp b ả o qu ả n 
 
-đ) Khoản 2 Điều 31 Thông tư số 22/2024/TT-BNNPTNT ngày 11 tháng 12 năm 2024 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định một số nội dung về lâm nghiệp thực hiện Chương trình phát triển lâm nghiệp bền vững và Chương trình mục tiêu quốc gia phát triển kinh tế - xã hội vùng đồng bào dân tộc thiểu số và miền núi giai đoạn 2021-2030, giai đoạn I: từ năm 2021 đến năm 2025.
+phù h ợ p v ớ i đ ặ c đi ể m t ừ ng   loài ;   b ả o đ ả m v ệ   sinh, an toàn cho ngư ờ i và   loài   đó . 
 
-4. Quy định chuyển tiếp:
+2. Trường hợp cơ quan tạm giữ không có điều kiện nuôi dưỡng, bảo quản
 
-a) Trường hợp chủ lâm sản cất giữ gỗ có nguồn gốc hợp pháp khai thác từ rừng tự nhiên, gỗ sau xử lý tịch thu, gỗ thuộc Danh mục loài nguy cấp, quý, hiếm, gỗ thuộc Phụ lục CITES trước thời điểm Thông tư này có hiệu lực thi hành khi mua bán, chuyển giao quyền sở hữu, vận chuyển thực hiện xác nhận Bảng kê lâm sản theo quy định tại Điều 5 Thông tư này;
+lâm sản; động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm hoặc
 
-b) Trường hợp hồ sơ khai thác lâm sản đã được phê duyệt trước ngày Thông tư này có hiệu lực nhưng chưa khai thác hoặc đang khai thác thì tiếp tục thực hiện theo quy định tại Thông tư số 26/2022/TT-BNNPTNT ngày 30 tháng 12 năm 2022 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định về quản lý, truy xuất nguồn gốc lâm sản và Điều 2 Thông tư số 22/2023/TT-BNNPTNT ngày 15 tháng 12 năm 2023 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn sửa đổi, bổ sung một số điều của các Thông tư trong lĩnh vực lâm nghiệp. Hồ sơ lâm sản sau khai thác thực hiện theo quy định tại Thông tư này;
+thuộc Phụ lục CITES, loài thủy sản thuộc Phụ lục I CITES thì tạm giao cho   c ơ 
 
-c) Trường hợp doanh nghiệp chế biến và xuất khẩu gỗ đã nộp hồ sơ phân loại doanh nghiệp trước thời điểm quy định tại khoản 3 Điều này có hiệu lực thi hành nhưng chưa được phân loại hoặc đang thực hiện đánh giá phân loại thì tiếp tục thực hiện theo quy định tại Thông tư số 21/2021/TT-BNNPTNT ngày 29 tháng 12 năm 2021 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định về phân loại doanh nghiệp chế biến và xuất khẩu gỗ;
+quan qu ả n lý chuyên ngành ho ặ c   cơ s ở   có   đ ủ   đi ề u ki ệ n đ ể   nuôi dư ỡ ng, b ả o qu ả n 
 
-d) Trường hợp các cơ quan, đơn vị nêu tại Thông tư này sáp nhập, hợp nhất, giải thể, chấm dứt hoạt động dẫn đến thay đổi tên gọi thì sử dụng theo tên gọi mới của cơ quan, đơn vị đó; trường hợp chuyển giao nhiệm vụ liên quan đến xác lập quyền sở hữu toàn dân về tài sản quy định tại Thông tư này cho cơ quan, đơn vị mới thì cơ quan, đơn vị mới thực hiện nhiệm vụ của cơ quan, đơn vị có nhiệm vụ được chuyển giao;
+trong th ờ i gian ch ờ   quy ế t đ ị nh x ử   lý c ủ a ngư ờ i có th ẩ   m   quy ề n; vi ệ c   t ạ m   giao 
 
-đ) Thay thế cụm từ “Bộ Nông nghiệp và Phát triển nông thôn” bằng cụm từ “Bộ Nông nghiệp và Môi trường”; cụm từ “Cục Lâm nghiệp”, “Cục Kiểm lâm” bằng cụm từ “Cục Lâm nghiệp và Kiểm lâm” tại các Thông tư trong lĩnh vực lâm nghiệp.
+lâm s ả n ,   đ ộ ng v ậ t, th ự c v ậ t thu ộ c Danh m ụ c loài nguy c ấ p, quý, hi ế m ,   Ph ụ   l ụ c 
 
-5. Trường hợp văn bản quy phạm pháp luật được viện dẫn tại Thông tư này được sửa đổi, bổ sung, thay thế thì áp dụng theo văn bản sửa đổi, bổ sung, thay thế đó.
+CITES ,   loài th ủ y s ả n thu ộ c Ph ụ   l ụ c I CITES   ph ả i   l ậ p   B iên b ả n   bàn giao, ti ế p 
 
-Trong quá trình thực hiện, nếu có vướng mắc, cơ quan, tổ chức, cá nhân kịp thời phản ánh về Bộ Nông nghiệp và Môi trường để xem xét, sửa đổi, bổ sung./.
+nh ậ n   theo M ẫ u s ố   22   Ph ụ   l ụ c II ban hành kèm theo Thông tư này .
 
- 
+---
 
-|  |  |
-| --- | --- |
-| ***Nơi nhận:*** - Thủ tướng Chính phủ;  - Các Phó Thủ tướng Chính phủ;  - Văn phòng Chính phủ;  - Các Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ;  - Cục Kiểm tra văn bản và Quản lý xử lý vi phạm hành chính (Bộ Tư pháp);  - UBND các tỉnh, thành phố trực thuộc Trung ương;  - Sở NN&MT các tỉnh, thành phố trực thuộc Trung ương;  - Công báo, Cổng thông tin điện tử Chính phủ;  - Bộ NN&MT: Bộ trưởng, các Thứ trưởng, các đơn vị thuộc Bộ, Cổng thông tin điện tử Bộ;  - Lưu: VT, LNKL (10). | **KT. BỘ TRƯỞNG  THỨ TRƯỞNG**          **Nguyễn Quốc Trị** |
+29 
 
- 
+Mục 2 
 
-**PHỤ LỤC I**
+XỬ LÝ GỖ, THỰC VẬT NGOÀI GỖ LÀ TANG VẬT, VẬT CHỨNG BỊ
 
-HƯỚNG DẪN ĐO, TÍNH KHỐI LƯỢNG LÂM SẢN  
- *(Ban hành kèm theo Thông tư số: 26/2025/TT-BNNMT ngày 24 tháng 6 năm* *2025 của Bộ trưởng Bộ Nông nghiệp và Môi trường)*
+TỊCH THU 
 
-1. Đối với gỗ tròn, gỗ đẽo thành hình dạng khối trụ tròn:
+Đi ề u   23 .   H ình th ứ c   x ử   lý ,   trình t ự   th ự c hi ệ n 
 
-a) Chiều dài: Đo khoảng cách ngắn nhất giữa mặt cắt ngang ở hai đầu của lóng gỗ. Nếu mặt cắt ngang của đầu gỗ bị nghiêng, bị lõm thì đo ở vị trí có chiều dài ngắn nhất giữa hai đầu lóng gỗ. Đơn vị tính là m, lấy số nguyên và hai số hàng thập phân sau số hàng đơn vị;
+1 . Hình th ứ c x ử   lý:   G ỗ , th ự c v ậ t ngoài g ỗ   b ị   t ị ch thu đư ợ c x ử   lý b ằ ng 
 
-b) Đường kính: Đo ở hai đầu lóng gỗ (trừ phần vỏ cây); mỗi đầu lóng gỗ đo ở hai vị trí có đường kính lớn nhất và nhỏ nhất sau đó tính trị số trung bình cộng để xác định đường kính của mỗi đầu lóng gỗ; đường kính trung bình của lóng gỗ được tính bằng trị số trung bình cộng đường kính của hai đầu lóng gỗ; đơn vị đo là cm; lấy số nguyên và một số hàng thập phân sau số hàng đơn vị;
+m ộ t trong các hình th ứ c theo th ứ   t ự   ưu tiên t ừ   đi ể m a đ ế n đ kho ả n này, trư ờ ng 
+
+h ợ p không x ử   lý đư ợ c b ằ ng hình th ứ c trư ớ c m ớ i áp d ụ ng hình th ứ c x ử   lý k ế 
+
+ti ế p , g ồ m: 
+
+a) Trả lại quốc gia nơi khai thác hoặc quốc gia xuất khẩ u   đ ố i v ớ i g ỗ , th ự c 
+
+v ậ t ngoài g ỗ   có ngu ồ n g ố c nư ớ c ngoài ; 
+
+b) Giao tài sản là gỗ, thực vật ngoài gỗ cho cơ quan quản lý chuyên ngành; 
+
+c) Giao, điều chuyển tài sản là gỗ, thực vật ngoài gỗ cho cơ quan, tổ chức,
+
+đơn vị để quản lý, sử dụng; 
+
+d) Bán thực vật ngoài gỗ cho tổ chức, cá nhân; 
+
+đ) Tiêu hủy đối với trường hợp không áp dụng được bằng một trong các
+
+hình thức quy định tại điểm a, điểm b, điểm c và điểm d khoản này. 
+
+2 .   Tr ả   l ạ i qu ố c gia nơi khai thác ho ặ c qu ố c gia xu ấ t kh ẩ   u đ ố i v ớ i   g ỗ , th ự c 
+
+v ậ t r ừ ng ngoài g ỗ   có ngu ồ n g ố c nư ớ c ngoài: 
+
+a) Đ ố i v ớ i g ỗ , th ự c v ậ t   ngoài g ỗ   thu ộ c Ph ụ   l ụ c CITES:   t h ự c hi ệ n theo quy 
+
+đ ị nh   c ủ a B ộ   trư ở ng B ộ   Nông ngh i ệ p và Môi trư ờ ng   v ề   qu ả n lý loài nguy c ấ p, 
+
+quý, hi ế m ;   nuôi đ ộ ng v ậ t r ừ ng thông thư ờ ng   và th ự c thi Công ư ớ c v ề   buôn bán 
+
+qu ố c t ế   các loài đ ộ ng v ậ t, th ự c v ậ t hoang dã nguy c ấ p ; 
+
+b )   Đ ố i v ớ i   g ỗ   t ị ch thu không thu ộ c Ph ụ   l ụ c CITES :   c ơ quan   ch ủ   trì qu ả n 
+
+lý tài s ả n   quy đ ị nh t ạ i Đi ề u 5 Ngh ị   đ ị nh s ố   77/2025/NĐ - CP   (sau đây vi ế t t ắ t là 
+
+cơ quan ch ủ   trì qu ả n lý tài s ả n)   báo cáo cơ quan c ấ p trên có văn b ả n   g ử i   B ộ , 
+
+Ngành   ch ủ   qu ả n   đ ề   ngh ị   qu ố c gia nơi khai thác ti ế p nh ậ n g ỗ   t ị ch thu.   T rong th ờ i 
+
+h ạ n 30 ngày   làm vi ệ c   k ể   t ừ   ngà y B ộ , Ngành   ch ủ   qu ả n   đ ề   ngh ị   qu ố c gia nơi khai 
+
+thác   ti ế p nh ậ n g ỗ   t ị ch thu mà qu ố c gia nơi khai thác   t ừ   ch ố i ti ế p nh ậ n ho ặ c không 
+
+ph ả n h ồ i thì   g ỗ   t ị ch thu   đư ợ c   áp d ụ ng   x ử   lý   b ằ ng m ộ t trong các hình th ứ c   quy 
+
+đ ị nh t ạ i   kho ả n   3 ,   kho ả n   4 , kho ả n   5   ho ặ c kho ả n   6   Đi ề u này . 
+
+Trư ờ ng h ợ p không xác đ ị nh đư ợ c qu ố c gia nơi khai thác   thì   áp d ụ ng   x ử   lý 
+
+b ằ ng m ộ t trong các hình th ứ c   quy đ ị nh t ạ i   kho ả n   3 ,   kho ả n   4 ,   kho ả n   5   ho ặ c 
+
+kho ả n   6   Đi ề u này. 
+
+3 .   Giao tài s ả n   là g ỗ , th ự c v ậ t ngoài g ỗ   cho cơ quan qu ả n lý chuyên ngành:
+
+---
+
+30 
+
+a) Đ ố i v ớ i   g ỗ , th ự c v ậ t   ngoài g ỗ   thu ộ c Danh m ụ c loài nguy c ấ p, quý, hi ế m 
+
+Nhóm I, Ph ụ   l ụ c I CITES,   c ơ quan ch ủ   trì qu ả n lý tài s ả n g ử i văn b ả n t ớ i cơ 
+
+quan qu ả n lý chuyên ngành đ ề   ngh ị   ti ế p nh ậ n tài s ả n . Cơ quan qu ả n lý chuyên 
+
+ngành có văn b ả n g ử i cơ quan ch ủ   trì qu ả n   lý tài s ả n v ề   vi ệ c ti ế p nh ậ n tài s ả n 
+
+theo M ẫ u s ố   2 3   Ph ụ   l ụ c II ban hành kèm theo Thông tư này   đ ể   s ử   d ụ ng vào m ụ c 
+
+đích b ả o t ồ n, nh ậ n d ạ ng loài, nghiên c ứ u khoa h ọ c, đào t ạ o, giáo d ụ c môi 
+
+trư ờ ng, b ả o tàng chuyên ngành b ả o đ ả m phù h ợ p v ớ i t ừ ng lo ạ i   lâm s ả n   v à đi ề u 
+
+ki ệ n c ủ a nơi đư ợ c chuy ể n giao; 
+
+b) Đ ố i v ớ i g ỗ , th ự c v ậ t ngoài g ỗ   không thu ộ c Danh m ụ c loài nguy c ấ p, 
+
+quý, hi ế m Nhóm I, Ph ụ   l ụ c I CITES:   c ơ quan qu ả n lý chuyên ngành có   v ăn b ả n 
+
+đ ề   ngh ị   đư ợ c   ti ế p nh ậ n tài s ả n theo M ẫ u s ố   2 3   Ph ụ   l ụ c II ban hành kèm theo 
+
+Thông tư này   g ử i cơ quan ch ủ   trì qu ả n lý tài s ả n ; 
+
+c)   Trong th ờ i h ạ n   10   ngày làm vi ệ c, k ể   t ừ   ngày nh ậ n đư ợ c văn b ả n đ ề 
+
+ngh ị   quy đ ị nh t ạ i đi ể m a   ho ặ c   đi ể m b kho ả n này,   c ơ quan ch ủ   trì qu ả n lý   tài s ả n 
+
+l ậ p   Phương án x ử   lý tài s ả n đư ợ c xác l ậ p quy ề n s ở   h ữ u toà n dân trình cơ quan , 
+
+ngư ờ i   có th ẩ   m quy ề n   quy ế t đ ị nh   phê duy ệ t ; 
+
+d)   Trong th ờ i h ạ n   1 5 ngày làm vi ệ c, k ể   t ừ   ngày Phương án x ử   lý tài s ả n 
+
+đư ợ c xác l ậ p quy ề n s ở   h ữ u toàn dân đư ợ c phê duy ệ t, c ơ quan ch ủ   trì qu ả n lý tài 
+
+s ả n   t ổ   ch ứ c giao,   nh ậ n và l ậ p Biên b ả n bàn   giao, ti ế p nh ậ n theo M ẫ u s ố   0 7   ban 
+
+hành kèm theo Ngh ị   đ ị nh s ố   77/2025/NĐ - CP. 
+
+4 .   Giao, điều chuyển cho cơ quan, đơn vị   quản lý,   sử dụng   đối với   gỗ, 
+
+thực vật ngoài gỗ không thuộc Danh mục   loài nguy cấp, quý, hiếm Nhóm I ,   Phụ 
+
+lục I CITES : 
+
+a) Cơ quan, đơn vị   có   nhu cầu sử dụng gỗ tịch thu   để xây dựng trụ sở, 
+
+hình thành máy móc, thiết bị làm việc của cơ quan nhà nước, xây dựng các công 
+
+trình công cộng phục vụ cho nhu cầu dân sinh như cơ sở y tế công lập, cơ sở 
+
+giáo dục công lập, các trung tâm văn hóa, thể thao   công lập, cơ sở tôn giáo, tín 
+
+ngưỡng   có   v ăn bản đề nghị   được tiếp nhận tài sản là gỗ, thực vật ngoài gỗ   theo 
+
+Mẫu số   2 3   tại   Phụ lục I I   ban hành kèm theo Thông tư này gửi   c ơ quan chủ trì 
+
+quản lý tài sản; 
+
+b)   Trong th ờ i h ạ n 05 ngày làm vi ệ c, k ể   t ừ   ngày nh ậ n đư ợ c   văn bản đề 
+
+nghị   tại điểm a khoản này ,   c ơ quan   chủ trì   quản lý tài sản   lập Phương án xử lý 
+
+tài sản được xác lập quyền sở hữu toàn dân   trình   cơ quan, người có   thẩm quyền 
+
+quyết định   phê duyệt ; 
+
+c)   Trong th ờ i h ạ n   15   ngày làm vi ệ c, k ể   t ừ   ngày   Phương án xử lý   tài sản 
+
+được xác lập quyền sở hữu toàn dân   được phê duyệt ,   c ơ quan chủ trì quản lý tài
+
+---
+
+31 
+
+sản   t ổ chức giao, nhận và lập Biên bản   bàn giao, tiếp   nhận theo Mẫu số 0 7   ban 
+
+hành kèm theo Nghị định số 77/2025/NĐ - CP. 
+
+5 .   Bán tài sản là thực vật ngoài gỗ không thuộc q uy định tại khoản   3 , 
+
+khoản   4   Điều này: 
+
+a) Cơ quan chủ trì quản lý tài sản   trình cơ quan , người   có thẩm quyền   quyết 
+
+định   phê duyệt   P hương án xử lý tài sản   được xác lập quyền sở hữu toàn dân ; 
+
+b) Cơ quan chủ trì quản lý tài sản lập hồ sơ nguồn gốc theo quy đị nh tại 
+
+Điều   10   Thông tư này , chuyển giao tài sản và hồ sơ cho   tổ chức ,   cá nhân   nhận 
+
+chuyển giao quyền sở hữu. 
+
+6 .   Tiêu hủy   gỗ, thực vật rừng ngoài gỗ : 
+
+a) Cơ quan chủ trì quản lý tài sản xây dựng   p hương án xử lý tài sản được 
+
+xác lập quyền sở hữu toàn dân   tr ình cơ quan , người   có thẩm quyền phê duyệt theo 
+
+quy định pháp luật về quản lý, sử dụng tài sản công đối với gỗ, thực vật rừng 
+
+ngoài gỗ   không còn giá trị sử dụng, gây hại cho sức khỏe con người hoặc không 
+
+xử lý được bằng một trong các hình thức quy định tại   khoản   3 , khoản   4 , khoản   5 
+
+Điều này; 
+
+b) Trường hợp cơ quan chủ trì quản lý tài sản không phải là cơ quan, đơn
+
+vị được giao tiêu hủy: cơ quan chủ trì quản lý tài sản lập Biên bản bàn giao, tiếp
+
+nhận cho cơ quan được giao tiêu hủy theo Mẫu số 22 Phụ lục II ban hành kèm
+
+theo Thông tư này; 
+
+c) Cơ quan chủ trì tiêu hủy ban hành quyết định thành lập Hội đồng tiêu
+
+hủy, gồm đại diện: cơ quan Kiểm lâm sở tại, Ủy ban nhân dân cấp xã, cơ quan
+
+có thẩm quyền tiến hành tố tụng đối với gỗ , thực vật ngoài gỗ là vật chứng và tổ
+
+chức, cá nhân khác có liên quan do cơ quan chủ trì   tiêu hủy quyết định; 
+
+d) Ngay sau khi kết thúc tiêu hủy: cơ quan chủ trì tiêu hủy lập Biên bản
+
+tiêu hủy theo Mẫu số 24 Phụ lục II ban hành kèm theo Thông tư này. 
+
+Điều 24 .   Trách nhiệm của cơ quan chủ trì quản lý tài sản, đơn vị tiếp
+
+nhận tài sản sau khi được xác lập quyền sở hữu toàn dân 
+
+1. Cơ quan chủ trì quản lý tài sản: 
+
+a) Chịu trách nhiệm xây dựng Phương án xử lý tài sản xác lập quyền sở
+
+hữu toàn dân trình cơ quan, người có thẩm quyền quyết định   phê duyệt theo
+
+đúng thời hạn và thực hiện việc xử lý tài sản theo Phương án đã được phê duyệt; 
+
+b) Quản lý và lưu giữ hồ sơ trong quá trình xử lý; bàn giao, tiếp nhận; tiêu
+
+hủy theo quy định.
+
+---
+
+32 
+
+2. Cơ quan quản lý chuyên ngàn h ;   c ơ quan, đơn vị được giao tài sản t ại 
+
+khoản   4   Điều   2 3   Thông tư này : 
+
+a) Sử dụng tài sản được chuyển giao theo đúng   Phương án và   mục đích 
+
+được phê duyệt; 
+
+b )   Quản lý tài sản theo đúng quy định của pháp luật về quản lý, sử dụng 
+
+tài sản công ; 
+
+c )   Định kỳ hằng năm   t rước ngày 31 tháng 12   b áo cáo tì nh   hình   sử dụng 
+
+tài sản   là gỗ   theo   mẫu tại   Mục   A   Mẫu số   2 5   Phụ lục I I   ban hành kèm theo 
+
+Thông tư này   gửi đến   c ơ quan Kiểm lâm sở tại để kiểm tra, giám sát .   Báo cáo 
+
+đ ị nh k ỳ   h ằ ng năm tính t ừ   ngày 15 tháng 12 năm trư ớ c k ỳ   báo cáo đ ế n ngày 14 
+
+tháng 12 c ủ a k ỳ   b áo cáo. 
+
+3. Cơ quan chủ trì tiêu hủy: lưu trữ hồ sơ tiếp nhận tài sản tiêu hủy đối với
+
+trường hợp cơ quan tiêu hủy không phải là cơ quan chủ trì quản lý tài sản và
+
+biên bản tiêu hủy theo quy định pháp luật về lưu trữ. 
+
+Mục   3 
+
+XỬ LÝ ĐỘNG VẬT 
+
+Điều   25 .   N guyên t ắ c ,   h ình th ứ c   x ử   lý đ ộ ng v ậ t 
+
+1. Nguyên tắc xử lý: 
+
+a )   Đ ố i v ớ i đ ộ ng v ậ t thu ộ c Ph ụ   l ụ c CITES b ị   t ị ch thu th ự c hi ệ n theo quy 
+
+đ ị nh c ủ a B ộ   trư ở ng B ộ   Nông nghi ệ p và Môi trư ờ ng v ề   qu ả n lý loài nguy c ấ p, 
+
+quý, hi ế m; nuôi đ ộ ng v ậ t r ừ ng thông thư ờ ng và th ự c thi Công ư ớ c v ề   buôn bán 
+
+qu ố c t ế   các loài đ ộ ng v ậ t, th ự c v ậ t hoang dã nguy c ấ p; 
+
+b) Trường hợp cơ quan quản lý chuyên ngành tiếp nhận động vật thuộc
+
+Danh mục loài nguy cấp, quý, hiếm Nhóm I theo Phương án xử lý tài sản được
+
+xác lập quyền sở hữu toàn dân thì tiếp tục xử lý   theo   m ộ t trong các hình th ứ c 
+
+quy đ ị nh t ạ i   kho ả n 2 Đi ề u này ; 
+
+c ) Các hình th ứ c x ử   lý đ ộ ng v ậ t đư ợ c th ự c hi ệ n theo th ứ   t ự   ưu tiên t ừ 
+
+đi ể m a đ ế n đi ể m đ kho ả n 2 Đi ề u này, trư ờ ng h ợ p không x ử   lý đư ợ c b ằ ng hình 
+
+th ứ c trư ớ c m ớ i áp d ụ ng hình th ứ c x ử   lý k ế   ti ế p . 
+
+2 . Hình th ứ c x ử   lý : 
+
+a) Thả động vật về môi trường tự nhiên ; 
+
+b) Cứu hộ động vật ;
+
+---
+
+33 
+
+c) Chuyển giao động vật rừng cho   cơ quan qu ả n lý chuyên ngành ; 
+
+d) Bán động vật   r ừ ng ,   tr ừ   loài   thu ộ c Danh m ụ c loài   nguy c ấ p, quý, hi ế m 
+
+Nhóm I, Ph ụ   l ụ c I CITES ;   loài   ngo ạ i lai   xâm h ạ i; 
+
+đ) Tiêu hủy động vật. 
+
+Điều   26 .   Th ả   đ ộ ng v ậ t v ề   môi trư ờ ng t ự   nhiên 
+
+1. Đối tượng: cá thể động vật, thủy sản còn sống, khỏe mạnh hoặc sau khi
+
+cứu hộ. 
+
+2. Điều kiện: 
+
+a) Có Biên bản xác nhận tình trạng sức khỏe của cơ quan thú y đối với
+
+động vật hoặc của cơ sở cứu hộ động vật, loài thủy sản theo Mẫu số 26 Phụ lục
+
+II ban hành kèm theo Thông tư này; 
+
+b) Có phân bố tự nhiên tại Việt Nam; 
+
+c) Có quyết định phê duyệt Phương án xử lý tài sản được xác lập quyền sở
+
+hữu toàn dân; 
+
+đ) Trường hợp cơ quan, đơn vị thả không phải là chủ rừng hoặc khu bảo
+
+tồn biển nơi dự kiến tái thả: có văn bản đồng ý của chủ rừng hoặc khu bảo tồn
+
+biển nơi dự kiến thả theo Mẫu số 27 Phụ lục II ban hành kèm theo Thông tư này. 
+
+3. Trình tự thực hiện: 
+
+a)   Trư ớ c khi tái th ả , cơ quan ch ủ   trì q u ả n lý tài s ả n   có trách nhi ệ m liên h ệ , 
+
+th ố ng nh ấ t v ớ i ch ủ   r ừ ng   ho ặ c   khu b ả o t ồ n bi ể n nơi d ự   ki ế n tái th ả ; 
+
+b) Trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn bản đồng ý
+
+thả động vật của chủ rừng hoặc khu bảo tồn biển, thủ trưởng cơ quan, đơn vị có
+
+thẩ m quyền xử lý động vật ban hành quyết định thả lại động vật về môi trường
+
+tự nhiên; 
+
+c) Thành phần tham gia thả động vật về môi trường tự nhiên: cơ quan chủ
+
+trì thả động vật mời đại diện cơ quan Kiểm lâm sở tại, chính quyền địa phương,
+
+chủ rừng hoặc Ban quản lý khu bảo tồn biển, cơ quan có thẩ m quyền tiến hành
+
+tố tụng trong trường hợp động vật là vật chứng và tổ chức, cá nhân khác có liên
+
+quan do cơ quan chủ trì thả động vật quyết định; 
+
+d) Ngay sau khi hoàn thành việc thả động vật về môi trường tự nhiên: cơ
+
+quan, đơn vị chủ trì thả lập Biên bản thả động vật về môi trường tự nhiên theo
+
+Mẫu số 28 Phụ lục II ban hành kèm theo Thông tư này.
+
+---
+
+34 
+
+Điều 27. Cứu hộ động vật 
+
+1. Đối tượng: động vật rừng, loài thủy sản thuộc Phụ lục I CITES còn
+
+sống là tang vật, vật chứng; động vật rừng, loài thủy sản thuộc Phụ lục I CITES
+
+còn sống do chủ sở hữu tự nguyện chuyển giao quyền sở hữu cho Nhà nước. 
+
+2. Điều kiện: 
+
+a) Đối với động vật rừng, loài thủy sản thuộc Phụ lục I CITES còn sống
+
+do chủ sở hữu tự nguyện chuyển giao quyền sở hữu cho Nhà nước có hồ sơ
+
+chứng minh nguồn gốc hợp pháp; 
+
+b) Cơ sở cứu hộ động vật rừng, loài thủy sản có điều kiện bảo đảm công
+
+tác cứu hộ, phù hợp với loài động vật, thủy sản cần cứu hộ. 
+
+3. Trình tự thực hiện: 
+
+a) Thủ trưởng cơ quan, đơn vị có thẩ m quyền xử lý quy định tại khoản 1
+
+Điều này ban hành quyết định cứu hộ; 
+
+b) Trường hợp phải chuyển giao động vật rừng, loài thủy sản thuộc Phụ
+
+lục I CITES đến cơ sở cứu hộ để tổ chức cứu hộ: cơ quan, người có thẩ m quyền
+
+quyết định cứu hộ lập Biên bản bàn giao, tiếp nhận động vật rừng để cứu hộ theo
+
+Mẫu số 22 Phụ lục II ban hành kèm theo Thông tư này. 
+
+4. Xử lý động vật sau cứu hộ: 
+
+a) Trường hợp động vật sau cứu hộ đủ điều kiện thả lại về môi trường tự
+
+nhiên thì cơ sở cứu hộ tổ chức thả lại động vật về môi trường tự nhiên theo quy
+
+định tại Điều 26 Thông tư này; 
+
+b) Trường hợp động vật sau cứu hộ không đủ điều kiện thả lại về môi
+
+trường tự nhiên thì cơ sở cứu hộ có thể chuyển giao động vật rừng cho cơ quan
+
+quản lý chuyên ngành theo quy định tại Điều 28 Thông tư này; 
+
+c) Trường hợp cá thể chết trong quá trình cứu hộ thì có thể chuyển giao
+
+theo quy định tại điểm b khoản này; trường hợp xác định bị bệnh, có khả năng
+
+gây dịch bệnh nguy hiểm thì thực hiện tiêu hủy theo quy định tại Điều 30 Thông
+
+tư này. 
+
+Điều   28 .   Chuy ể n giao   cho   cơ quan qu ả n lý chuyên ngành 
+
+1. Đối tượng: 
+
+a) Động vật, loài thủy sản thuộc Danh mục loài nguy cấp, quý, hiếm
+
+Nhóm I, Phụ lục I CITES;
+
+---
+
+35 
+
+b) Động vật, loài thủy sản không thuộc điểm a khoản này, cơ quan quản lý
+
+chuyên ngành có văn bản đề nghị được tiếp nhận tài sản theo Mẫu số 23 Phụ lục
+
+II ban hành kèm theo Thông tư này. 
+
+2. Cơ sở tiếp nhận: cơ quan quản lý chuyên ngành do Bộ Nông nghiệp và
+
+Môi trường hoặc Ủy ban nhân dân cấp tỉnh công bố. 
+
+3. Trình tự thực hiện: 
+
+a)   C ơ quan ch ủ   trì qu ả n lý tài s ả n g ử i văn   b ả n t ớ i cơ quan qu ả n lý chuyên 
+
+ngành đ ề   ngh ị   ti ế p nh ậ n tài s ả n , tr ừ   trư ờ ng h ợ p quy đ ị nh t ạ i đi ể m b kho ả n 1 
+
+Đi ề u này . Cơ quan qu ả n lý chuyên ngành có văn b ả n g ử i cơ quan ch ủ   trì qu ả n lý 
+
+tài s ả n   v ề   vi ệ c   đư ợ c   ti ế p nh ậ n tài s ả n theo M ẫ u s ố   2 3   Ph ụ   l ụ c II ban hà nh kèm 
+
+theo Thông tư này đ ể   s ử   d ụ ng vào m ụ c đích b ả o t ồ n, làm m ẫ u nh ậ n d ạ ng loài, 
+
+nghiên c ứ u khoa h ọ c, đào t ạ o, giáo d ụ c môi trư ờ ng, b ả o tàng chuyên ngành b ả o 
+
+đ ả m phù h ợ p v ớ i t ừ ng   loài   và đi ề u ki ệ n c ủ a nơi đư ợ c chuy ể n giao; 
+
+b )   Trong th ờ i h ạ n 05 ngày làm vi ệ c k ể   t ừ   ngày nh ậ n đư ợ c văn b ả n c ủ a cơ 
+
+quan qu ả n lý chuyên ngành, c ơ quan ch ủ   trì qu ả n lý   tài s ả n   l ậ p   Phương án x ử   lý 
+
+tài s ả n đư ợ c xác l ậ p quy ề n s ở   h ữ u toàn dân trình cơ quan ,   ngư ờ i   có th ẩ   m quy ề n 
+
+quy ế t đ ị nh   phê duy ệ t theo quy đ ị nh pháp lu ậ t qu ả n lý, s ử   d ụ n g tài s ả n công; 
+
+c) Trong thời hạn 15 ngày làm việc kể từ ngày Phương án xử lý tài sản
+
+được xác lập quyền sở hữu toàn dân được phê duyệt, cơ quan chủ trì quản lý tài
+
+sản tổ chức bàn giao, tiếp nhận và   lập Biên bản bàn giao, tiếp nhận động vật
+
+chuyển giao theo Mẫu số 07 ban hành kèm theo Nghị định số 77/2025/NĐ-CP. 
+
+Điều 29. Bán động vật cho tổ chức, cá nhân 
+
+1. Đối tượng: động vật được xác lập quyền sở hữu toàn dân trừ   đ ộ ng v ậ t 
+
+thu ộ c   D anh m ụ c nguy c ấ p, quý, hi ế m Nhóm I ,   đ ộ ng v ậ t   thu ộ c Ph ụ   l ụ c I CITES 
+
+và khôn g x ử   lý đư ợ c   b ằ ng   m ộ t trong   các hình th ứ c quy đ ị nh t ạ i Đi ề u   26 , Đi ề u 
+
+27   ho ặ c Đi ề u   28   Thông tư này. 
+
+2. Điều kiện: có quyết định phê duyệt Phương án xử lý tài sản được xác
+
+lập quyền sở hữu toàn dân. 
+
+3.   Cơ quan chủ trì quản lý tài sản lập hồ sơ nguồn gốc the o quy định tại 
+
+Điều 10 Thông tư này, chuyển giao tài sản và hồ sơ cho tổ chức, cá nhân nhận 
+
+chuyển giao quyền sở hữu. 
+
+Điều 30. Tiêu hủy động vật 
+
+1. Đối tượng: động vật, bộ phận sản phẩ m của động vật mang dịch bệnh
+
+không thể bảo quản được hoặc không xử lý được bằng một trong các hình thức
+
+quy định tại Điều 26, Điều 27, Điều 28 hoặc Điều 29 Thông tư này.
+
+---
+
+36 
+
+2. Điều kiện: có quyết định phê duyệt Phương án xử lý tài sản được xác
+
+lập quyền sở hữu toàn dân. 
+
+3. Hình thức tiêu hủy: căn cứ   vào tính chất, đặc điểm của động vật tiêu
+
+hủy, người có thẩ m quyền quyết định một trong các hình thức tiêu hủy động vật
+
+sau:   biện pháp duy trì độ ẩ   m cao hoặc sử dụng sản phẩ m sinh học thân thiện môi
+
+trường để tăng hiệu quả phân hủy;   biện pháp cơ học, thiêu đốt, chôn, sử dụng
+
+hóa chất hoặc các hình thức khác theo quy định của pháp luật để hủy động vật,
+
+bảo đảm động vật đó không còn tồn tại hoặc không còn giá trị sử dụng và không
+
+ảnh hưởng đến môi trường. 
+
+4. Trình tự thực hiện: 
+
+a) Thủ trưởng cơ quan, đơn vị có thẩ m quyền xử lý động vật ban hành
+
+quyết định tiêu hủy động vật; 
+
+b) Thành phần tham gia tiêu hủy gồm đại diện: cơ quan chủ trì tiêu hủy
+
+động vật; cơ quan Kiểm lâm sở tại. Cơ quan chủ trì tiêu hủy có thể mời người
+
+chứng kiến, cơ quan có thẩ m quyền tiến hành tố tụng trong trường hợp động vật
+
+là vật chứng, chính quyền địa phương, cơ quan truyền thông và các tổ chức, cá
+
+nhân có liên quan khác tham gia; 
+
+c) Ngay sau khi kết thúc tiêu hủy:   cơ quan chủ trì tiêu hủy động vật lập
+
+Biên bản tiêu hủy động vật rừng theo Mẫu số 24 Phụ lục II ban hành kèm
+
+theo Thông tư này. 
+
+Điều 31.   Lưu giữ hồ sơ, báo cáo kết quả tiếp nhận, xử lý động vật 
+
+1. Cơ quan, đơn vị tiếp nhận, xử lý động vật có trách nhiệm lưu giữ hồ sơ
+
+tiếp nhận, xử lý động vật   theo quy định tại Thông tư này. 
+
+2.   Cơ quan qu ả n lý chuyên ngàn h   đ ị nh k ỳ   h ằ ng năm   trư ớ c ngày 30 tháng 
+
+01   báo cáo k ế t qu ả   ti ế p nh ậ n, x ử   lý đ ộ ng v ậ t   theo nhóm loài   v ề   cơ quan Ki ể m 
+
+lâm s ở   t ạ i, cơ quan chuyên ngành th ủ y s ả n   đ ố i v ớ i quan qu ả n lý chuyên ngành 
+
+do   Ủ y ban dân dân c ấ p t ỉ nh công b ố   ho ặ c   C ụ c Lâm nghi ệ p và Ki ể m lâ m ,   C ụ c 
+
+Th ủ y s ả n và Ki ể m ngư   đ ố i v ớ i cơ quan qu ả n lý chuyên ngành do B ộ   Nông 
+
+nghi ệ p và Môi trư ờ ng công b ố .   Báo cáo đ ị nh k ỳ   h ằ ng năm   t ính t ừ   ngày 15 tháng 
+
+12 năm trư ớ c k ỳ   báo cáo đ ế n ngày 14 tháng 12 c ủ a k ỳ   báo cáo . 
+
+3.   H ạ t Ki ể m lâm t ổ ng h ợ p, đ ị nh k ỳ   trư ớ c ng ày 30 tháng 01 h ằ ng năm   báo 
+
+cáo   k ế t qu ả   ti ế p nh ậ n, x ử   lý đ ộ ng v ậ t trên đ ị a bàn (n ế u có) v ề   Ki ể m lâm c ấ p 
+
+t ỉ nh .   Báo cáo đ ị nh k ỳ   h ằ ng năm   t ính t ừ   ngày 15 tháng 12 năm trư ớ c k ỳ   báo cáo 
+
+đ ế n ngày 14 tháng 12   c ủ a k ỳ   báo cáo . 
+
+4.   S ở   Nông nghi ệ p và Môi trư ờ ng đ ị nh k ỳ   h ằ ng năm   báo cáo   trư ớ c ngày
+
+---
+
+37 
+
+30 tháng 01 hằng năm kết quả tiếp nhận, xử lý động vật trên địa bàn (nếu có) về
+
+Bộ Nông nghiệp và Môi trường. Báo cáo định kỳ hằng năm tính từ ngày 15
+
+tháng 12 năm trước kỳ báo cáo đến ngày 14 tháng 12 của kỳ   báo cáo . 
+
+Chương V 
+
+TỔ CHỨC THỰC HIỆN 
+
+Điều 32 .   Trách nhiệm thi hành 
+
+1. Cục Lâm nghiệp và Kiểm lâm: 
+
+a) T ổ   ch ứ c tuyên truy ề n, ph ổ   bi ế n, tri ể n khai th ự c hi ệ n Thông tư này trên 
+
+ph ạ m vi c ả   nư ớ c; 
+
+b) Hư ớ ng d ẫ n, ki ể m tra   vi ệ c th ự c hi ệ n trình t ự , th ủ   t ụ c khai thác lâm s ả n; 
+
+ho ạ t đ ộ ng   ch ấ p hành pháp lu ậ t v ề   qu ả n lý, truy xu ấ t ngu ồ n g ố c lâm s ả n ;   phân 
+
+lo ạ i doanh nghi ệ p, x ử   lý đ ộ ng v ậ t, th ự c v ậ t r ừ ng   trên ph ạ m vi toàn qu ố c theo 
+
+quy đ ị nh t ạ i Thông tư này; 
+
+c) Xây dựng, vận hành hệ thống thông tin trong quản lý, truy xuất nguồn
+
+gốc lâm sản; hệ thống về cấp và quản lý mã số vùng trồng rừng nguyên liệu
+
+phục vụ truy xuất nguồn gốc lâm sản gắn với quản lý rừng bền vững và chứng
+
+chỉ rừng; xây dựng cơ sở dữ liệu để ứng dụng chuyển đổi số trong quản lý, truy
+
+xuất nguồn gốc lâm sản; 
+
+d) Xây dựng, quản lý, vận hành Hệ thống thông tin phân loại doanh nghiệp
+
+và Cơ sở dữ liệu vi phạm về lâm nghiệp; kiểm tra, quá trình phân loại doanh
+
+nghiệp và sự tuân thủ pháp luật về sản xuất, chế biến gỗ, xử lý vi phạm; tổng hợp,
+
+báo cáo kết quả thực hiện phân loại doanh nghiệp trên phạm vi cả nước; 
+
+đ) Tổng hợp, báo cáo tình hình chấp hành quy định về quản lý, truy xuất
+
+nguồn gốc lâm sản trong phạm vi toàn quốc tại Thông tư này; 
+
+e) Chủ trì phối hợp với Cục Thủy sản và Kiểm ngư tham mưu Bộ Nông
+
+nghiệp và Môi trường ban hành quyết định, công khai danh sách cơ quan quản
+
+lý chuyên ngành thuộc Bộ Nông nghiệp và Môi trường được nhận tài sản quy
+
+định tại điểm d, điểm đ khoản 2 Điều 7 Nghị định số 77/2025/NĐ-CP trên Cổng
+
+thông tin điện tử của Bộ Nông nghiệp và Môi trường. 
+
+2. Cục Thủy sản và Kiểm ngư: 
+
+a) Phối hợp với Cục Lâm nghiệp và Kiểm lâm tham mưu Bộ Nông nghiệp
+
+và Môi trường quyết định, công khai danh sách cơ quan quản lý chuyên ngành
+
+thuộc Bộ Nông nghiệp và Môi trường được nhận tài sản quy định tại điểm d,
+
+điểm đ khoản 2 Điều 7 Nghị định số 77/2025/NĐ-CP trên Cổng thông tin điện
+
+---
+
+38 
+
+tử của Bộ Nông nghiệp và Môi trường; 
+
+b) Hướng dẫn, kiểm tra xử lý loài thủy sản thuộc Danh mục loài nguy cấp
+
+quý, hiếm hoặc Phục lục I CITES là tang vật, vật chứng hoặc do chủ sở hữu tự
+
+nguyện chuyển giao quyền sở hữu cho nhà nước   trên phạm vi toàn quốc theo
+
+quy định tại Thông tư này. 
+
+3. Cục Bảo tồn thiên nhiên và Đa dạng sinh học: phối hợp với Cục Lâm
+
+nghiệp và Kiểm lâm tham mưu Bộ Nông nghiệp và Môi trường quyết định,
+
+công khai danh sách cơ quan quản lý chuyên ngành thuộc Bộ Nông nghiệp và
+
+Môi trường được nhận tài sản quy định tại điểm d, điểm đ khoản 2 Điều 7
+
+Nghị định số 77/2025/NĐ-CP trên Cổng thông tin điện tử của Bộ Nông
+
+nghiệp và Môi trường. 
+
+4. Ủy ban nhân dân cấp tỉnh: 
+
+a) Chỉ đạo Sở Nông nghiệp và Môi trường tổ chức triển khai và hướng
+
+dẫn thực hiện Thông tư này trên địa bàn tỉnh; 
+
+b) Chỉ đạo Sở Nông nghiệp và Môi trường chủ trì, phối hợp với các cơ
+
+quan, đơn vị liên quan xây dựng quy chế phối hợp và tổ chức thực hiện phân
+
+loại doanh nghiệp, xác minh thông tin do doanh nghiệp kê khai theo quy định tại
+
+Thông tư này; 
+
+c) Chỉ đạo Sở Tài chính chủ trì, phối hợp với các cơ quan có liên quan
+
+tham mưu cho Ủy ban nhân dân cấp   tỉnh phân cấp cho tổ chức, cá nhân thẩ m
+
+quyền xác lập tài sản được xác lập quyền sở hữu toàn dân và phê duyệt phương
+
+án xử lý tài sản được xác lập quyền sở hữu toàn dân. 
+
+5. Cơ quan Kiểm lâm cấp tỉnh: 
+
+a) Tổng hợp, lưu giữ thông tin về tình hình khai thác; nhập, xuất lâm sản
+
+xử lý lâm sản; động vật, thực vật thuộc Danh mục loài nguy cấp, quý, hiếm hoặc
+
+thuộc Phụ lục CITES; loài thủy sản thuộc Phụ lục I CITES trên địa bàn tỉnh; tổ
+
+chức kiểm tra, giám sát, truy xuất nguồn gốc lâm sản theo quy định của Thông tư
+
+này; 
+
+b) Thực hiện phân loại doanh nghiệp; kiểm tra, giám sát sự tuân thủ pháp
+
+luật của doanh nghiệp theo thẩ m quyền, xử lý khi phát hiện có vi phạm; lưu trữ
+
+hồ sơ, bảo đảm an toàn thông tin dữ liệu trên Hệ thống thông tin phân loại doanh
+
+nghiệp; tổng hợp, báo cáo kết quả thực hiện phân loại doanh nghiệp trên địa bàn
+
+theo quy định tại Thông tư này; 
+
+c) Quản lý hồ sơ lâm sản theo quy định tại Thông tư này; 
+
+d) Báo cáo tình hình quản lý, kiểm tra, truy xuất nguồn gốc lâm sản; cơ sở
+
+---
+
+39 
+
+nuôi động vật, trồng thực vật trên địa bàn theo quy định tại Thông tư này; 
+
+đ) Thống kê, báo cáo gỗ do cơ quan Kiểm lâm và các cơ quan chức năng
+
+khác tịch thu trên địa bàn quản lý định kỳ hằng năm hoặc khi có yêu cầu của cấp
+
+có thẩ m quyền theo mẫu tại Mục B Mẫu số 25 Phụ lục II ban hành kèm theo
+
+Thông tư này. 
+
+6. Hạt Kiểm lâm: 
+
+a) Tổng hợp, lưu giữ thông tin về tình hình khai thác; nhập, xuất lâm sản;
+
+xử lý lâm sản; động vật, thực vật thuộc Danh mục loài nguy cấp, quý hiếm hoặc
+
+thuộc Phụ lục CITES và tang vật, vật chứng hoặc do chủ sở hữu tự nguyện
+
+chuyển giao quyền sở hữu cho nhà nước trên địa bàn quản lý; tổ chức kiểm tra,
+
+xác minh, giám sát, truy xuất nguồn gốc lâm sản theo quy định của Thông tư này; 
+
+b) Quản lý hồ sơ theo quy định tại Thông tư này; 
+
+c) Lưu giữ hồ sơ do chủ rừng, chủ lâm sản nộp theo quy định tại Chương
+
+II, III Thông tư này; quản lý Sổ theo dõi xác nhận Bảng kê lâm sản theo Mẫu số
+
+06 Phụ lục II ban hành kèm theo Thông tư này; 
+
+d) Tổng hợp báo cáo theo Mẫu số 29 Phụ lục II ban hành kèm theo Thông
+
+tư này về tình hình nhập, xuất lâm sản trên địa bàn gửi về cơ quan Kiểm lâm cấp
+
+tỉnh chậm nhất sau 10 ngày làm việc   kể từ ngày nhận được báo cáo của tổ chức,
+
+hộ kinh doanh theo quy định tại điểm c khoản 7 Điều này. 
+
+7 .   T ổ   ch ứ c, cá nhân, h ộ   kinh doanh, h ộ   gia đình, c ộ ng đ ồ ng dân cư: 
+
+a) Lưu giữ đầy đủ hồ sơ lâm sản theo quy định tại Thông tư này; 
+
+b) Chịu trách nhiệm về tính chính xác và chấp hành quy định kiểm tra,
+
+truy xuất của cơ quan chức năng có thẩ m quyền; 
+
+c) Đối với tổ chức, hộ kinh doanh: lập Sổ theo dõi nhập, xuất lâm sản theo
+
+Mẫu số 04 Phụ lục II ban hành kèm theo Thông tư này; cập nhật đầy đủ, kịp thời
+
+tình hình nhập xuất lâm sản và xuất trình khi có yêu cầu kiểm tra của cơ quan có
+
+thẩ m quyền; báo cáo tình hình nhập, xuất lâm sản cho cơ quan Kiểm lâm sở tại
+
+theo Mẫu số 29 Phụ lục II ban hành kèm theo Thông tư này theo định kỳ hằng
+
+năm trước ngày 15 tháng 01. Thời gian chốt số liệu báo cáo được tính từ ngày
+
+15 tháng 12   năm trư ớ c k ỳ   báo cáo   đ ế n ngày 1 4   tháng 12 c ủ a k ỳ   báo cáo.   Tr ừ 
+
+trư ờ ng h ợ p t ổ   ch ứ c, h ộ   kinh doanh c ậ p nh ậ t tình hình nh ậ p ,   xu ấ t lâm s ả n trên h ệ 
+
+th ố ng qu ả n lý, truy xu ấ t ngu ồ n g ố c lâm s ả n. 
+
+Điều 33. Hiệu lực thi hành 
+
+1. Thông tư này có hiệu lực kể từ ngày 01 tháng 7 năm 2025 , tr ừ   trư ờ ng 
+
+h ợ p quy đ ị nh t ạ i kho ả n 2 Đi ề u này . 
+
+2. Quy định Phân loại doanh nghiệp tại Chương III Thông tư này có hiệu
+
+---
+
+40 
+
+lực kể từ ngày 16 tháng 5 năm 2026. Thông tư số 21/2021/TT-BNNPTNT ngày
+
+29 tháng 12 năm 2021 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn
+
+quy định phân loại doanh nghiệp chế biến và xuất khẩ u gỗ; Điều 13 Thông tư số
+
+22/2023/TT-BNNPTNT ngày 15 tháng 12 năm 2023 của Bộ trưởng Bộ Nông
+
+nghiệp và Phát triển nông thôn sửa đổi, bổ sung một số điều của các Thông tư
+
+trong lĩnh vực lâm nghiệp hết hiệu lực kể từ ngày quy định về Phân loại doanh
+
+nghiệp tại Chương III Thông tư này có hiệu lực thi hành. 
+
+3. Các quy định sau hết hiệu lực kể từ ngày Thông tư này có hiệu lực thi hành: 
+
+a) Thông tư số 26/2022/TT-BNNPTNT ngày 30 tháng 11 năm 2022 của
+
+Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định về quản lý, truy
+
+xuất nguồn gốc lâm sản; 
+
+b) Thông tư số 29/2019/TT-BNN ngày 31 tháng 12 năm 2019 của Bộ
+
+Nông nghiệp và Phát triển nông thôn quy định xử lý động vật rừng là tang vật,
+
+vật chứng; động vật rừng do tổ chức, cá nhân tự nguyện giao nộp Nhà nước; 
+
+c) Điều 2 và Điều 12 Thông tư số 22/2023/TT-BNNPTNT ngày 15 tháng
+
+12 năm 2023 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn sửa đổi, bổ
+
+sung một số điều của các Thông tư trong lĩnh vực lâm nghiệp; 
+
+d) Khoản 2a Điều 6 Thông tư số 12/2019/TT-BNNPTNT ngày 25 tháng
+
+10 năm 2019 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định
+
+về thống kê ngành lâm nghiệp được sửa đổi, bổ sung năm 2023; 
+
+đ) Khoản 2 Điều 31 Thông tư số 22/2024/TT-BNNPTNT ngày 11 tháng
+
+12 năm 2024 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định
+
+một số nội dung về lâm nghiệp thực hiện Chương trình phát triển lâm nghiệp
+
+bền vững và Chương trình mục tiêu quốc gia phát triển kinh tế - xã hội vùng
+
+đồng bào dân tộc thiểu số và miền núi giai đoạn 2021-2030, giai đoạn I: từ năm
+
+2021 đến năm 2025. 
+
+4. Quy định chuyển tiếp: 
+
+a) Trường hợp chủ lâm sản cất giữ gỗ có nguồn gốc hợp pháp khai thác từ
+
+rừng tự nhiên, gỗ sau xử lý tịch thu, gỗ thuộc Danh mục loài nguy cấp, quý,
+
+hiếm, gỗ thuộc Phụ lục CITES trước thời điểm Thông tư này có hiệu lực thi
+
+hành khi mua bán, chuyển giao quyền sở hữu, vận chuyển thực hiện xác nhận
+
+Bảng kê lâm sản theo quy định tại Điều 5 Thông tư này; 
+
+b) Trường hợp hồ sơ khai thác lâm sản đã được phê duyệt trước ngày
+
+Thông tư này có hiệu lực nhưng chưa khai thác hoặc đang khai thác thì tiếp tục
+
+thực hiện theo quy định tại Thông tư số 26/2022/TT-BNNPTNT ngày 30 tháng
+
+12 năm 2022 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy định về
+
+quản lý, truy xuất nguồn gốc lâm sản và Điều 2 Thông tư số 22/2023/TT-
+
+---
+
+41 
+
+BNNPTNT ngày 15 tháng 12 năm 2023 của Bộ trưởng Bộ Nông nghiệp và Phát
+
+triển nông thôn sửa đổi, bổ sung một số điều của các Thông tư trong lĩnh vực lâm
+
+nghiệp. Hồ sơ lâm sản sau khai thác thực hiện theo quy định tại Thông tư này; 
+
+c) Trường hợp doanh nghiệp chế biến và xuất khẩ u gỗ đã nộp hồ sơ phân
+
+loại doanh nghiệp trước thời điểm quy định tại khoản 3 Điều này có hiệu lực thi
+
+hành nhưng chưa được phân loại hoặc đang thực hiện đánh giá phân loại thì tiếp
+
+tục thực hiện theo quy định tại Thông tư số 21/2021/TT-BNNPTNT ngày 29
+
+tháng 12 năm 2021 của Bộ trưởng Bộ Nông nghiệp và Phát triển nông thôn quy
+
+định về phân loại doanh nghiệp chế biến và xuất khẩ u gỗ; 
+
+d) Trường hợp các cơ quan, đơn vị nêu tại Thông tư này sáp nhập, hợp
+
+nhất, giải thể, chấm dứt hoạt động dẫn đến thay đổi tên gọi thì sử dụng theo tên
+
+gọi mới của cơ quan, đơn vị đó; trường hợp chuyển giao nhiệm vụ liên quan đến
+
+xác lập quyền sở hữu toàn dân về tài sản quy định tại Thông tư này cho cơ quan,
+
+đơn vị mới thì cơ quan, đơn vị mới thực hiện nhiệm vụ của cơ quan, đơn vị có
+
+nhiệm vụ được chuyển giao; 
+
+đ) Thay thế cụm từ “Bộ Nông nghiệp và Phát triển nông thôn” bằng cụm
+
+từ “Bộ Nông nghiệp và Môi trường”; cụm từ “Cục Lâm nghiệp”, “Cục Kiểm
+
+lâm” bằng cụm từ “Cục Lâm nghiệp và Kiểm lâm” tại các Thông tư trong lĩnh
+
+vực lâm nghiệp. 
+
+5. Trường hợp văn bản quy phạm pháp luật được viện dẫn tại Thông tư
+
+này được sửa đổi, bổ sung, thay thế thì áp dụng theo văn bản sửa đổi, bổ sung,
+
+thay thế đó. 
+
+Trong quá trình thực hiện, nếu có vướng mắc, cơ quan, tổ chức, cá nhân kịp
+
+thời phản ánh về Bộ Nông nghiệp và Môi trường để xem xét, sửa đổi, bổ sung./. 
+
+Nơi nhận: 
+
+-   Thủ tướng Chính phủ; 
+
+- Các Phó Thủ tướng Chính phủ; 
+
+- Văn phòng Chính phủ; 
+
+- Các Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ; 
+
+- Cục Kiểm tra văn bản và Quản lý xử lý vi phạm hành
+
+chính (Bộ Tư pháp); 
+
+- UBND các tỉnh, thành phố trực thuộc Trung ương; 
+
+- Sở NN&MT các tỉnh, thành phố trực thuộc Trung ương; 
+
+- Công báo, Cổng thông tin điện tử Chính phủ; 
+
+- Bộ NN&MT: Bộ trưởng, các Thứ trưởng, các đơn vị
+
+thuộc Bộ, Cổng thông tin điện tử Bộ; 
+
+- Lưu: VT, LNKL (10). 
+
+KT. BỘ TRƯỞNG 
+
+THỨ TRƯỞNG 
+
+Nguyễn Quốc Trị
+
+---
+
+Phụ lục I 
+
+HƯỚNG DẪN ĐO, TÍNH KHỐI LƯỢNG LÂM SẢN 
+
+(Ban hành kèm theo Thông tư số:   /2025/TT - BNNMT ngày   tháng   năm 
+
+2025 c ủ a B ộ   trư ở ng B ộ   Nông nghi ệ p và Môi trư ờ ng) 
+
+1. Đối với gỗ tròn, gỗ đẽo thành hình dạng khối trụ tròn: 
+
+a) Chiều dài: Đo khoảng cách ngắn nhất giữa mặt cắt ngang ở hai đầu của
+
+lóng gỗ. Nếu mặt cắt ngang của đầu gỗ bị nghiêng, bị lõm thì đo ở vị trí có chiều
+
+dài ngắn nhất giữa hai đầu lóng gỗ. Đơn vị tính là m, lấy số nguyên và hai số hàng
+
+thập phân sau số hàng đơn vị; 
+
+b) Đường kính: Đo ở hai đầu lóng gỗ (trừ phần vỏ cây); mỗi đầu lóng gỗ
+
+đo ở hai vị trí có đường kính lớn nhất và nhỏ nhất sau đó tính trị số trung bình
+
+cộng để xác định đường kính của mỗi đầu lóng gỗ; đường kính trung bình của
+
+lóng gỗ được tính bằng trị số trung bình cộng đường kính của hai đầu lóng gỗ;
+
+đơn vị đo là cm; lấy số nguyên và một số hàng thập phân sau số hàng đơn vị; 
+
+c) Khối lượng được xác định theo thể tích gỗ: 
+
+V= π/4   x   (D tb ) 
+2   
+x   l 
+
+Trong đó: 
+
+V: Thể tích mét khối (m 
+3 
+), lấy số nguyên và ba số hàng thập phân sau số
+
+hàng đơn vị 
+
+π: Hằng số pi (π = 3,14) 
+
+D tb : Đường kính trung bình của lóng gỗ (m) 
+
+l: Chiều dài ngắn nhất giữa hai mặt cắt (m) 
+
+d) Sai số tính thể tích gỗ trong mỗi lần đo đối với từng khúc, lóng gỗ tròn,
+
+gỗ khối trụ tròn là mười phần trăm (±10%). 
+
+2. Đối với gỗ xẻ, gỗ đẽo thành hình dạng thanh, tấm, hộp (mặt cắt ngang,
+
+mặt cắt dọc có hình vuông hoặc hình chữ nhật): 
+
+a) Chiều dài: Đo khoảng cách ngắn nhất giữa mặt cắt ngang ở hai đầu của
+
+từng thanh, tấm, hộp gỗ. Đơn vị tính là m, lấy số nguyên và hai số hàng thập phân
+
+sau số hàng đơn vị; 
+
+b) Chiều rộng và chiều dày: Đo khoảng cách giữa hai mặt cắt dọc đối diện
+
+của từng thanh, tấm, hộp gỗ. Trường hợp các mặt gỗ bị chéo, lượn sóng thì đo tại
+
+vị trí có kích thước lớn nhất, nhỏ nhất và tính trị số trung bình cộng; đơn vị đo là
+
+cm, lấy số nguyên và một số hàng thập phân sau số hàng đơn vị; 
 
 c) Khối lượng được xác định theo thể tích gỗ:
 
-V= π/4 x (Dtb)2 x l
+---
 
-Trong đó:
+2 
 
-V: Thể tích mét khối (m3), lấy số nguyên và ba số hàng thập phân sau số hàng đơn vị
+V =   l x   a   x   b 
 
-π: Hằng số pi (π = 3,14)
+Trong đó: 
 
-Dtb: Đường kính trung bình của lóng gỗ (m)
+V: Thể tích (m 
+3 
+), lấy số nguyên và ba số hàng thập phân sau số hàng đơn vị 
 
-l: Chiều dài ngắn nhất giữa hai mặt cắt (m)
+l: Chiều dài ngắn nhất giữa hai mặt cắt (m) 
 
-d) Sai số tính thể tích gỗ trong mỗi lần đo đối với từng khúc, lóng gỗ tròn, gỗ khối trụ tròn là mười phần trăm (±10%).
+a: Chiều rộng của hộp gỗ (m) 
 
-2. Đối với gỗ xẻ, gỗ đẽo thành hình dạng thanh, tấm, hộp (mặt cắt ngang, mặt cắt dọc có hình vuông hoặc hình chữ nhật):
+b: Chiều dày của hộp gỗ (m) 
 
-a) Chiều dài: Đo khoảng cách ngắn nhất giữa mặt cắt ngang ở hai đầu của từng thanh, tấm, hộp gỗ. Đơn vị tính là m, lấy số nguyên và hai số hàng thập phân sau số hàng đơn vị;
+d) Sai số tính thể tích gỗ trong mỗi lần đo đối với từng thanh, tấm, hộp gỗ
 
-b) Chiều rộng và chiều dày: Đo khoảng cách giữa hai mặt cắt dọc đối diện của từng thanh, tấm, hộp gỗ. Trường hợp các mặt gỗ bị chéo, lượn sóng thì đo tại vị trí có kích thước lớn nhất, nhỏ nhất và tính trị số trung bình cộng; đơn vị đo là cm, lấy số nguyên và một số hàng thập phân sau số hàng đơn vị;
+xẻ, đẽo là năm phần trăm (±5%). 
 
-c) Khối lượng được xác định theo thể tích gỗ:
+3. Đối với gỗ xẻ, gỗ đẽo thành hình dạng khối trụ đa giác: 
 
-V= l x a x b
+a) Chiều dài: Đo khoảng cách ngắn nhất giữa mặt cắt ngang ở hai đầu của
 
-Trong đó:
+gỗ khối trụ đa giác. Đơn vị tính là m, lấy số nguyên và hai số hàng thập phân sau
 
-V: Thể tích (m3), lấy số nguyên và ba số hàng thập phân sau số hàng đơn vị
+số hàng đơn vị; 
 
-l: Chiều dài ngắn nhất giữa hai mặt cắt (m)
+b) Tính tiết diện mặt cắt ngang: Là trị số trung bình cộng của mặt cắt có
 
-a: Chiều rộng của hộp gỗ (m)
+diện tích lớn nhất và nhỏ nhất của gỗ khối trụ đa giác. Đơn vị tính là mét vuông
 
-b: Chiều dày của hộp gỗ (m)
+(m 
+2 
+), lấy số nguyên và hai số hàng thập phân sau số hàng đơn vị; 
 
-d) Sai số tính thể tích gỗ trong mỗi lần đo đối với từng thanh, tấm, hộp gỗ xẻ, đẽo là năm phần trăm (±5%).
+c) Khối lượng được xác định theo thể tích gỗ: 
 
-3. Đối với gỗ xẻ, gỗ đẽo thành hình dạng khối trụ đa giác:
+V =   l   x   S 
 
-a) Chiều dài: Đo khoảng cách ngắn nhất giữa mặt cắt ngang ở hai đầu của gỗ khối trụ đa giác. Đơn vị tính là m, lấy số nguyên và hai số hàng thập phân sau số hàng đơn vị;
+Trong đó: 
 
-b) Tính tiết diện mặt cắt ngang: Là trị số trung bình cộng của mặt cắt có diện tích lớn nhất và nhỏ nhất của gỗ khối trụ đa giác. Đơn vị tính là mét vuông (m2), lấy số nguyên và hai số hàng thập phân sau số hàng đơn vị;
+V: Thể tích (m 
+3 
+), lấy số nguyên và ba số hàng thập phân sau số hàng đơn vị 
 
-c) Khối lượng được xác định theo thể tích gỗ: V= l x S
+l: Chiều dài ngắn nhất giữa hai mặt cắt ngang (m) 
 
-Trong đó:
+S: Tiết diện mặt cắt ngang của khối gỗ đa giác (m 
+2 
+) 
 
-V: Thể tích (m3), lấy số nguyên và ba số hàng thập phân sau số hàng đơn vị
+d) Sai số tính thể tích gỗ trong mỗi lần đo đối với từng khối gỗ trụ đa giác
 
-l: Chiều dài ngắn nhất giữa hai mặt cắt ngang (m)
+là năm phần trăm (±5%). 
 
-S: Tiết diện mặt cắt ngang của khối gỗ đa giác (m2)
+4. Đối với gỗ thân cây: 
 
-d) Sai số tính thể tích gỗ trong mỗi lần đo đối với từng khối gỗ trụ đa giác là năm phần trăm (±5%).
+a) Chiều dài hoặc chiều cao: 
 
-4. Đối với gỗ thân cây:
+Trường hợp cây còn gốc, rễ, thân, ngọn, cành, lá: đo chiều dài toàn thân
 
-a) Chiều dài hoặc chiều cao:
+cây tính từ gốc cây   (vị trí sát mặt đất khi cây đứng) đến vị trí của ngọn cây hoặc
 
-Trường hợp cây còn gốc, rễ, thân, ngọn, cành, lá: đo chiều dài toàn thân cây tính từ gốc cây (vị trí sát mặt đất khi cây đứng) đến vị trí của ngọn cây hoặc vị trí mặt cắt ngang của ngọn cây (trường hợp cây bị cắt ngọn). Đối với cây đứng đo chiều cao vút ngọn thân cây từ vị trí gốc cây sát mặt đất đến vị trí ngọn cây hoặc đỉnh sinh trưởng chính của thân cây đối với trường hợp cây phân nhiều ngọn.
+vị trí mặt cắt ngang của ngọn cây (trường hợp cây bị cắt ngọn). Đối với cây đứng
 
-Trường hợp cây sau khai thác còn thân, ngọn, cành lá nhưng đã bị cắt phần gốc: đo chiều dài đoạn thân cây đủ kích thước là gỗ tròn được quy định tại khoản 1 Phụ lục này.
+đo chiều cao vút ngọn thân cây từ vị trí gốc cây sát mặt đất đến vị trí ngọn cây
 
-Trường hợp cây sau khai thác có nhiều thân hoặc nhiều cành: đo chiều dài từng đoạn thân cây, cành cây đủ kích thước là gỗ tròn được quy định tại khoản 1 Phụ lục này.
+hoặc đỉnh sinh trưởng chính của thân cây đối với trường hợp cây phân nhiều ngọn. 
 
-Đơn vị tính là m, lấy số nguyên và hai số hàng thập phân sau số hàng đơn vị.
+Trường hợp cây sau khai thác còn thân, ngọn, cành lá nhưng đã bị cắt phần
 
-b) Đường kính: đo chu vi để xác định đường kính ở vị trí 1,3 m tính từ mặt cắt ngang của gốc cây hoặc đo đường kính vị trí 1,3 m.
+gốc: đo chiều dài đoạn thân cây đủ kích thước là gỗ tròn được quy định tại khoản
 
-Trường hợp cây có nhiều thân, cành đủ kích thước là gỗ tròn được quy định tại Thông tư này thì đo chu vi của từng thân, cành cây ở vị trí 1,3 m tính từ vị trí phân thân, phân cành.
+1 Phụ lục này.
 
-Trường hợp thân cây, cành cây đã bị cắt phần gốc nhưng đủ kích thước là gỗ tròn được quy định tại Thông tư này, thì đo chu vi ở hai vị trí có đường kính lớn nhất và vị trí đường kính nhỏ nhất theo tiêu chuẩn gỗ tròn, sau đó tính trị số trung bình cộng để xác định đường kính của từng thân cây, cành cây.
+---
 
-Đơn vị đo là cm; lấy số nguyên và một số hàng thập phân sau số hàng đơn vị;
+3 
 
-c) Khối lượng được xác định theo thể tích cây gỗ:
+Trường hợp cây sau khai thác có nhiều thân hoặc nhiều cành: đo chiều dài
 
-V = (C21.3/4π) x Hvn x f hoặc V= (π/4) x D21.3 x Hvn x f
+từng đoạn thân cây, cành cây đủ kích thước là gỗ tròn được quy định tại khoản 1
 
-Trong đó:
+Phụ lục này. 
 
-V: Khối lượng gỗ được tính bằng thể tích (m3) lấy số nguyên và ba số hàng thập phân sau số hàng đơn vị
+Đơn vị tính là m, lấy số nguyên và hai số hàng thập phân sau số hàng đơn vị. 
 
-C1.3: Chu vi tại vị trí 1,3 m của cây (m)
+b) Đường kính: đo chu vi để xác định đường kính ở vị trí 1,3 m tính từ mặt
 
-D1.3: đường kính tại vị trí 1,3m của cây (m)
+cắt ngang của gốc cây hoặc đo đường kính vị trí 1,3 m. 
 
-π: Hằng số pi (π=3,14)
+Trường hợp cây có nhiều thân, cành đủ kích thước là gỗ tròn được quy định
 
-Hvn: Chiều dài hoặc chiều cao toàn cây đo từ gốc đến ngọn (m)
+tại Thông tư này thì đo chu vi của từng thân, cành cây ở vị trí 1,3 m tính từ vị trí
 
-f: Hình số thân cây (đối với cây rừng trồng giá trị của f bằng 0,5; đối với cây rừng tự nhiên giá trị của f bằng 0,45).
+phân thân, phân cành. 
 
-d) Sai số tính thể tích gỗ trong mỗi lần đo đối với từng cây là mười phần trăm (±10%).
+Trường hợp thân cây, cành cây đã bị cắt phần gốc nhưng đủ kích thước là
 
- 
+gỗ tròn được quy định tại Thông tư này, thì đo chu vi ở hai vị trí có đường kính
 
-**PHỤ LỤC II**
+lớn nhất và vị trí đường kính nhỏ nhất theo tiêu chuẩn gỗ tròn, sau đó tính trị số
 
-MẪU BIỂU VỀ KHAI THÁC, QUẢN LÝ LÂM SẢN VÀ XỬ LÝ TÀI SẢN  
- *(Ban hành kèm theo Thông tư số: 26/2025/TT-BNNMT ngày 24 tháng 6 năm 2025 của Bộ trưởng Bộ Nông nghiệp và Môi trường)*
+trung bình cộng để xác định đường kính của từng thân cây, cành cây. 
 
-|  |  |
-| --- | --- |
-| **Mẫu số** | **Mẫu biểu** |
-| Mẫu số 01 | Bảng kê lâm sản |
-| Mẫu số 02 | Bảng kê lâm sản áp dụng đối với trường hợp lâm sản là tang vật vụ vi phạm |
-| Mẫu số 03 | Đơn đề nghị xác nhận Bảng kê lâm sản |
-| Mẫu số 04 | Sổ theo dõi nhập, xuất lâm sản |
-| Mẫu số 05 | Biên bản xác minh |
-| Mẫu số 06 | Sổ theo dõi xác nhận Bảng kê lâm sản |
-| Mẫu số 07 | Phương án khai thác gỗ, thực vật rừng ngoài gỗ loài thông thường/thu thập mẫu vật loài thông thường (áp dụng cho chủ rừng là tổ chức) |
-| Mẫu số 08 | Phương án khai thác gỗ, thực vật rừng ngoài gỗ loài thông thường/thu thập mẫu vật loài thông thường (áp dụng cho chủ rừng là hộ gia đình, cá nhân, cộng đồng dân cư) |
-| Mẫu số 09 | Đề nghị phê duyệt phương án khai thác gỗ, thực vật rừng ngoài gỗ loài thông thường/động vật rừng thông thường từ tự nhiên/thu thập mẫu vật loài thông thường |
-| Mẫu số 10 | Biên bản kiểm tra hiện trường cây rừng chặt, tỉa, hạ độ cao trong hành lang bảo vệ an toàn đường dây dẫn điện |
-| Mẫu số 11 | Quyết định phê duyệt phương án khai thác gỗ, thực vật rừng ngoài gỗ loài thông thường/thu thập mẫu vật loài thông thường |
-| Mẫu số 12 | Phương án khai thác động vật rừng thông thường từ tự nhiên |
-| Mẫu số 13 | Sổ theo dõi đánh dấu mẫu vật |
-| Mẫu số 14 | Thông báo đánh dấu mẫu vật |
-| Mẫu số 15 | Biên bản kiểm tra lâm sản |
-| Mẫu số 16 | Biên bản kiểm tra khai thác lâm sản |
-| Mẫu số 17 | Đề nghị phân loại doanh nghiệp |
-| Mẫu số 18 | Thông báo kết quả tiếp nhận hồ sơ đăng ký phân loại doanh nghiệp |
-| Mẫu số 19 | Thông báo xác minh thông tin đăng ký phân loại doanh nghiệp |
-| Mẫu số 20 | Biên bản xác minh thông tin đăng ký phân loại doanh nghiệp |
-| Mẫu số 21 | Thông báo kết quả phân loại/chuyển loại doanh nghiệp |
-| Mẫu số 22 | Bàn giao, tiếp nhận thực vật/động vật/thủy sản |
-| Mẫu số 23 | Văn bản đề nghị được tiếp nhận tài sản |
-| Mẫu số 24 | Biên bản tiêu hủy động vật/thủy sản/gỗ/thực vật ngoài gỗ |
-| Mẫu số 25 | Báo cáo tình hình sử dụng tài sản là gỗ |
-| Mẫu số 26 | Biên bản xác nhận tình trạng sức khỏe động vật |
-| Mẫu số 27 | Văn bản đồng ý thả động vật/thủy sản |
-| Mẫu số 28 | Biên bản thả động vật/thủy sản về môi trường tự nhiên |
-| Mẫu số 29 | Báo cáo tình hình nhập, xuất lâm sản |
+Đơn vị đo là cm; lấy số nguyên và một số hàng thập phân sau số hàng đơn
 
- 
+vị; 
 
-**Mẫu số 01. Bảng kê lâm sản**
+c) Khối lượng được xác định theo thể tích cây gỗ: 
 
-|  |  |
-| --- | --- |
-| …………………………  ………………………… **-------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
-| Số(1): ……/……/BKLS | *Tờ số(2): …………… Tổng số tờ: …………* |
+V = (C 
+2 
+1.3 /4π) x H vn   x f hoặc V= (π/4) x D 
+2 
+1.3   x H vn   x f 
 
-|  |  |
-| --- | --- |
-| **BẢNG KÊ LÂM SẢN** |  |
+Trong đó: 
 
-**1. Thông tin chủ lâm sản:**
+V: Khối lượng gỗ được tính bằng thể tích (m 
+3 
+) lấy số nguyên và ba số hàng
 
-- Tên chủ lâm sản(4): ……………………………………………………
+thập phân sau số hàng đơn vị 
 
-- Số GCN/MSDN/GPTL/ĐKHĐ/CCCD/CMND/HC(5): ………………
+C 1.3 : Chu vi tại vị trí 1,3 m của cây (m) 
 
-- Địa chỉ(6): ………………………………………………………………
+D 1.3 : đường kính tại vị trí 1,3m của cây (m) 
 
-- Số điện thoại: …………………, Địa chỉ Email: ………………………
+π: Hằng số pi (π=3,14) 
 
-**2. Thông tin tổ chức, cá nhân mua/nhận chuyển giao quyền sở hữu:**
+H vn : Chiều dài hoặc chiều cao toàn cây đo từ gốc đến ngọn (m) 
 
-- Tên tổ chức, cá nhân(4): ………………………………………………..
+f: Hình số thân cây (đối với cây rừng trồng giá trị của f bằng 0,5; đối với
 
-- Số GCN/MSDN/GPTL/ĐKHĐ/CCCD/CMND/HC(5): …………………
+cây rừng tự nhiên giá trị của f bằng 0,45). 
 
-- Địa chỉ(6): ………………………………………………………………
+d) Sai số tính thể tích gỗ trong mỗi lần đo đối với từng cây là mười phần
 
-- Số điện thoại: ………………, Địa chỉ Email: …………………………
+trăm (±10%).
 
-**3. Thông tin về lâm sản:**
+---
 
-- Tên loài (tên khoa học, tên tiếng Việt/tên thương mại):…………………
+Phụ lục II 
 
-- Nhóm loài (Thông thường; Danh mục loài nguy cấp, quý, hiếm; Phụ lục CITES):……………………………………………………………………………
+MẪU BIỂU VỀ KHAI THÁC, QUẢN LÝ LÂM SẢN VÀ XỬ LÝ TÀI SẢN 
 
-- Nguồn gốc(7):……………………………………………………………...
+(Ban hành kèm theo Thông tư số:   /2025/TT-BNNMT ngày   tháng   năm
 
-- Mã HS (áp dụng đối với lâm sản nhập khẩu, xuất khẩu):…………………
+2025 của Bộ trưởng Bộ Nông nghiệp và Môi trường) 
 
-- Giá trị (nếu có):……………………………………………………………
+M ẫ u s ố   M ẫ u bi ể u 
 
-- Khối lượng/trọng lượng (bằng số và chữ:…) Đơn vị tính (m3, kg, ster, lít, mililit):.....................................................................................................................
+M ẫ u s ố   01   B ả ng kê lâm s ả n 
 
-- Số lượng (bằng số và chữ:…......................); đơn vị tính (lóng, khúc; thanh, tấm, hộp, viên, ...):.........................................................................................
+M ẫ u s ố   02   
+B ả ng kê   lâm s ả n áp d ụ ng đ ố i v ớ i trư ờ ng h ợ p lâm s ả n là tang v ậ t v ụ   vi 
 
-- Thông tin về lô khai thác(8):………….........................................................
+ph ạ m 
+
+M ẫ u s ố   03   Đơn đ ề   ngh ị   xác nh ậ n B ả ng kê lâm s ả n 
+
+M ẫ u s ố   04   S ổ   theo dõi nh ậ p, xu ấ t lâm s ả n 
+
+M ẫ u s ố   05   Biên b ả n xác minh 
+
+M ẫ u s ố   06   S ổ   theo dõi xác nh ậ n B ả ng kê lâm s ả n 
+
+M ẫ u s ố   0 7   
+Phương án   khai thác g ỗ ,   th ự c v ậ t r ừ ng ngoài g ỗ   loài thông thư ờ ng/thu 
+
+th ậ p m ẫ u v ậ t loài thông thư ờ ng (áp d ụ ng cho ch ủ   r ừ ng là t ổ   ch ứ c) 
+
+M ẫ u s ố   0 8 
+
+Phương án khai thác g ỗ , th ự c v ậ t r ừ ng ngoài g ỗ   loài thông thư ờ ng/thu 
+
+th ậ p m ẫ u v ậ t loài thông thư ờ ng (áp d ụ ng cho ch ủ   r ừ ng là h ộ   gia đình, 
+
+cá nhân, c ộ ng đ ồ ng   dân cư ) 
+
+M ẫ u s ố   0 9 
+
+Đ ề   ngh ị   phê duy ệ t phương án khai thác g ỗ , th ự c v ậ t r ừ ng ngoài g ỗ 
+
+loài thông thư ờ ng/đ ộ ng v ậ t r ừ ng thông thư ờ ng t ừ   t ự   nhiên/thu   th ậ p 
+
+m ẫ u v ậ t loài thông thư ờ ng 
+
+M ẫ u   s ố   10   
+Biên b ả n ki ể m tra hi ệ n trư ờ ng cây r ừ ng ch ặ t, t ỉ a, h ạ   đ ộ   cao trong hành 
+
+lang b ả o v ệ   an toàn đư ờ ng dây d ẫ n   đ i ệ n 
+
+M ẫ u s ố   11   
+Quy ế t đ ị nh phê duy ệ t phương án khai thác g ỗ , th ự c v ậ t r ừ ng ngoài g ỗ 
+
+loài thông thư ờ ng/thu   th ậ p m ẫ u v ậ t loài thông thư ờ ng 
+
+M ẫ u s ố   12   Phương án khai thác đ ộ ng v ậ t r ừ ng thông thư ờ ng t ừ   t ự   nhiên 
+
+M ẫ u s ố   13   S ổ   theo dõi đánh d ấ u m ẫ u v ậ t 
+
+M ẫ u s ố   14   Thông báo đánh d ấ u m ẫ u v ậ t 
+
+M ẫ u s ố   15   Biên b ả n ki ể m tra lâm s ả n 
+
+M ẫ u s ố   16   Biên b ả n ki ể m tra khai thác   lâm s ả n
+
+---
+
+2 
+
+M ẫ u s ố   17   Đ ề   ngh ị   phân lo ạ i doanh nghi ệ p 
+
+M ẫ u s ố   18   Thông báo k ế t qu ả   ti ế p nh ậ n h ồ   sơ đăng ký phân lo ạ i doanh nghi ệ p 
+
+M ẫ u s ố   19   Thông báo xác minh thông tin đăng ký phân lo ạ i doanh nghi ệ p 
+
+M ẫ u s ố   20   Biên b ả n xác minh thông tin đăng ký phân lo ạ i doanh nghi ệ p 
+
+M ẫ u s ố   21   Thông báo k ế t qu ả   phân lo ạ i/chuy ể n lo ạ i doanh nghi ệ p 
+
+M ẫ u s ố   22   Bàn giao, ti ế p nh ậ n   th ự c v ậ t / đ ộ ng v ậ t / th ủ y s ả n 
+
+M ẫ u s ố   2 3   Văn b ả n đ ề   ngh ị   đư ợ c ti ế p nh ậ n   tài s ả n 
+
+M ẫ u s ố   2 4   Biên b ả n   tiêu h ủ y đ ộ ng v ậ t/th ủ y s ả n/g ỗ /th ự c v ậ t ngoài g ỗ 
+
+M ẫ u s ố   2 5   Báo cáo tình hình s ử   d ụ ng tài s ả n là g ỗ 
+
+M ẫ u s ố   2 6   Biên b ả n xác nh ậ n tình tr ạ ng s ứ c kh ỏ e đ ộ ng v ậ t 
+
+M ẫ u s ố   2 7   Văn b ả n đ ồ ng ý th ả   đ ộ ng v ậ t /th ủ y s ả n 
+
+M ẫ u s ố   2 8   Biên b ả n th ả   đ ộ ng v ậ t /th ủ y s ả n   v ề   môi trư ờ ng t ự   nhiên 
+
+M ẫ u s ố   2 9   Báo cáo tình hình nh ậ p, xu ấ t lâm s ả n
+
+---
+
+3 
+
+Mẫu số 01. Bảng kê lâm sản 
+
+…………………………
+
+………………………… 
+
+------- 
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+
+Độc lập - Tự do - Hạnh phúc 
+
+Số 
+(1) 
+:   ……/……/BKLS   Tờ số 
+(2) 
+: …………… Tổng số tờ: …………… 
+
+BẢNG KÊ LÂM SẢN 
+
+1. Thông tin chủ lâm sản: 
+
+- Tên chủ lâm sản 
+(4) 
+: …………………………………………………… 
+
+- Số GCN/MSDN/GPTL/ĐKHĐ/CCCD/CMND/HC 
+(5) 
+: ……………… 
+
+- Địa chỉ 
+(6) 
+: ……………………………………………………………… 
+
+- Số điện thoại: …………………, Địa chỉ Email: ……………………… 
+
+2. Thông tin tổ chức, cá nhân mua/nhận chuyển giao quyền sở hữu: 
+
+- Tên tổ chức, cá nhân 
+(4) 
+: ……………………………………………….. 
+
+- Số GCN/MSDN/GPTL/ĐKHĐ/CCCD/CMND/HC 
+(5) 
+: ………………… 
+
+- Địa chỉ 
+(6) 
+: ……………………………………………………………… 
+
+- Số điện thoại: ………………, Địa chỉ Email: ………………………… 
+
+3. Thông tin về lâm sản: 
+
+- Tên loài (tên khoa học, tên tiếng Việt/tên thương mại):………………… 
+
+- Nhóm loài (Thông thường; Danh mục loài nguy cấp, quý, hiếm; Phụ lục
+
+CITES):…………………………………………………………………………… 
+
+- Nguồn gốc 
+(7) 
+:……………………………………………………………... 
+
+- Mã HS (áp dụng đối với lâm sản nhập khẩu, xuất khẩu):………………… 
+
+- Giá trị (nếu có):…………………………………………………………… 
+
+- Khối lượng/trọng lượng (bằng số và chữ:…)   Đơn v ị   tính (m 
+3 
+, kg, ster, lít, 
+
+mililit): ..................................................................................................................... 
+
+- Số lượng (bằng số và chữ:…......................); đơn vị tính   (lóng, khúc;
+
+thanh, tấm, hộp, viên, ...):......................................................................................... 
+
+-   Thông tin về lô khai thác 
+(8) 
+:…………......................................................... 
 
 - Thông tin khác có liên quan (nếu có):.........................................................
 
-**4. Thông tin chi tiết tại Bảng kê khai kèm theo:** (Áp dụng đối với gỗ nguyên liệu, sản phẩm gỗ: khai thác từ rừng tự nhiên, nhập khẩu, thuộc Phụ lục CITES. Động vật rừng thông thường, động vật thuộc Danh mục loài nguy cấp, quý, hiếm, động vật, Phụ lục CITES):
+---
 
-**5. Thông tin vận chuyển (nếu có):** Biển kiểm soát/số hiệu phương tiện:
+4 
 
-……………; thời gian vận chuyển: …… ngày; từ ngày …… tháng …… năm ……… đến ngày …… tháng …… năm ………; Vận chuyển từ: …………… đến: …………………………
+4. Thông tin chi tiết tại Bảng kê khai kèm theo:   (Áp dụng đối với gỗ
 
-**6. Hồ sơ kèm theo (nếu có):**
+nguyên liệu, sản phẩm gỗ: khai thác từ rừng tự nhiên, nhập khẩu, thuộc Phụ lục
 
-Chúng tôi/Tôi cam kết những nội dung kê khai trong bảng kê này là đúng sự thật và chịu trách nhiệm trước pháp luật về sự trung thực của thông tin./.
+CITES. Động vật rừng thông thường, động vật thuộc Danh mục loài nguy cấp,
 
-|  |  |
-| --- | --- |
-| *……, ngày … tháng …… năm 20……* **XÁC NHẬN CỦA CƠ QUAN  CÓ THẨM QUYỀN (9)**  Vào sổ số: …/…  *(Người có thẩm quyền ký, ghi rõ họ tên, đóng dấu)* | *……, ngày…… tháng …… năm ……* **TỔ CHỨC/CÁ NHÂN LẬP BẢNG KÊ**  *(Ký, ghi rõ họ tên, đóng dấu* *đối với tổ chức)* |
+quý, hiếm, động vật, Phụ lục CITES): 
 
- 
+5 . Thông tin v ậ n chuy ể n (n ế u có):   Bi ể n ki ể m soát/s ố   hi ệ u phương ti ệ n: 
 
-**BẢNG KÊ CHI TIẾT**
+……………; th ờ i gian v ậ n chuy ể n: …… ngày; t ừ   ngày …… tháng …… năm 
 
-*(Kèm theo Bảng kê lâm sản số:……/BKLS ngày…/…/….. của …………)*
+……… đ ế n ngày …… tháng …… năm ………; V ậ n chuy ể n t ừ : …………… đ ế n: 
 
-**1. Thông tin chi tiết đối với gỗ nguyên liệu:**
+………………………… 
 
-|  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **TT** | **Số hiệu/ nhãn đánh dấu** (nếu có) | **Tên gỗ** | | | | **Quy cách đối với gỗ** **tròn, gỗ xẻ, thanh tà vẹt, các loại ván** | | | **Số lượng** (thanh/ tấm/ lóng) | **Khối lượng/ trọng lượng** (m3 hoặc kg, lít,mililit) | **Ghi chú** |
-| **Tên** **tiếng** **Việt/ tên thương mại** | **Tên tiếng Anh** (nếu có) | **Tên khoa học** | **Nhóm loài**(10) | **Dài** | **Rộng** | **Đường kính hoặc chiều dày** |
-| 1 |  |  |  |  |  |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |  |  |  |  |  |
-| … |  |  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |  |  |
-| **Tổng:** | |  |  |  |  |  |  |  |  |  |  |
+6. Hồ sơ kèm theo (nếu có): 
 
-**2. Thông tin chi tiết sản phẩm gỗ:**
+Chúng tôi/Tôi cam kết những nội dung kê khai trong bảng kê này là đúng
 
-|  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **TT** | **Tên sản phẩm gỗ** | **Số hiệu/ nhãn đánh** **dấu** (nếu có) | **Đơn vị** **tính** | **Tên gỗ** | | | **Số lượng sản phẩm** | **Khối lượng/ trọng lượng sản phẩm** | **Ghi chú** |
-| **Tên tiếng** **Việt/** **tên thương mại** | **Tên khoa học**(11) | **Nhóm loài**(10) |
-| 1 |  |  |  |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |  |  |  |
-| … |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
-| **Tổng:** |  |  |  |  |  |  |  |  |  |
+sự thật và chịu trách nhiệm trước pháp luật về sự trung thực của thông tin./. 
 
-**3. Thông tin chi tiết đối với động vật rừng thông thường, động vật** **thuộc Danh mục loài nguy cấp, quý, hiếm, động vật thuộc các Phụ lục CITES:**
+……, ngày … tháng …… năm 20…… 
 
-|  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **TT** | **Tên loài** | | **Số lượng cá thể, trứng(12)** | | | | **Khối lượng** | **Thế hệ(13)** | **Nguồn gốc(14)** | **Ghi chú** |
-| **Tên tiếng Việt/tên thương mại (nếu có)** | **Tên khoa** **học** | **Đực** | **Cái** | **Không xác** **định được** | **Tổng** |
-| *(1)* | *(2)* | *(3)* | *(4)* | *(5)* | *(6)* | *(7)=(4)+(5)+(6)* | *(8)* | *(9)* | *(10)* | *(11)* |
-|  |  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |  |
+XÁC NHẬN CỦA CƠ QUAN
 
-***Ghi chú:***
+CÓ THẨM QUYỀN   
+(9) 
 
-a) Chủ lâm sản phải lập Bảng kê chi tiết đối với: gỗ khai thác từ rừng tự nhiên; gỗ thuộc Danh mục loài nguy cấp, quý, hiếm, Phụ lục CITES; động vật rừng và sản phẩm của chúng; động vật và sản phẩm của chúng thuộc Phụ lục CITES.
+Vào sổ số: …/… 
 
-- Ghi chi tiết đối với khúc, lóng gỗ tròn, gỗ đẽo tròn có kích thước theo quy định tại điểm a, điểm b khoản 2 Điều 3 Thông tư này; gỗ xẻ, gỗ đẽo hộp có chiều dài từ 1m trở lên, chiều rộng từ 20 cm trở lên, chiều dày từ 5 cm trở lên; đối với gỗ thuộc Danh mục loài nguy cấp, quý, hiếm hoặc gỗ thuộc Phụ lục CITES không phân biệt kích thước.
+(Người có thẩm quyền ký, ghi rõ họ
+
+tên, đóng dấu) 
+
+……, ngày…… tháng …… năm …… 
+
+TỔ CHỨC/CÁ NHÂN LẬP BẢNG
+
+KÊ 
+
+(Ký, ghi rõ họ tên, đóng dấu
+
+đối với tổ chức) 
+
+BẢNG KÊ CHI TIẾT 
+
+(Kèm theo Bảng kê lâm sản số:……/BKLS ngày…/…/….. của …………) 
+
+1. Thông tin chi tiết đối với gỗ nguyên liệu: 
+
+TT 
+
+Số
+
+hiệu/
+
+nhãn
+
+đánh
+
+dấu 
+
+(nếu có) 
+
+Tên gỗ 
+
+Quy cách   đối với gỗ
+
+tròn, gỗ xẻ, thanh tà
+
+vẹt, các loại ván   Số
+
+lượng 
+
+(thanh/ 
+
+tấm/ 
+
+lóng) 
+
+Khối
+
+lượng/ 
+
+trọng
+
+lượng 
+
+(m 
+3 
+
+hoặc
+
+kg,
+
+lít,milili
+
+t) 
+
+Ghi
+
+chú 
+
+Tên
+
+tiếng
+
+Việt/ 
+
+tên
+
+thương
+
+mại 
+
+Tên
+
+tiếng
+
+Anh 
+
+(nếu có) 
+
+Tên
+
+khoa
+
+học 
+
+Nhóm
+
+loài 
+( 10 ) 
+
+Dài   Rộng 
+
+Đường
+
+kính
+
+hoặc
+
+chiều
+
+dày 
+
+1 
+
+2 
+
+… 
+
+Tổng: 
+
+2. Thông tin chi tiết sản phẩm gỗ : 
+
+TT 
+
+Tên
+
+sản
+
+phẩm
+
+gỗ 
+
+Số hiệu / 
+
+nhãn 
+
+đánh 
+
+d ấ u   (n ế u 
+
+Đơn vị
+
+tính 
+
+Tên gỗ   Số
+
+lượng
+
+sản
+
+phẩm 
+
+Khối
+
+lượng/ 
+
+trọng
+
+lượng 
+
+Ghi
+
+chú Tên tiếng
+
+Việt/ 
+
+tên thương 
+
+Tên khoa
+
+học 
+(11)   Nhóm loài 
+( 10 )
+
+---
+
+5 
+
+có)   mại   sản
+
+phẩm 
+
+1 
+
+2 
+
+… 
+
+Tổng: 
+
+3. Thông tin chi tiết đối với động vật rừng thông thường, động vật
+
+thuộc Danh mục loài nguy cấp, quý, hiếm, động vật thuộc các Phụ lục CITES: 
+
+TT 
+
+Tên loài   Số lượng cá thể, trứng 
+(12) 
+
+Khối
+
+lượng 
+
+Thế
+
+hệ 
+(13) 
+
+Nguồn
+
+gốc 
+(14) 
+
+Ghi
+
+chú 
+
+Tên tiếng
+
+Việt/tên
+
+thương
+
+mại (nếu
+
+có) 
+
+Tên khoa
+
+học   
+Đực   Cái   
+Không xác
+
+định được   
+Tổng 
+
+(1)   (2)   (3)   (4)   (5)   (6)   (7)=(4)+(5)+(6)   (8)   (9)   (10)   (11) 
+
+Ghi chú: 
+
+a) Chủ lâm sản phải lập Bảng kê chi tiết đối với: gỗ khai thác từ rừng tự nhiên; gỗ thuộc Danh
+
+mục loài nguy cấp, quý, hiếm, Phụ lục CITES; động vật rừng và sản phẩm của chúng; động vật và sản
+
+phẩm của chúng thuộc Phụ lục CITES. 
+
+- Ghi chi tiết đối với khúc, lóng gỗ tròn, gỗ đẽo tròn có kích thước theo quy định tại điểm a,
+
+điểm b khoản 2 Điều 3 Thông tư này; gỗ xẻ, gỗ đẽo hộp có chiều dài từ 1m trở lên, chiều rộng từ 20 cm
+
+trở lên, chiều dày từ 5 cm trở lên; đối với gỗ thuộc Danh mục loài nguy cấp, quý, hiếm hoặc gỗ thuộc
+
+Phụ lục CITES không phân biệt kích thước. 
 
 - Ghi tổng hợp chung số lượng, khối lượng đối với gỗ tròn không đủ kích thước quy định tại
 
-điểm a, điểm b khoản 2 Điều 3 Thông tư này; gỗ xẻ, gỗ đẽo hộp có chiều dài dưới 1m, chiều rộng dưới 20 cm, chiều dày dưới 5 cm; gỗ rừng trồng.
+điểm a, điểm b khoản 2 Điều 3 Thông tư này; gỗ xẻ, gỗ đẽo hộp có chiều dài dưới 1m, chiều rộng dưới
 
-- Ghi chi tiết hoặc ghi tổng hợp chung số lượng, khối lượng đối với từng loại lâm sản ngoài gỗ phù hợp với thực tế.
+20 cm, chiều dày dưới 5 cm; gỗ rừng trồng. 
 
-b) Trường hợp Bảng kê chi tiết có nhiều trang thì tại cuối mỗi trang ghi tổng khối lượng lâm sản.
+- Ghi chi tiết hoặc ghi tổng hợp chung số lượng, khối lượng đối với từng loại lâm sản ngoài gỗ
 
-(1) Ghi số thứ tự theo số Bảng kê lâm sản đã lập trong năm; Ví dụ 001/2023: 001 là số thứ tự bảng kê đã lập; 2023 là năm xác nhận.
+phù hợp với thực tế. 
 
-(2) Ghi số thứ tự tờ bảng kê, tổng số tờ của bảng kê.
+b) Trường hợp Bảng kê chi tiết có nhiều trang thì tại cuối mỗi trang ghi tổng khối lượng lâm sản. 
 
-(3) Mã phản hồi nhanh (QR) tích hợp vào Bảng kê lâm sản chứa đựng thông tin Hồ sơ lâm sản mua bán/chuyển giao quyền sở hữu liền kề trước đó hoặc Phương án khai thác gỗ (nếu có).
+(1)   
+Ghi số thứ tự theo số Bảng kê lâm sản đã lập trong năm; Ví dụ 001/2023: 001 là số thứ tự
 
-(4) Ghi tên bằng tiếng Việt hoặc tên giao dịch bằng tiếng Anh (nếu có) đối với tổ chức hoặc đầy đủ họ tên đối với cá nhân.
+bảng kê đã lập; 2023 là năm xác nhận. 
 
-(5) Ghi số giấy chứng nhận đăng ký đầu tư/mã số doanh nghiệp/giấy phép thành lập/đăng ký hoạt động đối với tổ chức; số căn cước công dân/chứng minh nhân dân/hộ chiếu đối với cá nhân.
+(2)   
+Ghi số thứ tự tờ bảng kê, tổng số tờ của bảng kê. 
 
-(6) Ghi địa chỉ tổ chức theo giấy chứng nhận đăng ký đầu tư/doanh nghiệp hoặc Giấy phép thành lập/đăng ký hoạt động; ghi địa chỉ thường trú của cá nhân theo Chứng minh nhân dân/Căn cước công dân/Hộ chiếu.
+(3)   
+Mã phản hồi nhanh (QR) tích hợp vào Bảng kê lâm sản chứa đựng thông tin Hồ sơ lâm sản
 
-(7) Liệt kê nguồn gốc và ghi đầy đủ số Bảng kê lâm sản sau khai thác hoặc số Bảng kê gỗ nhập khẩu và số tờ khai hải quan sau thông quan hoặc số Bảng kê lâm sản do cơ quan được giao xử lý tài sản lập hoặc mã số cơ sở nuôi, cơ sở trồng, số giấy chứng nhận cơ sở bảo tồn đa dạng sinh học.
+mua bán/chuyển giao quyền sở hữu liền kề trước đó hoặc Phương án khai thác gỗ (nếu có). 
 
-(8) Áp dụng đối với trường hợp sau khai thác gỗ có nguồn gốc trong nước: ghi thông tin kinh độ, vĩ độ đối với lô khai thác theo phương án khai thác.
+(4)   
+Ghi tên bằng tiếng Việt hoặc tên giao dịch bằng tiếng Anh (nếu có) đối với tổ chức hoặc đầy
 
-(9) Cơ quan Kiểm lâm sở tại thực hiện xác nhận đối với bảng kê lâm sản theo quy định tại khoản 5 Điều 5 Thông tư này; đóng dấu giáp lai trong trường hợp Bảng kê lâm sản có từ hai (02) trang chở lên. Trường hợp Bảng kê không thuộc đối tượng phải xác nhận, chủ rừng hoặc chủ lâm sản không phải thể hiện nội dung này trong Bảng kê lâm sản.
+đủ họ tên đối với cá nhân.
 
-(10) Ghi PLI đối với gỗ thuộc Phụ lục I CITES; ghi PLII đối với gỗ thuộc Phụ lục II CITES; ghi IA đối với gỗ thuộc nhóm IA trong Danh mục loài nguy cấp, quý, hiếm; ghi IIA đối với gỗ thuộc nhóm IIA trong Danh mục loài nguy cấp, quý, hiếm; ghi TT đối với gỗ thuộc loài thông thường.
+---
 
-(11) Ghi tên gỗ nguyên liệu sử dụng để chế biến thành sản phẩm, trường hợp sản phẩm gỗ sử dụng gỗ nguyên liệu hỗn hợp thì ghi lần lượt tên loài gỗ sử dụng chế biến thành sản phẩm gỗ theo thứ tự ưu tiên sau: Tên loài gỗ thuộc các Phụ lục CITES; tên loài gỗ thuộc Danh mục động vật rừng, thực vật rừng nguy cấp, quý, hiếm; trường hợp sản phẩm gỗ hỗn hợp là gỗ thông thường thì ghi tên gỗ chiếm tỉ lệ cao nhất trong sản phẩm gỗ trước, sau đó đến loài gỗ chiếm tỉ lệ thấp hơn.
+6 
 
-(12) Trường hợp là cá thể động vật ghi “số lượng cá thể”, trường hợp là trứng động vật ghi “số lượng trứng”. Trường hợp không thể xác định được số lượng cá thể động vật/số lượng trứng thì không ghi vào cột này.
+(5)   
+Ghi số giấy chứng nhận đăng ký đầu tư/mã số doanh nghiệp/giấy phép thành lập/đăng ký hoạt
 
-(13) Đối với từng cá thể động vật, ghi rõ là thế hệ F0, F1, F2 trở về sau và chỉ áp dụng cho các trường hợp mua bán, vận chuyển, chuyển giao quyền sở hữu, xuất khẩu vì mục đích thương mại từ các cơ sở nuôi sinh sản.
+động đối với tổ chức; số căn cước công dân/chứng minh nhân dân/hộ chiếu đối với cá nhân. 
 
-(14) Ghi rõ nguồn gốc của từng cá thể như sau:
+(6)   
+Ghi địa chỉ tổ chức theo giấy chứng nhận đăng ký đầu tư/doanh nghiệp hoặc Giấy phép thành
 
-- Nếu động vật được nhập khẩu vào Việt Nam, ghi: nhập khẩu theo tờ khai số….,ngày….tháng …. Năm ….của …. (ghi tên của tổ chức, cá nhân nhập khẩu).
+lập/đăng ký hoạt động; ghi địa chỉ thường trú của cá nhân theo Chứng minh nhân dân/Căn cước công
 
-- Nếu động vật khai thác từ tự nhiên trong nước, ghi: khai thác tại … (địa danh khai thác ghi theo xã, tỉnh) và được cơ quan Kiểm lâm sở tại phê duyệt phương án khai thác …..ngày ….tháng… năm ….
+dân/Hộ chiếu. 
 
-- Nếu động vật từ cơ sở nuôi sinh trưởng, ghi: nuôi sinh trưởng tại cơ sở …. (tên cơ sở nuôi) có mã số …….
+(7)   
+Liệt kê nguồn gốc và ghi đầy đủ số Bảng kê lâm sản sau khai thác hoặc số Bảng kê gỗ nhập
 
-- Nếu động vật từ cơ sở nuôi sinh sản, ghi: nuôi sinh sản tại cơ sở …. (tên cơ sở nuôi) có mã số …….
+khẩu và số tờ khai hải quan sau thông quan hoặc số Bảng kê lâm sản do cơ quan được giao xử lý tài sản
 
- 
+lập hoặc mã số cơ sở nuôi, cơ sở trồng, số giấy chứng nhận cơ sở bảo tồn đa dạng sinh học. 
 
-**Mẫu số 02: Bảng kê lâm sản áp dụng đối với trường hợp lâm sản là tang vật vụ vi phạm**
+(8)   
+Áp dụng đối với trường hợp sau khai thác gỗ có nguồn gốc trong nước: ghi thông tin kinh độ,
 
-|  |  |
-| --- | --- |
-| …………………………  ………………………… **-------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
-| Số(1): ……/……/BKLS | *Tờ số(2): …………… Tổng số tờ: ……………* |
+vĩ độ đối với lô khai thác theo phương án khai thác. 
 
-**BẢNG KÊ LÂM SẢN**
+(9)   
+Cơ quan Kiểm lâm sở tại thực hiện xác nhận đối với bảng kê lâm sản theo quy định tại khoản
 
-*(Áp dụng đối với trường hợp lâm sản là tang vật vụ vi phạm)*
+5 Điều 5 Thông tư này; đóng dấu giáp lai trong trường hợp Bảng kê lâm sản có từ hai (02) trang chở
 
-(Kèm theo (3) …………………………)
+lên. Trường hợp Bảng kê không thuộc đối tượng phải xác nhận, chủ rừng hoặc chủ lâm sản không phải
 
-**I. THÔNG TIN CHUNG**
+thể hiện nội dung này trong Bảng kê lâm sản. 
 
-**1. Người lập Bảng kê lâm sản:**
+(10)   
+Ghi PLI đối với gỗ thuộc Phụ lục I CITES; ghi PLII đối với gỗ thuộc Phụ lục II CITES; ghi
 
-- Họ và tên: …………………………; Chức vụ: …………………………
+IA đối với gỗ thuộc nhóm IA trong Danh mục loài nguy cấp, quý, hiếm; ghi IIA đối với gỗ thuộc nhóm
 
-- Cơ quan/đơn vị: ………………………………………………………….
+IIA trong Danh mục loài nguy cấp, quý, hiếm; ghi TT đối với gỗ thuộc loài thông thường. 
 
-- Địa chỉ: …………………………………………………………………
+(11)   
+Ghi tên gỗ nguyên liệu sử dụng để chế biến thành sản phẩm, trường hợp sản phẩm gỗ sử
 
-**2. Tổ chức/cá nhân vi phạm:**
+dụng gỗ nguyên liệu hỗn hợp thì ghi lần lượt tên loài gỗ sử dụng chế biến thành sản phẩm gỗ theo thứ
 
-- Tên tổ chức/cá nhân(4): …………………………………………………
+tự ưu tiên sau: Tên loài gỗ thuộc các Phụ lục CITES; tên loài gỗ thuộc Danh mục động vật rừng, thực
 
-- Số GCN/MSDN/GPTL/ĐKHĐ/CCCD/CMND/HC(5): …………………
+vật rừng nguy cấp, quý, hiếm; trường hợp sản phẩm gỗ hỗn hợp là gỗ thông thường thì ghi tên gỗ chiếm
 
-- Địa chỉ(6): …………………………………………………………………
+tỉ lệ cao nhất trong sản phẩm gỗ trước, sau đó đến loài gỗ chiếm tỉ lệ thấp hơn. 
 
-3. Người chứng kiến (7): ……………………………………………………
+(12)   
+Trường hợp là cá thể động vật ghi “số lượng cá thể”, trường hợp là trứng động vật ghi “số
 
-**II. THÔNG TIN CHI TIẾT(8)**
+lượng trứng”. Trường hợp không thể xác định được số lượng cá thể động vật/số lượng trứng thì không
 
-Ghi thông tin chi tiết phù hợp với từng đối tượng lâm sản theo hướng dẫn tại Mẫu số 01 Phụ lục này.
+ghi vào cột này. 
+
+(13)   
+Đối với từng cá thể động vật, ghi rõ là thế hệ F0, F1, F2 trở về sau và chỉ áp dụng cho các
+
+trường hợp mua bán, vận chuyển, chuyển giao quyền sở hữu, xuất khẩu vì mục đích thương mại từ các
+
+cơ sở nuôi sinh sản. 
+
+(14)   
+Ghi rõ nguồn gốc của từng cá thể như sau: 
+
+- Nếu động vật được nhập khẩu vào Việt Nam, ghi: nhập khẩu theo tờ khai số….,ngày….tháng
+
+…. Năm ….của …. (ghi tên của tổ chức, cá nhân nhập khẩu). 
+
+- Nếu động vật khai thác từ tự nhiên trong nước, ghi: khai thác tại … (địa danh khai thác ghi
+
+theo xã, tỉnh) và được cơ quan Kiểm lâm sở tại phê duyệt phương án khai thác …..ngày ….tháng… năm
+
+…. 
+
+- Nếu động vật từ cơ sở nuôi sinh trưởng, ghi: nuôi sinh trưởng tại cơ sở …. (tên cơ sở nuôi) có
+
+mã số ……. 
+
+- Nếu động vật từ cơ sở nuôi sinh sản, ghi: nuôi sinh sản tại cơ sở …. (tên cơ sở nuôi) có mã số
+
+…….
+
+---
+
+7 
+
+Mẫu số 02: Bảng kê lâm sản áp dụng đối với trường hợp lâm sản là tang vật
+
+vụ vi phạm 
+
+…………………………
+
+………………………… 
+
+------- 
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+
+Độc lập - Tự do - Hạnh phúc 
+
+Số 
+(1) 
+:   ……/……/BKLS   Tờ số 
+(2) 
+: …………… Tổng số tờ: …………… 
+
+BẢNG KÊ LÂM SẢN 
+
+(Áp dụng đối với trường hợp lâm sản là tang vật vụ vi phạm) 
+
+(Kèm theo   
+(3)   
+………………………… ) 
+
+I. THÔNG TIN CHUNG 
+
+1. Người lập Bảng kê lâm sản: 
+
+- Họ và tên: …………………………; Chức vụ: ………………………… 
+
+- Cơ quan/đơn vị: …………………………………………………………. 
+
+- Địa chỉ: ………………………………………………………………… 
+
+2. Tổ chức/cá nhân vi phạm: 
+
+- Tên tổ chức/cá nhân 
+(4) 
+: ………………………………………………… 
+
+- Số GCN/MSDN/GPTL/ĐKHĐ/CCCD/CMND/HC 
+(5) 
+: ………………… 
+
+- Địa chỉ 
+(6) 
+: ………………………………………………………………… 
+
+3. Người chứng kiến   
+(7) 
+: …………………………………………………… 
+
+II. THÔNG TIN CHI TIẾT 
+(8) 
+
+Ghi thông tin chi tiết phù hợp với từng đối tượng lâm sản theo hướng dẫn
+
+tại Mẫu số 01 Phụ lục này. 
 
 Tổng số lượng, khối lượng đối với từng loại lâm sản có trong bảng kê:
 
-………………………………………………………………………………………………………… ./.
+……………………………………………………………………………………
 
-|  |  |
-| --- | --- |
-| **TỔ CHỨC/CÁ NHÂN LIÊN** **QUAN**  *(Ký, ghi rõ họ tên, đóng dấu* *đối với tổ chức)* | *……, ngày …… tháng …… năm 20……*  **NGƯỜI LẬP BẢNG KÊ**  *(Ký, ghi rõ họ tên)* |
-| **NGƯỜI CHỨNG KIẾN**  *(Ký, ghi rõ họ tên)* |  |
+…………………… ./. 
 
-***Ghi chú:***
+TỔ CHỨC/CÁ NHÂN LIÊN
 
-(1) Ghi số thứ tự theo số Bảng kê lâm sản đã lập trong năm; Ví dụ: 001/2023 thì 001 là số thứ tự bảng kê đã lập; 2023 là năm lập bảng kê.
+QUAN 
 
-(2) Ghi số thứ tự tờ bảng kê, tổng số tờ của bảng kê.
+(Ký, ghi rõ họ tên, đóng dấu
 
-(3) Ghi theo từng trường hợp cụ thể, ví dụ: Kèm theo Biên bản vi phạm hành chính/Biên bản làm việc/Biên bản kiểm tra…..số....ngày....tháng....năm của đơn vị/cơ quan có thẩm quyền.
+đối với tổ chức) 
 
-(4) Ghi tên bằng tiếng Việt hoặc tên giao dịch bằng tiếng Anh (nếu có) đối với tổ chức hoặc đầy đủ họ tên đối với cá nhân.
+……, ngày ……… tháng ……… năm 20…… 
 
-(5) Ghi Số giấy chứng nhận đăng ký đầu tư/mã số doanh nghiệp/giấy phép thành lập/đăng ký hoạt động đối với tổ chức; số căn cước công dân/chứng minh nhân dân/hộ chiếu đối với cá nhân.
+NGƯỜI LẬP BẢNG KÊ 
 
-(6) Ghi địa chỉ tổ chức theo giấy chứng nhận đăng ký đầu tư/doanh nghiệp hoặc Giấy phép thành lập/đăng ký hoạt động; ghi địa chỉ thường trú của cá nhân theo Chứng minh nhân dân/Căn cước công dân/Hộ chiếu.
+(Ký, ghi rõ họ tên) 
 
-(7) Ghi đầy đủ họ tên cá nhân; số căn cước công dân/chứng minh nhân dân/hộ chiếu; địa chỉ thường trú theo Chứng minh nhân dân/Căn cước công dân/Hộ chiếu.
+NGƯỜI CHỨNG KIẾN 
 
-(8) Người có thẩm quyền lập Bảng kê lâm sản ghi thông tin phù hợp với từng loại lâm sản.
+(Ký, ghi rõ họ tên)
 
- 
+---
 
-**Mẫu số 03: Đơn đề nghị xác nhận Bảng kê lâm sản**
+8 
 
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  
- Độc lập - Tự do - Hạnh phúc  
- ---------------**
+Ghi chú: 
 
-**ĐƠN ĐỀ NGHỊ XÁC NHẬN BẢNG KÊ LÂM SẢN**
+(1)   
+Ghi số thứ tự theo số Bảng kê lâm sản đã lập trong năm; Ví dụ: 001/2023 thì 001 là số thứ tự
 
-Kính gửi(1): ……………………………………………………
+bảng kê đã lập; 2023 là năm lập bảng kê. 
 
-**1. Thông tin về chủ lâm sản/chủ rừng:**
+(2)   
+Ghi số thứ tự tờ bảng kê, tổng số tờ của bảng kê. 
 
-a) Tên chủ lâm sản/chủ rừng (2): ……………………………………………
+(3)   
+Ghi theo từng trường hợp cụ thể, ví dụ: Kèm theo Biên bản vi phạm hành chính/Biên bản làm
 
-- Số GCN/MSDN/GPTL/ĐKHĐ/CCCD/CMND/HC(3): …………………..
+việc/Biên bản kiểm tra…..số....ngày....tháng....năm của đơn vị/cơ quan có thẩm quyền. 
 
-- Địa chỉ(4): …………………………………………………………………
+(4)   
+Ghi tên bằng tiếng Việt hoặc tên giao dịch bằng tiếng Anh (nếu có) đối với tổ chức hoặc đầy
 
-- Số điện thoại:……………………, địa chỉ email: ………….……………
+đủ họ tên đối với cá nhân. 
 
-**2. Thông tin về lâm sản:**
+(5)   
+Ghi Số giấy chứng nhận đăng ký đầu tư/mã số doanh nghiệp/giấy phép thành lập/đăng ký
 
-a) Loại lâm sản(5): …………………………………………………………
+hoạt động đối với tổ chức; số căn cước công dân/chứng minh nhân dân/hộ chiếu đối với cá nhân. 
 
-b) Số lượng(6):……………………………………………………………..
+(6)   
+Ghi địa chỉ tổ chức theo giấy chứng nhận đăng ký đầu tư/doanh nghiệp hoặc Giấy phép thành
 
-c) Khối lượng(6): ……………………………………………..…………….
+lập/đăng ký hoạt động; ghi địa chỉ thường trú của cá nhân theo Chứng minh nhân dân/Căn cước công
 
-**3. Tài liệu kèm theo:**
+dân/Hộ chiếu. 
 
-a) Bảng kê lâm sản (7): ……………………………………………….……
+(7)   
+Ghi đầy đủ họ tên cá nhân; số căn cước công dân/chứng minh nhân dân/hộ chiếu; địa chỉ
 
-b) Hồ sơ kèm theo (8): ………………………………………….………….
+thường trú theo Chứng minh nhân dân/Căn cước công dân/Hộ chiếu. 
 
-Chúng tôi/Tôi cam kết những nội dung kê khai trong đề nghị này là đúng sự thật và chịu trách nhiệm trước pháp luật về sự trung thực của thông tin.
+(8)   
+Người có thẩm quyền lập Bảng kê lâm sản ghi thông tin phù hợp với từng loại lâm sản.
 
-Đề nghị(1) …………… xem xét kiểm tra, xác nhận Bảng kê lâm sản./.
+---
 
-|  |  |
-| --- | --- |
-|  | *……, ngày…… tháng…… năm ……*  **CHỦ RỪNG/CHỦ LÂM SẢN** *(Ký, ghi rõ họ tên, đóng dấu đối với tổ chức)* |
+9 
 
- 
+Mẫu số 03: Đơn đề nghị xác nhận Bảng kê lâm sản 
 
-***Ghi chú:***
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
 
-(1) Cơ quan Kiểm lâm sở tại nơi khai thác, cất giữ lâm sản.
+Độc lập - Tự do - Hạnh phúc 
 
-(2) Ghi tên bằng tiếng Việt hoặc tên giao dịch bằng tiếng Anh (nếu có) đối với tổ chức hoặc đầy đủ họ tên đối với cá nhân.
+ĐƠN ĐỀ NGHỊ XÁC NHẬN BẢNG KÊ LÂM SẢN 
 
-(3) Ghi Số giấy chứng nhận đăng ký đầu tư/mã số doanh nghiệp/giấy phép thành lập/đăng ký hoạt động đối với tổ chức; số căn cước công dân/chứng minh nhân dân/hộ chiếu đối với cá nhân.
+Kính gửi 
+(1) 
+: …………………………………………………… 
 
-(4) Ghi địa chỉ tổ chức theo giấy chứng nhận đăng ký đầu tư/doanh nghiệp hoặc Giấy phép thành lập/đăng ký hoạt động; ghi địa chỉ thường trú của cá nhân theo Chứng minh nhân dân/Căn cước công dân/Hộ chiếu.
+1. Thông tin về chủ lâm sản/chủ rừng: 
 
-(5) Ghi rõ chủng loại lâm sản: Gỗ tròn/gỗ xẻ/sản phẩm gỗ/thực vật rừng ngoài gỗ/động vật rừng/sản phẩm của động vật rừng.
+a) Tên chủ lâm sản/chủ rừng   
+(2) 
+: …………………………………………… 
 
-(6) Ghi số lượng, khối lượng, đơn vị tính theo từng loại lâm sản quy định tại Điều 4 Thông tư này.
+- Số GCN/MSDN/GPTL/ĐKHĐ/CCCD/CMND/HC 
+(3) 
+: ………………….. 
 
-(7) Căn cứ loại lâm sản, chủ rừng/chủ lâm sản lập Bảng kê lâm sản Mẫu số 01 Phụ lục này.
+- Địa chỉ 
+(4) 
+: ………………………………………………………………… 
 
-(8) Kê khai hồ sơ kèm theo khi đề nghị xác nhận.
+- Số điện thoại:……………………, địa chỉ email: ………….…………… 
 
- 
+2. Thông tin về lâm sản : 
 
-**Mẫu số 04: Sổ theo dõi nhập, xuất lâm sản**
+a) Loại lâm sản 
+(5) 
+: ………………………………………………………… 
 
-|  |  |
-| --- | --- |
-| **TÊN ĐƠN VỊ LẬP SỔ  ……………………………  -------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
-|  | *Số sổ: ……… /Năm lập: ……* |
+b) Số lượng 
+(6) 
+:…………………………………………………………….. 
 
- 
+c) Khối lượng 
+(6) 
+: ……………………………………………..……………. 
 
-**SỔ THEO DÕI NHẬP, XUẤT LÂM SẢN**
+3. Tài liệu kèm theo: 
 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Lâm sản tồn đầu kỳ(1)** | **Lâm sản nhập trong kỳ** | | | | | | | | **Lâm sản xuất ra trong kỳ** | | | | | | **Lâm sản tồn cuối kỳ(2)** | **Ghi chú** | **Xác nhận (3)** |  |
-| **Ngày, tháng,** **năm** | **Tên lâm sản** | | **Số hiệu, nhãn đánh dấu** | **Đơn vị** **tính** | **Khối lượng** | | **Hồ sơ kèm theo** **lâm sản nhập** | **Ngày, tháng, năm** | **Số bảng kê lâm sản xuất ra** | **Khối lượng** | | **Hồ sơ xuất lâm sản kèm theo** | **Ước tính nguyên liệu tiêu hao (nếu có)** |  |
-| **Tên tiếng Việt/tên thương mại** | **Tên khoa học** | **Loài nguy cấp, quý, hiếm; CITES** | **Loài thông**  **thường** |  |
-| **Loài nguy cấp, quý, hiếm; CITES** | **Loài thông thường** |  |
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+a) Bảng kê lâm sản   
+(7) 
+: ……………………………………………….…… 
 
-|  |  |
-| --- | --- |
-| **CHỦ ĐƠN VỊ LẬP SỔ**  *(Ký, ghi rõ họ tên, đóng dấu đối với tổ chức)* | **NGƯỜI GHI SỔ (4)** |
+b) Hồ sơ kèm theo   
+(8) 
+:   ………………………………………….…………. 
 
- 
+Chúng tôi/Tôi cam kết những nội dung kê khai trong đề nghị này là đúng
 
-***Ghi chú:***
+sự thật và chịu trách nhiệm trước pháp luật về sự trung thực của thông tin. 
 
-(1) Ghi thông tin lâm sản có ở đầu kỳ theo dõi.
+Đề nghị 
+(1)   
+…………… xem xét kiểm tra, xác nhận Bảng kê lâm sản./. 
 
-(2) Ghi thông tin lâm sản có ở cuối kỳ theo dõi.
+……, ngày…… tháng…… năm …… 
 
-(3) Đại diện cơ quan Kiểm lâm sở tại đối chiếu khối lượng lâm sản tồn; ghi ngày, tháng, năm xác nhận khối lượng lâm sản tồn và ký, ghi rõ họ tên.
+CHỦ RỪNG/CHỦ LÂM SẢN 
 
-(4) Ngày cuối của tháng, của năm: ghi tổng hợp số lượng, khối lượng từng loại lâm sản nhập, xuất, tồn kho trong tháng, trong năm và người ghi sổ, chủ đơn vị lập sổ ký xác nhận. Chủ lâm sản lưu theo dõi, quản lý.
+(Ký, ghi rõ họ tên, đóng dấu đối với
 
- 
+tổ chức) 
 
-**Mẫu số 05: Biên bản xác minh nguồn gốc lâm sản**
+Ghi chú: 
 
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  
- Độc lập - Tự do - Hạnh phúc  
- ---------------**
+(1)   
+Cơ quan Kiểm lâm sở tại nơi khai thác, cất giữ lâm sản. 
 
-**BIÊN BẢN XÁC MINH NGUỒN GỐC LÂM SẢN**
+(2)   
+Ghi tên bằng tiếng Việt hoặc tên giao dịch bằng tiếng Anh (nếu có) đối với tổ chức hoặc đầy
 
-Căn cứ Thông tư số …/2025/TT-BNNMT ngày ……/../2025 của Bộ trưởng Bộ Nông nghiệp và Môi trường quy định về quản lý; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân;
+đủ họ tên đối với cá nhân. 
 
-Căn cứ hồ sơ kèm theo Đơn đề nghị xác nhận Bảng kê lâm sản, ngày …… tháng …… năm ………, của (1)………………………………………………,
+(3)   
+Ghi Số giấy chứng nhận đăng ký đầu tư/mã số doanh nghiệp/giấy phép thành lập/đăng ký
 
-Hôm nay, hồi …… giờ ……, ngày ……… tháng ……… năm …………, tại(2) ………………………………………………………………………………
+hoạt động đối với tổ chức; số căn cước công dân/chứng minh nhân dân/hộ chiếu đối với cá nhân. 
 
-**I. THÀNH PHẦN**
+(4)   
+Ghi địa chỉ tổ chức theo giấy chứng nhận đăng ký đầu tư/doanh nghiệp hoặc Giấy phép thành
 
-**1. Đại diện cơ quan có thẩm quyền xác nhận Bảng kê lâm sản:**
+lập/đăng ký hoạt động; ghi địa chỉ thường trú của cá nhân theo Chứng minh nhân dân/Căn cước công
 
-- Ông (bà) ………………………………; chức vụ: ……………………
+dân/Hộ chiếu.
 
-- Ông (bà) ……………………………; chức vụ: …………………………
+---
 
-**2. Đại diện (1) ………………………………………:**
+10 
 
-- Ông (bà) …………………………; chức vụ: ……………………………
+(5)   
+Ghi rõ chủng loại lâm sản: Gỗ tròn/gỗ xẻ/sản phẩm gỗ/thực vật rừng ngoài gỗ/động vật
 
-- Ông (bà) …………………………; chức vụ: …………………………
+rừng/sản phẩm của động vật rừng. 
 
-**3. Đại diện tổ chức/cá nhân liên quan (3):**
+(6)   
+Ghi số lượng, khối lượng, đơn vị tính theo từng loại lâm sản quy định tại Điều 4 Thông tư này. 
 
-- Ông (bà):…………………… Đại diện cơ quan: ………………………
+(7)   
+Căn cứ loại lâm sản, chủ rừng/chủ lâm sản lập Bảng kê lâm sản Mẫu số 01 Phụ lục này. 
 
-- Ông (bà): …………………... Đại diện cơ quan:………………………
+(8)   
+Kê khai hồ sơ kèm theo khi đề nghị xác nhận.
 
-**II. NỘI DUNG XÁC MINH**
+---
 
-Tiến hành xác minh về nguồn gốc lâm sản, cụ thể như sau:
+11 
 
-1. Tính hợp pháp của lâm sản:
+Mẫu số 04: Sổ theo dõi nhập, xuất lâm sản 
 
-Hợp pháp: □ Không hợp pháp: □
+TÊN ĐƠN VỊ LẬP SỔ
 
-Lí do: ………………………………………………………………………
+…………………………… 
 
-2. Phù hợp giữa lâm sản thực tế và hồ sơ đề nghị xác nhận:
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
 
-Hợp pháp: □ Không hợp pháp: □
+Độc lập - Tự do - Hạnh phúc 
 
-Lí do: ………………………………………………………………………
+Số sổ: ……… /Năm lập: …… 
+
+SỔ THEO DÕI NHẬP, XUẤT LÂM SẢN 
+
+Lâm s ả n 
+
+t ồ n   đ ầ u 
+
+k ỳ 
+(1) 
+
+Lâm s ả n nh ậ p trong k ỳ   Lâm s ả n xu ấ t ra   trong k ỳ 
+
+Lâm 
+
+s ả n t ồ n 
+
+cu ố i 
+
+k ỳ 
+(2) 
+
+Ghi 
+
+chú 
+
+Xác 
+
+nh ậ n   
+(3) Ngày,   tháng, 
+
+năm 
+
+Tên lâm s ả n 
+
+S ố   hi ệ u, 
+
+nhãn 
+
+đánh 
+
+d ấ u 
+
+Đ ơ n   v ị 
+
+tính 
+
+Kh ố i lư ợ ng 
+
+H ồ   sơ 
+
+kèm 
+
+theo 
+
+lâm s ả n 
+
+nh ậ p 
+
+Ngà y , 
+
+tháng, 
+
+năm 
+
+S ố   b ả ng 
+
+kê lâm 
+
+s ả n xu ấ t 
+
+ra 
+
+Kh ố i   lư ợ ng   H ồ   sơ 
+
+xu ấ t 
+
+lâm 
+
+s ả n 
+
+kèm 
+
+theo 
+
+Ư ớ c 
+
+tính 
+
+nguyên 
+
+li ệ u tiêu 
+
+hao (n ế u 
+
+có) 
+
+Tên   ti ế ng 
+
+Vi ệ t/tên 
+
+thương m ạ i 
+
+Tên 
+
+khoa 
+
+h ọ c 
+
+Loài nguy 
+
+c ấ p, quý, 
+
+hi ế m; 
+
+CITES 
+
+Loài   thông 
+
+thư ờ ng 
+
+Loài 
+
+nguy 
+
+c ấ p, 
+
+quý, 
+
+hi ế m; 
+
+CITES 
+
+Loài 
+
+thông 
+
+thư ờ ng 
+
+CHỦ ĐƠN VỊ LẬP SỔ 
+
+(K ý , ghi rõ họ tên, đóng dấu đối với tổ chức) 
+
+NGƯỜI GHI SỔ   
+(4) 
+
+Ghi chú: 
+
+(1)   
+Ghi thông tin lâm sản có ở đầu kỳ theo dõi. 
+
+(2)   
+Ghi thông tin lâm sản có ở cuối kỳ theo dõi. 
+
+(3)   
+Đại diện cơ quan Kiểm lâm sở tại đối chiếu khối lượng lâm sản tồn; ghi ngày, tháng, năm xác nhận khối lượng lâm sản tồn và ký, ghi rõ họ tên. 
+
+(4)   
+Ngày cuối của tháng, của năm: ghi tổng hợp số lượng, khối lượng từng loại lâm sản nhập, xuất, tồn kho trong tháng, trong năm và người ghi sổ, chủ đơn vị
+
+lập sổ ký xác nhận. Chủ lâm sản lưu theo dõi, quản lý.
+
+---
+
+12 
+
+Mẫu số 05: Biên bản xác minh nguồn gốc lâm sản 
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+
+Độc lập - Tự do - Hạnh phúc 
+
+BIÊN BẢN XÁC MINH NGUỒN GỐC LÂM SẢN 
+
+Căn cứ Thông tư số …/2025/TT-BNNMT ngày ……/../2025 của Bộ trưởng
+
+Bộ Nông nghiệp và Môi trường quy định về quản lý; xử lý lâm sản, thủy sản là
+
+tài sản được xác lập quyền sở hữu toàn dân; 
+
+Căn cứ hồ sơ kèm theo Đơn đề nghị xác nhận Bảng kê lâm sản, ngày ……
+
+tháng …… năm ………, của   
+(1) 
+………………………………………………, 
+
+Hôm nay, hồi …… giờ ……, ngày ……… tháng ……… năm …………,
+
+tại 
+(2)   
+……………………………………………………………………………… 
+
+I. THÀNH PHẦN 
+
+1. Đại diện cơ quan có thẩm quyền xác nhận Bảng kê lâm sản: 
+
+- Ông (bà) ………………………………; chức vụ: …………………… 
+
+- Ông (bà) ……………………………; chức vụ: ………………………… 
+
+2. Đại diện   
+(1)   
+………………………………………: 
+
+- Ông (bà) …………………………; chức vụ: …………………………… 
+
+- Ông (bà) …………………………; chức vụ: ………………………… 
+
+3. Đại diện tổ chức/cá nhân liên quan   
+(3) 
+: 
+
+- Ông (bà):…………………… Đại diện cơ quan: ……………………… 
+
+- Ông (bà): …………………... Đại diện cơ quan:……………………… 
+
+II. NỘI DUNG XÁC MINH 
+
+Tiến hành xác minh về nguồn gốc lâm sản, cụ thể như sau: 
+
+1. Tính hợp pháp của lâm sản: 
+
+Hợp pháp: □   Không hợp pháp: □ 
+
+Lí do: ……………………………………………………………………… 
+
+2. Phù hợp giữa lâm sản thực tế và hồ sơ đề nghị xác nhận: 
+
+Hợp pháp: □   Không hợp pháp: □ 
+
+Lí do: ……………………………………………………………………… 
 
 - Tài liệu thu thập kèm theo (nếu có):
 
-……………………………………………………………………………
+---
 
-Việc xác minh nguồn gốc lâm sản được thực hiện theo đúng quy định, không ảnh hưởng đến hoạt động bình thường của (1)……………………………..
+13 
 
-**III. KẾT LUẬN**
+…………………………………………………………………………… 
 
- (4) …………………………………………………………………………
+Việc xác minh nguồn gốc lâm sản được thực hiện theo đúng quy định,
 
-Biên bản lập xong hồi .... giờ .... phút, ngày …/…/……, gồm .... tờ, được lập thành .... bản có giá trị pháp lý như nhau. Sau khi đọc lại biên bản, những người có tên nêu trên cùng nghe, công nhận là đúng và chịu trách nhiệm trước pháp luật về các nội dung đã ghi và kết luận nêu trên, cùng thống nhất, ký và ghi rõ họ tên vào biên bản; giao mỗi bên 01 bản./.
+không ảnh hưởng đến hoạt động bình thường của   
+(1) 
+…………………………….. 
 
- 
+III. KẾT LUẬN 
 
-|  |  |
-| --- | --- |
-| **ĐẠI DIỆN BÊN ĐƯỢC XÁC MINH** *(Ký, ghi rõ họ tên)* | **NGƯỜI LẬP BIÊN BẢN**  *(Ký, ghi rõ họ tên)* |
-| **ĐẠI DIỆN TỔ CHỨC/CÁ NHÂN LIÊN QUAN (nếu có)**  *(Ký, ghi rõ họ tên)* |  |
+(4)   
+………………………………………………………………………… 
 
- 
+Biên bản lập xong hồi .... giờ .... phút, ngày …/…/……, gồm .... tờ, được
 
-***Ghi chú:***
+lập thành .... bản có giá trị pháp lý như nhau. Sau khi đọc lại biên bản, những
 
-(1) Ghi tên bằng tiếng Việt hoặc tên giao dịch bằng tiếng Anh (nếu có) đối với tổ chức hoặc đầy đủ họ tên đối với cá nhân.
+người có tên nêu trên cùng nghe, công nhận là đúng và chịu trách nhiệm trước
 
-(2) Ghi cụ thể địa danh nơi chủ lâm sản cất giữ lâm sản (ghi chi tiết đến thôn/xóm/đội, xã/phường/thị trấn, tỉnh/thành phố).
+pháp luật về các nội dung đã ghi và kết luận nêu trên, cùng thống nhất, ký và ghi
 
-(3) Ghi tên tổ chức/cá nhân tham gia xác minh và lập biên bản.
+rõ họ tên vào biên bản; giao mỗi bên 01 bản./. 
 
-(4) Kết luận đủ điều kiện xác nhận Bảng kê lâm sản hay không.
+ĐẠI DIỆN BÊN 
 
- 
+ĐƯỢC XÁC MINH 
 
-**Mẫu số 06: Sổ theo dõi xác nhận Bảng kê lâm sản**
+(Ký, ghi rõ họ tên) 
 
-|  |  |
-| --- | --- |
-| **TÊN ĐƠN VỊ LẬP SỔ**  ………………………… **-------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
-|  | *Số sổ: ………/ Năm: 20……* |
+NGƯỜI LẬP BIÊN BẢN 
 
- 
+(Ký, ghi rõ họ tên) 
 
-**SỔ THEO DÕI XÁC NHẬN BẢNG KÊ LÂM SẢN**
+ĐẠI DIỆN TỔ CHỨC/CÁ NHÂN
 
-|  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **TT** | **Số vào sổ** | **Ngày, tháng, năm xác nhận** | **Tên chủ** **lâm sản** | **Địa chỉ của chủ lâm sản** | **Xác nhận** | | | **Ghi chú** |
-| **Tổng số lượng, khối lượng lâm sản xác nhận (1)** | **Tên, chức danh người** **xác nhận** | **Người xác** **nhận ký tên** |
-| 1 |  |  |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |  |  |
-| **…** |  |  |  |  |  |  |  |  |
+LIÊN QUAN (nếu có) 
 
-|  |  |
-| --- | --- |
-| **THỦ TRƯỞNG ĐƠN VỊ** | **NGƯỜI GHI SỔ (2)** |
+(Ký, ghi rõ họ tên) 
 
- 
+Ghi chú: 
 
-***Ghi chú:***
+(1)   
+Ghi tên bằng tiếng Việt hoặc tên giao dịch bằng tiếng Anh (nếu có) đối với tổ chức hoặc đầy
 
-(1) Ghi tổng số lượng và khối lượng, đơn vị tính từng loại lâm sản ghi trong Bảng kê lâm sản theo quy định tại Điều 4 Thông tư này.
+đủ họ tên đối với cá nhân. 
 
-(2) Cuối năm người ghi sổ ký, ghi rõ họ tên và trình Thủ trưởng đơn vị ký tên, đóng dấu để lưu sổ theo quy định.
+(2)   
+Ghi cụ thể địa danh nơi chủ lâm sản cất giữ lâm sản (ghi chi tiết đến thôn/xóm/đội,
 
- 
+xã/phường/thị trấn, tỉnh/thành phố). 
 
-**Mẫu số 07: Phương án khai thác gỗ, thực vật rừng ngoài gỗ loài thông thường/thu thập mẫu vật loài thực vật rừng thông thường (áp dụng cho tổ chức)**
+(3)   
+Ghi tên tổ chức/cá nhân tham gia xác minh và lập biên bản. 
 
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  
- Độc lập - Tự do - Hạnh phúc  
- ---------------**
+(4)   
+Kết luận đủ điều kiện xác nhận Bảng kê lâm sản hay không.
 
-**PHƯƠNG ÁN KHAI THÁC(\*)**
+---
 
-(1)**…………………………**
+14 
 
-**I. THÔNG TIN CHỦ RỪNG**
+Mẫu số 06: Sổ theo dõi xác nhận Bảng kê lâm sản 
 
-1. Tên chủ rừng (2):..........................................................................................
+TÊN ĐƠN VỊ LẬP SỔ 
 
-2. Số GCN/MSDN/GPTL/ĐKHĐ(3)................................................................
+………………………… 
 
-3. Địa chỉ chủ rừng (4):.....................................................................................
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
 
-4. Số điện thoại:.......................................; địa chỉ email:..............................
+Độc lập - Tự do - Hạnh phúc 
 
-5. Thông tin về mã số vùng trồng hoặc chứng chỉ quản lý rừng bền vững đã được cấp (nếu có) (5):…………...............................................................................
+Số   sổ :   ………/ Năm: 20…… 
 
-**II. NỘI DUNG PHƯƠNG ÁN**
+SỔ THEO DÕI XÁC NHẬN BẢNG KÊ LÂM SẢN 
 
-1. Căn cứ xây dựng phương án (6):................................................................
+TT   
+S ố   vào 
 
-2. Đối tượng (7):.............................................................................................
+s ổ 
 
-3. Địa danh, diện tích khai thác (8):..................................................................
+Ngày, 
 
-4. Phương thức khai thác(9):………………………………………………..
+tháng, 
 
-5. Sản lượng dự kiến khai thác(10): gỗ…….m3; củi hoặc sản phẩm khác.... ster/m3.
+năm xác 
 
-Thực vật rừng ngoài gỗ:............tấn; hoặc ................cây (nếu xác định được).
+nh ậ n 
 
-6. Dự kiến hệ thống đường vận xuất, vận chuyển (11)......................................
+Tên ch ủ 
 
-7. Các biện pháp bảo vệ rừng, phòng chống cháy rừng (12):............................
+lâm   s ả n 
 
-8. Giải pháp phục hồi rừng sau khai thác (13):..................................................
+Đ ị a ch ỉ 
 
-9. Thời gian dự kiến khai thác: từ ngày…tháng……năm…….đến ngày……tháng……năm(14)…….
+c ủ a ch ủ 
 
- 
+lâm s ả n 
 
-|  |  |
-| --- | --- |
-|  | .........., *ngày........ tháng...... năm.....*  **CHỦ RỪNG**  *(Ký, ghi rõ họ tên, đóng dấu)* |
+Xác nh ậ n 
 
- 
+Ghi 
 
-***Ghi chú:***
+chú 
 
- (\*) Mẫu này do chủ rừng, chủ lâm sản, chủ dự án được cơ quan có thẩm quyền giao (viết tắt là chủ rừng) sử dụng khi lập Phương án khai thác gỗ, thực vật rừng ngoài gỗ loài thông thường/thu thập mẫu vật loài thực vật rừng thông thường.
+T ổ ng   s ố 
 
-**I. THÔNG TIN CHỦ RỪNG**
+lư ợ ng, 
 
-(1) Ghi trường hợp khai thác cụ thể theo quy định tại khoản 2 Điều 6 Thông tư này.
+kh ố i 
 
-(2) Ghi tên bằng tiếng Việt hoặc tên giao dịch bằng tiếng Anh (nếu có).
+lư ợ ng 
 
-(3) Ghi Số giấy chứng nhận đăng ký đầu tư/mã số doanh nghiệp/giấy phép thành lập/đăng ký hoạt động.
+lâm s ả n 
 
-(4) Ghi rõ địa chỉ trên giấy chứng nhận đăng ký đầu tư/doanh nghiệp hoặc giấy phép thành lập/đăng ký hoạt động.
+xác nh ậ n 
 
-(5) Ghi mã số vùng trồng, ngày cấp hoặc số giấy chứng nhận của chứng chỉ quản lý rừng bền vững, tên tổ chức cấp (nếu có).
+(1) 
 
-**II. NỘI DUNG PHƯƠNG ÁN**
+Tên, 
 
-(6) Ghi thông tin các văn bản quy phạm pháp luật chính và các tài liệu pháp lý liên quan.
+ch ứ c 
 
-(7) Ghi đối tượng khai thác quy định tại khoản 2 hoặc khoản 7 Điều 6 Thông tư này: đối với khai thác rừng trồng ghi thông tin loài cây trồng, năm trồng, cơ quan phê duyệt nguồn vốn (nếu xác định).
+danh 
 
-(8) Ghi các thông tin sau: (i) Địa danh khu vực khai thác (lô, khoảnh, tiểu khu, xã); (ii) Thông tin tọa độ điểm (kinh độ, vĩ độ) tại vị trí giữa lô khai thác đối với lô rừng nhỏ hơn 04 ha hoặc thông tin tọa độ tối thiểu tại 04 đỉnh đa giác (kinh độ và vĩ độ) đối với lô khai thác lớn hơn hoặc bằng 04 ha trên hệ tọa độ VN 2000 hoặc hệ tọa độ WGS84 định dạng \*.GeoJSON.
+ngư ờ i 
 
-Thống kê diện tích khai thác theo từng lô khai thác, khoảnh, tiểu khu, xã.
+xác nh ậ n 
 
-(9) Ghi phương thức khai thác: Khai thác chọn, khai thác trắng toàn bộ, khai thác trắng theo băng, khai thác trắng theo đám.
+Ngư ờ i 
 
-(10**)** Sản lượng dự kiến khai thác:
+xác 
 
-- Đối với khai thác tận thu gỗ thống kê số lóng, khúc gỗ tận thu, đo đếm ước tính khối lượng dự kiến khai thác (m3).
+nh ậ n ký 
 
-- Đối với khai thác thực vật rừng ngoài gỗ thống kê ghi khối lượng khai thác (tấn, kg) hoặc số lượng cây đối với cây họ tre, nứa.
+tên 
 
-- Đối với khai thác chính, khai thác tận dụng gỗ, việc xác định sản lượng dự kiến khai thác thông qua việc đo đếm trực tiếp cây khai thác hoặc thông qua lập ô tiêu chuẩn điển hình, mỗi lô rừng khai thác lập 3 ô tiêu chuẩn, nếu diện tích lô khai thác không đủ lập đủ 3 ô tiêu chuẩn thì đo đếm toàn bộ cây trong lô. Diện tích ô tiêu chuẩn 1000 m2 đối với rừng tự nhiên, 500 m2 đối với rừng trồng, 100 m2 đối với rừng ngập mặn.
+1 
 
-Tuỳ theo đặc tính loài cây khai thác, đường kính cây gỗ, điều kiện địa hình, cự ly vận chuyển, chủng loại sản phẩm, khả năng tiêu thụ và quy định về tỷ lệ lợi dụng gỗ, củi thực tế đối với sản lượng cây đứng tại địa phương để tính toán sản lượng dự kiến khai thác. Trường hợp địa phương chưa quy định tỷ lệ lợi dụng gỗ, củi thì áp dụng tỷ lệ lợi dụng như sau:
+2 
 
-- Đối với gỗ rừng tự nhiên: Tỷ lệ lợi dụng thể tích thân cây đứng đối với gỗ bình quân từ 55% trở lên; tỷ lệ còn lại là củi hoặc sản phẩm khác.
+… 
 
-- Đối với gỗ rừng trồng: Tỷ lệ lợi dụng thể tích thân cây đứng đối với gỗ bình quân từ 70% trở lên; tỷ lệ còn lại là củi hoặc sản phẩm khác.
+THỦ TRƯỞNG ĐƠN VỊ   NGƯỜI GHI SỔ   
+(2) 
 
-Đơn vị tính sản lượng khai thác là: m3, ster, kg hoặc số lượng mẫu vật.
+Ghi chú: 
 
-(11) Dự kiến hệ thống đường vận xuất, vận chuyển: Tùy theo địa hình, khối lượng và kích thước gỗ khai thác, khả năng về trang thiết bị kỹ thuật để lựa chọn phương án và các loại hình vận xuất hợp lý, sao cho vừa đạt hiệu quả kinh tế, vừa hạn chế tác động xấu đến xói mòn đất, cây tái sinh.
+(1)   
+Ghi tổng số lượng và khối lượng, đơn vị tính từng loại lâm sản ghi trong Bảng kê lâm sản
 
-(12) Các biện pháp bảo vệ rừng, phòng chống cháy rừng: Nêu rõ các biện pháp như: băm dập cành ngọn sau khai thác.
+theo quy định tại Điều 4 Thông tư này. 
 
-(13) Giải pháp phục hồi rừng sau khai thác: Nêu rõ các giải pháp thực hiện như: vệ sinh rừng, trồng lại rừng.
+(2)   
+Cuối năm người ghi sổ ký, ghi rõ họ tên và trình Thủ trưởng đơn vị ký tên, đóng dấu để lưu
 
-(14) Ghi thời gian bắt đầu và kết thúc khai thác dự kiến.
+sổ theo quy định.
 
- 
+---
 
-**Mẫu số 08: Phương án khai thác gỗ, thực vật rừng ngoài gỗ loài thông thường/thu thập mẫu vật loài thực vật rừng thông thường (áp dụng cho hộ gia đình, cá nhân, cộng đồng)**
+15 
 
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  
- Độc lập - Tự do - Hạnh phúc  
- ---------------**
+Mẫu số 07: Phương án khai thác gỗ, thực vật rừng ngoài gỗ loài thông
 
-**PHƯƠNG ÁN KHAI THÁC(\*)**
+thường/thu thập mẫu vật loài thực vật rừng thông thường (áp dụng cho tổ chức) 
 
-…………………………………………..(1)
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
 
-**I. THÔNG TIN CHUNG**
+Độc lập - Tự do - Hạnh phúc 
 
-1. Tên chủ rừng(2):.........................................................................................
+PHƯƠNG ÁN KHAI THÁC 
+(*) 
 
-2. CCCD/HC (3):............................................................................................
+(1) 
+………………………… 
 
-3. Địa chỉ chủ rừng (4):..................................................................................
+I. THÔNG TIN CHỦ RỪNG 
 
-4. Số điện thoại:.....................................………………………… ………..
+1. Tên chủ rừng   
+(2) 
+:.......................................................................................... 
+
+2. Số GCN/MSDN/GPTL/ĐKHĐ 
+(3) 
+............................ .. ......... . ........................ 
+
+3. Địa chỉ chủ rừng   
+(4) 
+:..................................................................................... 
+
+4. Số điện thoại:.......................................; địa chỉ email:.............................. 
+
+5. Thông tin về mã số vùng trồng hoặc chứng chỉ quản lý rừng bền vững đã
+
+được cấp (nếu có)   
+(5) 
+:…………............................................................................... 
+
+II. N Ộ I DUNG PHƯƠNG ÁN 
+
+1. Căn cứ xây dựng phương án   
+(6) 
+:................................................................ 
+
+2. Đối tượng   
+(7) 
+:............................................................................................. 
+
+3.   Đ ị a danh, di ệ n tích khai thác   
+(8) 
+: ................. ........................... ...... ................ 
+
+4. Phương thức khai thác 
+(9) 
+:……………………………………………….. 
+
+5.   S ả n lư ợ ng   d ự   ki ế n   khai thác 
+(10) 
+:   g ỗ …….m 
+3 
+; c ủ i ho ặ c s ả n ph ẩ m khác.... 
+
+ster/m 
+3 
+. 
+
+Thực vật rừng ngoài gỗ:............tấn; hoặc ................cây (nếu xác định được). 
+
+6.   D ự   ki ế n h ệ   th ố ng đư ờ ng v ậ n xu ấ t, v ậ n chuy ể n   
+(11) 
+...................................... 
+
+7 . C ác bi ệ n pháp b ả o v ệ   r ừ ng, phòng ch ố ng cháy r ừ ng   
+(12) 
+:............................ 
+
+8. Giải pháp phục hồi rừng sau khai thác   
+(13) 
+:.................................................. 
+
+9.   Thời   gian   dự   kiến   khai   thác:   từ   ngày…tháng……năm…….đến
+
+ngày……tháng……năm 
+(14) 
+……. 
+
+..........,   ngày........ tháng...... năm..... 
+
+CHỦ RỪNG 
+
+(Ký, ghi rõ họ tên, đóng dấu)
+
+---
+
+16 
+
+Ghi chú: 
+
+(*) Mẫu này do chủ rừng, chủ lâm sản, chủ dự án được cơ quan có thẩm quyền giao (viết tắt là
+
+chủ rừng)   s ử   d ụ ng   khi   l ậ p Phương án khai thác g ỗ , th ự c v ậ t r ừ ng ngoài g ỗ   loài thông thư ờ ng/thu th ậ p 
+
+m ẫ u v ậ t loài th ự c v ậ t r ừ ng thông thư ờ ng. 
+
+I. T HÔNG TIN CH Ủ   R Ừ NG 
+
+(1)   
+Ghi trường hợp khai thác cụ thể theo quy định tại khoản 2 Điều 6 Thông tư này. 
+
+(2)   
+Ghi tên bằng tiếng Việt hoặc tên giao dịch bằng tiếng Anh (nếu có). 
+
+(3)   
+Ghi Số giấy chứng nhận đăng ký đầu tư/mã số doanh nghiệp/giấy phép thành lập/đăng ký
+
+hoạt động. 
+
+(4)   
+Ghi rõ địa chỉ trên giấy chứng nhận đăng ký đầu tư/doanh nghiệp hoặc giấy phép thành lập/đăng
+
+ký hoạt động. 
+
+(5)   
+Ghi mã số vùng trồng, ngày cấp hoặc số giấy chứng nhận của chứng chỉ quản lý rừng bền vững,
+
+tên tổ chức cấp (nếu có). 
+
+II. NỘI DUNG PHƯƠNG ÁN 
+
+(6)   
+Ghi thông tin các văn bản quy phạm pháp luật chính và các tài liệu pháp lý liên quan. 
+
+(7)   
+Ghi đối tượng khai thác quy định tại khoản 2 hoặc khoản 7 Điều 6 Thông tư này: đối với khai
+
+thác rừng trồng ghi thông tin loài cây trồng, năm trồng, cơ quan phê duyệt nguồn vốn (nếu xác định). 
+
+(8)   
+Ghi các thông tin sau: (i) Địa danh khu vực khai thác (lô, khoảnh, tiểu khu, xã); (ii) Thông tin
+
+tọa độ điểm (kinh độ, vĩ độ) tại vị trí giữa lô khai thác đối với lô rừng nhỏ hơn 04 ha hoặc thông tin tọa
+
+độ tối thiểu tại 04 đỉnh đa giác   (kinh độ và vĩ độ) đối với lô khai thác lớn hơn hoặc bằng 04 ha trên hệ
+
+tọa độ VN 2000 hoặc   hệ tọa độ WGS84 định dạng *.GeoJSON. 
+
+Thống kê diện tích khai thác theo từng lô khai thác, khoảnh, tiểu khu, xã. 
+
+(9)   
+Ghi phương thức khai thác: Khai thác chọn, khai thác trắng toàn bộ, khai thác trắng theo băng,
+
+khai thác trắng theo đám. 
+
+(10 )   
+Sản lượng dự kiến khai thác: 
+
+- Đối với khai thác tận thu gỗ thống kê số lóng, khúc gỗ tận thu, đo đếm ước tính khối lượng dự
+
+kiến khai thác (m 
+3 
+). 
+
+- Đối với khai thác thực vật rừng ngoài gỗ thống kê ghi khối lượng khai thác (tấn, kg) hoặc số
+
+lượng cây đối với cây họ tre, nứa. 
+
+- Đối với khai thác chính, khai thác tận dụng gỗ, việc xác định sản lượng dự kiến khai thác thông
+
+qua việc đo đếm trực tiếp cây khai thác hoặc thông qua lập ô tiêu chuẩn điển hình, mỗi lô rừng khai thác
+
+lập 3 ô tiêu chuẩn, nếu diện tích lô khai thác không đủ lập đủ 3 ô tiêu chuẩn thì đo đếm toàn bộ cây
+
+trong lô. Diện tích ô tiêu chuẩn 1000 m 
+2   
+đối với rừng tự nhiên, 500 m 
+2   
+đối với rừng trồng, 100 m 
+2   
+đối
+
+với rừng ngập mặn. 
+
+Tuỳ theo đặc tính loài cây khai thác, đường kính cây gỗ, điều kiện địa hình, cự ly vận chuyển,
+
+chủng loại sản phẩm, khả năng tiêu thụ và quy định về tỷ lệ lợi dụng gỗ, củi thực tế đối với sản lượng
+
+cây đứng tại địa phương để tính toán sản lượng dự kiến khai thác. Trường hợp địa phương chưa quy
+
+định tỷ lệ lợi dụng gỗ, củi thì áp dụng tỷ lệ lợi dụng như sau: 
+
+- Đối với gỗ rừng tự nhiên: Tỷ lệ lợi dụng thể tích thân cây đứng đối với gỗ bình quân từ 55% trở
+
+lên; tỷ lệ còn lại là củi hoặc sản phẩm khác. 
+
+- Đối với gỗ rừng trồng: Tỷ lệ lợi dụng thể tích thân cây đứng đối với gỗ bình quân từ 70% trở
+
+lên; tỷ lệ còn lại là củi hoặc sản phẩm khác. 
+
+Đơn vị tính sản lượng khai thác là: m 
+3 
+, ster, kg hoặc số lượng mẫu vật. 
+
+(11)   
+D ự   ki ế n h ệ   th ố ng đư ờ ng v ậ n xu ấ t, v ậ n chuy ể n:   Tùy theo đ ị a hình, kh ố i lư ợ ng và kích thư ớ c 
+
+g ỗ   khai thác, kh ả   năng v ề   trang thi ế t b ị   k ỹ   thu ậ t đ ể   l ự a ch ọ n phương án   và các lo ạ i hình v ậ n xu ấ t h ợ p 
+
+lý, sao cho v ừ a đ ạ t hi ệ u qu ả   kinh t ế , v ừ a h ạ n ch ế   tác đ ộ ng x ấ u đ ế n xói mòn đ ấ t, cây tái sinh.
+
+---
+
+17 
+
+(12)   
+C ác bi ệ n pháp b ả o v ệ   r ừ ng, phòng ch ố ng cháy r ừ ng:   Nêu rõ các bi ệ n pháp như: băm d ậ p cành 
+
+ng ọ n sau khai thác. 
+
+(13)   
+Giải pháp phục hồi rừng sau khai thác:   Nêu rõ các giải pháp thực hiện như: vệ sinh rừng, trồng
+
+lại rừng. 
+
+(14)   
+Ghi thời gian bắt đầu và kết thúc khai thác dự kiến.
+
+---
+
+18 
+
+Mẫu số 08: Phương án khai thác gỗ, thực vật rừng ngoài gỗ loài thông
+
+thường/thu thập mẫu vật loài thực vật rừng thông thường (áp dụng cho hộ
+
+gia đình, cá nhân, cộng đồng) 
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+
+Độc lập - Tự do – Hạnh phúc 
+
+PHƯƠNG ÁN KHAI THÁC 
+(*) 
+
+………………………………………….. 
+(1) 
+
+I. THÔNG TIN CHUNG 
+
+1. Tên chủ rừng 
+(2) 
+: .......................................... ............................................ ... 
+
+2. CCCD/HC   
+(3) 
+: ........................ .............................................. .................. .... 
+
+3. Địa chỉ chủ rừng   
+(4) 
+:.......................... ........................................... .......... ... 
+
+4. Số điện thoại:..................................... ………………………… …… … . . 
 
 5. Thông tin về mã số vùng trồng, hoặc chứng chỉ quản lý rừng bền vững
 
-(nếu có) (5):………………………………………………………………………...
+(nếu có)   
+(5) 
+:………………………………………………………………………... 
 
-**II. NỘI DUNG PHƯƠNG ÁN**
+II. NỘI DUNG PHƯƠNG ÁN 
 
-1. Căn cứ xây dựng phương án (6):................................................................
+1. Căn cứ xây dựng phương án   
+(6) 
+:............................................................ . ... 
 
-2. Đối tượng khai thác (loại rừng, rừng trồng, rừng tự nhiên) (7):.................
+2. Đối tượng   khai thác (lo ạ i r ừ ng, r ừ ng tr ồ ng, r ừ ng t ự   nhiên)   
+(7) 
+: .............. ... 
 
-3. Địa danh, diện tích khai thác(8):.................................................................
+3.   Đ ị a danh, di ệ n tích khai thác 
+(8) 
+: ............................................ ...... ............ ... 
 
-4. Phương thức khai thác (9):..........................................................................
+4. Phương thức khai thác   
+(9) 
+:.......................................................................... 
 
-5. Sản lượng dự kiến khai thác (10): gỗ………. m3; củi hoặc sản phẩm khác.... kg hoặc ster. Thực vật rừng ngoài gỗ:.........tấn; hoặc ............ cây (nếu xác định được).
+5.   S ả n lư ợ ng   d ự   ki ế n   khai thác   
+(10) 
+:   g ỗ … …… .   m 
+3 
+; c ủ i ho ặ c s ả n ph ẩ m 
 
-6. Giải pháp phục hồi rừng sau khai thác (11):...............................................
+khác....   kg ho ặ c   ster .   Th ự c v ậ t r ừ ng ngoài g ỗ :.........t ấ n; ho ặ c   ... ....... ..   cây   (n ế u   xác 
 
-7. Thời gian dự kiến khai thác: từ ngày.......tháng…...năm.….đến ngày.....tháng…..năm….
+đ ị nh đư ợ c) . 
 
- 
+6. Giải pháp phục hồi rừng sau khai thác   
+(11) 
+:.............................. .. . .............. 
 
-|  |  |
-| --- | --- |
-|  | .........., *ngày.... tháng...... năm.....*  **CHỦ RỪNG**  *(Ký, ghi rõ họ tên)* |
+7.   Th ờ i   gian   d ự   ki ế n   khai   thác:   t ừ   ngày... .... tháng … . ..năm . ….đ ế n 
 
-***Ghi chú:***
+ngày... . .tháng … ..năm …. 
 
-(\*) Mẫu này do chủ rừng, chủ lâm sản là cá nhân, hộ gia đình, cộng đồng dân cư (viết tắt là chủ rừng) sử dụng khi lập Phương án khai thác gỗ, thực vật rừng ngoài gỗ loài thông thường/thu thập mẫu vật loài thực vật rừng thông thường.
+..........,   ngày.... tháng...... năm..... 
 
-**I. THÔNG TIN CHỦ RỪNG**
+CHỦ RỪNG 
 
-(1) Ghi trường hợp khai thác cụ thể theo quy định tại khoản 2 hoặc khoản 7 Điều 6 Thông tư này.
+(Ký, ghi rõ họ tên)
 
-(2) Ghi họ tên đầy đủ của chủ rừng.
+---
 
-(3) Ghi Số căn cước công dân hoặc hộ chiếu của chủ rừng hoặc đại diện hộ gia đình, cộng đồng dân cư.
+19 
 
-(4) Ghi rõ địa chỉ của chủ rừng.
+Ghi chú : 
 
-(5) Ghi mã số vùng trồng, ngày cấp hoặc số giấy chứng nhận của chứng chỉ quản lý rừng bền vững, tên tổ chức cấp (nếu có).
+(*) Mẫu này do chủ rừng, chủ lâm sản   là   cá nhân , h ộ   gia đình, c ộ ng đ ồ ng dân cư   (vi ế t t ắ t là ch ủ 
 
-**II. NỘI DUNG PHƯƠNG ÁN**
+r ừ ng)   s ử   d ụ ng   khi   l ậ p Phương án khai thác g ỗ , th ự c v ậ t r ừ ng ngoài g ỗ   loài thông   thư ờ ng/thu th ậ p m ẫ u 
 
-(6) Ghi thông tin các văn bản quy phạm pháp luật chính và các tài liệu pháp lý liên quan.
+v ậ t loài th ự c v ậ t r ừ ng thông thư ờ ng. 
 
-(7) Ghi đối tượng khai thác quy định tại khoản 2 hoặc khoản 7 Điều 6 Thông tư này: đối với khai thác rừng trồng ghi loài cây trồng, năm trồng.
+I. T HÔNG TIN CH Ủ   R Ừ NG 
 
-(8) Ghi các thông tin sau: (i) Địa danh khu vực khai thác (lô, khoảnh, tiểu khu, xã); (ii) Thông tin tọa độ điểm (kinh độ, vĩ độ) tại vị trí giữa lô khai thác đối với lô rừng nhỏ hơn 04 ha hoặc thông tin tọa độ tối thiểu tại 04 đỉnh đa giác (kinh độ và vĩ độ) đối với lô khai thác lớn hơn hoặc bằng 04 ha trên hệ tọa độ VN 2000 hoặc hệ tọa độ WGS84 định dạng \*.GeoJSON.
+(1)   
+Ghi trường hợp khai thác cụ thể theo quy định tại khoản 2 hoặc khoản 7 Điều 6 Thông tư này. 
 
-Thống kê diện tích khai thác theo từng lô khai thác, khoảnh, tiểu khu, xã.
+(2)   
+Ghi họ tên đầy đủ của chủ rừng. 
 
-(9) Ghi phương thức khai thác: Khai thác chọn, khai thác trắng toàn bộ, khai thác trắng theo băng, khai thác trắng theo đám.
+(3)   
+Ghi Số căn cước công dân hoặc hộ chiếu của chủ rừng hoặc đại diện hộ gia đình, cộng đồng
 
-(10) Sản lượng dự kiến khai thác:
+dân cư. 
 
-- Đối với khai thác tận thu gỗ thống kê số lóng, khúc gỗ tận thu, đo đếm ước tính khối lượng dự kiến khai thác (m3); đối với khai thác thực vật rừng ngoài gỗ thống kê ghi khối lượng khai thác (tấn, kg) hoặc số lượng cây đối với cây họ tre, nứa.
+(4)   
+Ghi rõ địa chỉ của chủ rừng. 
 
-- Đối với khai thác chính, khai thác tận dụng gỗ, việc xác định sản lượng dự kiến khai thác thông qua việc đo đếm trực tiếp cây khai thác hoặc thông qua lập ô tiêu chuẩn điển hình hoặc tùy điều kiện thực tế tại địa phương để ước tính sản lượng gỗ khai thác.
+(5)   
+Ghi mã số vùng trồng, ngày cấp hoặc số giấy chứng nhận của chứng chỉ quản lý rừng bền vững,
 
-Đơn vị tính sản lượng khai thác là: kg, m3, ster hoặc số lượng mẫu vật.
+tên tổ chức cấp (nếu có). 
 
-(11) Giải pháp phục hồi rừng sau khai thác: Nêu rõ các giải pháp thực hiện như: vệ sinh rừng, trồng lại rừng.
+II. NỘI DUNG PHƯƠNG ÁN 
 
- 
+(6)   
+Ghi thông tin các văn bản quy phạm pháp luật chính và các tài liệu pháp lý liên quan. 
 
-**Mẫu số 09: Đề nghị phê duyệt phương án khai thác gỗ, thực vật rừng ngoài gỗ loài thông thường/động vật rừng thông thường từ tự nhiên/thu thập mẫu vật loài thông thường.**
+(7)   
+Ghi đối tượng khai thác quy định tại khoản 2 hoặc khoản 7 Điều 6 Thông tư này: đối với khai
 
-|  |  |
-| --- | --- |
-| **CƠ QUAN (1)**…... **-------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
-| Số: …/… | *……, ngày…… tháng..… năm……* |
+thác rừng trồng ghi loài cây trồng, năm trồng. 
 
- 
+(8)   
+Ghi các thông tin sau: (i) Địa danh khu vực khai thác (lô, khoảnh, tiểu khu, xã); (ii) Thông tin
 
-**ĐỀ NGHỊ PHÊ DUYỆT PHƯƠNG ÁN (\*)**
+tọa độ điểm (kinh độ, vĩ độ) tại vị trí giữa lô khai thác đối với lô rừng nhỏ hơn 04 ha hoặc thông tin tọa
 
-(2) …………………………
+độ tối thiểu tại 04 đỉnh đa giác   (kinh độ và vĩ độ) đối với lô khai thác lớn hơn hoặc bằng 04 ha trên hệ
 
-Kính gửi(3): ……………………………………………………
+tọa độ VN 2000 hoặc   hệ tọa độ WGS84 định dạng *.GeoJSON. 
 
-**1. Thông tin chủ rừng:**
+Thống kê diện tích khai thác theo từng lô khai thác, khoảnh, tiểu khu, xã. 
 
-a) Tên chủ rừng (4): ………………………………………………………
+(9)   
+Ghi phương thức khai thác: Khai thác chọn, khai thác trắng toàn bộ, khai thác trắng theo băng,
 
-- Số GCN/MSDN/GPTL/ĐKHĐ/CCCD/CMND/HC(5): …………………
+khai thác trắng theo đám. 
 
-c) Địa chỉ chủ rừng(6): …………………………………………………….
+( 1 0)   
+Sản lượng dự kiến khai thác: 
 
-d) Số điện thoại:…………………; địa chỉ email: ………………………
+- Đối với khai thác tận thu gỗ thống kê số lóng, khúc gỗ tận thu, đo đếm ước tính khối lượng dự
 
-**2. Nội dung đề nghị phê duyệt:** Phương án khai thác (2)
+kiến khai thác (m 
+3 
+); đối với khai thác thực vật rừng ngoài gỗ thống kê ghi khối lượng khai thác (tấn, kg)
 
-……………………………………………………………………………
+hoặc số lượng cây đối với cây họ tre, nứa. 
 
-**3. Tài liệu gửi kèm:**
+- Đối với khai thác chính, khai thác tận dụng gỗ, việc xác định sản lượng dự kiến khai thác thông
 
-*- Bản chính Phương án (2) ……………………………………………………*
+qua việc đo đếm trực tiếp cây khai thác hoặc thông qua lập ô tiêu chuẩn điển hình hoặc tùy điều kiện
 
-*- Tài liệu khác (nếu có) ……………………………………………………….*
+thực tế tại địa phương để ước tính sản lượng gỗ khai thác. 
 
-|  |  |
-| --- | --- |
-|  | *………, ngày … tháng … năm ………*  **CHỦ RỪNG**  *(Ký, ghi rõ họ tên, đóng dấu đối với tổ chức)* |
+Đơn vị tính sản lượng khai thác là: kg, m 
+3 
+, ster hoặc số lượng mẫu vật. 
 
- 
+(11)   
+Giải pháp phục hồi rừng sau khai thác:   Nêu rõ các giải pháp thực hiện như: vệ sinh rừng, trồng
 
-***Ghi chú:***
+lại rừng.
 
- (\*) Mẫu này do chủ rừng, chủ lâm sản, chủ dự án hoặc tổ chức, cá nhân được cơ quan có thẩm quyền giao (viết tắt là chủ rừng) lập khi đề nghị cơ quan có thẩm quyền phê duyệt Phương án khai thác gỗ, thực vật rừng ngoài gỗ loài thông thường/động vật rừng thông thường từ tự nhiên/thu thập mẫu vật loài thực vật rừng thông thường.
+---
 
-(1) Tên chủ rừng, số văn bản nếu là tổ chức.
+20 
 
-(2) Ghi trường một trong các trường hợp khai thác cụ thể theo quy định tại khoản 2 Điều 6 hoặc khoản 1 Điều 7 Thông tư này.
+Mẫu số 09: Đề nghị phê duyệt phương án khai thác gỗ, thực vật rừng ngoài
 
-(3) Ghi rõ tên cơ quan có thẩm quyền phê duyệt phương án khai thác theo quy định tại khoản 3 Điều 6 Thông tư này.
+gỗ loài thông thường/động vật rừng thông thường từ tự nhiên/thu thập mẫu
 
-(4) Ghi tên bằng tiếng Việt hoặc tên giao dịch bằng tiếng Anh (nếu có) đối với tổ chức hoặc ghi đầy đủ họ tên đối với cá nhân.
+vật loài thông thường. 
 
-(5) Ghi Số giấy chứng nhận đăng ký đầu tư/mã số doanh nghiệp/giấy phép thành lập/đăng ký hoạt động đối với tổ chức; số căn cước công dân/chứng minh nhân dân/hộ chiếu đối với cá nhân.
+CƠ QUAN   
+( 1 ) 
+…... 
 
-(6) Ghi rõ địa chỉ trên giấy chứng nhận đăng ký đầu tư/doanh nghiệp hoặc Giấy phép thành lập/đăng ký hoạt động với tổ chức; địa chỉ thường trú trên chứng minh nhân dân hoặc thẻ căn cước công dân hoặc Hộ chiếu đối với cá nhân.
+Số: …/… 
 
- 
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
 
-**Mẫu số 10: Biên bản kiểm tra hiện trường xác định cây rừng chặt tỉa, hạ độ cao trong hành lang bảo vệ an toàn đường dây dẫn điện trên không điện áp cao**
+Độc lập - Tự do - Hạnh phúc 
 
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  
- Độc lập - Tự do - Hạnh phúc  
- ---------------**
+… …, ngày… …   tháng .. … năm… … 
 
-*.........., ngày......... tháng......... năm.........*
+ĐỀ NGHỊ PHÊ DUYỆT PHƯƠNG ÁN (*) 
 
-**BIÊN BẢN**
+(2)   
+………………………… 
 
-**Kiểm tra hiện trường xác định cây rừng chặt tỉa, hạ độ cao trong hành lang** **bảo vệ an toàn đường dây dẫn điện trên không điện áp cao**
+Kính gửi 
+( 3 ) 
+: …………………………………………………… 
 
-Căn cứ Nghị định số 156/2018/NĐ-CP ngày 16/11/2018 của Chính phủ quy định chi tiết thi hành một số điều của Luật Lâm nghiệp, được sửa đổi, bổ sung năm 2024;
+1. Thông tin chủ rừng: 
 
-Căn cứ Nghị định số 62/2025/NĐ-CP ngày 04/3/2025 của Chính phủ quy định chi tiết thi hành Luật Điện lực về bảo vệ công trình điện lực và an toàn trong lĩnh vực điện lực;
+a) Tên chủ rừng   
+(4) 
+: ……………………………………………………… 
 
-Căn cứ văn bản số ….ngày …. tháng …. năm …. của Tổ chức….(Tên tổ chức quản lý đường điện) đề nghị kiểm tra hiện trường xác định cây rừng phải chặt tỉa, hạ độ cao trong hành lang bảo vệ an toàn đường dây dẫn điện trên không điện áp cao (sau đây viết tắt là hành lang bảo vệ an toàn đường điện).
+- Số GCN/MSDN/GPTL/ĐKHĐ/CCCD/CMND/HC 
+(5) 
+: ………………… 
 
-Hôm nay, ngày … tháng …. năm …. tại: lô…...….khoảnh…tiểu khu….khu rừng…. thuộc thôn…xã/phường….. tỉnh…………………………………….
+c) Địa chỉ chủ rừng 
+(6) 
+: ……………………………………………………. 
 
-Chúng tôi gồm:
+d) Số điện thoại:…………………; địa chỉ email: ……………………… 
 
-**I. THÀNH PHẦN**
+2. Nội dung đề nghị phê duyệt:   Phương án khai thác   
+(2) 
 
-**1. Đại diện Tổ chức, cơ quan quản lý đường điện:**
+…………………………………………………………………………… 
 
-- Ông (bà) ………………………………; chức vụ: ……………………
+3. Tài liệu gửi kèm: 
 
-- Ông (bà) ……………………………; chức vụ: …………………………
+- Bản chính Phương án   
+(2)   
+…………………………………………………… 
 
-**2. Đại diện chủ rừng, chủ lâm sản:**
+- Tài liệu khác (nếu có) ………………………………………………………. 
 
-- Ông (bà) …………………………………….……………………………
+………, ngày … tháng … năm ……… 
 
-- Ông (bà) ……………………………………… …………………………
+CHỦ RỪNG 
 
-**3. Đại diện cơ quan Kiểm lâm sở tại:**
+(Ký, ghi rõ họ tên, đóng dấu đối với tổ chức) 
 
-- Ông (bà):…………………… , chức vụ:…………………………………
+Ghi chú: 
 
-- Ông (bà): …………………... , chức vụ:…………………………………
+(*) Mẫu này do chủ rừng, chủ lâm sản, chủ dự án hoặc tổ chức, cá nhân được cơ quan có thẩm
 
-**4. Cơ quan/đơn vị khác có liên quan (nếu có):**
+quyền giao (viết tắt là chủ rừng) lập khi đề nghị cơ quan có thẩm quyền phê duyệt Phương án khai thác
 
-- Ông (bà) …………………………………….……………………………
+gỗ, thực vật rừng ngoài gỗ loài thông thường/động vật rừng thông thường từ tự nhiên/thu thập mẫu vật
 
-- Ông (bà) ……………………………………… …………………………
+loài thực vật rừng thông thường. 
 
-**II. NỘI DUNG**
+(1)   
+Tên chủ rừng, số văn bản nếu là tổ chức. 
 
-Lập biên bản kiểm tra hiện trường xác định cây rừng phải chặt tỉa, hạ độ cao trong hành lang bảo vệ an toàn đường dây dẫn điện, gồm các nội dung chính sau:
+(2)   
+Ghi trường một trong các trường hợp khai thác cụ thể theo quy định tại khoản 2 Điều 6 hoặc
 
-- Loại rừng: rừng đặc dụng, rừng phòng hộ, rừng sản xuất
+khoản 1 Điều 7 Thông tư này. 
 
-- Nguồn gốc: rừng tự nhiên, rừng trồng
+(3)   
+Ghi rõ tên cơ quan có thẩm quyền phê duyệt phương án khai thác theo quy định tại khoản 3
 
--Loài cây (đối với rừng trồng):………………..năm trồng:……………….
+Điều 6 Thông tư này. 
 
-- Số lượng cây rừng phải chặt tỉa, hạ độ cao trong hành lang bảo vệ an toàn đường dây dẫn điện:…..cây (thống kê số cây theo lô, khoảnh, tiểu khu, xã); loài cây (đối với rừng trồng).
+(4)   
+Ghi tên bằng tiếng Việt hoặc tên giao dịch bằng tiếng Anh (nếu có) đối với tổ chức hoặc ghi
 
-**III. KẾT LUẬN, ĐỀ XUẤT KIẾN NGHỊ**
+đầy đủ họ tên đối với cá nhân. 
 
-……………………………………………………………………………
+(5)   
+Ghi Số giấy chứng nhận đăng ký đầu tư/mã số doanh nghiệp/giấy phép thành lập/đăng ký
 
-……………………………………………………………………………
+hoạt động đối với tổ chức; số căn cước công dân/chứng minh nhân dân/hộ chiếu đối với cá nhân. 
 
-……………………………………………………………………………
+(6)   
+Ghi rõ địa chỉ trên giấy chứng nhận đăng ký đầu tư/doanh nghiệp hoặc Giấy phép thành
 
-……………………………………………………………………………
+lập/đăng ký hoạt động với tổ chức; địa chỉ thường trú trên chứng minh nhân dân hoặc thẻ căn cước công
 
-……………………………………………………………………………
+dân hoặc Hộ chiếu đối với cá nhân.
 
-Biên bản gồm…. trang; được lập thành … bản, đã được các thành viên tham gia nhất trí, không có ý kiến khác và kết thúc công tác kiểm tra hiện trường vào hồi ….. giờ …. phút ngày … tháng …. năm …./.
+---
 
- 
+21 
 
-**THÀNH PHẦN ĐOÀN KIỂM TRA HIỆN TRƯỜNG KÝ TÊN**
+Mẫu số 10: Biên bản kiểm tra hiện trường xác định cây rừng chặt tỉa, hạ độ cao
 
-|  |  |  |
-| --- | --- | --- |
-| **CHỦ RỪNG/CHỦ LÂM SẢN**  *(ký, ghi rõ họ tên, đóng* *dấu nếu là tổ chức)* | **TỔ CHỨC, CƠ QUAN QUẢN LÝ ĐƯỜNG ĐIỆN**  *(ký ghi rõ họ tên, đóng* *dấu)* | **ĐẠI DIỆN CƠ QUAN KIỂM LÂM SỞ TẠI** *(ký ghi rõ họ tên, đóng dấu)* |
+trong hành lang bảo vệ an toàn đường dây dẫn điện trên không điện áp cao 
 
- 
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
 
-**Mẫu số 11: Quyết định phê duyệt phương án khai thác gỗ, thực vật rừng ngoài gỗ loài thông thường/thu thập mẫu vật loài thực vật rừng thông thường**
+Độc lập - Tự do - Hạnh phúc 
 
-|  |  |
-| --- | --- |
-| **CƠ QUAN (1)**….. **-------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
-| Số: …/QĐ-… | *…, ngày… tháng… năm…* |
+.........., ngày......... tháng......... năm......... 
 
-**QUYẾT ĐỊNH**
+BIÊN BẢN 
 
-**V/v phê duyệt phương án khai thác (2)….**
+Kiểm tra hiện trường xác định cây rừng chặt tỉa, hạ độ cao   trong   hành lang 
 
-**THẨM QUYỀN NGƯỜI KÝ**
+bảo vệ an toàn đường dây dẫn điện trên không điện áp cao 
 
-*Căn cứ(3)…………………………………………………………………………….;*
+Căn cứ Nghị định số 156/2018/NĐ-CP ngày 16/11/2018 của Chính phủ quy
 
-*Căn cứ Luật Lâm nghiệp ngày 15 tháng 11 năm 2017;*
+định chi tiết thi hành một số điều của Luật Lâm nghiệp, được sửa đổi, bổ sung
 
-*Căn Nghị định số 156/2018/NĐ-CP ngày 16 tháng 11 năm 2018 của Chính phủ quy định chi tiết thi hành một số điều của Luật Lâm nghiệp được sửa đổi bổ sung năm 2024;*
+năm 2024; 
 
-*Căn cứ Nghị định số 140/2024/NĐ-CP ngày 25 tháng 10 năm 2024 của Chính phủ về thanh lý rừng trồng (nếu khai thác tận dụng rừng trồng trên diện tích rừng đã được thanh lý);*
+Căn cứ Nghị định số 62 /202 5 /NĐ - CP ngày   04 / 3 / 202 5   của Chính phủ   q uy 
 
-*Căn cứ Quyết định số …… (các quyết định phê duyệt phương án quản lý rừng bền vững nếu có)…...;*
+định chi tiết thi hành Luật Điện lực về bảo vệ công trình điện lực và an toàn trong 
 
-*Căn cứ ...........................................................................................................;*
+lĩnh vực điện lực ; 
 
-*Xét đề nghị của ..............................................................................................*
+Căn cứ văn bản số ….ngày …. tháng …. năm …. của Tổ chức….( Tên   tổ 
 
-**QUYẾT ĐỊNH:**
+chức quản lý đường điện) đề nghị kiểm tra hiện trường xác định cây rừng   phải 
 
-**Điều 1.** Phê duyệt phương án khai thác chính/tận dụng/tận thu*/*gỗ, thực vật rừng ngoài gỗ*/*thu thập mẫu vật loài thông thường của……. (tên tổ chức*/*cá nhân)…….với những nội dung chủ yếu sau đây:
+chặt tỉa, hạ độ cao   trong hành lang bảo vệ an toàn đường dây dẫn điện trên không 
 
-1. Địa danh khai thác (lô, khoảnh, tiểu khu, xã…)(4): ……………………..
+điện áp cao (sau đây viết tắt là hành lang bảo vệ an toàn đường điện). 
 
-2. Mã số vùng trồng hoặc số giấy chứng nhận chứng chỉ quản lý rừng bền vững (nếu có)(5):…………………………………………………………………..
+Hôm nay, ngày … tháng …. năm …. tại: lô…...….khoảnh…tiểu khu….khu
 
-3. Diện tích khai thác (thống kê diện tích theo địa danh khai thác) (6):....ha
+rừng…. thuộc thôn…xã/phường….. tỉnh……………………………………. 
 
-4. Đối tượng khai thác (7): ……....................................................................
+Chúng tôi gồm: 
 
-5. Phương thức khai thác (8):…………........................................................
+I. THÀNH PHẦN 
 
-6. Sản lượng dự kiến khai thác(9): gỗ… m3; củi hoặc sản phẩm khác.... m3; lâm sản khác:........tấn hoặc số lượng cây...
+1. Đại diện   T ổ   ch ứ c, cơ quan qu ả n lý đư ờ ng đi ệ n : 
 
-7. Dự kiến hệ thống đường vận xuất, vận chuyển (10) (áp dụng đối với tổ chức):.......................................................................................................................
+- Ông (bà) ………………………………; chức vụ: …………………… 
 
-8. Các biện pháp bảo vệ rừng, phòng chống cháy rừng (11):..........................
+- Ông (bà) ……………………………; chức vụ: ………………………… 
 
-9. Giải pháp phục hồi rừng sau khai thác (12):...............................................
+2. Đại diện chủ rừng, chủ lâm sản: 
 
-10. Thời gian dự kiến khai thác(13): từ ngày……tháng……..năm……... đến……ngày…...tháng…....năm……
+- Ông (bà) …………………………………….…………………………… 
 
-11. Các nội dung khác (nếu có): ..................................................................
+- Ông (bà) ……………………………………… ………………………… 
 
-**Điều 2. Tổ chức thực hiện**
+3. Đại diện cơ quan Kiểm lâm sở tại: 
 
-1. Trách nhiệm của chủ rừng:
+- Ông (bà):…………………… , chức vụ:………………………………… 
 
-2. Trách nhiệm của cơ quan liên quan:
+- Ông (bà): …………………... , chức vụ:………………………………… 
 
-3. …………………………………………………………….................
+4.   Cơ quan/đơn vị khác có liên quan (nếu có) :
 
-**Điều 3. Trách nhiệm và hiệu lực thi hành**
+---
 
-…..
+22 
 
-Quyết định này có hiệu lực thi hành kể từ ngày ký./.
+- Ông (bà) …………………………………….…………………………… 
 
-|  |  |
-| --- | --- |
-| ***Nơi nhận:*** - Như Điều 3;  - ..............................;  - Các sở/cơ quan…;  - Lưu: VT,… | **CHỨC VỤ, QUYỀN HẠN NGƯỜI KÝ**  *(Ký, ghi rõ họ tên và đóng dấu)* |
+- Ông (bà) ……………………………………… ………………………… 
 
- 
+II. NỘI DUNG 
 
-***Ghi chú:***
+Lập b iên bản   kiểm tra   hiện   trường xác định cây rừng   phải chặt tỉa, hạ độ cao 
 
-(1) Ghi cơ quan có thẩm quyền phê duyệt phương án theo quy định tại khoản 3 Điều 6 Thông tư này.
+trong hành lang bảo vệ an toàn đường dây dẫn điện,   gồm các nội dung chính sau: 
 
-(2) Ghi trường hợp khai thác cụ thể theo quy định tại khoản 2 Điều 6 Thông tư này.
+- Loại rừng: rừng đặc dụng, rừng phòng hộ, rừng sản xuất 
 
-(3) Văn bản quy định chức năng, nhiệm vụ, quyền hạn của cơ quan có thẩm quyền phê duyệt phương án khai thác.
+- Nguồn gốc: rừng tự nhiên, rừng trồng 
 
-(4) Ghi thông tin khu vực khai thác (lô, khoảnh, tiểu khu, xã).
+-Loài cây (đối với rừng trồng):………………..năm trồng:………………. 
 
-(5) Ghi mã số vùng trồng, ngày cấp hoặc số giấy chứng nhận của chứng chỉ rừng (nếu có).
+- Số lượng cây rừng phải chặt tỉa, hạ độ cao trong hành lang bảo vệ an toàn
 
-(6) Ghi diện tích khai thác: thống kê diện tích khai thác theo loại rừng (rừng đặc dụng, rừng phòng hộ, rừng sản xuất); rừng tự nhiên, rừng trồng.
+đường dây dẫn điện:…..cây (thống kê số cây theo lô, khoảnh, tiểu khu, xã); loài
 
-(7) Ghi đối tượng khai thác tại quy định tại khoản 2 Điều 6 Thông tư này: đối với khai thác rừng trồng ghi loài cây trồng, năm trồng, cơ quan phê duyệt nguồn vốn.
+cây (đối với rừng trồng). 
 
-(8) Ghi phương thức khai thác: khai thác chọn, khai thác trắng toàn bộ, khai thác trắng theo băng, khai thác trắng theo đám.
+III.   KẾT LUẬN, ĐỀ XUẤT KI ẾN NGHỊ 
 
-(9) Ghi sản lượng dự kiến khai thác: đơn vị tính sản lượng khai thác là: m3, ster, kg hoặc số lượng cây, mẫu vật.
+…………………………………………………………………………… 
 
-(10) Dự kiến hệ thống đường vận xuất, vận chuyển: sử dụng hệ thống đường vận xuất đã có, hay mở mới hay kết hợp hệ thống đường lâm nghiệp khác đã có (đối với chủ rừng là tổ chức).
+…………………………………………………………………………… 
 
-(11) Các biện pháp bảo vệ rừng, phòng chống cháy rừng: nêu rõ các biện pháp như: băm dập cành ngọn sau khai thác.
+…………………………………………………………………………… 
 
-(12) Giải pháp phục hồi rừng sau khai thác: nêu rõ các giải pháp thực hiện như: trồng lại rừng, tái sinh rừng.
+…………………………………………………………………………… 
 
-(13) Ghi thời gian bắt đầu và kết thúc khai thác dự kiến.
+…………………………………………………………………………… 
 
- 
+Biên bản gồm…. trang; được lập thành … bản, đã được các thành viên tham
 
-**Mẫu số 12: Phương án khai thác động vật rừng thông thường từ tự nhiên**
+gia nhất trí, không có ý kiến khác và kết thúc công tác kiểm tra hiện trường vào
 
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  
- Độc lập - Tự do - Hạnh phúc  
- ---------------**
+hồi ….. giờ …. phút ngày … tháng …. năm …./. 
 
-**PHƯƠNG ÁN**
+THÀNH PHẦN ĐOÀN KIỂM TRA HIỆN TRƯỜNG KÝ TÊN 
 
-**KHAI THÁC ĐỘNG VẬT RỪNG THÔNG THƯỜNG TỪ TỰ NHIÊN**
+CHỦ RỪNG/CHỦ
 
-**I. THÔNG TIN VỀ TỔ CHỨC, CÁ NHÂN KHAI THÁC**
+LÂM SẢN 
 
-**1. Tên và địa chỉ (1):** ……………………………………………………
+(ký, ghi rõ họ tên, đóng
 
-**2. Mục đích khai thác (2):** ……………………………………………
+dấu nếu là tổ chức) 
 
-**II. HIỆN TRẠNG KHU VỰC KHAI THÁC, LOÀI KHAI THÁC,**
+TỔ CHỨC, CƠ QUAN
 
-**PHƯƠNG ÁN KHAI THÁC**
+QUẢN LÝ ĐƯỜNG
 
-**1. Tổng quan chung khu vực khai thác:**
+ĐIỆN 
 
-1.1. Điều kiện tự nhiên (địa hình, khí hậu, thủy văn), kinh tế, xã hội:…….
+(ký ghi rõ họ tên, đóng
 
-1.2. Hiện trạng khu vực khai thác(3): ………………………………………
+dấu) 
 
-**2. Mô tả thông tin loài đề nghị khai thác (4):** ……………………………
+ĐẠI DIỆN CƠ QUAN
 
-**3. Phương án khai thác (5):** ………………………………………………
+KIỂM LÂM SỞ TẠI 
 
-**4. Tài liệu kèm theo:**
+(ký ghi rõ họ tên, đóng
 
-- Bản sao Quyết định thành lập nếu chủ thể khai thác là tổ chức (nếu có);
+dấu)
 
-- Bản đồ hiện trạng rừng (nếu có), bản đồ khu vực khai thác.
+---
 
-- Bản sao tài liệu có liên quan khác (nếu có).
+23 
 
-|  |  |
-| --- | --- |
-|  | *……, ngày …… tháng …… năm ………* **TỔ CHỨC, CÁ NHÂN KHAI THÁC** *(Ký ghi rõ họ tên, đóng dấu đối với tổ chức)* |
+Mẫu số 11: Quyết định phê duyệt phương án khai thác gỗ, thực vật rừng
 
- 
+ngoài gỗ loài thông thường/thu thập mẫu vật loài thực vật rừng thông thường 
 
-**Phê duyệt của cơ quan Kiểm lâm sở tại nơi khai thác:**
+CƠ QUAN   
+(1) 
+…...   CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
 
-……………………………………………………………………………...
+Độc lập - Tự do - Hạnh phúc 
 
-……………………………………………………………………………...
+Số: …/QĐ-…   …, ngày…   tháng… năm…. 
 
-*……, ngày ..... tháng …... năm 20........*  
- *(Người có thẩm quyền ký, ghi rõ họ tên, đóng dấu)*
+QUYẾT ĐỊNH 
 
- 
+V/v phê duyệt phương án khai thác   
+(2) 
+…. 
 
-***Ghi chú:***
+__________ 
 
-(1) Ghi thông tin chủ thể lập phương án khai thác:
+THẨM QUYỀN NGƯỜI KÝ 
 
-- Ghi tên bằng tiếng Việt hoặc tên giao dịch bằng tiếng Anh (nếu có) đối với tổ chức hoặc ghi đầy đủ họ tên đối với cá nhân.
+Căn cứ 
+(3) 
+…………………………………………………………………………….; 
 
-- Ghi rõ địa chỉ trên giấy chứng nhận đăng ký đầu tư/doanh nghiệp hoặc giấy phép thành lập/đăng ký hoạt động đối với tổ chức; địa chỉ thường trú trên chứng minh nhân dân/thẻ căn cước công dân hoặc Hộ chiếu đối với cá nhân. Trường hợp chủ rừng liên kết với tổ chức, cá nhân khác để khai thác, đề nghị nêu rõ tất cả các thông tin của chủ rừng/tổ chức/cá nhân khai thác, trong đó làm rõ tổ chức, cá nhân nào chịu trách nhiệm khai thác chính.
+Căn cứ Luật Lâm nghiệp ngày 15 tháng 11 năm 2017; 
 
-(2) Ghi rõ mục đích khai thác: vì mục đích thương mại/ không vì mục đích thương mại.
+Căn Nghị định số 156/2018/NĐ-CP ngày 16 tháng 11 năm 2018 của Chính
 
-(3) Ghi thông tin hiện trạng khu vực khai thác:
+phủ quy định chi tiết thi hành một số điều của Luật Lâm nghiệp được sửa đổi bổ
 
-- Diện tích khu vực khai thác:
+sung năm 2024; 
 
-- Nếu khu vực khai thác có rừng: diện tích rừng; loại rừng; trạng thái rừng, diện tích từng trạng thái; mô tả khu hệ động vật, thực vật của khu vực khai thác. Vị trí khu vực khai thác: thuộc lô: ..., khoảnh: ..., tiểu khu.
+Căn cứ Nghị định số 140/2024/NĐ-CP ngày 25 tháng 10 năm 2024 của
 
-- Nếu khu vực khai thác không có rừng: Mô tả sinh cảnh khu vực khai thác (hiện trạng thực vật, diện tích khu vực trên cạn và khu vực dưới nước nếu có....); mô tả hệ động vật, thực vật khu vực dự kiến khai thác.
+Chính phủ về thanh lý rừng trồng (nếu khai thác tận dụng rừng trồng trên diện
 
-- Ranh giới: mô tả rõ ranh giới tự nhiên, kèm bản đồ khu vực dự kiến khai thác tỷ lệ 1/5.000 hoặc 1/10.000.
+tích rừng đã được thanh lý); 
 
-- Tên chủ rừng (nếu khai thác tại khu vực có rừng): địa chỉ, số giấy chứng nhận quyền sử dụng đất hoặc quyết định giao, cho thuê đất rừng (trường hợp có 2 chủ rừng trở lên thì lập bảng kèm theo).
+Căn cứ Quyết định số …… (các quyết định phê duyệt phương án quản lý
 
-(4) Ghi thông tin hiện trạng loài đề nghị khai thác, gồm:
+rừng bền vững nếu có)…...; 
 
-a) Mô tả về loài: đặc tính sinh học của loài; độ tuổi sinh sản và mùa sinh sản.
+Căn cứ ...........................................................................................................; 
 
-b) Mô tả hiện trạng của loài tại khu vực đề nghị khai thác: Kích thước quần thể, phân bố theo sinh cảnh, mật độ/trữ lượng; tăng trưởng số lượng (số lượng sinh sản trung bình hàng năm, tỷ lệ sống sót); số lượng con trưởng thành (số con cái và đực); số lượng con non (số con đực và cái nếu phân biệt được); số lượng con già (không còn khả năng sinh sản); đánh giá sự biến đổi của quần thể sau khi khai thác trong thời gian tới.
+Xét đề nghị của .............................................................................................. 
 
-c) Tài liệu kèm theo: bản đồ điều tra, phân bố loài đề nghị khai thác tỷ lệ 1/5.000 hoặc 1/10.000; các tài liệu khác nếu có.
+QUYẾT ĐỊNH: 
 
-(5) Ghi thông tin phương án khai thác, bao gồm:
+Điều 1.   Phê duyệt phương án khai thác chính/tận dụng/tận thu / gỗ, thực vật
 
-a) Loài khai thác: tên loài (gồm tên thông thường và tên khoa học); loại mẫu vật khai thác; số lượng (tổng số lượng) và đơn vị tính; tổng số lượng cá thể đực, số lượng cá thể cái; độ tuổi (con non, con trưởng thành).
+rừng ngoài gỗ / thu thập mẫu vật loài thông thường của……. (tên tổ chức / cá
 
-b) Thời gian khai thác: từ ngày ... tháng ... năm ...đến ngày ... tháng ... năm ... (tối đa không quá 03 tháng).
+nhân)…….với những nội dung chủ yếu sau đây: 
 
-c) Mục đích khai thác.
+1. Địa danh khai thác (lô, khoảnh, tiểu khu, xã…) 
+(4) 
+: …………………….. 
 
-d) Phương pháp khai thác: phương tiện, công cụ sử dụng trong khai thác: tên, số lượng...; phương thức khai thác (săn, bắn, bẫy, lưới,...).
+2. Mã số vùng trồng hoặc số giấy chứng nhận chứng chỉ quản lý rừng bền
 
- 
+vững (nếu có) 
+(5) 
+:………………………………………………………………….. 
 
-**Mẫu số 13: Sổ theo dõi đánh dấu mẫu vật**
+3. Diện tích khai thác (thống kê diện tích theo địa danh khai thác)   
+(6) 
+:....ha 
 
-**SỔ THEO DÕI ĐÁNH DẤU MẪU VẬT**
+4. Đối tượng khai thác   
+(7) 
+: …….................................................................... 
 
-1. Họ và tên chủ mẫu vật: ………………………………………………….
+5. Phương thức khai thác   
+(8) 
+:…………........................................................
 
-2. Địa chỉ:…………………………………………………………………..
+---
 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **TT** | **Ngày đánh dấu** | **Số sê- ri của nhãn đánh dấu mẫu vật** | **Mẫu vật đánh dấu** | | | | | | | | | | **Ghi chú** | **Xác nhận của cơ quan Kiểm lâm (7)** |  |
-| **Tên loài động vật, thực vật** | | **Loại mẫu vật (1)** | **Kích thước (2)** | | | **Khối lượng (3)** | **Số lượng mẫu vật đánh dấu (4)** | **Đơn vị tính (5)** | **Nguồn gốc mẫu vật** **(6)** |  |
-| **Tên phổ thông** | **Tên khoa học** |  |
-| **Chiều** **dài** **(cm)** | **Chiều** **rộng** **(cm)** | **Chiều** **cao** **(cm)** |  |
-| 1 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| ... |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+24 
 
- 
+6.   S ả n lư ợ ng   d ự   ki ế n   khai thác 
+( 9 ) 
+: g ỗ … m 
+3 
+; c ủ i ho ặ c s ả n ph ẩ m khác.... m 
+3 
+; 
 
-***Ghi chú:***
+l âm s ả n   khác:........t ấ n   ho ặ c s ố   lư ợ ng   cây... 
 
- (1) Mô tả loại mẫu vật, ví dụ như túi, ví, da khô, v.v.
+7.   D ự   ki ế n h ệ   th ố ng đư ờ ng v ậ n xu ấ t, v ậ n chuy ể n   
+( 10 )   
+(áp d ụ ng đ ố i v ớ i t ổ 
 
- (2) Mô tả kích thước của từng mẫu vật, trừ mẫu vật là dẫn xuất. Trường hợp mẫu vật tương tự nhau về kích thước, khối lượng và được chứa đựng trong cùng một bao bì, dụng cụ đựng thì ghi mẫu vật có kích thước nhỏ nhất và mẫu vật có kích thước lớn nhất. Ví dụ: 20-30.
+ch ứ c): .................................... . .................................................................................. 
 
- (3) Ghi khối lượng của từng mẫu vật; đơn vị tính của dẫn xuất là ml hoặc lít; đơn vị tính của mẫu vật khác là kg. Trường hợp vật tương đồng nhau về kích thước, khối lượng và được chứa đựng trong cùng một bao bì, dụng cụ chứa đựng thì ghi tổng khối lượng mẫu vật.
+8. C ác bi ệ n pháp b ả o v ệ   r ừ ng, phòng ch ố ng cháy r ừ ng   
+(1 1 ) 
+:.......................... 
 
- (4) Mẫu vật được ghi chi tiết về khối lượng của từng mẫu vật thì phải ghi số lượng là 1; những mẫu vật tương đồng kích thước đã ghi tổng khối lượng và được chứa đựng trong cùng một bao bì, dụng cụ đựng thì phải ghi tổng số lượng của các mẫu vật đó.
+9. Giải pháp phục hồi rừng sau khai thác   
+(12) 
+:............................................... 
 
- (5) Ghi đơn vị tính của mẫu vật, ví dụ: cái, chiếc, v.v.
+10. Thời gian dự kiến khai thác 
+(13) 
+: từ ngày……tháng……..năm……...
 
- (6) Mô tả nguồn gốc mẫu vật, ví dụ: khai thác từ tự nhiên trong nước, nhập khẩu, mua từ cơ sở
+đến……ngày…...tháng…....năm…… 
 
-….(ghi tên cơ sở).
+11. Các nội dung khác (nếu có ): .................................................................. 
 
- (7) Cơ quan Kiểm lâm ký xác nhận, ghi rõ họ tên, đóng dấu khi tiến hành kiểm tra.
+Điều 2.   Tổ chức thực hiện 
 
- 
+1. Trách nhiệm của chủ rừng: 
 
-**Mẫu số 14: Thông báo đánh dấu mẫu vật**
+2. Trách nhiệm của cơ quan liên quan: 
 
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  
- Độc lập - Tự do - Hạnh phúc  
- ---------------**
+3. ……………………………………………………………................. 
 
-**THÔNG BÁO**
+Điều 3. Trách nhiệm và hiệu lực thi hành 
 
-**Về việc đánh dấu mẫu vật**
+….. 
 
-Kính gửi(1): ……………………………………………………
+Quyết định này có hiệu lực thi hành kể từ ngày ký./. 
 
-Ngày …… tháng …… năm ……, chúng tôi thực hiện đánh dấu mẫu vật(2) ……….như sau(3):
+Nơi nhận: 
 
-1. Tên chủ mẫu vật(4): ……………………………………………………
+- Như Điều 3; 
 
-2. Địa chỉ(5): ………………………………………………………………
+- ..............................; 
 
-3. Tên mẫu vật(6): ………………………………………………………
+- Các sở/cơ quan…;
 
-4. Đơn vị tính mẫu vật(7): …………………………………………………
+- Lưu: VT,… 
 
-5. Nguồn gốc, xuất xứ mẫu vật: …………………………………………
+CHỨC VỤ, QUYỀN HẠN NGƯỜI KÝ 
 
-6. Các thông tin khác thể hiện nguồn gốc của mẫu vật (nếu có) …………
+(Ký, ghi rõ họ tên và đóng dấu) 
 
-7. Số sê-ri của nhãn(8): ……………………………………………………
+Ghi chú: 
 
-Trân trọng thông báo tới(1) ……………………………………………… theo quy định./.
+(1)   
+Ghi cơ quan có thẩm quyền phê duyệt phương án theo quy định tại khoản 3 Điều 6 Thông tư này. 
 
-|  |  |
-| --- | --- |
-|  | *…………, ngày …… tháng …… năm ………* **CHỦ MẪU VẬT**  *(Ký, ghi rõ họ tên, đóng dấu đối với tổ* *chức)* |
+(2)   
+Ghi trường hợp khai thác cụ thể theo quy định tại khoản 2 Điều 6 Thông tư này. 
 
-***Ghi chú:***
+(3)   
+Văn bản quy định chức năng, nhiệm vụ, quyền hạn của cơ quan có thẩm quyền phê duyệt
 
- (1) Tên cơ quan Kiểm lâm sở tại.
+phương án khai thác. 
 
- (2) Theo từng đối tượng quy định tại khoản 1 Điều 14 Thông tư này.
+(4)   
+Ghi thông tin khu vực khai thác (lô, khoảnh, tiểu khu, xã). 
 
- (3) Trường hợp có nhiều mẫu vật được đánh dấu, chủ mẫu vật lập thành bảng theo số thứ tự và mỗi mẫu vật phải chứa đầy đủ thông tin từ mục 1 đến mục 7.
+(5)   
+Ghi mã số vùng trồng, ngày cấp hoặc số giấy chứng nhận của chứng chỉ rừng (nếu có). 
 
- (4) Ghi tên bằng tiếng Việt hoặc tên giao dịch bằng tiếng Anh (nếu có) đối với tổ chức hoặc đầy đủ họ tên đối với cá nhân.
+(6)   
+Ghi diện tích khai thác: thống kê diện tích khai thác theo loại rừng (rừng đặc dụng, rừng phòng
 
- (5) Ghi địa chỉ tổ chức theo giấy chứng nhận đăng ký đầu tư/doanh nghiệp hoặc Giấy phép thành lập/đăng ký hoạt động; ghi địa chỉ thường trú của cá nhân theo Chứng minh nhân dân/Căn cước công dân/Hộ chiếu.
+hộ, rừng sản xuất); rừng tự nhiên, rừng trồng. 
 
- (6) Ghi tên phổ thông và tên khoa học của mẫu vật.
+(7)   
+Ghi đối tượng khai thác tại quy định tại khoản 2 Điều 6 Thông tư này: đối với khai thác rừng
 
- (7) Ghi theo đơn vị đo lường hoặc theo số đếm tùy theo đặc điểm của từng loại mẫu vật.
+trồng ghi loài cây trồng, năm trồng, cơ quan phê duyệt nguồn vốn. 
 
- (8) Ghi thông tin theo quy định tại khoản 3 Điều 14 Thông tư này.
+(8)   
+Ghi phương thức khai thác: khai thác chọn, khai thác trắng toàn bộ, khai thác trắng theo băng,
 
- 
+khai thác trắng theo đám. 
 
-**Mẫu số 15: Biên bản kiểm tra lâm sản**
+(9)   
+Ghi sản lượng dự kiến khai thác: đơn vị tính sản lượng khai thác là: m 
+3 
+, ster, kg hoặc số lượng
 
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  
- Độc lập - Tự do - Hạnh phúc  
- ---------------**
+cây, mẫu vật. 
 
-**BIÊN BẢN KIỂM TRA LÂM SẢN**
+(10)   
+D ự   ki ế n h ệ   th ố ng đư ờ ng v ậ n xu ấ t, v ậ n chuy ể n: s ử   d ụ ng h ệ   th ố ng đư ờ ng v ậ n xu ấ t đã có, hay
 
-Hôm nay, ngày …… tháng …… năm ………, hồi …… giờ …… Tại: …..
+---
 
-**1. Chúng tôi gồm:**
+25 
 
-- Ông (bà):………………, chức vụ:…………………, đơn vị: …………
+mở mới hay kết hợp hệ thống đường lâm nghiệp khác đã có (đối với chủ rừng là tổ chức). 
 
-- Ông (bà):……………, chức vụ:…………………, đơn vị: ……………
+(11)   
+C ác bi ệ n pháp b ả o v ệ   r ừ ng, phòng   ch ố ng cháy r ừ ng:   n êu rõ các bi ệ n pháp như: băm d ậ p cành 
 
-**2. Tiến hành kiểm tra lâm sản của** (tổ chức, cá nhân): …………………
+ng ọ n sau khai thác. 
 
-- Địa chỉ:…………………………, nghề nghiệp: ………………………
+(12)   
+Giải pháp phục hồi rừng sau khai thác:   nêu rõ các giải pháp thực hiện như: trồng lại rừng, tái
 
-- Giấy chứng nhận thành lập doanh nghiệp/đăng ký kinh doanh/mã số doanh nghiệp số/…………………………; ngày cấp ………………………, nơi cấp ………………………………………………………… (đối với tổ chức).
+sinh rừng. 
 
-- Số chứng minh nhân dân/căn cước công dân/Hộ chiếu: ……………; ngày cấp ……………, nơi cấp ……………………… (đối với cá nhân).
+(13)   
+Ghi thời gian bắt đầu và kết thúc khai thác dự kiến.
 
-**3. Người chứng kiến** *(nếu có)*:
+---
 
-- Họ tên ……………………………………………………………………
+26 
 
-- Địa chỉ: …………………………………………………………………..
+Mẫu số 12: Phương án khai thác động vật rừng thông thường từ tự nhiên 
 
-- Số chứng minh nhân dân/Căn cước công dân/Hộ chiếu: …………; ngày cấp: …………………………, nơi cấp: ………………………………………….
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
 
-**4. Nội dung kiểm tra:**………………..……………………………………
+Độc lập - Tự do - Hạnh phúc 
 
-Hồ sơ lâm sản kèm theo gồm có: …………………………………………
+PHƯƠNG ÁN
 
-**5. Kết luận sau kiểm tra:** ………………………………………………..
+KHAI THÁC ĐỘNG VẬT RỪNG THÔNG THƯỜNG TỪ TỰ NHIÊN 
 
-Việc kiểm tra kết thúc vào hồi …… giờ …… ngày …… tháng …… năm ……………, quá trình kiểm tra thực hiện theo đúng quy định, không làm hư hỏng, mất mát tài sản của tổ chức, cá nhân được kiểm tra.
+I. THÔNG TIN VỀ TỔ CHỨC, CÁ NHÂN KHAI THÁC 
 
-Sau khi đọc lại biên bản, những người có tên nêu trên cùng nghe, công nhận đúng, ký và ghi rõ họ tên vào biên bản. Biên bản lập thành .... bản có giá trị pháp lý như nhau, giao cho cá nhân/tổ chức được kiểm tra một bản./.
+1. Tên và địa chỉ   
+(1) 
+:   …………………………………………………… 
 
-|  |  |  |
-| --- | --- | --- |
-| **TỔ CHỨC/CÁ NHÂN ĐƯỢC KIỂM TRA** *(Ký, ghi rõ họ tên, đóng dấu đối với tổ chức)* | **ĐẠI DIỆN TỔ KIỂM TRA** *(Ký, ghi rõ họ tên)* | **NGƯỜI CHỨNG KIẾN   (nếu có)** *(Ký, ghi rõ họ tên)* |
+2. Mục đích khai thác   
+(2) 
+:   …………………………………………… 
 
-**Mẫu số 16: Biên bản kiểm tra khai thác lâm sản**
+II. HIỆN TRẠNG KHU VỰC KHAI THÁC, LOÀI KHAI THÁC,
 
-|  |  |
-| --- | --- |
-| …………………………  …………………… **-------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
+PHƯƠNG ÁN KHAI THÁC 
 
- 
+1. Tổng quan chung khu vực khai thác: 
 
-**BIÊN BẢN KIỂM TRA KHAI THÁC LÂM SẢN**
+1.1. Điều kiện tự nhiên (địa hình, khí hậu, thủy văn), kinh tế, xã hội:……. 
 
-Hôm nay, ngày …… tháng …… năm ………, hồi …… giờ …… Tại: …
+1.2. Hiện trạng khu vực khai thác 
+(3) 
+: ……………………………………… 
 
-**Chúng tôi gồm:**
+2. Mô tả thông tin loài đề nghị khai thác   
+(4) 
+:   …………………………… 
 
-1) Ông (bà) …………………, chức vụ: …………………, đơn vị: ……..
+3. Phương án khai thác   
+(5) 
+:   ……………………………………………… 
 
-2) Ông (bà) ….………………, chức vụ: …………..……, đơn vị: ………
+4. Tài liệu kèm theo: 
 
-3) Ông (bà) …………………, chức vụ: ……………...…, đơn vị: ………
+- Bản sao Quyết định thành lập nếu chủ thể khai thác là tổ chức (nếu có); 
 
-**Tiến hành kiểm tra khai thác lâm sản của** *(tổ chức, cá nhân)*: ………
+- Bản đồ hiện trạng rừng (nếu có), bản đồ khu vực khai thác. 
 
-- Địa chỉ:………………………………, nghề nghiệp: …………………
+- Bản sao tài liệu có liên quan khác (nếu có). 
+
+……, ngày …… tháng …… năm ……… 
+
+TỔ CHỨC, CÁ NHÂN KHAI THÁC 
+
+(Ký ghi rõ họ tên, đóng dấu đối với tổ
+
+chức) 
+
+Phê duyệt của cơ quan Kiểm lâm sở tại nơi khai thác: 
+
+……………………………………………………………………………... 
+
+……………………………………………………………………………... 
+
+……, ngày ..... tháng …... năm 20........
+
+(Người có thẩm quyền ký, ghi rõ họ tên, đóng dấu) 
+
+Ghi chú: 
+
+(1)   
+Ghi thông tin chủ thể lập phương án khai thác:
+
+---
+
+27 
+
+- Ghi tên bằng tiếng Việt hoặc tên giao dịch bằng tiếng Anh (nếu có) đối với tổ chức hoặc ghi
+
+đầy đủ họ tên đối với cá nhân. 
+
+- Ghi rõ địa chỉ trên giấy chứng nhận đăng ký đầu tư/doanh nghiệp hoặc giấy phép thành
+
+lập/đăng ký hoạt động đối với tổ chức; địa chỉ thường trú trên chứng minh nhân dân/thẻ căn cước công
+
+dân hoặc Hộ chiếu đối với cá nhân. Trường hợp chủ rừng liên kết với tổ chức, cá nhân khác để khai
+
+thác, đề nghị nêu rõ tất cả các thông tin của chủ rừng/tổ chức/cá nhân khai thác, trong đó làm rõ tổ chức,
+
+cá nhân nào chịu trách nhiệm khai thác chính. 
+
+(2)   
+Ghi rõ mục đích khai thác: vì mục đích thương mại/ không vì mục đích thương mại. 
+
+(3)   
+Ghi thông tin hiện trạng khu vực khai thác: 
+
+- Diện tích khu vực khai thác: 
+
+- Nếu khu vực khai thác có rừng: diện tích rừng; loại rừng; trạng thái rừng, diện tích từng trạng
+
+thái; mô tả khu hệ động vật, thực vật của khu vực khai thác. Vị trí khu vực khai thác: thuộc lô: ...,
+
+khoảnh: ..., tiểu khu. 
+
+- Nếu khu vực khai thác không có rừng: Mô tả sinh cảnh khu vực khai thác (hiện trạng thực vật,
+
+diện tích khu vực trên cạn và khu vực dưới nước nếu có....); mô tả hệ động vật, thực vật khu vực dự kiến
+
+khai thác. 
+
+- Ranh giới: mô tả rõ ranh giới tự nhiên, kèm bản đồ khu vực dự kiến khai thác tỷ lệ 1/5.000
+
+hoặc 1/10.000. 
+
+- Tên chủ rừng (nếu khai thác tại khu vực có rừng): địa chỉ, số giấy chứng nhận quyền sử dụng
+
+đất hoặc quyết định giao, cho thuê đất rừng (trường hợp có 2 chủ rừng trở lên thì lập bảng kèm theo). 
+
+(4)   
+Ghi thông tin hiện trạng loài đề nghị khai thác, gồm: 
+
+a) Mô tả về loài: đặc tính sinh học của loài; độ tuổi sinh sản và mùa sinh sản. 
+
+b) Mô tả hiện trạng của loài tại khu vực đề nghị khai thác: Kích thước quần thể, phân bố theo
+
+sinh cảnh, mật độ/trữ lượng; tăng trưởng số lượng (số lượng sinh sản trung bình hàng năm, tỷ lệ sống
+
+sót); số lượng con trưởng thành (số con cái và đực); số lượng con non (số con đực và cái nếu phân biệt
+
+được); số lượng con già (không còn khả năng sinh sản); đánh giá sự biến đổi của quần thể sau khi khai
+
+thác trong thời gian tới. 
+
+c) Tài liệu kèm theo: bản đồ điều tra, phân bố loài đề nghị khai thác tỷ lệ 1/5.000 hoặc 1/10.000;
+
+các tài liệu khác nếu có. 
+
+(5)   
+Ghi thông tin phương án khai thác, bao gồm: 
+
+a) Loài khai thác: tên loài (gồm tên thông thường và tên khoa học); loại mẫu vật khai thác; số
+
+lượng (tổng số lượng) và đơn vị tính; tổng số lượng cá thể đực, số lượng cá thể cái; độ tuổi (con non,
+
+con trưởng thành). 
+
+b) Thời gian khai thác: từ ngày ... tháng ... năm ...đến ngày ... tháng ... năm ... (tối đa không quá
+
+03 tháng). 
+
+c) Mục đích khai thác. 
+
+d) Phương pháp khai thác: phương tiện, công cụ sử dụng trong khai thác: tên, số lượng...;
+
+phương thức khai thác (săn, bắn, bẫy, lưới,...).
+
+---
+
+28 
+
+Mẫu số 13: Sổ theo dõi đánh dấu mẫu vật 
+
+SỔ THEO DÕI ĐÁNH DẤU MẪU VẬT 
+
+1. Họ và tên chủ mẫu vật: …………………………………………………. 
+
+2. Địa chỉ: ………………………………………………………………… .. 
+
+TT 
+
+Ngày 
+
+đánh 
+
+d ấ u 
+
+S ố   s ê - 
+
+ri c ủ a 
+
+nhãn 
+
+đánh 
+
+d ấ u 
+
+m ẫ u 
+
+v ậ t 
+
+M ẫ u v ậ t đánh d ấ u 
+
+Ghi 
+
+chú 
+
+Xác 
+
+nh ậ n 
+
+c ủ a cơ 
+
+quan 
+
+Ki ể m 
+
+lâm   
+(7) 
+
+Tên loài 
+
+đ ộ ng v ậ t, 
+
+th ự c v ậ t   
+Lo ạ i 
+
+m ẫ u 
+
+v ậ t 
+
+(1) 
+
+Kích thư ớ c   
+(2) 
+
+Kh ố i 
+
+lư ợ ng 
+
+(3) 
+
+S ố 
+
+lư ợ ng 
+
+m ẫ u 
+
+v ậ t 
+
+đánh 
+
+d ấ u   
+(4) 
+
+Đơn 
+
+v ị 
+
+tính 
+
+(5) 
+
+Ngu ồ n 
+
+g ố c 
+
+m ẫ u 
+
+v ậ t   
+( 6 ) 
+
+Tên 
+
+ph ổ 
+
+thông 
+
+Tên 
+
+khoa 
+
+h ọ c 
+
+Chi ề u 
+
+dài 
+
+(cm) 
+
+Chi ề u 
+
+r ộ ng 
+
+(cm) 
+
+Chi ề u 
+
+cao 
+
+(cm) 
+
+1 
+
+2 
+
+... 
+
+Ghi chú: 
+
+(1)   
+Mô tả loại mẫu vật, ví dụ như túi, ví, da khô, v.v. 
+
+(2)   
+Mô tả kích thước của từng mẫu vật, trừ mẫu vật là dẫn xuất. Trường hợp mẫu vật tương tự
+
+nhau về kích thước, khối lượng và được chứa đựng trong cùng một bao bì, dụng cụ đựng thì ghi mẫu
+
+vật có kích thước nhỏ nhất và mẫu vật có kích thước lớn nhất. Ví dụ: 20-30. 
+
+(3)   
+Ghi khối lượng của từng mẫu vật; đơn vị tính của dẫn xuất là ml hoặc lít; đơn vị tính của mẫu
+
+vật khác là kg. Trường hợp vật tương đồng nhau về kích thước, khối lượng và được chứa đựng trong
+
+cùng một bao bì, dụng cụ chứa đựng thì ghi tổng khối lượng mẫu vật. 
+
+(4)   
+Mẫu vật được ghi chi tiết về khối lượng của từng mẫu vật thì phải ghi số lượng là 1; những
+
+mẫu vật tương đồng kích thước đã ghi tổng khối lượng và được chứa đựng trong cùng một bao bì, dụng
+
+cụ đựng thì phải ghi tổng số lượng của các mẫu vật đó. 
+
+(5)   
+Ghi đơn vị tính của mẫu vật, ví dụ: cái, chiếc, v.v. 
+
+(6)   
+Mô tả nguồn gốc mẫu vật, ví dụ: khai thác từ tự nhiên trong nước, nhập khẩu, mua từ cơ sở
+
+….(ghi tên cơ sở). 
+
+(7)   
+Cơ quan Kiểm lâm ký xác nhận, ghi rõ họ tên, đóng dấu khi tiến hành kiểm tra.
+
+---
+
+29 
+
+Mẫu số 14: Thông báo đánh dấu mẫu vật 
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+
+Độc lập - Tự do - Hạnh phúc 
+
+THÔNG BÁO 
+
+Về việc đánh dấu mẫu vật 
+
+Kính gửi 
+(1) 
+: …………………………………………………… 
+
+Ngày …… tháng …… năm ……, chúng tôi thực hiện đánh dấu mẫu vật 
+(2) 
+
+……….như sau 
+(3) 
+: 
+
+1. Tên chủ mẫu vật 
+(4) 
+: …………………………………………………… 
+
+2. Địa chỉ 
+(5) 
+: ……………………………………………………………… 
+
+3. Tên mẫu vật 
+(6) 
+: ……………………………………………………… 
+
+4. Đơn vị tính mẫu vật 
+(7) 
+: ………………………………………………… 
+
+5. Nguồn gốc, xuất xứ mẫu vật: ………………………………………… 
+
+6. Các thông tin khác thể hiện nguồn gốc của mẫu vật (nếu có) ………… 
+
+7. Số sê-ri của nhãn 
+(8) 
+: …………………………………………………… 
+
+Trân trọng thông báo tới 
+(1)   
+………………………………………………
+
+theo quy định./. 
+
+…………, ngày …… tháng …… năm ……… 
+
+CHỦ MẪU VẬT 
+
+(Ký, ghi rõ họ tên, đóng dấu đối với tổ
+
+chức) 
+
+Ghi chú: 
+
+(1)   
+Tên cơ quan Kiểm lâm sở tại. 
+
+(2)   
+Theo từng đối tượng quy định tại khoản 1 Điều 14 Thông tư này. 
+
+(3)   
+Trường hợp có nhiều mẫu vật được đánh dấu, chủ mẫu vật lập thành bảng theo số thứ tự và
+
+mỗi mẫu vật phải chứa đầy đủ thông tin từ mục 1 đến mục 7. 
+
+(4)   
+Ghi tên bằng tiếng Việt hoặc tên giao dịch bằng tiếng Anh (nếu có) đối với tổ chức hoặc đầy
+
+đủ họ tên đối với cá nhân. 
+
+(5)   
+Ghi địa chỉ tổ chức theo giấy chứng nhận đăng ký đầu tư/doanh nghiệp hoặc Giấy phép thành
+
+lập/đăng ký hoạt động; ghi địa chỉ thường trú của cá nhân theo Chứng minh nhân dân/Căn cước công
+
+dân/Hộ chiếu. 
+
+(6)   
+Ghi tên phổ thông và tên khoa học của mẫu vật. 
+
+(7)   
+Ghi theo đơn vị đo lường hoặc theo số đếm tùy theo đặc điểm của từng loại mẫu vật. 
+
+(8)   
+Ghi thông tin theo quy định tại khoản 3 Điều 14 Thông tư này.
+
+---
+
+30 
+
+Mẫu số 15: Biên bản kiểm tra lâm sản 
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
+
+Độc lập - Tự do - Hạnh phúc 
+
+BIÊN BẢN KIỂM TRA LÂM SẢN 
+
+Hôm nay, ngày …… tháng …… năm ………, hồi …… giờ …… Tại: ….. 
+
+1. Chúng tôi gồm: 
+
+- Ông (bà):………………, chức vụ:…………………, đơn vị: ………… 
+
+- Ông (bà):……………, chức vụ:…………………, đơn vị: …………… 
+
+2. Tiến hành kiểm tra lâm sản của   (tổ chức, cá nhân): ………………… 
+
+- Địa chỉ:…………………………, nghề nghiệp: ……………………… 
 
 - Giấy chứng nhận thành lập doanh nghiệp/đăng ký kinh doanh/mã số
 
-doanh nghiệp số/ ………………; ngày cấp ……………………, nơi cấp
+doanh nghiệp số/…………………………; ngày cấp ………………………, nơi
 
-……………………………………………………… (đối với tổ chức).
+cấp ………………………………………………………… (đối với tổ chức). 
 
-- Số chứng minh nhân dân/căn cước công dân/Hộ chiếu: ………………; ngày cấp………………, nơi cấp ……………………………………………… (đối với cá nhân).
+- Số chứng minh nhân dân/căn cước công dân/Hộ chiếu: ……………; ngày
 
-**Người chứng kiến** *(nếu có)*:
+cấp ……………, nơi cấp ……………………… (đối với cá nhân). 
 
-- Họ tên ……………………………………………………………………
+3. Người chứng kiến   (nếu có) : 
 
-- Địa chỉ: …………………………………………………………………
+- Họ tên …………………………………………………………………… 
+
+- Địa chỉ: ………………………………………………………………….. 
+
+- Số chứng minh nhân dân/Căn cước công dân/Hộ chiếu: …………; ngày
+
+cấp: …………………………, nơi cấp: …………………………………………. 
+
+4. Nội dung kiểm tra: ………………..…………………………………… 
+
+Hồ sơ lâm sản kèm theo gồm có: ………………………………………… 
+
+5. Kết luận sau kiểm tra:   …………………………………………… ….. 
+
+Việc kiểm tra kết thúc vào hồi …… giờ …… ngày …… tháng …… năm
+
+……………, quá trình kiểm tra thực hiện theo đúng quy định, không làm hư hỏng,
+
+mất mát tài sản của tổ chức, cá nhân được kiểm tra. 
+
+Sau khi đọc lại biên bản, những người có tên nêu trên cùng nghe, công nhận
+
+đúng, ký và ghi rõ họ tên vào biên bản. Biên bản lập thành .... bản có giá trị pháp
+
+lý như nhau, giao cho cá nhân/tổ chức được kiểm tra một bản./. 
+
+TỔ CHỨC/CÁ NHÂN
+
+ĐƯỢC KIỂM TRA 
+
+(Ký, ghi rõ họ tên, đóng
+
+dấu đối với tổ chức) 
+
+ĐẠI DIỆN
+
+TỔ KIỂM TRA 
+
+(Ký, ghi rõ họ tên) 
+
+NGƯỜI CHỨNG
+
+KIẾN (nếu có) 
+
+(Ký, ghi rõ họ tên)
+
+---
+
+31 
+
+Mẫu số 16: Biên bản kiểm tra khai thác lâm sản 
+
+…………………………
+
+…………………… 
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+
+Độc lập - Tự do - Hạnh phúc 
+
+BIÊN BẢN KIỂM TRA KHAI THÁC LÂM SẢN 
+
+Hôm nay, ngày …… tháng …… năm ………, hồi …… giờ …… Tại: … 
+
+Chúng tôi gồm: 
+
+1) Ông (bà) …………………, chức vụ: …………………, đơn vị: …….. 
+
+2) Ông (bà) ….………………, chức vụ: …………..……, đơn vị: ……… 
+
+3) Ông (bà) …………………, chức vụ: ……………...…, đơn vị: ……… 
+
+Tiến hành kiểm tra khai thác lâm sản của   (tổ chức, cá nhân) : ……… 
+
+- Địa chỉ:………………………………, nghề nghiệp: ………………… 
+
+- Giấy chứng nhận thành lập doanh nghiệp/đăng ký kinh doanh/mã số
+
+doanh   nghiệp   số/   ………………;   ngày   cấp   ……………………,   nơi   cấp
+
+……………………………………………………… (đối với tổ chức). 
+
+- Số chứng minh nhân dân/căn cước công dân/Hộ chiếu: ………………;
+
+ngày cấp………………, nơi cấp ………………………………………………
+
+(đối với cá nhân). 
+
+Người chứng kiến   (nếu có) : 
+
+- Họ tên …………………………………………………………………… 
+
+- Địa chỉ: ………………………………………………………………… 
 
 - Số chứng minh nhân dân/Căn cước công dân/Hộ chiếu: ………………;
 
-ngày cấp: ………………………….………, nơi cấp: ……………………………
+ngày cấp: ………………………….………, nơi cấp: …………………………… 
 
-**Nội dung kiểm tra:**
+Nội dung kiểm tra: 
 
-**1) Kiểm tra hồ sơ khai thác:**
+1) Kiểm tra hồ sơ khai thác: 
 
-……………………………………………………………………………
+…………………………………………………………………………… 
 
-**2) Kiểm tra hiện trường khai thác:**
+2) Kiểm tra hiện trường khai thác: 
 
-……………………………………………………………………………
+…………………………………………………………………………… 
 
-**3) Kiểm tra lâm sản sau khai thác:**
+3) Kiểm tra lâm sản sau khai thác: 
 
-……………………………………………………………………………
+…………………………………………………………………………… 
 
-**4) Kết luận sau kiểm tra:**
+4) Kết luận sau kiểm tra:
 
-……………………………………………………………………………
+---
 
-Biên bản lập xong hồi .... giờ .... phút, ngày ……/……/……, gồm .... tờ, được lập thành .... bản có giá trị pháp lý như nhau. Sau khi đọc lại biên bản, những người có tên nêu trên cùng nghe, công nhận là đúng và chịu trách nhiệm trước pháp luật về các nội dung đã ghi và kết luận nêu trên, cùng thống nhất, ký và ghi rõ họ tên vào biên bản; giao mỗi bên 01 bản./.
+32 
 
-|  |  |  |
-| --- | --- | --- |
-| **TỔ CHỨC/CÁ NHÂN ĐƯỢC KIỂM TRA** *(Ký, ghi rõ họ tên)* | **ĐẠI DIỆN TỔ KIỂM TRA** *(Ký, ghi rõ họ tên)* | **NGƯỜI LÀM CHỨNG  (nếu có)** *(Ký, ghi rõ họ tên)* |
+…………………………………………………………………………… 
 
-**Mẫu số 17: Đề nghị phân loại doanh nghiệp**
+Biên bản lập xong hồi .... giờ .... phút, ngày ……/……/……, gồm .... tờ,
 
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  
- Độc lập - Tự do - Hạnh phúc  
- ---------------**
+được lập thành .... bản có giá trị pháp lý như nhau. Sau khi đọc lại biên bản, những
 
-*.........., ngày.....tháng.......năm.......*
+người có tên nêu trên cùng nghe, công nhận là đúng và chịu trách nhiệm trước
 
-**ĐỀ NGHỊ PHÂN LOẠI DOANH NGHIỆP**
+pháp luật về các nội dung đã ghi và kết luận nêu trên, cùng thống nhất, ký và ghi
 
-Kính gửi(1):..................................................................
+rõ họ tên vào biên bản; giao mỗi bên 01 bản./. 
 
-**A. ĐĂNG KÝ PHÂN LOẠI DOANH NGHIỆP**
+TỔ CHỨC/CÁ NHÂN
 
-Tôi là *(ghi họ tên bằng chữ in hoa)*:……………………………………….
+ĐƯỢC KIỂM TRA 
 
-Chức danh: ..................................................................................................
+(Ký, ghi rõ họ tên) 
 
-Tôi đại diện doanh nghiệp(2) ......................., đăng ký phân loại doanh nghiệp chế biến và xuất khẩu gỗ với các nội dung sau:
+ĐẠI DIỆN
 
-**1. Thông tin chung:**
+TỔ KIỂM TRA 
 
-Tên doanh nghiệp:....………..………...……………...................................
+(Ký, ghi rõ họ tên) 
 
-Mã số doanh nghiệp(3):……………….………………………..………...
+NGƯỜI LÀM CHỨNG
 
-Địa chỉ(4):…..……………………….…………………………………..
+(nếu có) 
 
-Điện thoại liên hệ:.……...…………….……………………………..…….
+(Ký, ghi rõ họ tên)
 
-Địa chỉ Email:………………………..... Website *(nếu có)*:….…………
+---
 
-**2. Quy mô hoạt động doanh nghiệp** *(đánh dấu X vào ô thích hợp):*
+33 
 
-2.1. Doanh nghiệp không có chi nhánh/cơ sở chế biến gỗ: 
+Mẫu số 17: Đề nghị phân loại doanh nghiệp 
 
-2.2. Doanh nghiệp có chi nhánh/cơ sở chế biến gỗ: 
+CỘNG HO À   X Ã   H Ộ I CH Ủ   NGHĨA   VI Ệ T NAM 
 
-Bảng kê chi nhánh/cơ sở chế biến gỗ thuộc doanh nghiệp:
+Đ ộ c   l ậ p   -   T ự   do   -   H ạ nh   ph ú c 
 
-|  |  |  |  |  |
-| --- | --- | --- | --- | --- |
-| **TT** | **Tên chi nhánh/cơ sở chế** **biến gỗ** | **Địa chỉ** (4) | **Các mặt hàng gỗ và sản phẩm gỗ chính** | **Ghi chú** |
-| 1 |  |  |  |  |
-| 2 |  |  |  |  |
-| 3 |  |  |  |  |
-| …. |  |  |  |  |
+.........., ngày.....tháng.......năm....... 
 
-**B. CAM KẾT TUÂN THỦ TIÊU CHÍ PHÂN LOẠI DOANH NGHIỆP**
+ĐỀ NGHỊ PHÂN LOẠI DOANH NGHIỆP 
 
-Doanh nghiệp cam kết đã tuân thủ đầy đủ những tiêu chí sau:
+K í nh   g ử i 
+(1) 
+:.................................................................. 
 
-1. Trong thời hạn 12 tháng tính đến ngày đăng ký phân loại đã tuân thủ quy định của pháp luật về chế độ báo cáo theo quy định tại khoản ***5*** Điều 27 Nghị định số 102/2020/NĐ-CP và lưu giữ hồ sơ gốc theo quy định của pháp luật: 
+A. ĐĂNG KÝ PHÂN LOẠI DOANH NGHIỆP 
 
-2. Trong thời hạn 12 tháng tính đến ngày đăng ký phân loại không vi phạm pháp luật đến mức phải xử lý theo quy định tại khoản 4 Điều 13 Nghị định số 102/2020/NĐ-CP: 
+Tôi là   (ghi h ọ   tên b ằ ng ch ữ   in hoa) :………………………………………. 
 
-3. Trong thời hạn 12 tháng tính đến ngày đăng ký phân loại không có tên trong danh sách công khai thông tin tổ chức, cá nhân kinh doanh có dấu hiệu vi phạm pháp luật về thuế: 
+Chức danh: .................................................................................................. 
 
-Doanh nghiệp chịu trách nhiệm trước pháp luật về tính chính xác của các nội dung tại bản đề nghị đăng ký phân loại doanh nghiệp này.
+Tôi đại diện doanh nghiệp 
+(2)   
+......................., đăng ký phân loại doanh
 
-Doanh nghiệp(2)............ đề nghị (1)……..……. xem xét, phân loại doanh nghiệp./.
+nghiệp chế biến và xuất khẩu gỗ với các nội dung sau: 
 
-|  |  |
-| --- | --- |
-| ***Nơi nhận:*** - Như trên;  - Lưu:….. | **ĐẠI DIỆN DOANH NGHIỆP**(5)  *(Ký, ghi rõ họ tên, đóng dấu)* |
+1. Thông tin chung: 
 
-***Ghi chú:***
+Tên doanh nghiệp:....………..………...……………................................... 
 
-*(1) Tên cơ quan tiếp nhận.*
+Mã số doanh nghiệp 
+(3) 
+:……………….………………………..………... 
 
-*(2) Tên doanh nghiệp.*
+Địa chỉ 
+(4) 
+:…..……………………….………………………………….. 
 
-*(3) Ghi theo mã số đăng ký của doanh nghiệp.*
+Điện thoại liên hệ:.……...…………….……………………………..……. 
 
-*(4) Ghi rõ số nhà, ngách, hẻm, ngõ, đường phố/tổ/xóm/ấp/thôn; xã/phường; tỉnh/thành phố trực thuộc Trung ương nơi có trụ sở của doanh nghiệp.*
+Địa chỉ Email:………………………..... Website   (nếu có) :….………… 
 
-*(5) Người đại diện hoặc người được ủy quyền theo quy định của pháp luật.*
+2. Quy mô hoạt động doanh nghiệp   (đánh dấu X vào ô thích hợp): 
 
- 
+2.1. Doanh nghiệp không có chi nhánh/cơ sở chế biến gỗ:    
 
-**Mẫu số 18: Thông báo kết quả tiếp nhận hồ sơ đăng ký phân loại doanh nghiệp**
+2.2. Doanh nghiệp có chi nhánh/cơ sở chế biến gỗ:    
 
-|  |  |
-| --- | --- |
-| …………………………  .............(1) .............. **-------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
-| Số:……/TB-….. | *(2)........., ngày……tháng...... năm ...* |
+Bảng kê chi nhánh/cơ sở chế biến gỗ thuộc doanh nghiệp: 
 
- 
+TT   
+Tên chi nhánh/cơ sở chế
 
-**THÔNG BÁO**
+biến gỗ   
+Địa chỉ   
+(4) 
 
-**Kết quả tiếp nhận hồ sơ đăng ký phân loại doanh nghiệp**
+Các mặt hàng gỗ
 
-Kính gửi(3): ........................................................
+và sản phẩm gỗ
 
-Căn cứ quy định tại Thông tư số..…/2025/TT-BNNMT ngày ..../..../2025 của Bộ trưởng Bộ Nông nghiệp và Môi trường quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân.
+chính 
 
-Ngày.. tháng... năm ......, (1) ...... nhận được hồ sơ đăng ký phân loại doanh nghiệp của(3)…………...... .
+Ghi
 
-Sau khi xem xét hồ sơ(1).................. thông báo kết quả tiếp nhận đăng ký phân loại doanh nghiệp của(3) .......……… như sau:
+chú 
 
-**1. Hồ sơ đăng ký phân loại doanh nghiệp đầy đủ theo quy định**
+1 
 
-Đề nghị(3) ............... truy cập Hệ thống thông tin phân loại doanh nghiệp trên trang thông tin điện tử theo quy định để biết kết quả phân loại.
+2 
 
-- Tên tài khoản(4): ………………………………...
+3 
 
-**2. Hồ sơ đăng ký phân loại doanh nghiệp chưa đầy đủ theo quy định**
+….
 
-- Hồ sơ còn thiếu:
+---
 
-.................................................................................................................................
+34 
 
-Đề nghị(3)…..... bổ sung hồ sơ đăng ký phân loại doanh nghiệp (đối với trường hợp doanh nghiệp chưa đủ hồ sơ) theo quy định Thông tư số…/2025/TT-BNNMT ngày …… của Bộ trưởng Bộ Nông nghiệp và Môi trường quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân.
+B.   CAM K Ế T TU Â N TH Ủ   TI Ê U CH Í   PH Â N LO Ạ I DOANH NGHI Ệ P 
 
- (1)… thông báo đến quý doanh nghiệp để biết./.
+Doanh nghiệp cam kết đã tuân thủ đầy đủ những tiêu chí sau: 
 
-|  |  |
-| --- | --- |
-| ***Nơi nhận:*** - Như trên;  - Lưu:…. | **THỦ TRƯỞNG CƠ QUAN**  *(Ký, đóng dấu, ghi rõ họ tên)* |
+1. Trong thời hạn 12 tháng tính đến ngày đăng ký phân loại đã tuân thủ quy
 
-***Ghi chú:*** *Hệ thống thông tin phân loại doanh nghiệp sẽ tự động thông báo trong trường hợp đăng ký trực tuyến.*
+định của pháp luật về chế độ báo cáo theo quy định tại khoản   5   Điều 27 Nghị định
 
-*(1) Tên cơ quan tiếp nhận.*
+số 102/2020/NĐ-CP và lưu giữ hồ sơ gốc theo quy định của pháp luật:    
 
-*(2) Địa danh nơi có trụ sở của cơ quan tiếp nhận.*
+2. Trong thời hạn 12 tháng tính đến ngày đăng ký phân loại không vi phạm
 
-*(3) Tên doanh nghiệp.*
+pháp luật đến mức phải xử lý theo quy định tại khoản 4 Điều 13 Nghị định số
 
-*(4) Doanh nghiệp truy cập theo hướng dẫn trên Hệ thống thông tin phân loại doanh nghiệp.*
+102/2020/NĐ-CP:    
 
- 
+3. Trong thời hạn 12 tháng tính đến ngày đăng ký phân loại không có tên
 
-**Mẫu số 19: Thông báo xác minh thông tin đăng ký phân loại doanh nghiệp**
+trong danh sách công khai thông tin tổ chức, cá nhân kinh doanh có dấu hiệu vi
 
-|  |  |
-| --- | --- |
-| …………………………….  .............(1) .............. **-------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
-| Số…../TB-…. | *(2)........., ngày……tháng...... năm 20...* |
+phạm pháp luật về thuế:    
 
- 
+Doanh nghiệp chịu trách nhiệm trước pháp luật về tính chính xác của các
 
-**THÔNG BÁO**
+nội dung tại bản đề nghị đăng ký phân loại doanh nghiệp này. 
 
-**Xác minh thông tin đăng ký phân loại doanh nghiệp**
+Doanh nghiệp 
+(2) 
+............ đề nghị   
+(1) 
+……..……. xem xét, phân loại doanh
 
-Kính gửi(3): *........................................................*
+nghiệp ./. 
 
-Căn cứ quy định tại Thông tư số…/2025/TT-BNNMT ngày ..../..../2025 của Bộ trưởng Bộ Nông nghiệp và Môi trường quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân;
+Nơi nhận: 
 
-.............. (1) ................ thông báo thông tin đăng ký phân loại doanh nghiệp của(3) ......................cần xác minh như sau:
+- Như trên; 
 
-**1. Nội dung xác minh:**
+- Lưu:….. 
 
-a) …………………………………………………………………………
+ĐẠI DIỆN DOANH NGHIỆP 
+(5) 
 
-b) .................................................................................................................
+(Ký, ghi rõ họ tên, đóng dấu) 
 
-c) ..................................................................................................................
+Ghi chú: 
 
-**2. Thời gian xác minh:** Từ ngày .... đến ngày .......
+(1)   
+Tên cơ quan tiếp nhận. 
 
-**3. Hình thức xác minh:** .............................................................................
+(2)   
+Tên doanh nghiệp. 
 
-**4. Địa điểm xác minh:** ...............................................................................
+(3)   
+Ghi theo mã số đăng ký của doanh nghiệp. 
 
-**5. Đề nghị xác nhận tham gia xác minh:**
+(4)   
+Ghi rõ số nhà, ngách, hẻm, ngõ, đường phố/tổ/xóm/ấp/thôn; xã/phường; tỉ nh/thành
 
-- Thời gian xác nhận tham gia trước ngày ...... tháng ... năm ……....:
+phố trực thuộc Trung ương nơi có trụ sở của doanh nghiệp. 
 
-- Tên công chức để doanh nghiệp liên hệ, xác nhận phối hợp/tham gia xác minh(4): …….............…….: Số điện thoại : .................., địa chỉ email: ..................
+(5)   
+Người đại diện hoặc người được ủy quyền theo quy định của pháp luật.
 
-Đề nghị(3) ................... cử đại điện và xác nhận tham gia để việc xác minh được thực hiện đúng quy định./.
+---
 
-|  |  |
-| --- | --- |
-| ***Nơi nhận:*** - Như trên;  - Lưu:….. | **THỦ TRƯỞNG CƠ QUAN**  *(ký, ghi rõ họ tên, đóng dấu)* |
+35 
 
- 
+Mẫu số 18: T hông báo   k ế t qu ả   ti ế p   nh ậ n h ồ   sơ   đăng ký phân lo ạ i doanh nghi ệ p 
 
-***Ghi chú:*** *Hệ thống thông tin phân loại doanh nghiệp sẽ tự động thông báo trong trường hợp đăng* *ký trực tuyến.*
+………………………… 
 
-*(1) Tên cơ quan tiếp nhân.*
+............. 
+(1)   
+.............. 
 
-*(2) Địa danh nơi có trụ sở của cơ quan tiếp nhận.*
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
 
-*(3) Tên doanh nghiệp.*
+Độc lập - Tự do - Hạnh phúc 
 
-*(4) Tên công chức tiếp nhận hồ sơ.*
+Số:……/TB-…..   
+(2) 
+........., ngày……tháng...... năm ... 
 
- 
+THÔNG BÁO 
 
-**Mẫu số 20: Biên bản xác minh thông tin đăng ký phân loại doanh nghiệp**
+Kết quả tiếp nhận hồ sơ đăng ký phân loại doanh nghiệp 
 
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  
- Độc lập - Tự do - Hạnh phúc  
- ---------------**
+Kính gửi 
+(3) 
+: ........................................................ 
 
-**BIÊN BẢN LÀM VIỆC**
+Căn cứ quy định tại Thông tư số..…/2025/TT-BNNMT ngày ..../..../2025 của
 
-**Về việc xác minh thông tin đăng ký phân loại doanh nghiệp**
+Bộ trưởng Bộ Nông nghiệp và Môi trường quy định về quản lý lâm sản; xử lý lâm
 
-Căn cứ quy định Thông tư số…/2025/TT-BNNMT ngày ..../..../2025 của Bộ trưởng Bộ Nông nghiệp và Môi trường quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân;
+sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân. 
 
-Hôm nay, ngày …..... tháng …... năm ..........
+Ngày.. tháng... năm ......,   
+(1)   
+...... nhận được hồ sơ đăng ký phân loại doanh
 
-Tại:………………………………………....................................................
+nghiệp của 
+(3) 
+…………...... . 
 
-Chúng tôi gồm
+Sau khi xem xét hồ sơ 
+(1) 
+.................. thông báo kết quả tiếp nhận đăng ký phân
 
-**I. ĐẠI DIỆN CƠ QUAN TIẾP NHẬN(1)**
+loại doanh nghiệp của 
+(3)   
+.......……… như sau: 
 
-1. Ông (bà): ............................................ Chức danh: ...............................
+1. Hồ sơ đăng ký phân loại doanh nghiệp đầy đủ theo quy định 
 
-2. Ông (bà): ............................................ Chức danh: ...............................
+Đề nghị 
+(3)   
+............... truy cập Hệ thống thông tin phân loại doanh nghiệp trên
 
-**II. ĐẠI DIỆN CƠ QUAN CÓ LIÊN QUAN(2)**
+trang thông tin điện tử theo quy định   để biết kết quả phân loại. 
 
-1. Ông (bà): ................ Đại diện cơ quan: .................................................
+- Tên tài khoản 
+(4) 
+: ………………………………... 
 
-2. Ông (bà): ................ Đại diện cơ quan: .................................................
+2. Hồ sơ đăng ký phân loại doanh nghiệp chưa đầy đủ theo quy định 
 
-**III. ĐẠI DIỆN DOANH NGHIỆP**
+- Hồ sơ còn thiếu: 
 
-1. Ông (bà): ................ Đại diện doanh nghiệp(3) : ....................................
+................................................................................................................................. 
 
-2. Ông (bà):………………………………………………………………...
+Đề nghị 
+(3) 
+…..... bổ sung hồ sơ đăng ký phân loại doanh nghiệp (đối với trường
 
-- Thực hiện xác minh thông tin đăng ký phân loại doanh nghiệp của(3)…........, kết quả như sau:
+hợp doanh nghiệp chưa đủ hồ sơ) theo quy định Thông tư số…/2025/TT-BNNMT
 
-1. Thông tin xác minh: .................................................................................
+ngày …… của Bộ trưởng Bộ Nông nghiệp và Môi trường quy định về quản lý lâm
 
-Thông tin chính xác: **฀** Thông tin không chính xác: ฀
+sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân. 
 
-Lí do: ............................................................................................................
+(1) 
+… thông báo đến quý doanh nghiệp để biết./. 
 
-2. Thông tin xác minh: .................................................................................
+Nơi nhận: 
 
-Thông tin chính xác: ฀ Thông tin không chính xác: ฀
+- Như trên; 
 
-Lí do: ...........................................................................................................
+- Lưu:….. 
 
-3. Thông tin xác minh: ................................................................................
+THỦ TRƯỞNG CƠ QUAN 
 
-Thông tin chính xác: ฀ Thông tin không chính xác: ฀
+(Ký, đóng dấu, ghi rõ họ tên)
 
-Lí do: ............................................................................................................
+---
 
-4. Thông tin xác minh: .................................................................................
+36 
 
-Thông tin chính xác: ฀ Thông tin không chính xác: ฀
+Ghi chú:   Hệ thống thông tin phân loại doanh nghiệp sẽ tự động thông báo trong trường
 
-Lí do: ............................................................................................................
+hợp đăng ký trực tuyến. 
 
-- Tài liệu thu thập kèm theo:
+(1)   
+Tên cơ quan tiếp nhận. 
 
-.......................................................................................................................
+(2)   
+Địa danh nơi có trụ sở của cơ quan tiếp nhận. 
 
-.......................................................................................................................
+(3)   
+Tên doanh nghiệp. 
 
-.......................................................................................................................
+( 4)   
+Doanh nghiệp truy cập theo hướng dẫn trên Hệ thống thông tin phân loại doanh nghiệp.
 
-Việc xác minh thông tin đăng ký phân loại doanh nghiệp được thực hiện đúng quy định, không ảnh hưởng đến hoạt động bình thường của(3) ...............
+---
 
-Việc xác minh kết thúc vào hồi .. giờ.... ngày tháng năm .... , Biên bản được lập thành ...... bản, các bên tham gia nhất trí thông qua và ký xác nhận./.
+37 
 
-|  |  |
-| --- | --- |
-| **ĐẠI DIỆN CƠ QUAN** **TIẾP NHẬN**  *(Ký, ghi rõ họ tên)* | **ĐẠI DIỆN DOANH NGHIỆP**  *(Ký, ghi rõ họ tên)* |
-| **ĐẠI DIỆN CƠ QUAN CÓ LIÊN QUAN** *(Ký, ghi rõ họ tên)* | **ĐẠI DIỆN CƠ QUAN CÓ LIÊN QUAN** *(Ký, ghi rõ họ tên)* |
+Mẫu số 19: Thông báo xác minh thông tin đ ăng ký phân lo ạ i   doanh nghi ệ p 
 
- 
+……………………………. 
 
-***Ghi chú:***
+............. 
+(1)   
+.............. 
 
-*(1) Tên cơ quan tiếp nhận.*
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
 
-*(2) Tùy thuộc tiêu chí cần xác minh, cơ quan tiếp nhận mời đại diện cơ quan có liên quan* *tham gia xác minh và lập biên bản.*
+Độc lập - Tự do - Hạnh phúc 
 
-*(3) Tên doanh nghiệp.*
+Số…../TB-….   
+(2) 
+........., ngày……tháng...... năm 20... 
 
- 
+THÔNG BÁO 
 
-**Mẫu số 21: Thông báo kết quả phân loại/chuyển loại doanh nghiệp**
+Xác minh thông tin đăng ký phân loại doanh nghiệp 
 
-|  |  |
-| --- | --- |
-| …………………………….  .............(1) ............. **-------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
-| Số:…../TB-…. | *(2)........., ngày…..tháng...... năm ...* |
+Kính gửi 
+(3) 
+:   ........................................................ 
 
- 
+Căn cứ quy định tại Thông tư số…/2025/TT-BNNMT ngày ..../..../2025 của
 
-**THÔNG BÁO**
+Bộ trưởng Bộ Nông nghiệp và Môi trường quy định về quản lý lâm sản; xử lý lâm
 
-**Kết quả phân loại/chuyển loại doanh nghiệp**
+sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân; 
 
-Kính gửi (3):........................................................
+..............   
+(1)   
+................ thông báo thông tin đăng ký phân loại doanh nghiệp
 
-Căn cứ quy định tại Thông tư số…/2025/TT-BNNMT ngày ..../..../2025 của Bộ trưởng Bộ Nông nghiệp và Môi trường quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân;
+của 
+(3)   
+......................cần xác minh như sau: 
 
- (1) ……………. thông báo kết quả phân loại đối với doanh nghiệp (3) ................ như sau:
+1. Nội dung xác minh: 
+
+a) ………………………………………………………………………… 
+
+b) .................................................................................................................. 
+
+c) .................................................................................................................. 
+
+2. Thời gian xác minh:   Từ ngày .... đến ngày ....... 
+
+3. Hình thức xác minh:   ............................................................................. 
+
+4. Địa điểm xác minh:   ............................................................................... 
+
+5. Đề nghị xác nhận tham gia xác minh: 
+
+- Thời gian xác nhận tham gia trước ngày ...... tháng ... năm ……....: 
+
+- Tên công chức để doanh nghiệp liên hệ, xác nhận phối hợp/tham gia xác
+
+minh 
+(4) 
+: …….............…….: Số điện thoại : .................., địa chỉ email: .................. 
+
+Đề nghị 
+(3)   
+................... cử đại điện và xác nhận tham gia để việc xác minh
+
+được thực hiện đúng quy định./. 
+
+Nơi nhận: 
+
+- Như trên; 
+
+- Lưu:….. 
+
+THỦ TRƯỞNG CƠ QUAN 
+
+(ký, ghi rõ họ tên, đóng dấu) 
+
+Ghi chú:   Hệ thống thông tin phân loại doanh nghiệp sẽ tự động thông báo trong trường hợp đăng
+
+ký trực tuyến. 
+
+(1)   
+Tên   c ơ quan ti ế p nhân. 
+
+(2)   
+Địa danh nơi có trụ sở của cơ quan tiếp nhận. 
+
+(3)   
+Tên doanh nghiệp. 
+
+(4)   
+Tên công chức tiếp nhận hồ sơ.
+
+---
+
+38 
+
+Mẫu số 20: Biên bản xác minh thông tin đăng ký phân loại doanh nghiệp 
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+
+Độc lập - Tự do - Hạnh phúc 
+
+BIÊN BẢN LÀM VIỆC 
+
+Về việc xác minh thông tin đăng ký phân loại doanh nghiệp 
+
+Căn cứ quy định Thông tư số…/2025/TT-BNNMT ngày ..../..../2025 của
+
+Bộ trưởng Bộ Nông nghiệp và Môi trường quy định   về quản lý lâm sản; xử lý lâm
+
+sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân; 
+
+Hôm nay, ngày …..... tháng …... năm .......... 
+
+Tại:……………………………………….................................................... 
+
+Chúng tôi gồm 
+
+I. ĐẠI DIỆN CƠ QUAN TIẾP NHẬN 
+(1) 
+
+1. Ông (bà): ............................................   Chức danh: ............................... 
+
+2. Ông (bà): ............................................   Chức danh: ............................... 
+
+II. ĐẠI DIỆN CƠ QUAN CÓ LIÊN QUAN 
+(2) 
+
+1. Ông (bà): ................   Đại diện cơ quan: ................................................. 
+
+2. Ông (bà): ................   Đại diện cơ quan: ................................................. 
+
+III. ĐẠI DIỆN DOANH NGHIỆP 
+
+1. Ông (bà): ................   Đại diện doanh nghiệp 
+(3)   
+: .................................... 
+
+2. Ông (bà):………………………………………………………………... 
+
+-   Thực   hiện   xác   minh   thông   tin   đăng   ký   phân   loại   doanh   nghiệp
+
+của 
+(3) 
+…........, kết quả như sau: 
+
+1. Thông tin xác minh: ................................................................................. 
+
+Thông tin chính xác:  󠄵   Thông tin không chính xác: 󠄵 
+
+Lí do: ............................................................................................................ 
+
+2. Thông tin xác minh: ................................................................................. 
+
+Thông tin chính xác: 󠄵   Thông tin không chính xác: 󠄵 
+
+Lí do: ........................................................................................................... 
+
+3. Thông tin xác minh: ................................................................................ 
+
+Thông tin chính xác: 󠄵   Thông tin không chính xác: 󠄵
+
+---
+
+39 
+
+Lí do: ............................................................................................................ 
+
+4. Thông tin xác minh: ................................................................................. 
+
+Thông tin chính xác: 󠄵   Thông tin không chính xác: 󠄵 
+
+Lí do: ............................................................................................................ 
+
+- Tài liệu thu thập kèm theo: 
+
+..................................................... .................................................................. 
+
+....................................................................................................................... 
+
+.................................................................................................... ................... 
+
+Việc xác minh thông tin đăng ký phân loại doanh nghiệp được thực hiện
+
+đúng quy định, không ảnh hưởng đến hoạt động bình thường của 
+(3)   
+............... 
+
+Việc xác minh kết thúc vào hồi .. giờ.... ngày tháng năm .... , Biên bản được
+
+lập thành ...... bản, các bên tham gia nhất trí thông qua và ký xác nhận./. 
+
+ĐẠI DIỆN CƠ QUAN
+
+TIẾP NHẬN 
+
+(Ký, ghi rõ họ tên) 
+
+ĐẠI DIỆN DOANH
+
+NGHIỆP 
+
+(Ký, ghi rõ họ tên) 
+
+ĐẠI DIỆN CƠ QUAN
+
+CÓ LIÊN QUAN 
+
+(Ký, ghi rõ họ tên) 
+
+ĐẠI DIỆN CƠ QUAN
+
+CÓ LIÊN QUAN 
+
+(Ký, ghi rõ họ tên) 
+
+Ghi chú: 
+
+(1)   
+Tên cơ quan tiếp nhận. 
+
+(2)   
+Tùy thuộc tiêu chí cần xác minh, cơ quan tiếp nhận mời đại diện cơ quan có liên quan
+
+tham gia xác minh và lập biên bản. 
+
+(3)   
+Tên doanh nghiệp.
+
+---
+
+40 
+
+Mẫu số 21: Thông báo kết quả phân loại/chuyển loại doanh nghiệp 
+
+……………………………. 
+
+............. 
+(1)   
+.............. 
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+
+Độc lập - Tự do - Hạnh phúc 
+
+Số:…../TB-….   
+(2) 
+........., ngày…..tháng...... năm ... 
+
+THÔNG BÁO 
+
+Kết quả phân loại/chuyển loại doanh nghiệp 
+
+Kính gửi   
+(3) 
+:........................................................ 
+
+Căn cứ quy định tại Thông tư số…/2025/TT-BNNMT ngày ..../..../2025 của
+
+Bộ trưởng Bộ Nông nghiệp và Môi trường quy định về quản lý lâm sản; xử lý lâm
+
+sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân; 
+
+(1)   
+……………. thông báo kết quả phân loại đối với doanh nghiệp   
+(3) 
+
+................ như sau: 
 
 1. Doanh nghiệp …… đã được xếp loại doanh nghiệp Nhóm I kể từ ngày
 
-…/……/….. . Danh sách doanh nghiệp là doanh nghiệp Nhóm I được đăng trên trang thông tin điện tử theo quy định.
+…/……/….. . Danh sách doanh nghiệp là doanh nghiệp Nhóm I được đăng trên
 
-2. Doanh nghiệp ……….. không được xếp loại Nhóm I/chuyển loại sang doanh nghiệp Nhóm II kể từ ngày .................../........../.............. Lí do (4):
+trang thông tin điện tử theo quy định. 
 
-1.....................................................................................................................
+2. Doanh nghiệp ……….. không được xếp loại Nhóm I/chuyển loại sang
 
-2.....................................................................................................................
+doanh nghiệp Nhóm II kể từ ngày .................../........../..............   L í   do   
+(4) 
+: 
 
-3. ...................................................................................................................
+1................................................................................ ..................................... 
 
- (1) ……………. trân trọng thông báo./.
+2..................................................................................................................... 
 
-|  |  |
-| --- | --- |
-| ***Nơi nhận:*** - Như trên;  - Lưu:….. | **THỦ TRƯỞNG CƠ QUAN**  *(ký, ghi rõ họ tên, đóng dấu)* |
+3. ................................................................................................................... 
 
- 
+(1)   
+……………. trân trọng thông báo./. 
 
-***Ghi chú:*** *Hệ thống thông tin phân loại doanh nghiệp sẽ tự động thông báo trong trường hợp doanh nghiệp đăng ký trực tuyến.*
+Nơi nhận: 
 
-*(1) Tên cơ quan tiếp nhân.*
+- Như trên; 
 
-*(2) Địa danh nơi trụ sở của cơ quan tiếp nhận.*
+- Lưu:….. 
 
-*(3) Tên doanh nghiệp, Cục Lâm nghiệp và Kiểm lâm.*
+THỦ TRƯỞNG CƠ QUAN 
 
-*(4) Ghi rõ lý do không phân loại Nhóm I/chuyển loại sang doanh nghiệp Nhóm II, tiêu chí không bảo đảm theo quy định.*
+(ký, ghi rõ họ tên, đóng dấu) 
 
- 
+Ghi chú:   Hệ thống thông tin phân loại doanh nghiệp sẽ tự động thông báo trong trường
 
-**Mẫu số 22: Biên bản bàn giao, tiếp nhận thực vật/động vật/thủy sản**
+hợp doanh nghiệp đăng ký trực tuyến. 
 
-|  |  |
-| --- | --- |
-| ……………………….  ……………………… **-------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
-| Số:     /BB-BGTN |  |
+(1)   
+Tên cơ quan tiếp nhân. 
 
- 
+(2)   
+Địa danh nơi trụ sở của cơ quan tiếp nhận. 
 
-**BIÊN BẢN**
+(3)   
+Tên doanh nghiệp, Cục Lâm nghiệp và Kiểm lâm. 
 
-**Bàn giao, tiếp nhận thực vật rừng/động vật rừng/thủy sản**
+( 4)   
+Ghi rõ lý do không phân loại Nhóm I/chuyển loại sang doanh nghiệp Nhóm II, tiêu
 
-Căn cứ Nghị định số 77/2025/NĐ-CP ngày 01 tháng 4 năm 2025 của Chính phủ quy định thẩm quyền, thủ tục xác lập quyền sở hữu toàn dân về tài sản và xử lý đối với tài sản được xác lập quyền sở hữu toàn dân;
+chí không bảo đảm theo quy định.
 
-Căn cứ Thông tư số /2025/TT-BNNMT ngày .../.../2025 của Bộ trưởng Bộ Nông nghiêp và Môi trường quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân;
+---
 
-Căn cứ (1) …………………………………………………………………
+41 
 
-Hôm nay, hồi......... giờ ......... phút, ngày…...../….…/20...…… , tại: ............
+M ẫ u s ố   22: Biên b ả n   bàn giao ,   ti ế p nh ậ n   th ự c v ậ t / đ ộ ng v ậ t / th ủ y s ả n 
 
-**1. Chúng tôi gồm:**
+………………………. 
 
-**a) Đại diện bên giao:**
+………………………… 
 
-1. Họ và tên: ……………………………..Chức vụ: ...................................
+Số:   /BB-BGTN 
 
-Địa chỉ cá nhân: .............................................................................................
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
 
-Số CMND/CCCD/Hộ chiếu: ........................................................................
+Độc lập - Tự do - Hạnh phúc 
 
-Cơ quan, đơn vị: ............................................................................................
+BIÊN BẢN 
 
-Địa chỉ cơ quan, đơn vị: .................................................................................
+Bàn giao ,   ti ế p nh ậ n th ự c v ậ t r ừ ng/đ ộ ng v ậ t r ừ ng/th ủ y s ả n 
 
-2. Họ và tên: ……………………………..Chức vụ: ...................................
+Căn cứ Nghị định số 77/2025/NĐ - CP ngày 01 tháng   4 năm 2025 của Chính 
 
-Cơ quan, đơn vị: ............................................................................................
+phủ quy định thẩm quyền, thủ tục xác lập quyền sở hữu toàn dân về tài sản và xử 
 
-**b) Đại diện bên nhận:**
+lý đối với tài sản được xác lập quyền sở hữu toàn dân; 
 
-1. Họ và tên: ……………………………..Chức vụ: ..................................
+Căn cứ Thông tư số /2025/TT-BNNMT ngày .../.../2025 của Bộ trưởng Bộ
 
-Cơ quan, đơn vị: ……………………………………………….……........
+Nông nghiêp và Môi trường quy định về quản lý lâm sản; xử lý lâm sản, thủy sản
 
-Địa chỉ cơ quan, đơn vị: .................................................................................
+là tài sản được xác lập quyền sở hữu toàn dân; 
 
-2. Họ và tên: ……………………………..Chức vụ: .....................................
+Căn cứ   
+(1)   
+………………………………………………………………… 
 
-Cơ quan, đơn vị: ............................................................................................
+Hôm nay, hồi......... giờ ......... phút, ngày…...../….…/20...…… , tại: ............ 
 
-**c) Người chứng kiến (nếu có):**
+1. Chúng tôi gồm: 
 
-1. Họ và tên: ……………………………..Chức vụ: .....................................
+a) Đại diện bên giao: 
 
-Địa chỉ cá nhân: ............................................................................................
+1. Họ và tên: ……………………………..Chức vụ: ................................... 
 
-Số CMND/CCCD/Hộ chiếu: ........................................................................
+Địa chỉ cá nhân: ............................................................................................. 
 
-**2. Tài sản bàn giao, tiếp nhận:**
+Số CMND/CCCD/Hộ chiếu: ........................................................................ 
 
-|  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **TT** | **Tên thực vật rừng, động vật rừng, thủy sản giao nhận (bao gồm cá thể hoặc sản phẩm của chúng)** | | **Nhóm loài (2)** | **Giới tính (nếu có)** | **Đơn vị tính** | **Số lượng hoặc trọng lượng** | **Kích thước** | **Tình trạng của thực vật, động vật rừng, thủy sản (3)** | **Ghi chú** |
-| **Tên tiếng việt/tên thương mại** | **Tên khoa học** |
-| 1 |  |  |  |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |  |  |  |
-| ... |  |  |  |  |  |  |  |  |  |
+Cơ quan, đơn vị: ............................................................................................ 
 
-Hồ sơ, tài liệu kèm theo (nếu có): .................................................................
+Địa chỉ cơ quan, đơn vị: ................................................................................. 
 
-**3. Mục đích giao nhận**(4)**:** ............................................................................
+2. Họ và tên: ……………………………..Chức vụ: ................................... 
 
-**4. Trách nhiệm của các bên**(5):
+Cơ quan, đơn vị: ............................................................................................ 
 
-a) Trách nhiệm của bên giao:.........................................................................
+b) Đại diện bên nhận: 
 
-b) Trách nhiệm của bên nhận:........................................................................
+1. Họ và tên: ……………………………..Chức vụ: .................................. 
 
-Biên bản này lập hồi… giờ… phút cùng ngày, gồm .... tờ, được lập thành .... bản có giá trị pháp lý như nhau; đã đọc lại cho những người có tên nêu trên cùng nghe, công nhận là đúng và cùng ký tên; mỗi bên giữ một bản để thực hiện và lưu hồ sơ./.
+Cơ quan, đơn vị: ……………………………………………….……........ 
 
-|  |  |  |
-| --- | --- | --- |
-| **ĐẠI DIỆN BÊN NHẬN**  *(Ký, ghi rõ họ tên)* | **NGƯỜI CHỨNG KIẾN   (nếu có)**  *(Ký, ghi rõ họ tên)* | **ĐẠI DIỆN BÊN GIAO**  *(Ký, ghi rõ họ tên)* |
+Địa chỉ cơ quan, đơn vị: ................................................................................. 
 
- 
+2. Họ và tên: ……………………………..Chức vụ: ..................................... 
 
-***Ghi chú:***
+Cơ quan, đơn vị: ............................................................................................ 
 
- (1) Ghi căn cứ hoặc lý do để thực hiện việc giao/nhận; ví dụ căn cứ quyết định phê duyệt phương án xử lý tài sản được xác lập quyền sở hữu toàn dân, thông báo của chủ sở hữu tự nguyện chuyển giao quyền sở hữu cho nhà nước.
+c) Người chứng kiến (nếu có):
 
- (2) Nhóm IB hoặc IIB hoặc Phụ lục I hoặc Phụ lục II Công ước CITES hoặc động vật rừng thông thường.
+---
 
-(3) Ghi tình trạng sức khỏe đối với thực vật, động vật rừng, thủy sản còn sống; tình trạng vệ sinh môi trường đối với sản phẩm của động vật rừng, thủy sản.
+42 
 
- (4) Ghi cụ thể mục đích, lý do giao/nhận.
+1. Họ và tên: ……………………………..Chức vụ: ..................................... 
 
- (5) Ghi trách nhiệm của 2 bên về việc bảo quản, quản lý, nuôi dưỡng, chăm sóc, xử lý.
+Địa chỉ cá nhân: ............................................................................................ 
 
- 
+Số CMND/CCCD/Hộ chiếu: ........................................................................ 
 
-**Mẫu số 23: Văn bản đề nghị được tiếp nhận tài sản**
+2. Tài sản bàn giao, tiếp nhận: 
 
-|  |  |
-| --- | --- |
-| ……………………….  ………………………… (1) **-------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
-| Số:   /CV-ĐNGĐC  V/v đề nghị được tiếp nhận tài sản là …...... |  |
+TT 
 
- 
+Tên thực vật   r ừ ng , 
 
-*Kính gửi:...........................................................................(2)*
+đ ộ ng v ậ t r ừ ng, th ủ y s ả n 
 
-Chúng tôi được biết ………. (2) là cơ quan chủ trì quản lý tài sản được xác lập quyền sở hữu toàn dân đối với tài sản là(3) …..
+giao nh ậ n (bao g ồ m cá 
 
-Căn cứ quy định tại Thông tư số:…../2025/TT-BNNMT ngày…./…/2025 của Bộ Nông nghiệp và Môi trường quy định về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân. Chúng tôi đề nghị được tiếp nhận tài sản là … nêu trên để sử dụng….(4)
+th ể   ho ặ c s ả n ph ẩ m c ủ a 
 
-Chúng tôi cam kết sử dụng tài sản được bàn giao theo đúng mục đích và chịu trách nhiệm trước pháp luật nếu để thất thoát tài sản được giao.
+chúng )   
+Nhóm
 
-Trân trọng cảm ơn Quý cơ quan./.
+loài   
+(2) 
 
-|  |  |
-| --- | --- |
-|  | **CHỨC VỤ**  *(Ký, ghi rõ họ tên)* |
+Giới
 
- 
+tính
 
-***Ghi chú:***
+(nếu
 
- (1) Tên cơ quan đề nghị giao.
+có) 
 
- (2) Tên cơ quan chủ trì quản lý tài sản.
+Đơn vị
 
- (3) Ghi tên loại tài sản đề nghị giao.
+tính 
 
- (4) Mục đích theo quy định tại điểm c, điểm đ khoản 1, khoản 2 Điều 8 Nghị định số 77/2025/NĐ-CP.
+Số lượng
 
- 
+hoặc
 
-**Mẫu số 24: Biên bản tiêu hủy động vật/thủy sản/gỗ/thực vật ngoài gỗ**
+trọng
 
-|  |  |
-| --- | --- |
-| **CƠ QUAN (1)  -------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
-| Số: …../BB-THĐV |  |
+lượng 
 
- 
+Kích
 
-**BIÊN BẢN**
+thước 
 
-**Tiêu hủy động vật/thủy sản/gỗ/thực vật ngoài gỗ**
+Tình trạng
 
-Căn cứ Quyết định số…….. phê duyệt Phương án xử lý tài sản được xác lập quyền sở hữu toàn dân;
+của thực
 
-Căn cứ Quyết định số….. về việc thành lập Hội đồng tiêu hủy….;
+vật, động
 
-Căn cứ Quyết định tiêu hủy động vật rừng/thủy sản/thủy sản/gỗ/thực vật rừng ngoài gỗ số ..../ ........ ngày …../……/………của (2)……….........................
+vật rừng,
 
-Hôm nay, hồi.... giờ .... phút, ngày …../……/20..., tại (3)...............................
+thủy sản   
+(3) 
+
+Ghi
+
+chú 
+
+Tên tiếng
+
+việt/tên
+
+thương mại 
+
+Tên khoa
+
+học 
+
+1 
+
+2 
+
+... 
+
+Hồ sơ, tài liệu kèm theo (nếu có): ................................................................. 
+
+3. Mục đích giao nhận 
+(4) 
+:   ............................................................................ 
+
+4. Trách nhiệm của các bên 
+(5) 
+: 
+
+a) Trách nhiệm của bên giao:......................................................................... 
+
+b) Trách nhiệm của bên nhận:........................................................................ 
+
+Biên bản này lập hồi… giờ… phút cùng ngày, gồm .... tờ, được lập thành
+
+.... bản có giá trị pháp lý như nhau; đã đọc lại cho những người có tên nêu trên
+
+cùng nghe, công nhận là đúng và cùng ký tên; mỗi bên giữ một bản để thực hiện
+
+và lưu hồ sơ./. 
+
+ĐẠI DIỆN BÊN NHẬN 
+
+(Ký, ghi rõ họ tên) 
+
+NGƯỜI CHỨNG KIẾN 
+
+(n ế u có) 
+
+(Ký, ghi rõ họ tên ) 
+
+ĐẠI DIỆN BÊN GIAO 
+
+(Ký, ghi rõ họ tên) 
+
+Ghi chú: 
+
+(1)   
+Ghi căn cứ hoặc lý do để thực hiện việc giao/nhận; ví dụ căn cứ quyết định phê duyệt phương
+
+án xử lý tài sản được xác lập quyền sở hữu toàn dân, thông báo của chủ sở hữu tự nguyện chuyển giao
+
+quyền sở hữu cho nhà nước. 
+
+(2)   
+Nhóm IB hoặc IIB hoặc Phụ lục I hoặc Phụ lục II Công ước CITES hoặc động vật rừng thông
+
+thường. 
+
+(3)   
+Ghi tình trạng sức khỏe đối với thực vật, động vật rừng, thủy sản còn sống; tình trạng vệ sinh
+
+môi trường đối với sản phẩm của động vật rừng, thủy sản. 
+
+(4)   
+Ghi cụ thể mục đích, lý do giao/nhận. 
+
+(5)   
+Ghi trách nhiệm của 2 bên về việc bảo quản, quản lý, nuôi dưỡng, chăm sóc, xử lý.
+
+---
+
+43 
+
+Mẫu số   2 3 :   Văn b ả n đ ề   ngh ị   đư ợ c ti ế p nh ậ n tài s ả n 
+
+………………………. 
+
+…………………………   
+(1 ) 
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+
+Độc lập - Tự do - Hạnh phúc 
+
+Số:   /CV-ĐNGĐC 
+
+V/v đề nghị được tiếp nhận tài sản
+
+là …...... 
+
+Kính gửi:........................................................................... 
+(2) 
+
+Chúng tôi được biết ……….   
+(2)   
+là cơ quan chủ trì quản lý tài sản được xác
+
+lập quyền sở hữu toàn dân đối với tài sản là 
+(3)   
+….. 
+
+Căn cứ quy định tại Thông tư số:…../2025/TT-BNNMT ngày…./…/2025
+
+của Bộ Nông nghiệp và Môi trường quy định về quản lý lâm sản; xử lý lâm sản,
+
+thủy sản là tài sản được xác lập quyền sở hữu toàn dân. Chúng tôi đề nghị được
+
+tiếp nhận tài sản là …   nêu trên để sử dụng…. 
+(4) 
+
+Chúng tôi cam kết sử dụng tài sản được bàn giao theo đúng mục đích và
+
+chịu trách nhiệm trước pháp luật nếu để thất thoát tài sản được giao. 
+
+Trân trọng cảm ơn Quý cơ quan./. 
+
+CHỨC VỤ 
+
+(Ký, ghi rõ họ tên) 
+
+Ghi chú: 
+
+(1)   
+Tên cơ quan đề nghị giao. 
+
+(2)   
+Tên cơ quan chủ trì quản lý tài sản. 
+
+(3)   
+Ghi tên loại tài sản đề nghị giao. 
+
+(4)   
+Mục đích theo quy định tại điểm c, điểm đ khoản 1, khoản 2 Điều 8 Nghị định số 77/2025/NĐ-CP.
+
+---
+
+44 
+
+Mẫu số 24: Biên bản tiêu hủy động vật/thủy sản/gỗ/thực vật ngoài gỗ 
+
+CƠ QUAN   
+(1)   
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+
+Độc lập - Tự do - Hạnh phúc 
+
+Số: …../BB-THĐV 
+
+BIÊN BẢN 
+
+Tiêu hủy động vật/thủy sản/gỗ/thực vật ngoài gỗ 
+
+Căn cứ Quyết định số…….. phê duyệt Phương án xử lý tài sản được xác
+
+lập quyền sở hữu toàn dân; 
+
+Căn cứ Quyết định số….. về việc thành lập Hội đồng tiêu hủy….; 
+
+Căn cứ Quyết định tiêu hủy động vật rừng/thủy sản/thủy sản/gỗ/thực vật
+
+rừng ngoài gỗ số ..../ ........   ngày …../……/………của   
+(2) 
+………......................... 
+
+Hôm nay, hồi.... giờ .... phút, ngày …../……/20..., tại   
+(3) 
+............................... 
+
+................................................................................................................................. 
+
+1. Hội đồng tiêu hủy, gồm   
+(4) 
+: 
+
+a) Họ và tên: …………………………….. Ch ứ c v ụ :   ...................................... 
+
+Cơ quan:   ............................................................................. ............. ............. 
+
+b) Họ và tên:   …………………………….. Ch ứ c v ụ :   .................................... 
+
+Cơ quan:   .................................................................... ............ ............. .......... 
+
+c) Họ và tên:   ……………………………….. Ch ứ c v ụ :   ................................. 
+
+Cơ quan:   ................................................................................ ........... ............. 
+
+d) Họ và tên:   …………………………….. Ch ứ c   v ụ :   ............................. .. ... 
+
+Cơ quan:   .................................................................. .......... ........... .......... ...... 
+
+2. Với sự chứng kiến của: 
+
+Họ và tên:   ……………………………. Ngh ề   nghi ệ p:   .......... ....... .............. 
+
+Nơi ở hiện nay:   ............................................................................................ 
+
+3 . Đ ộ ng v ậ t r ừ ng tiêu h ủ y, g ồ m : 
+
+TT 
+
+Tên động vật/thủy
+
+sản/gỗ/thực vật ngoài
+
+gỗ (bao gồm cá thể
+
+hoặc sản phẩm của
+
+chúng) 
+
+Nhóm
+
+loài   
+(5) 
+
+Giới
+
+tính
+
+(nếu
+
+có) 
+
+Đơn vị
+
+tính 
+
+Số lượng
+
+hoặc
+
+trọng
+
+lượng 
+
+Kích
+
+thước 
+
+Tình trạng 
+
+(6) 
+
+Ghi
+
+chú
+
+---
+
+45 
+
+Tên tiếng
+
+Việt/tên
+
+thương mại 
+
+Tên khoa
+
+học 
+
+1 
+
+2 
+
+3 
+
+... 
+
+4. Biện pháp tiêu hủy   
+( 7 ) 
+: ............................................................................. 
+
+5. Ý kiến bổ sung khác (nếu có ):................................................................. 
 
 .................................................................................................................................
 
-**1. Hội đồng tiêu hủy, gồm** (4)**:**
+.........................................................................................................……………… 
 
-a) Họ và tên:……………………………..Chức vụ: ......................................
+Việc tiêu hủy động vật/thủy sản/gỗ/thực vật ngoài gỗ kết thúc vào hồi ....
 
-Cơ quan: .......................................................................................................
+giờ .... phút, ngày…../……/……… 
 
-b) Họ và tên: ……………………………..Chức vụ: ....................................
+Biên bản này được lập xong hồi… giờ… phút cùng ngày, gồm .... tờ, được
 
-Cơ quan: .......................................................................................................
+lập thành .... bản có giá trị pháp lý như nhau; đã đọc lại cho những người có tên
 
-c) Họ và tên: ………………………………..Chức vụ: .................................
+nêu trên cùng nghe, công nhận là đúng và cùng ký tên; mỗi bên giữ một bản để
 
-Cơ quan: ........................................................................................................
+thực hiện và lưu hồ sơ./. 
 
-d) Họ và tên: ……………………………..Chức vụ: ..................................
+NGƯỜI CHỨNG KIẾN 
 
-Cơ quan: .......................................................................................................
+(Ký, ghi rõ họ tên) 
 
-**2. Với sự chứng kiến của:**
+NGƯỜI LẬP BIÊN BẢN 
 
-Họ và tên: …………………………….Nghề nghiệp: ...............................
+(Ký, ghi rõ họ tên) 
 
-Nơi ở hiện nay: ............................................................................................
+THÀNH VIÊN HỘI ĐỒNG   
+(8) 
 
-**3. Động vật rừng tiêu hủy, gồm:**
+(Ký, ghi rõ họ tên) 
 
-|  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **TT** | **Tên động vật/thủy** **sản/gỗ/thực vật ngoài gỗ (bao gồm cá thể hoặc sản phẩm của chúng)** | | **Nhóm loài (5)** | **Giới tính (nếu có)** | **Đơn vị** **tính** | **Số lượng hoặc trọng lượng** | **Kích** **thước** | **Tình trạng** **(6)** | **Ghi chú** |
-|  | **Tên tiếng Việt/tên thương mại** | **Tên khoa học** |  |  |  |  |  |  |  |
-| 1 |  |  |  |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |  |  |  |
-| 3 |  |  |  |  |  |  |  |  |  |
-| ... |  |  |  |  |  |  |  |  |  |
+Ghi chú: 
 
-**4. Biện pháp tiêu hủy** (7): .............................................................................
+(1 )   
+Ghi tên cơ quan chủ trì tiêu hủy. 
 
-**5. Ý kiến bổ sung khác (nếu có**):.................................................................
+(2)   
+Tên cơ quan của người ra quyết định tiêu hủy động vật rừng/thủy sản. 
 
-.................................................................................................................................
+(3)   
+Ghi địa chỉ nơi lập biên bản. 
 
-.........................................................................................................………………
+(4)   
+Ghi họ và tên, chức vụ, đơn vị của Chủ tịch và các thành viên của Hội đồng tiêu hủy. 
 
-Việc tiêu hủy động vật/thủy sản/gỗ/thực vật ngoài gỗ kết thúc vào hồi .... giờ .... phút, ngày…../……/………
+(5)   
+Nhóm IB hoặc IIB hoặc Phụ lục I hoặc Phụ lục II hoặc Phục lục III CITES hoặc động vật
 
-Biên bản này được lập xong hồi… giờ… phút cùng ngày, gồm .... tờ, được lập thành .... bản có giá trị pháp lý như nhau; đã đọc lại cho những người có tên nêu trên cùng nghe, công nhận là đúng và cùng ký tên; mỗi bên giữ một bản để thực hiện và lưu hồ sơ./.
+rừng thông thường hoặc loài thủy sản. 
 
-|  |  |
-| --- | --- |
-| **NGƯỜI CHỨNG KIẾN**  *(Ký, ghi rõ họ tên)* | **NGƯỜI LẬP BIÊN BẢN**  *(Ký, ghi rõ họ tên)* |
-| **THÀNH VIÊN HỘI ĐỒNG** (8)  *(Ký, ghi rõ họ tên)* |  |
+(6)   
+Ghi tình trạng sức khỏe đối với động vật rừng còn sống; tình trạng vệ sinh môi trường đối
 
- 
+với sản phẩm của động vật rừng hoặc loài thủy sản. 
 
-***Ghi chú:***
+(7)   
+Ghi cụ thể biện pháp tiêu hủy được thực hiện đối như đốt, chôn lấp hoặc các biện pháp khác. 
 
- (1 ) Ghi tên cơ quan chủ trì tiêu hủy.
+(8)   
+Tất cả các thành viên hội đồng đều ký vào biên bản.
 
- (2) Tên cơ quan của người ra quyết định tiêu hủy động vật rừng/thủy sản.
+---
 
- (3) Ghi địa chỉ nơi lập biên bản.
+46 
 
- (4) Ghi họ và tên, chức vụ, đơn vị của Chủ tịch và các thành viên của Hội đồng tiêu hủy.
+Mẫu số 25: Báo cáo gỗ tịch thu và tình hình sử dụng tài sản là gỗ 
 
- (5) Nhóm IB hoặc IIB hoặc Phụ lục I hoặc Phụ lục II hoặc Phục lục III CITES hoặc động vật rừng thông thường hoặc loài thủy sản.
+A. BÁO CÁO TÌNH HÌNH SỬ DỤNG TÀI SẢN LÀ GỖ 
 
- (6) Ghi tình trạng sức khỏe đối với động vật rừng còn sống; tình trạng vệ sinh môi trường đối với sản phẩm của động vật rừng hoặc loài thủy sản.
+ĐƠN VỊ BÁO CÁO 
 
- (7) Ghi cụ thể biện pháp tiêu hủy được thực hiện đối như đốt, chôn lấp hoặc các biện pháp khác.
+…………………………… 
 
- (8) Tất cả các thành viên hội đồng đều ký vào biên bản.
+------- 
 
- 
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
 
-**Mẫu số 25: Báo cáo gỗ tịch thu và tình hình sử dụng tài sản là gỗ**
+Độc lập - Tự do - Hạnh phúc 
 
-**A. BÁO CÁO TÌNH HÌNH SỬ DỤNG TÀI SẢN LÀ GỖ**
+BÁO CÁO TÌNH HÌNH SỬ DỤNG GỖ 
 
-|  |  |
-| --- | --- |
-| **ĐƠN VỊ BÁO CÁO** …………………………… **-------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
+(Tháng   ………   năm 20 …… ) 
 
-**BÁO CÁO TÌNH HÌNH SỬ DỤNG GỖ**
+Kính gửi:…………………………………………. 
 
-*(Tháng ……… năm 20……)*
+TT 
 
-*Kính gửi:………………………………………….*
+Tên   g ỗ 
 
-|  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| **TT** | **Tên gỗ thông thường** | **Tên khoa học** | **Đơn vị tính** | **Gỗ được giao** | | | **Tổng cộng** |
-| **Đầu kỳ** (m3) | **Sử dụng trong kỳ** (m3) | **Tồn cuối kỳ** (m3) |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |
+thông 
 
-|  |  |
-| --- | --- |
-| **THỦ TRƯỞNG ĐƠN VỊ**  *(Ký, ghi rõ họ tên, đóng dấu)* | Ngày …… tháng …… năm 20……  **NGƯỜI LẬP BÁO CÁO**  *(Ký, ghi rõ họ tên)* |
+thư ờ ng 
 
- 
+Tên 
 
-**B. BÁO CÁO GỖ TỊCH THU**
+khoa 
 
-|  |  |
-| --- | --- |
-| **ĐƠN VỊ BÁO CÁO**  **……………………………  -------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
+h ọ c 
 
- 
+Đơn 
 
-**BÁO CÁO GỖ TỊCH THU**
+v ị 
 
-*(Tháng ……… năm 20……)*
+tính 
 
-Kính gửi: ………………………………………….
+G ỗ   đư ợ c giao   
+T ổ ng 
 
-|  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **TT** | **Tên tiếng Việt/tên thương mại** | **Tên khoa học** | **Đơn vị tính** *(m3)* | **Tồn** **đầu kỳ** | **Gỗ tịch thu trong kỳ** | | **Gỗ chuyển giao trong kỳ** | | | **Tồn cuối kỳ** |
-| **Số vụ** | **Khối lượng** | **Khối lượng chuyển giao** | **Đơn vị** **tiếp nhận** | **Mục đích** **sử dụng** |
-| *1* | *2* | *3* | *4* | *5* | *6* | *7* | *8* | *9* | *10* | *11=5+7-8* |
-|  |  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |  |
+c ộ ng 
 
-|  |  |
-| --- | --- |
-| **THỦ TRƯỞNG ĐƠN VỊ**  *(Ký, ghi rõ họ tên, đóng dấu)* | *Ngày …… tháng …… năm 20……*  **NGƯỜI LẬP BÁO CÁO**  *(Ký, ghi rõ họ tên)* |
+Đ ầ u k ỳ 
 
-**Mẫu số 26: Biên bản xác nhận tình trạng sức khỏe của động vật/loài thủy sản**
+(m 
+3 
+) 
 
-|  |  |
-| --- | --- |
-| ……………………….  ………………………… (1) **-------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
-| Số:    /BB-XNTTSKĐV |  |
+S ử   d ụ ng trong k ỳ 
 
- 
+(m 
+3 
+) 
 
-**BIÊN BẢN**
+T ồ n cu ố i k ỳ 
 
-*V/v: ....................................................................(2)*
+(m 
+3 
+) 
 
-Căn cứ : .....................................................................................................(3)
+THỦ TRƯỞNG ĐƠN VỊ 
 
-Hôm nay, hồi......... giờ ......... phút, ngày…...../….../20…....…...................,
+(Ký, ghi rõ họ tên ,   đóng dấu) 
 
-Tại: ...............................................................................................................
+Ngày   ……   tháng   ……   năm 20 …… 
 
-**1. Chúng tôi gồm:**
+NGƯỜI LẬP BÁO CÁO 
 
-a) Cơ quan xác nhận tình trạng sức khỏe của động vật/loài thủy sản:
+(K ý , ghi rõ họ tên) 
 
-1. Họ và tên: ………………………..Chức vụ: ...........................................
+B. BÁO CÁO GỖ TỊCH T HU 
 
-Cơ quan, đơn vị: ............................................................................................
+ĐƠN VỊ BÁO CÁO 
 
-Địa chỉ cơ quan, đơn vị: ................................................................................
+…………………………… 
 
-2. Họ và tên:………………………..Chức vụ: ..........................................
+------- 
 
-Cơ quan, đơn vị: ............................................................................................
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
 
-b) Cơ quan quản lý động vật/loài thủy sản:
+Độc lập - Tự do - Hạnh phúc 
 
-1. Họ và tên: ………………….…..Chức vụ: ...............................................
+BÁO CÁO GỖ TỊCH THU 
 
-Cơ quan, đơn vị: ……………………………………………....................
+(Tháng ……… năm 20……) 
 
-Địa chỉ cơ quan, đơn vị : ................................................................................
+Kính gửi: …………………………………………. 
 
-2. Họ và tên:……………………………..Chức vụ: ......................................
+TT 
 
-Cơ quan, đơn vị: ……....................................................................................
+Tên 
 
-**2. Lập biên bản xác nhận tình trạng sức khỏe của động vật/loài thủy sản, cụ thể:**
+ti ế ng 
 
-|  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **TT** | **Tên động vật/loài thủy sản** | | **Nhóm loài (4)** | **Giới tính (nếu có)** | **Đơn vị** **tính** | **Số lượng hoặc trọng lượng** | **Kích** **thước** | **Tình trạng sức khỏe (5)** | **Ghi chú** |
-| **Tên tiếng Việt/tên thương mại** | **Tên khoa học** |
-| 1 |  |  |  |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |  |  |  |
-| ... |  |  |  |  |  |  |  |  |  |
+Vi ệ t/tên 
 
-Hồ sơ, tài liệu kèm theo (nếu có): ................................................................
+th ương 
 
-.................................................................................................................................
+m ạ i 
 
-.................................................................................................................................
+Tên 
 
-**3. Ý kiến khác (nếu có)**:...............................................................................
+khoa 
 
-.................................................................................................................................
+h ọ c 
 
-Biên bản này được lập xong hồi…giờ…phút cùng ngày, gồm...tờ, được lập thành...bản có giá trị pháp lý như nhau; đã đọc lại cho những người có tên nêu trên cùng nghe, công nhận là đúng và cùng ký tên; mỗi bên giữ một bản để thực hiện và lưu hồ sơ./.
+Đơn 
 
-|  |  |
-| --- | --- |
-| **CƠ QUAN QUẢN LÝ ĐỘNG VẬT RỪNG**  *(Ký, ghi rõ họ tên)* | **CƠ QUAN XÁC NHẬN**  *(Ký tên, ghi rõ họ tên)* |
+v ị 
 
- 
+tính 
 
-***Ghi chú:***
+(m 
+3 
+) 
 
- (1) Tên cơ quan quản lý động vật rừng.
+T ồ n 
 
- (2) Ghi cụ thể nội dung lập biên bản: Ví dụ xác nhận tình trạng sức khỏe động vật để cứu hộ, để chuyển giao, để thả, để tiêu hủy.
+đ ầ u k ỳ 
 
- (3) Ghi căn cứ hoặc lý do để thực hiện việc xác nhận; ví dụ căn cứ quyết định tịch thu động vật/loài thủy sản hoặc quyết định tiếp nhận xác lập quyền sở hữu toàn dân đối với động vật rừng/loài thủy sản hoặc quyết định xử lý vật chứng.
+G ỗ   t ị ch thu trong k ỳ   G ỗ   chuy ể n giao trong k ỳ 
 
- (4) Nhóm IB hoặc IIB hoặc Phụ lục I hoặc Phụ lục II hoặc Phục lục III Công ước CITES hoặc động vật rừng thông thường, loài thủy sản.
+T ồ n 
 
- (5) Cơ quan quản lý chuyên ngành thú y, cơ sở cứu hộ động vật do Nhà nước quản lý xác nhận động vật rừng/loài thủy sản khỏe mạnh hay bị ốm, yếu đối với động vật rừng/loài thủy sản còn sống; động vật rừng/loài thủy sản thuộc trường hợp phải tiêu hủy hay không phải tiêu hủy đối với sản phẩm của động vật rừng, loài thủy sản.
+cu ố i k ỳ S ố   v ụ   Kh ố i lư ợ ng   
+Kh ố i lư ợ ng 
 
- 
+chuy ể n giao 
 
-**Mẫu số 27: Văn bản đồng ý thả động vật/thủy sản**
+Đơn v ị 
 
-|  |  |
-| --- | --- |
-| ……………………….  …………………………(1) **-------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
-| Số:    /ĐY-TĐV  V/v đồng ý thả động vật/thủy sản | *…………, ngày…...tháng……năm 20 ....* |
+ti ế p nh ậ n 
 
- 
+M ụ c đích 
 
-Kính gửi:....................................................................(2)
+s ử   d ụ ng 
 
-Chúng tôi/Tôi là:........................................... địa chỉ: ....................................
+1   2   3   4   5   6   7   8   9   10   11=5+7 - 8 
 
-................................................................................................................................;
+THỦ TRƯỞNG ĐƠN VỊ 
 
-có diện tích rừng/mặt nước được giao là .............. ha, tại: ....................................
+(Ký, ghi rõ họ tên ,   đóng dấu) 
 
-.................................................................................................................................
+Ngày   ……   tháng   ……   năm 20 …… 
 
-Chúng tôi/Tôi đồng ý cho thả động vật rừng/thủy sản vào khu rừng/mặt nước do chúng tôi được giao và cam kết sẽ thực hiện việc bảo vệ rừng, mặt nước, bảo vệ động vật theo quy định của pháp luật./.
+NGƯỜI LẬP BÁO CÁO 
 
-|  |  |
-| --- | --- |
-| ***Nơi nhận:*** - Như trên;  - Lưu: ... (…bản). | **ĐẠI DIỆN CHỦ RỪNG/KHU BẢO TỒN BIỂN**  *(Ký, ghi rõ họ tên, đóng dấu nếu là tổ chức)* |
+(K ý ,   ghi rõ họ tên)
 
- 
+---
 
-***Ghi chú:***
+47 
 
- (1) Tên chủ rừng/mặt nước là tổ chức (trường hợp chủ rừng/mặt nước là cá nhân thì không ghi mục này).
+Mẫu số 2 6 : Biên b ả n xác nh ậ n tình tr ạ ng s ứ c kh ỏ e c ủ a đ ộ ng v ậ t /loài th ủ y s ả n 
 
- (2) Tên cơ quan, đơn vị tổ chức thả lại động vật rừng/thủy sản về môi trường tự nhiên.
+………………………. 
 
- 
+…………………………   
+(1) 
 
-**Mẫu số 28. Biên bản thả động vật/thủy sản về môi trường tự nhiên**
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
 
-|  |  |
-| --- | --- |
-| ……………………….  ………………………… (1) **-------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
-| Số:    /BB-TĐVR | *…………, ngày……tháng….năm 20...*. |
+Độc lập - Tự do - Hạnh phúc 
 
- 
+Số:   /BB - XNTTSKĐV 
 
-**BIÊN BẢN**
+BIÊN BẢN 
 
-**Thả lại động vật/thủy sản về môi trường tự nhiên**
+V/v:   .................................................................... 
+(2) 
 
-Căn cứ Quyết định số ……. phê duyệt Phương án xử lý tài sản được xác lập quyền sở hữu toàn dân;
+Căn cứ : ..................................................................................................... 
+(3) 
 
-Hôm nay, hồi.... giờ .... phút, ngày …../……/20..., tại...................................
+Hôm nay, hồi......... giờ ......... phút, ngày…...../….../20…....…..................., 
 
-.................................................................................................................................
+Tại: ............................................................................................................... 
 
-**Chúng tôi gồm:**(2)
+1. Chúng tôi gồm: 
 
-1. Họ và tên: …………………Chức vụ: ..................; Đơn vị: ...................
+a) Cơ quan xác nhận tình trạng sức khỏe của động vật/loài thủy sản: 
 
-2. Họ và tên: …………………Chức vụ: ..................; Đơn vị: ...................
+1. Họ và tên: ………………………..Chức vụ: ........................................... 
 
-3. Họ và tên: …………………Chức vụ: ..................; Đơn vị: ...................
+Cơ quan, đơn vị: ............................................................................................ 
 
-4. Họ và tên: …………………Chức vụ: ..................; Đơn vị:…………….
+Địa chỉ cơ quan, đơn vị: ................................................................................ 
 
-5. Với sự chứng kiến của (nếu có):
+2. Họ và tên:………………………..Chức vụ: .......................................... 
 
-Họ và tên: ………………………… Nghề nghiệp:..................................
+Cơ quan, đơn vị: ............................................................................................ 
 
-Nơi ở hiện nay: .........................................................................................
+b) Cơ quan quản lý động vật/loài thủy sản: 
 
-Số CMND/Thẻ căn cước/Hộ chiếu:…………...; ngày
+1. Họ và tên: ………………….…..Chức vụ: ............................................... 
 
-cấp:....../……../.................... nơi cấp:......................................................................
+Cơ quan, đơn vị: …………………………………………….................... 
 
-Cùng nhau tiến hành việc thả lại động vật/thủy sản về môi trường tự nhiên, cụ thể như sau:
+Địa chỉ cơ quan, đơn vị : ................................................................................ 
 
-**1. Địa điểm thả:**............................................................................................
+2. Họ và tên:……………………………..Chức vụ: ...................................... 
 
-**2. Động vật/thủy sản thả lại về môi trường tự nhiên:**
+Cơ quan, đơn vị: …….................................................................................... 
 
-|  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **TT** | **Tên động vật/thủy sản** | | **Nhóm loài (3)** | **Giới tính** | **Đơn vị tính** | **Số lượng hoặc trọng lượng** | **Kích thước** | **Tình trạng sức khỏe** | **Ghi chú** |
-| **Tên tiếng Việt/tên thương mại** | **Tên khoa học** |
-| 1 |  |  |  |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |  |  |  |
-| 3 |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |
-| ... |  |  |  |  |  |  |  |  |  |
+2. Lập biên bản xác nhận tình trạng sức khỏe của động vật/loài thủy
 
-**3. Kết luận, kiến nghị sau khi thả:** (4) .....................................................
+sản, cụ thể: 
 
-Việc thả lại động vật/thủy sản về môi trường tự nhiên kết thúc vào hồi .. giờ...... phút...…ngày..............................................................................................
+TT 
 
-Biên bản này được lập xong hồi… giờ… phút cùng ngày, gồm ... tờ, được lập thành .... bản có giá trị pháp lý như nhau; đã đọc lại cho những người có tên nêu trên cùng nghe, công nhận là đúng và cùng ký tên; mỗi bên giữ một bản để thực hiện và lưu hồ sơ./.
+Tên động vật/loài thủy
 
- 
+sản 
 
-|  |  |  |
-| --- | --- | --- |
-| **NGƯỜI THAM GIA THẢ** (5)  *(Ký, ghi rõ họ tên)* | **CHỦ RỪNG/KHU BẢO TỒN BIỂN** *(Ký, ghi rõ họ tên, chức vụ)* | **NGƯỜI LẬP BIÊN BẢN**  *(Ký, ghi rõ họ tên, chức vụ)* |
+Nhóm
 
-***Ghi chú:***
+loài   
+(4) 
 
- (1) Tên đơn vị chủ trì thực hiện thả.
+Giới
 
- (2) Ghi các thành phần tham gia thả động vật.
+tính
 
- (3) Nhóm IB hoặc IIB hoặc Phụ lục I hoặc Phụ lục II hoặc Phục lục III CITES hoặc động vật rừng thông thường hoặc loài thủy sản.
+(nếu có) 
 
- (4) Ghi các ý kiến về kết quả thả, về quản lý, bảo vệ sau khi thả.
+Đơn vị
 
- (5) Tất cả các thành viên khác tham gia đều ký vào biên bản.
+tính 
 
- 
+Số lượng
 
-**Mẫu số 29: Báo cáo tình hình nhập, xuất lâm sản**
+hoặc
 
-|  |  |
-| --- | --- |
-| **ĐƠN VỊ BÁO CÁO**  ………………………… **-------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
+trọng
 
- 
+lượng 
 
-**BÁO CÁO NHẬP, XUẤT LÂM SẢN**
+Kích
 
-*(Tháng ……… năm 20……)*
+thước 
 
-|  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| **TT** | **Tên lâm sản** | **Nhóm loài** **(thông thường; nguy cấp, quý, hiếm; Phụ lục CITES)** | **Đơn vị tính** | **Lâm sản nhập vào** | | | **Lâm sản xuất ra** | **Tồn kho cuối kỳ** |
-| **Tồn kho** **đầu kỳ** | **Nhập trong kỳ** | **Tổng cộng** |
-| 1 |  |  |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |  |  |
-| … |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |
+Tình trạng
 
-|  |  |
-| --- | --- |
-| **THỦ TRƯỞNG ĐƠN VỊ**  *(Ký, ghi rõ họ tên, đóng dấu)* | *……, ngày …… tháng …… năm 20……*  **NGƯỜI LẬP BÁO CÁO**  *(Ký, ghi rõ họ tên)* |
+sức khỏe   
+(5)   Ghi chú Tên tiếng
 
- 
+Việt/tên
 
-**PHỤ LỤC III**
+thương
 
-MẪU BIỂU VỀ KÊ KHAI TÀI LIỆU CHỨNG MINH TUÂN THỦ TIÊU CHÍ PHÂN LOẠI DOANH NGHIỆP VÀ BẢNG TỔNG HỢP HỒ SƠ  
- *(Ban hành kèm theo Thông tư số: 26/2025/TT-BNNMT ngày 24 tháng 06 năm* *2025 của Bộ trưởng Bộ Nông nghiệp và Môi trường)*
+mại 
 
-|  |  |
-| --- | --- |
-| **Mẫu số** | **Mẫu biểu** |
-| Mẫu số 01 | Tài liệu chứng minh tuân thủ tiêu chí phân loại doanh nghiệp |
-| Mẫu số 02 | Bảng tổng hợp hồ sơ chứng minh tuân thủ quy định về nguồn gốc gỗ hợp pháp |
+Tên khoa
 
- 
+học 
 
-**Mẫu số 01. Tài liệu chứng minh tuân thủ tiêu chí phân loại doanh nghiệp**
+1
 
-|  |  |  |
-| --- | --- | --- |
-| **STT** | **TIÊU CHÍ PHÂN LOẠI DOANH NGHIỆP** | **TÀI LIỆU CHỨNG MINH** |
-| **I** | **TUÂN THỦ QUY ĐỊNH CỦA PHÁP LUẬT TRONG VIỆC THÀNH LẬP VÀ HOẠT ĐỘNG CỦA DOANH NGHIỆP** |  |
-| 1 | Tuân thủ quy định của pháp luật về thành lập doanh nghiệp phải có các loại tài liệu sau: |  |
-| ~~a~~ | Giấy chứng nhận đăng ký doanh nghiệp phù hợp với quy định pháp luật. | Giấy chứng nhận đăng ký đăng ký doanh nghiệp |
-| 2 | Tuân thủ quy định của pháp luật về môi trường phải có liệu sau: |  |
-| a | Quyết định phê duyệt kết quả thẩm định báo cáo đánh giá tác động môi trường theo quy định pháp luật về bảo vệ môi trường (nếu có); | Quyết định phê duyệt kết quả báo cáo đánh giá tác động môi trường theo quy định của pháp luật về bảo vệ môi trường |
-| b | Giấy phép môi trường hoặc đăng ký môi trường (nếu có) hoặc tài liệu chứng minh tuân thủ quy định của pháp luật về môi trường tùy theo quy mô, công suất hoạt động và ngành nghề kinh doanh theo quy định của pháp luật về bảo vệ môi trường. | Giấy phép môi trường hoặc đăng ký môi trường hoặc tài liệu chứng minh tuân thủ quy định của pháp luật về môi trường theo quy định của pháp luật về bảo vệ môi trường. |
-| 3 | Tuân thủ quy định của pháp luật về phòng cháy, chữa cháy phải có tài liệu sau: |  |
-| **-** | Tài liệu chứng minh đã tuân thủ quy định phòng cháy, chữa cháy theo quy định pháp luật về phòng cháy, chữa cháy. | Tài liệu chứng minh tuân thủ quy định về phòng cháy và chữa cháy đang có hiệu lực thi hành theo quy định của pháp luật về phòng cháy, chữa cháy |
-| 4 | Tuân thủ quy định của pháp luật về thuế, lao động phải bảo đảm các tiêu chí sau: |  |
-| a | Không có tên trong danh sách công khai thông tin tổ chức, cá nhân kinh doanh có vi phạm pháp luật về thuế; | Tài liệu theo Mẫu số 17 Phụ lục II ban hành kèm theo Thông tư này |
-| b | Có kế hoạch vệ sinh an toàn lao động theo quy định của pháp luật; | Kế hoạch an toàn, vệ sinh lao động đang có hiệu lực thi hành theo quy định của pháp luật về an toàn, vệ sinh lao động trong năm đăng ký phân loại |
-| c | Người lao động có tên trong danh sách bảng lương của doanh nghiệp; | Danh sách người lao động kèm theo mã số Bảo hiểm xã hội của doanh nghiệp từng tháng trong 12 tháng liên tiếp tính đến ngày đăng ký phân loại |
-| d | Niêm yết công khai thông tin về đóng bảo hiểm xã hội và y tế đối với người lao động theo quy định pháp luật về Bảo hiểm xã hội. | Bản chụp niêm yết công khai thông tin về việc đóng bảo hiểm xã hội và y tế đối với người lao động theo quy định của Luật Bảo hiểm xã hội trong năm đăng ký phân loại |
-| đ | Người lao động là thành viên tổ chức đại diện người lao động tại cơ sở. | Quyết định thành lập tổ chức công đoàn của doanh nghiệp đang có hiệu lực thi hành hoặc danh sách người lao động là thành viên tổ chức công đoàn của doanh nghiệp theo quy định của pháp luật về Công đoàn trong năm đăng ký phân loại |
-| **II** | **TUÂN THỦ QUY ĐỊNH CỦA PHÁP LUẬT VỀ NGUỒN GỐC GỖ HỢP PHÁP** |  |
-| 1 | Tuân thủ quy định của pháp luật về hồ sơ gỗ hợp pháp đối với doanh nghiệp nhập khẩu gỗ phải có tài liệu sau: |  |
-| a | Sổ theo dõi nhập, xuất lâm sản theo Mẫu số 04 Phụ lục II ban hành kèm theo Thông tư này; | Sổ theo dõi nhập, xuất lâm sản theo quy định |
-| b | Hồ sơ nhập khẩu gỗ theo quy định pháp luật; | Bảng tổng hợp hồ sơ chứng minh tuân thủ quy định về nguồn gốc gỗ hợp pháp theo Mẫu số 02 Phụ lục này |
-| c | Báo cáo tình hình nhập, xuất lâm sản theo quy định. | Báo cáo tình hình nhập, xuất lâm sản trong thời hạn 12 tháng theo quy định pháp luật |
-| 2 | Tuân thủ quy định của pháp luật về hồ sơ nguồn gốc gỗ hợp pháp đối với doanh nghiệp xuất khẩu gỗ phải có các tài liệu sau: |  |
-| a | Sổ theo dõi nhập, xuất lâm sản theo Mẫu số 04 Phụ lục II ban hành kèm theo Thông tư này; | Sổ theo dõi nhập, xuất lâm sản |
-| b | Hồ sơ xuất khẩu gỗ theo quy định pháp luật; | Bảng tổng hợp hồ sơ chứng minh tuân thủ quy định về nguồn gốc gỗ hợp pháp theo Mẫu số 02 Phụ lục này. |
-| c | Bản sao hồ sơ mua bán, chuyển giao quyền sở hữu gỗ liền kề trước đó; |  |
-| d | Báo cáo tình hình nhập, xuất lâm sản theo quy định. | Báo cáo tình hình nhập, xuất lâm sản trong thời hạn 12 tháng theo quy định pháp luật |
-| 3 | Tuân thủ quy định của pháp luật về hồ sơ gỗ hợp pháp đối với doanh nghiệp chế biến gỗ phải có tài liệu sau: |  |
-| a | Sổ theo dõi nhập, xuất lâm sản theo Mẫu số 04 Phụ lục II ban hành kèm theo Thông tư này; | Sổ theo dõi nhập, xuất lâm sản |
-| b | Bảng kê lâm sản theo Mẫu số 01 Phụ lục II ban hành kèm theo Thông tư này; | Bảng tổng hợp hồ sơ chứng minh tuân thủ quy định về nguồn gốc gỗ hợp pháp theo Mẫu số 02 Phụ lục này |
-| c | Bản sao hồ sơ mua bán, chuyển giao quyền sở hữu gỗ liền kề trước đó; |  |
-| d | Báo cáo tình hình nhập, xuất lâm sản theo quy định. | Báo cáo tình hình nhập, xuất lâm sản trong thời hạn 12 tháng theo quy định pháp luật |
-| 4 | Tuân thủ quy định của pháp luật về hồ sơ gỗ hợp pháp đối với doanh nghiệp trồng, khai thác và cung cấp gỗ rừng trồng phải có tài liệu sau: |  |
-| a | Tuân thủ với các quy định pháp luật về quyền sử dụng đất và quyền sử dụng rừng; | Tài liệu chứng minh quyền sử dụng đất và quyền sử dụng rừng hợp pháp theo quy định pháp luật |
-| b | Bản sao hồ sơ khai thác gỗ theo quy định của pháp luật; | Bảng tổng hợp hồ sơ chứng minh tuân thủ quy định về nguồn gốc gỗ hợp pháp theo Mẫu số 02 Phụ lục này |
-| c | Sổ theo dõi nhập, xuất lâm sản theo Mẫu số 04 Phụ lục II ban hành kèm theo Thông tư này; | Sổ theo dõi nhập, xuất lâm sản |
-| d | Bản sao hồ sơ mua bán, chuyển giao quyền sở hữu gỗ; | Bảng tổng hợp hồ sơ chứng minh tuân thủ quy định về nguồn gốc gỗ hợp pháp theo Mẫu số 02 Phụ lục này |
-| đ | Báo cáo tình hình nhập, xuất lâm sản theo quy định. | Báo cáo tình hình nhập, xuất lâm sản trong thời hạn 12 tháng theo quy định pháp luật |
+---
 
-***Ghi chú:***
+48 
 
-*1. Tài liệu theo Mẫu số 17 Phụ lục II ban hành kèm theo Thông tư này và Bảng tổng hợp hồ sơ chứng minh tuân thủ quy định về nguồn gốc gỗ hợp pháp theo Mẫu số 02 Phụ lục này là bản chính; các tài liệu khác là bản phô tô hoặc bản chụp. Trường hợp đăng ký trực tuyến, doanh nghiệp nghiệp scan, đính kèm lên Hệ thống thông tin phân loại doanh nghiệp làm căn cứ chứng minh tuân thủ tiêu chí.*
+2 
 
-*2. Sổ nhập, xuất lâm sản đóng dấu treo của doanh nghiệp khi nộp trực tiếp; trường hợp nộp trực tuyến theo quy định tại khoản 1 Điều 17 Thông tư này thì doanh nghiệp chốt số liệu, ký, đóng dấu điện tử.*
+... 
 
- 
+Hồ sơ, tài liệu kèm theo (nếu có): .......................................................... ...... 
 
-**Mẫu số 02: Bảng tổng hợp hồ sơ chứng minh tuân thủ quy định về nguồn gốc gỗ hợp pháp**
+....................................................................................................................... .......... 
 
-|  |  |
-| --- | --- |
-| …………………………  .............(1) .............. **-------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc  ---------------** |
-| Số:……/BTH-….. | *(2)........., ngày……tháng...... năm ...* |
+....................................................................................................................... ....... ... 
 
- 
+3. Ý kiến khác (nếu có) :............................................................................... 
 
-**BẢNG TỔNG HỢP**
+................................................................................................................................. 
 
-**Hồ sơ chứng minh tuân thủ quy định về nguồn gốc gỗ hợp pháp**
+Biên bản này được lập xong hồi…giờ…phút cùng ngày, gồm...tờ, được lập
 
-Kính gửi(3): ........................................................
+thành...bản có giá trị pháp lý như nhau; đã đọc lại cho những người có tên nêu
 
-Tên doanh nghiệp(1): …………..………...………....………………………
+trên cùng nghe, công nhận là đúng và cùng ký tên; mỗi bên giữ một bản để thực
 
-Mã số doanh nghiệp: …………………………..………...……..…………
+hiện và lưu hồ sơ./. 
 
-Địa chỉ(4):…..……………………….…………….………………………
+CƠ QUAN QUẢN LÝ ĐỘNG
 
-Điện thoại liên hệ: ……...…………….…………………………….……
+VẬT RỪNG 
 
-Địa chỉ email:…………………………………………………………….
+(Ký, ghi rõ họ tên) 
 
-Căn cứ quy định tại Thông tư số…/2025/TT-BNNMT ngày ....../....../2025 của Bộ trưởng Bộ Nông nghiệp và Môi trường quy định quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân.
+CƠ QUAN XÁC NHẬN 
 
-Doanh nghiệp tổng hợp tài liệu chứng minh tuân thủ quy định về nguồn gốc gỗ hợp pháp trong thời hạn 12 tháng tính đến ngày đăng ký phân loại doanh nghiệp, cụ thể như sau:
+(Ký tên, ghi rõ họ tên) 
 
-**Biểu 1.** Tổng hợp hồ sơ gỗ khai thác đối với doanh nghiệp trực tiếp khai thác gỗ làm nguyên liệu chế biến hoặc doanh nghiệp sử dụng gỗ nguyên liệu do doanh nghiệp tự trồng trên đất của doanh nghiệp:
+Ghi chú: 
 
-|  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| **TT** | **Bảng kê gỗ(5)** | | | **Tên gỗ** | | **Khối lượng theo loại gỗ (m3)** | **Thống kê hồ sơ gỗ khai thác(6)** |
-| **Số bảng** **kê** | **Ngày** **lập** | **Đơn vị lập** | **Tên phổ** **thông** | **Tên khoa** **học** |
-| 1 |  |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |  |
-| … |  |  |  |  |  |  |  |
-| **Tổng** | | | |  |  |  |  |
+(1)   
+Tên cơ quan quản lý động vật rừng. 
 
-**Biểu 2.** Tổng hợp hồ sơ gỗ sau xử lý tịch thu đối với doanh nghiệp sử dụng gỗ sau tịch thu làm nguyên liệu chế biến:
+(2)   
+Ghi cụ thể nội dung lập biên bản: Ví dụ xác nhận tình trạng sức khỏe động vật để cứu hộ, để
 
-|  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| **TT** | **Bảng kê gỗ(5)** | | | **Tên gỗ** | | **Khối lượng theo loại gỗ (m3)** | **Thống kê hồ sơ gỗ sau xử lý tịch thu(6)** |
-| **Số bảng** **kê** | **Ngày** **lập** | **Đơn vị lập** | **Tên phổ** **thông** | **Tên khoa** **học** |
-| 1 |  |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |  |
-| … |  |  |  |  |  |  |  |
-| **Tổng** | | | |  |  |  |  |
+chuyển giao, để thả, để tiêu hủy. 
 
-**Biểu 3.** Tổng hợp hồ sơ hồ sơ gỗ nhập khẩu đối với doanh nghiệp sử dụng gỗ nhập khẩu làm nguyên liệu chế biến:
+(3)   
+Ghi căn cứ hoặc lý do để thực hiện việc xác nhận; ví dụ căn cứ quyết định tịch thu động
 
-|  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| **TT** | **Bảng kê gỗ(5)** | | | **Tên gỗ** | | **Khối lượng theo loại gỗ (m3)** | **Thống kê hồ sơ gỗ nhập khẩu(6)** |
-| **Số bảng** **kê** | **Ngày** **lập** | **Đơn vị lập** | **Tên phổ** **thông** | **Tên khoa** **học** |
-| 1 |  |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |  |
-| … |  |  |  |  |  |  |  |
-| **Tổng** | | | |  |  |  |  |
+vật/loài thủy sản hoặc quyết định tiếp nhận xác lập quyền sở hữu toàn dân đối với động vật rừng/loài
 
-**Biểu 4.** Tổng hợp hồ sơ hồ sơ gỗ trong quá trình mua bán, vận chuyển; chế biến:
+thủy sản hoặc quyết định xử lý vật chứng. 
 
-|  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| **TT** | **Bảng kê gỗ(5)** | | | **Tên gỗ** | | **Khối lượng theo loại gỗ (m3)** | **Thống kê hồ sơ gỗ trong quá trình mua bán, vận chuyển, chuyển giao quyền sở** **hữu; chế biến (6)** |
-| **Số bảng** **kê** | **Ngày** **lập** | **Đơn vị lập** | **Tên phổ** **thông** | **Tên khoa học** |
-| 1 |  |  |  |  |  |  |  |
-| 2 |  |  |  |  |  |  |  |
-| … |  |  |  |  |  |  |  |
-| **Tổng** | | | |  |  |  |  |
+(4)   
+Nhóm IB hoặc IIB hoặc Phụ lục I hoặc Phụ lục II hoặc Phục lục III Công ước CITES hoặc
 
-Doanh nghiệp (1) .......................... cam kết hồ sơ, tài liệu kê khai là đúng theo hồ sơ lưu giữ tại doanh nghiệp và chịu trách nhiệm trước pháp luật về nội dung đã kê khai./.
+động vật rừng thông thường, loài thủy sản. 
 
- 
+(5)   
+Cơ quan quản lý chuyên ngành thú y, cơ sở cứu hộ động vật do Nhà nước quản lý xác nhận
 
-|  |  |
-| --- | --- |
-| ***Nơi nhận:*** - Như trên;  - Lưu:….. | **ĐẠI DIỆN DOANH NGHIỆP(7)** *(Ký, ghi rõ họ tên, đóng dấu)* |
+động vật rừng/loài thủy sản khỏe mạnh hay bị ốm, yếu đối với động vật rừng/loài thủy sản còn sống;
 
-***Ghi chú:*** *Doanh nghiệp tổng hợp hồ sơ đối với những hoạt động có thực hiện trong sản xuất, kinh doanh từ biểu 1 đến biểu 4. Những hoạt động không thực hiện thì gạch chéo trong biểu.*
+động vật rừng/loài thủy sản thuộc trường hợp phải tiêu hủy hay không phải tiêu hủy đối với sản phẩm
 
-*(1) Tên doanh nghiệp.*
+của động vật rừng, loài thủy sản.
 
-*(2) Địa danh nơi có trụ sở của doanh nghiệp.*
+---
 
-*(3) Tên cơ quan tiếp nhận.*
+49 
 
-*(4) Ghi rõ địa chỉ theo giấy đăng ký kinh doanh.*
+Mẫu số 27: Văn bản đồng ý thả động vật/thủy sản 
 
-*(5) Bảng kê gỗ nhập khẩu theo quy định tại Nghị định số 102/2020/NĐ-CP hoặc bảng kê gỗ theo quy định của Bộ trưởng Bộ Nông nghiệp và Môi trường về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân. Ghi số, ngày bảng kê, tên đơn vị lập bảng kê.*
+………………………. 
 
-*(6) Kê tên loại, ngày tháng ban hành của hồ sơ liên quan đến nguồn gốc gỗ theo quy định tại Nghị định số 102/2020/NĐ-CP hoặc theo quy định của Bộ trưởng Bộ Nông nghiệp và Môi trường về quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân.*
+………………………… 
+(1) 
 
-*(7) Người đại diện hoặc người được ủy quyền theo quy định của pháp luật.*
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+
+Độc lập - Tự do - Hạnh phúc 
+
+Số:   /ĐY-TĐV 
+
+V/v đồng ý thả động   v ậ t /th ủ y 
+
+s ả n 
+
+…………, ngày …... tháng …… năm 20 .... 
+
+Kính gửi:.................................................................... 
+(2) 
+
+Chúng tôi/Tôi là:........................................... địa chỉ: .................................... 
+
+................................................................................................................................; 
+
+có diện tích rừng/mặt nước được giao là .............. ha, tại: .................................... 
+
+................................................................................................................................. 
+
+Chúng tôi/Tôi đồng ý cho thả động vật rừng/thủy sản vào khu rừng/mặt
+
+nước do chúng tôi được giao và cam kết sẽ thực hiện việc bảo vệ rừng, mặt nước,
+
+bảo vệ động vật theo quy định của pháp luật./. 
+
+Nơi nhận: 
+
+- Như trên;
+
+- Lưu: ... (…bản). 
+
+ĐẠI DIỆN CHỦ RỪNG/KHU BẢO TỒN BIỂN 
+
+(Ký, ghi rõ họ tên, đóng dấu nếu là tổ chức) 
+
+Ghi chú: 
+
+(1)   
+Tên chủ rừng/mặt nước là tổ chức (trường hợp chủ rừng/mặt nước là cá nhân thì không ghi
+
+mục này). 
+
+(2)   
+Tên cơ quan, đơn vị tổ chức thả lại động vật rừng/thủy sản về môi trường tự nhiên.
+
+---
+
+50 
+
+Mẫu số 28. Biên bản thả động vật/thủy sản về môi trường tự nhiên 
+
+……………………….
+
+…………………………   
+(1) 
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+
+Độc lập - Tự do - Hạnh phúc 
+
+Số:   /BB-TĐVR   …………, ngày …… tháng …. năm 20... . 
+
+BIÊN BẢN 
+
+Thả lại động vật/thủy sản về môi trường tự nhiên 
+
+Căn cứ Quyết định số ……. phê duyệt Phương án xử lý tài sản được xác
+
+lập quyền sở hữu toàn dân; 
+
+Hôm nay, hồi.... giờ .... phút, ngày …../……/20..., tại................................... 
+
+................................................................................................................................. 
+
+Chúng tôi gồm: 
+(2) 
+
+1. Họ và tên: …………………Chức vụ: ..................; Đơn vị: ................... 
+
+2. Họ và tên: …………………Chức vụ: ..................; Đơn vị: ................... 
+
+3. Họ và tên: …………………Chức vụ: ..................; Đơn vị: ................... 
+
+4. Họ và tên: …………………Chức vụ: ..................; Đơn vị:……………. 
+
+5. Với sự chứng kiến của (nếu có): 
+
+Họ và tên: ………………………… Nghề nghiệp:.................................. 
+
+Nơi ở hiện nay: ......................................................................................... 
+
+Số   CMND/Thẻ   căn   cước/Hộ   chiếu:…………...;   ngày
+
+cấp:....../……../.................... nơi cấp:...................................................................... 
+
+Cùng nhau tiến hành việc thả lại động vật/thủy sản về môi trường tự nhiên,
+
+cụ thể như sau: 
+
+1. Địa điểm thả: ............................................................................................ 
+
+2. Động vật/thủy sản thả lại về môi trường tự nhiên: 
+
+TT 
+
+Tên động vật/thủy sản 
+
+Nhóm
+
+loài   
+(3) 
+
+Giới
+
+tính 
+
+Đơn vị
+
+tính 
+
+Số lượng
+
+hoặc
+
+trọng
+
+lượng 
+
+Kích
+
+thước 
+
+Tình trạng
+
+sức khỏe 
+
+Ghi
+
+chú 
+
+Tên tiếng
+
+Việt/tên
+
+thương mại 
+
+Tên khoa
+
+học 
+
+1 
+
+2
+
+---
+
+51 
+
+3 
+
+... 
+
+3. Kết luận, kiến nghị sau khi thả:   
+(4)   
+..................................................... 
+
+Việc thả lại động vật/thủy sản về môi trường tự nhiên kết thúc vào hồi ..
+
+giờ...... phút...…ngày.............................................................................................. 
+
+Biên bản này được lập xong hồi… giờ… phút cùng ngày, gồm ... tờ, được
+
+lập thành .... bản có giá trị pháp lý như nhau; đã đọc lại cho những người có tên
+
+nêu trên cùng nghe, công nhận là đúng và cùng ký tên; mỗi bên giữ một bản để
+
+thực hiện và lưu hồ sơ./. 
+
+NGƯỜI THAM GIA THẢ   
+(5) 
+
+(Ký, ghi rõ họ tên) 
+
+CHỦ RỪNG/KHU
+
+BẢO TỒN BIỂN 
+
+(Ký, ghi rõ họ tên,
+
+chức vụ) 
+
+NGƯỜI LẬP BIÊN BẢN 
+
+(Ký, ghi rõ họ tên, chức vụ) 
+
+Ghi chú: 
+
+(1)   
+Tên đơn vị chủ trì thực hiện thả. 
+
+(2)   
+Ghi các thành phần tham gia thả động vật. 
+
+(3)   
+Nhóm IB hoặc IIB hoặc Phụ lục I hoặc Phụ lục II hoặc Phục lục III CITES hoặc động vật
+
+rừng thông thường hoặc loài thủy sản. 
+
+(4)   
+Ghi các ý kiến về kết quả thả, về quản lý, bảo vệ sau khi thả. 
+
+(5)   
+Tất cả các thành viên khác tham gia đều ký vào biên bản.
+
+---
+
+52 
+
+Mẫu số 29: Báo cáo tình hình nhập, xuất lâm sản 
+
+ĐƠN VỊ BÁO CÁO 
+
+…………………………… 
+
+------- 
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+
+Độc lập - Tự do - Hạnh phúc 
+
+BÁO CÁO NHẬP, XUẤT LÂM SẢN 
+
+(Tháng   ………   năm 20 …… ) 
+
+TT   
+Tên   l âm 
+
+s ả n 
+
+Nhóm loài 
+
+(thông 
+
+thư ờ ng; 
+
+nguy c ấ p, 
+
+quý,   hi ế m; 
+
+P h ụ   l ụ c 
+
+CITES) 
+
+Đơn 
+
+v ị 
+
+tính 
+
+L âm s ả n nh ậ p vào 
+
+L âm s ả n 
+
+xu ấ t ra 
+
+T ồ n kho 
+
+cu ố i k ỳ 
+
+T ồ n kho 
+
+đ ầ u k ỳ 
+
+Nh ậ p trong 
+
+k ỳ 
+
+T ổ ng 
+
+c ộ ng 
+
+1 
+
+2 
+
+… 
+
+THỦ TRƯỞNG ĐƠN VỊ 
+
+(Ký, ghi rõ họ tên ,   đóng dấu) 
+
+……, n gày   ……   tháng   ……   năm 20 …… 
+
+NGƯỜI LẬP BÁO CÁO 
+
+(K ý , ghi rõ họ tên)
+
+---
+
+Phụ lục II I 
+
+MẪU BIỂU VỀ   K Ê   KHAI TÀI LI Ệ U CH Ứ NG MINH TUÂN TH Ủ   TIÊU 
+
+CHÍ PHÂN LO Ạ I   DOANH NGHI Ệ P VÀ   B Ả NG   T Ổ NG H Ợ P H Ồ   SƠ 
+
+(Ban hành kèm theo Thông tư số:   /2025/TT-BNNMT ngày   tháng   năm
+
+2025 của Bộ trưởng Bộ Nông nghiệp và Môi trường) 
+
+M ẫ u s ố   M ẫ u bi ể u 
+
+M ẫ u s ố   01   Tài li ệ u ch ứ ng minh tuân th ủ   tiêu chí phân lo ạ i doanh nghi ệ p 
+
+M ẫ u s ố   02   
+B ả ng t ổ ng h ợ p h ồ   sơ ch ứ ng minh tuân th ủ   quy đ ị nh v ề   ngu ồ n g ố c g ỗ 
+
+h ợ p pháp
+
+---
+
+2 
+
+Mẫu số 01. Tài liệu chứng minh tuân thủ tiêu chí phân loại doanh nghiệp 
+
+STT   TIÊU CHÍ PHÂN LOẠI DOANH NGHIỆP   TÀI LIỆU CHỨNG MINH 
+
+I   
+TUÂN THỦ QUY ĐỊNH CỦA PHÁP LUẬT TRONG VIỆC
+
+THÀNH LẬP VÀ HOẠT ĐỘNG CỦA DOANH NGHIỆP 
+
+1   
+Tuân thủ quy định của pháp luật về thành lập doanh nghiệp phải có
+
+các loại tài liệu sau: 
+
+a   
+Giấy chứng nhận đăng ký doanh nghiệp   phù hợp với quy định pháp 
+
+luật. 
+
+Giấy chứng nhận đăng ký   đăng ký doanh nghiệp 
+
+2   Tuân thủ quy định của pháp luật về môi trường phải có liệu sau: 
+
+a   
+Quyết định phê duyệt kết quả thẩm định báo cáo đánh giá tác động
+
+môi trường theo quy định pháp luật về bảo vệ môi trường (nếu có); 
+
+Quyết định phê duyệt kết quả báo cáo đánh giá tác động
+
+môi trường theo quy định của pháp luật về bảo vệ môi
+
+trường 
+
+b 
+
+Giấy phép môi trường hoặc đăng ký môi trường (nếu có) hoặc tài
+
+liệu chứng minh tuân thủ quy định của pháp luật về môi trường tùy
+
+theo quy mô, công suất hoạt động và ngành nghề kinh doanh theo
+
+quy định của pháp luật về bảo vệ môi trường. 
+
+Giấy phép môi trường hoặc đăng ký môi trường hoặc
+
+tài liệu chứng minh tuân thủ quy định của pháp luật về 
+
+môi trường   theo quy định của pháp luật về bảo vệ môi 
+
+trường . 
+
+3   
+Tuân thủ quy định của pháp luật về phòng cháy, chữa cháy phải có
+
+tài liệu sau: 
+
+-   
+Tài liệu chứng minh đã tuân thủ quy định phòng cháy, chữa cháy
+
+theo quy định pháp luật về phòng cháy, chữa cháy. 
+
+Tài li ệ u ch ứ ng minh tuân th ủ   quy đ ị nh v ề   phòng cháy 
+
+và ch ữ a cháy đang có hi ệ u l ự c thi hành theo quy đ ị nh 
+
+c ủ a pháp   lu ậ t v ề   phòng cháy, ch ữ a cháy 
+
+4   
+Tuân thủ quy định của pháp luật về thuế, lao động phải bảo đảm các
+
+tiêu chí sau: 
+
+a   
+Không có tên trong danh sách công khai thông tin tổ chức, cá nhân
+
+kinh doanh có vi phạm pháp luật về thuế ; 
+
+Tài liệu theo Mẫu số 17 Phụ lục II ban hành kèm theo
+
+Thông tư này
+
+---
+
+3 
+
+b   Có kế hoạch vệ sinh an toàn lao động theo quy định của pháp luật; 
+
+Kế hoạch an toàn, vệ sinh lao động đang có hiệu lực thi
+
+hành theo quy định của pháp luật về an toàn, vệ sinh lao
+
+động trong năm đăng ký phân loại 
+
+c   
+Người lao động có tên trong danh sách bảng lương của doanh
+
+nghiệp; 
+
+Danh sách người lao động kèm theo mã số Bảo hiểm xã
+
+hội của doanh nghiệp từng tháng trong 12 tháng liên
+
+tiếp tính đến ngày đăng ký phân loại 
+
+d   
+Niêm yết công khai thông tin về đóng bảo hiểm xã hội và y tế đối
+
+với người lao động theo quy định   pháp luật về   Bảo hiểm xã hội . 
+
+Bản chụp niêm yết công khai thông tin về việc đóng bảo
+
+hiểm xã hội và y tế đối với người lao động theo quy
+
+định của Luật Bảo hiểm xã hội   trong năm đăng ký phân 
+
+loại 
+
+đ   
+Người lao động là thành viên tổ chức đại   diện người lao động tại cơ 
+
+sở. 
+
+Quyết định thành lập tổ chức công đoàn của doanh
+
+nghiệp đang có hiệu lực thi hành hoặc d anh sách người 
+
+lao động là thành viên tổ chức công đoàn của doanh 
+
+nghiệp theo quy định của ph áp luật về Công đoàn   trong 
+
+năm đăng ký phân   loại 
+
+II   
+TUÂN THỦ QUY ĐỊNH CỦA PHÁP LUẬT VỀ NGUỒN GỐC
+
+GỖ HỢP PHÁP 
+
+1   
+Tuân thủ quy định của pháp luật về hồ sơ gỗ hợp pháp đối với doanh
+
+nghiệp nhập khẩu gỗ phải có tài liệu sau: 
+
+a   
+Sổ theo dõi nhập, xuất lâm sản theo Mẫu số 04 Phụ lục II ban hành
+
+kèm theo Thông tư này; 
+
+Sổ theo dõi nhập, xuất lâm sản theo quy định 
+
+b   Hồ sơ nhập khẩu gỗ theo quy định pháp luật;   
+Bảng tổng hợp hồ sơ chứng minh tuân thủ quy định về
+
+nguồn gốc gỗ hợp pháp theo Mẫu số 02 Phụ lục này 
+
+c   Báo cáo tình hình nhập, xuất lâm sản theo quy định.   
+Báo cáo tình hình nhập, xuất lâm sản trong thời hạn 12
+
+tháng theo quy định pháp luật
+
+---
+
+4 
+
+2   
+Tuân thủ quy định của pháp luật về hồ sơ nguồn gốc gỗ hợp pháp
+
+đối với doanh nghiệp xuất khẩu gỗ phải có các tài liệu sau: 
+
+a   
+Sổ theo dõi nhập, xuất lâm sản theo Mẫu số 04 Phụ lục II ban hành
+
+kèm theo Thông tư này; 
+
+Sổ theo dõi nhập, xuất lâm sản 
+
+b   Hồ sơ xuất khẩu gỗ theo quy định pháp luật;   
+Bảng tổng hợp hồ sơ chứng minh tuân thủ quy định về
+
+nguồn gốc gỗ hợp pháp theo Mẫu số 02 Phụ lục này. 
+
+c   
+Bản sao hồ sơ mua bán, chuyển giao quyền sở hữu gỗ liền kề trước
+
+đó; 
+
+d   Báo cáo tình hình nhập, xuất lâm sản theo quy định.   
+Báo cáo tình hình nhập, xuất lâm sản trong thời hạn 12
+
+tháng theo quy định pháp luật 
+
+3   
+Tuân thủ quy định của pháp luật về hồ sơ gỗ hợp pháp đối với doanh
+
+nghiệp chế biến gỗ phải có tài liệu sau: 
+
+a   
+Sổ theo dõi nhập, xuất lâm sản theo Mẫu số 04 Phụ lục II ban hành
+
+kèm theo Thông tư này; 
+
+Sổ theo dõi nhập, xuất lâm sản 
+
+b   
+Bảng kê lâm sản theo Mẫu số 01 Phụ lục II ban hành kèm theo
+
+Thông tư này; 
+
+Bảng tổng hợp hồ sơ chứng minh tuân thủ quy định về
+
+nguồn gốc gỗ hợp pháp theo Mẫu số 02 Phụ lục này 
+
+c   
+Bản sao hồ sơ mua bán, chuyển giao quyền sở hữu gỗ liền kề trước
+
+đó; 
+
+d   Báo cáo tình hình nhập, xuất lâm sản theo quy định.   
+Báo cáo tình hình nhập, xuất lâm sản trong thời hạn 12
+
+tháng theo quy định pháp luật 
+
+4 
+
+Tuân thủ quy định của pháp luật về hồ sơ gỗ hợp pháp đối với doanh
+
+nghiệp trồng, khai thác và cung cấp gỗ rừng trồng phải có tài liệu
+
+sau: 
+
+a   
+Tuân thủ với các quy định pháp luật về quyền sử dụng đất và quyền
+
+sử dụng rừng; 
+
+Tài liệu chứng minh quyền sử dụng đất và quyền sử
+
+dụng rừng hợp pháp theo quy định pháp luật
+
+---
+
+5 
+
+b   Bản sao hồ sơ khai thác gỗ theo quy định của pháp luật;   
+Bảng tổng hợp hồ sơ chứng minh tuân thủ quy định về
+
+nguồn gốc gỗ hợp pháp theo Mẫu số 02 Phụ lục này 
+
+c   
+Sổ theo dõi nhập, xuất lâm sản theo Mẫu số 04 Phụ lục II ban hành
+
+kèm theo Thông tư này; 
+
+Sổ theo dõi nhập, xuất lâm sản 
+
+d   Bản sao hồ sơ mua bán, chuyển giao quyền sở hữu gỗ;   
+Bảng tổng hợp hồ sơ chứng minh tuân thủ quy định về
+
+nguồn gốc gỗ hợp pháp theo Mẫu số 02 Phụ lục này 
+
+đ   Báo cáo tình hình nhập, xuất lâm sản theo quy định.   
+Báo cáo tình hình nhập, xuất lâm sản trong thời hạn 12
+
+tháng theo quy định pháp luật 
+
+Ghi chú: 
+
+1. Tài liệu theo Mẫu số 17 Phụ lục II ban hành kèm theo Thông tư này và Bảng tổng hợp hồ sơ chứng minh tuân thủ quy định về nguồn gốc gỗ
+
+hợp pháp theo Mẫu số 02 Phụ lục này là bản chính; các tài liệu khác là bản phô tô hoặc bản chụp. Trường hợp đăng ký trực tuyến, doanh nghiệp nghiệp
+
+scan, đính kèm lên Hệ thống thông tin phân loại doanh nghiệp làm căn cứ chứng minh tuân thủ tiêu chí. 
+
+2. Sổ nhập, xuất lâm sản đóng dấu treo của doanh nghiệp khi nộp trực tiếp; trường hợp nộp trực tuyến theo quy định tại khoản 1 Điều 17 Thông
+
+tư này thì doanh nghiệp chốt số liệu, ký, đóng dấu điện tử.
+
+---
+
+Mẫu số 02: Bảng tổng hợp hồ sơ chứng minh tuân thủ quy định về nguồn gốc 
+
+gỗ hợp pháp 
+
+………………………… 
+
+............. 
+(1)   
+.............. 
+
+CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM 
+
+Độc lập   -   Tự do   -   Hạnh phú c 
+
+Số:……/BTH - …..   
+(2) 
+........., ngày……tháng...... năm ... 
+
+BẢNG TỔNG HỢP 
+
+Hồ sơ chứng minh tuân thủ quy định về nguồn gốc gỗ hợp pháp 
+
+Kính gửi 
+(3) 
+:   ........................................................ 
+
+Tên doanh nghiệp 
+(1) 
+: …………..………...………....……………………… 
+
+Mã số doanh nghiệp: …………………………..………...……..………… 
+
+Địa chỉ 
+(4) 
+:…..……………………….…………….……………………… 
+
+Điện thoại liên hệ: ……...…………….…………………………….…… 
+
+Địa chỉ   e mail:…… ………………………………………………………. 
+
+Căn cứ quy định tại Thông tư số…/202 5 /TT - BNN MT   ngày ....../....../202 5 
+
+của Bộ trưởng Bộ Nông nghiệp và   Môi trường   quy định   quản lý lâm sản; xử lý 
+
+lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân . 
+
+Doanh nghiệp tổng hợp   tài liệu chứng minh tuân thủ quy định về nguồn gốc 
+
+gỗ hợp pháp trong thời hạn 12 tháng tính đến ngày đăng ký phân loại doanh 
+
+nghiệp, cụ thể như sau: 
+
+Biểu 1.   Tổng hợp hồ sơ gỗ khai thác đối với doanh nghiệp trực tiếp khai 
+
+thác gỗ làm nguyên liệu chế biến ho ặc doanh nghiệp sử dụng gỗ nguyên liệu do 
+
+doanh nghiệp tự trồng trên đất của doanh nghiệp: 
+
+TT 
+
+Bảng kê gỗ 
+(5)   
+Tên gỗ   Khối
+
+lượng theo
+
+loại gỗ
+
+(m3) 
+
+Thống kê
+
+hồ sơ gỗ
+
+khai
+
+thác 
+(6) 
+
+Số bảng
+
+kê 
+
+Ngày
+
+lập 
+
+Đơn vị
+
+lập 
+
+Tên phổ
+
+thông 
+
+Tên khoa
+
+học 
+
+1 
+
+2 
+
+…
+
+---
+
+7 
+
+Tổng 
+
+Biểu 2.   Tổng hợp hồ sơ gỗ sau xử lý tịch thu đối với doanh nghiệp sử dụng 
+
+gỗ sau tịch thu làm nguyên liệu chế biến: 
+
+TT 
+
+Bảng kê gỗ 
+(5)   
+Tên gỗ   Khối
+
+lượng theo
+
+loại gỗ
+
+(m3) 
+
+Thống kê
+
+hồ sơ gỗ
+
+sau xử lý
+
+tịch thu 
+(6) 
+
+Số bảng
+
+kê 
+
+Ngày
+
+lập 
+
+Đơn vị
+
+lập 
+
+Tên phổ
+
+thông 
+
+Tên khoa
+
+học 
+
+1 
+
+2 
+
+… 
+
+Tổng 
+
+Biểu 3.   Tổng hợp hồ sơ hồ sơ gỗ nhập khẩu đối với doanh nghiệp sử dụng 
+
+gỗ nhập khẩu làm nguyên liệu chế biến: 
+
+TT 
+
+Bảng kê gỗ 
+(5)   
+Tên gỗ   Khối
+
+lượng theo
+
+loại gỗ
+
+(m3) 
+
+Thống kê
+
+hồ sơ gỗ
+
+nhập
+
+khẩu 
+(6) 
+
+Số bảng
+
+kê 
+
+Ngày
+
+lập 
+
+Đơn vị
+
+lập 
+
+Tên phổ
+
+thông 
+
+Tên khoa
+
+học 
+
+1 
+
+2 
+
+… 
+
+Tổng 
+
+Biểu 4.   Tổng hợp hồ sơ hồ sơ gỗ trong quá trình mua bán, vận chuyển; chế biến: 
+
+TT 
+
+Bảng kê gỗ 
+(5)   
+Tên gỗ   
+Khối
+
+lượng
+
+theo loại
+
+gỗ (m3) 
+
+Thống kê hồ sơ gỗ 
+
+trong quá trình
+
+mua bán, vận
+
+chuyển, chuyển
+
+giao quyền sở
+
+hữu; chế biến   
+(6) 
+
+Số bảng
+
+kê 
+
+Ngày
+
+lập 
+
+Đơn vị
+
+lập 
+
+Tên phổ
+
+thông 
+
+Tên
+
+khoa
+
+học 
+
+1 
+
+2
+
+---
+
+8 
+
+… 
+
+Tổng 
+
+Doanh nghiệp   
+(1)   
+..........................   cam kết hồ sơ, tài liệu kê khai là đúng theo hồ 
+
+sơ lưu giữ tại doanh nghiệp và chịu trách nhiệm trước pháp luật về nội dung đã kê khai./. 
+
+Nơi nhận: 
+
+-   Như trên; 
+
+-   Lưu:….. 
+
+ĐẠI DIỆN DOANH NGHIỆP 
+(7) 
+
+(Ký, ghi rõ họ tên, đóng dấu) 
+
+Ghi chú:   Doanh nghiệp tổng   hợp hồ sơ đối với những hoạt động có thực hiện trong sản xuất, 
+
+kinh doanh từ biểu 1 đến biểu 4. Những hoạt động không thực hiện thì gạch chéo trong biểu. 
+
+(1) Tên doanh nghiệp. 
+
+(2) Địa danh nơi có trụ sở của doanh nghiệp. 
+
+(3) Tên   c ơ quan tiếp nhận. 
+
+(4) Ghi   r õ   địa chỉ theo giấy đăng ký kinh doanh. 
+
+(5) Bảng kê gỗ nhập khẩu theo quy định tại Nghị định số   102/2020/NĐ-CP   hoặc bảng kê gỗ
+
+theo quy định của Bộ trưởng Bộ Nông nghiệp và Môi trường về   quản lý lâm sản; xử lý lâm sản, thủy
+
+sản là tài sản được xác lập quyền sở hữu toàn dân. Ghi số, ngày bảng kê, tên đơn vị lập bảng kê. 
+
+(6) Kê tên loại, ngày tháng ban hành của hồ sơ liên quan đến nguồn gốc gỗ theo quy định tại 
+
+Nghị định số   102/2020/NĐ-CP   hoặc theo quy định của Bộ trưởng Bộ Nông nghiệp và Môi trường về
+
+quản lý lâm sản; xử lý lâm sản, thủy sản là tài sản được xác lập quyền sở hữu toàn dân. 
+
+(7) Người đại diện hoặc người được ủy quyền theo qu y định của pháp luật.

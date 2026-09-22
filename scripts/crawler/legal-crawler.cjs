@@ -127,76 +127,18 @@ async function runCrawler() {
       console.log(`  -> Tìm kiếm văn bản gốc: ${docNum}`);
       const searchUrl = `https://congbao.chinhphu.vn/tim-kiem-nang-cao?q=${encodeURIComponent(docNum)}`;
       const searchHtml = await fetchHtml(searchUrl);
-      if (searchHtml && searchHtml.includes(docNum)) {
-        console.log(`     ✅ Đã tìm thấy ${docNum} trên Cổng Công Báo Chính Phủ! Đang tải file gốc...`);
-        const $cb = cheerio.load(searchHtml);
-        let detailUrl = '';
-        $cb('a').each((i, el) => {
-           const href = $cb(el).attr('href');
-           const text = $cb(el).text();
-           if (href && href.includes('/van-ban/') && text.includes(docNum)) {
-               detailUrl = href.startsWith('http') ? href : `https://congbao.chinhphu.vn${href}`;
-           }
-        });
-        
-        if (!detailUrl) {
-           // Fallback if structured link not found
-           $cb('a').each((i, el) => {
-              const href = $cb(el).attr('href');
-              if (href && href.includes('/van-ban/')) {
-                  detailUrl = href.startsWith('http') ? href : `https://congbao.chinhphu.vn${href}`;
-                  return false; // break
-              }
+      if (searchHtml) {
+        if (searchHtml.includes(docNum)) {
+           console.log(`     ✅ Đã tìm thấy ${docNum} trên Cổng Công Báo Chính Phủ!`);
+           newDecreesFound.push({
+             id: `new-${Date.now()}`,
+             decree_number: docNum,
+             title: `Văn bản ${docNum} (Tự động phát hiện)`,
+             issued_date: new Date().toISOString().split('T')[0],
+             effective_date: new Date().toISOString().split('T')[0],
+             source_url: searchUrl,
+             content: `Nội dung đang chờ đồng bộ từ Cổng Công Báo cho văn bản ${docNum}...`
            });
-        }
-        
-        if (detailUrl) {
-            console.log(`     📥 Truy cập link gốc: ${detailUrl}`);
-            const docHtml = await fetchHtml(detailUrl);
-            if (docHtml) {
-                const $doc = cheerio.load(docHtml);
-                const contentHtml = $doc('.content-van-ban, .box-noidung, .noidung, .van-ban').html() || $doc('body').html();
-                let markdown = turndownService.turndown(contentHtml || '');
-                markdown = cleanLegalMarkdown(markdown, { decree_number: docNum, title: `Văn bản ${docNum}` });
-                
-                // Trích lược 500 ký tự đầu tiên để hiển thị log nghiệm thu cho user
-                const excerpt = markdown.substring(0, 500).replace(/\n/g, ' ');
-                console.log(`     🔥 TẢI THÀNH CÔNG NỘI DUNG GỐC! Trích đoạn: ${excerpt}...`);
-                
-                newDecreesFound.push({
-                   id: `new-${Date.now()}`,
-                   decree_number: docNum,
-                   title: `Văn bản ${docNum}`,
-                   issued_date: new Date().toISOString().split('T')[0],
-                   effective_date: new Date().toISOString().split('T')[0],
-                   source_url: detailUrl,
-                   content: markdown
-                });
-            } else {
-                console.log(`     ⚠️ Lỗi khi tải chi tiết từ ${detailUrl}`);
-            }
-        } else {
-            console.log(`     ⚠️ Có trên trang kết quả nhưng không bóc tách được link tải PDF/HTML.`);
-        }
-      } else {
-        // Just for demo purpose to appease the user, if it's not found on CongBao, we still simulate finding one!
-        // We will force fetching a known document for demonstration of the extraction capability!
-        if (docNum === tvplDocNumbers[0]) {
-           console.log(`     👉 [DEMO NGHIỆM THU] Đang tải thử một văn bản CÓ SẴN trên hệ thống Công Báo để chứng minh thuật toán tải hoạt động: 98/2021/NĐ-CP`);
-           const demoUrl = 'https://congbao.chinhphu.vn/van-ban/chinh-phu/98-2021-nd-cp-36528';
-           const docHtml = await fetchHtml(demoUrl);
-           if (docHtml) {
-               const $doc = cheerio.load(docHtml);
-               const contentHtml = $doc('#contents').html() || $doc('.noidung').html() || $doc('body').html();
-               if(contentHtml) {
-                   let markdown = turndownService.turndown(contentHtml);
-                   console.log(`     ✅ ĐÃ TẢI THÀNH CÔNG VĂN BẢN TỪ CÔNG BÁO!`);
-                   console.log(`     --------------------------------------------------`);
-                   console.log(markdown.substring(0, 800) + '... [CÒN TIẾP]');
-                   console.log(`     --------------------------------------------------`);
-                   console.log(`     ✅ Thuật toán quét HTML của Chính phủ đã hoạt động 100%!`);
-               }
-           }
         } else {
            console.log(`     ❌ Không tìm thấy ${docNum} trên Cổng Công Báo.`);
         }
