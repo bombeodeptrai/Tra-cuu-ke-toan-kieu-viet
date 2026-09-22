@@ -1,30 +1,29 @@
-## 🤖 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-Luật Địa chất và Khoáng sản số 54/2024/QH15 thay thế Luật Khoáng sản 2010. Đạo luật mới phân cấp mạnh mẽ cho chính quyền địa phương trong việc cấp phép khai thác khoáng sản làm vật liệu xây dựng thông thường (Nhóm III, IV).
+|  |  |
+| --- | --- |
+| **QUỐC HỘI  --------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc   ---------------** |
+| Luật số: 54/2024/QH15 | *Hà Nội, ngày 29 tháng 11 năm 2024* |
 
-**Trọng tâm:**
-- Ưu tiên khai thác khoáng sản chiến lược.
-- Đơn giản hóa thủ tục hành chính cho mỏ đất san lấp, cát sỏi phục vụ công trình trọng điểm.
-- Yêu cầu khắt khe hơn về phục hồi môi trường sau khai thác.
+**LUẬT**
 
-## 📜 TOÀN VĂN VĂN BẢN
+ 
 
+ĐỊA CHẤT VÀ KHOÁNG SẢN
 
+ 
 
-**LUẬT  
-ĐỊA CHẤT VÀ KHOÁNG SẢN**
+*Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;*
 
-_Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;_
+*Quốc hội ban hành Luật Địa chất và khoáng sản.*
 
-_Quốc hội ban hành Luật Địa chất và khoáng sản._
+**Chương I**
 
-**Chương I**  
 **NHỮNG QUY ĐỊNH CHUNG**
 
 **Điều 1. Phạm vi điều chỉnh**
 
-1\. Luật này quy định việc điều tra cơ bản địa chất, điều tra địa chất về khoáng sản; bảo vệ tài nguyên địa chất, khoáng sản chưa khai thác; hoạt động khoáng sản; thu hồi khoáng sản; chế biến khoáng sản; tài chính về địa chất, khoáng sản và đấu giá quyền khai thác khoáng sản; quản lý nhà nước về địa chất, khoáng sản trong phạm vi đất liền, hải đảo, nội thủy, lãnh hải, vùng tiếp giáp lãnh hải, vùng đặc quyền kinh tế và thềm lục địa của nước Cộng hòa xã hội chủ nghĩa Việt Nam.
+1. Luật này quy định việc điều tra cơ bản địa chất, điều tra địa chất về khoáng sản; bảo vệ tài nguyên địa chất, khoáng sản chưa khai thác; hoạt động khoáng sản; thu hồi khoáng sản; chế biến khoáng sản; tài chính về địa chất, khoáng sản và đấu giá quyền khai thác khoáng sản; quản lý nhà nước về địa chất, khoáng sản trong phạm vi đất liền, hải đảo, nội thủy, lãnh hải, vùng tiếp giáp lãnh hải, vùng đặc quyền kinh tế và thềm lục địa của nước Cộng hòa xã hội chủ nghĩa Việt Nam.
 
-2\. Các trường hợp sau đây không thuộc phạm vi điều chỉnh của Luật này:
+2. Các trường hợp sau đây không thuộc phạm vi điều chỉnh của Luật này:
 
 a) Dầu khí; các loại nước thiên nhiên không phải là nước khoáng thiên nhiên, nước nóng thiên nhiên;
 
@@ -34,87 +33,87 @@ b) Hoạt động chế biến khoáng sản không gắn với dự án đầu 
 
 Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
 
-1\. _Địa chất_ là các dạng vật chất cấu tạo nên trái đất, các quá trình diễn ra trong tự nhiên phát sinh từ sự tiến hóa của trái đất cũng như địa hình, cảnh quan, hiện tượng địa chất và môi trường được tạo ra do các quá trình tự nhiên đó.
+1. *Địa chất* là các dạng vật chất cấu tạo nên trái đất, các quá trình diễn ra trong tự nhiên phát sinh từ sự tiến hóa của trái đất cũng như địa hình, cảnh quan, hiện tượng địa chất và môi trường được tạo ra do các quá trình tự nhiên đó.
 
-2\. _Tài nguyên địa chất_ là các dạng vật chất hình thành từ các quá trình địa chất, tồn tại trong hoặc trên bề mặt trái đất mà con người có thể khai thác, sử dụng, bao gồm: khoáng sản, di chỉ địa chất, di sản địa chất, tài nguyên địa nhiệt, tài nguyên vị thế, cấu trúc địa chất tàng trữ, không gian lòng đất.
+2. *Tài nguyên địa chất* là các dạng vật chất hình thành từ các quá trình địa chất, tồn tại trong hoặc trên bề mặt trái đất mà con người có thể khai thác, sử dụng, bao gồm: khoáng sản, di chỉ địa chất, di sản địa chất, tài nguyên địa nhiệt, tài nguyên vị thế, cấu trúc địa chất tàng trữ, không gian lòng đất.
 
-3\. _Tài nguyên địa nhiệt_ là nhiệt năng được sinh ra và tồn tại trong các thể địa chất, cấu trúc địa chất có thể khai thác, sử dụng.
+3. *Tài nguyên địa nhiệt* là nhiệt năng được sinh ra và tồn tại trong các thể địa chất, cấu trúc địa chất có thể khai thác, sử dụng.
 
-4\. _Tài nguyên vị thế_ là tài nguyên địa chất mà có vị trí địa lý đem lại lợi thế chiến lược về kinh tế, quốc phòng, an ninh hoặc môi trường.
+4. *Tài nguyên vị thế* là tài nguyên địa chất mà có vị trí địa lý đem lại lợi thế chiến lược về kinh tế, quốc phòng, an ninh hoặc môi trường.
 
-5\. _Cấu trúc địa chất tàng trữ_ là thể địa chất được hình thành trong lòng đất, có khả năng lưu giữ và thu hồi các loại vật chất.
+5. *Cấu trúc địa chất tàng trữ* là thể địa chất được hình thành trong lòng đất, có khả năng lưu giữ và thu hồi các loại vật chất.
 
-6\. _Di chỉ địa chất_ là tập hợp các dấu hiệu, đặc điểm của hoạt động địa chất có giá trị nổi bật về khoa học, giáo dục, thẩm mỹ và kinh tế ở một khu vực xác định trên mặt đất hoặc trong lòng đất được phát hiện và ghi nhận trong quá trình điều tra địa chất.
+6. *Di chỉ địa chất* là tập hợp các dấu hiệu, đặc điểm của hoạt động địa chất có giá trị nổi bật về khoa học, giáo dục, thẩm mỹ và kinh tế ở một khu vực xác định trên mặt đất hoặc trong lòng đất được phát hiện và ghi nhận trong quá trình điều tra địa chất.
 
-7\. _Di sản địa chất_ là tập hợp một hoặc nhiều di chỉ địa chất được công nhận, xếp hạng.
+7. *Di sản địa chất* là tập hợp một hoặc nhiều di chỉ địa chất được công nhận, xếp hạng.
 
-8\. _Công viên địa chất là_ một khu vực có giới hạn xác định, có các di sản địa chất, độc đáo về văn hóa, sinh thái và khảo cổ học; có diện tích phù hợp để thực hiện các chức năng quản lý, bảo tồn, giáo dục, nghiên cứu và phát triển bền vững kinh tế - xã hội và bảo vệ môi trường.
+8. *Công viên địa chất là* một khu vực có giới hạn xác định, có các di sản địa chất, độc đáo về văn hóa, sinh thái và khảo cổ học; có diện tích phù hợp để thực hiện các chức năng quản lý, bảo tồn, giáo dục, nghiên cứu và phát triển bền vững kinh tế - xã hội và bảo vệ môi trường.
 
-9\. _Tai biến địa chất_ là hiện tượng tự nhiên bất thường có thể gây thiệt hại về môi trường, con người, tài sản, điều kiện sống và các hoạt động kinh tế - xã hội, bao gồm: động đất, hoạt động núi lửa, đứt gãy hoạt động, trượt lở đất đá, sụt lún bề mặt; nứt đất; xói lở bờ sông, bờ biển; ô nhiễm từ khoáng vật, nguyên tố độc hại có nguồn gốc tự nhiên.
+9. *Tai biến địa chất* là hiện tượng tự nhiên bất thường có thể gây thiệt hại về môi trường, con người, tài sản, điều kiện sống và các hoạt động kinh tế - xã hội, bao gồm: động đất, hoạt động núi lửa, đứt gãy hoạt động, trượt lở đất đá, sụt lún bề mặt; nứt đất; xói lở bờ sông, bờ biển; ô nhiễm từ khoáng vật, nguyên tố độc hại có nguồn gốc tự nhiên.
 
-10\. _Không gian lòng đất_ là phần phạm vi phân bố của các thực thể địa chất trong lòng đất, được xác định bằng hệ toạ độ quốc gia, diện tích và mức sâu trên cơ sở kết quả điều tra cơ bản địa chất.
+10. *Không gian lòng đất* là phần phạm vi phân bố của các thực thể địa chất trong lòng đất, được xác định bằng hệ toạ độ quốc gia, diện tích và mức sâu trên cơ sở kết quả điều tra cơ bản địa chất.
 
-11\. _Điều tra cơ bản địa chất_ là hoạt động nghiên cứu, điều tra cơ bản về cấu trúc, thành phần vật chất, lịch sử phát sinh, phát triển vỏ trái đất, các điều kiện địa chất, quá trình địa chất và quy luật sinh khoáng nhằm đánh giá tiềm năng tài nguyên địa chất, các tác động của quá trình địa chất đến kinh tế - xã hội và con người làm căn cứ khoa học cho việc định hướng hoạt động bảo vệ, quản lý tài nguyên địa chất.
+11. *Điều tra cơ bản địa chất* là hoạt động nghiên cứu, điều tra cơ bản về cấu trúc, thành phần vật chất, lịch sử phát sinh, phát triển vỏ trái đất, các điều kiện địa chất, quá trình địa chất và quy luật sinh khoáng nhằm đánh giá tiềm năng tài nguyên địa chất, các tác động của quá trình địa chất đến kinh tế - xã hội và con người làm căn cứ khoa học cho việc định hướng hoạt động bảo vệ, quản lý tài nguyên địa chất.
 
-12\. _Điều tra địa chất về khoáng sản_ là việc xác định quy mô, số lượng, chất lượng từng loại khoáng sản, nhóm khoáng sản theo cấu trúc địa chất có triển vọng trên cơ sở điều tra cơ bản địa chất làm căn cứ khoa học cho việc định hướng hoạt động thăm dò khoáng sản.
+12. *Điều tra địa chất về khoáng sản* là việc xác định quy mô, số lượng, chất lượng từng loại khoáng sản, nhóm khoáng sản theo cấu trúc địa chất có triển vọng trên cơ sở điều tra cơ bản địa chất làm căn cứ khoa học cho việc định hướng hoạt động thăm dò khoáng sản.
 
-13\. _Khoáng sản_ là khoáng vật, khoáng chất có ích được tích tụ tự nhiên ở thể rắn, thể lỏng, thể khí tồn tại trong lòng đất, trên mặt đất, bao gồm cả khoáng vật, khoáng chất ở bãi thải của mỏ.
+13. *Khoáng sản* là khoáng vật, khoáng chất có ích được tích tụ tự nhiên ở thể rắn, thể lỏng, thể khí tồn tại trong lòng đất, trên mặt đất, bao gồm cả khoáng vật, khoáng chất ở bãi thải của mỏ.
 
-14\. _Khoáng sản nguyên khai_ là khoáng sản được khai thác, thu hồi chưa qua chế biến.
+14. *Khoáng sản nguyên khai* là khoáng sản được khai thác, thu hồi chưa qua chế biến.
 
-15\. _Khoáng sản đi kèm_ là khoáng sản có thể khai thác cùng với khoáng sản chính và có hiệu quả kinh tế.
+15. *Khoáng sản đi kèm* là khoáng sản có thể khai thác cùng với khoáng sản chính và có hiệu quả kinh tế.
 
-16\. _Khoáng sản chiến lược, quan trọng_ là khoáng sản thiết yếu phục vụ phát triển kinh tế - xã hội bền vững và tăng cường quốc phòng, an ninh của đất nước.
+16. *Khoáng sản chiến lược, quan trọng* là khoáng sản thiết yếu phục vụ phát triển kinh tế - xã hội bền vững và tăng cường quốc phòng, an ninh của đất nước.
 
-17\. _Khoáng sản phóng xạ_ là tích tụ tự nhiên của các nguyên tố urani, thori và đồng vị phóng xạ liên quan.
+17. *Khoáng sản phóng xạ* là tích tụ tự nhiên của các nguyên tố urani, thori và đồng vị phóng xạ liên quan.
 
-18\. _Khoáng sản độc hại_ là khoáng sản có chứa một trong các nguyên tố phóng xạ, thủy ngân, asen, chì, nhóm khoáng vật asbet mà khi khai thác, sử dụng, lưu giữ phát tán ra môi trường những chất phóng xạ hoặc độc hại vượt mức quy định của quy chuẩn kỹ thuật Việt Nam.
+18. *Khoáng sản độc hại* là khoáng sản có chứa một trong các nguyên tố phóng xạ, thủy ngân, asen, chì, nhóm khoáng vật asbet mà khi khai thác, sử dụng, lưu giữ phát tán ra môi trường những chất phóng xạ hoặc độc hại vượt mức quy định của quy chuẩn kỹ thuật Việt Nam.
 
-19\. _Nước nóng thiên nhiên_ là nước thiên nhiên dưới đất, có nơi lộ trên mặt đất, luôn có nhiệt độ tại nguồn đáp ứng tiêu chuẩn, quy chuẩn kỹ thuật Việt Nam hoặc tiêu chuẩn nước ngoài được phép áp dụng tại Việt Nam.
+19. *Nước nóng thiên nhiên* là nước thiên nhiên dưới đất, có nơi lộ trên mặt đất, luôn có nhiệt độ tại nguồn đáp ứng tiêu chuẩn, quy chuẩn kỹ thuật Việt Nam hoặc tiêu chuẩn nước ngoài được phép áp dụng tại Việt Nam.
 
-20\. _Nước khoáng thiên nhiên_ là nước thiên nhiên dưới đất, có nơi lộ trên mặt đất, có thành phần, tính chất và một số hợp chất có hoạt tính sinh học đáp ứng tiêu chuẩn, quy chuẩn kỹ thuật Việt Nam hoặc tiêu chuẩn nước ngoài được phép áp dụng tại Việt Nam.
+20. *Nước khoáng thiên nhiên* là nước thiên nhiên dưới đất, có nơi lộ trên mặt đất, có thành phần, tính chất và một số hợp chất có hoạt tính sinh học đáp ứng tiêu chuẩn, quy chuẩn kỹ thuật Việt Nam hoặc tiêu chuẩn nước ngoài được phép áp dụng tại Việt Nam.
 
-21\. _Hoạt động khoáng sản_ bao gồm thăm dò khoáng sản, khai thác khoáng sản, đóng cửa mỏ khoáng sản.
+21. *Hoạt động khoáng sản* bao gồm thăm dò khoáng sản, khai thác khoáng sản, đóng cửa mỏ khoáng sản.
 
-22\. _Thăm dò khoáng sản_ là hoạt động nhằm xác định trữ lượng, chất lượng khoáng sản và thông tin khác phục vụ khai thác khoáng sản.
+22. *Thăm dò khoáng sản* là hoạt động nhằm xác định trữ lượng, chất lượng khoáng sản và thông tin khác phục vụ khai thác khoáng sản.
 
-23\. _Khai thác khoáng sản_ là hoạt động nhằm đưa khoáng sản ra khỏi nơi thành tạo tự nhiên, bao gồm: xây dựng cơ bản mỏ, khai đào, bơm hút, lọc tách, phân loại, làm giàu và các hoạt động khác có liên quan trong dự án đầu tư khai thác khoáng sản hoặc phương án khai thác khoáng sản. Sản phẩm của hoạt động khai thác khoáng sản là khoáng sản nguyên khai.
+23. *Khai thác khoáng sản* là hoạt động nhằm đưa khoáng sản ra khỏi nơi thành tạo tự nhiên, bao gồm: xây dựng cơ bản mỏ, khai đào, bơm hút, lọc tách, phân loại, làm giàu và các hoạt động khác có liên quan trong dự án đầu tư khai thác khoáng sản hoặc phương án khai thác khoáng sản. Sản phẩm của hoạt động khai thác khoáng sản là khoáng sản nguyên khai.
 
-24\. _Chế biến khoáng sản_ là quá trình xử lý, gia công khoáng sản sau khai thác thuộc dự án đầu tư khai thác khoáng sản nhằm làm tăng giá trị khoáng sản nguyên khai đã được khai thác.
+24. *Chế biến khoáng sản* là quá trình xử lý, gia công khoáng sản sau khai thác thuộc dự án đầu tư khai thác khoáng sản nhằm làm tăng giá trị khoáng sản nguyên khai đã được khai thác.
 
-25\. _Đóng cửa mỏ khoáng sản_ là hoạt động nhằm đưa toàn bộ hoặc một phần diện tích khu vực thực hiện dự án đầu tư khai thác khoáng sản về trạng thái an toàn, bảo đảm các yêu cầu về bảo vệ môi trường, tối ưu hóa mục đích sử dụng đất sau khai thác.
+25. *Đóng cửa mỏ khoáng sản* là hoạt động nhằm đưa toàn bộ hoặc một phần diện tích khu vực thực hiện dự án đầu tư khai thác khoáng sản về trạng thái an toàn, bảo đảm các yêu cầu về bảo vệ môi trường, tối ưu hóa mục đích sử dụng đất sau khai thác.
 
-26\. _Thu hồi khoáng sản_ là hoạt động kết hợp nhằm lấy được khoáng sản trong quá trình thực hiện dự án đầu tư xây dựng công trình hoặc các hoạt động khác theo kế hoạch được cơ quan quản lý nhà nước có thẩm quyền phê duyệt hoặc chấp thuận.
+26. *Thu hồi khoáng sản* là hoạt động kết hợp nhằm lấy được khoáng sản trong quá trình thực hiện dự án đầu tư xây dựng công trình hoặc các hoạt động khác theo kế hoạch được cơ quan quản lý nhà nước có thẩm quyền phê duyệt hoặc chấp thuận.
 
-27\. _Tiền cấp quyền khai thác khoáng sản_ là khoản tiền tổ chức, cá nhân khai thác khoáng sản phải trả cho Nhà nước để được thực hiện quyền khai thác, thu hồi khoáng sản.
+27. *Tiền cấp quyền khai thác khoáng sản* là khoản tiền tổ chức, cá nhân khai thác khoáng sản phải trả cho Nhà nước để được thực hiện quyền khai thác, thu hồi khoáng sản.
 
-28\. _Công suất khai thác_ là khối lượng khoáng sản tối đa hoặc lưu lượng tối đa đối với nước khoáng thiên nhiên, nước nóng thiên nhiên có thể khai thác được trong một khoảng thời gian nhất định theo dự án đầu tư khai thác khoáng sản hoặc phương án khai thác khoáng sản và được quy định trong giấy phép khai thác khoáng sản, giấy phép khai thác tận thu khoáng sản, văn bản chấp thuận của cơ quan quản lý nhà nước có thẩm quyền.
+28. *Công suất khai thác* là khối lượng khoáng sản tối đa hoặc lưu lượng tối đa đối với nước khoáng thiên nhiên, nước nóng thiên nhiên có thể khai thác được trong một khoảng thời gian nhất định theo dự án đầu tư khai thác khoáng sản hoặc phương án khai thác khoáng sản và được quy định trong giấy phép khai thác khoáng sản, giấy phép khai thác tận thu khoáng sản, văn bản chấp thuận của cơ quan quản lý nhà nước có thẩm quyền.
 
-29\. _Tài nguyên khoáng sản_ là lượng khoáng sản đã được điều tra địa chất về khoáng sản, thăm dò khoáng sản, đáp ứng yêu cầu tối thiểu để có thể khai thác, sử dụng toàn bộ hoặc một phần tại thời điểm hiện tại hoặc tương lai. Theo mức độ nghiên cứu địa chất, mức độ nghiên cứu khả thi và hiệu quả kinh tế, tài nguyên khoáng sản được chia thành các cấp trữ lượng, các cấp tài nguyên và có độ tin cậy khác nhau.
+29. *Tài nguyên khoáng sản* là lượng khoáng sản đã được điều tra địa chất về khoáng sản, thăm dò khoáng sản, đáp ứng yêu cầu tối thiểu để có thể khai thác, sử dụng toàn bộ hoặc một phần tại thời điểm hiện tại hoặc tương lai. Theo mức độ nghiên cứu địa chất, mức độ nghiên cứu khả thi và hiệu quả kinh tế, tài nguyên khoáng sản được chia thành các cấp trữ lượng, các cấp tài nguyên và có độ tin cậy khác nhau.
 
-30. _Trữ lượng khoáng sản_ là phần tài nguyên khoáng sản đã được thăm dò, dự kiến có thể khai thác trong điều kiện kinh tế, kỹ thuật nhất định, mang lại hiệu quả kinh tế tại thời điểm đánh giá.
+30. *Trữ lượng khoáng sản* là phần tài nguyên khoáng sản đã được thăm dò, dự kiến có thể khai thác trong điều kiện kinh tế, kỹ thuật nhất định, mang lại hiệu quả kinh tế tại thời điểm đánh giá.
 
 **Điều 3. Chính sách của Nhà nước về địa chất, khoáng sản**
 
-1\. Nhà nước có chiến lược, quy hoạch, kế hoạch về địa chất, khoáng sản để bảo đảm tài nguyên địa chất, khoáng sản được bảo vệ, khai thác, sử dụng hợp lý, tiết kiệm và hiệu quả phát triển bền vững kinh tế - xã hội, bảo đảm quốc phòng, an ninh của đất nước; đẩy mạnh việc áp dụng mô hình kinh tế tuần hoàn, kinh tế xanh trong hoạt động khoáng sản, chế biến khoáng sản.
+1. Nhà nước có chiến lược, quy hoạch, kế hoạch về địa chất, khoáng sản để bảo đảm tài nguyên địa chất, khoáng sản được bảo vệ, khai thác, sử dụng hợp lý, tiết kiệm và hiệu quả phát triển bền vững kinh tế - xã hội, bảo đảm quốc phòng, an ninh của đất nước; đẩy mạnh việc áp dụng mô hình kinh tế tuần hoàn, kinh tế xanh trong hoạt động khoáng sản, chế biến khoáng sản.
 
-2\. Nhà nước đầu tư và tổ chức thực hiện điều tra cơ bản địa chất, điều tra địa chất về khoáng sản theo chiến lược, quy hoạch, kế hoạch điều tra cơ bản địa chất, khoáng sản; đào tạo, phát triển nguồn nhân lực, nghiên cứu khoa học, ứng dụng, phát triển công nghệ trong công tác điều tra cơ bản địa chất, điều tra địa chất về khoáng sản; khuyến khích tổ chức, cá nhân tham gia đầu tư điều tra cơ bản địa chất, điều tra địa chất về khoáng sản.
+2. Nhà nước đầu tư và tổ chức thực hiện điều tra cơ bản địa chất, điều tra địa chất về khoáng sản theo chiến lược, quy hoạch, kế hoạch điều tra cơ bản địa chất, khoáng sản; đào tạo, phát triển nguồn nhân lực, nghiên cứu khoa học, ứng dụng, phát triển công nghệ trong công tác điều tra cơ bản địa chất, điều tra địa chất về khoáng sản; khuyến khích tổ chức, cá nhân tham gia đầu tư điều tra cơ bản địa chất, điều tra địa chất về khoáng sản.
 
-3\. Nhà nước đầu tư và tổ chức thực hiện thăm dò khoáng sản chiến lược, quan trọng và một số khoáng sản có giá trị kinh tế cao, nhu cầu sử dụng lớn; quyết định việc không đấu giá quyền khai thác khoáng sản đối với một số khu vực có khoáng sản chiến lược, quan trọng; cho phép thăm dò, khai thác khoáng sản chiến lược, quan trọng theo thỏa thuận quy định trong hiệp định liên Chính phủ.
+3. Nhà nước đầu tư và tổ chức thực hiện thăm dò khoáng sản chiến lược, quan trọng và một số khoáng sản có giá trị kinh tế cao, nhu cầu sử dụng lớn; quyết định việc không đấu giá quyền khai thác khoáng sản đối với một số khu vực có khoáng sản chiến lược, quan trọng; cho phép thăm dò, khai thác khoáng sản chiến lược, quan trọng theo thỏa thuận quy định trong hiệp định liên Chính phủ.
 
-4\. Nhà nước ưu tiên bố trí ngân sách và có chính sách thu hút nguồn lực đầu tư cho công tác điều tra cơ bản địa chất, khoáng sản, tập trung điều tra, đánh giá các khoáng sản chiến lược, quan trọng theo quy hoạch, kế hoạch.
+4. Nhà nước ưu tiên bố trí ngân sách và có chính sách thu hút nguồn lực đầu tư cho công tác điều tra cơ bản địa chất, khoáng sản, tập trung điều tra, đánh giá các khoáng sản chiến lược, quan trọng theo quy hoạch, kế hoạch.
 
-5\. Nhà nước có chính sách dự trữ khoáng sản, xuất khẩu, nhập khẩu khoáng sản trong từng thời kỳ phù hợp với mục tiêu phát triển bền vững kinh tế - xã hội trên nguyên tắc ưu tiên bảo đảm nguồn nguyên liệu cho sản xuất trong nước.
+5. Nhà nước có chính sách dự trữ khoáng sản, xuất khẩu, nhập khẩu khoáng sản trong từng thời kỳ phù hợp với mục tiêu phát triển bền vững kinh tế - xã hội trên nguyên tắc ưu tiên bảo đảm nguồn nguyên liệu cho sản xuất trong nước.
 
-6\. Dữ liệu địa chất, khoáng sản phải được xây dựng đồng bộ, quản lý tập trung, thống nhất và được khai thác, sử dụng có hiệu quả.
+6. Dữ liệu địa chất, khoáng sản phải được xây dựng đồng bộ, quản lý tập trung, thống nhất và được khai thác, sử dụng có hiệu quả.
 
-7\. Nhà nước khuyến khích hợp tác và hỗ trợ quốc tế cho công tác quản lý nhà nước, đào tạo nguồn nhân lực về địa chất, khoáng sản; chia sẻ, sử dụng dữ liệu địa chất, khoáng sản; đầu tư thăm dò khoáng sản và khai thác khoáng sản; khuyến khích tổ chức, cá nhân đầu tư nghiên cứu, chuyển giao, ứng dụng khoa học, công nghệ tiên tiến trong quản lý, bảo vệ, thăm dò, khai thác, thu hồi khoáng sản.
+7. Nhà nước khuyến khích hợp tác và hỗ trợ quốc tế cho công tác quản lý nhà nước, đào tạo nguồn nhân lực về địa chất, khoáng sản; chia sẻ, sử dụng dữ liệu địa chất, khoáng sản; đầu tư thăm dò khoáng sản và khai thác khoáng sản; khuyến khích tổ chức, cá nhân đầu tư nghiên cứu, chuyển giao, ứng dụng khoa học, công nghệ tiên tiến trong quản lý, bảo vệ, thăm dò, khai thác, thu hồi khoáng sản.
 
-8\. Nhà nước bảo đảm hài hòa lợi ích giữa Nhà nước, tổ chức, cá nhân và người dân tại địa phương nơi có tài nguyên địa chất, khoáng sản được khai thác, sử dụng trên cơ sở điều tiết nguồn thu từ hoạt động khai thác, sử dụng tài nguyên địa chất, khoáng sản.
+8. Nhà nước bảo đảm hài hòa lợi ích giữa Nhà nước, tổ chức, cá nhân và người dân tại địa phương nơi có tài nguyên địa chất, khoáng sản được khai thác, sử dụng trên cơ sở điều tiết nguồn thu từ hoạt động khai thác, sử dụng tài nguyên địa chất, khoáng sản.
 
 **Điều 4. Nguyên tắc điều tra cơ bản địa chất, điều tra địa chất về khoáng sản và hoạt động khoáng sản**
 
-1\. Điều tra cơ bản địa chất, điều tra địa chất về khoáng sản phải bảo đảm các nguyên tắc sau đây:
+1. Điều tra cơ bản địa chất, điều tra địa chất về khoáng sản phải bảo đảm các nguyên tắc sau đây:
 
 a) Phù hợp với chiến lược, quy hoạch, kế hoạch điều tra cơ bản địa chất, khoáng sản;
 
@@ -126,7 +125,7 @@ d) Các phương pháp kỹ thuật điều tra cơ bản địa chất, điều
 
 đ) Tổng hợp, cập nhật, thống kê, kiểm kê đầy đủ và cung cấp kịp thời các thông tin về kết quả điều tra cơ bản địa chất, điều tra địa chất về khoáng sản phục vụ phát triển kinh tế - xã hội, bảo đảm quốc phòng, an ninh, phòng, chống tai biến địa chất.
 
-2\. Hoạt động khoáng sản phải bảo đảm các nguyên tắc sau đây:
+2. Hoạt động khoáng sản phải bảo đảm các nguyên tắc sau đây:
 
 a) Phù hợp với chiến lược, quy hoạch, kế hoạch có liên quan đến hoạt động khoáng sản, trừ trường hợp quy định tại điểm c khoản 2 Điều 67 và điểm c khoản 2 Điều 73 của Luật này; bảo đảm các yêu cầu về bảo vệ môi trường, cảnh quan thiên nhiên, di tích lịch sử - văn hóa, danh lam thắng cảnh và các tài nguyên thiên nhiên khác; bảo đảm quốc phòng, an ninh, trật tự, an toàn xã hội và phòng, chống thiên tai;
 
@@ -140,17 +139,17 @@ d) Khai thác khoáng sản phải lấy hiệu quả kinh tế - xã hội và 
 
 e) Hài hoà lợi ích và chia sẻ rủi ro giữa các bên có liên quan.
 
-3\. Chính phủ quy định điều kiện, tiêu chí xác định khu vực thăm dò xuống sâu và mở rộng quy định tại điểm đ khoản 2 Điều này.
+3. Chính phủ quy định điều kiện, tiêu chí xác định khu vực thăm dò xuống sâu và mở rộng quy định tại điểm đ khoản 2 Điều này.
 
 **Điều 5. Nguyên tắc hội nhập và hợp tác quốc tế về địa chất, khoáng sản**
 
-1\. Hội nhập và hợp tác quốc tế trong nghiên cứu, điều tra cơ bản địa chất, điều tra địa chất về khoáng sản, hoạt động khoáng sản, quản lý hoạt động khoáng sản phải đặt trong tổng thể chiến lược phát triển kinh tế - xã hội của đất nước trong từng thời kỳ; chiến lược địa chất, khoáng sản và công nghiệp khai khoáng; tuân thủ Hiến pháp, pháp luật Việt Nam, Hiến chương Liên hợp quốc, điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, bảo đảm phù hợp với đường lối và chính sách đối ngoại của Việt Nam; bảo đảm nguyên tắc hợp tác bình đẳng, cùng có lợi trên cơ sở tôn trọng độc lập, chủ quyền và toàn vẹn lãnh thổ, không can thiệp vào công việc nội bộ của nhau.
+1. Hội nhập và hợp tác quốc tế trong nghiên cứu, điều tra cơ bản địa chất, điều tra địa chất về khoáng sản, hoạt động khoáng sản, quản lý hoạt động khoáng sản phải đặt trong tổng thể chiến lược phát triển kinh tế - xã hội của đất nước trong từng thời kỳ; chiến lược địa chất, khoáng sản và công nghiệp khai khoáng; tuân thủ Hiến pháp, pháp luật Việt Nam, Hiến chương Liên hợp quốc, điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên, bảo đảm phù hợp với đường lối và chính sách đối ngoại của Việt Nam; bảo đảm nguyên tắc hợp tác bình đẳng, cùng có lợi trên cơ sở tôn trọng độc lập, chủ quyền và toàn vẹn lãnh thổ, không can thiệp vào công việc nội bộ của nhau.
 
-2\. Tranh chấp quốc tế về địa chất, khoáng sản được giải quyết thông qua các biện pháp hòa bình, theo thông lệ quốc tế, pháp luật quốc tế và pháp luật của các bên liên quan.
+2. Tranh chấp quốc tế về địa chất, khoáng sản được giải quyết thông qua các biện pháp hòa bình, theo thông lệ quốc tế, pháp luật quốc tế và pháp luật của các bên liên quan.
 
 **Điều 6. Phân nhóm khoáng sản**
 
-1\. Căn cứ công dụng và mục đích quản lý, khoáng sản được phân loại thành các nhóm sau đây:
+1. Căn cứ công dụng và mục đích quản lý, khoáng sản được phân loại thành các nhóm sau đây:
 
 a) Khoáng sản nhóm I bao gồm: khoáng sản kim loại; khoáng sản năng lượng; đá quý, đá bán quý; khoáng chất công nghiệp;
 
@@ -160,15 +159,15 @@ c) Khoáng sản nhóm III bao gồm: khoáng sản làm vật liệu xây dựn
 
 d) Khoáng sản nhóm IV bao gồm: khoáng sản chỉ phù hợp với mục đích làm vật liệu san lấp, đắp nền móng công trình, xây dựng công trình thủy lợi, phòng, chống thiên tai, gồm: đất sét, đất đồi, đất có tên gọi khác; đất lẫn đá, cát, cuội hoặc sỏi; cát (trừ cát, sỏi lòng sông, lòng hồ và khu vực biển).
 
-2\. Chính phủ quy định chi tiết danh mục khoáng sản theo nhóm; quy định  việc phân nhóm đối với khoáng sản có nhiều mục đích sử dụng.
+2. Chính phủ quy định chi tiết danh mục khoáng sản theo nhóm; quy định  việc phân nhóm đối với khoáng sản có nhiều mục đích sử dụng.
 
 **Điều 7. Bảo vệ tài nguyên địa chất chưa khai thác, sử dụng và khoáng sản chưa khai thác**
 
-1\. Tài nguyên địa chất chưa khai thác, sử dụng và khoáng sản chưa khai thác, kể cả khoáng sản ở bãi thải của mỏ đã đóng cửa phải được bảo vệ theo quy định của Luật này và quy định khác của pháp luật có liên quan.
+1. Tài nguyên địa chất chưa khai thác, sử dụng và khoáng sản chưa khai thác, kể cả khoáng sản ở bãi thải của mỏ đã đóng cửa phải được bảo vệ theo quy định của Luật này và quy định khác của pháp luật có liên quan.
 
-2\. Cơ quan, tổ chức, cộng đồng dân cư, hộ gia đình và cá nhân có trách nhiệm bảo vệ tài nguyên địa chất chưa khai thác, sử dụng và khoáng sản chưa khai thác theo quy định của Luật này.
+2. Cơ quan, tổ chức, cộng đồng dân cư, hộ gia đình và cá nhân có trách nhiệm bảo vệ tài nguyên địa chất chưa khai thác, sử dụng và khoáng sản chưa khai thác theo quy định của Luật này.
 
-3\. Tổ chức, cá nhân hoạt động khoáng sản có trách nhiệm sau đây:
+3. Tổ chức, cá nhân hoạt động khoáng sản có trách nhiệm sau đây:
 
 a) Khi thăm dò khoáng sản phải đánh giá tổng hợp và báo cáo đầy đủ các thông tin, dữ liệu về loại khoáng sản phát hiện được trong khu vực thăm dò cho cơ quan quản lý nhà nước có thẩm quyền cấp giấy phép;
 
@@ -178,17 +177,17 @@ c) Quản lý, bảo vệ khoáng sản đã khai thác nhưng chưa sử dụng
 
 d) Đối với khu vực đã được cấp giấy phép khai thác nhưng chưa được thuê đất, bàn giao đất trên thực địa hoặc chưa hoàn thành việc giải phóng mặt bằng, tổ chức, cá nhân báo cáo Ủy ban nhân dân cấp tỉnh để được hỗ trợ việc bảo vệ khoáng sản.
 
-4\. Người sử dụng đất, tổ chức, cá nhân được giao khu vực biển có trách nhiệm bảo vệ khoáng sản chưa khai thác trong diện tích đất hoặc diện tích khu vực biển; không được tự ý khai thác khoáng sản, thu hồi khoáng sản.
+4. Người sử dụng đất, tổ chức, cá nhân được giao khu vực biển có trách nhiệm bảo vệ khoáng sản chưa khai thác trong diện tích đất hoặc diện tích khu vực biển; không được tự ý khai thác khoáng sản, thu hồi khoáng sản.
 
-5\. Tổ chức, cá nhân khi thực hiện dự án đầu tư hoặc các hoạt động khác nếu phát hiện khoáng sản nhóm I, nhóm II, nhóm III phải báo cáo ngay cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này, tổ chức bảo vệ khoáng sản được phát hiện; việc thu hồi hoặc không thu hồi khoáng sản được thực hiện theo quy định tại Điều 75 và Điều 76 của Luật này.
+5. Tổ chức, cá nhân khi thực hiện dự án đầu tư hoặc các hoạt động khác nếu phát hiện khoáng sản nhóm I, nhóm II, nhóm III phải báo cáo ngay cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này, tổ chức bảo vệ khoáng sản được phát hiện; việc thu hồi hoặc không thu hồi khoáng sản được thực hiện theo quy định tại Điều 75 và Điều 76 của Luật này.
 
-6\. Cơ quan quản lý nhà nước về địa chất, khoáng sản có trách nhiệm chuyển giao cho Ủy ban nhân dân cấp tỉnh danh mục các khu vực có tài nguyên địa chất, khoáng sản cần bảo vệ đã và đang được điều tra cơ bản địa chất, điều tra địa chất về khoáng sản.
+6. Cơ quan quản lý nhà nước về địa chất, khoáng sản có trách nhiệm chuyển giao cho Ủy ban nhân dân cấp tỉnh danh mục các khu vực có tài nguyên địa chất, khoáng sản cần bảo vệ đã và đang được điều tra cơ bản địa chất, điều tra địa chất về khoáng sản.
 
-7\. Nhà nước bảo đảm kinh phí cho công tác bảo vệ tài nguyên địa chất chưa khai thác, sử dụng, khoáng sản chưa khai thác thuộc trách nhiệm của Nhà nước và được bố trí trong dự toán ngân sách địa phương hằng năm.
+7. Nhà nước bảo đảm kinh phí cho công tác bảo vệ tài nguyên địa chất chưa khai thác, sử dụng, khoáng sản chưa khai thác thuộc trách nhiệm của Nhà nước và được bố trí trong dự toán ngân sách địa phương hằng năm.
 
 **Điều 8. Quyền lợi, trách nhiệm của địa phương, cộng đồng dân cư, hộ gia đình, cá nhân nơi có tài nguyên địa chất, khoáng sản được khai thác**
 
-1\. Quyền lợi của địa phương, cộng đồng dân cư, hộ gia đình, cá nhân bao gồm:
+1. Quyền lợi của địa phương, cộng đồng dân cư, hộ gia đình, cá nhân bao gồm:
 
 a) Địa phương nơi có khoáng sản được khai thác được Nhà nước điều tiết khoản thu từ hoạt động khai thác khoáng sản để hỗ trợ phát triển kinh tế - xã hội theo quy định của pháp luật về ngân sách nhà nước;
 
@@ -198,9 +197,9 @@ c) Được ưu tiên sử dụng lao động địa phương vào khai thác kh
 
 d) Yêu cầu cơ quan quản lý nhà nước có thẩm quyền về địa chất, khoáng sản cung cấp địa chỉ thư điện tử, số điện thoại hoặc địa chỉ tiếp nhận, trả lời phản ánh, kiến nghị trong việc bảo vệ tài nguyên địa chất, khoáng sản và góp ý, đề xuất hoàn thiện quy định của pháp luật về địa chất, khoáng sản;
 
-đ) Căn cứ tình hình hoạt động khoáng sản trên địa bàn, Hội đồng nhân dân cấp tỉnh quyết định việc ban hành quy định về trách nhiệm đóng góp kinh phí của tổ chức, cá nhân khai thác khoáng sản để đầu tư nâng cấp, duy tu, xây dựng các công trình hạ tầng kỹ thuật, công trình bảo vệ môi trường trên địa bàn_._
+đ) Căn cứ tình hình hoạt động khoáng sản trên địa bàn, Hội đồng nhân dân cấp tỉnh quyết định việc ban hành quy định về trách nhiệm đóng góp kinh phí của tổ chức, cá nhân khai thác khoáng sản để đầu tư nâng cấp, duy tu, xây dựng các công trình hạ tầng kỹ thuật, công trình bảo vệ môi trường trên địa bàn*.*
 
-2\. Trách nhiệm của địa phương, cộng đồng dân cư, hộ gia đình, cá nhân bao gồm:
+2. Trách nhiệm của địa phương, cộng đồng dân cư, hộ gia đình, cá nhân bao gồm:
 
 a) Tạo điều kiện thuận lợi cho hoạt động điều tra cơ bản địa chất, điều tra địa chất về khoáng sản và hoạt động khoáng sản theo quy định của pháp luật;
 
@@ -208,32 +207,33 @@ b) Tham gia bảo vệ tài nguyên địa chất, khoáng sản chưa khai thá
 
 c) Kịp thời phản ánh với cơ quan quản lý nhà nước có thẩm quyền xử lý vi phạm pháp luật đối với tổ chức, cá nhân được cấp giấy phép thăm dò khoáng sản, giấy phép khai thác khoáng sản khi phát hiện thấy dấu hiệu vi phạm pháp luật.
 
-3\. Chính phủ quy định chi tiết điểm đ khoản 1 Điều này.
+3. Chính phủ quy định chi tiết điểm đ khoản 1 Điều này.
 
 **Điều 9. Những hành vi bị nghiêm cấm**
 
-1\. Lợi dụng điều tra cơ bản địa chất, điều tra địa chất về khoáng sản, hoạt động khoáng sản để xâm phạm lợi ích của Nhà nước, quyền và lợi ích hợp pháp của tổ chức, cá nhân, cộng đồng dân cư.
+1. Lợi dụng điều tra cơ bản địa chất, điều tra địa chất về khoáng sản, hoạt động khoáng sản để xâm phạm lợi ích của Nhà nước, quyền và lợi ích hợp pháp của tổ chức, cá nhân, cộng đồng dân cư.
 
-2\. Lợi dụng điều tra cơ bản địa chất, điều tra địa chất về khoáng sản, thăm dò khoáng sản để khai thác tài nguyên địa chất, khoáng sản.
+2. Lợi dụng điều tra cơ bản địa chất, điều tra địa chất về khoáng sản, thăm dò khoáng sản để khai thác tài nguyên địa chất, khoáng sản.
 
-3\. Thực hiện điều tra cơ bản địa chất, điều tra địa chất về khoáng sản, hoạt động khoáng sản khi chưa được cơ quan quản lý nhà nước có thẩm quyền phê duyệt, cấp giấy phép hoặc chấp thuận bằng văn bản.
+3. Thực hiện điều tra cơ bản địa chất, điều tra địa chất về khoáng sản, hoạt động khoáng sản khi chưa được cơ quan quản lý nhà nước có thẩm quyền phê duyệt, cấp giấy phép hoặc chấp thuận bằng văn bản.
 
-4\. Cản trở trái pháp luật công tác điều tra cơ bản địa chất, điều tra địa chất về khoáng sản, hoạt động khoáng sản.
+4. Cản trở trái pháp luật công tác điều tra cơ bản địa chất, điều tra địa chất về khoáng sản, hoạt động khoáng sản.
 
-5\. Cố ý hủy hoại hoặc cố ý làm hư hỏng mẫu vật địa chất, khoáng sản có giá trị, quý hiếm.
+5. Cố ý hủy hoại hoặc cố ý làm hư hỏng mẫu vật địa chất, khoáng sản có giá trị, quý hiếm.
 
-6\. Kinh doanh khoáng sản không có nguồn gốc hợp pháp.
+6. Kinh doanh khoáng sản không có nguồn gốc hợp pháp.
 
-**Chương II  
-CHIẾN LƯỢC, QUY HOẠCH ĐỊA CHẤT, KHOÁNG SẢN**
+**Chương II**
+
+**CHIẾN LƯỢC, QUY HOẠCH ĐỊA CHẤT, KHOÁNG SẢN**
 
 **Điều 10. Chiến lược địa chất, khoáng sản và công nghiệp khai khoáng**
 
-1\. Việc lập chiến lược địa chất, khoáng sản và công nghiệp khai khoáng phải bảo đảm các nguyên tắc và căn cứ sau đây:
+1. Việc lập chiến lược địa chất, khoáng sản và công nghiệp khai khoáng phải bảo đảm các nguyên tắc và căn cứ sau đây:
 
 a) Phù hợp với điều kiện tự nhiên, kinh tế - xã hội; chiến lược phát triển kinh tế - xã hội; chiến lược bảo vệ Tổ quốc; chiến lược bảo vệ môi trường quốc gia; nhu cầu của thị trường thế giới;
 
-b) Bảo đảm tính phối hợp đồng bộ giữa hoạt động điều tra cơ bản địa chất, điều tra địa chất về khoáng sản trên phạm vi cả nước; khai thác, sử dụng hợp lý, tiết kiệm, hiệu quả tài nguyên địa chất, khoáng sản; 
+b) Bảo đảm tính phối hợp đồng bộ giữa hoạt động điều tra cơ bản địa chất, điều tra địa chất về khoáng sản trên phạm vi cả nước; khai thác, sử dụng hợp lý, tiết kiệm, hiệu quả tài nguyên địa chất, khoáng sản;
 
 c) Bảo đảm nhu cầu về khoáng sản, tài nguyên địa chất khác phục vụ phát triển bền vững kinh tế - xã hội;
 
@@ -241,7 +241,7 @@ d) Kết quả điều tra cơ bản địa chất, điều tra địa chất 
 
 đ) Phù hợp với nguồn lực của Nhà nước theo từng thời kỳ.
 
-2\. Chiến lược địa chất, khoáng sản và công nghiệp khai khoáng phải có các nội dung chính sau đây:
+2. Chiến lược địa chất, khoáng sản và công nghiệp khai khoáng phải có các nội dung chính sau đây:
 
 a) Quan điểm chỉ đạo, mục tiêu trong điều tra cơ bản địa chất, điều tra địa chất về khoáng sản; khai thác khoáng sản, tài nguyên địa chất; bảo vệ khoáng sản, tài nguyên địa chất chưa khai thác; thăm dò, khai thác, chế biến và sử dụng hợp lý, tiết kiệm khoáng sản;
 
@@ -253,15 +253,15 @@ d) Định hướng thăm dò, khai thác khoáng sản cho từng nhóm khoáng
 
 đ) Nhiệm vụ và giải pháp chủ yếu trong điều tra cơ bản địa chất, điều tra địa chất về khoáng sản; khai thác, sử dụng khoáng sản, tài nguyên địa chất; bảo vệ khoáng sản, tài nguyên địa chất chưa khai thác, sử dụng; thăm dò, khai thác khoáng sản cho từng nhóm khoáng sản, chế biến và sử dụng hợp lý, tiết kiệm khoáng sản sau khai thác; dự trữ khoáng sản quốc gia.
 
-3\. Chiến lược địa chất, khoáng sản và công nghiệp khai khoáng được lập cho giai đoạn 10 năm, tầm nhìn 30 năm theo kỳ chiến lược phát triển kinh tế - xã hội.
+3. Chiến lược địa chất, khoáng sản và công nghiệp khai khoáng được lập cho giai đoạn 10 năm, tầm nhìn 30 năm theo kỳ chiến lược phát triển kinh tế - xã hội.
 
-4\. Bộ Tài nguyên và Môi trường chủ trì, phối hợp với Bộ Công Thương, Bộ Xây dựng, Bộ Kế hoạch và Đầu tư, các Bộ, cơ quan ngang Bộ và địa phương có liên quan lập, trình Thủ tướng Chính phủ phê duyệt Chiến lược địa chất, khoáng sản và công nghiệp khai khoáng.
+4. Bộ Tài nguyên và Môi trường chủ trì, phối hợp với Bộ Công Thương, Bộ Xây dựng, Bộ Kế hoạch và Đầu tư, các Bộ, cơ quan ngang Bộ và địa phương có liên quan lập, trình Thủ tướng Chính phủ phê duyệt Chiến lược địa chất, khoáng sản và công nghiệp khai khoáng.
 
 **Điều 11. Quy hoạch điều tra cơ bản địa chất, khoáng sản**
 
-1\. Quy hoạch điều tra cơ bản địa chất, khoáng sản là quy hoạch ngành quốc gia, phải bảo đảm nguyên tắc cung cấp đầy đủ thông tin, dữ liệu địa chất, khoáng sản, tài nguyên địa chất khác phục vụ cho phát triển kinh tế - xã hội; bảo đảm quốc phòng, an ninh; phòng, chống tai biến địa chất; thích ứng với biến đổi khí hậu, nước biển dâng.
+1. Quy hoạch điều tra cơ bản địa chất, khoáng sản là quy hoạch ngành quốc gia, phải bảo đảm nguyên tắc cung cấp đầy đủ thông tin, dữ liệu địa chất, khoáng sản, tài nguyên địa chất khác phục vụ cho phát triển kinh tế - xã hội; bảo đảm quốc phòng, an ninh; phòng, chống tai biến địa chất; thích ứng với biến đổi khí hậu, nước biển dâng.
 
-2\. Căn cứ lập quy hoạch điều tra cơ bản địa chất, khoáng sản bao gồm các căn cứ theo quy định của pháp luật về quy hoạch và các căn cứ sau đây:
+2. Căn cứ lập quy hoạch điều tra cơ bản địa chất, khoáng sản bao gồm các căn cứ theo quy định của pháp luật về quy hoạch và các căn cứ sau đây:
 
 a) Kết quả thực hiện quy hoạch điều tra cơ bản địa chất, khoáng sản của kỳ trước; nhu cầu điều tra cơ bản địa chất, điều tra địa chất về khoáng sản của các Bộ, ngành, địa phương;
 
@@ -269,23 +269,23 @@ b) Nhu cầu thông tin, dữ liệu về tài nguyên địa chất, khoáng s�
 
 c) Tiền đề, dấu hiệu địa chất liên quan đến tài nguyên địa chất, khoáng sản mới phát hiện.
 
-3\. Việc lập, thẩm định, phê duyệt, công bố, tổ chức thực hiện quy hoạch điều tra cơ bản địa chất, khoáng sản phải tuân thủ quy định của pháp luật về quy hoạch.
+3. Việc lập, thẩm định, phê duyệt, công bố, tổ chức thực hiện quy hoạch điều tra cơ bản địa chất, khoáng sản phải tuân thủ quy định của pháp luật về quy hoạch.
 
 **Điều 12. Quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II, phương án quản lý về địa chất, khoáng sản**
 
-1\. Quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II là quy hoạch ngành quốc gia.
+1. Quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II là quy hoạch ngành quốc gia.
 
-2\. Phương án quản lý về địa chất, khoáng sản là hợp phần trong phương án bảo vệ môi trường, khai thác, sử dụng, bảo vệ tài nguyên, đa dạng sinh học, phòng, chống thiên tai và ứng phó với biến đổi khí hậu trên địa bàn được tích hợp vào quy hoạch tỉnh.
+2. Phương án quản lý về địa chất, khoáng sản là hợp phần trong phương án bảo vệ môi trường, khai thác, sử dụng, bảo vệ tài nguyên, đa dạng sinh học, phòng, chống thiên tai và ứng phó với biến đổi khí hậu trên địa bàn được tích hợp vào quy hoạch tỉnh.
 
-3\. Quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II, phương án quản lý về địa chất, khoáng sản phải bảo đảm nguyên tắc hạn chế chia cắt khu vực khoáng sản có thể đầu tư khai thác hiệu quả ở quy mô lớn để khoanh định thành các khu vực có quy mô nhỏ.
+3. Quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II, phương án quản lý về địa chất, khoáng sản phải bảo đảm nguyên tắc hạn chế chia cắt khu vực khoáng sản có thể đầu tư khai thác hiệu quả ở quy mô lớn để khoanh định thành các khu vực có quy mô nhỏ.
 
-4\. Việc lập, thẩm định, phê duyệt, điều chỉnh, điều chỉnh theo trình tự, thủ tục rút gọn, công bố, tổ chức thực hiện quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II phải tuân thủ quy định của pháp luật về quy hoạch.
+4. Việc lập, thẩm định, phê duyệt, điều chỉnh, điều chỉnh theo trình tự, thủ tục rút gọn, công bố, tổ chức thực hiện quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II phải tuân thủ quy định của pháp luật về quy hoạch.
 
-5\. Chính phủ quy định chi tiết khoản 2 Điều này; phân công cơ quan tổ chức lập, trình Thủ tướng Chính phủ phê duyệt quy hoạch điều tra cơ bản địa chất, khoáng sản, quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II.
+5. Chính phủ quy định chi tiết khoản 2 Điều này; phân công cơ quan tổ chức lập, trình Thủ tướng Chính phủ phê duyệt quy hoạch điều tra cơ bản địa chất, khoáng sản, quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II.
 
-**Điều 13. Căn cứ và nội dung của quy hoạch khoáng sản** **nhóm I, quy hoạch khoáng sản nhóm II**
+**Điều 13. Căn cứ và nội dung của quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II**
 
-1\. Căn cứ lập quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II bao gồm căn cứ theo quy định của pháp luật về quy hoạch và các căn cứ sau đây:
+1. Căn cứ lập quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II bao gồm căn cứ theo quy định của pháp luật về quy hoạch và các căn cứ sau đây:
 
 a) Nhu cầu khoáng sản của các ngành kinh tế;
 
@@ -295,14 +295,15 @@ c) Tiến bộ khoa học và công nghệ trong thăm dò, khai thác khoáng s
 
 d) Kết quả thực hiện quy hoạch thời kỳ trước; kết quả đánh giá môi trường chiến lược theo quy định của pháp luật về bảo vệ môi trường.
 
-2\. Nội dung quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II bao gồm các nội dung theo quy định của pháp luật về quy hoạch.
+2. Nội dung quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II bao gồm các nội dung theo quy định của pháp luật về quy hoạch.
 
-**Chương III  
-ĐIỀU TRA CƠ BẢN ĐỊA CHẤT**
+**Chương III**
+
+**ĐIỀU TRA CƠ BẢN ĐỊA CHẤT**
 
 **Điều 14. Nội dung và trách nhiệm của Nhà nước trong điều tra cơ bản địa chất**
 
-1\. Nội dung điều tra cơ bản địa chất bao gồm:
+1. Nội dung điều tra cơ bản địa chất bao gồm:
 
 a) Điều tra, xác lập quy luật phân bố, dự báo các cấu trúc có triển vọng tài nguyên địa chất để lập bản đồ địa chất quốc gia các tỷ lệ đến 1:50.000, bao gồm các bộ bản đồ: địa chất; các trường địa vật lý; địa hóa; địa mạo; vỏ phong hóa; tai biến địa chất; di sản địa chất; địa chất môi trường; địa chất thủy văn; địa chất công trình; địa chất đô thị;
 
@@ -310,7 +311,7 @@ b) Điều tra, lập bản đồ địa chất chuyên đề tỷ lệ lớn h�
 
 c) Điều tra, khoanh định, lập bản đồ các khu vực di chỉ địa chất, di sản địa chất, tài nguyên vị thế; điều tra địa chất môi trường, tai biến địa chất; điều tra địa chất công trình, địa chất đô thị; điều tra điều kiện địa chất khác.
 
-2\. Trách nhiệm của Nhà nước trong điều tra cơ bản địa chất bao gồm:
+2. Trách nhiệm của Nhà nước trong điều tra cơ bản địa chất bao gồm:
 
 a) Điều tra cơ bản địa chất do Nhà nước thực hiện theo quy hoạch đã được phê duyệt;
 
@@ -320,11 +321,11 @@ c) Bộ Tài nguyên và Môi trường tổ chức thực hiện điều tra c�
 
 d) Ủy ban nhân dân cấp tỉnh tổ chức thực hiện điều tra cơ bản địa chất theo đề án, dự án hoặc nhiệm vụ được cơ quan quản lý nhà nước có thẩm quyền phê duyệt hoặc chấp thuận.
 
-3\. Bộ trưởng Bộ Tài nguyên và Môi trường quy định chi tiết khoản 1 Điều này; quy định việc lập, thẩm định, phê duyệt đề án, dự án, nhiệm vụ, báo cáo, công bố kết quả điều tra cơ bản địa chất.
+3. Bộ trưởng Bộ Tài nguyên và Môi trường quy định chi tiết khoản 1 Điều này; quy định việc lập, thẩm định, phê duyệt đề án, dự án, nhiệm vụ, báo cáo, công bố kết quả điều tra cơ bản địa chất.
 
 **Điều 15. Điều tra, khoanh định, lập bản đồ các khu vực di chỉ địa chất, di sản địa chất, tài nguyên vị thế**
 
-1\. Nội dung điều tra di chỉ địa chất, di sản địa chất bao gồm:
+1. Nội dung điều tra di chỉ địa chất, di sản địa chất bao gồm:
 
 a) Điều tra, đánh giá về giá trị khoa học, giáo dục của di chỉ địa chất, di sản địa chất; trong đó tập trung điều tra, đánh giá về vị trí, không gian phân bố, đặc điểm địa lý, địa chất, tính đa dạng địa chất và ý nghĩa khoa học, giáo dục về địa chất;
 
@@ -334,17 +335,17 @@ c) Điều tra, đánh giá về giá trị kinh tế và tiềm năng khai thá
 
 d) Xác định mức độ ảnh hưởng và nhu cầu bảo tồn di chỉ địa chất, di sản địa chất.
 
-2\. Nội dung điều tra tài nguyên vị thế bao gồm:
+2. Nội dung điều tra tài nguyên vị thế bao gồm:
 
 a) Điều tra, khoanh định các khu vực có tiềm năng tài nguyên vị thế trên cơ sở kết quả điều tra cơ bản địa chất;
 
 b) Đánh giá vị trí, đặc điểm địa chất, điều kiện địa chất, lịch sử hình thành, khả năng tạo ra giá trị và lợi ích khi khai thác tài nguyên địa chất đã khoanh định; định hướng cho công tác quản lý, bảo vệ và khai thác, sử dụng.
 
-3\. Việc khoanh định, lập bản đồ các khu vực có di chỉ địa chất, di sản địa chất, tài nguyên vị thế phải căn cứ vào kết quả điều tra di chỉ địa chất, di sản địa chất, tài nguyên vị thế.
+3. Việc khoanh định, lập bản đồ các khu vực có di chỉ địa chất, di sản địa chất, tài nguyên vị thế phải căn cứ vào kết quả điều tra di chỉ địa chất, di sản địa chất, tài nguyên vị thế.
 
 **Điều 16. Điều tra địa chất môi trường, tai biến địa chất**
 
-1\. Nội dung điều tra địa chất môi trường bao gồm:
+1. Nội dung điều tra địa chất môi trường bao gồm:
 
 a) Đặc điểm địa chất, địa hóa, địa vật lý của các thực thể địa chất; các quá trình địa chất có liên quan đến môi trường tự nhiên;
 
@@ -354,7 +355,7 @@ c) Lập bản đồ hiện trạng, phân vùng địa chất môi trường;
 
 d) Xây dựng cơ sở dữ liệu địa chất môi trường.
 
-2\. Nội dung điều tra tai biến địa chất bao gồm:
+2. Nội dung điều tra tai biến địa chất bao gồm:
 
 a) Đặc điểm địa chất, địa kỹ thuật của các thực thể địa chất; các quá trình địa chất có liên quan; các biểu hiện, động thái tai biến địa chất;
 
@@ -364,11 +365,11 @@ c) Lập bản đồ hiện trạng, phân vùng cảnh báo tai biến địa c
 
 d) Xây dựng cơ sở dữ liệu tai biến địa chất.
 
-3\. Trong quá trình điều tra địa chất môi trường, tai biến địa chất phải tiến hành quan trắc, cảnh báo môi trường địa chất, tai biến địa chất.
+3. Trong quá trình điều tra địa chất môi trường, tai biến địa chất phải tiến hành quan trắc, cảnh báo môi trường địa chất, tai biến địa chất.
 
 **Điều 17. Điều tra địa chất công trình, địa chất đô thị**
 
-1\. Nội dung điều tra địa chất công trình bao gồm:
+1. Nội dung điều tra địa chất công trình bao gồm:
 
 a) Điều tra, đánh giá, xác định cấu trúc địa chất, địa hình, địa mạo, địa chất thủy văn, các quá trình và hiện tượng địa chất động lực, tính chất cơ lý đất, đá;
 
@@ -380,7 +381,7 @@ d) Lập bản đồ phân vùng địa chất công trình với tỷ lệ thí
 
 đ) Xây dựng cơ sở dữ liệu địa chất công trình.
 
-2\. Nội dung điều tra địa chất đô thị bao gồm:
+2. Nội dung điều tra địa chất đô thị bao gồm:
 
 a) Điều tra địa chất, địa vật lý, địa chất công trình, địa chất thuỷ văn, địa chất môi trường, tai biến địa chất;
 
@@ -392,21 +393,21 @@ d) Xây dựng cơ sở dữ liệu địa chất đô thị.
 
 **Điều 18. Điều tra điều kiện địa chất khác**
 
-1\. Điều tra điều kiện địa chất khác bao gồm: lập bản đồ không gian địa chất, bản đồ không gian lòng đất; điều tra tài nguyên địa nhiệt quy định tại các khoản 2, 3 và 4 Điều này.
+1. Điều tra điều kiện địa chất khác bao gồm: lập bản đồ không gian địa chất, bản đồ không gian lòng đất; điều tra tài nguyên địa nhiệt quy định tại các khoản 2, 3 và 4 Điều này.
 
-2\. Lập bản đồ không gian địa chất là việc lập bản đồ không gian ba chiều kỹ thuật số, thể hiện các thực thể, hiện tượng địa chất với đầy đủ thuộc tính về đặc điểm thành phần vật chất, vật lý, hóa học, cơ học và mối quan hệ giữa các thực thể, hiện tượng địa chất đó, phù hợp với tỷ lệ điều tra với các nội dung sau đây:
+2. Lập bản đồ không gian địa chất là việc lập bản đồ không gian ba chiều kỹ thuật số, thể hiện các thực thể, hiện tượng địa chất với đầy đủ thuộc tính về đặc điểm thành phần vật chất, vật lý, hóa học, cơ học và mối quan hệ giữa các thực thể, hiện tượng địa chất đó, phù hợp với tỷ lệ điều tra với các nội dung sau đây:
 
 a) Thu thập, tổng hợp, phân tích, đánh giá các thông tin, dữ liệu về địa chất, tài nguyên địa chất, điều tra bổ sung các dữ liệu còn thiếu; mô phỏng các thực thể địa chất; lập bản đồ không gian địa chất;
 
 b) Cập nhật bản đồ không gian địa chất được thực hiện định kỳ hằng năm hoặc đột xuất. Việc cập nhật đột xuất khi có sự biến động đột ngột của các thực thể địa chất do các nguyên nhân tự nhiên hoặc nhân tạo.
 
-3\. Lập bản đồ không gian lòng đất là việc lập bản đồ không gian ba chiều kỹ thuật số trên nền bản đồ không gian địa chất, thể hiện các khu vực không gian lòng đất bao gồm các nội dung sau đây:
+3. Lập bản đồ không gian lòng đất là việc lập bản đồ không gian ba chiều kỹ thuật số trên nền bản đồ không gian địa chất, thể hiện các khu vực không gian lòng đất bao gồm các nội dung sau đây:
 
 a) Thu thập, tổng hợp, điều tra bổ sung, phân tích, đánh giá các thông tin, dữ liệu tài nguyên địa chất; kinh tế - xã hội, quốc phòng, an ninh, nhu cầu sử dụng không gian lòng đất, hiện trạng sử dụng không gian lòng đất;
 
 b) Lập bản đồ phân bố các cấu trúc tàng trữ; đánh giá đặc điểm địa chất, điều kiện địa chất và khả năng tàng trữ của các cấu trúc địa chất để khoanh định các cấu trúc thuận lợi có thể sử dụng lưu trữ các chất không có bể chứa, chôn lấp chất thải, carbon dioxide (CO2), bổ cập nước dưới đất, lưu giữ năng lượng địa chất và các công dụng khác.
 
-4\. Điều tra tài nguyên địa nhiệt bao gồm các nội dung sau đây:
+4. Điều tra tài nguyên địa nhiệt bao gồmcác nội dung sau đây:
 
 a) Điều tra, khoanh định, lập bản đồ các khu vực có tiềm năng tài nguyên địa nhiệt trên cơ sở kết quả điều tra cơ bản địa chất;
 
@@ -414,7 +415,7 @@ b) Đánh giá đặc điểm địa chất, điều kiện địa chất, ngu�
 
 **Điều 19. Quyền và nghĩa vụ của tổ chức hoạt động điều tra cơ bản địa chất**
 
-1\. Quyền của tổ chức thực hiện điều tra cơ bản địa chất bao gồm:
+1. Quyền của tổ chức thực hiện điều tra cơ bản địa chất bao gồm:
 
 a) Tiến hành điều tra cơ bản địa chất theo đề án, dự án, nhiệm vụ đã được cơ quan quản lý nhà nước có thẩm quyền về địa chất phê duyệt;
 
@@ -422,7 +423,7 @@ b) Chuyển ra ngoài khu vực điều tra cơ bản địa chất, kể cả r
 
 c) Quyền khác liên quan đến hoạt động điều tra cơ bản địa chất theo quy định của pháp luật.
 
-2\. Nghĩa vụ của tổ chức thực hiện điều tra cơ bản địa chất bao gồm:
+2. Nghĩa vụ của tổ chức thực hiện điều tra cơ bản địa chất bao gồm:
 
 a) Đăng ký hoạt động điều tra cơ bản địa chất với cơ quan quản lý nhà nước có thẩm quyền về địa chất theo quy định tại Điều 23 của Luật này;
 
@@ -438,18 +439,19 @@ e) Nộp báo cáo kết quả điều tra cơ bản địa chất, mẫu vật 
 
 g) Nghĩa vụ khác liên quan đến điều tra cơ bản địa chất theo quy định của pháp luật.
 
-**Chương IV  
-ĐIỀU TRA ĐỊA CHẤT VỀ KHOÁNG SẢN**
+**Chương IV**
+
+**ĐIỀU TRA ĐỊA CHẤT VỀ KHOÁNG SẢN**
 
 **Điều 20. Nội dung và trách nhiệm của Nhà nước trong điều tra địa chất về khoáng sản**
 
-1\. Nội dung điều tra địa chất về khoáng sản bao gồm:
+1. Nội dung điều tra địa chất về khoáng sản bao gồm:
 
 a) Điều tra các cấu trúc địa chất có tiền đề, dấu hiệu thuận lợi về khoáng sản trên cơ sở kết quả điều tra cơ bản địa chất; khoanh định các diện tích triển vọng để đánh giá tài nguyên khoáng sản;
 
 b) Đánh giá tiềm năng khoáng sản nhằm xác định quy mô tài nguyên các loại khoáng sản trong diện tích đánh giá; khoanh định các khu vực có tiềm năng khoáng sản.
 
-2\. Trách nhiệm của Nhà nước trong điều tra địa chất về khoáng sản bao gồm:
+2. Trách nhiệm của Nhà nước trong điều tra địa chất về khoáng sản bao gồm:
 
 a) Điều tra địa chất về khoáng sản do Nhà nước thực hiện theo quy hoạch đã được phê duyệt;
 
@@ -461,17 +463,17 @@ d) Bộ Tài nguyên và Môi trường tổ chức thực hiện điều tra đ
 
 đ) Ủy ban nhân dân cấp tỉnh tổ chức thực hiện đánh giá tiềm năng khoáng sản đối với khoáng sản nhóm III, nhóm IV.
 
-3\. Bộ trưởng Bộ Tài nguyên và Môi trường quy định chi tiết khoản 1 Điều này; quy định việc lập, thẩm định, phê duyệt đề án, dự án, nhiệm vụ, báo cáo kết quả điều tra địa chất về khoáng sản.
+3. Bộ trưởng Bộ Tài nguyên và Môi trường quy định chi tiết khoản 1 Điều này; quy định việc lập, thẩm định, phê duyệt đề án, dự án, nhiệm vụ, báo cáo kết quả điều tra địa chất về khoáng sản.
 
 **Điều 21. Quyền và nghĩa vụ của tổ chức thực hiện điều tra địa chất về khoáng sản**
 
-1\. Quyền của tổ chức thực hiện điều tra địa chất về khoáng sản bao gồm:
+1. Quyền của tổ chức thực hiện điều tra địa chất về khoáng sản bao gồm:
 
 a) Điều tra theo đề án, dự án, nhiệm vụ đã được cơ quan quản lý nhà nước có thẩm quyền về địa chất phê duyệt;
 
 b) Chuyển ra ngoài khu vực điều tra địa chất về khoáng sản, kể cả ra nước ngoài các loại mẫu vật với khối lượng và chủng loại phù hợp với tính chất và yêu cầu để phân tích, thử nghiệm theo đề án, dự án, nhiệm vụ đã được phê duyệt.
 
-2\. Nghĩa vụ của tổ chức thực hiện điều tra địa chất về khoáng sản bao gồm:
+2. Nghĩa vụ của tổ chức thực hiện điều tra địa chất về khoáng sản bao gồm:
 
 a) Đăng ký điều tra địa chất về khoáng sản với cơ quan quản lý nhà nước có thẩm quyền về địa chất theo quy định tại Điều 23 của Luật này;
 
@@ -487,17 +489,17 @@ e) Nộp báo cáo kết quả điều tra địa chất về khoáng sản, m�
 
 **Điều 22. Quy định về tham gia điều tra địa chất về khoáng sản của tổ chức, cá nhân**
 
-1\. Nguyên tắc tham gia điều tra địa chất về khoáng sản bao gồm:
+1. Nguyên tắc tham gia điều tra địa chất về khoáng sản bao gồm:
 
 a) Đề án điều tra địa chất về khoáng sản phải nằm trong quy hoạch điều tra cơ bản địa chất, khoáng sản và được Thủ tướng Chính phủ chấp thuận thực hiện theo hình thức tham gia điều tra;
 
-b) Tổ chức, cá nhân tham gia điều tra địa chất về khoáng sản đối với đề án thuộc danh mục quy định tại điểm c khoản 2 Điều 20 của Luật này và phải bảo đảm kinh phí thực hiện toàn bộ đề án; có văn bản, tài liệu chứng minh năng lực tài chính; 
+b) Tổ chức, cá nhân tham gia điều tra địa chất về khoáng sản đối với đề án thuộc danh mục quy định tại điểm c khoản 2 Điều 20 của Luật này và phải bảo đảm kinh phí thực hiện toàn bộ đề án; có văn bản, tài liệu chứng minh năng lực tài chính;
 
 c) Việc tuyển chọn tổ chức, cá nhân tham gia điều tra địa chất về khoáng sản phải bảo đảm nguyên tắc cạnh tranh, công khai, minh bạch;
 
 d) Việc tham gia điều tra địa chất về khoáng sản được thể hiện trong hợp đồng giữa tổ chức, cá nhân với cơ quan quản lý nhà nước có thẩm quyền về địa chất.
 
-2\. Tổ chức, cá nhân tham gia điều tra địa chất về khoáng sản có các quyền sau đây:
+2. Tổ chức, cá nhân tham gia điều tra địa chất về khoáng sản có các quyền sau đây:
 
 a) Được tham gia kiểm tra, giám sát thi công, nghiệm thu báo cáo kết quả thực hiện đề án;
 
@@ -509,48 +511,47 @@ d) Được sử dụng thông tin, dữ liệu điều tra địa chất về k
 
 đ) Trường hợp không đủ điều kiện để được cấp giấy phép thăm dò khoáng sản ở khu vực đã lựa chọn theo quy định của Luật này hoặc không có nhu cầu tiếp tục thăm dò thì không được hoàn trả kinh phí đầu tư.
 
-3\. Tổ chức, cá nhân tham gia điều tra địa chất về khoáng sản có nghĩa vụ thực hiện đúng hợp đồng đã ký với cơ quan quản lý nhà nước có thẩm quyền về địa chất.
+3. Tổ chức, cá nhân tham gia điều tra địa chất về khoáng sản có nghĩa vụ thực hiện đúng hợp đồng đã ký với cơ quan quản lý nhà nước có thẩm quyền về địa chất.
 
-4\. Chính phủ quy định chi tiết Điều này; quy định việc tuyển chọn tổ chức, cá nhân tham gia điều tra địa chất về khoáng sản.
+4. Chính phủ quy định chi tiết Điều này; quy định việc tuyển chọn tổ chức, cá nhân tham gia điều tra địa chất về khoáng sản.
 
 **Điều 23. Đăng ký hoạt động điều tra cơ bản địa chất, điều tra địa chất về khoáng sản**
 
-1\. Tổ chức thực hiện đề án, dự án, nhiệm vụ điều tra cơ bản địa chất, điều tra địa chất về khoáng sản phải đăng ký trước khi thực hiện.
+1. Tổ chức thực hiện đề án, dự án, nhiệm vụ điều tra cơ bản địa chất, điều tra địa chất về khoáng sản phải đăng ký trước khi thực hiện.
 
-2\. Tổ chức thực hiện đề án, dự án, nhiệm vụ điều tra cơ bản địa chất, điều tra địa chất về khoáng sản phải đăng ký bổ sung, đăng ký điều chỉnh khi có thay đổi về mục tiêu, nhiệm vụ, diện tích, phương pháp điều tra so với đề án, dự án, nhiệm vụ được phê duyệt.
+2. Tổ chức thực hiện đề án, dự án, nhiệm vụ điều tra cơ bản địa chất, điều tra địa chất về khoáng sản phải đăng ký bổ sung, đăng ký điều chỉnh khi có thay đổi về mục tiêu, nhiệm vụ, diện tích, phương pháp điều tra so với đề án, dự án, nhiệm vụ được phê duyệt.
 
-3\. Tổ chức, cá nhân tham gia điều tra địa chất về khoáng sản đã được tuyển chọn không phải đăng ký hoạt động điều tra địa chất về khoáng sản quy định tại khoản 1 và khoản 2 Điều này.
+3. Tổ chức, cá nhân tham gia điều tra địa chất về khoáng sản đã được tuyển chọn không phải đăng ký hoạt động điều tra địa chất về khoáng sản quy định tại khoản 1 và khoản 2 Điều này.
 
-4\. Chính phủ quy định chi tiết Điều này.
+4. Chính phủ quy định chi tiết Điều này.
 
-**Chương V  
-KHU VỰC KHOÁNG SẢN****; SỬ DỤNG ĐẤT, NƯỚC, KHU VỰC BIỂN  
- VÀ HẠ TẦNG KỸ THUẬT TRONG HOẠT ĐỘNG KHOÁNG SẢN**
+**Chương V**
 
-**Mục 1  
-KHU VỰC KHOÁNG SẢN**
+**KHU VỰC KHOÁNG SẢN; SỬ DỤNG ĐẤT, NƯỚC, KHU VỰC BIỂN VÀ HẠ TẦNG KỸ THUẬT TRONG HOẠT ĐỘNG KHOÁNG SẢN**
+
+**Mục 1. KHU VỰC KHOÁNG SẢN**
 
 **Điều 24. Phân loại khu vực khoáng sản**
 
-1\. Khu vực hoạt động khoáng sản.
+1. Khu vực hoạt động khoáng sản.
 
-2\. Khu vực quy hoạch hoạt động khoáng sản.
+2. Khu vực quy hoạch hoạt động khoáng sản.
 
-3\. Khu vực cấm hoạt động khoáng sản.
+3. Khu vực cấm hoạt động khoáng sản.
 
-4\. Khu vực tạm thời cấm hoạt động khoáng sản.
+4. Khu vực tạm thời cấm hoạt động khoáng sản.
 
-5\. Khu vực có khoáng sản phân tán, nhỏ lẻ.
+5. Khu vực có khoáng sản phân tán, nhỏ lẻ.
 
-6\. Khu vực dự trữ khoáng sản quốc gia.
+6. Khu vực dự trữ khoáng sản quốc gia.
 
 **Điều 25. Khu vực hoạt động khoáng sản, khu vực quy hoạch hoạt động khoáng sản**
 
-1\. Khu vực hoạt động khoáng sản là khu vực đã được cấp giấy phép thăm dò khoáng sản, các loại giấy phép khai thác khoáng sản, giấy phép khai thác tận thu khoáng sản đang còn hiệu lực; khu vực đóng cửa mỏ khoáng sản.
+1. Khu vực hoạt động khoáng sản là khu vực đã được cấp giấy phép thăm dò khoáng sản, các loại giấy phép khai thác khoáng sản, giấy phép khai thác tận thu khoáng sản đang còn hiệu lực; khu vực đóng cửa mỏ khoáng sản.
 
-2\. Khu vực quy hoạch hoạt động khoáng sản là khu vực có khoáng sản đã được điều tra địa chất về khoáng sản và được cơ quan nhà nước có thẩm quyền khoanh định trong quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II, quy hoạch tỉnh.
+2. Khu vực quy hoạch hoạt động khoáng sản là khu vực có khoáng sản đã được điều tra địa chất về khoáng sản và được cơ quan nhà nước có thẩm quyền khoanh định trong quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II, quy hoạch tỉnh.
 
-3\. Căn cứ vào yêu cầu bảo đảm quốc phòng, an ninh; ngăn ngừa, giảm thiểu tác động đến môi trường, cảnh quan thiên nhiên, di tích lịch sử - văn hóa; bảo vệ rừng sản xuất là rừng tự nhiên; bảo vệ công trình quy định tại điểm e khoản 1 Điều 26 của Luật này, hoạt động thăm dò, khai thác khoáng sản có thể bị hạn chế về một, một số hoặc tất cả nội dung sau đây:
+3. Căn cứ vào yêu cầu bảo đảm quốc phòng, an ninh; ngăn ngừa, giảm thiểu tác động đến môi trường, cảnh quan thiên nhiên, di tích lịch sử - văn hóa; bảo vệ rừng sản xuất là rừng tự nhiên; bảo vệ công trình quy định tại điểm e khoản 1 Điều 26 của Luật này, hoạt động thăm dò, khai thác khoáng sản có thể bị hạn chế về một, một số hoặc tất cả nội dung sau đây:
 
 a) Tổ chức, cá nhân được phép thăm dò, khai thác khoáng sản;
 
@@ -560,17 +561,17 @@ c) Thời gian khai thác khoáng sản;
 
 d) Diện tích, độ sâu khai thác khoáng sản và phương pháp thăm dò, khai thác khoáng sản.
 
-4\. Căn cứ yêu cầu của Bộ, cơ quan ngang Bộ, cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này quyết định việc hạn chế hoạt động khoáng sản quy định tại khoản 3 Điều này.
+4. Căn cứ yêu cầu của Bộ, cơ quan ngang Bộ, cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này quyết định việc hạn chế hoạt động khoáng sản quy định tại khoản 3 Điều này.
 
-**Điều 26.** **Khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản**
+**Điều 26. Khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản**
 
-1\. Khu vực cấm hoạt động khoáng sản được khoanh định trên cơ sở một trong các yếu tố sau đây:
+1. Khu vực cấm hoạt động khoáng sản được khoanh định trên cơ sở một trong các yếu tố sau đây:
 
 a) Kết quả điều tra địa chất về khoáng sản;
 
 b) Di tích lịch sử - văn hóa, danh lam thắng cảnh đã được xếp hạng hoặc được khoanh vùng bảo vệ theo quy định của pháp luật về di sản văn hóa; di sản thiên nhiên theo quy định của pháp luật về bảo vệ môi trường;
 
-c) Khu vực đất rừng đặc dụng, đất rừng phòng hộ; khu bảo tồn địa chất, khu bảo tồn biển theo quy định của pháp luật;
+c) Khu vực đấtrừng đặc dụng, đất rừng phòng hộ; khu bảo tồn địa chất, khu bảo tồn biển theo quy định của pháp luật;
 
 d) Khu vực đất quốc phòng, an ninh;
 
@@ -578,7 +579,7 @@ d) Khu vực đất quốc phòng, an ninh;
 
 e) Phạm vi bảo vệ công trình quốc phòng và khu quân sự; phạm vi hành lang bảo vệ an toàn hoặc phạm vi bảo vệ công trình giao thông, thủy lợi, thủy điện, đê điều; hệ thống cấp nước, thoát nước, xử lý chất thải; công trình năng lượng, dầu khí; công trình hạ tầng bưu chính, viễn thông, công nghệ thông tin.
 
-2\. Khu vực tạm thời cấm hoạt động khoáng sản được khoanh định khi có một trong các yêu cầu sau đây:
+2. Khu vực tạm thời cấm hoạt động khoáng sản được khoanh định khi có một trong các yêu cầu sau đây:
 
 a) Yêu cầu về quốc phòng, an ninh;
 
@@ -588,15 +589,15 @@ c) Phòng, chống, khắc phục hậu quả thiên tai;
 
 d) Khu vực sông, đoạn sông bị sạt, lở hoặc có nguy cơ bị sạt, lở bờ, bãi sông; khu vực bờ biển bị sạt, lở hoặc có nguy cơ sạt, lở bờ biển.
 
-3\. Trường hợp cần thăm dò, khai thác khoáng sản ở khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản, cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này chủ trì, phối hợp với Bộ, cơ quan ngang Bộ có liên quan căn cứ quy định của pháp luật để báo cáo Thủ tướng Chính phủ xem xét, chấp thuận.
+3. Trường hợp cần thăm dò, khai thác khoáng sản ở khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản, cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này chủ trì, phối hợp với Bộ, cơ quan ngang Bộ có liên quan căn cứ quy định của pháp luật để báo cáo Thủ tướng Chính phủ xem xét, chấp thuận.
 
-4\. Ủy ban nhân dân cấp tỉnh khoanh định, trình Thủ tướng Chính phủ phê duyệt khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản sau khi có ý kiến của Bộ Tài nguyên và Môi trường và Bộ, cơ quan ngang Bộ có liên quan.
+4. Ủy ban nhân dân cấp tỉnh khoanh định, trình Thủ tướng Chính phủ phê duyệt khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản sau khi có ý kiến của Bộ Tài nguyên và Môi trường và Bộ, cơ quan ngang Bộ có liên quan.
 
-5\. Chính phủ quy định hồ sơ, trình tự, thủ tục khoanh định khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản; quy định chi tiết khoản 3 Điều này.
+5. Chính phủ quy định hồ sơ, trình tự, thủ tục khoanh định khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản; quy định chi tiết khoản 3 Điều này.
 
 **Điều 27. Khu vực có khoáng sản phân tán, nhỏ lẻ**
 
-1\. Khu vực có khoáng sản phân tán, nhỏ lẻ là khu vực có khoáng sản nhóm I, nhóm II và chỉ phù hợp với hình thức khai thác quy mô nhỏ được xác định trên cơ sở sau đây:
+1. Khu vực có khoáng sản phân tán, nhỏ lẻ là khu vực có khoáng sản nhóm I, nhóm II và chỉ phù hợp với hình thức khai thác quy mô nhỏ được xác định trên cơ sở sau đây:
 
 a) Kết quả đánh giá tiềm năng khoáng sản trong giai đoạn điều tra địa chất về khoáng sản;
 
@@ -604,27 +605,25 @@ b) Kết quả thăm dò khoáng sản được cơ quan nhà nước có thẩm
 
 c) Phần trữ lượng khoáng sản còn lại của mỏ đã có quyết định đóng cửa mỏ khoáng sản nhưng quy mô tài nguyên, trữ lượng khoáng sản chỉ phù hợp với quy mô phân tán, nhỏ lẻ.
 
-2\. Chính phủ quy định quy mô tài nguyên, trữ lượng khoáng sản để khoanh định khu vực có khoáng sản phân tán, nhỏ lẻ; quy định quy trình, thủ tục khoanh định, công bố khu vực có khoáng sản phân tán, nhỏ lẻ.
+2. Chính phủ quy định quy mô tài nguyên, trữ lượng khoáng sản để khoanh định khu vực có khoáng sản phân tán, nhỏ lẻ; quy định quy trình, thủ tục khoanh định, công bố khu vực có khoáng sản phân tán, nhỏ lẻ.
 
 **Điều 28. Khu vực dự trữ khoáng sản quốc gia**
 
 Khu vực dự trữ khoáng sản quốc gia là khu vực có khoáng sản nhóm I, nhóm II chưa khai thác, được xác định căn cứ vào kết quả điều tra địa chất về khoáng sản, kết quả thăm dò khoáng sản, bao gồm:
 
-1\. Khu vực có khoáng sản cần dự trữ cho phát triển bền vững kinh tế - xã hội;
+1. Khu vực có khoáng sản cần dự trữ cho phát triển bền vững kinh tế - xã hội;
 
-2\. Khu vực có khoáng sản nhưng được ưu tiên phát triển kinh tế mũi nhọn, có lợi thế cạnh tranh nổi trội;
+2. Khu vực có khoáng sản nhưng được ưu tiên phát triển kinh tế mũi nhọn, có lợi thế cạnh tranh nổi trội;
 
-3\. Khu vực có khoáng sản nhưng chưa đủ điều kiện để khai thác hiệu quả hoặc có đủ điều kiện khai thác nhưng chưa có các giải pháp khắc phục tác động xấu đến môi trường.
+3. Khu vực có khoáng sản nhưng chưa đủ điều kiện để khai thác hiệu quả hoặc có đủ điều kiện khai thác nhưng chưa có các giải pháp khắc phục tác động xấu đến môi trường.
 
-**Mục 2  
-QUẢN LÝ KHOÁNG SẢN  
-TRONG KHU VỰC DỰ TRỮ KHOÁNG SẢN QUỐC GIA**
+**Mục 2. QUẢN LÝ KHOÁNG SẢN TRONG KHU VỰC DỰ TRỮ KHOÁNG SẢN QUỐC GIA**
 
 **Điều 29. Khoanh định khu vực dự trữ khoáng sản quốc gia**
 
-1\. Bộ Tài nguyên và Môi trường tổ chức khoanh định khu vực dự trữ khoáng sản quốc gia quy định tại Điều 28 của Luật này, trình Thủ tướng Chính phủ phê duyệt.
+1. Bộ Tài nguyên và Môi trường tổ chức khoanh định khu vực dự trữ khoáng sản quốc gia quy định tại Điều 28 của Luật này, trình Thủ tướng Chính phủ phê duyệt.
 
-2\. Quyết định phê duyệt khu vực dự trữ khoáng sản quốc gia bao gồm các nội dung chính sau đây:
+2. Quyết định phê duyệt khu vực dự trữ khoáng sản quốc gia bao gồm các nội dung chính sau đây:
 
 a) Tên khu vực dự trữ khoáng sản;
 
@@ -638,35 +637,35 @@ d) Thời gian dự trữ khoáng sản;
 
 e) Kế hoạch tổ chức thực hiện.
 
-3\. Chính phủ quy định việc khoanh định, phê duyệt khu vực dự trữ khoáng sản quốc gia.
+3. Chính phủ quy định việc khoanh định, phê duyệt khu vực dự trữ khoáng sản quốc gia.
 
 **Điều 30. Điều chỉnh khu vực dự trữ khoáng sản quốc gia**
 
-1\. Việc điều chỉnh khu vực dự trữ khoáng sản quốc gia được thực hiện trong các trường hợp sau đây:
+1. Việc điều chỉnh khu vực dự trữ khoáng sản quốc gia được thực hiện trong các trường hợp sau đây:
 
 a) Bổ sung khu vực dự trữ khoáng sản quốc gia khi có phát hiện mới về khoáng sản và cần dự trữ cho phát triển bền vững kinh tế - xã hội;
 
 b) Đưa ra một phần hay toàn bộ khu vực khoáng sản đã khoanh định là khu vực dự trữ khoáng sản quốc gia để bổ sung vào quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II theo quy định của pháp luật về quy hoạch; phục vụ cho mục đích quốc phòng, an ninh; thực hiện dự án đầu tư thuộc thẩm quyền quyết định hoặc chấp thuận chủ trương đầu tư của Quốc hội, Thủ tướng Chính phủ, trừ trường hợp quy định tại Điều 33 của Luật này.
 
-2\. Chính phủ quy định hồ sơ, trình tự, thủ tục điều chỉnh khu vực dự trữ khoáng sản quốc gia.
+2. Chính phủ quy định hồ sơ, trình tự, thủ tục điều chỉnh khu vực dự trữ khoáng sản quốc gia.
 
 **Điều 31. Thời gian dự trữ khoáng sản tại khu vực dự trữ khoáng sản quốc gia**
 
-1\. Thời gian dự trữ khoáng sản tại khu vực dự trữ khoáng sản quốc gia được xác định theo Chiến lược địa chất, khoáng sản và công nghiệp khai khoáng, tối thiểu 20 năm và tối đa 70 năm. Trường hợp thời gian dự trữ khoáng sản tại khu vực dự trữ khoáng sản quốc gia đã hết mà chưa có nhu cầu bổ sung khoáng sản thuộc đối tượng dự trữ vào quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II thì tiếp tục gia hạn thời gian dự trữ khoáng sản quốc gia. 
+1. Thời gian dự trữ khoáng sản tại khu vực dự trữ khoáng sản quốc gia được xác định theo Chiến lược địa chất, khoáng sản và công nghiệp khai khoáng, tối thiểu 20 năm và tối đa 70 năm. Trường hợp thời gian dự trữ khoáng sản tại khu vực dự trữ khoáng sản quốc gia đã hết mà chưa có nhu cầu bổ sung khoáng sản thuộc đối tượng dự trữ vào quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II thì tiếp tục gia hạn thời gian dự trữ khoáng sản quốc gia.
 
-2\. Thủ tướng Chính phủ quyết định thời gian dự trữ khoáng sản, gia hạn thời gian dự trữ khoáng sản cho từng khu vực dự trữ khoáng sản quốc gia.
+2. Thủ tướng Chính phủ quyết định thời gian dự trữ khoáng sản, gia hạn thời gian dự trữ khoáng sản cho từng khu vực dự trữ khoáng sản quốc gia.
 
-**Điều 32.** **Quản lý, bảo vệ khoáng sản tại khu vực dự trữ khoáng sản quốc gia**
+**Điều 32. Quản lý, bảo vệ khoáng sản tại khu vực dự trữ khoáng sản quốc gia**
 
-1\. Khoáng sản dự trữ phải được bảo vệ nghiêm ngặt theo quy định của Luật này.
+1. Khoáng sản dự trữ phải được bảo vệ nghiêm ngặt theo quy định của Luật này.
 
-2\. Trong quá trình thực hiện dự án đầu tư tại các khu vực đã khoanh định là khu vực dự trữ khoáng sản quốc gia, chủ đầu tư dự án có nghĩa vụ sau đây:
+2. Trong quá trình thực hiện dự án đầu tư tại các khu vực đã khoanh định là khu vực dự trữ khoáng sản quốc gia, chủ đầu tư dự án có nghĩa vụ sau đây:
 
 a) Bảo vệ khoáng sản trong phạm vi khu vực triển khai dự án;
 
 b) Không lợi dụng việc thực hiện dự án đầu tư, xây dựng công trình để khai thác, thu hồi trái phép khoáng sản dự trữ.
 
-3\. Trường hợp chủ đầu tư dự án vi phạm quy định tại điểm b khoản 2 Điều này, tùy theo tính chất, mức độ vi phạm và khối lượng khoáng sản khai thác, thu hồi trái phép, việc xử lý hành vi vi phạm được thực hiện theo hình thức sau đây:
+3. Trường hợp chủ đầu tư dự án vi phạm quy định tại điểm b khoản 2 Điều này, tùy theo tính chất, mức độ vi phạm và khối lượng khoáng sản khai thác, thu hồi trái phép, việc xử lý hành vi vi phạm được thực hiện theo hình thức sau đây:
 
 a) Xử phạt vi phạm hành chính;
 
@@ -678,11 +677,11 @@ d) Thu hồi giấy chứng nhận đăng ký đầu tư;
 
 đ) Truy cứu trách nhiệm hình sự.
 
-4\. Các vi phạm quy định tại khoản 3 Điều này nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật.
+4. Các vi phạm quy định tại khoản 3 Điều này nếu gây thiệt hại thì phải bồi thường theo quy định của pháp luật.
 
-**Điều 33.** **Thực hiện dự án đầu tư tại khu vực dự trữ khoáng sản quốc gia**
+**Điều 33. Thực hiện dự án đầu tư tại khu vực dự trữ khoáng sản quốc gia**
 
-1\. Các dự án sau đây được thực hiện tại khu vực dự trữ khoáng sản quốc gia:
+1. Các dự án sau đây được thực hiện tại khu vực dự trữ khoáng sản quốc gia:
 
 a) Dự án đầu tư thuộc thẩm quyền quyết định hoặc chấp thuận chủ trương đầu tư của Quốc hội;
 
@@ -692,9 +691,9 @@ c) Thăm dò, khai thác khoáng sản không thuộc đối tượng dự trữ
 
 d) Dự án đầu tư khác không thuộc trường hợp có thời hạn sử dụng đất ổn định lâu dài hoặc không thuộc trường hợp có thời gian hoạt động dài hơn thời gian dự trữ khoáng sản còn lại.
 
-2\. Tổ chức, cá nhân thực hiện dự án đầu tư tại khu vực dự trữ khoáng sản quốc gia phải đánh giá mức độ ảnh hưởng đến khoáng sản thuộc đối tượng dự trữ trong phạm vi dự án đầu tư theo quy định tại khoản 3 Điều này. Thời điểm đánh giá được thực hiện trong giai đoạn nghiên cứu tiền khả thi hoặc báo cáo đề xuất chấp thuận chủ trương đầu tư dự án.
+2. Tổ chức, cá nhân thực hiện dự án đầu tư tại khu vực dự trữ khoáng sản quốc gia phải đánh giá mức độ ảnh hưởng đến khoáng sản thuộc đối tượng dự trữ trong phạm vi dự án đầu tư theo quy định tại khoản 3 Điều này. Thời điểm đánh giá được thực hiện trong giai đoạn nghiên cứu tiền khả thi hoặc báo cáo đề xuất chấp thuận chủ trương đầu tư dự án.
 
-3\. Nội dung đánh giá mức độ ảnh hưởng đến khoáng sản thuộc đối tượng dự trữ bao gồm:
+3. Nội dung đánh giá mức độ ảnh hưởng đến khoáng sản thuộc đối tượng dự trữ bao gồm:
 
 a) Tổng quan khoáng sản thuộc đối tượng dự trữ trong diện tích dự án, gồm mức độ điều tra địa chất về khoáng sản; hiện trạng tài nguyên, trữ lượng và thực trạng hoạt động thăm dò, khai thác khoáng sản (nếu có);
 
@@ -704,58 +703,55 @@ c) Giải pháp bảo vệ khoáng sản thuộc đối tượng dự trữ nằ
 
 d) Cam kết thực hiện nghĩa vụ bảo vệ khoáng sản chưa khai thác trong phạm vi dự án đầu tư.
 
-4\. Việc quyết định hoặc chấp thuận chủ trương đầu tư tại khu vực dự trữ khoáng sản quốc gia chỉ được thực hiện sau khi có ý kiến chấp thuận bằng văn bản của cơ quan quản lý nhà nước có thẩm quyền về địa chất, khoáng sản đối với nội dung quy định tại khoản 3 Điều này.
+4. Việc quyết định hoặc chấp thuận chủ trương đầu tư tại khu vực dự trữ khoáng sản quốc gia chỉ được thực hiện sau khi có ý kiến chấp thuận bằng văn bản của cơ quan quản lý nhà nước có thẩm quyền về địa chất, khoáng sản đối với nội dung quy định tại khoản 3 Điều này.
 
-5\. Tổ chức, cá nhân thực hiện dự án đầu tư tại khu vực dự trữ khoáng sản quốc gia phải theo dõi, giám sát và kịp thời báo cáo Bộ Tài nguyên và Môi trường và Ủy ban nhân dân cấp tỉnh nơi có khu vực dự trữ khoáng sản quốc gia đối với trường hợp khi thi công xây dựng hoặc trong quá trình vận hành dự án mà có tác động trực tiếp đến loại khoáng sản thuộc đối tượng dự trữ để xử lý theo quy định tại các khoản 6, 7, 8 và 9 Điều này.
+5. Tổ chức, cá nhân thực hiện dự án đầu tư tại khu vực dự trữ khoáng sản quốc gia phải theo dõi, giám sát và kịp thời báo cáo Bộ Tài nguyên và Môi trường và Ủy ban nhân dân cấp tỉnh nơi có khu vực dự trữ khoáng sản quốc gia đối với trường hợp khi thi công xây dựng hoặc trong quá trình vận hành dự án mà có tác động trực tiếp đến loại khoáng sản thuộc đối tượng dự trữ để xử lý theo quy định tại các khoản 6, 7, 8 và 9 Điều này.
 
-6\. Trường hợp khi triển khai thi công các hạng mục công trình của dự án đầu tư tại khu vực dự trữ khoáng sản quốc gia mà bắt buộc phải san gạt, đào đắp bề mặt địa hình, tác động trực tiếp đến khoáng sản dự trữ thì tổ chức, cá nhân thực hiện dự án đầu tư phải báo cáo Bộ Tài nguyên và Môi trường, Ủy ban nhân dân cấp tỉnh nơi có dự án để tổ chức kiểm tra, quyết định việc cho phép thu hồi hoặc không thu hồi khoáng sản.
+6. Trường hợp khi triển khai thi công các hạng mục công trình của dự án đầu tư tại khu vực dự trữ khoáng sản quốc gia mà bắt buộc phải san gạt, đào đắp bề mặt địa hình, tác động trực tiếp đến khoáng sản dự trữ thì tổ chức, cá nhân thực hiện dự án đầu tư phải báo cáo Bộ Tài nguyên và Môi trường, Ủy ban nhân dân cấp tỉnh nơi có dự án để tổ chức kiểm tra, quyết định việc cho phép thu hồi hoặc không thu hồi khoáng sản.
 
-7\. Ủy ban nhân dân cấp tỉnh nơi có dự án đầu tư quy định tại khoản 2 Điều này xem xét cấp giấy xác nhận đăng ký thu hồi khoáng sản. Đối với khoáng sản thuộc thẩm quyền cấp giấy phép của Bộ Tài nguyên và Môi trường, Ủy ban nhân dân cấp tỉnh xem xét cấp giấy xác nhận đăng ký thu hồi khoáng sản sau khi được Bộ Tài nguyên và Môi trường chấp thuận bằng văn bản.
+7. Ủy ban nhân dân cấp tỉnh nơi có dự án đầu tư quy định tại khoản 2 Điều này xem xét cấp giấy xác nhận đăng ký thu hồi khoáng sản. Đối với khoáng sản thuộc thẩm quyền cấp giấy phép của Bộ Tài nguyên và Môi trường, Ủy ban nhân dân cấp tỉnh xem xét cấp giấy xác nhận đăng ký thu hồi khoáng sản sau khi được Bộ Tài nguyên và Môi trường chấp thuận bằng văn bản.
 
-8\. Việc thu hồi khoáng sản được thực hiện theo nguyên tắc sau đây:
+8. Việc thu hồi khoáng sản được thực hiện theo nguyên tắc sau đây:
 
 a) Thu hồi khoáng sản được thực hiện đồng thời khi triển khai dự án;
 
 b) Chủ đầu tư dự án phải tổ chức thu hồi khoáng sản theo quy định tại khoản 9 Điều này. Trường hợp không tổ chức thu hồi khoáng sản, chủ đầu tư phải đề xuất tổ chức, đơn vị khác để thu hồi và trình Ủy ban nhân dân cấp tỉnh xem xét, quyết định.
 
-9\. Tổ chức, cá nhân thực hiện dự án đầu tư tại khu vực dự trữ khoáng sản quốc gia theo quy định tại khoản 2 Điều này được phép thu hồi khoáng sản có quyền và nghĩa vụ theo quy định tại Điều 76 của Luật này.
+9. Tổ chức, cá nhân thực hiện dự án đầu tư tại khu vực dự trữ khoáng sản quốc gia theo quy định tại khoản 2 Điều này được phép thu hồi khoáng sản có quyền và nghĩa vụ theo quy định tại Điều 76 của Luật này.
 
-10\. Chính phủ quy định chi tiết Điều này.
+10. Chính phủ quy định chi tiết Điều này.
 
 **Điều 34. Bồi thường thiệt hại khi dự án đầu tư bị chấm dứt hoạt động tại khu vực dự trữ khoáng sản quốc gia**
 
-1\. Trường hợp Thủ tướng Chính phủ giảm diện tích khu vực dự trữ khoáng sản quốc gia, giảm thời gian dự trữ khoáng sản quốc gia để phục vụ cho mục đích quốc phòng, an ninh hoặc dự án quan trọng quốc gia dẫn đến phải thu hồi một phần hoặc toàn bộ đất dự án đầu tư thì chủ đầu tư dự án tại khu vực dự trữ khoáng sản quốc gia được bồi thường, hỗ trợ theo quy định của pháp luật về đất đai.
+1. Trường hợp Thủ tướng Chính phủ giảm diện tích khu vực dự trữ khoáng sản quốc gia, giảm thời gian dự trữ khoáng sản quốc gia để phục vụ cho mục đích quốc phòng, an ninh hoặc dự án quan trọng quốc gia dẫn đến phải thu hồi một phần hoặc toàn bộ đất dự án đầu tư thì chủ đầu tư dự án tại khu vực dự trữ khoáng sản quốc gia được bồi thường, hỗ trợ theo quy định của pháp luật về đất đai.
 
-2\. Nhà nước không chịu trách nhiệm bồi thường thiệt hại cho chủ đầu tư dự án tại khu vực dự trữ khoáng sản quốc gia khi đã hết thời gian dự trữ khoáng sản theo quyết định của Thủ tướng Chính phủ.
+2. Nhà nước không chịu trách nhiệm bồi thường thiệt hại cho chủ đầu tư dự án tại khu vực dự trữ khoáng sản quốc gia khi đã hết thời gian dự trữ khoáng sản theo quyết định của Thủ tướng Chính phủ.
 
-**Mục 3**  
-**SỬ DỤNG ĐẤT, NƯỚC, KHU VỰC BIỂN VÀ HẠ TẦNG KỸ THUẬT  
-TRONG HOẠT ĐỘNG KHOÁNG SẢN**
+**Mục 3. SỬ DỤNG ĐẤT, NƯỚC, KHU VỰC BIỂN VÀ HẠ TẦNG KỸ THUẬT TRONG HOẠT ĐỘNG KHOÁNG SẢN**
 
-**Điều 35. Sử dụng đất, khu vực biển, hạ tầng kỹ thuật trong hoạt động khoáng sản**
+**Điều 35. Sử dụng đất, khu vực biển, hạ tầng kỹ thuật trong hoạt động khoáng sản**
 
-1\. Việc sử dụng đất trong hoạt động khoáng sản được thực hiện theo quy định của pháp luật về đất đai.
+1. Việc sử dụng đất trong hoạt động khoáng sản được thực hiện theo quy định của pháp luật về đất đai.
 
-2\. Việc sử dụng khu vực biển trong hoạt động khoáng sản được thực hiện theo quy định của pháp luật về biển, pháp luật về tài nguyên, môi trường biển và hải đảo và quy định khác của pháp luật có liên quan.
+2. Việc sử dụng khu vực biển trong hoạt động khoáng sản được thực hiện theo quy định của pháp luật về biển, pháp luật về tài nguyên, môi trường biển và hải đảo và quy định khác của pháp luật có liên quan.
 
-3\. Tổ chức, cá nhân hoạt động khoáng sản được sử dụng hệ thống giao thông, thông tin liên lạc, điện và hạ tầng kỹ thuật khác để phục vụ hoạt động khoáng sản theo quy định của pháp luật.
+3. Tổ chức, cá nhân hoạt động khoáng sản được sử dụng hệ thống giao thông, thông tin liên lạc, điện và hạ tầng kỹ thuật khác để phục vụ hoạt động khoáng sản theo quy định của pháp luật.
 
-**Điều 36.** **Sử dụng nước, xả thải vào nguồn nước trong hoạt động khoáng sản**
+**Điều 36. Sử dụng nước, xả thải vào nguồn nước trong hoạt động khoáng sản**
 
-1\. Tổ chức, cá nhân hoạt động khoáng sản được khai thác, sử dụng nước và có trách nhiệm bảo vệ tài nguyên nước theo quy định của pháp luật về tài nguyên nước; bảo đảm sử dụng nước tiết kiệm, hiệu quả và có các biện pháp bảo đảm đời sống dân cư, tránh xung đột với các hoạt động khác trong việc khai thác, sử dụng tài nguyên nước.
+1. Tổ chức, cá nhân hoạt động khoáng sản được khai thác, sử dụng nước và có trách nhiệm bảo vệ tài nguyên nước theo quy định của pháp luật về tài nguyên nước; bảo đảm sử dụng nước tiết kiệm, hiệu quả và có các biện pháp bảo đảm đời sống dân cư, tránh xung đột với các hoạt động khác trong việc khai thác, sử dụng tài nguyên nước.
 
-2\. Việc xả nước thải trong hoạt động khoáng sản phải thực hiện theo quy định của pháp luật về bảo vệ môi trường và quy định khác của pháp luật có liên quan.
+2. Việc xả nước thải trong hoạt động khoáng sản phải thực hiện theo quy định của pháp luật về bảo vệ môi trường và quy định khác của pháp luật có liên quan.
 
-**Chương VI  
-HOẠT ĐỘNG KHOÁNG SẢN, THU HỒI KHOÁNG SẢN,  
-CHẾ BIẾN KHOÁNG SẢN**
+**Chương VI**
 
-**Mục 1  
-THĂM DÒ KHOÁNG SẢN NHÓM I, NHÓM II, NHÓM III**
+**HOẠT ĐỘNG KHOÁNG SẢN, THU HỒI KHOÁNG SẢN, CHẾ BIẾN KHOÁNG SẢN**
+
+**Mục 1. THĂM DÒ KHOÁNG SẢN NHÓM I, NHÓM II, NHÓM III**
 
 **Điều 37. Tổ chức, cá nhân thăm dò khoáng sản**
 
-1\. Tổ chức đăng ký kinh doanh ngành, nghề thuộc lĩnh vực hoạt động khoáng sản được xem xét cấp giấy phép thăm dò khoáng sản bao gồm:
+1. Tổ chức đăng ký kinh doanh ngành, nghề thuộc lĩnh vực hoạt động khoáng sản được xem xét cấp giấy phép thăm dò khoáng sản bao gồm:
 
 a) Doanh nghiệp được thành lập theo Luật Doanh nghiệp;
 
@@ -763,19 +759,19 @@ b) Hợp tác xã, liên hiệp hợp tác xã được thành lập theo Luật
 
 c) Doanh nghiệp nước ngoài có văn phòng đại diện hoặc chi nhánh tại Việt Nam.
 
-2\. Cá nhân hoặc các thành viên hộ gia đình đăng ký thành lập hộ kinh doanh có đăng ký kinh doanh ngành, nghề thuộc lĩnh vực hoạt động khoáng sản được xem xét cấp giấy phép thăm dò khoáng sản nhóm III.
+2. Cá nhân hoặc các thành viên hộ gia đình đăng ký thành lập hộ kinh doanh có đăng ký kinh doanh ngành, nghề thuộc lĩnh vực hoạt động khoáng sản được xem xét cấp giấy phép thăm dò khoáng sản nhóm III.
 
-3\. Tổ chức, cá nhân quy định tại khoản 1 và khoản 2 Điều này phải có đủ năng lực tài chính để thực hiện đề án thăm dò khoáng sản.
+3. Tổ chức, cá nhân quy định tại khoản 1 và khoản 2 Điều này phải có đủ năng lực tài chính để thực hiện đề án thăm dò khoáng sản.
 
-4\. Tổ chức được cấp giấy phép thăm dò khoáng sản đáp ứng đủ điều kiện quy định tại khoản 1 Điều 38 của Luật này thì được phép trực tiếp thực hiện hoạt động thăm dò khoáng sản.
+4. Tổ chức được cấp giấy phép thăm dò khoáng sản đáp ứng đủ điều kiện quy định tại khoản 1 Điều 38 của Luật này thì được phép trực tiếp thực hiện hoạt động thăm dò khoáng sản.
 
 Tổ chức được cấp giấy phép thăm dò khoáng sản không đáp ứng đủ điều kiện quy định tại khoản 1 Điều 38 của Luật này, hộ kinh doanh được cấp giấy phép thăm dò khoáng sản được phép ký hợp đồng với tổ chức kinh doanh dịch vụ thăm dò khoáng sản để thực hiện thăm dò khoáng sản theo giấy phép thăm dò khoáng sản.
 
-5\. Chính phủ quy định chi tiết khoản 3 Điều này.
+5. Chính phủ quy định chi tiết khoản 3 Điều này.
 
 **Điều 38. Điều kiện của tổ chức kinh doanh dịch vụ thăm dò khoáng sản**
 
-1\. Tổ chức kinh doanh dịch vụ thăm dò khoáng sản phải có đủ các điều kiện sau đây:
+1. Tổ chức kinh doanh dịch vụ thăm dò khoáng sản phải có đủ các điều kiện sau đây:
 
 a) Được thành lập theo quy định của pháp luật;
 
@@ -785,7 +781,7 @@ c) Có đội ngũ công nhân kỹ thuật chuyên ngành địa chất và chu
 
 d) Có thiết bị, công cụ chuyên dùng cần thiết để thi công công trình thăm dò khoáng sản.
 
-2\. Chính phủ quy định chi tiết Điều này.
+2. Chính phủ quy định chi tiết Điều này.
 
 **Điều 39. Lựa chọn tổ chức, cá nhân thăm dò khoáng sản ở khu vực không đấu giá quyền khai thác khoáng sản**
 
@@ -793,17 +789,17 @@ Tổ chức, cá nhân quy định tại Điều 37 của Luật này được l
 
 **Điều 40. Khảo sát thực địa để lập đề án thăm dò khoáng sản**
 
-1\. Trong quá trình lập đề án thăm dò khoáng sản, tổ chức, cá nhân trúng đấu giá quyền khai thác khoáng sản được khảo sát thực địa, lấy mẫu trên mặt đất.
+1. Trong quá trình lập đề án thăm dò khoáng sản, tổ chức, cá nhân trúng đấu giá quyền khai thác khoáng sản được khảo sát thực địa, lấy mẫu trên mặt đất.
 
-2\. Đối với khu vực không đấu giá quyền khai thác khoáng sản, trong quá trình lập đề án thăm dò khoáng sản, tổ chức, cá nhân được khảo sát thực địa, lấy mẫu trên mặt đất để lựa chọn diện tích thăm dò.
+2. Đối với khu vực không đấu giá quyền khai thác khoáng sản, trong quá trình lập đề án thăm dò khoáng sản, tổ chức, cá nhân được khảo sát thực địa, lấy mẫu trên mặt đất để lựa chọn diện tích thăm dò.
 
-3\. Trước khi tiến hành khảo sát thực địa, tổ chức, cá nhân quy định tại khoản 1 và khoản 2 Điều này phải có văn bản thông báo đến Ủy ban nhân dân cấp tỉnh nơi có khu vực dự kiến thăm dò khoáng sản.
+3. Trước khi tiến hành khảo sát thực địa, tổ chức, cá nhân quy định tại khoản 1 và khoản 2 Điều này phải có văn bản thông báo đến Ủy ban nhân dân cấp tỉnh nơi có khu vực dự kiến thăm dò khoáng sản.
 
-4\. Chính phủ quy định chi tiết Điều này_._
+4. Chính phủ quy định chi tiết Điều này*.*
 
 **Điều 41. Diện tích khu vực thăm dò khoáng sản**
 
-1\. Trừ trường hợp quy định tại khoản 3 Điều này, diện tích khu vực thăm dò của 01 giấy phép đối với loại hoặc nhóm khoáng sản, được quy định như sau:
+1. Trừ trường hợp quy định tại khoản 3 Điều này, diện tích khu vực thăm dò của 01 giấy phép đối với loại hoặc nhóm khoáng sản, được quy định như sau:
 
 a) Không quá 100 kilômét vuông (km2) đối với than, bôxít;
 
@@ -817,15 +813,15 @@ d) Không quá 200 kilômét vuông (km2) đối với khoáng sản ở vùng b
 
 e) Diện tích khu vực thăm dò đối với nước khoáng thiên nhiên, nước nóng thiên nhiên được xác định theo đề án thăm dò.
 
-2\. Mức sâu thăm dò phải bảo đảm khống chế hết thân khoáng sản và các cấu trúc địa chất có triển vọng đối với loại khoáng sản dự kiến thăm dò theo đề án thăm dò khoáng sản, trừ khoáng sản làm vật liệu xây dựng, khoáng sản làm vật liệu xây dựng thông thường.
+2. Mức sâu thăm dò phải bảo đảm khống chế hết thân khoáng sản và các cấu trúc địa chất có triển vọng đối với loại khoáng sản dự kiến thăm dò theo đề án thăm dò khoáng sản, trừ khoáng sản làm vật liệu xây dựng, khoáng sản làm vật liệu xây dựng thông thường.
 
-3\. Trường hợp thăm dò khoáng sản chiến lược, quan trọng theo thỏa thuận trong hiệp định liên Chính phủ, diện tích khu vực thăm dò khoáng sản được thực hiện theo hiệp định.
+3. Trường hợp thăm dò khoáng sản chiến lược, quan trọng theo thỏa thuận trong hiệp định liên Chính phủ, diện tích khu vực thăm dò khoáng sản được thực hiện theo hiệp định.
 
 **Điều 42. Đề án thăm dò khoáng sản**
 
-1\. Đề án thăm dò khoáng sản phải có các nội dung chính sau đây:
+1. Đề án thăm dò khoáng sản phải có các nội dung chính sau đây:
 
-a) Hệ phương pháp thăm dò phù hợp để xác định được trữ lượng, chất lượng khoáng sản, điều kiện khai thác, khả năng chế biến và sử dụng các loại khoáng sản có trong diện tích thăm dò; 
+a) Hệ phương pháp thăm dò phù hợp để xác định được trữ lượng, chất lượng khoáng sản, điều kiện khai thác, khả năng chế biến và sử dụng các loại khoáng sản có trong diện tích thăm dò;
 
 b) Khối lượng công tác thăm dò, số lượng, chủng loại mẫu vật cần lấy phân tích, bảo đảm đánh giá đầy đủ tài nguyên, trữ lượng và chất lượng khoáng sản theo mục tiêu thăm dò;
 
@@ -837,17 +833,17 @@ d) Phương pháp tính trữ lượng khoáng sản;
 
 e) Dự toán chi phí thăm dò khoáng sản được lập theo bộ đơn giá các công trình địa chất và các bộ đơn giá khác có liên quan do cơ quan quản lý nhà nước có thẩm quyền quy định;
 
-g) Thời gian thực hiện đề án thăm dò khoáng sản. 
+g) Thời gian thực hiện đề án thăm dò khoáng sản.
 
-2\. Cơ quan có thẩm quyền cấp giấy phép thăm dò khoáng sản có trách nhiệm tổ chức thẩm định đề án thăm dò khoáng sản trước khi cấp giấy phép thăm dò khoáng sản.
+2. Cơ quan có thẩm quyền cấp giấy phép thăm dò khoáng sản có trách nhiệm tổ chức thẩm định đề án thăm dò khoáng sản trước khi cấp giấy phép thăm dò khoáng sản.
 
-3\. Chính phủ quy định hồ sơ, trình tự, thủ tục thẩm định đề án thăm dò khoáng sản.
+3. Chính phủ quy định hồ sơ, trình tự, thủ tục thẩm định đề án thăm dò khoáng sản.
 
-4\. Bộ trưởng Bộ Tài nguyên và Môi trường quy định mẫu, nội dung đề án thăm dò khoáng sản; phương pháp, khối lượng công tác thăm dò khoáng sản đối với từng loại khoáng sản và bộ đơn giá các công trình địa chất.
+4. Bộ trưởng Bộ Tài nguyên và Môi trường quy định mẫu, nội dung đề án thăm dò khoáng sản; phương pháp, khối lượng công tác thăm dò khoáng sản đối với từng loại khoáng sản và bộ đơn giá các công trình địa chất.
 
 **Điều 43. Nguyên tắc cấp giấy phép thăm dò khoáng sản**
 
-1\. Việc cấp giấy phép thăm dò khoáng sản phải bảo đảm các nguyên tắc sau đây:
+1. Việc cấp giấy phép thăm dò khoáng sản phải bảo đảm các nguyên tắc sau đây:
 
 a) Giấy phép thăm dò khoáng sản chỉ được cấp ở khu vực không có tổ chức, cá nhân đang thăm dò hoặc khai thác khoáng sản hợp pháp, trừ trường hợp quy định tại điểm g khoản này;
 
@@ -865,17 +861,17 @@ g) Giấy phép thăm dò khoáng sản có thể được cấp trùng một ph
 
 h) Mỗi tổ chức, cá nhân được cấp không quá 05 giấy phép thăm dò đối với một loại khoáng sản, không kể giấy phép thăm dò khoáng sản đã hết hiệu lực. Trường hợp cấp quá 05 giấy phép cho cùng 01 tổ chức phải được Thủ tướng Chính phủ chấp thuận bằng văn bản.
 
-2\. Việc thăm dò khoáng sản tại khu vực cấm hoạt động khoáng sản hoặc tạm thời cấm hoạt động khoáng sản được thực hiện trong trường hợp phương pháp, công nghệ thăm dò không ảnh hưởng xấu đến đối tượng cần bảo vệ trong khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản và theo quy định tại khoản 3 Điều 26 của Luật này.
+2. Việc thăm dò khoáng sản tại khu vực cấm hoạt động khoáng sản hoặc tạm thời cấm hoạt động khoáng sản được thực hiện trong trường hợp phương pháp, công nghệ thăm dò không ảnh hưởng xấu đến đối tượng cần bảo vệ trong khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản và theo quy định tại khoản 3 Điều 26 của Luật này.
 
-3\. Việc cấp giấy phép thăm dò khoáng sản tại một số khu vực có khoáng sản chiến lược, quan trọng, trừ các trường hợp quy định tại Điều 49 của Luật này, phải bảo đảm các nguyên tắc quy định tại Điều này và theo quy định của Chính phủ.
+3. Việc cấp giấy phép thăm dò khoáng sản tại một số khu vực có khoáng sản chiến lược, quan trọng, trừ các trường hợp quy định tại Điều 49 của Luật này, phải bảo đảm các nguyên tắc quy định tại Điều này và theo quy định của Chính phủ.
 
-4\. Chính phủ quy định chi tiết Điều này; quy định tổ chức được phép thăm dò khoáng sản chiến lược, quan trọng.
+4. Chính phủ quy định chi tiết Điều này; quy định tổ chức được phép thăm dò khoáng sản chiến lược, quan trọng.
 
 **Điều 44. Giấy phép thăm dò khoáng sản**
 
-1\. Giấy phép thăm dò khoáng sản phải thể hiện các thông tin về tên tổ chức, cá nhân thăm dò khoáng sản, địa danh khu vực, nội dung giấy phép và các yêu cầu đối với tổ chức, cá nhân được cấp giấy phép thăm dò khoáng sản.
+1. Giấy phép thăm dò khoáng sản phải thể hiện các thông tin về tên tổ chức, cá nhân thăm dò khoáng sản, địa danh khu vực, nội dung giấy phép và các yêu cầu đối với tổ chức, cá nhân được cấp giấy phép thăm dò khoáng sản.
 
-2\. Nội dung giấy phép thăm dò khoáng sản bao gồm:
+2. Nội dung giấy phép thăm dò khoáng sản bao gồm:
 
 a) Loại khoáng sản; vị trí, diện tích khu vực thăm dò khoáng sản;
 
@@ -883,13 +879,13 @@ b) Phương pháp, khối lượng thăm dò khoáng sản;
 
 c) Thời hạn thăm dò khoáng sản.
 
-3\. Yêu cầu đối với tổ chức, cá nhân được cấp giấy phép thăm dò khoáng sản bao gồm:
+3. Yêu cầu đối với tổ chức, cá nhân được cấp giấy phép thăm dò khoáng sản bao gồm:
 
 a) Nghĩa vụ tài chính, nghĩa vụ khác có liên quan theo quy định của pháp luật;
 
 b) Trách nhiệm của tổ chức, cá nhân được cấp giấy phép và các yêu cầu khác (nếu có) theo quy định của pháp luật.
 
-4\. Thời hạn thăm dò khoáng sản quy định trong giấy phép thăm dò khoáng sản bao gồm thời gian thực hiện đề án thăm dò khoáng sản, thời gian lập báo cáo kết quả thăm dò được thực hiện như sau:
+4. Thời hạn thăm dò khoáng sản quy định trong giấy phép thăm dò khoáng sản bao gồm thời gian thực hiện đề án thăm dò khoáng sản, thời gian lập báo cáo kết quả thăm dò được thực hiện như sau:
 
 a) Không quá 48 tháng và có thể được gia hạn không quá 02 lần với tổng thời gian gia hạn không quá 24 tháng, trừ trường hợp quy định tại điểm b khoản này;
 
@@ -899,35 +895,35 @@ c) Trường hợp tổ chức, cá nhân đã thực hiện đầy đủ khối
 
 d) Đối với việc thăm dò khoáng sản chiến lược, quan trọng theo hiệp định liên Chính phủ, thời gian thăm dò được thực hiện theo thỏa thuận quy định trong hiệp định.
 
-5\. Chính phủ quy định chi tiết điểm c khoản 4 Điều này.
+5. Chính phủ quy định chi tiết điểm c khoản 4 Điều này.
 
-6\. Bộ trưởng Bộ Tài nguyên và Môi trường quy định mẫu giấy phép thăm dò khoáng sản.
+6. Bộ trưởng Bộ Tài nguyên và Môi trường quy định mẫu giấy phép thăm dò khoáng sản.
 
 **Điều 45. Cấp, gia hạn, cấp lại, điều chỉnh, trả lại giấy phép thăm dò khoáng sản**
 
-1\. Việc cấp giấy phép thăm dò khoáng sản, bao gồm cả trường hợp quy định tại điểm đ khoản 2 Điều 4 của Luật này, được thực hiện theo nguyên tắc quy định tại Điều 43 của Luật này và căn cứ sau đây:
+1. Việc cấp giấy phép thăm dò khoáng sản, bao gồm cả trường hợp quy định tại điểm đ khoản 2 Điều 4 của Luật này, được thực hiện theo nguyên tắc quy định tại Điều 43 của Luật này và căn cứ sau đây:
 
 a) Kết quả thẩm định hồ sơ đề nghị cấp giấy phép thăm dò khoáng sản;
 
 b) Mục đích, nhu cầu thăm dò khoáng sản thể hiện trong văn bản đề nghị cấp giấy phép.
 
-2\. Chính phủ quy định chi tiết khoản 1 Điều này; quy định các trường hợp gia hạn, cấp lại, điều chỉnh, trả lại giấy phép thăm dò khoáng sản; quy định cơ quan thẩm định; quy định hồ sơ, trình tự, thủ tục cấp, gia hạn, cấp lại, điều chỉnh, trả lại giấy phép thăm dò khoáng sản.
+2. Chính phủ quy định chi tiết khoản 1 Điều này; quy định các trường hợp gia hạn, cấp lại, điều chỉnh, trả lại giấy phép thăm dò khoáng sản; quy định cơ quan thẩm định; quy định hồ sơ, trình tự, thủ tục cấp, gia hạn, cấp lại, điều chỉnh, trả lại giấy phép thăm dò khoáng sản.
 
-3\. Bộ trưởng Bộ Tài nguyên và Môi trường quy định mẫu báo cáo, tài liệu quy định tại Điều này.
+3. Bộ trưởng Bộ Tài nguyên và Môi trường quy định mẫu báo cáo, tài liệu quy định tại Điều này.
 
 **Điều 46. Chuyển nhượng quyền thăm dò khoáng sản**
 
-1\. Tổ chức, cá nhân đã được cấp giấy phép thăm dò khoáng sản chỉ được  chuyển nhượng quyền thăm dò khoáng sản khi đã thực hiện được ít nhất 50% dự toán của đề án thăm dò khoáng sản.
+1. Tổ chức, cá nhân đã được cấp giấy phép thăm dò khoáng sản chỉ được  chuyển nhượng quyền thăm dò khoáng sản khi đã thực hiện được ít nhất 50% dự toán của đề án thăm dò khoáng sản.
 
-2\. Tổ chức, cá nhân nhận chuyển nhượng quyền thăm dò khoáng sản phải có đủ điều kiện để được cấp giấy phép thăm dò khoáng sản theo quy định của Luật này.
+2. Tổ chức, cá nhân nhận chuyển nhượng quyền thăm dò khoáng sản phải có đủ điều kiện để được cấp giấy phép thăm dò khoáng sản theo quy định của Luật này.
 
-3\. Việc chuyển nhượng quyền thăm dò khoáng sản phải được cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này cấp giấy phép thăm dò khoáng sản cho tổ chức, cá nhân nhận chuyển nhượng. Thời hạn thăm dò khoáng sản là thời gian còn lại của giấy phép thăm dò khoáng sản đã cấp.
+3. Việc chuyển nhượng quyền thăm dò khoáng sản phải được cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này cấp giấy phép thăm dò khoáng sản cho tổ chức, cá nhân nhận chuyển nhượng. Thời hạn thăm dò khoáng sản là thời gian còn lại của giấy phép thăm dò khoáng sản đã cấp.
 
-4\. Chính phủ quy định chi tiết việc chuyển nhượng quyền thăm dò khoáng sản; quy định cơ quan thẩm định; quy định hồ sơ, trình tự, thủ tục chuyển nhượng quyền thăm dò khoáng sản.
+4. Chính phủ quy định chi tiết việc chuyển nhượng quyền thăm dò khoáng sản; quy định cơ quan thẩm định; quy định hồ sơ, trình tự, thủ tục chuyển nhượng quyền thăm dò khoáng sản.
 
 **Điều 47. Quyền và nghĩa vụ của tổ chức, cá nhân được cấp giấy phép thăm dò khoáng sản**
 
-1\. Tổ chức, cá nhân được cấp giấy phép thăm dò khoáng sản có các quyền sau đây:
+1. Tổ chức, cá nhân được cấp giấy phép thăm dò khoáng sản có các quyền sau đây:
 
 a) Sử dụng thông tin về khoáng sản liên quan đến mục đích thăm dò và khu vực thăm dò và có quyền chuyển nhượng, thừa kế thông tin đó theo quy định của pháp luật;
 
@@ -947,7 +943,7 @@ h) Khiếu nại, tố cáo, khởi kiện theo quy định của pháp luật;
 
 i) Quyền khác theo quy định của pháp luật.
 
-2\. Tổ chức, cá nhân được cấp giấy phép thăm dò khoáng sản có các nghĩa vụ sau đây:
+2. Tổ chức, cá nhân được cấp giấy phép thăm dò khoáng sản có các nghĩa vụ sau đây:
 
 a) Thực hiện nghĩa vụ tài chính theo quy định của pháp luật;
 
@@ -963,63 +959,63 @@ e) Thực hiện các công việc khi giấy phép thăm dò khoáng sản ch�
 
 g) Nghĩa vụ khác theo quy định của pháp luật.
 
-3\. Trường hợp thăm dò khoáng sản độc hại, ngoài việc thực hiện nghĩa vụ quy định tại khoản 2 Điều này, tổ chức, cá nhân thăm dò khoáng sản độc hại phải thực hiện các biện pháp ngăn ngừa ô nhiễm môi trường, tác động xấu đến sức khỏe con người; trường hợp đã gây ô nhiễm môi trường thì phải xác định đầy đủ các yếu tố gây ô nhiễm, thực hiện các biện pháp khắc phục, giảm thiểu ô nhiễm.
+3. Trường hợp thăm dò khoáng sản độc hại, ngoài việc thực hiện nghĩa vụ quy định tại khoản 2 Điều này, tổ chức, cá nhân thăm dò khoáng sản độc hại phải thực hiện các biện pháp ngăn ngừa ô nhiễm môi trường, tác động xấu đến sức khỏe con người; trường hợp đã gây ô nhiễm môi trường thì phải xác định đầy đủ các yếu tố gây ô nhiễm, thực hiện các biện pháp khắc phục, giảm thiểu ô nhiễm.
 
-4\. Trường hợp thăm dò khoáng sản phóng xạ hoặc có chứa chất phóng xạ đi kèm, ngoài việc thực hiện nghĩa vụ quy định tại khoản 2 và khoản 3 Điều này, tổ chức, cá nhân thăm dò khoáng sản còn phải thực hiện quy định của Luật Năng lượng nguyên tử và quy định khác của pháp luật có liên quan.
+4. Trường hợp thăm dò khoáng sản phóng xạ hoặc có chứa chất phóng xạ đi kèm, ngoài việc thực hiện nghĩa vụ quy định tại khoản 2 và khoản 3 Điều này, tổ chức, cá nhân thăm dò khoáng sản còn phải thực hiện quy định của Luật Năng lượng nguyên tử và quy định khác của pháp luật có liên quan.
 
-5\. Chính phủ quy định chi tiết điểm b khoản 2 Điều này; quy định tổ chức được phép thăm dò khoáng sản độc hại, khoáng sản phóng xạ.
+5. Chính phủ quy định chi tiết điểm b khoản 2 Điều này; quy định tổ chức được phép thăm dò khoáng sản độc hại, khoáng sản phóng xạ.
 
-6\. Bộ trưởng Bộ Tài nguyên và Môi trường quy định mẫu báo cáo, tài liệu quy định tại điểm d và đ khoản 2 Điều này.
+6. Bộ trưởng Bộ Tài nguyên và Môi trường quy định mẫu báo cáo, tài liệu quy định tại điểm d và đ khoản 2 Điềunày.
 
 **Điều 48. Quyền ưu tiên đối với tổ chức, cá nhân thăm dò khoáng sản**
 
-1\. Tổ chức, cá nhân thăm dò khoáng sản được ưu tiên nộp hồ sơ đề nghị cấp giấy phép khai thác khoáng sản đối với tài nguyên, trữ lượng khoáng sản đã được cơ quan nhà nước có thẩm quyền công nhận trong thời hạn 36 tháng kể từ ngày  được công nhận.
+1. Tổ chức, cá nhân thăm dò khoáng sản được ưu tiên nộp hồ sơ đề nghị cấp giấy phép khai thác khoáng sản đối với tài nguyên, trữ lượng khoáng sản đã được cơ quan nhà nước có thẩm quyền công nhận trong thời hạn 36 tháng kể từ ngày  được công nhận.
 
-2\. Hết thời hạn ưu tiên quy định tại khoản 1 Điều này, tổ chức, cá nhân đã thăm dò khoáng sản không gửi đủ hồ sơ đề nghị cấp giấy phép khai thác khoáng sản đối với khu vực đã thăm dò thì mất quyền ưu tiên đề nghị cấp giấy phép khai thác khoáng sản, trừ trường hợp bất khả kháng hoặc khi có thay đổi về chính sách của Nhà nước dẫn đến không thể thực hiện. Trường hợp cơ quan nhà nước có thẩm quyền cấp giấy phép khai thác khoáng sản cho tổ chức, cá nhân khác theo quy định của Luật này thì tổ chức, cá nhân được cấp giấy phép khai thác phải hoàn trả chi phí thăm dò khoáng sản cho tổ chức, cá nhân thăm dò khoáng sản theo quy định của Luật này.
+2. Hết thời hạn ưu tiên quy định tại khoản 1 Điều này, tổ chức, cá nhân đã thăm dò khoáng sản không gửi đủ hồ sơ đề nghị cấp giấy phép khai thác khoáng sản đối với khu vực đã thăm dò thì mất quyền ưu tiên đề nghị cấp giấy phép khai thác khoáng sản, trừ trường hợp bất khả kháng hoặc khi có thay đổi về chính sách của Nhà nước dẫn đến không thể thực hiện. Trường hợp cơ quan nhà nước có thẩm quyền cấp giấy phép khai thác khoáng sản cho tổ chức, cá nhân khác theo quy định của Luật này thì tổ chức, cá nhân được cấp giấy phép khai thác phải hoàn trả chi phí thăm dò khoáng sản cho tổ chức, cá nhân thăm dò khoáng sản theo quy định của Luật này.
 
-3\. Chính phủ quy định chi tiết khoản 2 Điều này.
+3. Chính phủ quy định chi tiết khoản 2 Điều này.
 
 **Điều 49. Thăm dò khoáng sản sử dụng vốn ngân sách nhà nước**
 
-1\. Nhà nước sử dụng vốn ngân sách để tổ chức thực hiện thăm dò khoáng sản đối với:
+1. Nhà nước sử dụng vốn ngân sách để tổ chức thực hiện thăm dò khoáng sản đối với:
 
 a) Khoáng sản chiến lược, quan trọng;
 
 b) Khoáng sản có giá trị kinh tế cao, nhu cầu sử dụng lớn.
 
-2\. Thủ tướng Chính phủ quyết định danh mục các khu vực thăm dò khoáng sản quy định tại khoản 1 Điều này thuộc thẩm quyền cấp giấy phép của Bộ Tài nguyên và Môi trường.
+2. Thủ tướng Chính phủ quyết định danh mục các khu vực thăm dò khoáng sản quy định tại khoản 1 Điều này thuộc thẩm quyền cấp giấy phép của Bộ Tài nguyên và Môi trường.
 
-3\. Ủy ban nhân dân cấp tỉnh quyết định danh mục các khu vực thăm dò khoáng sản quy định tại khoản 1 Điều này thuộc thẩm quyền cấp giấy phép của mình.
+3. Ủy ban nhân dân cấp tỉnh quyết định danh mục các khu vực thăm dò khoáng sản quy định tại khoản 1 Điều này thuộc thẩm quyền cấp giấy phép của mình.
 
-4\. Việc thăm dò khoáng sản sử dụng vốn ngân sách nhà nước không phải thực hiện thủ tục cấp giấy phép thăm dò khoáng sản. Cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này lựa chọn tổ chức thực hiện đề án thăm dò khoáng sản theo quy định của pháp luật về đấu thầu.
+4. Việc thăm dò khoáng sản sử dụng vốn ngân sách nhà nước không phải thực hiện thủ tục cấp giấy phép thăm dò khoáng sản. Cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này lựa chọn tổ chức thực hiện đề án thăm dò khoáng sản theo quy định của pháp luật về đấu thầu.
 
-5\. Chính phủ quy định chi tiết Điều này.
+5. Chính phủ quy định chi tiết Điều này.
 
 **Điều 50. Công nhận kết quả thăm dò khoáng sản**
 
-1\. Tổ chức, cá nhân được cấp giấy phép thăm dò khoáng sản và tổ chức thực hiện đề án thăm dò khoáng sản quy định tại khoản 4 Điều 49 của Luật này có trách nhiệm gửi hồ sơ đề nghị công nhận kết quả thăm dò khoáng sản đến cơ quan nhà nước có thẩm quyền quy định tại Điều 51 của Luật này.
+1. Tổ chức, cá nhân được cấp giấy phép thăm dò khoáng sản và tổ chức thực hiện đề án thăm dò khoáng sản quy định tại khoản 4 Điều 49 của Luật này có trách nhiệm gửi hồ sơ đề nghị công nhận kết quả thăm dò khoáng sản đến cơ quan nhà nước có thẩm quyền quy định tại Điều 51 của Luật này.
 
-2\. Cơ quan nhà nước có thẩm quyền quy định tại Điều 51 của Luật này có trách nhiệm tổ chức công nhận kết quả thăm dò khoáng sản theo quy định của Chính phủ.
+2. Cơ quan nhà nước có thẩm quyền quy định tại Điều 51 của Luật này có trách nhiệm tổ chức công nhận kết quả thăm dò khoáng sản theo quy định của Chính phủ.
 
-3\. Trong thời hạn 06 tháng kể từ ngày giấy phép thăm dò khoáng sản hết hạn, tổ chức, cá nhân phải hoàn thiện hồ sơ đề nghị công nhận kết quả thăm dò khoáng sản.
+3. Trong thời hạn 06 tháng kể từ ngày giấy phép thăm dò khoáng sản hết hạn, tổ chức, cá nhân phải hoàn thiện hồ sơ đề nghị công nhận kết quả thăm dò khoáng sản.
 
-4\. Sau thời hạn quy định tại khoản 3 Điều này, tổ chức, cá nhân được cấp giấy phép thăm dò khoáng sản không gửi đủ hồ sơ đề nghị công nhận kết quả thăm dò khoáng sản cho cơ quan tiếp nhận hồ sơ theo quy định của Luật này thì mất quyền đề nghị công nhận kết quả thăm dò khoáng sản, trừ trường hợp bất khả kháng. Trường hợp cơ quan nhà nước có thẩm quyền cấp giấy phép thăm dò khoáng sản cho tổ chức, cá nhân khác thì tổ chức, cá nhân được cấp giấy phép thăm dò khoáng sản trước đó không được hoàn trả chi phí thăm dò khoáng sản.
+4. Sau thời hạn quy định tại khoản 3 Điều này, tổ chức, cá nhân được cấp giấy phép thăm dò khoáng sản không gửi đủ hồ sơ đề nghị công nhận kết quả thăm dò khoáng sản cho cơ quan tiếp nhận hồ sơ theo quy định của Luật này thì mất quyền đề nghị công nhận kết quả thăm dò khoáng sản, trừ trường hợp bất khả kháng. Trường hợp cơ quan nhà nước có thẩm quyền cấp giấy phép thăm dò khoáng sản cho tổ chức, cá nhân khác thì tổ chức, cá nhân được cấp giấy phép thăm dò khoáng sản trước đó không được hoàn trả chi phí thăm dò khoáng sản.
 
-5\. Chính phủ quy định chi tiết các khoản 1, 2 và 4 Điều này; quy định hồ sơ, trình tự, thủ tục, cơ quan thẩm định, trình công nhận kết quả thăm dò khoáng sản; trình tự, thủ tục giao nộp báo cáo kết quả thăm dò khoáng sản.
+5. Chính phủ quy định chi tiết các khoản 1, 2 và 4 Điều này; quy định hồ sơ, trình tự, thủ tục, cơ quan thẩm định, trình công nhận kết quả thăm dò khoáng sản; trình tự, thủ tục giao nộp báo cáo kết quả thăm dò khoáng sản.
 
-6\. Bộ trưởng Bộ Tài nguyên và Môi trường quy định về phân cấp trữ lượng và tài nguyên khoáng sản; quy định nội dung báo cáo kết quả thăm dò khoáng sản, thăm dò bổ sung.
+6. Bộ trưởng Bộ Tài nguyên và Môi trường quy định về phân cấp trữ lượng và tài nguyên khoáng sản; quy định nội dung báo cáo kết quả thăm dò khoáng sản, thăm dò bổ sung.
 
 **Điều 51. Thẩm quyền công nhận kết quả thăm dò khoáng sản**
 
-1\. Hội đồng đánh giá trữ lượng khoáng sản quốc gia công nhận kết quả thăm dò khoáng sản, thăm dò bổ sung thuộc thẩm quyền cấp giấy phép của Bộ Tài nguyên và Môi trường.
+1. Hội đồng đánh giá trữ lượng khoáng sản quốc gia công nhận kết quả thăm dò khoáng sản, thăm dò bổ sung thuộc thẩm quyền cấp giấy phép của Bộ Tài nguyên và Môi trường.
 
-2\. Ủy ban nhân dân cấp tỉnh công nhận kết quả thăm dò khoáng sản, thăm dò bổ sung thuộc thẩm quyền cấp giấy phép của mình.
+2. Ủy ban nhân dân cấp tỉnh công nhận kết quả thăm dò khoáng sản, thăm dò bổ sung thuộc thẩm quyền cấp giấy phép của mình.
 
-3\. Chính phủ quy định tổ chức, hoạt động, nhiệm vụ, quyền hạn và trách nhiệm của Hội đồng đánh giá trữ lượng khoáng sản quốc gia.
+3. Chính phủ quy định tổ chức, hoạt động, nhiệm vụ, quyền hạn và trách nhiệm của Hội đồng đánh giá trữ lượng khoáng sản quốc gia.
 
 **Điều 52. Thu hồi, chấm dứt hiệu lực giấy phép thăm dò khoáng sản**
 
-1\. Giấy phép thăm dò khoáng sản bị thu hồi trong các trường hợp sau đây:
+1. Giấy phép thăm dò khoáng sản bị thu hồi trong các trường hợp sau đây:
 
 a) Giấy phép cấp không đúng thẩm quyền hoặc có nội dung trái quy định của pháp luật;
 
@@ -1029,7 +1025,7 @@ c) Khu vực được phép thăm dò khoáng sản bị công bố là khu vự
 
 d) Khi cơ quan nhà nước có thẩm quyền quyết định thu hồi toàn bộ diện tích đất, khu vực biển đã được cấp giấy phép thăm dò khoáng sản để sử dụng vào mục đích khác theo quy định của pháp luật về đất đai, pháp luật về biển, pháp luật về tài nguyên, môi trường biển và hải đảo và quy định khác của pháp luật có liên quan.
 
-2\. Giấy phép thăm dò khoáng sản chấm dứt hiệu lực khi xảy ra một trong các trường hợp sau đây:
+2. Giấy phép thăm dò khoáng sản chấm dứt hiệu lực khi xảy ra một trong các trường hợp sau đây:
 
 a) Giấy phép bị thu hồi;
 
@@ -1043,44 +1039,43 @@ d) Tổ chức thăm dò khoáng sản đã giải thể hoặc phá sản;
 
 e) Theo bản án, quyết định của Tòa án, phán quyết trọng tài.
 
-3\. Trong thời hạn 06 tháng, kể từ ngày giấy phép thăm dò khoáng sản chấm dứt hiệu lực theo quy định tại khoản 2 Điều này, tổ chức, cá nhân thăm dò khoáng sản phải di chuyển toàn bộ tài sản của mình và của các bên liên quan ra khỏi khu vực thăm dò; san lấp công trình thăm dò, bảo vệ khoáng sản, phục hồi môi trường, đất đai theo quy định của pháp luật; giao nộp mẫu vật, thông tin về khoáng sản đã thu thập được cho cơ quan quản lý nhà nước có thẩm quyền về địa chất, khoáng sản. Quy định này không áp dụng đối với trường hợp tổ chức, cá nhân thăm dò khoáng sản đang đề nghị gia hạn, cấp lại giấy phép thăm dò khoáng sản hoặc đề nghị cấp giấy phép khai thác khoáng sản.
+3. Trong thời hạn 06 tháng, kể từ ngày giấy phép thăm dò khoáng sản chấm dứt hiệu lực theo quy định tại khoản 2 Điều này, tổ chức, cá nhân thăm dò khoáng sản phải di chuyển toàn bộ tài sản của mình và của các bên liên quan ra khỏi khu vực thăm dò; san lấp công trình thăm dò, bảo vệ khoáng sản, phục hồi môi trường, đất đai theo quy định của pháp luật; giao nộp mẫu vật, thông tin về khoáng sản đã thu thập được cho cơ quan quản lý nhà nước có thẩm quyền về địa chất, khoáng sản. Quy định này không áp dụng đối với trường hợp tổ chức, cá nhân thăm dò khoáng sản đang đề nghị gia hạn, cấp lại giấy phép thăm dò khoáng sản hoặc đề nghị cấp giấy phép khai thác khoáng sản.
 
-4\. Trường hợp khu vực thăm dò khoáng sản bị công bố là khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản thì tổ chức, cá nhân có giấy phép thăm dò khoáng sản còn hiệu lực trong khu vực đó được bồi thường thiệt hại theo quy định của pháp luật.
+4. Trường hợp khu vực thăm dò khoáng sản bị công bố là khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản thì tổ chức, cá nhân có giấy phép thăm dò khoáng sản còn hiệu lực trong khu vực đó được bồi thường thiệt hại theo quy định của pháp luật.
 
-5\. Chính phủ quy định chi tiết khoản 4 Điều này; quy định hồ sơ, trình tự, thủ tục thu hồi giấy phép thăm dò khoáng sản.
+5. Chính phủ quy định chi tiết khoản 4 Điều này; quy định hồ sơ, trình tự, thủ tục thu hồi giấy phép thăm dò khoáng sản.
 
-**Mục** **2  
-KHAI THÁC KHOÁNG SẢN NHÓM I, NHÓM II, NHÓM III**
+**Mục 2. KHAI THÁC KHOÁNG SẢN NHÓM I, NHÓM II, NHÓM III**
 
 **Điều 53. Điều kiện đối với tổ chức, cá nhân được cấp giấy phép khai thác khoáng sản**
 
-1\. Tổ chức đăng ký kinh doanh ngành, nghề khai thác khoáng sản được xem xét cấp giấy phép khai thác khoáng sản bao gồm:
+1. Tổ chức đăng ký kinh doanh ngành, nghề khai thác khoáng sản được xem xét cấp giấy phép khai thác khoáng sản bao gồm:
 
 a) Doanh nghiệp được thành lập theo Luật Doanh nghiệp;
 
 b) Hợp tác xã, liên hiệp hợp tác xã được thành lập theo Luật Hợp tác xã.
 
-2\. Cá nhân hoặc các thành viên hộ gia đình đăng ký thành lập hộ kinh doanh có đăng ký kinh doanh ngành, nghề khai thác khoáng sản được xem xét cấp giấy phép khai thác khoáng sản nhóm III.
+2. Cá nhân hoặc các thành viên hộ gia đình đăng ký thành lập hộ kinh doanh có đăng ký kinh doanh ngành, nghề khai thác khoáng sản được xem xét cấp giấy phép khai thác khoáng sản nhóm III.
 
-3\. Tổ chức, cá nhân quy định tại khoản 1 và khoản 2 Điều này phải có đủ năng lực tài chính để thực hiện dự án đầu tư khai thác khoáng sản.
+3. Tổ chức, cá nhân quy định tại khoản 1 và khoản 2 Điều này phải có đủ năng lực tài chính để thực hiện dự án đầu tư khai thác khoáng sản.
 
-4\. Chính phủ quy định chi tiết Điều này.
+4. Chính phủ quy định chi tiết Điều này.
 
-**Điều 54. Khu vực khai thác khoáng sản****, diện tích khu vực thực hiện dự án đầu tư khai thác khoáng sản**
+**Điều 54. Khu vực khai thác khoáng sản, diện tích khu vực thực hiện dự án đầu tư khai thác khoáng sản**
 
-1\. Khu vực khai thác khoáng sản được giới hạn bởi các đoạn thẳng nối các điểm khép góc thể hiện trên bản đồ địa hình hệ tọa độ quốc gia với tỷ lệ thích hợp.
+1. Khu vực khai thác khoáng sản được giới hạn bởi các đoạn thẳng nối các điểm khép góc thể hiện trên bản đồ địa hình hệ tọa độ quốc gia với tỷ lệ thích hợp.
 
-2\. Diện tích, ranh giới theo chiều sâu của khu vực khai thác khoáng sản được xem xét, xác định trên cơ sở dự án đầu tư khai thác khoáng sản, phù hợp với trữ lượng khoáng sản trong báo cáo kết quả thăm dò khoáng sản đã được cơ quan quản lý nhà nước có thẩm quyền công nhận.
+2. Diện tích, ranh giới theo chiều sâu của khu vực khai thác khoáng sản được xem xét, xác định trên cơ sở dự án đầu tư khai thác khoáng sản, phù hợp với trữ lượng khoáng sản trong báo cáo kết quả thăm dò khoáng sản đã được cơ quan quản lý nhà nước có thẩm quyền công nhận.
 
-3\. Diện tích khu vực thực hiện dự án đầu tư khai thác khoáng sản bao gồm: diện tích khu vực khai thác khoáng sản; diện tích các công trình phục vụ cho hoạt động khai thác khoáng sản gắn với khu vực khai thác khoáng sản; diện tích hành lang bảo đảm an toàn trong khai thác mỏ.
+3. Diện tích khu vực thực hiện dự án đầu tư khai thác khoáng sản bao gồm: diện tích khu vực khai thác khoáng sản; diện tích các công trình phục vụ cho hoạt động khai thác khoáng sản gắn với khu vực khai thác khoáng sản; diện tích hành lang bảo đảm an toàn trong khai thác mỏ.
 
-4\. Đối với khai thác nước khoáng thiên nhiên, nước nóng thiên nhiên, việc xác định vị trí, diện tích khu vực khai thác theo tọa độ của giếng khoan hoặc cụm giếng khoan.
+4. Đối với khai thác nước khoáng thiên nhiên, nước nóng thiên nhiên, việc xác định vị trí, diện tích khu vực khai thác theo tọa độ của giếng khoan hoặc cụm giếng khoan.
 
-5\. Chính phủ quy định chi tiết khoản 2 Điều này.
+5. Chính phủ quy định chi tiết khoản 2 Điều này.
 
 **Điều 55. Nguyên tắc cấp giấy phép khai thác khoáng sản**
 
-1\. Việc cấp giấy phép khai thác khoáng sản phải bảo đảm các nguyên tắc sau đây:
+1. Việc cấp giấy phép khai thác khoáng sản phải bảo đảm các nguyên tắc sau đây:
 
 a) Giấy phép khai thác khoáng sản chỉ được cấp ở khu vực không có tổ chức, cá nhân đang thăm dò, khai thác khoáng sản hợp pháp, trừ trường hợp quy định tại điểm e khoản này;
 
@@ -1094,15 +1089,15 @@ d) Không khai thác khoáng sản tại khu vực dự trữ khoáng sản qu�
 
 e) Giấy phép khai thác khoáng sản có thể được cấp trùng một phần hoặc toàn bộ về ranh giới bề mặt ở khu vực đang có hoạt động khoáng sản cho cùng 01 tổ chức để khai thác khoáng sản ở các mức sâu khác nhau theo dự án đầu tư khai thác khoáng sản.
 
-2\. Việc khai thác khoáng sản tại khu vực cấm hoạt động khoáng sản hoặc tạm thời cấm hoạt động khoáng sản được thực hiện trong trường hợp khai thác theo phương pháp, công nghệ không ảnh hưởng xấu đến đối tượng cần bảo vệ trong khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản và theo quy định tại khoản 3 Điều 26 của Luật này.
+2. Việc khai thác khoáng sản tại khu vực cấm hoạt động khoáng sản hoặc tạm thời cấm hoạt động khoáng sản được thực hiện trong trường hợp khai thác theo phương pháp, công nghệ không ảnh hưởng xấu đến đối tượng cần bảo vệ trong khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản và theo quy định tại khoản 3 Điều 26 của Luật này.
 
-3\. Chính phủ quy định chi tiết Điều này.
+3. Chính phủ quy định chi tiết Điều này.
 
 **Điều 56. Giấy phép khai thác khoáng sản**
 
-1\. Giấy phép khai thác khoáng sản phải thể hiện các thông tin về tên tổ chức, cá nhân khai thác khoáng sản, nội dung giấy phép và các yêu cầu đối với tổ chức, cá nhân được cấp giấy phép khai thác khoáng sản.
+1. Giấy phép khai thác khoáng sản phải thể hiện các thông tin về tên tổ chức, cá nhân khai thác khoáng sản, nội dung giấy phép và các yêu cầu đối với tổ chức, cá nhân được cấp giấy phép khai thác khoáng sản.
 
-2\. Nội dung giấy phép khai thác khoáng sản bao gồm:
+2. Nội dung giấy phép khai thác khoáng sản bao gồm:
 
 a) Vị trí, diện tích khu vực khai thác khoáng sản; mức sâu được phép khai thác;
 
@@ -1114,45 +1109,45 @@ d) Công suất khai thác, phương pháp khai thác khoáng sản;
 
 đ) Thời hạn khai thác khoáng sản.
 
-3\. Các yêu cầu đối với tổ chức, cá nhân được cấp giấy phép khai thác khoáng sản bao gồm:
+3. Các yêu cầu đối với tổ chức, cá nhân được cấp giấy phép khai thác khoáng sản bao gồm:
 
 a) Nghĩa vụ tài chính, nghĩa vụ khác có liên quan theo quy định của pháp luật;
 
-b) Trách nhiệm của tổ chức, cá nhân được cấp giấy phép và các yêu cầu khác (nếu có) theo quy định của pháp luật. 
+b) Trách nhiệm của tổ chức, cá nhân được cấp giấy phép và các yêu cầu khác (nếu có) theo quy định của pháp luật.
 
-4\. Giấy phép khai thác khoáng sản có thời hạn như sau:
+4. Giấy phép khai thác khoáng sản có thời hạn như sau:
 
 a) Thời hạn khai thác bao gồm thời gian xây dựng cơ bản, thời gian khai thác được xác định theo dự án đầu tư khai thác khoáng sản nhưng không quá 30 năm và có thể được gia hạn nhiều lần theo đề nghị của tổ chức, cá nhân có giấy phép khai thác khoáng sản, nhưng tổng thời gian gia hạn không quá 20 năm; trừ trường hợp quy định tại điểm a khoản 2 Điều 68 và khoản 3 Điều 87 của Luật này;
 
 b) Trường hợp thời hạn khai thác khoáng sản, bao gồm cả thời gian gia hạn, đã hết mà khu vực được phép khai thác còn trữ lượng, việc cấp lại giấy phép khai thác khoáng sản được thực hiện theo đề nghị của tổ chức, cá nhân đã được cấp giấy phép khai thác khoáng sản.
 
-5\. Thời hạn của giấy phép khai thác khoáng sản cấp lại được thực hiện theo quy định tại điểm a khoản 4 Điều này.
+5. Thời hạn của giấy phép khai thác khoáng sản cấp lại được thực hiện theo quy định tại điểm a khoản 4 Điều này.
 
 **Điều 57. Cấp, gia hạn, cấp lại, điều chỉnh, trả lại giấy phép khai thác khoáng sản**
 
-1\. Việc cấp giấy phép khai thác khoáng sản được thực hiện theo nguyên tắc quy định tại Điều 55 của Luật này và các căn cứ sau đây:
+1. Việc cấp giấy phép khai thác khoáng sản được thực hiện theo nguyên tắc quy định tại Điều 55 của Luật này và các căn cứ sau đây:
 
 a) Kết quả thẩm định hồ sơ đề nghị cấp giấy phép khai thác khoáng sản;
 
 b) Nhu cầu khai thác, sử dụng khoáng sản thể hiện trong văn bản đề nghị cấp giấy phép.
 
-2\. Chính phủ quy định chi tiết khoản 1 Điều này; quy định các trường hợp gia hạn, cấp lại, điều chỉnh, trả lại giấy phép khai thác khoáng sản; quy định cơ quan thẩm định; quy định hồ sơ, trình tự, thủ tục cấp, gia hạn, cấp lại, điều chỉnh, trả lại giấy phép khai thác khoáng sản.
+2. Chính phủ quy định chi tiết khoản 1 Điều này; quy định các trường hợp gia hạn, cấp lại, điều chỉnh, trả lại giấy phép khai thác khoáng sản; quy định cơ quan thẩm định; quy định hồ sơ, trình tự, thủ tục cấp, gia hạn, cấp lại, điều chỉnh, trả lại giấy phép khai thác khoáng sản.
 
-3\. Bộ trưởng Bộ Tài nguyên và Môi trường quy định mẫu báo cáo, tài liệu quy định tại Điều này.
+3. Bộ trưởng Bộ Tài nguyên và Môi trường quy định mẫu báo cáo, tài liệu quy định tại Điều này.
 
 **Điều 58. Chuyển nhượng quyền khai thác khoáng sản**
 
-1\. Tổ chức, cá nhân đã được cấp giấy phép khai thác khoáng sản chỉ được chuyển nhượng quyền khai thác khoáng sản sau khi đã hoàn thành công tác xây dựng cơ bản, đưa mỏ vào khai thác.
+1. Tổ chức, cá nhân đã được cấp giấy phép khai thác khoáng sản chỉ được chuyển nhượng quyền khai thác khoáng sản sau khi đã hoàn thành công tác xây dựng cơ bản, đưa mỏ vào khai thác.
 
-2\. Tổ chức, cá nhân nhận chuyển nhượng quyền khai thác khoáng sản phải có đủ điều kiện được cấp giấy phép khai thác khoáng sản.
+2. Tổ chức, cá nhân nhận chuyển nhượng quyền khai thác khoáng sản phải có đủ điều kiện được cấp giấy phép khai thác khoáng sản.
 
-3\. Việc chuyển nhượng quyền khai thác khoáng sản phải được cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này cấp giấy phép khai thác khoáng sản cho tổ chức, cá nhân nhận chuyển nhượng. Thời hạn khai thác khoáng sản là thời gian còn lại của giấy phép khai thác khoáng sản đã cấp.
+3. Việc chuyển nhượng quyền khai thác khoáng sản phải được cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này cấp giấy phép khai thác khoáng sản cho tổ chức, cá nhân nhận chuyển nhượng. Thời hạn khai thác khoáng sản là thời gian còn lại của giấy phép khai thác khoáng sản đã cấp.
 
-4\. Chính phủ quy định chi tiết Điều này; quy định hồ sơ, trình tự, thủ tục chuyển nhượng quyền khai thác khoáng sản.
+4. Chính phủ quy định chi tiết Điều này; quy định hồ sơ, trình tự, thủ tục chuyển nhượng quyền khai thác khoáng sản.
 
 **Điều 59. Quyền và nghĩa vụ của tổ chức, cá nhân khai thác khoáng sản**
 
-1\. Tổ chức, cá nhân khai thác khoáng sản có các quyền sau đây:
+1. Tổ chức, cá nhân khai thác khoáng sản có các quyền sau đây:
 
 a) Sử dụng thông tin về khoáng sản liên quan đến mục đích khai thác và khu vực được phép khai thác khoáng sản;
 
@@ -1174,7 +1169,7 @@ i) Sử dụng đất, đá thải mỏ để phục vụ cho mục đích cải
 
 k) Quyền khác theo quy định của pháp luật.
 
-2\. Tổ chức, cá nhân khai thác khoáng sản có các nghĩa vụ sau đây:
+2. Tổ chức, cá nhân khai thác khoáng sản có các nghĩa vụ sau đây:
 
 a) Nộp tiền cấp quyền khai thác khoáng sản; hoàn trả chi phí đánh giá tiềm năng khoáng sản, chi phí thăm dò khoáng sản; nộp thuế, phí, lệ phí theo quy định của pháp luật;
 
@@ -1204,15 +1199,15 @@ n) Trường hợp đã khai thác đủ trữ lượng khoáng sản quy địn
 
 o) Nghĩa vụ khác theo quy định của pháp luật.
 
-3\. Chính phủ quy định chi tiết điểm d và điểm i khoản 1, điểm e và điểm g khoản 2 Điều này; quy định lộ trình thực hiện việc kết nối với hệ thống thông tin, dữ liệu về hoạt động khoáng sản quy định tại điểm h khoản 2 Điều này.
+3. Chính phủ quy định chi tiết điểm d và điểm i khoản 1, điểm e và điểm g khoản 2 Điều này; quy định lộ trình thực hiện việc kết nối với hệ thống thông tin, dữ liệu về hoạt động khoáng sản quy định tại điểm h khoản 2 Điều này.
 
-4\. Bộ trưởng Bộ Tài nguyên và Môi trường quy định chi tiết các điểm đ, h, i và n khoản 2 Điều này.
+4. Bộ trưởng Bộ Tài nguyên và Môi trường quy định chi tiết các điểm đ, h, i và n khoản 2 Điều này.
 
 **Điều 60. An toàn, vệ sinh lao động và kỹ thuật an toàn trong khai thác khoáng sản**
 
-1\. Tổ chức, cá nhân khai thác khoáng sản, người làm việc tại mỏ khai thác khoáng sản phải thực hiện đầy đủ các quy định về an toàn, vệ sinh lao động, kỹ thuật an toàn theo quy định của Luật này, pháp luật về an toàn, vệ sinh lao động và quy định khác của pháp luật có liên quan.
+1. Tổ chức, cá nhân khai thác khoáng sản, người làm việc tại mỏ khai thác khoáng sản phải thực hiện đầy đủ các quy định về an toàn, vệ sinh lao động, kỹ thuật an toàn theo quy định của Luật này, pháp luật về an toàn, vệ sinh lao động và quy định khác của pháp luật có liên quan.
 
-2\. Trừ trường hợp quy định tại khoản 4 Điều 62 của Luật này, tổ chức, cá nhân khai thác khoáng sản phải bảo đảm các yêu cầu về kỹ thuật an toàn sau đây:
+2. Trừ trường hợp quy định tại khoản 4 Điều 62 của Luật này, tổ chức, cá nhân khai thác khoáng sản phải bảo đảm các yêu cầu về kỹ thuật an toàn sau đây:
 
 a) Nhân sự quản lý, điều hành sản xuất phải đáp ứng trình độ chuyên môn và được huấn luyện về kỹ thuật an toàn trong khai thác khoáng sản;
 
@@ -1222,7 +1217,7 @@ c) Lập và phê duyệt kế hoạch quản lý rủi ro và gửi cho cơ qua
 
 d) Có đội ngũ ứng cứu khẩn cấp bán chuyên trách để thực hiện các biện pháp xử lý tình huống khẩn cấp tại chỗ.
 
-3\. Thời điểm phê duyệt kế hoạch quản lý rủi ro đối với dự án đầu tư khai thác khoáng sản bằng phương pháp hầm lò được quy định như sau:
+3. Thời điểm phê duyệt kế hoạch quản lý rủi ro đối với dự án đầu tư khai thác khoáng sản bằng phương pháp hầm lò được quy định như sau:
 
 a) Đối với dự án đầu tư khai thác mới, kế hoạch quản lý rủi ro phải được phê duyệt trước khi thi công và trước khi đưa công trình hầm lò vào sử dụng;
 
@@ -1230,71 +1225,71 @@ b) Đối với dự án đầu tư khai thác đang trong giai đoạn xây d�
 
 c) Đối với dự án đầu tư khai thác đã đi vào vận hành trước ngày Luật này có hiệu lực thi hành, kế hoạch quản lý rủi ro phải được phê duyệt trong thời hạn 24 tháng kể từ ngày Luật này có hiệu lực thi hành.
 
-4\. Khi có nguy cơ xảy ra sự cố kỹ thuật gây mất an toàn, vệ sinh lao động, giám đốc điều hành mỏ hoặc nhân sự điều hành mỏ phải áp dụng ngay các biện pháp cần thiết để loại trừ nguyên nhân xảy ra sự cố.
+4. Khi có nguy cơ xảy ra sự cố kỹ thuật gây mất an toàn, vệ sinh lao động, giám đốc điều hành mỏ hoặc nhân sự điều hành mỏ phải áp dụng ngay các biện pháp cần thiết để loại trừ nguyên nhân xảy ra sự cố.
 
-5\. Khi xảy ra sự cố kỹ thuật gây mất an toàn, vệ sinh lao động, giám đốc điều hành mỏ hoặc nhân sự điều hành mỏ phải thực hiện các quy định sau đây:
+5. Khi xảy ra sự cố kỹ thuật gây mất an toàn, vệ sinh lao động, giám đốc điều hành mỏ hoặc nhân sự điều hành mỏ phải thực hiện các quy định sau đây:
 
 a) Áp dụng ngay các biện pháp khẩn cấp để khắc phục sự cố; cấp cứu, sơ tán người ra khỏi khu vực nguy hiểm;
 
 b) Bảo vệ tài sản, bảo vệ hiện trường xảy ra sự cố, trừ trường hợp phải thực hiện các hoạt động quy định tại điểm a khoản này.
 
-6\. Cơ quan, tổ chức, cá nhân có trách nhiệm hỗ trợ việc cấp cứu và khắc phục hậu quả sự cố kỹ thuật gây mất an toàn, vệ sinh lao động.
+6. Cơ quan, tổ chức, cá nhân có trách nhiệm hỗ trợ việc cấp cứu và khắc phục hậu quả sự cố kỹ thuật gây mất an toàn, vệ sinh lao động.
 
-7\. Tổ chức, cá nhân khai thác khoáng sản phải thực hiện chế độ báo cáo về tai nạn lao động, an toàn lao động, vệ sinh lao động trong khai thác khoáng sản; khi xảy ra sự cố mất an toàn lao động, phải kịp thời báo cáo các cơ quan quản lý nhà nước có thẩm quyền.
+7. Tổ chức, cá nhân khai thác khoáng sản phải thực hiện chế độ báo cáo về tai nạn lao động, an toàn lao động, vệ sinh lao động trong khai thác khoáng sản; khi xảy ra sự cố mất an toàn lao động, phải kịp thời báo cáo các cơ quan quản lý nhà nước có thẩm quyền.
 
-8\. Bộ trưởng Bộ Công Thương quy định chi tiết điểm c khoản 2 và khoản 3 Điều này.
+8. Bộ trưởng Bộ Công Thương quy định chi tiết điểm c khoản 2 và khoản 3 Điều này.
 
-9\. Chính phủ quy định chi tiết các điểm a, b, d khoản 2 và khoản 7 Điều này.
+9. Chính phủ quy định chi tiết các điểm a, b, d khoản 2 và khoản 7 Điều này.
 
 **Điều 61. Thiết kế cơ sở của dự án đầu tư khai thác khoáng sản, thiết kế mỏ**
 
-1\. Thiết kế cơ sở của dự án đầu tư khai thác khoáng sản là thiết kế được lập trong Báo cáo nghiên cứu khả thi đầu tư xây dựng và được lập, thẩm định, phê duyệt theo quy định của pháp luật về xây dựng, đầu tư và quy định khác của pháp luật có liên quan.
+1. Thiết kế cơ sở của dự án đầu tư khai thác khoáng sản là thiết kế được lập trong Báo cáo nghiên cứu khả thi đầu tư xây dựng và được lập, thẩm định, phê duyệt theo quy định của pháp luật về xây dựng, đầu tư và quy định khác của pháp luật có liên quan.
 
-2\. Thiết kế mỏ để phục vụ cho hoạt động khai thác khoáng sản; thiết kế mỏ phải bảo đảm phù hợp với thiết kế cơ sở. Trình tự, thủ tục lập, thẩm định, phê duyệt thiết kế mỏ được áp dụng theo trình tự một bước hoặc nhiều bước theo quy định của pháp luật về xây dựng và thuộc một trong các trường hợp sau đây:
+2. Thiết kế mỏ để phục vụ cho hoạt động khai thác khoáng sản; thiết kế mỏ phải bảo đảm phù hợp với thiết kế cơ sở. Trình tự, thủ tục lập, thẩm định, phê duyệt thiết kế mỏ được áp dụng theo trình tự một bước hoặc nhiều bước theo quy định của pháp luật về xây dựng và thuộc một trong các trường hợp sau đây:
 
 a) Đối với trường hợp thiết kế một bước hoặc thiết kế hai bước, thiết kế mỏ là thiết kế bản vẽ thi công;
 
 b) Đối với trường hợp thiết kế ba bước, thiết kế mỏ bao gồm thiết kế kỹ thuật và thiết kế bản vẽ thi công.
 
-3\. Tổ chức, cá nhân khai thác khoáng sản chỉ được phép xây dựng cơ bản mỏ, khai thác khoáng sản khi đã có thiết kế mỏ được phê duyệt và gửi cơ quan quản lý nhà nước có thẩm quyền.
+3. Tổ chức, cá nhân khai thác khoáng sản chỉ được phép xây dựng cơ bản mỏ, khai thác khoáng sản khi đã có thiết kế mỏ được phê duyệt và gửi cơ quan quản lý nhà nước có thẩm quyền.
 
-4\. Bộ trưởng Bộ Công Thương quy định nội dung thiết kế cơ sở của dự án đầu tư khai thác khoáng sản, thiết kế mỏ.
+4. Bộ trưởng Bộ Công Thương quy định nội dung thiết kế cơ sở của dự án đầu tư khai thác khoáng sản, thiết kế mỏ.
 
-5\. Chính phủ quy định chi tiết khoản 3 Điều này; quy định đối tượng phải có thiết kế cơ sở của dự án đầu tư khai thác khoáng sản, thiết kế mỏ.
+5. Chính phủ quy định chi tiết khoản 3 Điều này; quy định đối tượng phải có thiết kế cơ sở của dự án đầu tư khai thác khoáng sản, thiết kế mỏ.
 
-**Điều 62. Giám đốc điều hành mỏ****, nhân sự điều hành mỏ**
+**Điều 62. Giám đốc điều hành mỏ, nhân sự điều hành mỏ**
 
-1\. Khai thác khoáng sản phải có giám đốc điều hành mỏ, trừ trường hợp quy định tại khoản 4 Điều này.
+1. Khai thác khoáng sản phải có giám đốc điều hành mỏ, trừ trường hợp quy định tại khoản 4 Điều này.
 
-2\. Đối với khai thác mỏ hầm lò, 01 giám đốc điều hành mỏ chỉ điều hành 01 giấy phép khai thác khoáng sản. Đối với khai thác mỏ lộ thiên, 01 giám đốc điều hành mỏ điều hành tối đa 03 giấy phép khai thác khoáng sản được cấp cho cùng 01 tổ chức, cá nhân và có khoảng cách giữa các mỏ không quá 10 kilômét (km).
+2. Đối với khai thác mỏ hầm lò, 01 giám đốc điều hành mỏ chỉ điều hành 01 giấy phép khai thác khoáng sản. Đối với khai thác mỏ lộ thiên, 01 giám đốc điều hành mỏ điều hành tối đa 03 giấy phép khai thác khoáng sản được cấp cho cùng 01 tổ chức, cá nhân và có khoảng cách giữa các mỏ không quá 10 kilômét (km).
 
-3\. Giám đốc điều hành mỏ là người có trình độ, năng lực đáp ứng yêu cầu theo quy định của pháp luật, do tổ chức, cá nhân được phép khai thác khoáng sản bổ nhiệm hoặc do cá nhân được phép khai thác, người đứng đầu tổ chức được phép khai thác trực tiếp đảm nhiệm.
+3. Giám đốc điều hành mỏ là người có trình độ, năng lực đáp ứng yêu cầu theo quy định của pháp luật, do tổ chức, cá nhân được phép khai thác khoáng sản bổ nhiệm hoặc do cá nhân được phép khai thác, người đứng đầu tổ chức được phép khai thác trực tiếp đảm nhiệm.
 
-4\. Các trường hợp sau đây không phải có giám đốc điều hành mỏ nhưng phải có nhân sự điều hành mỏ phụ trách về công tác kỹ thuật khai thác mỏ, an toàn lao động, vệ sinh lao động, bảo vệ môi trường trong khai thác khoáng sản:
+4. Các trường hợp sau đây không phải có giám đốc điều hành mỏ nhưng phải có nhân sự điều hành mỏ phụ trách về công tác kỹ thuật khai thác mỏ, an toàn lao động, vệ sinh lao động, bảo vệ môi trường trong khai thác khoáng sản:
 
 a) Khai thác khoáng sản nhóm II, nhóm III mà không sử dụng vật liệu nổ công nghiệp;
 
 b) Khai thác khoáng sản tại khu vực có khoáng sản phân tán, nhỏ lẻ theo quy định tại Điều 27 của Luật này, trừ trường hợp sử dụng vật liệu nổ công nghiệp hoặc khai thác mỏ hầm lò.
 
-5\. Tổ chức, cá nhân được cấp giấy phép khai thác khoáng sản có trách nhiệm sau đây:
+5. Tổ chức, cá nhân được cấp giấy phép khai thác khoáng sản có trách nhiệm sau đây:
 
 a) Bảo đảm điều kiện để giám đốc điều hành mỏ hoặc nhân sự điều hành mỏ thực hiện nhiệm vụ;
 
-b) Thông báo bằng văn bản về trình độ chuyên môn, năng lực quản lý của giám đốc điều hành mỏ cho cơ quan quản lý nhà nước có thẩm quyền cấp giấy phép khai thác khoáng sản trước ngày bắt đầu khai thác mỏ hoặc trong trường hợp thay đổi giám đốc điều hành mỏ. Trường hợp giám đốc điều hành mỏ không đáp ứng tiêu chuẩn theo quy định, cơ quan quản lý nhà nước có thẩm quyền về khoáng sản có trách nhiệm thông báo bằng văn bản cho tổ chức, cá nhân.
+b) Thông báo bằng văn bản về trình độ chuyên môn, năng lực quản lý của giám đốc điều hành mỏ cho cơ quan quản lý nhà nước có thẩm quyền cấp giấy phép khai thác khoáng sản trước ngày bắt đầu khai thác mỏ hoặc trong trường hợp thay đổi giám đốc điều hành mỏ. Trường hợp giám đốc điều hành mỏ không đáp ứng tiêu chuẩn theo quy định, cơ quan quản lý nhà nước có thẩm quyền về khoáng sản có trách nhiệm thông báo bằng văn bản cho tổ chức, cá nhân.
 
-6\. Chính phủ quy định chi tiết Điều này.
+6. Chính phủ quy định chi tiết Điều này.
 
 **Điều 63. Bản đồ hiện trạng, bản vẽ mặt cắt hiện trạng khu vực được phép khai thác khoáng sản**
 
-1\. Tổ chức, cá nhân khai thác khoáng sản rắn phải lập, cập nhật, quản lý và lưu giữ bản đồ hiện trạng, bản vẽ mặt cắt hiện trạng khu vực được phép khai thác từ khi bắt đầu xây dựng cơ bản mỏ đến khi kết thúc khai thác khoáng sản theo giấy phép khai thác khoáng sản được cấp.
+1. Tổ chức, cá nhân khai thác khoáng sản rắn phải lập, cập nhật, quản lý và lưu giữ bản đồ hiện trạng, bản vẽ mặt cắt hiện trạng khu vực được phép khai thác từ khi bắt đầu xây dựng cơ bản mỏ đến khi kết thúc khai thác khoáng sản theo giấy phép khai thác khoáng sản được cấp.
 
-2\. Bộ trưởng Bộ Tài nguyên và Môi trường quy định đối tượng lập, thời điểm nộp, hình thức và nội dung bản đồ hiện trạng, bản vẽ mặt cắt hiện trạng khu vực được phép khai thác khoáng sản.
+2. Bộ trưởng Bộ Tài nguyên và Môi trường quy định đối tượng lập, thời điểm nộp, hình thức và nội dung bản đồ hiện trạng, bản vẽ mặt cắt hiện trạng khu vực được phép khai thác khoáng sản.
 
-**Điều 64. Thống kê,** **kiểm kê trữ lượng khoáng sản**
+**Điều 64. Thống kê, kiểm kê trữ lượng khoáng sản**
 
-1\. Tổ chức, cá nhân khai thác khoáng sản có trách nhiệm thực hiện công tác thống kê trữ lượng khoáng sản đã khai thác định kỳ hằng năm; kiểm kê trữ lượng khoáng sản còn lại tại thời điểm đề nghị gia hạn, điều chỉnh, chuyển nhượng, trả lại giấy phép khai thác khoáng sản và đóng cửa mỏ khoáng sản; chịu trách nhiệm trước pháp luật về tính chính xác, trung thực của thông tin, số liệu đã thống kê, kiểm kê.
+1. Tổ chức, cá nhân khai thác khoáng sản có trách nhiệm thực hiện công tác thống kê trữ lượng khoáng sản đã khai thác định kỳ hằng năm; kiểm kê trữ lượng khoáng sản còn lại tại thời điểm đề nghị gia hạn, điều chỉnh, chuyển nhượng, trả lại giấy phép khai thác khoáng sản và đóng cửa mỏ khoáng sản; chịu trách nhiệm trước pháp luật về tính chính xác, trung thực của thông tin, số liệu đã thống kê, kiểm kê.
 
-2\. Thống kê trữ lượng khoáng sản đã khai thác hằng năm và tổng trữ lượng khoáng sản đã khai thác kể từ ngày bắt đầu khai thác đến thời điểm thống kê, bao gồm:
+2. Thống kê trữ lượng khoáng sản đã khai thác hằng năm và tổng trữ lượng khoáng sản đã khai thác kể từ ngày bắt đầu khai thác đến thời điểm thống kê, bao gồm:
 
 a) Thông tin về tài nguyên, trữ lượng khoáng sản đã được cơ quan nhà nước có thẩm quyền công nhận; bình đồ tính tài nguyên, trữ lượng khoáng sản và mặt cắt tính tài nguyên, trữ lượng khoáng sản;
 
@@ -1304,7 +1299,7 @@ c) Thông tin, số liệu từ kết quả phân tích, đánh giá chất lư�
 
 d) Kết quả đo đạc thực tế về hiện trạng khai thác trong quá trình lập bản đồ hiện trạng, mặt cắt hiện trạng khu vực khai thác khoáng sản đối với khoáng sản rắn.
 
-3\. Kiểm kê trữ lượng khoáng sản còn lại kể từ ngày bắt đầu khai thác đến thời điểm kiểm kê được tổng hợp từ các tài liệu bao gồm:
+3. Kiểm kê trữ lượng khoáng sản còn lại kể từ ngày bắt đầu khai thác đến thời điểm kiểm kê được tổng hợp từ các tài liệu bao gồm:
 
 a) Thông tin về trữ lượng khoáng sản quy định trong giấy phép khai thác khoáng sản;
 
@@ -1312,15 +1307,15 @@ b) Kết quả thống kê trữ lượng khoáng sản đã khai thác hằng n
 
 c) Số liệu về tài nguyên, trữ lượng các loại khoáng sản còn lại trong phạm vi ranh giới khu vực được phép khai thác.
 
-4\. Việc thống kê, kiểm kê khối lượng khoáng sản đối với trường hợp quy định tại điểm d khoản 1 Điều 59 của Luật này được thực hiện theo quy định tại các khoản 1, 2 và 3 Điều này.
+4. Việc thống kê, kiểm kê khối lượng khoáng sản đối với trường hợp quy định tại điểm d khoản 1 Điều 59 của Luật này được thực hiện theo quy định tại các khoản 1, 2 và 3 Điều này.
 
-5\. Chính phủ quy định chi tiết các khoản 1, 2, 3 và 4 Điều này.
+5. Chính phủ quy định chi tiết các khoản 1, 2, 3 và 4 Điều này.
 
-6\. Bộ trưởng Bộ Tài nguyên và Môi trường quy định các mẫu báo cáo, tài liệu quy định tại Điều này.
+6. Bộ trưởng Bộ Tài nguyên và Môi trường quy định các mẫu báo cáo, tài liệu quy định tại Điều này.
 
-**Điều 65. Khai thác khoáng sản chiến lược, quan trọng, khoáng sản độc hại****, khoáng sản phóng xạ**
+**Điều 65. Khai thác khoáng sản chiến lược, quan trọng, khoáng sản độc hại, khoáng sản phóng xạ**
 
-1\. Đối với khai thác khoáng sản chiến lược, quan trọng, tổ chức, cá nhân khai thác khoáng sản phải thực hiện theo các quy định sau đây:
+1. Đối với khai thác khoáng sản chiến lược, quan trọng, tổ chức, cá nhân khai thác khoáng sản phải thực hiện theo các quy định sau đây:
 
 a) Thực hiện nghĩa vụ quy định tại khoản 2 Điều 59 của Luật này;
 
@@ -1328,13 +1323,13 @@ b) Đối với nhà đầu tư nước ngoài, phải đáp ứng các quy đ�
 
 c) Chịu sự điều hành của cơ quan quản lý nhà nước có thẩm quyền và phù hợp với chiến lược phát triển kinh tế - xã hội theo từng thời kỳ.
 
-2\. Ngoài việc thực hiện nghĩa vụ quy định tại khoản 2 Điều 59 của Luật này, tổ chức, cá nhân khai thác khoáng sản độc hại, khoáng sản phóng xạ còn phải thực hiện quy định của Luật Năng lượng nguyên tử và quy định khác của pháp luật có liên quan.
+2. Ngoài việc thực hiện nghĩa vụ quy định tại khoản 2 Điều 59 của Luật này, tổ chức, cá nhân khai thác khoáng sản độc hại, khoáng sản phóng xạ còn phải thực hiện quy định của Luật Năng lượng nguyên tử và quy định khác của pháp luật có liên quan.
 
-3\. Chính phủ quy định tổ chức được phép khai thác khoáng sản chiến lược, quan trọng, khoáng sản độc hại, khoáng sản phóng xạ.
+3. Chính phủ quy định tổ chức được phép khai thác khoáng sản chiến lược, quan trọng, khoáng sản độc hại, khoáng sản phóng xạ.
 
 **Điều 66. Thu hồi, chấm dứt hiệu lực giấy phép khai thác khoáng sản**
 
-1\. Giấy phép khai thác khoáng sản bị thu hồi trong các trường hợp sau đây:
+1. Giấy phép khai thác khoáng sản bị thu hồi trong các trường hợp sau đây:
 
 a) Giấy phép cấp không đúng thẩm quyền hoặc có nội dung trái quy định của pháp luật;
 
@@ -1344,7 +1339,7 @@ c) Khi cơ quan nhà nước có thẩm quyền quyết định thu hồi toàn 
 
 d) Tổ chức, cá nhân được cấp giấy phép khai thác khoáng sản vi phạm nghiêm trọng nghĩa vụ trong hoạt động khai thác khoáng sản.
 
-2\. Giấy phép khai thác khoáng sản chấm dứt hiệu lực khi thuộc một trong các trường hợp sau đây:
+2. Giấy phép khai thác khoáng sản chấm dứt hiệu lực khi thuộc một trong các trường hợp sau đây:
 
 a) Giấy phép bị thu hồi;
 
@@ -1362,7 +1357,7 @@ g) Tổ chức, cá nhân khai thác khoáng sản bị cơ quan quản lý nhà
 
 h) Theo bản án, quyết định của Tòa án, phán quyết trọng tài.
 
-3\. Khi giấy phép khai thác khoáng sản chấm dứt hiệu lực theo quy định tại các điểm a, b, đ, e, g và h khoản 2 Điều này thì tổ chức, cá nhân khai thác khoáng sản có nghĩa vụ sau đây:
+3. Khi giấy phép khai thác khoáng sản chấm dứt hiệu lực theo quy định tại các điểm a, b, đ, e, g và h khoản 2 Điều này thì tổ chức, cá nhân khai thác khoáng sản có nghĩa vụ sau đây:
 
 a) Thực hiện đóng cửa mỏ khoáng sản theo quy định tại mục 2 Chương VII của Luật này;
 
@@ -1370,24 +1365,23 @@ b) Trong thời hạn 06 tháng, kể từ ngày giấy phép khai thác khoáng
 
 c) Không được tháo dỡ, phá hủy các công trình, thiết bị bảo đảm an toàn mỏ, bảo vệ môi trường ở khu vực khai thác khoáng sản.
 
-4\. Trường hợp giấy phép khai thác khoáng sản chấm dứt hiệu lực mà còn trữ lượng khoáng sản và tổ chức, cá nhân đã có giấy phép khai thác khoáng sản trước đó không đủ điều kiện để gia hạn hoặc cấp lại giấy phép khai thác khoáng sản thì việc cấp giấy phép khai thác khoáng sản cho tổ chức, cá nhân khác được thực hiện theo quy định của Luật này.
+4. Trường hợp giấy phép khai thác khoáng sản chấm dứt hiệu lực mà còn trữ lượng khoáng sản và tổ chức, cá nhân đã có giấy phép khai thác khoáng sản trước đó không đủ điều kiện để gia hạn hoặc cấp lại giấy phép khai thác khoáng sản thì việc cấp giấy phép khai thác khoáng sản cho tổ chức, cá nhân khác được thực hiện theo quy định của Luật này.
 
-5\. Tổ chức, cá nhân khai thác khoáng sản bị thu hồi giấy phép khai thác khoáng sản theo quy định tại điểm b và điểm c khoản 1 Điều này được bồi thường thiệt hại theo quy định của pháp luật.
+5. Tổ chức, cá nhân khai thác khoáng sản bị thu hồi giấy phép khai thác khoáng sản theo quy định tại điểm b và điểm c khoản 1 Điều này được bồi thường thiệt hại theo quy định của pháp luật.
 
-6\. Chính phủ quy định chi tiết điểm d khoản 1, điểm c khoản 3, khoản 4 và khoản 5 Điều này; quy định chi tiết hồ sơ, trình tự, thủ tục thu hồi giấy phép khai thác khoáng sản.
+6. Chính phủ quy định chi tiết điểm d khoản 1, điểm c khoản 3, khoản 4 và khoản 5 Điều này; quy định chi tiết hồ sơ, trình tự, thủ tục thu hồi giấy phép khai thác khoáng sản.
 
-**Mục 3  
-KHAI THÁC TẬN THU KHOÁNG SẢN**
+**Mục 3. KHAI THÁC TẬN THU KHOÁNG SẢN**
 
 **Điều 67. Quy định chung về khai thác tận thu khoáng sản**
 
-1\. Khai thác tận thu khoáng sản bao gồm:
+1. Khai thác tận thu khoáng sản bao gồm:
 
 a) Hoạt động khai thác có chọn lọc khoáng sản còn lại ở bãi thải của mỏ đã có quyết định đóng cửa mỏ khoáng sản;
 
 b) Hoạt động khai thác tất cả các khoáng sản ở bãi thải của mỏ, kể cả đất, đá thải mỏ, đã có quyết định đóng cửa mỏ khoáng sản.
 
-2\. Nguyên tắc cấp giấy phép khai thác tận thu khoáng sản bao gồm:
+2. Nguyên tắc cấp giấy phép khai thác tận thu khoáng sản bao gồm:
 
 a) Phải bảo đảm các yêu cầu về an toàn, vệ sinh lao động, kỹ thuật an toàn, bảo vệ môi trường trong khai thác khoáng sản; bảo đảm không ảnh hưởng tiêu cực đến cộng đồng dân cư xung quanh khu vực bãi thải;
 
@@ -1397,37 +1391,37 @@ c) Không phải căn cứ vào phương án quản lý về địa chất, kho�
 
 d) Giấy phép khai thác tận thu khoáng sản được xem xét, cấp đối với tổ chức, cá nhân đáp ứng điều kiện quy định tại Điều 53 của Luật này.
 
-3\. Chính phủ quy định chi tiết điểm b khoản 2 Điều này.
+3. Chính phủ quy định chi tiết điểm b khoản 2 Điều này.
 
 **Điều 68. Giấy phép khai thác tận thu khoáng sản**
 
-1\. Các thông tin, nội dung của giấy phép khai thác tận thu khoáng sản bao gồm:
+1. Các thông tin, nội dung của giấy phép khai thác tận thu khoáng sản bao gồm:
 
 a) Các thông tin, nội dung quy định tại khoản 1, các điểm a, b, d và đ khoản 2, khoản 3 Điều 56 của Luật này;
 
 b) Khối lượng khoáng sản được phép khai thác.
 
-2\. Giấy phép khai thác tận thu khoáng sản có thời hạn như sau:
+2. Giấy phép khai thác tận thu khoáng sản có thời hạn như sau:
 
 a) Thời hạn khai thác tận thu khoáng sản bao gồm thời gian xây dựng cơ bản mỏ và thời gian khai thác tận thu khoáng sản được xác định theo dự án đầu tư khai thác khoáng sản nhưng không quá 10 năm và có thể được gia hạn nhiều lần theo đề nghị của tổ chức, cá nhân có giấy phép khai thác tận thu khoáng sản với tổng thời gian gia hạn không quá 05 năm;
 
 b) Trong trường hợp chuyển nhượng quyền khai thác tận thu khoáng sản cho tổ chức, cá nhân khác thì thời hạn khai thác tận thu khoáng sản là thời gian còn lại của giấy phép khai thác tận thu khoáng sản đã cấp trước đó.
 
-**Điều 69. Cấp, gia hạn, điều chỉnh và trả lại giấy phép khai thác tận thu khoáng sản****, chuyển nhượng quyền khai thác tận thu khoáng sản**
+**Điều 69. Cấp, gia hạn, điều chỉnh và trả lại giấy phép khai thác tận thu khoáng sản, chuyển nhượng quyền khai thác tận thu khoáng sản**
 
-1\. Việc cấp giấy phép khai thác tận thu khoáng sản phải thực hiện theo nguyên tắc quy định tại khoản 2 Điều 67 của Luật này và các căn cứ sau đây:
+1. Việc cấp giấy phép khai thác tận thu khoáng sản phải thực hiện theo nguyên tắc quy định tại khoản 2 Điều 67 của Luật này và các căn cứ sau đây:
 
 a) Kết quả thẩm định hồ sơ đề nghị cấp giấy phép khai thác tận thu khoáng sản;
 
 b) Nhu cầu khai thác, sử dụng khoáng sản thể hiện trong văn bản đề nghị cấp giấy phép.
 
-2\. Chính phủ quy định chi tiết khoản 1 Điều này; quy định các trường hợp gia hạn, điều chỉnh, trả lại giấy phép khai thác tận thu khoáng sản, chuyển nhượng quyền khai thác tận thu khoáng sản; quy định cơ quan thẩm định; quy định hồ sơ, trình tự, thủ tục cấp, gia hạn, điều chỉnh, trả lại giấy phép khai thác tận thu khoáng sản, chuyển nhượng quyền khai thác tận thu khoáng sản.
+2. Chính phủ quy định chi tiết khoản 1 Điều này; quy định các trường hợp gia hạn, điều chỉnh, trả lại giấy phép khai thác tận thu khoáng sản, chuyển nhượng quyền khai thác tận thu khoáng sản; quy định cơ quan thẩm định; quy định hồ sơ, trình tự, thủ tục cấp, gia hạn, điều chỉnh, trả lại giấy phép khai thác tận thu khoáng sản, chuyển nhượng quyền khai thác tận thu khoáng sản.
 
-3\. Bộ trưởng Bộ Tài nguyên và Môi trường quy định mẫu báo cáo, tài liệu quy định tại Điều này.
+3. Bộ trưởng Bộ Tài nguyên và Môi trường quy định mẫu báo cáo, tài liệu quy định tại Điều này.
 
 **Điều 70. Quyền và nghĩa vụ của tổ chức, cá nhân được phép khai thác tận thu khoáng sản**
 
-1\. Tổ chức, cá nhân được phép khai thác tận thu khoáng sản có các quyền sau đây:
+1. Tổ chức, cá nhân được phép khai thác tận thu khoáng sản có các quyền sau đây:
 
 a) Sử dụng thông tin về khoáng sản liên quan đến mục đích khai thác và khu vực được phép khai thác tận thu khoáng sản;
 
@@ -1447,7 +1441,7 @@ h) Sử dụng đất, đá thải mỏ để phục vụ cho mục đích cải
 
 i) Quyền khác theo quy định của pháp luật.
 
-2\. Tổ chức, cá nhân được phép khai thác tận thu khoáng sản có các nghĩa vụ sau đây:
+2. Tổ chức, cá nhân được phép khai thác tận thu khoáng sản có các nghĩa vụ sau đây:
 
 a) Nộp tiền cấp quyền khai thác khoáng sản, thuế, phí, lệ phí theo quy định của pháp luật;
 
@@ -1477,13 +1471,13 @@ n) Trường hợp đã khai thác đủ khối lượng khoáng sản quy đị
 
 o) Nghĩa vụ khác theo quy định của pháp luật.
 
-3\. Chính phủ quy định chi tiết điểm c và điểm h khoản 1, điểm e và điểm h khoản 2 Điều này; quy định lộ trình thực hiện việc kết nối với hệ thống thông tin, dữ liệu về hoạt động khoáng sản quy định tại điểm g khoản 2 Điều này.
+3. Chính phủ quy định chi tiết điểm c và điểm h khoản 1, điểm e và điểm h khoản 2 Điều này; quy định lộ trình thực hiện việc kết nối với hệ thống thông tin, dữ liệu về hoạt động khoáng sản quy định tại điểm g khoản 2 Điều này.
 
-4\. Bộ trưởng Bộ Tài nguyên và Môi trường quy định chi tiết các điểm đ, g, i và n khoản 2 Điều này.
+4. Bộ trưởng Bộ Tài nguyên và Môi trường quy định chi tiết các điểm đ, g, i và n khoản 2 Điều này.
 
-**Điều 71. Thu hồi giấy phép khai thác tận thu** **khoáng sản**
+**Điều 71. Thu hồi giấy phép khai thác tận thu khoáng sản**
 
-1\. Giấy phép khai thác tận thu khoáng sản bị thu hồi trong các trường hợp sau đây:
+1. Giấy phép khai thác tận thu khoáng sản bị thu hồi trong các trường hợp sau đây:
 
 a) Giấy phép cấp không đúng thẩm quyền hoặc có nội dung trái quy định của pháp luật;
 
@@ -1493,7 +1487,7 @@ c) Khi cơ quan nhà nước có thẩm quyền quyết định thu hồi toàn 
 
 d) Tổ chức, cá nhân được cấp giấy phép khai thác tận thu khoáng sản vi phạm nghiêm trọng nghĩa vụ trong hoạt động khai thác khoáng sản.
 
-2\. Giấy phép khai thác tận thu khoáng sản chấm dứt hiệu lực khi thuộc một trong các trường hợp sau đây:
+2. Giấy phép khai thác tận thu khoáng sản chấm dứt hiệu lực khi thuộc một trong các trường hợp sau đây:
 
 a) Giấy phép bị thu hồi;
 
@@ -1511,22 +1505,21 @@ g) Tổ chức, cá nhân khai thác tận thu khoáng sản bị cơ quan quả
 
 h) Theo bản án, quyết định của Tòa án, phán quyết trọng tài.
 
-3\. Khi giấy phép khai thác tận thu khoáng sản chấm dứt hiệu lực theo quy định tại các điểm a, b, đ, e, g và h khoản 2 Điều này thì tổ chức, cá nhân khai thác tận thu khoáng sản có nghĩa vụ thực hiện các yêu cầu quy định tại khoản 3 Điều 66 của Luật này.
+3. Khi giấy phép khai thác tận thu khoáng sản chấm dứt hiệu lực theo quy định tại các điểm a, b, đ, e, g và h khoản 2 Điều này thì tổ chức, cá nhân khai thác tận thu khoáng sản có nghĩa vụ thực hiện các yêu cầu quy định tại khoản 3 Điều 66 của Luật này.
 
-4\. Tổ chức, cá nhân khai thác tận thu khoáng sản bị thu hồi giấy phép khai thác tận thu khoáng sản theo quy định tại điểm b và điểm c khoản 1 Điều này được bồi thường thiệt hại theo quy định của pháp luật.
+4. Tổ chức, cá nhân khai thác tận thu khoáng sản bị thu hồi giấy phép khai thác tận thu khoáng sản theo quy định tại điểm b và điểm c khoản 1 Điều này được bồi thường thiệt hại theo quy định của pháp luật.
 
-5\. Chính phủ quy định chi tiết điểm d khoản 1 và khoản 4 Điều này; quy định trình tự thu hồi giấy phép khai thác tận thu khoáng sản.
+5. Chính phủ quy định chi tiết điểm d khoản 1 và khoản 4 Điều này; quy định trình tự thu hồi giấy phép khai thác tận thu khoáng sản.
 
-**Mục 4  
-KHAI THÁC KHOÁNG SẢN NHÓM IV**
+**Mục 4. KHAI THÁC KHOÁNG SẢN NHÓM IV**
 
 **Điều 72. Tổ chức, cá nhân khai thác khoáng sản nhóm IV**
 
 Tổ chức, cá nhân được xem xét cấp giấy phép khai thác khoáng sản nhóm IV bao gồm:
 
-1\. Tổ chức, cá nhân quy định tại Điều 53 của Luật này;
+1. Tổ chức, cá nhân quy định tại Điều 53 của Luật này;
 
-2\. Tổ chức được cơ quan quản lý nhà nước có thẩm quyền chấp thuận, lựa chọn là nhà thầu thi công trong các trường hợp sau đây:
+2. Tổ chức được cơ quan quản lý nhà nước có thẩm quyền chấp thuận, lựa chọn là nhà thầu thi công trong các trường hợp sau đây:
 
 a) Thi công dự án quan trọng quốc gia, dự án đầu tư công khẩn cấp, công trình, hạng mục công trình thuộc chương trình mục tiêu quốc gia theo quy định của pháp luật về đầu tư công;
 
@@ -1534,13 +1527,13 @@ b) Thực hiện biện pháp huy động khẩn cấp để kịp thời ứng 
 
 **Điều 73. Quy định chung về khai thác khoáng sản nhóm IV**
 
-1\. Khai thác khoáng sản nhóm IV được thực hiện như sau:
+1. Khai thác khoáng sản nhóm IV được thực hiện như sau:
 
 a) Không phải thực hiện thủ tục cấp giấy phép thăm dò khoáng sản nhưng phải khảo sát, đánh giá thông tin chung về khoáng sản dự kiến khai thác;
 
 b) Việc cấp giấy phép khai thác khoáng sản được thực hiện theo quy định tại khoản 2 Điều này và Điều 74 của Luật này, trừ trường hợp khai thác tận thu khoáng sản.
 
-2\. Nguyên tắc khai thác khoáng sản nhóm IV bao gồm:
+2. Nguyên tắc khai thác khoáng sản nhóm IVbao gồm:
 
 a) Chỉ cho phép khai thác ở khu vực không có tổ chức, cá nhân đang thăm dò, khai thác khoáng sản hợp pháp;
 
@@ -1550,7 +1543,7 @@ c) Việc cấp giấy phép khai thác khoáng sản không phải căn cứ ph
 
 d) Việc khai thác khoáng sản nhóm IV để phục vụ cho các dự án, công trình, hạng mục công trình, thực hiện các biện pháp huy động khẩn cấp quy định tại khoản 2 Điều 72 của Luật này, không phải thực hiện thủ tục trình cơ quan nhà nước có thẩm quyền quyết định hoặc chấp thuận chủ trương đầu tư, phê duyệt dự án đầu tư, thẩm định và phê duyệt kết quả thẩm định báo cáo đánh giá tác động môi trường, cấp giấy phép môi trường, đăng ký môi trường, nhưng phải lập phương án khai thác khoáng sản nhóm IV, trình cơ quan quản lý nhà nước có thẩm quyền để xem xét, cấp giấy phép khai thác khoáng sản theo quy định của Luật này.
 
-3\. Quyền của tổ chức, cá nhân khai thác khoáng sản nhóm IV bao gồm:
+3. Quyền của tổ chức, cá nhân khai thác khoáng sản nhóm IV bao gồm:
 
 a) Khai thác khoáng sản theo nội dung quy định trong giấy phép khai thác khoáng sản được cơ quan quản lý nhà nước có thẩm quyền cấp;
 
@@ -1562,7 +1555,7 @@ d) Khiếu nại, tố cáo, khởi kiện theo quy định của pháp luật;
 
 đ) Quyền khác theo quy định của pháp luật.
 
-4\. Nghĩa vụ của tổ chức, cá nhân khai thác khoáng sản nhóm IV bao gồm:
+4. Nghĩa vụ của tổ chức, cá nhân khai thác khoáng sản nhóm IV bao gồm:
 
 a) Nộp tiền cấp quyền khai thác khoáng sản, thuế, phí, lệ phí theo quy định của pháp luật;
 
@@ -1584,24 +1577,23 @@ i) Thực hiện đóng cửa mỏ khoáng sản theo quy định của Luật n
 
 k) Nghĩa vụ khác theo quy định của pháp luật.
 
-5\. Chính phủ quy định chi tiết việc bảo vệ, cải tạo, phục hồi môi trường trong khai thác khoáng sản nhóm IV; quy định việc xử lý đối với phần khoáng sản dôi dư quy định tại điểm d khoản 2 Điều này.
+5. Chính phủ quy định chi tiết việc bảo vệ, cải tạo, phục hồi môi trường trong khai thác khoáng sản nhóm IV; quy định việc xử lý đối với phần khoáng sản dôi dư quy định tại điểm d khoản 2 Điều này.
 
-6\. Bộ trưởng Bộ Tài nguyên và Môi trường quy định chi tiết điểm a khoản 1, điểm d khoản 2 và điểm h khoản 4 Điều này.
+6. Bộ trưởng Bộ Tài nguyên và Môi trường quy định chi tiết điểm a khoản 1, điểm d khoản 2 và điểm h khoản 4 Điều này.
 
 **Điều 74. Cấp giấy phép khai thác khoáng sản nhóm IV**
 
-1\. Tổ chức, cá nhân lập hồ sơ đề nghị khai thác khoáng sản nhóm IV và gửi về cơ quan quản lý nhà nước có thẩm quyền quy định tại khoản 2 Điều 108 của Luật này để được xem xét, cấp giấy phép khai thác khoáng sản nhóm IV.
+1. Tổ chức, cá nhân lập hồ sơ đề nghị khai thác khoáng sản nhóm IV và gửi về cơ quan quản lý nhà nước có thẩm quyền quy định tại khoản 2 Điều 108 của Luật này để được xem xét, cấp giấy phép khai thác khoáng sản nhóm IV.
 
-2\. Chính phủ quy định cơ quan thẩm định; quy định thời hạn giấy phép khai thác khoáng sản nhóm IV, việc gia hạn, điều chỉnh, trả lại, thu hồi, chấm dứt hiệu lực giấy phép khai thác khoáng sản nhóm IV; quy định hồ sơ, trình tự, thủ tục cấp, gia hạn, điều chỉnh, trả lại, thu hồi giấy phép khai thác khoáng sản nhóm IV.
+2. Chính phủ quy định cơ quan thẩm định; quy định thời hạn giấy phép khai thác khoáng sản nhóm IV, việc gia hạn, điều chỉnh, trả lại, thu hồi, chấm dứt hiệu lực giấy phép khai thác khoáng sản nhóm IV; quy định hồ sơ, trình tự, thủ tục cấp, gia hạn, điều chỉnh, trả lại, thu hồi giấy phép khai thác khoáng sản nhóm IV.
 
-3\. Bộ trưởng Bộ Tài nguyên và Môi trường quy định mẫu giấy phép khai thác khoáng sản nhóm IV, mẫu văn bản của hồ sơ đề nghị cấp giấy phép khai thác khoáng sản nhóm IV.
+3. Bộ trưởng Bộ Tài nguyên và Môi trường quy định mẫu giấy phép khai thác khoáng sản nhóm IV, mẫu văn bản của hồ sơ đề nghị cấp giấy phép khai thác khoáng sản nhóm IV.
 
-**Mục 5  
-THU HỒI KHOÁNG SẢN**
+**Mục 5. THU HỒI KHOÁNG SẢN**
 
 **Điều 75. Quy định chung về thu hồi khoáng sản**
 
-1\. Tổ chức, cá nhân được xem xét cấp giấy xác nhận đăng ký thu hồi khoáng sản trong các trường hợp sau đây:
+1. Tổ chức, cá nhân được xem xét cấp giấy xác nhận đăng ký thu hồi khoáng sản trong các trường hợp sau đây:
 
 a) Trường hợp quy định tại điểm d khoản 1 Điều 59 và điểm c khoản 1 Điều 70 của Luật này;
 
@@ -1613,27 +1605,27 @@ d) Người sử dụng đất thực hiện cải tạo, xây dựng công trì
 
 đ) Tổ chức, cá nhân thực hiện đóng cửa mỏ khoáng sản được phép thu hồi khoáng sản.
 
-2\. Việc thu hồi khoáng sản tại khoản 1 Điều này không áp dụng đối với nước khoáng thiên nhiên, nước nóng thiên nhiên và phải bảo đảm nguyên tắc sau đây:
+2. Việc thu hồi khoáng sản tại khoản 1 Điều này không áp dụng đối với nước khoáng thiên nhiên, nước nóng thiên nhiên và phải bảo đảm nguyên tắc sau đây:
 
 a) Đối với trường hợp quy định tại các điểm a, b, c và đ khoản 1 Điều này, chỉ được phép thu hồi khoáng sản khi bắt buộc phải san gạt, đào đắp bề mặt địa hình tạo mặt bằng xây dựng, nạo vét để thực hiện theo đúng thiết kế của dự án; đề án đóng cửa mỏ khoáng sản, phương án đóng cửa mỏ khoáng sản được cơ quan quản lý nhà nước có thẩm quyền phê duyệt hoặc chấp thuận;
 
 b) Đối với trường hợp quy định tại điểm d khoản 1 Điều này, người sử dụng đất chỉ được thu hồi khoáng sản khi bắt buộc phải san gạt, đào đắp bề mặt địa hình tạo mặt bằng xây dựng các hạng mục của công trình đó.
 
-3\. Trường hợp thu hồi khoáng sản nhóm I quy định tại điểm b và điểm c khoản 1 Điều này, chủ đầu tư hoặc nhà đầu tư phải đánh giá hiệu quả kinh tế khi thu hồi khoáng sản và báo cáo cơ quan quản lý nhà nước có thẩm quyền để xem xét, quyết định.
+3. Trường hợp thu hồi khoáng sản nhóm I quy định tại điểm b và điểm c khoản 1 Điều này, chủ đầu tư hoặc nhà đầu tư phải đánh giá hiệu quả kinh tế khi thu hồi khoáng sản và báo cáo cơ quan quản lý nhà nước có thẩm quyền để xem xét, quyết định.
 
-4\. Trường hợp thu hồi khoáng sản nhóm II, nhóm III hoặc nhóm IV quy định tại khoản 1 Điều này được thực hiện như sau:
+4. Trường hợp thu hồi khoáng sản nhóm II, nhóm III hoặc nhóm IV quy định tại khoản 1 Điều này được thực hiện như sau:
 
 a) Được sử dụng khoáng sản để phục vụ cho xây dựng công trình hoặc các hạng mục công trình của dự án, đề án, phương án đó;
 
 b) Được cung cấp cho công trình, dự án khác.
 
-5\. Tổ chức, cá nhân thu hồi khoáng sản phải đăng ký hoạt động thu hồi khoáng sản với cơ quan quản lý nhà nước có thẩm quyền về khoáng sản, trừ trường hợp quy định tại điểm a khoản 1 và điểm a khoản 4 Điều này.
+5. Tổ chức, cá nhân thu hồi khoáng sản phải đăng ký hoạt động thu hồi khoáng sản với cơ quan quản lý nhà nước có thẩm quyền về khoáng sản, trừ trường hợp quy định tại điểm a khoản 1 và điểm a khoản 4 Điều này.
 
-6\. Chính phủ quy định chi tiết Điều này; quy định việc xử lý khoáng sản trong trường hợp không thu hồi; quy định thẩm quyền, hồ sơ, trình tự, thủ tục xác nhận đăng ký thu hồi khoáng sản.
+6. Chính phủ quy định chi tiết Điều này; quy định việc xử lý khoáng sản trong trường hợp không thu hồi; quy định thẩm quyền, hồ sơ, trình tự, thủ tục xác nhận đăng ký thu hồi khoáng sản.
 
-**Điều 76.** **Quyền và nghĩa vụ của tổ chức, cá nhân** **thu hồi khoáng sản**
+**Điều 76. Quyền và nghĩa vụ của tổ chức, cá nhân thu hồi khoáng sản**
 
-1\. Tổ chức, cá nhân thu hồi khoáng sản có quyền sau đây:
+1. Tổ chức, cá nhân thu hồi khoáng sản có quyền sau đây:
 
 a) Thu hồi khoáng sản theo giấy xác nhận đăng ký thu hồi khoáng sản của cơ quan nhà nước có thẩm quyền;
 
@@ -1641,7 +1633,7 @@ b) Cất giữ, vận chuyển, tiêu thụ, xuất khẩu và các quyền sở
 
 c) Quyền khác theo quy định của pháp luật.
 
-2\. Tổ chức, cá nhân thu hồi khoáng sản có nghĩa vụ sau đây:
+2. Tổ chức, cá nhân thu hồi khoáng sản có nghĩa vụ sau đây:
 
 a) Nộp tiền cấp quyền khai thác khoáng sản, thuế, phí, lệ phí theo quy định của pháp luật, trừ trường hợp quy định tại khoản 3 Điều 98 của Luật này;
 
@@ -1653,8 +1645,7 @@ d) Bồi thường thiệt hại do hoạt động thu hồi khoáng sản gây 
 
 đ) Nghĩa vụ khác theo quy định của pháp luật.
 
-**Mục 6  
-CHẾ BIẾN KHOÁNG SẢN**
+**Mục 6. CHẾ BIẾN KHOÁNG SẢN**
 
 **Điều 77. Tổ chức, cá nhân chế biến khoáng sản**
 
@@ -1662,7 +1653,7 @@ Tổ chức, cá nhân chế biến khoáng sản bao gồm tổ chức, cá nh�
 
 **Điều 78. Quy định chung về chế biến khoáng sản**
 
-1\. Chế biến khoáng sản phải bảo đảm các nguyên tắc sau đây:
+1. Chế biến khoáng sản phải bảo đảm các nguyên tắc sau đây:
 
 a) Phù hợp với quy hoạch khoáng sản nhóm I, quy hoạch khoáng sản nhóm II hoặc quy hoạch ngành quốc gia và quy hoạch tỉnh;
 
@@ -1670,47 +1661,45 @@ b) Việc chế biến khoáng sản được thực hiện theo quy định c�
 
 c) Khoáng sản đưa vào chế biến có nguồn gốc hợp pháp theo quy định của pháp luật.
 
-2\. Tổ chức, cá nhân chế biến khoáng sản phải áp dụng công nghệ tiên tiến, sử dụng thiết bị hiện đại, tiết kiệm tài nguyên, năng lượng, tài nguyên nước và bảo vệ môi trường.
+2. Tổ chức, cá nhân chế biến khoáng sản phải áp dụng công nghệ tiên tiến, sử dụng thiết bị hiện đại, tiết kiệm tài nguyên, năng lượng, tài nguyên nước và bảo vệ môi trường.
 
-3\. Chính phủ quy định chi tiết Điều này.
+3. Chính phủ quy định chi tiết Điều này.
 
-**Chương VII  
-BẢO VỆ MÔI TRƯỜNG TRONG KHAI THÁC KHOÁNG SẢN;  
-ĐÓNG CỬA MỎ KHOÁNG SẢN**
+**Chương VII**
 
-**Mục 1  
-BẢO VỆ MÔI TRƯỜNG TRONG KHAI THÁC KHOÁNG SẢN**
+**BẢO VỆ MÔI TRƯỜNG TRONG KHAI THÁC KHOÁNG SẢN; ĐÓNG CỬA MỎ KHOÁNG SẢN**
+
+**Mục 1. BẢO VỆ MÔI TRƯỜNG TRONG KHAI THÁC KHOÁNG SẢN**
 
 **Điều 79. Yêu cầu chung về bảo vệ môi trường trong khai thác khoáng sản**
 
-1\. Tổ chức, cá nhân khai thác khoáng sản phải ưu tiên sử dụng công nghệ, thiết bị, vật liệu thân thiện với môi trường; thực hiện các giải pháp ngăn ngừa, giảm thiểu tác động xấu đến môi trường, cải tạo, phục hồi môi trường theo quy định của pháp luật về bảo vệ môi trường và quy định khác của pháp luật có liên quan.
+1. Tổ chức, cá nhân khai thác khoáng sản phải ưu tiên sử dụng công nghệ, thiết bị, vật liệu thân thiện với môi trường; thực hiện các giải pháp ngăn ngừa, giảm thiểu tác động xấu đến môi trường, cải tạo, phục hồi môi trường theo quy định của pháp luật về bảo vệ môi trường và quy định khác của pháp luật có liên quan.
 
-2\. Tổ chức, cá nhân hoạt động khoáng sản phải thực hiện các giải pháp và chịu mọi chi phí bảo vệ, cải tạo, phục hồi môi trường.
+2. Tổ chức, cá nhân hoạt động khoáng sản phải thực hiện các giải pháp và chịu mọi chi phí bảo vệ, cải tạo, phục hồi môi trường.
 
 **Điều 80. Nội dung bảo vệ môi trường trong khai thác khoáng sản**
 
-1\. Nội dung bảo vệ môi trường trong khai thác khoáng sản được thực hiện theo quy định của pháp luật về bảo vệ môi trường.
+1. Nội dung bảo vệ môi trường trong khai thác khoáng sản được thực hiện theo quy định của pháp luật về bảo vệ môi trường.
 
-2\. Thực hiện yêu cầu về quản lý rủi ro theo quy định tại Điều 60 của Luật này.
+2. Thực hiện yêu cầu về quản lý rủi ro theo quy định tại Điều 60 của Luật này.
 
-**Mục 2  
-ĐÓNG CỬA MỎ KHOÁNG SẢN**
+**Mục 2. ĐÓNG CỬA MỎ KHOÁNG SẢN**
 
 **Điều 81. Yêu cầu chung về hoạt động đóng cửa mỏ khoáng sản**
 
 Việc đóng cửa mỏ khoáng sản phải bảo đảm các yêu cầu sau đây:
 
-1\. Thống kê đầy đủ trữ lượng, khối lượng khoáng sản đã khai thác; kiểm kê trữ lượng, khối lượng khoáng sản còn lại;
+1. Thống kê đầy đủ trữ lượng, khối lượng khoáng sản đã khai thác; kiểm kê trữ lượng, khối lượng khoáng sản còn lại;
 
-2\. Đưa môi trường tự nhiên gồm đất, nước, thảm thực vật, cảnh quan của toàn bộ hay từng phần khu vực mỏ sau khai thác đạt các yêu cầu cải tạo, phục hồi môi trường theo quy định của pháp luật về bảo vệ môi trường;
+2. Đưa môi trường tự nhiên gồm đất, nước, thảm thực vật, cảnh quan của toàn bộ hay từng phần khu vực mỏ sau khai thác đạt các yêu cầu cải tạo, phục hồi môi trường theo quy định của pháp luật về bảo vệ môi trường;
 
-3\. Bảo đảm sự ổn định và an toàn của khu vực sau khi đóng cửa mỏ khoáng sản;
+3. Bảo đảm sự ổn định và an toàn của khu vực sau khi đóng cửa mỏ khoáng sản;
 
-4\. Tối ưu hiệu quả sử dụng đất sau khai thác khoáng sản.
+4. Tối ưu hiệu quả sử dụng đất sau khai thác khoáng sản.
 
-**Điều 82. Đề án đóng cửa mỏ khoáng sản****, phương án đóng cửa mỏ khoáng sản**
+**Điều 82. Đề án đóng cửa mỏ khoáng sản, phương án đóng cửa mỏ khoáng sản**
 
-1\. Trừ trường hợp quy định tại các khoản 2, 3 và 4 Điều này, tổ chức, cá nhân khai thác khoáng sản, khai thác tận thu khoáng sản phải lập đề án đóng cửa mỏ khoáng sản đối với toàn bộ hoặc một phần diện tích khu vực khai thác khoáng sản trong các trường hợp sau đây:
+1. Trừ trường hợp quy định tại các khoản 2, 3 và 4 Điều này, tổ chức, cá nhân khai thác khoáng sản, khai thác tận thu khoáng sản phải lập đề án đóng cửa mỏ khoáng sản đối với toàn bộ hoặc một phần diện tích khu vực khai thác khoáng sản trong các trường hợp sau đây:
 
 a) Đã khai thác hết toàn bộ trữ lượng khoáng sản trong phạm vi diện tích, ranh giới theo chiều sâu khu vực khai thác khoáng sản;
 
@@ -1722,19 +1711,19 @@ d) Thời hạn khai thác quy định trong giấy phép khai thác khoáng s�
 
 đ) Khi tổ chức, cá nhân có đề nghị trả lại giấy phép khai thác khoáng sản, giấy phép khai thác tận thu khoáng sản.
 
-2\. Trừ trường hợp quy định tại khoản 3 và khoản 4 Điều này, trường hợp không phải lập đề án đóng cửa mỏ khoáng sản nhưng phải lập phương án đóng cửa mỏ khoáng sản bao gồm:
+2. Trừ trường hợp quy định tại khoản 3 và khoản 4 Điều này, trường hợp không phải lập đề án đóng cửa mỏ khoáng sản nhưng phải lập phương án đóng cửa mỏ khoáng sản bao gồm:
 
 a) Giấy phép khai thác khoáng sản nước khoáng thiên nhiên, nước nóng thiên nhiên, khoáng sản ở lòng sông, lòng hồ, khu vực biển;
 
 b) Trả lại một phần diện tích đã khai thác.
 
-3\. Trừ trường hợp quy định tại khoản 4 Điều này, việc đóng cửa mỏ khoáng sản đối với khai thác khoáng sản nhóm IV được thực hiện như sau:
+3. Trừ trường hợp quy định tại khoản 4 Điều này, việc đóng cửa mỏ khoáng sản đối với khai thác khoáng sản nhóm IV được thực hiện như sau:
 
 a) Thực hiện các yêu cầu quy định tại Điều 81 của Luật này;
 
 b) Không phải thực hiện thủ tục thẩm định, phê duyệt đề án đóng cửa mỏ, chấp thuận phương án đóng cửa mỏ khoáng sản.
 
-4\. Các trường hợp không phải thực hiện đóng cửa mỏ khoáng sản bao gồm:
+4. Các trường hợp không phải thực hiện đóng cửa mỏ khoáng sản bao gồm:
 
 a) Giấy phép khai thác khoáng sản, giấy phép khai thác tận thu khoáng sản chấm dứt hiệu lực nhưng chưa tiến hành hoạt động khai thác khoáng sản;
 
@@ -1742,41 +1731,41 @@ b) Giấy phép khai thác khoáng sản, giấy phép khai thác tận thu kho�
 
 c) Tổ chức, cá nhân có đề nghị trả lại giấy phép khai thác khoáng sản, giấy phép khai thác tận thu khoáng sản nhưng chưa tiến hành hoạt động khai thác khoáng sản.
 
-5\. Bộ trưởng Bộ Tài nguyên và Môi trường quy định nội dung đề án đóng cửa mỏ khoáng sản, phương án đóng cửa mỏ khoáng sản.
+5. Bộ trưởng Bộ Tài nguyên và Môi trường quy định nội dung đề án đóng cửa mỏ khoáng sản, phương án đóng cửa mỏ khoáng sản.
 
-**Điều 83. Thẩm định, phê duyệt đề án đóng cửa mỏ khoáng sản, chấp thuận phương án đóng cửa mỏ** **khoáng sản**
+**Điều 83. Thẩm định, phê duyệt đề án đóng cửa mỏ khoáng sản, chấp thuận phương án đóng cửa mỏ khoáng sản**
 
-1\. Tổ chức, cá nhân khai thác khoáng sản thuộc đối tượng quy định tại khoản 1 Điều 82 của Luật này phải gửi hồ sơ đề nghị thẩm định, phê duyệt đề án đóng cửa mỏ khoáng sản về cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này để được thẩm định, phê duyệt trước khi thực hiện hoạt động đóng cửa mỏ khoáng sản.
+1. Tổ chức, cá nhân khai thác khoáng sản thuộc đối tượng quy định tại khoản 1 Điều 82 của Luật này phải gửi hồ sơ đề nghị thẩm định, phê duyệt đề án đóng cửa mỏ khoáng sản về cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này để được thẩm định, phê duyệt trước khi thực hiện hoạt động đóng cửa mỏ khoáng sản.
 
-2\. Cơ quan quản lý nhà nước có thẩm quyền phê duyệt đề án đóng cửa mỏ khoáng sản, điều chỉnh đề án đóng cửa mỏ khoáng sản theo thẩm quyền quy định tại Điều 108 của Luật này.
+2. Cơ quan quản lý nhà nước có thẩm quyền phê duyệt đề án đóng cửa mỏ khoáng sản, điều chỉnh đề án đóng cửa mỏ khoáng sản theo thẩm quyền quy định tại Điều 108 của Luật này.
 
-3\. Việc thẩm định đề án đóng cửa mỏ khoáng sản được thực hiện thông qua Hội đồng thẩm định đề án đóng cửa mỏ khoáng sản.
+3. Việc thẩm định đề án đóng cửa mỏ khoáng sản được thực hiện thông qua Hội đồng thẩm định đề án đóng cửa mỏ khoáng sản.
 
-4\. Quyết định phê duyệt đề án đóng cửa mỏ khoáng sản là căn cứ để thực hiện hoạt động sau đây:
+4. Quyết định phê duyệt đề án đóng cửa mỏ khoáng sản là căn cứ để thực hiện hoạt động sau đây:
 
 a) Thực hiện việc thanh tra, kiểm tra, giám sát của cơ quan nhà nước có thẩm quyền đối với các hoạt động đóng cửa mỏ khoáng sản của tổ chức, cá nhân;
 
 b) Thực hiện quyền và nghĩa vụ của tổ chức, cá nhân quy định tại Điều 85 của Luật này.
 
-5\. Tổ chức, cá nhân quy định tại khoản 1 Điều 82 của Luật này có nghĩa vụ lập hồ sơ đề nghị phê duyệt điều chỉnh đề án đóng cửa mỏ khoáng sản khi có nhu cầu thay đổi về thời gian, khối lượng các hạng mục công việc, kinh phí thực hiện trong đề án đóng cửa mỏ khoáng sản đã được phê duyệt.
+5. Tổ chức, cá nhân quy định tại khoản 1 Điều 82 của Luật này có nghĩa vụ lập hồ sơ đề nghị phê duyệt điều chỉnh đề án đóng cửa mỏ khoáng sản khi có nhu cầu thay đổi về thời gian, khối lượng các hạng mục công việc, kinh phí thực hiện trong đề án đóng cửa mỏ khoáng sản đã được phê duyệt.
 
-6\. Đối với trường hợp quy định tại khoản 2 Điều 82 của Luật này, tổ chức, cá nhân có trách nhiệm lập phương án đóng cửa mỏ khoáng sản gửi cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này xem xét, chấp thuận bằng văn bản trước khi thực hiện đóng cửa mỏ khoáng sản.
+6. Đối với trường hợp quy định tại khoản 2 Điều 82 của Luật này, tổ chức, cá nhân có trách nhiệm lập phương án đóng cửa mỏ khoáng sản gửi cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này xem xét, chấp thuận bằng văn bản trước khi thực hiện đóng cửa mỏ khoáng sản.
 
-7\. Chính phủ quy định chi tiết các khoản 1, 2, 3, 5 và 6 Điều này; quy định hồ sơ, trình tự, thủ tục thẩm định, phê duyệt, điều chỉnh đề án đóng cửa mỏ khoáng sản, chấp thuận phương án đóng cửa mỏ khoáng sản.
+7. Chính phủ quy định chi tiết các khoản 1, 2, 3, 5 và 6 Điều này; quy định hồ sơ, trình tự, thủ tục thẩm định, phê duyệt, điều chỉnh đề án đóng cửa mỏ khoáng sản, chấp thuận phương án đóng cửa mỏ khoáng sản.
 
 **Điều 84. Thực hiện đóng cửa mỏ khoáng sản**
 
-1\. Tổ chức, cá nhân khai thác khoáng sản thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 82 của Luật này phải thực hiện đóng cửa mỏ khoáng sản sau khi được cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này phê duyệt đề án đóng cửa mỏ khoáng sản hoặc chấp thuận phương án đóng cửa mỏ khoáng sản.
+1. Tổ chức, cá nhân khai thác khoáng sản thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 82 của Luật này phải thực hiện đóng cửa mỏ khoáng sản sau khi được cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này phê duyệt đề án đóng cửa mỏ khoáng sản hoặc chấp thuận phương án đóng cửa mỏ khoáng sản.
 
 Đối với trường hợp khai thác khoáng sản nhóm IV, tổ chức, cá nhân khai thác khoáng sản thực hiện đóng cửa mỏ khoáng sản và báo cáo kết quả thực hiện về cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này.
 
-2\. Trường hợp giấy phép chấm dứt hiệu lực theo quy định tại điểm d khoản 2 Điều 66, điểm d khoản 2 Điều 71 của Luật này hoặc trường hợp tổ chức, cá nhân khai thác khoáng sản không có khả năng thực hiện đóng cửa mỏ khoáng sản, việc lập, tổ chức thực hiện đóng cửa mỏ khoáng sản được thực hiện bởi đơn vị có đủ năng lực và được lựa chọn theo quy định của pháp luật về đấu thầu. Thẩm quyền lựa chọn đơn vị thực hiện đóng cửa mỏ khoáng sản được thực hiện như sau:
+2. Trường hợp giấy phép chấm dứt hiệu lực theo quy định tại điểm d khoản 2 Điều 66, điểm d khoản 2 Điều 71 của Luật này hoặc trường hợp tổ chức, cá nhân khai thác khoáng sản không có khả năng thực hiện đóng cửa mỏ khoáng sản, việc lập, tổ chức thực hiện đóng cửa mỏ khoáng sản được thực hiện bởi đơn vị có đủ năng lực và được lựa chọn theo quy định của pháp luật về đấu thầu. Thẩm quyền lựa chọn đơn vị thực hiện đóng cửa mỏ khoáng sản được thực hiện như sau:
 
 a) Bộ Tài nguyên và Môi trường quyết định đối với giấy phép khai thác khoáng sản hoặc văn bản tương đương với giấy phép khai thác khoáng sản do cơ quan trung ương cấp;
 
 b) Ủy ban nhân dân cấp tỉnh quyết định đối với trường hợp không thuộc quy định tại điểm a khoản này.
 
-3\. Kinh phí thực hiện đóng cửa mỏ khoáng sản quy định tại khoản 2 Điều này được thực hiện như sau:
+3. Kinh phí thực hiện đóng cửa mỏ khoáng sản quy định tại khoản 2 Điều này được thực hiện như sau:
 
 a) Sử dụng từ tiền ký quỹ cải tạo, phục hồi môi trường của tổ chức, cá nhân được cấp giấy phép khai thác khoáng sản, giấy phép khai thác tận thu khoáng sản;
 
@@ -1784,11 +1773,11 @@ b) Sử dụng kinh phí xử lý tài sản của doanh nghiệp, hợp tác x�
 
 c) Trường hợp số tiền quy định tại điểm a và điểm b khoản này không đủ để thực hiện đóng cửa mỏ khoáng sản, kinh phí còn thiếu được bổ sung từ ngân sách nhà nước theo quy định của pháp luật về ngân sách nhà nước.
 
-4\. Chính phủ quy định chi tiết Điều này; quy định đối tượng, hồ sơ, trình tự, thủ tục quyết định đóng cửa mỏ.
+4. Chính phủ quy định chi tiết Điều này; quy định đối tượng, hồ sơ, trình tự, thủ tục quyết định đóng cửa mỏ.
 
 **Điều 85. Quyền và nghĩa vụ của tổ chức, cá nhân thực hiện đóng cửa mỏ khoáng sản**
 
-1\. Quyền của tổ chức, cá nhân thực hiện đóng cửa mỏ khoáng sản bao gồm:
+1. Quyền của tổ chức, cá nhân thực hiện đóng cửa mỏ khoáng sản bao gồm:
 
 a) Được hoàn trả từng phần hoặc toàn bộ tiền ký quỹ cải tạo, phục hồi môi trường khi tổ chức, cá nhân hoàn thành công tác đóng cửa mỏ khoáng sản một phần diện tích hoặc toàn bộ diện tích khu vực khai thác khoáng sản theo đề án đóng cửa mỏ khoáng sản được phê duyệt hoặc phương án đóng cửa mỏ khoáng sản được chấp thuận;
 
@@ -1800,7 +1789,7 @@ d) Thu hồi khoáng sản trong quá trình thực hiện đóng cửa mỏ kho
 
 đ) Quyền khác theo quy định của pháp luật.
 
-2\. Nghĩa vụ của tổ chức, cá nhân thực hiện đóng cửa mỏ khoáng sản bao gồm:
+2. Nghĩa vụ của tổ chức, cá nhân thực hiện đóng cửa mỏ khoáng sản bao gồm:
 
 a) Bảo vệ khoáng sản chưa khai thác trong phạm vi ranh giới khu vực thực hiện đề án đóng cửa mỏ khoáng sản hoặc phương án đóng cửa mỏ khoáng sản đến thời điểm bàn giao khu vực đã đóng cửa mỏ khoáng sản cho địa phương quản lý;
 
@@ -1820,18 +1809,19 @@ h) Bồi thường thiệt hại do hoạt động đóng cửa mỏ khoáng s�
 
 i) Nghĩa vụ khác theo quy định của pháp luật.
 
-**Chương VIII  
-QUẢN LÝ CÁT, SỎI LÒNG SÔNG, LÒNG HỒ VÀ KHU VỰC BIỂN**
+**Chương VIII**
+
+**QUẢN LÝ CÁT, SỎI LÒNG SÔNG, LÒNG HỒ VÀ KHU VỰC BIỂN**
 
 **Điều 86. Nguyên tắc hoạt động thăm dò, khai thác, thu hồi cát, sỏi lòng sông, lòng hồ và khu vực biển**
 
-1\. Hoạt động thăm dò, khai thác cát, sỏi lòng sông, lòng hồ và khu vực biển phải tuân thủ quy định đối với khoáng sản nhóm II hoặc nhóm III quy định tại Luật này và bảo đảm các yêu cầu sau đây:
+1. Hoạt động thăm dò, khai thác cát, sỏi lòng sông, lòng hồ và khu vực biển phải tuân thủ quy định đối với khoáng sản nhóm II hoặc nhóm III quy định tại Luật này và bảo đảm các yêu cầu sau đây:
 
 a) Hoạt động khai thác phải được kiểm soát và giám sát bằng các phương tiện, thiết bị công nghệ hiện đại để bảo đảm kiểm soát được sự biến động trữ lượng khoáng sản; nguy cơ mất an toàn và ảnh hưởng nghiêm trọng đến môi trường; nguy cơ sạt lở, mất ổn định lòng sông, bờ sông, bãi sông, bờ biển;
 
 b) Hoạt động khai thác phải được đánh giá tác động theo quy định của pháp luật về tài nguyên nước, pháp luật về tài nguyên, môi trường biển và hải đảo, pháp luật về bảo vệ môi trường và các quy định khác của pháp luật có liên quan.
 
-2\. Hoạt động nạo vét kết hợp thu hồi sản phẩm là khoáng sản trong vùng nước cảng biển, cảng cá, khu neo đậu tránh trú bão, vùng nước đường thủy nội địa, lòng sông, lòng hồ thủy điện, lòng hồ thủy lợi phải thực hiện theo quy định của Luật này và bảo đảm các yêu cầu sau đây:
+2. Hoạt động nạo vét kết hợp thu hồi sản phẩm là khoáng sản trong vùng nước cảng biển, cảng cá, khu neo đậu tránh trú bão, vùng nước đường thủy nội địa, lòng sông, lòng hồ thủy điện, lòng hồ thủy lợi phải thực hiện theo quy định của Luật này và bảo đảm các yêu cầu sau đây:
 
 a) Tuân thủ pháp luật về giao thông đường thủy nội địa, thủy lợi, hàng hải, tài nguyên nước, bảo vệ môi trường, đê điều, phòng, chống thiên tai và quy định khác của pháp luật có liên quan;
 
@@ -1839,29 +1829,29 @@ b) Không lợi dụng hoạt động nạo vét để khai thác, thu hồi cá
 
 c) Phải đăng ký thu hồi khoáng sản với cơ quan quản lý nhà nước có thẩm quyền theo quy định của pháp luật.
 
-3\. Trường hợp đã khai thác đủ trữ lượng khoáng sản quy định trong giấy phép khai thác khoáng sản phải dừng khai thác và thực hiện thủ tục đóng cửa mỏ khoáng sản.
+3. Trường hợp đã khai thác đủ trữ lượng khoáng sản quy định trong giấy phép khai thác khoáng sản phải dừng khai thác và thực hiện thủ tục đóng cửa mỏ khoáng sản.
 
-4\. Chính phủ quy định chi tiết Điều này.
+4. Chính phủ quy định chi tiết Điều này.
 
 **Điều 87. Nguyên tắc cấp giấy phép thăm dò, khai thác cát, sỏi lòng sông, lòng hồ, khu vực biển**
 
 Việc cấp giấy phép thăm dò, khai thác cát, sỏi lòng sông, lòng hồ, khu vực biển phải thực hiện các nguyên tắc quy định tại khoản 1 Điều 43, khoản 1 Điều 55 của Luật này và bảo đảm các yêu cầu sau đây:
 
-1\. Cơ quan quản lý nhà nước có thẩm quyền cấp giấy phép thăm dò khoáng sản, giấy phép khai thác khoáng sản cát, sỏi lòng sông, lòng hồ, khu vực biển có trách nhiệm lấy ý kiến của cơ quan, tổ chức có liên quan trước khi cấp giấy phép;
+1. Cơ quan quản lý nhà nước có thẩm quyền cấp giấy phép thăm dò khoáng sản, giấy phép khai thác khoáng sản cát, sỏi lòng sông, lòng hồ, khu vực biển có trách nhiệm lấy ý kiến của cơ quan, tổ chức có liên quan trước khi cấp giấy phép;
 
-2\. Trường hợp khu vực thăm dò, khai thác cát, sỏi lòng sông, lòng hồ, khu vực biển giáp ranh từ 02 đơn vị hành chính cấp tỉnh trở lên, trước khi cấp giấy phép, Ủy ban nhân dân cấp tỉnh nơi có tổ chức, cá nhân đề nghị cấp giấy phép phải lấy ý kiến bằng văn bản của Ủy ban nhân dân cấp tỉnh giáp ranh;
+2. Trường hợp khu vực thăm dò, khai thác cát, sỏi lòng sông, lòng hồ, khu vực biển giáp ranh từ 02 đơn vị hành chính cấp tỉnh trở lên, trước khi cấp giấy phép, Ủy ban nhân dân cấp tỉnh nơi có tổ chức, cá nhân đề nghị cấp giấy phép phải lấy ý kiến bằng văn bản của Ủy ban nhân dân cấp tỉnh giáp ranh;
 
-3\. Giấy phép khai thác cát, sỏi lòng sông, lòng hồ có thời hạn tối đa không quá 10 năm. Trường hợp thời hạn của giấy phép khai thác ít hơn 10 năm và chưa khai thác hết trữ lượng khoáng sản quy định trong giấy phép khai thác thì được xem xét gia hạn, cấp lại nhưng tổng thời gian cấp, gia hạn, cấp lại không quá 10 năm;
+3. Giấy phép khai thác cát, sỏi lòng sông, lòng hồ có thời hạn tối đa không quá 10 năm. Trường hợp thời hạn của giấy phép khai thác ít hơn 10 năm và chưa khai thác hết trữ lượng khoáng sản quy định trong giấy phép khai thác thì được xem xét gia hạn, cấp lại nhưng tổng thời gian cấp, gia hạn, cấp lại không quá 10 năm;
 
-4\. Giấy phép khai thác phải quy định thời gian được phép khai thác trong ngày, thời gian khai thác trong năm;
+4. Giấy phép khai thác phải quy định thời gian được phép khai thác trong ngày, thời gian khai thác trong năm;
 
-5\. Chính phủ quy định chi tiết Điều này.
+5. Chính phủ quy định chi tiết Điều này.
 
 **Điều 88. Quyền và nghĩa vụ của tổ chức, cá nhân khai thác, cát, sỏi lòng sông, lòng hồ, khu vực biển**
 
-1\. Thực hiện các quyền theo quy định tại khoản 1 Điều 59 của Luật này.
+1. Thực hiện các quyền theo quy định tại khoản 1 Điều 59 của Luật này.
 
-2\. Thực hiện các nghĩa vụ quy định tại các điểm a, b, c, d, đ, e, g, h, i, k, l, m và o khoản 2 Điều 59 của Luật này và các yêu cầu sau đây:
+2. Thực hiện các nghĩa vụ quy định tại các điểm a, b, c, d, đ, e, g, h, i, k, l, m và o khoản 2 Điều 59 của Luật này và các yêu cầu sau đây:
 
 a) Đăng ký bến bãi, vị trí tập kết, loại phương tiện, thiết bị được sử dụng để khai thác, vận chuyển cát, sỏi theo quy định của pháp luật về giao thông đường thủy nội địa và quy định khác của pháp luật có liên quan;
 
@@ -1875,14 +1865,15 @@ d) Lắp đặt bảng thông báo để công khai thông tin về giấy phép
 
 e) Thực hiện nghĩa vụ tài chính theo quy định của Luật này và quy định khác của pháp luật có liên quan.
 
-3\. Chính phủ quy định chi tiết khoản 2 Điều này.
+3. Chính phủ quy định chi tiết khoản 2 Điều này.
 
-**Chương IX**  
+**Chương IX**
+
 **THÔNG TIN, DỮ LIỆU VỀ ĐỊA CHẤT, KHOÁNG SẢN**
 
 **Điều 89. Thông tin, dữ liệu về địa chất, khoáng sản**
 
-1\. Thông tin, dữ liệu về địa chất, khoáng sản bao gồm:
+1. Thông tin, dữ liệu về địa chất, khoáng sản bao gồm:
 
 a) Dữ liệu điều tra cơ bản địa chất;
 
@@ -1910,21 +1901,21 @@ m) Thông tin, dữ liệu về kết quả thăm dò khoáng sản;
 
 n) Mẫu vật địa chất, khoáng sản, mẫu vật bảo tàng.
 
-2\. Thông tin, dữ liệu về địa chất, khoáng sản được thiết kế tổng thể và xây dựng thành hệ thống thống nhất trong cả nước, phục vụ đa mục tiêu, theo tiêu chuẩn, quy chuẩn kỹ thuật quốc gia, quốc tế được công nhận tại Việt Nam; phục vụ xây dựng, quản lý, khai thác sử dụng cơ sở dữ liệu địa chất, khoáng sản, bao gồm:
+2. Thông tin, dữ liệu về địa chất, khoáng sản được thiết kế tổng thể và xây dựng thành hệ thống thống nhất trong cả nước, phục vụ đa mục tiêu, theo tiêu chuẩn, quy chuẩn kỹ thuật quốc gia, quốc tế được công nhận tại Việt Nam; phục vụ xây dựng, quản lý, khai thác sử dụng cơ sở dữ liệu địa chất, khoáng sản, bao gồm:
 
 a) Cơ sở dữ liệu địa chất, khoáng sản;
 
 b) Hạ tầng kỹ thuật số, hệ thống phần mềm, an toàn thông tin.
 
-3\. Cơ sở dữ liệu địa chất, khoáng sản là tập hợp thống nhất toàn bộ kết quả điều tra cơ bản địa chất, điều tra địa chất về khoáng sản, tài nguyên địa chất, khoáng sản; hoạt động khoáng sản trong phạm vi cả nước được xây dựng, cập nhật, lưu trữ và quản lý đáp ứng yêu cầu truy nhập, cung cấp, sử dụng thống nhất từ trung ương đến địa phương, phục vụ công tác quản lý nhà nước về địa chất, khoáng sản.
+3. Cơ sở dữ liệu địa chất, khoáng sản là tập hợp thống nhất toàn bộ kết quả điều tra cơ bản địa chất, điều tra địa chất về khoáng sản, tài nguyên địa chất, khoáng sản; hoạt động khoáng sản trong phạm vi cả nước được xây dựng, cập nhật, lưu trữ và quản lý đáp ứng yêu cầu truy nhập, cung cấp, sử dụng thống nhất từ trung ương đến địa phương, phục vụ công tác quản lý nhà nước về địa chất, khoáng sản.
 
-4\. Bộ Tài nguyên và Môi trường chủ trì, phối hợp với Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân cấp tỉnh xây dựng cơ sở dữ liệu về địa chất, khoáng sản. Bộ trưởng Bộ Tài nguyên và Môi trường quy định các mẫu biểu thông tin, dữ liệu về địa chất, khoáng sản.
+4. Bộ Tài nguyên và Môi trường chủ trì, phối hợp với Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ, Ủy ban nhân dân cấp tỉnh xây dựng cơ sở dữ liệu về địa chất, khoáng sản. Bộ trưởng Bộ Tài nguyên và Môi trường quy định các mẫu biểu thông tin, dữ liệu về địa chất, khoáng sản.
 
-5\. Chính phủ quy định việc xây dựng cơ sở dữ liệu về địa chất, khoáng sản.
+5. Chính phủ quy định việc xây dựng cơ sở dữ liệu về địa chất, khoáng sản.
 
 **Điều 90. Giao nộp, thu nhận thông tin, dữ liệu địa chất, khoáng sản**
 
-1\. Tổ chức thực hiện điều tra cơ bản địa chất, điều tra địa chất về khoáng sản, thăm dò khoáng sản có trách nhiệm giao nộp báo cáo, tài liệu, mẫu vật sau đây:
+1. Tổ chức thực hiện điều tra cơ bản địa chất, điều tra địa chất về khoáng sản, thăm dò khoáng sản có trách nhiệm giao nộp báo cáo, tài liệu, mẫu vật sau đây:
 
 a) Báo cáo kết quả điều tra cơ bản địa chất, điều tra địa chất về khoáng sản, báo cáo kết quả thăm dò khoáng sản;
 
@@ -1932,25 +1923,25 @@ b) Tài liệu nguyên thủy thu thập trong quá trình thực hiện đề �
 
 c) Mẫu vật địa chất, khoáng sản, mẫu vật bảo tàng thu thập được trong quá trình thực hiện đề án, dự án, nhiệm vụ điều tra cơ bản địa chất, điều tra địa chất về khoáng sản, thăm dò khoáng sản.
 
-2\. Tổ chức, cá nhân thăm dò, khai thác khoáng sản có trách nhiệm cung cấp định kỳ hoặc đột xuất thông tin về hoạt động khoáng sản cho cơ quan quản lý nhà nước có thẩm quyền về địa chất, khoáng sản thông qua hệ thống thông tin, cơ sở dữ liệu địa chất, khoáng sản theo quy định của pháp luật.
+2. Tổ chức, cá nhân thăm dò, khai thác khoáng sản có trách nhiệm cung cấp định kỳ hoặc đột xuất thông tin về hoạt động khoáng sản cho cơ quan quản lý nhà nước có thẩm quyền về địa chất, khoáng sản thông qua hệ thống thông tin, cơ sở dữ liệu địa chất, khoáng sản theo quy định của pháp luật.
 
-3\. Cơ quan lưu trữ thông tin, dữ liệu về địa chất, khoáng sản; Bảo tàng địa chất và khoáng sản quy định tại Điều 93 của Luật này có trách nhiệm thu nhận, lưu trữ, bảo quản thông tin, dữ liệu về địa chất, khoáng sản tại khoản 1 và khoản 2 Điều này theo quy định của Luật này và quy định của pháp luật về lưu trữ, bảo tàng.
+3. Cơ quan lưu trữ thông tin, dữ liệu về địa chất, khoáng sản; Bảo tàng địa chất và khoáng sản quy định tại Điều 93 của Luật này có trách nhiệm thu nhận, lưu trữ, bảo quản thông tin, dữ liệu về địa chất, khoáng sản tại khoản 1 và khoản 2 Điều này theo quy định của Luật này và quy định của pháp luật về lưu trữ, bảo tàng.
 
-4\. Chính phủ quy định chi tiết các khoản 1, 2 và 3 Điều này.
+4. Chính phủ quy định chi tiết các khoản 1, 2 và 3 Điều này.
 
-5\. Bộ trưởng Bộ Tài nguyên và Môi trường quy định mẫu tài liệu, báo cáo; quy định danh mục, quy cách mẫu vật địa chất, khoáng sản, mẫu vật bảo tàng quy định tại khoản 1 Điều này.
+5. Bộ trưởng Bộ Tài nguyên và Môi trường quy định mẫu tài liệu, báo cáo; quy định danh mục, quy cách mẫu vật địa chất, khoáng sản, mẫu vật bảo tàng quy định tại khoản 1 Điều này.
 
 **Điều 91. Lưu trữ, bảo quản thông tin, dữ liệu về địa chất, khoáng sản**
 
-1\. Thông tin, dữ liệu về địa chất, khoáng sản quy định tại khoản 1 Điều 89 của Luật này phải được lưu trữ, bảo quản, bảo mật theo quy định của Luật này và pháp luật về lưu trữ, bảo vệ bí mật nhà nước.
+1. Thông tin, dữ liệu về địa chất, khoáng sản quy định tại khoản 1 Điều 89 của Luật này phải được lưu trữ, bảo quản, bảo mật theo quy định của Luật này và pháp luật về lưu trữ, bảo vệ bí mật nhà nước.
 
-2\. Thời hạn lưu trữ, bảo quản thông tin, dữ liệu được xác lập đối với từng loại thông tin, dữ liệu theo quy định của pháp luật về lưu trữ.
+2. Thời hạn lưu trữ, bảo quản thông tin, dữ liệu được xác lập đối với từng loại thông tin, dữ liệu theo quy định của pháp luật về lưu trữ.
 
-3\. Các loại thông tin, dữ liệu, mẫu vật địa chất, khoáng sản bị hư hỏng không thể phục chế hoặc hết giá trị sử dụng chỉ được tiêu hủy khi cơ quan quản lý nhà nước có thẩm quyền cho phép theo quy định của pháp luật.
+3. Các loại thông tin, dữ liệu, mẫu vật địa chất, khoáng sản bị hư hỏng không thể phục chế hoặc hết giá trị sử dụng chỉ được tiêu hủy khi cơ quan quản lý nhà nước có thẩm quyền cho phép theo quy định của pháp luật.
 
 **Điều 92. Cung cấp, khai thác, sử dụng thông tin, dữ liệu về địa chất, khoáng sản**
 
-1\. Hình thức khai thác, sử dụng thông tin, dữ liệu về địa chất, khoáng sản bao gồm:
+1. Hình thức khai thác, sử dụng thông tin, dữ liệu về địa chất, khoáng sản bao gồm:
 
 a) Khai thác và sử dụng thông tin, dữ liệu qua trang thông tin hoặc cổng thông tin điện tử hoặc kết nối, truy nhập, chia sẻ thông tin với cơ sở dữ liệu tài nguyên và môi trường của cơ quan chủ quản, cung cấp thông tin, dữ liệu tài nguyên và môi trường;
 
@@ -1958,25 +1949,25 @@ b) Khai thác và sử dụng thông tin, dữ liệu thông qua phiếu yêu c�
 
 c) Khai thác và sử dụng thông tin, dữ liệu bằng hình thức hợp đồng giữa đơn vị quản lý thông tin, dữ liệu và bên khai thác, sử dụng thông tin, dữ liệu theo quy định của pháp luật.
 
-2\. Đối tượng được khai thác, sử dụng thông tin, dữ liệu về địa chất, khoáng sản bao gồm:
+2. Đối tượng được khai thác, sử dụng thông tin, dữ liệu về địa chất, khoáng sản bao gồm:
 
 a) Tổ chức, cá nhân có mục đích khai thác, sử dụng thông tin, dữ liệu phù hợp theo quy định của pháp luật;
 
 b) Cơ quan nhà nước có thẩm quyền.
 
-3\. Chính phủ quy định chi tiết Điều này.
+3. Chính phủ quy định chi tiết Điều này.
 
 **Điều 93. Trách nhiệm của cơ quan lưu trữ thông tin, dữ liệu về địa chất, khoáng sản; Bảo tàng địa chất và khoáng sản**
 
-1\. Trách nhiệm của cơ quan lưu trữ thông tin, dữ liệu về địa chất, khoáng sản bao gồm:
+1. Trách nhiệm của cơ quan lưu trữ thông tin, dữ liệu về địa chất, khoáng sản bao gồm:
 
 a) Kiểm tra, thu nhận các thông tin, dữ liệu về địa chất, khoáng sản theo quy định;
 
-b) Lưu trữ, bảo quản thông tin, dữ liệu về địa chất, khoáng sản theo quy định của pháp luật về lưu trữ, quy định bảo quản dữ liệu về tài nguyên và môi trường bảo đảm đầy đủ, nguyên trạng, an toàn, dễ tra cứu sử dụng và đáp ứng các yêu cầu về chuyển đổi số, sở hữu trí tuệ; 
+b) Lưu trữ, bảo quản thông tin, dữ liệu về địa chất, khoáng sản theo quy định của pháp luật về lưu trữ, quy định bảo quản dữ liệu về tài nguyên và môi trường bảo đảm đầy đủ, nguyên trạng, an toàn, dễ tra cứu sử dụng và đáp ứng các yêu cầu về chuyển đổi số, sở hữu trí tuệ;
 
 c) Quản lý, bảo vệ an toàn kho lưu trữ tài liệu địa chất; cung cấp thông tin, dữ liệu về địa chất, khoáng sản theo quy định của pháp luật về lưu trữ, an toàn thông tin mạng và quy định khác của pháp luật có liên quan; vận hành cơ sở dữ liệu về địa chất, khoáng sản.
 
-2\. Bảo tàng địa chất và khoáng sản nằm trong hệ thống bảo tàng thiên nhiên Việt Nam, thuộc cơ quan quản lý về địa chất của Bộ Tài nguyên và Môi trường, có trách nhiệm sau đây:
+2. Bảo tàng địa chất và khoáng sản nằm trong hệ thống bảo tàng thiên nhiên Việt Nam, thuộc cơ quan quản lý về địa chất của Bộ Tài nguyên và Môi trường, có trách nhiệm sau đây:
 
 a) Lưu trữ, bảo quản các mẫu vật địa chất, khoáng sản được giao nộp;
 
@@ -1986,38 +1977,37 @@ c) Trưng bày, giới thiệu các mẫu vật địa chất, khoáng sản đ�
 
 **Điều 94. Trách nhiệm của tổ chức, cá nhân khai thác, sử dụng thông tin, dữ liệu về địa chất, khoáng sản**
 
-1\. Sử dụng đúng mục đích thông tin, dữ liệu được cung cấp.
+1. Sử dụng đúng mục đích thông tin, dữ liệu được cung cấp.
 
-2\. Khai thác và sử dụng thông tin, dữ liệu theo quy định của pháp luật.
+2. Khai thác và sử dụng thông tin, dữ liệu theo quy định của pháp luật.
 
-3\. Không được chuyển thông tin, dữ liệu về địa chất, khoáng sản trái phép cho bên thứ ba.
+3. Không được chuyển thông tin, dữ liệu về địa chất, khoáng sản trái phép cho bên thứ ba.
 
-4\. Không được làm sai lệch thông tin, dữ liệu đã được cung cấp.
+4. Không được làm sai lệch thông tin, dữ liệu đã được cung cấp.
 
-5\. Trả phí, lệ phí và nghĩa vụ tài chính khác theo quy định của Luật này và pháp luật về phí, lệ phí.
+5. Trả phí, lệ phí và nghĩa vụ tài chính khác theo quy định của Luật này và pháp luật về phí, lệ phí.
 
-6\. Thông báo kịp thời cho cơ quan quản lý thông tin, dữ liệu về những sai sót của thông tin, dữ liệu đã cung cấp.
+6. Thông báo kịp thời cho cơ quan quản lý thông tin, dữ liệu về những sai sót của thông tin, dữ liệu đã cung cấp.
 
-7\. Chính phủ quy định chi tiết khoản 3 Điều này.
+7. Chính phủ quy định chi tiết khoản 3 Điều này.
 
-**Chương X**  
-**TÀI CHÍNH VỀ ĐỊA CHẤT, KHOÁNG SẢN  
-VÀ ĐẤU GIÁ QUYỀN KHAI THÁC KHOÁNG SẢN**
+**Chương X**
 
-**Mục 1  
-TÀI CHÍNH VỀ ĐỊA CHẤT, KHOÁNG SẢN**
+**TÀI CHÍNH VỀ ĐỊA CHẤT, KHOÁNG SẢN VÀ ĐẤU GIÁ QUYỀN KHAI THÁC KHOÁNG SẢN**
 
-**Điều 95. Nguồn thu ngân sách nhà nước từ hoạt động điều tra cơ bản địa chất, khoáng sản, hoạt động khoáng sản** **và thu hồi khoáng sản**
+**Mục 1. TÀI CHÍNH VỀ ĐỊA CHẤT, KHOÁNG SẢN**
 
-1\. Thuế, phí, lệ phí theo quy định của pháp luật về thuế, phí, lệ phí.
+**Điều 95. Nguồn thu ngân sách nhà nước từ hoạt động điều tra cơ bản địa chất, khoáng sản, hoạt động khoáng sản và thu hồi khoáng sản**
 
-2\. Tiền hoàn trả chi phí đánh giá tiềm năng khoáng sản, chi phí thăm dò khoáng sản do Nhà nước đầu tư theo quy định của Luật này. 
+1. Thuế, phí, lệ phí theo quy định của pháp luật về thuế, phí, lệ phí.
 
-3\. Tiền cấp quyền khai thác khoáng sản theo quy định của Luật này.
+2. Tiền hoàn trả chi phí đánh giá tiềm năng khoáng sản, chi phí thăm dò khoáng sản do Nhà nước đầu tư theo quy định của Luật này.
+
+3. Tiền cấp quyền khai thác khoáng sản theo quy định của Luật này.
 
 **Điều 96. Nguyên tắc xác định hoàn trả chi phí đánh giá tiềm năng khoáng sản, thăm dò khoáng sản do Nhà nước đã đầu tư**
 
-1\. Tổ chức, cá nhân khai thác khoáng sản phải hoàn trả chi phí đánh giá tiềm năng khoáng sản, thăm dò khoáng sản do Nhà nước đầu tư, trừ trường hợp quy định tại khoản 2 Điều này, bao gồm:
+1. Tổ chức, cá nhân khai thác khoáng sản phải hoàn trả chi phí đánh giá tiềm năng khoáng sản, thăm dò khoáng sản do Nhà nước đầu tư, trừ trường hợp quy định tại khoản 2 Điều này, bao gồm:
 
 a) Các trường hợp do Bộ Tài nguyên và Môi trường cấp giấy phép khai thác khoáng sản;
 
@@ -2025,7 +2015,7 @@ b) Các trường hợp do Ủy ban nhân dân cấp tỉnh đầu tư đánh gi
 
 c) Các trường hợp khai thác nước khoáng thiên nhiên, nước nóng thiên nhiên.
 
-2\. Các trường hợp không phải hoàn trả chi phí đánh giá tiềm năng khoáng sản, thăm dò khoáng sản do Nhà nước đầu tư bao gồm:
+2. Các trường hợp không phải hoàn trả chi phí đánh giá tiềm năng khoáng sản, thăm dò khoáng sản do Nhà nước đầu tư bao gồm:
 
 a) Trường hợp quy định tại điểm a khoản 1 Điều này có diện tích, ranh giới theo chiều sâu khu vực khai thác khoáng sản thuộc báo cáo đánh giá tiềm năng khoáng sản chỉ xác định tài nguyên dự báo hoặc tương đương tài nguyên dự báo;
 
@@ -2033,33 +2023,33 @@ b) Trường hợp thuộc thẩm quyền cấp giấy phép khai thác khoáng 
 
 c) Trường hợp quy định tại Điều 75 của Luật này.
 
-3\. Chi phí đánh giá tiềm năng khoáng sản, thăm dò khoáng sản được phê duyệt bổ sung khi tăng trữ lượng khoáng sản được quy định trong giấy phép khai thác khoáng sản, trừ trường hợp khoáng sản ở thể lỏng, thể khí.
+3. Chi phí đánh giá tiềm năng khoáng sản, thăm dò khoáng sản được phê duyệt bổ sung khi tăng trữ lượng khoáng sản được quy định trong giấy phép khai thác khoáng sản, trừ trường hợp khoáng sản ở thể lỏng, thể khí.
 
-4\. Chính phủ quy định chi tiết trình tự, thủ tục, phương thức hoàn trả, chế độ thu, quản lý, sử dụng chi phí đánh giá tiềm năng khoáng sản, thăm dò khoáng sản phải hoàn trả.
+4. Chính phủ quy định chi tiết trình tự, thủ tục, phương thức hoàn trả, chế độ thu, quản lý, sử dụng chi phí đánh giá tiềm năng khoáng sản, thăm dò khoáng sản phải hoàn trả.
 
-5\. Bộ trưởng Bộ Tài nguyên và Môi trường hướng dẫn phương pháp xác định, các mẫu trong hồ sơ xác định chi phí đánh giá tiềm năng khoáng sản, thăm dò khoáng sản phải hoàn trả.
+5. Bộ trưởng Bộ Tài nguyên và Môi trường hướng dẫn phương pháp xác định, các mẫu trong hồ sơ xác định chi phí đánh giá tiềm năng khoáng sản, thăm dò khoáng sản phải hoàn trả.
 
 **Điều 97. Hoàn trả chi phí thăm dò khoáng sản giữa các tổ chức, cá nhân**
 
-1\. Tổ chức, cá nhân khai thác khoáng sản phải hoàn trả chi phí thăm dò khoáng sản cho tổ chức, cá nhân đã đầu tư thăm dò khoáng sản theo nguyên tắc sau đây:
+1. Tổ chức, cá nhân khai thác khoáng sản phải hoàn trả chi phí thăm dò khoáng sản cho tổ chức, cá nhân đã đầu tư thăm dò khoáng sản theo nguyên tắc sau đây:
 
 a) Trong thời hạn ưu tiên quy định tại khoản 1 Điều 48 của Luật này, việc hoàn trả chi phí thăm dò khoáng sản cho tổ chức, cá nhân đã đầu tư theo nguyên tắc tự thỏa thuận;
 
 b) Sau thời hạn ưu tiên theo quy định tại khoản 1 Điều 48 của Luật này, cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này quyết định chi phí phải hoàn trả.
 
-2\. Tổ chức, cá nhân đã đầu tư thăm dò khoáng sản bị công bố phá sản, giải thể mà quyền sử dụng thông tin, kết quả thăm dò khoáng sản không chuyển giao hợp pháp cho tổ chức, cá nhân khác thì việc xử lý quyền sử dụng thông tin, kết quả thăm dò khoáng sản thực hiện theo quy định của pháp luật về dân sự.
+2. Tổ chức, cá nhân đã đầu tư thăm dò khoáng sản bị công bố phá sản, giải thể mà quyền sử dụng thông tin, kết quả thăm dò khoáng sản không chuyển giao hợp pháp cho tổ chức, cá nhân khác thì việc xử lý quyền sử dụng thông tin, kết quả thăm dò khoáng sản thực hiện theo quy định của pháp luật về dân sự.
 
-3\. Tổ chức, cá nhân đề nghị cấp giấy phép khai thác khoáng sản có nghĩa vụ chi trả kinh phí xác định chi phí phải hoàn trả cho đơn vị được giao nhiệm vụ xác định chi phí thăm dò khoáng sản.
+3. Tổ chức, cá nhân đề nghị cấp giấy phép khai thác khoáng sản có nghĩa vụ chi trả kinh phí xác định chi phí phải hoàn trả cho đơn vị được giao nhiệm vụ xác định chi phí thăm dò khoáng sản.
 
-4\. Chính phủ quy định chi tiết Điều này; quy định việc hoàn trả chi phí thăm dò khoáng sản trong trường hợp tổ chức, cá nhân đã đầu tư thăm dò khoáng sản không còn hoạt động tại địa chỉ đăng ký hoặc không nhận tiền hoàn trả chi phí thăm dò khoáng sản theo quyết định của cơ quan quản lý nhà nước có thẩm quyền hoặc quyền sử dụng thông tin, kết quả thăm dò khoáng sản đang có tranh chấp.
+4. Chính phủ quy định chi tiết Điều này; quy định việc hoàn trả chi phí thăm dò khoáng sản trong trường hợp tổ chức, cá nhân đã đầu tư thăm dò khoáng sản không còn hoạt động tại địa chỉ đăng ký hoặc không nhận tiền hoàn trả chi phí thăm dò khoáng sản theo quyết định của cơ quan quản lý nhà nước có thẩm quyền hoặc quyền sử dụng thông tin, kết quả thăm dò khoáng sản đang có tranh chấp.
 
 **Điều 98. Tiền cấp quyền khai thác khoáng sản**
 
-1\. Nhà nước thu tiền cấp quyền khai thác khoáng sản thông qua đấu giá hoặc không đấu giá.
+1. Nhà nước thu tiền cấp quyền khai thác khoáng sản thông qua đấu giá hoặc không đấu giá.
 
-2\. Tổ chức, cá nhân khai thác khoáng sản, thu hồi khoáng sản phải nộp tiền cấp quyền khai thác khoáng sản, trừ các trường hợp quy định tại khoản 3 Điều này.
+2. Tổ chức, cá nhân khai thác khoáng sản, thu hồi khoáng sản phải nộp tiền cấp quyền khai thác khoáng sản, trừ các trường hợp quy định tại khoản 3 Điều này.
 
-3\. Các trường hợp không phải nộp tiền cấp quyền khai thác khoáng sản bao gồm:
+3. Các trường hợp không phải nộp tiền cấp quyền khai thác khoáng sản bao gồm:
 
 a) Thu hồi khoáng sản trong diện tích đất của dự án đầu tư xây dựng công trình đã được cơ quan quản lý nhà nước có thẩm quyền phê duyệt hoặc cho phép đầu tư mà khoáng sản thu hồi chỉ được sử dụng cho xây dựng công trình đó;
 
@@ -2067,9 +2057,9 @@ b) Khối lượng khoáng sản nhóm III (trừ bùn khoáng, nước khoáng 
 
 c) Thu hồi khoáng sản trong diện tích đất thuộc quyền sử dụng đất của cá nhân hoặc nhóm người có chung quyền sử dụng đất để xây dựng các công trình trong diện tích đó.
 
-**Điều 99. Phương pháp xác định, phương thức** **thu, quyết toán tiền cấp quyền khai thác khoáng sản**
+**Điều 99. Phương pháp xác định, phương thức thu, quyết toán tiền cấp quyền khai thác khoáng sản**
 
-1\. Tiền cấp quyền khai thác khoáng sản được xác định theo các căn cứ sau đây:
+1. Tiền cấp quyền khai thác khoáng sản được xác định theo các căn cứ sau đây:
 
 a) Trữ lượng, khối lượng khoáng sản được phép khai thác (lưu lượng khai thác đối với nước khoáng thiên nhiên, nước nóng thiên thiên) quy định trong giấy phép khai thác khoáng sản, giấy phép khai thác tận thu khoáng sản hoặc khối lượng khoáng sản được phép khai thác, thu hồi;
 
@@ -2077,48 +2067,47 @@ b) Giá tính tiền cấp quyền khai thác khoáng sản;
 
 c) Tỷ lệ thu tiền cấp quyền khai thác khoáng sản.
 
-2\. Tiền cấp quyền khai thác khoáng sản quy định tại khoản 1 Điều này được thu theo năm.
+2. Tiền cấp quyền khai thác khoáng sản quy định tại khoản 1 Điều này được thu theo năm.
 
-3\. Tiền cấp quyền khai thác khoáng sản được quyết toán theo sản lượng khai thác thực tế.
+3. Tiền cấp quyền khai thác khoáng sản được quyết toán theo sản lượng khai thác thực tế.
 
-4\. Việc quản lý tiền cấp quyền khai thác khoáng sản được thực hiện theo quy định của pháp luật về quản lý thuế.
+4. Việc quản lý tiền cấp quyền khai thác khoáng sản được thực hiện theo quy định của pháp luật về quản lý thuế.
 
-5\. Chính phủ quy định chi tiết Điều này.
+5. Chính phủ quy định chi tiết Điều này.
 
-**Mục 2  
-ĐẤU GIÁ QUYỀN KHAI THÁC KHOÁNG SẢN**
+**Mục 2. ĐẤU GIÁ QUYỀN KHAI THÁC KHOÁNG SẢN**
 
 **Điều 100. Khu vực đấu giá quyền khai thác khoáng sản, khu vực không đấu giá quyền khai thác khoáng sản**
 
-1\. Đấu giá quyền khai thác khoáng sản thực hiện ở các khu vực quy hoạch hoạt động khoáng sản, khai thác tận thu khoáng sản, khai thác khoáng sản nhóm IV trừ các trường hợp quy định tại khoản 2 Điều 72, khoản 3 và khoản 4 Điều này.
+1. Đấu giá quyền khai thác khoáng sản thực hiện ở các khu vực quy hoạch hoạt động khoáng sản, khai thác tận thu khoáng sản, khai thác khoáng sản nhóm IV trừ các trường hợp quy định tại khoản 2 Điều 72, khoản 3 và khoản 4 Điều này.
 
-2\. Khu vực không đấu giá quyền khai thác khoáng sản được khoanh định để bảo đảm an ninh năng lượng; bảo đảm quốc phòng, an ninh, sử dụng hiệu quả khoáng sản chiến lược, quan trọng; bảo đảm nguyên liệu, vật liệu cho các dự án quan trọng quốc gia, dự án đầu tư công khẩn cấp, công trình, hạng mục công trình thuộc chương trình mục tiêu quốc gia.
+2. Khu vực không đấu giá quyền khai thác khoáng sản được khoanh định để bảo đảm an ninh năng lượng; bảo đảm quốc phòng, an ninh, sử dụng hiệu quả khoáng sản chiến lược, quan trọng; bảo đảm nguyên liệu, vật liệu cho các dự án quan trọng quốc gia, dự án đầu tư công khẩn cấp, công trình, hạng mục công trình thuộc chương trình mục tiêu quốc gia.
 
-3\. Bộ Tài nguyên và Môi trường khoanh định, trình Thủ tướng Chính phủ phê duyệt, điều chỉnh khu vực không đấu giá quyền khai thác khoáng sản thuộc thẩm quyền cấp giấy phép của Bộ Tài nguyên và Môi trường.
+3. Bộ Tài nguyên và Môi trường khoanh định, trình Thủ tướng Chính phủ phê duyệt, điều chỉnh khu vực không đấu giá quyền khai thác khoáng sản thuộc thẩm quyền cấp giấy phép của Bộ Tài nguyên và Môi trường.
 
-4\. Ủy ban nhân dân cấp tỉnh tổ chức thực hiện việc khoanh định, phê duyệt, điều chỉnh khu vực không đấu giá quyền khai thác khoáng sản thuộc thẩm quyền cấp giấy phép của Ủy ban nhân dân cấp tỉnh.
+4. Ủy ban nhân dân cấp tỉnh tổ chức thực hiện việc khoanh định, phê duyệt, điều chỉnh khu vực không đấu giá quyền khai thác khoáng sản thuộc thẩm quyền cấp giấy phép của Ủy ban nhân dân cấp tỉnh.
 
-5\. Chính phủ quy định tiêu chí khoanh định khu vực không đấu giá quyền khai thác khoáng sản.
+5. Chính phủ quy định tiêu chí khoanh định khu vực không đấu giá quyền khai thác khoáng sản.
 
-**Điều 101. Nguyên tắc đấu giá** **quyền khai thác khoáng sản**
+**Điều 101. Nguyên tắc đấu giá quyền khai thác khoáng sản**
 
-1\. Việc đấu giá quyền khai thác khoáng sản được thực hiện theo các nguyên tắc quy định của Luật Đấu giá tài sản và các nguyên tắc sau đây:
+1. Việc đấu giá quyền khai thác khoáng sản được thực hiện theo các nguyên tắc quy định của Luật Đấu giá tài sản và các nguyên tắc sau đây:
 
 a) Chỉ tiến hành đấu giá quyền khai thác khoáng sản đối với khu vực đã được cơ quan quản lý nhà nước có thẩm quyền quy định tại Điều 108 của Luật này phê duyệt kế hoạch đấu giá quyền khai thác khoáng sản;
 
 b) Cuộc đấu giá quyền khai thác khoáng sản chỉ được tiến hành khi có ít nhất 02 tổ chức, cá nhân đủ điều kiện tham gia.
 
-2\. Bộ Tài nguyên và Môi trường, Ủy ban nhân dân cấp tỉnh tổ chức đấu giá quyền khai thác khoáng sản đối với các khu vực đã được phê duyệt kế hoạch đấu giá quyền khai thác khoáng sản theo thẩm quyền cấp giấy phép của mình.
+2. Bộ Tài nguyên và Môi trường, Ủy ban nhân dân cấp tỉnh tổ chức đấu giá quyền khai thác khoáng sản đối với các khu vực đã được phê duyệt kế hoạch đấu giá quyền khai thác khoáng sản theo thẩm quyền cấp giấy phép của mình.
 
-3\. Chính phủ quy định chi tiết việc lập, phê duyệt kế hoạch đấu giá quyền khai thác khoáng sản.
+3. Chính phủ quy định chi tiết việc lập, phê duyệt kế hoạch đấu giá quyền khai thác khoáng sản.
 
 **Điều 102. Giá khởi điểm, bước giá, tiền đặt trước, tiền đặt cọc**
 
-1\. Giá khởi điểm trong đấu giá quyền khai thác khoáng sản được xác định bằng tỷ lệ thu tiền cấp quyền khai thác khoáng sản của khoáng sản cùng loại ở khu vực không đấu giá quyền khai thác khoáng sản.
+1. Giá khởi điểm trong đấu giá quyền khai thác khoáng sản được xác định bằng tỷ lệ thu tiền cấp quyền khai thác khoáng sản của khoáng sản cùng loại ở khu vực không đấu giá quyền khai thác khoáng sản.
 
-2\. Bước giá được xác định tối thiểu là 1% và tối đa là 10% giá khởi điểm.
+2. Bước giá được xác định tối thiểu là 1% và tối đa là 10% giá khởi điểm.
 
-3\. Tổ chức, cá nhân trúng đấu giá quyền khai thác khoáng sản được nhận lại tiền đặt cọc trong các trường hợp sau đây:
+3. Tổ chức, cá nhân trúng đấu giá quyền khai thác khoáng sản được nhận lại tiền đặt cọc trong các trường hợp sau đây:
 
 a) Đã được cấp giấy phép thăm dò khoáng sản đối với trường hợp đấu giá quyền khai thác khoáng sản ở khu vực chưa có kết quả thăm dò khoáng sản, trừ trường hợp đấu giá quyền khai thác khoáng sản ở khu vực tận thu khoáng sản, khu vực khoáng sản nhóm IV;
 
@@ -2130,13 +2119,13 @@ d) Không được cơ quan quản lý nhà nước có thẩm quyền cấp gi�
 
 đ) Phải hoàn trả tiền đặt cọc do xử lý hậu quả pháp lý khi hủy kết quả đấu giá quyền khai thác khoáng sản theo quy định của pháp luật về đấu giá tài sản.
 
-4\. Tổ chức, cá nhân trúng đấu giá quyền khai thác khoáng sản không thực hiện nghĩa vụ quy định tại điểm a và điểm b khoản 2 Điều 104 của Luật này, tiền đặt cọc không được hoàn lại và được nộp vào ngân sách nhà nước, trừ trường hợp quy định tại điểm c và điểm d khoản 3 Điều này.
+4. Tổ chức, cá nhân trúng đấu giá quyền khai thác khoáng sản không thực hiện nghĩa vụ quy định tại điểm a và điểm b khoản 2 Điều 104 của Luật này, tiền đặt cọc không được hoàn lại và được nộp vào ngân sách nhà nước, trừ trường hợp quy định tại điểm c và điểm d khoản 3 Điều này.
 
-5\. Chính phủ quy định chi tiết phương pháp xác định tiền đặt trước.
+5. Chính phủ quy định chi tiết phương pháp xác định tiền đặt trước.
 
-**Điều 103. Điều kiện của tổ chức, cá nhân được tham gia cuộc đấu giá** **quyền khai thác khoáng sản**
+**Điều 103. Điều kiện của tổ chức, cá nhân được tham gia cuộc đấu giá quyền khai thác khoáng sản**
 
-1\. Tổ chức, cá nhân được lựa chọn tham gia cuộc đấu giá quyền khai thác khoáng sản khi đáp ứng đủ các yêu cầu sau đây:
+1. Tổ chức, cá nhân được lựa chọn tham gia cuộc đấu giá quyền khai thác khoáng sản khi đáp ứng đủ các yêu cầu sau đây:
 
 a) Có hồ sơ tham gia đấu giá quyền khai thác khoáng sản theo quy định của pháp luật;
 
@@ -2146,17 +2135,17 @@ c) Đối với tổ chức, cá nhân đã được cấp giấy phép khai th�
 
 d) Không thuộc trường hợp bị cấm tham gia đấu giá quyền khai thác khoáng sản theo quy định của pháp luật về đấu giá tài sản.
 
-2\. Tổ chức, cá nhân được tham gia cuộc đấu giá quyền khai thác khoáng sản khi đủ các điều kiện sau đây:
+2. Tổ chức, cá nhân được tham gia cuộc đấu giá quyền khai thác khoáng sản khi đủ các điều kiện sau đây:
 
 a) Được lựa chọn đủ điều kiện tham gia đấu giá quyền khai thác khoáng sản;
 
 b) Đã nộp tiền đặt trước theo quy định.
 
-3\. Chính phủ quy định hồ sơ tham gia đấu giá quyền khai thác khoáng sản; quy định chi tiết và lộ trình thực hiện điểm c khoản 1 Điều này.
+3. Chính phủ quy định hồ sơ tham gia đấu giá quyền khai thác khoáng sản; quy định chi tiết và lộ trình thực hiện điểm c khoản 1 Điều này.
 
-**Điều 104. Quyền và nghĩa vụ của tổ chức, cá nhân trúng đấu giá** **quyền khai thác khoáng sản**
+**Điều 104. Quyền và nghĩa vụ của tổ chức, cá nhân trúng đấu giá quyền khai thác khoáng sản**
 
-1\. Tổ chức, cá nhân trúng đấu giá quyền khai thác khoáng sản có các quyền sau đây:
+1. Tổ chức, cá nhân trúng đấu giá quyền khai thác khoáng sản có các quyền sau đây:
 
 a) Được sử dụng thông tin về khoáng sản liên quan đến khu vực trúng đấu giá quyền khai thác khoáng sản;
 
@@ -2164,7 +2153,7 @@ b) Được cấp giấy phép thăm dò khoáng sản, giấy phép khai thác 
 
 c) Quyền khác theo quy định của Luật Đấu giá tài sản và quy định khác của pháp luật có liên quan.
 
-2\. Tổ chức, cá nhân trúng đấu giá quyền khai thác khoáng sản có nghĩa vụ sau đây:
+2. Tổ chức, cá nhân trúng đấu giá quyền khai thác khoáng sản có nghĩa vụ sau đây:
 
 a) Trường hợp trúng đấu giá quyền khai thác khoáng sản ở khu vực chưa có kết quả thăm dò khoáng sản, trong thời hạn 12 tháng kể từ ngày kết thúc cuộc đấu giá quyền khai thác khoáng sản, phải nộp hồ sơ đề nghị cấp giấy phép thăm dò khoáng sản và được cơ quan quản lý nhà nước có thẩm quyền tiếp nhận, trừ trường hợp trúng đấu giá quyền khai thác khoáng sản ở khu vực tận thu khoáng sản, khu vực khoáng sản nhóm IV;
 
@@ -2172,27 +2161,27 @@ b) Trường hợp trúng đấu giá quyền khai thác khoáng sản ở khu v
 
 c) Nghĩa vụ khác theo quy định của Luật Đấu giá tài sản và quy định khác của pháp luật có liên quan.
 
-**Điều 105. Phương pháp xác định, phương thức thu, nộp, quản lý tiền cấp quyền** **khai thác khoáng sản ở khu vực** **trúng đấu giá** **quyền khai thác khoáng sản**
+**Điều 105. Phương pháp xác định, phương thức thu, nộp, quản lý tiền cấp quyền khai thác khoáng sản ở khu vực trúng đấu giá quyền khai thác khoáng sản**
 
-1\. Phương pháp xác định, phương thức thu, nộp, quản lý tiền cấp quyền khai thác khoáng sản ở khu vực trúng đấu giá quyền khai thác khoáng sản thực hiện như đối với tiền cấp quyền khai thác khoáng sản ở khu vực không đấu giá quyền khai thác khoáng sản.
+1. Phương pháp xác định, phương thức thu, nộp, quản lý tiền cấp quyền khai thác khoáng sản ở khu vực trúng đấu giá quyền khai thác khoáng sản thực hiện như đối với tiền cấp quyền khai thác khoáng sản ở khu vực không đấu giá quyền khai thác khoáng sản.
 
-2\. Tỷ lệ thu tiền cấp quyền khai thác khoáng sản đối với khoáng sản đi kèm phát hiện trong quá trình thăm dò, khai thác khoáng sản sau khi đấu giá quyền khai thác khoáng sản và được cơ quan quản lý nhà nước có thẩm quyền cho phép khai thác, thu hồi được xác định bằng tỷ lệ thu tiền cấp quyền khai thác khoáng sản đối với khoáng sản cùng loại ở khu vực không đấu giá quyền khai thác khoáng sản.
+2. Tỷ lệ thu tiền cấp quyền khai thác khoáng sản đối với khoáng sản đi kèm phát hiện trong quá trình thăm dò, khai thác khoáng sản sau khi đấu giá quyền khai thác khoáng sản và được cơ quan quản lý nhà nước có thẩm quyền cho phép khai thác, thu hồi được xác định bằng tỷ lệ thu tiền cấp quyền khai thác khoáng sản đối với khoáng sản cùng loại ở khu vực không đấu giá quyền khai thác khoáng sản.
 
-3\. Tỷ lệ thu tiền cấp quyền khai thác khoáng sản đối với loại khoáng sản đưa ra đấu giá quyền khai thác khoáng sản được áp dụng ổn định trong suốt thời gian khai thác khoáng sản, bao gồm cả thời gian điều chỉnh, gia hạn, cấp lại giấy phép khai thác khoáng sản.
+3. Tỷ lệ thu tiền cấp quyền khai thác khoáng sản đối với loại khoáng sản đưa ra đấu giá quyền khai thác khoáng sản được áp dụng ổn định trong suốt thời gian khai thác khoáng sản, bao gồm cả thời gian điều chỉnh, gia hạn, cấp lại giấy phép khai thác khoáng sản.
 
-4\. Trường hợp khu vực khoáng sản khi đưa ra đấu giá quyền khai thác khoáng sản đã xác định được có từ 02 loại khoáng sản trở lên, cơ quan quản lý nhà nước có thẩm quyền cấp giấy phép quy định tại Điều 108 của Luật này lựa chọn 01 loại khoáng sản để tổ chức đấu giá quyền khai thác khoáng sản. Tỷ lệ thu tiền cấp quyền khai thác khoáng sản của các khoáng sản còn lại được xác định căn cứ theo tỷ lệ thu tiền cấp quyền khai thác khoáng sản trúng đấu giá quyền khai thác khoáng sản.
+4. Trường hợp khu vực khoáng sản khi đưa ra đấu giá quyền khai thác khoáng sản đã xác định được có từ 02 loại khoáng sản trở lên, cơ quan quản lý nhà nước có thẩm quyền cấp giấy phép quy định tại Điều 108 của Luật này lựa chọn 01 loại khoáng sản để tổ chức đấu giá quyền khai thác khoáng sản. Tỷ lệ thu tiền cấp quyền khai thác khoáng sản của các khoáng sản còn lại được xác định căn cứ theo tỷ lệ thu tiền cấp quyền khai thác khoáng sản trúng đấu giá quyền khai thác khoáng sản.
 
-5\. Chính phủ quy định chi tiết khoản 4 Điều này; quy định trình tự, thủ tục phê duyệt kết quả trúng đấu giá quyền khai thác khoáng sản.
+5. Chính phủ quy định chi tiết khoản 4 Điều này; quy định trình tự, thủ tục phê duyệt kết quả trúng đấu giá quyền khai thác khoáng sản.
 
-**Điều 106. Hủy quyết định phê duyệt kết quả trúng đấu giá** **quyền khai thác khoáng sản**
+**Điều 106. Hủy quyết định phê duyệt kết quả trúng đấu giá quyền khai thác khoáng sản**
 
-1\. Bộ Tài nguyên và Môi trường, Ủy ban nhân dân cấp tỉnh ban hành quyết định hủy quyết định phê duyệt kết quả trúng đấu giá quyền khai thác khoáng sản theo thẩm quyền trong trường hợp sau đây:
+1. Bộ Tài nguyên và Môi trường, Ủy ban nhân dân cấp tỉnh ban hành quyết định hủy quyết định phê duyệt kết quả trúng đấu giá quyền khai thác khoáng sản theo thẩm quyền trong trường hợp sau đây:
 
 a) Tổ chức, cá nhân trúng đấu giá quyền khai thác khoáng sản không thực hiện nghĩa vụ quy định tại điểm a hoặc điểm b khoản 2 Điều 104 của Luật này;
 
 b) Tổ chức, cá nhân trúng đấu giá quyền khai thác khoáng sản ở khu vực chưa có kết quả thăm dò khoáng sản mất quyền ưu tiên đề nghị cấp giấy phép khai thác khoáng sản theo quy định tại khoản 2 Điều 48 của Luật này; mất quyền đề nghị công nhận kết quả thăm dò khoáng sản theo quy định tại khoản 4 Điều 50 của Luật này.
 
-2\. Quyết định phê duyệt kết quả trúng đấu giá quyền khai thác khoáng sản chấm dứt hiệu lực trong trường hợp sau đây:
+2. Quyết định phê duyệt kết quả trúng đấu giá quyền khai thác khoáng sản chấm dứt hiệu lực trong trường hợp sau đây:
 
 a) Kết quả đấu giá quyền khai thác khoáng sản bị hủy theo quy định của Luật Đấu giá tài sản;
 
@@ -2200,15 +2189,15 @@ b) Giấy phép thăm dò khoáng sản bị thu hồi theo quy định tại c�
 
 c) Các loại giấy phép khai thác khoáng sản, giấy phép khai thác tận thu khoáng sản bị thu hồi, chấm dứt hiệu lực theo quy định của Luật này, trừ trường hợp giấy phép cấp không đúng thẩm quyền.
 
-**Chương XI  
-TRÁCH NHIỆM QUẢN LÝ NHÀ NƯỚC  
-VỀ ĐỊA CHẤT, KHOÁNG SẢN**
+**Chương XI**
+
+**TRÁCH NHIỆM QUẢN LÝ NHÀ NƯỚC VỀ ĐỊA CHẤT, KHOÁNG SẢN**
 
 **Điều 107. Trách nhiệm quản lý nhà nước về địa chất, khoáng sản**
 
-1\. Chính phủ thống nhất quản lý nhà nước về địa chất, khoáng sản.
+1. Chính phủ thống nhất quản lý nhà nước về địa chất, khoáng sản.
 
-2\. Bộ Tài nguyên và Môi trường là cơ quan đầu mối giúp Chính phủ thống nhất quản lý nhà nước về địa chất, khoáng sản, trong phạm vi nhiệm vụ, quyền hạn của mình, có trách nhiệm sau đây:
+2. Bộ Tài nguyên và Môi trường là cơ quan đầu mối giúp Chính phủ thống nhất quản lý nhà nước về địa chất, khoáng sản, trong phạm vi nhiệm vụ, quyền hạn của mình, có trách nhiệm sau đây:
 
 a) Tổng hợp kết quả điều tra cơ bản địa chất, điều tra địa chất về khoáng sản; khai thác, sử dụng tài nguyên địa chất; hoạt động khoáng sản; quản lý thông tin, dữ liệu về địa chất, khoáng sản;
 
@@ -2220,9 +2209,9 @@ d) Đầu mối tổng hợp hoạt động hợp tác quốc tế trong nghiên
 
 đ) Thực hiện các trách nhiệm khác quy định tại Luật này.
 
-3\. Bộ, cơ quan ngang Bộ thực hiện trách nhiệm quản lý nhà nước trong phạm vi nhiệm vụ, quyền hạn của mình và phối hợp với Bộ Tài nguyên và Môi trường thực hiện nhiệm vụ quản lý nhà nước về địa chất, khoáng sản theo quy định của Luật này và quy định khác của pháp luật có liên quan.
+3. Bộ, cơ quan ngang Bộ thực hiện trách nhiệm quản lý nhà nước trong phạm vi nhiệm vụ, quyền hạn của mình và phối hợp với Bộ Tài nguyên và Môi trường thực hiện nhiệm vụ quản lý nhà nước về địa chất, khoáng sản theo quy định của Luật này và quy định khác của pháp luật có liên quan.
 
-4\. Ủy ban nhân dân cấp tỉnh, trong phạm vi nhiệm vụ, quyền hạn của mình, có trách nhiệm sau đây:
+4. Ủy ban nhân dân cấp tỉnh, trong phạm vi nhiệm vụ, quyền hạn của mình, có trách nhiệm sau đây:
 
 a) Ban hành quy chế phối hợp giữa các địa phương hoặc giữa địa phương với các Bộ, ngành trong quản lý nhà nước về khoáng sản;
 
@@ -2240,17 +2229,17 @@ g) Báo cáo cơ quan quản lý nhà nước về địa chất, khoáng sản 
 
 h) Thực hiện các trách nhiệm khác quy định tại Luật này.
 
-5\. Chính phủ quy định về kiểm tra chuyên ngành địa chất, khoáng sản.
+5. Chính phủ quy định về kiểm tra chuyên ngành địa chất, khoáng sản.
 
-**Điều 108. Thẩm quyền cấp** **giấy phép thăm dò khoáng sản, giấy phép khai thác khoáng sản**
+**Điều 108. Thẩm quyền cấp giấy phép thăm dò khoáng sản, giấy phép khai thác khoáng sản**
 
-1\. Trừ trường hợp quy định tại khoản 2 Điều này, Bộ Tài nguyên và Môi trường cấp giấy phép sau đây:
+1. Trừ trường hợp quy định tại khoản 2 Điều này, Bộ Tài nguyên và Môi trường cấp giấy phép sau đây:
 
 a) Giấy phép thăm dò khoáng sản nhóm I, nhóm II;
 
 b) Giấy phép khai thác khoáng sản nhóm I, nhóm II.
 
-2\. Ủy ban nhân dân cấp tỉnh cấp giấy phép sau đây:
+2. Ủy ban nhân dân cấp tỉnh cấp giấy phép sau đây:
 
 a) Giấy phép thăm dò khoáng sản nhóm III, giấy phép khai thác khoáng sản nhóm III; giấy phép khai thác khoáng sản nhóm IV;
 
@@ -2258,16 +2247,17 @@ b) Giấy phép thăm dò khoáng sản nhóm I, nhóm II và giấy phép khai 
 
 c) Giấy phép khai thác tận thu khoáng sản nhóm I, nhóm II, nhóm III.
 
-3\. Cơ quan quản lý nhà nước có thẩm quyền cấp giấy phép thăm dò khoáng sản, giấy phép khai thác khoáng sản, giấy phép khai thác tận thu khoáng sản nào thì có quyền cấp lại, gia hạn, điều chỉnh, thu hồi, chấp thuận chuyển nhượng, trả lại, cấp đổi giấy phép đó; trừ trường hợp quy định tại khoản 4 Điều này và điểm b khoản 2 Điều 111 của Luật này.
+3. Cơ quan quản lý nhà nước có thẩm quyền cấp giấy phép thăm dò khoáng sản, giấy phép khai thác khoáng sản, giấy phép khai thác tận thu khoáng sản nào thì có quyền cấp lại, gia hạn, điều chỉnh, thu hồi, chấp thuận chuyển nhượng, trả lại, cấp đổi giấy phép đó; trừ trường hợp quy định tại khoản 4 Điều này và điểm b khoản 2 Điều 111 của Luật này.
 
-4\. Chính phủ quy định thẩm quyền cấp, điều chỉnh giấy phép khai thác khoáng sản do Ủy ban nhân dân cấp tỉnh cấp mà trong quá trình thăm dò, khai thác phát hiện khoáng sản đi kèm có trữ lượng thuộc thẩm quyền cấp giấy phép của Bộ Tài nguyên và Môi trường.
+4. Chính phủ quy định thẩm quyền cấp, điều chỉnh giấy phép khai thác khoáng sản do Ủy ban nhân dân cấp tỉnh cấp mà trong quá trình thăm dò, khai thác phát hiện khoáng sản đi kèm có trữ lượng thuộc thẩm quyền cấp giấy phép của Bộ Tài nguyên và Môi trường.
 
-**Chương XII**  
+**Chương XII**
+
 **ĐIỀU KHOẢN THI HÀNH**
 
-**Điều 109.** **Sửa đổi, bổ sung, bãi bỏ một số điều của các luật có liên quan**
+**Điều 109. Sửa đổi, bổ sung, bãi bỏ một số điều của các luật có liên quan**
 
-1\. Sửa đổi, bổ sung một số điều của Luật Bảo vệ môi trường số 72/2020/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 11/2022/QH15, Luật số 16/2023/QH15 và Luật số 18/2023/QH15 như sau:
+1. Sửa đổi, bổ sung một số điều của Luật Bảo vệ môi trường số 72/2020/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 11/2022/QH15, Luật số 16/2023/QH15 và Luật số 18/2023/QH15 như sau:
 
 a) Sửa đổi, bổ sung khoản 2 Điều 30 như sau:
 
@@ -2289,25 +2279,25 @@ c) Bổ sung điểm b1 vào sau điểm b khoản 2 Điều 49 như sau:
 
 “b1) Dự án đầu tư hoặc phương án khai thác khoáng sản nhóm IV theo quy định của pháp luật về địa chất, khoáng sản của tổ chức được cơ quan quản lý nhà nước có thẩm quyền chấp thuận, lựa chọn là nhà thầu thi công để phục vụ các dự án quan trọng quốc gia, dự án đầu tư công khẩn cấp, công trình, hạng mục công trình thuộc chương trình mục tiêu quốc gia theo quy định của pháp luật về đầu tư công, thực hiện các biện pháp huy động khẩn cấp để kịp thời ứng phó với tình huống khẩn cấp về thiên tai, thi công các công trình phòng, chống thiên tai theo quy định của pháp luật về phòng, chống thiên tai;”.
 
-2\. Bãi bỏ điểm c khoản 1 Điều 44 của Luật Thủy lợi số 08/2017/QH14 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14, Luật số 59/2020/QH14, Luật số 72/2020/QH14, Luật số 16/2023/QH15 và Luật số 28/2023/QH15.
+2. Bãi bỏ điểm c khoản 1 Điều 44 của Luật Thủy lợi số 08/2017/QH14 đã được sửa đổi, bổ sungmột số điều theo Luật số 35/2018/QH14, Luật số 59/2020/QH14, Luật số 72/2020/QH14, Luật số 16/2023/QH15 và Luật số 28/2023/QH15.
 
-3\. Bãi bỏ Điều 14 của Luật Năng lượng nguyên tử số 18/2008/QH12 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14 và Luật số 18/2023/QH15.
+3. Bãi bỏ Điều 14 của Luật Năng lượng nguyên tử số 18/2008/QH12 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14 và Luật số 18/2023/QH15.
 
 **Điều 110. Hiệu lực thi hành**
 
-1\. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025, trừ trường hợp quy định tại khoản 2 và khoản 3 Điều này.
+1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2025, trừ trường hợp quy định tại khoản 2 và khoản 3 Điều này.
 
-2\. Điểm d khoản 1 Điều 6, Điều 72, Điều 73, Điều 74 và khoản 1 Điều 109 của Luật này có hiệu lực thi hành từ ngày 15 tháng 01 năm 2025.
+2. Điểm d khoản 1 Điều 6, Điều 72, Điều 73, Điều 74 và khoản 1 Điều 109 của Luật này có hiệu lực thi hành từ ngày 15 tháng 01 năm 2025.
 
-3\. Điểm b khoản 2 Điều 111 của Luật này có hiệu lực thi hành từ ngày 15 tháng 01 năm 2025 và thực hiện theo quy định tại khoản 1 Điều 111 của Luật này.
+3. Điểm b khoản 2 Điều 111 của Luật này có hiệu lực thi hành từ ngày 15 tháng 01 năm 2025 và thực hiện theo quy định tại khoản 1 Điều 111 của Luật này.
 
-4\. Luật Khoáng sản số 60/2010/QH12 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14 hết hiệu lực từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại khoản 1, điểm a khoản 2, các khoản 3, 5, 6, 7, 8 và 9 Điều 111 của Luật này.
+4. Luật Khoáng sản số 60/2010/QH12 đã được sửa đổi, bổ sung một số điều theo Luật số 35/2018/QH14 hết hiệu lực từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại khoản 1, điểm a khoản 2, các khoản 3, 5, 6, 7, 8 và 9 Điều 111 của Luật này.
 
 **Điều 111. Quy định chuyển tiếp**
 
-1\. Tổ chức, cá nhân đã được cơ quan nhà nước có thẩm quyền tiếp nhận hồ sơ để giải quyết theo thủ tục hành chính về địa chất, khoáng sản trước ngày Luật này có hiệu lực thi hành mà chưa có kết quả giải quyết hồ sơ thì tổ chức, cá nhân được lựa chọn thực hiện trình tự, thủ tục, thẩm quyền theo quy định của pháp luật tại thời điểm tiếp nhận hồ sơ hoặc theo quy định của Luật này.
+1. Tổ chức, cá nhân đã được cơ quan nhà nước có thẩm quyền tiếp nhận hồ sơ để giải quyết theo thủ tục hành chính về địa chất, khoáng sản trước ngày Luật này có hiệu lực thi hành mà chưa có kết quả giải quyết hồ sơ thì tổ chức, cá nhân được lựa chọn thực hiện trình tự, thủ tục, thẩm quyền theo quy định của pháp luật tại thời điểm tiếp nhận hồ sơ hoặc theo quy định của Luật này.
 
-2\. Tổ chức, cá nhân được cấp giấy phép, quyết định trong hoạt động khoáng sản trước ngày Luật này có hiệu lực thi hành thì được thực hiện như sau:
+2. Tổ chức, cá nhân được cấp giấy phép, quyết định trong hoạt động khoáng sản trước ngày Luật này có hiệu lực thi hành thì được thực hiện như sau:
 
 a) Tiếp tục thực hiện đến hết thời hạn quy định trong giấy phép, quyết định trong hoạt động khoáng sản, trừ trường hợp quy định tại điểm b và điểm c khoản này;
 
@@ -2315,9 +2305,9 @@ b) Trường hợp gia hạn, cấp lại, điều chỉnh, trả lại, chuyể
 
 c) Đối với các giấy phép khai thác khoáng sản cấp trước ngày Luật này có hiệu lực thi hành có nội dung không phù hợp với quy định tại khoản 2 Điều 56 của Luật này, trong thời hạn 36 tháng kể từ ngày Luật này có hiệu lực thi hành, tổ chức, cá nhân có trách nhiệm thực hiện thủ tục cấp đổi giấy phép khai thác. Sau thời hạn nêu trên, tổ chức, cá nhân khai thác khoáng sản phải tạm dừng khai thác cho đến khi được cơ quan có thẩm quyền cấp đổi giấy phép khai thác khoáng sản. Chính phủ quy định hồ sơ, trình tự, thủ tục cấp đổi giấy phép khai thác đối với những trường hợp này.
 
-3\. Tổ chức, cá nhân được chấp thuận thu hồi khoáng sản trước ngày Luật này có hiệu lực thi hành thì được tiếp tục thực hiện đến hết thời hạn quy định trong văn bản chấp thuận.
+3. Tổ chức, cá nhân được chấp thuận thu hồi khoáng sản trước ngày Luật này có hiệu lực thi hành thì được tiếp tục thực hiện đến hết thời hạn quy định trong văn bản chấp thuận.
 
-4\. Trường hợp đã được cơ quan có thẩm quyền phê duyệt trữ lượng khoáng sản trước ngày Luật này có hiệu lực thi hành, trong thời hạn 36 tháng kể từ ngày được phê duyệt trữ lượng, quyền ưu tiên đề nghị cấp giấy phép khai thác khoáng sản được thực hiện theo quy định tại Điều 48 của Luật này, trừ các trường hợp sau đây:
+4. Trường hợp đã được cơ quan có thẩm quyền phê duyệt trữ lượng khoáng sản trước ngày Luật này có hiệu lực thi hành, trong thời hạn 36 tháng kể từ ngày được phê duyệt trữ lượng, quyền ưu tiên đề nghị cấp giấy phép khai thác khoáng sản được thực hiện theo quy định tại Điều 48 của Luật này, trừ các trường hợp sau đây:
 
 a) Khu vực thăm dò đã được cấp giấy phép khai thác khoáng sản;
 
@@ -2325,21 +2315,21 @@ b) Khu vực thăm dò đã có hồ sơ đề nghị cấp giấy phép khai th
 
 c) Khu vực thăm dò khoáng sản đã được cơ quan quản lý nhà nước có thẩm quyền phê duyệt kế hoạch đấu giá quyền khai thác khoáng sản.
 
-5\. Quyết định phê duyệt kết quả xác định chi phí đánh giá tiềm năng khoáng sản, chi phí thăm dò khoáng sản phải hoàn trả do Nhà nước đã đầu tư được ban hành trước ngày Luật này có hiệu lực thi hành được xử lý như sau:
+5. Quyết định phê duyệt kết quả xác định chi phí đánh giá tiềm năng khoáng sản, chi phí thăm dò khoáng sản phải hoàn trả do Nhà nước đã đầu tư được ban hành trước ngày Luật này có hiệu lực thi hành được xử lý như sau:
 
-a) Trường hợp tổ chức, cá nhân đã được cấp giấy phép khai thác khoáng sản thì tiếp tục thực hiện theo quyết định đã được phê duyệt; trường hợp điều chỉnh giấy phép khai thác khoáng sản sau ngày Luật này có hiệu lực thi hành, chi phí đánh giá tiềm năng khoáng sản, thăm dò khoáng sản do Nhà nước đã đầu tư đối với phần trữ lượng gia tăng (nếu có) được xác định theo quy định của Luật này;
+a) Trường hợp tổ chức, cá nhân đã được cấp giấy phép khai thác khoáng sản thì tiếp tục thực hiện theo quyết định đã được phê duyệt; trường hợp điều chỉnh giấy phép khai thác khoáng sản sau ngày Luật này có hiệu lực thi hành, chi phí đánh giá tiềm năng khoáng sản, thăm dò khoáng sản do Nhà nước đã đầu tư đối với phần trữ lượng gia tăng (nếu có) được xác định theo quy định của Luật này;
 
-b) Trường hợp tổ chức, cá nhân chưa được cấp giấy phép khai thác khoáng sản thì thực hiện theo quy định của Luật này, trừ trường hợp tổ chức, cá nhân đã thực hiện nghĩa vụ hoàn trả.
+b) Trường hợp tổ chức, cá nhân chưa được cấp giấy phép khai thác khoáng sản thì thực hiện theo quy định của Luật này, trừ trường hợp tổ chức, cá nhân đã thực hiện nghĩa vụ hoàn trả.
 
-6\. Quyết định của cơ quan quản lý nhà nước có thẩm quyền về quy hoạch khoáng sản, khu vực dự trữ khoáng sản quốc gia; phê duyệt khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản, khu vực có khoáng sản phân tán, nhỏ lẻ; phê duyệt khu vực không đấu giá quyền khai thác khoáng sản được tiếp tục thực hiện đến khi có quyết định thay thế của cơ quan nhà nước có thẩm quyền.
+6. Quyết định của cơ quan quản lý nhà nước có thẩm quyền về quy hoạch khoáng sản, khu vực dự trữ khoáng sản quốc gia; phê duyệt khu vực cấm hoạt động khoáng sản, khu vực tạm thời cấm hoạt động khoáng sản, khu vực có khoáng sản phân tán, nhỏ lẻ; phê duyệt khu vực không đấu giá quyền khai thác khoáng sản được tiếp tục thực hiện đến khi có quyết định thay thế của cơ quan nhà nước có thẩm quyền.
 
-7\. Quyết định về phê duyệt trữ lượng, tài nguyên khoáng sản đã được cơ quan nhà nước có thẩm quyền ban hành trước ngày Luật này có hiệu lực thi hành được tiếp tục thực hiện và là văn bản tương đương với quyết định công nhận kết quả thăm dò khoáng sản.
+7. Quyết định về phê duyệt trữ lượng, tài nguyên khoáng sản đã được cơ quan nhà nước có thẩm quyền ban hành trước ngày Luật này có hiệu lực thi hành được tiếp tục thực hiện và là văn bản tương đương với quyết định công nhận kết quả thăm dò khoáng sản.
 
-8\. Cơ quan quản lý nhà nước có thẩm quyền tổ chức cấp giấy phép thăm dò, giấy phép khai thác khoáng sản đối với khoáng sản than thuộc quy hoạch tổng thể về năng lượng quốc gia đã được phê duyệt trước ngày Luật này có hiệu lực thi hành cho đến khi có quyết định điều chỉnh, bổ sung khoáng sản than vào quy hoạch khoáng sản nhóm I của cơ quan quản lý nhà nước có thẩm quyền.
+8. Cơ quan quản lý nhà nước có thẩm quyền tổ chức cấp giấy phép thăm dò, giấy phép khai thác khoáng sản đối với khoáng sản than thuộc quy hoạch tổng thể về năng lượng quốc gia đã được phê duyệt trước ngày Luật này có hiệu lực thi hành cho đến khi có quyết định điều chỉnh, bổ sung khoáng sản than vào quy hoạch khoáng sản nhóm I của cơ quan quản lý nhà nước có thẩm quyền.
 
 Ủy ban nhân dân cấp tỉnh cấp giấy phép thăm dò khoáng sản, giấy phép khai thác khoáng sản đối với nước khoáng thiên nhiên, nước nóng thiên nhiên căn cứ vào quy hoạch thăm dò, khai thác, chế biến và sử dụng các loại khoáng sản đã được phê duyệt trước ngày Luật này có hiệu lực thi hành cho đến khi có quyết định thay thế.
 
-9\. Tại thời điểm Luật này có hiệu lực thi hành, tiền cấp quyền khai thác khoáng sản, tiền trúng đấu giá quyền khai thác khoáng sản đối với các giấy phép khai thác khoáng sản, văn bản cho phép khai thác, thu hồi khoáng sản còn thời hạn khai thác, thu hồi hoặc đã hết thời hạn khai thác, thu hồi nhưng đủ điều kiện gia hạn, cấp lại giấy phép khai thác khoáng sản, văn bản cho phép khai thác, thu hồi khoáng sản được thực hiện như sau:
+9. Tại thời điểm Luật này có hiệu lực thi hành, tiền cấp quyền khai thác khoáng sản, tiền trúng đấu giá quyền khai thác khoáng sản đối với các giấy phép khai thác khoáng sản, văn bản cho phép khai thác, thu hồi khoáng sản còn thời hạn khai thác, thu hồi hoặc đã hết thời hạn khai thác, thu hồi nhưng đủ điều kiện gia hạn, cấp lại giấy phép khai thác khoáng sản, văn bản cho phép khai thác, thu hồi khoáng sản được thực hiện như sau:
 
 a) Quyết định phê duyệt tiền cấp quyền khai thác khoáng sản, tiền trúng đấu giá quyền khai thác khoáng sản được tiếp tục thực hiện đến khi có quyết định thay thế của cơ quan quản lý nhà nước có thẩm quyền;
 
@@ -2347,10 +2337,14 @@ b) Tiền cấp quyền khai thác khoáng sản, tiền trúng đấu giá quy�
 
 c) Trữ lượng, khối lượng khoáng sản còn lại chưa khai thác, thu hồi tại thời điểm ngày 01 tháng 7 năm 2025 được phê duyệt lại tiền cấp quyền khai thác khoáng sản theo quy định của Luật này.
 
-10\. Các giấy phép khai thác tận thu khoáng sản cấp trước ngày Luật này có hiệu lực thi hành phải nộp tiền cấp quyền khai thác khoáng sản theo quy định của Luật này đối với khối lượng khoáng sản còn lại chưa khai thác tại thời điểm Luật này có hiệu lực thi hành.
+10. Các giấy phép khai thác tận thu khoáng sản cấp trước ngày Luật này có hiệu lực thi hành phải nộp tiền cấp quyền khai thác khoáng sản theo quy định của Luật này đối với khối lượng khoáng sản còn lại chưa khai thác tại thời điểm Luật này có hiệu lực thi hành.
 
-11\. Đối với các khu vực khoáng sản đã có quyết định phê duyệt kết quả đấu giá quyền khai thác khoáng sản trước ngày Luật này có hiệu lực thi hành, trong quá trình thăm dò, khai thác sau khi đấu giá quyền khai thác khoáng sản phát hiện khoáng sản đi kèm và được cơ quan quản lý nhà nước có thẩm quyền cho phép khai thác, thu hồi thì tỷ lệ thu tiền cấp quyền khai thác khoáng sản đối với các khoáng sản đi kèm được xác định theo quy định tại khoản 2 Điều 105 của Luật này.
+11. Đối với các khu vực khoáng sản đã có quyết định phê duyệt kết quả đấu giá quyền khai thác khoáng sản trước ngày Luật này có hiệu lực thi hành, trong quá trình thăm dò, khai thác sau khi đấu giá quyền khai thác khoáng sản phát hiện khoáng sản đi kèm và được cơ quan quản lý nhà nước có thẩm quyền cho phép khai thác, thu hồi thì tỷ lệ thu tiền cấp quyền khai thác khoáng sản đối với các khoáng sản đi kèm được xác định theo quy định tại khoản 2 Điều 105 của Luật này.
 
-12\. Đối với các khu vực khoáng sản đang thực hiện quy trình đấu giá quyền khai thác khoáng sản nhưng chưa niêm yết, thông báo công khai, việc tổ chức đấu giá quyền khai thác khoáng sản được thực hiện theo quy định của Luật này.
+12. Đối với các khu vực khoáng sản đang thực hiện quy trình đấu giá quyền khai thác khoáng sản nhưng chưa niêm yết, thông báo công khai, việc tổ chức đấu giá quyền khai thác khoáng sản được thực hiện theo quy định của Luật này.
 
+*Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XV, kỳ họp thứ 8 thông qua ngày 29 tháng 11 năm 2024.*
 
+|  |  |
+| --- | --- |
+|  | **CHỦ TỊCH QUỐC HỘI          Trần Thanh Mẫn** |

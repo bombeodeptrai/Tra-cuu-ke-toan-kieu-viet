@@ -1,31 +1,29 @@
-QUỐC HỘI
- --------
+|  |  |
+| --- | --- |
+| **QUỐC HỘI  --------** | **CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM  Độc lập - Tự do - Hạnh phúc   ---------------** |
+| Luật số: 38/2019/QH14 | *Hà Nội, ngày 13 tháng 6 năm 2019* |
 
-CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM
- Độc lập - Tự do - Hạnh phúc 
- ---------------
+**LUẬT**
 
-Luật số: 38/2019/QH14
+ 
 
-Hà Nội, ngày 13 tháng 6 năm 2019
+**QUẢN LÝ THUẾ**
 
-LUẬT
+ 
 
-QUẢN LÝ THUẾ
+*Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;*
 
-Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;
+*Quốc hội ban hành Luật Quản lý thuế.*
 
-Quốc hội ban hành Luật Quản lý thuế.
+**Chương I**
 
-Chương I
+**NHỮNG QUY ĐỊNH CHUNG**
 
-NHỮNG QUY ĐỊNH CHUNG
-
-Điều 1. Phạm vi điều chỉnh
+**Điều 1. Phạm vi điều chỉnh**
 
 Luật này quy định việc quản lý các loại thuế, các khoản thu khác thuộc ngân sách nhà nước.
 
-Điều 2. Đối tượng áp dụng
+**Điều 2. Đối tượng áp dụng**
 
 1. Người nộp thuế bao gồm:
 
@@ -45,17 +43,15 @@ b) Cơ quan hải quan bao gồm Tổng cục Hải quan, Cục Hải quan, Cụ
 
 4. Cơ quan nhà nước, tổ chức, cá nhân khác có liên quan.
 
-Điều 3. Giải thích từ ngữ
+**Điều 3. Giải thích từ ngữ**
 
 Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
 
-1. 
-Thuế
- là một khoản nộp ngân sách nhà nước bắt buộc của tổ chức, hộ gia đình, hộ kinh doanh, cá nhân theo quy định của các luật thuế.
+1. *Thuế* là một khoản nộp ngân sách nhà nước bắt buộc của tổ chức, hộ gia đình, hộ kinh doanh, cá nhân theo quy định của các luật thuế.
 
-2.
-Các khoản thu khác thuộc ngân sách nhà nước do cơ quan quản lý thuế quản lý thu
-bao gồm:
+2.*Các khoản thu khác thuộc ngân sách nhà nước do cơ quan quản lý thuế quản lý thu*bao gồm:
+
+ 
 
 a) Phí và lệ phí theo quy định của Luật Phí và lệ phí;
 
@@ -73,9 +69,7 @@ g) Tiền thu từ xử phạt vi phạm hành chính theo quy định của ph�
 
 h) Tiền chậm nộp và các khoản thu khác theo quy định của pháp luật.
 
-3. 
-Các khoản thu khác thuộc ngân sách nhà nước không do cơ quan quản lý thuế quản lý thu
- bao gồm:
+3. *Các khoản thu khác thuộc ngân sách nhà nước không do cơ quan quản lý thuế quản lý thu* bao gồm:
 
 a) Tiền sử dụng khu vực biển để nhận chìm theo quy định của pháp luật về tài nguyên, môi trường biển và hải đảo;
 
@@ -89,107 +83,59 @@ d) Tiền nộp ngân sách nhà nước theo quy định của pháp luật v�
 
 e) Các khoản thu khác theo quy định của pháp luật.
 
-4. 
-Trụ sở của người nộp thuế
- là địa điểm người nộp thuế tiến hành một phần hoặc toàn bộ hoạt động kinh doanh, bao gồm trụ sở chính, chi nhánh, cửa hàng, nơi sản xuất, nơi để hàng hóa, nơi để tài sản dùng cho sản xuất, kinh doanh; nơi cư trú hoặc nơi phát sinh nghĩa vụ thuế.
+4. *Trụ sở của người nộp thuế* là địa điểm người nộp thuế tiến hành một phần hoặc toàn bộ hoạt động kinh doanh, bao gồm trụ sở chính, chi nhánh, cửa hàng, nơi sản xuất, nơi để hàng hóa, nơi để tài sản dùng cho sản xuất, kinh doanh; nơi cư trú hoặc nơi phát sinh nghĩa vụ thuế.
 
-5. 
-Mã số thuế
- là một dãy số gồm 10 chữ số hoặc 13 chữ số và ký tự khác do cơ quan thuế cấp cho người nộp thuế dùng để quản lý thuế.
+5. *Mã số thuế* là một dãy số gồm 10 chữ số hoặc 13 chữ số và ký tự khác do cơ quan thuế cấp cho người nộp thuế dùng để quản lý thuế.
 
-6. 
-Kỳ tính thuế 
-là khoảng thời gian để xác định số tiền thuế phải nộp ngân sách nhà nước theo quy định của pháp luật về thuế.
+6. *Kỳ tính thuế* là khoảng thời gian để xác định số tiền thuế phải nộp ngân sách nhà nước theo quy định của pháp luật về thuế.
 
-7. 
-Tờ khai thuế
- là văn bản theo mẫu do Bộ trưởng Bộ Tài chính quy định được người nộp thuế sử dụng để kê khai các thông tin nhằm xác định số tiền thuế phải nộp.
+7. *Tờ khai thuế* là văn bản theo mẫu do Bộ trưởng Bộ Tài chính quy định được người nộp thuế sử dụng để kê khai các thông tin nhằm xác định số tiền thuế phải nộp.
 
-8. 
-Tờ khai hải quan
- là văn bản theo mẫu do Bộ trưởng Bộ Tài chính quy định được sử dụng làm tờ khai thuế đối với hàng hóa xuất khẩu, nhập khẩu.
+8. *Tờ khai hải quan* là văn bản theo mẫu do Bộ trưởng Bộ Tài chính quy định được sử dụng làm tờ khai thuế đối với hàng hóa xuất khẩu, nhập khẩu.
 
-9. 
-Hồ sơ thuế
- là hồ sơ đăng ký thuế, khai thuế, hoàn thuế, miễn thuế, giảm thuế, miễn tiền chậm nộp, không tính tiền chậm nộp, gia hạn nộp thuế, nộp dần tiền thuế nợ, không thu thuế; hồ sơ hải quan; hồ sơ khoanh tiền thuế nợ; hồ sơ xóa nợ tiền thuế, tiền chậm nộp, tiền phạt.
+9. *Hồ sơ thuế* là hồ sơ đăng ký thuế, khai thuế, hoàn thuế, miễn thuế, giảm thuế, miễn tiền chậm nộp, không tính tiền chậm nộp, gia hạn nộp thuế, nộp dần tiền thuế nợ, không thu thuế; hồ sơ hải quan; hồ sơ khoanh tiền thuế nợ; hồ sơ xóa nợ tiền thuế, tiền chậm nộp, tiền phạt.
 
-10. 
-Khai quyết toán thuế
- là việc xác định số tiền thuế phải nộp của năm tính thuế hoặc thời gian từ đầu năm tính thuế đến khi chấm dứt hoạt động phát sinh nghĩa vụ thuế hoặc thời gian từ khi phát sinh đến khi chấm dứt hoạt động phát sinh nghĩa vụ thuế theo quy định của pháp luật.
+10. *Khai quyết toán thuế* là việc xác định số tiền thuế phải nộp của năm tính thuế hoặc thời gian từ đầu năm tính thuế đến khi chấm dứt hoạt động phát sinh nghĩa vụ thuế hoặc thời gian từ khi phát sinh đến khi chấm dứt hoạt động phát sinh nghĩa vụ thuế theo quy định của pháp luật.
 
-11. 
-Năm tính thuế
- được xác định theo năm dương lịch từ ngày 01 tháng 01 đến ngày 31 tháng 12; trường hợp năm tài chính khác năm dương lịch thì năm tính thuế áp dụng theo năm tài chính.
+11. *Năm tính thuế* được xác định theo năm dương lịch từ ngày 01 tháng 01 đến ngày 31 tháng 12; trường hợp năm tài chính khác năm dương lịch thì năm tính thuế áp dụng theo năm tài chính.
 
-12. 
-Hoàn thành nghĩa vụ nộp thuế 
-là việc nộp đủ số tiền thuế phải nộp, số tiền chậm nộp, tiền phạt vi phạm pháp luật về thuế và các khoản thu khác thuộc ngân sách nhà nước.
+12. *Hoàn thành nghĩa vụ nộp thuế* là việc nộp đủ số tiền thuế phải nộp, số tiền chậm nộp, tiền phạt vi phạm pháp luật về thuế và các khoản thu khác thuộc ngân sách nhà nước.
 
-13. 
-Cưỡng chế thi hành quyết định hành chính về quản lý thuế
- là việc áp dụng biện pháp theo quy định của Luật này và quy định khác của pháp luật có liên quan buộc người nộp thuế phải hoàn thành nghĩa vụ nộp thuế.
+13. *Cưỡng chế thi hành quyết định hành chính về quản lý thuế* là việc áp dụng biện pháp theo quy định của Luật này và quy định khác của pháp luật có liên quan buộc người nộp thuế phải hoàn thành nghĩa vụ nộp thuế.
 
-14. 
-Rủi ro về thuế
- là nguy cơ không tuân thủ pháp luật của người nộp thuế dẫn đến thất thu ngân sách nhà nước.
+14. *Rủi ro về thuế* là nguy cơ không tuân thủ pháp luật của người nộp thuế dẫn đến thất thu ngân sách nhà nước.
 
-15
-. Quản lý rủi ro trong quản lý thuế
- là việc áp dụng có hệ thống quy định của pháp luật, các quy trình nghiệp vụ để xác định, đánh giá và phân loại các rủi ro có thể tác động tiêu cực đến hiệu quả, hiệu lực quản lý thuế làm cơ sở để cơ quan quản lý thuế phân bổ nguồn lực hợp lý và áp dụng các biện pháp quản lý hiệu quả.
+15*. Quản lý rủi ro trong quản lý thuế* là việc áp dụng có hệ thống quy định của pháp luật, các quy trình nghiệp vụ để xác định, đánh giá và phân loại các rủi ro có thể tác động tiêu cực đến hiệu quả, hiệu lực quản lý thuế làm cơ sở để cơ quan quản lý thuế phân bổ nguồn lực hợp lý và áp dụng các biện pháp quản lý hiệu quả.
 
-16. 
-Thoả thuận trước về phương pháp xác định giá tính thuế
- là thỏa thuận bằng văn bản giữa cơ quan thuế với người nộp thuế hoặc giữa cơ quan thuế với người nộp thuế và cơ quan thuế nước ngoài, vùng lãnh thổ mà Việt Nam đã ký hiệp định tránh đánh thuế hai lần và ngăn ngừa việc trốn lậu thuế đối với thuế thu nhập cho một thời hạn nhất định, trong đó xác định cụ thể các căn cứ tính thuế, phương pháp xác định giá tính thuế hoặc giá tính thuế theo giá thị trường. Thoả thuận trước về phương pháp xác định giá tính thuế được xác lập trước khi người nộp thuế nộp hồ sơ khai thuế.
+16. *Thoả thuận trước về phương pháp xác định giá tính thuế* là thỏa thuận bằng văn bản giữa cơ quan thuế với người nộp thuế hoặc giữa cơ quan thuế với người nộp thuế và cơ quan thuế nước ngoài, vùng lãnh thổ mà Việt Nam đã ký hiệp định tránh đánh thuế hai lần và ngăn ngừa việc trốn lậu thuế đối với thuế thu nhập cho một thời hạn nhất định, trong đó xác định cụ thể các căn cứ tính thuế, phương pháp xác định giá tính thuế hoặc giá tính thuế theo giá thị trường. Thoả thuận trước về phương pháp xác định giá tính thuế được xác lập trước khi người nộp thuế nộp hồ sơ khai thuế.
 
-17. 
-Tiền thuế nợ
- là tiền thuế và các khoản thu khác thuộc ngân sách nhà nước do cơ quan quản lý thuế quản lý thu mà người nộp thuế chưa nộp ngân sách nhà nước khi hết thời hạn nộp theo quy định.
+17. *Tiền thuế nợ* là tiền thuế và các khoản thu khác thuộc ngân sách nhà nước do cơ quan quản lý thuế quản lý thu mà người nộp thuế chưa nộp ngân sách nhà nước khi hết thời hạn nộp theo quy định.
 
-18. 
-Cơ sở dữ liệu thương mại
- là hệ thống thông tin tài chính và dữ liệu của doanh nghiệp được tổ chức, sắp xếp và cập nhật do các tổ chức kinh doanh cung cấp cho cơ quan quản lý thuế theo quy định của pháp luật.
+18. *Cơ sở dữ liệu thương mại* là hệ thống thông tin tài chính và dữ liệu của doanh nghiệp được tổ chức, sắp xếp và cập nhật do các tổ chức kinh doanh cung cấp cho cơ quan quản lý thuế theo quy định của pháp luật.
 
-19. 
-Thông tin người nộp thuế 
-là thông tin về người nộp thuế và thông tin liên quan đến nghĩa vụ thuế của người nộp thuế do người nộp thuế cung cấp, do cơ quan quản lý thuế thu thập được trong quá trình quản lý thuế.
+19. *Thông tin người nộp thuế* là thông tin về người nộp thuế và thông tin liên quan đến nghĩa vụ thuế của người nộp thuế do người nộp thuế cung cấp, do cơ quan quản lý thuế thu thập được trong quá trình quản lý thuế.
 
-20. 
-Hệ thống thông tin quản lý thuế
- bao gồm hệ thống thông tin thống kê, kế toán thuế và các thông tin khác phục vụ công tác quản lý thuế.
+20. *Hệ thống thông tin quản lý thuế* bao gồm hệ thống thông tin thống kê, kế toán thuế và các thông tin khác phục vụ công tác quản lý thuế.
 
-21. 
-Các bên có quan hệ liên kết
- là các bên tham gia trực tiếp hoặc gián tiếp vào việc điều hành, kiểm soát, góp vốn vào doanh nghiệp; các bên cùng chịu sự điều hành, kiểm soát trực tiếp hoặc gián tiếp bởi một tổ chức hoặc cá nhân; các bên cùng có một tổ chức hoặc cá nhân tham gia góp vốn; các doanh nghiệp được điều hành, kiểm soát bởi các cá nhân có mối quan hệ mật thiết trong cùng một gia đình.
+21. *Các bên có quan hệ liên kết* là các bên tham gia trực tiếp hoặc gián tiếp vào việc điều hành, kiểm soát, góp vốn vào doanh nghiệp; các bên cùng chịu sự điều hành, kiểm soát trực tiếp hoặc gián tiếp bởi một tổ chức hoặc cá nhân; các bên cùng có một tổ chức hoặc cá nhân tham gia góp vốn; các doanh nghiệp được điều hành, kiểm soát bởi các cá nhân có mối quan hệ mật thiết trong cùng một gia đình.
 
-22. 
-Giao dịch liên kết
- là giao dịch giữa các bên có quan hệ liên kết.
+22. *Giao dịch liên kết* là giao dịch giữa các bên có quan hệ liên kết.
 
-23. 
-Giao dịch độc lập
- là giao dịch giữa các bên không có quan hệ liên kết.
+23. *Giao dịch độc lập* là giao dịch giữa các bên không có quan hệ liên kết.
 
-24. 
-Nguyên tắc giao dịch độc lập
- là nguyên tắc được áp dụng trong kê khai, xác định giá tính thuế đối với người nộp thuế có phát sinh giao dịch liên kết nhằm phản ánh điều kiện giao dịch trong giao dịch liên kết tương đương với điều kiện trong giao dịch độc lập.
+24. *Nguyên tắc giao dịch độc lập* là nguyên tắc được áp dụng trong kê khai, xác định giá tính thuế đối với người nộp thuế có phát sinh giao dịch liên kết nhằm phản ánh điều kiện giao dịch trong giao dịch liên kết tương đương với điều kiện trong giao dịch độc lập.
 
-25. 
-Nguyên tắc bản chất hoạt động, giao dịch quyết định nghĩa vụ thuế
- là nguyên tắc được áp dụng trong quản lý thuế nhằm phân tích các giao dịch, hoạt động sản xuất, kinh doanh của người nộp thuế để xác định nghĩa vụ thuế tương ứng với giá trị tạo ra từ bản chất giao dịch, hoạt động sản xuất, kinh doanh đó.
+25. *Nguyên tắc bản chất hoạt động, giao dịch quyết định nghĩa vụ thuế* là nguyên tắc được áp dụng trong quản lý thuế nhằm phân tích các giao dịch, hoạt động sản xuất, kinh doanh của người nộp thuế để xác định nghĩa vụ thuế tương ứng với giá trị tạo ra từ bản chất giao dịch, hoạt động sản xuất, kinh doanh đó.
 
-26. 
-Công ty mẹ tối cao của tập đoàn
- là pháp nhân có vốn chủ sở hữu trực tiếp hoặc gián tiếp tại các pháp nhân khác của một tập đoàn đa quốc gia, không bị sở hữu bởi bất kỳ pháp nhân nào khác và báo cáo tài chính hợp nhất của công ty mẹ tối cao của tập đoàn không được hợp nhất vào bất kỳ báo cáo tài chính của một pháp nhân nào khác trên toàn cầu.
+26. *Công ty mẹ tối cao của tập đoàn* là pháp nhân có vốn chủ sở hữu trực tiếp hoặc gián tiếp tại các pháp nhân khác của một tập đoàn đa quốc gia, không bị sở hữu bởi bất kỳ pháp nhân nào khác và báo cáo tài chính hợp nhất của công ty mẹ tối cao của tập đoàn không được hợp nhất vào bất kỳ báo cáo tài chính của một pháp nhân nào khác trên toàn cầu.
 
-27. 
-Trường hợp bất khả kháng
- bao gồm:
+27. *Trường hợp bất khả kháng* bao gồm:
 
 a) Người nộp thuế bị thiệt hại vật chất do gặp thiên tai, thảm họa, dịch bệnh, hỏa hoạn, tai nạn bất ngờ;
 
 b) Các trường hợp bất khả kháng khác theo quy định của Chính phủ.
 
-Điều 4. Nội dung quản lý thuế
+**Điều 4. Nội dung quản lý thuế**
 
 1. Đăng ký thuế, khai thuế, nộp thuế, ấn định thuế.
 
@@ -213,7 +159,7 @@ b) Các trường hợp bất khả kháng khác theo quy định của Chính p
 
 11. Tuyên truyền, hỗ trợ người nộp thuế.
 
-Điều 5. Nguyên tắc quản lý thuế
+**Điều 5. Nguyên tắc quản lý thuế**
 
 1. Mọi tổ chức, hộ gia đình, hộ kinh doanh, cá nhân có nghĩa vụ nộp thuế theo quy định của luật.
 
@@ -225,7 +171,7 @@ b) Các trường hợp bất khả kháng khác theo quy định của Chính p
 
 5. Áp dụng biện pháp ưu tiên khi thực hiện các thủ tục về thuế đối với hàng hóa xuất khẩu, nhập khẩu theo quy định của pháp luật về hải quan và quy định của Chính phủ.
 
-Điều 6. Các hành vi bị nghiêm cấm trong quản lý thuế
+**Điều 6. Các hành vi bị nghiêm cấm trong quản lý thuế**
 
 1. Thông đồng, móc nối, bao che giữa người nộp thuế và công chức quản lý thuế, cơ quan quản lý thuế để chuyển giá, trốn thuế.
 
@@ -243,7 +189,7 @@ b) Các trường hợp bất khả kháng khác theo quy định của Chính p
 
 8. Làm sai lệch, sử dụng sai mục đích, truy cập trái phép, phá hủy hệ thống thông tin người nộp thuế.
 
-Điều 7. Đồng tiền khai thuế, nộp thuế
+**Điều 7. Đồng tiền khai thuế, nộp thuế**
 
 1. Đồng tiền khai thuế, nộp thuế là Đồng Việt Nam, trừ các trường hợp được phép khai thuế, nộp thuế bằng ngoại tệ tự do chuyển đổi.
 
@@ -253,17 +199,13 @@ b) Các trường hợp bất khả kháng khác theo quy định của Chính p
 
 4. Bộ trưởng Bộ Tài chính quy định đồng tiền khai thuế, nộp thuế bằng ngoại tệ tự do chuyển đổi quy định tại khoản 1, khoản 3 và tỷ giá giao dịch thực tế quy định tại khoản 2 Điều này.
 
-Điều 8. Giao dịch điện tử trong lĩnh vực thuế
+**Điều 8. Giao dịch điện tử trong lĩnh vực thuế**
 
 1. Người nộp thuế, cơ quan quản lý thuế, cơ quan quản lý nhà nước, tổ chức, cá nhân có đủ điều kiện thực hiện giao dịch điện tử trong lĩnh vực thuế phải thực hiện giao dịch điện tử với cơ quan quản lý thuế theo quy định của Luật này và pháp luật về giao dịch điện tử.
 
 2. Người nộp thuế đã thực hiện giao dịch điện tử trong lĩnh vực thuế thì không phải thực hiện phương thức giao dịch khác.
 
-3. Cơ quan quản lý thuế khi tiếp nhận, trả kết quả giải quyết thủ tục hành chính thuế cho người nộp thuế bằng phương thức điện tử phải xác nhận việc hoàn thành giao dịch điện tử của người nộp thuế, bảo đảm quyền của người nộp thuế quy định tại 
-
-Điều 16 của Luật này
-
-.
+3. Cơ quan quản lý thuế khi tiếp nhận, trả kết quả giải quyết thủ tục hành chính thuế cho người nộp thuế bằng phương thức điện tử phải xác nhận việc hoàn thành giao dịch điện tử của người nộp thuế, bảo đảm quyền của người nộp thuế quy định tại Điều 16 của Luật này.
 
 4. Người nộp thuế phải thực hiện yêu cầu của cơ quan quản lý thuế nêu tại thông báo, quyết định, văn bản điện tử như đối với thông báo, quyết định, văn bản bằng giấy của cơ quan quản lý thuế.
 
@@ -287,12 +229,11 @@ e) Trường hợp chứng từ điện tử của người nộp thuế đã đ
 
 8. Bộ trưởng Bộ Tài chính quy định hồ sơ, thủ tục về giao dịch điện tử trong lĩnh vực thuế.
 
-Điều 9. Quản lý rủi ro trong quản lý thuế
+**Điều 9. Quản lý rủi ro trong quản lý thuế**
 
 1. Cơ quan thuế áp dụng quản lý rủi ro trong đăng ký thuế, khai thuế, nộp thuế, nợ thuế, cưỡng chế thi hành quyết định hành chính về quản lý thuế, hoàn thuế, kiểm tra thuế, thanh tra thuế, quản l‎ý và sử dụng hóa đơn, chứng từ và các nghiệp vụ khác trong quản lý thuế.
 
-2. Cơ quan hải quan áp dụng quản lý rủi ro trong khai thuế, hoàn thuế, không thu thuế, kiểm tra thuế, thanh tra thuế và các nghiệp vụ khác trong quản lý thuế
-.
+2. Cơ quan hải quan áp dụng quản lý rủi ro trong khai thuế, hoàn thuế, không thu thuế, kiểm tra thuế, thanh tra thuế và các nghiệp vụ khác trong quản lý thuế*.*
 
 3. Áp dụng cơ chế quản lý rủi ro trong quản lý thuế gồm nghiệp vụ thu thập, xử lý thông tin, dữ liệu liên quan đến người nộp thuế; xây dựng tiêu chí quản lý thuế; đánh giá việc tuân thủ pháp luật của người nộp thuế; phân loại mức độ rủi ro trong quản lý thuế và tổ chức thực hiện các biện pháp quản lý thuế phù hợp.
 
@@ -308,7 +249,7 @@ c) Cơ quan quản lý thuế sử dụng kết quả đánh giá việc tuân t
 
 6. Bộ trưởng Bộ Tài chính quy định tiêu chí đánh giá việc tuân thủ pháp luật của người nộp thuế, phân loại mức độ rủi ro và việc áp dụng quản lý rủi ro trong quản lý thuế.
 
-Điều 10. Xây dựng lực lượng quản lý thuế
+**Điều 10. Xây dựng lực lượng quản lý thuế**
 
 1. Lực lượng quản lý thuế được xây dựng trong sạch, vững mạnh; được trang bị và làm chủ kỹ thuật hiện đại, hoạt động hiệu lực và hiệu quả.
 
@@ -316,11 +257,9 @@ c) Cơ quan quản lý thuế sử dụng kết quả đánh giá việc tuân t
 
 3. Chế độ phục vụ, chức danh, tiêu chuẩn, lương, chế độ đãi ngộ khác, cấp hiệu, trang phục của công chức quản lý thuế được thực hiện theo quy định của pháp luật.
 
-4. Cơ quan quản lý thuế có trách nhiệm đào tạo, xây dựng đội ngũ công chức quản lý thuế để
+4. Cơ quan quản lý thuế có trách nhiệm đào tạo, xây dựng đội ngũ công chức quản lý thuế đểthực hiện chức năng quản lý thuế theo quy định của pháp luật.
 
-thực hiện chức năng quản lý thuế theo quy định của pháp luật.
-
-Điều 11. Hiện đại hóa công tác quản lý thuế
+**Điều 11. Hiện đại hóa công tác quản lý thuế**
 
 1. Công tác quản lý thuế được hiện đại hóa về phương pháp quản lý, thủ tục hành chính, bộ máy tổ chức, đội ngũ công chức, viên chức, áp dụng rộng rãi công nghệ thông tin, kỹ thuật hiện đại trên cơ sở dữ liệu thông tin chính xác về người nộp thuế để kiểm soát được tất cả đối tượng chịu thuế, căn cứ tính thuế; bảo đảm dự báo nhanh, chính xác số thu của ngân sách nhà nước; phát hiện và xử lý kịp thời các vướng mắc, vi phạm pháp luật về thuế; nâng cao hiệu lực, hiệu quả công tác quản lý thuế. Căn cứ vào tình hình phát triển kinh tế - xã hội trong từng thời kỳ, Nhà nước bảo đảm các nguồn lực tài chính để thực hiện nội dung quy định tại khoản này.
 
@@ -328,13 +267,11 @@ thực hiện chức năng quản lý thuế theo quy định của pháp luật
 
 3. Cơ quan quản lý thuế xây dựng hệ thống công nghệ thông tin đáp ứng yêu cầu hiện đại hóa công tác quản lý thuế, tiêu chuẩn kỹ thuật, định dạng dữ liệu về hóa đơn, chứng từ điện tử, hồ sơ thuế để thực hiện giao dịch điện tử giữa người nộp thuế với cơ quan quản lý thuế và giữa cơ quan quản lý thuế với cơ quan, tổ chức, cá nhân có liên quan.
 
-Điều 12. Hợp tác quốc tế về thuế của cơ quan quản lý thuế
+**Điều 12. Hợp tác quốc tế về thuế của cơ quan quản lý thuế**
 
 Trong phạm vi nhiệm vụ, quyền hạn của mình, cơ quan quản lý thuế có trách nhiệm sau đây:
 
-1. Tham mưu giúp Bộ trưởng Bộ Tài chính đề xuất đàm phán, ký kết và thực hiện quyền, nghĩa vụ và bảo đảm lợi ích của
-
-nước Cộng hòa xã hội chủ nghĩa Việt Nam theo các điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên;
+1. Tham mưu giúp Bộ trưởng Bộ Tài chính đề xuất đàm phán, ký kết và thực hiện quyền, nghĩa vụ và bảo đảm lợi ích củanước Cộng hòa xã hội chủ nghĩa Việt Nam theo các điều ước quốc tế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên;
 
 2. Đàm phán, ký kết và tổ chức thực hiện thỏa thuận song phương, đa phương với cơ quan quản lý thuế nước ngoài;
 
@@ -346,7 +283,7 @@ a) Đề nghị cơ quan quản lý thuế nước ngoài và các cơ quan có 
 
 b) Thực hiện hỗ trợ thu thuế theo đề nghị của cơ quan quản lý thuế nước ngoài đối với các khoản nợ thuế phải nộp tại nước ngoài của người nộp thuế tại Việt Nam bằng biện pháp đôn đốc thu nợ thuế theo quy định của Luật này và phù hợp với thực tiễn quản lý thuế của Việt Nam.
 
-Điều 13. Kế toán, thống kê về thuế
+**Điều 13. Kế toán, thống kê về thuế**
 
 1. Cơ quan quản lý thuế thực hiện hạch toán kế toán tiền thuế, tiền chậm nộp, tiền phạt và các khoản thu khác thuộc ngân sách nhà nước do cơ quan quản lý thuế phải thu, đã thu, miễn, giảm, xóa nợ, không thu thuế, hoàn trả theo quy định của pháp luật về kế toán và pháp luật về ngân sách nhà nước.
 
@@ -354,11 +291,11 @@ b) Thực hiện hỗ trợ thu thuế theo đề nghị của cơ quan quản l
 
 3. Hằng năm, cơ quan quản lý thuế nộp báo cáo kế toán, thống kê về thuế cho cơ quan có thẩm quyền và thực hiện công khai thông tin theo quy định của pháp luật.
 
-Chương II
+**Chương II**
 
-NHIỆM VỤ, QUYỀN HẠN VÀ TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN TRONG QUẢN LÝ THUẾ
+**NHIỆM VỤ, QUYỀN HẠN VÀ TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN TRONG QUẢN LÝ THUẾ**
 
-Điều 14. Nhiệm vụ, quyền hạn của Chính phủ
+**Điều 14. Nhiệm vụ, quyền hạn của Chính phủ**
 
 1. Thống nhất quản lý nhà nước về quản lý thuế, bảo đảm sự phối hợp chặt chẽ giữa cơ quan quản lý ngành và địa phương trong quản lý thuế.
 
@@ -366,7 +303,7 @@ NHIỆM VỤ, QUYỀN HẠN VÀ TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ 
 
 3. Báo cáo Quốc hội, Ủy ban Thường vụ Quốc hội, Chủ tịch nước về tình hình quản lý thuế theo yêu cầu.
 
-Điều 15. Nhiệm vụ, quyền hạn, trách nhiệm của Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ
+**Điều 15. Nhiệm vụ, quyền hạn, trách nhiệm của Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ**
 
 1. Bộ Tài chính là cơ quan chủ trì giúp Chính phủ thống nhất quản lý nhà nước về quản lý thuế và có nhiệm vụ, quyền hạn sau đây:
 
@@ -438,7 +375,7 @@ b) Kết nối, cung cấp thông tin về tiêu chí kỹ thuật liên quan đ
 
 11. Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ có trách nhiệm phối hợp với Bộ Tài chính thực hiện nhiệm vụ quản lý nhà nước về quản lý thuế theo quy định của Chính phủ.
 
-Điều 16. Quyền của người nộp thuế
+**Điều 16. Quyền của người nộp thuế**
 
 1. Được hỗ trợ, hướng dẫn thực hiện việc nộp thuế; cung cấp thông tin, tài liệu để thực hiện nghĩa vụ, quyền lợi về thuế.
 
@@ -468,7 +405,7 @@ b) Kết nối, cung cấp thông tin về tiêu chí kỹ thuật liên quan đ
 
 14. Được sử dụng chứng từ điện tử trong giao dịch với cơ quan quản lý thuế và cơ quan, tổ chức có liên quan.
 
-Điều 17. Trách nhiệm của người nộp thuế
+**Điều 17. Trách nhiệm của người nộp thuế**
 
 1. Thực hiện đăng ký thuế, sử dụng mã số thuế theo quy định của pháp luật.
 
@@ -496,7 +433,7 @@ b) Kết nối, cung cấp thông tin về tiêu chí kỹ thuật liên quan đ
 
 13. Người nộp thuế có phát sinh giao dịch liên kết có nghĩa vụ lập, lưu trữ, kê khai, cung cấp hồ sơ thông tin về người nộp thuế và các bên liên kết của người nộp thuế bao gồm cả thông tin về các bên liên kết cư trú tại các quốc gia, vùng lãnh thổ ngoài Việt Nam theo quy định của Chính phủ.
 
-Điều 18. Nhiệm vụ của cơ quan quản lý thuế
+**Điều 18. Nhiệm vụ của cơ quan quản lý thuế**
 
 1. Tổ chức thực hiện quản lý thu thuế và các khoản thu khác thuộc ngân sách nhà nước theo quy định của pháp luật về thuế và quy định khác của pháp luật có liên quan.
 
@@ -512,9 +449,7 @@ b) Kết nối, cung cấp thông tin về tiêu chí kỹ thuật liên quan đ
 
 7. Giải quyết khiếu nại, tố cáo liên quan đến việc thực hiện pháp luật về thuế theo thẩm quyền.
 
-8. Giao biên bản, kết luận, quyết định xử lý về thuế sau kiểm tra thuế, thanh tra thuế cho người nộp thuế
-
-và giải thích khi có yêu cầu.
+8. Giao biên bản, kết luận, quyết định xử lý về thuế sau kiểm tra thuế, thanh tra thuế cho người nộp thuếvà giải thích khi có yêu cầu.
 
 9. Bồi thường thiệt hại cho người nộp thuế theo quy định của pháp luật về trách nhiệm bồi thường của Nhà nước.
 
@@ -522,11 +457,9 @@ và giải thích khi có yêu cầu.
 
 11. Xây dựng, tổ chức hệ thống thông tin điện tử và ứng dụng công nghệ thông tin để thực hiện giao dịch điện tử trong lĩnh vực thuế.
 
-Điều 19. Quyền hạn của cơ quan quản lý thuế
+**Điều 19. Quyền hạn của cơ quan quản lý thuế**
 
-1. Yêu cầu người nộp thuế cung cấp thông tin, tài liệu liên quan đến việc xác định nghĩa vụ thuế, bao gồm cả thông tin về giá trị đầu tư;
-
-số hiệu, nội dung giao dịch của các tài khoản được mở tại ngân hàng thương mại, tổ chức tín dụng khác và giải thích việc tính thuế, khai thuế, nộp thuế.
+1. Yêu cầu người nộp thuế cung cấp thông tin, tài liệu liên quan đến việc xác định nghĩa vụ thuế, bao gồm cả thông tin về giá trị đầu tư;số hiệu, nội dung giao dịch của các tài khoản được mở tại ngân hàng thương mại, tổ chức tín dụng khác và giải thích việc tính thuế, khai thuế, nộp thuế.
 
 2. Yêu cầu tổ chức, cá nhân có liên quan cung cấp thông tin, tài liệu liên quan đến việc xác định nghĩa vụ thuế và phối hợp với cơ quan quản lý thuế để thực hiện pháp luật về thuế.
 
@@ -546,7 +479,7 @@ số hiệu, nội dung giao dịch của các tài khoản được mở tại 
 
 10. Mua thông tin, tài liệu, dữ liệu của các đơn vị cung cấp trong nước và ngoài nước để phục vụ công tác quản lý thuế; chi trả chi phí ủy nhiệm thu thuế từ tiền thuế thu được hoặc từ nguồn kinh phí của cơ quan quản lý thuế theo quy định của Chính phủ.
 
-Điều 20. Nhiệm vụ, quyền hạn của Hội đồng nhân dân, Ủy ban nhân dân các cấp
+**Điều 20. Nhiệm vụ, quyền hạn của Hội đồng nhân dân, Ủy ban nhân dân các cấp**
 
 1. Hội đồng nhân dân các cấp, trong phạm vi nhiệm vụ, quyền hạn của mình, quyết định nhiệm vụ thu ngân sách hằng năm và giám sát việc thực hiện pháp luật về thuế tại địa phương.
 
@@ -558,19 +491,17 @@ b) Phối hợp với Bộ Tài chính, cơ quan quản lý thuế và cơ quan 
 
 c) Xử phạt vi phạm hành chính và giải quyết khiếu nại, tố cáo liên quan đến việc thực hiện pháp luật về thuế theo thẩm quyền.
 
-Điều 21. Nhiệm vụ, quyền hạn của Kiểm toán nhà nước
+**Điều 21. Nhiệm vụ, quyền hạn của Kiểm toán nhà nước**
 
 1. Thực hiện kiểm toán hoạt động đối với cơ quan quản lý thuế theo quy định của pháp luật về kiểm toán nhà nước, pháp luật về thuế và quy định khác của pháp luật có liên quan.
 
 2. Đối với kiến nghị của Kiểm toán nhà nước liên quan đến việc thực hiện nghĩa vụ thuế của người nộp thuế được quy định như sau:
 
-a) Trường hợp Kiểm toán nhà nước trực tiếp kiểm toán người nộp thuế theo quy định của Luật Kiểm toán nhà nước có nội dung kiến nghị về nghĩa vụ nộp ngân sách nhà nước thì Kiểm toán nhà nước phải gửi biên bản hoặc báo cáo kiểm toán
-
-cho người nộp thuế và người nộp thuế có trách nhiệm thực hiện kiến nghị theo báo cáo kiểm toán của Kiểm toán nhà nước. Trường hợp người nộp thuế không đồng ý với kiến nghị của Kiểm toán nhà nước thì người nộp thuế có quyền khiếu nại kiến nghị của Kiểm toán nhà nước;
+a) Trường hợp Kiểm toán nhà nước trực tiếp kiểm toán người nộp thuế theo quy định của Luật Kiểm toán nhà nước có nội dung kiến nghị về nghĩa vụ nộp ngân sách nhà nước thì Kiểm toán nhà nước phải gửi biên bản hoặc báo cáo kiểm toáncho người nộp thuế và người nộp thuế có trách nhiệm thực hiện kiến nghị theo báo cáo kiểm toán của Kiểm toán nhà nước. Trường hợp người nộp thuế không đồng ý với kiến nghị của Kiểm toán nhà nước thì người nộp thuế có quyền khiếu nại kiến nghị của Kiểm toán nhà nước;
 
 b) Trường hợp Kiểm toán nhà nước không trực tiếp kiểm toán đối với người nộp thuế mà thực hiện kiểm toán tại cơ quan quản lý thuế có nội dung kiến nghị nêu trong báo cáo kiểm toán liên quan đến nghĩa vụ thuế của người nộp thuế thì Kiểm toán nhà nước gửi bản trích sao có kiến nghị liên quan đến nghĩa vụ thuế cho người nộp thuế để thực hiện. Cơ quan quản lý thuế có trách nhiệm tổ chức thực hiện kiến nghị của Kiểm toán nhà nước. Trường hợp người nộp thuế không đồng ý với nghĩa vụ thuế phải nộp thì người nộp thuế có văn bản đề nghị cơ quan quản lý thuế, Kiểm toán nhà nước xem xét lại nghĩa vụ thuế phải nộp. Căn cứ đề nghị của người nộp thuế, Kiểm toán nhà nước chủ trì, phối hợp với cơ quan quản lý thuế thực hiện việc xác định chính xác nghĩa vụ thuế của người nộp thuế và chịu trách nhiệm theo quy định của pháp luật.
 
-Điều 22. Nhiệm vụ, quyền hạn của Thanh tra nhà nước
+**Điều 22. Nhiệm vụ, quyền hạn của Thanh tra nhà nước**
 
 1. Thực hiện thanh tra hoạt động của cơ quan quản lý thuế theo quy định của pháp luật về thanh tra, pháp luật về thuế và quy định khác của pháp luật có liên quan.
 
@@ -580,29 +511,29 @@ a) Trường hợp Thanh tra nhà nước trực tiếp thanh tra người nộp
 
 b) Trường hợp Thanh tra nhà nước không trực tiếp thanh tra đối với người nộp thuế mà thực hiện thanh tra tại cơ quan quản lý thuế có nội dung kiến nghị nêu trong kết luận thanh tra liên quan đến nghĩa vụ thuế của người nộp thuế thì Thanh tra nhà nước gửi bản trích sao có kết luận liên quan đến nghĩa vụ thuế cho người nộp thuế để thực hiện. Cơ quan quản lý thuế có trách nhiệm tổ chức thực hiện kết luận của Thanh tra nhà nước. Trường hợp người nộp thuế không đồng ý với nghĩa vụ thuế phải nộp thì người nộp thuế có văn bản đề nghị cơ quan quản lý thuế, Thanh tra nhà nước xem xét lại nghĩa vụ thuế phải nộp. Căn cứ đề nghị của người nộp thuế, Thanh tra nhà nước chủ trì, phối hợp với cơ quan quản lý thuế thực hiện việc xác định chính xác nghĩa vụ thuế của người nộp thuế và chịu trách nhiệm theo quy định của pháp luật.
 
-Điều 23. Nhiệm vụ, quyền hạn của cơ quan điều tra, Viện kiểm sát, Tòa án
+**Điều 23. Nhiệm vụ, quyền hạn của cơ quan điều tra, Viện kiểm sát, Tòa án**
 
 Cơ quan điều tra, Viện kiểm sát, Tòa án, trong phạm vi nhiệm vụ, quyền hạn của mình, có trách nhiệm tiếp nhận, xử lý, giải quyết tin báo, tố giác tội phạm và kiến nghị khởi tố, khởi tố, điều tra, truy tố, xét xử kịp thời, nghiêm minh tội phạm trong lĩnh vực thuế theo quy định của pháp luật và thông báo kết quả xử lý cho cơ quan quản lý thuế.
 
-Điều 24. Nhiệm vụ, quyền hạn của Mặt trận Tổ quốc Việt Nam
+**Điều 24. Nhiệm vụ, quyền hạn của Mặt trận Tổ quốc Việt Nam**
 
 1. Mặt trận Tổ quốc Việt Nam tuyên truyền, vận động các tầng lớp nhân dân nghiêm chỉnh thi hành pháp luật về thuế.
 
 2. Mặt trận Tổ quốc Việt Nam thực hiện giám sát, phản biện xã hội về thuế; phản ánh, kiến nghị với cơ quan nhà nước xem xét, giải quyết các vấn đề về thuế theo quy định của pháp luật.
 
-Điều 25. Nhiệm vụ, quyền hạn của tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp
+**Điều 25. Nhiệm vụ, quyền hạn của tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp**
 
 1. Tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp phối hợp với cơ quan quản lý thuế trong việc tuyên truyền, phổ biến, giáo dục pháp luật về thuế đến các hội viên.
 
 2. Tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp phối hợp với cơ quan quản lý thuế trong việc cung cấp thông tin liên quan đến việc quản lý thuế.
 
-Điều 26. Nhiệm vụ, quyền hạn của cơ quan thông tin, báo chí
+**Điều 26. Nhiệm vụ, quyền hạn của cơ quan thông tin, báo chí**
 
 1. Cơ quan thông tin, báo chí tuyên truyền, phổ biến chính sách, pháp luật về thuế, nêu gương tổ chức, cá nhân thực hiện tốt pháp luật về thuế, phản ánh và phê phán các hành vi vi phạm pháp luật về thuế.
 
 2. Cơ quan thông tin, báo chí phối hợp với các cơ quan quản lý thuế trong việc đăng tải, cung cấp thông tin theo quy định của pháp luật.
 
-Điều 27. Nhiệm vụ, quyền hạn của ngân hàng thương mại
+**Điều 27. Nhiệm vụ, quyền hạn của ngân hàng thương mại**
 
 1. Ngân hàng thương mại khi tham gia phối hợp thu thuế và thu các khoản thu khác thuộc ngân sách nhà nước có trách nhiệm sau đây:
 
@@ -624,11 +555,9 @@ d) Bảo mật thông tin của người nộp thuế, người khai hải quan 
 
 6. Chính phủ quy định chi tiết Điều này.
 
-Điều 28. Hội đồng tư vấn thuế xã, phường, thị trấn
+**Điều 28. Hội đồng tư vấn thuế xã, phường, thị trấn**
 
-1. Chủ tịch Ủy ban nhân dân cấp huyện
-
-căn cứ số lượng, quy mô kinh doanh của các hộ kinh doanh, cá nhân kinh doanh trên địa bàn để quyết định thành lập Hội đồng tư vấn thuế xã, phường, thị trấn theo đề nghị của Chi cục trưởng Chi cục Thuế, Chi cục trưởng Chi cục Thuế khu vực.
+1. Chủ tịch Ủy ban nhân dân cấp huyệncăn cứ số lượng, quy mô kinh doanh của các hộ kinh doanh, cá nhân kinh doanh trên địa bàn để quyết định thành lập Hội đồng tư vấn thuế xã, phường, thị trấn theo đề nghị của Chi cục trưởng Chi cục Thuế, Chi cục trưởng Chi cục Thuế khu vực.
 
 2. Hội đồng tư vấn thuế xã, phường, thị trấn có nhiệm vụ tư vấn cho cơ quan thuế về doanh thu, mức thuế của các hộ kinh doanh, cá nhân kinh doanh nộp thuế theo phương pháp khoán trên địa bàn và phối hợp với cơ quan thuế đôn đốc các hộ kinh doanh, cá nhân kinh doanh thực hiện nghĩa vụ thuế theo quy định của pháp luật.
 
@@ -636,7 +565,7 @@ căn cứ số lượng, quy mô kinh doanh của các hộ kinh doanh, cá nhâ
 
 4. Bộ trưởng Bộ Tài chính quy định về hoạt động, quyền hạn, trách nhiệm của Hội đồng tư vấn thuế xã, phường, thị trấn.
 
-Điều 29. Nhiệm vụ, quyền hạn của tổ chức, cá nhân khác
+**Điều 29. Nhiệm vụ, quyền hạn của tổ chức, cá nhân khác**
 
 1. Cung cấp thông tin liên quan đến việc xác định nghĩa vụ thuế theo đề nghị của cơ quan quản lý thuế.
 
@@ -646,11 +575,11 @@ căn cứ số lượng, quy mô kinh doanh của các hộ kinh doanh, cá nhâ
 
 4. Yêu cầu người bán hàng, người cung cấp dịch vụ phải giao hóa đơn, chứng từ bán hàng hóa, dịch vụ đúng số lượng, chủng loại, giá trị thực thanh toán khi mua hàng hóa, dịch vụ.
 
-Chương III
+**Chương III**
 
-ĐĂNG KÝ THUẾ
+**ĐĂNG KÝ THUẾ**
 
-Điều 30. Đối tượng đăng ký thuế và cấp mã số thuế
+**Điều 30. Đối tượng đăng ký thuế và cấp mã số thuế**
 
 1. Người nộp thuế phải thực hiện đăng ký thuế và được cơ quan thuế cấp mã số thuế trước khi bắt đầu hoạt động sản xuất, kinh doanh hoặc có phát sinh nghĩa vụ với ngân sách nhà nước. Đối tượng đăng ký thuế bao gồm:
 
@@ -692,7 +621,7 @@ d) Chấm dứt hiệu lực mã số thuế;
 
 đ) Khôi phục mã số thuế.
 
-Điều 31. Hồ sơ đăng ký thuế lần đầu
+**Điều 31. Hồ sơ đăng ký thuế lần đầu**
 
 1. Người nộp thuế đăng ký thuế cùng với đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanh thì hồ sơ đăng ký thuế là hồ sơ đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanh theo quy định của pháp luật.
 
@@ -700,9 +629,7 @@ d) Chấm dứt hiệu lực mã số thuế;
 
 a) Tờ khai đăng ký thuế;
 
-b) Bản sao
-
-giấy phép thành lập và hoạt động, quyết định thành lập, giấy chứng nhận đăng ký đầu tư hoặc giấy tờ tương đương khác do cơ quan có thẩm quyền cấp phép còn hiệu lực;
+b) Bản saogiấy phép thành lập và hoạt động, quyết định thành lập, giấy chứng nhận đăng ký đầu tư hoặc giấy tờ tương đương khác do cơ quan có thẩm quyền cấp phép còn hiệu lực;
 
 c) Các giấy tờ khác có liên quan.
 
@@ -710,15 +637,13 @@ c) Các giấy tờ khác có liên quan.
 
 a) Tờ khai đăng ký thuế hoặc tờ khai thuế;
 
-b) Bản sao
-
-giấy chứng minh nhân dân, bản sao thẻ căn cước công dân hoặc bản sao hộ chiếu;
+b) Bản saogiấy chứng minh nhân dân, bản sao thẻ căn cước công dân hoặc bản sao hộ chiếu;
 
 c) Các giấy tờ khác có liên quan.
 
 4. Việc kết nối thông tin giữa cơ quan quản lý nhà nước và cơ quan thuế để nhận hồ sơ đăng ký thuế và cấp mã số thuế theo cơ chế một cửa liên thông qua cổng thông tin điện tử được thực hiện theo quy định của pháp luật có liên quan.
 
-Điều 32. Địa điểm nộp hồ sơ đăng ký thuế lần đầu
+**Điều 32. Địa điểm nộp hồ sơ đăng ký thuế lần đầu**
 
 1. Người nộp thuế đăng ký thuế cùng với đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanh thì địa điểm nộp hồ sơ đăng ký thuế là địa điểm nộp hồ sơ đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanh theo quy định của pháp luật.
 
@@ -732,7 +657,7 @@ c) Hộ gia đình, cá nhân không kinh doanh nộp hồ sơ đăng ký thuế
 
 3. Cá nhân ủy quyền cho tổ chức, cá nhân chi trả thu nhập đăng ký thuế thay cho bản thân và người phụ thuộc nộp hồ sơ đăng ký thuế thông qua tổ chức, cá nhân chi trả thu nhập. Tổ chức, cá nhân chi trả thu nhập có trách nhiệm tổng hợp và nộp hồ sơ đăng ký thuế thay cho cá nhân đến cơ quan thuế quản lý trực tiếp tổ chức, cá nhân chi trả đó.
 
-Điều 33. Thời hạn đăng ký thuế lần đầu
+**Điều 33. Thời hạn đăng ký thuế lần đầu**
 
 1. Người nộp thuế đăng ký thuế cùng với đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanh thì thời hạn đăng ký thuế là thời hạn đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanh theo quy định của pháp luật.
 
@@ -742,9 +667,7 @@ a) Được cấp giấy chứng nhận đăng ký hộ kinh doanh, giấy phép
 
 b) Bắt đầu hoạt động kinh doanh đối với tổ chức không thuộc diện đăng ký kinh doanh hoặc hộ kinh doanh, cá nhân kinh doanh thuộc diện đăng ký kinh doanh nhưng chưa được cấp giấy chứng nhận đăng ký kinh doanh;
 
-c) Phát sinh trách nhiệm khấu trừ thuế và nộp thuế thay;
-
-tổ chức nộp thay cho cá nhân theo hợp đồng, văn bản hợp tác kinh doanh;
+c) Phát sinh trách nhiệm khấu trừ thuế và nộp thuế thay;tổ chức nộp thay cho cá nhân theo hợp đồng, văn bản hợp tác kinh doanh;
 
 d) Ký hợp đồng nhận thầu đối với nhà thầu, nhà thầu phụ nước ngoài kê khai nộp thuế trực tiếp với cơ quan thuế; ký hợp đồng, hiệp định dầu khí;
 
@@ -756,7 +679,7 @@ g) Phát sinh nghĩa vụ khác với ngân sách nhà nước.
 
 3. Tổ chức, cá nhân chi trả thu nhập có trách nhiệm đăng ký thuế thay cho cá nhân có thu nhập chậm nhất là 10 ngày làm việc kể từ ngày phát sinh nghĩa vụ thuế trong trường hợp cá nhân chưa có mã số thuế; đăng ký thuế thay cho người phụ thuộc của người nộp thuế chậm nhất là 10 ngày làm việc kể từ ngày người nộp thuế đăng ký giảm trừ gia cảnh theo quy định của pháp luật trong trường hợp người phụ thuộc chưa có mã số thuế.
 
-Điều 34. Cấp giấy chứng nhận đăng ký thuế
+**Điều 34. Cấp giấy chứng nhận đăng ký thuế**
 
 1. Cơ quan thuế cấp giấy chứng nhận đăng ký thuế cho người nộp thuế trong thời hạn 03 ngày làm việc kể từ ngày nhận đủ hồ sơ đăng ký thuế của người nộp thuế theo quy định. Thông tin của giấy chứng nhận đăng ký thuế bao gồm:
 
@@ -764,9 +687,7 @@ a) Tên người nộp thuế;
 
 b) Mã số thuế;
 
-c) Số, ngày, tháng, năm của giấy chứng nhận đăng ký kinh doanh hoặc giấy phép thành lập và hoạt động hoặc giấy chứng nhận đăng ký
-
-đầu tư đối với tổ chức, cá nhân kinh doanh; số, ngày, tháng, năm của quyết định thành lập đối với tổ chức không thuộc diện đăng ký kinh doanh; thông tin của giấy chứng minh nhân dân, thẻ căn cước công dân hoặc hộ chiếu đối với cá nhân không thuộc diện đăng ký kinh doanh;
+c) Số, ngày, tháng, năm của giấy chứng nhận đăng ký kinh doanh hoặc giấy phép thành lập và hoạt động hoặc giấy chứng nhận đăng kýđầu tư đối với tổ chức, cá nhân kinh doanh; số, ngày, tháng, năm của quyết định thành lập đối với tổ chức không thuộc diện đăng ký kinh doanh; thông tin của giấy chứng minh nhân dân, thẻ căn cước công dân hoặc hộ chiếu đối với cá nhân không thuộc diện đăng ký kinh doanh;
 
 d) Cơ quan thuế quản lý trực tiếp.
 
@@ -782,7 +703,7 @@ d) Cá nhân đăng ký thuế cho người phụ thuộc.
 
 3. Trường hợp bị mất, rách, nát, cháy giấy chứng nhận đăng ký thuế hoặc thông báo mã số thuế, cơ quan thuế cấp lại trong thời hạn 02 ngày làm việc kể từ ngày nhận đủ hồ sơ đề nghị của người nộp thuế theo quy định.
 
-Điều 35. Sử dụng mã số thuế
+**Điều 35. Sử dụng mã số thuế**
 
 1. Người nộp thuế phải ghi mã số thuế được cấp vào hóa đơn, chứng từ, tài liệu khi thực hiện các giao dịch kinh doanh; mở tài khoản tiền gửi tại ngân hàng thương mại, tổ chức tín dụng khác; khai thuế, nộp thuế, miễn thuế, giảm thuế, hoàn thuế, không thu thuế, đăng ký tờ khai hải quan và thực hiện các giao dịch về thuế khác đối với tất cả các nghĩa vụ phải nộp ngân sách nhà nước, kể cả trường hợp người nộp thuế hoạt động sản xuất, kinh doanh tại nhiều địa bàn khác nhau.
 
@@ -798,25 +719,17 @@ d) Cá nhân đăng ký thuế cho người phụ thuộc.
 
 7. Khi mã số định danh cá nhân được cấp cho toàn bộ dân cư thì sử dụng mã số định danh cá nhân thay cho mã số thuế.
 
-Điều 36. Thông báo thay đổi thông tin đăng ký thuế
+**Điều 36. Thông báo thay đổi thông tin đăng ký thuế**
 
 1. Người nộp thuế đăng ký thuế cùng với đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanh khi có thay đổi thông tin đăng ký thuế thì thực hiện thông báo thay đổi thông tin đăng ký thuế cùng với việc thay đổi nội dung đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanh theo quy định của pháp luật.
 
 Trường hợp người nộp thuế thay đổi địa chỉ trụ sở dẫn đến thay đổi cơ quan thuế quản lý, người nộp thuế phải thực hiện các thủ tục về thuế với cơ quan thuế quản lý trực tiếp theo quy định của Luật này trước khi đăng ký thay đổi thông tin với cơ quan đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanh.
 
-2. Người nộp thuế đăng ký thuế trực tiếp với cơ quan thuế khi có thay đổi thông tin đăng ký thuế thì
+2. Người nộp thuế đăng ký thuế trực tiếp với cơ quan thuế khi có thay đổi thông tin đăng ký thuế thìphải thông báo chocơ quan thuế quản lý trực tiếp trong thời hạn 10 ngày làm việc kể từ ngày phát sinh thông tin thay đổi.
 
-phải thông báo cho
+3. Trường hợpcá nhân có ủy quyền cho tổ chức, cá nhân chi trả thu nhập thực hiện đăng ký thay đổi thông tin đăng ký thuế cho cá nhân và người phụ thuộc thì phải thông báo chotổ chức, cá nhân chi trả thu nhập chậm nhất là 10 ngày làm việc kể từ ngày phát sinh thông tin thay đổi; tổ chức, cá nhân chi trả thu nhập có trách nhiệm thông báo cho cơ quan quản lý thuế chậm nhất là 10 ngày làm việc kể từ ngày nhận được ủy quyền của cá nhân.
 
-cơ quan thuế quản lý trực tiếp trong thời hạn 10 ngày làm việc kể từ ngày phát sinh thông tin thay đổi.
-
-3. Trường hợp
-
-cá nhân có ủy quyền cho tổ chức, cá nhân chi trả thu nhập thực hiện đăng ký thay đổi thông tin đăng ký thuế cho cá nhân và người phụ thuộc thì phải thông báo cho
-
-tổ chức, cá nhân chi trả thu nhập chậm nhất là 10 ngày làm việc kể từ ngày phát sinh thông tin thay đổi; tổ chức, cá nhân chi trả thu nhập có trách nhiệm thông báo cho cơ quan quản lý thuế chậm nhất là 10 ngày làm việc kể từ ngày nhận được ủy quyền của cá nhân.
-
-Điều 37. Thông báo khi tạm ngừng hoạt động, kinh doanh
+**Điều 37. Thông báo khi tạm ngừng hoạt động, kinh doanh**
 
 1. Tổ chức, hộ kinh doanh, cá nhân kinh doanh thuộc diện đăng ký kinh doanh tạm ngừng hoạt động, kinh doanh có thời hạn hoặc tiếp tục hoạt động, kinh doanh trước thời hạn đã thông báo theo quy định của Luật Doanh nghiệp và quy định khác của pháp luật có liên quan thì cơ quan thuế căn cứ vào thông báo của người nộp thuế hoặc cơ quan nhà nước có thẩm quyền để thực hiện quản lý thuế trong thời gian người nộp thuế tạm ngừng hoạt động, kinh doanh hoặc tiếp tục hoạt động, kinh doanh trước thời hạn theo quy định của Luật này.
 
@@ -824,17 +737,15 @@ tổ chức, cá nhân chi trả thu nhập chậm nhất là 10 ngày làm vi�
 
 3. Chính phủ quy định về quản lý thuế đối với người nộp thuế trong thời hạn tạm ngừng hoạt động, kinh doanh hoặc tiếp tục hoạt động, kinh doanh trước thời hạn.
 
-Điều 38. Đăng ký thuế trong trường hợp tổ chức lại doanh nghiệp
+**Điều 38. Đăng ký thuế trong trường hợp tổ chức lại doanh nghiệp**
 
 1. Người nộp thuế đăng ký thuế cùng với đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanh khi tổ chức lại doanh nghiệp thì thực hiện đăng ký thuế cùng với đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanh theo quy định của pháp luật.
 
 2. Người nộp thuế đăng ký thuế trực tiếp với cơ quan thuế khi tổ chức lại doanh nghiệp phải thực hiện chấm dứt hiệu lực mã số thuế đối với tổ chức bị chia, bị sáp nhập, bị hợp nhất hoặc thay đổi thông tin đối với tổ chức bị tách và đăng ký mới hoặc thay đổi thông tin đối với tổ chức mới sau khi chia, tách hoặc được sáp nhập, hợp nhất.
 
-Điều 39. Chấm dứt hiệu lực mã số thuế
+**Điều 39. Chấm dứt hiệu lực mã số thuế**
 
-1. Người nộp thuế đăng ký thuế cùng với đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanh
-
-thì thực hiện chấm dứt hiệu lực mã số thuế khi thuộc một trong các trường hợp sau đây:
+1. Người nộp thuế đăng ký thuế cùng với đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanhthì thực hiện chấm dứt hiệu lực mã số thuế khi thuộc một trong các trường hợp sau đây:
 
 a) Chấm dứt hoạt động kinh doanh hoặc giải thể, phá sản;
 
@@ -844,9 +755,7 @@ c) Bị chia, bị sáp nhập, bị hợp nhất.
 
 2. Người nộp thuế đăng ký thuế trực tiếp với cơ quan thuế thì thực hiện chấm dứt hiệu lực mã số thuế khi thuộc một trong các trường hợp sau đây:
 
-a) Chấm dứt hoạt động kinh doanh,
-
-không còn phát sinh nghĩa vụ thuế đối với tổ chức không kinh doanh;
+a) Chấm dứt hoạt động kinh doanh,không còn phát sinh nghĩa vụ thuế đối với tổ chức không kinh doanh;
 
 b) Bị thu hồi giấy chứng nhận đăng ký kinh doanh hoặc giấy phép tương đương;
 
@@ -864,13 +773,7 @@ g) Nhà thầu, nhà đầu tư tham gia hợp đồng dầu khí khi kết thú
 
 a) Mã số thuế không được sử dụng trong các giao dịch kinh tế kể từ ngày cơ quan thuế thông báo chấm dứt hiệu lực;
 
-b) Mã số thuế của tổ chức khi đã chấm dứt hiệu lực không được sử dụng lại,
-
-trừ trường hợp quy định tại 
-
-Điều 40 của Luật này
-
-;
+b) Mã số thuế của tổ chức khi đã chấm dứt hiệu lực không được sử dụng lại,trừ trường hợp quy định tại Điều 40 của Luật này;
 
 c) Mã số thuế của hộ kinh doanh, cá nhân kinh doanh khi chấm dứt hiệu lực thì mã số thuế của người đại diện hộ kinh doanh không bị chấm dứt hiệu lực và được sử dụng để thực hiện nghĩa vụ thuế khác của cá nhân đó;
 
@@ -888,7 +791,7 @@ b) Các giấy tờ khác có liên quan.
 
 6. Người nộp thuế đăng ký thuế trực tiếp với cơ quan thuế nộp hồ sơ chấm dứt hiệu lực mã số thuế đến cơ quan thuế quản lý trực tiếp trong thời hạn 10 ngày làm việc kể từ ngày có văn bản chấm dứt hoạt động hoặc chấm dứt hoạt động kinh doanh hoặc ngày kết thúc hợp đồng.
 
-Điều 40. Khôi phục mã số thuế
+**Điều 40. Khôi phục mã số thuế**
 
 1. Người nộp thuế đăng ký thuế cùng với đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanh nếu được khôi phục tình trạng pháp lý theo quy định của pháp luật về đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanh thì đồng thời được khôi phục mã số thuế.
 
@@ -908,13 +811,9 @@ a) Văn bản đề nghị khôi phục mã số thuế;
 
 b) Các giấy tờ khác có liên quan.
 
-Điều 41. Trách nhiệm của Bộ trưởng Bộ Tài chính, cơ quan thuế trong việc đăng ký thuế
+**Điều 41. Trách nhiệm của Bộ trưởng Bộ Tài chính, cơ quan thuế trong việc đăng ký thuế**
 
-1. Bộ trưởng Bộ Tài chính quy định chi tiết về hồ sơ; quy định thủ tục, mẫu biểu đăng ký thuế quy định tại các 
-
-điều 31, 34, 36, 37, 38, 39 và 40 của Luật này
-
-.
+1. Bộ trưởng Bộ Tài chính quy định chi tiết về hồ sơ; quy định thủ tục, mẫu biểu đăng ký thuế quy định tại các điều 31, 34, 36, 37, 38, 39 và 40 của Luật này.
 
 2. Cơ quan thuế tiếp nhận hồ sơ đăng ký thuế của người nộp thuế qua các hình thức sau:
 
@@ -932,11 +831,11 @@ b) Trường hợp hồ sơ không đầy đủ thì thông báo cho người n�
 
 4. Trường hợp hồ sơ đăng ký thuế cùng với đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanh từ hệ thống thông tin quốc gia về đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanh (sau đây gọi chung là hệ thống thông tin quốc gia về đăng ký kinh doanh) thì cơ quan tiếp nhận hồ sơ đăng ký doanh nghiệp, đăng ký hợp tác xã, đăng ký kinh doanh chuyển hồ sơ đến cơ quan thuế để thực hiện xử lý hồ sơ đăng ký thuế và trả kết quả cho người nộp thuế theo quy định của Luật này và quy định khác của pháp luật có liên quan.
 
-Chương IV
+**Chương IV**
 
-KHAI THUẾ, TÍNH THUẾ
+**KHAI THUẾ, TÍNH THUẾ**
 
-Điều 42. Nguyên tắc khai thuế, tính thuế
+**Điều 42. Nguyên tắc khai thuế, tính thuế**
 
 1. Người nộp thuế phải khai chính xác, trung thực, đầy đủ các nội dung trong tờ khai thuế theo mẫu do Bộ trưởng Bộ Tài chính quy định và nộp đủ các chứng từ, tài liệu quy định trong hồ sơ khai thuế với cơ quan quản lý thuế.
 
@@ -962,7 +861,7 @@ b) Việc áp dụng cơ chế thỏa thuận trước về phương pháp xác 
 
 c) Việc áp dụng cơ chế thỏa thuận trước về phương pháp xác định giá tính thuế phải được Bộ trưởng Bộ Tài chính phê duyệt trước khi thực hiện; đối với các thỏa thuận song phương, đa phương có sự tham gia của cơ quan thuế nước ngoài thì được thực hiện theo quy định của pháp luật về điều ước quốc tế, thỏa thuận quốc tế.
 
-Điều 43. Hồ sơ khai thuế
+**Điều 43. Hồ sơ khai thuế**
 
 1. Hồ sơ khai thuế đối với loại thuế khai và nộp theo tháng là tờ khai thuế tháng.
 
@@ -994,7 +893,7 @@ c) Tài liệu khác có liên quan đến quyết toán thuế.
 
 8. Chính phủ quy định chi tiết hồ sơ khai thuế quy định tại Điều này; quy định loại thuế khai theo tháng, khai theo quý, khai theo năm, khai theo từng lần phát sinh nghĩa vụ thuế, khai quyết toán thuế; khai các khoản phải nộp về phí, lệ phí do cơ quan đại diện nước Cộng hòa xã hội chủ nghĩa Việt Nam ở nước ngoài thực hiện thu; kê khai, cung cấp, trao đổi, sử dụng thông tin đối với báo cáo lợi nhuận liên quốc gia; tiêu chí xác định người nộp thuế để khai thuế theo quý.
 
-Điều 44. Thời hạn nộp hồ sơ khai thuế
+**Điều 44. Thời hạn nộp hồ sơ khai thuế**
 
 1. Thời hạn nộp hồ sơ khai thuế đối với loại thuế khai theo tháng, theo quý được quy định như sau:
 
@@ -1020,7 +919,7 @@ c) Chậm nhất là ngày 15 tháng 12 của năm trước liền kề đối v
 
 7. Trường hợp người nộp thuế khai thuế thông qua giao dịch điện tử trong ngày cuối cùng của thời hạn nộp hồ sơ khai thuế mà cổng thông tin điện tử của cơ quan thuế gặp sự cố thì người nộp thuế nộp hồ sơ khai thuế, chứng từ nộp thuế điện tử trong ngày tiếp theo sau khi cổng thông tin điện tử của cơ quan thuế tiếp tục hoạt động.
 
-Điều 45. Địa điểm nộp hồ sơ khai thuế
+**Điều 45. Địa điểm nộp hồ sơ khai thuế**
 
 1. Người nộp thuế nộp hồ sơ khai thuế tại cơ quan thuế quản lý trực tiếp.
 
@@ -1040,7 +939,7 @@ d) Người nộp thuế có phát sinh nghĩa vụ thuế quyết toán thuế 
 
 đ) Người nộp thuế thực hiện khai thuế thông qua giao dịch điện tử và các trường hợp cần thiết khác.
 
-Điều 46. Gia hạn nộp hồ sơ khai thuế
+**Điều 46. Gia hạn nộp hồ sơ khai thuế**
 
 1. Người nộp thuế không có khả năng nộp hồ sơ khai thuế đúng thời hạn do thiên tai, thảm họa, dịch bệnh, hỏa hoạn, tai nạn bất ngờ thì được thủ trưởng cơ quan thuế quản lý trực tiếp gia hạn nộp hồ sơ khai thuế.
 
@@ -1050,23 +949,15 @@ d) Người nộp thuế có phát sinh nghĩa vụ thuế quyết toán thuế 
 
 4. Trong thời hạn 03 ngày làm việc kể từ ngày nhận được văn bản đề nghị gia hạn nộp hồ sơ khai thuế, cơ quan thuế phải trả lời bằng văn bản cho người nộp thuế về việc chấp nhận hay không chấp nhận việc gia hạn nộp hồ sơ khai thuế.
 
-Điều 47. Khai bổ sung hồ sơ khai thuế
+**Điều 47. Khai bổ sung hồ sơ khai thuế**
 
 1. Người nộp thuế phát hiện hồ sơ khai thuế đã nộp cho cơ quan thuế có sai, sót thì được khai bổ sung hồ sơ khai thuế trong thời hạn 10 năm kể từ ngày hết thời hạn nộp hồ sơ khai thuế của kỳ tính thuế có sai, sót nhưng trước khi cơ quan thuế, cơ quan có thẩm quyền công bố quyết định thanh tra, kiểm tra.
 
-2. Khi cơ quan thuế, cơ quan có thẩm quyền đã công bố quyết định thanh tra, kiểm tra thuế tại trụ sở của người nộp thuế thì người nộp thuế vẫn được khai bổ sung hồ sơ khai thuế; cơ quan thuế thực hiện xử phạt vi phạm hành chính về quản lý thuế đối với hành vi quy định tại 
-
-Điều 142 và Điều 143 của Luật này
-
-.
+2. Khi cơ quan thuế, cơ quan có thẩm quyền đã công bố quyết định thanh tra, kiểm tra thuế tại trụ sở của người nộp thuế thì người nộp thuế vẫn được khai bổ sung hồ sơ khai thuế; cơ quan thuế thực hiện xử phạt vi phạm hành chính về quản lý thuế đối với hành vi quy định tại Điều 142 và Điều 143 của Luật này.
 
 3. Sau khi cơ quan thuế, cơ quan có thẩm quyền đã ban hành kết luận, quyết định xử lý về thuế sau thanh tra, kiểm tra tại trụ sở của người nộp thuế thì việc khai bổ sung hồ sơ khai thuế được quy định như sau:
 
-a) Người nộp thuế được khai bổ sung hồ sơ khai thuế đối với trường hợp làm tăng số tiền thuế phải nộp, giảm số tiền thuế được khấu trừ hoặc giảm số tiền thuế được miễn, giảm, hoàn và bị xử phạt vi phạm hành chính về quản lý thuế đối với hành vi quy định tại 
-
-Điều 142 và Điều 143 của Luật này
-
-;
+a) Người nộp thuế được khai bổ sung hồ sơ khai thuế đối với trường hợp làm tăng số tiền thuế phải nộp, giảm số tiền thuế được khấu trừ hoặc giảm số tiền thuế được miễn, giảm, hoàn và bị xử phạt vi phạm hành chính về quản lý thuế đối với hành vi quy định tại Điều 142 và Điều 143 của Luật này;
 
 b) Trường hợp người nộp thuế phát hiện hồ sơ khai thuế có sai, sót nếu khai bổ sung làm giảm số tiền thuế phải nộp hoặc làm tăng số tiền thuế được khấu trừ, tăng số tiền thuế được miễn, giảm, hoàn thì thực hiện theo quy định về giải quyết khiếu nại về thuế.
 
@@ -1078,7 +969,7 @@ b) Bản giải trình khai bổ sung và các tài liệu có liên quan.
 
 5. Đối với hàng hóa xuất khẩu, nhập khẩu, việc khai bổ sung hồ sơ khai thuế thực hiện theo quy định của pháp luật về hải quan.
 
-Điều 48. Trách nhiệm của cơ quan quản lý thuế trong việc tiếp nhận hồ sơ khai thuế
+**Điều 48. Trách nhiệm của cơ quan quản lý thuế trong việc tiếp nhận hồ sơ khai thuế**
 
 1. Cơ quan quản lý thuế tiếp nhận hồ sơ khai thuế của người nộp thuế qua các hình thức sau đây:
 
@@ -1090,21 +981,19 @@ c) Nhận hồ sơ điện tử qua cổng giao dịch điện tử của cơ qu
 
 2. Cơ quan quản lý thuế tiếp nhận hồ sơ khai thuế thông báo về việc tiếp nhận hồ sơ khai thuế; trường hợp hồ sơ không hợp pháp, không đầy đủ, không đúng mẫu quy định thì thông báo cho người nộp thuế trong thời hạn 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ.
 
-Chương V
+**Chương V**
 
-ẤN ĐỊNH THUẾ
+**ẤN ĐỊNH THUẾ**
 
-Điều 49. Nguyên tắc ấn định thuế
+**Điều 49. Nguyên tắc ấn định thuế**
 
 1. Ấn định thuế phải dựa trên các nguyên tắc quản lý thuế, căn cứ tính thuế, phương pháp tính thuế theo quy định của pháp luật về thuế, pháp luật về hải quan.
 
 2. Cơ quan quản lý thuế ấn định số tiền thuế phải nộp hoặc ấn định từng yếu tố, căn cứ tính thuế để xác định số tiền thuế phải nộp.
 
-Điều 50. Ấn định thuế đối với người nộp thuế trong trường hợp vi phạm pháp luật về thuế
+**Điều 50. Ấn định thuế đối với người nộp thuế trong trường hợp vi phạm pháp luật về thuế**
 
-1. Người nộp thuế bị ấn định thuế khi thuộc một
-
-trong các trường hợp vi phạm pháp luật về thuế sau đây:
+1. Người nộp thuế bị ấn định thuế khi thuộc mộttrong các trường hợp vi phạm pháp luật về thuế sau đây:
 
 a) Không đăng ký thuế, không khai thuế, không nộp bổ sung hồ sơ thuế theo yêu cầu của cơ quan thuế hoặc khai thuế không đầy đủ, trung thực, chính xác về căn cứ tính thuế;
 
@@ -1116,17 +1005,13 @@ d) Không chấp hành quyết định thanh tra thuế, kiểm tra thuế theo 
 
 đ) Mua, bán, trao đổi và hạch toán giá trị hàng hóa, dịch vụ không theo giá trị giao dịch thông thường trên thị trường;
 
-e) Mua, trao đổi hàng hóa sử dụng hóa đơn không hợp pháp, sử dụng không
-
-hợp pháp hóa đơn mà hàng hóa là có thật theo xác định của cơ quan có thẩm quyền và đã được kê khai doanh thu tính thuế;
+e) Mua, trao đổi hàng hóa sử dụng hóa đơn không hợp pháp, sử dụng khônghợp pháp hóa đơn mà hàng hóa là có thật theo xác định của cơ quan có thẩm quyền và đã được kê khai doanh thu tính thuế;
 
 g) Có dấu hiệu bỏ trốn hoặc phát tán tài sản để không thực hiện nghĩa vụ thuế;
 
 h) Thực hiện các giao dịch không đúng với bản chất kinh tế, không đúng thực tế phát sinh nhằm mục đích giảm nghĩa vụ thuế của người nộp thuế;
 
-i) Không tuân thủ quy định về nghĩa vụ kê khai, xác định giá giao dịch liên kết
-
-hoặc không cung cấp thông tin theo quy định về quản lý thuế đối với doanh nghiệp có phát sinh giao dịch liên kết.
+i) Không tuân thủ quy định về nghĩa vụ kê khai, xác định giá giao dịch liên kếthoặc không cung cấp thông tin theo quy định về quản lý thuế đối với doanh nghiệp có phát sinh giao dịch liên kết.
 
 2. Căn cứ ấn định thuế bao gồm:
 
@@ -1138,9 +1023,7 @@ c) Tài liệu và kết quả kiểm tra, thanh tra còn hiệu lực;
 
 d) Tỷ lệ thu thuế trên doanh thu đối với từng lĩnh vực, ngành, nghề theo quy định của pháp luật về thuế.
 
-3. Người nộp thuế bị ấn định từng yếu tố liên quan đến việc xác định số tiền thuế phải nộp khi thuộc một
-
-trong các trường hợp sau đây:
+3. Người nộp thuế bị ấn định từng yếu tố liên quan đến việc xác định số tiền thuế phải nộp khi thuộc mộttrong các trường hợp sau đây:
 
 a) Qua kiểm tra hồ sơ khai thuế, cơ quan thuế có căn cứ cho rằng người nộp thuế khai chưa đầy đủ hoặc chưa chính xác các yếu tố làm cơ sở xác định số tiền thuế phải nộp, đã yêu cầu người nộp thuế khai bổ sung nhưng người nộp thuế không khai bổ sung theo yêu cầu của cơ quan thuế;
 
@@ -1154,7 +1037,7 @@ d) Người nộp thuế nộp hồ sơ khai thuế nhưng không xác định �
 
 5. Chính phủ quy định chi tiết Điều này.
 
-Điều 51. Xác định mức thuế đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế theo phương pháp khoán thuế
+**Điều 51. Xác định mức thuế đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế theo phương pháp khoán thuế**
 
 1. Cơ quan thuế xác định số tiền thuế phải nộp theo phương pháp khoán thuế (sau đây gọi là mức thuế khoán) đối với trường hợp hộ kinh doanh, cá nhân kinh doanh không thực hiện hoặc thực hiện không đầy đủ chế độ kế toán, hóa đơn, chứng từ, trừ trường hợp quy định tại khoản 5 Điều này.
 
@@ -1166,7 +1049,7 @@ d) Người nộp thuế nộp hồ sơ khai thuế nhưng không xác định �
 
 5. Hộ kinh doanh, cá nhân kinh doanh có quy mô về doanh thu, lao động đáp ứng từ mức cao nhất về tiêu chí của doanh nghiệp siêu nhỏ theo quy định pháp luật về hỗ trợ doanh nghiệp nhỏ và vừa phải thực hiện chế độ kế toán và nộp thuế theo phương pháp kê khai.
 
-Điều 52. Ấn định thuế đối với hàng hóa xuất khẩu, nhập khẩu
+**Điều 52. Ấn định thuế đối với hàng hóa xuất khẩu, nhập khẩu**
 
 1. Cơ quan hải quan ấn định thuế đối với hàng hóa xuất khẩu, nhập khẩu trong các trường hợp sau đây:
 
@@ -1190,7 +1073,7 @@ h) Trường hợp khác do cơ quan hải quan hoặc cơ quan khác phát hi�
 
 3. Chính phủ quy định chi tiết Điều này.
 
-Điều 53. Trách nhiệm của cơ quan quản lý thuế trong việc ấn định thuế
+**Điều 53. Trách nhiệm của cơ quan quản lý thuế trong việc ấn định thuế**
 
 1. Cơ quan quản lý thuế thông báo bằng văn bản cho người nộp thuế về lý do ấn định thuế, căn cứ ấn định thuế, số tiền thuế ấn định, thời hạn nộp tiền thuế.
 
@@ -1200,15 +1083,15 @@ h) Trường hợp khác do cơ quan hải quan hoặc cơ quan khác phát hi�
 
 4. Trường hợp số tiền thuế ấn định của cơ quan quản lý thuế nhỏ hơn số tiền thuế phải nộp theo quyết định giải quyết khiếu nại của cơ quan có thẩm quyền hoặc bản án, quyết định của Tòa án thì người nộp thuế có trách nhiệm nộp bổ sung. Cơ quan quản lý thuế chịu trách nhiệm về việc ấn định thuế.
 
-Điều 54. Trách nhiệm của người nộp thuế trong việc nộp số tiền thuế ấn định
+**Điều 54. Trách nhiệm của người nộp thuế trong việc nộp số tiền thuế ấn định**
 
 Người nộp thuế phải nộp số tiền thuế ấn định theo quyết định xử lý về thuế của cơ quan quản lý thuế; trường hợp không đồng ý với số tiền thuế do cơ quan quản lý thuế ấn định thì người nộp thuế vẫn phải nộp số tiền thuế đó, đồng thời có quyền đề nghị cơ quan quản lý thuế giải thích hoặc khiếu nại, khởi kiện về việc ấn định thuế. Người nộp thuế có trách nhiệm cung cấp các hồ sơ, tài liệu để chứng minh cho việc khiếu nại, khởi kiện.
 
-Chương VI
+**Chương VI**
 
-NỘP THUẾ
+**NỘP THUẾ**
 
-Điều 55. Thời hạn nộp thuế
+**Điều 55. Thời hạn nộp thuế**
 
 1. Trường hợp người nộp thuế tính thuế, thời hạn nộp thuế chậm nhất là ngày cuối cùng của thời hạn nộp hồ sơ khai thuế. Trường hợp khai bổ sung hồ sơ khai thuế, thời hạn nộp thuế là thời hạn nộp hồ sơ khai thuế của kỳ tính thuế có sai, sót.
 
@@ -1228,7 +1111,7 @@ a) Thời hạn nộp thuế khai bổ sung, nộp số tiền thuế ấn đị
 
 b) Thời hạn nộp thuế đối với hàng hóa phải phân tích, giám định để xác định chính xác số tiền thuế phải nộp; hàng hóa chưa có giá chính thức tại thời điểm đăng ký tờ khai hải quan; hàng hóa có khoản thực thanh toán, hàng hóa có các khoản điều chỉnh cộng vào trị giá hải quan chưa xác định được tại thời điểm đăng ký tờ khai hải quan được thực hiện theo quy định của Bộ trưởng Bộ Tài chính.
 
-Điều 56. Địa điểm và hình thức nộp thuế
+**Điều 56. Địa điểm và hình thức nộp thuế**
 
 1. Người nộp thuế nộp tiền thuế vào ngân sách nhà nước theo quy định sau đây:
 
@@ -1246,7 +1129,7 @@ d) Thông qua ngân hàng thương mại, tổ chức tín dụng khác và tổ
 
 4. Trong thời hạn 08 giờ làm việc kể từ khi thu tiền thuế của người nộp thuế, cơ quan, tổ chức nhận tiền thuế phải chuyển tiền vào ngân sách nhà nước. Trường hợp thu thuế bằng tiền mặt tại vùng sâu, vùng xa, hải đảo, vùng đi lại khó khăn, thời hạn chuyển tiền thuế vào ngân sách nhà nước theo quy định của Bộ trưởng Bộ Tài chính.
 
-Điều 57. Thứ tự thanh toán tiền thuế, tiền chậm nộp, tiền phạt
+**Điều 57. Thứ tự thanh toán tiền thuế, tiền chậm nộp, tiền phạt**
 
 1. Thứ tự thanh toán tiền thuế, tiền chậm nộp, tiền phạt được thực hiện theo thời hạn trước, sau và theo thứ tự quy định tại khoản 2 Điều này.
 
@@ -1258,13 +1141,13 @@ b) Tiền nợ thuế, tiền phạt, tiền chậm nộp quá hạn chưa thu�
 
 c) Tiền thuế, tiền phạt, tiền chậm nộp phát sinh.
 
-Điều 58. Xác định ngày đã nộp thuế
+**Điều 58. Xác định ngày đã nộp thuế**
 
 1. Trường hợp nộp tiền thuế không bằng tiền mặt, ngày đã nộp thuế là ngày Kho bạc Nhà nước, ngân hàng thương mại, tổ chức tín dụng khác, tổ chức dịch vụ trích tiền từ tài khoản của người nộp thuế hoặc người nộp thay và được ghi nhận trên chứng từ nộp tiền thuế.
 
 2. Trường hợp nộp tiền thuế trực tiếp bằng tiền mặt, ngày đã nộp thuế là ngày Kho bạc Nhà nước, cơ quan quản lý thuế hoặc tổ chức được ủy nhiệm thu thuế cấp chứng từ thu tiền thuế.
 
-Điều 59. Xử lý đối với việc chậm nộp tiền thuế
+**Điều 59. Xử lý đối với việc chậm nộp tiền thuế**
 
 1. Các trường hợp phải nộp tiền chậm nộp bao gồm:
 
@@ -1274,23 +1157,11 @@ b) Người nộp thuế khai bổ sung hồ sơ khai thuế làm tăng số ti�
 
 c) Người nộp thuế khai bổ sung hồ sơ khai thuế làm giảm số tiền thuế đã được hoàn trả hoặc cơ quan quản lý thuế, cơ quan nhà nước có thẩm quyền kiểm tra, thanh tra phát hiện số tiền thuế được hoàn nhỏ hơn số tiền thuế đã hoàn thì phải nộp tiền chậm nộp đối với số tiền thuế đã hoàn trả phải thu hồi kể từ ngày nhận được tiền hoàn trả từ ngân sách nhà nước;
 
-d) Trường hợp được nộp dần tiền thuế nợ quy định tại 
+d) Trường hợp được nộp dần tiền thuế nợ quy định tại khoản 5 Điều 124 của Luật này;
 
-khoản 5 Điều 124 của Luật này
+đ) Trường hợp không bị xử phạt vi phạm hành chính về quản lý thuế do hết thời hiệu xử phạt nhưng bị truy thu số tiền thuế thiếu quy định tại khoản 3 Điều 137 của Luật này;
 
-;
-
-đ) Trường hợp không bị xử phạt vi phạm hành chính về quản lý thuế do hết thời hiệu xử phạt nhưng bị truy thu số tiền thuế thiếu quy định tại 
-
-khoản 3 Điều 137 của Luật này
-
-;
-
-e) Trường hợp không bị xử phạt vi phạm hành chính về quản lý thuế đối với hành vi quy định tại 
-
-khoản 3 và khoản 4 Điều 142 của Luật này
-
-;
+e) Trường hợp không bị xử phạt vi phạm hành chính về quản lý thuế đối với hành vi quy định tại khoản 3 và khoản 4 Điều 142 của Luật này;
 
 g) Cơ quan, tổ chức được cơ quan quản lý thuế ủy nhiệm thu thuế chậm chuyển tiền thuế, tiền chậm nộp, tiền phạt của người nộp thuế vào ngân sách nhà nước thì phải nộp tiền chậm nộp đối với số tiền chậm chuyển theo quy định.
 
@@ -1300,11 +1171,7 @@ a) Mức tính tiền chậm nộp bằng 0,03%/ngày tính trên số tiền th
 
 b) Thời gian tính tiền chậm nộp được tính liên tục kể từ ngày tiếp theo ngày phát sinh tiền chậm nộp quy định tại khoản 1 Điều này đến ngày liền kề trước ngày số tiền nợ thuế, tiền thu hồi hoàn thuế, tiền thuế tăng thêm, tiền thuế ấn định, tiền thuế chậm chuyển đã nộp vào ngân sách nhà nước.
 
-3. Người nộp thuế tự xác định số tiền chậm nộp theo quy định tại khoản 1, khoản 2 Điều này và nộp vào ngân sách nhà nước theo quy định. Trường hợp người nộp thuế có khoản tiền thuế, tiền chậm nộp, tiền phạt nộp thừa thì thực hiện theo quy định tại 
-
-khoản 1 Điều 60 của Luật này
-
-.
+3. Người nộp thuế tự xác định số tiền chậm nộp theo quy định tại khoản 1, khoản 2 Điều này và nộp vào ngân sách nhà nước theo quy định. Trường hợp người nộp thuế có khoản tiền thuế, tiền chậm nộp, tiền phạt nộp thừa thì thực hiện theo quy định tại khoản 1 Điều 60 của Luật này.
 
 4. Trường hợp sau 30 ngày kể từ ngày hết thời hạn nộp thuế, người nộp thuế chưa nộp tiền thuế, tiền chậm nộp, tiền phạt thì cơ quan quản lý thuế thông báo cho người nộp thuế biết số tiền thuế, tiền phạt còn nợ và số ngày chậm nộp.
 
@@ -1314,29 +1181,19 @@ a) Người nộp thuế cung ứng hàng hóa, dịch vụ được thanh toán
 
 Số tiền nợ thuế không tính chậm nộp là tổng số tiền thuế còn nợ ngân sách nhà nước của người nộp thuế nhưng không vượt quá số tiền ngân sách nhà nước chưa thanh toán;
 
-b) Các trường hợp quy định tại 
+b) Các trường hợp quy định tại điểm b khoản 4 Điều 55 của Luật này thì không tính tiền chậm nộp trong thời gian chờ kết quả phân tích, giám định; trong thời gian chưa có giá chính thức; trong thời gian chưa xác định được khoản thực thanh toán, các khoản điều chỉnh cộng vào trị giá hải quan.
 
-điểm b khoản 4 Điều 55 của Luật này
-
- thì không tính tiền chậm nộp trong thời gian chờ kết quả phân tích, giám định; trong thời gian chưa có giá chính thức; trong thời gian chưa xác định được khoản thực thanh toán, các khoản điều chỉnh cộng vào trị giá hải quan.
-
-6. Chưa tính tiền chậm nộp đối với các trường hợp được khoanh nợ theo quy định tại 
-
-Điều 83 của Luật này
-
-.
+6. Chưa tính tiền chậm nộp đối với các trường hợp được khoanh nợ theo quy định tại Điều 83 của Luật này.
 
 7. Người nộp thuế khai bổ sung hồ sơ khai thuế làm giảm số tiền thuế phải nộp hoặc cơ quan quản lý thuế, cơ quan nhà nước có thẩm quyền kiểm tra, thanh tra phát hiện số tiền thuế phải nộp giảm thì được điều chỉnh số tiền chậm nộp đã tính tương ứng với số tiền chênh lệch giảm.
 
-8. Người nộp thuế phải nộp tiền chậm nộp theo quy định tại khoản 1 Điều này được miễn tiền chậm nộp trong trường hợp bất khả kháng quy định tại 
-
-khoản 27 Điều 3 của Luật này
-
-.
+8. Người nộp thuế phải nộp tiền chậm nộp theo quy định tại khoản 1 Điều này được miễn tiền chậm nộp trong trường hợp bất khả kháng quy định tại khoản 27 Điều 3 của Luật này.
 
 9. Bộ trưởng Bộ Tài chính quy định thủ tục xử lý đối với việc chậm nộp tiền thuế.
 
-Điều 60. Xử lý số tiền thuế, tiền chậm nộp, tiền phạt nộp thừa
+**Điều 60. Xử lý số tiền thuế, tiền chậm nộp, tiền phạt nộp thừa**
+
+ 
 
 1. Người nộp thuế có số tiền thuế, tiền chậm nộp, tiền phạt đã nộp lớn hơn số tiền thuế, tiền chậm nộp, tiền phạt phải nộp thì được bù trừ số tiền thuế, tiền chậm nộp, tiền phạt nộp thừa với số tiền thuế, tiền chậm nộp, tiền phạt còn nợ hoặc trừ vào số tiền thuế, tiền chậm nộp, tiền phạt phải nộp của lần nộp thuế tiếp theo hoặc được hoàn trả số tiền thuế, tiền chậm nộp, tiền phạt nộp thừa khi người nộp thuế không còn nợ tiền thuế, tiền chậm nộp, tiền phạt.
 
@@ -1356,7 +1213,7 @@ c) Khoản nộp thừa quá thời hạn 10 năm kể từ ngày nộp tiền v
 
 5. Bộ trưởng Bộ Tài chính quy định thẩm quyền, thủ tục xử lý tiền thuế, tiền chậm nộp, tiền phạt nộp thừa quy định tại Điều này.
 
-Điều 61. Nộp thuế trong thời gian giải quyết khiếu nại, khởi kiện
+**Điều 61. Nộp thuế trong thời gian giải quyết khiếu nại, khởi kiện**
 
 1. Trong thời gian giải quyết khiếu nại, khởi kiện của người nộp thuế về số tiền thuế, tiền chậm nộp, tiền phạt do cơ quan quản lý thuế tính hoặc ấn định, người nộp thuế vẫn phải nộp đủ số tiền thuế, tiền chậm nộp, tiền phạt đó, trừ trường hợp cơ quan nhà nước có thẩm quyền quyết định tạm đình chỉ thực hiện quyết định tính thuế, quyết định ấn định thuế của cơ quan quản lý thuế.
 
@@ -1364,21 +1221,13 @@ c) Khoản nộp thừa quá thời hạn 10 năm kể từ ngày nộp tiền v
 
 Người nộp thuế có quyền yêu cầu cơ quan quản lý thuế trả tiền lãi theo mức 0,03%/ngày tính trên số tiền thuế, tiền chậm nộp, tiền phạt nộp thừa. Nguồn tiền trả lãi được chi trả từ ngân sách trung ương theo quy định của pháp luật về ngân sách nhà nước.
 
-3. Thủ tục xử lý đối với trường hợp số tiền thuế, tiền chậm nộp, tiền phạt đã nộp lớn hơn số tiền thuế, tiền chậm nộp, tiền phạt được xác định theo quyết định giải quyết khiếu nại của cơ quan có thẩm quyền hoặc bản án, quyết định của Tòa án được thực hiện theo quy định tại 
+3. Thủ tục xử lý đối với trường hợp số tiền thuế, tiền chậm nộp, tiền phạt đã nộp lớn hơn số tiền thuế, tiền chậm nộp, tiền phạt được xác định theo quyết định giải quyết khiếu nại của cơ quan có thẩm quyền hoặc bản án, quyết định của Tòa án được thực hiện theo quy định tại khoản 5 Điều 60 của Luật này.
 
-khoản 5 Điều 60 của Luật này
-
-.
-
-Điều 62. Gia hạn nộp thuế
+**Điều 62. Gia hạn nộp thuế**
 
 1. Việc gia hạn nộp thuế được xem xét trên cơ sở đề nghị của người nộp thuế thuộc một trong các trường hợp sau đây:
 
-a) Bị thiệt hại vật chất, gây ảnh hưởng trực tiếp đến sản xuất, kinh doanh do gặp trường hợp bất khả kháng quy định tại 
-
-khoản 27 Điều 3 của Luật này
-
-;
+a) Bị thiệt hại vật chất, gây ảnh hưởng trực tiếp đến sản xuất, kinh doanh do gặp trường hợp bất khả kháng quy định tại khoản 27 Điều 3 của Luật này;
 
 b) Phải ngừng hoạt động do di dời cơ sở sản xuất, kinh doanh theo yêu cầu của cơ quan có thẩm quyền làm ảnh hưởng đến kết quả sản xuất, kinh doanh.
 
@@ -1394,11 +1243,11 @@ b) Không quá 01 năm kể từ ngày hết thời hạn nộp thuế đối v�
 
 5. Thủ trưởng cơ quan quản lý thuế quản lý trực tiếp căn cứ hồ sơ gia hạn nộp thuế để quyết định số tiền thuế được gia hạn, thời gian gia hạn nộp thuế.
 
-Điều 63. Gia hạn nộp thuế trong trường hợp đặc biệt
+**Điều 63. Gia hạn nộp thuế trong trường hợp đặc biệt**
 
 Chính phủ quyết định việc gia hạn nộp thuế cho các đối tượng, ngành, nghề kinh doanh gặp khó khăn đặc biệt trong từng thời kỳ nhất định. Việc gia hạn nộp thuế không dẫn đến điều chỉnh dự toán thu ngân sách nhà nước đã được Quốc hội quyết định.
 
-Điều 64. Hồ sơ gia hạn nộp thuế
+**Điều 64. Hồ sơ gia hạn nộp thuế**
 
 1. Người nộp thuế thuộc trường hợp được gia hạn nộp thuế theo quy định của Luật này phải lập và gửi hồ sơ gia hạn nộp thuế cho cơ quan quản lý thuế quản lý trực tiếp.
 
@@ -1410,7 +1259,7 @@ b) Tài liệu chứng minh lý do gia hạn nộp thuế.
 
 3. Bộ trưởng Bộ Tài chính quy định chi tiết hồ sơ gia hạn nộp thuế.
 
-Điều 65. Tiếp nhận và xử lý hồ sơ gia hạn nộp thuế
+**Điều 65. Tiếp nhận và xử lý hồ sơ gia hạn nộp thuế**
 
 1. Cơ quan quản lý thuế tiếp nhận hồ sơ gia hạn nộp thuế của người nộp thuế qua các hình thức sau đây:
 
@@ -1426,21 +1275,19 @@ a) Trường hợp hồ sơ hợp pháp, đầy đủ, đúng mẫu quy định 
 
 b) Trường hợp hồ sơ không đầy đủ theo quy định thì thông báo bằng văn bản cho người nộp thuế trong thời hạn 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ.
 
-Chương VII
+**Chương VII**
 
-TRÁCH NHIỆM HOÀN THÀNH NGHĨA VỤ NỘP THUẾ
+**TRÁCH NHIỆM HOÀN THÀNH NGHĨA VỤ NỘP THUẾ**
 
-Điều 66. Hoàn thành nghĩa vụ nộp thuế trong trường hợp xuất cảnh
+**Điều 66. Hoàn thành nghĩa vụ nộp thuế trong trường hợp xuất cảnh**
 
-1
-. 
-Người nộp thuế thuộc trường hợp đang bị cưỡng chế thi hành quyết định hành chính về quản lý thuế, người Việt Nam xuất cảnh để định cư ở nước ngoài, người Việt Nam định cư ở nước ngoài, người nước ngoài trước khi xuất cảnh từ Việt Nam phải hoàn thành nghĩa vụ nộp thuế; trường hợp chưa hoàn thành nghĩa vụ nộp thuế thì bị tạm hoãn xuất cảnh theo quy định của pháp luật về xuất cảnh, nhập cảnh.
+1*.* Người nộp thuế thuộc trường hợp đang bị cưỡng chế thi hành quyết định hành chính về quản lý thuế, người Việt Nam xuất cảnh để định cư ở nước ngoài, người Việt Nam định cư ở nước ngoài, người nước ngoài trước khi xuất cảnh từ Việt Nam phải hoàn thành nghĩa vụ nộp thuế; trường hợp chưa hoàn thành nghĩa vụ nộp thuế thì bị tạm hoãn xuất cảnh theo quy định của pháp luật về xuất cảnh, nhập cảnh.
 
 2. Cơ quan quản lý thuế có trách nhiệm thông báo cho cơ quan quản lý xuất cảnh, nhập cảnh về cá nhân, người nộp thuế quy định tại khoản 1 Điều này.
 
 3. Chính phủ quy định chi tiết Điều này.
 
-Điều 67. Hoàn thành nghĩa vụ nộp thuế trong trường hợp giải thể, phá sản, chấm dứt hoạt động
+**Điều 67. Hoàn thành nghĩa vụ nộp thuế trong trường hợp giải thể, phá sản, chấm dứt hoạt động**
 
 1. Việc hoàn thành nghĩa vụ nộp thuế trong trường hợp doanh nghiệp giải thể được thực hiện theo quy định của pháp luật về doanh nghiệp, pháp luật về các tổ chức tín dụng, pháp luật về kinh doanh bảo hiểm và quy định khác của pháp luật có liên quan.
 
@@ -1452,7 +1299,7 @@ Người nộp thuế thuộc trường hợp đang bị cưỡng chế thi hàn
 
 5. Người nộp thuế có chi nhánh, đơn vị phụ thuộc chấm dứt hoạt động mà vẫn còn nợ thuế và các khoản thu khác thuộc ngân sách nhà nước thì có trách nhiệm kế thừa các khoản nợ của chi nhánh, đơn vị phụ thuộc.
 
-Điều 68. Hoàn thành nghĩa vụ nộp thuế trong trường hợp tổ chức lại doanh nghiệp
+**Điều 68. Hoàn thành nghĩa vụ nộp thuế trong trường hợp tổ chức lại doanh nghiệp**
 
 1. Doanh nghiệp bị chia có trách nhiệm hoàn thành nghĩa vụ nộp thuế trước khi thực hiện chia doanh nghiệp; trường hợp chưa hoàn thành nghĩa vụ nộp thuế thì các doanh nghiệp mới được thành lập từ doanh nghiệp bị chia có trách nhiệm hoàn thành nghĩa vụ nộp thuế.
 
@@ -1462,33 +1309,25 @@ Người nộp thuế thuộc trường hợp đang bị cưỡng chế thi hàn
 
 4. Việc tổ chức lại doanh nghiệp không làm thay đổi thời hạn nộp thuế của doanh nghiệp được tổ chức lại. Trường hợp doanh nghiệp được tổ chức lại hoặc các doanh nghiệp thành lập mới không nộp thuế đầy đủ theo thời hạn nộp thuế đã quy định thì bị xử phạt theo quy định của pháp luật.
 
-Điều 69. Hoàn thành nghĩa vụ nộp thuế trong trường hợp người nộp thuế là người đã chết, người bị Tòa án tuyên bố là đã chết, mất tích hoặc mất năng lực hành vi dân sự
+**Điều 69. Hoàn thành nghĩa vụ nộp thuế trong trường hợp người nộp thuế là người đã chết, người bị Tòa án tuyên bố là đã chết, mất tích hoặc mất năng lực hành vi dân sự**
 
 1. Việc hoàn thành nghĩa vụ nộp thuế của người đã chết, người bị Tòa án tuyên bố là đã chết do người được thừa kế thực hiện trong phần tài sản của người đã chết, người bị Tòa án tuyên bố là đã chết để lại hoặc phần tài sản người thừa kế được chia tại thời điểm nhận thừa kế. Trong trường hợp không có người thừa kế hoặc tất cả những người thừa kế từ chối nhận di sản thừa kế thì việc hoàn thành nghĩa vụ nộp thuế của người đã chết, người bị Tòa án tuyên bố là đã chết thực hiện theo quy định của pháp luật về dân sự.
 
 2. Việc hoàn thành nghĩa vụ nộp thuế của người bị Tòa án tuyên bố mất tích hoặc mất năng lực hành vi dân sự do người quản lý tài sản của người mất tích hoặc người mất năng lực hành vi dân sự thực hiện trong phần tài sản của người đó.
 
-3. Trường hợp Tòa án ra quyết định hủy bỏ quyết định tuyên bố một người là đã chết, mất tích hoặc mất năng lực hành vi dân sự thì số nợ tiền thuế, tiền chậm nộp, tiền phạt đã xóa theo quy định tại 
+3. Trường hợp Tòa án ra quyết định hủy bỏ quyết định tuyên bố một người là đã chết, mất tích hoặc mất năng lực hành vi dân sự thì số nợ tiền thuế, tiền chậm nộp, tiền phạt đã xóa theo quy định tại Điều 85 của Luật này được phục hồi lại, nhưng không bị tính tiền chậm nộp cho thời gian bị tuyên bố là đã chết, mất tích hoặc mất năng lực hành vi dân sự.
 
-Điều 85 của Luật này
+**Chương VIII**
 
- được phục hồi lại, nhưng không bị tính tiền chậm nộp cho thời gian bị tuyên bố là đã chết, mất tích hoặc mất năng lực hành vi dân sự.
+**THỦ TỤC HOÀN THUẾ**
 
-Chương VIII
-
-THỦ TỤC HOÀN THUẾ
-
-Điều 70. Các trường hợp hoàn thuế
+**Điều 70. Các trường hợp hoàn thuế**
 
 1. Cơ quan quản lý thuế thực hiện hoàn thuế đối với tổ chức, cá nhân thuộc trường hợp hoàn thuế theo quy định của pháp luật về thuế.
 
-2. Cơ quan thuế hoàn trả tiền nộp thừa đối với trường hợp người nộp thuế có số tiền đã nộp ngân sách nhà nước lớn hơn số phải nộp ngân sách nhà nước theo quy định tại 
+2. Cơ quan thuế hoàn trả tiền nộp thừa đối với trường hợp người nộp thuế có số tiền đã nộp ngân sách nhà nước lớn hơn số phải nộp ngân sách nhà nước theo quy định tại khoản 1 Điều 60 của Luật này.
 
-khoản 1 Điều 60 của Luật này
-
-.
-
-Điều 71. Hồ sơ hoàn thuế
+**Điều 71. Hồ sơ hoàn thuế**
 
 1. Người nộp thuế thuộc trường hợp được hoàn thuế lập và gửi hồ sơ hoàn thuế cho cơ quan quản lý thuế có thẩm quyền.
 
@@ -1498,7 +1337,7 @@ a) Văn bản yêu cầu hoàn thuế;
 
 b) Các tài liệu liên quan đến yêu cầu hoàn thuế.
 
-Điều 72. Tiếp nhận và phản hồi thông tin hồ sơ hoàn thuế
+**Điều 72. Tiếp nhận và phản hồi thông tin hồ sơ hoàn thuế**
 
 1. Cơ quan quản lý thuế có nhiệm vụ tiếp nhận hồ sơ hoàn thuế theo quy định sau đây:
 
@@ -1518,7 +1357,7 @@ c) Gửi hồ sơ điện tử qua cổng giao dịch điện tử của cơ qua
 
 4. Bộ trưởng Bộ Tài chính quy định chi tiết Điều này.
 
-Điều 73. Phân loại hồ sơ hoàn thuế
+**Điều 73. Phân loại hồ sơ hoàn thuế**
 
 1. Hồ sơ hoàn thuế được phân loại thành hồ sơ thuộc diện kiểm tra trước hoàn thuế và hồ sơ thuộc diện hoàn thuế trước.
 
@@ -1542,19 +1381,15 @@ g) Hồ sơ hoàn thuế đối với hàng hóa xuất khẩu, nhập khẩu th
 
 4. Bộ trưởng Bộ Tài chính quy định chi tiết Điều này.
 
-Điều 74. Địa điểm kiểm tra hồ sơ hoàn thuế
+**Điều 74. Địa điểm kiểm tra hồ sơ hoàn thuế**
 
 1. Hồ sơ thuộc diện hoàn thuế trước được thực hiện kiểm tra tại trụ sở của cơ quan quản lý thuế.
 
 2. Hồ sơ thuộc diện kiểm tra trước hoàn thuế được thực hiện kiểm tra tại trụ sở của người nộp thuế hoặc trụ sở của cơ quan, tổ chức, cá nhân có liên quan.
 
-Điều 75. Thời hạn giải quyết hồ sơ hoàn thuế
+**Điều 75. Thời hạn giải quyết hồ sơ hoàn thuế**
 
-1. Đối với hồ sơ thuộc diện hoàn thuế trước, chậm nhất là 06 ngày làm việc kể từ ngày cơ quan quản lý thuế có thông báo về việc chấp nhận hồ sơ và thời hạn giải quyết hồ sơ hoàn thuế, cơ quan quản lý thuế phải quyết định hoàn thuế cho người nộp thuế hoặc thông báo chuyển hồ sơ của người nộp thuế sang kiểm tra trước hoàn thuế nếu thuộc trường hợp quy định tại 
-
-khoản 2 Điều 73 của Luật này
-
- hoặc thông báo không hoàn thuế cho người nộp thuế nếu hồ sơ không đủ điều kiện hoàn thuế.
+1. Đối với hồ sơ thuộc diện hoàn thuế trước, chậm nhất là 06 ngày làm việc kể từ ngày cơ quan quản lý thuế có thông báo về việc chấp nhận hồ sơ và thời hạn giải quyết hồ sơ hoàn thuế, cơ quan quản lý thuế phải quyết định hoàn thuế cho người nộp thuế hoặc thông báo chuyển hồ sơ của người nộp thuế sang kiểm tra trước hoàn thuế nếu thuộc trường hợp quy định tại khoản 2 Điều 73 của Luật này hoặc thông báo không hoàn thuế cho người nộp thuế nếu hồ sơ không đủ điều kiện hoàn thuế.
 
 Trường hợp thông tin khai trên hồ sơ hoàn thuế khác với thông tin quản lý của cơ quan quản lý thuế thì cơ quan quản lý thuế thông báo bằng văn bản để người nộp thuế giải trình, bổ sung thông tin. Thời gian giải trình, bổ sung thông tin không tính trong thời hạn giải quyết hồ sơ hoàn thuế.
 
@@ -1562,7 +1397,7 @@ Trường hợp thông tin khai trên hồ sơ hoàn thuế khác với thông t
 
 3. Quá thời hạn quy định tại khoản 1 và khoản 2 Điều này, nếu việc chậm ban hành quyết định hoàn thuế do lỗi của cơ quan quản lý thuế thì ngoài số tiền thuế phải hoàn trả, cơ quan quản lý thuế còn phải trả tiền lãi với mức 0,03%/ngày tính trên số tiền phải hoàn trả và số ngày chậm hoàn trả. Nguồn tiền trả lãi được chi từ ngân sách trung ương theo quy định của pháp luật về ngân sách nhà nước.
 
-Điều 76. Thẩm quyền quyết định hoàn thuế
+**Điều 76. Thẩm quyền quyết định hoàn thuế**
 
 1. Tổng cục trưởng Tổng cục Thuế, Cục trưởng Cục Thuế tỉnh, thành phố trực thuộc trung ương quyết định việc hoàn thuế đối với trường hợp hoàn thuế theo quy định của pháp luật về thuế.
 
@@ -1572,25 +1407,25 @@ Trường hợp thông tin khai trên hồ sơ hoàn thuế khác với thông t
 
 4. Bộ trưởng Bộ Tài chính quy định trình tự, thủ tục hoàn thuế.
 
-Điều 77. Thanh tra, kiểm tra sau hoàn thuế
+**Điều 77. Thanh tra, kiểm tra sau hoàn thuế**
 
 1. Cơ quan quản lý thuế thực hiện thanh tra, kiểm tra đối với hồ sơ thuộc diện hoàn thuế trước theo nguyên tắc rủi ro trong quản lý thuế và trong thời hạn 05 năm kể từ ngày ban hành quyết định hoàn thuế.
 
 2. Thủ tục, thẩm quyền, trách nhiệm thanh tra, kiểm tra của cơ quan quản lý thuế đối với hồ sơ hoàn thuế được thực hiện theo quy định của Luật này và Luật Thanh tra.
 
-Chương IX
+**Chương IX**
 
-KHÔNG THU THUẾ, MIỄN THUẾ, GIẢM THUẾ; KHOANH TIỀN THUẾ NỢ; XÓA NỢ TIỀN THUẾ, TIỀN CHẬM NỘP, TIỀN PHẠT
+**KHÔNG THU THUẾ, MIỄN THUẾ, GIẢM THUẾ; KHOANH TIỀN THUẾ NỢ; XÓA NỢ TIỀN THUẾ, TIỀN CHẬM NỘP, TIỀN PHẠT**
 
-Mục 1. KHÔNG THU THUẾ, MIỄN THUẾ, GIẢM THUẾ
+**Mục 1. KHÔNG THU THUẾ, MIỄN THUẾ, GIẢM THUẾ**
 
-Điều 78. Không thu thuế đối với hàng hóa xuất khẩu, nhập khẩu
+**Điều 78. Không thu thuế đối với hàng hóa xuất khẩu, nhập khẩu**
 
 1. Không thu thuế đối với trường hợp không phải nộp thuế xuất khẩu, thuế nhập khẩu theo quy định của pháp luật về thuế xuất khẩu, thuế nhập khẩu.
 
 2. Bộ trưởng Bộ Tài chính quy định thủ tục không thu thuế.
 
-Điều 79. Miễn thuế, giảm thuế
+**Điều 79. Miễn thuế, giảm thuế**
 
 1. Miễn thuế, giảm thuế được thực hiện theo quy định của pháp luật về thuế và khoản 2 Điều này.
 
@@ -1600,7 +1435,7 @@ a) Hộ gia đình, cá nhân thuộc đối tượng nộp thuế sử dụng �
 
 b) Cá nhân có số tiền thuế phát sinh phải nộp hằng năm sau quyết toán thuế thu nhập cá nhân từ tiền lương, tiền công từ 50.000 đồng trở xuống.
 
-Điều 80. Hồ sơ miễn thuế, giảm thuế
+**Điều 80. Hồ sơ miễn thuế, giảm thuế**
 
 1. Hồ sơ miễn thuế, giảm thuế đối với trường hợp người nộp thuế tự xác định số tiền thuế được miễn, giảm bao gồm:
 
@@ -1614,19 +1449,11 @@ a) Văn bản đề nghị miễn thuế, giảm thuế trong đó nêu rõ lo�
 
 b) Tài liệu liên quan đến việc xác định số tiền thuế đề nghị miễn, giảm.
 
-3. Trường hợp miễn thuế quy định tại 
-
-điểm a khoản 2 Điều 79 của Luật này
-
- thì cơ quan thuế căn cứ sổ thuế để thông báo danh sách hộ gia đình, cá nhân thuộc diện miễn thuế. Trường hợp miễn thuế quy định tại 
-
-điểm b khoản 2 Điều 79 của Luật này
-
- thì người nộp thuế tự xác định số tiền thuế được miễn trên cơ sở tờ khai quyết toán thuế thu nhập cá nhân.
+3. Trường hợp miễn thuế quy định tại điểm a khoản 2 Điều 79 của Luật này thì cơ quan thuế căn cứ sổ thuế để thông báo danh sách hộ gia đình, cá nhân thuộc diện miễn thuế. Trường hợp miễn thuế quy định tại điểm b khoản 2 Điều 79 của Luật này thì người nộp thuế tự xác định số tiền thuế được miễn trên cơ sở tờ khai quyết toán thuế thu nhập cá nhân.
 
 4. Bộ trưởng Bộ Tài chính quy định chi tiết hồ sơ miễn thuế, giảm thuế quy định tại Điều này; quy định trường hợp người nộp thuế tự xác định số tiền thuế được miễn, giảm và trường hợp cơ quan quản lý thuế xác định số tiền thuế được miễn, giảm.
 
-Điều 81. Nộp và tiếp nhận hồ sơ miễn thuế, giảm thuế
+**Điều 81. Nộp và tiếp nhận hồ sơ miễn thuế, giảm thuế**
 
 1. Trường hợp người nộp thuế tự xác định số tiền thuế được miễn, giảm thì việc nộp và tiếp nhận hồ sơ miễn thuế, giảm thuế được thực hiện đồng thời với việc khai, nộp và tiếp nhận hồ sơ khai thuế quy định tại Chương IV của Luật này.
 
@@ -1646,15 +1473,15 @@ c) Gửi hồ sơ điện tử qua cổng giao dịch điện tử của cơ qua
 
 4. Cơ quan quản lý thuế tiếp nhận hồ sơ miễn thuế, giảm thuế thông báo về việc tiếp nhận hồ sơ miễn thuế, giảm thuế; trường hợp hồ sơ không hợp pháp, không đầy đủ, không đúng mẫu theo quy định thì trong thời hạn 03 ngày làm việc kể từ ngày tiếp nhận hồ sơ, cơ quan quản lý thuế phải thông báo bằng văn bản cho người nộp thuế.
 
-Điều 82. Thời hạn giải quyết hồ sơ miễn thuế, giảm thuế đối với trường hợp cơ quan quản lý thuế quyết định số tiền thuế được miễn, giảm
+**Điều 82. Thời hạn giải quyết hồ sơ miễn thuế, giảm thuế đối với trường hợp cơ quan quản lý thuế quyết định số tiền thuế được miễn, giảm**
 
 1. Trong thời hạn 30 ngày kể từ ngày nhận đủ hồ sơ, cơ quan quản lý thuế quyết định miễn thuế, giảm thuế hoặc thông báo bằng văn bản cho người nộp thuế lý do không thuộc diện được miễn thuế, giảm thuế.
 
 2. Trường hợp cần kiểm tra thực tế để có đủ căn cứ giải quyết hồ sơ miễn thuế, giảm thuế thì trong thời hạn 40 ngày kể từ ngày nhận đủ hồ sơ, cơ quan quản lý thuế ban hành quyết định miễn thuế, giảm thuế hoặc thông báo bằng văn bản cho người nộp thuế lý do không được miễn thuế, giảm thuế.
 
-Mục 2. KHOANH TIỀN THUẾ NỢ
+**Mục 2. KHOANH TIỀN THUẾ NỢ**
 
-Điều 83. Các trường hợp được khoanh tiền thuế nợ
+**Điều 83. Các trường hợp được khoanh tiền thuế nợ**
 
 1. Người nộp thuế là người đã chết, người bị Tòa án tuyên bố là đã chết, mất tích hoặc mất năng lực hành vi dân sự.
 
@@ -1676,49 +1503,31 @@ Thời gian khoanh nợ được tính từ ngày cơ quan quản lý thuế có
 
 Thời gian khoanh nợ được tính từ ngày cơ quan quản lý thuế có văn bản đề nghị cơ quan có thẩm quyền thu hồi hoặc từ ngày có hiệu lực của quyết định thu hồi giấy chứng nhận đăng ký kinh doanh, giấy chứng nhận đăng ký doanh nghiệp, giấy chứng nhận đăng ký hợp tác xã, giấy phép thành lập và hoạt động, giấy phép hành nghề.
 
-Điều 84. Thủ tục, hồ sơ, thời gian, thẩm quyền khoanh nợ
+**Điều 84. Thủ tục, hồ sơ, thời gian, thẩm quyền khoanh nợ**
 
 1. Chính phủ quy định thủ tục, hồ sơ, thời gian khoanh nợ đối với trường hợp được khoanh nợ.
 
 2. Thủ trưởng cơ quan quản lý thuế quản lý trực tiếp người nộp thuế quyết định việc khoanh nợ.
 
-3. Cơ quan quản lý thuế tiếp tục theo dõi các khoản tiền thuế nợ được khoanh và phối hợp với các cơ quan có liên quan để thu hồi tiền thuế nợ khi người nộp thuế có khả năng nộp thuế hoặc thực hiện xóa nợ theo quy định tại 
+3. Cơ quan quản lý thuế tiếp tục theo dõi các khoản tiền thuế nợ được khoanh và phối hợp với các cơ quan có liên quan để thu hồi tiền thuế nợ khi người nộp thuế có khả năng nộp thuế hoặc thực hiện xóa nợ theo quy định tại Điều 85 của Luật này.
 
-Điều 85 của Luật này
+**Mục 3. XÓA NỢ TIỀN THUẾ, TIỀN CHẬM NỘP, TIỀN PHẠT**
 
-.
-
-Mục 3. XÓA NỢ TIỀN THUẾ, TIỀN CHẬM NỘP, TIỀN PHẠT
-
-Điều 85. Trường hợp được xóa nợ tiền thuế, tiền chậm nộp, tiền phạt
+**Điều 85. Trường hợp được xóa nợ tiền thuế, tiền chậm nộp, tiền phạt**
 
 1. Doanh nghiệp, hợp tác xã bị tuyên bố phá sản đã thực hiện các khoản thanh toán theo quy định của pháp luật về phá sản mà không còn tài sản để nộp tiền thuế, tiền chậm nộp, tiền phạt.
 
-2. Cá nhân đã chết hoặc bị Tòa án tuyên bố là đã chết, mất năng lực hành vi dân sự mà không có tài sản, bao gồm cả tài sản được thừa kế để nộp
+2. Cá nhân đã chết hoặc bị Tòa án tuyên bố là đã chết, mất năng lực hành vi dân sự mà không có tài sản, bao gồm cả tài sản được thừa kế để nộptiền thuế, tiền chậm nộp, tiền phạt còn nợ.
 
-tiền thuế, tiền chậm nộp, tiền phạt còn nợ.
-
-3. Các khoản nợ tiền thuế, tiền chậm nộp, tiền phạt của người nộp thuế không thuộc trường hợp quy định tại khoản 1 và khoản 2 Điều này mà cơ quan quản lý thuế đã áp dụng biện pháp cưỡng chế quy định tại 
-
-điểm g khoản 1 Điều 125 của Luật này
-
- và các khoản nợ tiền thuế, tiền chậm nộp, tiền phạt này đã quá 10 năm kể từ ngày hết thời hạn nộp thuế nhưng không có khả năng thu hồi.
+3. Các khoản nợ tiền thuế, tiền chậm nộp, tiền phạt của người nộp thuế không thuộc trường hợp quy định tại khoản 1 và khoản 2 Điều này mà cơ quan quản lý thuế đã áp dụng biện pháp cưỡng chế quy định tại điểm g khoản 1 Điều 125 của Luật này và các khoản nợ tiền thuế, tiền chậm nộp, tiền phạt này đã quá 10 năm kể từ ngày hết thời hạn nộp thuế nhưng không có khả năng thu hồi.
 
 Người nộp thuế là cá nhân, cá nhân kinh doanh, chủ hộ gia đình, chủ hộ kinh doanh, chủ doanh nghiệp tư nhân và công ty trách nhiệm hữu hạn một thành viên đã được xóa nợ tiền thuế, tiền chậm nộp, tiền phạt quy định tại khoản này trước khi quay lại sản xuất, kinh doanh hoặc thành lập cơ sở sản xuất, kinh doanh mới thì phải hoàn trả cho Nhà nước khoản nợ tiền thuế, tiền chậm nộp, tiền phạt đã được xóa.
 
-4. Tiền thuế, tiền chậm nộp, tiền phạt đối với các trường hợp bị ảnh hưởng do thiên tai, thảm họa, dịch bệnh có phạm vi rộng đã được xem xét miễn tiền chậm nộp theo quy định tại 
-
-khoản 8 Điều 59 của Luật này
-
- và đã được gia hạn nộp thuế theo quy định tại 
-
-điểm a khoản 1 Điều 62 của Luật này
-
- mà vẫn còn thiệt hại, không có khả năng phục hồi được sản xuất, kinh doanh và không có khả năng nộp tiền thuế, tiền chậm nộp, tiền phạt.
+4. Tiền thuế, tiền chậm nộp, tiền phạt đối với các trường hợp bị ảnh hưởng do thiên tai, thảm họa, dịch bệnh có phạm vi rộng đã được xem xét miễn tiền chậm nộp theo quy định tại khoản 8 Điều 59 của Luật này và đã được gia hạn nộp thuế theo quy định tại điểm a khoản 1 Điều 62 của Luật này mà vẫn còn thiệt hại, không có khả năng phục hồi được sản xuất, kinh doanh và không có khả năng nộp tiền thuế, tiền chậm nộp, tiền phạt.
 
 5. Chính phủ quy định việc phối hợp giữa cơ quan quản lý thuế và cơ quan đăng ký kinh doanh, chính quyền địa phương bảo đảm các khoản tiền thuế, tiền chậm nộp, tiền phạt đã được xóa phải được hoàn trả vào ngân sách nhà nước theo quy định tại khoản 3 Điều này trước khi cấp giấy chứng nhận đăng ký kinh doanh, giấy chứng nhận đăng ký doanh nghiệp; quy định chi tiết khoản 4 Điều này.
 
-Điều 86. Hồ sơ xóa nợ tiền thuế, tiền chậm nộp, tiền phạt
+**Điều 86. Hồ sơ xóa nợ tiền thuế, tiền chậm nộp, tiền phạt**
 
 1. Cơ quan quản lý thuế quản lý trực tiếp người nộp thuế thuộc diện được xóa nợ tiền thuế, tiền chậm nộp, tiền phạt lập và gửi hồ sơ xóa nợ tiền thuế, tiền chậm nộp, tiền phạt đến cơ quan, người có thẩm quyền.
 
@@ -1732,59 +1541,35 @@ c) Các tài liệu liên quan đến việc đề nghị xóa nợ tiền thu�
 
 3. Bộ trưởng Bộ Tài chính quy định chi tiết Điều này.
 
-Điều 87. Thẩm quyền xóa nợ tiền thuế, tiền chậm nộp, tiền phạt
+**Điều 87. Thẩm quyền xóa nợ tiền thuế, tiền chậm nộp, tiền phạt**
 
 1. Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định xóa nợ tiền thuế, tiền chậm nộp, tiền phạt đối với các trường hợp sau đây:
 
-a) Trường hợp quy định tại 
+a) Trường hợp quy định tại khoản 1 và khoản 2 Điều 85 của Luật này;
 
-khoản 1 và khoản 2 Điều 85 của Luật này
+b) Hộ gia đình, hộ kinh doanh, cá nhân kinh doanh, cá nhân quy định tại khoản 3 Điều 85 của Luật này;
 
-;
+c) Doanh nghiệp, hợp tác xã thuộc trường hợp quy định tại khoản 3 Điều 85 của Luật này có khoản nợ tiền thuế, tiền chậm nộp, tiền phạt dưới 5.000.000.000 đồng.
 
-b) Hộ gia đình, hộ kinh doanh, cá nhân kinh doanh, cá nhân quy định tại 
+2. Tổng cục trưởng Tổng cục Thuế, Tổng cục trưởng Tổng cục Hải quan quyết định xóa nợ đối với doanh nghiệp, hợp tác xã thuộc trường hợp quy định tại khoản 3 Điều 85 của Luật này có khoản nợ tiền thuế, tiền chậm nộp, tiền phạt từ 5.000.000.000 đồng đến dưới 10.000.000.000 đồng.
 
-khoản 3 Điều 85 của Luật này
+3. Bộ trưởng Bộ Tài chính quyết định xóa nợ đối với doanh nghiệp, hợp tác xã thuộc trường hợp quy định tại khoản 3 Điều 85 của Luật này có khoản nợ tiền thuế, tiền chậm nộp, tiền phạt từ 10.000.000.000 đồng đến dưới 15.000.000.000 đồng.
 
-;
-
-c) Doanh nghiệp, hợp tác xã thuộc trường hợp quy định tại 
-
-khoản 3 Điều 85 của Luật này
-
- có khoản nợ tiền thuế, tiền chậm nộp, tiền phạt dưới 5.000.000.000 đồng.
-
-2. Tổng cục trưởng Tổng cục Thuế, Tổng cục trưởng Tổng cục Hải quan quyết định xóa nợ đối với doanh nghiệp, hợp tác xã thuộc trường hợp quy định tại 
-
-khoản 3 Điều 85 của Luật này
-
- có khoản nợ tiền thuế, tiền chậm nộp, tiền phạt từ 5.000.000.000 đồng đến dưới 10.000.000.000 đồng.
-
-3. Bộ trưởng Bộ Tài chính quyết định xóa nợ đối với doanh nghiệp, hợp tác xã thuộc trường hợp quy định tại 
-
-khoản 3 Điều 85 của Luật này
-
- có khoản nợ tiền thuế, tiền chậm nộp, tiền phạt từ 10.000.000.000 đồng đến dưới 15.000.000.000 đồng.
-
-4. Thủ tướng Chính phủ quyết định xóa nợ đối với doanh nghiệp, hợp tác xã thuộc trường hợp quy định tại 
-
-khoản 3 Điều 85 của Luật này
-
- có khoản nợ tiền thuế, tiền chậm nộp, tiền phạt từ 15.000.000.000 đồng trở lên.
+4. Thủ tướng Chính phủ quyết định xóa nợ đối với doanh nghiệp, hợp tác xã thuộc trường hợp quy định tại khoản 3 Điều 85 của Luật này có khoản nợ tiền thuế, tiền chậm nộp, tiền phạt từ 15.000.000.000 đồng trở lên.
 
 5. Chủ tịch Ủy ban nhân dân cấp tỉnh báo cáo tình hình kết quả xóa nợ tiền thuế, tiền chậm nộp, tiền phạt cho Hội đồng nhân dân cùng cấp vào kỳ họp đầu năm. Bộ trưởng Bộ Tài chính tổng hợp tình hình xóa nợ tiền thuế, tiền chậm nộp, tiền phạt để Chính phủ báo cáo Quốc hội khi quyết toán ngân sách nhà nước.
 
-Điều 88. Trách nhiệm giải quyết hồ sơ xóa nợ tiền thuế, tiền chậm nộp, tiền phạt
+**Điều 88. Trách nhiệm giải quyết hồ sơ xóa nợ tiền thuế, tiền chậm nộp, tiền phạt**
 
 1. Cơ quan, người có thẩm quyền đã nhận hồ sơ xóa nợ tiền thuế, tiền chậm nộp, tiền phạt phải thông báo cho cơ quan đã gửi hồ sơ để hoàn chỉnh khi hồ sơ chưa đầy đủ trong thời hạn 10 ngày làm việc kể từ ngày tiếp nhận hồ sơ.
 
 2. Người có thẩm quyền phải ra quyết định xóa nợ tiền thuế, tiền chậm nộp, tiền phạt hoặc thông báo không thuộc diện được xóa nợ tiền thuế, tiền chậm nộp, tiền phạt cho cơ quan đã gửi hồ sơ trong thời hạn 60 ngày kể từ ngày nhận đủ hồ sơ.
 
-Chương X
+**Chương X**
 
-ÁP DỤNG HÓA ĐƠN, CHỨNG TỪ ĐIỆN TỬ
+**ÁP DỤNG HÓA ĐƠN, CHỨNG TỪ ĐIỆN TỬ**
 
-Điều 89. Hóa đơn điện tử
+**Điều 89. Hóa đơn điện tử**
 
 1. Hóa đơn điện tử là hóa đơn có mã hoặc không có mã của cơ quan thuế được thể hiện ở dạng dữ liệu điện tử do tổ chức, cá nhân bán hàng hóa, cung cấp dịch vụ lập, ghi nhận thông tin bán hàng hóa, cung cấp dịch vụ theo quy định của pháp luật về kế toán, pháp luật về thuế bằng phương tiện điện tử, bao gồm cả trường hợp hóa đơn được khởi tạo từ máy tính tiền có kết nối chuyển dữ liệu điện tử với cơ quan thuế.
 
@@ -1798,7 +1583,7 @@ Mã của cơ quan thuế trên hóa đơn điện tử bao gồm số giao dị
 
 5. Chính phủ quy định chi tiết Điều này.
 
-Điều 90. Nguyên tắc lập, quản lý, sử dụng hóa đơn điện tử
+**Điều 90. Nguyên tắc lập, quản lý, sử dụng hóa đơn điện tử**
 
 1. Khi bán hàng hóa, cung cấp dịch vụ, người bán phải lập hóa đơn điện tử để giao cho người mua theo định dạng chuẩn dữ liệu và phải ghi đầy đủ nội dung theo quy định của pháp luật về thuế, pháp luật về kế toán, không phân biệt giá trị từng lần bán hàng hóa, cung cấp dịch vụ.
 
@@ -1810,21 +1595,17 @@ Mã của cơ quan thuế trên hóa đơn điện tử bao gồm số giao dị
 
 5. Chính phủ quy định chi tiết Điều này.
 
-Điều 91. Áp dụng hóa đơn điện tử khi bán hàng hóa, cung cấp dịch vụ
+**Điều 91. Áp dụng hóa đơn điện tử khi bán hàng hóa, cung cấp dịch vụ**
 
 1. Doanh nghiệp, tổ chức kinh tế sử dụng hóa đơn điện tử có mã của cơ quan thuế khi bán hàng hóa, cung cấp dịch vụ không phân biệt giá trị từng lần bán hàng hóa, cung cấp dịch vụ, trừ trường hợp quy định tại khoản 2 và khoản 4 Điều này.
 
 2. Doanh nghiệp kinh doanh ở lĩnh vực điện lực, xăng dầu, bưu chính viễn thông, nước sạch, tài chính tín dụng, bảo hiểm, y tế, kinh doanh thương mại điện tử, kinh doanh siêu thị, thương mại, vận tải hàng không, đường bộ, đường sắt, đường biển, đường thủy và doanh nghiệp, tổ chức kinh tế đã hoặc sẽ thực hiện giao dịch với cơ quan thuế bằng phương tiện điện tử, xây dựng hạ tầng công nghệ thông tin, có hệ thống phần mềm kế toán, phần mềm lập hóa đơn điện tử đáp ứng lập, tra cứu hóa đơn điện tử, lưu trữ dữ liệu hóa đơn điện tử theo quy định và bảo đảm việc truyền dữ liệu hóa đơn điện tử đến người mua và đến cơ quan thuế thì được sử dụng hóa đơn điện tử không có mã của cơ quan thuế khi bán hàng hóa, cung cấp dịch vụ, không phân biệt giá trị từng lần bán hàng hóa, cung cấp dịch vụ, trừ trường hợp rủi ro về thuế cao theo quy định của Bộ trưởng Bộ Tài chính và trường hợp đăng ký sử dụng hóa đơn điện tử có mã của cơ quan thuế.
 
-3. Hộ kinh doanh, cá nhân kinh doanh thuộc trường hợp quy định tại 
-
-khoản 5 Điều 51 của Luật này
-
- và các trường hợp xác định được doanh thu khi bán hàng hóa, dịch vụ sử dụng hóa đơn điện tử có mã của cơ quan thuế khi bán hàng hóa, cung cấp dịch vụ.
+3. Hộ kinh doanh, cá nhân kinh doanh thuộc trường hợp quy định tại khoản 5 Điều 51 của Luật này và các trường hợp xác định được doanh thu khi bán hàng hóa, dịch vụ sử dụng hóa đơn điện tử có mã của cơ quan thuế khi bán hàng hóa, cung cấp dịch vụ.
 
 4. Hộ kinh doanh, cá nhân kinh doanh không đáp ứng điều kiện phải sử dụng hóa đơn điện tử có mã của cơ quan thuế quy định tại khoản 1 và khoản 3 Điều này nhưng cần có hóa đơn để giao cho khách hàng hoặc trường hợp doanh nghiệp, tổ chức kinh tế, tổ chức khác được cơ quan thuế chấp nhận cấp hóa đơn điện tử để giao cho khách hàng thì được cơ quan thuế cấp hóa đơn điện tử có mã theo từng lần phát sinh và phải khai thuế, nộp thuế trước khi cơ quan thuế cấp hóa đơn điện tử theo từng lần phát sinh.
 
-Điều 92. Dịch vụ về hóa đơn điện tử
+**Điều 92. Dịch vụ về hóa đơn điện tử**
 
 1. Dịch vụ về hóa đơn điện tử bao gồm dịch vụ cung cấp giải pháp hóa đơn điện tử không có mã của cơ quan thuế, dịch vụ truyền dữ liệu hóa đơn điện tử không có mã của cơ quan thuế từ người nộp thuế tới cơ quan thuế và dịch vụ về hóa đơn điện tử có mã của cơ quan thuế.
 
@@ -1834,17 +1615,13 @@ khoản 5 Điều 51 của Luật này
 
 4. Bộ trưởng Bộ Tài chính quy định tiêu chí lựa chọn tổ chức cung cấp dịch vụ về hóa đơn điện tử để ký hợp đồng cung cấp dịch vụ hóa đơn điện tử có mã của cơ quan thuế và dịch vụ nhận, truyền, lưu trữ dữ liệu hóa đơn và các dịch vụ khác có liên quan.
 
-Điều 93. Cơ sở dữ liệu về hóa đơn điện tử
+**Điều 93. Cơ sở dữ liệu về hóa đơn điện tử**
 
 1. Cơ quan thuế có trách nhiệm tổ chức xây dựng, quản lý và phát triển cơ sở dữ liệu, hạ tầng kỹ thuật của hệ thống thông tin về hóa đơn; tổ chức thực hiện nhiệm vụ thu thập, xử lý thông tin, quản lý cơ sở dữ liệu hóa đơn và bảo đảm duy trì, vận hành, bảo mật, bảo đảm an ninh, an toàn hệ thống thông tin về hóa đơn; xây dựng định dạng chuẩn về hóa đơn.
 
 Cơ sở dữ liệu về hóa đơn điện tử được sử dụng để phục vụ công tác quản lý thuế và cung cấp thông tin hóa đơn điện tử cho tổ chức, cá nhân có liên quan.
 
-2. Các doanh nghiệp, tổ chức kinh tế quy định tại 
-
-khoản 2 Điều 91 của Luật này
-
- sử dụng hóa đơn điện tử không có mã của cơ quan thuế thực hiện cung cấp dữ liệu hóa đơn điện tử theo quy định của Bộ trưởng Bộ Tài chính.
+2. Các doanh nghiệp, tổ chức kinh tế quy định tại khoản 2 Điều 91 của Luật này sử dụng hóa đơn điện tử không có mã của cơ quan thuế thực hiện cung cấp dữ liệu hóa đơn điện tử theo quy định của Bộ trưởng Bộ Tài chính.
 
 3. Bộ Công Thương, Bộ Tài nguyên và Môi trường, Bộ Công an, Bộ Giao thông vận tải, Bộ Y tế và cơ quan khác có liên quan có trách nhiệm kết nối chia sẻ thông tin, dữ liệu liên quan cần thiết trong lĩnh vực quản lý với Bộ Tài chính để xây dựng cơ sở dữ liệu hóa đơn điện tử.
 
@@ -1852,23 +1629,23 @@ khoản 2 Điều 91 của Luật này
 
 5. Bộ trưởng Bộ Tài chính quy định về mẫu, quản lý sử dụng tem điện tử; quy định việc tra cứu, cung cấp, sử dụng thông tin hóa đơn điện tử; quy định cung cấp thông tin hóa đơn điện tử trong trường hợp không tra cứu được dữ liệu hóa đơn do sự cố, thiên tai gây ảnh hưởng đến việc truy cập mạng Internet.
 
-Điều 94. Chứng từ điện tử
+**Điều 94. Chứng từ điện tử**
 
 1. Chứng từ điện tử bao gồm các loại chứng từ, biên lai được thể hiện ở dạng dữ liệu điện tử do cơ quan quản lý thuế hoặc tổ chức có trách nhiệm khấu trừ thuế cấp cho người nộp thuế bằng phương tiện điện tử khi thực hiện các thủ tục về thuế hoặc các khoản thu khác thuộc ngân sách nhà nước và các loại chứng từ, biên lai điện tử khác.
 
 2. Chính phủ quy định chi tiết các loại chứng từ điện tử quy định tại Điều này và việc quản lý, sử dụng chứng từ điện tử.
 
-Chương XI
+**Chương XI**
 
-THÔNG TIN NGƯỜI NỘP THUẾ
+**THÔNG TIN NGƯỜI NỘP THUẾ**
 
-Điều 95. Hệ thống thông tin người nộp thuế
+**Điều 95. Hệ thống thông tin người nộp thuế**
 
 1. Hệ thống thông tin người nộp thuế là tập hợp thông tin, dữ liệu về người nộp thuế được thu thập, sắp xếp, lưu trữ, khai thác và sử dụng theo quy định của Luật này.
 
 2. Thông tin người nộp thuế là cơ sở để thực hiện quản lý thuế, đánh giá dự báo tình hình, xây dựng chính sách về thuế, đánh giá mức độ chấp hành pháp luật của người nộp thuế, ngăn ngừa, phát hiện hành vi vi phạm pháp luật về thuế.
 
-Điều 96. Xây dựng, thu thập, xử lý và quản lý hệ thống thông tin người nộp thuế
+**Điều 96. Xây dựng, thu thập, xử lý và quản lý hệ thống thông tin người nộp thuế**
 
 1. Cơ quan quản lý thuế có trách nhiệm tổ chức xây dựng, quản lý và phát triển cơ sở dữ liệu, hạ tầng kỹ thuật của hệ thống thông tin người nộp thuế, hệ thống thông tin quản lý thuế; tổ chức đơn vị chuyên trách thực hiện nhiệm vụ thu thập, xử lý, tổng hợp, phân tích thông tin và dự báo, quản lý cơ sở dữ liệu và bảo đảm duy trì, vận hành hệ thống thông tin người nộp thuế, hệ thống thông tin quản lý thuế.
 
@@ -1878,13 +1655,13 @@ THÔNG TIN NGƯỜI NỘP THUẾ
 
 4. Bộ trưởng Bộ Tài chính quy định chi tiết việc xây dựng, thu thập, xử lý và quản lý hệ thống thông tin người nộp thuế.
 
-Điều 97. Trách nhiệm của người nộp thuế trong việc cung cấp thông tin
+**Điều 97. Trách nhiệm của người nộp thuế trong việc cung cấp thông tin**
 
 1. Cung cấp đầy đủ, chính xác, trung thực, đúng thời hạn thông tin trong hồ sơ thuế, thông tin liên quan đến việc xác định nghĩa vụ thuế theo yêu cầu của cơ quan quản lý thuế.
 
 2. Cung cấp thông tin bằng văn bản hoặc thông qua kết nối mạng với các hệ thống thông tin của cơ quan quản lý thuế theo yêu cầu.
 
-Điều 98. Trách nhiệm của tổ chức, cá nhân có liên quan trong việc cung cấp thông tin người nộp thuế
+**Điều 98. Trách nhiệm của tổ chức, cá nhân có liên quan trong việc cung cấp thông tin người nộp thuế**
 
 1. Các cơ quan sau đây có trách nhiệm cung cấp thông tin người nộp thuế cho cơ quan quản lý thuế:
 
@@ -1910,17 +1687,11 @@ d) Tổ chức, cá nhân chi trả thu nhập có trách nhiệm cung cấp th�
 
 5. Chính phủ quy định chi tiết Điều này.
 
-Điều 99. Bảo mật thông tin người nộp thuế
+**Điều 99. Bảo mật thông tin người nộp thuế**
 
-1. Cơ quan quản lý thuế, công chức quản lý thuế, người đã là công chức quản lý thuế, cơ quan cung cấp, trao đổi thông tin người nộp thuế, tổ chức kinh doanh dịch vụ làm thủ tục về thuế phải giữ bí mật thông tin người nộp thuế theo quy định của pháp luật, trừ trường hợp quy định tại khoản 2 Điều này và 
+1. Cơ quan quản lý thuế, công chức quản lý thuế, người đã là công chức quản lý thuế, cơ quan cung cấp, trao đổi thông tin người nộp thuế, tổ chức kinh doanh dịch vụ làm thủ tục về thuế phải giữ bí mật thông tin người nộp thuế theo quy định của pháp luật, trừ trường hợp quy định tại khoản 2 Điều này và Điều 100 của Luật này.
 
-Điều 100 của Luật này
-
-.
-
-2. Để phục vụ hoạt động tố tụng, thanh tra, kiểm tra, kiểm toán
-
-trong trường hợp được yêu cầu bằng văn bản, cơ quan quản lý thuế có trách nhiệm cung cấp thông tin người nộp thuế cho các cơ quan sau đây:
+2. Để phục vụ hoạt động tố tụng, thanh tra, kiểm tra, kiểm toántrong trường hợp được yêu cầu bằng văn bản, cơ quan quản lý thuế có trách nhiệm cung cấp thông tin người nộp thuế cho các cơ quan sau đây:
 
 a) Cơ quan điều tra, Viện kiểm sát, Tòa án;
 
@@ -1930,7 +1701,7 @@ c) Cơ quan quản lý khác của Nhà nước theo quy định của pháp lu�
 
 d) Cơ quan quản lý thuế nước ngoài phù hợp với điều ước quốc tế về thuế mà nước Cộng hòa xã hội chủ nghĩa Việt Nam là thành viên.
 
-Điều 100. Công khai thông tin người nộp thuế
+**Điều 100. Công khai thông tin người nộp thuế**
 
 1. Cơ quan quản lý thuế được công khai thông tin người nộp thuế trong các trường hợp sau đây:
 
@@ -1942,25 +1713,23 @@ c) Không thực hiện yêu cầu của cơ quan quản lý thuế theo quy đ�
 
 2. Chính phủ quy định chi tiết Điều này.
 
-Chương XII
+**Chương XII**
 
-TỔ CHỨC KINH DOANH DỊCH VỤ LÀM THỦ TỤC VỀ THUẾ, LÀM THỦ TỤC HẢI QUAN
+**TỔ CHỨC KINH DOANH DỊCH VỤ LÀM THỦ TỤC VỀ THUẾ, LÀM THỦ TỤC HẢI QUAN**
 
-Điều 101. Tổ chức kinh doanh dịch vụ làm thủ tục về thuế
+**Điều 101. Tổ chức kinh doanh dịch vụ làm thủ tục về thuế**
 
-1. Tổ chức kinh doanh dịch vụ làm thủ tục về thuế (sau đây gọi là đại lý thuế)
-
-là doanh nghiệp được thành lập và hoạt động theo quy định của pháp luật về doanh nghiệp, thực hiện các dịch vụ theo thỏa thuận với người nộp thuế.
+1. Tổ chức kinh doanh dịch vụ làm thủ tục về thuế (sau đây gọi là đại lý thuế)là doanh nghiệp được thành lập và hoạt động theo quy định của pháp luật về doanh nghiệp, thực hiện các dịch vụ theo thỏa thuận với người nộp thuế.
 
 2. Doanh nghiệp đủ điều kiện kinh doanh dịch vụ làm thủ tục về thuế thực hiện đăng ký với Cục Thuế tỉnh, thành phố trực thuộc trung ương để được cấp giấy xác nhận đủ điều kinh doanh dịch vụ làm thủ tục về thuế.
 
-Điều 102. Điều kiện cấp giấy xác nhận đủ điều kiện kinh doanh dịch vụ làm thủ tục về thuế
+**Điều 102. Điều kiện cấp giấy xác nhận đủ điều kiện kinh doanh dịch vụ làm thủ tục về thuế**
 
 1. Là doanh nghiệp đã được thành lập theo quy định của pháp luật.
 
 2. Có ít nhất 02 người được cấp chứng chỉ hành nghề dịch vụ làm thủ tục về thuế, làm việc toàn thời gian tại doanh nghiệp.
 
-Điều 103. Cấp giấy xác nhận đủ điều kiện kinh doanh dịch vụ làm thủ tục về thuế
+**Điều 103. Cấp giấy xác nhận đủ điều kiện kinh doanh dịch vụ làm thủ tục về thuế**
 
 1. Hồ sơ đề nghị cấp giấy xác nhận đủ điều kiện kinh doanh dịch vụ làm thủ tục về thuế bao gồm:
 
@@ -1972,7 +1741,7 @@ c) Bản sao hợp đồng lao động giữa doanh nghiệp với các cá nhâ
 
 2. Cục Thuế tỉnh, thành phố trực thuộc trung ương thực hiện cấp giấy xác nhận đủ điều kiện kinh doanh dịch vụ làm thủ tục về thuế cho doanh nghiệp trong thời hạn 05 ngày làm việc kể từ ngày nhận đủ hồ sơ hợp lệ, trường hợp từ chối cấp thì phải trả lời bằng văn bản và nêu rõ lý do.
 
-Điều 104. Cung cấp dịch vụ làm thủ tục về thuế
+**Điều 104. Cung cấp dịch vụ làm thủ tục về thuế**
 
 1. Dịch vụ do đại lý thuế cung cấp cho người nộp thuế theo hợp đồng bao gồm:
 
@@ -1980,11 +1749,7 @@ a) Thủ tục đăng ký thuế, khai thuế, nộp thuế, quyết toán thu�
 
 b) Dịch vụ tư vấn thuế;
 
-c) Dịch vụ kế toán cho doanh nghiệp siêu nhỏ theo quy định tại 
-
-Điều 150 của Luật này
-
-. Doanh nghiệp siêu nhỏ được xác định theo quy định của pháp luật về hỗ trợ doanh nghiệp nhỏ và vừa.
+c) Dịch vụ kế toán cho doanh nghiệp siêu nhỏ theo quy định tại Điều 150 của Luật này. Doanh nghiệp siêu nhỏ được xác định theo quy định của pháp luật về hỗ trợ doanh nghiệp nhỏ và vừa.
 
 2. Đại lý thuế có quyền, nghĩa vụ sau đây:
 
@@ -1996,7 +1761,7 @@ c) Chịu trách nhiệm trước pháp luật và chịu trách nhiệm trướ
 
 3. Bộ trưởng Bộ Tài chính quy định việc quản lý hoạt động kinh doanh dịch vụ làm thủ tục về thuế.
 
-Điều 105. Chứng chỉ hành nghề dịch vụ làm thủ tục về thuế
+**Điều 105. Chứng chỉ hành nghề dịch vụ làm thủ tục về thuế**
 
 1. Người được cấp chứng chỉ hành nghề dịch vụ làm thủ tục về thuế phải có các tiêu chuẩn sau đây:
 
@@ -2026,17 +1791,17 @@ d) Người bị xử phạt vi phạm hành chính về quản lý thuế, về
 
 5. Bộ trưởng Bộ Tài chính quy định về việc tổ chức thi, điều kiện miễn môn thi; thủ tục cấp, thu hồi chứng chỉ hành nghề dịch vụ làm thủ tục về thuế; việc cập nhật kiến thức của nhân viên đại lý thuế.
 
-Điều 106. Tổ chức kinh doanh dịch vụ làm thủ tục hải quan
+**Điều 106. Tổ chức kinh doanh dịch vụ làm thủ tục hải quan**
 
 Tổ chức kinh doanh dịch vụ làm thủ tục hải quan (sau đây gọi là đại lý làm thủ tục hải quan) thực hiện theo quy định của pháp luật về hải quan.
 
-Chương XIII
+**Chương XIII**
 
-KIỂM TRA THUẾ, THANH TRA THUẾ
+**KIỂM TRA THUẾ, THANH TRA THUẾ**
 
-Mục 1. QUY ĐỊNH CHUNG VỀ KIỂM TRA THUẾ, THANH TRA THUẾ
+**Mục 1. QUY ĐỊNH CHUNG VỀ KIỂM TRA THUẾ, THANH TRA THUẾ**
 
-Điều 107. Nguyên tắc kiểm tra thuế, thanh tra thuế
+**Điều 107. Nguyên tắc kiểm tra thuế, thanh tra thuế**
 
 1. Áp dụng quản lý rủi ro trong quản lý thuế và ứng dụng công nghệ thông tin trong kiểm tra thuế, thanh tra thuế.
 
@@ -2048,19 +1813,17 @@ Mục 1. QUY ĐỊNH CHUNG VỀ KIỂM TRA THUẾ, THANH TRA THUẾ
 
 5. Việc kiểm tra thuế, thanh tra thuế nhằm đánh giá tính đầy đủ, chính xác, trung thực nội dung các chứng từ, thông tin, hồ sơ mà người nộp thuế đã khai, nộp, xuất trình với cơ quan quản lý thuế; đánh giá việc tuân thủ pháp luật về thuế và quy định khác của pháp luật có liên quan của người nộp thuế để xử lý về thuế theo quy định của pháp luật.
 
-Điều 108. Xử lý kết quả kiểm tra thuế, thanh tra thuế
+**Điều 108. Xử lý kết quả kiểm tra thuế, thanh tra thuế**
 
 1. Căn cứ vào kết quả kiểm tra thuế, thanh tra thuế, thủ trưởng cơ quan quản lý thuế ra quyết định xử lý về thuế, thu hồi số tiền thuế đã hoàn không đúng quy định của pháp luật về thuế, xử phạt vi phạm hành chính về quản lý thuế theo thẩm quyền hoặc đề nghị người có thẩm quyền ra quyết định xử phạt vi phạm hành chính về quản lý thuế. Trường hợp xác định rõ hành vi vi phạm hành chính tại biên bản thanh tra thuế, kiểm tra thuế thì biên bản thanh tra thuế, kiểm tra thuế được xác định là biên bản vi phạm hành chính.
 
 2. Trường hợp kiểm tra thuế, thanh tra thuế mà phát hiện hành vi trốn thuế có dấu hiệu tội phạm thì cơ quan quản lý thuế chuyển hồ sơ cho cơ quan điều tra có thẩm quyền để điều tra theo quy định của pháp luật; cơ quan quản lý thuế có trách nhiệm phối hợp với cơ quan tiến hành tố tụng trong việc điều tra, truy tố, xét xử theo quy định của pháp luật.
 
-Mục 2. KIỂM TRA THUẾ
+**Mục 2. KIỂM TRA THUẾ**
 
-Điều 109. Kiểm tra thuế tại trụ sở của cơ quan quản lý thuế
+**Điều 109. Kiểm tra thuế tại trụ sở của cơ quan quản lý thuế**
 
-1. Kiểm tra thuế tại trụ sở của cơ quan quản lý thuế do cơ quan quản lý thuế thực hiện đối với các hồ sơ thuế được
-
-quy định như sau:
+1. Kiểm tra thuế tại trụ sở của cơ quan quản lý thuế do cơ quan quản lý thuế thực hiện đối với các hồ sơ thuế đượcquy định như sau:
 
 a) Kiểm tra thuế tại trụ sở của cơ quan thuế được thực hiện trên cơ sở hồ sơ thuế của người nộp thuế nhằm đánh giá tính đầy đủ, chính xác các thông tin, chứng từ trong hồ sơ thuế, sự tuân thủ pháp luật về thuế của người nộp thuế. Công chức thuế được giao nhiệm vụ kiểm tra thuế căn cứ vào mức độ rủi ro về thuế của hồ sơ thuế được phân loại từ cơ sở dữ liệu công nghệ thông tin hoặc theo phân công của thủ trưởng cơ quan thuế thực hiện phân tích hồ sơ thuế theo mức độ rủi ro về thuế để đề xuất kế hoạch kiểm tra tại trụ sở của cơ quan thuế hoặc xử lý theo quy định tại khoản 2 Điều này;
 
@@ -2074,19 +1837,13 @@ b) Trường hợp hồ sơ thuế có nội dung cần làm rõ liên quan đ�
 
 Trường hợp hết thời hạn theo thông báo của cơ quan quản lý thuế mà người nộp thuế không giải trình, bổ sung thông tin, tài liệu hoặc không khai bổ sung hồ sơ thuế hoặc giải trình, khai bổ sung hồ sơ thuế không đúng thì thủ trưởng cơ quan quản lý thuế quyết định ấn định số tiền thuế phải nộp hoặc ra quyết định kiểm tra thuế tại trụ sở của người nộp thuế hoặc làm căn cứ để xây dựng kế hoạch kiểm tra, thanh tra theo nguyên tắc quản lý rủi ro trong quản lý thuế.
 
-Điều 110. Kiểm tra thuế tại trụ sở của người nộp thuế
+**Điều 110. Kiểm tra thuế tại trụ sở của người nộp thuế**
 
 1. Kiểm tra thuế tại trụ sở của người nộp thuế được thực hiện trong các trường hợp sau đây:
 
-a) Trường hợp hồ sơ thuộc diện kiểm tra trước hoàn thuế; kiểm tra sau hoàn thuế đối với hồ sơ thuộc diện
+a) Trường hợp hồ sơ thuộc diện kiểm tra trước hoàn thuế; kiểm tra sau hoàn thuế đối với hồ sơ thuộc diệnhoàn thuế trước;
 
-hoàn thuế trước;
-
-b) Trường hợp quy định tại 
-
-điểm b khoản 2 Điều 109 của Luật này
-
-;
+b) Trường hợp quy định tại điểm b khoản 2 Điều 109 của Luật này;
 
 c) Trường hợp kiểm tra sau thông quan tại trụ sở của người khai hải quan theo quy định của pháp luật về hải quan;
 
@@ -2108,9 +1865,7 @@ a) Công bố quyết định kiểm tra thuế khi bắt đầu tiến hành ki
 
 b) Đối chiếu nội dung khai báo với sổ kế toán, chứng từ kế toán, báo cáo tài chính, kết quả phân tích rủi ro về thuế, dữ liệu thông tin kiểm tra tại trụ sở của cơ quan thuế các tài liệu có liên quan, tình trạng thực tế trong phạm vi, nội dung của quyết định kiểm tra thuế;
 
-c) Thời hạn kiểm tra được xác định trong quyết định kiểm tra nhưng không quá 10 ngày làm việc tại trụ sở của người nộp thuế. Thời hạn kiểm tra được tính từ ngày công bố quyết định
-
-kiểm tra; trường hợp phạm vi kiểm tra lớn, nội dung phức tạp thì người đã quyết định kiểm tra có thể gia hạn 01 lần nhưng không quá 10 ngày làm việc tại trụ sở của người nộp thuế;
+c) Thời hạn kiểm tra được xác định trong quyết định kiểm tra nhưng không quá 10 ngày làm việc tại trụ sở của người nộp thuế. Thời hạn kiểm tra được tính từ ngày công bố quyết địnhkiểm tra; trường hợp phạm vi kiểm tra lớn, nội dung phức tạp thì người đã quyết định kiểm tra có thể gia hạn 01 lần nhưng không quá 10 ngày làm việc tại trụ sở của người nộp thuế;
 
 d) Lập biên bản kiểm tra thuế trong thời hạn 05 ngày làm việc kể từ ngày hết thời hạn kiểm tra;
 
@@ -2118,7 +1873,7 @@ d) Lập biên bản kiểm tra thuế trong thời hạn 05 ngày làm việc k
 
 5. Trường hợp kiểm tra sau thông quan thực hiện theo quy định của pháp luật về hải quan.
 
-Điều 111. Quyền và nghĩa vụ của người nộp thuế trong kiểm tra thuế tại trụ sở của người nộp thuế
+**Điều 111. Quyền và nghĩa vụ của người nộp thuế trong kiểm tra thuế tại trụ sở của người nộp thuế**
 
 1. Người nộp thuế có các quyền sau đây:
 
@@ -2144,17 +1899,13 @@ c) Ký biên bản kiểm tra thuế trong thời hạn 05 ngày làm việc k�
 
 d) Chấp hành kiến nghị tại biên bản kiểm tra thuế, kết luận, quyết định xử lý kết quả kiểm tra thuế.
 
-Điều 112. Nhiệm vụ, quyền hạn của thủ trưởng cơ quan quản lý thuế ra quyết định kiểm tra thuế và công chức quản lý thuế trong việc kiểm tra thuế
+**Điều 112. Nhiệm vụ, quyền hạn của thủ trưởng cơ quan quản lý thuế ra quyết định kiểm tra thuế và công chức quản lý thuế trong việc kiểm tra thuế**
 
 1. Thủ trưởng cơ quan quản lý thuế ra quyết định kiểm tra thuế có nhiệm vụ, quyền hạn sau đây:
 
 a) Chỉ đạo thực hiện đúng nội dung, thời hạn ghi trong quyết định kiểm tra thuế;
 
-b) Áp dụng biện pháp quy định tại 
-
-Điều 122 của Luật này
-
-;
+b) Áp dụng biện pháp quy định tại Điều 122 của Luật này;
 
 c) Gia hạn thời hạn kiểm tra;
 
@@ -2172,9 +1923,9 @@ c) Lập biên bản kiểm tra thuế; báo cáo kết quả kiểm tra với n
 
 d) Xử phạt vi phạm hành chính theo thẩm quyền hoặc kiến nghị với người có thẩm quyền ra kết luận, quyết định xử lý vi phạm về thuế.
 
-Mục 3. THANH TRA THUẾ
+**Mục 3. THANH TRA THUẾ**
 
-Điều 113. Các trường hợp thanh tra thuế
+**Điều 113. Các trường hợp thanh tra thuế**
 
 1. Khi có dấu hiệu vi phạm pháp luật về thuế.
 
@@ -2184,7 +1935,7 @@ Mục 3. THANH TRA THUẾ
 
 4. Theo kiến nghị của Kiểm toán nhà nước, kết luận của Thanh tra nhà nước và cơ quan khác có thẩm quyền.
 
-Điều 114. Quyết định thanh tra thuế
+**Điều 114. Quyết định thanh tra thuế**
 
 1. Thủ trưởng cơ quan quản lý thuế các cấp có thẩm quyền ra quyết định thanh tra thuế.
 
@@ -2202,13 +1953,13 @@ d) Trưởng đoàn thanh tra thuế và các thành viên của đoàn thanh tr
 
 4. Quyết định thanh tra thuế phải được công bố chậm nhất là 15 ngày kể từ ngày ra quyết định thanh tra thuế.
 
-Điều 115. Thời hạn thanh tra thuế
+**Điều 115. Thời hạn thanh tra thuế**
 
 1. Thời hạn thanh tra thuế thực hiện theo quy định của Luật Thanh tra. Thời hạn của cuộc thanh tra được tính là thời gian thực hiện thanh tra tại trụ sở của người nộp thuế kể từ ngày công bố quyết định thanh tra đến ngày kết thúc việc thanh tra tại trụ sở của người nộp thuế.
 
 2. Trường hợp cần thiết, người ra quyết định thanh tra thuế gia hạn thời hạn thanh tra thuế theo quy định của Luật Thanh tra. Việc gia hạn thời hạn thanh tra thuế do người ra quyết định thanh tra quyết định.
 
-Điều 116. Nhiệm vụ, quyền hạn của người ra quyết định thanh tra thuế
+**Điều 116. Nhiệm vụ, quyền hạn của người ra quyết định thanh tra thuế**
 
 1. Người ra quyết định thanh tra thuế có các nhiệm vụ, quyền hạn sau đây:
 
@@ -2230,17 +1981,13 @@ h) Kết luận về nội dung thanh tra thuế;
 
 i) Chuyển hồ sơ vụ việc vi phạm pháp luật sang cơ quan điều tra khi phát hiện có dấu hiệu của tội phạm, đồng thời thông báo bằng văn bản cho Viện kiểm sát cùng cấp biết;
 
-k) Áp dụng các biện pháp quy định tại các 
-
-điều 121, 122 và 123 của Luật này
-
-;
+k) Áp dụng các biện pháp quy định tại các điều 121, 122 và 123 của Luật này;
 
 l) Yêu cầu tổ chức tín dụng nơi đối tượng thanh tra có tài khoản phong tỏa tài khoản đó để phục vụ việc thanh tra khi có căn cứ cho rằng đối tượng thanh tra tẩu tán tài sản, không thực hiện quyết định thu hồi tiền, tài sản của Thủ trưởng cơ quan Thanh tra nhà nước, Thủ trưởng cơ quan được giao thực hiện chức năng thanh tra chuyên ngành hoặc Thủ trưởng cơ quan quản lý nhà nước.
 
 2. Khi thực hiện nhiệm vụ, quyền hạn quy định tại khoản 1 Điều này, người ra quyết định thanh tra thuế phải chịu trách nhiệm trước pháp luật về quyết định của mình.
 
-Điều 117. Nhiệm vụ, quyền hạn của trưởng đoàn thanh tra thuế, thành viên đoàn thanh tra thuế
+**Điều 117. Nhiệm vụ, quyền hạn của trưởng đoàn thanh tra thuế, thành viên đoàn thanh tra thuế**
 
 1. Trưởng đoàn thanh tra thuế có các nhiệm vụ, quyền hạn sau đây:
 
@@ -2268,11 +2015,7 @@ l) Xử phạt vi phạm hành chính theo quy định của pháp luật;
 
 m) Báo cáo với người ra quyết định thanh tra thuế về kết quả thanh tra và chịu trách nhiệm về tính chính xác, trung thực, khách quan của báo cáo đó;
 
-n) Áp dụng biện pháp quy định tại 
-
-Điều 122 của Luật này
-
-.
+n) Áp dụng biện pháp quy định tại Điều 122 của Luật này.
 
 2. Thành viên đoàn thanh tra thuế có các nhiệm vụ, quyền hạn sau đây:
 
@@ -2286,7 +2029,7 @@ d) Kiến nghị xử lý những vấn đề liên quan đến nội dung thanh
 
 đ) Báo cáo kết quả thực hiện nhiệm vụ được giao với trưởng đoàn thanh tra thuế, chịu trách nhiệm trước pháp luật và trưởng đoàn thanh tra về tính chính xác, trung thực, khách quan của nội dung đã báo cáo.
 
-Điều 118. Quyền và nghĩa vụ của đối tượng thanh tra thuế
+**Điều 118. Quyền và nghĩa vụ của đối tượng thanh tra thuế**
 
 1. Đối tượng thanh tra thuế có các quyền sau đây:
 
@@ -2312,7 +2055,7 @@ c) Thực hiện yêu cầu, kiến nghị, kết luận thanh tra thuế, quy�
 
 d) Ký biên bản thanh tra.
 
-Điều 119. Kết luận thanh tra thuế
+**Điều 119. Kết luận thanh tra thuế**
 
 1. Chậm nhất là 15 ngày kể từ ngày nhận được báo cáo kết quả thanh tra thuế trừ trường hợp nội dung kết luận thanh tra phải chờ kết luận chuyên môn của cơ quan, tổ chức có thẩm quyền, người ra quyết định thanh tra thuế phải có văn bản kết luận thanh tra thuế. Kết luận thanh tra thuế phải có các nội dung chính sau đây:
 
@@ -2326,7 +2069,7 @@ d) Xử lý theo thẩm quyền hoặc kiến nghị người có thẩm quyền
 
 2. Trong quá trình ra văn bản kết luận, quyết định xử lý, người ra quyết định thanh tra có quyền yêu cầu trưởng đoàn thanh tra, thành viên đoàn thanh tra báo cáo, yêu cầu đối tượng thanh tra giải trình để làm rõ thêm những vấn đề cần thiết phục vụ cho việc ra kết luận, quyết định xử lý.
 
-Điều 120. Thanh tra lại trong hoạt động thanh tra thuế
+**Điều 120. Thanh tra lại trong hoạt động thanh tra thuế**
 
 1. Thẩm quyền quyết định thanh tra lại vụ việc đã được kết luận nhưng phát hiện có dấu hiệu vi phạm pháp luật được quy định như sau:
 
@@ -2336,11 +2079,7 @@ b) Tổng cục trưởng quyết định thanh tra lại vụ việc đã đư�
 
 c) Cục trưởng quyết định thanh tra lại vụ việc đã được Chi cục trưởng thuộc Cục kết luận;
 
-d) Quyết định thanh tra lại bao gồm các nội dung được quy định tại 
-
-Điều 114 của Luật này
-
-. Chậm nhất là 03 ngày làm việc kể từ ngày ký quyết định thanh tra lại, người ra quyết định thanh tra lại phải gửi quyết định thanh tra lại cho đối tượng thanh tra. Quyết định thanh tra lại phải được công bố chậm nhất là 15 ngày kể từ ngày ký và phải được đoàn thanh tra lập biên bản công bố quyết định thanh tra lại.
+d) Quyết định thanh tra lại bao gồm các nội dung được quy định tại Điều 114 của Luật này. Chậm nhất là 03 ngày làm việc kể từ ngày ký quyết định thanh tra lại, người ra quyết định thanh tra lại phải gửi quyết định thanh tra lại cho đối tượng thanh tra. Quyết định thanh tra lại phải được công bố chậm nhất là 15 ngày kể từ ngày ký và phải được đoàn thanh tra lập biên bản công bố quyết định thanh tra lại.
 
 2. Việc thanh tra lại được thực hiện khi có một trong những căn cứ sau đây:
 
@@ -2358,33 +2097,21 @@ d) Người ra quyết định thanh tra, trưởng đoàn thanh tra, thành vi�
 
 a) Thời hiệu thanh tra lại là 02 năm kể từ ngày ký kết luận thanh tra;
 
-b) Thời hạn thanh tra lại được thực hiện theo quy định tại 
+b) Thời hạn thanh tra lại được thực hiện theo quy định tại Điều 115 của Luật này.
 
-Điều 115 của Luật này
-
-.
-
-4. Khi tiến hành thanh tra lại, người ra quyết định thanh tra, trưởng đoàn thanh tra, thành viên đoàn thanh tra thực hiện nhiệm vụ, quyền hạn theo quy định tại 
-
-Điều 116 và Điều 117 của Luật này
-
-.
+4. Khi tiến hành thanh tra lại, người ra quyết định thanh tra, trưởng đoàn thanh tra, thành viên đoàn thanh tra thực hiện nhiệm vụ, quyền hạn theo quy định tại Điều 116 và Điều 117 của Luật này.
 
 5. Kết luận thanh tra lại, công khai kết luận thanh tra lại được quy định như sau:
 
-a) Kết luận thanh tra lại được thực hiện theo quy định tại 
-
-Điều 119 của Luật này
-
-. Nội dung kết luận thanh tra lại phải xác định rõ tính chất, mức độ vi phạm, nguyên nhân, trách nhiệm của cơ quan, tổ chức, cá nhân đã tiến hành thanh tra, kết luận thanh tra và kiến nghị biện pháp xử lý.
+a) Kết luận thanh tra lại được thực hiện theo quy định tại Điều 119 của Luật này. Nội dung kết luận thanh tra lại phải xác định rõ tính chất, mức độ vi phạm, nguyên nhân, trách nhiệm của cơ quan, tổ chức, cá nhân đã tiến hành thanh tra, kết luận thanh tra và kiến nghị biện pháp xử lý.
 
 Trong thời hạn 15 ngày kể từ ngày ký kết luận thanh tra lại, người ra quyết định thanh tra lại phải gửi kết luận thanh tra lại cho thủ trưởng cơ quan quản lý nhà nước cùng cấp, cơ quan thanh tra nhà nước cấp trên;
 
 b) Việc công khai kết luận thanh tra lại được thực hiện theo quy định của pháp luật về thanh tra.
 
-Mục 4. BIỆN PHÁP ÁP DỤNG TRONG THANH TRA THUẾ ĐỐI VỚI TRƯỜNG HỢP CÓ DẤU HIỆU TRỐN THUẾ
+**Mục 4. BIỆN PHÁP ÁP DỤNG TRONG THANH TRA THUẾ ĐỐI VỚI TRƯỜNG HỢP CÓ DẤU HIỆU TRỐN THUẾ**
 
-Điều 121. Thu thập thông tin liên quan đến hành vi trốn thuế
+**Điều 121. Thu thập thông tin liên quan đến hành vi trốn thuế**
 
 1. Thủ trưởng cơ quan quản lý thuế có quyền yêu cầu cơ quan, tổ chức, cá nhân có thông tin liên quan đến hành vi trốn thuế cung cấp thông tin bằng văn bản hoặc trả lời trực tiếp.
 
@@ -2394,7 +2121,7 @@ Mục 4. BIỆN PHÁP ÁP DỤNG TRONG THANH TRA THUẾ ĐỐI VỚI TRƯỜNG H
 
 Trong quá trình thu thập thông tin bằng trả lời trực tiếp, các thành viên của đoàn thanh tra phải lập biên bản làm việc và được ghi âm, ghi hình công khai.
 
-Điều 122. Tạm giữ tài liệu, tang vật liên quan đến hành vi trốn thuế
+**Điều 122. Tạm giữ tài liệu, tang vật liên quan đến hành vi trốn thuế**
 
 1. Thủ trưởng cơ quan quản lý thuế, trưởng đoàn thanh tra thuế quyết định tạm giữ tài liệu, tang vật liên quan đến hành vi trốn thuế.
 
@@ -2404,9 +2131,7 @@ Trong quá trình thu thập thông tin bằng trả lời trực tiếp, các t
 
 4. Khi tạm giữ tài liệu, tang vật liên quan đến hành vi trốn thuế trưởng đoàn thanh tra thuế phải lập biên bản tạm giữ. Trong biên bản tạm giữ phải ghi rõ tên, số lượng, chủng loại của tài liệu, tang vật bị tạm giữ; chữ ký của người thực hiện tạm giữ, người đang quản lý tài liệu, tang vật vi phạm. Người ra quyết định tạm giữ có trách nhiệm bảo quản tài liệu, tang vật tạm giữ và chịu trách nhiệm trước pháp luật nếu tài liệu, tang vật bị mất, bán, đánh tráo hoặc hư hỏng.
 
-Trong trường hợp tài liệu, tang vật cần được niêm phong thì việc niêm phong phải được tiến hành ngay trước mặt người có tài liệu, tang vật; nếu người có tài liệu, tang vật vắng mặt thì việc niêm phong phải được tiến hành trước mặt đại diện gia đình hoặc đại diện tổ chức và đại diện chính quyền
-
-cấp xã, người chứng kiến.
+Trong trường hợp tài liệu, tang vật cần được niêm phong thì việc niêm phong phải được tiến hành ngay trước mặt người có tài liệu, tang vật; nếu người có tài liệu, tang vật vắng mặt thì việc niêm phong phải được tiến hành trước mặt đại diện gia đình hoặc đại diện tổ chức và đại diện chính quyềncấp xã, người chứng kiến.
 
 5. Tang vật là tiền Việt Nam, ngoại tệ, vàng bạc, đá quý, kim khí quý và những vật thuộc diện quản lý đặc biệt phải được bảo quản theo quy định của pháp luật; tang vật là hàng hóa, vật phẩm dễ bị hư hỏng thì người ra quyết định tạm giữ phải tiến hành lập biên bản và tổ chức bán ngay để tránh tổn thất; tiền thu được phải được gửi vào tài khoản tạm giữ mở tại Kho bạc Nhà nước để bảo đảm thu đủ tiền thuế, tiền chậm nộp, tiền phạt.
 
@@ -2414,25 +2139,23 @@ cấp xã, người chứng kiến.
 
 7. Cơ quan quản lý thuế phải giao 01 bản quyết định tạm giữ, biên bản tạm giữ, quyết định xử lý tài liệu, tang vật liên quan đến hành vi trốn thuế cho tổ chức, cá nhân có tài liệu, tang vật bị tạm giữ.
 
-Điều 123. Khám nơi cất giấu tài liệu, tang vật liên quan đến hành vi trốn thuế
+**Điều 123. Khám nơi cất giấu tài liệu, tang vật liên quan đến hành vi trốn thuế**
 
 1. Thủ trưởng cơ quan quản lý thuế quyết định khám nơi cất giấu tài liệu, tang vật liên quan đến hành vi trốn thuế. Trong trường hợp nơi cất giấu tài liệu, tang vật liên quan đến hành vi trốn thuế là nơi ở thì phải được sự đồng ý bằng văn bản của người có thẩm quyền theo quy định của pháp luật.
 
 2. Việc khám nơi cất giấu tài liệu, tang vật được tiến hành khi có căn cứ về việc cất giấu tài liệu, tang vật có liên quan đến hành vi trốn thuế.
 
-3. Khi khám nơi cất giấu tài liệu, tang vật phải có mặt người chủ nơi bị khám và người chứng kiến. Trong trường hợp người chủ nơi bị khám vắng mặt mà việc khám không thể trì hoãn thì phải có đại diện chính quyền cấp xã
-
-và 02 người chứng kiến.
+3. Khi khám nơi cất giấu tài liệu, tang vật phải có mặt người chủ nơi bị khám và người chứng kiến. Trong trường hợp người chủ nơi bị khám vắng mặt mà việc khám không thể trì hoãn thì phải có đại diện chính quyền cấp xãvà 02 người chứng kiến.
 
 4. Không được khám nơi cất giấu tài liệu, tang vật liên quan đến hành vi trốn thuế vào ban đêm, ngày lễ, ngày tết, khi người chủ nơi bị khám có việc hiếu, việc hỉ, trừ trường hợp phạm pháp quả tang và phải ghi rõ lý do vào biên bản.
 
 5. Mọi trường hợp khám nơi cất giấu tài liệu, tang vật liên quan đến hành vi trốn thuế đều phải có quyết định bằng văn bản và phải lập biên bản. Quyết định và biên bản khám nơi cất giấu tài liệu, tang vật phải được giao cho người chủ nơi bị khám 01 bản.
 
-Chương XIV
+**Chương XIV**
 
-CƯỠNG CHẾ THI HÀNH QUYẾT ĐỊNH HÀNH CHÍNH VỀ QUẢN LÝ THUẾ
+**CƯỠNG CHẾ THI HÀNH QUYẾT ĐỊNH HÀNH CHÍNH VỀ QUẢN LÝ THUẾ**
 
-Điều 124. Trường hợp bị cưỡng chế thi hành quyết định hành chính về quản lý thuế
+**Điều 124. Trường hợp bị cưỡng chế thi hành quyết định hành chính về quản lý thuế**
 
 1. Người nộp thuế có tiền thuế nợ quá 90 ngày kể từ ngày hết thời hạn nộp theo quy định.
 
@@ -2448,11 +2171,9 @@ Việc nộp dần tiền thuế nợ được thủ trưởng cơ quan quản l
 
 6. Không thực hiện biện pháp cưỡng chế đối với người nộp thuế có nợ phí hải quan và lệ phí hàng hóa, phương tiện quá cảnh.
 
-7. Cá nhân là người đại diện theo pháp luật của người nộp thuế
+7. Cá nhân là người đại diện theo pháp luật của người nộp thuếphải hoàn thành nghĩa vụ nộp thuế của doanh nghiệp đang bị cưỡng chế thi hành quyết định hành chính về quản lý thuế trước khi xuất cảnh và có thể bị tạm hoãn xuất cảnh theo quy định của pháp luật về xuất cảnh, nhập cảnh.
 
-phải hoàn thành nghĩa vụ nộp thuế của doanh nghiệp đang bị cưỡng chế thi hành quyết định hành chính về quản lý thuế trước khi xuất cảnh và có thể bị tạm hoãn xuất cảnh theo quy định của pháp luật về xuất cảnh, nhập cảnh.
-
-Điều 125. Biện pháp cưỡng chế thi hành quyết định hành chính về quản lý thuế
+**Điều 125. Biện pháp cưỡng chế thi hành quyết định hành chính về quản lý thuế**
 
 1. Các biện pháp cưỡng chế thi hành quyết định hành chính về quản lý thuế bao gồm:
 
@@ -2480,21 +2201,13 @@ b) Đối với các biện pháp cưỡng chế quy định tại các điểm 
 
 c) Trường hợp quyết định cưỡng chế đối với một số biện pháp chưa hết hiệu lực nhưng không có hiệu quả mà cơ quan quản lý thuế có đủ thông tin, điều kiện thì thực hiện áp dụng biện pháp cưỡng chế trước đó hoặc biện pháp cưỡng chế tiếp theo quy định tại khoản 1 Điều này.
 
-Điều 126. Thẩm quyền quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế
+**Điều 126. Thẩm quyền quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế**
 
-1. Thủ trưởng cơ quan quản lý thuế, Cục trưởng Cục Điều tra chống buôn lậu thuộc Tổng cục Hải quan, Cục trưởng Cục Kiểm tra sau thông quan có thẩm quyền ra quyết định áp dụng biện pháp cưỡng chế thi hành quyết định hành chính về quản lý thuế quy định tại các 
+1. Thủ trưởng cơ quan quản lý thuế, Cục trưởng Cục Điều tra chống buôn lậu thuộc Tổng cục Hải quan, Cục trưởng Cục Kiểm tra sau thông quan có thẩm quyền ra quyết định áp dụng biện pháp cưỡng chế thi hành quyết định hành chính về quản lý thuế quy định tại các điểm a, b, c, d, đ và e khoản 1 Điều 125 của Luật này.
 
-điểm a, b, c, d, đ và e khoản 1 Điều 125 của Luật này
+2. Việc thu hồi giấy chứng nhận đăng ký doanh nghiệp, giấy chứng nhận đăng ký kinh doanh, giấy chứng nhận đăng ký hợp tác xã, giấy chứng nhận đăng ký đầu tư, giấy phép thành lập và hoạt động, giấy phép hành nghề quy định tại điểm g khoản 1 Điều 125 của Luật này được thực hiện theo quy định của pháp luật.
 
-.
-
-2. Việc thu hồi giấy chứng nhận đăng ký doanh nghiệp, giấy chứng nhận đăng ký kinh doanh, giấy chứng nhận đăng ký hợp tác xã, giấy chứng nhận đăng ký đầu tư, giấy phép thành lập và hoạt động, giấy phép hành nghề quy định tại 
-
-điểm g khoản 1 Điều 125 của Luật này
-
- được thực hiện theo quy định của pháp luật.
-
-Điều 127. Quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế
+**Điều 127. Quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế**
 
 1. Quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế bao gồm các nội dung chính sau đây:
 
@@ -2514,27 +2227,19 @@ g) Thời gian, địa điểm thực hiện;
 
 h) Cơ quan chủ trì, cơ quan phối hợp thực hiện quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế.
 
-2. Quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế phải được gửi cho đối tượng bị cưỡng chế, cơ quan quản lý thuế cấp trên trực tiếp và các tổ chức, cá nhân có liên quan; trường hợp đủ điều kiện thực hiện giao dịch điện tử trong lĩnh vực quản lý thuế thì quyết định cưỡng chế được gửi bằng phương thức điện tử và cập nhật trên cổng thông tin điện tử của cơ quan quản lý thuế; trường hợp cưỡng chế bằng biện pháp quy định tại 
-
-điểm đ khoản 1 Điều 125 của Luật này
-
- thì quyết định cưỡng chế phải được gửi cho Chủ tịch Ủy ban nhân dân cấp xã nơi thực hiện cưỡng chế thi hành quyết định hành chính về quản lý thuế trước khi thực hiện.
+2. Quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế phải được gửi cho đối tượng bị cưỡng chế, cơ quan quản lý thuế cấp trên trực tiếp và các tổ chức, cá nhân có liên quan; trường hợp đủ điều kiện thực hiện giao dịch điện tử trong lĩnh vực quản lý thuế thì quyết định cưỡng chế được gửi bằng phương thức điện tử và cập nhật trên cổng thông tin điện tử của cơ quan quản lý thuế; trường hợp cưỡng chế bằng biện pháp quy định tại điểm đ khoản 1 Điều 125 của Luật này thì quyết định cưỡng chế phải được gửi cho Chủ tịch Ủy ban nhân dân cấp xã nơi thực hiện cưỡng chế thi hành quyết định hành chính về quản lý thuế trước khi thực hiện.
 
 3. Quyết định cưỡng chế có hiệu lực thi hành trong thời hạn 01 năm kể từ ngày ban hành quyết định; trường hợp cưỡng chế bằng biện pháp trích tiền từ tài khoản, phong tỏa tài khoản của đối tượng bị cưỡng chế thì có hiệu lực thi hành trong thời hạn 30 ngày kể từ ngày ban hành quyết định.
 
-Điều 128. Trách nhiệm tổ chức thi hành quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế
+**Điều 128. Trách nhiệm tổ chức thi hành quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế**
 
 1. Người ra quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế có trách nhiệm tổ chức thi hành quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế.
 
-2. Ủy ban nhân dân cấp xã nơi có đối tượng thuộc diện cưỡng chế thi hành quyết định hành chính về quản lý thuế có trách nhiệm
+2. Ủy ban nhân dân cấp xã nơi có đối tượng thuộc diện cưỡng chế thi hành quyết định hành chính về quản lý thuế có trách nhiệmchỉ đạo các cơ quan phối hợp với cơ quan quản lý thuế thực hiện việc cưỡng chế thi hành quyết định hành chính về quản lý thuế.
 
-chỉ đạo các cơ quan phối hợp với cơ quan quản lý thuế thực hiện việc cưỡng chế thi hành quyết định hành chính về quản lý thuế.
+3. Lực lượng Công annhân dân có trách nhiệm bảo vệ an ninh, bảo đảm trật tự, an toàn xã hội, hỗ trợ cơ quan quản lý thuế trong quá trình cưỡng chế thi hành quyết định hành chính về quản lý thuế khi có yêu cầu của người ra quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế.
 
-3. Lực lượng Công an
-
-nhân dân có trách nhiệm bảo vệ an ninh, bảo đảm trật tự, an toàn xã hội, hỗ trợ cơ quan quản lý thuế trong quá trình cưỡng chế thi hành quyết định hành chính về quản lý thuế khi có yêu cầu của người ra quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế.
-
-Điều 129. Cưỡng chế bằng biện pháp trích tiền từ tài khoản, phong tỏa tài khoản của đối tượng bị cưỡng chế thi hành quyết định hành chính về quản lý thuế
+**Điều 129. Cưỡng chế bằng biện pháp trích tiền từ tài khoản, phong tỏa tài khoản của đối tượng bị cưỡng chế thi hành quyết định hành chính về quản lý thuế**
 
 1. Biện pháp trích tiền từ tài khoản, phong tỏa tài khoản áp dụng đối với đối tượng bị cưỡng chế thi hành quyết định hành chính về quản lý thuế có tiền gửi tại Kho bạc Nhà nước, ngân hàng thương mại và tổ chức tín dụng khác.
 
@@ -2546,7 +2251,7 @@ nhân dân có trách nhiệm bảo vệ an ninh, bảo đảm trật tự, an t
 
 5. Chính phủ quy định chi tiết Điều này.
 
-Điều 130. Cưỡng chế bằng biện pháp khấu trừ một phần tiền lương hoặc thu nhập
+**Điều 130. Cưỡng chế bằng biện pháp khấu trừ một phần tiền lương hoặc thu nhập**
 
 1. Biện pháp khấu trừ một phần tiền lương hoặc thu nhập được áp dụng đối với người nộp thuế bị cưỡng chế thi hành quyết định hành chính về quản lý thuế đang làm việc theo biên chế hoặc hợp đồng từ 06 tháng trở lên hoặc đang được hưởng trợ cấp hưu trí, mất sức.
 
@@ -2562,7 +2267,7 @@ c) Cơ quan, tổ chức sử dụng lao động đang quản lý tiền lương
 
 4. Chính phủ quy định chi tiết Điều này.
 
-Điều 131. Cưỡng chế bằng biện pháp dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu
+**Điều 131. Cưỡng chế bằng biện pháp dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu**
 
 1. Thủ trưởng cơ quan hải quan nơi người nộp thuế có tiền thuế nợ quá hạn phải thông báo chậm nhất là 05 ngày làm việc trước ngày áp dụng biện pháp dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu.
 
@@ -2574,13 +2279,13 @@ b) Hàng hóa xuất khẩu, nhập khẩu phục vụ trực tiếp quốc phò
 
 3. Chính phủ quy định chi tiết Điều này.
 
-Điều 132. Cưỡng chế bằng biện pháp ngừng sử dụng hóa đơn
+**Điều 132. Cưỡng chế bằng biện pháp ngừng sử dụng hóa đơn**
 
 1. Khi thực hiện biện pháp cưỡng chế ngừng sử dụng hóa đơn, cơ quan quản lý thuế phải công khai trên cổng thông tin điện tử của cơ quan mình và trên phương tiện thông tin đại chúng trong thời hạn 24 giờ.
 
 2. Chính phủ quy định chi tiết Điều này.
 
-Điều 133. Cưỡng chế bằng biện pháp kê biên tài sản, bán đấu giá tài sản kê biên
+**Điều 133. Cưỡng chế bằng biện pháp kê biên tài sản, bán đấu giá tài sản kê biên**
 
 1. Không áp dụng biện pháp kê biên tài sản trong trường hợp người nộp thuế là cá nhân đang trong thời gian chữa bệnh tại cơ sở khám bệnh, chữa bệnh được thành lập theo quy định của pháp luật.
 
@@ -2600,11 +2305,9 @@ d) Đồ thờ cúng; di vật, huân chương, huy chương, bằng khen;
 
 4. Trong thời hạn 30 ngày kể từ ngày kê biên tài sản, đối tượng bị cưỡng chế thi hành quyết định hành chính về quản lý thuế không nộp đủ tiền thuế nợ thì cơ quan quản lý thuế được quyền bán đấu giá tài sản kê biên để thu đủ tiền thuế nợ.
 
-5. Chính phủ quy định chi tiết Điều này
+5. Chính phủ quy định chi tiết Điều này***.***
 
-.
-
-Điều 134. Cưỡng chế bằng biện pháp thu tiền, tài sản khác của đối tượng bị cưỡng chế do cơ quan, tổ chức, cá nhân khác đang giữ
+**Điều 134. Cưỡng chế bằng biện pháp thu tiền, tài sản khác của đối tượng bị cưỡng chế do cơ quan, tổ chức, cá nhân khác đang giữ**
 
 1. Việc cưỡng chế thu tiền, tài sản khác của đối tượng bị cưỡng chế do cơ quan, tổ chức, cá nhân khác (sau đây gọi là bên thứ ba) đang nắm giữ được áp dụng khi cơ quan quản lý thuế có căn cứ xác định bên thứ ba đang có khoản nợ hoặc giữ tiền, tài sản khác của đối tượng bị cưỡng chế.
 
@@ -2624,15 +2327,11 @@ b) Khi nhận được văn bản yêu cầu của cơ quan quản lý thuế th
 
 c) Trong trường hợp không thực hiện được yêu cầu của cơ quan quản lý thuế thì phải có văn bản giải trình với cơ quan quản lý thuế trong thời hạn 05 ngày làm việc kể từ ngày nhận được văn bản yêu cầu của cơ quan quản lý thuế;
 
-d) Cơ quan, tổ chức, cá nhân đang có khoản nợ hoặc nắm giữ tiền, tài sản khác của đối tượng bị cưỡng chế thi hành quyết định hành chính về quản lý thuế không thực hiện nộp thay số tiền thuế bị cưỡng chế trong thời hạn 15 ngày kể từ ngày nhận được yêu cầu của cơ quan quản lý thuế thì bị coi là nợ tiền thuế của Nhà nước và bị áp dụng các biện pháp cưỡng chế quy định tại 
-
-khoản 1 Điều 125 của Luật này
-
-.
+d) Cơ quan, tổ chức, cá nhân đang có khoản nợ hoặc nắm giữ tiền, tài sản khác của đối tượng bị cưỡng chế thi hành quyết định hành chính về quản lý thuế không thực hiện nộp thay số tiền thuế bị cưỡng chế trong thời hạn 15 ngày kể từ ngày nhận được yêu cầu của cơ quan quản lý thuế thì bị coi là nợ tiền thuế của Nhà nước và bị áp dụng các biện pháp cưỡng chế quy định tại khoản 1 Điều 125 của Luật này.
 
 4. Chính phủ quy định chi tiết Điều này.
 
-Điều 135. Cưỡng chế bằng biện pháp thu hồi giấy chứng nhận đăng ký doanh nghiệp, giấy chứng nhận đăng ký kinh doanh, giấy chứng nhận đăng ký hợp tác xã, giấy chứng nhận đăng ký đầu tư, giấy phép thành lập và hoạt động, giấy phép hành nghề
+**Điều 135. Cưỡng chế bằng biện pháp thu hồi giấy chứng nhận đăng ký doanh nghiệp, giấy chứng nhận đăng ký kinh doanh, giấy chứng nhận đăng ký hợp tác xã, giấy chứng nhận đăng ký đầu tư, giấy phép thành lập và hoạt động, giấy phép hành nghề**
 
 1. Thủ trưởng cơ quan quản lý thuế có trách nhiệm gửi văn bản yêu cầu cơ quan quản lý nhà nước có thẩm quyền để thu hồi giấy chứng nhận đăng ký doanh nghiệp, giấy chứng nhận đăng ký kinh doanh, giấy chứng nhận đăng ký hợp tác xã, giấy chứng nhận đăng ký đầu tư, giấy phép thành lập và hoạt động, giấy phép hành nghề.
 
@@ -2640,13 +2339,13 @@ khoản 1 Điều 125 của Luật này
 
 3. Chính phủ quy định chi tiết Điều này.
 
-Chương XV
+**Chương XV**
 
-XỬ PHẠT VI PHẠM HÀNH CHÍNH VỀ QUẢN LÝ THUẾ
+**XỬ PHẠT VI PHẠM HÀNH CHÍNH VỀ QUẢN LÝ THUẾ**
 
-Mục 1. QUY ĐỊNH CHUNG
+**Mục 1. QUY ĐỊNH CHUNG**
 
-Điều 136. Nguyên tắc xử phạt vi phạm hành chính về quản lý thuế
+**Điều 136. Nguyên tắc xử phạt vi phạm hành chính về quản lý thuế**
 
 1. Việc xử phạt vi phạm hành chính về quản lý thuế được thực hiện theo quy định của pháp luật về quản lý thuế và pháp luật về xử lý vi phạm hành chính.
 
@@ -2656,17 +2355,13 @@ Mục 1. QUY ĐỊNH CHUNG
 
 4. Đối với cùng một hành vi vi phạm hành chính về quản lý thuế thì mức phạt tiền đối với tổ chức bằng 02 lần mức phạt tiền đối với cá nhân, trừ mức phạt tiền đối với hành vi khai sai dẫn đến thiếu số tiền thuế phải nộp hoặc tăng số tiền thuế được miễn, giảm, hoàn, không thu, hành vi trốn thuế.
 
-5. Trường hợp người nộp thuế bị ấn định thuế theo quy định tại 
-
-Điều 50 và Điều 52 của Luật này
-
- thì tùy theo tính chất, mức độ của hành vi vi phạm có thể bị xử phạt vi phạm hành chính về quản lý thuế theo quy định của Luật này.
+5. Trường hợp người nộp thuế bị ấn định thuế theo quy định tại Điều 50 và Điều 52 của Luật này thì tùy theo tính chất, mức độ của hành vi vi phạm có thể bị xử phạt vi phạm hành chính về quản lý thuế theo quy định của Luật này.
 
 6. Người có thẩm quyền đang thi hành công vụ phát hiện hành vi vi phạm hành chính về quản lý thuế có trách nhiệm lập biên bản vi phạm hành chính theo quy định. Trường hợp người nộp thuế đăng ký thuế, nộp hồ sơ khai thuế, quyết toán thuế điện tử nếu thông báo tiếp nhận hồ sơ đăng ký thuế, hồ sơ khai thuế, hồ sơ quyết toán thuế bằng phương thức điện tử xác định rõ hành vi vi phạm hành chính về quản lý thuế của người nộp thuế thì thông báo này là biên bản vi phạm hành chính làm căn cứ ban hành quyết định xử phạt.
 
 7. Trường hợp vi phạm pháp luật về quản lý thuế đến mức phải truy cứu trách nhiệm hình sự thì thực hiện theo quy định của pháp luật về hình sự.
 
-Điều 137. Thời hiệu xử phạt vi phạm hành chính về quản lý thuế
+**Điều 137. Thời hiệu xử phạt vi phạm hành chính về quản lý thuế**
 
 1. Đối với hành vi vi phạm thủ tục thuế thì thời hiệu xử phạt là 02 năm kể từ ngày thực hiện hành vi vi phạm.
 
@@ -2674,7 +2369,7 @@ Mục 1. QUY ĐỊNH CHUNG
 
 3. Quá thời hiệu xử phạt vi phạm hành chính về quản lý thuế thì người nộp thuế không bị xử phạt nhưng vẫn phải nộp đủ số tiền thuế thiếu, số tiền thuế trốn, số tiền thuế được miễn, giảm, hoàn, không thu không đúng, tiền chậm nộp vào ngân sách nhà nước trong thời hạn 10 năm trở về trước kể từ ngày phát hiện hành vi vi phạm. Trường hợp người nộp thuế không đăng ký thuế thì phải nộp đủ số tiền thuế thiếu, số tiền thuế trốn, tiền chậm nộp cho toàn bộ thời gian trở về trước kể từ ngày phát hiện hành vi vi phạm.
 
-Điều 138. Hình thức xử phạt, mức phạt tiền và biện pháp khắc phục hậu quả
+**Điều 138. Hình thức xử phạt, mức phạt tiền và biện pháp khắc phục hậu quả**
 
 1. Các hình thức xử phạt vi phạm hành chính về quản lý thuế bao gồm:
 
@@ -2684,29 +2379,13 @@ b) Phạt tiền.
 
 2. Mức phạt tiền trong xử phạt vi phạm hành chính về quản lý thuế được quy định như sau:
 
-a) Mức phạt tiền tối đa đối với hành vi quy định tại 
+a) Mức phạt tiền tối đa đối với hành vi quy định tại Điều 141 của Luật này thực hiện theo quy định của pháp luật về xử lý vi phạm hành chính;
 
-Điều 141 của Luật này
+b) Phạt 10% tính trên số tiền thuế khai thiếu số tiền thuế phải nộp hoặc số tiền thuế khai tăng trong trường hợp được miễn, giảm, hoàn, không thu thuế đối với hành vi quy định tại điểm a khoản 2 Điều 142 của Luật này;
 
- thực hiện theo quy định của pháp luật về xử lý vi phạm hành chính;
+c) Phạt 20% tính trên số tiền thuế khai thiếu số tiền thuế phải nộp hoặc số tiền thuế khai tăng trong trường hợp được miễn, giảm, hoàn, không thu thuế đối với hành vi quy định tại khoản 1 và các điểm b, c khoản 2 Điều 142 của Luật này;
 
-b) Phạt 10% tính trên số tiền thuế khai thiếu số tiền thuế phải nộp hoặc số tiền thuế khai tăng trong trường hợp được miễn, giảm, hoàn, không thu thuế đối với hành vi quy định tại 
-
-điểm a khoản 2 Điều 142 của Luật này
-
-;
-
-c) Phạt 20% tính trên số tiền thuế khai thiếu số tiền thuế phải nộp hoặc số tiền thuế khai tăng trong trường hợp được miễn, giảm, hoàn, không thu thuế đối với hành vi quy định tại 
-
-khoản 1 và các điểm b, c khoản 2 Điều 142 của Luật này
-
-;
-
-d) Phạt từ 01 lần đến 03 lần số tiền thuế trốn đối với hành vi quy định tại 
-
-Điều 143 của Luật này
-
-.
+d) Phạt từ 01 lần đến 03 lần số tiền thuế trốn đối với hành vi quy định tại Điều 143 của Luật này.
 
 3. Các biện pháp khắc phục hậu quả trong xử phạt vi phạm hành chính về quản lý thuế bao gồm:
 
@@ -2716,34 +2395,25 @@ b) Buộc nộp đủ số tiền đã miễn, giảm, hoàn, không thu thuế 
 
 4. Chính phủ quy định chi tiết Điều này.
 
-Điều 139. Thẩm quyền xử phạt vi phạm hành chính về quản lý thuế
+**Điều 139. Thẩm quyền xử phạt vi phạm hành chính về quản lý thuế**
 
 1. Thẩm quyền xử phạt vi phạm hành chính đối với hành vi vi phạm thủ tục thuế được thực hiện theo quy định của pháp luật về xử lý vi phạm hành chính.
 
-2. Thủ trưởng cơ quan quản lý thuế, Cục trưởng Cục Điều tra chống buôn lậu thuộc Tổng cục Hải quan có thẩm quyền ra quyết định xử phạt vi phạm hành chính đối với hành vi quy định tại các 
+2. Thủ trưởng cơ quan quản lý thuế, Cục trưởng Cục Điều tra chống buôn lậu thuộc Tổng cục Hải quan có thẩm quyền ra quyết định xử phạt vi phạm hành chính đối với hành vi quy định tại các điều 142, 143, 144 và 145 của Luật này.
 
-điều 142, 143, 144 và 145 của Luật này
+3. Chính phủ quy định chi tiết Điều này*.*
 
-.
+**Điều 140. Miễn tiền phạt vi phạm hành chính về quản lý thuế**
 
-3. Chính phủ quy định chi tiết Điều này
-.
-
-Điều 140. Miễn tiền phạt vi phạm hành chính về quản lý thuế
-
-1. Người nộp thuế bị phạt tiền do vi phạm hành chính về quản lý thuế mà bị thiệt hại trong trường hợp bất khả kháng quy định tại 
-
-khoản 27 Điều 3 của Luật này
-
- thì được miễn tiền phạt. Tổng số tiền miễn phạt tối đa không quá giá trị tài sản, hàng hóa bị thiệt hại.
+1. Người nộp thuế bị phạt tiền do vi phạm hành chính về quản lý thuế mà bị thiệt hại trong trường hợp bất khả kháng quy định tại khoản 27 Điều 3 của Luật này thì được miễn tiền phạt. Tổng số tiền miễn phạt tối đa không quá giá trị tài sản, hàng hóa bị thiệt hại.
 
 2. Không miễn tiền phạt vi phạm hành chính về quản lý thuế đối với các trường hợp đã thực hiện xong quyết định xử phạt vi phạm hành chính về quản lý thuế của cơ quan quản lý thuế hoặc cơ quan nhà nước có thẩm quyền.
 
 3. Chính phủ quy định chi tiết Điều này.
 
-Mục 2. HÀNH VI VI PHẠM HÀNH CHÍNH VỀ QUẢN LÝ THUẾ
+**Mục 2. HÀNH VI VI PHẠM HÀNH CHÍNH VỀ QUẢN LÝ THUẾ**
 
-Điều 141. Hành vi vi phạm thủ tục thuế
+**Điều 141. Hành vi vi phạm thủ tục thuế**
 
 1. Hành vi vi phạm thủ tục thuế bao gồm:
 
@@ -2765,15 +2435,11 @@ a) Người nộp thuế được gia hạn nộp hồ sơ khai thuế;
 
 b) Cá nhân trực tiếp quyết toán thuế thu nhập cá nhân chậm nộp hồ sơ quyết toán thuế thu nhập cá nhân mà có phát sinh số tiền thuế được hoàn;
 
-c) Hộ kinh doanh, cá nhân kinh doanh đã bị ấn định thuế theo quy định tại 
-
-Điều 51 của Luật này
-
-.
+c) Hộ kinh doanh, cá nhân kinh doanh đã bị ấn định thuế theo quy định tại Điều 51 của Luật này.
 
 3. Chính phủ quy định chi tiết Điều này.
 
-Điều 142. Hành vi khai sai dẫn đến thiếu số tiền thuế phải nộp hoặc tăng số tiền thuế được miễn, giảm, hoàn, không thu
+**Điều 142. Hành vi khai sai dẫn đến thiếu số tiền thuế phải nộp hoặc tăng số tiền thuế được miễn, giảm, hoàn, không thu**
 
 1. Hành vi khai sai dẫn đến thiếu số tiền thuế phải nộp hoặc tăng số tiền thuế được miễn, giảm, hoàn bao gồm:
 
@@ -2783,11 +2449,7 @@ b) Người nộp thuế đã lập hồ sơ xác định giá thị trường h
 
 c) Sử dụng hóa đơn, chứng từ không hợp pháp, sử dụng không hợp pháp hóa đơn để hạch toán giá trị hàng hóa, dịch vụ mua vào làm giảm số tiền thuế phải nộp hoặc làm tăng số tiền thuế được miễn, giảm, hoàn nhưng người mua hàng hóa, dịch vụ sử dụng hóa đơn, chứng từ không hợp pháp chứng minh được lỗi vi phạm sử dụng hóa đơn không hợp pháp thuộc về bên bán hàng.
 
-2. Người nộp thuế khai sai dẫn đến thiếu số tiền thuế phải nộp hoặc tăng số tiền thuế được miễn, giảm, hoàn, không thu đối với hàng hóa xuất khẩu, nhập khẩu nhưng không thuộc các trường hợp quy định tại 
-
-khoản 6 và khoản 7 Điều 143 của Luật này
-
- thì ngoài việc phải khai bổ sung và nộp đủ số tiền thuế, tiền chậm nộp, người nộp thuế còn bị xử phạt vi phạm hành chính về quản lý thuế trong trường hợp sau đây:
+2. Người nộp thuế khai sai dẫn đến thiếu số tiền thuế phải nộp hoặc tăng số tiền thuế được miễn, giảm, hoàn, không thu đối với hàng hóa xuất khẩu, nhập khẩu nhưng không thuộc các trường hợp quy định tại khoản 6 và khoản 7 Điều 143 của Luật này thì ngoài việc phải khai bổ sung và nộp đủ số tiền thuế, tiền chậm nộp, người nộp thuế còn bị xử phạt vi phạm hành chính về quản lý thuế trong trường hợp sau đây:
 
 a) Người nộp thuế tự phát hiện và khai bổ sung sau thời điểm cơ quan hải quan thông báo việc kiểm tra trực tiếp hồ sơ hải quan đối với hàng hóa đang làm thủ tục hải quan hoặc sau thời hạn 60 ngày kể từ ngày thông quan và trước thời điểm cơ quan hải quan quyết định kiểm tra sau thông quan, thanh tra đối với hàng hóa đã được thông quan;
 
@@ -2803,7 +2465,7 @@ a) Người nộp thuế đã khai bổ sung trước thời điểm cơ quan h�
 
 b) Người nộp thuế khai bổ sung trong thời hạn 60 ngày kể từ ngày thông quan và trước thời điểm cơ quan hải quan quyết định kiểm tra sau thông quan, thanh tra đối với hàng hóa đã được thông quan.
 
-Điều 143. Hành vi trốn thuế
+**Điều 143. Hành vi trốn thuế**
 
 1. Không nộp hồ sơ đăng ký thuế; không nộp hồ sơ khai thuế; nộp hồ sơ khai thuế sau 90 ngày kể từ ngày hết thời hạn nộp hồ sơ khai thuế hoặc ngày hết thời hạn gia hạn nộp hồ sơ khai thuế theo quy định của Luật này.
 
@@ -2825,47 +2487,33 @@ b) Người nộp thuế khai bổ sung trong thời hạn 60 ngày kể từ ng
 
 10. Người nộp thuế có hoạt động kinh doanh trong thời gian ngừng, tạm ngừng hoạt động kinh doanh nhưng không thông báo với cơ quan quản lý thuế.
 
-11. Người nộp thuế không bị xử phạt về hành vi trốn thuế mà bị xử phạt theo quy định tại 
-
-khoản 1 Điều 141 của Luật này
-
- đối với trường hợp sau đây:
+11. Người nộp thuế không bị xử phạt về hành vi trốn thuế mà bị xử phạt theo quy định tại khoản 1 Điều 141 của Luật này đối với trường hợp sau đây:
 
 a) Không nộp hồ sơ đăng ký thuế, không nộp hồ sơ khai thuế, nộp hồ sơ khai thuế sau 90 ngày nhưng không phát sinh số tiền thuế phải nộp;
 
-b) Nộp hồ sơ khai thuế sau 90 ngày có phát sinh số tiền thuế phải nộp và người nộp thuế đã nộp đủ số tiền thuế, tiền
+b) Nộp hồ sơ khai thuế sau 90 ngày có phát sinh số tiền thuế phải nộp và người nộp thuế đã nộp đủ số tiền thuế, tiềnchậm nộp vào ngân sách nhà nước trước thời điểm cơ quan thuế công bố quyết định kiểm tra thuế, thanh tra thuế hoặc trước thời điểm cơ quan thuế lập biên bản về hành vi chậm nộp hồ sơ khai thuế.
 
-chậm nộp vào ngân sách nhà nước trước thời điểm cơ quan thuế công bố quyết định kiểm tra thuế, thanh tra thuế hoặc trước thời điểm cơ quan thuế lập biên bản về hành vi chậm nộp hồ sơ khai thuế.
-
-Điều 144. Xử lý hành vi vi phạm của ngân hàng thương mại, người bảo lãnh nộp tiền thuế trong lĩnh vực quản lý thuế
+**Điều 144. Xử lý hành vi vi phạm của ngân hàng thương mại, người bảo lãnh nộp tiền thuế trong lĩnh vực quản lý thuế**
 
 1. Ngân hàng thương mại không thực hiện trách nhiệm trích chuyển tiền từ tài khoản của người nộp thuế vào tài khoản của ngân sách nhà nước đối với số tiền thuế nợ phải nộp của người nộp thuế theo yêu cầu của cơ quan quản lý thuế thì bị phạt số tiền tương ứng với số tiền không trích chuyển vào tài khoản của ngân sách nhà nước, trừ trường hợp các tài khoản của người nộp thuế không còn số dư hoặc đã trích chuyển toàn bộ số dư tài khoản của người nộp thuế vào tài khoản của ngân sách nhà nước nhưng vẫn không đủ số tiền thuế nợ mà người nộp thuế phải nộp.
 
 2. Người bảo lãnh không thực hiện nghĩa vụ bảo lãnh cho người nộp thuế trong trường hợp người nộp thuế không nộp thuế thì người bảo lãnh phải thực hiện nghĩa vụ của người nộp thuế trong phạm vi bảo lãnh.
 
-Điều 145. Xử lý hành vi vi phạm của tổ chức, cá nhân có liên quan trong lĩnh vực quản lý thuế
+**Điều 145. Xử lý hành vi vi phạm của tổ chức, cá nhân có liên quan trong lĩnh vực quản lý thuế**
 
-1. Tổ chức, cá nhân có liên quan đến việc thực hiện pháp luật về thuế quy định tại 
+1. Tổ chức, cá nhân có liên quan đến việc thực hiện pháp luật về thuế quy định tại khoản 4 Điều 2 của Luật này có hành vi thông đồng, bao che người nộp thuế trốn thuế, không thực hiện quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế thì tùy theo tính chất, mức độ vi phạm mà bị xử phạt vi phạm hành chính hoặc truy cứu trách nhiệm hình sự theo quy định của pháp luật.
 
-khoản 4 Điều 2 của Luật này
+2. Tổ chức, cá nhân khác có liên quan đến việc thực hiện pháp luật về thuế quy định tại khoản 4 Điều 2 của Luật này không thực hiện trách nhiệm của mình theo quy định của Luật này thì tùy theo tính chất, mức độ vi phạm mà bị xử phạt vi phạm hành chính hoặc truy cứu trách nhiệm hình sự theo quy định của pháp luật.
 
- có hành vi thông đồng, bao che người nộp thuế trốn thuế, không thực hiện quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế thì tùy theo tính chất, mức độ vi phạm mà bị xử phạt vi phạm hành chính hoặc truy cứu trách nhiệm hình sự theo quy định của pháp luật.
-
-2. Tổ chức, cá nhân khác có liên quan đến việc thực hiện pháp luật về thuế quy định tại 
-
-khoản 4 Điều 2 của Luật này
-
- không thực hiện trách nhiệm của mình theo quy định của Luật này thì tùy theo tính chất, mức độ vi phạm mà bị xử phạt vi phạm hành chính hoặc truy cứu trách nhiệm hình sự theo quy định của pháp luật.
-
-Điều 146. Xử phạt vi phạm hành chính về phí, lệ phí, hóa đơn trong lĩnh vực quản lý thuế
+**Điều 146. Xử phạt vi phạm hành chính về phí, lệ phí, hóa đơn trong lĩnh vực quản lý thuế**
 
 Việc xử phạt vi phạm hành chính về phí, lệ phí, hóa đơn trong lĩnh vực quản lý thuế thực hiện theo quy định của Chính phủ.
 
-Chương XVI
+**Chương XVI**
 
-KHIẾU NẠI, TỐ CÁO, KHỞI KIỆN
+**KHIẾU NẠI, TỐ CÁO, KHỞI KIỆN**
 
-Điều 147. Khiếu nại, tố cáo
+**Điều 147. Khiếu nại, tố cáo**
 
 1. Người nộp thuế, tổ chức, cá nhân có quyền khiếu nại với cơ quan có thẩm quyền đối với quyết định hành chính, hành vi hành chính của cơ quan quản lý thuế, công chức quản lý thuế khi có căn cứ cho rằng quyết định hoặc hành vi đó là trái pháp luật, xâm phạm quyền, lợi ích hợp pháp của mình.
 
@@ -2873,13 +2521,11 @@ KHIẾU NẠI, TỐ CÁO, KHỞI KIỆN
 
 3. Thẩm quyền, trình tự, thủ tục giải quyết khiếu nại, tố cáo được thực hiện theo quy định của pháp luật về khiếu nại, tố cáo.
 
-Điều 148. Khởi kiện
+**Điều 148. Khởi kiện**
 
-Việc khởi kiện quyết định hành chính, hành vi hành chính
+Việc khởi kiện quyết định hành chính, hành vi hành chínhcủa cơ quan quản lý thuế, công chức quản lý thuế được thực hiện theo quy định của pháp luật về tố tụng hành chính.
 
-của cơ quan quản lý thuế, công chức quản lý thuế được thực hiện theo quy định của pháp luật về tố tụng hành chính.
-
-Điều 149. Trách nhiệm và quyền hạn của cơ quan quản lý thuế trong việc giải quyết khiếu nại về thuế
+**Điều 149. Trách nhiệm và quyền hạn của cơ quan quản lý thuế trong việc giải quyết khiếu nại về thuế**
 
 1. Cơ quan quản lý thuế nhận được khiếu nại về việc thực hiện pháp luật về thuế có quyền yêu cầu người khiếu nại cung cấp hồ sơ, tài liệu liên quan đến việc khiếu nại; nếu người khiếu nại từ chối cung cấp hồ sơ, tài liệu thì có quyền từ chối xem xét giải quyết khiếu nại.
 
@@ -2887,660 +2533,36 @@ của cơ quan quản lý thuế, công chức quản lý thuế được thực
 
 3. Đối với vụ việc khiếu nại phức tạp, thủ trưởng cơ quan quản lý thuế là người giải quyết khiếu nại thực hiện tham vấn các cơ quan, tổ chức có liên quan, bao gồm cả khiếu nại lần đầu. Khi thực hiện việc tham vấn, thủ trưởng cơ quan quản lý thuế phải ban hành quyết định thành lập Hội đồng tham vấn. Hội đồng tham vấn hoạt động theo nguyên tắc biểu quyết theo đa số. Kết quả biểu quyết là cơ sở để thủ trưởng cơ quan quản lý thuế tham khảo khi ra quyết định xử lý khiếu nại. Thủ trưởng cơ quan quản lý thuế là người ra quyết định và chịu trách nhiệm về quyết định xử lý khiếu nại.
 
-Chương XVII
+**Chương XVII**
 
-ĐIỀU KHOẢN THI HÀNH
+**ĐIỀU KHOẢN THI HÀNH**
 
-Điều 150. Bổ sung một điều vào Luật Kế toán số 88/2015/QH13
+**Điều 150. Bổ sung một điều vào Luật Kế toán số 88/2015/QH13**
 
-Bổ sung Điều 70a vào sau 
-Điều 70
- trong 
-Chương IV
- như sau:
+Bổ sung Điều 70a vào sau Điều 70 trong Chương IV như sau:
 
-“
-Điều 70a. Cung cấp dịch vụ kế toán của tổ chức kinh doanh dịch vụ làm thủ tục về thuế
+“**Điều 70a. Cung cấp dịch vụ kế toán của tổ chức kinh doanh dịch vụ làm thủ tục về thuế**
 
 Tổ chức kinh doanh dịch vụ làm thủ tục về thuế được cung cấp dịch vụ kế toán cho doanh nghiệp siêu nhỏ khi có ít nhất một người có chứng chỉ kế toán viên.”.
 
-Điều 151. Hiệu lực thi hành
+**Điều 151. Hiệu lực thi hành**
 
 1. Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2020, trừ trường hợp quy định tại khoản 2 Điều này.
 
 2. Quy định về hóa đơn, chứng từ điện tử của Luật này có hiệu lực thi hành từ ngày 01 tháng 7 năm 2022; khuyến khích cơ quan, tổ chức, cá nhân áp dụng quy định về hóa đơn, chứng từ điện tử của Luật này trước ngày 01 tháng 7 năm 2022.
 
-3
-.
- Luật Quản lý thuế số 78/2006/QH11 đã được sửa đổi, bổ sung một số điều theo Luật số 21/2012/QH13, Luật số 71/2014/QH13 và Luật số 106/2016/QH13 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại 
-
-khoản 1 Điều 152 của Luật này
-
-.
+3*.* Luật Quản lý thuế số 78/2006/QH11 đã được sửa đổi, bổ sung một số điều theo Luật số 21/2012/QH13, Luật số 71/2014/QH13 và Luật số 106/2016/QH13 hết hiệu lực kể từ ngày Luật này có hiệu lực thi hành, trừ trường hợp quy định tại khoản 1 Điều 152 của Luật này.
 
 4. Căn cứ quy định của Luật này và quy định khác của pháp luật có liên quan, Chính phủ quy định việc áp dụng quy định quản lý khoản thu về thuế của Luật này để quản lý thu đối với các khoản thu khác thuộc ngân sách nhà nước và quy định về quản lý thuế đối với các giao dịch liên kết của những doanh nghiệp có quan hệ liên kết.
 
-Điều 152. Quy định chuyển tiếp
+**Điều 152. Quy định chuyển tiếp**
 
 1. Đối với các khoản thuế được miễn, giảm, không thu, xóa nợ phát sinh trước ngày 01 tháng 7 năm 2020 thì tiếp tục xử lý theo quy định của Luật Quản lý thuế số 78/2006/QH11 đã được sửa đổi, bổ sung một số điều theo Luật số 21/2012/QH13, Luật số 71/2014/QH13 và Luật số 106/2016/QH13.
 
 2. Đối với các khoản tiền thuế nợ đến hết ngày 30 tháng 6 năm 2020 thì được xử lý theo quy định của Luật này, trừ trường hợp quy định tại khoản 1 Điều này.
 
-Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 7 thông qua ngày 13 tháng 6 năm 2019.
-
-CHỦ TỊCH QUỐC HỘI
-
-Nguyễn Thị Kim Ngân
-
-Văn bản liên quan cùng nội dung
-
-1
-Luật quản lý thuế 2006
-
-2
-Luật quản lý thuế sửa đổi 2012
-
-3
-Công văn 10315/BTC-TCT năm 2016 thực hiện Luật 106/2016/QH13 về Luật thuế giá trị gia tăng, Luật thuế tiêu thụ đặc biệt và Luật Quản lý thuế sửa đổi do Bộ Tài chính ban hành
-
-4
-Thông tư 130/2016/TT-BTC hướng dẫn Nghị định 100/2016/NĐ-CP hướng dẫn Luật Thuế giá trị gia tăng, Luật Thuế tiêu thụ đặc biệt và Luật Quản lý thuế sửa đổi và sửa đổi các Thông tư về thuế do Bộ trưởng Bộ Tài chính ban hành
-
-5
-Thông tư 06/2017/TT-BTC sửa đổi khoản 1 Điều 34a Thông tư 156/2013/TT-BTC hướng dẫn Luật Quản lý thuế (đã được bổ sung tại Khoản 10 Điều 2 Thông tư 26/2015/TT-BTC) do Bộ trưởng Bộ Tài chính ban hành
-
-Văn bản liên quan hiệu lực
-
-1
-Luật quản lý thuế 2006
-
-2
-Luật quản lý thuế sửa đổi 2012
-
-3
-Luật sửa đổi các Luật về thuế 2014
-
-4
-Luật kế toán 2015
-
-5
-Luật thuế giá trị gia tăng, Luật thuế tiêu thụ đặc biệt và Luật quản lý thuế sửa đổi 2016
-
-6
-Văn bản hợp nhất 14/VBHN-VPQH năm 2019 hợp nhất Luật Kế toán do Văn phòng Quốc hội ban hành
-
-Văn bản liên quan nội dung
-
-1
-Luật thanh tra 2010
-
-2
-Hiến pháp 2013
-
-3
-Luật Hải quan 2014
-
-4
-Luật Phá sản 2014
-
-5
-Luật Đầu tư 2014
-
-6
-Luật Doanh nghiệp 2014
-
-7
-Luật thuế xuất khẩu, thuế nhập khẩu 2016
-
-8
-Luật Kiểm toán nhà nước 2015
-
-9
-Luật phí và lệ phí 2015
-
-10
-Công văn 10315/BTC-TCT năm 2016 thực hiện Luật 106/2016/QH13 về Luật thuế giá trị gia tăng, Luật thuế tiêu thụ đặc biệt và Luật Quản lý thuế sửa đổi do Bộ Tài chính ban hành
-
-11
-Thông tư 130/2016/TT-BTC hướng dẫn Nghị định 100/2016/NĐ-CP hướng dẫn Luật Thuế giá trị gia tăng, Luật Thuế tiêu thụ đặc biệt và Luật Quản lý thuế sửa đổi và sửa đổi các Thông tư về thuế do Bộ trưởng Bộ Tài chính ban hành
-
-12
-Luật Quản lý, sử dụng tài sản công 2017
-
-13
-Thông tư 06/2017/TT-BTC sửa đổi khoản 1 Điều 34a Thông tư 156/2013/TT-BTC hướng dẫn Luật Quản lý thuế (đã được bổ sung tại Khoản 10 Điều 2 Thông tư 26/2015/TT-BTC) do Bộ trưởng Bộ Tài chính ban hành
-
-14
-Thông tư 10/2021/TT-BTC hướng dẫn quản lý hành nghề dịch vụ làm thủ tục về thuế do Bộ Tài chính ban hành
-
-15
-Nghị định 125/2020/NĐ-CP quy định về xử phạt vi phạm hành chính về thuế, hóa đơn
-
-16
-Nghị định 126/2020/NĐ-CP về hướng dẫn Luật Quản lý thuế
-
-17
-Thông tư 105/2020/TT-BTC hướng dẫn về đăng ký thuế do Bộ trưởng Bộ Tài chính ban hành
-
-18
-Thông tư 06/2021/TT-BTC hướng dẫn Luật Quản lý thuế về quản lý thuế đối với hàng hóa xuất khẩu, nhập khẩu do Bộ Tài chính ban hành
-
-19
-Thông tư 80/2021/TT-BTC hướng dẫn Luật Quản lý thuế và Nghị định 126/2020/NĐ-CP hướng dẫn Luật Quản lý thuế do Bộ trưởng Bộ Tài chính ban hành
-
-20
-Thông tư 19/2021/TT-BTC hướng dẫn giao dịch điện tử trong lĩnh vực thuế do Bộ trưởng Bộ Tài chính ban hành
-
-21
-Nghị định 52/2021/NĐ-CP về gia hạn thời hạn nộp thuế giá trị gia tăng, thuế thu nhập doanh nghiệp, thuế thu nhập cá nhân và tiền thuê đất trong năm 2021
-
-22
-Thông tư 31/2021/TT-BTC quy định về áp dụng quản lý rủi ro trong quản lý thuế do Bộ Tài chính ban hành
-
-23
-Thông tư 40/2021/TT-BTC hướng dẫn thuế giá trị gia tăng, thuế thu nhập cá nhân và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh do Bộ Tài chính ban hành
-
-24
-Thông tư 78/2021/TT-BTC hướng dẫn thực hiện Luật Quản lý thuế, Nghị định 123/2020/NĐ-CP quy định về hóa đơn, chứng từ do Bộ trưởng Bộ Tài chính ban hành
-
-25
-Thông tư 91/2021/TT-BTC sửa đổi Thông tư 191/2016/TT-BTC quy định về mức thu, chế độ thu, nộp, quản lý và sử dụng phí thẩm định đánh giá trữ lượng khoáng sản và lệ phí cấp giấy phép hoạt động khoáng sản và Thông tư 56/2018/TT-BTC quy định về mức thu, chế độ thu, nộp, quản lý và sử dụng phí thẩm định báo cáo đánh giá tác động môi trường do cơ quan trung ương thực hiện thẩm định do Bộ trưởng Bộ Tài chính ban hành
-
-26
-Nghị định 102/2021/NĐ-CP sửa đổi các Nghị định về xử phạt vi phạm hành chính trong lĩnh vực thuế, hóa đơn; hải quan; kinh doanh bảo hiểm, kinh doanh xổ số; quản lý, sử dụng tài sản công; thực hành tiết kiệm, chống lãng phí; dự trữ quốc gia; kho bạc nhà nước; kế toán, kiểm toán độc lập
-
-27
-Thông tư 100/2021/TT-BTC sửa đổi Thông tư 40/2021/TT-BTC hướng dẫn thuế giá trị gia tăng, thuế thu nhập cá nhân và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh do Bộ trưởng Bộ Tài chính ban hành
-
-28
-Nghị định 34/2022/NĐ-CP về gia hạn thời hạn nộp thuế giá trị gia tăng, thuế thu nhập doanh nghiệp, thuế thu nhập cá nhân và tiền thuê đất trong năm 2022
-
-29
-Nghị định 91/2022/NĐ-CP sửa đổi Nghị định 126/2020/NĐ-CP hướng dẫn Luật Quản lý thuế
-
-30
-Thông tư 13/2023/TT-BTC hướng dẫn Nghị định 49/2022/NĐ-CP sửa đổi Nghị định 209/2013/NĐ-CP hướng dẫn Luật Thuế giá trị gia tăng đã được sửa đổi theo Nghị định 12/2015/NĐ-CP, 100/2016/NĐ-CP và 146/2017/NĐ-CP và sửa đổi Thông tư 80/2021/TT-BTC do Bộ trưởng Bộ Tài chính ban hành
-
-31
-Nghị định 12/2023/NĐ-CP về gia hạn thời hạn nộp thuế giá trị gia tăng, thuế thu nhập doanh nghiệp, thuế thu nhập cá nhân và tiền thuê đất trong năm 2023
-
-32
-Nghị định 65/2024/NĐ-CP về gia hạn thời hạn nộp thuế tiêu thụ đặc biệt đối với ô tô sản xuất hoặc lắp ráp trong nước
-
-33
-Thông tư 43/2023/TT-BTC sửa đổi Thông tư có quy định liên quan đến nộp, xuất trình và khai thông tin về đăng ký sổ hộ khẩu, sổ tạm trú hoặc giấy tờ có yêu cầu xác nhận của địa phương nơi cư trú khi thực hiện các chính sách hoặc thủ tục hành chính thuộc lĩnh vực quản lý Nhà nước của Bộ Tài chính
-
-34
-Nghị định 64/2024/NĐ-CP về gia hạn thời hạn nộp thuế giá trị gia tăng, thu nhập doanh nghiệp, thuế thu nhập cá nhân và tiền thuê đất trong năm 2024
-
-HIỆU LỰC VĂN BẢN
-
-
-
-Luật Quản lý thuế 2019
-
-Số hiệu:
- 38/2019/QH14
-
-Loại văn bản:
- Luật
-
-Ngày ban hành:
- 13/06/2019
-
-Nơi ban hành:
- Quốc hội
-
-Người ký:
- Nguyễn Thị Kim Ngân
-
-Ngày công báo:
- Đang cập nhật
-
-Số công báo:
- Từ số 561 đến số 562
-
-Ngày hiệu lực:
- 01/07/2020
-
-Ngày hết hiệu lực:
- 01/07/2026
-
-Tình trạng hiệu lực:
-
-Kiểm tra
-
-Tải văn bản
-
-Tải file bản word
-
-Tải file bản PDF/Scan
-
-MỤC LỤC VĂN BẢN 
-
-
-
-CHƯƠNG 1: NHỮNG QUY ĐỊNH CHUNG
-
-Điều 1. Phạm vi điều chỉnh
-
-Điều 2. Đối tượng áp dụng
-
-Điều 3. Giải thích từ ngữ
-
-Điều 4. Nội dung quản lý thuế
-
-Điều 5. Nguyên tắc quản lý thuế
-
-Điều 6. Các hành vi bị nghiêm cấm trong quản lý thuế
-
-Điều 7. Đồng tiền khai thuế, nộp thuế
-
-Điều 8. Giao dịch điện tử trong lĩnh vực thuế
-
-Điều 9. Quản lý rủi ro trong quản lý thuế
-
-Điều 10. Xây dựng lực lượng quản lý thuế
-
-Điều 11. Hiện đại hóa công tác quản lý thuế
-
-Điều 12. Hợp tác quốc tế về thuế của cơ quan quản lý thuế
-
-Điều 13. Kế toán, thống kê về thuế
-
-CHƯƠNG 2: NHIỆM VỤ, QUYỀN HẠN VÀ TRÁCH NHIỆM CỦA CƠ QUAN, TỔ CHỨC, CÁ NHÂN TRONG QUẢN LÝ THUẾ
-
-Điều 14. Nhiệm vụ, quyền hạn của Chính phủ
-
-Điều 15. Nhiệm vụ, quyền hạn, trách nhiệm của Bộ, cơ quan ngang Bộ, cơ quan thuộc Chính phủ
-
-Điều 16. Quyền của người nộp thuế
-
-Điều 17. Trách nhiệm của người nộp thuế
-
-Điều 18. Nhiệm vụ của cơ quan quản lý thuế
-
-Điều 19. Quyền hạn của cơ quan quản lý thuế
-
-Điều 20. Nhiệm vụ, quyền hạn của Hội đồng nhân dân, Ủy ban nhân dân các cấp
-
-Điều 21. Nhiệm vụ, quyền hạn của Kiểm toán nhà nước
-
-Điều 22. Nhiệm vụ, quyền hạn của Thanh tra nhà nước
-
-Điều 23. Nhiệm vụ, quyền hạn của cơ quan điều tra, Viện kiểm sát, Tòa án
-
-Điều 24. Nhiệm vụ, quyền hạn của Mặt trận Tổ quốc Việt Nam
-
-Điều 25. Nhiệm vụ, quyền hạn của tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp
-
-Điều 26. Nhiệm vụ, quyền hạn của cơ quan thông tin, báo chí
-
-Điều 27. Nhiệm vụ, quyền hạn của ngân hàng thương mại
-
-Điều 28. Hội đồng tư vấn thuế xã, phường, thị trấn
-
-Điều 29. Nhiệm vụ, quyền hạn của tổ chức, cá nhân khác
-
-CHƯƠNG 3: ĐĂNG KÝ THUẾ
-
-Điều 30. Đối tượng đăng ký thuế và cấp mã số thuế
-
-Điều 31. Hồ sơ đăng ký thuế lần đầu
-
-Điều 32. Địa điểm nộp hồ sơ đăng ký thuế lần đầu
-
-Điều 33. Thời hạn đăng ký thuế lần đầu
-
-Điều 34. Cấp giấy chứng nhận đăng ký thuế
-
-Điều 35. Sử dụng mã số thuế
-
-Điều 36. Thông báo thay đổi thông tin đăng ký thuế
-
-Điều 37. Thông báo khi tạm ngừng hoạt động, kinh doanh
-
-Điều 38. Đăng ký thuế trong trường hợp tổ chức lại doanh nghiệp
-
-Điều 39. Chấm dứt hiệu lực mã số thuế
-
-Điều 40. Khôi phục mã số thuế
-
-Điều 41. Trách nhiệm của Bộ trưởng Bộ Tài chính, cơ quan thuế trong việc đăng ký thuế
-
-CHƯƠNG 4: KHAI THUẾ, TÍNH THUẾ
-
-Điều 42. Nguyên tắc khai thuế, tính thuế
-
-Điều 43. Hồ sơ khai thuế
-
-Điều 44. Thời hạn nộp hồ sơ khai thuế
-
-Điều 45. Địa điểm nộp hồ sơ khai thuế
-
-Điều 46. Gia hạn nộp hồ sơ khai thuế
-
-Điều 47. Khai bổ sung hồ sơ khai thuế
-
-Điều 48. Trách nhiệm của cơ quan quản lý thuế trong việc tiếp nhận hồ sơ khai thuế
-
-CHƯƠNG 5: ẤN ĐỊNH THUẾ
-
-Điều 49. Nguyên tắc ấn định thuế
-
-Điều 50. Ấn định thuế đối với người nộp thuế trong trường hợp vi phạm pháp luật về thuế
-
-Điều 51. Xác định mức thuế đối với hộ kinh doanh, cá nhân kinh doanh nộp thuế theo phương pháp khoán thuế
-
-Điều 52. Ấn định thuế đối với hàng hóa xuất khẩu, nhập khẩu
-
-Điều 53. Trách nhiệm của cơ quan quản lý thuế trong việc ấn định thuế
-
-Điều 54. Trách nhiệm của người nộp thuế trong việc nộp số tiền thuế ấn định
-
-CHƯƠNG 6: NỘP THUẾ
-
-Điều 55. Thời hạn nộp thuế
-
-Điều 56. Địa điểm và hình thức nộp thuế
-
-Điều 57. Thứ tự thanh toán tiền thuế, tiền chậm nộp, tiền phạt
-
-Điều 58. Xác định ngày đã nộp thuế
-
-Điều 59. Xử lý đối với việc chậm nộp tiền thuế
-
-Điều 60. Xử lý số tiền thuế, tiền chậm nộp, tiền phạt nộp thừa
-
-Điều 61. Nộp thuế trong thời gian giải quyết khiếu nại, khởi kiện
-
-Điều 62. Gia hạn nộp thuế
-
-Điều 63. Gia hạn nộp thuế trong trường hợp đặc biệt
-
-Điều 64. Hồ sơ gia hạn nộp thuế
-
-Điều 65. Tiếp nhận và xử lý hồ sơ gia hạn nộp thuế
-
-CHƯƠNG 7: TRÁCH NHIỆM HOÀN THÀNH NGHĨA VỤ NỘP THUẾ
-
-Điều 66. Hoàn thành nghĩa vụ nộp thuế trong trường hợp xuất cảnh
-
-Điều 67. Hoàn thành nghĩa vụ nộp thuế trong trường hợp giải thể, phá sản, chấm dứt hoạt động
-
-Điều 68. Hoàn thành nghĩa vụ nộp thuế trong trường hợp tổ chức lại doanh nghiệp
-
-Điều 69. Hoàn thành nghĩa vụ nộp thuế trong trường hợp người nộp thuế là người đã chết, người bị Tòa án tuyên bố là đã chết, mất tích hoặc mất năng lực hành vi dân sự
-
-CHƯƠNG 8: THỦ TỤC HOÀN THUẾ
-
-Điều 70. Các trường hợp hoàn thuế
-
-Điều 71. Hồ sơ hoàn thuế
-
-Điều 72. Tiếp nhận và phản hồi thông tin hồ sơ hoàn thuế
-
-Điều 73. Phân loại hồ sơ hoàn thuế
-
-Điều 74. Địa điểm kiểm tra hồ sơ hoàn thuế
-
-Điều 75. Thời hạn giải quyết hồ sơ hoàn thuế
-
-Điều 76. Thẩm quyền quyết định hoàn thuế
-
-Điều 77. Thanh tra, kiểm tra sau hoàn thuế
-
-CHƯƠNG 9: KHÔNG THU THUẾ, MIỄN THUẾ, GIẢM THUẾ; KHOANH TIỀN THUẾ NỢ; XÓA NỢ TIỀN THUẾ, TIỀN CHẬM NỘP, TIỀN PHẠT
-
-Mục 1: KHÔNG THU THUẾ, MIỄN THUẾ, GIẢM THUẾ
-
-Điều 78. Không thu thuế đối với hàng hóa xuất khẩu, nhập khẩu
-
-Điều 79. Miễn thuế, giảm thuế
-
-Điều 80. Hồ sơ miễn thuế, giảm thuế
-
-Điều 81. Nộp và tiếp nhận hồ sơ miễn thuế, giảm thuế
-
-Điều 82. Thời hạn giải quyết hồ sơ miễn thuế, giảm thuế đối với trường hợp cơ quan quản lý thuế quyết định số tiền thuế được miễn, giảm
-
-Mục 2: KHOANH TIỀN THUẾ NỢ
-
-Điều 83. Các trường hợp được khoanh tiền thuế nợ
-
-Điều 84. Thủ tục, hồ sơ, thời gian, thẩm quyền khoanh nợ
-
-Mục 3: XÓA NỢ TIỀN THUẾ, TIỀN CHẬM NỘP, TIỀN PHẠT
-
-Điều 85. Trường hợp được xóa nợ tiền thuế, tiền chậm nộp, tiền phạt
-
-Điều 86. Hồ sơ xóa nợ tiền thuế, tiền chậm nộp, tiền phạt
-
-Điều 87. Thẩm quyền xóa nợ tiền thuế, tiền chậm nộp, tiền phạt
-
-Điều 88. Trách nhiệm giải quyết hồ sơ xóa nợ tiền thuế, tiền chậm nộp, tiền phạt
-
-CHƯƠNG 10: ÁP DỤNG HÓA ĐƠN, CHỨNG TỪ ĐIỆN TỬ
-
-Điều 89. Hóa đơn điện tử
-
-Điều 90. Nguyên tắc lập, quản lý, sử dụng hóa đơn điện tử
-
-Điều 91. Áp dụng hóa đơn điện tử khi bán hàng hóa, cung cấp dịch vụ
-
-Điều 92. Dịch vụ về hóa đơn điện tử
-
-Điều 93. Cơ sở dữ liệu về hóa đơn điện tử
-
-Điều 94. Chứng từ điện tử
-
-CHƯƠNG 11: THÔNG TIN NGƯỜI NỘP THUẾ
-
-Điều 95. Hệ thống thông tin người nộp thuế
-
-Điều 96. Xây dựng, thu thập, xử lý và quản lý hệ thống thông tin người nộp thuế
-
-Điều 97. Trách nhiệm của người nộp thuế trong việc cung cấp thông tin
-
-Điều 98. Trách nhiệm của tổ chức, cá nhân có liên quan trong việc cung cấp thông tin người nộp thuế
-
-Điều 99. Bảo mật thông tin người nộp thuế
-
-Điều 100. Công khai thông tin người nộp thuế
-
-CHƯƠNG 12: TỔ CHỨC KINH DOANH DỊCH VỤ LÀM THỦ TỤC VỀ THUẾ, LÀM THỦ TỤC HẢI QUAN
-
-Điều 101. Tổ chức kinh doanh dịch vụ làm thủ tục về thuế
-
-Điều 102. Điều kiện cấp giấy xác nhận đủ điều kiện kinh doanh dịch vụ làm thủ tục về thuế
-
-Điều 103. Cấp giấy xác nhận đủ điều kiện kinh doanh dịch vụ làm thủ tục về thuế
-
-Điều 104. Cung cấp dịch vụ làm thủ tục về thuế
-
-Điều 105. Chứng chỉ hành nghề dịch vụ làm thủ tục về thuế
-
-Điều 106. Tổ chức kinh doanh dịch vụ làm thủ tục hải quan
-
-CHƯƠNG 13: KIỂM TRA THUẾ, THANH TRA THUẾ
-
-Mục 1: QUY ĐỊNH CHUNG VỀ KIỂM TRA THUẾ, THANH TRA THUẾ
-
-Điều 107. Nguyên tắc kiểm tra thuế, thanh tra thuế
-
-Điều 108. Xử lý kết quả kiểm tra thuế, thanh tra thuế
-
-Mục 2: KIỂM TRA THUẾ
-
-Điều 109. Kiểm tra thuế tại trụ sở của cơ quan quản lý thuế
-
-Điều 110. Kiểm tra thuế tại trụ sở của người nộp thuế
-
-Điều 111. Quyền và nghĩa vụ của người nộp thuế trong kiểm tra thuế tại trụ sở của người nộp thuế
-
-Điều 112. Nhiệm vụ, quyền hạn của thủ trưởng cơ quan quản lý thuế ra quyết định kiểm tra thuế và công chức quản lý thuế trong việc kiểm tra thuế
-
-Mục 3: THANH TRA THUẾ
-
-Điều 113. Các trường hợp thanh tra thuế
-
-Điều 114. Quyết định thanh tra thuế
-
-Điều 115. Thời hạn thanh tra thuế
-
-Điều 116. Nhiệm vụ, quyền hạn của người ra quyết định thanh tra thuế
-
-Điều 117. Nhiệm vụ, quyền hạn của trưởng đoàn thanh tra thuế, thành viên đoàn thanh tra thuế
-
-Điều 118. Quyền và nghĩa vụ của đối tượng thanh tra thuế
-
-Điều 119. Kết luận thanh tra thuế
-
-Điều 120. Thanh tra lại trong hoạt động thanh tra thuế
-
-Mục 4: BIỆN PHÁP ÁP DỤNG TRONG THANH TRA THUẾ ĐỐI VỚI TRƯỜNG HỢP CÓ DẤU HIỆU TRỐN THUẾ
-
-Điều 121. Thu thập thông tin liên quan đến hành vi trốn thuế
-
-Điều 122. Tạm giữ tài liệu, tang vật liên quan đến hành vi trốn thuế
-
-Điều 123. Khám nơi cất giấu tài liệu, tang vật liên quan đến hành vi trốn thuế
-
-CHƯƠNG 14: CƯỠNG CHẾ THI HÀNH QUYẾT ĐỊNH HÀNH CHÍNH VỀ QUẢN LÝ THUẾ
-
-Điều 124. Trường hợp bị cưỡng chế thi hành quyết định hành chính về quản lý thuế
-
-Điều 125. Biện pháp cưỡng chế thi hành quyết định hành chính về quản lý thuế
-
-Điều 126. Thẩm quyền quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế
-
-Điều 127. Quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế
-
-Điều 128. Trách nhiệm tổ chức thi hành quyết định cưỡng chế thi hành quyết định hành chính về quản lý thuế
-
-Điều 129. Cưỡng chế bằng biện pháp trích tiền từ tài khoản, phong tỏa tài khoản của đối tượng bị cưỡng chế thi hành quyết định hành chính về quản lý thuế
-
-Điều 130. Cưỡng chế bằng biện pháp khấu trừ một phần tiền lương hoặc thu nhập
-
-Điều 131. Cưỡng chế bằng biện pháp dừng làm thủ tục hải quan đối với hàng hóa xuất khẩu, nhập khẩu
-
-Điều 132. Cưỡng chế bằng biện pháp ngừng sử dụng hóa đơn
-
-Điều 133. Cưỡng chế bằng biện pháp kê biên tài sản, bán đấu giá tài sản kê biên
-
-Điều 134. Cưỡng chế bằng biện pháp thu tiền, tài sản khác của đối tượng bị cưỡng chế do cơ quan, tổ chức, cá nhân khác đang giữ
-
-Điều 135. Cưỡng chế bằng biện pháp thu hồi giấy chứng nhận đăng ký doanh nghiệp, giấy chứng nhận đăng ký kinh doanh, giấy chứng nhận đăng ký hợp tác xã, giấy chứng nhận đăng ký đầu tư, giấy phép thành lập và hoạt động, giấy phép hành nghề
-
-CHƯƠNG 15: XỬ PHẠT VI PHẠM HÀNH CHÍNH VỀ QUẢN LÝ THUẾ
-
-Mục 1: QUY ĐỊNH CHUNG
-
-Điều 136. Nguyên tắc xử phạt vi phạm hành chính về quản lý thuế
-
-Điều 137. Thời hiệu xử phạt vi phạm hành chính về quản lý thuế
-
-Điều 138. Hình thức xử phạt, mức phạt tiền và biện pháp khắc phục hậu quả
-
-Điều 139. Thẩm quyền xử phạt vi phạm hành chính về quản lý thuế
-
-Điều 140. Miễn tiền phạt vi phạm hành chính về quản lý thuế
-
-Mục 2: HÀNH VI VI PHẠM HÀNH CHÍNH VỀ QUẢN LÝ THUẾ
-
-Điều 141. Hành vi vi phạm thủ tục thuế
-
-Điều 142. Hành vi khai sai dẫn đến thiếu số tiền thuế phải nộp hoặc tăng số tiền thuế được miễn, giảm, hoàn, không thu
-
-Điều 143. Hành vi trốn thuế
-
-Điều 144. Xử lý hành vi vi phạm của ngân hàng thương mại, người bảo lãnh nộp tiền thuế trong lĩnh vực quản lý thuế
-
-Điều 145. Xử lý hành vi vi phạm của tổ chức, cá nhân có liên quan trong lĩnh vực quản lý thuế
-
-Điều 146. Xử phạt vi phạm hành chính về phí, lệ phí, hóa đơn trong lĩnh vực quản lý thuế
-
-CHƯƠNG 16: KHIẾU NẠI, TỐ CÁO, KHỞI KIỆN
-
-Điều 147. Khiếu nại, tố cáo
-
-Điều 148. Khởi kiện
-
-Điều 149. Trách nhiệm và quyền hạn của cơ quan quản lý thuế trong việc giải quyết khiếu nại về thuế
-
-CHƯƠNG 17: ĐIỀU KHOẢN THI HÀNH
-
-Điều 150. Bổ sung một điều vào Luật Kế toán số 88/2015/QH13
-
-Điều 151. Hiệu lực thi hành
-
-Điều 152. Quy định chuyển tiếp
-
-Chính sách bảo mật
-
-Thỏa ước sử dụng
-
-Chính sách bảo vệ dữ liệu cá nhân
-
-Hình thức thanh toán
-
-Hướng dẫn sử dụng
-
-Chương trình CTV
-
-Bản quyền © 2026 thuộc về Hệ Thống Pháp Luật Việt Nam
-
-	       Đơn vị chủ quản: Công ty cổ phần tư vấn đầu tư và ứng dụng công nghệ 4.0.
-
-	       Chịu trách nhiệm chính: Bà Phạm Hoài Thương.
-
-	       Giấy chứng nhận ĐKDN số: 0108234370, do Sở Kế hoạch và Đầu tư thành phố Hà Nội cấp ngày 18/04/2018.
-
-	       Địa chỉ: Thôn Trung, Xã Phù Đổng, TP Hà Nội - VPGD: C2 Vincom, 119 Trần Duy Hưng, Phường Yên Hòa, TP Hà Nội.
-
-	       Hotline 1: 0342.799.688 - Hotline 2: 0985.426.175 - Email: 
-info@hethongphapluat.com
-
- Youtube
-
- Facebook
-
- Twitter
-
-Tra cứu thuật ngữ với từ hoặc cụm từ đã chọn?
-
-&times;
-
-TRA CỨU THUẬT NGỮ PHÁP LÝ
-
-×
-
-Tổng đài hỗ trợ:
-  - 
-Hotline:
- 0342.799.688
-
- Báo lỗi văn bản
-
-Hỗ trợ chúng tôi tạo ra nội dung chất lượng hơn
-
-×
-
-Luật Quản lý thuế 2019
-
-Nội dung báo lỗi không được để trống
-
-Nội dung báo lỗi không được vượt quá 500 ký tự
-
-Gửi thông báo
-
-Tổng đài hỗ trợ:
-  - 
-Hotline:
- 0342.799.688
-
-Trò chuyện với Luật sư Hải A.I
-
-Hỗ trợ trực tuyến
-
---->
+*Luật này được Quốc hội nước Cộng hòa xã hội chủ nghĩa Việt Nam khóa XIV, kỳ họp thứ 7 thông qua ngày 13 tháng 6 năm 2019.*
+
+|  |  |
+| --- | --- |
+|  | **CHỦ TỊCH QUỐC HỘI**       **Nguyễn Thị Kim Ngân** |
