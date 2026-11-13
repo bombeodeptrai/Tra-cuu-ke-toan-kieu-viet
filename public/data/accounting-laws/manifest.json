@@ -1045,31 +1045,6 @@
           "sha256": "c695a6fc332c97b7276d284f486154bed194d554a415a285faa7c2129be184fd",
           "pages": 133,
           "emptyPages": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
-            25,
             26,
             27,
             28,
@@ -1182,7 +1157,9 @@
           "driveHashVerified": false,
           "driveId": "1FcXTkptf2QE7P6MD3JM4KWcoCyNxssxh",
           "driveUrl": "https://drive.google.com/file/d/1FcXTkptf2QE7P6MD3JM4KWcoCyNxssxh/view",
-          "driveReadbackBytes": 6239922
+          "driveReadbackBytes": 6239922,
+          "lowConfidencePages": [],
+          "ocrPages": 25
         }
       ],
       "layoutVerified": false,
@@ -1203,30 +1180,6 @@
           "sha256": "952c45ffc0f10bfc176bd9ae6b3d204fd3a034294ee270278957b9c11e1471dc",
           "pages": 839,
           "emptyPages": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            11,
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20,
-            21,
-            22,
-            23,
-            24,
             25,
             26,
             27,
@@ -2046,7 +1999,9 @@
           "driveHashVerified": false,
           "driveId": "15IqSvWWxpmStFLwTNkV_toPYQMnywQvA",
           "driveUrl": "https://drive.google.com/file/d/15IqSvWWxpmStFLwTNkV_toPYQMnywQvA/view",
-          "driveReadbackBytes": 17281751
+          "driveReadbackBytes": 17281751,
+          "lowConfidencePages": [],
+          "ocrPages": 24
         },
         {
           "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/dinh-chinh-tt-89-2026-btc.signed.pdf",
@@ -2055,14 +2010,13 @@
           "bytes": 627904,
           "sha256": "4f0c2c4f44783ead748b49786aecc5392936a9e4469acfc3e813387a601029d5",
           "pages": 2,
-          "emptyPages": [
-            1,
-            2
-          ],
+          "emptyPages": [],
           "driveHashVerified": false,
           "driveId": "1xbv0R44izzDBmXnBmxqRuxP-utQ3lO8h",
           "driveUrl": "https://drive.google.com/file/d/1xbv0R44izzDBmXnBmxqRuxP-utQ3lO8h/view",
-          "driveReadbackBytes": 627904
+          "driveReadbackBytes": 627904,
+          "lowConfidencePages": [],
+          "ocrPages": 2
         }
       ],
       "layoutVerified": false,
@@ -2082,26 +2036,19 @@
           "bytes": 4170011,
           "sha256": "97a1811294e23e12b564d1b103d1ea8ee64e9bbedb6208ebab498d28d9f66180",
           "pages": 10,
-          "emptyPages": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10
-          ],
+          "emptyPages": [],
           "driveHashVerified": false,
           "driveId": "1aO3PZKB-W5vBQMv6qLoAqBobkpOFOzgt",
           "driveUrl": "https://drive.google.com/file/d/1aO3PZKB-W5vBQMv6qLoAqBobkpOFOzgt/view",
-          "driveReadbackBytes": 4170011
+          "driveReadbackBytes": 4170011,
+          "lowConfidencePages": [
+            9
+          ],
+          "ocrPages": 10
         }
       ],
       "layoutVerified": false,
-      "status": "ocr-review"
+      "status": "extracted-all-pages"
     }
   ]
 }
