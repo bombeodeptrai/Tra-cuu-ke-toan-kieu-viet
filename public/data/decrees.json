@@ -1338,5 +1338,53 @@
     "pdf_url": "/data/accounting-laws/nd-291-2026-1.pdf",
     "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218956",
     "pdf_drive_id": "1_Bug9wPSW0LE9vwUm4DShWB2hkVymSMQ"
+  },
+  {
+    "id": "nd-252-2026",
+    "number": "252/2026/NĐ-CP",
+    "decree_number": "252/2026/NĐ-CP",
+    "title": "Nghị định 252/2026/NĐ-CP quy định chi tiết thi hành Luật Quản lý thuế",
+    "category": "nghi-dinh",
+    "tax_field": "thue",
+    "issued_date": "",
+    "effective_date": "",
+    "status": "active",
+    "summary": "Nghị định 252/2026/NĐ-CP quy định chi tiết thi hành Luật Quản lý thuế",
+    "content_url": "/data/content/nd-252-2026.md",
+    "pdf_drive_id": "1FcXTkptf2QE7P6MD3JM4KWcoCyNxssxh",
+    "pdf_url": "/data/accounting-laws/nd-252-2026-1.pdf",
+    "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218690"
+  },
+  {
+    "id": "tt-89-2026",
+    "number": "89/2026/TT-BTC",
+    "decree_number": "89/2026/TT-BTC",
+    "title": "Thông tư 89/2026/TT-BTC quy định chi tiết Luật Quản lý thuế và Nghị định 252/2026",
+    "category": "thong-tu",
+    "tax_field": "thue",
+    "issued_date": "",
+    "effective_date": "",
+    "status": "active",
+    "summary": "Thông tư 89/2026/TT-BTC quy định chi tiết Luật Quản lý thuế và Nghị định 252/2026",
+    "content_url": "/data/content/tt-89-2026.md",
+    "pdf_drive_id": "15IqSvWWxpmStFLwTNkV_toPYQMnywQvA",
+    "pdf_url": "/data/accounting-laws/tt-89-2026-1.pdf",
+    "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218974"
+  },
+  {
+    "id": "nd-398-2026",
+    "number": "398/2026/NĐ-CP",
+    "decree_number": "398/2026/NĐ-CP",
+    "title": "Nghị định 398/2026/NĐ-CP quy định chi tiết Nghị quyết 43/2026/QH16 về giảm thuế",
+    "category": "nghi-dinh",
+    "tax_field": "thue",
+    "issued_date": "",
+    "effective_date": "",
+    "status": "active",
+    "summary": "Nghị định 398/2026/NĐ-CP quy định chi tiết Nghị quyết 43/2026/QH16 về giảm thuế",
+    "content_url": "/data/content/nd-398-2026.md",
+    "pdf_drive_id": "1aO3PZKB-W5vBQMv6qLoAqBobkpOFOzgt",
+    "pdf_url": "/data/accounting-laws/nd-398-2026-1.pdf",
+    "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220138"
   }
 ]
