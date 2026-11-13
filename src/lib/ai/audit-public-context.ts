@@ -36,7 +36,9 @@ function legalBody(markdown: string): string | null {
 export async function retrievePublicAuditSources(question: string, decrees: Decree[]): Promise<string> {
   const stop = new Set(['cua', 'cho', 'cac', 'nhung', 'theo', 'nhu', 'nao', 'voi', 'va', 'la', 'co', 'toi', 'can', 've', 'nd', 'tt', 'btc', 'q', 'qh']);
   const words = [...new Set(fold(question).split(/[^a-z0-9]+/).filter(word => word.length >= 2 && !stop.has(word)))];
-  const explicitNumber = question.match(/\b\d{1,4}\s*\/\s*\d{4}\s*\/\s*(?:NĐ-CP|TT-BTC|QH\d+)\b/i)?.[0].replace(/\s+/g, '').toLowerCase();
+  const explicitNumber = question.match(/\b\d{1,4}\s*\/\s*\d{4}\s*\/\s*(?:NĐ-CP|TT-BTC|QH\d+)\b/i)?.[0].replace(/\s+/g, '');
+  const foldedExplicitNumber = explicitNumber ? fold(explicitNumber) : undefined;
+  const asksDocumentOverview = /\b(?:pham vi|noi dung|quy dinh|dieu chinh|van ban nay|thong tu nay|nghi dinh nay|luat nay)\b/i.test(fold(question));
   const candidates: Array<{ id: string; label: string; link: string; text: string; score: number }> = [];
   const failed = new Map<string, { count: number; pages: number[] }>();
   const addFailure = (id: string, page?: number) => {
@@ -46,14 +48,14 @@ export async function retrievePublicAuditSources(question: string, decrees: Decr
     failed.set(id, item);
   };
 
-  function add(id: string, label: string, link: string, content: string) {
+  function add(id: string, label: string, link: string, content: string, priority = 0) {
     for (let offset = 0; offset < content.length; offset += 1800) {
       const text = content.slice(offset, offset + 2200).trim();
       if (text.length < 40) continue;
       const searchable = fold(`${id} ${label} ${text}`);
       const keywordScore = words.reduce((score, word) => score + (searchable.includes(word) ? 1 : 0), 0);
-      const exactNumberScore = explicitNumber && searchable.includes(explicitNumber) ? 100 : 0;
-      if (keywordScore || exactNumberScore) candidates.push({ id, label, link, text, score: keywordScore + exactNumberScore });
+      const exactNumberScore = foldedExplicitNumber && searchable.includes(foldedExplicitNumber) ? 100 : 0;
+      if (keywordScore || exactNumberScore || priority) candidates.push({ id, label, link, text, score: keywordScore + exactNumberScore + priority });
     }
   }
 
@@ -97,7 +99,9 @@ export async function retrievePublicAuditSources(question: string, decrees: Decr
             }
             const effective = metadata[document.id]?.effectiveDate;
             const label = `${document.number} — ${document.title} — trang ${page.page}/${file.pages}${effective ? ` — hiệu lực từ ${effective}` : ''}`;
-            add(document.id, label, `${local(file.localUrl)}#page=${page.page}`, page.text);
+            const exactDocument = foldedExplicitNumber && fold(document.number) === foldedExplicitNumber;
+            const openingPagePriority = exactDocument && asksDocumentOverview && page.page <= 3 ? 60 : 0;
+            add(document.id, label, `${local(file.localUrl)}#page=${page.page}`, page.text, openingPagePriority);
           }
         } catch {
           addFailure(document.id);
