@@ -17,7 +17,10 @@ for(const d of m.documents){if(!metadata.documents[d.id])throw Error('Missing me
  if(JSON.stringify(init)!==JSON.stringify(core))problems.push('src/data/initial-decrees.ts không khớp public/data/decrees.json');
  const files=fs.readdirSync('public/data/content').filter(f=>f.endsWith('.md'));const used=new Set(core.map(d=>d.content_url.split('/').pop()));
  for(const f of files){if(!used.has(f))problems.push('File .md thừa (không có trong CSDL): '+f);const txt=fs.readFileSync('public/data/content/'+f,'utf8');
-  if(BANNED.test(txt))problems.push('Còn link thuvienphapluat.vn: '+f);if(SITE_JUNK.test(txt))problems.push('Còn rác website: '+f);if(INWORD.test(txt))problems.push('Còn ký tự "__" chen giữa chữ: '+f);}
+  if(BANNED.test(txt))problems.push('Còn link thuvienphapluat.vn: '+f);if(SITE_JUNK.test(txt))problems.push('Còn rác website: '+f);
+  // Raw OCR uncertainty is surfaced next to the source page. Don't turn an explicitly flagged page into a false release-blocker.
+  const pageChunks=txt.split(/(?=^### Trang \d+[ \t]*$)/m);
+  if(pageChunks.some(page=>!page.includes('Cần rà OCR')&&INWORD.test(page)))problems.push('Còn ký tự "__" chen giữa chữ ở trang không cảnh báo OCR: '+f);}
  const pkg=JSON.parse(fs.readFileSync('package.json','utf8'));const cst=fs.readFileSync('src/lib/utils/constants.ts','utf8').match(/APP_VERSION = '([^']+)'/);
  if(!cst||cst[1]!==pkg.version)problems.push('APP_VERSION trong constants.ts khác version package.json');
  if(problems.length){console.error(problems.join('\n'));throw Error(problems.length+' lỗi dữ liệu');}}

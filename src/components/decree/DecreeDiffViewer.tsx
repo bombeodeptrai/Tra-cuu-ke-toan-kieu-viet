@@ -284,7 +284,7 @@ export function DecreeDiffViewer({ decreeId }: DecreeDiffViewerProps) {
             <span>Chưa có dữ liệu đối chiếu điểm mới song song cho văn bản: {targetId}</span>
           </div>
           <p className="text-xs text-muted-foreground leading-relaxed">
-            Văn bản này hiện chưa có bảng đối chiếu 2 cột song song (là văn bản ban hành độc lập hoặc đang trong lộ trình số hóa đối chiếu). Vui lòng chọn một văn bản khác từ danh mục trên hoặc vào Thư viện để tra cứu toàn văn.
+            Văn bản này hiện chưa có bảng đối chiếu 2 cột song song (là văn bản ban hành độc lập hoặc đang trong lộ trình số hóa đối chiếu). Vui lòng chọn văn bản khác từ danh mục trên hoặc mở hồ sơ văn bản để kiểm tra nội dung đã trích xuất và PDF gốc.
           </p>
         </div>
       )}

@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { useParams, useNavigate, Link, useSearchParams } from 'react-router-dom';
 import { 
   ArrowLeft, Calendar, FileText, Download, Building, 
   Tag, Clock, AlertTriangle, CheckCircle, Bot,
-  Info, Share2, Printer, Heart, ListFilter, ArrowRightLeft, ZoomIn, ZoomOut, RotateCcw, Copy, Target, ExternalLink 
+  Info, Share2, Printer, Heart, ListFilter, ArrowRightLeft, ArrowRight, ZoomIn, ZoomOut, RotateCcw, Copy, Target, ExternalLink
 } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -38,6 +38,17 @@ export function DecreeDetailPage() {
   const [summaryContent, setSummaryContent] = useState<string>('');
   const [fullTextContent, setFullTextContent] = useState<string>('');
   const [isLoadingContent, setIsLoadingContent] = useState(false);
+  const [readerPageIndex, setReaderPageIndex] = useState(0);
+  const readerParts = useMemo(() => {
+    const parts = fullTextContent.split(/(?=^### Trang \d+[ \t]*$)/m);
+    return { intro: parts[0] || '', pages: parts.length > 1 ? parts.slice(1).filter(part => part.trim()) : [] };
+  }, [fullTextContent]);
+  const usePagedReader = readerParts.pages.length > 30;
+  const readerCurrentPage = readerParts.pages[readerPageIndex]?.match(/^### Trang (\d+)/m)?.[1];
+
+  useEffect(() => {
+    setReaderPageIndex(0);
+  }, [decree?.id]);
   
   // Font size adjustment (persisted in localStorage)
   const [fontSize, setFontSize] = useState<number>(() => {
@@ -79,6 +90,14 @@ export function DecreeDetailPage() {
   }, [targetDieu]);
 
   useEffect(() => {
+    if (usePagedReader && highlightedDieu) {
+      const target = new RegExp(`(?:^|\\n)(?:#+\\s*)?Điều\\s+${highlightedDieu}(?:[.:\\s\\-–—])`, 'i');
+      const pageIndex = readerParts.pages.findIndex(page => target.test(page));
+      if (pageIndex >= 0) setReaderPageIndex(pageIndex);
+    }
+  }, [usePagedReader, highlightedDieu, readerParts.pages]);
+
+  useEffect(() => {
     if (!isLoadingContent && fullTextContent && highlightedDieu && activeTab === 'content') {
       const timer = setTimeout(() => {
         let el = document.getElementById(`dieu-${highlightedDieu}`);
@@ -105,7 +124,7 @@ export function DecreeDetailPage() {
       }, 350);
       return () => clearTimeout(timer);
     }
-  }, [isLoadingContent, fullTextContent, highlightedDieu, activeTab]);
+  }, [isLoadingContent, fullTextContent, highlightedDieu, activeTab, readerPageIndex]);
 
   const navigate = useNavigate();
 
@@ -138,6 +157,17 @@ export function DecreeDetailPage() {
       document.removeEventListener('touchend', handleSelection);
     };
   }, [isNoteDialogOpen]);
+
+  const handleTocItemClick = (itemId: string) => {
+    setActiveTab('content');
+    const articleNumber = itemId.match(/^dieu-(\d+)$/)?.[1];
+    if (usePagedReader && articleNumber) {
+      const article = new RegExp(`(?:^|\\n)(?:#+\\s*)?Điều\\s+${articleNumber}(?:[.:\\s\\-–—])`, 'i');
+      const pageIndex = readerParts.pages.findIndex(page => article.test(page));
+      if (pageIndex >= 0) setReaderPageIndex(pageIndex);
+    }
+    window.setTimeout(() => document.getElementById(itemId)?.scrollIntoView({ behavior: 'smooth', block: 'center' }), 180);
+  };
 
   const handleSaveNote = async () => {
     if (!decree) return;
@@ -272,6 +302,11 @@ export function DecreeDetailPage() {
               <Badge variant="outline" className={`${statusInfo.color}`}>
                 {statusInfo.label}
               </Badge>
+              {decree.text_status_note && (
+                <Badge variant="outline" className={decree.text_status === 'ocr-available' ? 'border-sky-300 text-sky-800 dark:border-sky-700 dark:text-sky-200' : 'border-amber-300 text-amber-900 dark:border-amber-700 dark:text-amber-200'}>
+                  {decree.text_status === 'ocr-available' ? 'Đã trích xuất OCR' : 'Cần rà chất lượng OCR'}
+                </Badge>
+              )}
               {category && (
                 <Badge variant="secondary" className="bg-slate-100 dark:bg-slate-800">
                   {category.name}
@@ -305,7 +340,22 @@ export function DecreeDetailPage() {
               <Bot className="h-4 w-4" /> Hỏi AI về văn bản này
             </Button>
 
-            {decree.pdf_drive_id ? (
+            {decree.pdf_attachments?.length ? (
+              decree.pdf_attachments.map((attachment) => {
+                const attachmentUrl = attachment.drive_id
+                  ? `https://drive.google.com/uc?export=download&id=${attachment.drive_id}`
+                  : attachment.pdf_url
+                    ? `${basePath.replace(/\/$/, '')}${attachment.pdf_url.startsWith('/') ? attachment.pdf_url : `/${attachment.pdf_url}`}`
+                    : attachment.source_url || '#';
+                return (
+                  <Button key={`${decree.id}-${attachment.label}`} asChild variant="outline" className="gap-2 border-blue-200 text-blue-700 bg-blue-50 hover:bg-blue-100 dark:bg-blue-900/30 dark:border-blue-800 dark:text-blue-300">
+                    <a href={attachmentUrl} target="_blank" rel="noopener noreferrer" download={!attachment.drive_id ? true : undefined}>
+                      <Download className="h-4 w-4" /> {attachment.label}
+                    </a>
+                  </Button>
+                );
+              })
+            ) : decree.pdf_drive_id ? (
               <Button asChild variant="outline" className="gap-2 border-blue-200 text-blue-700 bg-blue-50 hover:bg-blue-100 dark:bg-blue-900/30 dark:border-blue-800 dark:text-blue-300">
                 <a href={`https://drive.google.com/uc?export=download&id=${decree.pdf_drive_id}`} target="_blank" rel="noopener noreferrer">
                   <Download className="h-4 w-4" /> Tải PDF & Phụ lục (Google Drive)
@@ -362,7 +412,7 @@ export function DecreeDetailPage() {
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
             <TabsList className="grid w-full grid-cols-3 mb-6">
               <TabsTrigger value="content" className="gap-2 font-semibold text-xs sm:text-sm">
-                <FileText className="h-4 w-4 text-emerald-600" /> Toàn văn gốc
+                <FileText className="h-4 w-4 text-emerald-600" /> Nội dung văn bản
               </TabsTrigger>
               <TabsTrigger value="summary" className="gap-2 font-semibold text-xs sm:text-sm">
                 <Bot className="h-4 w-4 text-blue-600" /> Tóm tắt AI
@@ -373,6 +423,9 @@ export function DecreeDetailPage() {
             </TabsList>
             
             <TabsContent value="content" className="mt-0 space-y-4">
+              <div role="note" className="rounded-lg border border-amber-300/70 bg-amber-50/70 px-3 py-2 text-xs text-amber-950 dark:border-amber-800 dark:bg-amber-950/30 dark:text-amber-100">
+                {decree.text_status_note || 'Nội dung được trích từ tệp PDF nguồn; hệ thống chưa chứng nhận bản chép khớp từng dòng. Đối chiếu PDF gốc trước khi viện dẫn điều khoản.'}
+              </div>
               {/* Highlight Target Dieu Banner */}
               {highlightedDieu && (
                 <div className="bg-emerald-50/90 dark:bg-emerald-950/50 border border-emerald-300 dark:border-emerald-800 rounded-xl p-3 text-xs flex items-center justify-between gap-3 text-emerald-900 dark:text-emerald-200 shadow-xs animate-in fade-in slide-in-from-top-2 duration-300">
@@ -458,6 +511,25 @@ export function DecreeDetailPage() {
                   {isLoadingContent ? (
                     <div className="py-10 text-center text-muted-foreground">Đang tải nội dung...</div>
                   ) : (
+                    <>
+                    {usePagedReader && readerParts.intro.trim() && (
+                      <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeRaw, rehypeKatex]}>
+                        {readerParts.intro}
+                      </ReactMarkdown>
+                    )}
+                    {usePagedReader && (
+                      <div className="my-4 flex flex-wrap items-center justify-between gap-3 rounded-lg border border-border bg-muted/40 px-3 py-2 text-sm" aria-live="polite">
+                        <Button variant="outline" size="sm" disabled={readerPageIndex === 0} onClick={() => setReaderPageIndex(index => Math.max(0, index - 1))}>
+                          <ArrowLeft className="mr-1 h-4 w-4" /> Trang trước
+                        </Button>
+                        <span className="text-center text-muted-foreground">
+                          Đoạn {readerPageIndex + 1}/{readerParts.pages.length}{readerCurrentPage ? ` · Trang PDF ${readerCurrentPage}` : ''}
+                        </span>
+                        <Button variant="outline" size="sm" disabled={readerPageIndex >= readerParts.pages.length - 1} onClick={() => setReaderPageIndex(index => Math.min(readerParts.pages.length - 1, index + 1))}>
+                          Trang sau <ArrowRight className="ml-1 h-4 w-4" />
+                        </Button>
+                      </div>
+                    )}
                     <ReactMarkdown 
                       remarkPlugins={[remarkGfm, remarkMath]} 
                       rehypePlugins={[rehypeRaw, rehypeKatex]}
@@ -496,8 +568,16 @@ export function DecreeDetailPage() {
                         }
                       }}
                     >
-                      {fullTextContent}
+                      {usePagedReader ? readerParts.pages[readerPageIndex] : fullTextContent}
                     </ReactMarkdown>
+                    {usePagedReader && (
+                      <div className="mt-4 flex justify-center">
+                        <Button variant="outline" size="sm" disabled={readerPageIndex >= readerParts.pages.length - 1} onClick={() => setReaderPageIndex(index => Math.min(readerParts.pages.length - 1, index + 1))}>
+                          Đọc tiếp trang sau <ArrowRight className="ml-1 h-4 w-4" />
+                        </Button>
+                      </div>
+                    )}
+                    </>
                   )}
                 </div>
               </div>
@@ -533,7 +613,7 @@ export function DecreeDetailPage() {
               <ListFilter className="h-4 w-4 text-emerald-600" />
               Mục lục điều khoản
             </h3>
-            <TableOfContents content={fullTextContent} />
+            <TableOfContents content={fullTextContent} onItemClick={handleTocItemClick} />
           </div>
 
           <div className="bg-card border border-border/60 rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
@@ -626,7 +706,7 @@ export function DecreeDetailPage() {
               </SheetTitle>
             </SheetHeader>
             <div className="mt-4 h-[calc(100%-60px)]">
-              <TableOfContents content={fullTextContent} />
+              <TableOfContents content={fullTextContent} onItemClick={handleTocItemClick} />
             </div>
           </SheetContent>
         </Sheet>

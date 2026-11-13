@@ -4,7 +4,7 @@ import { useSettingsStore } from '@/stores/settings-store';
 import { useDecreeStore } from '@/stores/decree-store';
 import { GeminiService } from '@/lib/ai/gemini';
 import { SYSTEM_PROMPT, IMAGE_ANALYSIS_PROMPT, FILE_ANALYSIS_PROMPT } from '@/lib/ai/prompts';
-import { buildRAGContext } from '@/lib/ai/rag';
+import { retrievePublicAuditSources } from '@/lib/ai/audit-public-context';
 import { ChatAttachment } from '@/types/chat';
 
 export function useChat() {
@@ -67,7 +67,8 @@ export function useChat() {
           finalPrompt = `${img ? IMAGE_ANALYSIS_PROMPT : FILE_ANALYSIS_PROMPT}\n\n${text}`;
         }
       } else {
-        finalPrompt = await buildRAGContext(text, decrees);
+        const sources = await retrievePublicAuditSources(text, decrees);
+        finalPrompt = `${sources}\n\nCÂU HỎI CỦA KẾ TOÁN:\n${text}`;
       }
 
       const session = useChatStore.getState().sessions.find(s => s.id === sessionId);

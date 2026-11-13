@@ -826,7 +826,7 @@ export function GuidePage() {
                   <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">
                     8. Thư Viện {LIBRARY_DOC_COUNT} Văn Bản & Cơ Chế Tải PDF Google Drive
                   </h2>
-                  <p className="text-xs text-muted-foreground">Tra cứu toàn văn chuẩn, phân loại 5 chuyên đề và tải file PDF chính thức tốc độ cao</p>
+                  <p className="text-xs text-muted-foreground">Tra cứu văn bản, xem trạng thái trích xuất theo từng mục và tải PDF chính thức</p>
                 </div>
               </div>
 

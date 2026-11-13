@@ -14,7 +14,7 @@ export function Sidebar({ onClose }: SidebarProps) {
   
   const navItems = [
     { to: '/', icon: LayoutDashboard, label: 'Trang chủ' },
-    { to: '/thu-vien', icon: Library, label: 'Thư viện nghị định' },
+    { to: '/thu-vien', icon: Library, label: 'Thư viện pháp luật' },
     { to: '/tra-cuu', icon: Search, label: 'Tra cứu' },
     { to: '/tai-khoan', icon: BookOpen, label: 'Hệ thống TK (TT99)' },
     { to: '/bieu-mau', icon: Download, label: 'Biểu mẫu' },

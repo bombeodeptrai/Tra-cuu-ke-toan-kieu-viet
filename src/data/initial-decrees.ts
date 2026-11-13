@@ -1091,15 +1091,41 @@ export const INITIAL_DECREES: Decree[] = [
     "decree_number": "320/2025/NĐ-CP",
     "title": "Quy định chi tiết một số điều và biện pháp để tổ chức, hướng dẫn thi hành Luật Thuế thu nhập doanh nghiệp",
     "category": "nghi-dinh",
-    "tax_field": "quan-ly-thue",
+    "tax_field": "thue-tndn",
     "issued_date": "2025-12-15",
     "effective_date": "2025-12-15",
     "status": "active",
-    "summary": "Quy định chi tiết thi hành Luật Quản lý thuế về hệ thống tiêu chí quản lý rủi ro, tự động đối chiếu số liệu hóa đơn điện tử và các trường hợp doanh nghiệp bị đưa vào diện thanh kiểm tra trọng điểm.",
+    "summary": "Quy định chi tiết thi hành Luật Thuế thu nhập doanh nghiệp. Đối chiếu điều kiện áp dụng và các nội dung hướng dẫn với Luật 67/2025/QH15, Nghị định 141/2026/NĐ-CP và Thông tư 20/2026/TT-BTC; không dùng bản tóm tắt này thay văn bản gốc.",
     "content_url": "/data/content/nd-320-2025.md",
     "pdf_url": "/data/accounting-laws/nd-320-2025-1.pdf",
     "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=216219",
     "pdf_drive_id": "1euBK13jtmJG4Hp6G35K6Nzjz9cjThDeb"
+  },
+  {
+    "id": "tt-20-2026",
+    "number": "20/2026/TT-BTC",
+    "decree_number": "20/2026/TT-BTC",
+    "title": "Quy định chi tiết một số điều của Luật Thuế thu nhập doanh nghiệp và Nghị định số 320/2025/NĐ-CP",
+    "category": "thong-tu",
+    "tax_field": "thue-tndn",
+    "issued_date": "2026-03-12",
+    "effective_date": "2026-03-12",
+    "status": "active",
+    "text_status": "ocr-review",
+    "text_status_note": "Đã OCR 22/22 trang; trang 22 dưới ngưỡng tin cậy nội bộ, đối chiếu PDF trước khi trích dẫn.",
+    "summary": "Thông tư hướng dẫn một số điều của Luật Thuế thu nhập doanh nghiệp và Nghị định 320/2025/NĐ-CP. Mở toàn văn và PDF để đối chiếu điều khoản theo kỳ tính thuế, loại thu nhập và hồ sơ thực tế.",
+    "content_url": "/data/content/tt-20-2026.md",
+    "pdf_url": "/data/accounting-laws/tt-20-2026-1.pdf",
+    "pdf_drive_id": "1PPLIM9ofwQ2FzmDTA3MAPemtx23psXPD",
+    "pdf_attachments": [
+      {
+        "label": "PDF Thông tư 20/2026/TT-BTC",
+        "pdf_url": "/data/accounting-laws/tt-20-2026-1.pdf",
+        "drive_id": "1PPLIM9ofwQ2FzmDTA3MAPemtx23psXPD",
+        "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/3/20-btc.pdf"
+      }
+    ],
+    "source_url": "https://vanban.chinhphu.vn/?docid=217191&pageid=27160&typegroupid=6"
   },
   {
     "id": "nd-141-2026",
@@ -1159,6 +1185,8 @@ export const INITIAL_DECREES: Decree[] = [
     "issued_date": "2025-12-10",
     "effective_date": "2026-07-01",
     "status": "active",
+    "text_status": "ocr-available",
+    "text_status_note": "Đã nhận dạng 133/133 trang; bản OCR chưa được soát từng dòng với PDF ký.",
     "summary": "Luật Quản lý thuế số 108/2025/QH15 ban hành ngày 10/12/2025, có hiệu lực từ 01/07/2026; hiện đại hóa toàn diện thủ tục quản lý thuế, chuẩn hóa quy trình thanh tra và áp dụng trí tuệ nhân tạo đối soát rủi ro.",
     "content_url": "/data/content/luat-108-2025.md",
     "pdf_url": "/data/accounting-laws/luat-108-2025-1.pdf",
@@ -1175,6 +1203,8 @@ export const INITIAL_DECREES: Decree[] = [
     "issued_date": "2026-06-30",
     "effective_date": "2026-07-01",
     "status": "active",
+    "text_status": "ocr-review",
+    "text_status_note": "Đã OCR 841/841 trang gồm văn bản chính và đính chính; các trang dưới ngưỡng OCR bị loại khỏi nguồn AI và cần đối chiếu PDF.",
     "summary": "Nghị định quy định chi tiết thi hành Luật Quản lý thuế 108/2025/QH15 về thủ tục khai thuế điện tử, ấn định thuế đối với trường hợp vi phạm chế độ sổ sách và quy chế phối hợp xác minh hóa đơn liên tỉnh.",
     "content_url": "/data/content/nd-254-2026.md",
     "pdf_url": "/data/accounting-laws/nd-254-2026-1.pdf",
@@ -1370,6 +1400,20 @@ export const INITIAL_DECREES: Decree[] = [
     "summary": "Thông tư 89/2026/TT-BTC quy định chi tiết Luật Quản lý thuế và Nghị định 252/2026",
     "content_url": "/data/content/tt-89-2026.md",
     "pdf_drive_id": "15IqSvWWxpmStFLwTNkV_toPYQMnywQvA",
+    "pdf_attachments": [
+      {
+        "label": "PDF Thông tư 89/2026/TT-BTC (văn bản chính)",
+        "pdf_url": "/data/accounting-laws/tt-89-2026-1.pdf",
+        "drive_id": "15IqSvWWxpmStFLwTNkV_toPYQMnywQvA",
+        "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/7/89-btc.signed.pdf"
+      },
+      {
+        "label": "PDF đính chính Thông tư 89/2026/TT-BTC",
+        "pdf_url": "/data/accounting-laws/tt-89-2026-2.pdf",
+        "drive_id": "1xbv0R44izzDBmXnBmxqRuxP-utQ3lO8h",
+        "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/dinh-chinh-tt-89-2026-btc.signed.pdf"
+      }
+    ],
     "pdf_url": "/data/accounting-laws/tt-89-2026-1.pdf",
     "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=218974"
   },
@@ -1383,6 +1427,8 @@ export const INITIAL_DECREES: Decree[] = [
     "issued_date": "2026-10-29",
     "effective_date": "2026-10-29",
     "status": "active",
+    "text_status": "ocr-review",
+    "text_status_note": "Đã OCR 10/10 trang; trang 9 dưới ngưỡng tin cậy nội bộ, đối chiếu PDF trước khi trích dẫn.",
     "summary": "Nghị định 398/2026/NĐ-CP quy định chi tiết Nghị quyết 43/2026/QH16 về giảm thuế",
     "content_url": "/data/content/nd-398-2026.md",
     "pdf_drive_id": "1aO3PZKB-W5vBQMv6qLoAqBobkpOFOzgt",

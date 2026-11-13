@@ -11,6 +11,14 @@ export interface Decree {
   status: 'active' | 'expired' | 'amended' | 'replaced'
   source_url?: string
   pdf_drive_id?: string
+  pdf_attachments?: Array<{
+    label: string
+    pdf_url?: string
+    drive_id?: string
+    source_url?: string
+  }>
+  text_status?: 'ocr-available' | 'ocr-review' | 'partial' | 'unverified'
+  text_status_note?: string
   content_url?: string
   pdf_url?: string
   free_download_url?: string

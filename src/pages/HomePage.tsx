@@ -61,7 +61,7 @@ export function HomePage() {
           <div className="flex flex-wrap items-center justify-center gap-2 mb-4">
             <Badge variant="outline" className="bg-white/80 dark:bg-background/80 backdrop-blur-sm border-emerald-500/30 text-emerald-800 dark:text-emerald-300 px-3.5 py-1 rounded-full text-xs font-semibold shadow-xs">
               <Sparkles className="h-3 w-3 mr-1 text-emerald-600 inline" />
-              Dữ liệu Pháp luật & Kế toán 2026 ({LIBRARY_DOC_COUNT} Văn bản Toàn văn)
+              Dữ liệu Pháp luật & Kế toán 2026 ({LIBRARY_DOC_COUNT} văn bản; tình trạng trích xuất hiển thị tại từng mục)
             </Badge>
           </div>
 

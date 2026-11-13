@@ -401,7 +401,7 @@ export function LibraryPage() {
                   }}
                 >
                   <BookOpen className="h-4 w-4" />
-                  Xem toàn văn & Điều khoản
+                  Mở văn bản & Điều khoản
                 </Button>
               </div>
             </div>

@@ -224,6 +224,13 @@
       "effectiveDate": "2026-10-29",
       "checkedAt": "2026-11-13T06:59:54.309Z",
       "error": ""
+    },
+    "tt-20-2026": {
+      "source": "https://vanban.chinhphu.vn/?docid=217191&pageid=27160&typegroupid=6",
+      "issuedDate": "2026-03-12",
+      "effectiveDate": "2026-03-12",
+      "checkedAt": "2026-11-13T07:43:26.197Z",
+      "error": ""
     }
   }
 }
