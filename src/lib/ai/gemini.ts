@@ -107,7 +107,11 @@ export class GeminiService {
         const payload = JSON.parse(data);
         const candidate = payload.candidates?.[0];
         const parts = candidate?.content?.parts || [];
-        return parts.filter((part: any) => typeof part.text === 'string').map((part: any) => part.text);
+        const texts = parts.filter((part: any) => typeof part.text === 'string').map((part: any) => part.text);
+        if (candidate?.finishReason === 'MAX_TOKENS') {
+          texts.push('\n\n> ⚠️ Gemini đã chạm giới hạn độ dài nên câu trả lời có thể chưa hoàn chỉnh. Hãy yêu cầu tiếp tục từ phần cuối.');
+        }
+        return texts;
       } catch {
         throw new Error('Gemini trả về một sự kiện dữ liệu không đọc được.');
       }
