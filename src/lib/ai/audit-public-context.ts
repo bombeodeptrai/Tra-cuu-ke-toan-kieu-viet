@@ -41,6 +41,7 @@ export async function retrievePublicAuditSources(question: string, decrees: Decr
   const foldedExplicitNumber = explicitNumber ? fold(explicitNumber) : undefined;
   const asksDocumentOverview = /\b(?:pham vi|noi dung|quy dinh|dieu chinh|van ban nay|thong tu nay|nghi dinh nay|luat nay)\b/i.test(fold(question));
   const candidates: Array<{ id: string; label: string; link: string; text: string; score: number }> = [];
+  const requestedOpeningPages: Array<{ id: string; label: string; link: string; text: string; score: number }> = [];
   const failed = new Map<string, { count: number; pages: number[] }>();
   const addFailure = (id: string, page?: number) => {
     const item = failed.get(id) || { count: 0, pages: [] };
@@ -102,6 +103,9 @@ export async function retrievePublicAuditSources(question: string, decrees: Decr
             const label = `${document.number} — ${document.title} — trang ${page.page}/${file.pages}${effective ? ` — hiệu lực từ ${effective}` : ''}`;
             const exactDocument = foldedExplicitNumber && fold(document.number) === foldedExplicitNumber;
             const openingPagePriority = exactDocument && asksDocumentOverview && page.page <= 3 ? 60 : 0;
+            if (exactDocument && asksDocumentOverview && page.page <= 2) {
+              requestedOpeningPages.push({ id: document.id, label, link: `${local(file.localUrl)}#page=${page.page}`, text: page.text, score: 100 });
+            }
             add(document.id, label, `${local(file.localUrl)}#page=${page.page}`, page.text, openingPagePriority);
           }
         } catch {
@@ -115,17 +119,38 @@ export async function retrievePublicAuditSources(question: string, decrees: Decr
     ? manifest?.documents.find(document => fold(document.number) === foldedExplicitNumber)?.id
     : undefined;
   const openingPages = requestedDocumentId && asksDocumentOverview
-    ? candidates.filter(source => source.id === requestedDocumentId && /\btrang\s+[1-2]\//i.test(source.label))
+    ? requestedOpeningPages.filter(source => source.id === requestedDocumentId)
     : [];
   const chosen = openingPages.length
     ? openingPages.sort((left, right) => left.label.localeCompare(right.label, 'vi'))
     : candidates.sort((left, right) => right.score - left.score).slice(0, 12);
   const incomplete = [...failed.entries()].map(([id, item]) => `${id}: ${item.count} trang/nguồn bị loại${item.pages.length ? ` (ví dụ trang ${item.pages.join(', ')})` : ''}`).join('; ');
+  const openingTexts = new Map(openingPages.map(source => [Number(source.label.match(/\btrang\s+(\d+)\//i)?.[1]), source.text]));
+  const page1 = openingTexts.get(1) || '';
+  const page2 = openingTexts.get(2) || '';
+  const scopePart = (pageText: string, start: RegExp, end?: RegExp) => {
+    const startMatch = start.exec(pageText);
+    if (!startMatch || startMatch.index === undefined) return '';
+    const from = startMatch.index + startMatch[0].length;
+    const remainder = pageText.slice(from);
+    const endMatch = end?.exec(remainder);
+    return endMatch?.index !== undefined ? remainder.slice(0, endMatch.index) : remainder;
+  };
+  const page1Scope = scopePart(page1, /Điều\s+1[.:]/i);
+  const page2Scope = scopePart(page2, /^(?:\s*[:|—-]*\s*)/i, /Điều\s+2[.:]/i);
+  const numberedItems = (text: string) => [...text.matchAll(/(?:^|\n|\|)\s*[_*]*\s*(\d{1,2})\.\s+[A-ZÀ-Ỹ]/g)].map(match => Number(match[1]));
+  const page1Items = numberedItems(page1Scope);
+  const page2Items = numberedItems(page2Scope);
+  const page1LastItem = page1Items[page1Items.length - 1];
+  const page2LastItem = page2Items[page2Items.length - 1];
+  const continuationNotice = page1Items.length && page2Items.length && page1LastItem + 1 === page2Items[0]
+    ? `DANH SÁCH ĐIỀU 1 NỐI QUA TRANG: trang 1 kết thúc ở mục ${page1LastItem}; trang 2 tiếp tục từ mục ${page2Items[0]}${page2LastItem ? ` đến mục ${page2LastItem}` : ''}. Phải tổng hợp cả hai trang và dẫn cả hai trang.`
+    : '';
   const sourceText = chosen.length
     ? chosen.map(source => `[VB:${source.id}] ${source.label} | ${source.link}\n${source.text}`).join('\n\n')
     : 'KHÔNG TÌM ĐƯỢC ĐOẠN VĂN BẢN GỐC PHÙ HỢP. Không dùng summary/thẻ thư viện để thay thế căn cứ.';
   const overviewNotice = openingPages.length
-    ? `CÂU HỎI TỔNG QUAN: Đã truy xuất các trang mở đầu liên tiếp ${[...new Set(openingPages.map(source => source.label.match(/\btrang\s+(\d+)\//i)?.[1]).filter(Boolean))].join(', ')} của đúng văn bản. Hãy nối nội dung liệt kê từ trang này sang trang kế tiếp; chỉ xác nhận đầy đủ nếu danh sách đã khép trong các trang được cung cấp.`
+    ? `CÂU HỎI TỔNG QUAN: Đã truy xuất trực tiếp trang ${[...new Set(openingPages.map(source => source.label.match(/\btrang\s+(\d+)\//i)?.[1]).filter(Boolean))].join(' và trang ')} của đúng văn bản. Hãy đọc toàn bộ các trang này theo thứ tự và không dừng ở trang đầu. Chỉ xác nhận đầy đủ nếu danh sách đã khép trong các trang được cung cấp. ${continuationNotice}`
     : '';
   return `Nguồn chỉ là các đoạn trích phù hợp, không đại diện toàn bộ văn bản. Không suy ra điều khoản từ phần chưa truy xuất.\nNguồn/trang bị loại do thiếu dữ liệu hoặc OCR yếu: ${incomplete || 'không phát hiện trong lần truy xuất này'}.\n${overviewNotice}\n\n${sourceText}`;
 }
