@@ -105,7 +105,7 @@ async function runCrawler() {
     });
     const page = await browser.newPage();
     await page.setUserAgent(USER_AGENT);
-    await page.goto('https://thuvienphapluat.vn/chinh-sach-phap-luat-moi', { waitUntil: 'networkidle2', timeout: 30000 });
+    await page.goto('https://hethongphapluat.com/chinh-sach-phap-luat-moi', { waitUntil: 'networkidle2', timeout: 30000 });
     
     const pageText = await page.evaluate(() => document.body.innerText);
     await browser.close();

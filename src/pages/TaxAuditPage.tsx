@@ -1508,7 +1508,7 @@ Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết
               <span>{AUDIT_TEMPLATES.length} mẫu hồ sơ nội bộ theo nghiệp vụ</span>
             </div>
             <p className="text-xs text-muted-foreground leading-relaxed">
-              Trang bị đầy đủ thể thức văn bản hành chính theo quy chuẩn, trích dẫn chuẩn xác điều khoản của 55 văn bản quy phạm pháp luật, danh mục hồ sơ gốc bắt buộc kẹp kèm và lập luận đối thoại đanh thép bảo vệ giá vốn cho Công ty Cổ phần Kiểu Việt.
+              Trang bị đầy đủ thể thức văn bản hành chính theo quy chuẩn, trích dẫn chuẩn xác điều khoản của 84 văn bản quy phạm pháp luật, danh mục hồ sơ gốc bắt buộc kẹp kèm và lập luận đối thoại đanh thép bảo vệ giá vốn cho Công ty Cổ phần Kiểu Việt.
             </p>
           </div>
 

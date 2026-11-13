@@ -146,7 +146,7 @@ export function SettingsPage() {
             <div className="bg-primary/10 p-3 rounded-xl text-primary font-bold text-xl">KV</div>
             <div>
               <h3 className="font-bold text-lg">Kế Toán KV Tra Cứu</h3>
-              <p className="text-sm text-muted-foreground">Phiên bản 1.0.0</p>
+              <p className="text-sm text-muted-foreground">Phiên bản 1.0.1</p>
             </div>
           </div>
           <p className="text-sm text-muted-foreground mb-4">

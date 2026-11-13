@@ -1,5 +1,5 @@
 // Cơ sở dữ liệu Checklist Chuẩn Bị Kiểm Tra Thuế — Công ty Cổ phần Kiểu Việt
-// ĐẢM BẢO 100% ĐỦ CẢ 55 VĂN BẢN PHÁP LUẬT TRONG HỆ THỐNG
+// ĐẢM BẢO 100% ĐỦ CẢ 84 VĂN BẢN PHÁP LUẬT TRONG HỆ THỐNG
 
 export type CheckPriority = 'critical' | 'important' | 'recommended';
 export type CheckStatus = 'pending' | 'in-progress' | 'done';
@@ -46,7 +46,7 @@ export interface RiskQuestion {
 }
 
 
-// ===== 8 NHÓM CHUYÊN ĐỀ BAO PHỦ 100% CẢ 55 VĂN BẢN =====
+// ===== 8 NHÓM CHUYÊN ĐỀ BAO PHỦ 100% CẢ 84 VĂN BẢN =====
 
 export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
   // NHÓM 1: THUẾ THU NHẬP DOANH NGHIỆP (TNDN)
@@ -2900,7 +2900,7 @@ export const TIMELINE_PHASES: TimelinePhase[] = [
       {
         id: 't3-08',
         title: 'Rà soát lần cuối 55 mục danh mục hồ sơ và 15 câu hỏi rủi ro trên hệ thống',
-        legalBase: 'Toàn văn 55 văn bản pháp luật kế toán, thuế và khoáng sản Kiểu Việt',
+        legalBase: 'Toàn văn 84 văn bản pháp luật kế toán, thuế và khoáng sản Kiểu Việt',
         decreeId: 'luat-quan-ly-thue-2019',
         articleNum: '110',
         decreeLabel: 'Hệ thống 55 VBPL Kiểu Việt',

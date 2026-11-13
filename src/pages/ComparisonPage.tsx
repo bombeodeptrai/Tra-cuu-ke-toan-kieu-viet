@@ -24,7 +24,7 @@ const TAX_CATEGORIES: TaxCategory[] = [
     name: 'Tất cả sắc thuế',
     icon: Layers,
     count: 55,
-    description: 'Toàn bộ 55 văn bản pháp luật kế toán, thuế và xây lắp được đối chiếu chuẩn mực',
+    description: 'Toàn bộ 84 văn bản pháp luật kế toán, thuế và xây lắp được đối chiếu chuẩn mực',
     decrees: []
   },
   {
@@ -201,7 +201,7 @@ export function ComparisonPage() {
             Trung Tâm Đối Chiếu Pháp Lý Theo Sắc Thuế & Chuyên Đề
           </h1>
           <p className="text-sm text-muted-foreground mt-1 max-w-3xl">
-            Cơ sở dữ liệu 662 điểm thay đổi chuyên sâu trên <strong>100% cả 55 văn bản pháp luật</strong>. Toàn bộ đối chiếu được phân nhóm chặt chẽ theo từng <strong>sắc thuế và lĩnh vực nghiệp vụ tương ứng</strong>, chỉ so sánh giữa văn bản hiện hành và văn bản tiền nhiệm cùng lĩnh vực.
+            Cơ sở dữ liệu 662 điểm thay đổi chuyên sâu trên <strong>100% cả 84 văn bản pháp luật</strong>. Toàn bộ đối chiếu được phân nhóm chặt chẽ theo từng <strong>sắc thuế và lĩnh vực nghiệp vụ tương ứng</strong>, chỉ so sánh giữa văn bản hiện hành và văn bản tiền nhiệm cùng lĩnh vực.
           </p>
         </div>
       </div>

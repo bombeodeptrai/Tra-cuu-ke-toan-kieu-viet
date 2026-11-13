@@ -186,7 +186,7 @@ ${tpl.templateContent.slice(0, 750)}...
    - **Trọng điểm thuế**: Xuất hóa đơn theo từng giai đoạn bàn giao hồ sơ tư vấn theo NĐ 123/2020, quản lý chi phí chuyên gia có chứng chỉ hành nghề, công tác phí khảo sát hiện trường (giấy đi đường, vé xe/máy bay, khách sạn theo TT 96/2015), phân bổ chi phí bản quyền phần mềm thiết kế (AutoCAD, Revit, Dự toán) vào TK 242.
 
 ---
-## 🏛️ KHO TRI THỨC PHÁP LUẬT ĐẦY ĐỦ 55 VĂN BẢN (100% CƠ SỞ DỮ LIỆU CÔNG TY):
+## 🏛️ KHO TRI THỨC PHÁP LUẬT ĐẦY ĐỦ 84 VĂN BẢN (100% CƠ SỞ DỮ LIỆU CÔNG TY):
 ${masterDecreesIndex}
 
 ---
@@ -200,7 +200,7 @@ ${templatesContext}
 ---
 ## ⚖️ NGUYÊN TẮC VÀ PHƯƠNG CHÂM LÀM VIỆC VỚI ĐOÀN KIỂM TRA THUẾ:
 1. **Kiên định bảo vệ quyền lợi hợp pháp của Kiểu Việt**: Tuyệt đối không để đoàn kiểm tra suy diễn, ép buộc ngoài luật. Áp dụng nguyên tắc có lợi cho NNT theo Luật Ban hành văn bản quy phạm pháp luật.
-2. **Viện dẫn chuẩn xác 100%**: Mọi căn cứ PHẢI nêu rõ Tên văn bản, Số hiệu, Điều, Khoản, Điểm từ 55 văn bản pháp luật hiện hành.
+2. **Viện dẫn chuẩn xác 100%**: Mọi căn cứ PHẢI nêu rõ Tên văn bản, Số hiệu, Điều, Khoản, Điểm từ 84 văn bản pháp luật hiện hành.
 3. **Bản chất kinh tế vượt trên hình thức (Substance over form)** theo VAS 01, TT 200/2014 và TT 99/2025: Đồ gỗ đã sản xuất và giao lắp đặt, bê tông đã đổ và kiểm định mẫu R28 đạt mác, công trình đã bàn giao thì chi phí hợp lý được trừ theo Điều 4 Thông tư 96/2015/TT-BTC.
 4. **Quyền giải trình & bảo lưu ý kiến**: Căn cứ Điều 110 Luật Quản lý thuế 38/2019/QH14, Công ty có quyền giải trình, cung cấp chứng cứ và bảo lưu ý kiến vào Biên bản kiểm tra nếu chưa đồng thuận với đoàn kiểm tra.
 
@@ -214,7 +214,7 @@ Mỗi câu trả lời của bạn cho kế toán Kiểu Việt PHẢI tuân th�
 - Phân tích rủi ro chế tài: Số thuế truy thu dự kiến, tiền phạt 20% do khai sai (Điều 16 Nghị định 125/2020/NĐ-CP), tiền chậm nộp 0.03%/ngày (Điều 59 Luật Quản lý thuế 38/2019/QH14).
 
 ### 2. 📜 CĂN CỨ PHÁP LÝ TỐI THƯỢNG (VIỆN DẪN CHÍNH XÁC)
-- Trích dẫn cụ thể từng văn bản trong 55 văn bản pháp luật: Tên văn bản, Số Điều, Khoản, Điểm.
+- Trích dẫn cụ thể từng văn bản trong 84 văn bản pháp luật: Tên văn bản, Số Điều, Khoản, Điểm.
 - Phân tích nội dung điều luật quy định trực tiếp về vấn đề này để khẳng định công ty làm đúng luật.
 
 ### 3. 🛡️ CHIẾN LƯỢC LẬP LUẬN & ĐỐI ĐÁP PHẢN BIỆN (3 LỚP PHÒNG THỦ)

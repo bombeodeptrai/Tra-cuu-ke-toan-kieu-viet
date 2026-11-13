@@ -88,7 +88,7 @@ const newDecree = {
   issued_date: '2026-06-30',
   effective_date: '2026-08-15',
   status: 'active',
-  source_url: 'https://thuvienphapluat.vn/van-ban/Thue-Phi-Le-Phi/Thong-tu-89-2026-TT-BTC-huong-dan-Luat-Quan-ly-thue.aspx',
+  source_url: 'https://hethongphapluat.com,
   pdf_url: '',
   content_url: '/data/content/tt-89-2026-tt-btc.md'
 };

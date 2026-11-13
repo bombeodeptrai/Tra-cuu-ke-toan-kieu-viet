@@ -73,10 +73,8 @@ export function Sidebar({ onClose }: SidebarProps) {
             </div>
           </a>
           
-          <a
-            href="https://abs-variation-nathan-clan.trycloudflare.com"
-            target="_blank"
-            rel="noopener noreferrer"
+          <NavLink
+            to="/tien-ich"
             onClick={onClose}
             className="group relative flex items-center justify-center gap-2 rounded-xl p-0.5 transition-all duration-300 hover:scale-[1.02] shadow-md hover:shadow-lg active:scale-95"
           >
@@ -86,7 +84,7 @@ export function Sidebar({ onClose }: SidebarProps) {
               <span className="font-bold text-sm tracking-wide">PHÂN TÍCH TÀI CHÍNH</span>
               <Sparkles className="h-4 w-4 text-emerald-100 absolute top-2 right-2 animate-pulse" />
             </div>
-          </a>
+          </NavLink>
           
           <a
             href="https://bombeodeptrai.github.io/Doc-chu-viet-tay-cham-cong/"

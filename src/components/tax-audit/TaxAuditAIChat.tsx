@@ -391,7 +391,7 @@ export function TaxAuditAIChat() {
               </div>
               <div className="bg-card border border-border rounded-2xl rounded-tl-none px-4 py-3 text-xs flex items-center gap-2 text-muted-foreground">
                 <Sparkles className="h-3.5 w-3.5 text-emerald-600 animate-spin" />
-                <span>Đang tra cứu cơ sở dữ liệu 55 văn bản & lập luận phản biện...</span>
+                <span>Đang tra cứu cơ sở dữ liệu 84 văn bản & lập luận phản biện...</span>
               </div>
             </div>
           )}
