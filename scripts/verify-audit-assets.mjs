@@ -9,4 +9,16 @@ for(const d of m.documents){if(!metadata.documents[d.id])throw Error('Missing me
  for(const p of text.pages)if(p.text.length<30)ocrReview.push({id:d.id,file:f.localUrl,page:p.page});
  if(!f.driveUrl?.startsWith('https://drive.google.com/file/d/'))throw Error('Missing actual Drive file link '+d.id);count++;pages+=f.pages;
  }}
+// --- Kiểm tra bổ sung (13/11/2026): nguồn cấm, đồng bộ bản sao, lỗi chuyển đổi, phiên bản ---
+{const problems=[];const BANNED=/thuvienphapluat\.vn/i;const SITE_JUNK=/(Đang theo dõi|Bạn chưa Đăng nhập|data-href=|Chính sách bảo mật\s*\n)/;const INWORD=/[\p{L}\p{N}]__[\p{L}\p{N}]/u;
+ if(BANNED.test(JSON.stringify(core)))problems.push('decrees.json còn link thuvienphapluat.vn');
+ for(const d of core)if(/^https?:\/\/[^/]+\/?$/.test(d.source_url||''))problems.push('source_url chỉ là trang chủ: '+d.id);
+ const ts=fs.readFileSync('src/data/initial-decrees.ts','utf8');const init=JSON.parse(ts.slice(ts.indexOf('= [')+2,ts.lastIndexOf(']')+1));
+ if(JSON.stringify(init)!==JSON.stringify(core))problems.push('src/data/initial-decrees.ts không khớp public/data/decrees.json');
+ const files=fs.readdirSync('public/data/content').filter(f=>f.endsWith('.md'));const used=new Set(core.map(d=>d.content_url.split('/').pop()));
+ for(const f of files){if(!used.has(f))problems.push('File .md thừa (không có trong CSDL): '+f);const txt=fs.readFileSync('public/data/content/'+f,'utf8');
+  if(BANNED.test(txt))problems.push('Còn link thuvienphapluat.vn: '+f);if(SITE_JUNK.test(txt))problems.push('Còn rác website: '+f);if(INWORD.test(txt))problems.push('Còn ký tự "__" chen giữa chữ: '+f);}
+ const pkg=JSON.parse(fs.readFileSync('package.json','utf8'));const cst=fs.readFileSync('src/lib/utils/constants.ts','utf8').match(/APP_VERSION = '([^']+)'/);
+ if(!cst||cst[1]!==pkg.version)problems.push('APP_VERSION trong constants.ts khác version package.json');
+ if(problems.length){console.error(problems.join('\n'));throw Error(problems.length+' lỗi dữ liệu');}}
 console.log(JSON.stringify({core:core.length,supplemental:m.documents.length,originalFiles:count,pages,ocrReviewCount:ocrReview.length,ocrReviewSample:ocrReview.slice(0,5),legalCertification:false},null,2));

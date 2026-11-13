@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { useSettingsStore } from '@/stores/settings-store';
 import { useToast } from '@/components/ui/use-toast';
+import { APP_VERSION } from '@/lib/utils/constants';
 
 export function SettingsPage() {
   const { theme, setTheme, geminiApiKey, setGeminiKey, sheetsApiKey, setSheetsKey } = useSettingsStore();
@@ -146,7 +147,7 @@ export function SettingsPage() {
             <div className="bg-primary/10 p-3 rounded-xl text-primary font-bold text-xl">KV</div>
             <div>
               <h3 className="font-bold text-lg">Kế Toán KV Tra Cứu</h3>
-              <p className="text-sm text-muted-foreground">Phiên bản 1.0.1</p>
+              <p className="text-sm text-muted-foreground">Phiên bản {APP_VERSION}</p>
             </div>
           </div>
           <p className="text-sm text-muted-foreground mb-4">

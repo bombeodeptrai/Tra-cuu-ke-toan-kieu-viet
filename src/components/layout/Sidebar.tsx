@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Building2, LayoutDashboard, Library, Search, MessageSquareText, Settings, BookOpen, Download, LineChart, ScanText, Sparkles, LogOut, HelpCircle, Calculator, ArrowRightLeft, ShieldCheck, Stethoscope } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import { APP_NAME } from '@/lib/utils/constants';
+import { APP_NAME, APP_VERSION } from '@/lib/utils/constants';
 import { useUserStore } from '@/stores/user-store';
 
 interface SidebarProps {
@@ -116,7 +116,7 @@ export function Sidebar({ onClose }: SidebarProps) {
           </div>
         )}
         <div className="flex items-center justify-between text-xs text-muted-foreground">
-          <span>Phiên bản 1.0.1</span>
+          <span>Phiên bản {APP_VERSION}</span>
           <a href="#" className="hover:text-primary transition-colors">GitHub</a>
         </div>
       </div>

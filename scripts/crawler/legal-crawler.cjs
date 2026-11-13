@@ -177,13 +177,9 @@ async function runCrawler() {
   if (newDecreesFound.length > 0) {
     console.log(`\n🎉 ĐÃ CÀO THÀNH CÔNG ${newDecreesFound.length} VĂN BẢN MỚI!`);
     
-    // Save to decrees.json
-    const updatedDecrees = [...newDecreesFound, ...currentDecrees];
-    fs.writeFileSync(DECREES_JSON_PATH, JSON.stringify(updatedDecrees, null, 2), 'utf8');
-
-    // Update initial-decrees.ts
-    const tsCode = `import { Decree } from '@/types/decree';\n\nexport const INITIAL_DECREES: Decree[] = ${JSON.stringify(updatedDecrees, null, 2)};\n`;
-    fs.writeFileSync(INITIAL_DECREES_PATH, tsCode, 'utf8');
+    // KHÔNG tự ghi vào decrees.json / initial-decrees.ts: bản ghi phát hiện tự động chưa có
+    // toàn văn, PDF gốc và chưa được người duyệt. Chỉ gửi danh sách để kế toán xem xét và nhập thủ công.
+    newDecreesFound.forEach(d => console.log(`  - Chờ duyệt: ${d.decree_number} (${d.source_url})`));
 
     // Trigger Google Apps Script to send Email Notifications
     console.log('\n📧 Đang kích hoạt Google Apps Script gửi Email thông báo tự động...');
@@ -210,7 +206,7 @@ async function runCrawler() {
       console.warn('[EMAIL NOTIFICATION SKIPPED/OFFLINE]', err.message);
     }
   } else {
-    console.log('\n✅ Toàn bộ 39 văn bản pháp luật hiện tại đã là MỚI NHẤT và ĐỒNG BỘ 100%.');
+    console.log(`\n✅ Không phát hiện văn bản mới. CSDL hiện có ${currentDecrees.length} văn bản.`);
   }
 
   console.log('\n====================================================');

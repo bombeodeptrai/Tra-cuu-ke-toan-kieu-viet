@@ -1,5 +1,5 @@
 // Cơ sở dữ liệu Checklist Chuẩn Bị Kiểm Tra Thuế — Công ty Cổ phần Kiểu Việt
-// ĐẢM BẢO 100% ĐỦ CẢ 84 VĂN BẢN PHÁP LUẬT TRONG HỆ THỐNG
+// Mỗi mục checklist trỏ tới một văn bản có trong public/data/decrees.json
 
 export type CheckPriority = 'critical' | 'important' | 'recommended';
 export type CheckStatus = 'pending' | 'in-progress' | 'done';
@@ -9,7 +9,7 @@ export interface ChecklistItem {
   title: string;
   description: string;
   priority: CheckPriority;
-  decreeId: string;        // ID văn bản trong hệ thống 55 VB (Chính xác 1-1)
+  decreeId: string;        // ID văn bản trong public/data/decrees.json (Chính xác 1-1)
   articleNum?: string;     // Số Điều để deep-link
   decreeLabel: string;     // Tên rút gọn văn bản
   phase: 1 | 2 | 3;       // Giai đoạn 30/15/7 ngày
@@ -34,7 +34,7 @@ export interface RiskQuestion {
   id: string;
   question: string;
   weight: number;          // 1-5 điểm rủi ro
-  decreeId: string;        // ID văn bản trong hệ thống 55 VB (Chính xác 1-1)
+  decreeId: string;        // ID văn bản trong public/data/decrees.json (Chính xác 1-1)
   decreeTitle: string;     // Tên chính thức đầy đủ của văn bản pháp luật
   articleNum: string;      // Số Điều để deep-link (ví dụ: "42", "15", "8"...)
   articleRef: string;      // Nhãn Điều Khoản cụ thể
@@ -46,7 +46,7 @@ export interface RiskQuestion {
 }
 
 
-// ===== 8 NHÓM CHUYÊN ĐỀ BAO PHỦ 100% CẢ 84 VĂN BẢN =====
+// ===== 8 NHÓM CHUYÊN ĐỀ CHECKLIST =====
 
 export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
   // NHÓM 1: THUẾ THU NHẬP DOANH NGHIỆP (TNDN)
@@ -2900,10 +2900,10 @@ export const TIMELINE_PHASES: TimelinePhase[] = [
       {
         id: 't3-08',
         title: 'Rà soát lần cuối 55 mục danh mục hồ sơ và 15 câu hỏi rủi ro trên hệ thống',
-        legalBase: 'Toàn văn 84 văn bản pháp luật kế toán, thuế và khoáng sản Kiểu Việt',
+        legalBase: 'Toàn văn các văn bản pháp luật kế toán, thuế và khoáng sản trong thư viện Kiểu Việt',
         decreeId: 'luat-quan-ly-thue-2019',
         articleNum: '110',
-        decreeLabel: 'Hệ thống 55 VBPL Kiểu Việt',
+        decreeLabel: 'Thư viện VBPL Kiểu Việt',
         actionGuide: 'Truy cập tab Checklist Hồ Sơ (55 mục) và Bộ Câu Hỏi Rủi Ro (15 điểm nóng), kiểm tra trạng thái từng mục. Đảm bảo 100% hồ sơ bắt buộc (critical) đã có chứng từ kẹp cùng; các rủi ro đã có phương án giải trình dự phòng.',
         requiredDossier: [
           'Báo cáo tự đánh giá rủi ro thanh tra thuế Kiểu Việt (in từ hệ thống)',

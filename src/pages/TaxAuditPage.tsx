@@ -32,6 +32,7 @@ import { AuditRequestLog } from '@/components/tax-audit/AuditWorkLog';
 import { FolderArchive } from 'lucide-react';
 import { AuditLegalLibrary } from '@/components/tax-audit/AuditLegalLibrary';
 import { AuditPreparationDesk } from '@/components/tax-audit/AuditPreparationDesk';
+import { LIBRARY_DOC_COUNT } from '@/lib/utils/corpus-stats';
 
 import { useLiveQuery } from 'dexie-react-hooks';
 import { auditDb, newId } from '@/lib/audit/workspace';
@@ -357,7 +358,7 @@ Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết
                 <span>Phòng Thủ & Giải Trình</span>
               </div>
               <p className="text-muted-foreground leading-relaxed text-[11px]">
-                Khai thác 15 mẫu văn bản giải trình hành chính, tra cứu 84 văn bản gốc và kích hoạt Trợ lý AI để luyện tập bảo vệ số liệu.
+                Khai thác 15 mẫu văn bản giải trình hành chính, tra cứu {LIBRARY_DOC_COUNT} văn bản gốc và kích hoạt Trợ lý AI để luyện tập bảo vệ số liệu.
               </p>
             </div>
           </div>
@@ -441,7 +442,7 @@ Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết
               <span className="text-sm text-muted-foreground">nhóm chuyên đề</span>
             </div>
             <p className="text-[11px] text-muted-foreground">
-              55 mục rà soát theo 84 văn bản pháp luật hiện hành
+              55 mục rà soát theo {LIBRARY_DOC_COUNT} văn bản pháp luật hiện hành
             </p>
           </CardContent>
         </Card>
@@ -545,7 +546,7 @@ Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết
                   className="rounded-lg text-xs font-medium py-2 px-3 justify-start gap-2 data-[state=active]:bg-purple-600 data-[state=active]:text-white shadow-none transition-all"
                 >
                   <BookOpen className="h-3.5 w-3.5 shrink-0" />
-                  <span className="truncate">Kho luật bổ sung (84 văn bản)</span>
+                  <span className="truncate">Kho luật bổ sung (bản gốc PDF)</span>
                 </TabsTrigger>
               </div>
             </div>
@@ -1508,7 +1509,7 @@ Hãy đóng vai Kế toán trưởng giàu kinh nghiệm, phân tích chi tiết
               <span>{AUDIT_TEMPLATES.length} mẫu hồ sơ nội bộ theo nghiệp vụ</span>
             </div>
             <p className="text-xs text-muted-foreground leading-relaxed">
-              Trang bị đầy đủ thể thức văn bản hành chính theo quy chuẩn, trích dẫn chuẩn xác điều khoản của 84 văn bản quy phạm pháp luật, danh mục hồ sơ gốc bắt buộc kẹp kèm và lập luận đối thoại đanh thép bảo vệ giá vốn cho Công ty Cổ phần Kiểu Việt.
+              Trang bị đầy đủ thể thức văn bản hành chính theo quy chuẩn, trích dẫn chuẩn xác điều khoản của {LIBRARY_DOC_COUNT} văn bản quy phạm pháp luật, danh mục hồ sơ gốc bắt buộc kẹp kèm và lập luận đối thoại đanh thép bảo vệ giá vốn cho Công ty Cổ phần Kiểu Việt.
             </p>
           </div>
 

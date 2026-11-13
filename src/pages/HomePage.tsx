@@ -11,6 +11,7 @@ import { format } from 'date-fns';
 import { vi } from 'date-fns/locale';
 import { cn } from '@/lib/utils';
 import { motion } from 'framer-motion';
+import { LIBRARY_DOC_COUNT, DIFF_DOC_COUNT } from '@/lib/utils/corpus-stats';
 
 export function HomePage() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -60,7 +61,7 @@ export function HomePage() {
           <div className="flex flex-wrap items-center justify-center gap-2 mb-4">
             <Badge variant="outline" className="bg-white/80 dark:bg-background/80 backdrop-blur-sm border-emerald-500/30 text-emerald-800 dark:text-emerald-300 px-3.5 py-1 rounded-full text-xs font-semibold shadow-xs">
               <Sparkles className="h-3 w-3 mr-1 text-emerald-600 inline" />
-              Dữ liệu Pháp luật & Kế toán 2026 (84 Văn bản Toàn văn)
+              Dữ liệu Pháp luật & Kế toán 2026 ({LIBRARY_DOC_COUNT} Văn bản Toàn văn)
             </Badge>
           </div>
 
@@ -72,7 +73,7 @@ export function HomePage() {
           </h1>
 
           <p className="text-sm sm:text-base md:text-lg text-muted-foreground mb-8 max-w-2xl font-normal leading-relaxed">
-            Tra cứu tức thì 84 văn bản quy phạm pháp luật kế toán, chính sách thuế, tiền lương - BHXH và hợp đồng chi phí đầu tư xây dựng phục vụ thực tế cho toàn thể cán bộ nhân viên Kiểu Việt.
+            Tra cứu tức thì {LIBRARY_DOC_COUNT} văn bản quy phạm pháp luật kế toán, chính sách thuế, tiền lương - BHXH và hợp đồng chi phí đầu tư xây dựng phục vụ thực tế cho toàn thể cán bộ nhân viên Kiểu Việt.
           </p>
 
           <form onSubmit={handleSearch} className="w-full max-w-2xl relative group flex items-center">
@@ -168,15 +169,15 @@ export function HomePage() {
               <ArrowRightLeft className="w-5 h-5 text-teal-600" />
             </div>
             <h3 className="font-bold text-sm text-foreground group-hover:text-teal-700 transition-colors flex items-center justify-between">
-              Đối Chiếu Điểm Mới (Toàn Bộ 84 Văn Bản)
+              Đối Chiếu Điểm Mới ({DIFF_DOC_COUNT} Văn Bản)
               <ArrowUpRight className="w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity text-teal-600" />
             </h3>
             <p className="text-xs text-muted-foreground mt-1 line-clamp-2">
-              Kho so sánh quy định Cũ vs Mới toàn bộ 84 văn bản: Kế toán, Thuế, BHXH, Xây dựng, Khoáng sản...
+              Kho so sánh quy định Cũ vs Mới của {DIFF_DOC_COUNT}/{LIBRARY_DOC_COUNT} văn bản: Kế toán, Thuế, BHXH, Xây dựng, Khoáng sản...
             </p>
           </div>
           <span className="text-[11px] text-teal-700 dark:text-teal-400 font-semibold mt-3 flex items-center gap-1">
-            Mở kho đối chiếu 84 văn bản &rarr;
+            Mở kho đối chiếu {DIFF_DOC_COUNT} văn bản &rarr;
           </span>
         </div>
 

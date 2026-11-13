@@ -9,6 +9,7 @@ import { DecreeCard } from '@/components/decree/DecreeCard';
 import { useDecreeStore } from '@/stores/decree-store';
 import { useDecrees } from '@/hooks/useDecrees';
 import { Decree } from '@/types/decree';
+import { DIFF_DOC_COUNT } from '@/lib/utils/corpus-stats';
 
 export function LibraryPage() {
   const [searchParams] = useSearchParams();
@@ -59,7 +60,7 @@ export function LibraryPage() {
             className="gap-2 text-xs font-semibold border-emerald-300 text-emerald-700 bg-emerald-50 hover:bg-emerald-100 dark:bg-emerald-950/40 dark:border-emerald-800 dark:text-emerald-300 h-9"
           >
             <ArrowRightLeft className="h-4 w-4 text-emerald-600" />
-            Xem So Sánh Điểm Mới (Toàn Bộ 84 Văn Bản)
+            Xem So Sánh Điểm Mới ({DIFF_DOC_COUNT} Văn Bản)
           </Button>
           <div className="flex items-center gap-1 border border-border p-0.5 rounded-lg bg-muted/40">
             <Button 

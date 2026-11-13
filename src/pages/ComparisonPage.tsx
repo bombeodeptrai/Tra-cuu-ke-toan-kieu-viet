@@ -8,6 +8,7 @@ import { DecreeDiffViewer } from '@/components/decree/DecreeDiffViewer';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
+import { LIBRARY_DOC_COUNT, DIFF_DOC_COUNT, DIFF_ITEM_COUNT } from '@/lib/utils/corpus-stats';
 
 interface TaxCategory {
   id: string;
@@ -23,8 +24,8 @@ const TAX_CATEGORIES: TaxCategory[] = [
     id: 'all',
     name: 'Tất cả sắc thuế',
     icon: Layers,
-    count: 55,
-    description: 'Toàn bộ 84 văn bản pháp luật kế toán, thuế và xây lắp được đối chiếu chuẩn mực',
+    count: DIFF_DOC_COUNT,
+    description: `${DIFF_DOC_COUNT} văn bản pháp luật kế toán, thuế và xây lắp có dữ liệu đối chiếu điểm mới`,
     decrees: []
   },
   {
@@ -201,7 +202,7 @@ export function ComparisonPage() {
             Trung Tâm Đối Chiếu Pháp Lý Theo Sắc Thuế & Chuyên Đề
           </h1>
           <p className="text-sm text-muted-foreground mt-1 max-w-3xl">
-            Cơ sở dữ liệu 662 điểm thay đổi chuyên sâu trên <strong>100% cả 84 văn bản pháp luật</strong>. Toàn bộ đối chiếu được phân nhóm chặt chẽ theo từng <strong>sắc thuế và lĩnh vực nghiệp vụ tương ứng</strong>, chỉ so sánh giữa văn bản hiện hành và văn bản tiền nhiệm cùng lĩnh vực.
+            Cơ sở dữ liệu {DIFF_ITEM_COUNT} điểm thay đổi chuyên sâu trên <strong>{DIFF_DOC_COUNT}/{LIBRARY_DOC_COUNT} văn bản pháp luật</strong> của thư viện. Toàn bộ đối chiếu được phân nhóm chặt chẽ theo từng <strong>sắc thuế và lĩnh vực nghiệp vụ tương ứng</strong>, chỉ so sánh giữa văn bản hiện hành và văn bản tiền nhiệm cùng lĩnh vực.
           </p>
         </div>
       </div>

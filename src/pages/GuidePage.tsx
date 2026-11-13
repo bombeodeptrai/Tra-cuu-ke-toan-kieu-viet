@@ -10,6 +10,7 @@ import {
 } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
+import { LIBRARY_DOC_COUNT, DIFF_DOC_COUNT, DIFF_ITEM_COUNT } from '@/lib/utils/corpus-stats';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useNavigate } from 'react-router-dom';
@@ -41,9 +42,9 @@ export function GuidePage() {
     { id: 'audit-defense', title: '5. 15 Mẫu giải trình & 15 Kịch bản đối thoại', category: 'audit', icon: FileSpreadsheet },
     { id: 'audit-rights', title: '6. 8 Quyền pháp lý & 8 Kỹ năng tiếp đoàn', category: 'audit', icon: Scale },
     { id: 'audit-reconcile', title: '7. Đối chiếu sổ sách (511, 154, 635, 335, 229)', category: 'audit', icon: ArrowRightLeft },
-    { id: 'search-library', title: '8. Thư viện 84 văn bản & Tải PDF Drive', category: 'legal', icon: Layers },
+    { id: 'search-library', title: `8. Thư viện ${LIBRARY_DOC_COUNT} văn bản & Tải PDF Drive`, category: 'legal', icon: Layers },
     { id: 'smart-toc', title: '9. Trình đọc luật thông minh & Sticky TOC', category: 'legal', icon: FileText },
-    { id: 'legal-diff', title: '10. Trung tâm đối chiếu điểm mới (84 văn bản)', category: 'legal', icon: RefreshCw },
+    { id: 'legal-diff', title: `10. Trung tâm đối chiếu điểm mới (${DIFF_DOC_COUNT} văn bản)`, category: 'legal', icon: RefreshCw },
     { id: 'calculators', title: '11. Bộ tiện ích tính thuế & lương 2026', category: 'tools', icon: Calculator },
     { id: 'chart-accounts', title: '12. Hệ thống tài khoản TT 99/2025/TT-BTC', category: 'tools', icon: BookOpen },
     { id: 'ai-assistant', title: '13. Trợ lý AI pháp lý & Bóc tách hóa đơn', category: 'ai', icon: MessageSquareText },
@@ -98,7 +99,7 @@ export function GuidePage() {
               variant="outline"
               className="bg-white/10 hover:bg-white/20 text-white border-white/30 text-xs sm:text-sm h-10 px-4 rounded-xl gap-2 cursor-pointer"
             >
-              <Layers className="h-4 w-4" /> Thư Viện 84 Văn Bản
+              <Layers className="h-4 w-4" /> Thư Viện {LIBRARY_DOC_COUNT} Văn Bản
             </Button>
 
             <Button 
@@ -378,7 +379,7 @@ export function GuidePage() {
                     </div>
                     <div className="p-2 rounded-lg bg-card border border-border text-foreground font-medium flex items-center gap-2">
                       <BookOpen className="h-3.5 w-3.5 text-purple-600" />
-                      <span>Kho Luật Bổ Sung (84 Văn Bản Pháp Luật)</span>
+                      <span>Kho Luật Bổ Sung (bản gốc PDF có số trang)</span>
                     </div>
                   </div>
                 </div>
@@ -813,7 +814,7 @@ export function GuidePage() {
           </section>
 
           {/* ========================================================================= */}
-          {/* MỤC 8: THƯ VIỆN 84 VĂN BẢN & TẢI PDF GOOGLE DRIVE */}
+          {/* MỤC 8: THƯ VIỆN VĂN BẢN & TẢI PDF GOOGLE DRIVE */}
           {/* ========================================================================= */}
           <section id="search-library" className="space-y-4 scroll-mt-24">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-border pb-3">
@@ -823,7 +824,7 @@ export function GuidePage() {
                 </div>
                 <div>
                   <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">
-                    8. Thư Viện 84 Văn Bản & Cơ Chế Tải PDF Google Drive
+                    8. Thư Viện {LIBRARY_DOC_COUNT} Văn Bản & Cơ Chế Tải PDF Google Drive
                   </h2>
                   <p className="text-xs text-muted-foreground">Tra cứu toàn văn chuẩn, phân loại 5 chuyên đề và tải file PDF chính thức tốc độ cao</p>
                 </div>
@@ -840,7 +841,7 @@ export function GuidePage() {
             </div>
 
             <p className="text-sm leading-relaxed text-muted-foreground">
-              Kho thư viện bao phủ <strong>84 văn bản pháp luật nền tảng</strong> (và 29 văn bản chuyên ngành bổ sung trong Kho luật thuế) thuộc 5 nhóm chuyên đề:
+              Kho thư viện bao phủ <strong>{LIBRARY_DOC_COUNT} văn bản pháp luật</strong> (gồm văn bản nền tảng và văn bản chuyên ngành bổ sung trong Kho luật thuế) thuộc 5 nhóm chuyên đề:
             </p>
 
             <div className="p-4 bg-card border border-border rounded-xl space-y-2.5 text-xs">
@@ -918,7 +919,7 @@ export function GuidePage() {
                 </div>
                 <div>
                   <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-foreground">
-                    10. Trung Tâm Đối Chiếu Điểm Mới (Toàn Bộ 84 Văn Bản)
+                    10. Trung Tâm Đối Chiếu Điểm Mới ({DIFF_DOC_COUNT} Văn Bản)
                   </h2>
                   <p className="text-xs text-muted-foreground">So sánh 2 cột Cũ vs Mới và phân tích tác động rủi ro tài chính của Kiểu Việt</p>
                 </div>
@@ -935,7 +936,7 @@ export function GuidePage() {
             </div>
 
             <p className="text-sm leading-relaxed text-muted-foreground">
-              Bao phủ trọn vẹn <strong>100% cả 84 văn bản pháp luật</strong>, đối chiếu 2 cột song song kèm phân tích tác động thực tế cho Công ty Kiểu Việt:
+              Bao phủ <strong>{DIFF_DOC_COUNT}/{LIBRARY_DOC_COUNT} văn bản pháp luật</strong> có dữ liệu đối chiếu, đối chiếu 2 cột song song kèm phân tích tác động thực tế cho Công ty Kiểu Việt:
             </p>
 
             <div className="p-4 bg-card border border-border rounded-xl space-y-3 text-xs">
@@ -1182,7 +1183,7 @@ export function GuidePage() {
                 Sẵn Sàng Làm Chủ Nghiệp Vụ Kế Toán Kiểu Việt?
               </h4>
               <p className="text-xs text-muted-foreground mt-0.5">
-                Bắt đầu rà soát ca kiểm tra thuế hoặc tra cứu thư viện 84 văn bản pháp luật ngay bây giờ.
+                Bắt đầu rà soát ca kiểm tra thuế hoặc tra cứu thư viện {LIBRARY_DOC_COUNT} văn bản pháp luật ngay bây giờ.
               </p>
             </div>
             <div className="flex items-center gap-3 shrink-0">

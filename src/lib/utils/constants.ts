@@ -1,6 +1,7 @@
 import { Category } from '@/types/decree'
 
 export const APP_NAME = 'Kế Toán KV Tra Cứu'
+export const APP_VERSION = '1.0.1' // phải trùng "version" trong package.json (verify-audit-assets kiểm tra)
 export const APP_DESCRIPTION = 'Tra cứu nghị định kế toán tài chính Việt Nam - Hỗ trợ bởi AI'
 
 export const CATEGORIES: Category[] = [

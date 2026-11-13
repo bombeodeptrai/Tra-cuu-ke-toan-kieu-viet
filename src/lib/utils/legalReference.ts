@@ -7,7 +7,7 @@ export interface ArticleCitation {
   docTitle?: string;
 }
 
-// Bảng ánh xạ số hiệu/tên văn bản sang ID trong cơ sở dữ liệu 84 văn bản
+// Bảng ánh xạ số hiệu/tên văn bản sang ID trong cơ sở dữ liệu văn bản (public/data/decrees.json)
 export const DOC_CODE_TO_ID: Record<string, { id: string; shortName: string }> = {
   '99/2025': { id: 'tt-99-2025', shortName: 'Thông tư 99/2025/TT-BTC' },
   'tt 99': { id: 'tt-99-2025', shortName: 'Thông tư 99/2025/TT-BTC' },

@@ -34,12 +34,12 @@ export function DecreeDiffViewer({ decreeId }: DecreeDiffViewerProps) {
 
   return (
     <div className="space-y-6">
-      {/* Selector: Cho phép chuyển đổi giữa TOÀN BỘ 84 VĂN BẢN */}
+      {/* Selector: chuyển đổi giữa các văn bản có dữ liệu đối chiếu */}
       <div className="bg-card border border-border p-4 rounded-xl shadow-xs flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div className="flex items-center gap-2">
           <Layers className="h-4 w-4 text-emerald-600 shrink-0" />
           <span className="text-xs font-bold text-foreground uppercase tracking-wide">
-            Kho Đối Chiếu Điểm Mới (Toàn Bộ 84 Văn Bản):
+            Kho Đối Chiếu Điểm Mới ({Object.keys(DIFF_DATABASE).length} Văn Bản):
           </span>
         </div>
         <select
