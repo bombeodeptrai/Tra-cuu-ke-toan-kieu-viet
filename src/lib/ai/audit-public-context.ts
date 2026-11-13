@@ -24,7 +24,10 @@ export async function retrievePublicAuditSources(question:string,decrees:Decree[
   function add(id:string,label:string,link:string,content:string){
     for(let i=0;i<content.length;i+=1800){const text=content.slice(i,i+2200);const searchable=fold(label+' '+text);const score=words.reduce((n,w)=>n+(searchable.includes(w)?1:0),0);if(score)candidates.push({id,label,link,text,score});}
   }
-  for(let i=0;i<decrees.length;i+=6)await Promise.all(decrees.slice(i,i+6).map(async d=>{try{if(!d.content_url)throw Error('missing');add(d.id,d.decree_number,`#/thu-vien/${d.id}`,await read(d.content_url));}catch{failed.push(d.id);}}));
+  // Các văn bản này đã được gộp vào thư viện chính để hiện trong trang tra cứu,
+  // nhưng bản OCR phải lấy theo trang và loại trang chưa đọc được khỏi ngữ cảnh AI.
+  const pageIndexedIds=new Set(['nd-252-2026','tt-89-2026','nd-398-2026']);
+  for(let i=0;i<decrees.length;i+=6)await Promise.all(decrees.slice(i,i+6).map(async d=>{try{if(!d.content_url)throw Error('missing');if(pageIndexedIds.has(d.id))return;add(d.id,d.decree_number,`#/thu-vien/${d.id}`,await read(d.content_url));}catch{failed.push(d.id);}}));
   try{const manifest=JSON.parse(await read('/data/accounting-laws/manifest.json'));const metadata=JSON.parse(await read('/data/accounting-laws/metadata.json')).documents;
     for(const d of manifest.documents)for(const f of d.files){try{const data=JSON.parse(await read(f.textUrl));for(const p of data.pages){
       if(!p.text.trim() || (p.ocrConfidence!==undefined&&p.ocrConfidence<80)){failed.push(`${d.id}/trang-${p.page}:OCR-can-ra`);continue;}
