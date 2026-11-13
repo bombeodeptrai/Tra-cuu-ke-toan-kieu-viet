@@ -9,6 +9,16 @@ for(const d of m.documents){if(!metadata.documents[d.id])throw Error('Missing me
  for(const p of text.pages)if(p.text.length<30)ocrReview.push({id:d.id,file:f.localUrl,page:p.page});
  if(!f.driveUrl?.startsWith('https://drive.google.com/file/d/'))throw Error('Missing actual Drive file link '+d.id);count++;pages+=f.pages;
  }}
+// The public NĐ 254 page used to claim 841 OCR pages (copied from TT 89's 839-page PDF plus its 2-page correction),
+// and its OCR formatting hid six article headings from the table of contents. Keep this specific high-use record guarded.
+{const decree=core.find(d=>d.id==='nd-254-2026');const source=m.documents.find(d=>d.id==='nd-254-2026');
+ if(!decree||!source)throw Error('NĐ 254 missing from the public catalog or source manifest');
+ const expectedPages=source.files.reduce((sum,file)=>sum+file.pages,0);
+ if(!new RegExp(`\\b${expectedPages}\\s*\\/\\s*${expectedPages}\\s*trang\\b`,'i').test(decree.text_status_note||''))throw Error('NĐ 254 OCR page count note does not match its PDF source');
+ const text=fs.readFileSync('public'+decree.content_url,'utf8');const articles=new Set();
+ for(const line of text.split(/\r?\n/)){const match=line.trim().match(/^(?:#+\s*|\*\*)?(?:[.,;:|]\s*)?(?:[A-Za-z]\s+)?(Điều\s+(\d+)\s*[.:,]\s*.*?)(?:\*\*|$)/i);if(match)articles.add(Number(match[2]));}
+ const missing=Array.from({length:45},(_,index)=>index+1).filter(number=>!articles.has(number));
+ if(missing.length)throw Error('NĐ 254 table-of-contents headings missing: '+missing.join(', '));}
 // --- Kiểm tra bổ sung (13/11/2026): nguồn cấm, đồng bộ bản sao, lỗi chuyển đổi, phiên bản ---
 {const problems=[];const BANNED=/thuvienphapluat\.vn/i;const SITE_JUNK=/(Đang theo dõi|Bạn chưa Đăng nhập|data-href=|Chính sách bảo mật\s*\n)/;const INWORD=/[\p{L}\p{N}]__[\p{L}\p{N}]/u;
  if(BANNED.test(JSON.stringify(core)))problems.push('decrees.json còn link thuvienphapluat.vn');

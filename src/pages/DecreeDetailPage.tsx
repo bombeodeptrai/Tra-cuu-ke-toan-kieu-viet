@@ -91,7 +91,7 @@ export function DecreeDetailPage() {
 
   useEffect(() => {
     if (usePagedReader && highlightedDieu) {
-      const target = new RegExp(`(?:^|\\n)(?:#+\\s*)?Điều\\s+${highlightedDieu}(?:[.:\\s\\-–—])`, 'i');
+      const target = new RegExp(`(?:^|\\n)(?:#+\\s*)?(?:[.,;:|]\\s*)?(?:[A-Za-z]\\s+)?Điều\\s+${highlightedDieu}(?:[.:,\\s\\-–—])`, 'i');
       const pageIndex = readerParts.pages.findIndex(page => target.test(page));
       if (pageIndex >= 0) setReaderPageIndex(pageIndex);
     }
@@ -162,7 +162,7 @@ export function DecreeDetailPage() {
     setActiveTab('content');
     const articleNumber = itemId.match(/^dieu-(\d+)$/)?.[1];
     if (usePagedReader && articleNumber) {
-      const article = new RegExp(`(?:^|\\n)(?:#+\\s*)?Điều\\s+${articleNumber}(?:[.:\\s\\-–—])`, 'i');
+      const article = new RegExp(`(?:^|\\n)(?:#+\\s*)?(?:[.,;:|]\\s*)?(?:[A-Za-z]\\s+)?Điều\\s+${articleNumber}(?:[.:,\\s\\-–—])`, 'i');
       const pageIndex = readerParts.pages.findIndex(page => article.test(page));
       if (pageIndex >= 0) setReaderPageIndex(pageIndex);
     }
@@ -577,7 +577,7 @@ export function DecreeDetailPage() {
                             return '';
                           };
                           const text = extractStr(children);
-                          const m = text.match(/^\s*(?:\*{2,4})?\s*Điều\s+(\d+)[\.:\s\-–—]/i);
+                          const m = text.match(/^\s*(?:[.,;:|]\s*)?(?:[A-Za-z]\s+)?(?:\*{2,4})?\s*Điều\s+(\d+)[\.:,\s\-–—]/i);
                           return <p id={m ? `dieu-${m[1]}` : undefined} className={m ? 'scroll-mt-28' : ''} {...props}>{children}</p>;
                         }
                       }}

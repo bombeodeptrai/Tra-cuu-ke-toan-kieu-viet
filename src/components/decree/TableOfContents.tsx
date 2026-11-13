@@ -43,8 +43,8 @@ export function TableOfContents({ content, onItemClick, activeId }: TableOfConte
 
       // Match Điều
       // Article cross-references often continue as prose (e.g. "Điều 5 Nghị định...");
-      // a real heading must mark its article number with a period or colon.
-      const dieuMatch = line.match(/^(?:#+\s*|\*\*)?(Điều\s+\d+\s*[\.:]\s*.*?)(?:\*\*|$)/i);
+      // accept comma separators and common OCR debris immediately before genuine headings.
+      const dieuMatch = line.match(/^(?:#+\s*|\*\*)?(?:[.,;:|]\s*)?(?:[A-Za-z]\s+)?(Điều\s+\d+\s*[\.:,]\s*.*?)(?:\*\*|$)/i);
       if (dieuMatch) {
         count++;
         // Lấy tên điều gọn gàng (dưới 80 ký tự)
