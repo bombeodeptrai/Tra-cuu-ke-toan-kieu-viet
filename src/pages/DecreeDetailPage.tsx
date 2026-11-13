@@ -191,12 +191,12 @@ export function DecreeDetailPage() {
     setContent(text);
 
     // Split between AI Summary/Analysis and Full Official Legal Text
-    const splitRegex = /(?:---)?\s*## 📜 TOÀN VĂN VĂN BẢN[\s\S]*$/i;
+    const splitRegex = /(?:---)?\s*## (?:📜 )?TOÀN VĂN(?: VĂN BẢN| OCR TỪ PDF GỐC| TRÍCH XUẤT TỪ PDF CHÍNH PHỦ)[\s\S]*$/i;
     const splitMatch = text.match(splitRegex);
 
-    if (splitMatch && splitMatch.index !== undefined && splitMatch.index > 50) {
+    if (splitMatch && splitMatch.index !== undefined) {
       const summaryPart = text.substring(0, splitMatch.index).trim();
-      let fullPart = splitMatch[0].replace(/^---\s*/, '').replace(/^## 📜 TOÀN VĂN VĂN BẢN\r?\n?/i, '').trim();
+      let fullPart = splitMatch[0].replace(/^---\s*/, '').replace(/^## (?:📜 )?TOÀN VĂN(?: VĂN BẢN| OCR TỪ PDF GỐC| TRÍCH XUẤT TỪ PDF CHÍNH PHỦ)\r?\n?/i, '').trim();
       if (!fullPart.startsWith('# CỘNG HÒA') && !fullPart.startsWith('# ') && !fullPart.startsWith('**CHÍNH PHỦ**') && !fullPart.startsWith('**BỘ TÀI CHÍNH**')) {
         fullPart = `# ${decree?.title || 'TOÀN VĂN VĂN BẢN GỐC'}\n\n` + fullPart;
       }
@@ -205,7 +205,7 @@ export function DecreeDetailPage() {
     } else {
       // Check if text starts directly with government header
       if (/CỘNG\s+H[ÒO]A\s+XÃ\s+HỘI/i.test(text) || /(?:^|\n)\s*\*{0,2}Điều\s+1[.:]/.test(text) || /^vas-/.test(decree?.id || '')) {
-        setFullTextContent('> Bản chép trong kho cũ, chưa đối chiếu lại toàn bộ với file gốc trong đợt này. Không dùng độ dài hoặc số điều để xác nhận đủ phụ lục.\n\n' + text);
+        setFullTextContent(text);
         setSummaryContent(decree?.summary ? `### 🌟 TÓM TẮT TRỌNG TÂM CHO KẾ TOÁN\n\n${decree.summary}` : 'Đang cập nhật phân tích AI...');
       } else {
         // Analysis cannot stand in for the original legal text.
