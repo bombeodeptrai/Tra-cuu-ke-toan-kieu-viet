@@ -342,49 +342,60 @@ export function DecreeDetailPage() {
 
             {decree.pdf_attachments?.length ? (
               decree.pdf_attachments.map((attachment) => {
-                const attachmentUrl = attachment.drive_id
-                  ? `https://drive.google.com/uc?export=download&id=${attachment.drive_id}`
-                  : attachment.pdf_url
-                    ? `${basePath.replace(/\/$/, '')}${attachment.pdf_url.startsWith('/') ? attachment.pdf_url : `/${attachment.pdf_url}`}`
-                    : attachment.source_url || '#';
+                const localPdfUrl = attachment.pdf_url
+                  ? `${basePath.replace(/\/$/, '')}${attachment.pdf_url.startsWith('/') ? attachment.pdf_url : `/${attachment.pdf_url}`}`
+                  : undefined;
+                const driveUrl = attachment.drive_id
+                  ? `https://drive.google.com/file/d/${attachment.drive_id}/view`
+                  : undefined;
                 return (
-                  <Button key={`${decree.id}-${attachment.label}`} asChild variant="outline" className="gap-2 border-blue-200 text-blue-700 bg-blue-50 hover:bg-blue-100 dark:bg-blue-900/30 dark:border-blue-800 dark:text-blue-300">
-                    <a href={attachmentUrl} target="_blank" rel="noopener noreferrer" download={!attachment.drive_id ? true : undefined}>
-                      <Download className="h-4 w-4" /> {attachment.label}
-                    </a>
-                  </Button>
+                  <React.Fragment key={`${decree.id}-${attachment.label}`}>
+                    {localPdfUrl && (
+                      <Button asChild variant="outline" className="gap-2 border-blue-200 text-blue-700 bg-blue-50 hover:bg-blue-100 dark:bg-blue-900/30 dark:border-blue-800 dark:text-blue-300">
+                        <a href={localPdfUrl} download>
+                          <Download className="h-4 w-4" /> Tải {attachment.label}
+                        </a>
+                      </Button>
+                    )}
+                    {driveUrl && (
+                      <Button asChild variant="outline" className="gap-2">
+                        <a href={driveUrl} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="h-4 w-4" /> Mở bản lưu Drive
+                        </a>
+                      </Button>
+                    )}
+                    {!localPdfUrl && !driveUrl && attachment.source_url && (
+                      <Button asChild variant="outline" className="gap-2">
+                        <a href={attachment.source_url} target="_blank" rel="noopener noreferrer">
+                          <ExternalLink className="h-4 w-4" /> Mở nguồn văn bản
+                        </a>
+                      </Button>
+                    )}
+                  </React.Fragment>
                 );
               })
-            ) : decree.pdf_drive_id ? (
-              <Button asChild variant="outline" className="gap-2 border-blue-200 text-blue-700 bg-blue-50 hover:bg-blue-100 dark:bg-blue-900/30 dark:border-blue-800 dark:text-blue-300">
-                <a href={`https://drive.google.com/uc?export=download&id=${decree.pdf_drive_id}`} target="_blank" rel="noopener noreferrer">
-                  <Download className="h-4 w-4" /> Tải PDF & Phụ lục (Google Drive)
-                </a>
-              </Button>
             ) : decree.pdf_url ? (
               <Button asChild variant="outline" className="gap-2 border-blue-200 text-blue-700 bg-blue-50 hover:bg-blue-100 dark:bg-blue-900/30 dark:border-blue-800 dark:text-blue-300">
                 <a href={pdfLink} download>
-                  <Download className="h-4 w-4" /> Tải PDF (Có Phụ lục)
+                  <Download className="h-4 w-4" /> Tải PDF gốc
+                </a>
+              </Button>
+            ) : decree.pdf_drive_id ? (
+              <Button asChild variant="outline" className="gap-2 border-blue-200 text-blue-700 bg-blue-50 hover:bg-blue-100 dark:bg-blue-900/30 dark:border-blue-800 dark:text-blue-300">
+                <a href={`https://drive.google.com/file/d/${decree.pdf_drive_id}/view`} target="_blank" rel="noopener noreferrer">
+                  <ExternalLink className="h-4 w-4" /> Mở PDF lưu trên Drive
                 </a>
               </Button>
             ) : null}
             
-            {/* Direct Google Dork for finding .doc / .xls files instantly bypassing paywalls */}
             {decree.free_download_url ? (
-              <Button asChild size="sm" className="bg-emerald-600 hover:bg-emerald-700 w-full sm:w-auto h-10 shadow-sm" title="Tải trực tiếp File Gốc">
+              <Button asChild size="sm" variant="outline" className="w-full sm:w-auto h-10" title="Mở trang nguồn của văn bản">
                 <a href={decree.free_download_url} target="_blank" rel="noopener noreferrer">
-                  <Download className="w-4 h-4 mr-2" />
-                  Tải File Biểu Mẫu (Miễn Phí)
+                  <ExternalLink className="w-4 h-4 mr-2" />
+                  Mở nguồn văn bản
                 </a>
               </Button>
-            ) : (
-              <Button asChild size="sm" className="bg-emerald-600 hover:bg-emerald-700 w-full sm:w-auto h-10 shadow-sm" title="Tải trực tiếp từ Cổng TTĐT Chính Phủ">
-                <a href={`https://vanban.chinhphu.vn/?pageid=27160&keyword=${encodeURIComponent(decree.decree_number)}`} target="_blank" rel="noopener noreferrer">
-                  <Download className="w-4 h-4 mr-2" />
-                  Tải File Biểu Mẫu (Miễn Phí)
-                </a>
-              </Button>
-            )}
+            ) : null}
             
             {!decree.pdf_drive_id && !decree.pdf_url && !decree.free_download_url && (
               <Button variant="outline" className="gap-2" disabled>
