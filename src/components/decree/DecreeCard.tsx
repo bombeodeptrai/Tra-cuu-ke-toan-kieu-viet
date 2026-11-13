@@ -6,6 +6,7 @@ import { Badge } from '@/components/ui/badge';
 import { Decree } from '@/types/decree';
 import { CATEGORIES, DECREE_STATUS_LABELS, CATEGORY_COLORS } from '@/lib/utils/constants';
 import { formatDate } from '@/lib/utils/format';
+import { useDecreeStore } from '@/stores/decree-store';
 
 interface DecreeCardProps {
   decree: Decree;
@@ -18,9 +19,11 @@ export function DecreeCard({ decree, viewMode, onPreview }: DecreeCardProps) {
   const category = CATEGORIES.find(c => c.slug === decree.category);
   const borderColorClass = category ? CATEGORY_COLORS[category.slug] || 'border-l-gray-500' : 'border-l-gray-500';
   const statusInfo = DECREE_STATUS_LABELS[decree.status] || { label: decree.status, color: '' };
+  const { bookmarks, toggleBookmark } = useDecreeStore();
+  const isBookmarked = bookmarks.includes(decree.id);
 
   const effectiveYear = decree.effective_date ? new Date(decree.effective_date).getFullYear() : null;
-  const is2026Effective = effectiveYear === 2026 || (decree.summary && decree.summary.includes('2026'));
+  const is2026Effective = effectiveYear === 2026;
 
   if (viewMode === 'list') {
     return (
@@ -67,8 +70,8 @@ export function DecreeCard({ decree, viewMode, onPreview }: DecreeCardProps) {
                 <span>Xem trước</span>
               </Button>
             )}
-            <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-950/30" onClick={(e) => { e.stopPropagation(); }}>
-              <Heart className="h-4 w-4" />
+              <Button variant="ghost" size="icon" aria-label={isBookmarked ? 'Bỏ lưu văn bản' : 'Lưu văn bản'} title={isBookmarked ? 'Bỏ lưu văn bản' : 'Lưu văn bản'} className={`h-8 w-8 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-950/30 ${isBookmarked ? 'text-red-500' : 'text-muted-foreground'}`} onClick={(e) => { e.stopPropagation(); toggleBookmark(decree.id); }}>
+                <Heart className={`h-4 w-4 ${isBookmarked ? 'fill-current' : ''}`} />
             </Button>
           </div>
         </div>
@@ -126,8 +129,8 @@ export function DecreeCard({ decree, viewMode, onPreview }: DecreeCardProps) {
               <span>Xem trước</span>
             </Button>
           )}
-          <Button variant="ghost" size="icon" className="h-8 w-8 text-muted-foreground hover:text-red-500" onClick={(e) => { e.stopPropagation(); }}>
-            <Heart className="h-4 w-4" />
+          <Button variant="ghost" size="icon" aria-label={isBookmarked ? 'Bỏ lưu văn bản' : 'Lưu văn bản'} title={isBookmarked ? 'Bỏ lưu văn bản' : 'Lưu văn bản'} className={`h-8 w-8 hover:text-red-500 ${isBookmarked ? 'text-red-500' : 'text-muted-foreground'}`} onClick={(e) => { e.stopPropagation(); toggleBookmark(decree.id); }}>
+            <Heart className={`h-4 w-4 ${isBookmarked ? 'fill-current' : ''}`} />
           </Button>
         </div>
       </div>

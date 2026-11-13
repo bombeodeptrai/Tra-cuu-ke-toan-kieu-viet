@@ -193,9 +193,9 @@
     "nd-310-2025": {
       "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=216102",
       "issuedDate": "2025-12-02",
-      "effectiveDate": "2025-01-16",
+      "effectiveDate": "2026-01-16",
       "checkedAt": "2026-11-13T06:59:53.875Z",
-      "error": ""
+      "error": "Trang thông tin Chính phủ hiển thị 16/01/2025, nhưng Điều 4 bản PDF ký số quy định 16/01/2026; đối chiếu bản gốc."
     },
     "nd-291-2026": {
       "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=218956",

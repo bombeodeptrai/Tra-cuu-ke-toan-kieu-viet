@@ -27,7 +27,6 @@ export function LibraryPage() {
   const allYears = useDecreeStore.getState().decrees.flatMap(d => {
     const list = [new Date(d.issued_date).getFullYear().toString()];
     if (d.effective_date) list.push(new Date(d.effective_date).getFullYear().toString());
-    if (d.summary && d.summary.includes('2026')) list.push('2026');
     return list;
   });
   const years = Array.from(new Set(allYears)).sort().reverse();
@@ -37,8 +36,7 @@ export function LibraryPage() {
     : filteredDecrees.filter(d => {
         const issuedYear = new Date(d.issued_date).getFullYear().toString();
         const effectiveYear = d.effective_date ? new Date(d.effective_date).getFullYear().toString() : '';
-        const has2026Summary = activeYear === '2026' && d.summary && d.summary.includes('2026');
-        return issuedYear === activeYear || effectiveYear === activeYear || has2026Summary;
+        return issuedYear === activeYear || effectiveYear === activeYear;
       });
 
   const finalDecrees = activeTaxField === 'all'
@@ -315,7 +313,7 @@ export function LibraryPage() {
                   </Badge>
                   {(() => {
                     const effYear = previewDecree.effective_date ? new Date(previewDecree.effective_date).getFullYear() : null;
-                    if (effYear === 2026 || (previewDecree.summary && previewDecree.summary.includes('2026'))) {
+                    if (effYear === 2026) {
                       return (
                         <Badge className="bg-amber-500 hover:bg-amber-600 text-white gap-1 text-xs">
                           <Sparkles className="h-3 w-3" /> Hiệu lực 2026

@@ -75,6 +75,10 @@ export async function retrievePublicAuditSources(question: string, decrees: Decr
   for (let index = 0; index < decrees.length; index += 6) {
     await Promise.all(decrees.slice(index, index + 6).map(async decree => {
       if (pageIndexedIds.has(decree.id)) return;
+      if (decree.text_status === 'unverified') {
+        addFailure(decree.id);
+        return;
+      }
       try {
         if (!decree.content_url) throw new Error('Thiếu file nội dung');
         const body = legalBody(await read(decree.content_url));

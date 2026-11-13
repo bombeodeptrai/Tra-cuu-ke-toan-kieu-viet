@@ -1,20 +1,5 @@
-## 🤖 TÓM TẮT CHUYÊN SÂU (Bởi AI)
-Luật Thuế TNCN mới (số 109/2025/QH15) thay thế luật cũ, hiệu lực từ 01/07/2026. Áp dụng từ kỳ tính thuế năm 2026.
-
-**Thay đổi lớn nhất — Mức giảm trừ gia cảnh (từ 01/01/2026):**
-- Bản thân người nộp thuế: **15,5 triệu đồng/tháng** (tăng từ 11 triệu)
-- Mỗi người phụ thuộc: **6,2 triệu đồng/tháng** (tăng từ 4,4 triệu)
-
-**Biểu thuế TNCN rút gọn từ 7 bậc → 5 bậc:**
-- Bậc 1: ≤ 10 triệu/tháng → 5%
-- Bậc 2: 10–30 triệu → 15%
-- Bậc 3: 30–60 triệu → 25%
-- Bậc 4: 60–100 triệu → 30%
-- Bậc 5: Trên 100 triệu → 35%
-
-**Ngưỡng hộ kinh doanh không phải nộp thuế:** Tăng từ 200 triệu lên **500 triệu đồng/năm**.
-
-**Lưu ý quyết toán 2025:** Vẫn dùng mức giảm trừ cũ (11 tr + 4,4 tr). Mức mới áp dụng từ kỳ 2026.
+## TÓM LƯỢC ĐÃ RÀ SOÁT
+Luật 109/2025/QH15 quy định về thuế thu nhập cá nhân, có hiệu lực chung từ 01/07/2026; phải đọc cùng Luật 09/2026/QH16 và văn bản hướng dẫn đang áp dụng. Không lấy các con số giảm trừ, biểu thuế hay ngưỡng doanh thu từ bản tóm tắt cũ làm căn cứ khấu trừ hoặc quyết toán; mở toàn văn và xác định đúng kỳ tính thuế.
 
 ## 📜 TOÀN VĂN VĂN BẢN
 
@@ -550,42 +535,3 @@ _**(Đã ký)**_
 
 
 ---
-
-## 📜 TOÀN VĂN VĂN BẢN (TRÍCH YẾU)
-
-**CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM**
-**Độc lập - Tự do - Hạnh phúc**
-***
-Số: 109/2025/QH15
-
-**LUẬT THUẾ THU NHẬP CÁ NHÂN SỐ 109/2025/QH15 (HIỆU LỰC TỪ 01/07/2026)**
-
-**CHƯƠNG I: QUY ĐỊNH CHUNG**
-
-**Điều 1. Phạm vi điều chỉnh**
-Văn bản này quy định chi tiết các nội dung liên quan đến luật thuế tncn mới (số 109/2025/qh15) thay thế luật cũ, hiệu lực từ 01/07/2026 nhằm đáp ứng yêu cầu quản lý nhà nước trong giai đoạn mới.
-
-**Điều 2. Đối tượng áp dụng**
-1. Các cơ quan, tổ chức, cá nhân có liên quan đến việc thực hiện các nội dung quy định tại văn bản này.
-2. Cơ quan quản lý nhà nước có thẩm quyền trong lĩnh vực tương ứng.
-
-**CHƯƠNG II: QUY ĐỊNH CỤ THỂ**
-
-**Điều 3. Các nguyên tắc cơ bản**
-1. Tuân thủ tuyệt đối các quy định của pháp luật hiện hành.
-2. Đảm bảo tính minh bạch, công bằng và hiệu quả trong quá trình triển khai thực hiện.
-3. Ứng dụng triệt để công nghệ thông tin trong công tác quản lý và giám sát.
-
-**Điều 4. Trách nhiệm của các cơ quan, tổ chức, cá nhân**
-- Đối với cơ quan quản lý: Hướng dẫn, kiểm tra và đôn đốc việc thực hiện.
-- Đối với tổ chức, cá nhân: Nghiêm túc chấp hành các quy định, báo cáo định kỳ theo yêu cầu.
-
-**CHƯƠNG III: ĐIỀU KHOẢN THI HÀNH**
-
-**Điều 5. Hiệu lực thi hành**
-Văn bản này có hiệu lực thi hành kể từ ngày 2026-07-01. 
-
-**Điều 6. Trách nhiệm thi hành**
-Các Bộ trưởng, Thủ trưởng cơ quan ngang Bộ, Thủ trưởng cơ quan thuộc Chính phủ, Chủ tịch Ủy ban nhân dân các tỉnh, thành phố trực thuộc Trung ương và các tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành văn bản này.
-
-*(Lưu ý: Đây là văn bản giả lập cho năm 2025 phục vụ mục đích tra cứu nội bộ của hệ thống).*

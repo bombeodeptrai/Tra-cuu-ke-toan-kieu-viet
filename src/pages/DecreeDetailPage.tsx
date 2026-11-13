@@ -304,7 +304,7 @@ export function DecreeDetailPage() {
               </Badge>
               {decree.text_status_note && (
                 <Badge variant="outline" className={decree.text_status === 'ocr-available' ? 'border-sky-300 text-sky-800 dark:border-sky-700 dark:text-sky-200' : 'border-amber-300 text-amber-900 dark:border-amber-700 dark:text-amber-200'}>
-                  {decree.text_status === 'ocr-available' ? 'Đã trích xuất OCR' : 'Cần rà chất lượng OCR'}
+                  {decree.text_status === 'ocr-available' ? 'Đã trích xuất OCR' : decree.text_status === 'unverified' ? 'Chưa xác minh toàn văn' : 'Cần rà chất lượng OCR'}
                 </Badge>
               )}
               {category && (
@@ -601,7 +601,10 @@ export function DecreeDetailPage() {
                   <div className="p-2.5 bg-blue-100 dark:bg-blue-900/50 rounded-xl">
                     <Bot className="h-6 w-6" />
                   </div>
-                  <h3 className="font-bold text-xl">Tóm tắt chuyên sâu bởi AI</h3>
+                  <h3 className="font-bold text-xl">Tóm lược nghiệp vụ & phân tích</h3>
+                </div>
+                <div role="note" className="mb-5 rounded-lg border border-amber-300/70 bg-amber-50/70 px-3 py-2 text-xs text-amber-950 dark:border-amber-800 dark:bg-amber-950/30 dark:text-amber-100 relative z-10">
+                  Đây là phần hỗ trợ tra cứu, không thay thế toàn văn. Hãy đối chiếu điều khoản, văn bản sửa đổi và ngày phát sinh nghiệp vụ trước khi kê khai hoặc giải trình.
                 </div>
                 <div className="prose prose-blue dark:prose-invert max-w-none relative z-10 prose-p:leading-relaxed">
                   <ReactMarkdown remarkPlugins={[remarkGfm, remarkMath]} rehypePlugins={[rehypeRaw, rehypeKatex]}>

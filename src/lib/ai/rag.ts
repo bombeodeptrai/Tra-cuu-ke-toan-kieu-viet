@@ -6,10 +6,12 @@ export function findRelevantDecrees(query: string, decrees: Decree[], topK = 15)
   if (!query || decrees.length === 0) return [];
 
   const lowerQuery = query.toLowerCase();
+  // Quarantined texts must never enter answer context, even through summary-only matches.
+  const verifiedDecrees = decrees.filter(d => d.text_status !== 'unverified');
   // Extract numbers from query to boost exact matches (e.g., "200" in "thông tư 200")
   const numbers = lowerQuery.match(/\d+/g) || [];
 
-  const scored = decrees.map(d => {
+  const scored = verifiedDecrees.map(d => {
     let score = 0;
     const searchString = `${d.decree_number} ${d.title} ${d.summary}`.toLowerCase();
     
