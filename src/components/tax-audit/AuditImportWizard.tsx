@@ -5,7 +5,7 @@ import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
 import { parseCsv, type CsvParseResult } from '@/lib/audit/imports/csv';
 import { parseInvoiceXml, type ParsedXmlInvoice } from '@/lib/audit/imports/invoice-xml';
-import { auditDb, newId, now } from '@/lib/audit/workspace';
+import { auditDb, newId, now, sha256 } from '@/lib/audit/workspace';
 import type { SourceKind } from '@/types/audit-issues';
 
 interface AuditImportWizardProps {
@@ -55,7 +55,28 @@ export function AuditImportWizard({ caseId, issueId, onImportComplete, onClose }
 
     try {
       const batchId = newId();
-      const count = csvPreview ? csvPreview.rows.length : (xmlPreview ? xmlPreview.items.length : 0);
+      const xmlRows = xmlPreview ? xmlPreview.items.map(item => ({
+        'Dòng': String(item.lineNo),
+        'Tên hàng hóa/dịch vụ': item.itemName,
+        'Đơn vị tính': item.unit,
+        'Số lượng': item.quantity,
+        'Đơn giá': item.unitPrice,
+        'Thành tiền': item.total,
+        'Thuế suất GTGT': item.vatRate,
+        'Mẫu số': xmlPreview.series,
+        'Số hóa đơn': xmlPreview.invoiceNumber,
+        'Ngày hóa đơn': xmlPreview.invoiceDate,
+        'MST người bán': xmlPreview.sellerTaxId,
+        'Tên người bán': xmlPreview.sellerName,
+        'MST người mua': xmlPreview.buyerTaxId,
+        'Tên người mua': xmlPreview.buyerName,
+        'Tiền trước thuế': xmlPreview.totalBeforeTax,
+        'Tiền thuế': xmlPreview.taxAmount,
+        'Tổng thanh toán': xmlPreview.totalAmount,
+      })) : [];
+      const importedRows = csvPreview?.rows ?? xmlRows;
+      const count = importedRows.length;
+      const fileHash = await sha256(selectedFile);
 
       await auditDb.transaction('rw', auditDb.importBatches, auditDb.sourceRows, async () => {
         await auditDb.importBatches.add({
@@ -63,7 +84,7 @@ export function AuditImportWizard({ caseId, issueId, onImportComplete, onClose }
           caseId,
           kind: fileKind,
           evidenceId: selectedFile.name,
-          fileHash: 'mock_hash_' + selectedFile.size,
+          fileHash,
           mapping: {},
           decimalFormat,
           rowCount: count,
@@ -73,15 +94,15 @@ export function AuditImportWizard({ caseId, issueId, onImportComplete, onClose }
           createdAt: now()
         });
 
-        if (csvPreview) {
-          for (let idx = 0; idx < csvPreview.rows.length; idx++) {
+        if (importedRows.length) {
+          for (let idx = 0; idx < importedRows.length; idx++) {
             await auditDb.sourceRows.add({
               id: newId(),
               caseId,
               batchId,
               kind: fileKind,
               rowNumber: idx + 1,
-              data: csvPreview.rows[idx]
+              data: importedRows[idx]
             });
           }
         }

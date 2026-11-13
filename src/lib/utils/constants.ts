@@ -111,4 +111,6 @@ export const TAX_FIELDS = [
   { slug: 'xu-phat-thue', name: 'Xử phạt vi phạm hành chính', icon: '⚖️' },
   { slug: 'dau-thau-xay-lap', name: 'Đấu thầu & Xây lắp', icon: '🏗️' },
   { slug: 'chinh-sach-thue', name: 'Chính sách thuế', icon: '📑' },
+  { slug: 'thue-xnk', name: 'Thuế xuất nhập khẩu', icon: '🚢' },
+  { slug: 'khac', name: 'Văn bản tham chiếu khác', icon: '📁' },
 ]
