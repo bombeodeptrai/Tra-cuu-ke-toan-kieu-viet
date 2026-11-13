@@ -8,7 +8,7 @@ export interface Decree {
   category: string
   issued_date: string
   effective_date: string
-  status: 'active' | 'expired' | 'amended' | 'replaced'
+  status: 'active' | 'expired' | 'amended' | 'replaced' | 'upcoming'
   source_url?: string
   pdf_drive_id?: string
   pdf_attachments?: Array<{
@@ -17,7 +17,7 @@ export interface Decree {
     drive_id?: string
     source_url?: string
   }>
-  text_status?: 'ocr-available' | 'ocr-review' | 'partial' | 'unverified'
+  text_status?: 'ocr-available' | 'ocr-review' | 'partial' | 'unverified' | 'pdf-text-available'
   text_status_note?: string
   content_url?: string
   pdf_url?: string

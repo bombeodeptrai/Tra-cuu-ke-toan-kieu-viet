@@ -303,8 +303,8 @@ export function DecreeDetailPage() {
                 {statusInfo.label}
               </Badge>
               {decree.text_status_note && (
-                <Badge variant="outline" className={decree.text_status === 'ocr-available' ? 'border-sky-300 text-sky-800 dark:border-sky-700 dark:text-sky-200' : 'border-amber-300 text-amber-900 dark:border-amber-700 dark:text-amber-200'}>
-                  {decree.text_status === 'ocr-available' ? 'Đã trích xuất OCR' : decree.text_status === 'unverified' ? 'Chưa xác minh toàn văn' : 'Cần rà chất lượng OCR'}
+                <Badge variant="outline" className={decree.text_status === 'ocr-available' || decree.text_status === 'pdf-text-available' ? 'border-sky-300 text-sky-800 dark:border-sky-700 dark:text-sky-200' : 'border-amber-300 text-amber-900 dark:border-amber-700 dark:text-amber-200'}>
+                  {decree.text_status === 'pdf-text-available' ? 'Trích xuất từ PDF gốc' : decree.text_status === 'ocr-available' ? 'Đã trích xuất OCR' : decree.text_status === 'unverified' ? 'Chưa xác minh toàn văn' : 'Cần rà chất lượng OCR'}
                 </Badge>
               )}
               {category && (

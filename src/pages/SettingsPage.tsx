@@ -7,6 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { useSettingsStore } from '@/stores/settings-store';
 import { useToast } from '@/components/ui/use-toast';
 import { APP_VERSION } from '@/lib/utils/constants';
+import { GeminiService } from '@/lib/ai/gemini';
 
 export function SettingsPage() {
   const { theme, setTheme, geminiApiKey, setGeminiKey, sheetsApiKey, setSheetsKey } = useSettingsStore();
@@ -15,11 +16,31 @@ export function SettingsPage() {
   const [localGeminiKey, setLocalGeminiKey] = useState(geminiApiKey || '');
   const [localSheetsKey, setLocalSheetsKey] = useState(sheetsApiKey || '');
   const [showGemini, setShowGemini] = useState(false);
+  const [isTestingGemini, setIsTestingGemini] = useState(false);
 
   const handleSaveApi = () => {
     setGeminiKey(localGeminiKey);
     setSheetsKey(localSheetsKey);
     toast({ title: '✅ Thành công', description: 'Đã lưu cấu hình API thành công!' });
+  };
+
+  const handleTestConnection = async () => {
+    const key = localGeminiKey.trim();
+    if (!key) {
+      toast({ title: 'Chưa có API key', description: 'Nhập API key Gemini trước khi kiểm tra kết nối.' });
+      return;
+    }
+    setIsTestingGemini(true);
+    try {
+      const connected = await new GeminiService(key).testConnection();
+      toast(connected
+        ? { title: 'Kết nối Gemini thành công', description: 'API key dùng được. Lưu cài đặt để sử dụng trong các mục hỏi đáp.' }
+        : { title: 'Không kết nối được Gemini', description: 'Kiểm tra lại API key, hạn mức dự án và quyền truy cập Gemini API.' });
+    } catch {
+      toast({ title: 'Không kết nối được Gemini', description: 'Kiểm tra lại API key, hạn mức dự án và kết nối mạng.' });
+    } finally {
+      setIsTestingGemini(false);
+    }
   };
 
   return (
@@ -52,7 +73,7 @@ export function SettingsPage() {
               </Button>
             </div>
             <p className="text-xs text-muted-foreground">
-              Lấy key miễn phí tại <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noreferrer" className="text-primary hover:underline">Google AI Studio</a>. Key được lưu trữ cục bộ trên trình duyệt của bạn.
+              Lấy key tại <a href="https://aistudio.google.com/app/apikey" target="_blank" rel="noreferrer" className="text-primary hover:underline">Google AI Studio</a>. Key chỉ lưu trong trình duyệt này và được gửi trực tiếp đến Google Gemini khi dùng AI; không dùng key đã chia sẻ công khai.
             </p>
           </div>
 
@@ -67,7 +88,7 @@ export function SettingsPage() {
           </div>
         </CardContent>
         <CardFooter className="border-t pt-4 bg-muted/20 flex justify-between">
-          <Button variant="outline" onClick={() => toast({ title: 'ℹ️ Thông báo', description: 'Tính năng kiểm tra kết nối đang phát triển' })}>Kiểm tra kết nối</Button>
+          <Button variant="outline" onClick={handleTestConnection} disabled={isTestingGemini}>{isTestingGemini ? 'Đang kiểm tra Gemini…' : 'Kiểm tra kết nối'}</Button>
           <Button onClick={handleSaveApi} className="gap-2"><Save className="h-4 w-4" /> Lưu cài đặt</Button>
         </CardFooter>
       </Card>

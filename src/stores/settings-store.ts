@@ -22,7 +22,7 @@ export interface SettingsState {
 export const useSettingsStore = create<SettingsState>()(
   persist(
     (set) => ({
-      geminiApiKey: import.meta.env.VITE_GEMINI_API_KEY || ['AQ.', 'Ab8RN6JrE', 'F4GCx1LjDg9r', 'WU3ofwXvyvW', 'wXNjZOS7', 'Pac9JdB91Q'].join(''),
+      geminiApiKey: '',
       sheetsApiKey: '',
       sheetsId: '',
       theme: 'system',
@@ -37,7 +37,7 @@ export const useSettingsStore = create<SettingsState>()(
       setItemsPerPage: (itemsPerPage) => set({ itemsPerPage }),
       setOnline: (isOnline) => set({ isOnline }),
       clearAllData: () => set({
-        geminiApiKey: import.meta.env.VITE_GEMINI_API_KEY || ['AQ.', 'Ab8RN6JrE', 'F4GCx1LjDg9r', 'WU3ofwXvyvW', 'wXNjZOS7', 'Pac9JdB91Q'].join(''),
+        geminiApiKey: '',
         sheetsApiKey: '',
         sheetsId: '',
         theme: 'system',
@@ -48,6 +48,11 @@ export const useSettingsStore = create<SettingsState>()(
     }),
     {
       name: 'ketoan-settings',
+      version: 1,
+      migrate: (persistedState) => ({
+        ...(persistedState as Partial<SettingsState>),
+        geminiApiKey: '',
+      }),
     }
   )
 );

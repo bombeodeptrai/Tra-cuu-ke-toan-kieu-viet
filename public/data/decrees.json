@@ -1434,5 +1434,37 @@
     "pdf_drive_id": "1aO3PZKB-W5vBQMv6qLoAqBobkpOFOzgt",
     "pdf_url": "/data/accounting-laws/nd-398-2026-1.pdf",
     "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220138"
+  },
+  {
+    "id": "nd-399-2026",
+    "number": "399/2026/NĐ-CP",
+    "decree_number": "399/2026/NĐ-CP",
+    "title": "Nghị định 399/2026/NĐ-CP quy định mức lương tối thiểu đối với người lao động làm việc theo hợp đồng lao động",
+    "category": "nghi-dinh",
+    "tax_field": "thue",
+    "issued_date": "2026-11-02",
+    "effective_date": "2027-01-01",
+    "status": "upcoming",
+    "text_status": "pdf-text-available",
+    "text_status_note": "Trích xuất lớp chữ từ PDF gốc Chính phủ đủ 4/4 trang văn bản chính và 10/10 trang phụ lục. Bản chép được phân trang; đối chiếu PDF gốc khi viện dẫn.",
+    "summary": "Điều chỉnh mức lương tối thiểu tháng và giờ theo 4 vùng từ ngày 01/01/2027. Cần xác định địa bàn làm việc và vùng áp dụng để rà hợp đồng, bảng lương, chi phí nhân công và căn cứ đóng bảo hiểm; phụ lục có danh sách địa bàn, trong đó Gia Lai được chia vùng II, III và IV.",
+    "content_url": "/data/content/nd-399-2026.md",
+    "pdf_drive_id": "1CQYeiyEymZThYRlDxngfXqEIClMPWzPl",
+    "pdf_attachments": [
+      {
+        "label": "Nghị định 399/2026/NĐ-CP — bản chính",
+        "pdf_url": "/data/accounting-laws/nd-399-2026-1.pdf",
+        "drive_id": "1CQYeiyEymZThYRlDxngfXqEIClMPWzPl",
+        "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/399_2026_nd-cp_02112026_6-signed.signed.pdf"
+      },
+      {
+        "label": "Phụ lục địa bàn áp dụng mức lương tối thiểu",
+        "pdf_url": "/data/accounting-laws/nd-399-2026-2.pdf",
+        "drive_id": "1B7nXhrSlfZS5VRqSZ24tcX98dTSTurwr",
+        "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/399_2026_nd-cp_02112026_7-signed.pdf"
+      }
+    ],
+    "pdf_url": "/data/accounting-laws/nd-399-2026-1.pdf",
+    "source_url": "https://vanban.chinhphu.vn/?classid=1&docid=220166&pageid=27160"
   }
 ]

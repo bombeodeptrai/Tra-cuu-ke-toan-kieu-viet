@@ -35,9 +35,7 @@ export function DecreeDiffAIChat({ currentDiff }: DecreeDiffAIChatProps) {
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
 
-  // Default verified working key for seamless user experience
-  const defaultKey = ['AQ.', 'Ab8RN6JrE', 'F4GCx1LjDg9r', 'WU3ofwXvyvW', 'wXNjZOS7', 'Pac9JdB91Q'].join('');
-  const effectiveKey = geminiApiKey?.trim() || defaultKey;
+  const effectiveKey = geminiApiKey?.trim() || '';
 
   // Quick preset questions tailored to current document
   const quickQuestions = [
@@ -69,59 +67,6 @@ export function DecreeDiffAIChat({ currentDiff }: DecreeDiffAIChatProps) {
     navigator.clipboard.writeText(text);
     setCopiedId(id);
     setTimeout(() => setCopiedId(null), 2000);
-  };
-
-  const generateLocalIntelligentAnswer = (query: string): string => {
-    const qLower = query.toLowerCase();
-    
-    // Check if query is about summary / all points / comparison
-    if (qLower.includes('toàn diện') || qLower.includes('tổng hợp') || qLower.includes('tất cả') || qLower.includes('so sánh') || qLower.includes('thay đổi')) {
-      let ans = `### 📌 BẢNG TỔNG HỢP SO SÁNH TOÀN DIỆN (${currentDiff.items.length} ĐIỂM CỐT LÕI)\n\n`;
-      ans += `**${currentDiff.title}** đối chiếu với **${currentDiff.compareWith}**:\n\n`;
-      currentDiff.items.forEach((it, idx) => {
-        const typeBadge = it.type === 'added' ? '🟢 [BỔ SUNG MỚI]' : (it.type === 'modified' ? '🔵 [SỬA ĐỔI / THAY THẾ]' : '🔴 [BÃI BỎ]');
-        ans += `#### ${idx + 1}. ${it.topic} ${typeBadge}\n`;
-        ans += `- **Quy định trước đây (${currentDiff.compareWith}):** ${it.oldRule}\n`;
-        ans += `- **Quy định mới áp dụng (${currentDiff.title}):** ${it.newRule}\n`;
-        ans += `- **💡 Tác động nghiệp vụ Kiểu Việt:** ${it.impactNote}\n\n`;
-      });
-      ans += `\n> 🎯 **Khuyến nghị thực thi cho Công ty Cổ phần Kiểu Việt:** Đề nghị Ban Giám đốc chỉ đạo các phòng ban chuyên môn (Kế toán, Kỹ thuật, Vật tư, Ban Chỉ huy công trường) rà soát áp dụng nhất quán các quy định trên, bảo đảm an toàn pháp lý tuyệt đối.`;
-      return ans;
-    }
-
-    // Filter relevant points
-    const matched = currentDiff.items.filter(it => 
-      it.topic.toLowerCase().includes(qLower) ||
-      it.newRule.toLowerCase().includes(qLower) ||
-      it.oldRule.toLowerCase().includes(qLower) ||
-      it.impactNote.toLowerCase().includes(qLower)
-    );
-
-    if (matched.length > 0) {
-      let ans = `### 🔍 PHÂN TÍCH CHUYÊN SÂU THEO YÊU CẦU (${matched.length} ĐIỂM TRỌNG YẾU)\n\n`;
-      ans += `Đối chiếu giữa **${currentDiff.title}** và **${currentDiff.compareWith}** liên quan đến nội dung bạn quan tâm:\n\n`;
-      matched.forEach((it, idx) => {
-        ans += `#### Điểm ${idx + 1}: ${it.topic}\n`;
-        ans += `- **Quy định trước đây:** ${it.oldRule}\n`;
-        ans += `- **Quy định mới áp dụng:** ${it.newRule}\n`;
-        ans += `- **💡 Nghiệp vụ áp dụng tại Công ty Cổ phần Kiểu Việt:** ${it.impactNote}\n\n`;
-      });
-      return ans;
-    }
-
-    // Comprehensive review of all points
-    let fallback = `### 💡 PHÂN TÍCH ĐỐI CHIẾU PHÁP LÝ TOÀN DIỆN\n\n`;
-    fallback += `Về câu hỏi **"${query}"** liên quan đến **${currentDiff.title}** (đối chiếu **${currentDiff.compareWith}**):\n\n`;
-    fallback += `> **Tổng quan:** ${currentDiff.summary}\n\n`;
-    fallback += `#### Danh mục toàn bộ các điểm thay đổi cốt lõi:\n\n`;
-    currentDiff.items.forEach((it, idx) => {
-      fallback += `**${idx + 1}. ${it.topic}**\n`;
-      fallback += `- *Cũ:* ${it.oldRule}\n`;
-      fallback += `- *Mới:* ${it.newRule}\n`;
-      fallback += `- *Lưu ý Kiểu Việt:* ${it.impactNote}\n\n`;
-    });
-    fallback += `\n> ⚠️ **Lưu ý cho Kiểu Việt:** Phòng Tài chính - Kế toán cần đối chiếu kỹ lưỡng các số liệu này khi lập tờ khai và giải trình với cơ quan kiểm toán/thanh tra thuế.`;
-    return fallback;
   };
 
   const handleSendMessage = async (textToSend?: string) => {
@@ -171,7 +116,10 @@ QUY TẮC PHẢN HỒI BẮT BUỘC:
    - Nếu liên quan đến kế toán: Nêu rõ bút toán định khoản Nợ TK / Có TK đối ứng.
 2. PHÂN TÍCH TÁC ĐỘNG NGHIỆP VỤ CHO CÔNG TY CỔ PHẦN KIỂU VIỆT:
    - Gắn liền với thi công công trình, hồ sơ thanh quyết toán khối lượng Mẫu 03a, quản lý vật tư cát đá đất đắp tại Gia Lai/Tây Nguyên, hóa đơn điện tử và tiền lương công nhân.
-3. PHONG CÁCH: Chuyên nghiệp, mạch lạc, dùng Markdown in đậm tiêu đề và bảng đối chiếu rõ ràng.`;
+3. PHONG CÁCH: Chuyên nghiệp, mạch lạc, dùng Markdown in đậm tiêu đề và bảng đối chiếu rõ ràng.
+4. KHÔNG bịa số Điều/Khoản, tỷ lệ, thời hạn, mức phạt hoặc bút toán. Chỉ tài liệu đối chiếu hiển thị ở trên là dữ liệu bạn có; nếu chưa đủ căn cứ, nói rõ thiếu văn bản/toàn văn và đề nghị cung cấp, không giả làm đã tra cứu luật khác.
+5. Tách rõ nội dung văn bản, suy luận nghiệp vụ và việc cần kế toán xác minh; nêu điều kiện áp dụng và kỳ hiệu lực khi dữ liệu có.
+6. Nếu người dùng hỏi ngoài các điểm đối chiếu đã nạp, trả lời giới hạn theo dữ liệu có và không kết luận pháp lý chắc chắn.`;
 
     try {
       if (!effectiveKey) {
@@ -198,9 +146,10 @@ QUY TẮC PHẢN HỒI BẮT BUỘC:
         );
       }
     } catch (err) {
-      console.warn('AI stream fallback triggered:', err);
-      // Generate immediate rich local response
-      const localResponse = generateLocalIntelligentAnswer(query);
+      const errorText = err instanceof Error ? err.message : 'Kết nối Gemini thất bại.';
+      const localResponse = errorText.includes('Chưa cấu hình API key')
+        ? '**Chưa cấu hình API key Gemini.** Nhập API key của anh trong Cài đặt để gửi câu hỏi thật tới AI. Hệ thống không tạo câu trả lời giả khi AI chưa chạy.'
+        : '**Gemini chưa trả lời được câu hỏi này.** Kiểm tra API key, hạn mức hoặc kết nối rồi thử lại. Nội dung bên dưới chưa được AI xác minh; hệ thống không thay bằng câu trả lời tự tạo.';
       setMessages(prev => 
         prev.map(m => m.id === botMsgId ? { ...m, content: localResponse } : m)
       );

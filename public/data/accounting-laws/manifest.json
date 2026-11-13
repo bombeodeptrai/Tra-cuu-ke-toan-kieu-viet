@@ -1339,6 +1339,47 @@
       ],
       "layoutVerified": false,
       "status": "ocr-review"
+    },
+    {
+      "id": "nd-399-2026",
+      "number": "399/2026/NĐ-CP",
+      "title": "Nghị định 399/2026/NĐ-CP quy định mức lương tối thiểu đối với người lao động làm việc theo hợp đồng lao động",
+      "source": "https://vanban.chinhphu.vn/?classid=1&docid=220166&pageid=27160",
+      "acquiredAt": "2026-11-13T00:00:00.000Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/399_2026_nd-cp_02112026_6-signed.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-399-2026-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-399-2026-1.json",
+          "bytes": 606159,
+          "sha256": "760fbabf43a9ffddf7b80cbcc93cc03787a23c755a34bfb228fb76e14f3a380e",
+          "pages": 4,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1CQYeiyEymZThYRlDxngfXqEIClMPWzPl/view?usp=drivesdk",
+          "driveId": "1CQYeiyEymZThYRlDxngfXqEIClMPWzPl",
+          "driveReadbackBytes": 606159,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 0
+        },
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/399_2026_nd-cp_02112026_7-signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-399-2026-2.pdf",
+          "textUrl": "/data/accounting-laws/nd-399-2026-2.json",
+          "bytes": 277289,
+          "sha256": "21725e63f8588c3e517713aa3a254faa5f0f99c4f435c5f4813a54280fa18205",
+          "pages": 10,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1B7nXhrSlfZS5VRqSZ24tcX98dTSTurwr/view?usp=drivesdk",
+          "driveId": "1B7nXhrSlfZS5VRqSZ24tcX98dTSTurwr",
+          "driveReadbackBytes": 277289,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 0
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages"
     }
   ]
 }

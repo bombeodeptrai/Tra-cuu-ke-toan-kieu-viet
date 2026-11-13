@@ -4,7 +4,7 @@ import { Search, FileText, FolderOpen, Bot, RefreshCw, Building2, Calculator, Ar
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
-import { CATEGORIES } from '@/lib/utils/constants';
+import { CATEGORIES, DECREE_STATUS_LABELS } from '@/lib/utils/constants';
 import { useDecreeStore } from '@/stores/decree-store';
 import { Decree } from '@/types/decree';
 import { format } from 'date-fns';
@@ -314,8 +314,8 @@ export function HomePage() {
               >
                 <div className="flex-1 min-w-0 mb-3 md:mb-0">
                   <div className="flex items-center gap-3 mb-2">
-                    <Badge variant={decree.status === 'active' ? 'default' : 'secondary'} className={cn("rounded-md px-2 py-1 font-medium shadow-none", decree.status === 'active' ? "bg-emerald-500/10 text-emerald-600 hover:bg-emerald-500/20" : "bg-secondary text-secondary-foreground")}>
-                      {decree.status === 'active' ? 'Còn hiệu lực' : decree.status === 'expired' ? 'Hết hiệu lực' : 'Sắp có hiệu lực'}
+                    <Badge variant={decree.status === 'active' ? 'default' : 'secondary'} className={cn("rounded-md px-2 py-1 font-medium shadow-none", decree.status === 'active' ? "bg-emerald-500/10 text-emerald-600 hover:bg-emerald-500/20" : decree.status === 'upcoming' ? 'bg-sky-100 text-sky-700 dark:bg-sky-900/30 dark:text-sky-300' : "bg-secondary text-secondary-foreground")}>
+                      {DECREE_STATUS_LABELS[decree.status]?.label || decree.status}
                     </Badge>
                     <span className="font-bold text-foreground group-hover:text-primary transition-colors">{decree.decree_number}</span>
                   </div>

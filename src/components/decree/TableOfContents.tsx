@@ -32,7 +32,7 @@ export function TableOfContents({ content, onItemClick, activeId }: TableOfConte
       if (!line) continue;
 
       // Match Chương
-      const chuongMatch = line.match(/^(?:#+\s*|\*\*)?(Chương\s+[IVXLCDM0-9]+[\.:\s\-–—]?.*?)(?:\*\*|$)/i);
+      const chuongMatch = line.match(/^(?:#+\s*|\*\*)?(Chương\s+(?:[IVXLCDM]+|[0-9]+)(?=[\s.:]|$)[\.:\s\-–—]?.*?)(?:\*\*|$)/i);
       if (chuongMatch) {
         count++;
         const title = chuongMatch[1].replace(/[\*#_]/g, '').trim();
@@ -42,7 +42,9 @@ export function TableOfContents({ content, onItemClick, activeId }: TableOfConte
       }
 
       // Match Điều
-      const dieuMatch = line.match(/^(?:#+\s*|\*\*)?(Điều\s+\d+[\.:\s\-–—]?.*?)(?:\*\*|$)/i);
+      // Article cross-references often continue as prose (e.g. "Điều 5 Nghị định...");
+      // a real heading must mark its article number with a period or colon.
+      const dieuMatch = line.match(/^(?:#+\s*|\*\*)?(Điều\s+\d+\s*[\.:]\s*.*?)(?:\*\*|$)/i);
       if (dieuMatch) {
         count++;
         // Lấy tên điều gọn gàng (dưới 80 ký tự)

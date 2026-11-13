@@ -75,6 +75,7 @@ export const DECREE_STATUS_LABELS: Record<string, { label: string; color: string
   expired: { label: 'Hết hiệu lực', color: 'bg-red-100 text-red-700 dark:bg-red-900/30 dark:text-red-400' },
   amended: { label: 'Đã sửa đổi', color: 'bg-amber-100 text-amber-700 dark:bg-amber-900/30 dark:text-amber-400' },
   replaced: { label: 'Đã được thay thế', color: 'bg-rose-100 text-rose-700 dark:bg-rose-900/30 dark:text-rose-400' },
+  upcoming: { label: 'Sắp có hiệu lực', color: 'bg-sky-100 text-sky-700 dark:bg-sky-900/30 dark:text-sky-300' },
 }
 
 export const CATEGORY_COLORS: Record<string, string> = {

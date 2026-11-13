@@ -231,6 +231,13 @@
       "effectiveDate": "2026-03-12",
       "checkedAt": "2026-11-13T07:43:26.197Z",
       "error": ""
+    },
+    "nd-399-2026": {
+      "source": "https://vanban.chinhphu.vn/?classid=1&docid=220166&pageid=27160",
+      "issuedDate": "2026-11-02",
+      "effectiveDate": "2027-01-01",
+      "checkedAt": "2026-11-13T00:00:00.000Z",
+      "error": ""
     }
   }
 }

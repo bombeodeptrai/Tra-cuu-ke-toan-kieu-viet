@@ -1,12 +1,12 @@
 export class GeminiService {
   private apiKey: string;
   private fallbackModels = [
-    'gemini-flash-lite-latest',
-    'gemini-flash-latest',
+    'gemini-3.8-flash',
+    'gemini-3.7-flash',
     'gemini-3.6-flash',
     'gemini-3.5-flash',
-    'gemini-3.1-flash-lite',
-    'gemini-pro-latest'
+    'gemini-3.5-flash-lite',
+    'gemini-3.1-flash-lite'
   ];
 
   constructor(apiKey: string) {
@@ -74,13 +74,13 @@ export class GeminiService {
         } else {
           const errorText = await res.text();
           lastError = `[${model}] Error ${res.status}: ${errorText}`;
-          console.warn(`⚠️ [AI Fallback] ${model} failed. Trying next model...`, lastError);
+          // Model fallback is expected (for example, an unavailable model alias).
           // If it's a 400 Bad Request for something like invalid image format, falling back might not help,
           // but we do it anyway. If it's 429 Too Many Requests or 404 Not Found, fallback is perfect.
         }
       } catch (e: any) {
         lastError = `[${model}] Network error: ${e.message}`;
-        console.warn(`⚠️ [AI Fallback] ${model} network error. Trying next model...`, e);
+        // Preserve the last error for the final user-facing failure message.
       }
     }
 
@@ -92,11 +92,26 @@ export class GeminiService {
       throw new Error(`Response body is null (Model used: ${usedModel})`);
     }
 
-    console.log(`✅ [AI] Successfully connected using model: ${usedModel}`);
-
     const reader = response.body.getReader();
     const decoder = new TextDecoder('utf-8');
     let buffer = '';
+
+    const parseEvent = (event: string): string[] => {
+      const data = event
+        .split(/\r?\n/)
+        .filter(line => line.startsWith('data:'))
+        .map(line => line.slice(5).replace(/^ /, ''))
+        .join('\n');
+      if (!data || data === '[DONE]') return [];
+      try {
+        const payload = JSON.parse(data);
+        const candidate = payload.candidates?.[0];
+        const parts = candidate?.content?.parts || [];
+        return parts.filter((part: any) => typeof part.text === 'string').map((part: any) => part.text);
+      } catch {
+        throw new Error('Gemini trả về một sự kiện dữ liệu không đọc được.');
+      }
+    };
 
     try {
       while (true) {
@@ -104,25 +119,18 @@ export class GeminiService {
         if (done) break;
 
         buffer += decoder.decode(value, { stream: true });
-        const lines = buffer.split('\n');
-        
-        buffer = lines.pop() || '';
-
-        for (const line of lines) {
-          if (line.startsWith('data: ')) {
-            const dataStr = line.slice(6);
-            if (dataStr === '[DONE]') continue;
-
-            try {
-              const data = JSON.parse(dataStr);
-              if (data.candidates && data.candidates[0]?.content?.parts?.[0]?.text) {
-                yield data.candidates[0].content.parts[0].text;
-              }
-            } catch (e) {
-              console.warn('Error parsing SSE chunk:', e);
-            }
-          }
+        let boundary = buffer.search(/\r?\n\r?\n/);
+        while (boundary >= 0) {
+          const event = buffer.slice(0, boundary);
+          const delimiter = buffer.slice(boundary).match(/^\r?\n\r?\n/)?.[0] || '\n\n';
+          buffer = buffer.slice(boundary + delimiter.length);
+          for (const text of parseEvent(event)) yield text;
+          boundary = buffer.search(/\r?\n\r?\n/);
         }
+      }
+      buffer += decoder.decode();
+      if (buffer.trim()) {
+        for (const text of parseEvent(buffer)) yield text;
       }
     } finally {
       reader.releaseLock();
