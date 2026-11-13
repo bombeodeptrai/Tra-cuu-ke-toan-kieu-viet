@@ -106,11 +106,11 @@ export function useChat() {
         responseText += chunk;
         chatStore.updateLastMessage(sessionId, responseText);
       }
+      if (!responseText.trim()) {
+        chatStore.updateLastMessage(sessionId, 'Gemini không trả về nội dung. Chưa có câu trả lời để sử dụng; hãy thử lại hoặc kiểm tra API key/kết nối.');
+      }
     } catch (error: any) {
-      chatStore.addMessage(sessionId, {
-        role: 'assistant',
-        content: `Đã xảy ra lỗi: ${error.message}`,
-      });
+      chatStore.updateLastMessage(sessionId, `Không nhận được câu trả lời từ Gemini: ${error?.message || 'Lỗi kết nối không xác định'}. Nội dung này chưa được AI xác minh.`);
     } finally {
       chatStore.setAiTyping(false);
     }

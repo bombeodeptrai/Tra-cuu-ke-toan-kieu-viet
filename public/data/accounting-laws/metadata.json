@@ -238,6 +238,13 @@
       "effectiveDate": "2027-01-01",
       "checkedAt": "2026-11-13T00:00:00.000Z",
       "error": ""
+    },
+    "nq-43-2026": {
+      "source": "https://vanban.chinhphu.vn/?docid=219330&orggroupid=1&pageid=27160",
+      "issuedDate": "2026-08-24",
+      "effectiveDate": "2026-08-24",
+      "checkedAt": "2026-11-13T00:00:00.000Z",
+      "error": ""
     }
   }
 }

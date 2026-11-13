@@ -1423,19 +1423,31 @@ export const INITIAL_DECREES: Decree[] = [
     "id": "nd-398-2026",
     "number": "398/2026/NĐ-CP",
     "decree_number": "398/2026/NĐ-CP",
-    "title": "Nghị định 398/2026/NĐ-CP quy định chi tiết Nghị quyết 43/2026/QH16 về giảm thuế",
+    "title": "Quy định chi tiết Nghị quyết số 43/2026/QH16 về giảm thuế thu nhập cá nhân, thuế thu nhập doanh nghiệp đối với cá nhân và doanh nghiệp",
     "category": "nghi-dinh",
-    "tax_field": "thue",
+    "tax_field": "chinh-sach-thue",
     "issued_date": "2026-10-29",
     "effective_date": "2026-10-29",
     "status": "active",
     "text_status": "ocr-review",
-    "text_status_note": "Đã OCR 10/10 trang; trang 9 dưới ngưỡng tin cậy nội bộ, đối chiếu PDF trước khi trích dẫn.",
-    "summary": "Nghị định 398/2026/NĐ-CP quy định chi tiết Nghị quyết 43/2026/QH16 về giảm thuế",
+    "text_status_note": "Đã có nội dung 10/10 trang. Trang 9 (Mẫu 03) đã được chép, đối chiếu trực quan với PDF; các trang OCR còn lại cần đối chiếu PDF trước khi trích dẫn.",
+    "summary": "Hướng dẫn giảm 30% số thuế TNCN/TNDN phải nộp trong năm tính thuế 2026 và 2027 cho đối tượng có doanh thu từng năm không quá 10 tỷ đồng; quy định hồ sơ, kỳ khai và xử lý khi doanh thu thực tế vượt ngưỡng. Kiểu Việt có doanh thu 2025 khoảng 134 tỷ đồng nên không thể suy ra đủ điều kiện từ dữ liệu năm trước; phải kiểm tra doanh thu thực tế của từng năm 2026/2027 và điều kiện cụ thể trước khi áp dụng.",
     "content_url": "/data/content/nd-398-2026.md",
     "pdf_drive_id": "1aO3PZKB-W5vBQMv6qLoAqBobkpOFOzgt",
     "pdf_url": "/data/accounting-laws/nd-398-2026-1.pdf",
-    "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220138"
+    "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220138",
+    "related_document_ids": [
+      "nq-43-2026",
+      "luat-09-2026"
+    ],
+    "pdf_attachments": [
+      {
+        "label": "Nghị định 398/2026/NĐ-CP — bản chính thức",
+        "pdf_url": "/data/accounting-laws/nd-398-2026-1.pdf",
+        "drive_id": "1aO3PZKB-W5vBQMv6qLoAqBobkpOFOzgt",
+        "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/398_2026_nd-cp_29102026-signed.signed.pdf"
+      }
+    ]
   },
   {
     "id": "nd-399-2026",
@@ -1443,7 +1455,7 @@ export const INITIAL_DECREES: Decree[] = [
     "decree_number": "399/2026/NĐ-CP",
     "title": "Nghị định 399/2026/NĐ-CP quy định mức lương tối thiểu đối với người lao động làm việc theo hợp đồng lao động",
     "category": "nghi-dinh",
-    "tax_field": "thue",
+    "tax_field": "bhxh-lao-dong",
     "issued_date": "2026-11-02",
     "effective_date": "2027-01-01",
     "status": "upcoming",
@@ -1467,6 +1479,41 @@ export const INITIAL_DECREES: Decree[] = [
       }
     ],
     "pdf_url": "/data/accounting-laws/nd-399-2026-1.pdf",
-    "source_url": "https://vanban.chinhphu.vn/?classid=1&docid=220166&pageid=27160"
+    "source_url": "https://vanban.chinhphu.vn/?classid=1&docid=220166&pageid=27160",
+    "related_document_ids": [
+      "nd-293-2025",
+      "nd-145-2020",
+      "blld-45-2019"
+    ]
+  },
+  {
+    "id": "nq-43-2026",
+    "number": "43/2026/QH16",
+    "decree_number": "43/2026/QH16",
+    "title": "Nghị quyết số 43/2026/QH16 về giảm thuế thu nhập cá nhân, thuế thu nhập doanh nghiệp đối với cá nhân và doanh nghiệp",
+    "category": "nghi-quyet",
+    "tax_field": "chinh-sach-thue",
+    "issued_date": "2026-08-24",
+    "effective_date": "2026-08-24",
+    "status": "active",
+    "text_status": "manual-transcription",
+    "text_status_note": "Toàn văn 02 trang được chép và rà trực quan theo PDF ký số trên Cổng văn bản Chính phủ; bản PDF gốc là bản scan.",
+    "summary": "Nghị quyết quy định giảm 30% thuế TNCN từ kinh doanh và thuế TNDN trong năm tính thuế 2026, 2027 đối với cá nhân/doanh nghiệp đáp ứng ngưỡng doanh thu từng năm không quá 10 tỷ đồng. Kiểu Việt có doanh thu 2025 khoảng 134 tỷ đồng nên chưa đủ căn cứ kết luận đủ điều kiện; cần xác định doanh thu thực tế từng năm và đọc Nghị định 398/2026/NĐ-CP về cách áp dụng.",
+    "content_url": "/data/content/nq-43-2026.md",
+    "pdf_drive_id": "1koWMmxI-ZaENDt2COwmHgk30fEfB2GzF",
+    "pdf_url": "/data/accounting-laws/nq-43-2026-1.pdf",
+    "source_url": "https://vanban.chinhphu.vn/?docid=219330&orggroupid=1&pageid=27160",
+    "pdf_attachments": [
+      {
+        "label": "Nghị quyết 43/2026/QH16 — PDF ký số",
+        "pdf_url": "/data/accounting-laws/nq-43-2026-1.pdf",
+        "drive_id": "1koWMmxI-ZaENDt2COwmHgk30fEfB2GzF",
+        "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/nq43vegiamthuetncntndn.signed.pdf"
+      }
+    ],
+    "related_document_ids": [
+      "nd-398-2026",
+      "luat-09-2026"
+    ]
   }
 ];

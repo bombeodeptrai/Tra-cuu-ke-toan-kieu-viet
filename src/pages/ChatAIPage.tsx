@@ -268,6 +268,9 @@ export function ChatAIPage() {
         {!geminiApiKey && (
           <div className="bg-yellow-500/10 text-yellow-600 dark:text-yellow-500 p-2 text-center text-sm border-b border-yellow-500/20">
             Chưa cấu hình API Key. <Link to="/cai-dat" className="underline font-medium">Vào Cài đặt</Link> để thiết lập.
+            {displayMessages.some(message => message.role === 'assistant') && (
+              <span className="ml-1">Các câu trả lời đã lưu là lịch sử cũ, chưa được kiểm tra lại theo văn bản hiện hành.</span>
+            )}
           </div>
         )}
 

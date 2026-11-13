@@ -15,7 +15,7 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import rehypeRaw from 'rehype-raw';
 import 'katex/dist/katex.min.css';
-import { CATEGORIES, DECREE_STATUS_LABELS } from '@/lib/utils/constants';
+import { CATEGORIES, DECREE_STATUS_LABELS, TAX_FIELDS } from '@/lib/utils/constants';
 import { formatDate } from '@/lib/utils/format';
 import { useDecreeStore } from '@/stores/decree-store';
 import { useNotesStore } from '@/stores/notes-store';
@@ -260,7 +260,10 @@ export function DecreeDetailPage() {
   }
 
   const category = CATEGORIES.find(c => c.slug === decree.category);
-  const relatedDecrees = decrees.filter(d => d.category === decree.category && d.id !== decree.id).slice(0, 3);
+  const taxField = TAX_FIELDS.find(field => field.slug === decree.tax_field);
+  const relatedDecrees = (decree.related_document_ids || [])
+    .map(relatedId => decrees.find(item => item.id === relatedId))
+    .filter((item): item is NonNullable<typeof item> => Boolean(item));
   const statusInfo = DECREE_STATUS_LABELS[decree.status] || DECREE_STATUS_LABELS.active;
   const isBookmarked = bookmarks.includes(decree.id);
 
@@ -303,8 +306,8 @@ export function DecreeDetailPage() {
                 {statusInfo.label}
               </Badge>
               {decree.text_status_note && (
-                <Badge variant="outline" className={decree.text_status === 'ocr-available' || decree.text_status === 'pdf-text-available' ? 'border-sky-300 text-sky-800 dark:border-sky-700 dark:text-sky-200' : 'border-amber-300 text-amber-900 dark:border-amber-700 dark:text-amber-200'}>
-                  {decree.text_status === 'pdf-text-available' ? 'Trích xuất từ PDF gốc' : decree.text_status === 'ocr-available' ? 'Đã trích xuất OCR' : decree.text_status === 'unverified' ? 'Chưa xác minh toàn văn' : 'Cần rà chất lượng OCR'}
+                <Badge variant="outline" className={decree.text_status === 'ocr-available' || decree.text_status === 'pdf-text-available' || decree.text_status === 'manual-transcription' ? 'border-sky-300 text-sky-800 dark:border-sky-700 dark:text-sky-200' : 'border-amber-300 text-amber-900 dark:border-amber-700 dark:text-amber-200'}>
+                  {decree.text_status === 'manual-transcription' ? 'Chép thủ công, đã đối chiếu PDF' : decree.text_status === 'pdf-text-available' ? 'Trích xuất lớp chữ từ PDF gốc' : decree.text_status === 'ocr-available' ? 'Đã trích xuất OCR' : decree.text_status === 'unverified' ? 'Chưa xác minh toàn văn' : 'Cần rà chất lượng OCR'}
                 </Badge>
               )}
               {category && (
@@ -648,7 +651,7 @@ export function DecreeDetailPage() {
               <div className="h-px bg-border/50"></div>
               <div>
                 <div className="text-sm text-muted-foreground mb-1">Lĩnh vực</div>
-                <div className="font-semibold text-foreground">{category?.name || decree.category}</div>
+                <div className="font-semibold text-foreground">{taxField?.name || 'Chưa phân loại lĩnh vực'}</div>
               </div>
             </div>
           </div>

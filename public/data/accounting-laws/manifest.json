@@ -1331,9 +1331,7 @@
           "driveId": "1aO3PZKB-W5vBQMv6qLoAqBobkpOFOzgt",
           "driveUrl": "https://drive.google.com/file/d/1aO3PZKB-W5vBQMv6qLoAqBobkpOFOzgt/view",
           "driveReadbackBytes": 4170011,
-          "lowConfidencePages": [
-            9
-          ],
+          "lowConfidencePages": [],
           "ocrPages": 10
         }
       ],
@@ -1380,6 +1378,32 @@
       ],
       "layoutVerified": false,
       "status": "extracted-all-pages"
+    },
+    {
+      "id": "nq-43-2026",
+      "number": "43/2026/QH16",
+      "title": "Nghị quyết số 43/2026/QH16 về giảm thuế thu nhập cá nhân, thuế thu nhập doanh nghiệp đối với cá nhân và doanh nghiệp",
+      "source": "https://vanban.chinhphu.vn/?docid=219330&orggroupid=1&pageid=27160",
+      "acquiredAt": "2026-11-13T00:00:00.000Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/nq43vegiamthuetncntndn.signed.pdf",
+          "localUrl": "/data/accounting-laws/nq-43-2026-1.pdf",
+          "textUrl": "/data/accounting-laws/nq-43-2026-1.json",
+          "bytes": 825922,
+          "sha256": "7da8b9edd159ed39e068ff87613a143150ac0ef1f886c1189cf63f680b1ffb28",
+          "pages": 2,
+          "emptyPages": [],
+          "driveUrl": "https://drive.google.com/file/d/1koWMmxI-ZaENDt2COwmHgk30fEfB2GzF/view?usp=drivesdk",
+          "driveId": "1koWMmxI-ZaENDt2COwmHgk30fEfB2GzF",
+          "driveReadbackBytes": 825922,
+          "driveHashVerified": false,
+          "lowConfidencePages": [],
+          "ocrPages": 0
+        }
+      ],
+      "layoutVerified": true,
+      "status": "manually-transcribed"
     }
   ]
 }

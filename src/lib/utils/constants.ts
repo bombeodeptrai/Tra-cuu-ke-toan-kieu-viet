@@ -68,6 +68,13 @@ export const CATEGORIES: Category[] = [
     description: 'Quyết định của các cơ quan quản lý nhà nước & BHXH',
     icon: 'FileCheck',
   },
+  {
+    id: '10',
+    name: 'Nghị quyết',
+    slug: 'nghi-quyet',
+    description: 'Nghị quyết của Quốc hội và cơ quan nhà nước',
+    icon: 'Scale',
+  },
 ]
 
 export const DECREE_STATUS_LABELS: Record<string, { label: string; color: string }> = {
@@ -87,6 +94,7 @@ export const CATEGORY_COLORS: Record<string, string> = {
   'thue': 'border-l-cyan-500',
   'khoang-san': 'border-l-yellow-600',
   'quyet-dinh': 'border-l-indigo-500',
+  'nghi-quyet': 'border-l-rose-500',
 }
 
 export const TAX_FIELDS = [
@@ -102,4 +110,5 @@ export const TAX_FIELDS = [
   { slug: 'giao-dich-lien-ket', name: 'Giao dịch liên kết', icon: '🔄' },
   { slug: 'xu-phat-thue', name: 'Xử phạt vi phạm hành chính', icon: '⚖️' },
   { slug: 'dau-thau-xay-lap', name: 'Đấu thầu & Xây lắp', icon: '🏗️' },
+  { slug: 'chinh-sach-thue', name: 'Chính sách thuế', icon: '📑' },
 ]

@@ -17,12 +17,13 @@ export interface Decree {
     drive_id?: string
     source_url?: string
   }>
-  text_status?: 'ocr-available' | 'ocr-review' | 'partial' | 'unverified' | 'pdf-text-available'
+  text_status?: 'ocr-available' | 'ocr-review' | 'partial' | 'unverified' | 'pdf-text-available' | 'manual-transcription'
   text_status_note?: string
   content_url?: string
   pdf_url?: string
   free_download_url?: string
   tax_field?: string
+  related_document_ids?: string[]
 }
 
 export interface Category {
