@@ -91,8 +91,9 @@ export function ToolsPage() {
   const [grossSalary, setGrossSalary] = useState<number>(20000000);
   const [payrollRegion, setPayrollRegion] = useState<number>(1);
   
-  const BASE_SALARY = 2340000;
-  const CAP_BHXH_BHYT = 20 * BASE_SALARY; // 46.800.000 đ
+  // Current reference level from 2026-07-01; historical payroll must use the rate for that month.
+  const REFERENCE_LEVEL = 2530000;
+  const CAP_BHXH_BHYT = 20 * REFERENCE_LEVEL; // 50.600.000 đ
   const MIN_WAGES = [4960000, 4410000, 3860000, 3450000];
   const CAP_BHTN = 20 * MIN_WAGES[payrollRegion - 1];
 
@@ -245,7 +246,7 @@ export function ToolsPage() {
             Bộ Tiện Ích Kế Toán, Thuế & Lịch Tuân Thủ 2026
           </h1>
           <p className="text-sm md:text-base text-emerald-100/90 leading-relaxed font-normal">
-            Công cụ tính toán tự động chuẩn xác theo luật định: So sánh Thuế TNCN (Luật 109/2025), Lương Gross-Net (Trần 46.8tr), Tiền chậm nộp thuế 0.03%/ngày, Khấu hao TSCĐ theo TT 45/2013 và Lịch nhắc hạn báo cáo thuế.
+            Công cụ tính toán tự động: So sánh Thuế TNCN (Luật 109/2025), Lương Gross-Net (trần BHXH/BHYT hiện hành 50,6tr từ 01/07/2026), Tiền chậm nộp thuế 0.03%/ngày, Khấu hao TSCĐ theo TT 45/2013 và Lịch nhắc hạn báo cáo thuế. Kỳ lương trước 01/07/2026 phải áp mức tham chiếu tại tháng đóng.
           </p>
         </div>
       </div>

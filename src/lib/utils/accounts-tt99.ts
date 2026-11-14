@@ -1545,7 +1545,7 @@ export const ACCOUNTING_GUIDES_TT99: AccountingGuideTT99[] = [
         desc: "Trích các khoản bảo hiểm và kinh phí công đoàn tính vào chi phí DN (23.5%):",
         debit: "TK 154 / TK 642",
         credit: "TK 338 (3382 KPCĐ 2%, 3383 BHXH 17.5%, 3384 BHYT 3%, 3386 BHTN 1%)",
-        note: "Trần tính BHXH/BHYT tối đa 46.800.000đ/tháng"
+        note: "Trần BHXH/BHYT bằng 20 lần mức tham chiếu tại tháng đóng; từ 01/07/2026 là 50.600.000đ/tháng"
       },
       {
         desc: "Trích các khoản bảo hiểm trừ vào lương người lao động (10.5%):",
