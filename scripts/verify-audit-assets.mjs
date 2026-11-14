@@ -38,6 +38,7 @@ for(const d of m.documents){if(!metadata.documents[d.id])throw Error('Missing me
   if(tt91.text_url!=='/data/accounting-laws/tt-91-2026-1.json')problems.push('TT91 phải trỏ tới dữ liệu OCR theo trang từ PDF gốc');
   const tt91Text=JSON.parse(fs.readFileSync('public'+tt91.text_url,'utf8'));
   if(tt91Text.pages?.length!==97||tt91Text.pages[51]?.page!==52||tt91Text.pages[51].text.trim().length>=30)problems.push('TT91 phải giữ đủ 97 trang và xác định đúng trang 52 không trích xuất được chữ');
+  if(!fs.readFileSync('src/pages/DecreeDetailPage.tsx','utf8').includes('phần tiếp theo của Mẫu số 01/BK-ĐCTT'))problems.push('Trang 52 TT91 phải cảnh báo đúng đây là phần tiếp của bảng mẫu 01/BK-ĐCTT, không gọi là trang trắng');
   if(tt91Text.pages[2].text.split(/\r?\n/).filter(line=>line.trim()==='Chương II').length!==1||!tt91Text.pages[27].text.includes('Chương III\nQUY ĐỊNH VỀ CHỨNG TỪ ĐIỆN TỬ')||tt91Text.manualCorrections?.length!==2)problems.push('TT91 cần giữ hai tiêu đề chương đã đối chiếu trực quan với PDF gốc trang 3 và 28');
   const tt91DisplayText=tt91Text.pages.map(page=>page.text).join('\n');
   const tt91Articles=new Set();for(const line of tt91DisplayText.split(/\r?\n/)){const match=line.trim().match(/^Điều\s+(\d+)\s*[.:,]\s*\S/i);if(match&&(line.match(/Điều\s+\d+/gi)||[]).length===1)tt91Articles.add(Number(match[1]));}
