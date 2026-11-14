@@ -1518,6 +1518,62 @@ export const INITIAL_DECREES: Decree[] = [
       "nd-398-2026",
       "luat-09-2026"
     ]
+  },
+  {
+    "id": "nq-43-2026-nq-cp",
+    "number": "43/2026/NQ-CP",
+    "decree_number": "43/2026/NQ-CP",
+    "title": "Nghị quyết số 43/2026/NQ-CP về kéo dài thời hạn áp dụng một số chính sách thuế xăng dầu",
+    "category": "nghi-quyet",
+    "tax_field": "chinh-sach-thue",
+    "issued_date": "2026-09-30",
+    "effective_date": "2026-10-01",
+    "status": "active",
+    "text_status": "pdf-text-available",
+    "text_status_note": "PDF ký số Chính phủ 02 trang đã lưu kèm. Bản chữ tách theo Điều 1–3; đối chiếu PDF gốc trước khi viện dẫn, nhất là phân biệt TTĐB tại Điều 3 khoản 2 với chính sách GTGT/BVMT kéo dài đến 31/12/2026.",
+    "summary": "Kéo dài đến hết 31/12/2026 thời hạn áp dụng NQ 25/2026/NQ-CP và NĐ 72/2026/NĐ-CP về thuế nhập khẩu ưu đãi đối với một số xăng dầu/nguyên liệu; đồng thời kéo dài chính sách thuế BVMT và GTGT tại Điều 1–2 NQ 19/2026/QH16. Điều 3 khoản 2 nêu TTĐB thực hiện theo Luật 66/2025/QH15 và văn bản hướng dẫn, nên không lấy NQ43 làm căn cứ TTĐB 0%. Với nhiên liệu cho xe, máy công trường và trạm bê tông, kiểm theo loại nhiên liệu, ngày giao dịch, hóa đơn và chính sách áp dụng ở khâu bán; NQ45/2026/NQ-CP điều chỉnh riêng TTĐB xăng từ 01/11/2026.",
+    "content_url": "/data/content/nq-43-2026-nq-cp.md",
+    "pdf_url": "/data/accounting-laws/nq-43-2026-nq-cp-1.pdf",
+    "source_url": "https://vanban.chinhphu.vn/?classid=0&docid=219739&pageid=27160",
+    "free_download_url": "https://vanban.chinhphu.vn/?classid=0&docid=219739&pageid=27160",
+    "pdf_attachments": [
+      {
+        "label": "Nghị quyết 43/2026/NQ-CP — PDF ký số",
+        "pdf_url": "/data/accounting-laws/nq-43-2026-nq-cp-1.pdf",
+        "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/9/43_2026_nq-cp_30092026_1-signed.signed.pdf"
+      }
+    ],
+    "related_document_ids": [
+      "nq-45-2026-nq-cp"
+    ]
+  },
+  {
+    "id": "nq-45-2026-nq-cp",
+    "number": "45/2026/NQ-CP",
+    "decree_number": "45/2026/NQ-CP",
+    "title": "Nghị quyết số 45/2026/NQ-CP ban hành quy định về thuế tiêu thụ đặc biệt đối với xăng",
+    "category": "nghi-quyet",
+    "tax_field": "chinh-sach-thue",
+    "issued_date": "2026-10-31",
+    "effective_date": "2026-11-01",
+    "status": "active",
+    "text_status": "pdf-text-available",
+    "text_status_note": "PDF Công báo số 573, bản chính 02 trang đã lưu kèm. Bản chữ bao gồm căn cứ, Điều 1, toàn bộ 04 khoản Điều 2 và chữ ký; đối chiếu PDF gốc khi trích dẫn.",
+    "summary": "Thuế suất TTĐB đối với các loại xăng là 0% từ 01/11/2026 đến hết 31/03/2027. Điều 2 khoản 2 chấm dứt từ 01/11 phần TTĐB tại Điều 3 NQ 19/2026/QH16 đã được điều chỉnh bởi khoản 2 Điều 3 NQ 43/2026/NQ-CP. Với nhiên liệu xe công trường, máy/trạm bê tông và cấn trừ nhà cung cấp, đây là thay đổi TTĐB ở khâu xăng; không tự suy ra thay đổi GTGT, BVMT, thuế nhập khẩu, giá hóa đơn hay giá vốn. Chốt theo mặt hàng và ngày giao dịch.",
+    "content_url": "/data/content/nq-45-2026-nq-cp.md",
+    "pdf_url": "/data/accounting-laws/nq-45-2026-1.pdf",
+    "source_url": "https://congbao.chinhphu.vn/van-ban/nghi-quyet-so-45-2026-nq-cp-470901/70086.htm",
+    "pdf_attachments": [
+      {
+        "label": "Nghị quyết 45/2026/NQ-CP — PDF Công báo số 573",
+        "pdf_url": "/data/accounting-laws/nq-45-2026-1.pdf",
+        "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/45_2026_nq-cp_31102026-signed.signed.pdf"
+      }
+    ],
+    "related_document_ids": [
+      "nq-43-2026-nq-cp"
+    ],
+    "free_download_url": "https://vanban.chinhphu.vn/?classid=1&docid=220165&pageid=27160"
   }
 ];
 

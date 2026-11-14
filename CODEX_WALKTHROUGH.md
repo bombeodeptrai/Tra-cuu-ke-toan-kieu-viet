@@ -312,3 +312,12 @@ Nghiệm thu Antigravity: `npm run build`; test unit imports/reconcile/legalPeri
 
 Kế hoạch y tế trước đây được bảo toàn nguyên văn tại [CODEX_WALKTHROUGH_MEDICAL_ARCHIVE_2026-09-15.md](CODEX_WALKTHROUGH_MEDICAL_ARCHIVE_2026-09-15.md). Không triển khai nhánh y tế trong tác vụ này.
 
+
+
+## Sửa live thư viện — NQ 43 và NQ 45/2026/NQ-CP (14/11/2026)
+
+- Bổ sung riêng Nghị quyết 43/2026/NQ-CP (hiệu lực 01/10–31/12/2026) và Nghị quyết 45/2026/NQ-CP (hiệu lực 01/11/2026–31/03/2027); phân biệt NQ 43/NQ-CP với NQ 43/2026/QH16.
+- Lưu PDF ký số Chính phủ/Công báo: mỗi văn bản 2 trang; chép toàn văn các điều và liên kết NQ45 → NQ43. Không gắn nhầm nghị quyết Quốc hội.
+- NQ43 kéo dài chính sách thuế nhập khẩu ưu đãi, BVMT, GTGT đến 31/12; NQ45 quy định TTĐB xăng 0% từ 01/11 đến hết 31/03/2027. Không suy diễn sang giá hóa đơn hay giá vốn.
+- Kết quả kiểm tra: build PASS, verifier PASS, coverage PASS; 92 bản ghi, 55 mục đối chiếu vẫn được cách ly vì chưa xác minh hai chiều.
+- TT99 vẫn chưa có PDF gốc đủ 10 phần/phụ lục; giữ trạng thái chưa xác minh, không tuyên bố cả kho đã đủ toàn văn.
