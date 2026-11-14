@@ -20,6 +20,7 @@ export interface Decree {
   text_status?: 'ocr-available' | 'ocr-review' | 'partial' | 'unverified' | 'pdf-text-available' | 'manual-transcription'
   text_status_note?: string
   content_url?: string
+  text_url?: string
   pdf_url?: string
   free_download_url?: string
   tax_field?: string
@@ -43,3 +44,4 @@ export interface DecreeSearchResult {
     indices: Array<[number, number]>
   }>
 }
+
