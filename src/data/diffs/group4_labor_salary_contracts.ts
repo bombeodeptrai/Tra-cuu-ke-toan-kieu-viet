@@ -271,7 +271,7 @@ export const group4LaborSalaryContracts: Record<string, DecreeDiffData> = {
     "title": "Nghị định 73/2024/NĐ-CP",
     "category": "Mức Lương cơ sở 2,34 triệu & Trần BHXH",
     "compareWith": "Nghị định 24/2023/NĐ-CP",
-    "summary": "Nghị định 73/2024/NĐ-CP tăng mạnh mức lương cơ sở từ 1.800.000 đồng lên 2.340.000 đồng/tháng (tăng 30% từ 01/07/2024): Đẩy mức trần đóng BHXH, BHYT bắt buộc lên 46.800.000 đồng/tháng.",
+    "summary": "Nghị định 73/2024/NĐ-CP nâng lương cơ sở lên 2.340.000 đồng từ 01/07/2024; mức trần 46.800.000 đồng phản ánh quy định tại thời điểm đó. Từ 01/07/2026, mức tham chiếu thay đổi; không dùng con số lịch sử này cho kỳ hiện tại.",
     "items": [
       {
         "topic": "Tăng mức lương cơ sở từ 1.800.000 đồng lên 2.340.000 đồng/tháng (Điều 3)",
@@ -281,17 +281,17 @@ export const group4LaborSalaryContracts: Record<string, DecreeDiffData> = {
         "impactNote": "Tác động trực tiếp làm tăng trần đóng BHXH, BHYT và tăng mức trợ cấp tai nạn lao động, thai sản cho toàn thể người lao động Kiểu Việt."
       },
       {
-        "topic": "Nâng mức tiền lương tối đa làm căn cứ đóng BHXH, BHYT lên 46.800.000 đồng/tháng (Điều 3)",
+        "topic": "Nâng mức trần đóng BHXH, BHYT lên 46.800.000 đồng/tháng tại thời điểm 01/07/2024 (Điều 3)",
         "type": "modified",
         "oldRule": "[Căn cứ: NĐ 24/2023 & Luật BHXH 2014] Mức lương đóng BHXH tối đa bằng 20 lần lương cơ sở cũ = 36.000.000 đồng/tháng.",
-        "newRule": "[Căn cứ: Điều 3 NĐ 73/2024] Mức trần tiền lương tháng đóng BHXH, BHYT bằng 20 lần mức lương cơ sở mới = 46.800.000 đồng/tháng.",
-        "impactNote": "Kiểu Việt điều chỉnh mức trích đóng BHXH, BHYT của Ban Tổng Giám đốc và các chuyên gia có mức lương trên 36 triệu lên mức trần 46.8 triệu/tháng."
+        "newRule": "[Căn cứ: Điều 3 NĐ 73/2024] Từ 01/07/2024, mức trần là 20 lần mức lương cơ sở 2.340.000 đồng = 46.800.000 đồng/tháng. Đây là mức lịch sử; kỳ sau tính theo mức tham chiếu có hiệu lực.",
+        "impactNote": "Chia bảng lương theo tháng hiệu lực. Không dùng 46,8 triệu cho kỳ từ 01/07/2026; trần hiện hành là 50,6 triệu đồng/tháng."
       },
       {
         "topic": "Tăng mức đóng bảo hiểm y tế tối đa lên 2.106.000 đồng/tháng (Điều 3)",
         "type": "modified",
         "oldRule": "[Căn cứ: NĐ 24/2023] Trần đóng BHYT (4.5% x 36 triệu) = 1.620.000 đồng/tháng.",
-        "newRule": "[Căn cứ: Điều 3 NĐ 73/2024] Mức đóng BHYT tối đa (4.5% x 46.8 triệu) = 2.106.000 đồng/tháng (trong đó doanh nghiệp đóng 3% = 1.404.000đ, người lao động đóng 1.5% = 702.000đ).",
+        "newRule": "[Căn cứ: Điều 3 NĐ 73/2024, tại thời điểm áp dụng từ 01/07/2024] Mức đóng BHYT tối đa khi trần lương là 46.800.000đ: 4,5% = 2.106.000đ/tháng (DN 3%, NLĐ 1,5%). Kỳ khác tính theo trần có hiệu lực của kỳ đó.",
         "impactNote": "Kế toán Kiểu Việt cập nhật tỷ lệ đóng BHYT chính xác, trích nộp đầy đủ cho cơ quan BHXH tỉnh."
       },
       {
