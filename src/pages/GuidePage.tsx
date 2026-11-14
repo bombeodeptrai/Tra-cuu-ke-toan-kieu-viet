@@ -952,7 +952,7 @@ export function GuidePage() {
                 </div>
                 <div className="p-3 bg-muted/40 rounded-lg space-y-1">
                   <strong className="text-emerald-700 dark:text-emerald-400">• Nghị định 73/2024 vs NĐ 24/2023:</strong>
-                  <p className="text-muted-foreground">Lương cơ sở 2.34tr tăng trần đóng BHXH/BHYT lên 46.8 triệu đồng/tháng.</p>
+                  <p className="text-muted-foreground">NĐ 73/2024 nâng lương cơ sở lên 2,34 triệu từ 01/07/2024, khi đó trần là 46,8 triệu. Từ 01/07/2026, mức tham chiếu 2,53 triệu làm trần hiện hành thành 50,6 triệu/tháng; kỳ cũ phải áp mức tại đúng thời điểm.</p>
                 </div>
                 <div className="p-3 bg-muted/40 rounded-lg space-y-1">
                   <strong className="text-emerald-700 dark:text-emerald-400">• Nghị định 50/2021 vs NĐ 37/2015:</strong>
@@ -1000,7 +1000,7 @@ export function GuidePage() {
               <div className="p-4 bg-blue-50/40 dark:bg-blue-950/20 border border-blue-200 dark:border-blue-800 rounded-xl space-y-2">
                 <strong className="text-sm text-blue-900 dark:text-blue-200">2. Lương Gross ➔ Net & DN Chịu</strong>
                 <p className="text-muted-foreground leading-relaxed text-[11px]">
-                  Tự động áp trần BHXH 46.8tr (lương cơ sở 2.34tr). Tách rõ phần NLĐ đóng (10.5%) và phần Kiểu Việt chịu (23.5%).
+                  Áp trần BHXH/BHYT hiện hành 50,6 triệu/tháng từ 01/07/2026. Kỳ lương trước đó phải đối chiếu mức tham chiếu tại tháng đóng. Tách rõ phần NLĐ đóng (10.5%) và phần Kiểu Việt chịu (23.5%).
                 </p>
               </div>
 
