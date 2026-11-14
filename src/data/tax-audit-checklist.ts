@@ -2048,12 +2048,12 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
     name: 'Bảo Hiểm Xã Hội & An Toàn Lao Động',
     icon: '💼',
     color: 'cyan',
-    description: 'Trần đóng BHXH 46.8tr NĐ 73, Mẫu D02-LT QĐ 595, Luật BHXH mới 41/2024, phạt BHXH NĐ 12',
+    description: 'Rà trần BHXH/BHYT theo mức tham chiếu từng tháng, D02-LT, Luật BHXH 2024 và xử phạt BHXH',
     items: [
       {
         id: 'chk-nd-73-2024',
-        title: 'Trần tiền lương đóng BHXH 46.8 triệu theo Lương cơ sở 2.34tr (NĐ 73/2024)',
-        description: 'Kiểm tra mức đóng BHXH, BHYT của Ban giám đốc và cán bộ quản lý Kiểu Việt được áp đúng mức trần 20 lần lương cơ sở (20 x 2.340.000 = 46.800.000đ).',
+        title: 'Đối chiếu trần tiền lương đóng BHXH/BHYT theo từng kỳ',
+        description: 'Tính trần bằng 20 lần mức tham chiếu có hiệu lực tại tháng đóng. Mức 46.800.000đ áp dụng khi mức tham chiếu là 2.340.000đ; từ 01/07/2026 trần là 50.600.000đ. Không dùng một mức cho toàn bộ niên độ.',
         priority: 'critical',
         decreeId: 'nd-73-2024',
         articleNum: '3',
@@ -2072,19 +2072,19 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         "Bước 2: Đối chiếu tổng quỹ tiền lương đóng bảo hiểm trên Bảng lương kế toán với số liệu trên Tờ khai quyết toán thuế thu nhập cá nhân và Báo cáo tài chính năm.",
         "Bước 3: Kiểm tra Tài khoản 3383 (Phải trả BHXH), Tài khoản 3384 (Phải trả BHYT), Tài khoản 3386 (Phải trả BHTN) để xác định số tiền bảo hiểm trích theo lương và phần trích vào chi phí doanh nghiệp.",
         "Bước 4: Đối chiếu số tiền thực tế trích đóng bảo hiểm trên sổ kế toán với thông báo kết quả đóng bảo hiểm hàng tháng (Mẫu C12-TS) do cơ quan BHXH Gia Lai phát hành.",
-        "Bước 5: Kiểm tra việc áp dụng mức trần tiền lương đóng BHXH, BHYT (tối đa 20 lần mức lương cơ sở tương đương 46.800.000 đồng/tháng đối với người lao động thực hiện chế độ tiền lương do doanh nghiệp quyết định)."
+        "Bước 5: Kiểm tra từng tháng đóng theo trần tối đa 20 lần mức tham chiếu tại thời điểm đóng. Từ 01/07/2026 trần là 50.600.000 đồng/tháng; các kỳ trước tính theo mức đang có hiệu lực trong kỳ đó."
 ],
         auditRisks: [
-        "Rủi ro đoàn thanh tra lao động và bảo hiểm phát hiện doanh nghiệp chưa cập nhật mức trần tiền lương đóng BHXH mới (46.800.000 đồng) đối với các chuyên gia, kỹ sư trưởng hoặc quản lý mỏ đá có thu nhập cao.",
+        "Rủi ro dùng sai trần giữa các kỳ, nhất là vẫn dùng 46.800.000 đồng sau 30/06/2026 hoặc hồi tố 50.600.000 đồng cho kỳ trước 01/07/2026.",
         "Bẫy thuế truy thu tiền đóng BHXH bắt buộc và phạt tiền chậm nộp do doanh nghiệp bóc tách thu nhập của công nhân mỏ đá thành các khoản phụ cấp không chịu thuế BHXH nhưng thực chất có tính chất tiền lương.",
         "Phạt hành chính theo Nghị định 12/2022/NĐ-CP do vi phạm quy định đóng bảo hiểm xã hội không đúng thời hạn hoặc đóng thiếu quỹ tiền lương bắt buộc.",
         "Chi phí tiền lương và phần đóng BHXH vượt trần không được trừ khi tính thuế TNDN nếu không có quyết định điều chỉnh lương hợp lệ theo quy định pháp luật."
 ],
         defenseStrategy: [
-        "Lập luận rằng Công ty Cổ phần Kiểu Việt đã thực hiện nghiêm túc Nghị định 73/2024/NĐ-CP, áp dụng mức lương cơ sở 2,34 triệu đồng từ ngày 01/07/2024 để làm căn cứ tính toán mức trần đóng BHXH (20 x 2,34 triệu = 46,8 triệu đồng/tháng) cho đội ngũ cán bộ quản lý và kỹ sư.",
+        "Lập bảng căn cứ đóng theo từng tháng, đối chiếu Luật BHXH 41/2024/QH15 và mức tham chiếu có hiệu lực. NĐ 73/2024 giải thích mức 2,34 triệu và trần 46,8 triệu từ 01/07/2024; từ 01/07/2026 mức 2,53 triệu tạo trần 50,6 triệu đồng/tháng.",
         "Giải trình trước đoàn thanh tra về cấu trúc thu nhập của công nhân thi công công trình và khai thác mỏ đá tại Gia Lai, chứng minh các khoản phụ cấp độc hại, nặng nhọc (đặc thù nghề khai thác mỏ) được chi trả minh bạch, có đầy đủ quy chế tài chính và thỏa ước lao động tập thể.",
         "Cung cấp biên bản đối chiếu số liệu đóng BHXH hàng tháng với cơ quan BHXH tỉnh Gia Lai, chứng minh không có sự chênh lệch trốn đóng hoặc chậm đóng bảo hiểm.",
-        "Trường hợp có nhân sự có mức lương vượt trần 46,8 triệu đồng (20 lần mức lương cơ sở 2,34 triệu theo NĐ 73/2024), kế toán kiểm tra lại bảng lương để đảm bảo chỉ trích đóng BHXH/BHYT tối đa theo mức trần quy định, không trích vượt vào chi phí."
+        "Với nhân sự có lương vượt trần, tính lại theo mức tham chiếu đúng tháng; không hồi tố mức 50,6 triệu cho kỳ trước 01/07/2026."
 ]
       },
       {
