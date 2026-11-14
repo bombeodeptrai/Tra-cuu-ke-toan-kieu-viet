@@ -46,6 +46,11 @@ export function TableOfContents({ content, onItemClick, activeId }: TableOfConte
       // accept comma separators and common OCR debris immediately before genuine headings.
       const dieuMatch = line.match(/^(?:#+\s*|\*\*)?(?:[.,;:|]\s*)?(?:[A-Za-z]\s+)?(Điều\s+\d+\s*[\.:,]\s*.*?)(?:\*\*|$)/i);
       if (dieuMatch) {
+        // Do not treat a cross-reference chain such as
+        // "Điều 29, khoản 4 Điều 37, khoản 5 Điều 41..." as a heading.
+        // OCR may replace the period after an article number with a comma,
+        // so a single-article comma heading remains eligible.
+        if ((line.match(/\bĐiều\s+\d+/gi) || []).length !== 1) continue;
         count++;
         // Lấy tên điều gọn gàng (dưới 80 ký tự)
         let title = dieuMatch[1].replace(/[\*#_]/g, '').trim();
@@ -125,7 +130,7 @@ export function TableOfContents({ content, onItemClick, activeId }: TableOfConte
       </div>
 
       <div className="text-[11px] text-muted-foreground font-semibold flex items-center justify-between px-1">
-        <span>Danh mục {filteredItems.length} điều khoản:</span>
+        <span>Danh mục {filteredItems.filter(item => item.level === 2).length} điều · {filteredItems.filter(item => item.level === 1).length} chương:</span>
       </div>
 
       <div className="overflow-y-auto max-h-[420px] pr-1 space-y-1 custom-scrollbar text-xs">
@@ -153,3 +158,4 @@ export function TableOfContents({ content, onItemClick, activeId }: TableOfConte
     </div>
   );
 }
+
