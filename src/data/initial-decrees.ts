@@ -1225,11 +1225,12 @@ export const INITIAL_DECREES: Decree[] = [
     "status": "active",
     "summary": "Thông tư 91/2026/TT-BTC quy định chi tiết một số nội dung về hóa đơn điện tử và chứng từ điện tử theo Luật Quản lý thuế 108/2025/QH15 và Nghị định 254/2026/NĐ-CP. Phạm vi gồm đăng ký, định dạng, ủy nhiệm lập và xử lý hóa đơn/chứng từ điện tử; cấp hóa đơn theo từng lần phát sinh; cung cấp, tra cứu dữ liệu và một số yêu cầu kỹ thuật. Đây không phải văn bản quy định chung về trình tự kiểm tra thuế hay phân bổ thuế vãng lai. Đối chiếu toàn văn theo tình huống hóa đơn của từng mảng hoạt động.",
     "content_url": "/data/content/tt-91-2026.md",
+    "text_url": "/data/accounting-laws/tt-91-2026-1.json",
     "pdf_url": "/data/accounting-laws/tt-91-2026-1.pdf",
     "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=219006",
     "pdf_drive_id": "1HMliCUmetEY6sMEinsakZduptBF7X44P",
     "text_status": "ocr-review",
-    "text_status_note": "PDF gốc Chính phủ có 97 trang. Manifest OCR đánh dấu trang 52 rỗng, 36 trang có độ tin cậy OCR thấp và chưa xác minh bố cục; bản hiển thị là OCR tra cứu sơ bộ, không phải bản chép sạch đã soát toàn văn. Mục lục tự nhận dạng đang tạo mục sai; mở PDF gốc để đối chiếu từng điều và phụ lục trước khi viện dẫn."
+    "text_status_note": "PDF gốc Chính phủ có 97 trang. Manifest OCR đánh dấu trang 52 không trích xuất được chữ và 34 trang có độ tin cậy OCR thấp (đã tính cả trang 52); bố cục chưa xác minh. Bản hiển thị là OCR tra cứu sơ bộ, không phải bản chép sạch đã soát toàn văn; mở PDF gốc để đối chiếu từng điều và phụ lục trước khi viện dẫn."
   },
   {
     "id": "luat-09-2026",
