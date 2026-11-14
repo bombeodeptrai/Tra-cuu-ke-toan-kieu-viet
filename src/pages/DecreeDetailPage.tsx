@@ -27,6 +27,13 @@ import { DecreeDiffViewer } from '@/components/decree/DecreeDiffViewer';
 
 const contentCache = new Map<string, string>();
 
+const getArticleHeadingNumber = (value: string): string | null => {
+  const text = value.trim().replace(/^[.,;:|]\s*/, '').replace(/^[A-Za-z]\s+/, '').replace(/^\*{2,4}/, '');
+  const heading = text.match(/^Điều\s+(\d+)\s*[\.:,](?:\s|$)/i);
+  if (!heading || (text.match(/\bĐiều\s+\d+/gi) || []).length !== 1) return null;
+  return heading[1];
+};
+
 export function DecreeDetailPage() {
   const { id } = useParams();
   const { toast } = useToast();
@@ -200,7 +207,13 @@ export function DecreeDetailPage() {
       if (!fullPart.startsWith('# CỘNG HÒA') && !fullPart.startsWith('# ') && !fullPart.startsWith('**CHÍNH PHỦ**') && !fullPart.startsWith('**BỘ TÀI CHÍNH**')) {
         fullPart = `# ${decree?.title || 'TOÀN VĂN VĂN BẢN GỐC'}\n\n` + fullPart;
       }
-      setSummaryContent(summaryPart);
+      // The markdown prefix is legacy metadata and may contain stale AI prose.
+      // Always show the curated catalog summary; never let a title-only prefix
+      // masquerade as the document's analysis.
+      const curatedSummary = decree?.summary?.trim();
+      setSummaryContent(curatedSummary
+        ? `### 🌟 TÓM TẮT TRỌNG TÂM CHO KẾ TOÁN\n\n${curatedSummary}`
+        : summaryPart || 'Chưa có bản tóm lược đã rà soát. Đọc PDF gốc trước khi áp dụng văn bản.');
       setFullTextContent(fullPart);
     } else {
       // Check if text starts directly with government header
@@ -225,15 +238,28 @@ export function DecreeDetailPage() {
 
       setIsLoadingContent(true);
       const basePath = import.meta.env.BASE_URL || '/';
-      const contentUrl = decree.content_url || `/data/content/${decree.id}.md`;
+      const contentUrl = decree.text_url || decree.content_url || `/data/content/${decree.id}.md`;
       const contentPath = basePath.replace(/\/$/, '') + (contentUrl.startsWith('/') ? contentUrl : '/' + contentUrl) + '?t=' + Date.now();
       
       fetch(contentPath)
         .then(res => {
           if (!res.ok) throw new Error('Không tìm thấy nội dung file markdown');
-          return res.text();
+          return decree.text_url ? res.json() : res.text();
         })
-        .then(text => {
+        .then(payload => {
+          let text = payload as string;
+          if (decree.text_url) {
+            const pages = (payload as { pages?: Array<{ page: number; text: string; ocrConfidence?: number }> }).pages;
+            if (!Array.isArray(pages) || pages.length === 0) throw new Error('Dữ liệu OCR phân trang không hợp lệ');
+            text = `## 📜 TOÀN VĂN VĂN BẢN\n\n${pages.map(page => {
+              const pageText = page.text?.trim() || '';
+              const lowConfidence = (page.ocrConfidence ?? 100) < 80;
+              const body = pageText.length < 30
+                ? '[Không trích xuất được nội dung có thể đọc từ trang này. Mở PDF gốc để kiểm tra.]'
+                : `${lowConfidence ? '> Trang OCR chất lượng thấp. Đối chiếu PDF gốc.\n\n' : ''}${pageText}`;
+              return `### Trang ${page.page}\n\n${body}`;
+            }).join('\n\n')}`;
+          }
           contentCache.set(decree.id, text);
           parseAndSetText(text);
         })
@@ -429,7 +455,7 @@ export function DecreeDetailPage() {
                 <FileText className="h-4 w-4 text-emerald-600" /> Nội dung văn bản
               </TabsTrigger>
               <TabsTrigger value="summary" className="gap-2 font-semibold text-xs sm:text-sm">
-                <Bot className="h-4 w-4 text-blue-600" /> Tóm tắt AI
+                <Bot className="h-4 w-4 text-blue-600" /> Tóm tắt tham khảo
               </TabsTrigger>
               <TabsTrigger value="diff" className="gap-2 font-semibold text-xs sm:text-sm">
                 <ArrowRightLeft className="h-4 w-4 text-amber-600" /> Điểm mới & So sánh
@@ -550,23 +576,23 @@ export function DecreeDetailPage() {
                       components={{
                         h1: ({ children, ...props }) => {
                           const text = typeof children === 'string' ? children : (Array.isArray(children) ? children.join('') : '');
-                          const m = String(text).match(/Điều\s+(\d+)/i);
-                          return <h1 id={m ? `dieu-${m[1]}` : undefined} className={m ? 'scroll-mt-28' : ''} {...props}>{children}</h1>;
+                          const number = getArticleHeadingNumber(String(text));
+                          return <h1 id={number ? `dieu-${number}` : undefined} className={number ? 'scroll-mt-28' : ''} {...props}>{children}</h1>;
                         },
                         h2: ({ children, ...props }) => {
                           const text = typeof children === 'string' ? children : (Array.isArray(children) ? children.join('') : '');
-                          const m = String(text).match(/Điều\s+(\d+)/i);
-                          return <h2 id={m ? `dieu-${m[1]}` : undefined} className={m ? 'scroll-mt-28' : ''} {...props}>{children}</h2>;
+                          const number = getArticleHeadingNumber(String(text));
+                          return <h2 id={number ? `dieu-${number}` : undefined} className={number ? 'scroll-mt-28' : ''} {...props}>{children}</h2>;
                         },
                         h3: ({ children, ...props }) => {
                           const text = typeof children === 'string' ? children : (Array.isArray(children) ? children.join('') : '');
-                          const m = String(text).match(/Điều\s+(\d+)/i);
-                          return <h3 id={m ? `dieu-${m[1]}` : undefined} className={m ? 'scroll-mt-28' : ''} {...props}>{children}</h3>;
+                          const number = getArticleHeadingNumber(String(text));
+                          return <h3 id={number ? `dieu-${number}` : undefined} className={number ? 'scroll-mt-28' : ''} {...props}>{children}</h3>;
                         },
                         h4: ({ children, ...props }) => {
                           const text = typeof children === 'string' ? children : (Array.isArray(children) ? children.join('') : '');
-                          const m = String(text).match(/Điều\s+(\d+)/i);
-                          return <h4 id={m ? `dieu-${m[1]}` : undefined} className={m ? 'scroll-mt-28' : ''} {...props}>{children}</h4>;
+                          const number = getArticleHeadingNumber(String(text));
+                          return <h4 id={number ? `dieu-${number}` : undefined} className={number ? 'scroll-mt-28' : ''} {...props}>{children}</h4>;
                         },
                         p: ({ children, ...props }) => {
                           const extractStr = (n: any): string => {
@@ -577,8 +603,8 @@ export function DecreeDetailPage() {
                             return '';
                           };
                           const text = extractStr(children);
-                          const m = text.match(/^\s*(?:[.,;:|]\s*)?(?:[A-Za-z]\s+)?(?:\*{2,4})?\s*Điều\s+(\d+)[\.:,\s\-–—]/i);
-                          return <p id={m ? `dieu-${m[1]}` : undefined} className={m ? 'scroll-mt-28' : ''} {...props}>{children}</p>;
+                          const number = getArticleHeadingNumber(text);
+                          return <p id={number ? `dieu-${number}` : undefined} className={number ? 'scroll-mt-28' : ''} {...props}>{children}</p>;
                         }
                       }}
                     >
@@ -604,7 +630,7 @@ export function DecreeDetailPage() {
                   <div className="p-2.5 bg-blue-100 dark:bg-blue-900/50 rounded-xl">
                     <Bot className="h-6 w-6" />
                   </div>
-                  <h3 className="font-bold text-xl">Tóm lược nghiệp vụ & phân tích</h3>
+                  <h3 className="font-bold text-xl">Tóm lược nghiệp vụ (tham khảo)</h3>
                 </div>
                 <div role="note" className="mb-5 rounded-lg border border-amber-300/70 bg-amber-50/70 px-3 py-2 text-xs text-amber-950 dark:border-amber-800 dark:bg-amber-950/30 dark:text-amber-100 relative z-10">
                   Đây là phần hỗ trợ tra cứu, không thay thế toàn văn. Hãy đối chiếu điều khoản, văn bản sửa đổi và ngày phát sinh nghiệp vụ trước khi kê khai hoặc giải trình.
@@ -731,3 +757,4 @@ export function DecreeDetailPage() {
     </div>
   );
 }
+
