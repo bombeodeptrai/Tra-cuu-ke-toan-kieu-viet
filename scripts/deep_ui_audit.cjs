@@ -54,11 +54,18 @@ async function runDeepAudit() {
 
   page.on('console', msg => {
     if (msg.type() === 'error') {
-      auditReport.push({ type: 'CONSOLE_ERROR', text: msg.text() });
+      auditReport.push({ type: 'CONSOLE_ERROR', text: msg.text(), source: msg.location()?.url || '' });
     }
   });
   page.on('pageerror', err => {
     auditReport.push({ type: 'PAGE_ERROR', text: err.message });
+  });
+  page.on('requestfailed', request => {
+    auditReport.push({
+      type: 'REQUEST_FAILED',
+      url: request.url(),
+      reason: request.failure()?.errorText || 'unknown',
+    });
   });
 
   const routesToTest = [
@@ -87,7 +94,8 @@ async function runDeepAudit() {
 
   for (const r of routesToTest) {
     console.log(`Kiểm tra Mobile: ${r.name} (${r.url})...`);
-    await page.goto(`http://127.0.0.1:${PORT}${r.url}`, { waitUntil: 'networkidle0', timeout: 25000 });
+    await page.goto(`http://127.0.0.1:${PORT}${r.url}`, { waitUntil: 'domcontentloaded', timeout: 25000 });
+    await page.waitForSelector('main', { timeout: 10000 });
     await new Promise(res => setTimeout(res, 1200));
 
     // Check for raw html leak in visible text
@@ -121,7 +129,8 @@ async function runDeepAudit() {
 
   // Test specifically Tab "Điểm mới & So sánh" inside DecreeDetailPage
   console.log('Kiểm tra Tab Điểm mới trong DecreeDetailPage...');
-  await page.goto(`http://127.0.0.1:${PORT}/Tra-cuu-ke-toan-kieu-viet/#/thu-vien/tt-99-2025`, { waitUntil: 'networkidle0' });
+  await page.goto(`http://127.0.0.1:${PORT}/Tra-cuu-ke-toan-kieu-viet/#/thu-vien/tt-99-2025`, { waitUntil: 'domcontentloaded' });
+  await page.waitForSelector('main', { timeout: 10000 });
   await new Promise(res => setTimeout(res, 1000));
 
   // Click tab Điểm mới
@@ -140,11 +149,13 @@ async function runDeepAudit() {
   console.log('\n--- BẮT ĐẦU KIỂM TRA MÀN HÌNH DESKTOP (1280 x 800) ---');
   await page.setViewport({ width: 1280, height: 800, isMobile: false });
 
-  await page.goto(`http://127.0.0.1:${PORT}/Tra-cuu-ke-toan-kieu-viet/#/so-sanh`, { waitUntil: 'networkidle0' });
+  await page.goto(`http://127.0.0.1:${PORT}/Tra-cuu-ke-toan-kieu-viet/#/so-sanh`, { waitUntil: 'domcontentloaded' });
+  await page.waitForSelector('main', { timeout: 10000 });
   await new Promise(res => setTimeout(res, 1000));
   await page.screenshot({ path: `audit_screens/desktop_so_sanh_55.png` });
 
-  await page.goto(`http://127.0.0.1:${PORT}/Tra-cuu-ke-toan-kieu-viet/#/thu-vien/tt-99-2025`, { waitUntil: 'networkidle0' });
+  await page.goto(`http://127.0.0.1:${PORT}/Tra-cuu-ke-toan-kieu-viet/#/thu-vien/tt-99-2025`, { waitUntil: 'domcontentloaded' });
+  await page.waitForSelector('main', { timeout: 10000 });
   await new Promise(res => setTimeout(res, 1000));
   await page.screenshot({ path: `audit_screens/desktop_detail_tt99.png` });
 
@@ -161,3 +172,4 @@ async function runDeepAudit() {
 }
 
 runDeepAudit().catch(console.error);
+
