@@ -51,11 +51,17 @@ export function useDecrees(
     }
 
     if (searchQuery) {
-      const fuse = new Fuse(result, {
-        keys: ['title', 'decree_number', 'summary'],
-        threshold: 0.3
-      });
-      result = fuse.search(searchQuery).map(r => r.item);
+      const normalizedQuery = searchQuery.normalize('NFKC').replace(/[\s.]/g, '').toLocaleUpperCase('vi');
+      const looksLikeDocumentNumber = /^\d{1,4}\/\d{4}\/[A-ZĐ-]+$/.test(normalizedQuery);
+      const exactNumberMatches = looksLikeDocumentNumber
+        ? result.filter(decree => [decree.decree_number, decree.number].filter(Boolean).some(number =>
+            number!.normalize('NFKC').replace(/[\s.]/g, '').toLocaleUpperCase('vi') === normalizedQuery))
+        : [];
+      if (exactNumberMatches.length) result = exactNumberMatches;
+      else {
+        const fuse = new Fuse(result, { keys: ['title', 'decree_number', 'summary'], threshold: 0.3 });
+        result = fuse.search(searchQuery).map(r => r.item);
+      }
     }
 
     return result;
