@@ -113,7 +113,7 @@ export function TableOfContents({ content, onItemClick, activeId }: TableOfConte
   if (tocItems.length === 0) {
     return (
       <div className="p-4 text-xs text-muted-foreground text-center">
-        Đang phân tích các điều khoản...
+        Chưa tách được mục lục tự động từ nội dung này. Dùng ô tìm kiếm trong toàn văn hoặc mở nguồn chính thức để tra điều khoản.
       </div>
     );
   }
