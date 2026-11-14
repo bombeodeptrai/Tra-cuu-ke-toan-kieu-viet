@@ -600,7 +600,7 @@ export function ToolsPage() {
                   Mức lương hợp đồng (Gross)
                 </CardTitle>
                 <CardDescription>
-                  Áp dụng mức trần lương cơ sở 2.340.000đ (NĐ 73/2024/NĐ-CP)
+                  Trần hiện hành BHXH/BHYT: 50.600.000đ (20 × mức tham chiếu 2.530.000đ từ 01/07/2026). Kỳ trước đó phải áp mức theo tháng đóng.
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
@@ -635,7 +635,7 @@ export function ToolsPage() {
                     <ShieldCheck className="h-4 w-4 text-blue-600 shrink-0" />
                     Trần bảo hiểm áp dụng:
                   </div>
-                  <p>• Trần BHXH, BHYT: <strong>{formatVnd(CAP_BHXH_BHYT)}</strong> (20 lần lương cơ sở 2,34tr).</p>
+                  <p>• Trần BHXH, BHYT: <strong>{formatVnd(CAP_BHXH_BHYT)}</strong> (20 lần mức tham chiếu 2,53tr từ 01/07/2026).</p>
                   <p>• Trần BHTN: <strong>{formatVnd(CAP_BHTN)}</strong> (20 lần lương tối thiểu vùng).</p>
                 </div>
               </CardContent>
