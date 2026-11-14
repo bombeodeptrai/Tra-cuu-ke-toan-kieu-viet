@@ -1,10 +1,3 @@
-# NGHỊ QUYẾT
-
-**Số:** 43/2026/NQ-CP  
-**Ban hành:** 30/09/2026  
-**Hiệu lực:** 01/10/2026 đến hết 31/12/2026  
-**PDF gốc:** Bản ký số Chính phủ, 02 trang.
-
 ## 📜 TOÀN VĂN VĂN BẢN
 
 **CHÍNH PHỦ**  
