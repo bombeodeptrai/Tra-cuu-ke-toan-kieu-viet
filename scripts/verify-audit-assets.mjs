@@ -31,7 +31,18 @@ for(const d of m.documents){if(!metadata.documents[d.id])throw Error('Missing me
   // Raw OCR uncertainty is surfaced next to the source page. Don't turn an explicitly flagged page into a false release-blocker.
   const pageChunks=txt.split(/(?=^### Trang \d+[ \t]*$)/m);
   if(pageChunks.some(page=>!page.includes('Cần rà OCR')&&INWORD.test(page)))problems.push('Còn ký tự "__" chen giữa chữ ở trang không cảnh báo OCR: '+f);}
+ const tt91=core.find(d=>d.id==='tt-91-2026');const tt91Source=m.documents.find(d=>d.id==='tt-91-2026');
+ if(!tt91||!tt91Source?.files?.length)problems.push('Thiếu TT91/2026 trong catalog hoặc manifest nguồn');
+ else{const file=tt91Source.files[0];if(tt91.text_status!=='ocr-review'||!tt91.text_status_note?.includes('trang 52 rỗng'))problems.push('TT91 phải cảnh báo trang OCR rỗng/chưa xác minh bố cục');
+  if(!file.emptyPages?.includes(52)||!file.lowConfidencePages?.length||tt91Source.layoutVerified!==false)problems.push('Manifest OCR TT91 đã thay đổi; phải rà soát và cập nhật cảnh báo chất lượng trước khi phát hành');
+  if(tt91.summary?.includes('ban hành hệ thống biểu mẫu kê khai thuế mới'))problems.push('Tóm tắt TT91 còn gán sai phạm vi văn bản');}
+ const nd291=core.find(d=>d.id==='nd-291-2026');
+ if(!nd291||!nd291.summary?.includes('Điều 19a')||nd291.summary.includes('quy định chi tiết mức phạt hành vi không giải trình'))problems.push('Tóm tắt NĐ291 chưa phản ánh đúng phạm vi Điều 19a');
+ const qlt=core.find(d=>d.id==='luat-108-2025');
+ if(!qlt||qlt.summary?.includes('áp dụng trí tuệ nhân tạo đối soát rủi ro'))problems.push('Tóm tắt Luật Quản lý thuế 108 còn khẳng định ứng dụng AI không có căn cứ');
+ if(/Kiểu Việt có doanh thu\s+\d{4}|134\s*tỷ đồng/i.test(JSON.stringify(core)))problems.push('Catalog public còn chứa dữ liệu doanh thu nội bộ của Kiểu Việt');
  const pkg=JSON.parse(fs.readFileSync('package.json','utf8'));const cst=fs.readFileSync('src/lib/utils/constants.ts','utf8').match(/APP_VERSION = '([^']+)'/);
  if(!cst||cst[1]!==pkg.version)problems.push('APP_VERSION trong constants.ts khác version package.json');
  if(problems.length){console.error(problems.join('\n'));throw Error(problems.length+' lỗi dữ liệu');}}
 console.log(JSON.stringify({core:core.length,supplemental:m.documents.length,originalFiles:count,pages,ocrReviewCount:ocrReview.length,ocrReviewSample:ocrReview.slice(0,5),legalCertification:false},null,2));
+
