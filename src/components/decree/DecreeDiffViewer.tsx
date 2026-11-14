@@ -102,7 +102,7 @@ export function DecreeDiffViewer({ decreeId }: DecreeDiffViewerProps) {
             <option value="tt-111-2013">Thông tư 111/2013/TT-BTC (Khoán chi ăn ca, trang phục công trường vs TT 84)</option>
             <option value="nd-293-2025">Nghị định 293/2025/NĐ-CP (Lương tối thiểu vùng năm 2026 vs NĐ 74)</option>
             <option value="blld-45-2019">Bộ luật Lao động 45/2019/QH14 (Bỏ HĐLĐ mùa vụ, thêm nghỉ Quốc khánh)</option>
-            <option value="nd-73-2024">Nghị định 73/2024/NĐ-CP (Lương cơ sở 2.34tr tăng trần BHXH 46.8tr)</option>
+            <option value="nd-73-2024">Nghị định 73/2024/NĐ-CP (mức lịch sử từ 01/07/2024; không dùng trần 46,8tr cho kỳ hiện tại)</option>
             <option value="nd-145-2020">Nghị định 145/2020/NĐ-CP (Lương tăng ca, trần 300h xây dựng vs NĐ 05)</option>
             <option value="nd-12-2022">Nghị định 12/2022/NĐ-CP (Xử phạt trốn đóng BHXH & ATVSLĐ vs NĐ 28)</option>
             <option value="luat-41-2024">Luật Bảo hiểm xã hội 41/2024/QH15 (Đóng 15 năm hưởng hưu vs Luật 58)</option>
