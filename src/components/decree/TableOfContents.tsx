@@ -50,7 +50,8 @@ export function TableOfContents({ content, onItemClick, activeId }: TableOfConte
         // "Điều 29, khoản 4 Điều 37, khoản 5 Điều 41..." as a heading.
         // OCR may replace the period after an article number with a comma,
         // so a single-article comma heading remains eligible.
-        if ((line.match(/\bĐiều\s+\d+/gi) || []).length !== 1) continue;
+        // `\b` does not treat Vietnamese `Đ` as a word character in JavaScript.
+        if ((line.match(/Điều\s+\d+/gi) || []).length !== 1) continue;
         count++;
         // Lấy tên điều gọn gàng (dưới 80 ký tự)
         let title = dieuMatch[1].replace(/[\*#_]/g, '').trim();
