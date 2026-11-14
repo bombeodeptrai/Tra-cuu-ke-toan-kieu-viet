@@ -43,7 +43,7 @@ export function Header() {
           </Sheet>
           <div className="flex items-center gap-2 font-bold text-lg cursor-pointer" onClick={() => navigate('/')}>
             <div className="bg-white p-1 rounded-lg shadow-sm flex items-center border border-border/50">
-              <img src="https://kieuviet.com.vn/wp-content/uploads/2024/10/logo-kieu-viet.png" alt="Kiểu Việt" className="h-6 object-contain" />
+              <img src={`${import.meta.env.BASE_URL}logo-kieu-viet.png`} alt="Kiểu Việt" className="h-6 object-contain" />
             </div>
             <span className="hidden sm:inline-block tracking-tight">Kế Toán</span>
           </div>
@@ -51,7 +51,7 @@ export function Header() {
 
         <div className="hidden md:flex items-center gap-2 font-bold text-xl cursor-pointer mr-6" onClick={() => navigate('/')}>
             <div className="bg-white p-1.5 rounded-lg shadow-soft flex items-center border border-border/50">
-              <img src="https://kieuviet.com.vn/wp-content/uploads/2024/10/logo-kieu-viet.png" alt="Kiểu Việt" className="h-6 object-contain" />
+              <img src={`${import.meta.env.BASE_URL}logo-kieu-viet.png`} alt="Kiểu Việt" className="h-6 object-contain" />
             </div>
             <span className="tracking-tight font-semibold">Tra Cứu</span>
         </div>
@@ -102,3 +102,4 @@ export function Header() {
     </header>
   );
 }
+
