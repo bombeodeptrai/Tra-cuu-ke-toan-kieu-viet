@@ -255,7 +255,9 @@ export function DecreeDetailPage() {
               const pageText = page.text?.trim() || '';
               const lowConfidence = (page.ocrConfidence ?? 100) < 80;
               const body = pageText.length < 30
-                ? '[Không trích xuất được nội dung có thể đọc từ trang này. Mở PDF gốc để kiểm tra.]'
+                ? decree.id === 'tt-91-2026' && page.page === 52
+                  ? '[Trang PDF gốc 52 là phần tiếp theo của Mẫu số 01/BK-ĐCTT (bảng kê hóa đơn điện tử đã lập sai). OCR không giữ được nội dung và cấu trúc cột/dòng; mở PDF gốc trang 52 để xem nguyên bảng.]'
+                  : '[Không trích xuất được nội dung có thể đọc từ trang này. Mở PDF gốc để kiểm tra.]'
                 : `${lowConfidence ? '> Trang OCR chất lượng thấp. Đối chiếu PDF gốc.\n\n' : ''}${pageText}`;
               return `### Trang ${page.page}\n\n${body}`;
             }).join('\n\n')}`;
