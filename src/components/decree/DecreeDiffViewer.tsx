@@ -12,6 +12,10 @@ import { DIFF_DATABASE, DecreeDiffData, DiffItem } from '@/data/diff-database';
 export type { DecreeDiffData, DiffItem };
 export { DIFF_DATABASE };
 
+// The legacy diff records have no independently auditable citations to both
+// versions of a rule. Keep the allowlist empty until records carry those sources.
+const VERIFIED_DIFF_IDS = new Set<string>();
+
 interface DecreeDiffViewerProps {
   decreeId: string;
 }
@@ -28,7 +32,11 @@ export function DecreeDiffViewer({ decreeId }: DecreeDiffViewerProps) {
   }, [decreeId]);
 
   const targetId = selectedId || decreeId;
-  const hasDiff = Boolean(DIFF_DATABASE[targetId]);
+  // The legacy comparison corpus has no source citations per claim. A known TT99
+  // entry also contains claims contradicted by the official text (e.g. TK 521/337).
+  // Nothing is rendered as legal guidance until independently verified.
+  const reviewRequired = Boolean(DIFF_DATABASE[targetId]) && !VERIFIED_DIFF_IDS.has(targetId);
+  const hasDiff = Boolean(DIFF_DATABASE[targetId]) && VERIFIED_DIFF_IDS.has(targetId);
   const currentDiffId = hasDiff ? targetId : '';
   const diffData = hasDiff ? DIFF_DATABASE[targetId] : null;
 
@@ -39,7 +47,7 @@ export function DecreeDiffViewer({ decreeId }: DecreeDiffViewerProps) {
         <div className="flex items-center gap-2">
           <Layers className="h-4 w-4 text-emerald-600 shrink-0" />
           <span className="text-xs font-bold text-foreground uppercase tracking-wide">
-            Kho Đối Chiếu Điểm Mới ({Object.keys(DIFF_DATABASE).length} Văn Bản):
+            Kho dữ liệu đối chiếu nháp ({Object.keys(DIFF_DATABASE).length} văn bản đang rà soát):
           </span>
         </div>
         <select
@@ -281,13 +289,18 @@ export function DecreeDiffViewer({ decreeId }: DecreeDiffViewerProps) {
         <div className="p-8 rounded-xl border border-amber-200 bg-amber-50/50 dark:bg-amber-950/20 dark:border-amber-900/40 text-amber-900 dark:text-amber-200 space-y-3">
           <div className="flex items-center gap-2.5 font-bold text-sm">
             <AlertTriangle className="h-5 w-5 text-amber-600 shrink-0" />
-            <span>Chưa có dữ liệu đối chiếu điểm mới song song cho văn bản: {targetId}</span>
+            <span>{reviewRequired ? 'Đã tạm ẩn bảng đối chiếu để kiểm chứng căn cứ pháp lý' : `Chưa có dữ liệu đối chiếu đã xác minh cho văn bản: ${targetId}`}</span>
           </div>
           <p className="text-xs text-muted-foreground leading-relaxed">
-            Văn bản này hiện chưa có bảng đối chiếu 2 cột song song (là văn bản ban hành độc lập hoặc đang trong lộ trình số hóa đối chiếu). Vui lòng chọn văn bản khác từ danh mục trên hoặc mở hồ sơ văn bản để kiểm tra nội dung đã trích xuất và PDF gốc.
+            {reviewRequired && targetId === 'tt-99-2025'
+              ? 'Bảng cũ nêu TT99 bãi bỏ TK 521 và TK 337, nhưng Công báo vẫn có hướng dẫn các tài khoản này. Các kết luận, ví dụ định khoản và tác động nghiệp vụ chưa được kiểm chứng từng điều khoản; không dùng để định khoản, lập BCTC hoặc giải trình thuế. Toàn bộ kho hiện có 662 mục cũ nhưng chưa mục nào kèm đủ căn cứ kiểm chứng cho cả quy định cũ và mới, nên đã ẩn khỏi phần hướng dẫn.'
+              : reviewRequired
+                ? 'Bản đối chiếu cũ chưa lưu điều khoản/trang nguồn của cả văn bản cũ và văn bản mới cho từng kết luận. Để không biến nội dung chưa kiểm chứng thành hướng dẫn kế toán/thuế, các mục này đang bị ẩn. Hãy mở hồ sơ từng văn bản và đọc toàn văn cùng nguồn chính thức.'
+                : 'Chưa có bảng đối chiếu đã qua kiểm chứng cho văn bản này. Mở hồ sơ văn bản để xem toàn văn và nguồn chính thức.'}
           </p>
         </div>
       )}
     </div>
   );
 }
+

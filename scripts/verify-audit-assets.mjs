@@ -1,6 +1,8 @@
 import fs from 'node:fs';import crypto from 'node:crypto';
 const core=JSON.parse(fs.readFileSync('public/data/decrees.json','utf8'));if(core.length<55||new Set(core.map(d=>d.id)).size!==core.length)throw Error('Missing/duplicate core legal records');
-for(const d of core){const bytes=fs.readFileSync('public'+d.pdf_url);if(bytes.subarray(0,5).toString()!=='%PDF-')throw Error('Core original not PDF '+d.id);if(fs.readFileSync('public'+d.content_url,'utf8').trim().length<100)throw Error('Core text missing '+d.id);}
+for(const d of core){if(d.pdf_url){const bytes=fs.readFileSync('public'+d.pdf_url);if(bytes.subarray(0,5).toString()!=='%PDF-')throw Error('Core original not PDF '+d.id);}if(d.content_url&&fs.readFileSync('public'+d.content_url,'utf8').trim().length<100)throw Error('Core text missing '+d.id);}
+// TT99 safety gate: do not expose the known mismatched PDF until all official parts are reviewed.
+{const tt99=core.find(d=>d.id==='tt-99-2025');if(!tt99||tt99.pdf_url||tt99.pdf_drive_id||tt99.text_status!=='unverified'||!tt99.source_url?.startsWith('https://congbao.chinhphu.vn/'))throw Error('TT99 must remain unverified and must not expose the mismatched PDF/Drive asset');const viewer=fs.readFileSync('src/components/decree/DecreeDiffViewer.tsx','utf8');if(!viewer.includes('const VERIFIED_DIFF_IDS = new Set<string>();')||!viewer.includes('VERIFIED_DIFF_IDS.has(targetId)'))throw Error('Comparison UI legal verification allowlist has changed; verify citations before release');}
 const root='public/data/accounting-laws';const m=JSON.parse(fs.readFileSync(root+'/manifest.json','utf8'));const metadata=JSON.parse(fs.readFileSync(root+'/metadata.json','utf8'));
 if(m.documents.length<29)throw Error('Supplemental catalog incomplete');let count=0,pages=0,ocrReview=[];
 for(const d of m.documents){if(!metadata.documents[d.id])throw Error('Missing metadata '+d.id);if(!d.files.length)throw Error('No original file '+d.id);

@@ -663,13 +663,13 @@ export const INITIAL_DECREES: Decree[] = [
     "issued_date": "2025-10-27",
     "effective_date": "2026-01-01",
     "status": "active",
-    "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529.htm",
-    "summary": "Thông tư 99/2025/TT-BTC hướng dẫn chứng từ, tài khoản, sổ kế toán và lập, trình bày báo cáo tài chính cho doanh nghiệp thuộc mọi lĩnh vực (Điều 1–2); thay chế độ tại Thông tư 200/2014/TT-BTC từ ngày 01/01/2026, trừ nội dung chuyển tiếp được giữ lại tại khoản 2 Điều 31. Nghĩa vụ thuế phải xác định theo pháp luật thuế riêng, không suy ra từ chế độ kế toán.",
-    "pdf_url": "/data/pdfs/tt-99-2025.pdf",
+    "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59658.htm",
+    "summary": "Thông tư 99/2025/TT-BTC hướng dẫn chế độ kế toán doanh nghiệp, có hiệu lực từ 01/01/2026. Tệp PDF từng gắn với hồ sơ này không khớp văn bản (là quyết định khác của UBND tỉnh Thừa Thiên Huế); đã tạm gỡ nút tải và không dùng bản đó làm căn cứ. Toàn văn OCR hiện có chưa được đối chiếu đủ với 10 phần Công báo, đặc biệt các phụ lục; không dùng bản chép hoặc bảng so sánh cũ để định khoản cho đến khi hoàn tất kiểm chứng.",
     "content_url": "/data/content/tt-99-2025.md",
-    "free_download_url": "https://hethongphapluat.com/thong-tu-99-2025-tt-btc-thong-tu-992025tt-btc-huong-dan-che-do-ke-toan-doanh-nghiep-thay-the-tt-2002014tt-btc.html",
+    "free_download_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59658.htm",
     "tax_field": "ke-toan-dn",
-    "pdf_drive_id": "1ZChIs4J499pXNgOMeTMlotyF_HrCERZL"
+    "text_status": "unverified",
+    "text_status_note": "PDF cũ đính kèm sai văn bản nên đã bị gỡ khỏi nút tải. Công báo Chính phủ liệt kê 10 phần PDF/DOC của TT99; toàn văn nội bộ chưa được đối chiếu đủ 10 phần và các phụ lục. Chỉ dùng bản Công báo để tra cứu cho tới khi lưu đủ bản gốc và kiểm tra số trang, số hiệu, phụ lục, checksum."
   },
   {
     "id": "nd-125-2020",

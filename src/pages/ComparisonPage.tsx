@@ -25,7 +25,7 @@ const TAX_CATEGORIES: TaxCategory[] = [
     name: 'Tất cả sắc thuế',
     icon: Layers,
     count: DIFF_DOC_COUNT,
-    description: `${DIFF_DOC_COUNT} văn bản pháp luật kế toán, thuế và xây lắp có dữ liệu đối chiếu điểm mới`,
+    description: `${DIFF_DOC_COUNT} văn bản có dữ liệu đối chiếu cũ đang chờ kiểm chứng nguồn`,
     decrees: []
   },
   {
@@ -202,36 +202,13 @@ export function ComparisonPage() {
             Trung Tâm Đối Chiếu Pháp Lý Theo Sắc Thuế & Chuyên Đề
           </h1>
           <p className="text-sm text-muted-foreground mt-1 max-w-3xl">
-            Cơ sở dữ liệu {DIFF_ITEM_COUNT} điểm thay đổi chuyên sâu trên <strong>{DIFF_DOC_COUNT}/{LIBRARY_DOC_COUNT} văn bản pháp luật</strong> của thư viện. Toàn bộ đối chiếu được phân nhóm chặt chẽ theo từng <strong>sắc thuế và lĩnh vực nghiệp vụ tương ứng</strong>, chỉ so sánh giữa văn bản hiện hành và văn bản tiền nhiệm cùng lĩnh vực.
+            Kho hiện có {DIFF_ITEM_COUNT} mục đối chiếu nháp thuộc {DIFF_DOC_COUNT}/{LIBRARY_DOC_COUNT} văn bản. Đây là số lượng dữ liệu cũ, không phải số kết luận đã xác minh. Các mục chỉ được mở lại khi có căn cứ điều khoản/trang từ cả văn bản cũ và văn bản mới.
           </p>
         </div>
       </div>
 
-      {/* Principle Callout Box: Cùng sắc thuế / cùng chủ đề */}
-      <div className="bg-emerald-50/70 dark:bg-emerald-950/30 border border-emerald-300 dark:border-emerald-800 rounded-xl p-4 shadow-xs flex items-start gap-3.5">
-        <ShieldCheck className="h-6 w-6 text-emerald-600 dark:text-emerald-400 shrink-0 mt-0.5" />
-        <div className="space-y-1 text-xs md:text-sm text-emerald-900 dark:text-emerald-200">
-          <div className="font-bold text-emerald-950 dark:text-emerald-100 flex items-center gap-2">
-            <span>NGUYÊN TẮC ĐỐI CHIẾU CHUẨN MỰC PHÁP LÝ (CÙNG SẮC THUẾ & LĨNH VỰC NGHIỆP VỤ):</span>
-          </div>
-          <p className="leading-relaxed">
-            Hệ thống <strong>tuyệt đối không so sánh chéo</strong> giữa các sắc thuế không liên quan. Mỗi văn bản được ghép cặp đối chiếu chính xác 1:1 với chính văn bản tiền nhiệm thay thế của nó:
-          </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2 pt-1 text-xs">
-            <div className="bg-white/80 dark:bg-card/80 p-2 rounded border border-emerald-200 dark:border-emerald-800/60">
-              <span className="font-bold text-emerald-700 dark:text-emerald-300">📊 Kế toán:</span> TT 99/2025 vs TT 200 & TT 133
-            </div>
-            <div className="bg-white/80 dark:bg-card/80 p-2 rounded border border-emerald-200 dark:border-emerald-800/60">
-              <span className="font-bold text-emerald-700 dark:text-emerald-300">🏢 Thuế TNDN:</span> Luật 67/2025 vs Luật 14/2008
-            </div>
-            <div className="bg-white/80 dark:bg-card/80 p-2 rounded border border-emerald-200 dark:border-emerald-800/60">
-              <span className="font-bold text-emerald-700 dark:text-emerald-300">🧾 Hóa đơn ĐT:</span> NĐ 123/2020 vs NĐ 51/2010
-            </div>
-            <div className="bg-white/80 dark:bg-card/80 p-2 rounded border border-emerald-200 dark:border-emerald-800/60">
-              <span className="font-bold text-emerald-700 dark:text-emerald-300">⛏️ Thuế TN Gia Lai:</span> QĐ 87/2025 vs QĐ cũ
-            </div>
-          </div>
-        </div>
+      <div className="bg-amber-50/70 dark:bg-amber-950/30 border border-amber-300 dark:border-amber-800 rounded-xl p-4 text-sm text-amber-950 dark:text-amber-100">
+        <strong>Đang khóa phần kết luận đối chiếu.</strong> Bảng dữ liệu hiện tại không lưu nguồn đối chiếu đủ hai phiên bản cho từng nhận định. Riêng TT99, bảng nháp còn khẳng định sai rằng TK 521 và TK 337 bị bãi bỏ dù Công báo vẫn hướng dẫn các tài khoản này. Không dùng số lượng mục nháp làm bằng chứng về độ chính xác.
       </div>
 
       {/* Tax Category Filter Tabs */}
@@ -320,3 +297,4 @@ export function ComparisonPage() {
     </div>
   );
 }
+
