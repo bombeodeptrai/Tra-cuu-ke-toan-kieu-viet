@@ -16,7 +16,7 @@ for(const d of m.documents){if(!metadata.documents[d.id])throw Error('Missing me
  const expectedPages=source.files.reduce((sum,file)=>sum+file.pages,0);
  if(!new RegExp(`\\b${expectedPages}\\s*\\/\\s*${expectedPages}\\s*trang\\b`,'i').test(decree.text_status_note||''))throw Error('NĐ 254 OCR page count note does not match its PDF source');
  const text=fs.readFileSync('public'+decree.content_url,'utf8');const articles=new Set();
- for(const line of text.split(/\r?\n/)){const match=line.trim().match(/^(?:#+\s*|\*\*)?(?:[.,;:|]\s*)?(?:[A-Za-z]\s+)?(Điều\s+(\d+)\s*[.:,]\s*.*?)(?:\*\*|$)/i);if(match)articles.add(Number(match[2]));}
+ for(const line of text.split(/\r?\n/)){const match=line.trim().match(/^(?:#+\s*|\*\*)?(?:[.,;:|]\s*)?(?:[A-Za-z]\s+)?(Điều\s+(\d+)\s*[.:,]\s*.*?)(?:\*\*|$)/i);if(match&&(line.match(/Điều\s+\d+/gi)||[]).length===1)articles.add(Number(match[2]));}
  const missing=Array.from({length:45},(_,index)=>index+1).filter(number=>!articles.has(number));
  if(missing.length)throw Error('NĐ 254 table-of-contents headings missing: '+missing.join(', '));}
 // --- Kiểm tra bổ sung (13/11/2026): nguồn cấm, đồng bộ bản sao, lỗi chuyển đổi, phiên bản ---
@@ -33,8 +33,16 @@ for(const d of m.documents){if(!metadata.documents[d.id])throw Error('Missing me
   if(pageChunks.some(page=>!page.includes('Cần rà OCR')&&INWORD.test(page)))problems.push('Còn ký tự "__" chen giữa chữ ở trang không cảnh báo OCR: '+f);}
  const tt91=core.find(d=>d.id==='tt-91-2026');const tt91Source=m.documents.find(d=>d.id==='tt-91-2026');
  if(!tt91||!tt91Source?.files?.length)problems.push('Thiếu TT91/2026 trong catalog hoặc manifest nguồn');
- else{const file=tt91Source.files[0];if(tt91.text_status!=='ocr-review'||!tt91.text_status_note?.includes('trang 52 rỗng'))problems.push('TT91 phải cảnh báo trang OCR rỗng/chưa xác minh bố cục');
-  if(!file.emptyPages?.includes(52)||!file.lowConfidencePages?.length||tt91Source.layoutVerified!==false)problems.push('Manifest OCR TT91 đã thay đổi; phải rà soát và cập nhật cảnh báo chất lượng trước khi phát hành');
+ else{const file=tt91Source.files[0];if(tt91.text_status!=='ocr-review'||!tt91.text_status_note?.includes('trang 52 không trích xuất được chữ'))problems.push('TT91 phải cảnh báo trang OCR rỗng/chưa xác minh bố cục');
+  if(!file.emptyPages?.includes(52)||file.lowConfidencePages?.length!==34||tt91Source.layoutVerified!==false)problems.push('Manifest OCR TT91 đã thay đổi; phải rà soát và cập nhật cảnh báo chất lượng trước khi phát hành');
+  if(tt91.text_url!=='/data/accounting-laws/tt-91-2026-1.json')problems.push('TT91 phải trỏ tới dữ liệu OCR theo trang từ PDF gốc');
+  const tt91Text=JSON.parse(fs.readFileSync('public'+tt91.text_url,'utf8'));
+  if(tt91Text.pages?.length!==97||tt91Text.pages[51]?.page!==52||tt91Text.pages[51].text.trim().length>=30)problems.push('TT91 phải giữ đủ 97 trang và xác định đúng trang 52 không trích xuất được chữ');
+  if(tt91Text.pages[2].text.split(/\r?\n/).filter(line=>line.trim()==='Chương II').length!==1||!tt91Text.pages[27].text.includes('Chương III\nQUY ĐỊNH VỀ CHỨNG TỪ ĐIỆN TỬ')||tt91Text.manualCorrections?.length!==2)problems.push('TT91 cần giữ hai tiêu đề chương đã đối chiếu trực quan với PDF gốc trang 3 và 28');
+  const tt91DisplayText=tt91Text.pages.map(page=>page.text).join('\n');
+  const tt91Articles=new Set();for(const line of tt91DisplayText.split(/\r?\n/)){const match=line.trim().match(/^Điều\s+(\d+)\s*[.:,]\s*\S/i);if(match&&(line.match(/Điều\s+\d+/gi)||[]).length===1)tt91Articles.add(Number(match[1]));}
+  if(tt91Articles.size!==25)problems.push(`TT91 phải có 25 tiêu đề Điều, tìm thấy ${tt91Articles.size}`);
+  if((tt91DisplayText.match(/^Chương\s+/gmi)||[]).length!==5)problems.push('TT91 phải có đủ 5 tiêu đề Chương sau hiệu chỉnh OCR đã đối chiếu PDF');
   if(tt91.summary?.includes('ban hành hệ thống biểu mẫu kê khai thuế mới'))problems.push('Tóm tắt TT91 còn gán sai phạm vi văn bản');}
  const nd291=core.find(d=>d.id==='nd-291-2026');
  if(!nd291||!nd291.summary?.includes('Điều 19a')||nd291.summary.includes('quy định chi tiết mức phạt hành vi không giải trình'))problems.push('Tóm tắt NĐ291 chưa phản ánh đúng phạm vi Điều 19a');
