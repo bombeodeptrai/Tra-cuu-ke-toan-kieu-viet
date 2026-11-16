@@ -22,8 +22,8 @@
     "tax_field": "chinh-sach-thue",
     "issued_date": "2020-02-24",
     "effective_date": "2020-02-25",
-    "status": "active",
-    "summary": "Sửa đổi, bổ sung các trường hợp được miễn lệ phí môn bài.",
+    "status": "replaced",
+    "summary": "Văn bản lịch sử sửa đổi Nghị định 139/2016/NĐ-CP về miễn lệ phí môn bài. Chỉ tra cứu nghĩa vụ của các kỳ trước năm 2026; từ 01/01/2026 việc thu, nộp lệ phí môn bài đã chấm dứt theo khoản 7 Điều 10 Nghị quyết 198/2025/QH15.",
     "content_url": "/data/content/nd-22-2020.md",
     "pdf_drive_id": "1npddD5XNIfu0cjEPg7tzpJO97uRFdtAn",
     "pdf_url": "/data/pdfs/nd-22-2020.pdf",
@@ -37,8 +37,8 @@
     "tax_field": "chinh-sach-thue",
     "issued_date": "2016-10-04",
     "effective_date": "2017-01-01",
-    "status": "active",
-    "summary": "Quy định chi tiết về người nộp, trường hợp miễn, mức thu và tổ chức thu nộp lệ phí môn bài.",
+    "status": "replaced",
+    "summary": "Văn bản lịch sử về người nộp, miễn giảm, mức thu và tổ chức thu lệ phí môn bài. Chỉ dùng để rà soát kỳ đến hết năm 2025; không dùng làm căn cứ thu/nộp định kỳ từ 01/01/2026, khi khoản thu này đã chấm dứt theo khoản 7 Điều 10 Nghị quyết 198/2025/QH15.",
     "content_url": "/data/content/nd-139-2016.md",
     "pdf_drive_id": "1f-KtHHS7R9J7ViKuGDVT1pr_TZoXsIJ-",
     "pdf_url": "/data/pdfs/nd-139-2016.pdf",
@@ -1626,3 +1626,4 @@
     ]
   }
 ]
+

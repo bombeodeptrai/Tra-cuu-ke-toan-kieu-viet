@@ -169,13 +169,13 @@ export function ToolsPage() {
     },
     {
       id: "td2",
-      period: "30/01 hàng năm",
-      title: "Nộp Lệ phí môn bài & Tờ khai môn bài (nếu có thay đổi)",
-      agency: "Kho bạc Nhà nước / Ngân hàng nộp thuế",
-      dueDateText: "30 tháng 01 hàng năm",
-      formCode: "Nghị định 139 & 22",
-      description: "Vốn điều lệ > 10 tỷ: 3.000.000đ/năm. Vốn điều lệ ≤ 10 tỷ: 2.000.000đ/năm. Chi nhánh/VPĐD: 1.000.000đ/năm.",
-      badge: "Đầu năm"
+      period: "Rà soát nghĩa vụ đến hết 2025",
+      title: "Đối chiếu nợ lệ phí môn bài các năm trước",
+      agency: "Cơ quan thuế quản lý trực tiếp",
+      dueDateText: "Từ 01/01/2026 không kê khai, nộp lệ phí môn bài cho năm 2026 trở đi",
+      formCode: "Khoản 7 Điều 10 Nghị quyết 198/2025/QH15",
+      description: "Chấm dứt thu, nộp lệ phí môn bài từ 01/01/2026. Chỉ rà soát nghĩa vụ phát sinh đến 31/12/2025 còn chưa hoàn thành; không dùng mức thu cũ làm khoản phải nộp định kỳ năm 2026.",
+      badge: "Đã chấm dứt từ 2026"
     },
     {
       id: "td3",

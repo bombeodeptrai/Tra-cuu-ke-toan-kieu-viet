@@ -992,76 +992,73 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
       },
       {
         id: 'chk-nd-139-2016',
-        title: 'Lệ phí môn bài doanh nghiệp & chi nhánh mỏ đá (NĐ 139/2016)',
-        description: 'Kiểm tra biên lai nộp lệ phí môn bài 3tr/năm (vốn > 10 tỷ) hoặc 2tr/năm, các chi nhánh/địa điểm kinh doanh mỏ đá 1tr/năm trước hạn 30/01.',
+        title: 'Rà soát lệ phí môn bài còn tồn đến hết năm 2025',
+        description: 'Chỉ kiểm tra kỳ nghĩa vụ phát sinh đến 31/12/2025; từ 01/01/2026 đã chấm dứt thu, nộp lệ phí môn bài theo khoản 7 Điều 10 Nghị quyết 198/2025/QH15.',
         priority: 'important',
         decreeId: 'nd-139-2016',
         articleNum: '4',
         decreeLabel: 'NĐ 139/2016 (Lệ phí môn bài)',
         phase: 2,
         documentsRequired: [
-        "Giấy chứng nhận đăng ký doanh nghiệp của Công ty Cổ phần Kiểu Việt.",
-        "Giấy chứng nhận đăng ký hoạt động chi nhánh, địa điểm kinh doanh, văn phòng đại diện (đặc biệt là các mỏ đá và xưởng chế biến đá tại các huyện/thị xã ở Gia Lai).",
-        "Tờ khai lệ phí môn bài hàng năm hoặc tờ khai khi có thay đổi vốn điều lệ/thành lập địa điểm kinh doanh mới.",
-        "Các chứng từ nộp lệ phí môn bài qua ngân hàng (Ủy nhiệm chi TK 112 đối ứng TK 3338 / TK 3339).",
-        "Sổ chi tiết tài khoản phải nộp thuế và các khoản phí (TK 3338, TK 3339) và tài khoản chi phí quản lý doanh nghiệp (TK 642).",
-        "Hồ sơ quyết định tăng/giảm vốn điều lệ (nếu có) ảnh hưởng đến bậc môn bài."
+        "Giấy chứng nhận đăng ký doanh nghiệp và hồ sơ chi nhánh/địa điểm kinh doanh có hoạt động trong từng kỳ đến hết năm 2025.",
+        "Tờ khai, thông báo nghĩa vụ và chứng từ nộp môn bài của từng kỳ phát sinh đến hết năm 2025; đối chiếu riêng theo mã số thuế đơn vị phụ thuộc.",
+        "Sổ chi tiết nghĩa vụ phải nộp, giấy nộp tiền, thông báo nợ/tiền chậm nộp của cơ quan thuế; đánh dấu rõ khoản đã nộp và còn nợ.",
+        "Hồ sơ vốn điều lệ, thời điểm thành lập/thay đổi và tài liệu miễn giảm áp dụng cho từng năm lịch sử.",
+        "Nghị quyết 198/2025/QH15 và hướng dẫn chính thức về việc chấm dứt thu từ năm 2026 để loại nghĩa vụ định kỳ sau mốc này."
 ],
         accountingSteps: [
-        "Bước 1: Rà soát toàn bộ hệ thống các chi nhánh, xưởng sản xuất, mỏ đá trực thuộc công ty đang hoạt động tại các địa bàn tỉnh Gia Lai để xác định chính xác số lượng cơ sở phải nộp lệ phí môn bài.",
-        "Bước 2: Kiểm tra việc kê khai bậc lệ phí môn bài dựa trên mức vốn điều lệ của trụ sở chính (3.000.000 đồng hoặc 2.000.000 đồng) và mức cố định cho các chi nhánh/địa điểm kinh doanh mỏ đá (1.000.000 đồng/năm) theo Nghị định 139/2016/NĐ-CP.",
-        "Bước 3: Kiểm tra hạch toán chi phí lệ phí môn bài vào tài khoản chi phí quản lý doanh nghiệp (TK 6425) đối ứng tài khoản phải trả, phải nộp khác (TK 3339).",
-        "Bước 4: Kiểm tra chứng từ nộp tiền vào ngân sách nhà nước qua ngân hàng (TK 112 đối ứng TK 3339), đảm bảo nộp đủ và đúng thời hạn trước ngày 30 tháng 1 hàng năm.",
-        "Bước 5: Rà soát các địa điểm mỏ đá mới khai thác trong năm để đảm bảo đã nộp tờ khai lệ phí môn bài trong thời hạn 30 ngày kể từ ngày thành lập/hoạt động."
+        "Bước 1: Lập danh sách pháp nhân, chi nhánh và địa điểm kinh doanh có nghĩa vụ trong từng năm từ kỳ kiểm tra đến hết 2025; không tạo nghĩa vụ môn bài năm 2026 trở đi.",
+        "Bước 2: Với từng năm lịch sử, xác định mức thu/miễn giảm theo vốn, tình trạng hoạt động và quy định có hiệu lực đúng năm đó; không dùng một mức tiền cố định cho mọi kỳ.",
+        "Bước 3: Đối chiếu tờ khai, giấy nộp tiền, sổ phải nộp và thông báo của cơ quan thuế; tách tiền gốc, tiền chậm nộp và khoản đã được xử lý.",
+        "Bước 4: Kiểm tra bút toán và chi phí môn bài trong kỳ tương ứng; không ghi chi phí hoặc khoản phải nộp định kỳ cho năm 2026 trở đi.",
+        "Bước 5: Nếu còn nợ đến hết 2025, xác nhận số dư với cơ quan thuế và xử lý theo thông báo/hướng dẫn hiện hành; việc chấm dứt thu từ 2026 không tự xóa khoản nợ của kỳ trước."
 ],
         auditRisks: [
-        "Bị truy thu lệ phí môn bài và phạt chậm nộp, phạt hành vi không nộp tờ khai lệ phí môn bài đối với các xưởng chế biến đá hoặc trạm cân mỏ đá mới thành lập nhưng chưa làm thủ tục đăng ký địa điểm kinh doanh thuế.",
-        "Bậc lệ phí môn bài tại trụ sở chính áp dụng không đúng mức quy định tương ứng với vốn điều lệ thực tế trên Giấy chứng nhận đăng ký doanh nghiệp.",
-        "Bỏ sót không nộp lệ phí môn bài cho các chi nhánh hạch toán phụ thuộc nằm ngoài trụ sở chính.",
-        "Hạch toán nhầm lẫn lệ phí môn bài vào chi phí không được trừ khi tính thuế TNDN (mặc dù phí môn bài được trừ, nhưng cần lưu ý các khoản phạt chậm nộp môn bài thì không được trừ)."
+        "Còn nợ nghĩa vụ môn bài hoặc tiền chậm nộp của kỳ đến hết 2025 nhưng không đối chiếu với thông báo/sổ thuế.",
+        "Ghi nhận tiếp nghĩa vụ, chi phí hoặc lịch nộp môn bài từ năm 2026 dù việc thu, nộp đã chấm dứt.",
+        "Áp dụng mức thu, miễn giảm hoặc thời hạn của năm khác cho kỳ kiểm tra; cần xác định đúng năm phát sinh và văn bản hiệu lực khi đó.",
+        "Nhầm việc chấm dứt thu từ 2026 với việc tự xóa toàn bộ khoản nợ môn bài phát sinh trước đó."
 ],
         defenseStrategy: [
-        "Luận điểm 1: Căn cứ Nghị định 139/2016/NĐ-CP và Thông tư 302/2016/TT-BTC, Công ty Cổ phần Kiểu Việt đã thực hiện đầy đủ nghĩa vụ kê khai và nộp lệ phí môn bài cho trụ sở chính và toàn bộ các chi nhánh mỏ đá, xưởng chế biến đá tại tỉnh Gia Lai.",
-        "Luận điểm 2: Xuất trình đầy đủ các giấy nộp tiền lệ phí môn bài qua ngân hàng hàng năm, chứng minh công ty luôn chấp hành nghiêm chỉnh pháp luật thuế, không có hành vi trốn tránh lệ phí môn bài.",
-        "Luận điểm 3: Đối với các khu vực khai thác mỏ đá nằm trong ranh giới giấy phép khai thác khoáng sản được cấp, công ty đã tích hợp kê khai nộp thuế đúng quy định, không phát sinh thêm các điểm kinh doanh độc lập phải nộp môn bài ngoài danh sách đã đăng ký.",
-        "Luận điểm 4: Khẳng định mọi khoản chi phí lệ phí môn bài đã hạch toán hoàn toàn tuân thủ chuẩn mực kế toán và pháp luật thuế TNDN hiện hành."
+        "Lập bảng theo từng năm, đơn vị phụ thuộc và trạng thái đã nộp/còn nợ; chỉ khẳng định nội dung khớp với chứng từ gốc và dữ liệu cơ quan thuế.",
+        "Dẫn Nghị quyết 198/2025/QH15 để giải thích mốc chấm dứt thu từ 01/01/2026; tách rõ mốc này khỏi nghĩa vụ còn tồn của các năm trước.",
+        "Đính kèm giấy nộp tiền, sổ chi tiết và thông báo nợ/đối chiếu của cơ quan thuế; không khẳng định công ty đã nộp đủ khi chưa đối chiếu.",
+        "Xác định chi phí và tiền phạt theo đúng kỳ phát sinh, hồ sơ thực tế và quy định thuế áp dụng; không dùng bản hướng dẫn này thay kết luận cho một khoản cụ thể."
 ]
       },
       {
         id: 'chk-nd-22-2020',
-        title: 'Miễn lệ phí môn bài chi nhánh mới thành lập (NĐ 22/2020)',
-        description: 'Rà soát chính sách miễn lệ phí môn bài năm đầu cho chi nhánh, địa điểm kinh doanh mỏ đá mới thành lập trong năm theo quy định.',
+        title: 'Đối chiếu miễn môn bài cho chi nhánh — kỳ đến hết 2025',
+        description: 'Chỉ dùng NĐ 22/2020 để rà soát kỳ lịch sử đến hết năm 2025. Từ 01/01/2026 không phát sinh kê khai/nộp môn bài định kỳ.',
         priority: 'important',
         decreeId: 'nd-22-2020',
         articleNum: '1',
         decreeLabel: 'NĐ 22/2020 (Sửa đổi lệ phí môn bài)',
         phase: 2,
         documentsRequired: [
-        "Giấy chứng nhận đăng ký hoạt động chi nhánh / địa điểm kinh doanh tại Gia Lai",
-        "Quyết định thành lập chi nhánh hoặc mỏ đá trực thuộc do Hội đồng quản trị hoặc Tổng Giám đốc ký ban hành",
-        "Tờ khai lệ phí môn bài nộp lần đầu qua mạng điện tử kèm Giấy nộp tiền (nếu có phát sinh)",
-        "Công văn thông báo mã số thuế đơn vị phụ thuộc gửi Cục Thuế tỉnh Gia Lai",
-        "Hợp đồng thuê mặt bằng đặt văn phòng chi nhánh / trạm nghiền đá / bãi tập kết",
-        "Báo cáo tài chính năm trước (đối với trường hợp chuyển đổi từ hộ kinh doanh thành công ty nếu có áp dụng miễn)"
+        "Giấy đăng ký chi nhánh/địa điểm kinh doanh và ngày bắt đầu hoạt động trong kỳ lịch sử đến hết năm 2025.",
+        "Hồ sơ thay đổi mã số thuế, tổ chức lại, chuyển địa điểm hoặc kế thừa đơn vị để xác định điều kiện miễn theo quy định áp dụng tại năm đó.",
+        "Tờ khai, thông báo miễn và giấy nộp tiền môn bài của các năm có nghĩa vụ đến hết 2025 (nếu phát sinh).",
+        "Sổ chi tiết và thông báo của cơ quan thuế để phân biệt số đã nộp, số được miễn và số còn nợ.",
+        "Nghị quyết 198/2025/QH15 và Nghị định 362/2025/NĐ-CP để xác định mốc chấm dứt thu từ năm 2026."
 ],
         accountingSteps: [
-        "Kiểm tra Sổ cái tài khoản 33382 (Lệ phí môn bài) đối chiếu với Tờ khai thuế môn bài và số dư đầu kỳ năm tài chính.",
-        "Đối chiếu chứng từ hạch toán Nợ TK 6425 / Có TK 33382 để kiểm tra xem đơn vị có hạch toán chi phí môn bài đối với chi nhánh thuộc diện được miễn theo Nghị định 22/2020/NĐ-CP hay không.",
-        "Kiểm tra tài khoản 111, 112 để xác định thực tế không có dòng tiền chi nộp lệ phí môn bài cho chi nhánh trong năm đầu thành lập.",
-        "Rà soát Báo cáo tài chính, thuyết minh BCTC phần thuế và các khoản phải nộp ngân sách nhà nước đối với nghĩa vụ môn bài của các chi nhánh mới thành lập.",
-        "Kiểm tra Biên bản làm việc của cơ quan thuế quản lý trực tiếp tại Gia Lai về việc tiếp nhận hồ sơ khai lệ phí môn bài miễn nộp."
+        "Chọn đúng năm lịch sử trong phạm vi kiểm tra; xác định quy định miễn áp dụng tại thời điểm thành lập/ra hoạt động và các lần tổ chức lại.",
+        "Đối chiếu tờ khai, chứng từ nộp, sổ chi tiết và thông báo thuế; không mặc định một chi nhánh cụ thể đủ điều kiện miễn khi chưa kiểm hồ sơ.",
+        "Tách nghĩa vụ môn bài lịch sử đến hết năm 2025 khỏi các năm 2026 trở đi; không tạo tờ khai hoặc khoản nộp định kỳ mới từ 2026.",
+        "Nếu còn số dư phải nộp, đối chiếu xác nhận với cơ quan thuế và xử lý khoản nợ theo hướng dẫn hiện hành; không coi việc chấm dứt thu là tự động xóa nợ."
 ],
         auditRisks: [
-        "Đoàn thanh tra truy thu lệ phí môn bài do chi nhánh thành lập trong năm nhưng không nộp hồ sơ khai lệ phí môn bài kèm phụ lục miễn giảm đúng hạn.",
-        "Phạt vi phạm hành chính do chậm nộp hồ sơ khai thuế theo Nghị định 125/2020/NĐ-CP nếu quên không tích chọn hoặc nộp tờ khai khai báo miễn.",
-        "Rủi ro chi nhánh thành lập lại trên nền chi nhánh cũ (giải thể rồi thành lập mới) không đủ điều kiện miễn theo quy định tại Khoản 1 Điều 1 Nghị định 22/2020/NĐ-CP.",
-        "Cán bộ thuế bóc tách chi phí quản lý doanh nghiệp nếu nhầm lẫn hạch toán tiền lệ phí môn bài vào chi phí hợp lý của công ty mẹ."
+        "Áp dụng miễn sai hoặc bỏ sót nghĩa vụ đối với kỳ lịch sử trước năm 2026.",
+        "Coi mọi chi nhánh mới là đủ điều kiện miễn mà không kiểm điều kiện và tình trạng kế thừa/tổ chức lại theo hồ sơ.",
+        "Duy trì kê khai, hạch toán hoặc lịch nộp môn bài định kỳ cho 2026 trở đi dù đã chấm dứt thu.",
+        "Nhầm việc dừng thu môn bài với việc xóa số dư nợ hoặc tiền chậm nộp của các năm đến hết 2025."
 ],
         defenseStrategy: [
-        "Căn cứ điểm c khoản 1 Điều 1 Nghị định 22/2020/NĐ-CP, các chi nhánh, văn phòng đại diện, địa điểm kinh doanh mới thành lập được miễn lệ phí môn bài trong năm đầu thành lập hoặc ra hoạt động sản xuất kinh doanh.",
-        "Lập luận sắc bén: Chi nhánh mỏ đá khai thác mới tại Gia Lai hoàn toàn là đơn vị độc lập về địa điểm, lần đầu tiên cấp mã số thuế phụ thuộc, chưa từng hoạt động dưới bất kỳ hình thức pháp nhân nào trước đó tại vị trí này.",
-        "Trình bày biên bản tiếp nhận hồ sơ thuế điện tử qua hệ thống Thuế điện tử (eTax) thể hiện rõ thời hạn nộp tờ khai khai báo miễn lệ phí môn bài đúng hạn pháp luật định sẵn.",
-        "Yêu cầu đoàn thanh tra xem xét kỹ bản chất hoạt động kinh tế thực tế, tránh việc áp dụng cứng nhắc quy định dẫn đến truy thu oan sai cho doanh nghiệp xây lắp và khai khoáng tại vùng khó khăn."
+        "Trình bày điều kiện miễn theo quy định có hiệu lực trong đúng năm phát sinh và gắn từng kết luận với giấy đăng ký, ngày hoạt động, mã số thuế và hồ sơ kế thừa.",
+        "Xuất trình tờ khai, giấy nộp tiền, sổ chi tiết và thông báo của cơ quan thuế; chỉ nêu tình trạng đã hoàn thành sau khi đã đối chiếu đủ.",
+        "Dẫn khoản 7 Điều 10 Nghị quyết 198/2025/QH15 giải thích việc không phát sinh môn bài định kỳ từ 01/01/2026; trình bày riêng khoản nợ lịch sử nếu có.",
+        "Không dùng checklist này để kết luận một chi nhánh cụ thể được miễn hoặc đã nộp đủ nếu chưa kiểm chứng hồ sơ gốc."
 ]
       },
       {
