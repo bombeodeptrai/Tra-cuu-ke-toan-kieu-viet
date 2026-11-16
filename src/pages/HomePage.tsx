@@ -241,8 +241,8 @@ export function HomePage() {
         {[
           { icon: FileText, count: decrees.length, label: 'Văn bản số hóa', color: 'text-primary dark:text-primary', bg: 'bg-primary/10 dark:bg-primary/20' },
           { icon: FolderOpen, count: CATEGORIES.length, label: 'Danh mục phân loại', color: 'text-slate-600 dark:text-slate-400', bg: 'bg-slate-100 dark:bg-zinc-800' },
-          { icon: Bot, count: 'AI', label: 'Trợ lý phân tích', color: 'text-indigo-600 dark:text-indigo-400', bg: 'bg-indigo-50 dark:bg-indigo-900/20' },
-          { icon: RefreshCw, count: 'Auto', label: 'Cập nhật thời gian thực', color: 'text-amber-600 dark:text-amber-400', bg: 'bg-amber-50 dark:bg-amber-900/20' },
+          { icon: Bot, count: 'AI', label: 'Hỏi đáp AI (cần API Key)', color: 'text-indigo-600 dark:text-indigo-400', bg: 'bg-indigo-50 dark:bg-indigo-900/20' },
+          { icon: RefreshCw, count: 'Định kỳ', label: 'Cập nhật theo bản phát hành', color: 'text-amber-600 dark:text-amber-400', bg: 'bg-amber-50 dark:bg-amber-900/20' },
         ].map((stat, i) => (
           <motion.div variants={itemVariants} key={i} className="bg-card border border-border/40 p-5 rounded-2xl flex flex-col items-start shadow-soft hover:shadow-float hover:border-border/80 hover:-translate-y-1 transition-all duration-300">
             <div className={`p-2.5 rounded-xl mb-4 ${stat.bg} ${stat.color}`}>
