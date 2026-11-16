@@ -29,10 +29,11 @@ export function TableOfContents({ content, onItemClick, activeId }: TableOfConte
 
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i].trim();
-      if (!line) continue;
+      const normalizedLine = line.replace(/^[*_]{1,4}\\s*/, '').replace(/\\s*[*_]{1,4}$/, '').replace(/\\s{2,}/g, ' ').trim();
+      if (!normalizedLine) continue;
 
       // Match Chương
-      const chuongMatch = line.match(/^(?:#+\s*|\*\*)?(Chương\s+(?:[IVXLCDM]+|[0-9]+)(?=[\s.:]|$)[\.:\s\-–—]?.*?)(?:\*\*|$)/i);
+      const chuongMatch = normalizedLine.match(/^(?:#+\s*|\*\*)?(Chương\s+(?:[IVXLCDM]+|[0-9]+)(?=[\s.:]|$)[\.:\s\-–—]?.*?)(?:\*\*|$)/i);
       if (chuongMatch) {
         count++;
         const title = chuongMatch[1].replace(/[\*#_]/g, '').trim();
