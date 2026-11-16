@@ -1,6 +1,6 @@
 import { Decree } from "@/types/decree";
 
-export const INITIAL_DECREES: Decree[] =  [
+export const INITIAL_DECREES: Decree[] = [
   {
     "id": "luat-gd-dien-tu-20-2023",
     "number": "20/2023/QH15",
