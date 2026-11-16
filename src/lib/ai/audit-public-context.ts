@@ -80,6 +80,34 @@ export async function retrievePublicAuditSources(question: string, decrees: Decr
         return;
       }
       try {
+        if (decree.text_url) {
+          const payload = JSON.parse(await read(decree.text_url)) as {
+            pages?: Array<{ page: number; text: string; ocrConfidence?: number; sourceFile?: string; sourcePage?: number }>;
+          };
+          if (payload.pages?.length) {
+            for (const page of payload.pages) {
+              if (page.text.trim().length < 40 || (page.ocrConfidence !== undefined && page.ocrConfidence < 80)) {
+                addFailure(decree.id, page.page);
+                continue;
+              }
+              const sourceAttachment = page.sourceFile
+                ? decree.pdf_attachments?.find(attachment => attachment.pdf_url?.endsWith(page.sourceFile!))
+                : undefined;
+              const pdfPage = page.sourcePage ?? page.page;
+              const label = `${decree.decree_number} — ${decree.title} — trang ${page.page}/${payload.pages.length}${sourceAttachment ? ` — ${page.sourceFile}, trang PDF ${pdfPage}` : ''}`;
+              const exactDocument = foldedExplicitNumber && fold(decree.decree_number) === foldedExplicitNumber;
+              const overviewPage = exactDocument && asksDocumentOverview && page.page <= 3;
+              const link = sourceAttachment?.pdf_url
+                ? `${local(sourceAttachment.pdf_url)}#page=${pdfPage}`
+                : `#/thu-vien/${decree.id}`;
+              if (exactDocument && asksDocumentOverview && page.page <= 2) {
+                requestedOpeningPages.push({ id: decree.id, label, link, text: page.text, score: 100 });
+              }
+              add(decree.id, label, link, page.text, overviewPage ? 60 : 0);
+            }
+            return;
+          }
+        }
         if (!decree.content_url) throw new Error('Thiếu file nội dung');
         const body = legalBody(await read(decree.content_url));
         if (!body) {
@@ -120,7 +148,8 @@ export async function retrievePublicAuditSources(question: string, decrees: Decr
   }
 
   const requestedDocumentId = foldedExplicitNumber
-    ? manifest?.documents.find(document => fold(document.number) === foldedExplicitNumber)?.id
+    ? decrees.find(decree => fold(decree.decree_number) === foldedExplicitNumber)?.id
+      || manifest?.documents.find(document => fold(document.number) === foldedExplicitNumber)?.id
     : undefined;
   const openingPages = requestedDocumentId && asksDocumentOverview
     ? requestedOpeningPages.filter(source => source.id === requestedDocumentId)

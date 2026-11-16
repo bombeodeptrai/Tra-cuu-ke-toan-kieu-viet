@@ -47,10 +47,10 @@ export function ChatAIPage() {
   };
 
   const suggestions = [
-    '📋 Hướng dẫn hạch toán theo TT200',
-    '🧾 Quy định hóa đơn điện tử mới nhất',
-    '💰 Cách xử lý chênh lệch tỷ giá',
-    '📊 Lập báo cáo tài chính cuối năm'
+    '📋 Theo TT99, cần rà gì với TK 154 còn treo ở công trình?',
+    '🧾 Hóa đơn thấp hơn khối lượng giao hàng bê tông thì cần đối chiếu gì?',
+    '🪵 Hồ sơ nào chứng minh giá thành lô nội thất gỗ?',
+    '🏗️ Chi phí xây lắp liên tỉnh cần ghép với hồ sơ nghiệm thu nào?'
   ];
 
   useEffect(() => {
