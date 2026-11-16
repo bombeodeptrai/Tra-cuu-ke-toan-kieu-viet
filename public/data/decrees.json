@@ -661,13 +661,13 @@
     "issued_date": "2025-10-27",
     "effective_date": "2026-01-01",
     "status": "active",
-    "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529.htm",
-    "summary": "Thông tư 99/2025/TT-BTC hướng dẫn chế độ kế toán doanh nghiệp, hiệu lực từ 01/01/2026. PDF từng gắn trước đây không đúng văn bản nên đã gỡ; hiện chưa có tệp PDF nội bộ để tải/đối chiếu. Công báo chính thức đăng văn bản thành 12 phần, từ số 1563+1564 đến 1581+1582. Bản trích xuất nội bộ và bảng so sánh chưa được kiểm đủ theo cả 12 phần và phụ lục; không dùng để định khoản cho đến khi đối chiếu hoàn tất.",
+    "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59655.htm",
+    "summary": "Thông tư 99/2025/TT-BTC hướng dẫn chế độ kế toán doanh nghiệp, hiệu lực từ 01/01/2026. PDF từng gắn trước đây không đúng văn bản nên đã gỡ; hiện chưa có tệp PDF nội bộ để tải/đối chiếu. Công báo chính thức đăng văn bản trong 10 tệp PDF, mỗi tệp ghép hai số Công báo, từ 1563+1564 đến 1581+1582. Bản trích xuất nội bộ và bảng so sánh chưa được kiểm đủ cả 10 tệp và phụ lục; không dùng để định khoản cho đến khi đối chiếu hoàn tất.",
     "content_url": "/data/content/tt-99-2025.md",
-    "free_download_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59658.htm",
+    "free_download_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59655.htm",
     "tax_field": "ke-toan-dn",
     "text_status": "unverified",
-    "text_status_note": "PDF cũ đính kèm sai văn bản nên đã bị gỡ khỏi nút tải. Công báo Chính phủ liệt kê 10 phần PDF/DOC của TT99; toàn văn nội bộ chưa được đối chiếu đủ 10 phần và các phụ lục. Chỉ dùng bản Công báo để tra cứu cho tới khi lưu đủ bản gốc và kiểm tra số trang, số hiệu, phụ lục, checksum."
+    "text_status_note": "PDF cũ đính kèm sai văn bản nên đã bị gỡ khỏi nút tải. Công báo Chính phủ liệt kê 10 tệp PDF (mỗi tệp gộp hai số Công báo) và 10 tệp DOC của TT99; toàn văn nội bộ chưa được đối chiếu đủ các tệp PDF và phụ lục. Chỉ dùng bản Công báo để tra cứu cho tới khi lưu đủ bản gốc và kiểm tra số trang, số hiệu, phụ lục, checksum."
   },
   {
     "id": "nd-125-2020",
