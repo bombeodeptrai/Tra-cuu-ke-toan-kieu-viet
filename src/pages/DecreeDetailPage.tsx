@@ -203,13 +203,29 @@ export function DecreeDetailPage() {
 
     if (splitMatch && splitMatch.index !== undefined) {
       const summaryPart = text.substring(0, splitMatch.index).trim();
-      let fullPart = splitMatch[0].replace(/^---\s*/, '').replace(/^## (?:📜 )?TOÀN VĂN(?: VĂN BẢN| OCR TỪ PDF GỐC| TRÍCH XUẤT TỪ PDF CHÍNH PHỦ)\r?\n?/i, '').trim();
+      let fullPart = splitMatch[0].replace(/^---\s*/, '').replace(/^\s*## (?:📜 )?TOÀN VĂN(?: VĂN BẢN| OCR TỪ PDF GỐC| TRÍCH XUẤT TỪ PDF CHÍNH PHỦ)\r?\n?/i, '').trim();
       if (!fullPart.startsWith('# CỘNG HÒA') && !fullPart.startsWith('# ') && !fullPart.startsWith('**CHÍNH PHỦ**') && !fullPart.startsWith('**BỘ TÀI CHÍNH**')) {
         fullPart = `# ${decree?.title || 'TOÀN VĂN VĂN BẢN GỐC'}\n\n` + fullPart;
       }
       // The markdown prefix is legacy metadata and may contain stale AI prose.
       // Always show the curated catalog summary; never let a title-only prefix
       // masquerade as the document's analysis.
+      const readerHeading = decree?.text_status === 'manual-transcription'
+        ? 'TOÀN VĂN ĐÃ CHÉP VÀ ĐỐI CHIẾU PDF'
+        : decree?.text_status === 'pdf-text-available'
+          ? 'NỘI DUNG TRÍCH TỪ PDF GỐC — ĐỐI CHIẾU KHI VIỆN DẪN'
+          : decree?.text_status === 'ocr-review' || decree?.text_status === 'ocr-available'
+            ? 'BẢN OCR — CẦN ĐỐI CHIẾU VỚI PDF GỐC'
+            : decree?.text_status === 'unverified'
+              ? 'NỘI DUNG ĐANG LƯU — CHƯA ĐỐI CHIẾU ĐỦ'
+              : 'NỘI DUNG VĂN BẢN';
+      const titleHeading = fullPart.match(/^# [^\r\n]+\r?\n/);
+      if (titleHeading) {
+        const insertAt = titleHeading[0].length;
+        fullPart = `${fullPart.slice(0, insertAt)}\n## 📜 ${readerHeading}\n\n${fullPart.slice(insertAt).trimStart()}`;
+      } else {
+        fullPart = `## 📜 ${readerHeading}\n\n${fullPart}`;
+      }
       const curatedSummary = decree?.summary?.trim();
       setSummaryContent(curatedSummary
         ? `### 🌟 TÓM TẮT TRỌNG TÂM CHO KẾ TOÁN\n\n${curatedSummary}`
