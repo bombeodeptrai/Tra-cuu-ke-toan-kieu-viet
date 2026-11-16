@@ -1738,27 +1738,27 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
       },
       {
         id: 'chk-tt-99-2025',
-        title: 'Chuyển đổi hệ thống tài khoản kế toán mới theo TT 99/2025',
-        description: 'Rà soát phương án chuyển đổi danh mục tài khoản từ 01/01/2026, quy định ghi nhận doanh thu xây dựng theo hóa đơn và chứng từ thực tế.',
+        title: 'Chuyển tiếp từ TT 200 sang TT 99/2025',
+        description: 'Rà soát sổ kế toán cho năm tài chính bắt đầu từ 01/01/2026; phân biệt yêu cầu kế toán với nghĩa vụ thuế và kiểm tra đúng điều khoản chuyển tiếp.',
         priority: 'important',
         decreeId: 'tt-99-2025',
-        articleNum: '5',
+        articleNum: '31',
         decreeLabel: 'TT 99/2025 (Chế độ KT mới 2026)',
         phase: 2,
         documentsRequired: [
-        "Quyết định của Hội đồng quản trị/Giám đốc Công ty Cổ phần Kiểu Việt về việc áp dụng chuyển đổi hệ thống tài khoản kế toán theo Thông tư 99/2025/TT-BTC.",
-        "Bảng ánh xạ chuyển đổi tài khoản (Chart of Accounts Mapping) từ hệ thống cũ (TT 200/2014) sang hệ thống tài khoản mới theo TT 99/2025/TT-BTC.",
-        "Bảng cân đối phát sinh tài khoản tại thời điểm khóa sổ chuyển đổi (31/12 năm trước năm áp dụng) và bảng số dư đầu kỳ theo tài khoản mới.",
-        "Tài liệu hướng dẫn cập nhật phần mềm kế toán (SAP, MISA, Fast, Bravo...) được nhà cung cấp phần mềm xác nhận đã cấu hình đúng theo Thông tư 99/2025/TT-BTC.",
-        "Quy chế tài chính, quy trình luân chuyển chứng từ và định khoản nội bộ đã được sửa đổi, bổ sung phù hợp với hệ thống tài khoản mới.",
-        "Biên bản họp hội đồng thành viên/ban điều hành về việc xử lý các chênh lệch phát sinh do đánh giá lại hoặc gom nhóm tài khoản khi chuyển đổi."
+        "Bảng cân đối số phát sinh và sổ chi tiết đến hết kỳ cuối cùng áp dụng TT 200; bảng số dư đầu kỳ năm tài chính áp dụng TT 99.",
+        "Bảng ánh xạ tài khoản nội bộ từ danh mục doanh nghiệp đang dùng sang Phụ lục II TT 99; ghi rõ tài khoản giữ nguyên, đổi mã/tên, mở chi tiết hoặc cần xử lý riêng.",
+        "Biên bản rà soát số dư chuyển tiếp, đối chiếu tổng phát sinh, số dư và các chỉ tiêu báo cáo tài chính trước/sau chuyển đổi.",
+        "Bản cấu hình tài khoản/phần mềm kế toán và kết quả chạy thử các nghiệp vụ thực tế: xuất vật tư, chi phí máy thi công, dở dang công trình, nghiệm thu và kết chuyển giá vốn.",
+        "Quy chế hạch toán nội bộ đã cập nhật nếu doanh nghiệp sửa đổi, bổ sung tài khoản hoặc biểu mẫu; kèm phê duyệt nội bộ theo thẩm quyền.",
+        "Danh sách các khoản xử lý chuyển tiếp còn tồn tại và người chịu trách nhiệm hoàn tất; không tự ghi nhận đánh giá lại nếu TT 99 không yêu cầu."
 ],
         accountingSteps: [
-        "Bước 1: Thực hiện khóa sổ kế toán chi tiết theo hệ thống tài khoản cũ (TT 200/2014) tại thời điểm chuyển đổi, lập Bảng cân đối phát sinh chốt số liệu chính xác.",
-        "Bước 2: Áp dụng bảng ánh xạ (Mapping) để kết chuyển số dư chi tiết từ các tài khoản cũ sang tài khoản mới theo đúng quy định tại Điều 5 Thông tư 99/2025/TT-BTC, đảm bảo nguyên tắc tổng tài sản bằng tổng nguồn vốn.",
-        "Bước 3: Kiểm tra việc mở mới, gộp nhóm hoặc tách tài khoản cấp 2, cấp 3 đặc thù cho ngành xây lắp (TK 154, TK 621-627) và ngành khai thác mỏ đá (chi phí khai thác, chi phí bóc đất tầng phủ) theo đúng danh mục tài khoản mới của TT 99/2025/TT-BTC.",
-        "Bước 4: Kiểm tra sự đối ứng giữa các tài khoản mới trên phần mềm kế toán, chạy thử nghiệm các bút toán tập hợp chi phí thi công công trình và xuất kho đá xây dựng để đảm bảo không bị lỗi lệch định khoản.",
-        "Bước 5: Đối chiếu số dư chuyển đổi trên các tài khoản công nợ (131, 331), tài khoản tiền (111, 112), tài khoản vật tư hàng hóa (152, 156) với các biên bản đối chiếu thực tế."
+        "Bước 1: Chốt sổ năm cuối theo TT 200 và lưu bảng cân đối phát sinh/sổ chi tiết làm mốc đối chiếu; xác định năm tài chính đầu tiên áp dụng TT 99 theo Điều 31.",
+        "Bước 2: Đối chiếu danh mục tài khoản thực tế với Phụ lục II TT 99. Điều 11 cho phép doanh nghiệp sửa đổi, bổ sung tài khoản phục vụ quản trị nhưng phải ban hành quy chế hạch toán và không làm thay đổi chỉ tiêu báo cáo tài chính.",
+        "Bước 3: Không giả định TT 99 xóa TK 621, 622, 623, 627 hoặc chuyển mọi chi phí thẳng vào TK 154: Phụ lục II vẫn có các tài khoản này, gồm TK 6234 - Chi phí khấu hao máy thi công. Kiểm tra cách tập hợp, phân bổ và mở chi tiết theo đúng hướng dẫn tài khoản, hoạt động thực tế và phần mềm doanh nghiệp.",
+        "Bước 4: Chạy thử nghiệp vụ từng mảng Kiểu Việt: gỗ (nguyên liệu–sản phẩm dở dang–thành phẩm), bê tông/VLXD (nguyên liệu–trạm trộn–thành phẩm–giao hàng), mỏ đá (sản lượng–giá thành–xuất bán), xây lắp (ca máy–154–nghiệm thu–632). Đối chiếu bút toán với toàn văn TT 99 và hợp đồng/chứng từ.",
+        "Bước 5: Đối chiếu số dư tiền, công nợ, hàng tồn kho, chi phí dở dang và vốn chủ sở hữu trước/sau chuyển tiếp; giải thích riêng từng chênh lệch và lưu dấu vết người lập, người soát xét."
 ],
         auditRisks: [
         "Rủi ro sai lệch số dư đầu kỳ khi chuyển đổi hệ thống tài khoản, dẫn đến mất cân đối giữa Bảng cân đối kế toán và Sổ cái các tài khoản mới.",
@@ -1768,11 +1768,11 @@ export const TAX_AUDIT_GROUPS: ChecklistGroup[] = [
         "Phạt vi phạm chế độ kế toán theo các quy định hiện hành nếu việc chuyển đổi tài khoản làm sai lệch bản chất số liệu báo cáo thuế."
 ],
         defenseStrategy: [
-        "Xuất trình đầy đủ Quyết định áp dụng Thông tư 99/2025/TT-BTC của Ban Tổng giám đốc Công ty Cổ phần Kiểu Việt, khẳng định công ty chủ động cập nhật và tuân thủ đúng lộ trình pháp luật kế toán mới.",
-        "Cung cấp Bảng ánh xạ tài khoản chi tiết (Mapping Table) được kiểm tra, ký duyệt bởi Kế toán trưởng, chứng minh mọi tài khoản cũ đều được chuyển đổi minh bạch, đúng bản chất kinh tế sang hệ thống tài khoản mới.",
-        "Giải trình trước đoàn thanh tra về việc duy trì các tài khoản chi tiết phục vụ riêng cho đặc thù ngành nghề thi công giao thông thủy lợi và khai thác mỏ đá tại Gia Lai trong hệ thống tài khoản mới, đảm bảo tính liên tục của dữ liệu tài chính qua các năm.",
-        "Cung cấp biên bản nghiệm thu kỹ thuật phần mềm kế toán và văn bản xác nhận của nhà cung cấp phần mềm về việc hệ thống đã vận hành chuẩn xác theo Thông tư 99/2025/TT-BTC.",
-        "Khẳng định mọi bút toán kết chuyển và điều chỉnh số dư đầu kỳ đều tuân thủ chặt chẽ nguyên tắc thận trọng và nhất quán, hoàn toàn không làm thay đổi nghĩa vụ thuế nộp ngân sách nhà nước của doanh nghiệp."
+        "Xuất trình bảng đối chiếu số dư và quy trình chuyển tiếp thực tế; TT 99 áp dụng theo Điều 31, không phải chế độ doanh nghiệp tự chọn bằng một quyết định áp dụng.",
+        "Giải thích từng dòng ánh xạ bằng bản chất giao dịch và dẫn chiếu tài khoản tại Phụ lục II; không viện dẫn Điều 5 cho chuyển tiếp tài khoản vì Điều 5 quy định thay đổi đơn vị tiền tệ kế toán.",
+        "Nếu đoàn hỏi về chi phí xây lắp, xuất trình sổ TK 621/622/623/627, chi tiết TK 6234, bảng phân bổ sang TK 154, nhật ký thi công và hồ sơ nghiệm thu theo luồng chứng từ thật.",
+        "Lưu bản kết quả chạy thử phần mềm và biên bản soát xét nội bộ; chỉ khẳng định các tài khoản/bút toán đã cấu hình sau khi đối chiếu với dữ liệu thực tế và toàn văn phụ lục TT 99.",
+        "Tách riêng kết luận kế toán theo TT 99 với kết luận thuế theo luật thuế áp dụng cho từng kỳ; không mặc định thay đổi chế độ kế toán làm thay đổi hoặc không làm thay đổi nghĩa vụ thuế."
 ]
       },
       {
@@ -2914,3 +2914,4 @@ export const TIMELINE_PHASES: TimelinePhase[] = [
     ]
   }
 ];
+
