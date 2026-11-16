@@ -664,12 +664,12 @@ export const INITIAL_DECREES: Decree[] = [
     "effective_date": "2026-01-01",
     "status": "active",
     "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59655.htm",
-    "summary": "Thông tư 99/2025/TT-BTC có hiệu lực từ 01/01/2026 và thay thế chế độ kế toán doanh nghiệp tại Thông tư 200/2014/TT-BTC. Đã lưu 10 tệp PDF Công báo Chính phủ (số 1563+1564 đến 1581+1582) để tải từng phần. Bản văn bản trích xuất trên website và các phụ lục vẫn đang chờ đối chiếu đủ với PDF gốc; trạng thái được giữ là “chưa xác minh toàn văn”.",
+    "summary": "Thông tư 99/2025/TT-BTC có hiệu lực từ 01/01/2026, thay thế chế độ kế toán doanh nghiệp tại Thông tư 200/2014/TT-BTC. Website hiển thị nội dung tra cứu đủ 883 trang trích từ 10 PDF Công báo gốc và cho tải riêng từng PDF; các trang biểu mẫu OCR chưa được xác minh bố cục, cần đối chiếu PDF trước khi áp dụng.",
     "content_url": "/data/content/tt-99-2025.md",
     "free_download_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59655.htm",
     "tax_field": "ke-toan-dn",
-    "text_status": "unverified",
-    "text_status_note": "Đã lưu đủ 10 PDF Công báo Chính phủ, mỗi file ghép hai số từ 1563+1564 đến 1581+1582. Có thể tải từng phần PDF gốc ngay tại trang này. Nội dung Markdown và các phụ lục chưa được đối chiếu đủ từng trang nên không coi bản trích xuất là toàn văn đã xác minh; tra cứu bản gốc và kiểm tra số hiệu, trang, phụ lục trước khi dùng làm căn cứ định khoản.",
+    "text_status": "ocr-review",
+    "text_status_note": "Nội dung tra cứu gồm đủ 883/883 trang từ 10 PDF Công báo Chính phủ (số 1563+1564 đến 1581+1582); 818 trang lấy lớp chữ PDF và 65 trang biểu mẫu dạng ảnh đã OCR. Có 47 trang OCR dưới ngưỡng tin cậy 80/100; bố cục bảng và từng dòng chưa được đối chiếu pháp lý, nên cần mở PDF gốc theo đúng số Công báo/trang trước khi viện dẫn. Tải được riêng đủ 10 PDF gốc tại trang này.",
     "pdf_attachments": [
       {
         "label": "PDF Công báo 1563 + 1564",
@@ -721,7 +721,8 @@ export const INITIAL_DECREES: Decree[] = [
         "pdf_url": "/data/accounting-laws/tt-99-2025-cb-1581-1582.pdf",
         "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59655.htm"
       }
-    ]
+    ],
+    "text_url": "/data/content/tt-99-2025-full.json"
   },
   {
     "id": "nd-125-2020",
@@ -1628,4 +1629,3 @@ export const INITIAL_DECREES: Decree[] = [
     ]
   }
 ];
-
