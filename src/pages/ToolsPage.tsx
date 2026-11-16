@@ -334,13 +334,15 @@ export function ToolsPage() {
             <div className="p-4 bg-amber-50/60 dark:bg-amber-950/20 border border-amber-200 dark:border-amber-800/60 rounded-2xl text-xs space-y-1.5">
               <div className="font-bold text-amber-900 dark:text-amber-200 flex items-center gap-1.5">
                 <AlertTriangle className="h-4 w-4 text-amber-600" />
-                Chế tài xử phạt theo Nghị định 125/2020/NĐ-CP nếu nộp chậm:
+                Chế tài chậm nộp hồ sơ khai thuế (Điều 13 Nghị định 125/2020/NĐ-CP, sửa đổi bởi Nghị định 310/2025/NĐ-CP; áp dụng từ 16/01/2026):
               </div>
               <p className="text-amber-800 dark:text-amber-300 leading-relaxed">
-                • Nộp chậm từ 01 đến 05 ngày: Phạt cảnh cáo (nếu có tình tiết giảm nhẹ) hoặc phạt từ 2 - 5 triệu đồng.
-                <br />• Nộp chậm từ 06 đến 30 ngày: Phạt tiền từ <strong>5.000.000đ đến 8.000.000đ</strong>.
-                <br />• Nộp chậm từ 31 đến 60 ngày: Phạt tiền từ <strong>8.000.000đ đến 15.000.000đ</strong>.
-                <br />• Quá hạn nộp tiền thuế còn bị phạt thêm <strong>0,03%/ngày</strong> trên số tiền thuế chậm nộp.
+                • Quá hạn 01–05 ngày và có tình tiết giảm nhẹ: cảnh cáo; các trường hợp 01–30 ngày còn lại: phạt <strong>2–5 triệu đồng</strong>.
+                <br />• Quá hạn 31–60 ngày: phạt <strong>5–8 triệu đồng</strong>.
+                <br />• Quá hạn 61–90 ngày; hoặc từ 91 ngày nhưng không phát sinh thuế phải nộp; hoặc không nộp hồ sơ nhưng không phát sinh thuế phải nộp: phạt <strong>8–15 triệu đồng</strong>. Không nộp phụ lục giao dịch liên kết cùng hồ sơ quyết toán TNDN cũng thuộc khung này.
+                <br />• Quá hạn trên 90 ngày, có thuế phải nộp và đã nộp đủ thuế cùng tiền chậm nộp trước thời điểm cơ quan có thẩm quyền công bố quyết định kiểm tra/thanh tra hoặc lập biên bản: phạt <strong>15–25 triệu đồng</strong>; mức phạt tối đa bị khống chế theo số thuế phát sinh và không thấp hơn mức trung bình khung 8–15 triệu.
+                <br />• Chậm nộp hồ sơ làm chậm nộp tiền thuế còn phải nộp tiền chậm nộp theo Luật Quản lý thuế; đây là khoản riêng, không phải mức phạt hồ sơ nêu trên. Mức tiền phạt trong bảng áp dụng cho tổ chức; cá nhân bằng 1/2.
+                <br />• Căn cứ: <a className="underline" href="https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/4/15-vbhn-btc.pdf" target="_blank" rel="noreferrer">Điều 13 VBHN 15/VBHN-BTC (2026)</a> và <a className="underline" href="https://vanban.chinhphu.vn/?classid=1&docid=216102&pageid=27160&typegroupid=4" target="_blank" rel="noreferrer">Nghị định 310/2025/NĐ-CP</a>.
               </p>
             </div>
           </div>
