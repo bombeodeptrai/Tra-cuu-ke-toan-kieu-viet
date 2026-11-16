@@ -62,5 +62,7 @@ for(const d of m.documents){if(!metadata.documents[d.id])throw Error('Missing me
  const pkg=JSON.parse(fs.readFileSync('package.json','utf8'));const cst=fs.readFileSync('src/lib/utils/constants.ts','utf8').match(/APP_VERSION = '([^']+)'/);
  if(!cst||cst[1]!==pkg.version)problems.push('APP_VERSION trong constants.ts khác version package.json');
  if(problems.length){console.error(problems.join('\n'));throw Error(problems.length+' lỗi dữ liệu');}}
+// Gate crawler (16/11/2026): dữ liệu do scripts/crawler ghi và public/data/legal-crawl-status.json.
+{const {verifyCrawlOutput}=await import('./crawler/verify-crawl-output.mjs');const crawlProblems=verifyCrawlOutput(process.cwd());if(crawlProblems.length){console.error(crawlProblems.join('\n'));throw Error(crawlProblems.length+' lỗi dữ liệu crawler');}}
 console.log(JSON.stringify({core:core.length,supplemental:m.documents.length,originalFiles:count,pages,ocrReviewCount:ocrReview.length,ocrReviewSample:ocrReview.slice(0,5),legalCertification:false},null,2));
 

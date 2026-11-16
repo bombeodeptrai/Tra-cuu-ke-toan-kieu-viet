@@ -10,6 +10,7 @@ import { useDecreeStore } from '@/stores/decree-store';
 import { useDecrees } from '@/hooks/useDecrees';
 import { Decree } from '@/types/decree';
 import { DIFF_DOC_COUNT } from '@/lib/utils/corpus-stats';
+import { LegalUpdateStatus } from '@/components/legal/LegalUpdateStatus';
 
 export function LibraryPage() {
   const [searchParams] = useSearchParams();
@@ -42,6 +43,7 @@ export function LibraryPage() {
 
   return (
     <div className="max-w-7xl mx-auto pb-12">
+      <LegalUpdateStatus />
       <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
         <div>
           <h1 className="text-3xl font-bold mb-2">Thư viện văn bản</h1>

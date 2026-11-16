@@ -1,8 +1,13 @@
 name: Daily Legal Crawler & Auto Deploy
 
+# Quét nguồn chính thức (vanban.chinhphu.vn), chỉ nhập văn bản đã xác minh metadata + PDF gốc + toàn văn
+# đủ trang + Drive. Kết quả ghi ở public/data/legal-crawl-status.json:
+#   updated / no_changes → job xanh; review_required / failed → job ĐỎ (không xanh giả).
+# Secrets cần cấu hình: GDRIVE_SERVICE_ACCOUNT_JSON, GDRIVE_FOLDER_ID (xem scripts/crawler/lib/drive.mjs).
+
 on:
   schedule:
-    # Runs at 00:00 UTC (07:00 AM Vietnam Time) every day
+    # 00:00 UTC = 07:00 giờ Việt Nam
     - cron: '0 0 * * *'
   workflow_dispatch:
 
@@ -11,50 +16,109 @@ permissions:
   pages: write
   id-token: write
 
+concurrency:
+  group: legal-crawl-and-pages
+  cancel-in-progress: false
+
 jobs:
-  crawl-and-deploy:
+  crawl:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+      crawl_exit: ${{ steps.crawl.outputs.exit_code }}
     steps:
-      - name: Checkout Code
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: 'npm'
 
-      - name: Install Dependencies
+      - name: Install dependencies
         run: npm ci
 
-      - name: Run Automated Legal Crawler
-        run: npm run crawl
+      - name: Crawler unit tests (fixture, offline)
+        run: npm run test:crawler
+
+      - name: Run legal crawler
+        id: crawl
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GDRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.GDRIVE_SERVICE_ACCOUNT_JSON }}
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+        run: |
+          set +e
+          node scripts/crawler/legal-crawler.mjs --artifacts crawl-artifacts
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
 
-      - name: Verify legal data
-        run: node scripts/verify-audit-assets.mjs
+      - name: Upload crawl artifacts (scan log, candidates, PDFs needing review)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: legal-crawl-${{ github.run_id }}
+          path: |
+            crawl-artifacts/
+            public/data/legal-crawl-status.json
+          if-no-files-found: warn
+          retention-days: 30
 
-      - name: Build Application
+      - name: Verify catalog and crawl output
+        run: |
+          node scripts/crawler/generate-initial-decrees.mjs --check
+          node scripts/verify-audit-assets.mjs
+
+      - name: Build
         run: npm run build
 
-      - name: Commit & Push Changes (if new decrees found)
+      - name: Commit catalog/status changes
+        id: commit
         run: |
-          git config --global user.name "Kiểu Việt Bot"
-          git config --global user.email "bot@kieuviet.vn"
-          git add public/data/ src/data/
-          if ! git diff --cached --quiet; then
-            git commit -m "chore(auto-crawl): automatically synced new legal decrees and content [skip ci]"
-            git push origin main
+          git config user.name "Kiểu Việt Bot"
+          git config user.email "bot@kieuviet.vn"
+          git add public/data/decrees.json public/data/legal-crawl-status.json \
+                  public/data/accounting-laws/ public/data/content/ \
+                  src/data/initial-decrees.ts scripts/accounting-drive-files.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "Không có thay đổi dữ liệu."
           else
-            echo "No new decrees found today. Everything is up to date."
+            git commit -m "chore(legal-crawl): $(node -p "require('./public/data/legal-crawl-status.json').result") [skip ci]"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Deploy to GitHub Pages
+      - name: Upload Pages artifact
+        if: steps.commit.outputs.changed == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
 
+  deploy:
+    needs: crawl
+    if: needs.crawl.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  report:
+    needs: [crawl, deploy]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail when crawl needs review or failed
+        run: |
+          code="${{ needs.crawl.outputs.crawl_exit }}"
+          if [ "${{ needs.crawl.result }}" != "success" ]; then echo "Job crawl lỗi (verify/build/commit)."; exit 1; fi
+          if [ "${{ needs.deploy.result }}" = "failure" ]; then echo "::error::Deploy Pages lỗi."; exit 1; fi
+          if [ "$code" = "2" ]; then echo "::error::review_required — có văn bản cần rà soát; tải artifact legal-crawl-${{ github.run_id }}"; exit 1; fi
+          if [ "$code" != "0" ]; then echo "::error::failed — nguồn chính thức/Drive lỗi; xem artifact legal-crawl-${{ github.run_id }}"; exit 1; fi
+          echo "Crawler OK."

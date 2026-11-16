@@ -1,0 +1,20 @@
+{
+  "_note": "Bộ lọc phạm vi thư viện kế toán – thuế – lao động – khoáng sản/xây lắp của Kiểu Việt. Chỉ văn bản có trích yếu khớp 'include' mới vào pipeline tải PDF. Khớp 'include' nhưng cũng khớp 'reviewOnly' thì phải rà soát thủ công, không tự công bố. Chủ dự án duyệt và chỉnh danh sách này.",
+  "include": [
+    "thuế", "kế toán", "kiểm toán", "hóa đơn", "chứng từ", "quản lý thuế", "lệ phí", "phí và lệ phí",
+    "thu nhập doanh nghiệp", "thu nhập cá nhân", "giá trị gia tăng", "tiêu thụ đặc biệt", "bảo vệ môi trường",
+    "bảo hiểm xã hội", "bảo hiểm y tế", "bảo hiểm thất nghiệp", "tiền lương", "lương tối thiểu",
+    "hợp đồng lao động", "khoáng sản", "tài nguyên", "tiền cấp quyền", "báo cáo tài chính",
+    "chế độ kế toán", "chuẩn mực kế toán", "hóa đơn điện tử", "xử phạt vi phạm hành chính về thuế",
+    "đầu tư xây dựng", "chi phí đầu tư xây dựng", "hợp đồng xây dựng", "thuế xuất khẩu", "thuế nhập khẩu"
+  ],
+  "reviewOnly": [
+    "bãi bỏ", "miễn phí", "tài sản công", "ngân sách nhà nước"
+  ],
+  "dismissedNumbers": [],
+  "_dismissedNote": "Số hiệu chủ dự án đã rà soát và quyết định KHÔNG đưa vào thư viện; crawler sẽ bỏ qua và không giữ ở danh sách chờ.",
+  "issuers": [
+    "Quốc hội", "Ủy ban Thường vụ Quốc hội", "Chính phủ", "Thủ tướng Chính phủ",
+    "Bộ Tài chính", "Bộ Xây dựng", "Bộ Nội vụ", "Bộ Nông nghiệp và Môi trường", "Ngân hàng Nhà nước Việt Nam"
+  ]
+}

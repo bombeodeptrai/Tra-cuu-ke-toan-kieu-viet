@@ -9,7 +9,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "update": "node scripts/auto-update.js",
-    "crawl": "node scripts/crawler/legal-crawler.cjs"
+    "crawl": "node scripts/crawler/legal-crawler.mjs",
+    "crawl:verify": "node scripts/crawler/verify-crawl-output.mjs",
+    "crawl:sync-initial": "node scripts/crawler/generate-initial-decrees.mjs",
+    "test:crawler": "node --test scripts/crawler/tests/*.test.mjs"
   },
   "dependencies": {
     "@google/genai": "^2.18.0",
