@@ -466,19 +466,19 @@ export function ToolsPage() {
                   </div>
                 </div>
 
-                {/* Bút toán hạch toán theo TT 99/2025 */}
+                {/* Bút toán tham khảo; phải chọn đúng nơi sử dụng và đối tượng tập hợp chi phí */}
                 <div className="p-4 bg-background border border-emerald-300 dark:border-emerald-800/80 rounded-2xl space-y-3">
                   <div className="font-bold text-xs uppercase tracking-wider text-emerald-800 dark:text-emerald-300 flex items-center gap-1.5">
                     <Sparkles className="h-4 w-4 text-emerald-600" />
-                    Bút toán hạch toán hàng tháng (Theo Thông tư 99/2025):
+                    Bút toán tham khảo hàng tháng (Thông tư 99/2025):
                   </div>
                   <div className="space-y-2 text-xs">
                     {selectedPreset.target === 'construction' ? (
                       <div className="p-3 rounded-xl bg-emerald-50/60 dark:bg-emerald-950/30 border border-emerald-200 dark:border-emerald-800 font-mono space-y-1">
-                        <div><strong className="text-emerald-800 dark:text-emerald-300">NỢ TK 154</strong> (1543 - Chi phí máy thi công công trình): {formatVnd(monthlyDepreciation)}</div>
+                        <div><strong className="text-emerald-800 dark:text-emerald-300">NỢ TK 6234</strong> (Chi phí khấu hao máy thi công): {formatVnd(monthlyDepreciation)}</div>
                         <div><strong className="text-blue-800 dark:text-blue-300">CÓ TK 214</strong> (2141 - Hao mòn TSCĐ hữu hình): {formatVnd(monthlyDepreciation)}</div>
                         <p className="text-[11px] text-muted-foreground italic pt-1 font-sans">
-                          * TT 99 bãi bỏ TK 6234, ghi thẳng vào chi phí dở dang TK 154 của công trình tương ứng.
+                          * Khi máy thi công phục vụ công trình, tập hợp khấu hao vào TK 6234; cuối kỳ phân bổ chi phí sử dụng máy cho công trình theo thực tế: Nợ TK 154 / Có TK 623. Căn cứ: TT 99/2025, Phụ lục II, hướng dẫn TK 623 (Công báo số 1573 + 1574, tr. 45–47). Chỉ dùng số này khi thời gian khấu hao, nguyên giá và mục đích sử dụng đã được xác nhận.
                         </p>
                       </div>
                     ) : (
@@ -770,3 +770,4 @@ export function ToolsPage() {
     </div>
   );
 }
+
