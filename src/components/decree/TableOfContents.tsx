@@ -29,7 +29,7 @@ export function TableOfContents({ content, onItemClick, activeId }: TableOfConte
 
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i].trim();
-      const normalizedLine = line.replace(/^[*_]{1,4}\\s*/, '').replace(/\\s*[*_]{1,4}$/, '').replace(/\\s{2,}/g, ' ').trim();
+      const normalizedLine = line.replace(/^[*_]{1,4}\s*/, '').replace(/\s*[*_]{1,4}$/, '').replace(/\s{2,}/g, ' ').trim();
       if (!normalizedLine) continue;
 
       // Match Chương
@@ -45,7 +45,7 @@ export function TableOfContents({ content, onItemClick, activeId }: TableOfConte
       // Match Điều
       // Article cross-references often continue as prose (e.g. "Điều 5 Nghị định...");
       // accept comma separators and common OCR debris immediately before genuine headings.
-      const dieuMatch = line.match(/^(?:#+\s*|\*\*)?(?:[.,;:|]\s*)?(?:[A-Za-z]\s+)?(Điều\s+\d+\s*[\.:,]\s*.*?)(?:\*\*|$)/i);
+      const dieuMatch = normalizedLine.match(/^(?:#+\s*|\*\*)?(?:[.,;:|]\s*)?(?:[A-Za-z]\s+)?(Điều\s+\d+\s*[\.:,]\s*.*?)(?:\*\*|$)/i);
       if (dieuMatch) {
         // Do not treat a cross-reference chain such as
         // "Điều 29, khoản 4 Điều 37, khoản 5 Điều 41..." as a heading.
