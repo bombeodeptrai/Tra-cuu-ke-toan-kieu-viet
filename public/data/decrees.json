@@ -406,7 +406,7 @@
     "effective_date": "2017-01-01",
     "status": "active",
     "source_url": "https://vbpl.vn/TW/Pages/vbpq-toanvan.aspx?ItemID=118313",
-    "summary": "Nghị định 174/2016/NĐ-CP là văn bản hướng dẫn chi tiết thi hành Luật Kế toán 2015, quy định về đơn vị tiền tệ kế toán, chữ ký điện tử, bảo quản tài liệu kế toán, kiểm tra kế toán, kiểm toán nội bộ và các điều khoản thi hành.\n\n**Nội dung trọng tâm:**\n- Quy định rõ điều kiện sử dụng chữ ký điện tử trong chứng từ kế toán\n- Chi tiết về thời hạn lưu trữ tài liệu kế toán (5 năm hoặc 10 năm tùy loại)\n- Quy định về kiểm toán nội bộ bắt buộc với doanh nghiệp nhà nước và niêm yết\n- Hướng dẫn cụ thể về việc chuyển đổi từ chứng từ giấy sang điện tử",
+    "summary": "Nghị định 174/2016/NĐ-CP quy định chi tiết một số điều của Luật Kế toán về nội dung công tác kế toán, tổ chức bộ máy và người làm kế toán.\n\n**Khi rà hồ sơ doanh nghiệp:** Điều 12–14 quy định thời hạn lưu trữ tối thiểu 5 năm, 10 năm hoặc vĩnh viễn tùy loại tài liệu; Điều 15 quy định cách xác định thời điểm tính thời hạn. Không áp một mốc lưu trữ chung cho mọi chứng từ.\n\nNghị định 174/2016/NĐ-CP không phải căn cứ chính về nghĩa vụ kiểm toán nội bộ. Nội dung này được quy định riêng tại Nghị định 05/2019/NĐ-CP; cần xác định phạm vi áp dụng theo loại hình doanh nghiệp và pháp luật chuyên ngành.",
     "pdf_url": "/data/pdfs/nd-174-2016.pdf",
     "content_url": "/data/content/nd-174-2016.md",
     "free_download_url": "https://hethongphapluat.com/nghi-dinh-174-2016-nd-cp-huong-dan-luat-ke-toan.html",
@@ -662,12 +662,64 @@
     "effective_date": "2026-01-01",
     "status": "active",
     "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59655.htm",
-    "summary": "Thông tư 99/2025/TT-BTC hướng dẫn chế độ kế toán doanh nghiệp, hiệu lực từ 01/01/2026. PDF từng gắn trước đây không đúng văn bản nên đã gỡ; hiện chưa có tệp PDF nội bộ để tải/đối chiếu. Công báo chính thức đăng văn bản trong 10 tệp PDF, mỗi tệp ghép hai số Công báo, từ 1563+1564 đến 1581+1582. Bản trích xuất nội bộ và bảng so sánh chưa được kiểm đủ cả 10 tệp và phụ lục; không dùng để định khoản cho đến khi đối chiếu hoàn tất.",
+    "summary": "Thông tư 99/2025/TT-BTC có hiệu lực từ 01/01/2026 và thay thế chế độ kế toán doanh nghiệp tại Thông tư 200/2014/TT-BTC. Đã lưu 10 tệp PDF Công báo Chính phủ (số 1563+1564 đến 1581+1582) để tải từng phần. Bản văn bản trích xuất trên website và các phụ lục vẫn đang chờ đối chiếu đủ với PDF gốc; trạng thái được giữ là “chưa xác minh toàn văn”.",
     "content_url": "/data/content/tt-99-2025.md",
     "free_download_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59655.htm",
     "tax_field": "ke-toan-dn",
     "text_status": "unverified",
-    "text_status_note": "PDF cũ đính kèm sai văn bản nên đã bị gỡ khỏi nút tải. Công báo Chính phủ liệt kê 10 tệp PDF (mỗi tệp gộp hai số Công báo) và 10 tệp DOC của TT99; toàn văn nội bộ chưa được đối chiếu đủ các tệp PDF và phụ lục. Chỉ dùng bản Công báo để tra cứu cho tới khi lưu đủ bản gốc và kiểm tra số trang, số hiệu, phụ lục, checksum."
+    "text_status_note": "Đã lưu đủ 10 PDF Công báo Chính phủ, mỗi file ghép hai số từ 1563+1564 đến 1581+1582. Có thể tải từng phần PDF gốc ngay tại trang này. Nội dung Markdown và các phụ lục chưa được đối chiếu đủ từng trang nên không coi bản trích xuất là toàn văn đã xác minh; tra cứu bản gốc và kiểm tra số hiệu, trang, phụ lục trước khi dùng làm căn cứ định khoản.",
+    "pdf_attachments": [
+      {
+        "label": "PDF Công báo 1563 + 1564",
+        "pdf_url": "/data/accounting-laws/tt-99-2025-cb-1563-1564.pdf",
+        "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59655.htm"
+      },
+      {
+        "label": "PDF Công báo 1565 + 1566",
+        "pdf_url": "/data/accounting-laws/tt-99-2025-cb-1565-1566.pdf",
+        "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59655.htm"
+      },
+      {
+        "label": "PDF Công báo 1567 + 1568",
+        "pdf_url": "/data/accounting-laws/tt-99-2025-cb-1567-1568.pdf",
+        "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59655.htm"
+      },
+      {
+        "label": "PDF Công báo 1569 + 1570",
+        "pdf_url": "/data/accounting-laws/tt-99-2025-cb-1569-1570.pdf",
+        "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59655.htm"
+      },
+      {
+        "label": "PDF Công báo 1571 + 1572",
+        "pdf_url": "/data/accounting-laws/tt-99-2025-cb-1571-1572.pdf",
+        "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59655.htm"
+      },
+      {
+        "label": "PDF Công báo 1573 + 1574",
+        "pdf_url": "/data/accounting-laws/tt-99-2025-cb-1573-1574.pdf",
+        "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59655.htm"
+      },
+      {
+        "label": "PDF Công báo 1575 + 1576",
+        "pdf_url": "/data/accounting-laws/tt-99-2025-cb-1575-1576.pdf",
+        "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59655.htm"
+      },
+      {
+        "label": "PDF Công báo 1577 + 1578",
+        "pdf_url": "/data/accounting-laws/tt-99-2025-cb-1577-1578.pdf",
+        "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59655.htm"
+      },
+      {
+        "label": "PDF Công báo 1579 + 1580",
+        "pdf_url": "/data/accounting-laws/tt-99-2025-cb-1579-1580.pdf",
+        "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59655.htm"
+      },
+      {
+        "label": "PDF Công báo 1581 + 1582",
+        "pdf_url": "/data/accounting-laws/tt-99-2025-cb-1581-1582.pdf",
+        "source_url": "https://congbao.chinhphu.vn/van-ban/thong-tu-so-99-2025-tt-btc-46529/59655.htm"
+      }
+    ]
   },
   {
     "id": "nd-125-2020",
