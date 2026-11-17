@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "lastAttemptAt": "2026-11-16T08:12:24.871Z",
-  "lastSuccessfulScanAt": "2026-11-16T08:12:24.871Z",
+  "lastAttemptAt": "2026-11-17T05:46:26.001Z",
+  "lastSuccessfulScanAt": "2026-11-17T05:46:26.001Z",
   "result": "no_changes",
-  "scanWindowStart": "2026-11-02",
+  "scanWindowStart": "2026-11-13",
   "sources": [
     {
       "sourceId": "vanban.chinhphu.vn",
-      "checkedAt": "2026-11-16T08:12:24.873Z",
+      "checkedAt": "2026-11-17T05:46:26.003Z",
       "ok": true,
       "listings": [
         {
@@ -22,15 +22,15 @@
           "key": "nghi-dinh",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=4",
           "parsed": 50,
-          "inWindow": 6,
-          "oldest": "2026-09-11",
+          "inWindow": 0,
+          "oldest": "2026-09-15",
           "coverageComplete": true
         },
         {
           "key": "quyet-dinh",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=5",
           "parsed": 50,
-          "inWindow": 3,
+          "inWindow": 0,
           "oldest": "2026-04-06",
           "coverageComplete": true
         },
@@ -38,7 +38,7 @@
           "key": "thong-tu",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=6",
           "parsed": 50,
-          "inWindow": 11,
+          "inWindow": 1,
           "oldest": "2026-10-19",
           "coverageComplete": true
         },
@@ -46,47 +46,21 @@
           "key": "nghi-quyet-cp",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=509&mode=1",
           "parsed": 50,
-          "inWindow": 6,
+          "inWindow": 0,
           "oldest": "2026-08-06",
           "coverageComplete": true
         }
       ],
-      "documentsInWindow": 26,
+      "documentsInWindow": 1,
       "error": null
     }
   ],
   "documentsAdded": [],
   "documentsPendingReview": [],
   "ignoredOutOfScope": [
-    "407/2026/NĐ-CP",
-    "403/2026/NĐ-CP",
-    "402/2026/NĐ-CP",
-    "401/2026/NĐ-CP",
-    "400/2026/NĐ-CP",
-    "52/2026/QĐ-TTg",
-    "51/2026/QĐ-TTg",
-    "50/2026/QĐ-TTg",
-    "46/2026/TT-BYT",
-    "95/2026/TT-BGDĐT",
-    "167/2026/TT-BTC",
-    "83/2026/TT-BXD",
-    "82/2026/TT-BXD",
-    "67/2026/TT-BKHCN",
-    "51/2026/TT-BNNMT",
-    "81/2026/TT-BXD",
-    "178/2026/TT-BQP",
-    "27/2026/TT-BVHTTDL",
-    "166/2026/TT-BTC",
-    "361/NQ-CP",
-    "47/2026/NQ-CP",
-    "46/2026/NQ-CP",
-    "358/NQ-CP",
-    "353/NQ-CP",
-    "351/NQ-CP"
+    "46/2026/TT-BYT"
   ],
-  "alreadyInCatalog": [
-    "399/2026/NĐ-CP"
-  ],
+  "alreadyInCatalog": [],
   "publishedCatalogCount": 92,
   "errors": []
 }
