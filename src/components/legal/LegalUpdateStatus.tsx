@@ -22,7 +22,7 @@ interface CrawlStatus {
       driveUrl?: string | null;
       driveHashVerified?: boolean;
       pageCount?: number;
-      ocrPages?: number[];
+      ocrPageCount?: number;
       lowConfidencePages?: number[];
     }>;
   }>;
@@ -98,7 +98,7 @@ export function LegalUpdateStatus() {
               {doc.reviewFiles?.map(file => (
                 <div key={`${doc.officialNumber}-file-${file.file}`} className="mt-2 flex flex-wrap gap-x-4 gap-y-1">
                   {file.pageCount && <span className="text-muted-foreground">PDF: {file.pageCount} trang</span>}
-                  {file.ocrPages?.length ? <span className="text-muted-foreground">OCR: {file.ocrPages.length} trang; confidence thấp: {file.lowConfidencePages?.join(', ') || 'không có'}</span> : null}
+                  {file.ocrPageCount ? <span className="text-muted-foreground">OCR: {file.ocrPageCount} trang; confidence thấp: {file.lowConfidencePages?.join(', ') || 'không có'}</span> : null}
                   {safeLegalUrl(file.sourcePdfUrl) && <a className="inline-flex items-center gap-1 font-medium text-primary underline underline-offset-2" href={file.sourcePdfUrl} target="_blank" rel="noopener noreferrer">PDF gốc chính thức <ExternalLink className="h-3 w-3" /></a>}
                   {file.driveHashVerified && safeLegalUrl(file.driveUrl) && <a className="inline-flex items-center gap-1 font-medium text-primary underline underline-offset-2" href={file.driveUrl!} target="_blank" rel="noopener noreferrer">PDF đã xác minh trên Drive <ExternalLink className="h-3 w-3" /></a>}
                 </div>

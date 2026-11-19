@@ -169,7 +169,7 @@ export async function runCrawler({
         saveArtifact(caseDir, `file-${index + 1}.quality.json`, quality);
         Object.assign(reviewFile, {
           pageCount: quality.pageCount,
-          ocrPages: quality.ocrPages,
+          ocrPageCount: quality.ocrPages.length,
           lowConfidencePages: quality.lowConfidencePages,
         });
         reviewFiles.push(reviewFile);
@@ -180,12 +180,8 @@ export async function runCrawler({
         if (!reviewFiles.some(file => file.file === index + 1)) reviewFiles.push(reviewFile);
       }
     }
+    if (!driveConfig?.configured) problems.push(`Chưa thể tự lưu PDF lên Drive — thiếu secret ${(driveConfig?.missing || []).join(', ')}`);
     if (problems.length) { pending(candidate, problems.join('; '), { reviewFiles }); continue; }
-
-    if (!driveConfig?.configured) {
-      pending(candidate, `Đã đạt kiểm tra PDF/toàn văn nhưng chưa thể lưu Drive — thiếu secret ${(driveConfig?.missing || []).join(', ')}`, { reviewFiles });
-      continue;
-    }
 
     const record = mergeVerifiedDocument(catalog, { metadata, idInfo, files, acquiredAt: attemptAt, today });
     run.documentsAdded.push({ id: record.id, officialNumber: record.decree_number, title: record.title, pages: files.map(f => f.quality.pageCount), driveIds: files.map(f => f.drive.driveId) });
