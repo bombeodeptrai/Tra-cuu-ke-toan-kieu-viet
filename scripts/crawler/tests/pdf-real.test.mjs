@@ -4,7 +4,42 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { crawlerDir } from './helpers.mjs';
-import { extractPdfPages, assessCompleteness, verifyPdfBuffer } from '../lib/pdf.mjs';
+import { extractPdfPages, ocrSparsePdfPages, assessCompleteness, verifyPdfBuffer } from '../lib/pdf.mjs';
+
+test('OCR bổ sung trang scan nhưng giữ trang confidence thấp ở trạng thái cần rà soát', async () => {
+  let terminated = false;
+  let destroyed = false;
+  const extraction = { pageCount: 2, pages: [{ page: 1, text: 'nội dung đã trích xuất đầy đủ và có thể sử dụng ngay' }, { page: 2, text: '' }] };
+  const result = await ocrSparsePdfPages(Buffer.from('pdf'), extraction, {
+    getDocumentImpl: () => ({ promise: Promise.resolve({ getPage: async () => ({
+      getViewport: () => ({ width: 1, height: 1 }),
+      render: () => ({ promise: Promise.resolve() }),
+      cleanup() {},
+    }) }), destroy: async () => { destroyed = true; } }),
+    createCanvasImpl: () => ({ width: 1, height: 1, getContext: () => ({}), toBuffer: () => Buffer.from('png') }),
+    createWorkerImpl: async () => ({ recognize: async () => ({ data: { text: 'OCR text', confidence: 79 } }), terminate: async () => { terminated = true; } }),
+  });
+
+  assert.equal(result.pages[1].method, 'ocr');
+  assert.equal(result.pages[1].ocrConfidence, 79);
+  assert.equal(terminated, true);
+  assert.equal(destroyed, true);
+  const quality = assessCompleteness(result);
+  assert.equal(quality.publishable, false);
+  assert.deepEqual(quality.lowConfidencePages, [2]);
+});
+
+test('Không tự công bố toàn văn OCR dù confidence cao', () => {
+  const quality = assessCompleteness({ pageCount: 1, pages: [{
+    page: 1,
+    text: 'Số: 412/2026/NĐ-CP nội dung văn bản được nhận dạng bằng OCR với confidence cao',
+    method: 'ocr',
+    ocrConfidence: 98,
+  }] }, { officialNumber: '412/2026/NĐ-CP' });
+  assert.equal(quality.publishable, false);
+  assert.deepEqual(quality.ocrPages, [1]);
+  assert.match(quality.problems.join('; '), /đối chiếu bản PDF gốc/);
+});
 
 const root = path.resolve(crawlerDir, '../..');
 let pdfjsAvailable = true;

@@ -17,7 +17,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as vanban from './lib/vanban-chinhphu.mjs';
 import { classifyRelevance, loadRelevance } from './lib/relevance.mjs';
-import { downloadOfficialPdf, extractPdfPages, assessCompleteness } from './lib/pdf.mjs';
+import { downloadOfficialPdf, extractPdfPages, ocrSparsePdfPages, assessCompleteness } from './lib/pdf.mjs';
 import { driveConfigFromEnv, mirrorPdfToDrive } from './lib/drive.mjs';
 import { generateInitialDecrees, isKnown, loadCatalog, mergeVerifiedDocument, proposeId } from './lib/catalog.mjs';
 import { readStatus, writeStatus } from './lib/status.mjs';
@@ -54,6 +54,7 @@ export async function runCrawler({
   retries = 3,
   backoffMs = 2000,
   extract = extractPdfPages,
+  ocr = ocrSparsePdfPages,
   driveConfig = driveConfigFromEnv(),
   mirror = mirrorPdfToDrive,
   log = console.log,
@@ -141,35 +142,48 @@ export async function runCrawler({
     if (idInfo.error) { pending(candidate, idInfo.error); continue; }
 
     const files = [];
-    let problem = null;
+    const problems = [];
+    const reviewFiles = [];
     for (const [index, url] of metadata.officialPdfUrls.entries()) {
+      const reviewFile = { file: index + 1, sourcePdfUrl: url, driveUrl: null, driveHashVerified: false };
       try {
         assertOfficialUrl(url);
         const original = await downloadOfficialPdf(url, { fetchImpl, retries, backoffMs });
         saveArtifact(caseDir, `file-${index + 1}.pdf`, original.buffer);
-        const extraction = await extract(original.buffer);
+        Object.assign(reviewFile, { bytes: original.bytes, sha256: original.sha256 });
+        let driveReceipt = null;
+        if (driveConfig?.configured) {
+          try {
+            driveReceipt = await mirror(original, driveConfig, { fetchImpl });
+            Object.assign(reviewFile, { driveUrl: driveReceipt.driveUrl, driveHashVerified: driveReceipt.driveHashVerified });
+          } catch (error) {
+            failedHard = true;
+            run.errors.push(`Lưu PDF lên Drive thất bại cho ${metadata.officialNumber}, tệp ${index + 1}: ${error.message}`);
+            problems.push(`Tệp ${index + 1} (${url}): lưu PDF gốc lên Drive thất bại — ${error.message}`);
+          }
+        }
+        const embeddedText = await extract(original.buffer);
+        const extraction = await ocr(original.buffer, embeddedText);
         saveArtifact(caseDir, `file-${index + 1}.pages.json`, extraction);
         const quality = assessCompleteness(extraction, { officialNumber: metadata.officialNumber, isMainDocument: index === 0 });
         saveArtifact(caseDir, `file-${index + 1}.quality.json`, quality);
-        if (!quality.publishable) { problem = `Tệp ${index + 1} (${url}): ${quality.problems.join('; ')}`; break; }
-        files.push({ ...original, url, pages: extraction.pages, quality, fileName: `${idInfo.id}-${index + 1}.pdf` });
+        Object.assign(reviewFile, {
+          pageCount: quality.pageCount,
+          ocrPages: quality.ocrPages,
+          lowConfidencePages: quality.lowConfidencePages,
+        });
+        reviewFiles.push(reviewFile);
+        if (!quality.publishable) problems.push(`Tệp ${index + 1} (${url}): ${quality.problems.join('; ')}`);
+        else files.push({ ...original, url, pages: extraction.pages, quality, fileName: `${idInfo.id}-${index + 1}.pdf`, drive: driveReceipt });
       } catch (error) {
-        problem = `Tệp ${index + 1} (${url}): ${error.message}`;
-        break;
+        problems.push(`Tệp ${index + 1} (${url}): ${error.message}`);
+        if (!reviewFiles.some(file => file.file === index + 1)) reviewFiles.push(reviewFile);
       }
     }
-    if (problem) { pending(candidate, problem); continue; }
+    if (problems.length) { pending(candidate, problems.join('; '), { reviewFiles }); continue; }
 
     if (!driveConfig?.configured) {
-      pending(candidate, `Đã đạt kiểm tra PDF/toàn văn nhưng chưa thể lưu Drive — thiếu secret ${(driveConfig?.missing || []).join(', ')}`);
-      continue;
-    }
-    try {
-      for (const file of files) file.drive = await mirror(file, driveConfig, { fetchImpl });
-    } catch (error) {
-      run.errors.push(`Lưu Drive thất bại cho ${metadata.officialNumber}: ${error.message}`);
-      pending(candidate, `Lưu Drive thất bại: ${error.message}`);
-      failedHard = true;
+      pending(candidate, `Đã đạt kiểm tra PDF/toàn văn nhưng chưa thể lưu Drive — thiếu secret ${(driveConfig?.missing || []).join(', ')}`, { reviewFiles });
       continue;
     }
 

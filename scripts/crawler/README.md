@@ -31,16 +31,24 @@ mỗi lần chạy cho đến khi nhập xong hoặc chủ dự án thêm số h
 `relevance.json`: từ khóa trích yếu (`include`), từ khóa buộc rà soát (`reviewOnly`), cơ quan ban hành theo dõi (`issuers`).
 Văn bản có trích yếu nêu số hiệu một văn bản đang có trong thư viện (sửa đổi/bãi bỏ) luôn chuyển rà soát.
 
-## Toàn văn
+## Toàn văn và PDF scan
 
-Chữ trích bằng `pdfjs-dist` theo từng trang. Trang ít hơn 30 ký tự (PDF scan) → rà soát, không tự OCR/công bố.
-Số hiệu phải xuất hiện trong 2 trang đầu; PDF ký số của Chính phủ đôi khi vẽ số hiệu dạng hình (ví dụ NĐ 399/2026),
-khi đó văn bản chuyển rà soát để người đối chiếu bản PDF.
+Crawler thử trích chữ từng trang bằng `pdfjs-dist`. Trang scan/ít hơn 30 ký tự được OCR tiếng Việt bằng Tesseract
+và lưu cùng PDF, JSON từng trang, confidence và quality report trong artifact của lần chạy GitHub Actions.
+OCR chỉ là bản nháp rà soát: **bất kỳ trang OCR nào cũng chặn tự công bố**, kể cả confidence cao; confidence thấp
+(dưới 80%) được nêu riêng để người rà soát biết trang nào cần ưu tiên. Không dùng OCR để thay bản PDF gốc.
+Số hiệu phải xuất hiện trong 2 trang đầu; PDF ký số đôi khi vẽ số hiệu dạng hình, cũng phải đối chiếu PDF gốc.
+
+Trang Thư viện hiển thị từng hồ sơ chờ, lý do, số trang OCR, trang confidence thấp và liên kết PDF/Drive đã xác minh.
+Nếu xử lý thủ công, tải artifact `legal-crawl-<run_id>` trong Actions; không copy OCR draft vào thư viện pháp luật
+cho đến khi đối chiếu đầy đủ với PDF gốc.
 
 ## Drive (bắt buộc để công bố)
 
-GitHub Secrets: `GDRIVE_SERVICE_ACCOUNT_JSON` (khóa JSON Service Account), `GDRIVE_FOLDER_ID` (thư mục trong Shared Drive,
-chia quyền Content manager cho email Service Account). Thiếu secret → `review_required`, nêu đúng tên secret.
+GitHub Secrets: `GDRIVE_SERVICE_ACCOUNT_JSON` (khóa JSON Service Account), `GDRIVE_FOLDER_ID` (ID thư mục đích; nếu dùng
+Shared Drive, chia quyền Content manager cho email Service Account). Crawler tải và xác minh PDF xong thì mirror bản gốc
+lên Drive trước khi xét toàn văn; đọc lại kích thước, MD5 và thư mục đích. Thiếu secret → `review_required`, nêu tên secret;
+PDF gốc vẫn được giữ trong artifact của lượt quét để không mất hồ sơ.
 
 ## Lệnh
 
