@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "lastAttemptAt": "2026-11-19T05:06:59.929Z",
-  "lastSuccessfulScanAt": "2026-11-19T05:06:59.929Z",
+  "lastAttemptAt": "2026-11-20T04:55:47.687Z",
+  "lastSuccessfulScanAt": "2026-11-20T04:55:47.687Z",
   "result": "review_required",
-  "scanWindowStart": "2026-11-15",
+  "scanWindowStart": "2026-11-16",
   "sources": [
     {
       "sourceId": "vanban.chinhphu.vn",
-      "checkedAt": "2026-11-19T05:06:59.933Z",
+      "checkedAt": "2026-11-20T04:55:47.689Z",
       "ok": true,
       "listings": [
         {
@@ -64,23 +64,22 @@
       "officialDetailUrl": "https://vanban.chinhphu.vn/?pageid=27160&docid=220307&classid=1&typegroupid=4",
       "sourceLocator": "docid=220307",
       "firstSeenAt": "2026-11-18T05:12:40.535Z",
-      "reason": "PDF scan 197 trang; OCR đã trích 197/197 trang và nhận diện số hiệu ở trang 1. Trang OCR 195 (72%), 196 (47%) và 197 (44%) có confidence thấp; toàn văn OCR chưa được công bố, cần đối chiếu PDF gốc. PDF gốc đã lưu Drive và SHA-256 đã xác minh khớp.",
-      "manualReviewUpdatedAt": "2026-11-19T07:17:33Z",
+      "reason": "Tệp 1 (https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/412_2026_ndcp_14112026-signed.signed.pdf): Có 197 trang dùng OCR — cần đối chiếu bản PDF gốc trước khi công bố; Trang OCR confidence dưới 80% hoặc thiếu điểm tin cậy (cần đối chiếu PDF gốc): 195, 196, 197; Chưa thể tự lưu PDF lên Drive — thiếu secret GDRIVE_SERVICE_ACCOUNT_JSON, GDRIVE_FOLDER_ID",
       "reviewFiles": [
         {
           "file": 1,
           "sourcePdfUrl": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/412_2026_ndcp_14112026-signed.signed.pdf",
+          "driveUrl": null,
+          "driveHashVerified": false,
           "bytes": 34078759,
-          "sha256": "F54E84F8F456D0848F757CDC460919865FF4A9D8165B2543A6FA919C6C8025E9",
+          "sha256": "f54e84f8f456d0848f757cdc460919865ff4a9d8165b2543a6fa919c6c8025e9",
           "pageCount": 197,
+          "ocrPageCount": 197,
           "lowConfidencePages": [
             195,
             196,
             197
-          ],
-          "driveUrl": "https://drive.google.com/file/d/1dWkUusYpyI9FWMFIpmr35wJxjqOpDyUi/view?usp=drivesdk",
-          "driveHashVerified": true,
-          "ocrPageCount": 197
+          ]
         }
       ]
     }
@@ -88,7 +87,7 @@
   "ignoredOutOfScope": [
     "413/2026/NĐ-CP",
     "19/2026/TT-BTP",
-    "46/2026/TT-BYT"
+    "17/2026/TT-BTP"
   ],
   "alreadyInCatalog": [],
   "publishedCatalogCount": 92,
