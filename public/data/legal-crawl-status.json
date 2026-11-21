@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "lastAttemptAt": "2026-11-20T04:55:47.687Z",
-  "lastSuccessfulScanAt": "2026-11-20T04:55:47.687Z",
+  "lastAttemptAt": "2026-11-21T04:51:41.485Z",
+  "lastSuccessfulScanAt": "2026-11-21T04:51:41.485Z",
   "result": "review_required",
-  "scanWindowStart": "2026-11-16",
+  "scanWindowStart": "2026-11-17",
   "sources": [
     {
       "sourceId": "vanban.chinhphu.vn",
-      "checkedAt": "2026-11-20T04:55:47.689Z",
+      "checkedAt": "2026-11-21T04:51:41.487Z",
       "ok": true,
       "listings": [
         {
@@ -22,8 +22,8 @@
           "key": "nghi-dinh",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=4",
           "parsed": 50,
-          "inWindow": 1,
-          "oldest": "2026-09-17",
+          "inWindow": 2,
+          "oldest": "2026-09-18",
           "coverageComplete": true
         },
         {
@@ -38,8 +38,8 @@
           "key": "thong-tu",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=6",
           "parsed": 50,
-          "inWindow": 2,
-          "oldest": "2026-10-20",
+          "inWindow": 1,
+          "oldest": "2026-10-22",
           "coverageComplete": true
         },
         {
@@ -85,9 +85,9 @@
     }
   ],
   "ignoredOutOfScope": [
-    "413/2026/NĐ-CP",
-    "19/2026/TT-BTP",
-    "17/2026/TT-BTP"
+    "416/2026/NĐ-CP",
+    "415/2026/NĐ-CP",
+    "71/2026/TT-BCT"
   ],
   "alreadyInCatalog": [],
   "publishedCatalogCount": 92,
