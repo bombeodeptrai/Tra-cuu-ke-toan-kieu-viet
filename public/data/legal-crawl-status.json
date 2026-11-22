@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "lastAttemptAt": "2026-11-21T04:51:41.485Z",
-  "lastSuccessfulScanAt": "2026-11-21T04:51:41.485Z",
+  "lastAttemptAt": "2026-11-22T04:08:21.263Z",
+  "lastSuccessfulScanAt": "2026-11-22T04:08:21.263Z",
   "result": "review_required",
-  "scanWindowStart": "2026-11-17",
+  "scanWindowStart": "2026-11-18",
   "sources": [
     {
       "sourceId": "vanban.chinhphu.vn",
-      "checkedAt": "2026-11-21T04:51:41.487Z",
+      "checkedAt": "2026-11-22T04:08:21.265Z",
       "ok": true,
       "listings": [
         {
