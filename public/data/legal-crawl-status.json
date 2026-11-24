@@ -1,28 +1,26 @@
 {
   "schemaVersion": 1,
-  "lastAttemptAt": "2026-11-23T04:49:57.329Z",
+  "lastAttemptAt": "2026-11-24T07:40:17.614Z",
   "lastSuccessfulScanAt": "2026-11-23T04:49:57.329Z",
-  "result": "review_required",
-  "scanWindowStart": "2026-11-19",
+  "result": "failed",
+  "scanWindowStart": "2026-11-20",
   "sources": [
     {
       "sourceId": "vanban.chinhphu.vn",
-      "checkedAt": "2026-11-23T04:49:57.331Z",
-      "ok": true,
+      "checkedAt": "2026-11-24T07:40:17.617Z",
+      "ok": false,
       "listings": [
         {
           "key": "luat",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=3",
-          "parsed": 50,
-          "inWindow": 0,
-          "oldest": "2025-12-10",
-          "coverageComplete": true
+          "parsed": 0,
+          "error": "Không thấy bảng table.search-result — cấu trúc trang đã đổi"
         },
         {
           "key": "nghi-dinh",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=4",
           "parsed": 50,
-          "inWindow": 2,
+          "inWindow": 0,
           "oldest": "2026-09-18",
           "coverageComplete": true
         },
@@ -37,59 +35,28 @@
         {
           "key": "thong-tu",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=6",
-          "parsed": 50,
-          "inWindow": 1,
-          "oldest": "2026-10-22",
-          "coverageComplete": true
+          "parsed": 0,
+          "error": "Không thấy bảng table.search-result — cấu trúc trang đã đổi"
         },
         {
           "key": "nghi-quyet-cp",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=509&mode=1",
           "parsed": 50,
-          "inWindow": 0,
-          "oldest": "2026-08-06",
+          "inWindow": 2,
+          "oldest": "2026-08-07",
           "coverageComplete": true
         }
       ],
-      "documentsInWindow": 3,
-      "error": null
+      "documentsInWindow": 2,
+      "error": "Luật - Pháp lệnh: Không thấy bảng table.search-result — cấu trúc trang đã đổi | Thông tư: Không thấy bảng table.search-result — cấu trúc trang đã đổi"
     }
   ],
   "documentsAdded": [],
-  "documentsPendingReview": [
-    {
-      "officialNumber": "412/2026/NĐ-CP",
-      "title": "Quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
-      "issuedDate": "2026-11-14",
-      "officialDetailUrl": "https://vanban.chinhphu.vn/?pageid=27160&docid=220307&classid=1&typegroupid=4",
-      "sourceLocator": "docid=220307",
-      "firstSeenAt": "2026-11-18T05:12:40.535Z",
-      "reason": "Tệp 1 (https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/412_2026_ndcp_14112026-signed.signed.pdf): Có 197 trang dùng OCR — cần đối chiếu bản PDF gốc trước khi công bố; Trang OCR confidence dưới 80% hoặc thiếu điểm tin cậy (cần đối chiếu PDF gốc): 195, 196, 197; Chưa thể tự lưu PDF lên Drive — thiếu secret GDRIVE_SERVICE_ACCOUNT_JSON, GDRIVE_FOLDER_ID",
-      "reviewFiles": [
-        {
-          "file": 1,
-          "sourcePdfUrl": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/412_2026_ndcp_14112026-signed.signed.pdf",
-          "driveUrl": null,
-          "driveHashVerified": false,
-          "bytes": 34078759,
-          "sha256": "f54e84f8f456d0848f757cdc460919865ff4a9d8165b2543a6fa919c6c8025e9",
-          "pageCount": 197,
-          "ocrPageCount": 197,
-          "lowConfidencePages": [
-            195,
-            196,
-            197
-          ]
-        }
-      ]
-    }
-  ],
-  "ignoredOutOfScope": [
-    "416/2026/NĐ-CP",
-    "415/2026/NĐ-CP",
-    "71/2026/TT-BCT"
-  ],
+  "documentsPendingReview": [],
+  "ignoredOutOfScope": [],
   "alreadyInCatalog": [],
   "publishedCatalogCount": 92,
-  "errors": []
+  "errors": [
+    "Nguồn bắt buộc vanban.chinhphu.vn lỗi: Luật - Pháp lệnh: Không thấy bảng table.search-result — cấu trúc trang đã đổi | Thông tư: Không thấy bảng table.search-result — cấu trúc trang đã đổi"
+  ]
 }
