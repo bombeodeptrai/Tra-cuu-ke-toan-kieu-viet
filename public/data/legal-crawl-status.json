@@ -1,42 +1,44 @@
 {
   "schemaVersion": 1,
-  "lastAttemptAt": "2026-11-24T07:40:17.614Z",
+  "lastAttemptAt": "2026-11-25T06:09:28.730Z",
   "lastSuccessfulScanAt": "2026-11-23T04:49:57.329Z",
   "result": "failed",
   "scanWindowStart": "2026-11-20",
   "sources": [
     {
       "sourceId": "vanban.chinhphu.vn",
-      "checkedAt": "2026-11-24T07:40:17.617Z",
+      "checkedAt": "2026-11-25T06:09:28.733Z",
       "ok": false,
       "listings": [
         {
           "key": "luat",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=3",
-          "parsed": 0,
-          "error": "Không thấy bảng table.search-result — cấu trúc trang đã đổi"
+          "parsed": 50,
+          "inWindow": 0,
+          "oldest": "2025-12-10",
+          "coverageComplete": true
         },
         {
           "key": "nghi-dinh",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=4",
           "parsed": 50,
-          "inWindow": 0,
-          "oldest": "2026-09-18",
+          "inWindow": 2,
+          "oldest": "2026-09-21",
           "coverageComplete": true
         },
         {
           "key": "quyet-dinh",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=5",
-          "parsed": 50,
-          "inWindow": 0,
-          "oldest": "2026-04-06",
-          "coverageComplete": true
+          "parsed": 0,
+          "error": "Không thấy bảng table.search-result — cấu trúc trang đã đổi"
         },
         {
           "key": "thong-tu",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=6",
-          "parsed": 0,
-          "error": "Không thấy bảng table.search-result — cấu trúc trang đã đổi"
+          "parsed": 50,
+          "inWindow": 3,
+          "oldest": "2026-10-26",
+          "coverageComplete": true
         },
         {
           "key": "nghi-quyet-cp",
@@ -47,8 +49,8 @@
           "coverageComplete": true
         }
       ],
-      "documentsInWindow": 2,
-      "error": "Luật - Pháp lệnh: Không thấy bảng table.search-result — cấu trúc trang đã đổi | Thông tư: Không thấy bảng table.search-result — cấu trúc trang đã đổi"
+      "documentsInWindow": 7,
+      "error": "Quyết định QPPL: Không thấy bảng table.search-result — cấu trúc trang đã đổi"
     }
   ],
   "documentsAdded": [],
@@ -57,6 +59,6 @@
   "alreadyInCatalog": [],
   "publishedCatalogCount": 92,
   "errors": [
-    "Nguồn bắt buộc vanban.chinhphu.vn lỗi: Luật - Pháp lệnh: Không thấy bảng table.search-result — cấu trúc trang đã đổi | Thông tư: Không thấy bảng table.search-result — cấu trúc trang đã đổi"
+    "Nguồn bắt buộc vanban.chinhphu.vn lỗi: Quyết định QPPL: Không thấy bảng table.search-result — cấu trúc trang đã đổi"
   ]
 }
