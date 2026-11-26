@@ -35,6 +35,17 @@ export function computeWindowStart(previousStatus, today, { overlapDays = 3, fir
   return isoDate(new Date(start));
 }
 
+/**
+ * Vùng nhặt lại: ngoài khoảng quét bắt buộc, mọi dòng trên trang 1 ban hành trong 21 ngày gần nhất
+ * cũng được xét lại (đã có trong thư viện / ngoài phạm vi thì bỏ qua rất nhanh). Nhờ vậy văn bản bị sót
+ * vì nguồn lỗi vài ngày hoặc rơi khỏi danh sách chờ vẫn tự được nhặt lại, không cần ai thêm tay.
+ * Vùng này không bắt buộc độ phủ — chỉ khoảng quét bắt buộc mới phải phủ đủ.
+ */
+export function computeLookbackStart(windowStart, today, { minLookbackDays = 21 } = {}) {
+  const floor = isoDate(new Date(Date.parse(`${today}T00:00:00Z`) - minLookbackDays * DAY));
+  return floor < windowStart ? floor : windowStart;
+}
+
 function saveArtifact(dir, name, value) {
   fs.mkdirSync(dir, { recursive: true });
   const file = path.join(dir, name);
@@ -66,6 +77,7 @@ export async function runCrawler({
   const relevance = loadRelevance(path.join(root, 'scripts/crawler/relevance.json'));
   const attemptAt = now();
   const windowStart = computeWindowStart(previous, today);
+  const lookbackStart = computeLookbackStart(windowStart, today);
   const run = {
     attemptAt, windowStart, sources: [], documentsAdded: [], documentsPendingReview: [], ignoredOutOfScope: [],
     alreadyInCatalog: [], errors: [], warnings: [], drivePending: [], publishedCatalogCount: catalog.decrees.length, result: 'failed',
@@ -86,7 +98,7 @@ export async function runCrawler({
   log(`Quét ${source.SOURCE_ID} từ ${windowStart} đến ${today}. Danh mục hiện có ${catalog.decrees.length} văn bản.`);
   let scan;
   try {
-    scan = await source.scan({ windowStart, fetchImpl, retries, backoffMs });
+    scan = await source.scan({ windowStart, lookbackStart, fetchImpl, retries, backoffMs });
   } catch (error) {
     scan = { sourceId: source.SOURCE_ID, checkedAt: now(), ok: false, listings: [], documents: [], error: error.message };
   }

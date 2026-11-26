@@ -4,7 +4,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fixture, fakeFetch, fakePdf, makeTempRepo } from './helpers.mjs';
-import { runCrawler, computeWindowStart } from '../legal-crawler.mjs';
+import { runCrawler, computeWindowStart, computeLookbackStart } from '../legal-crawler.mjs';
 import { verifyCrawlOutput } from '../verify-crawl-output.mjs';
 import { md5 } from '../lib/pdf.mjs';
 
@@ -56,9 +56,11 @@ function setup({ lastSuccess = '2026-11-10T00:00:00.000Z' } = {}) {
 const run = (env, opts) => runCrawler({ ...env, today: TODAY, now: () => '2026-11-10T00:00:00.000Z', retries: 1, backoffMs: 1, log: () => {}, extract: async () => goodPages, ocr: async (buffer, extraction) => extraction, driveConfig: driveOk, mirror: fakeMirror, ...opts });
 const readJson = (root, rel) => JSON.parse(fs.readFileSync(path.join(root, rel), 'utf8'));
 
-test('khoảng quét: lùi 3 ngày từ lần quét thành công gần nhất; lần đầu 14 ngày', () => {
+test('khoảng quét: lùi 3 ngày từ lần quét thành công gần nhất; lần đầu 14 ngày; vùng nhặt lại 21 ngày', () => {
   assert.equal(computeWindowStart({ lastSuccessfulScanAt: '2026-11-10T00:00:00Z' }, TODAY), '2026-11-07');
   assert.equal(computeWindowStart(null, TODAY), '2026-11-02');
+  assert.equal(computeLookbackStart('2026-11-07', TODAY), '2026-10-26');
+  assert.equal(computeLookbackStart('2026-09-28', TODAY), '2026-09-28');
 });
 
 test('updated: văn bản đạt mọi cổng được lưu website + Drive, đồng bộ initial-decrees, qua gate', async () => {
@@ -272,4 +274,40 @@ test('văn bản sửa đổi một văn bản đang có trong thư viện → l
   assert.equal(status.result, 'review_required');
   const pending = status.documentsPendingReview.find(d => d.officialNumber === '95/2026/TT-BGDĐT');
   assert.match(pending.reason, /70\/2025\/NĐ-CP/);
+});
+
+test('lần chạy lỗi (nguồn sập) không làm mất danh sách chờ; lần sau tự xử lý tiếp', async () => {
+  const env = setup();
+  const first = await run(env, { fetchImpl: fakeFetch(routes()), extract: missingPage });
+  assert.equal(first.status.result, 'review_required');
+  const down = await run(env, { now: () => '2026-11-11T00:00:00.000Z', fetchImpl: fakeFetch(routes({ failListing: true })) });
+  assert.equal(down.status.result, 'failed');
+  assert.deepEqual(down.status.documentsPendingReview.map(d => d.officialNumber), [SYNTH_NUMBER]);
+  const back = await run(env, { now: () => '2026-11-12T00:00:00.000Z', fetchImpl: fakeFetch(routes({ listing: fixture('vanban-listing-thong-tu.html') })) });
+  assert.equal(back.status.result, 'updated');
+  assert.deepEqual(back.status.documentsAdded.map(d => d.officialNumber), [SYNTH_NUMBER]);
+});
+
+test('trang danh sách tạm thời không có bảng kết quả: tự tải lại thay vì báo lỗi', async () => {
+  const env = setup();
+  const good = listingWithSynthetic();
+  const flaky = good.replace('table search-result', 'table loading');
+  let calls = 0;
+  const base = routes();
+  const fetchImpl = fakeFetch(url => {
+    if (url.includes('/he-thong-van-ban?') && url.includes('typegroupid=6')) { calls++; return { body: calls === 1 ? flaky : good }; }
+    return base(url);
+  });
+  const { status } = await run(env, { fetchImpl });
+  assert.equal(status.result, 'updated');
+  assert.ok(calls >= 2);
+});
+
+test('văn bản đã rơi khỏi khoảng quét và khỏi danh sách chờ vẫn được tự nhặt lại trong vùng 21 ngày', async () => {
+  // Mốc quét thành công gần nhất là 16/11 → khoảng quét bắt buộc từ 13/11; văn bản giả lập ban hành 10/11.
+  const env = setup({ lastSuccess: '2026-11-16T00:00:00.000Z' });
+  const { status } = await run(env, { fetchImpl: fakeFetch(routes()) });
+  assert.equal(status.scanWindowStart, '2026-11-13');
+  assert.equal(status.result, 'updated');
+  assert.deepEqual(status.documentsAdded.map(d => d.officialNumber), [SYNTH_NUMBER]);
 });

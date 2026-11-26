@@ -118,10 +118,29 @@ function decode(body) {
 }
 
 /**
+ * Trang nguồn đôi khi trả HTTP 200 nhưng không có bảng kết quả (trang chờ/chống tải, lỗi tạm).
+ * Thử tải lại vài lần trước khi kết luận cấu trúc trang đã đổi.
+ */
+async function fetchListingRows(url, { fetchImpl, retries = 3, backoffMs = 2000 } = {}) {
+  let lastError;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    const res = await fetchWithRetry(url, { fetchImpl, retries, backoffMs });
+    try {
+      return parseListing(decode(res.body));
+    } catch (error) {
+      lastError = error;
+      if (!(error instanceof ParseError) || attempt === retries) break;
+      await new Promise(resolve => setTimeout(resolve, backoffMs * (attempt + 1)));
+    }
+  }
+  throw lastError;
+}
+
+/**
  * Quét toàn bộ danh sách bắt buộc. Trả hợp đồng dữ liệu thống nhất của adapter.
  * documents chỉ chứa dòng có ngày ban hành trong khoảng quét.
  */
-export async function scan({ windowStart, fetchImpl, retries, backoffMs } = {}) {
+export async function scan({ windowStart, lookbackStart = windowStart, fetchImpl, retries, backoffMs } = {}) {
   const checkedAt = new Date().toISOString();
   const listings = [];
   const documents = [];
@@ -129,15 +148,16 @@ export async function scan({ windowStart, fetchImpl, retries, backoffMs } = {}) 
   for (const listing of LISTINGS) {
     const url = `${BASE}/he-thong-van-ban?${listing.query}`;
     try {
-      const res = await fetchWithRetry(url, { fetchImpl, retries, backoffMs });
-      const rows = parseListing(decode(res.body));
+      const rows = await fetchListingRows(url, { fetchImpl, retries, backoffMs });
       const coverage = checkCoverage(rows, windowStart);
       const inWindow = rows.filter(row => row.issuedDate >= windowStart);
       listings.push({ key: listing.key, url, parsed: rows.length, inWindow: inWindow.length, oldest: coverage.oldest, coverageComplete: coverage.complete });
       if (!coverage.complete) {
         errors.push(`${listing.label}: trang 1 chỉ lùi tới ${coverage.oldest}, chưa phủ hết từ ${windowStart} (cần quét thêm trang, không được coi là không có văn bản mới)`);
       }
-      for (const row of inWindow) documents.push({ ...row, listing: listing.key });
+      // Dòng trong khoảng quét bắt buộc + dòng trong vùng nhặt lại (best-effort, không cần độ phủ).
+      const pickup = lookbackStart < windowStart ? rows.filter(row => row.issuedDate >= lookbackStart) : inWindow;
+      for (const row of pickup) documents.push({ ...row, listing: listing.key });
     } catch (error) {
       listings.push({ key: listing.key, url, parsed: 0, error: error.message });
       errors.push(`${listing.label}: ${error.message}`);
