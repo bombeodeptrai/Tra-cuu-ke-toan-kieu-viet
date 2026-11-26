@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "lastAttemptAt": "2026-11-26T07:40:44.803Z",
-  "lastSuccessfulScanAt": "2026-11-26T07:40:44.803Z",
+  "lastAttemptAt": "2026-11-26T08:43:49.787Z",
+  "lastSuccessfulScanAt": "2026-11-26T08:43:49.787Z",
   "result": "review_required",
   "scanWindowStart": "2026-11-23",
   "sources": [
     {
       "sourceId": "vanban.chinhphu.vn",
-      "checkedAt": "2026-11-26T07:40:44.806Z",
+      "checkedAt": "2026-11-26T08:43:49.790Z",
       "ok": true,
       "listings": [
         {
@@ -30,7 +30,7 @@
           "key": "quyet-dinh",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=5",
           "parsed": 50,
-          "inWindow": 0,
+          "inWindow": 1,
           "oldest": "2026-04-06",
           "coverageComplete": true
         },
@@ -51,39 +51,39 @@
           "coverageComplete": true
         }
       ],
-      "documentsInWindow": 5,
+      "documentsInWindow": 46,
       "error": null
     }
   ],
   "documentsAdded": [
     {
-      "id": "nd-419-2026",
-      "officialNumber": "419/2026/NĐ-CP",
-      "title": "Quy định xử phạt vi phạm hành chính trong lĩnh vực khoáng sản",
+      "id": "nd-412-2026",
+      "officialNumber": "412/2026/NĐ-CP",
+      "title": "Quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
       "textStatus": "ocr-review",
       "pages": [
-        62
+        197
       ],
       "driveIds": [
         null
       ],
       "warnings": [
-        "Tệp 1: 62/62 trang lấy chữ bằng OCR (trung bình 93.6%)"
+        "Tệp 1: 197/197 trang lấy chữ bằng OCR (trung bình 92.2%); trang dưới 80%: 195, 196, 197"
       ]
     },
     {
-      "id": "nd-418-2026",
-      "officialNumber": "418/2026/NĐ-CP",
-      "title": "Sửa đổi, bổ sung một số điều của Nghị định số 143/2024/NĐ-CР ngày 01 tháng 11 năm 2024 của Chính phủ quy định về bảo hiểm tai nạn lao động theo hình thức tự nguyện đối với người lao động làm việc không theo hợp đồng lao động",
+      "id": "nq-48-2026-nq-cp",
+      "officialNumber": "48/2026/NQ-CP",
+      "title": "Tiếp tục kéo dài hỗ trợ mức đóng bảo hiểm y tế đối với người dân tộc thiểu số đang sinh sống tại địa bàn các xã khu vực II, khu vực III, thôn đặc biệt khó khăn thuộc vùng đồng bào dân tộc thiểu số và miền núi giai đoạn 2016-2020 mà các xã này không còn trong danh sách của giai đoạn 2021-2025",
       "textStatus": "ocr-review",
       "pages": [
-        13
+        4
       ],
       "driveIds": [
         null
       ],
       "warnings": [
-        "Tệp 1: 13/13 trang lấy chữ bằng OCR (trung bình 88.1%)"
+        "Tệp 1: 4/4 trang lấy chữ bằng OCR (trung bình 90.8%)"
       ]
     }
   ],
@@ -94,17 +94,58 @@
       "issuedDate": "2026-11-24",
       "officialDetailUrl": "https://vanban.chinhphu.vn/?pageid=27160&docid=220363&classid=509",
       "sourceLocator": "docid=220363",
-      "firstSeenAt": "2026-11-26T07:40:44.803Z",
+      "firstSeenAt": "2026-11-26T08:43:49.787Z",
       "reason": "Nguồn không công bố ngày có hiệu lực"
     }
   ],
   "ignoredOutOfScope": [
     "420/2026/NĐ-CP",
+    "417/2026/NĐ-CP",
+    "416/2026/NĐ-CP",
+    "415/2026/NĐ-CP",
+    "413/2026/NĐ-CP",
+    "411/2026/NĐ-CP",
+    "410/2026/NĐ-CP",
+    "409/2026/NĐ-CP",
+    "407/2026/NĐ-CP",
+    "406/2026/NĐ-CP",
+    "405/2026/NĐ-CP",
+    "404/2026/NĐ-CP",
+    "403/2026/NĐ-CP",
+    "402/2026/NĐ-CP",
+    "53/2026/QĐ-TTg",
+    "52/2026/QĐ-TTg",
     "47/2026/TT-BYT",
-    "404/NQ-CP"
+    "84/2026/TT-BXD",
+    "31/2026/TT-BNV",
+    "71/2026/TT-BCT",
+    "19/2026/TT-BTP",
+    "17/2026/TT-BTP",
+    "46/2026/TT-BYT",
+    "168/2026/TT-BTC",
+    "70/2026/TT-BKHCN",
+    "95/2026/TT-BGDĐT",
+    "167/2026/TT-BTC",
+    "83/2026/TT-BXD",
+    "82/2026/TT-BXD",
+    "68/2026/TT-BKHCN",
+    "67/2026/TT-BKHCN",
+    "51/2026/TT-BNNMT",
+    "404/NQ-CP",
+    "403/NQ-CP",
+    "402/NQ-CP",
+    "361/NQ-CP",
+    "47/2026/NQ-CP",
+    "46/2026/NQ-CP",
+    "358/NQ-CP",
+    "353/NQ-CP",
+    "351/NQ-CP"
   ],
-  "alreadyInCatalog": [],
-  "publishedCatalogCount": 94,
+  "alreadyInCatalog": [
+    "419/2026/NĐ-CP",
+    "418/2026/NĐ-CP"
+  ],
+  "publishedCatalogCount": 96,
   "drivePending": [
     {
       "id": "nd-419-2026",
@@ -115,10 +156,20 @@
       "id": "nd-418-2026",
       "officialNumber": "418/2026/NĐ-CP",
       "file": "/data/accounting-laws/nd-418-2026-1.pdf"
+    },
+    {
+      "id": "nd-412-2026",
+      "officialNumber": "412/2026/NĐ-CP",
+      "file": "/data/accounting-laws/nd-412-2026-1.pdf"
+    },
+    {
+      "id": "nq-48-2026-nq-cp",
+      "officialNumber": "48/2026/NQ-CP",
+      "file": "/data/accounting-laws/nq-48-2026-nq-cp-1.pdf"
     }
   ],
   "warnings": [
-    "2 tệp PDF đã đăng website nhưng chưa lưu Google Drive — cấu hình secret GDRIVE_SERVICE_ACCOUNT_JSON, GDRIVE_FOLDER_ID để crawler tự bù"
+    "4 tệp PDF đã đăng website nhưng chưa lưu Google Drive — cấu hình secret GDRIVE_SERVICE_ACCOUNT_JSON, GDRIVE_FOLDER_ID để crawler tự bù"
   ],
   "errors": []
 }

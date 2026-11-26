@@ -1675,5 +1675,53 @@ export const INITIAL_DECREES: Decree[] = [
         "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/418_2026_ndcp_20112026-signed.signed.pdf"
       }
     ]
+  },
+  {
+    "id": "nd-412-2026",
+    "number": "412/2026/NĐ-CP",
+    "decree_number": "412/2026/NĐ-CP",
+    "title": "Quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
+    "category": "nghi-dinh",
+    "issued_date": "2026-11-14",
+    "effective_date": "2026-11-14",
+    "status": "active",
+    "text_status": "ocr-review",
+    "text_status_note": "Tự động nhập từ vanban.chinhphu.vn. Toàn văn tạo tự động bằng OCR tiếng Việt từ PDF gốc (văn bản chính 197/197 trang; văn bản chính: 197 trang OCR, trung bình 92.2%, dưới 80% ở trang 195, 196, 197). Chưa có người đối chiếu — số liệu, điều khoản và dấu có thể sai; luôn đối chiếu PDF gốc trước khi viện dẫn. Trạng thái hiệu lực lấy theo ngày có hiệu lực tại nguồn chính thức; chưa rà soát văn bản sửa đổi/thay thế. Bản lưu Google Drive: đang chờ (chưa cấu hình secret Drive).",
+    "summary": "Trích yếu theo nguồn chính thức: Quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
+    "content_url": "/data/content/nd-412-2026.md",
+    "pdf_url": "/data/accounting-laws/nd-412-2026-1.pdf",
+    "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220307&classid=1&typegroupid=4",
+    "free_download_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220307&classid=1&typegroupid=4",
+    "pdf_attachments": [
+      {
+        "label": "412/2026/NĐ-CP — PDF gốc",
+        "pdf_url": "/data/accounting-laws/nd-412-2026-1.pdf",
+        "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/412_2026_ndcp_14112026-signed.signed.pdf"
+      }
+    ]
+  },
+  {
+    "id": "nq-48-2026-nq-cp",
+    "number": "48/2026/NQ-CP",
+    "decree_number": "48/2026/NQ-CP",
+    "title": "Tiếp tục kéo dài hỗ trợ mức đóng bảo hiểm y tế đối với người dân tộc thiểu số đang sinh sống tại địa bàn các xã khu vực II, khu vực III, thôn đặc biệt khó khăn thuộc vùng đồng bào dân tộc thiểu số và miền núi giai đoạn 2016-2020 mà các xã này không còn trong danh sách của giai đoạn 2021-2025",
+    "category": "nghi-quyet",
+    "issued_date": "2026-11-11",
+    "effective_date": "2026-11-11",
+    "status": "active",
+    "text_status": "ocr-review",
+    "text_status_note": "Tự động nhập từ vanban.chinhphu.vn. Toàn văn tạo tự động bằng OCR tiếng Việt từ PDF gốc (văn bản chính 4/4 trang; văn bản chính: 4 trang OCR, trung bình 90.8%). Chưa có người đối chiếu — số liệu, điều khoản và dấu có thể sai; luôn đối chiếu PDF gốc trước khi viện dẫn. Trạng thái hiệu lực lấy theo ngày có hiệu lực tại nguồn chính thức; chưa rà soát văn bản sửa đổi/thay thế. Bản lưu Google Drive: đang chờ (chưa cấu hình secret Drive).",
+    "summary": "Trích yếu theo nguồn chính thức: Tiếp tục kéo dài hỗ trợ mức đóng bảo hiểm y tế đối với người dân tộc thiểu số đang sinh sống tại địa bàn các xã khu vực II, khu vực III, thôn đặc biệt khó khăn thuộc vùng đồng bào dân tộc thiểu số và miền núi giai đoạn 2016-2020 mà các xã này không còn trong danh sách của giai đoạn 2021-2025",
+    "content_url": "/data/content/nq-48-2026-nq-cp.md",
+    "pdf_url": "/data/accounting-laws/nq-48-2026-nq-cp-1.pdf",
+    "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220329&classid=509",
+    "free_download_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220329&classid=509",
+    "pdf_attachments": [
+      {
+        "label": "48/2026/NQ-CP — PDF gốc",
+        "pdf_url": "/data/accounting-laws/nq-48-2026-nq-cp-1.pdf",
+        "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/48_2026_nq-cp_19112026-signed.signed.pdf"
+      }
+    ]
   }
 ];

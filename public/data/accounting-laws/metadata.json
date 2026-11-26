@@ -259,6 +259,20 @@
       "effectiveDate": "2027-01-05",
       "checkedAt": "2026-11-26T07:40:44.803Z",
       "error": ""
+    },
+    "nd-412-2026": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=220307&classid=1&typegroupid=4",
+      "issuedDate": "2026-11-14",
+      "effectiveDate": "2026-11-14",
+      "checkedAt": "2026-11-26T08:43:49.787Z",
+      "error": ""
+    },
+    "nq-48-2026-nq-cp": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=220329&classid=509",
+      "issuedDate": "2026-11-11",
+      "effectiveDate": "2026-11-11",
+      "checkedAt": "2026-11-26T08:43:49.787Z",
+      "error": ""
     }
   }
 }

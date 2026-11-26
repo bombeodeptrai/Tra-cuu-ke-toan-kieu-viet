@@ -1474,6 +1474,80 @@
         "issuer": "Chính phủ",
         "documentType": "Nghị định"
       }
+    },
+    {
+      "id": "nd-412-2026",
+      "number": "412/2026/NĐ-CP",
+      "title": "Quy định về xử phạt vi phạm hành chính trong lĩnh vực bảo vệ môi trường",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=220307&classid=1&typegroupid=4",
+      "acquiredAt": "2026-11-26T08:43:49.787Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/412_2026_ndcp_14112026-signed.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-412-2026-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-412-2026-1.json",
+          "bytes": 34078759,
+          "sha256": "f54e84f8f456d0848f757cdc460919865ff4a9d8165b2543a6fa919c6c8025e9",
+          "pages": 197,
+          "emptyPages": [],
+          "driveUrl": null,
+          "driveId": null,
+          "driveReadbackBytes": null,
+          "driveHashVerified": false,
+          "drivePending": true,
+          "lowConfidencePages": [
+            195,
+            196,
+            197
+          ],
+          "ocrPages": 197,
+          "meanOcrConfidence": 92.2
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages",
+      "ingest": {
+        "by": "legal-crawler",
+        "sourceId": "vanban.chinhphu.vn",
+        "sourceLocator": "docid=220307",
+        "issuer": "Chính phủ",
+        "documentType": "Nghị định"
+      }
+    },
+    {
+      "id": "nq-48-2026-nq-cp",
+      "number": "48/2026/NQ-CP",
+      "title": "Tiếp tục kéo dài hỗ trợ mức đóng bảo hiểm y tế đối với người dân tộc thiểu số đang sinh sống tại địa bàn các xã khu vực II, khu vực III, thôn đặc biệt khó khăn thuộc vùng đồng bào dân tộc thiểu số và miền núi giai đoạn 2016-2020 mà các xã này không còn trong danh sách của giai đoạn 2021-2025",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=220329&classid=509",
+      "acquiredAt": "2026-11-26T08:43:49.787Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/48_2026_nq-cp_19112026-signed.signed.pdf",
+          "localUrl": "/data/accounting-laws/nq-48-2026-nq-cp-1.pdf",
+          "textUrl": "/data/accounting-laws/nq-48-2026-nq-cp-1.json",
+          "bytes": 1772904,
+          "sha256": "3aa7070193422e129451abba271813af65539a77c1549d817489b0a801648b48",
+          "pages": 4,
+          "emptyPages": [],
+          "driveUrl": null,
+          "driveId": null,
+          "driveReadbackBytes": null,
+          "driveHashVerified": false,
+          "drivePending": true,
+          "lowConfidencePages": [],
+          "ocrPages": 4,
+          "meanOcrConfidence": 90.8
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages",
+      "ingest": {
+        "by": "legal-crawler",
+        "sourceId": "vanban.chinhphu.vn",
+        "sourceLocator": "docid=220329",
+        "issuer": "Chính phủ",
+        "documentType": "Nghị quyết"
+      }
     }
   ]
 }
