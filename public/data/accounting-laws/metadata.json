@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-26",
   "documents": {
     "nd-20-2025": {
       "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=212716",
@@ -244,6 +244,20 @@
       "issuedDate": "2026-08-24",
       "effectiveDate": "2026-08-24",
       "checkedAt": "2026-11-13T00:00:00.000Z",
+      "error": ""
+    },
+    "nd-419-2026": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=220359&classid=1&typegroupid=4",
+      "issuedDate": "2026-11-23",
+      "effectiveDate": "2027-01-15",
+      "checkedAt": "2026-11-26T07:40:44.803Z",
+      "error": ""
+    },
+    "nd-418-2026": {
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=220340&classid=1&typegroupid=4",
+      "issuedDate": "2026-11-20",
+      "effectiveDate": "2027-01-05",
+      "checkedAt": "2026-11-26T07:40:44.803Z",
       "error": ""
     }
   }

@@ -1627,5 +1627,53 @@ export const INITIAL_DECREES: Decree[] = [
     "related_document_ids": [
       "nq-45-2026-nq-cp"
     ]
+  },
+  {
+    "id": "nd-419-2026",
+    "number": "419/2026/NĐ-CP",
+    "decree_number": "419/2026/NĐ-CP",
+    "title": "Quy định xử phạt vi phạm hành chính trong lĩnh vực khoáng sản",
+    "category": "nghi-dinh",
+    "issued_date": "2026-11-23",
+    "effective_date": "2027-01-15",
+    "status": "upcoming",
+    "text_status": "ocr-review",
+    "text_status_note": "Tự động nhập từ vanban.chinhphu.vn. Toàn văn tạo tự động bằng OCR tiếng Việt từ PDF gốc (văn bản chính 62/62 trang; văn bản chính: 62 trang OCR, trung bình 93.6%). Chưa có người đối chiếu — số liệu, điều khoản và dấu có thể sai; luôn đối chiếu PDF gốc trước khi viện dẫn. Trạng thái hiệu lực lấy theo ngày có hiệu lực tại nguồn chính thức; chưa rà soát văn bản sửa đổi/thay thế. Bản lưu Google Drive: đang chờ (chưa cấu hình secret Drive).",
+    "summary": "Trích yếu theo nguồn chính thức: Quy định xử phạt vi phạm hành chính trong lĩnh vực khoáng sản",
+    "content_url": "/data/content/nd-419-2026.md",
+    "pdf_url": "/data/accounting-laws/nd-419-2026-1.pdf",
+    "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220359&classid=1&typegroupid=4",
+    "free_download_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220359&classid=1&typegroupid=4",
+    "pdf_attachments": [
+      {
+        "label": "419/2026/NĐ-CP — PDF gốc",
+        "pdf_url": "/data/accounting-laws/nd-419-2026-1.pdf",
+        "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/419_2026_ndcp_23112026-signed.signed.pdf"
+      }
+    ]
+  },
+  {
+    "id": "nd-418-2026",
+    "number": "418/2026/NĐ-CP",
+    "decree_number": "418/2026/NĐ-CP",
+    "title": "Sửa đổi, bổ sung một số điều của Nghị định số 143/2024/NĐ-CР ngày 01 tháng 11 năm 2024 của Chính phủ quy định về bảo hiểm tai nạn lao động theo hình thức tự nguyện đối với người lao động làm việc không theo hợp đồng lao động",
+    "category": "nghi-dinh",
+    "issued_date": "2026-11-20",
+    "effective_date": "2027-01-05",
+    "status": "upcoming",
+    "text_status": "ocr-review",
+    "text_status_note": "Tự động nhập từ vanban.chinhphu.vn. Toàn văn tạo tự động bằng OCR tiếng Việt từ PDF gốc (văn bản chính 13/13 trang; văn bản chính: 13 trang OCR, trung bình 88.1%). Chưa có người đối chiếu — số liệu, điều khoản và dấu có thể sai; luôn đối chiếu PDF gốc trước khi viện dẫn. Trạng thái hiệu lực lấy theo ngày có hiệu lực tại nguồn chính thức; chưa rà soát văn bản sửa đổi/thay thế. Bản lưu Google Drive: đang chờ (chưa cấu hình secret Drive).",
+    "summary": "Trích yếu theo nguồn chính thức: Sửa đổi, bổ sung một số điều của Nghị định số 143/2024/NĐ-CР ngày 01 tháng 11 năm 2024 của Chính phủ quy định về bảo hiểm tai nạn lao động theo hình thức tự nguyện đối với người lao động làm việc không theo hợp đồng lao động",
+    "content_url": "/data/content/nd-418-2026.md",
+    "pdf_url": "/data/accounting-laws/nd-418-2026-1.pdf",
+    "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220340&classid=1&typegroupid=4",
+    "free_download_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220340&classid=1&typegroupid=4",
+    "pdf_attachments": [
+      {
+        "label": "418/2026/NĐ-CP — PDF gốc",
+        "pdf_url": "/data/accounting-laws/nd-418-2026-1.pdf",
+        "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/418_2026_ndcp_20112026-signed.signed.pdf"
+      }
+    ]
   }
 ];

@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-13",
+  "asOf": "2026-11-26",
   "documents": [
     {
       "id": "vbhn-04-2026-lamsan",
@@ -1404,6 +1404,76 @@
       ],
       "layoutVerified": true,
       "status": "manually-transcribed"
+    },
+    {
+      "id": "nd-419-2026",
+      "number": "419/2026/NĐ-CP",
+      "title": "Quy định xử phạt vi phạm hành chính trong lĩnh vực khoáng sản",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=220359&classid=1&typegroupid=4",
+      "acquiredAt": "2026-11-26T07:40:44.803Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/419_2026_ndcp_23112026-signed.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-419-2026-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-419-2026-1.json",
+          "bytes": 24780680,
+          "sha256": "82c08d14492f0e014c7b87daa909e22d4c49cc5d3b62213922019eb297f722ca",
+          "pages": 62,
+          "emptyPages": [],
+          "driveUrl": null,
+          "driveId": null,
+          "driveReadbackBytes": null,
+          "driveHashVerified": false,
+          "drivePending": true,
+          "lowConfidencePages": [],
+          "ocrPages": 62,
+          "meanOcrConfidence": 93.6
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages",
+      "ingest": {
+        "by": "legal-crawler",
+        "sourceId": "vanban.chinhphu.vn",
+        "sourceLocator": "docid=220359",
+        "issuer": "Chính phủ",
+        "documentType": "Nghị định"
+      }
+    },
+    {
+      "id": "nd-418-2026",
+      "number": "418/2026/NĐ-CP",
+      "title": "Sửa đổi, bổ sung một số điều của Nghị định số 143/2024/NĐ-CР ngày 01 tháng 11 năm 2024 của Chính phủ quy định về bảo hiểm tai nạn lao động theo hình thức tự nguyện đối với người lao động làm việc không theo hợp đồng lao động",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=220340&classid=1&typegroupid=4",
+      "acquiredAt": "2026-11-26T07:40:44.803Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/418_2026_ndcp_20112026-signed.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-418-2026-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-418-2026-1.json",
+          "bytes": 4915096,
+          "sha256": "d4d92c676d8681d7f6e767362695d2682f560a50aaa6bb666d8a6eca0bc0bdd9",
+          "pages": 13,
+          "emptyPages": [],
+          "driveUrl": null,
+          "driveId": null,
+          "driveReadbackBytes": null,
+          "driveHashVerified": false,
+          "drivePending": true,
+          "lowConfidencePages": [],
+          "ocrPages": 13,
+          "meanOcrConfidence": 88.1
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages",
+      "ingest": {
+        "by": "legal-crawler",
+        "sourceId": "vanban.chinhphu.vn",
+        "sourceLocator": "docid=220340",
+        "issuer": "Chính phủ",
+        "documentType": "Nghị định"
+      }
     }
   ]
 }
