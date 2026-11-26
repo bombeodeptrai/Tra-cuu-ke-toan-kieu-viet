@@ -9,7 +9,9 @@ interface CrawlStatus {
   lastSuccessfulScanAt: string | null;
   result: CrawlResult;
   sources: Array<{ sourceId: string; ok: boolean }>;
-  documentsAdded: Array<{ id: string; officialNumber: string }>;
+  documentsAdded: Array<{ id: string; officialNumber: string; textStatus?: string; warnings?: string[] }>;
+  drivePending?: Array<{ id: string; officialNumber: string; file: string }>;
+  warnings?: string[];
   documentsPendingReview: Array<{
     officialNumber: string;
     title?: string;
@@ -88,6 +90,16 @@ export function LegalUpdateStatus() {
         <span>Nguồn thành công: <strong className="text-foreground">{okSources}/{status.sources.length}</strong> · Văn bản đã nhập: <strong className="text-foreground">{status.documentsAdded.length}</strong></span>
         <span>Hồ sơ cần rà soát: <strong className="text-foreground">{status.documentsPendingReview.length}</strong>{status.documentsPendingReview.length > 0 && ` (${status.documentsPendingReview.map(doc => doc.officialNumber).join(', ')})`}</span>
       </div>
+      {(status.warnings?.length ?? 0) > 0 && (
+        <ul className="mt-3 space-y-1 border-t border-border pt-3 text-amber-700 dark:text-amber-300">
+          {status.warnings!.map(warning => <li key={warning}>⚠️ {warning}</li>)}
+        </ul>
+      )}
+      {status.documentsAdded.some(doc => doc.textStatus === 'ocr-review') && (
+        <p className="mt-2 text-muted-foreground">
+          Văn bản đánh dấu "OCR" lấy chữ bằng nhận dạng ảnh, chưa có người đối chiếu — luôn đối chiếu PDF gốc trước khi viện dẫn.
+        </p>
+      )}
       {status.documentsPendingReview.length > 0 && (
         <div className="mt-3 space-y-3 border-t border-border pt-3">
           {status.documentsPendingReview.map((doc, index) => (

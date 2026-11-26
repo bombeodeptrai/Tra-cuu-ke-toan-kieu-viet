@@ -16,7 +16,8 @@ for(const d of m.documents){if(!metadata.documents[d.id])throw Error('Missing me
  for(const f of d.files){const pdf=fs.readFileSync('public'+f.localUrl);if(pdf.subarray(0,5).toString()!=='%PDF-')throw Error('Not a PDF '+f.localUrl);if(crypto.createHash('sha256').update(pdf).digest('hex')!==f.sha256)throw Error('Checksum mismatch '+f.localUrl);
  const text=JSON.parse(fs.readFileSync('public'+f.textUrl,'utf8'));if(text.pages.length!==f.pages||text.pages.some((p,i)=>p.page!==i+1||typeof p.text!=='string'))throw Error('Missing/unordered pages '+f.textUrl);
  for(const p of text.pages)if(p.text.length<30)ocrReview.push({id:d.id,file:f.localUrl,page:p.page});
- if(!f.driveUrl?.startsWith('https://drive.google.com/file/d/'))throw Error('Missing actual Drive file link '+d.id);count++;pages+=f.pages;
+ // Tệp do crawler nhập khi chưa có secret Drive được đăng website với drivePending=true; crawler tự bù Drive sau (kiểm tra chi tiết ở verify-crawl-output).
+ if(!(f.drivePending===true&&d.ingest?.by==='legal-crawler')&&!f.driveUrl?.startsWith('https://drive.google.com/file/d/'))throw Error('Missing actual Drive file link '+d.id);count++;pages+=f.pages;
  }}
 // The public NĐ 254 page used to claim 841 OCR pages (copied from TT 89's 839-page PDF plus its 2-page correction),
 // and its OCR formatting hid six article headings from the table of contents. Keep this specific high-use record guarded.

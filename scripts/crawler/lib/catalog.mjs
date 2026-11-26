@@ -49,19 +49,22 @@ export function statusFromEffectiveDate(effectiveDate, today) {
 
 /**
  * Ghi một văn bản đã qua mọi cổng kiểm tra vào website (PDF + chữ theo trang + toàn văn .md),
- * manifest/metadata kho bổ sung, danh sách Drive và decrees.json. Không ghi gì nếu thiếu dữ liệu xác minh.
+ * manifest/metadata kho bổ sung, danh sách Drive và decrees.json.
+ * file.drive = null nghĩa là chưa lưu Drive (thiếu secret): tệp được đánh dấu drivePending và
+ * crawler tự bù lên Drive ở lần chạy sau khi có secret (backfillDrive). Không bao giờ ghi link Drive giả.
  */
 export function mergeVerifiedDocument(catalog, { metadata, idInfo, files, acquiredAt, today }) {
   const { paths } = catalog;
   const id = idInfo.id;
   for (const file of files) {
-    if (!file.drive?.driveHashVerified) throw new Error(`Không ghi ${id}: tệp ${file.fileName} chưa xác nhận trên Drive`);
+    if (file.drive && !file.drive.driveHashVerified) throw new Error(`Không ghi ${id}: tệp ${file.fileName} có Drive nhưng chưa xác nhận MD5`);
     if (!file.quality?.publishable) throw new Error(`Không ghi ${id}: tệp ${file.fileName} chưa qua cổng chất lượng`);
   }
   const fileRecords = files.map((file, index) => {
     const base = `${id}-${index + 1}`;
     fs.writeFileSync(path.join(paths.lawsDir, `${base}.pdf`), file.buffer);
-    writeJson(path.join(paths.lawsDir, `${base}.json`), { pages: file.pages.map(page => ({ ...page, method: 'pdf-text' })) });
+    writeJson(path.join(paths.lawsDir, `${base}.json`), { pages: file.pages.map(page => ({ ...page, method: page.method || 'pdf-text' })) });
+    const drive = file.drive;
     return {
       url: file.url,
       localUrl: `/data/accounting-laws/${base}.pdf`,
@@ -70,16 +73,25 @@ export function mergeVerifiedDocument(catalog, { metadata, idInfo, files, acquir
       sha256: file.sha256,
       pages: file.quality.pageCount,
       emptyPages: [],
-      driveUrl: file.drive.driveUrl,
-      driveId: file.drive.driveId,
-      driveReadbackBytes: file.drive.driveReadbackBytes,
-      driveHashVerified: true,
-      lowConfidencePages: [],
-      ocrPages: 0,
+      driveUrl: drive ? drive.driveUrl : null,
+      driveId: drive ? drive.driveId : null,
+      driveReadbackBytes: drive ? drive.driveReadbackBytes : null,
+      driveHashVerified: Boolean(drive?.driveHashVerified),
+      ...(drive ? {} : { drivePending: true }),
+      lowConfidencePages: file.quality.lowConfidencePages || [],
+      ocrPages: (file.quality.ocrPages || []).length,
+      ...(file.quality.meanOcrConfidence != null ? { meanOcrConfidence: file.quality.meanOcrConfidence } : {}),
     };
   });
 
   const pageSummary = files.map((file, index) => `${index === 0 ? 'văn bản chính' : `tệp đính kèm ${index + 1}`} ${file.quality.pageCount}/${file.quality.pageCount} trang`).join('; ');
+  const usesOcr = files.some(file => file.quality.textStatus === 'ocr-review');
+  const ocrSummary = files.map((file, index) => file.quality.ocrPages?.length
+    ? `${index === 0 ? 'văn bản chính' : `tệp ${index + 1}`}: ${file.quality.ocrPages.length} trang OCR, trung bình ${file.quality.meanOcrConfidence}%${file.quality.lowConfidencePages.length ? `, dưới 80% ở trang ${file.quality.lowConfidencePages.join(', ')}` : ''}`
+    : null).filter(Boolean).join('; ');
+  const extractionNote = usesOcr
+    ? `Toàn văn tạo tự động bằng OCR tiếng Việt từ PDF gốc (${pageSummary}; ${ocrSummary}). Chưa có người đối chiếu — số liệu, điều khoản và dấu có thể sai; luôn đối chiếu PDF gốc trước khi viện dẫn.`
+    : `Trích lớp chữ từ PDF gốc (${pageSummary}); bố cục bảng/biểu chưa được người rà soát — đối chiếu PDF ký số trước khi viện dẫn.`;
   const contentLines = [
     `# ${metadata.title}`, '',
     `**Số hiệu:** ${metadata.officialNumber}`,
@@ -87,12 +99,17 @@ export function mergeVerifiedDocument(catalog, { metadata, idInfo, files, acquir
     `**Nguồn chính thức:** ${metadata.officialDetailUrl}`,
     `**Ngày ban hành:** ${metadata.issuedDate}`,
     `**Hiệu lực:** ${metadata.effectiveDate}`,
-    `**Tình trạng trích xuất:** Trích lớp chữ từ PDF gốc (${pageSummary}); bố cục bảng/biểu chưa được người rà soát — đối chiếu PDF ký số trước khi viện dẫn.`,
+    `**Tình trạng trích xuất:** ${extractionNote}`,
     '', '---', '', '## 📜 TOÀN VĂN VĂN BẢN', '',
   ];
   files.forEach((file, index) => {
     contentLines.push(`### ${index === 0 ? 'Văn bản chính' : `Tệp đính kèm ${index + 1}`} — PDF ${file.quality.pageCount} trang`, '');
-    for (const page of file.pages) contentLines.push(`### Trang ${page.page}`, '', page.text, '');
+    for (const page of file.pages) {
+      const low = page.method === 'ocr' && !(page.ocrConfidence >= 80);
+      contentLines.push(`### Trang ${page.page}`, '');
+      if (low) contentLines.push(`> ⚠️ OCR độ tin cậy thấp (${Number.isFinite(page.ocrConfidence) ? Math.round(page.ocrConfidence) : '?'}%) — đối chiếu trang ${page.page} của PDF gốc.`, '');
+      contentLines.push(page.text, '');
+    }
   });
   contentLines.push('## Tệp PDF gốc', '', ...files.map((file, index) => `- ${index === 0 ? 'Văn bản chính' : `Tệp ${index + 1}`}: ${file.url}`));
   fs.writeFileSync(path.join(paths.contentDir, `${id}.md`), `${contentLines.join('\n')}\n`, 'utf8');
@@ -111,8 +128,8 @@ export function mergeVerifiedDocument(catalog, { metadata, idInfo, files, acquir
   writeJson(paths.metadata, meta);
 
   const driveFiles = readJson(paths.driveFiles);
-  fileRecords.forEach((record, index) => {
-    driveFiles.push({ file: path.basename(record.localUrl), id: record.driveId, url: record.driveUrl, readbackBytes: files[index].drive.driveReadbackBytes });
+  fileRecords.forEach(record => {
+    if (record.driveId) driveFiles.push({ file: path.basename(record.localUrl), id: record.driveId, url: record.driveUrl, readbackBytes: record.driveReadbackBytes });
   });
   writeJson(paths.driveFiles, driveFiles);
 
@@ -125,18 +142,18 @@ export function mergeVerifiedDocument(catalog, { metadata, idInfo, files, acquir
     issued_date: metadata.issuedDate,
     effective_date: metadata.effectiveDate,
     status: statusFromEffectiveDate(metadata.effectiveDate, today),
-    text_status: 'pdf-text-available',
-    text_status_note: `Tự động nhập từ ${metadata.sourceId}: trích lớp chữ đủ ${pageSummary}. Trạng thái hiệu lực lấy theo ngày có hiệu lực tại nguồn chính thức; chưa rà soát văn bản sửa đổi/thay thế và bố cục bảng.`,
+    text_status: usesOcr ? 'ocr-review' : 'pdf-text-available',
+    text_status_note: `Tự động nhập từ ${metadata.sourceId}. ${extractionNote} Trạng thái hiệu lực lấy theo ngày có hiệu lực tại nguồn chính thức; chưa rà soát văn bản sửa đổi/thay thế.${fileRecords.some(f => f.drivePending) ? ' Bản lưu Google Drive: đang chờ (chưa cấu hình secret Drive).' : ''}`,
     summary: `Trích yếu theo nguồn chính thức: ${metadata.title}`,
     content_url: `/data/content/${id}.md`,
     pdf_url: fileRecords[0].localUrl,
-    pdf_drive_id: fileRecords[0].driveId,
+    ...(fileRecords[0].driveId ? { pdf_drive_id: fileRecords[0].driveId } : {}),
     source_url: metadata.officialDetailUrl,
     free_download_url: metadata.officialDetailUrl,
     pdf_attachments: fileRecords.map((recordFile, index) => ({
       label: index === 0 ? `${metadata.officialNumber} — PDF gốc` : `${metadata.officialNumber} — tệp đính kèm ${index + 1}`,
       pdf_url: recordFile.localUrl,
-      drive_id: recordFile.driveId,
+      ...(recordFile.driveId ? { drive_id: recordFile.driveId } : {}),
       source_url: recordFile.url,
     })),
   };
@@ -145,6 +162,38 @@ export function mergeVerifiedDocument(catalog, { metadata, idInfo, files, acquir
   catalog.ids.add(id);
   catalog.known.set(numberKey(metadata.officialNumber), id);
   return record;
+}
+
+/** Danh sách tệp do crawler nhập còn chờ lưu Drive. */
+export function listDrivePending(catalog) {
+  const out = [];
+  for (const doc of catalog.manifest.documents) {
+    if (doc.ingest?.by !== 'legal-crawler') continue;
+    doc.files.forEach((file, index) => { if (file.drivePending) out.push({ id: doc.id, number: doc.number, index, file }); });
+  }
+  return out;
+}
+
+/** Ghi biên nhận Drive (đã đọc lại MD5) cho một tệp chờ: manifest, decrees.json, accounting-drive-files.json. */
+export function applyDriveReceipt(catalog, { id, index }, receipt) {
+  if (!receipt?.driveHashVerified) throw new Error(`Biên nhận Drive cho ${id} chưa xác nhận MD5`);
+  const { paths } = catalog;
+  const doc = catalog.manifest.documents.find(d => d.id === id);
+  const file = doc.files[index];
+  Object.assign(file, { driveUrl: receipt.driveUrl, driveId: receipt.driveId, driveReadbackBytes: receipt.driveReadbackBytes, driveHashVerified: true });
+  delete file.drivePending;
+  writeJson(paths.manifest, catalog.manifest);
+  const record = catalog.decrees.find(d => d.id === id);
+  if (record) {
+    if (index === 0) record.pdf_drive_id = receipt.driveId;
+    const attachment = record.pdf_attachments?.find(a => a.pdf_url === file.localUrl);
+    if (attachment) attachment.drive_id = receipt.driveId;
+    if (!doc.files.some(f => f.drivePending) && record.text_status_note) record.text_status_note = record.text_status_note.replace(' Bản lưu Google Drive: đang chờ (chưa cấu hình secret Drive).', '');
+    writeJson(paths.decrees, catalog.decrees);
+  }
+  const driveFiles = readJson(paths.driveFiles);
+  driveFiles.push({ file: path.basename(file.localUrl), id: receipt.driveId, url: receipt.driveUrl, readbackBytes: receipt.driveReadbackBytes });
+  writeJson(paths.driveFiles, driveFiles);
 }
 
 /**

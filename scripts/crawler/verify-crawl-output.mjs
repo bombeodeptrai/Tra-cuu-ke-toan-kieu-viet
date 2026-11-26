@@ -47,11 +47,23 @@ export function verifyCrawlOutput(root) {
       if (bytes.subarray(0, 5).toString('latin1') !== '%PDF-') problems.push(`${doc.id}: ${file.localUrl} không phải PDF`);
       if (crypto.createHash('sha256').update(bytes).digest('hex') !== file.sha256) problems.push(`${doc.id}: checksum ${file.localUrl} sai`);
       if (!file.url?.startsWith('https://datafiles.chinhphu.vn/')) problems.push(`${doc.id}: URL PDF gốc ngoài nguồn chính thức`);
-      if (!file.driveId || file.driveHashVerified !== true) problems.push(`${doc.id}: ${file.localUrl} chưa xác nhận trên Drive`);
+      if (file.drivePending === true) {
+        if (file.driveId || file.driveUrl || file.driveHashVerified) problems.push(`${doc.id}: ${file.localUrl} vừa chờ Drive vừa có link Drive`);
+        if (!record.text_status_note?.includes('Google Drive: đang chờ')) problems.push(`${doc.id}: chưa ghi rõ bản Drive đang chờ`);
+      } else if (!file.driveId || file.driveHashVerified !== true || !file.driveUrl?.startsWith('https://drive.google.com/file/d/')) {
+        problems.push(`${doc.id}: ${file.localUrl} chưa xác nhận trên Drive`);
+      }
       const textPath = path.join(root, 'public', file.textUrl || '');
       if (!file.textUrl || !fs.existsSync(textPath)) { problems.push(`${doc.id}: thiếu chữ theo trang của ${file.localUrl}`); continue; }
       const pages = JSON.parse(fs.readFileSync(textPath, 'utf8')).pages || [];
       if (pages.length !== file.pages || pages.some((p, i) => p.page !== i + 1 || p.text.replace(/\s/g, '').length < 30)) problems.push(`${doc.id}: ${file.textUrl} không đủ ${file.pages} trang có chữ`);
+      const ocrPages = pages.filter(p => p.method === 'ocr');
+      if (ocrPages.length) {
+        if (record.text_status !== 'ocr-review' || !/OCR/.test(record.text_status_note || '')) problems.push(`${doc.id}: có trang OCR nhưng text_status không phải ocr-review hoặc thiếu cảnh báo OCR`);
+        if (ocrPages.some(p => typeof p.ocrConfidence !== 'number')) problems.push(`${doc.id}: trang OCR thiếu ocrConfidence`);
+        const low = ocrPages.filter(p => p.ocrConfidence < 80).map(p => p.page);
+        if (JSON.stringify(low) !== JSON.stringify(file.lowConfidencePages || [])) problems.push(`${doc.id}: lowConfidencePages trong manifest không khớp confidence từng trang`);
+      }
     }
   }
 

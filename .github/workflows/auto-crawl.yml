@@ -53,6 +53,8 @@ jobs:
           node scripts/crawler/legal-crawler.mjs --artifacts crawl-artifacts
           code=$?
           echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          # Cảnh báo không chặn (OCR cần đối chiếu, Drive đang chờ secret) hiện thành annotation vàng trên Actions.
+          node -e "const s=require('./public/data/legal-crawl-status.json');for(const w of s.warnings||[])console.log('::warning::'+w);for(const d of s.documentsAdded||[])for(const w of d.warnings||[])console.log('::warning::'+d.officialNumber+' — '+w)" || true
           exit 0
 
       - name: Upload crawl artifacts (scan log, candidates, PDFs needing review)

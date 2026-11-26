@@ -125,26 +125,44 @@ export async function ocrSparsePdfPages(buffer, extraction, {
   }
 }
 
+// Ngưỡng OCR tự động (cùng mốc 80% mà thư viện đang dùng để cảnh báo TT99/TT91 và lọc khi AI trích dẫn).
+export const OCR_LOW_CONFIDENCE = 80;
+export const OCR_MIN_MEAN_CONFIDENCE = 70;
+export const OCR_MAX_LOW_SHARE = 0.25;
+
 /**
- * Cổng chất lượng: đủ trang, không trang rỗng/ít chữ, số hiệu xuất hiện ở trang đầu.
- * Bản trích OCR luôn cần rà soát thủ công, kể cả confidence cao; confidence không chứng minh
- * rằng mọi số liệu, điều khoản và dấu tiếng Việt đã được chép chính xác.
+ * Cổng chất lượng tự động.
+ * Chặn công bố khi: thiếu/sai thứ tự trang, còn trang không có chữ sau OCR, không thấy số hiệu ở 2 trang đầu,
+ * hoặc OCR kém trên diện rộng (confidence trung bình < 70% hoặc > 25% số trang OCR dưới 80%).
+ * OCR đạt ngưỡng được công bố với text_status "ocr-review" và danh sách trang confidence thấp — giống cách
+ * thư viện đang công bố TT99/TT91 — để không phải nhập tay; PDF gốc luôn là căn cứ khi viện dẫn.
  */
-export function assessCompleteness({ pageCount, pages }, { officialNumber, isMainDocument = true } = {}) {
+export function assessCompleteness({ pageCount, pages }, { officialNumber, isMainDocument = true, numberCheckText = '' } = {}) {
   const problems = [];
+  const warnings = [];
   if (!Number.isInteger(pageCount) || pageCount <= 0) problems.push('PDF không có trang nào');
   if (pages.length !== pageCount) problems.push(`Trích được ${pages.length}/${pageCount} trang`);
   pages.forEach((page, index) => { if (page.page !== index + 1) problems.push(`Trang ${index + 1} sai thứ tự`); });
   const emptyPages = pages.filter(page => page.text.replace(/\s/g, '').length < MIN_PAGE_CHARS).map(page => page.page);
-  if (emptyPages.length) problems.push(`Trang không trích được chữ (cần OCR/rà soát): ${emptyPages.join(', ')}`);
-  const ocrPages = pages.filter(page => page.method === 'ocr').map(page => page.page);
-  if (ocrPages.length) problems.push(`Có ${ocrPages.length} trang dùng OCR — cần đối chiếu bản PDF gốc trước khi công bố`);
-  const lowConfidencePages = pages.filter(page => page.method === 'ocr' && (!Number.isFinite(page.ocrConfidence) || page.ocrConfidence < 80)).map(page => page.page);
-  if (lowConfidencePages.length) problems.push(`Trang OCR confidence dưới 80% hoặc thiếu điểm tin cậy (cần đối chiếu PDF gốc): ${lowConfidencePages.join(', ')}`);
+  if (emptyPages.length) problems.push(`Trang không có chữ kể cả sau OCR: ${emptyPages.join(', ')}`);
+  const ocr = pages.filter(page => page.method === 'ocr');
+  const ocrPages = ocr.map(page => page.page);
+  const lowConfidencePages = ocr.filter(page => !Number.isFinite(page.ocrConfidence) || page.ocrConfidence < OCR_LOW_CONFIDENCE).map(page => page.page);
+  const meanOcrConfidence = ocr.length ? Math.round(ocr.reduce((sum, page) => sum + (Number.isFinite(page.ocrConfidence) ? page.ocrConfidence : 0), 0) / ocr.length * 10) / 10 : null;
+  if (ocr.length) {
+    if (meanOcrConfidence < OCR_MIN_MEAN_CONFIDENCE) problems.push(`OCR kém: confidence trung bình ${meanOcrConfidence}% (< ${OCR_MIN_MEAN_CONFIDENCE}%)`);
+    if (lowConfidencePages.length / ocr.length > OCR_MAX_LOW_SHARE) problems.push(`OCR kém: ${lowConfidencePages.length}/${ocr.length} trang dưới ${OCR_LOW_CONFIDENCE}%`);
+    warnings.push(`${ocr.length}/${pageCount} trang lấy chữ bằng OCR (trung bình ${meanOcrConfidence}%)${lowConfidencePages.length ? `; trang dưới ${OCR_LOW_CONFIDENCE}%: ${lowConfidencePages.join(', ')}` : ''}`);
+  }
   if (isMainDocument && officialNumber) {
-    const head = pages.slice(0, 2).map(page => page.text).join('\n').replace(/\s+/g, '');
+    // numberCheckText: chữ OCR trang 1 khi PDF ký số vẽ số hiệu dạng hình (lớp chữ không có số).
+    const head = [...pages.slice(0, 2).map(page => page.text), numberCheckText].join('\n').replace(/\s+/g, '');
     const [num, year] = officialNumber.split('/');
     if (!head.includes(`${num}/${year}`)) problems.push(`Không thấy số hiệu ${officialNumber} trong 2 trang đầu của PDF`);
   }
-  return { publishable: problems.length === 0, pageCount, extractedPageCount: pages.length, emptyPages, ocrPages, lowConfidencePages, problems };
+  return {
+    publishable: problems.length === 0,
+    textStatus: ocr.length ? 'ocr-review' : 'pdf-text-available',
+    pageCount, extractedPageCount: pages.length, emptyPages, ocrPages, lowConfidencePages, meanOcrConfidence, problems, warnings,
+  };
 }

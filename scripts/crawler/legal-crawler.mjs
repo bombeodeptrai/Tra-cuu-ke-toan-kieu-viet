@@ -3,9 +3,9 @@
  * Tự quét văn bản pháp luật từ nguồn chính thức và nhập vào thư viện khi đã xác minh đủ.
  *
  * Kết quả mỗi lần chạy (ghi vào public/data/legal-crawl-status.json):
- *   updated          — có văn bản mới đã xác minh metadata, PDF gốc, toàn văn đủ trang, đã lưu website + Drive
+ *   updated          — có văn bản mới đã xác minh metadata, PDF gốc, toàn văn đủ trang (chữ PDF hoặc OCR đạt ngưỡng), đã lưu website; Drive đã lưu hoặc đang chờ secret (tự bù)
  *   no_changes       — mọi nguồn bắt buộc quét và parse thành công, phủ đủ khoảng thời gian, không có văn bản mới phù hợp
- *   review_required  — có văn bản liên quan nhưng metadata/PDF/toàn văn/phạm vi/Drive chưa đủ điều kiện công bố
+ *   review_required  — có văn bản liên quan nhưng metadata/PDF/toàn văn/phạm vi chưa đạt cổng tự động
  *   failed           — nguồn bắt buộc lỗi, tải Drive lỗi hoặc lỗi hệ thống
  * Mã thoát: 0 = updated/no_changes, 2 = review_required, 1 = failed.
  *
@@ -19,7 +19,8 @@ import * as vanban from './lib/vanban-chinhphu.mjs';
 import { classifyRelevance, loadRelevance } from './lib/relevance.mjs';
 import { downloadOfficialPdf, extractPdfPages, ocrSparsePdfPages, assessCompleteness } from './lib/pdf.mjs';
 import { driveConfigFromEnv, mirrorPdfToDrive } from './lib/drive.mjs';
-import { generateInitialDecrees, isKnown, loadCatalog, mergeVerifiedDocument, proposeId } from './lib/catalog.mjs';
+import { applyDriveReceipt, generateInitialDecrees, isKnown, listDrivePending, loadCatalog, mergeVerifiedDocument, proposeId } from './lib/catalog.mjs';
+import { md5 as md5Of, sha256 as sha256Of } from './lib/pdf.mjs';
 import { readStatus, writeStatus } from './lib/status.mjs';
 import { assertOfficialUrl } from './lib/http.mjs';
 import { numberKey } from './lib/normalize.mjs';
@@ -67,11 +68,15 @@ export async function runCrawler({
   const windowStart = computeWindowStart(previous, today);
   const run = {
     attemptAt, windowStart, sources: [], documentsAdded: [], documentsPendingReview: [], ignoredOutOfScope: [],
-    alreadyInCatalog: [], errors: [], publishedCatalogCount: catalog.decrees.length, result: 'failed',
+    alreadyInCatalog: [], errors: [], warnings: [], drivePending: [], publishedCatalogCount: catalog.decrees.length, result: 'failed',
   };
   const finish = result => {
     run.result = result;
     run.publishedCatalogCount = catalog.decrees.length;
+    run.drivePending = listDrivePending(catalog).map(item => ({ id: item.id, officialNumber: item.number, file: item.file.localUrl }));
+    if (run.drivePending.length && !driveConfig?.configured) {
+      run.warnings.push(`${run.drivePending.length} tệp PDF đã đăng website nhưng chưa lưu Google Drive — cấu hình secret ${(driveConfig?.missing || []).join(', ')} để crawler tự bù`);
+    }
     const status = writeStatus(statusFile, previous, run);
     saveArtifact(artifactsDir, 'run-summary.json', status);
     log(`\nKẾT QUẢ: ${result} | nguồn ok: ${run.sources.filter(s => s.ok).length}/${run.sources.length} | đã nhập: ${run.documentsAdded.length} | chờ rà soát: ${run.documentsPendingReview.length} | ngoài phạm vi: ${run.ignoredOutOfScope.length} | đã có: ${run.alreadyInCatalog.length}`);
@@ -112,6 +117,22 @@ export async function runCrawler({
   }
 
   let failedHard = false;
+
+  // Tự bù Drive cho các tệp đã đăng website khi trước đó chưa có secret.
+  if (driveConfig?.configured) {
+    for (const item of listDrivePending(catalog)) {
+      try {
+        const buffer = fs.readFileSync(path.join(root, 'public', item.file.localUrl));
+        if (sha256Of(buffer) !== item.file.sha256) throw new Error('checksum PDF trên website không khớp manifest');
+        const receipt = await mirror({ buffer, md5: md5Of(buffer), bytes: buffer.length, fileName: path.basename(item.file.localUrl) }, driveConfig, { fetchImpl });
+        applyDriveReceipt(catalog, item, receipt);
+        log(`  ☁️  Đã bù Drive cho ${item.number} (${item.file.localUrl})`);
+      } catch (error) {
+        failedHard = true;
+        run.errors.push(`Bù Drive thất bại cho ${item.number} (${item.file.localUrl}): ${error.message}`);
+      }
+    }
+  }
   for (const candidate of queue.values()) {
     if (isKnown(catalog, candidate.officialNumber)) { run.alreadyInCatalog.push(candidate.officialNumber); continue; }
     if (dismissed.has(numberKey(candidate.officialNumber))) { run.ignoredOutOfScope.push(candidate.officialNumber); continue; }
@@ -154,7 +175,7 @@ export async function runCrawler({
         let driveReceipt = null;
         if (driveConfig?.configured) {
           try {
-            driveReceipt = await mirror(original, driveConfig, { fetchImpl });
+            driveReceipt = await mirror({ ...original, fileName: `${idInfo.id}-${index + 1}.pdf` }, driveConfig, { fetchImpl });
             Object.assign(reviewFile, { driveUrl: driveReceipt.driveUrl, driveHashVerified: driveReceipt.driveHashVerified });
           } catch (error) {
             failedHard = true;
@@ -165,7 +186,16 @@ export async function runCrawler({
         const embeddedText = await extract(original.buffer);
         const extraction = await ocr(original.buffer, embeddedText);
         saveArtifact(caseDir, `file-${index + 1}.pages.json`, extraction);
-        const quality = assessCompleteness(extraction, { officialNumber: metadata.officialNumber, isMainDocument: index === 0 });
+        let quality = assessCompleteness(extraction, { officialNumber: metadata.officialNumber, isMainDocument: index === 0 });
+        // PDF ký số thường vẽ số hiệu dạng hình: chỉ lỗi thiếu số hiệu thì OCR riêng trang 1 để xác nhận, không bắt người làm.
+        const numberOnly = !quality.publishable && quality.problems.every(problem => problem.startsWith('Không thấy số hiệu'));
+        if (numberOnly && extraction.pages[0]?.method !== 'ocr') {
+          const head = await ocr(original.buffer, { pageCount: 1, pages: [extraction.pages[0]] }, { minChars: Number.POSITIVE_INFINITY });
+          const headText = head.pages[0]?.text || '';
+          saveArtifact(caseDir, `file-${index + 1}.page1-ocr.txt`, headText);
+          quality = assessCompleteness(extraction, { officialNumber: metadata.officialNumber, isMainDocument: index === 0, numberCheckText: headText });
+          if (quality.publishable) quality.warnings.push('Số hiệu được xác nhận bằng OCR trang 1 (lớp chữ PDF không chứa số hiệu)');
+        }
         saveArtifact(caseDir, `file-${index + 1}.quality.json`, quality);
         Object.assign(reviewFile, {
           pageCount: quality.pageCount,
@@ -180,12 +210,15 @@ export async function runCrawler({
         if (!reviewFiles.some(file => file.file === index + 1)) reviewFiles.push(reviewFile);
       }
     }
-    if (!driveConfig?.configured) problems.push(`Chưa thể tự lưu PDF lên Drive — thiếu secret ${(driveConfig?.missing || []).join(', ')}`);
     if (problems.length) { pending(candidate, problems.join('; '), { reviewFiles }); continue; }
 
     const record = mergeVerifiedDocument(catalog, { metadata, idInfo, files, acquiredAt: attemptAt, today });
-    run.documentsAdded.push({ id: record.id, officialNumber: record.decree_number, title: record.title, pages: files.map(f => f.quality.pageCount), driveIds: files.map(f => f.drive.driveId) });
-    log(`  ✅ Đã nhập ${record.decree_number} (${record.id}) — ${files.length} tệp PDF, Drive đã xác nhận`);
+    run.documentsAdded.push({
+      id: record.id, officialNumber: record.decree_number, title: record.title, textStatus: record.text_status,
+      pages: files.map(f => f.quality.pageCount), driveIds: files.map(f => f.drive?.driveId ?? null),
+      warnings: files.flatMap((f, i) => f.quality.warnings.map(w => `Tệp ${i + 1}: ${w}`)),
+    });
+    log(`  ✅ Đã nhập ${record.decree_number} (${record.id}) — ${files.length} tệp PDF, ${record.text_status}${files.some(f => !f.drive) ? ', Drive: chờ secret' : ', Drive đã xác nhận'}`);
   }
 
   generateInitialDecrees(root);

@@ -20,7 +20,7 @@ Không dùng website bên thứ ba, không dùng Puppeteer Stealth.
 |---|---|---|---|
 | `updated` | Có văn bản mới đạt mọi cổng, đã lưu website + Drive | 0 | xanh, commit + deploy |
 | `no_changes` | Mọi danh sách parse được, phủ đủ khoảng quét, không có văn bản mới thuộc phạm vi | 0 | xanh |
-| `review_required` | Có văn bản liên quan nhưng metadata/PDF/toàn văn/phạm vi/Drive chưa đạt | 2 | **đỏ**, artifact chứa PDF + log |
+| `review_required` | Có văn bản liên quan nhưng metadata/PDF/toàn văn/phạm vi chưa đạt cổng tự động | 2 | **đỏ**, artifact chứa PDF + log |
 | `failed` | Nguồn lỗi/đổi cấu trúc/không phủ đủ, tải Drive lỗi | 1 | **đỏ** |
 
 Trạng thái ghi ở `public/data/legal-crawl-status.json` (hiện trên trang Thư viện). Hồ sơ chờ rà soát được giữ và xử lý lại
@@ -31,24 +31,22 @@ mỗi lần chạy cho đến khi nhập xong hoặc chủ dự án thêm số h
 `relevance.json`: từ khóa trích yếu (`include`), từ khóa buộc rà soát (`reviewOnly`), cơ quan ban hành theo dõi (`issuers`).
 Văn bản có trích yếu nêu số hiệu một văn bản đang có trong thư viện (sửa đổi/bãi bỏ) luôn chuyển rà soát.
 
-## Toàn văn và PDF scan
+## Toàn văn và PDF scan (tự động, không làm tay)
 
-Crawler thử trích chữ từng trang bằng `pdfjs-dist`. Trang scan/ít hơn 30 ký tự được OCR tiếng Việt bằng Tesseract
-và lưu cùng PDF, JSON từng trang, confidence và quality report trong artifact của lần chạy GitHub Actions.
-OCR chỉ là bản nháp rà soát: **bất kỳ trang OCR nào cũng chặn tự công bố**, kể cả confidence cao; confidence thấp
-(dưới 80%) được nêu riêng để người rà soát biết trang nào cần ưu tiên. Không dùng OCR để thay bản PDF gốc.
-Số hiệu phải xuất hiện trong 2 trang đầu; PDF ký số đôi khi vẽ số hiệu dạng hình, cũng phải đối chiếu PDF gốc.
+1. Trích lớp chữ từng trang bằng `pdfjs-dist`.
+2. Trang ít hơn 30 ký tự (scan) → OCR tiếng Việt bằng Tesseract ngay trên GitHub Actions.
+3. Cổng tự động — **chặn** khi: thiếu/sai thứ tự trang; còn trang không có chữ sau OCR; không xác nhận được số hiệu;
+   OCR kém trên diện rộng (trung bình < 70% hoặc > 25% số trang OCR dưới 80%).
+4. **Đạt** thì tự nhập: `text_status = "ocr-review"`, ghi chú nêu số trang OCR, confidence trung bình và từng trang dưới 80%
+   (trong toàn văn có dòng ⚠️ ở đầu các trang đó) — cùng cách thư viện đang công bố TT99/TT91. PDF gốc luôn là căn cứ.
+5. PDF ký số vẽ số hiệu dạng hình (ví dụ NĐ 399/2026): crawler tự OCR riêng trang 1 để xác nhận số hiệu.
 
-Trang Thư viện hiển thị từng hồ sơ chờ, lý do, số trang OCR, trang confidence thấp và liên kết PDF/Drive đã xác minh.
-Nếu xử lý thủ công, tải artifact `legal-crawl-<run_id>` trong Actions; không copy OCR draft vào thư viện pháp luật
-cho đến khi đối chiếu đầy đủ với PDF gốc.
+## Google Drive (không chặn website, tự bù)
 
-## Drive (bắt buộc để công bố)
-
-GitHub Secrets: `GDRIVE_SERVICE_ACCOUNT_JSON` (khóa JSON Service Account), `GDRIVE_FOLDER_ID` (ID thư mục đích; nếu dùng
-Shared Drive, chia quyền Content manager cho email Service Account). Crawler tải và xác minh PDF xong thì mirror bản gốc
-lên Drive trước khi xét toàn văn; đọc lại kích thước, MD5 và thư mục đích. Thiếu secret → `review_required`, nêu tên secret;
-PDF gốc vẫn được giữ trong artifact của lượt quét để không mất hồ sơ.
+GitHub Secrets: `GDRIVE_SERVICE_ACCOUNT_JSON`, `GDRIVE_FOLDER_ID` (thư mục trong Shared Drive, chia quyền Content manager
+cho email Service Account). Có secret: PDF gốc được tải lên và đọc lại kích thước + MD5 trước khi ghi link.
+Chưa có secret: văn bản vẫn đăng website, tệp đánh dấu `drivePending`, trạng thái và Actions hiện cảnh báo;
+mỗi lần chạy sau khi có secret, crawler tự tải bù và ghi link Drive. Không bao giờ ghi link Drive giả.
 
 ## Lệnh
 

@@ -23,6 +23,8 @@ export function writeStatus(file, previous, run) {
     ignoredOutOfScope: run.ignoredOutOfScope,
     alreadyInCatalog: run.alreadyInCatalog,
     publishedCatalogCount: run.publishedCatalogCount,
+    drivePending: run.drivePending || [],
+    warnings: run.warnings || [],
     errors: run.errors,
   };
   fs.writeFileSync(file, `${JSON.stringify(status, null, 2)}\n`, 'utf8');

@@ -43,6 +43,7 @@ function routes({ listing = listingWithSynthetic(), detail = detailSynthetic(), 
 }
 
 const driveOk = { configured: true, folderId: 'folder-test' };
+const missingPage = async () => ({ pageCount: 3, pages: goodPages.pages }); // thiếu 1 trang → chờ rà soát
 const fakeMirror = async file => ({ driveId: `drive-${file.fileName}`, driveUrl: `https://drive.google.com/file/d/drive-${file.fileName}/view?usp=drivesdk`, driveReadbackBytes: file.buffer.length, driveHashVerified: md5(file.buffer) === file.md5 });
 
 function setup({ lastSuccess = '2026-11-10T00:00:00.000Z' } = {}) {
@@ -52,7 +53,7 @@ function setup({ lastSuccess = '2026-11-10T00:00:00.000Z' } = {}) {
   }
   return { root, artifactsDir: path.join(root, 'crawl-artifacts') };
 }
-const run = (env, opts) => runCrawler({ ...env, today: TODAY, now: () => '2026-11-10T00:00:00.000Z', retries: 1, backoffMs: 1, log: () => {}, extract: async () => goodPages, driveConfig: driveOk, mirror: fakeMirror, ...opts });
+const run = (env, opts) => runCrawler({ ...env, today: TODAY, now: () => '2026-11-10T00:00:00.000Z', retries: 1, backoffMs: 1, log: () => {}, extract: async () => goodPages, ocr: async (buffer, extraction) => extraction, driveConfig: driveOk, mirror: fakeMirror, ...opts });
 const readJson = (root, rel) => JSON.parse(fs.readFileSync(path.join(root, rel), 'utf8'));
 
 test('khoảng quét: lùi 3 ngày từ lần quét thành công gần nhất; lần đầu 14 ngày', () => {
@@ -130,15 +131,71 @@ test('failed: trang 1 không phủ hết khoảng quét (quá lâu chưa quét t
   assert.match(status.errors.join(), /chưa phủ hết/);
 });
 
-test('review_required: thiếu secret Drive → không công bố, nêu đúng tên secret, mã thoát 2', async () => {
+test('thiếu secret Drive: vẫn đăng website (drivePending, cảnh báo), lần sau có secret thì tự bù Drive', async () => {
   const env = setup();
-  const { status, exitCode } = await run(env, { fetchImpl: fakeFetch(routes()), driveConfig: { configured: false, missing: ['GDRIVE_SERVICE_ACCOUNT_JSON', 'GDRIVE_FOLDER_ID'] } });
-  assert.equal(status.result, 'review_required');
-  assert.equal(exitCode, 2);
-  assert.match(status.documentsPendingReview[0].reason, /GDRIVE_SERVICE_ACCOUNT_JSON, GDRIVE_FOLDER_ID/);
-  assert.equal(readJson(env.root, 'public/data/decrees.json').length, 2);
-  assert.ok(fs.existsSync(path.join(env.artifactsDir, 'candidates', '170_2026_TT_BTC', 'file-1.pdf')));
+  const noDrive = { configured: false, missing: ['GDRIVE_SERVICE_ACCOUNT_JSON', 'GDRIVE_FOLDER_ID'] };
+  const first = await run(env, { fetchImpl: fakeFetch(routes()), driveConfig: noDrive });
+  assert.equal(first.status.result, 'updated');
+  assert.equal(first.exitCode, 0);
+  assert.equal(first.status.drivePending.length, 1);
+  assert.match(first.status.warnings.join(), /GDRIVE_SERVICE_ACCOUNT_JSON, GDRIVE_FOLDER_ID/);
+  let decree = readJson(env.root, 'public/data/decrees.json').find(d => d.decree_number === SYNTH_NUMBER);
+  assert.equal(decree.pdf_drive_id, undefined);
+  assert.match(decree.text_status_note, /Google Drive: đang chờ/);
+  let file = readJson(env.root, 'public/data/accounting-laws/manifest.json').documents.at(-1).files[0];
+  assert.equal(file.drivePending, true);
+  assert.equal(file.driveUrl, null);
+  assert.deepEqual(readJson(env.root, 'scripts/accounting-drive-files.json'), []);
   assert.deepEqual(verifyCrawlOutput(env.root), []);
+
+  const second = await run(env, { now: () => '2026-11-11T00:00:00.000Z', fetchImpl: fakeFetch(routes()) });
+  assert.equal(second.status.result, 'no_changes');
+  assert.deepEqual(second.status.drivePending, []);
+  assert.deepEqual(second.status.warnings, []);
+  decree = readJson(env.root, 'public/data/decrees.json').find(d => d.decree_number === SYNTH_NUMBER);
+  assert.equal(decree.pdf_drive_id, 'drive-tt-170-2026-tt-btc-1.pdf');
+  assert.doesNotMatch(decree.text_status_note, /đang chờ/);
+  file = readJson(env.root, 'public/data/accounting-laws/manifest.json').documents.at(-1).files[0];
+  assert.equal(file.drivePending, undefined);
+  assert.equal(file.driveHashVerified, true);
+  assert.equal(readJson(env.root, 'scripts/accounting-drive-files.json').length, 1);
+  assert.deepEqual(verifyCrawlOutput(env.root), []);
+});
+
+test('PDF scan: OCR đạt ngưỡng → tự nhập với ocr-review, đánh dấu trang confidence thấp', async () => {
+  const env = setup();
+  // 5 trang scan; trang 5 OCR 71% (dưới 80% nhưng chỉ 1/5 trang → vẫn đạt ngưỡng tự công bố)
+  const scanned = { pageCount: 5, pages: [1, 2, 3, 4, 5].map(page => ({ page, text: '' })) };
+  const fakeOcr = async () => ({ pageCount: 5, pages: [1, 2, 3, 4, 5].map(page => ({
+    page, method: 'ocr', ocrConfidence: page === 5 ? 71 : 93,
+    text: page === 1 ? goodPages.pages[0].text : `Điều ${page}. Nội dung điều khoản nhận dạng bằng OCR tiếng Việt.`,
+  })) });
+  const { status, exitCode } = await run(env, { fetchImpl: fakeFetch(routes()), extract: async () => scanned, ocr: fakeOcr });
+  assert.equal(status.result, 'updated');
+  assert.equal(exitCode, 0);
+  const decree = readJson(env.root, 'public/data/decrees.json').find(d => d.decree_number === SYNTH_NUMBER);
+  assert.equal(decree.text_status, 'ocr-review');
+  assert.match(decree.text_status_note, /OCR tiếng Việt/);
+  const md = fs.readFileSync(path.join(env.root, 'public', decree.content_url), 'utf8');
+  assert.match(md, /OCR độ tin cậy thấp \(71%\)/);
+  const pages = readJson(env.root, 'public/data/accounting-laws/tt-170-2026-tt-btc-1.json').pages;
+  assert.deepEqual(pages.map(p => p.ocrConfidence), [93, 93, 93, 93, 71]);
+  assert.ok(pages.every(p => p.method === 'ocr'));
+  assert.deepEqual(readJson(env.root, 'public/data/accounting-laws/manifest.json').documents.at(-1).files[0].lowConfidencePages, [5]);
+  assert.deepEqual(verifyCrawlOutput(env.root), []);
+});
+
+test('Số hiệu vẽ dạng hình trên PDF ký số: tự OCR trang 1 để xác nhận rồi nhập', async () => {
+  const env = setup();
+  const noNumber = { pageCount: 2, pages: [{ page: 1, text: goodPages.pages[0].text.replace(SYNTH_NUMBER, '/2026/TT-BTC') }, goodPages.pages[1]] };
+  const fakeOcr = async (buffer, extraction, opts = {}) => (opts.minChars === Number.POSITIVE_INFINITY
+    ? { pageCount: 1, pages: [{ page: 1, text: `Số: ${SYNTH_NUMBER}`, method: 'ocr', ocrConfidence: 90 }] }
+    : extraction);
+  const { status } = await run(env, { fetchImpl: fakeFetch(routes()), extract: async () => noNumber, ocr: fakeOcr });
+  assert.equal(status.result, 'updated');
+  assert.match(status.documentsAdded[0].warnings.join(), /xác nhận bằng OCR trang 1/);
+  const decree = readJson(env.root, 'public/data/decrees.json').find(d => d.decree_number === SYNTH_NUMBER);
+  assert.equal(decree.text_status, 'pdf-text-available');
 });
 
 test('failed: tải Drive lỗi → không ghi danh mục', async () => {
@@ -180,11 +237,11 @@ test('gate: phát hiện bản ghi giữ chỗ, ngày tự gán, trùng số hi�
 
 test('hồ sơ chờ rà soát không bị rơi khi ra khỏi khoảng quét; được xử lý lại khi đã đủ điều kiện', async () => {
   const env = setup();
-  const first = await run(env, { fetchImpl: fakeFetch(routes()), driveConfig: { configured: false, missing: ['GDRIVE_FOLDER_ID'] } });
+  const first = await run(env, { fetchImpl: fakeFetch(routes()), extract: missingPage });
   assert.equal(first.status.result, 'review_required');
   // Lần sau: danh sách chỉ còn văn bản ngoài phạm vi (văn bản giả lập đã trôi khỏi trang 1).
   const laterListing = fixture('vanban-listing-thong-tu.html');
-  const later = await run(env, { now: () => '2026-11-12T00:00:00.000Z', fetchImpl: fakeFetch(routes({ listing: laterListing })), driveConfig: { configured: false, missing: ['GDRIVE_FOLDER_ID'] } });
+  const later = await run(env, { now: () => '2026-11-12T00:00:00.000Z', fetchImpl: fakeFetch(routes({ listing: laterListing })), extract: missingPage });
   assert.equal(later.status.result, 'review_required');
   assert.equal(later.status.documentsPendingReview[0].officialNumber, SYNTH_NUMBER);
   assert.equal(later.status.documentsPendingReview[0].firstSeenAt, '2026-11-10T00:00:00.000Z');
@@ -196,12 +253,12 @@ test('hồ sơ chờ rà soát không bị rơi khi ra khỏi khoảng quét; đ
 
 test('chủ dự án loại một số hiệu (dismissedNumbers) thì không giữ ở danh sách chờ', async () => {
   const env = setup();
-  await run(env, { fetchImpl: fakeFetch(routes()), driveConfig: { configured: false, missing: ['GDRIVE_FOLDER_ID'] } });
+  await run(env, { fetchImpl: fakeFetch(routes()), extract: missingPage });
   const relevancePath = path.join(env.root, 'scripts/crawler/relevance.json');
   const config = JSON.parse(fs.readFileSync(relevancePath, 'utf8'));
   config.dismissedNumbers = [SYNTH_NUMBER];
   fs.writeFileSync(relevancePath, JSON.stringify(config));
-  const { status } = await run(env, { fetchImpl: fakeFetch(routes()), driveConfig: { configured: false, missing: ['GDRIVE_FOLDER_ID'] } });
+  const { status } = await run(env, { fetchImpl: fakeFetch(routes()), extract: missingPage });
   assert.equal(status.result, 'no_changes');
   assert.ok(status.ignoredOutOfScope.includes(SYNTH_NUMBER));
   assert.equal(status.documentsPendingReview.length, 0);

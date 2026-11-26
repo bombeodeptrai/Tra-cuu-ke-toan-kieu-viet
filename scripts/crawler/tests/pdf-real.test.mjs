@@ -29,16 +29,29 @@ test('OCR bổ sung trang scan nhưng giữ trang confidence thấp ở trạng 
   assert.deepEqual(quality.lowConfidencePages, [2]);
 });
 
-test('Không tự công bố toàn văn OCR dù confidence cao', () => {
-  const quality = assessCompleteness({ pageCount: 1, pages: [{
-    page: 1,
-    text: 'Số: 412/2026/NĐ-CP nội dung văn bản được nhận dạng bằng OCR với confidence cao',
-    method: 'ocr',
-    ocrConfidence: 98,
-  }] }, { officialNumber: '412/2026/NĐ-CP' });
+test('OCR đạt ngưỡng: được công bố với ocr-review, nêu trang confidence thấp', () => {
+  const pages = Array.from({ length: 10 }, (_, i) => ({
+    page: i + 1, method: 'ocr', ocrConfidence: i === 9 ? 62 : 91,
+    text: (i === 0 ? 'CHÍNH PHỦ Số: 412/2026/NĐ-CP NGHỊ ĐỊNH ' : '') + 'nội dung điều khoản được nhận dạng bằng OCR '.repeat(2),
+  }));
+  const quality = assessCompleteness({ pageCount: 10, pages }, { officialNumber: '412/2026/NĐ-CP' });
+  assert.equal(quality.publishable, true);
+  assert.equal(quality.textStatus, 'ocr-review');
+  assert.deepEqual(quality.lowConfidencePages, [10]);
+  assert.match(quality.warnings.join(), /10\/10 trang lấy chữ bằng OCR/);
+});
+
+test('OCR kém trên diện rộng thì không tự công bố', () => {
+  const pages = Array.from({ length: 4 }, (_, i) => ({ page: i + 1, method: 'ocr', ocrConfidence: i < 2 ? 55 : 90, text: 'Số: 412/2026/NĐ-CP chữ OCR '.repeat(3) }));
+  const quality = assessCompleteness({ pageCount: 4, pages }, { officialNumber: '412/2026/NĐ-CP' });
   assert.equal(quality.publishable, false);
-  assert.deepEqual(quality.ocrPages, [1]);
-  assert.match(quality.problems.join('; '), /đối chiếu bản PDF gốc/);
+  assert.match(quality.problems.join(), /2\/4 trang dưới 80%/);
+});
+
+test('Số hiệu vẽ dạng hình: chấp nhận khi OCR trang 1 thấy số hiệu', () => {
+  const pages = [{ page: 1, text: 'CHÍNH PHỦ Số: /2026/NĐ-CP NGHỊ ĐỊNH quy định mức lương tối thiểu' }];
+  assert.equal(assessCompleteness({ pageCount: 1, pages }, { officialNumber: '399/2026/NĐ-CP' }).publishable, false);
+  assert.equal(assessCompleteness({ pageCount: 1, pages }, { officialNumber: '399/2026/NĐ-CP', numberCheckText: 'Số: 399/2026/NĐ-CP' }).publishable, true);
 });
 
 const root = path.resolve(crawlerDir, '../..');
