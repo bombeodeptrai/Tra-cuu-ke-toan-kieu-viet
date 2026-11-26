@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "lastAttemptAt": "2026-11-25T06:09:28.730Z",
-  "lastSuccessfulScanAt": "2026-11-23T04:49:57.329Z",
-  "result": "failed",
+  "lastAttemptAt": "2026-11-26T06:01:14.013Z",
+  "lastSuccessfulScanAt": "2026-11-26T06:01:14.013Z",
+  "result": "review_required",
   "scanWindowStart": "2026-11-20",
   "sources": [
     {
       "sourceId": "vanban.chinhphu.vn",
-      "checkedAt": "2026-11-25T06:09:28.733Z",
-      "ok": false,
+      "checkedAt": "2026-11-26T06:01:14.016Z",
+      "ok": true,
       "listings": [
         {
           "key": "luat",
@@ -22,15 +22,17 @@
           "key": "nghi-dinh",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=4",
           "parsed": 50,
-          "inWindow": 2,
-          "oldest": "2026-09-21",
+          "inWindow": 4,
+          "oldest": "2026-09-25",
           "coverageComplete": true
         },
         {
           "key": "quyet-dinh",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=5",
-          "parsed": 0,
-          "error": "Không thấy bảng table.search-result — cấu trúc trang đã đổi"
+          "parsed": 50,
+          "inWindow": 0,
+          "oldest": "2026-04-06",
+          "coverageComplete": true
         },
         {
           "key": "thong-tu",
@@ -44,21 +46,82 @@
           "key": "nghi-quyet-cp",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=509&mode=1",
           "parsed": 50,
-          "inWindow": 2,
-          "oldest": "2026-08-07",
+          "inWindow": 4,
+          "oldest": "2026-08-13",
           "coverageComplete": true
         }
       ],
-      "documentsInWindow": 7,
-      "error": "Quyết định QPPL: Không thấy bảng table.search-result — cấu trúc trang đã đổi"
+      "documentsInWindow": 11,
+      "error": null
     }
   ],
   "documentsAdded": [],
-  "documentsPendingReview": [],
-  "ignoredOutOfScope": [],
+  "documentsPendingReview": [
+    {
+      "officialNumber": "419/2026/NĐ-CP",
+      "title": "Quy định xử phạt vi phạm hành chính trong lĩnh vực khoáng sản",
+      "issuedDate": "2026-11-23",
+      "officialDetailUrl": "https://vanban.chinhphu.vn/?pageid=27160&docid=220359&classid=1&typegroupid=4",
+      "sourceLocator": "docid=220359",
+      "firstSeenAt": "2026-11-26T06:01:14.013Z",
+      "reason": "Tệp 1 (https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/419_2026_ndcp_23112026-signed.signed.pdf): Có 62 trang dùng OCR — cần đối chiếu bản PDF gốc trước khi công bố; Chưa thể tự lưu PDF lên Drive — thiếu secret GDRIVE_SERVICE_ACCOUNT_JSON, GDRIVE_FOLDER_ID",
+      "reviewFiles": [
+        {
+          "file": 1,
+          "sourcePdfUrl": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/419_2026_ndcp_23112026-signed.signed.pdf",
+          "driveUrl": null,
+          "driveHashVerified": false,
+          "bytes": 24780680,
+          "sha256": "82c08d14492f0e014c7b87daa909e22d4c49cc5d3b62213922019eb297f722ca",
+          "pageCount": 62,
+          "ocrPageCount": 62,
+          "lowConfidencePages": []
+        }
+      ]
+    },
+    {
+      "officialNumber": "418/2026/NĐ-CP",
+      "title": "Sửa đổi, bổ sung một số điều của Nghị định số 143/2024/NĐ-CР ngày 01 tháng 11 năm 2024 của Chính phủ quy định về bảo hiểm tai nạn lao động theo hình thức tự nguyện đối với người lao động làm việc không theo hợp đồng lao động",
+      "issuedDate": "2026-11-20",
+      "officialDetailUrl": "https://vanban.chinhphu.vn/?pageid=27160&docid=220340&classid=1&typegroupid=4",
+      "sourceLocator": "docid=220340",
+      "firstSeenAt": "2026-11-26T06:01:14.013Z",
+      "reason": "Tệp 1 (https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/418_2026_ndcp_20112026-signed.signed.pdf): Có 13 trang dùng OCR — cần đối chiếu bản PDF gốc trước khi công bố; Chưa thể tự lưu PDF lên Drive — thiếu secret GDRIVE_SERVICE_ACCOUNT_JSON, GDRIVE_FOLDER_ID",
+      "reviewFiles": [
+        {
+          "file": 1,
+          "sourcePdfUrl": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/418_2026_ndcp_20112026-signed.signed.pdf",
+          "driveUrl": null,
+          "driveHashVerified": false,
+          "bytes": 4915096,
+          "sha256": "d4d92c676d8681d7f6e767362695d2682f560a50aaa6bb666d8a6eca0bc0bdd9",
+          "pageCount": 13,
+          "ocrPageCount": 13,
+          "lowConfidencePages": []
+        }
+      ]
+    },
+    {
+      "officialNumber": "406/NQ-CP",
+      "title": "Triển khai Nghị quyết số 38/2026/QH16 ngày 24 tháng 8 năm 2026 của Quốc hội về chủ trương đầu tư Dự án đầu tư xây dựng đường Vành đai 5 - Vùng Thủ đô Hà Nội",
+      "issuedDate": "2026-11-24",
+      "officialDetailUrl": "https://vanban.chinhphu.vn/?pageid=27160&docid=220363&classid=509",
+      "sourceLocator": "docid=220363",
+      "firstSeenAt": "2026-11-26T06:01:14.013Z",
+      "reason": "Nguồn không công bố ngày có hiệu lực"
+    }
+  ],
+  "ignoredOutOfScope": [
+    "420/2026/NĐ-CP",
+    "417/2026/NĐ-CP",
+    "47/2026/TT-BYT",
+    "84/2026/TT-BXD",
+    "31/2026/TT-BNV",
+    "404/NQ-CP",
+    "403/NQ-CP",
+    "402/NQ-CP"
+  ],
   "alreadyInCatalog": [],
   "publishedCatalogCount": 92,
-  "errors": [
-    "Nguồn bắt buộc vanban.chinhphu.vn lỗi: Quyết định QPPL: Không thấy bảng table.search-result — cấu trúc trang đã đổi"
-  ]
+  "errors": []
 }
