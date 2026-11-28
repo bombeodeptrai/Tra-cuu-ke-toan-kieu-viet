@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "lastAttemptAt": "2026-11-27T05:55:10.500Z",
-  "lastSuccessfulScanAt": "2026-11-27T05:55:10.500Z",
+  "lastAttemptAt": "2026-11-28T05:35:03.208Z",
+  "lastSuccessfulScanAt": "2026-11-28T05:35:03.208Z",
   "result": "review_required",
-  "scanWindowStart": "2026-11-23",
+  "scanWindowStart": "2026-11-24",
   "sources": [
     {
       "sourceId": "vanban.chinhphu.vn",
-      "checkedAt": "2026-11-27T05:55:10.503Z",
+      "checkedAt": "2026-11-28T05:35:03.211Z",
       "ok": true,
       "listings": [
         {
@@ -22,7 +22,7 @@
           "key": "nghi-dinh",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=4",
           "parsed": 50,
-          "inWindow": 2,
+          "inWindow": 1,
           "oldest": "2026-09-25",
           "coverageComplete": true
         },
@@ -30,7 +30,7 @@
           "key": "quyet-dinh",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=5",
           "parsed": 50,
-          "inWindow": 1,
+          "inWindow": 0,
           "oldest": "2026-04-06",
           "coverageComplete": true
         },
@@ -38,24 +38,40 @@
           "key": "thong-tu",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=1&mode=1&typegroupid=6",
           "parsed": 50,
-          "inWindow": 5,
-          "oldest": "2026-10-28",
+          "inWindow": 11,
+          "oldest": "2026-10-30",
           "coverageComplete": true
         },
         {
           "key": "nghi-quyet-cp",
           "url": "https://vanban.chinhphu.vn/he-thong-van-ban?classid=509&mode=1",
           "parsed": 50,
-          "inWindow": 2,
+          "inWindow": 1,
           "oldest": "2026-08-13",
           "coverageComplete": true
         }
       ],
-      "documentsInWindow": 51,
+      "documentsInWindow": 56,
       "error": null
     }
   ],
-  "documentsAdded": [],
+  "documentsAdded": [
+    {
+      "id": "nd-421-2026",
+      "officialNumber": "421/2026/NĐ-CP",
+      "title": "Thay thế Phụ lục II ban hành kèm theo Nghị định số 181/2025/NĐ-CP ngày 01 tháng 7 năm 2025 của Chính phủ quy định chi tiết thi hành một số điều của Luật Thuế giá trị gia tăng được sửa đổi, bổ sung bởi Nghị định số 359/2025/NĐ-CP và Nghị định số 144/2026/NĐ-CP",
+      "textStatus": "ocr-review",
+      "pages": [
+        9
+      ],
+      "driveIds": [
+        null
+      ],
+      "warnings": [
+        "Tệp 1: 9/9 trang lấy chữ bằng OCR (trung bình 83%); trang dưới 80%: 6"
+      ]
+    }
+  ],
   "documentsPendingReview": [
     {
       "officialNumber": "406/NQ-CP",
@@ -63,7 +79,7 @@
       "issuedDate": "2026-11-24",
       "officialDetailUrl": "https://vanban.chinhphu.vn/?pageid=27160&docid=220363&classid=509",
       "sourceLocator": "docid=220363",
-      "firstSeenAt": "2026-11-27T05:55:10.500Z",
+      "firstSeenAt": "2026-11-28T05:35:03.208Z",
       "reason": "Nguồn không công bố ngày có hiệu lực"
     }
   ],
@@ -81,9 +97,16 @@
     "405/2026/NĐ-CP",
     "404/2026/NĐ-CP",
     "403/2026/NĐ-CP",
-    "402/2026/NĐ-CP",
     "53/2026/QĐ-TTg",
     "52/2026/QĐ-TTg",
+    "62/2026/TT-BNNMT",
+    "61/2026/TT-BNNMT",
+    "60/2026/TT-BNNMT",
+    "59/2026/TT-BNNMT",
+    "58/2026/TT-BNNMT",
+    "57/2026/TT-BNNMT",
+    "32/2026/TT-BNV",
+    "74/2026/TT-BCT",
     "56/2026/TT-BNNMT",
     "55/2026/TT-BNNMT",
     "48/2026/TT-BYT",
@@ -91,6 +114,8 @@
     "47/2026/TT-BYT",
     "84/2026/TT-BXD",
     "31/2026/TT-BNV",
+    "73/2026/TT-BCT",
+    "72/2026/TT-BCT",
     "71/2026/TT-BCT",
     "19/2026/TT-BTP",
     "18/2026/TT-BTP",
@@ -102,18 +127,13 @@
     "167/2026/TT-BTC",
     "83/2026/TT-BXD",
     "82/2026/TT-BXD",
-    "68/2026/TT-BKHCN",
-    "67/2026/TT-BKHCN",
-    "51/2026/TT-BNNMT",
     "404/NQ-CP",
     "403/NQ-CP",
     "402/NQ-CP",
     "361/NQ-CP",
     "47/2026/NQ-CP",
     "46/2026/NQ-CP",
-    "358/NQ-CP",
-    "353/NQ-CP",
-    "351/NQ-CP"
+    "358/NQ-CP"
   ],
   "alreadyInCatalog": [
     "419/2026/NĐ-CP",
@@ -121,7 +141,7 @@
     "412/2026/NĐ-CP",
     "48/2026/NQ-CP"
   ],
-  "publishedCatalogCount": 96,
+  "publishedCatalogCount": 97,
   "drivePending": [
     {
       "id": "nd-419-2026",
@@ -142,10 +162,15 @@
       "id": "nq-48-2026-nq-cp",
       "officialNumber": "48/2026/NQ-CP",
       "file": "/data/accounting-laws/nq-48-2026-nq-cp-1.pdf"
+    },
+    {
+      "id": "nd-421-2026",
+      "officialNumber": "421/2026/NĐ-CP",
+      "file": "/data/accounting-laws/nd-421-2026-1.pdf"
     }
   ],
   "warnings": [
-    "4 tệp PDF đã đăng website nhưng chưa lưu Google Drive — cấu hình secret GDRIVE_SERVICE_ACCOUNT_JSON, GDRIVE_FOLDER_ID để crawler tự bù"
+    "5 tệp PDF đã đăng website nhưng chưa lưu Google Drive — cấu hình secret GDRIVE_SERVICE_ACCOUNT_JSON, GDRIVE_FOLDER_ID để crawler tự bù"
   ],
   "errors": []
 }

@@ -1723,5 +1723,29 @@ export const INITIAL_DECREES: Decree[] = [
         "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/48_2026_nq-cp_19112026-signed.signed.pdf"
       }
     ]
+  },
+  {
+    "id": "nd-421-2026",
+    "number": "421/2026/NĐ-CP",
+    "decree_number": "421/2026/NĐ-CP",
+    "title": "Thay thế Phụ lục II ban hành kèm theo Nghị định số 181/2025/NĐ-CP ngày 01 tháng 7 năm 2025 của Chính phủ quy định chi tiết thi hành một số điều của Luật Thuế giá trị gia tăng được sửa đổi, bổ sung bởi Nghị định số 359/2025/NĐ-CP và Nghị định số 144/2026/NĐ-CP",
+    "category": "nghi-dinh",
+    "issued_date": "2026-11-26",
+    "effective_date": "2026-11-26",
+    "status": "active",
+    "text_status": "ocr-review",
+    "text_status_note": "Tự động nhập từ vanban.chinhphu.vn. Toàn văn tạo tự động bằng OCR tiếng Việt từ PDF gốc (văn bản chính 9/9 trang; văn bản chính: 9 trang OCR, trung bình 83%, dưới 80% ở trang 6). Chưa có người đối chiếu — số liệu, điều khoản và dấu có thể sai; luôn đối chiếu PDF gốc trước khi viện dẫn. Trạng thái hiệu lực lấy theo ngày có hiệu lực tại nguồn chính thức; chưa rà soát văn bản sửa đổi/thay thế. Bản lưu Google Drive: đang chờ (chưa cấu hình secret Drive).",
+    "summary": "Trích yếu theo nguồn chính thức: Thay thế Phụ lục II ban hành kèm theo Nghị định số 181/2025/NĐ-CP ngày 01 tháng 7 năm 2025 của Chính phủ quy định chi tiết thi hành một số điều của Luật Thuế giá trị gia tăng được sửa đổi, bổ sung bởi Nghị định số 359/2025/NĐ-CP và Nghị định số 144/2026/NĐ-CP",
+    "content_url": "/data/content/nd-421-2026.md",
+    "pdf_url": "/data/accounting-laws/nd-421-2026-1.pdf",
+    "source_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220382&classid=1&typegroupid=4",
+    "free_download_url": "https://vanban.chinhphu.vn/?pageid=27160&docid=220382&classid=1&typegroupid=4",
+    "pdf_attachments": [
+      {
+        "label": "421/2026/NĐ-CP — PDF gốc",
+        "pdf_url": "/data/accounting-laws/nd-421-2026-1.pdf",
+        "source_url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/421_2026_ndcp_26112026-signed.signed.pdf"
+      }
+    ]
   }
 ];

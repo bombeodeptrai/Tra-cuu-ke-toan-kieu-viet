@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-11-26",
+  "asOf": "2026-11-28",
   "documents": [
     {
       "id": "vbhn-04-2026-lamsan",
@@ -1547,6 +1547,43 @@
         "sourceLocator": "docid=220329",
         "issuer": "Chính phủ",
         "documentType": "Nghị quyết"
+      }
+    },
+    {
+      "id": "nd-421-2026",
+      "number": "421/2026/NĐ-CP",
+      "title": "Thay thế Phụ lục II ban hành kèm theo Nghị định số 181/2025/NĐ-CP ngày 01 tháng 7 năm 2025 của Chính phủ quy định chi tiết thi hành một số điều của Luật Thuế giá trị gia tăng được sửa đổi, bổ sung bởi Nghị định số 359/2025/NĐ-CP và Nghị định số 144/2026/NĐ-CP",
+      "source": "https://vanban.chinhphu.vn/?pageid=27160&docid=220382&classid=1&typegroupid=4",
+      "acquiredAt": "2026-11-28T05:35:03.208Z",
+      "files": [
+        {
+          "url": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2026/11/421_2026_ndcp_26112026-signed.signed.pdf",
+          "localUrl": "/data/accounting-laws/nd-421-2026-1.pdf",
+          "textUrl": "/data/accounting-laws/nd-421-2026-1.json",
+          "bytes": 4137345,
+          "sha256": "bfd956244beaf5a321a7dbb99a6256b8ee1ff77f09b7eb3827ab504791afa07d",
+          "pages": 9,
+          "emptyPages": [],
+          "driveUrl": null,
+          "driveId": null,
+          "driveReadbackBytes": null,
+          "driveHashVerified": false,
+          "drivePending": true,
+          "lowConfidencePages": [
+            6
+          ],
+          "ocrPages": 9,
+          "meanOcrConfidence": 83
+        }
+      ],
+      "layoutVerified": false,
+      "status": "extracted-all-pages",
+      "ingest": {
+        "by": "legal-crawler",
+        "sourceId": "vanban.chinhphu.vn",
+        "sourceLocator": "docid=220382",
+        "issuer": "Chính phủ",
+        "documentType": "Nghị định"
       }
     }
   ]
